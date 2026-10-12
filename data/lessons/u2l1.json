@@ -1,0 +1,204 @@
+{
+ "id": "u2l1",
+ "unit_id": "u2",
+ "title_he": "המשפחה",
+ "exercises": [
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"אמא\"?",
+   "answer": "mother",
+   "options": [
+    {
+     "en": "mother",
+     "emoji": "👩"
+    },
+    {
+     "en": "father",
+     "emoji": "👨"
+    },
+    {
+     "en": "baby",
+     "emoji": "👶"
+    }
+   ],
+   "id": "u2l1e1"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"אבא\"?",
+   "answer": "father",
+   "options": [
+    {
+     "en": "father",
+     "emoji": "👨"
+    },
+    {
+     "en": "sister",
+     "emoji": "👧"
+    },
+    {
+     "en": "brother",
+     "emoji": "👦"
+    }
+   ],
+   "id": "u2l1e2"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "mother",
+     "אמא"
+    ],
+    [
+     "father",
+     "אבא"
+    ],
+    [
+     "brother",
+     "אח"
+    ],
+    [
+     "sister",
+     "אחות"
+    ],
+    [
+     "baby",
+     "תינוק"
+    ]
+   ],
+   "id": "u2l1e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "זאת אמא שלי.",
+   "answer": "This is my mother.",
+   "alternatives": [
+    "This is my mom."
+   ],
+   "bank": [
+    "This",
+    "is",
+    "my",
+    "mother",
+    "father",
+    "your",
+    "is"
+   ],
+   "id": "u2l1e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "זה אבא שלי.",
+   "answer": "This is my father.",
+   "alternatives": [
+    "This is my dad."
+   ],
+   "bank": [
+    "This",
+    "is",
+    "my",
+    "father",
+    "mother",
+    "the"
+   ],
+   "id": "u2l1e5"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "This is ___ brother.",
+   "options": [
+    "my",
+    "I",
+    "am"
+   ],
+   "answer": "my",
+   "hint_he": "זה אח שלי.",
+   "explain_he": "באנגלית \"שלי\" בא לפני המילה: my brother.",
+   "id": "u2l1e6"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "This is my sister.",
+   "answer": "זאת אחות שלי",
+   "alternatives": [
+    "זו אחות שלי",
+    "זאת אחותי",
+    "זו אחותי"
+   ],
+   "bank": [
+    "זאת",
+    "אחות",
+    "שלי",
+    "אח",
+    "זה"
+   ],
+   "id": "u2l1e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"אח\"?",
+   "answer": "brother",
+   "options": [
+    {
+     "en": "brother",
+     "emoji": "👦"
+    },
+    {
+     "en": "sister",
+     "emoji": "👧"
+    },
+    {
+     "en": "baby",
+     "emoji": "👶"
+    }
+   ],
+   "id": "u2l1e8"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "This is my family.",
+   "answer": "This is my family.",
+   "alternatives": [],
+   "id": "u2l1e9"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "התינוק קטן.",
+   "answer": "The baby is small.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "baby",
+    "is",
+    "small",
+    "big",
+    "a"
+   ],
+   "id": "u2l1e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "My father is big.",
+   "answer": "אבא שלי גדול",
+   "alternatives": [
+    "אבי גדול"
+   ],
+   "bank": [
+    "אבא",
+    "שלי",
+    "גדול",
+    "אמא",
+    "קטן"
+   ],
+   "id": "u2l1e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "My mother and my father.",
+   "answer": "My mother and my father.",
+   "alternatives": [],
+   "id": "u2l1e12"
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "id": "u2l5",
+ "unit_id": "u2",
+ "title_he": "מה אני אוהב",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "like",
+     "אוהב"
+    ],
+    [
+     "want",
+     "רוצה"
+    ],
+    [
+     "play",
+     "משחק"
+    ],
+    [
+     "read",
+     "קורא"
+    ],
+    [
+     "book",
+     "ספר"
+    ]
+   ],
+   "id": "u2l5e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני אוהב כלבים.",
+   "answer": "I like dogs.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "like",
+    "dogs",
+    "want",
+    "dog",
+    "has"
+   ],
+   "id": "u2l5e2"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני רוצה מים.",
+   "answer": "I want water.",
+   "alternatives": [
+    "I want some water."
+   ],
+   "bank": [
+    "I",
+    "want",
+    "water",
+    "like",
+    "milk",
+    "a"
+   ],
+   "id": "u2l5e3"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "She ___ books.",
+   "options": [
+    "likes",
+    "like",
+    "is"
+   ],
+   "answer": "likes",
+   "hint_he": "היא אוהבת ספרים.",
+   "explain_he": "עם he, she, it מוסיפים s לפועל: like ← likes.",
+   "id": "u2l5e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אנחנו משחקים בפארק.",
+   "answer": "We play in the park.",
+   "alternatives": [],
+   "bank": [
+    "We",
+    "play",
+    "in",
+    "the",
+    "park",
+    "plays",
+    "at",
+    "home"
+   ],
+   "id": "u2l5e5"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"ספר\"?",
+   "answer": "book",
+   "options": [
+    {
+     "en": "book",
+     "emoji": "📖"
+    },
+    {
+     "en": "ball",
+     "emoji": "⚽"
+    },
+    {
+     "en": "apple",
+     "emoji": "🍎"
+    }
+   ],
+   "id": "u2l5e6"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "He ___ in the park.",
+   "options": [
+    "plays",
+    "play",
+    "am"
+   ],
+   "answer": "plays",
+   "hint_he": "הוא משחק בפארק.",
+   "id": "u2l5e7"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "I read a book.",
+   "answer": "אני קורא ספר",
+   "alternatives": [
+    "אני קוראת ספר"
+   ],
+   "bank": [
+    "אני",
+    "קורא",
+    "ספר",
+    "רוצה",
+    "כלב"
+   ],
+   "id": "u2l5e8"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הוא רוצה כדור.",
+   "answer": "He wants a ball.",
+   "alternatives": [],
+   "bank": [
+    "He",
+    "wants",
+    "a",
+    "ball",
+    "want",
+    "book"
+   ],
+   "id": "u2l5e9"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I like to read.",
+   "answer": "I like to read.",
+   "alternatives": [],
+   "id": "u2l5e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "My sister likes cats.",
+   "answer": "אחות שלי אוהבת חתולים",
+   "alternatives": [
+    "אחותי אוהבת חתולים"
+   ],
+   "bank": [
+    "אחות",
+    "שלי",
+    "אוהבת",
+    "חתולים",
+    "אוהב",
+    "כלבים"
+   ],
+   "id": "u2l5e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Do you like apples?",
+   "answer": "Do you like apples?",
+   "alternatives": [],
+   "id": "u2l5e12"
+  }
+ ]
+}

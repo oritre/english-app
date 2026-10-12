@@ -1,0 +1,210 @@
+{
+ "id": "u1l5",
+ "unit_id": "u1",
+ "title_he": "צבעים וגדלים",
+ "exercises": [
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"אדום\"?",
+   "answer": "red",
+   "options": [
+    {
+     "en": "red",
+     "emoji": "🟥"
+    },
+    {
+     "en": "blue",
+     "emoji": "🟦"
+    },
+    {
+     "en": "green",
+     "emoji": "🟩"
+    },
+    {
+     "en": "yellow",
+     "emoji": "🟨"
+    }
+   ],
+   "id": "u1l5e1"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"כחול\"?",
+   "answer": "blue",
+   "options": [
+    {
+     "en": "green",
+     "emoji": "🟩"
+    },
+    {
+     "en": "blue",
+     "emoji": "🟦"
+    },
+    {
+     "en": "red",
+     "emoji": "🟥"
+    }
+   ],
+   "id": "u1l5e2"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "red",
+     "אדום"
+    ],
+    [
+     "blue",
+     "כחול"
+    ],
+    [
+     "green",
+     "ירוק"
+    ],
+    [
+     "big",
+     "גדול"
+    ],
+    [
+     "small",
+     "קטן"
+    ]
+   ],
+   "id": "u1l5e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הכלב גדול.",
+   "answer": "The dog is big.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "dog",
+    "is",
+    "big",
+    "small",
+    "a",
+    "am"
+   ],
+   "id": "u1l5e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "The cat ___ small.",
+   "options": [
+    "is",
+    "am",
+    "are"
+   ],
+   "answer": "is",
+   "hint_he": "החתול קטן.",
+   "explain_he": "עם he, she, it או שם עצם אחד משתמשים ב־is.",
+   "id": "u1l5e5"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "התפוח אדום.",
+   "answer": "The apple is red.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "apple",
+    "is",
+    "red",
+    "blue",
+    "an"
+   ],
+   "id": "u1l5e6"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "The bird is blue.",
+   "answer": "הציפור כחולה",
+   "alternatives": [
+    "הציפור היא כחולה"
+   ],
+   "bank": [
+    "הציפור",
+    "כחולה",
+    "כחול",
+    "גדול"
+   ],
+   "id": "u1l5e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"צהוב\"?",
+   "answer": "yellow",
+   "options": [
+    {
+     "en": "yellow",
+     "emoji": "🟨"
+    },
+    {
+     "en": "red",
+     "emoji": "🟥"
+    },
+    {
+     "en": "green",
+     "emoji": "🟩"
+    }
+   ],
+   "id": "u1l5e8"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "זה כלב קטן.",
+   "answer": "This is a small dog.",
+   "alternatives": [
+    "It is a small dog."
+   ],
+   "bank": [
+    "This",
+    "is",
+    "a",
+    "small",
+    "dog",
+    "big",
+    "is",
+    "the"
+   ],
+   "id": "u1l5e9"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "This is a ___ apple.",
+   "options": [
+    "green",
+    "dog",
+    "is"
+   ],
+   "answer": "green",
+   "hint_he": "זה תפוח ירוק.",
+   "explain_he": "באנגלית התואר בא לפני שם העצם: a green apple.",
+   "id": "u1l5e10"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "The fish is small.",
+   "answer": "The fish is small.",
+   "alternatives": [],
+   "id": "u1l5e11"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "The cat is big.",
+   "answer": "החתול גדול",
+   "alternatives": [
+    "החתול הוא גדול"
+   ],
+   "bank": [
+    "החתול",
+    "גדול",
+    "קטן",
+    "כלב"
+   ],
+   "id": "u1l5e12"
+  }
+ ]
+}

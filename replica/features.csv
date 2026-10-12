@@ -1,0 +1,38 @@
+feature,area,priority,original,clone,notes
+Onboarding: goal choice (daily minutes) and level choice,onboarding,must,yes,no,
+Placement test for non-beginners,onboarding,must,yes,no,reuse reading-practice-app placement logic
+Local profile without account (single user),onboarding,must,partial,no,original requires account; personal app stays local
+Learning path: units made of ordered lessons,path,must,yes,no,core loop
+Lesson unlocks after previous lesson completed,path,must,yes,no,
+Lesson session of 10-15 mixed exercises,lesson,must,yes,no,
+Exercise: translate Hebrew to English with word bank,exercises,must,yes,no,RTL source / LTR answer
+Exercise: translate English to Hebrew with word bank,exercises,must,yes,no,
+Exercise: pick the correct picture or word (multiple choice),exercises,must,yes,no,emoji instead of licensed images
+Exercise: match pairs (English-Hebrew),exercises,must,yes,no,
+Exercise: fill the blank in a sentence,exercises,must,yes,no,
+Exercise: listen and type (browser TTS),exercises,must,yes,no,Web Speech API speechSynthesis en-US
+Instant check with correct/incorrect feedback and the right answer,lesson,must,yes,no,
+Typo tolerance and accepted alternative answers,lesson,must,yes,no,
+Mistakes repeated at the end of the lesson,lesson,must,yes,no,
+XP per lesson,gamification,must,yes,no,
+Daily streak with daily goal,gamification,must,yes,no,
+Lesson complete screen (XP accuracy time),lesson,must,yes,no,
+Works offline (PWA),platform,must,partial,no,
+Hearts / lives lost on mistakes,gamification,should,yes,no,make optional - users complain about it
+Exercise: speak the sentence (speech recognition),exercises,should,yes,no,SpeechRecognition; Chrome/Android only
+Practice / review mode from weak words (spaced repetition),review,should,yes,no,
+Word list with mastery strength,review,should,yes,no,reuse vocabulary.js
+Tap a word for Hebrew hint,lesson,should,yes,no,reuse glossary popover
+Streak freeze,gamification,should,yes,no,
+Daily reminder notification,notifications,should,yes,no,PWA notification; limited on iOS
+Stats screen (XP per day chart),profile,should,yes,no,
+Short stories with comprehension questions,content,should,yes,no,reuse reading-practice-app stories
+Backup / sync across devices,platform,should,partial,no,reuse Firebase sync
+Achievements / badges,gamification,could,yes,no,
+Unit checkpoint / jump-ahead test,path,could,yes,no,
+Mascot animations and sounds,ui,could,yes,no,own mascot - never Duo
+Leagues and leaderboards,social,skip,yes,skip,needs other users - single user app
+Friends follow and quests with friends,social,skip,yes,skip,network effect cannot be cloned
+Duolingo course content and sentences,content,skip,yes,skip,owned content - we generate our own with Claude
+Subscription / ads / gems shop,monetization,skip,yes,skip,personal app
+Duo owl character and brand,brand,skip,yes,skip,trademark

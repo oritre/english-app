@@ -1,0 +1,172 @@
+{
+ "id": "u1l2",
+ "unit_id": "u1",
+ "title_he": "נעים להכיר",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "I",
+     "אני"
+    ],
+    [
+     "you",
+     "אתה / את"
+    ],
+    [
+     "my",
+     "שלי"
+    ],
+    [
+     "name",
+     "שם"
+    ],
+    [
+     "nice",
+     "נעים"
+    ]
+   ],
+   "id": "u1l2e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני דנה.",
+   "answer": "I am Dana.",
+   "alternatives": [
+    "I'm Dana."
+   ],
+   "bank": [
+    "I",
+    "am",
+    "Dana",
+    "you",
+    "is",
+    "my"
+   ],
+   "id": "u1l2e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I ___ Dana.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "am",
+   "hint_he": "אני דנה.",
+   "explain_he": "עם I תמיד משתמשים ב־am.",
+   "id": "u1l2e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "השם שלי הוא דני.",
+   "answer": "My name is Danny.",
+   "alternatives": [
+    "My name's Danny."
+   ],
+   "bank": [
+    "My",
+    "name",
+    "is",
+    "Danny",
+    "I",
+    "am",
+    "your"
+   ],
+   "id": "u1l2e4"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך אומרים \"שלי\"?",
+   "answer": "my",
+   "options": [
+    {
+     "en": "my"
+    },
+    {
+     "en": "I"
+    },
+    {
+     "en": "you"
+    }
+   ],
+   "id": "u1l2e5"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "You ___ Tom.",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "answer": "are",
+   "hint_he": "אתה תום.",
+   "explain_he": "עם you משתמשים ב־are.",
+   "id": "u1l2e6"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "I am Noa.",
+   "answer": "אני נועה",
+   "alternatives": [],
+   "bank": [
+    "אני",
+    "נועה",
+    "את",
+    "שלי"
+   ],
+   "id": "u1l2e7"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "My name is Dana.",
+   "answer": "My name is Dana.",
+   "alternatives": [],
+   "id": "u1l2e8"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "נעים להכיר!",
+   "answer": "Nice to meet you!",
+   "alternatives": [],
+   "bank": [
+    "Nice",
+    "to",
+    "meet",
+    "you",
+    "name",
+    "my"
+   ],
+   "id": "u1l2e9"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Hello, my name is Ori.",
+   "answer": "שלום, השם שלי הוא אורי",
+   "alternatives": [
+    "שלום, שמי אורי",
+    "שלום השם שלי אורי"
+   ],
+   "bank": [
+    "שלום",
+    "השם",
+    "שלי",
+    "הוא",
+    "אורי",
+    "אני",
+    "את"
+   ],
+   "id": "u1l2e10"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Nice to meet you.",
+   "answer": "Nice to meet you.",
+   "alternatives": [],
+   "id": "u1l2e11"
+  }
+ ]
+}

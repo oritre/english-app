@@ -1,0 +1,203 @@
+{
+ "id": "u1l4",
+ "unit_id": "u1",
+ "title_he": "אוכל ושתייה",
+ "exercises": [
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"תפוח\"?",
+   "answer": "apple",
+   "options": [
+    {
+     "en": "apple",
+     "emoji": "🍎"
+    },
+    {
+     "en": "bread",
+     "emoji": "🍞"
+    },
+    {
+     "en": "milk",
+     "emoji": "🥛"
+    },
+    {
+     "en": "water",
+     "emoji": "💧"
+    }
+   ],
+   "id": "u1l4e1"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"לחם\"?",
+   "answer": "bread",
+   "options": [
+    {
+     "en": "water",
+     "emoji": "💧"
+    },
+    {
+     "en": "bread",
+     "emoji": "🍞"
+    },
+    {
+     "en": "apple",
+     "emoji": "🍎"
+    }
+   ],
+   "id": "u1l4e2"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "apple",
+     "תפוח"
+    ],
+    [
+     "bread",
+     "לחם"
+    ],
+    [
+     "water",
+     "מים"
+    ],
+    [
+     "milk",
+     "חלב"
+    ],
+    [
+     "egg",
+     "ביצה"
+    ]
+   ],
+   "id": "u1l4e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני אוכל תפוח.",
+   "answer": "I eat an apple.",
+   "alternatives": [
+    "I am eating an apple."
+   ],
+   "bank": [
+    "I",
+    "eat",
+    "an",
+    "apple",
+    "drink",
+    "a",
+    "water"
+   ],
+   "id": "u1l4e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I eat ___ apple.",
+   "options": [
+    "a",
+    "an",
+    "am"
+   ],
+   "answer": "an",
+   "hint_he": "אני אוכלת תפוח.",
+   "explain_he": "לפני מילה שמתחילה בתנועה (a, e, i, o, u) כותבים an.",
+   "id": "u1l4e5"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני שותה מים.",
+   "answer": "I drink water.",
+   "alternatives": [
+    "I am drinking water."
+   ],
+   "bank": [
+    "I",
+    "drink",
+    "water",
+    "eat",
+    "milk",
+    "a"
+   ],
+   "id": "u1l4e6"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "I drink milk.",
+   "answer": "אני שותה חלב",
+   "alternatives": [
+    "אני שותָה חלב"
+   ],
+   "bank": [
+    "אני",
+    "שותה",
+    "חלב",
+    "אוכל",
+    "מים"
+   ],
+   "id": "u1l4e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"ביצה\"?",
+   "answer": "egg",
+   "options": [
+    {
+     "en": "egg",
+     "emoji": "🥚"
+    },
+    {
+     "en": "apple",
+     "emoji": "🍎"
+    },
+    {
+     "en": "bread",
+     "emoji": "🍞"
+    }
+   ],
+   "id": "u1l4e8"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I ___ bread.",
+   "options": [
+    "eat",
+    "drink",
+    "is"
+   ],
+   "answer": "eat",
+   "hint_he": "אני אוכל לחם.",
+   "id": "u1l4e9"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I eat bread.",
+   "answer": "I eat bread.",
+   "alternatives": [],
+   "id": "u1l4e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "I eat an egg.",
+   "answer": "אני אוכל ביצה",
+   "alternatives": [
+    "אני אוכלת ביצה"
+   ],
+   "bank": [
+    "אני",
+    "אוכל",
+    "ביצה",
+    "שותה",
+    "לחם"
+   ],
+   "id": "u1l4e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Water, please.",
+   "answer": "Water, please.",
+   "alternatives": [],
+   "id": "u1l4e12"
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "id": "u1l3",
+ "unit_id": "u1",
+ "title_he": "בעלי חיים",
+ "exercises": [
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"כלב\"?",
+   "answer": "dog",
+   "options": [
+    {
+     "en": "dog",
+     "emoji": "🐶"
+    },
+    {
+     "en": "cat",
+     "emoji": "🐱"
+    },
+    {
+     "en": "bird",
+     "emoji": "🐦"
+    },
+    {
+     "en": "fish",
+     "emoji": "🐟"
+    }
+   ],
+   "id": "u1l3e1"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"חתול\"?",
+   "answer": "cat",
+   "options": [
+    {
+     "en": "fish",
+     "emoji": "🐟"
+    },
+    {
+     "en": "cat",
+     "emoji": "🐱"
+    },
+    {
+     "en": "dog",
+     "emoji": "🐶"
+    }
+   ],
+   "id": "u1l3e2"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"ציפור\"?",
+   "answer": "bird",
+   "options": [
+    {
+     "en": "bird",
+     "emoji": "🐦"
+    },
+    {
+     "en": "dog",
+     "emoji": "🐶"
+    },
+    {
+     "en": "fish",
+     "emoji": "🐟"
+    }
+   ],
+   "id": "u1l3e3"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "dog",
+     "כלב"
+    ],
+    [
+     "cat",
+     "חתול"
+    ],
+    [
+     "bird",
+     "ציפור"
+    ],
+    [
+     "fish",
+     "דג"
+    ],
+    [
+     "horse",
+     "סוס"
+    ]
+   ],
+   "id": "u1l3e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "זה כלב.",
+   "answer": "This is a dog.",
+   "alternatives": [
+    "It's a dog.",
+    "It is a dog."
+   ],
+   "bank": [
+    "This",
+    "is",
+    "a",
+    "dog",
+    "cat",
+    "the",
+    "am"
+   ],
+   "id": "u1l3e5"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "This is ___ cat.",
+   "options": [
+    "a",
+    "am",
+    "I"
+   ],
+   "answer": "a",
+   "hint_he": "זה חתול.",
+   "explain_he": "לפני שם עצם אחד באנגלית מוסיפים a.",
+   "id": "u1l3e6"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "This is a fish.",
+   "answer": "זה דג",
+   "alternatives": [],
+   "bank": [
+    "זה",
+    "דג",
+    "כלב",
+    "חתול"
+   ],
+   "id": "u1l3e7"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "This is a cat.",
+   "answer": "This is a cat.",
+   "alternatives": [
+    "It is a cat."
+   ],
+   "id": "u1l3e8"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הכלב והחתול.",
+   "answer": "The dog and the cat.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "dog",
+    "and",
+    "the",
+    "cat",
+    "a",
+    "is",
+    "bird"
+   ],
+   "id": "u1l3e9"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"סוס\"?",
+   "answer": "horse",
+   "options": [
+    {
+     "en": "horse",
+     "emoji": "🐴"
+    },
+    {
+     "en": "bird",
+     "emoji": "🐦"
+    },
+    {
+     "en": "cat",
+     "emoji": "🐱"
+    }
+   ],
+   "id": "u1l3e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "The bird and the fish.",
+   "answer": "הציפור והדג",
+   "alternatives": [],
+   "bank": [
+    "הציפור",
+    "והדג",
+    "כלב",
+    "זה"
+   ],
+   "id": "u1l3e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "The dog",
+   "answer": "The dog",
+   "alternatives": [],
+   "id": "u1l3e12"
+  }
+ ]
+}

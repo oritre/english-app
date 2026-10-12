@@ -1,0 +1,204 @@
+{
+ "id": "u2l4",
+ "unit_id": "u2",
+ "title_he": "איפה?",
+ "exercises": [
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"בית\"?",
+   "answer": "home",
+   "options": [
+    {
+     "en": "home",
+     "emoji": "🏠"
+    },
+    {
+     "en": "school",
+     "emoji": "🏫"
+    },
+    {
+     "en": "park",
+     "emoji": "🌳"
+    }
+   ],
+   "id": "u2l4e1"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"בית ספר\"?",
+   "answer": "school",
+   "options": [
+    {
+     "en": "school",
+     "emoji": "🏫"
+    },
+    {
+     "en": "home",
+     "emoji": "🏠"
+    },
+    {
+     "en": "park",
+     "emoji": "🌳"
+    }
+   ],
+   "id": "u2l4e2"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "home",
+     "בית"
+    ],
+    [
+     "school",
+     "בית ספר"
+    ],
+    [
+     "park",
+     "פארק"
+    ],
+    [
+     "in",
+     "בתוך / ב־"
+    ],
+    [
+     "where",
+     "איפה"
+    ]
+   ],
+   "id": "u2l4e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני בבית.",
+   "answer": "I am at home.",
+   "alternatives": [
+    "I'm at home."
+   ],
+   "bank": [
+    "I",
+    "am",
+    "at",
+    "home",
+    "in",
+    "school",
+    "is"
+   ],
+   "id": "u2l4e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אנחנו בפארק.",
+   "answer": "We are in the park.",
+   "alternatives": [
+    "We're in the park."
+   ],
+   "bank": [
+    "We",
+    "are",
+    "in",
+    "the",
+    "park",
+    "is",
+    "a",
+    "at"
+   ],
+   "id": "u2l4e5"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "She is ___ school.",
+   "options": [
+    "at",
+    "is",
+    "a"
+   ],
+   "answer": "at",
+   "hint_he": "היא בבית הספר.",
+   "explain_he": "at school = בבית הספר, at home = בבית.",
+   "id": "u2l4e6"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "איפה החתול?",
+   "answer": "Where is the cat?",
+   "alternatives": [
+    "Where's the cat?"
+   ],
+   "bank": [
+    "Where",
+    "is",
+    "the",
+    "cat",
+    "what",
+    "dog",
+    "are"
+   ],
+   "id": "u2l4e7"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "The dog is in the park.",
+   "answer": "הכלב בפארק",
+   "alternatives": [
+    "הכלב נמצא בפארק"
+   ],
+   "bank": [
+    "הכלב",
+    "בפארק",
+    "בבית",
+    "חתול"
+   ],
+   "id": "u2l4e8"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "Where ___ you?",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": "are",
+   "hint_he": "איפה אתה?",
+   "id": "u2l4e9"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Where is my mother?",
+   "answer": "Where is my mother?",
+   "alternatives": [
+    "Where's my mother?"
+   ],
+   "id": "u2l4e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "My brother is at school.",
+   "answer": "אח שלי בבית הספר",
+   "alternatives": [
+    "אחי בבית הספר",
+    "האח שלי בבית הספר"
+   ],
+   "bank": [
+    "אח",
+    "שלי",
+    "בבית",
+    "הספר",
+    "אחות",
+    "בבית"
+   ],
+   "id": "u2l4e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "We are at home.",
+   "answer": "We are at home.",
+   "alternatives": [
+    "We're at home."
+   ],
+   "id": "u2l4e12"
+  }
+ ]
+}

@@ -1,0 +1,176 @@
+{
+ "id": "u1l1",
+ "unit_id": "u1",
+ "title_he": "שלום!",
+ "exercises": [
+  {
+   "type": "choose",
+   "prompt_he": "איך אומרים \"שלום\"?",
+   "answer": "hello",
+   "options": [
+    {
+     "en": "hello",
+     "emoji": "👋"
+    },
+    {
+     "en": "goodbye",
+     "emoji": "🚪"
+    },
+    {
+     "en": "yes",
+     "emoji": "✅"
+    },
+    {
+     "en": "no",
+     "emoji": "❌"
+    }
+   ],
+   "id": "u1l1e1"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך אומרים \"תודה\"?",
+   "answer": "thank you",
+   "options": [
+    {
+     "en": "thank you",
+     "emoji": "🙏"
+    },
+    {
+     "en": "please"
+    },
+    {
+     "en": "hello",
+     "emoji": "👋"
+    }
+   ],
+   "id": "u1l1e2"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "hello",
+     "שלום"
+    ],
+    [
+     "goodbye",
+     "להתראות"
+    ],
+    [
+     "yes",
+     "כן"
+    ],
+    [
+     "no",
+     "לא"
+    ],
+    [
+     "thank you",
+     "תודה"
+    ]
+   ],
+   "id": "u1l1e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "שלום, תודה!",
+   "answer": "Hello, thank you!",
+   "alternatives": [],
+   "bank": [
+    "Hello",
+    "thank",
+    "you",
+    "goodbye",
+    "please"
+   ],
+   "id": "u1l1e4"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך אומרים \"בבקשה\"?",
+   "answer": "please",
+   "options": [
+    {
+     "en": "please"
+    },
+    {
+     "en": "yes",
+     "emoji": "✅"
+    },
+    {
+     "en": "thank you",
+     "emoji": "🙏"
+    }
+   ],
+   "id": "u1l1e5"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Goodbye!",
+   "answer": "להתראות",
+   "alternatives": [],
+   "bank": [
+    "להתראות",
+    "שלום",
+    "תודה"
+   ],
+   "id": "u1l1e6"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Hello",
+   "answer": "Hello",
+   "alternatives": [],
+   "id": "u1l1e7"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "כן, בבקשה.",
+   "answer": "Yes, please.",
+   "alternatives": [],
+   "bank": [
+    "Yes",
+    "please",
+    "no",
+    "thank"
+   ],
+   "id": "u1l1e8"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "לא, תודה.",
+   "answer": "No, thank you.",
+   "alternatives": [],
+   "bank": [
+    "No",
+    "thank",
+    "you",
+    "yes",
+    "please",
+    "hello"
+   ],
+   "id": "u1l1e9"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Thank you",
+   "answer": "Thank you",
+   "alternatives": [],
+   "id": "u1l1e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Yes, please.",
+   "answer": "כן, בבקשה",
+   "alternatives": [],
+   "bank": [
+    "כן",
+    "בבקשה",
+    "לא",
+    "תודה"
+   ],
+   "id": "u1l1e11"
+  }
+ ]
+}

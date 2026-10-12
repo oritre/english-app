@@ -1,0 +1,184 @@
+{
+ "id": "u2l3",
+ "unit_id": "u2",
+ "title_he": "יש לי",
+ "exercises": [
+  {
+   "type": "translate_he_en",
+   "prompt": "יש לי אח.",
+   "answer": "I have a brother.",
+   "alternatives": [
+    "I've got a brother."
+   ],
+   "bank": [
+    "I",
+    "have",
+    "a",
+    "brother",
+    "has",
+    "am",
+    "sister"
+   ],
+   "id": "u2l3e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "יש לה חתול.",
+   "answer": "She has a cat.",
+   "alternatives": [
+    "She's got a cat."
+   ],
+   "bank": [
+    "She",
+    "has",
+    "a",
+    "cat",
+    "have",
+    "he",
+    "dog"
+   ],
+   "id": "u2l3e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "He ___ a dog.",
+   "options": [
+    "has",
+    "have",
+    "is"
+   ],
+   "answer": "has",
+   "hint_he": "יש לו כלב.",
+   "explain_he": "עם he, she, it משתמשים ב־has. עם I, you, we, they משתמשים ב־have.",
+   "id": "u2l3e3"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I ___ a sister.",
+   "options": [
+    "have",
+    "has",
+    "am"
+   ],
+   "answer": "have",
+   "hint_he": "יש לי אחות.",
+   "id": "u2l3e4"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "he",
+     "הוא"
+    ],
+    [
+     "she",
+     "היא"
+    ],
+    [
+     "we",
+     "אנחנו"
+    ],
+    [
+     "they",
+     "הם"
+    ],
+    [
+     "have",
+     "יש ל..."
+    ]
+   ],
+   "id": "u2l3e5"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "We have a baby.",
+   "answer": "יש לנו תינוק",
+   "alternatives": [],
+   "bank": [
+    "יש",
+    "לנו",
+    "תינוק",
+    "לי",
+    "אח"
+   ],
+   "id": "u2l3e6"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "They ___ two cats.",
+   "options": [
+    "have",
+    "has",
+    "is"
+   ],
+   "answer": "have",
+   "hint_he": "יש להם שני חתולים.",
+   "id": "u2l3e7"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "יש לו שלושה אחים.",
+   "answer": "He has three brothers.",
+   "alternatives": [],
+   "bank": [
+    "He",
+    "has",
+    "three",
+    "brothers",
+    "have",
+    "brother",
+    "two"
+   ],
+   "id": "u2l3e8"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "She has a dog.",
+   "answer": "She has a dog.",
+   "alternatives": [],
+   "id": "u2l3e9"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "He has a red apple.",
+   "answer": "יש לו תפוח אדום",
+   "alternatives": [],
+   "bank": [
+    "יש",
+    "לו",
+    "תפוח",
+    "אדום",
+    "לה",
+    "ירוק"
+   ],
+   "id": "u2l3e10"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I have a big family.",
+   "answer": "I have a big family.",
+   "alternatives": [],
+   "id": "u2l3e11"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אין לי כלב.",
+   "answer": "I don't have a dog.",
+   "alternatives": [
+    "I do not have a dog."
+   ],
+   "bank": [
+    "I",
+    "don't",
+    "have",
+    "a",
+    "dog",
+    "has",
+    "not",
+    "cat"
+   ],
+   "id": "u2l3e12"
+  }
+ ]
+}

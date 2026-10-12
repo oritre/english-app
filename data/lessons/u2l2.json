@@ -1,0 +1,198 @@
+{
+ "id": "u2l2",
+ "unit_id": "u2",
+ "title_he": "מספרים 1-10",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "one",
+     "1"
+    ],
+    [
+     "two",
+     "2"
+    ],
+    [
+     "three",
+     "3"
+    ],
+    [
+     "four",
+     "4"
+    ],
+    [
+     "five",
+     "5"
+    ]
+   ],
+   "id": "u2l2e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "six",
+     "6"
+    ],
+    [
+     "seven",
+     "7"
+    ],
+    [
+     "eight",
+     "8"
+    ],
+    [
+     "nine",
+     "9"
+    ],
+    [
+     "ten",
+     "10"
+    ]
+   ],
+   "id": "u2l2e2"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך כותבים 3?",
+   "answer": "three",
+   "options": [
+    {
+     "en": "three"
+    },
+    {
+     "en": "two"
+    },
+    {
+     "en": "ten"
+    },
+    {
+     "en": "tree"
+    }
+   ],
+   "id": "u2l2e3"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך כותבים 8?",
+   "answer": "eight",
+   "options": [
+    {
+     "en": "eight"
+    },
+    {
+     "en": "eat"
+    },
+    {
+     "en": "six"
+    }
+   ],
+   "id": "u2l2e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "שני כלבים.",
+   "answer": "Two dogs.",
+   "alternatives": [],
+   "bank": [
+    "Two",
+    "dogs",
+    "dog",
+    "one",
+    "a"
+   ],
+   "id": "u2l2e5"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "Three ___.",
+   "options": [
+    "cats",
+    "cat",
+    "a cat"
+   ],
+   "answer": "cats",
+   "hint_he": "שלושה חתולים.",
+   "explain_he": "ברבים מוסיפים s בסוף: cat ← cats.",
+   "id": "u2l2e6"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "יש לי חמישה תפוחים.",
+   "answer": "I have five apples.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "have",
+    "five",
+    "apples",
+    "apple",
+    "four",
+    "am"
+   ],
+   "id": "u2l2e7"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Ten fish.",
+   "answer": "עשרה דגים",
+   "alternatives": [],
+   "bank": [
+    "עשרה",
+    "דגים",
+    "דג",
+    "אחד"
+   ],
+   "id": "u2l2e8"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Seven",
+   "answer": "Seven",
+   "alternatives": [],
+   "id": "u2l2e9"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Four birds",
+   "answer": "Four birds",
+   "alternatives": [],
+   "id": "u2l2e10"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך כותבים 1?",
+   "answer": "one",
+   "options": [
+    {
+     "en": "one"
+    },
+    {
+     "en": "won"
+    },
+    {
+     "en": "nine"
+    }
+   ],
+   "id": "u2l2e11"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "I have two sisters.",
+   "answer": "יש לי שתי אחיות",
+   "alternatives": [],
+   "bank": [
+    "יש",
+    "לי",
+    "שתי",
+    "אחיות",
+    "אחות",
+    "שני"
+   ],
+   "id": "u2l2e12"
+  }
+ ]
+}
