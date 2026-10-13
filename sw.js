@@ -1,7 +1,7 @@
 // App shell is cache-first; course data and the Firebase config are network-first
 // so new lessons (or turning sync on) show up as soon as they're deployed, and
 // still work offline afterwards.
-const CACHE_NAME = 'english-app-v8';
+const CACHE_NAME = 'english-app-v9';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './css/styles.css',
   './js/app.js', './js/check.js', './js/course.js', './js/dates.js', './js/db.js',
@@ -10,7 +10,7 @@ const APP_SHELL = [
   './js/screens/profiles.js', './js/screens/placement.js', './js/screens/league.js', './js/screens/report.js', './js/screens/syncSetup.js',
   './js/exercises/index.js', './js/exercises/choose.js', './js/exercises/wordBank.js',
   './js/exercises/matchPairs.js', './js/exercises/fillBlank.js', './js/exercises/listenType.js', './js/exercises/listenTranslate.js', './js/exercises/speak.js', './js/exercises/typeTranslate.js',
-  './data/course.json', './icons/icon-192.png', './icons/icon-512.png',
+  './data/course.json', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/favicon-32.png', './icons/apple-touch-icon.png', './favicon.ico',
 ];
 
 self.addEventListener('install', (event) => {
