@@ -91,7 +91,7 @@ function lcsMarks(said, target) {
   return hit;
 }
 
-export const SPEECH_PASS = 0.8;
+export const SPEECH_PASS = 1; // every word must be heard
 
 // transcripts: the recognizer's alternatives, best first. Returns the best
 // match: { pass, score, words: [{ word, ok }] } with words from the target.

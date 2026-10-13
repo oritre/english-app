@@ -129,5 +129,6 @@ test('speech: word-level match with numbers, contractions and a missed word', ()
   const best = checkSpeech(['this is a hat', 'this is a cat'], 'This is a cat.');
   assert.equal(best.score, 1);
   assert.equal(checkSpeech(['nice to meet'], 'Nice to meet you.').pass, false); // 3 of 4 words
+  assert.equal(checkSpeech(['my name is dana and'], 'My name is Dana.').pass, true); // extra word is fine
   assert.equal(checkSpeech(['my name is dana'], 'My name is Dana.').pass, true);
 });

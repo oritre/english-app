@@ -15,7 +15,7 @@ function pauseSpeaking(minutes) {
 }
 
 // Read an English sentence aloud. The browser transcribes it, and each word
-// lights up green or red. Passing needs 80% of the words.
+// lights up green or red. Passing needs every word.
 export function renderSpeak(root, ex, { setReady, finish, skip }) {
   let result = null;
   let rec = null;
@@ -69,8 +69,9 @@ export function renderSpeak(root, ex, { setReady, finish, skip }) {
         setReady(true);
         finish(true);
       } else {
+        const missed = result.words.filter((w) => !w.ok).length;
         status.textContent = result.score >= 0.5
-          ? `כמעט. ${Math.round(result.score * 100)}% מהמילים נשמעו נכון. נסו שוב.`
+          ? `כמעט. ${missed === 1 ? 'מילה אחת לא נשמעה' : `${missed} מילים לא נשמעו`} נכון (באדום). נסו שוב.`
           : 'לא הצלחתי לזהות את המשפט. נסו שוב, לאט וברור.';
       }
     };
