@@ -70,6 +70,14 @@
    "id": "u2l4e3"
   },
   {
+   "type": "speak",
+   "text": "Where is my mother?",
+   "alternatives": [
+    "Where's my mother?"
+   ],
+   "id": "u2l4e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "אני בבית.",
    "answer": "I am at home.",
@@ -85,7 +93,7 @@
     "school",
     "is"
    ],
-   "id": "u2l4e4"
+   "id": "u2l4e5"
   },
   {
    "type": "translate_he_en",
@@ -104,7 +112,26 @@
     "a",
     "at"
    ],
-   "id": "u2l4e5"
+   "id": "u2l4e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "איפה החתול?",
+   "answer": "Where is the cat?",
+   "alternatives": [
+    "Where's the cat?"
+   ],
+   "bank": [
+    "Where",
+    "is",
+    "the",
+    "cat",
+    "what",
+    "dog",
+    "are"
+   ],
+   "id": "u2l4e7"
   },
   {
    "type": "fill_blank",
@@ -117,7 +144,7 @@
    "answer": "at",
    "hint_he": "היא בבית הספר.",
    "explain_he": "at school = בבית הספר, at home = בבית.",
-   "id": "u2l4e6"
+   "id": "u2l4e8"
   },
   {
    "type": "translate_he_en",
@@ -135,7 +162,26 @@
     "dog",
     "are"
    ],
-   "id": "u2l4e7"
+   "id": "u2l4e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "My brother is at school.",
+   "answer": "אח שלי בבית הספר",
+   "alternatives": [
+    "אחי בבית הספר",
+    "האח שלי בבית הספר"
+   ],
+   "bank": [
+    "אח",
+    "שלי",
+    "בבית",
+    "הספר",
+    "אחות",
+    "בבית"
+   ],
+   "id": "u2l4e10"
   },
   {
    "type": "translate_en_he",
@@ -150,7 +196,7 @@
     "בבית",
     "חתול"
    ],
-   "id": "u2l4e8"
+   "id": "u2l4e11"
   },
   {
    "type": "fill_blank",
@@ -162,7 +208,7 @@
    ],
    "answer": "are",
    "hint_he": "איפה אתה?",
-   "id": "u2l4e9"
+   "id": "u2l4e12"
   },
   {
    "type": "listen_type",
@@ -171,7 +217,7 @@
    "alternatives": [
     "Where's my mother?"
    ],
-   "id": "u2l4e10"
+   "id": "u2l4e13"
   },
   {
    "type": "translate_en_he",
@@ -189,7 +235,7 @@
     "אחות",
     "בבית"
    ],
-   "id": "u2l4e11"
+   "id": "u2l4e14"
   },
   {
    "type": "listen_type",
@@ -198,7 +244,15 @@
    "alternatives": [
     "We're at home."
    ],
-   "id": "u2l4e12"
+   "id": "u2l4e15"
+  },
+  {
+   "type": "speak",
+   "text": "I am at home.",
+   "alternatives": [
+    "I'm at home."
+   ],
+   "id": "u2l4e16"
   }
  ]
 }

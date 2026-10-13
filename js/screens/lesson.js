@@ -8,12 +8,14 @@ import { saveLessonResult } from '../progress.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
 // answered right. Progress bar counts first-time-right plus fixed mistakes.
+const answerIsHebrew = (ex) => ex.type === 'translate_en_he' || (ex.type === 'listen_translate' && ex.lang === 'en');
+
 export async function renderLesson(root, nav, { lessonId }) {
   const lesson = await loadLesson(lessonId);
   const exercises = lesson.exercises.filter(isSupported);
   const queue = exercises.slice();
   const mistakes = new Set();
-  const total = exercises.length;
+  let total = exercises.length;
   let solved = 0;
   const started = Date.now();
 
@@ -47,6 +49,14 @@ export async function renderLesson(root, nav, { lessonId }) {
     const api = RENDERERS[ex.type](body, ex, {
       setReady: (ok) => { checkBtn.disabled = !ok; },
       finish: (clean) => { handled = true; showFeedback(ex, clean ? 'correct' : 'correct-after-tries', null); },
+      // Speaking can be paused ("can't talk now"): drop every speaking exercise
+      // left in this lesson without counting it as a mistake.
+      skip: () => {
+        const before = queue.length;
+        for (let i = queue.length - 1; i >= 0; i--) if (queue[i].type === 'speak') queue.splice(i, 1);
+        total -= 1 + (before - queue.length);
+        next();
+      },
     });
 
     checkBtn.onclick = () => {
@@ -59,6 +69,7 @@ export async function renderLesson(root, nav, { lessonId }) {
         queue.push(ex);
       }
       const englishOut = ex.type === 'translate_en_he' ? ex.prompt
+        : ex.type === 'listen_translate' ? (ex.lang === 'en' ? ex.audio_text : expected)
         : ex.type === 'fill_blank' ? api.fullSentence() : expected;
       if (result !== 'wrong' && englishOut && ex.type !== 'choose') speak(englishOut);
       showFeedback(ex, result, expected);
@@ -75,7 +86,10 @@ export async function renderLesson(root, nav, { lessonId }) {
       el('div', { class: 'feedback-title' }, ok ? '✔ ' : '✘ ', title),
       (result === 'wrong' || result === 'typo') && expected
         ? el('div', { class: 'feedback-answer' }, 'התשובה הנכונה: ',
-            el('span', { dir: ex.type === 'translate_en_he' ? 'rtl' : 'ltr' }, expected))
+            el('span', { dir: answerIsHebrew(ex) ? 'rtl' : 'ltr' }, expected))
+        : null,
+      ex.type === 'listen_translate' && result !== 'correct'
+        ? el('div', { class: 'feedback-explain' }, 'נאמר: ', el('span', { dir: ex.lang === 'he' ? 'rtl' : 'ltr' }, ex.audio_text))
         : null,
       ex.explain_he ? el('div', { class: 'feedback-explain' }, ex.explain_he) : null);
     footer.replaceChildren(sheet, checkBtn);

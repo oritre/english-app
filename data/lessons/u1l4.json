@@ -74,6 +74,12 @@
    "id": "u1l4e3"
   },
   {
+   "type": "speak",
+   "text": "I eat bread.",
+   "alternatives": [],
+   "id": "u1l4e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "אני אוכל תפוח.",
    "answer": "I eat an apple.",
@@ -89,7 +95,7 @@
     "a",
     "water"
    ],
-   "id": "u1l4e4"
+   "id": "u1l4e5"
   },
   {
    "type": "fill_blank",
@@ -102,7 +108,25 @@
    "answer": "an",
    "hint_he": "אני אוכלת תפוח.",
    "explain_he": "לפני מילה שמתחילה בתנועה (a, e, i, o, u) כותבים an.",
-   "id": "u1l4e5"
+   "id": "u1l4e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אני שותה מים.",
+   "answer": "I drink water.",
+   "alternatives": [
+    "I am drinking water."
+   ],
+   "bank": [
+    "I",
+    "drink",
+    "water",
+    "eat",
+    "milk",
+    "a"
+   ],
+   "id": "u1l4e7"
   },
   {
    "type": "translate_he_en",
@@ -119,7 +143,7 @@
     "milk",
     "a"
    ],
-   "id": "u1l4e6"
+   "id": "u1l4e8"
   },
   {
    "type": "translate_en_he",
@@ -135,7 +159,24 @@
     "אוכל",
     "מים"
    ],
-   "id": "u1l4e7"
+   "id": "u1l4e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "I eat an egg.",
+   "answer": "אני אוכל ביצה",
+   "alternatives": [
+    "אני אוכלת ביצה"
+   ],
+   "bank": [
+    "אני",
+    "אוכל",
+    "ביצה",
+    "שותה",
+    "לחם"
+   ],
+   "id": "u1l4e10"
   },
   {
    "type": "choose",
@@ -155,7 +196,7 @@
      "emoji": "🍞"
     }
    ],
-   "id": "u1l4e8"
+   "id": "u1l4e11"
   },
   {
    "type": "fill_blank",
@@ -167,14 +208,14 @@
    ],
    "answer": "eat",
    "hint_he": "אני אוכל לחם.",
-   "id": "u1l4e9"
+   "id": "u1l4e12"
   },
   {
    "type": "listen_type",
    "audio_text": "I eat bread.",
    "answer": "I eat bread.",
    "alternatives": [],
-   "id": "u1l4e10"
+   "id": "u1l4e13"
   },
   {
    "type": "translate_en_he",
@@ -190,14 +231,22 @@
     "שותה",
     "לחם"
    ],
-   "id": "u1l4e11"
+   "id": "u1l4e14"
   },
   {
    "type": "listen_type",
    "audio_text": "Water, please.",
    "answer": "Water, please.",
    "alternatives": [],
-   "id": "u1l4e12"
+   "id": "u1l4e15"
+  },
+  {
+   "type": "speak",
+   "text": "I eat an apple.",
+   "alternatives": [
+    "I am eating an apple."
+   ],
+   "id": "u1l4e16"
   }
  ]
 }

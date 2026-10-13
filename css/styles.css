@@ -241,3 +241,22 @@ button:focus-visible, textarea:focus-visible { outline: 3px solid var(--sun); ou
 .zone-line.up { color: var(--good); border-bottom: 2px solid var(--good); }
 .zone-line.down { color: var(--bad); border-top: 2px solid var(--bad); }
 .league-note { border: none; background: none; cursor: pointer; font: inherit; font-weight: 700; color: var(--ink); text-decoration: underline; }
+
+/* Listening and speaking */
+.link-btn { align-self: center; border: none; background: none; color: var(--ink); font: inherit; font-weight: 500; text-decoration: underline; cursor: pointer; padding: 4px; }
+.reveal-text { text-align: center; font-size: 20px; padding: 10px; border-radius: 12px; background: var(--surface); border: 2px dashed var(--line); }
+.speak-prompt { flex-wrap: wrap; }
+.speak-words { display: flex; flex-wrap: wrap; gap: 6px; font-size: 24px; font-weight: 500; }
+.sw { border-bottom: 3px solid transparent; transition: color .2s, border-color .2s; }
+.sw.ok { color: var(--good); border-color: var(--good); }
+.sw.miss { color: var(--bad); border-color: var(--bad); }
+.mic-row { display: flex; justify-content: center; padding-block: 6px; }
+.mic {
+  width: 104px; height: 104px; border-radius: 50%; border: none; font-size: 44px; cursor: pointer;
+  background: var(--ink); color: #fff; box-shadow: 0 6px 0 var(--ink-deep);
+}
+.mic.on { background: var(--bad); box-shadow: 0 0 0 10px color-mix(in srgb, var(--bad) 25%, transparent); animation: pulse 1.2s ease-in-out infinite; }
+@keyframes pulse { 50% { box-shadow: 0 0 0 18px color-mix(in srgb, var(--bad) 10%, transparent); } }
+@media (prefers-reduced-motion: reduce) { .mic.on { animation: none; } }
+.speak-status { text-align: center; margin: 0; }
+.heard { text-align: center; color: var(--muted); margin: 0; font-style: italic; }

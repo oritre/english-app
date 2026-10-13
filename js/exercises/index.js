@@ -3,6 +3,8 @@ import { renderWordBank } from './wordBank.js';
 import { renderMatchPairs } from './matchPairs.js';
 import { renderFillBlank } from './fillBlank.js';
 import { renderListenType, listenSupported } from './listenType.js';
+import { renderListenTranslate } from './listenTranslate.js';
+import { renderSpeak, speakSupported } from './speak.js';
 
 export const RENDERERS = {
   choose: renderChoose,
@@ -11,10 +13,13 @@ export const RENDERERS = {
   match_pairs: renderMatchPairs,
   fill_blank: renderFillBlank,
   listen_type: renderListenType,
+  listen_translate: renderListenTranslate,
+  speak: renderSpeak,
 };
 
 export function isSupported(ex) {
   if (!RENDERERS[ex.type]) return false;
-  if (ex.type === 'listen_type') return listenSupported();
+  if (ex.type === 'listen_type' || ex.type === 'listen_translate') return listenSupported();
+  if (ex.type === 'speak') return speakSupported();
   return true;
 }

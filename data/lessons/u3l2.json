@@ -64,6 +64,12 @@
    "id": "u3l2e3"
   },
   {
+   "type": "speak",
+   "text": "How are you?",
+   "alternatives": [],
+   "id": "u3l2e4"
+  },
+  {
    "type": "fill_blank",
    "sentence": "___ are you?",
    "options": [
@@ -74,7 +80,7 @@
    "answer": "How",
    "hint_he": "מה שלומך?",
    "explain_he": "How are you? היא הדרך לשאול \"מה שלומך\".",
-   "id": "u3l2e4"
+   "id": "u3l2e5"
   },
   {
    "type": "translate_he_en",
@@ -92,7 +98,28 @@
     "likes",
     "water"
    ],
-   "id": "u3l2e5"
+   "id": "u3l2e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אני בסדר, תודה.",
+   "answer": "I am fine, thank you.",
+   "alternatives": [
+    "I'm fine, thank you.",
+    "I'm fine, thanks.",
+    "I am fine, thanks."
+   ],
+   "bank": [
+    "I",
+    "am",
+    "fine",
+    "thank",
+    "you",
+    "are",
+    "good"
+   ],
+   "id": "u3l2e7"
   },
   {
    "type": "fill_blank",
@@ -105,7 +132,7 @@
    "answer": "Does",
    "hint_he": "היא אוהבת חתולים?",
    "explain_he": "שאלה עם she מתחילה ב־Does, ואז הפועל בלי s.",
-   "id": "u3l2e6"
+   "id": "u3l2e8"
   },
   {
    "type": "translate_en_he",
@@ -121,7 +148,25 @@
     "מה",
     "מי"
    ],
-   "id": "u3l2e7"
+   "id": "u3l2e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "Why are you happy?",
+   "answer": "למה אתה שמח",
+   "alternatives": [
+    "למה את שמחה",
+    "למה אתה שמח?"
+   ],
+   "bank": [
+    "למה",
+    "אתה",
+    "שמח",
+    "מה",
+    "עצוב"
+   ],
+   "id": "u3l2e10"
   },
   {
    "type": "choose",
@@ -138,14 +183,14 @@
      "en": "Yes, I like."
     }
    ],
-   "id": "u3l2e8"
+   "id": "u3l2e11"
   },
   {
    "type": "listen_type",
    "audio_text": "How are you?",
    "answer": "How are you?",
    "alternatives": [],
-   "id": "u3l2e9"
+   "id": "u3l2e12"
   },
   {
    "type": "translate_he_en",
@@ -165,7 +210,7 @@
     "are",
     "good"
    ],
-   "id": "u3l2e10"
+   "id": "u3l2e13"
   },
   {
    "type": "translate_en_he",
@@ -182,7 +227,7 @@
     "מה",
     "עצוב"
    ],
-   "id": "u3l2e11"
+   "id": "u3l2e14"
   },
   {
    "type": "listen_type",
@@ -191,7 +236,15 @@
    "alternatives": [
     "What's this?"
    ],
-   "id": "u3l2e12"
+   "id": "u3l2e15"
+  },
+  {
+   "type": "speak",
+   "text": "What is your name?",
+   "alternatives": [
+    "What's your name?"
+   ],
+   "id": "u3l2e16"
   }
  ]
 }

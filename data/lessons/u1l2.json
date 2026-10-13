@@ -60,6 +60,12 @@
    "id": "u1l2e3"
   },
   {
+   "type": "speak",
+   "text": "My name is Dana.",
+   "alternatives": [],
+   "id": "u1l2e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "השם שלי הוא דני.",
    "answer": "My name is Danny.",
@@ -75,7 +81,7 @@
     "am",
     "your"
    ],
-   "id": "u1l2e4"
+   "id": "u1l2e5"
   },
   {
    "type": "choose",
@@ -92,7 +98,23 @@
      "en": "you"
     }
    ],
-   "id": "u1l2e5"
+   "id": "u1l2e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "נעים להכיר!",
+   "answer": "Nice to meet you!",
+   "alternatives": [],
+   "bank": [
+    "Nice",
+    "to",
+    "meet",
+    "you",
+    "name",
+    "my"
+   ],
+   "id": "u1l2e7"
   },
   {
    "type": "fill_blank",
@@ -105,7 +127,7 @@
    "answer": "are",
    "hint_he": "אתה תום.",
    "explain_he": "עם you משתמשים ב־are.",
-   "id": "u1l2e6"
+   "id": "u1l2e8"
   },
   {
    "type": "translate_en_he",
@@ -118,33 +140,12 @@
     "את",
     "שלי"
    ],
-   "id": "u1l2e7"
-  },
-  {
-   "type": "listen_type",
-   "audio_text": "My name is Dana.",
-   "answer": "My name is Dana.",
-   "alternatives": [],
-   "id": "u1l2e8"
-  },
-  {
-   "type": "translate_he_en",
-   "prompt": "נעים להכיר!",
-   "answer": "Nice to meet you!",
-   "alternatives": [],
-   "bank": [
-    "Nice",
-    "to",
-    "meet",
-    "you",
-    "name",
-    "my"
-   ],
    "id": "u1l2e9"
   },
   {
-   "type": "translate_en_he",
-   "prompt": "Hello, my name is Ori.",
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "Hello, my name is Ori.",
    "answer": "שלום, השם שלי הוא אורי",
    "alternatives": [
     "שלום, שמי אורי",
@@ -163,10 +164,59 @@
   },
   {
    "type": "listen_type",
+   "audio_text": "My name is Dana.",
+   "answer": "My name is Dana.",
+   "alternatives": [],
+   "id": "u1l2e11"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "נעים להכיר!",
+   "answer": "Nice to meet you!",
+   "alternatives": [],
+   "bank": [
+    "Nice",
+    "to",
+    "meet",
+    "you",
+    "name",
+    "my"
+   ],
+   "id": "u1l2e12"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Hello, my name is Ori.",
+   "answer": "שלום, השם שלי הוא אורי",
+   "alternatives": [
+    "שלום, שמי אורי",
+    "שלום השם שלי אורי"
+   ],
+   "bank": [
+    "שלום",
+    "השם",
+    "שלי",
+    "הוא",
+    "אורי",
+    "אני",
+    "את"
+   ],
+   "id": "u1l2e13"
+  },
+  {
+   "type": "listen_type",
    "audio_text": "Nice to meet you.",
    "answer": "Nice to meet you.",
    "alternatives": [],
-   "id": "u1l2e11"
+   "id": "u1l2e14"
+  },
+  {
+   "type": "speak",
+   "text": "I am Dana.",
+   "alternatives": [
+    "I'm Dana."
+   ],
+   "id": "u1l2e15"
   }
  ]
 }

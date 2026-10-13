@@ -62,6 +62,12 @@
    "id": "u2l5e3"
   },
   {
+   "type": "speak",
+   "text": "I like to read.",
+   "alternatives": [],
+   "id": "u2l5e4"
+  },
+  {
    "type": "fill_blank",
    "sentence": "She ___ books.",
    "options": [
@@ -72,7 +78,7 @@
    "answer": "likes",
    "hint_he": "היא אוהבת ספרים.",
    "explain_he": "עם he, she, it מוסיפים s לפועל: like ← likes.",
-   "id": "u2l5e4"
+   "id": "u2l5e5"
   },
   {
    "type": "translate_he_en",
@@ -89,7 +95,23 @@
     "at",
     "home"
    ],
-   "id": "u2l5e5"
+   "id": "u2l5e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "הוא רוצה כדור.",
+   "answer": "He wants a ball.",
+   "alternatives": [],
+   "bank": [
+    "He",
+    "wants",
+    "a",
+    "ball",
+    "want",
+    "book"
+   ],
+   "id": "u2l5e7"
   },
   {
    "type": "choose",
@@ -109,7 +131,7 @@
      "emoji": "🍎"
     }
    ],
-   "id": "u2l5e6"
+   "id": "u2l5e8"
   },
   {
    "type": "fill_blank",
@@ -121,7 +143,25 @@
    ],
    "answer": "plays",
    "hint_he": "הוא משחק בפארק.",
-   "id": "u2l5e7"
+   "id": "u2l5e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "My sister likes cats.",
+   "answer": "אחות שלי אוהבת חתולים",
+   "alternatives": [
+    "אחותי אוהבת חתולים"
+   ],
+   "bank": [
+    "אחות",
+    "שלי",
+    "אוהבת",
+    "חתולים",
+    "אוהב",
+    "כלבים"
+   ],
+   "id": "u2l5e10"
   },
   {
    "type": "translate_en_he",
@@ -137,7 +177,7 @@
     "רוצה",
     "כלב"
    ],
-   "id": "u2l5e8"
+   "id": "u2l5e11"
   },
   {
    "type": "translate_he_en",
@@ -152,14 +192,14 @@
     "want",
     "book"
    ],
-   "id": "u2l5e9"
+   "id": "u2l5e12"
   },
   {
    "type": "listen_type",
    "audio_text": "I like to read.",
    "answer": "I like to read.",
    "alternatives": [],
-   "id": "u2l5e10"
+   "id": "u2l5e13"
   },
   {
    "type": "translate_en_he",
@@ -176,14 +216,20 @@
     "אוהב",
     "כלבים"
    ],
-   "id": "u2l5e11"
+   "id": "u2l5e14"
   },
   {
    "type": "listen_type",
    "audio_text": "Do you like apples?",
    "answer": "Do you like apples?",
    "alternatives": [],
-   "id": "u2l5e12"
+   "id": "u2l5e15"
+  },
+  {
+   "type": "speak",
+   "text": "I like dogs.",
+   "alternatives": [],
+   "id": "u2l5e16"
   }
  ]
 }

@@ -70,6 +70,12 @@
    "id": "u3l3e3"
   },
   {
+   "type": "speak",
+   "text": "Today is Wednesday.",
+   "alternatives": [],
+   "id": "u3l3e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "מחר שבת.",
    "answer": "Tomorrow is Saturday.",
@@ -81,7 +87,7 @@
     "today",
     "Friday"
    ],
-   "id": "u3l3e4"
+   "id": "u3l3e5"
   },
   {
    "type": "fill_blank",
@@ -94,7 +100,27 @@
    "answer": "on",
    "hint_he": "אני משחק כדורגל ביום שני.",
    "explain_he": "לפני ימי השבוע משתמשים ב־on: on Monday.",
-   "id": "u3l3e5"
+   "id": "u3l3e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אני הולך לפארק בשבת.",
+   "answer": "I go to the park on Saturday.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "go",
+    "to",
+    "the",
+    "park",
+    "on",
+    "Saturday",
+    "in",
+    "at",
+    "Sunday"
+   ],
+   "id": "u3l3e7"
   },
   {
    "type": "choose",
@@ -111,7 +137,7 @@
      "en": "Thursday"
     }
    ],
-   "id": "u3l3e6"
+   "id": "u3l3e8"
   },
   {
    "type": "translate_en_he",
@@ -125,7 +151,25 @@
     "היום",
     "שבת"
    ],
-   "id": "u3l3e7"
+   "id": "u3l3e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "We have school on Sunday.",
+   "answer": "יש לנו בית ספר ביום ראשון",
+   "alternatives": [],
+   "bank": [
+    "יש",
+    "לנו",
+    "בית",
+    "ספר",
+    "ביום",
+    "ראשון",
+    "שבת",
+    "לי"
+   ],
+   "id": "u3l3e10"
   },
   {
    "type": "fill_blank",
@@ -137,14 +181,14 @@
    ],
    "answer": "week",
    "hint_he": "יש שבעה ימים בשבוע.",
-   "id": "u3l3e8"
+   "id": "u3l3e11"
   },
   {
    "type": "listen_type",
    "audio_text": "Today is Wednesday.",
    "answer": "Today is Wednesday.",
    "alternatives": [],
-   "id": "u3l3e9"
+   "id": "u3l3e12"
   },
   {
    "type": "translate_he_en",
@@ -163,14 +207,14 @@
     "at",
     "Sunday"
    ],
-   "id": "u3l3e10"
+   "id": "u3l3e13"
   },
   {
    "type": "listen_type",
    "audio_text": "See you tomorrow!",
    "answer": "See you tomorrow!",
    "alternatives": [],
-   "id": "u3l3e11"
+   "id": "u3l3e14"
   },
   {
    "type": "translate_en_he",
@@ -187,7 +231,13 @@
     "שבת",
     "לי"
    ],
-   "id": "u3l3e12"
+   "id": "u3l3e15"
+  },
+  {
+   "type": "speak",
+   "text": "Today is Sunday.",
+   "alternatives": [],
+   "id": "u3l3e16"
   }
  ]
 }

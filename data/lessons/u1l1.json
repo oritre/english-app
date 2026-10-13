@@ -73,6 +73,12 @@
    "id": "u1l1e3"
   },
   {
+   "type": "speak",
+   "text": "Hello",
+   "alternatives": [],
+   "id": "u1l1e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "שלום, תודה!",
    "answer": "Hello, thank you!",
@@ -84,7 +90,7 @@
     "goodbye",
     "please"
    ],
-   "id": "u1l1e4"
+   "id": "u1l1e5"
   },
   {
    "type": "choose",
@@ -103,7 +109,23 @@
      "emoji": "🙏"
     }
    ],
-   "id": "u1l1e5"
+   "id": "u1l1e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "לא, תודה.",
+   "answer": "No, thank you.",
+   "alternatives": [],
+   "bank": [
+    "No",
+    "thank",
+    "you",
+    "yes",
+    "please",
+    "hello"
+   ],
+   "id": "u1l1e7"
   },
   {
    "type": "translate_en_he",
@@ -115,14 +137,28 @@
     "שלום",
     "תודה"
    ],
-   "id": "u1l1e6"
+   "id": "u1l1e8"
   },
   {
    "type": "listen_type",
    "audio_text": "Hello",
    "answer": "Hello",
    "alternatives": [],
-   "id": "u1l1e7"
+   "id": "u1l1e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "Yes, please.",
+   "answer": "כן, בבקשה",
+   "alternatives": [],
+   "bank": [
+    "כן",
+    "בבקשה",
+    "לא",
+    "תודה"
+   ],
+   "id": "u1l1e10"
   },
   {
    "type": "translate_he_en",
@@ -135,7 +171,7 @@
     "no",
     "thank"
    ],
-   "id": "u1l1e8"
+   "id": "u1l1e11"
   },
   {
    "type": "translate_he_en",
@@ -150,14 +186,14 @@
     "please",
     "hello"
    ],
-   "id": "u1l1e9"
+   "id": "u1l1e12"
   },
   {
    "type": "listen_type",
    "audio_text": "Thank you",
    "answer": "Thank you",
    "alternatives": [],
-   "id": "u1l1e10"
+   "id": "u1l1e13"
   },
   {
    "type": "translate_en_he",
@@ -170,7 +206,13 @@
     "לא",
     "תודה"
    ],
-   "id": "u1l1e11"
+   "id": "u1l1e14"
+  },
+  {
+   "type": "speak",
+   "text": "Hello, thank you!",
+   "alternatives": [],
+   "id": "u1l1e15"
   }
  ]
 }

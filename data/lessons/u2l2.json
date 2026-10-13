@@ -76,6 +76,12 @@
    "id": "u2l2e3"
   },
   {
+   "type": "speak",
+   "text": "Seven",
+   "alternatives": [],
+   "id": "u2l2e4"
+  },
+  {
    "type": "choose",
    "prompt_he": "איך כותבים 8?",
    "answer": "eight",
@@ -90,7 +96,7 @@
      "en": "six"
     }
    ],
-   "id": "u2l2e4"
+   "id": "u2l2e5"
   },
   {
    "type": "translate_he_en",
@@ -104,7 +110,24 @@
     "one",
     "a"
    ],
-   "id": "u2l2e5"
+   "id": "u2l2e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "יש לי חמישה תפוחים.",
+   "answer": "I have five apples.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "have",
+    "five",
+    "apples",
+    "apple",
+    "four",
+    "am"
+   ],
+   "id": "u2l2e7"
   },
   {
    "type": "fill_blank",
@@ -117,7 +140,7 @@
    "answer": "cats",
    "hint_he": "שלושה חתולים.",
    "explain_he": "ברבים מוסיפים s בסוף: cat ← cats.",
-   "id": "u2l2e6"
+   "id": "u2l2e8"
   },
   {
    "type": "translate_he_en",
@@ -133,7 +156,23 @@
     "four",
     "am"
    ],
-   "id": "u2l2e7"
+   "id": "u2l2e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "I have two sisters.",
+   "answer": "יש לי שתי אחיות",
+   "alternatives": [],
+   "bank": [
+    "יש",
+    "לי",
+    "שתי",
+    "אחיות",
+    "אחות",
+    "שני"
+   ],
+   "id": "u2l2e10"
   },
   {
    "type": "translate_en_he",
@@ -146,21 +185,21 @@
     "דג",
     "אחד"
    ],
-   "id": "u2l2e8"
+   "id": "u2l2e11"
   },
   {
    "type": "listen_type",
    "audio_text": "Seven",
    "answer": "Seven",
    "alternatives": [],
-   "id": "u2l2e9"
+   "id": "u2l2e12"
   },
   {
    "type": "listen_type",
    "audio_text": "Four birds",
    "answer": "Four birds",
    "alternatives": [],
-   "id": "u2l2e10"
+   "id": "u2l2e13"
   },
   {
    "type": "choose",
@@ -177,7 +216,7 @@
      "en": "nine"
     }
    ],
-   "id": "u2l2e11"
+   "id": "u2l2e14"
   },
   {
    "type": "translate_en_he",
@@ -192,7 +231,13 @@
     "אחות",
     "שני"
    ],
-   "id": "u2l2e12"
+   "id": "u2l2e15"
+  },
+  {
+   "type": "speak",
+   "text": "Two dogs.",
+   "alternatives": [],
+   "id": "u2l2e16"
   }
  ]
 }

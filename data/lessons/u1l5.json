@@ -74,6 +74,12 @@
    "id": "u1l5e3"
   },
   {
+   "type": "speak",
+   "text": "The fish is small.",
+   "alternatives": [],
+   "id": "u1l5e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "הכלב גדול.",
    "answer": "The dog is big.",
@@ -87,7 +93,7 @@
     "a",
     "am"
    ],
-   "id": "u1l5e4"
+   "id": "u1l5e5"
   },
   {
    "type": "fill_blank",
@@ -100,7 +106,27 @@
    "answer": "is",
    "hint_he": "החתול קטן.",
    "explain_he": "עם he, she, it או שם עצם אחד משתמשים ב־is.",
-   "id": "u1l5e5"
+   "id": "u1l5e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "זה כלב קטן.",
+   "answer": "This is a small dog.",
+   "alternatives": [
+    "It is a small dog."
+   ],
+   "bank": [
+    "This",
+    "is",
+    "a",
+    "small",
+    "dog",
+    "big",
+    "is",
+    "the"
+   ],
+   "id": "u1l5e7"
   },
   {
    "type": "translate_he_en",
@@ -115,7 +141,7 @@
     "blue",
     "an"
    ],
-   "id": "u1l5e6"
+   "id": "u1l5e8"
   },
   {
    "type": "translate_en_he",
@@ -130,7 +156,23 @@
     "כחול",
     "גדול"
    ],
-   "id": "u1l5e7"
+   "id": "u1l5e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "The cat is big.",
+   "answer": "החתול גדול",
+   "alternatives": [
+    "החתול הוא גדול"
+   ],
+   "bank": [
+    "החתול",
+    "גדול",
+    "קטן",
+    "כלב"
+   ],
+   "id": "u1l5e10"
   },
   {
    "type": "choose",
@@ -150,7 +192,7 @@
      "emoji": "🟩"
     }
    ],
-   "id": "u1l5e8"
+   "id": "u1l5e11"
   },
   {
    "type": "translate_he_en",
@@ -169,7 +211,7 @@
     "is",
     "the"
    ],
-   "id": "u1l5e9"
+   "id": "u1l5e12"
   },
   {
    "type": "fill_blank",
@@ -182,14 +224,14 @@
    "answer": "green",
    "hint_he": "זה תפוח ירוק.",
    "explain_he": "באנגלית התואר בא לפני שם העצם: a green apple.",
-   "id": "u1l5e10"
+   "id": "u1l5e13"
   },
   {
    "type": "listen_type",
    "audio_text": "The fish is small.",
    "answer": "The fish is small.",
    "alternatives": [],
-   "id": "u1l5e11"
+   "id": "u1l5e14"
   },
   {
    "type": "translate_en_he",
@@ -204,7 +246,13 @@
     "קטן",
     "כלב"
    ],
-   "id": "u1l5e12"
+   "id": "u1l5e15"
+  },
+  {
+   "type": "speak",
+   "text": "The dog is big.",
+   "alternatives": [],
+   "id": "u1l5e16"
   }
  ]
 }

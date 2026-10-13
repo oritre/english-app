@@ -272,12 +272,51 @@ UNITS = [
 ]
 
 
+def LT(lang, audio_text, answer, bank, alts=()):
+    return {'type': 'listen_translate', 'lang': lang, 'audio_text': audio_text, 'answer': answer,
+            'alternatives': list(alts), 'bank': list(bank)}
+
+
+def SPEAK(text, alts=()):
+    return {'type': 'speak', 'text': text, 'alternatives': list(alts)}
+
+
+def with_audio(exercises):
+    """Adds listening and speaking practice built from the lesson's own sentences:
+    hear Hebrew and answer in English, hear English and answer in Hebrew, and two
+    sentences to read aloud. Reusing checked sentences keeps answers consistent."""
+    he_en = [e for e in exercises if e['type'] == 'translate_he_en']
+    en_he = [e for e in exercises if e['type'] == 'translate_en_he']
+    listens = [e for e in exercises if e['type'] == 'listen_type']
+    out = list(exercises)
+    extra = []
+    if he_en:
+        e = he_en[-1]
+        extra.append((6, LT('he', e['prompt'], e['answer'], e['bank'], e['alternatives'])))
+    if en_he:
+        e = en_he[-1]
+        extra.append((9, LT('en', e['prompt'], e['answer'], e['bank'], e['alternatives'])))
+    speak_lines = []
+    if listens:
+        speak_lines.append((listens[0]['audio_text'], listens[0]['alternatives']))
+    if he_en:
+        speak_lines.append((he_en[0]['answer'], he_en[0]['alternatives']))
+    if speak_lines:
+        extra.append((3, SPEAK(*speak_lines[0])))
+    if len(speak_lines) > 1:
+        extra.append((len(out) + len(extra), SPEAK(*speak_lines[1])))
+    for pos, ex in sorted(extra, key=lambda x: x[0]):
+        out.insert(min(pos, len(out)), ex)
+    return out
+
+
 def main():
     os.makedirs(os.path.join(ROOT, 'lessons'), exist_ok=True)
     course = {'units': [], 'lesson_titles': {}}
     for unit in UNITS:
         lesson_ids = []
         for lesson_id, title_he, exercises in unit['lessons']:
+            exercises = with_audio(exercises)
             lesson_ids.append(lesson_id)
             course['lesson_titles'][lesson_id] = title_he
             for i, ex in enumerate(exercises):
@@ -288,7 +327,7 @@ def main():
         course['units'].append({k: unit[k] for k in ('id', 'cefr', 'title_he', 'title_en')} | {'lessons': lesson_ids})
     with open(os.path.join(ROOT, 'course.json'), 'w', encoding='utf-8') as f:
         json.dump(course, f, ensure_ascii=False, indent=1)
-    total = sum(len(l[2]) for u in UNITS for l in u['lessons'])
+    total = sum(len(with_audio(l[2])) for u in UNITS for l in u['lessons'])
     print(f"{len(UNITS)} units, {sum(len(u['lessons']) for u in UNITS)} lessons, {total} exercises")
 
 

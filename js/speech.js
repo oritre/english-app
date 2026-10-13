@@ -19,12 +19,27 @@ export function canSpeak() {
   return 'speechSynthesis' in window;
 }
 
-export function speak(text, { slow = false } = {}) {
+function voiceFor(lang) {
+  if (lang === 'en-US') return voice;
+  const prefix = lang.split('-')[0];
+  return speechSynthesis.getVoices().find((v) => v.lang.replace('_', '-').toLowerCase().startsWith(prefix)) || null;
+}
+
+// True when the device has a voice for the language. Voices can load late, so
+// before they arrive we assume English works (almost every device has it).
+export function canSpeakLang(lang) {
+  if (!canSpeak()) return false;
+  if (speechSynthesis.getVoices().length === 0) return lang.startsWith('en');
+  return !!voiceFor(lang);
+}
+
+export function speak(text, { slow = false, lang = 'en-US' } = {}) {
   if (!canSpeak()) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'en-US';
-  if (voice) u.voice = voice;
+  u.lang = lang;
+  const v = voiceFor(lang);
+  if (v) u.voice = v;
   u.rate = slow ? 0.6 : 0.95;
   speechSynthesis.speak(u);
 }

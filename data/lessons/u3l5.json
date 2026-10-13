@@ -57,6 +57,12 @@
    "id": "u3l5e3"
   },
   {
+   "type": "speak",
+   "text": "Can you help me?",
+   "alternatives": [],
+   "id": "u3l5e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "אתה יכול לעזור לי?",
    "answer": "Can you help me?",
@@ -71,7 +77,7 @@
     "I",
     "my"
    ],
-   "id": "u3l5e4"
+   "id": "u3l5e5"
   },
   {
    "type": "fill_blank",
@@ -84,7 +90,22 @@
    "answer": "can't",
    "hint_he": "אני לא יודע לשחות. אני לומד.",
    "explain_he": "can't = can not, לא יכול.",
-   "id": "u3l5e5"
+   "id": "u3l5e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "כן, אני יכול.",
+   "answer": "Yes, I can.",
+   "alternatives": [],
+   "bank": [
+    "Yes",
+    "I",
+    "can",
+    "no",
+    "do"
+   ],
+   "id": "u3l5e7"
   },
   {
    "type": "translate_en_he",
@@ -98,7 +119,7 @@
     "לשחות",
     "הם"
    ],
-   "id": "u3l5e6"
+   "id": "u3l5e8"
   },
   {
    "type": "choose",
@@ -115,34 +136,12 @@
      "en": "I not can"
     }
    ],
-   "id": "u3l5e7"
-  },
-  {
-   "type": "translate_he_en",
-   "prompt": "הכלב יכול לרוץ מהר.",
-   "answer": "The dog can run fast.",
-   "alternatives": [],
-   "bank": [
-    "The",
-    "dog",
-    "can",
-    "run",
-    "fast",
-    "cat",
-    "runs"
-   ],
-   "id": "u3l5e8"
-  },
-  {
-   "type": "listen_type",
-   "audio_text": "Can you help me?",
-   "answer": "Can you help me?",
-   "alternatives": [],
    "id": "u3l5e9"
   },
   {
-   "type": "translate_en_he",
-   "prompt": "My sister can swim.",
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "My sister can swim.",
    "answer": "אחות שלי יכולה לשחות",
    "alternatives": [
     "אחותי יודעת לשחות",
@@ -160,6 +159,47 @@
   },
   {
    "type": "translate_he_en",
+   "prompt": "הכלב יכול לרוץ מהר.",
+   "answer": "The dog can run fast.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "dog",
+    "can",
+    "run",
+    "fast",
+    "cat",
+    "runs"
+   ],
+   "id": "u3l5e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Can you help me?",
+   "answer": "Can you help me?",
+   "alternatives": [],
+   "id": "u3l5e12"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "My sister can swim.",
+   "answer": "אחות שלי יכולה לשחות",
+   "alternatives": [
+    "אחותי יודעת לשחות",
+    "אחותי יכולה לשחות"
+   ],
+   "bank": [
+    "אחות",
+    "שלי",
+    "יכולה",
+    "לשחות",
+    "אח",
+    "לרוץ"
+   ],
+   "id": "u3l5e13"
+  },
+  {
+   "type": "translate_he_en",
    "prompt": "כן, אני יכול.",
    "answer": "Yes, I can.",
    "alternatives": [],
@@ -170,14 +210,20 @@
     "no",
     "do"
    ],
-   "id": "u3l5e11"
+   "id": "u3l5e14"
   },
   {
    "type": "listen_type",
    "audio_text": "I can read English!",
    "answer": "I can read English!",
    "alternatives": [],
-   "id": "u3l5e12"
+   "id": "u3l5e15"
+  },
+  {
+   "type": "speak",
+   "text": "I can swim.",
+   "alternatives": [],
+   "id": "u3l5e16"
   }
  ]
 }

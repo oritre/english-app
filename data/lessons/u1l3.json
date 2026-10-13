@@ -68,6 +68,14 @@
    "id": "u1l3e3"
   },
   {
+   "type": "speak",
+   "text": "This is a cat.",
+   "alternatives": [
+    "It is a cat."
+   ],
+   "id": "u1l3e4"
+  },
+  {
    "type": "match_pairs",
    "pairs": [
     [
@@ -91,7 +99,7 @@
      "סוס"
     ]
    ],
-   "id": "u1l3e4"
+   "id": "u1l3e5"
   },
   {
    "type": "translate_he_en",
@@ -110,7 +118,25 @@
     "the",
     "am"
    ],
-   "id": "u1l3e5"
+   "id": "u1l3e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "הכלב והחתול.",
+   "answer": "The dog and the cat.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "dog",
+    "and",
+    "the",
+    "cat",
+    "a",
+    "is",
+    "bird"
+   ],
+   "id": "u1l3e7"
   },
   {
    "type": "fill_blank",
@@ -123,7 +149,7 @@
    "answer": "a",
    "hint_he": "זה חתול.",
    "explain_he": "לפני שם עצם אחד באנגלית מוסיפים a.",
-   "id": "u1l3e6"
+   "id": "u1l3e8"
   },
   {
    "type": "translate_en_he",
@@ -136,7 +162,21 @@
     "כלב",
     "חתול"
    ],
-   "id": "u1l3e7"
+   "id": "u1l3e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "The bird and the fish.",
+   "answer": "הציפור והדג",
+   "alternatives": [],
+   "bank": [
+    "הציפור",
+    "והדג",
+    "כלב",
+    "זה"
+   ],
+   "id": "u1l3e10"
   },
   {
    "type": "listen_type",
@@ -145,7 +185,7 @@
    "alternatives": [
     "It is a cat."
    ],
-   "id": "u1l3e8"
+   "id": "u1l3e11"
   },
   {
    "type": "translate_he_en",
@@ -162,7 +202,7 @@
     "is",
     "bird"
    ],
-   "id": "u1l3e9"
+   "id": "u1l3e12"
   },
   {
    "type": "choose",
@@ -182,7 +222,7 @@
      "emoji": "🐱"
     }
    ],
-   "id": "u1l3e10"
+   "id": "u1l3e13"
   },
   {
    "type": "translate_en_he",
@@ -195,14 +235,23 @@
     "כלב",
     "זה"
    ],
-   "id": "u1l3e11"
+   "id": "u1l3e14"
   },
   {
    "type": "listen_type",
    "audio_text": "The dog",
    "answer": "The dog",
    "alternatives": [],
-   "id": "u1l3e12"
+   "id": "u1l3e15"
+  },
+  {
+   "type": "speak",
+   "text": "This is a dog.",
+   "alternatives": [
+    "It's a dog.",
+    "It is a dog."
+   ],
+   "id": "u1l3e16"
   }
  ]
 }

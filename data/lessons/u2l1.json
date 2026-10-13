@@ -70,6 +70,12 @@
    "id": "u2l1e3"
   },
   {
+   "type": "speak",
+   "text": "This is my family.",
+   "alternatives": [],
+   "id": "u2l1e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "זאת אמא שלי.",
    "answer": "This is my mother.",
@@ -85,7 +91,7 @@
     "your",
     "is"
    ],
-   "id": "u2l1e4"
+   "id": "u2l1e5"
   },
   {
    "type": "translate_he_en",
@@ -102,7 +108,23 @@
     "mother",
     "the"
    ],
-   "id": "u2l1e5"
+   "id": "u2l1e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "התינוק קטן.",
+   "answer": "The baby is small.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "baby",
+    "is",
+    "small",
+    "big",
+    "a"
+   ],
+   "id": "u2l1e7"
   },
   {
    "type": "fill_blank",
@@ -115,7 +137,7 @@
    "answer": "my",
    "hint_he": "זה אח שלי.",
    "explain_he": "באנגלית \"שלי\" בא לפני המילה: my brother.",
-   "id": "u2l1e6"
+   "id": "u2l1e8"
   },
   {
    "type": "translate_en_he",
@@ -133,7 +155,24 @@
     "אח",
     "זה"
    ],
-   "id": "u2l1e7"
+   "id": "u2l1e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "My father is big.",
+   "answer": "אבא שלי גדול",
+   "alternatives": [
+    "אבי גדול"
+   ],
+   "bank": [
+    "אבא",
+    "שלי",
+    "גדול",
+    "אמא",
+    "קטן"
+   ],
+   "id": "u2l1e10"
   },
   {
    "type": "choose",
@@ -153,14 +192,14 @@
      "emoji": "👶"
     }
    ],
-   "id": "u2l1e8"
+   "id": "u2l1e11"
   },
   {
    "type": "listen_type",
    "audio_text": "This is my family.",
    "answer": "This is my family.",
    "alternatives": [],
-   "id": "u2l1e9"
+   "id": "u2l1e12"
   },
   {
    "type": "translate_he_en",
@@ -175,7 +214,7 @@
     "big",
     "a"
    ],
-   "id": "u2l1e10"
+   "id": "u2l1e13"
   },
   {
    "type": "translate_en_he",
@@ -191,14 +230,22 @@
     "אמא",
     "קטן"
    ],
-   "id": "u2l1e11"
+   "id": "u2l1e14"
   },
   {
    "type": "listen_type",
    "audio_text": "My mother and my father.",
    "answer": "My mother and my father.",
    "alternatives": [],
-   "id": "u2l1e12"
+   "id": "u2l1e15"
+  },
+  {
+   "type": "speak",
+   "text": "This is my mother.",
+   "alternatives": [
+    "This is my mom."
+   ],
+   "id": "u2l1e16"
   }
  ]
 }

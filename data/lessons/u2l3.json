@@ -53,6 +53,12 @@
    "id": "u2l3e3"
   },
   {
+   "type": "speak",
+   "text": "She has a dog.",
+   "alternatives": [],
+   "id": "u2l3e4"
+  },
+  {
    "type": "fill_blank",
    "sentence": "I ___ a sister.",
    "options": [
@@ -62,7 +68,7 @@
    ],
    "answer": "have",
    "hint_he": "יש לי אחות.",
-   "id": "u2l3e4"
+   "id": "u2l3e5"
   },
   {
    "type": "match_pairs",
@@ -88,7 +94,27 @@
      "יש ל..."
     ]
    ],
-   "id": "u2l3e5"
+   "id": "u2l3e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אין לי כלב.",
+   "answer": "I don't have a dog.",
+   "alternatives": [
+    "I do not have a dog."
+   ],
+   "bank": [
+    "I",
+    "don't",
+    "have",
+    "a",
+    "dog",
+    "has",
+    "not",
+    "cat"
+   ],
+   "id": "u2l3e7"
   },
   {
    "type": "translate_en_he",
@@ -102,7 +128,7 @@
     "לי",
     "אח"
    ],
-   "id": "u2l3e6"
+   "id": "u2l3e8"
   },
   {
    "type": "fill_blank",
@@ -114,7 +140,23 @@
    ],
    "answer": "have",
    "hint_he": "יש להם שני חתולים.",
-   "id": "u2l3e7"
+   "id": "u2l3e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "He has a red apple.",
+   "answer": "יש לו תפוח אדום",
+   "alternatives": [],
+   "bank": [
+    "יש",
+    "לו",
+    "תפוח",
+    "אדום",
+    "לה",
+    "ירוק"
+   ],
+   "id": "u2l3e10"
   },
   {
    "type": "translate_he_en",
@@ -130,14 +172,14 @@
     "brother",
     "two"
    ],
-   "id": "u2l3e8"
+   "id": "u2l3e11"
   },
   {
    "type": "listen_type",
    "audio_text": "She has a dog.",
    "answer": "She has a dog.",
    "alternatives": [],
-   "id": "u2l3e9"
+   "id": "u2l3e12"
   },
   {
    "type": "translate_en_he",
@@ -152,14 +194,14 @@
     "לה",
     "ירוק"
    ],
-   "id": "u2l3e10"
+   "id": "u2l3e13"
   },
   {
    "type": "listen_type",
    "audio_text": "I have a big family.",
    "answer": "I have a big family.",
    "alternatives": [],
-   "id": "u2l3e11"
+   "id": "u2l3e14"
   },
   {
    "type": "translate_he_en",
@@ -178,7 +220,15 @@
     "not",
     "cat"
    ],
-   "id": "u2l3e12"
+   "id": "u2l3e15"
+  },
+  {
+   "type": "speak",
+   "text": "I have a brother.",
+   "alternatives": [
+    "I've got a brother."
+   ],
+   "id": "u2l3e16"
   }
  ]
 }

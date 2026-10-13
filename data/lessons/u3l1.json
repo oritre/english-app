@@ -62,6 +62,12 @@
    "id": "u3l1e3"
   },
   {
+   "type": "speak",
+   "text": "Good morning, Mom!",
+   "alternatives": [],
+   "id": "u3l1e4"
+  },
+  {
    "type": "fill_blank",
    "sentence": "She ___ up at six.",
    "options": [
@@ -72,7 +78,7 @@
    "answer": "wakes",
    "hint_he": "היא מתעוררת בשש.",
    "explain_he": "עם she מוסיפים s לפועל: wake ← wakes.",
-   "id": "u3l1e4"
+   "id": "u3l1e5"
   },
   {
    "type": "translate_he_en",
@@ -86,7 +92,26 @@
     "drink",
     "morning"
    ],
-   "id": "u3l1e5"
+   "id": "u3l1e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "הוא הולך לבית הספר.",
+   "answer": "He goes to school.",
+   "alternatives": [
+    "He is going to school."
+   ],
+   "bank": [
+    "He",
+    "goes",
+    "to",
+    "school",
+    "go",
+    "at",
+    "home"
+   ],
+   "id": "u3l1e7"
   },
   {
    "type": "choose",
@@ -106,7 +131,7 @@
      "emoji": "👋"
     }
    ],
-   "id": "u3l1e6"
+   "id": "u3l1e8"
   },
   {
    "type": "fill_blank",
@@ -119,7 +144,21 @@
    "answer": "to",
    "hint_he": "אני הולך לבית הספר כל יום.",
    "explain_he": "הולכים to מקום: go to school, go to the park.",
-   "id": "u3l1e7"
+   "id": "u3l1e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "Good night!",
+   "answer": "לילה טוב",
+   "alternatives": [],
+   "bank": [
+    "לילה",
+    "טוב",
+    "בוקר",
+    "להתראות"
+   ],
+   "id": "u3l1e10"
   },
   {
    "type": "translate_en_he",
@@ -136,7 +175,7 @@
     "לילה",
     "שותים"
    ],
-   "id": "u3l1e8"
+   "id": "u3l1e11"
   },
   {
    "type": "translate_he_en",
@@ -154,14 +193,14 @@
     "at",
     "home"
    ],
-   "id": "u3l1e9"
+   "id": "u3l1e12"
   },
   {
    "type": "listen_type",
    "audio_text": "Good morning, Mom!",
    "answer": "Good morning, Mom!",
    "alternatives": [],
-   "id": "u3l1e10"
+   "id": "u3l1e13"
   },
   {
    "type": "translate_en_he",
@@ -174,14 +213,20 @@
     "בוקר",
     "להתראות"
    ],
-   "id": "u3l1e11"
+   "id": "u3l1e14"
   },
   {
    "type": "listen_type",
    "audio_text": "I go to school every day.",
    "answer": "I go to school every day.",
    "alternatives": [],
-   "id": "u3l1e12"
+   "id": "u3l1e15"
+  },
+  {
+   "type": "speak",
+   "text": "Good morning!",
+   "alternatives": [],
+   "id": "u3l1e16"
   }
  ]
 }

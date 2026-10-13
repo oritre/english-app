@@ -70,6 +70,14 @@
    "id": "u3l4e3"
   },
   {
+   "type": "speak",
+   "text": "It is cold today.",
+   "alternatives": [
+    "It's cold today."
+   ],
+   "id": "u3l4e4"
+  },
+  {
    "type": "translate_he_en",
    "prompt": "היום חם.",
    "answer": "It is hot today.",
@@ -86,7 +94,7 @@
     "cold",
     "is"
    ],
-   "id": "u3l4e4"
+   "id": "u3l4e5"
   },
   {
    "type": "fill_blank",
@@ -98,7 +106,29 @@
    ],
    "answer": "coat",
    "hint_he": "קר. אני צריך מעיל.",
-   "id": "u3l4e5"
+   "id": "u3l4e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אני לובש חולצה כחולה.",
+   "answer": "I am wearing a blue shirt.",
+   "alternatives": [
+    "I'm wearing a blue shirt.",
+    "I wear a blue shirt."
+   ],
+   "bank": [
+    "I",
+    "am",
+    "wearing",
+    "a",
+    "blue",
+    "shirt",
+    "wear",
+    "red",
+    "coat"
+   ],
+   "id": "u3l4e7"
   },
   {
    "type": "translate_he_en",
@@ -114,7 +144,7 @@
     "rain",
     "sun"
    ],
-   "id": "u3l4e6"
+   "id": "u3l4e8"
   },
   {
    "type": "translate_en_he",
@@ -130,7 +160,24 @@
     "חולצה",
     "כחולות"
    ],
-   "id": "u3l4e7"
+   "id": "u3l4e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "My shoes are red.",
+   "answer": "הנעליים שלי אדומות",
+   "alternatives": [
+    "הנעליים שלי הן אדומות"
+   ],
+   "bank": [
+    "הנעליים",
+    "שלי",
+    "אדומות",
+    "חולצה",
+    "כחולות"
+   ],
+   "id": "u3l4e10"
   },
   {
    "type": "fill_blank",
@@ -143,7 +190,7 @@
    "answer": "are",
    "hint_he": "הנעליים שלי חדשות.",
    "explain_he": "עם רבים משתמשים ב־are.",
-   "id": "u3l4e8"
+   "id": "u3l4e11"
   },
   {
    "type": "choose",
@@ -163,7 +210,7 @@
      "emoji": "🩴"
     }
    ],
-   "id": "u3l4e9"
+   "id": "u3l4e12"
   },
   {
    "type": "listen_type",
@@ -172,7 +219,7 @@
    "alternatives": [
     "It's cold today."
    ],
-   "id": "u3l4e10"
+   "id": "u3l4e13"
   },
   {
    "type": "translate_he_en",
@@ -193,14 +240,24 @@
     "red",
     "coat"
    ],
-   "id": "u3l4e11"
+   "id": "u3l4e14"
   },
   {
    "type": "listen_type",
    "audio_text": "I like the sun.",
    "answer": "I like the sun.",
    "alternatives": [],
-   "id": "u3l4e12"
+   "id": "u3l4e15"
+  },
+  {
+   "type": "speak",
+   "text": "It is hot today.",
+   "alternatives": [
+    "It's hot today.",
+    "Today it is hot.",
+    "Today is hot."
+   ],
+   "id": "u3l4e16"
   }
  ]
 }

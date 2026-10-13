@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { checkAnswer, normalize } from '../js/check.js';
+import { checkAnswer, normalize, checkSpeech } from '../js/check.js';
 import { computeStreak, xpForLesson } from '../js/streak.js';
 import { addDays } from '../js/dates.js';
 import { readFileSync, readdirSync } from 'node:fs';
@@ -45,7 +45,7 @@ test('every lesson is well formed and its answers can be built from its tiles', 
     const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
     for (const ex of lesson.exercises) {
       const where = `${id} ${ex.id}`;
-      if (ex.type.startsWith('translate')) {
+      if (ex.type.startsWith('translate') || ex.type === 'listen_translate') {
         assert.equal(checkAnswer(normalize(ex.answer).split(' ').join(' '), ex.answer).result, 'correct', where);
         const bank = normalize(ex.bank.join(' ')).split(' ');
         for (const w of normalize(ex.answer).split(' ')) assert.ok(bank.includes(w), `${where}: tile missing for "${w}"`);
@@ -116,4 +116,18 @@ test('league: board fills to size, ranks, zones', () => {
   assert.equal(zoneFor(1, 4), 'stay'); // no promotion from the top
   assert.equal(nextTier(0, 'up'), 1);
   assert.equal(nextTier(0, 'down'), 0);
+});
+
+test('speech: word-level match with numbers, contractions and a missed word', () => {
+  assert.equal(checkSpeech(['this is a cat'], 'This is a cat.').pass, true);
+  assert.equal(checkSpeech(['I wake up at 7'], 'I wake up at seven.').pass, true);
+  assert.equal(checkSpeech(["I'm fine thank you"], 'I am fine, thank you.').pass, true);
+  const r = checkSpeech(['this is the dog'], 'This is a cat.');
+  assert.equal(r.pass, false);
+  assert.deepEqual(r.words.map((w) => w.ok), [true, true, false, false]);
+  assert.equal(r.words[3].word, 'cat');
+  const best = checkSpeech(['this is a hat', 'this is a cat'], 'This is a cat.');
+  assert.equal(best.score, 1);
+  assert.equal(checkSpeech(['nice to meet'], 'Nice to meet you.').pass, false); // 3 of 4 words
+  assert.equal(checkSpeech(['my name is dana'], 'My name is Dana.').pass, true);
 });
