@@ -214,3 +214,30 @@ button:focus-visible, textarea:focus-visible { outline: 3px solid var(--sun); ou
 }
 .test-tag { align-self: flex-start; font-size: 13px; font-weight: 700; color: var(--sun-deep); letter-spacing: .03em; margin-top: -8px; margin-bottom: 8px; }
 .lesson-footer.brief .btn { visibility: hidden; }
+
+/* League */
+.stat.league-btn { cursor: pointer; font: inherit; font-weight: 700; color: var(--fg); }
+.league { display: flex; flex-direction: column; gap: 12px; padding-block: 12px 24px; }
+.tier-strip { display: flex; justify-content: center; gap: 10px; }
+.tier { font-size: 26px; width: 48px; height: 48px; display: grid; place-items: center; border-radius: 14px; background: var(--surface); border: 2px solid var(--line); opacity: .45; }
+.tier.past { opacity: .8; }
+.tier.current { opacity: 1; border-color: var(--tier); box-shadow: 0 4px 0 var(--tier); transform: scale(1.12); }
+.league-sub { text-align: center; margin: 0; font-size: 15px; }
+.league-banner { padding: 12px 14px; border-radius: var(--radius); font-weight: 700; background: var(--surface); border: 2px solid var(--line); }
+.league-banner.up { background: var(--good-bg); border-color: var(--good); }
+.league-banner.down { background: var(--bad-bg); border-color: var(--bad); }
+.league-join { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 12px 14px; border-radius: var(--radius); background: var(--surface); border: 2px dashed var(--sun); font-weight: 500; }
+.league-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.league-row { display: grid; grid-template-columns: 36px 40px 1fr auto; align-items: center; gap: 8px; padding: 10px 8px; border-bottom: 1px solid var(--line); }
+.league-row .rank { font-weight: 700; text-align: center; font-variant-numeric: tabular-nums; color: var(--muted); }
+.league-row.up .rank { color: var(--good); }
+.league-row.down .rank { color: var(--bad); }
+.avatar.sm { font-size: 26px; text-align: center; }
+.lname { font-weight: 500; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; unicode-bidi: plaintext; text-align: right; }
+.lxp { font-variant-numeric: tabular-nums; color: var(--muted); font-weight: 500; }
+.league-row.me { background: color-mix(in srgb, var(--sun) 18%, var(--surface)); border-radius: 12px; border-bottom-color: transparent; }
+.league-row.me .lname, .league-row.me .lxp { font-weight: 700; color: var(--fg); }
+.zone-line { text-align: center; font-size: 12px; font-weight: 700; letter-spacing: .04em; padding: 4px 0; }
+.zone-line.up { color: var(--good); border-bottom: 2px solid var(--good); }
+.zone-line.down { color: var(--bad); border-top: 2px solid var(--bad); }
+.league-note { border: none; background: none; cursor: pointer; font: inherit; font-weight: 700; color: var(--ink); text-decoration: underline; }

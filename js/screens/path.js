@@ -1,6 +1,7 @@
 import { el, en } from '../util.js';
 import { loadCourse, lessonStates } from '../course.js';
-import { doneLessonIds, stats, getProfile } from '../progress.js';
+import { doneLessonIds, stats, getProfile, settleLeagues } from '../progress.js';
+import { TIERS } from '../league.js';
 
 export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
@@ -8,10 +9,12 @@ export function topBar(s, profile, nav) {
       profile.avatar, ' ', profile.name),
     el('span', { class: `stat streak ${s.streak > 0 ? 'on' : ''}`, title: 'רצף ימים' }, '🔥 ', s.streak),
     el('span', { class: 'stat xp', title: 'XP היום / יעד' }, '⭐ ', `${s.todayXp}/${s.goalXp}`),
-    el('span', { class: 'stat total', title: 'סה"כ XP', dir: 'ltr' }, `${s.totalXp} XP`));
+    el('button', { class: 'stat league-btn', type: 'button', title: 'הליגה שלי', onclick: () => nav('league') },
+      TIERS[profile.league.tier].icon, ' ', TIERS[profile.league.tier].name));
 }
 
 export async function renderPath(root, nav) {
+  await settleLeagues();
   const [course, done, s, profile] = await Promise.all([loadCourse(), doneLessonIds(), stats(), getProfile()]);
   const states = lessonStates(course, done);
   const titles = course.lesson_titles || {};

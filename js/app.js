@@ -3,6 +3,7 @@ import { renderLesson } from './screens/lesson.js';
 import { renderComplete } from './screens/complete.js';
 import { renderProfiles, renderProfileCreate, renderStartChoice } from './screens/profiles.js';
 import { renderPlacement } from './screens/placement.js';
+import { renderLeague } from './screens/league.js';
 import { getProfile, setCurrentProfile } from './progress.js';
 
 const routes = {
@@ -10,6 +11,7 @@ const routes = {
   profileCreate: renderProfileCreate,
   startChoice: renderStartChoice,
   placement: renderPlacement,
+  league: renderLeague,
   path: renderPath,
   lesson: renderLesson,
   complete: renderComplete,

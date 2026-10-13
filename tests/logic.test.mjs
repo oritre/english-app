@@ -83,3 +83,37 @@ test('placement: builds one testable question per lesson from the real course', 
   assert.equal(t.length, course.units.length);
   t.forEach((u, i) => assert.equal(u.items.length, course.units[i].lessons.length));
 });
+
+import { weekStart, simulatedLearner, simulatedXp, buildBoard, nextTier, zoneFor, LEAGUE_SIZE } from '../js/league.js';
+
+test('league: week starts on Sunday', () => {
+  assert.equal(weekStart(new Date(2026, 9, 13, 15)), '2026-10-11'); // Tuesday
+  assert.equal(weekStart(new Date(2026, 9, 11, 0, 5)), '2026-10-11'); // Sunday
+  assert.equal(weekStart(new Date(2026, 9, 17, 23)), '2026-10-11'); // Saturday
+});
+
+test('league: simulated learners are stable, grow over the week and differ from each other', () => {
+  const a = simulatedLearner('2026-10-11', 0, 3);
+  assert.deepEqual(a, simulatedLearner('2026-10-11', 0, 3));
+  const mid = new Date(2026, 9, 14, 12).getTime(), end = new Date(2026, 9, 18).getTime();
+  assert.ok(simulatedXp(a, mid) <= simulatedXp(a, end));
+  const totals = Array.from({ length: 40 }, (_, i) => simulatedXp(simulatedLearner('2026-10-11', 0, i), end));
+  assert.ok(new Set(totals).size > 20, 'totals vary');
+  assert.ok(Math.max(...totals) > 150 && Math.min(...totals) < 100, `spread ${Math.min(...totals)}-${Math.max(...totals)}`);
+  const avg = (t) => Array.from({ length: 60 }, (_, i) => simulatedXp(simulatedLearner('2026-10-11', t, i), end)).reduce((x, y) => x + y) / 60;
+  assert.ok(avg(4) > avg(0), 'higher tiers are busier');
+});
+
+test('league: board fills to size, ranks, zones', () => {
+  const now = new Date(2026, 9, 15).getTime();
+  const b = buildBoard('2026-10-11', 1, [{ id: 'me', name: 'אורי', avatar: '🦊', xp: 99999 }], now);
+  assert.equal(b.length, LEAGUE_SIZE);
+  assert.equal(b[0].id, 'me');
+  assert.equal(b[0].zone, 'up');
+  assert.equal(b[LEAGUE_SIZE - 1].zone, 'down');
+  assert.equal(new Set(b.map((r) => r.name)).size, LEAGUE_SIZE);
+  assert.equal(zoneFor(15, 0), 'stay'); // no demotion from the lowest tier
+  assert.equal(zoneFor(1, 4), 'stay'); // no promotion from the top
+  assert.equal(nextTier(0, 'up'), 1);
+  assert.equal(nextTier(0, 'down'), 0);
+});

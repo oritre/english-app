@@ -1,5 +1,6 @@
 import { store, newId } from './db.js';
-import { localISO } from './dates.js';
+import { localISO, addDays } from './dates.js';
+import { weekStart, weekEnd, buildBoard, nextTier, TIERS } from './league.js';
 import { computeStreak } from './streak.js';
 
 // Several learners can share one device. The chosen one is remembered per
@@ -93,4 +94,62 @@ export async function saveLessonResult({ lessonId, xp, accuracy, durationS, mist
 
   const after = await stats();
   return { streakBefore: before.streak, streakAfter: after.streak, goalMetNow: !wasMet && day.goal_met };
+}
+
+// ---- leagues ----
+
+async function weekXp(profileId, weekId) {
+  const end = addDays(weekId, 7);
+  const days = await store.byIndex('days', 'profile_id', profileId);
+  return days.filter((d) => d.date >= weekId && d.date < end).reduce((s, d) => s + d.xp, 0);
+}
+
+async function realMembers(profiles, weekId, tier) {
+  const rows = [];
+  for (const p of profiles) {
+    if (!p.league || p.league.week !== weekId || p.league.tier !== tier) continue;
+    const xp = await weekXp(p.id, weekId);
+    if (xp > 0) rows.push({ id: p.id, name: p.name, avatar: p.avatar, xp });
+  }
+  return rows;
+}
+
+// Closes any finished week: ranks each learner on that week's final board and
+// moves them up or down a tier. Weeks with no XP leave the tier as it was.
+export async function settleLeagues(now = new Date()) {
+  const thisWeek = weekStart(now);
+  const profiles = await listProfiles();
+  const updates = [];
+  for (const p of profiles) {
+    if (!p.league) { p.league = { tier: 0, week: thisWeek }; updates.push(p); continue; }
+    if (p.league.week === thisWeek) continue;
+    const old = p.league;
+    const real = await realMembers(profiles, old.week, old.tier);
+    const mine = real.find((r) => r.id === p.id);
+    if (mine) {
+      const board = buildBoard(old.week, old.tier, real, weekEnd(old.week) - 1);
+      const row = board.find((r) => r.id === p.id);
+      p.last_result = { week: old.week, tier: old.tier, rank: row.rank, zone: row.zone, seen: false };
+      p.league = { tier: nextTier(old.tier, row.zone), week: thisWeek };
+    } else {
+      p.league = { tier: old.tier, week: thisWeek };
+    }
+    updates.push(p);
+  }
+  for (const p of updates) await store.put('profiles', p);
+}
+
+export async function leagueView(now = new Date()) {
+  await settleLeagues(now);
+  const profiles = await listProfiles();
+  const me = profiles.find((p) => p.id === currentId);
+  const { tier, week } = me.league;
+  const real = await realMembers(profiles, week, tier);
+  const board = buildBoard(week, tier, real, now.getTime());
+  return { tier: TIERS[tier], week, board, myRow: board.find((r) => r.id === me.id) || null, lastResult: me.last_result, profile: me };
+}
+
+export async function markResultSeen() {
+  const p = await getProfile();
+  if (p.last_result) { p.last_result.seen = true; await store.put('profiles', p); }
 }
