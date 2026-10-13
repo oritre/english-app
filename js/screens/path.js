@@ -1,16 +1,18 @@
 import { el, en } from '../util.js';
 import { loadCourse, lessonStates } from '../course.js';
-import { doneLessonIds, stats } from '../progress.js';
+import { doneLessonIds, stats, getProfile } from '../progress.js';
 
-export function topBar(s) {
+export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
+    el('button', { class: 'stat who', type: 'button', title: 'החלפת לומד', onclick: () => nav('profiles') },
+      profile.avatar, ' ', profile.name),
     el('span', { class: `stat streak ${s.streak > 0 ? 'on' : ''}`, title: 'רצף ימים' }, '🔥 ', s.streak),
     el('span', { class: 'stat xp', title: 'XP היום / יעד' }, '⭐ ', `${s.todayXp}/${s.goalXp}`),
-    el('span', { class: 'stat total', title: 'סה"כ XP' }, `${s.totalXp} XP`));
+    el('span', { class: 'stat total', title: 'סה"כ XP', dir: 'ltr' }, `${s.totalXp} XP`));
 }
 
 export async function renderPath(root, nav) {
-  const [course, done, s] = await Promise.all([loadCourse(), doneLessonIds(), stats()]);
+  const [course, done, s, profile] = await Promise.all([loadCourse(), doneLessonIds(), stats(), getProfile()]);
   const states = lessonStates(course, done);
   const titles = course.lesson_titles || {};
 
@@ -36,7 +38,9 @@ export async function renderPath(root, nav) {
       el('div', { class: 'nodes' }, nodes));
   });
 
-  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s), units));
+  const test = el('button', { class: 'retest', type: 'button', onclick: () => nav('placement') },
+    '🎯 ', profile.placement ? 'לעשות שוב את מבחן הרמה' : 'מבחן רמה: לקפוץ קדימה');
+  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), units, test));
   const current = root.querySelector('.node.current');
   if (current) current.scrollIntoView({ block: 'center' });
 }

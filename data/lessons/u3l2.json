@@ -1,0 +1,197 @@
+{
+ "id": "u3l2",
+ "unit_id": "u3",
+ "title_he": "שאלות",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "what",
+     "מה"
+    ],
+    [
+     "who",
+     "מי"
+    ],
+    [
+     "where",
+     "איפה"
+    ],
+    [
+     "how",
+     "איך"
+    ],
+    [
+     "why",
+     "למה"
+    ]
+   ],
+   "id": "u3l2e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "מה השם שלך?",
+   "answer": "What is your name?",
+   "alternatives": [
+    "What's your name?"
+   ],
+   "bank": [
+    "What",
+    "is",
+    "your",
+    "name",
+    "my",
+    "who"
+   ],
+   "id": "u3l2e2"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "מי זה?",
+   "answer": "Who is this?",
+   "alternatives": [
+    "Who's this?",
+    "Who is that?"
+   ],
+   "bank": [
+    "Who",
+    "is",
+    "this",
+    "what",
+    "are"
+   ],
+   "id": "u3l2e3"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "___ are you?",
+   "options": [
+    "How",
+    "Who",
+    "What"
+   ],
+   "answer": "How",
+   "hint_he": "מה שלומך?",
+   "explain_he": "How are you? היא הדרך לשאול \"מה שלומך\".",
+   "id": "u3l2e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אתה אוהב חלב?",
+   "answer": "Do you like milk?",
+   "alternatives": [
+    "Do you like the milk?"
+   ],
+   "bank": [
+    "Do",
+    "you",
+    "like",
+    "milk",
+    "does",
+    "likes",
+    "water"
+   ],
+   "id": "u3l2e5"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "___ she like cats?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": "Does",
+   "hint_he": "היא אוהבת חתולים?",
+   "explain_he": "שאלה עם she מתחילה ב־Does, ואז הפועל בלי s.",
+   "id": "u3l2e6"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Where is my book?",
+   "answer": "איפה הספר שלי",
+   "alternatives": [
+    "איפה הספר שלי נמצא"
+   ],
+   "bank": [
+    "איפה",
+    "הספר",
+    "שלי",
+    "מה",
+    "מי"
+   ],
+   "id": "u3l2e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך עונים \"כן\" על Do you like apples?",
+   "answer": "Yes, I do.",
+   "options": [
+    {
+     "en": "Yes, I do."
+    },
+    {
+     "en": "Yes, I am."
+    },
+    {
+     "en": "Yes, I like."
+    }
+   ],
+   "id": "u3l2e8"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "How are you?",
+   "answer": "How are you?",
+   "alternatives": [],
+   "id": "u3l2e9"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני בסדר, תודה.",
+   "answer": "I am fine, thank you.",
+   "alternatives": [
+    "I'm fine, thank you.",
+    "I'm fine, thanks.",
+    "I am fine, thanks."
+   ],
+   "bank": [
+    "I",
+    "am",
+    "fine",
+    "thank",
+    "you",
+    "are",
+    "good"
+   ],
+   "id": "u3l2e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Why are you happy?",
+   "answer": "למה אתה שמח",
+   "alternatives": [
+    "למה את שמחה",
+    "למה אתה שמח?"
+   ],
+   "bank": [
+    "למה",
+    "אתה",
+    "שמח",
+    "מה",
+    "עצוב"
+   ],
+   "id": "u3l2e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "What is this?",
+   "answer": "What is this?",
+   "alternatives": [
+    "What's this?"
+   ],
+   "id": "u3l2e12"
+  }
+ ]
+}

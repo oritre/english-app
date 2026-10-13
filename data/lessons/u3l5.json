@@ -1,0 +1,183 @@
+{
+ "id": "u3l5",
+ "unit_id": "u3",
+ "title_he": "אני יכול",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "can",
+     "יכול"
+    ],
+    [
+     "swim",
+     "לשחות"
+    ],
+    [
+     "run",
+     "לרוץ"
+    ],
+    [
+     "help",
+     "לעזור"
+    ],
+    [
+     "sing",
+     "לשיר"
+    ]
+   ],
+   "id": "u3l5e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני יכול לשחות.",
+   "answer": "I can swim.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "can",
+    "swim",
+    "cans",
+    "to"
+   ],
+   "id": "u3l5e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "She can ___ fast.",
+   "options": [
+    "run",
+    "runs",
+    "to run"
+   ],
+   "answer": "run",
+   "hint_he": "היא יכולה לרוץ מהר.",
+   "explain_he": "אחרי can הפועל בא בלי to ובלי s.",
+   "id": "u3l5e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אתה יכול לעזור לי?",
+   "answer": "Can you help me?",
+   "alternatives": [
+    "Could you help me?"
+   ],
+   "bank": [
+    "Can",
+    "you",
+    "help",
+    "me",
+    "I",
+    "my"
+   ],
+   "id": "u3l5e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I ___ swim. I am learning.",
+   "options": [
+    "can't",
+    "can",
+    "cans"
+   ],
+   "answer": "can't",
+   "hint_he": "אני לא יודע לשחות. אני לומד.",
+   "explain_he": "can't = can not, לא יכול.",
+   "id": "u3l5e5"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "We can sing.",
+   "answer": "אנחנו יכולים לשיר",
+   "alternatives": [],
+   "bank": [
+    "אנחנו",
+    "יכולים",
+    "לשיר",
+    "לשחות",
+    "הם"
+   ],
+   "id": "u3l5e6"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך אומרים \"אני לא יכול\"?",
+   "answer": "I can't",
+   "options": [
+    {
+     "en": "I can't"
+    },
+    {
+     "en": "I can"
+    },
+    {
+     "en": "I not can"
+    }
+   ],
+   "id": "u3l5e7"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הכלב יכול לרוץ מהר.",
+   "answer": "The dog can run fast.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "dog",
+    "can",
+    "run",
+    "fast",
+    "cat",
+    "runs"
+   ],
+   "id": "u3l5e8"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Can you help me?",
+   "answer": "Can you help me?",
+   "alternatives": [],
+   "id": "u3l5e9"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "My sister can swim.",
+   "answer": "אחות שלי יכולה לשחות",
+   "alternatives": [
+    "אחותי יודעת לשחות",
+    "אחותי יכולה לשחות"
+   ],
+   "bank": [
+    "אחות",
+    "שלי",
+    "יכולה",
+    "לשחות",
+    "אח",
+    "לרוץ"
+   ],
+   "id": "u3l5e10"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "כן, אני יכול.",
+   "answer": "Yes, I can.",
+   "alternatives": [],
+   "bank": [
+    "Yes",
+    "I",
+    "can",
+    "no",
+    "do"
+   ],
+   "id": "u3l5e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I can read English!",
+   "answer": "I can read English!",
+   "alternatives": [],
+   "id": "u3l5e12"
+  }
+ ]
+}

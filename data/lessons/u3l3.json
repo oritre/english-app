@@ -1,0 +1,193 @@
+{
+ "id": "u3l3",
+ "unit_id": "u3",
+ "title_he": "ימי השבוע",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "Sunday",
+     "יום ראשון"
+    ],
+    [
+     "Monday",
+     "יום שני"
+    ],
+    [
+     "Tuesday",
+     "יום שלישי"
+    ],
+    [
+     "Wednesday",
+     "יום רביעי"
+    ],
+    [
+     "Thursday",
+     "יום חמישי"
+    ]
+   ],
+   "id": "u3l3e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "Friday",
+     "יום שישי"
+    ],
+    [
+     "Saturday",
+     "שבת"
+    ],
+    [
+     "today",
+     "היום"
+    ],
+    [
+     "tomorrow",
+     "מחר"
+    ],
+    [
+     "week",
+     "שבוע"
+    ]
+   ],
+   "id": "u3l3e2"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "היום יום ראשון.",
+   "answer": "Today is Sunday.",
+   "alternatives": [],
+   "bank": [
+    "Today",
+    "is",
+    "Sunday",
+    "tomorrow",
+    "Monday"
+   ],
+   "id": "u3l3e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "מחר שבת.",
+   "answer": "Tomorrow is Saturday.",
+   "alternatives": [],
+   "bank": [
+    "Tomorrow",
+    "is",
+    "Saturday",
+    "today",
+    "Friday"
+   ],
+   "id": "u3l3e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I play football ___ Monday.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": "on",
+   "hint_he": "אני משחק כדורגל ביום שני.",
+   "explain_he": "לפני ימי השבוע משתמשים ב־on: on Monday.",
+   "id": "u3l3e5"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איזה יום בא אחרי Tuesday?",
+   "answer": "Wednesday",
+   "options": [
+    {
+     "en": "Wednesday"
+    },
+    {
+     "en": "Monday"
+    },
+    {
+     "en": "Thursday"
+    }
+   ],
+   "id": "u3l3e6"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Tomorrow is Friday.",
+   "answer": "מחר יום שישי",
+   "alternatives": [],
+   "bank": [
+    "מחר",
+    "יום",
+    "שישי",
+    "היום",
+    "שבת"
+   ],
+   "id": "u3l3e7"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "There are seven days in a ___.",
+   "options": [
+    "week",
+    "day",
+    "today"
+   ],
+   "answer": "week",
+   "hint_he": "יש שבעה ימים בשבוע.",
+   "id": "u3l3e8"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Today is Wednesday.",
+   "answer": "Today is Wednesday.",
+   "alternatives": [],
+   "id": "u3l3e9"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני הולך לפארק בשבת.",
+   "answer": "I go to the park on Saturday.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "go",
+    "to",
+    "the",
+    "park",
+    "on",
+    "Saturday",
+    "in",
+    "at",
+    "Sunday"
+   ],
+   "id": "u3l3e10"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "See you tomorrow!",
+   "answer": "See you tomorrow!",
+   "alternatives": [],
+   "id": "u3l3e11"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "We have school on Sunday.",
+   "answer": "יש לנו בית ספר ביום ראשון",
+   "alternatives": [],
+   "bank": [
+    "יש",
+    "לנו",
+    "בית",
+    "ספר",
+    "ביום",
+    "ראשון",
+    "שבת",
+    "לי"
+   ],
+   "id": "u3l3e12"
+  }
+ ]
+}

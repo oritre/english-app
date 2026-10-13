@@ -59,3 +59,27 @@ test('every lesson is well formed and its answers can be built from its tiles', 
     }
   }
 });
+
+import { buildTest, evaluate } from '../js/placement.js';
+
+test('placement: stops at the first failed unit and starts at its first miss', () => {
+  const course = { units: [{ id: 'u1', lessons: ['a', 'b', 'c'] }, { id: 'u2', lessons: ['d', 'e', 'f'] }] };
+  const ans = (lessonId, unitId, correct) => ({ lessonId, unitId, correct });
+  assert.deepEqual(evaluate(course, [ans('a', 'u1', true)]), { done: false });
+  assert.deepEqual(evaluate(course, [ans('a', 'u1', false), ans('b', 'u1', false)]),
+    { done: true, startLessonId: 'a', skipLessonIds: [] });
+  const r = evaluate(course, [ans('a', 'u1', true), ans('b', 'u1', false), ans('c', 'u1', true),
+    ans('d', 'u2', true), ans('e', 'u2', false), ans('f', 'u2', false)]);
+  assert.deepEqual(r, { done: true, startLessonId: 'e', skipLessonIds: ['a', 'b', 'c', 'd'] });
+  const all = ['a', 'b', 'c', 'd', 'e', 'f'].map((l) => ans(l, 'abc'.includes(l) ? 'u1' : 'u2', true));
+  assert.deepEqual(evaluate(course, all), { done: true, startLessonId: null, skipLessonIds: ['a', 'b', 'c', 'd', 'e', 'f'] });
+});
+
+test('placement: builds one testable question per lesson from the real course', () => {
+  const course = JSON.parse(readFileSync(new URL('../data/course.json', import.meta.url)));
+  const lessons = {};
+  for (const id of course.units.flatMap((u) => u.lessons)) lessons[id] = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
+  const t = buildTest(course, lessons, () => 0.5);
+  assert.equal(t.length, course.units.length);
+  t.forEach((u, i) => assert.equal(u.items.length, course.units[i].lessons.length));
+});

@@ -1,0 +1,187 @@
+{
+ "id": "u3l1",
+ "unit_id": "u3",
+ "title_he": "בוקר טוב",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "morning",
+     "בוקר"
+    ],
+    [
+     "night",
+     "לילה"
+    ],
+    [
+     "wake up",
+     "מתעורר"
+    ],
+    [
+     "breakfast",
+     "ארוחת בוקר"
+    ],
+    [
+     "every day",
+     "כל יום"
+    ]
+   ],
+   "id": "u3l1e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "בוקר טוב!",
+   "answer": "Good morning!",
+   "alternatives": [],
+   "bank": [
+    "Good",
+    "morning",
+    "night",
+    "day"
+   ],
+   "id": "u3l1e2"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני מתעורר בשבע.",
+   "answer": "I wake up at seven.",
+   "alternatives": [
+    "I get up at seven."
+   ],
+   "bank": [
+    "I",
+    "wake",
+    "up",
+    "at",
+    "seven",
+    "in",
+    "six",
+    "wakes"
+   ],
+   "id": "u3l1e3"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "She ___ up at six.",
+   "options": [
+    "wakes",
+    "wake",
+    "is"
+   ],
+   "answer": "wakes",
+   "hint_he": "היא מתעוררת בשש.",
+   "explain_he": "עם she מוסיפים s לפועל: wake ← wakes.",
+   "id": "u3l1e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני אוכל ארוחת בוקר.",
+   "answer": "I eat breakfast.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "eat",
+    "breakfast",
+    "drink",
+    "morning"
+   ],
+   "id": "u3l1e5"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך אומרים \"לילה טוב\"?",
+   "answer": "good night",
+   "options": [
+    {
+     "en": "good night",
+     "emoji": "🌙"
+    },
+    {
+     "en": "good morning",
+     "emoji": "☀️"
+    },
+    {
+     "en": "goodbye",
+     "emoji": "👋"
+    }
+   ],
+   "id": "u3l1e6"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I go ___ school every day.",
+   "options": [
+    "to",
+    "at",
+    "in"
+   ],
+   "answer": "to",
+   "hint_he": "אני הולך לבית הספר כל יום.",
+   "explain_he": "הולכים to מקום: go to school, go to the park.",
+   "id": "u3l1e7"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "We eat breakfast every day.",
+   "answer": "אנחנו אוכלים ארוחת בוקר כל יום",
+   "alternatives": [],
+   "bank": [
+    "אנחנו",
+    "אוכלים",
+    "ארוחת",
+    "בוקר",
+    "כל",
+    "יום",
+    "לילה",
+    "שותים"
+   ],
+   "id": "u3l1e8"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הוא הולך לבית הספר.",
+   "answer": "He goes to school.",
+   "alternatives": [
+    "He is going to school."
+   ],
+   "bank": [
+    "He",
+    "goes",
+    "to",
+    "school",
+    "go",
+    "at",
+    "home"
+   ],
+   "id": "u3l1e9"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Good morning, Mom!",
+   "answer": "Good morning, Mom!",
+   "alternatives": [],
+   "id": "u3l1e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Good night!",
+   "answer": "לילה טוב",
+   "alternatives": [],
+   "bank": [
+    "לילה",
+    "טוב",
+    "בוקר",
+    "להתראות"
+   ],
+   "id": "u3l1e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I go to school every day.",
+   "answer": "I go to school every day.",
+   "alternatives": [],
+   "id": "u3l1e12"
+  }
+ ]
+}

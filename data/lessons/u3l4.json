@@ -1,0 +1,206 @@
+{
+ "id": "u3l4",
+ "unit_id": "u3",
+ "title_he": "מזג אוויר ובגדים",
+ "exercises": [
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"שמש\"?",
+   "answer": "sun",
+   "options": [
+    {
+     "en": "sun",
+     "emoji": "☀️"
+    },
+    {
+     "en": "rain",
+     "emoji": "🌧️"
+    },
+    {
+     "en": "snow",
+     "emoji": "❄️"
+    }
+   ],
+   "id": "u3l4e1"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"גשם\"?",
+   "answer": "rain",
+   "options": [
+    {
+     "en": "rain",
+     "emoji": "🌧️"
+    },
+    {
+     "en": "sun",
+     "emoji": "☀️"
+    },
+    {
+     "en": "wind",
+     "emoji": "💨"
+    }
+   ],
+   "id": "u3l4e2"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "hot",
+     "חם"
+    ],
+    [
+     "cold",
+     "קר"
+    ],
+    [
+     "coat",
+     "מעיל"
+    ],
+    [
+     "shirt",
+     "חולצה"
+    ],
+    [
+     "shoes",
+     "נעליים"
+    ]
+   ],
+   "id": "u3l4e3"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "היום חם.",
+   "answer": "It is hot today.",
+   "alternatives": [
+    "It's hot today.",
+    "Today it is hot.",
+    "Today is hot."
+   ],
+   "bank": [
+    "It",
+    "is",
+    "hot",
+    "today",
+    "cold",
+    "is"
+   ],
+   "id": "u3l4e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "It is cold. I need a ___.",
+   "options": [
+    "coat",
+    "shirt",
+    "sun"
+   ],
+   "answer": "coat",
+   "hint_he": "קר. אני צריך מעיל.",
+   "id": "u3l4e5"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "יורד גשם.",
+   "answer": "It is raining.",
+   "alternatives": [
+    "It's raining."
+   ],
+   "bank": [
+    "It",
+    "is",
+    "raining",
+    "rain",
+    "sun"
+   ],
+   "id": "u3l4e6"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "My shoes are red.",
+   "answer": "הנעליים שלי אדומות",
+   "alternatives": [
+    "הנעליים שלי הן אדומות"
+   ],
+   "bank": [
+    "הנעליים",
+    "שלי",
+    "אדומות",
+    "חולצה",
+    "כחולות"
+   ],
+   "id": "u3l4e7"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "My shoes ___ new.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": "are",
+   "hint_he": "הנעליים שלי חדשות.",
+   "explain_he": "עם רבים משתמשים ב־are.",
+   "id": "u3l4e8"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה לובשים כשקר?",
+   "answer": "coat",
+   "options": [
+    {
+     "en": "coat",
+     "emoji": "🧥"
+    },
+    {
+     "en": "shorts",
+     "emoji": "🩳"
+    },
+    {
+     "en": "sandals",
+     "emoji": "🩴"
+    }
+   ],
+   "id": "u3l4e9"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "It is cold today.",
+   "answer": "It is cold today.",
+   "alternatives": [
+    "It's cold today."
+   ],
+   "id": "u3l4e10"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני לובש חולצה כחולה.",
+   "answer": "I am wearing a blue shirt.",
+   "alternatives": [
+    "I'm wearing a blue shirt.",
+    "I wear a blue shirt."
+   ],
+   "bank": [
+    "I",
+    "am",
+    "wearing",
+    "a",
+    "blue",
+    "shirt",
+    "wear",
+    "red",
+    "coat"
+   ],
+   "id": "u3l4e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I like the sun.",
+   "answer": "I like the sun.",
+   "alternatives": [],
+   "id": "u3l4e12"
+  }
+ ]
+}

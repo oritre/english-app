@@ -171,3 +171,46 @@ button:focus-visible, textarea:focus-visible { outline: 3px solid var(--sun); ou
 .streak-banner { font-size: 20px; font-weight: 700; color: var(--sun-deep); }
 .goal-met { margin: 0; color: var(--good); font-weight: 700; }
 .complete .btn { margin-top: 12px; }
+
+/* Profiles, onboarding, placement */
+.stat.who { cursor: pointer; font: inherit; font-weight: 700; color: var(--fg); max-width: 40%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.profiles, .start-choice, .form { display: flex; flex-direction: column; gap: 16px; padding-block: 28px; }
+.profiles h1, .start-choice h1 { text-align: center; }
+.profile-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
+.profile-card {
+  display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 18px 8px; cursor: pointer;
+  background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); box-shadow: 0 4px 0 var(--line);
+}
+.profile-card.add { border-style: dashed; color: var(--muted); }
+.avatar { font-size: 48px; line-height: 1.1; }
+.avatar.big { font-size: 72px; text-align: center; }
+.profile-name { font-weight: 700; font-size: 18px; min-width: 0; overflow-wrap: anywhere; }
+.welcome { text-align: center; display: flex; flex-direction: column; gap: 6px; }
+.form-top { display: flex; align-items: center; gap: 8px; }
+.field-label { font-weight: 700; margin-bottom: -8px; }
+.text-input {
+  width: 100%; font: inherit; font-size: 20px; padding: 12px 14px; border-radius: var(--radius);
+  border: 2px solid var(--line); background: var(--surface); color: var(--fg);
+}
+.text-input:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+.avatar-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 8px; }
+.avatar-pick { font-size: 30px; padding: 8px 0; border-radius: 12px; border: 2px solid var(--line); background: var(--surface); cursor: pointer; }
+.avatar-pick.selected, .goal-pick.selected { border-color: var(--ink); box-shadow: 0 3px 0 var(--ink); }
+.goal-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.goal-pick { display: flex; flex-direction: column; gap: 2px; padding: 12px 6px; border-radius: 12px; border: 2px solid var(--line); background: var(--surface); cursor: pointer; }
+.goal-pick span { font-size: 13px; color: var(--muted); }
+.choice-big {
+  display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 14px; text-align: start;
+  padding: 18px; cursor: pointer; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); box-shadow: 0 4px 0 var(--line);
+}
+.choice-big:hover { border-color: var(--ink); }
+.choice-big .emoji { grid-row: span 2; font-size: 40px; align-self: center; }
+.choice-big strong { font-size: 20px; }
+.choice-big span:last-child { color: var(--muted); font-size: 15px; }
+.small { font-size: 14px; text-align: center; }
+.retest {
+  display: block; width: 100%; margin-block: 12px 0; padding: 14px; cursor: pointer; font-weight: 700;
+  background: transparent; border: 2px dashed var(--line); border-radius: var(--radius); color: var(--muted);
+}
+.test-tag { align-self: flex-start; font-size: 13px; font-weight: 700; color: var(--sun-deep); letter-spacing: .03em; margin-top: -8px; margin-bottom: 8px; }
+.lesson-footer.brief .btn { visibility: hidden; }

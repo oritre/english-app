@@ -38,6 +38,7 @@ async function os(name, mode) {
 
 export const store = {
   async put(name, value) { return wrap((await os(name, 'readwrite')).put(value)); },
+  async all(name) { return wrap((await os(name, 'readonly')).getAll()); },
   async get(name, id) { return wrap((await os(name, 'readonly')).get(id)); },
   async byIndex(name, index, value) { return wrap((await os(name, 'readonly')).index(index).getAll(value)); },
 };
