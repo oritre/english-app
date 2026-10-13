@@ -1,12 +1,12 @@
 // App shell is cache-first; course data is network-first so new lessons show up
 // as soon as they're deployed, and still work offline afterwards.
-const CACHE_NAME = 'english-app-v4';
+const CACHE_NAME = 'english-app-v5';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './css/styles.css',
   './js/app.js', './js/check.js', './js/course.js', './js/dates.js', './js/db.js',
-  './js/progress.js', './js/placement.js', './js/league.js', './js/speech.js', './js/streak.js', './js/util.js',
+  './js/progress.js', './js/placement.js', './js/league.js', './js/report.js', './js/speech.js', './js/streak.js', './js/util.js',
   './js/screens/path.js', './js/screens/lesson.js', './js/screens/complete.js',
-  './js/screens/profiles.js', './js/screens/placement.js', './js/screens/league.js',
+  './js/screens/profiles.js', './js/screens/placement.js', './js/screens/league.js', './js/screens/report.js',
   './js/exercises/index.js', './js/exercises/choose.js', './js/exercises/wordBank.js',
   './js/exercises/matchPairs.js', './js/exercises/fillBlank.js', './js/exercises/listenType.js', './js/exercises/listenTranslate.js', './js/exercises/speak.js',
   './data/course.json', './icons/icon-192.png', './icons/icon-512.png',

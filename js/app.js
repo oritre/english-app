@@ -4,6 +4,7 @@ import { renderComplete } from './screens/complete.js';
 import { renderProfiles, renderProfileCreate, renderStartChoice } from './screens/profiles.js';
 import { renderPlacement } from './screens/placement.js';
 import { renderLeague } from './screens/league.js';
+import { renderReports, renderReport } from './screens/report.js';
 import { getProfile, setCurrentProfile } from './progress.js';
 
 const routes = {
@@ -12,6 +13,8 @@ const routes = {
   startChoice: renderStartChoice,
   placement: renderPlacement,
   league: renderLeague,
+  reports: renderReports,
+  report: renderReport,
   path: renderPath,
   lesson: renderLesson,
   complete: renderComplete,

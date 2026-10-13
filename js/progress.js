@@ -153,3 +153,25 @@ export async function markResultSeen() {
   const p = await getProfile();
   if (p.last_result) { p.last_result.seen = true; await store.put('profiles', p); }
 }
+
+// One row per answer: what kind of exercise, right or wrong, how long it took.
+// The progress report is built from these.
+export async function logAttempt({ lessonId, exercise, outcome, ms, source = 'lesson' }) {
+  if (!currentId) return;
+  await store.put('attempts', {
+    id: newId(), profile_id: currentId, lesson_id: lessonId, exercise_id: exercise.id,
+    type: exercise.type, lang: exercise.lang || null, outcome, ms: Math.round(ms), source,
+    date: localISO(), at: Date.now(),
+  });
+}
+
+export async function reportData(profileId) {
+  const [profile, attempts, results, days, progress] = await Promise.all([
+    store.get('profiles', profileId),
+    store.byIndex('attempts', 'profile_id', profileId),
+    store.byIndex('results', 'profile_id', profileId),
+    store.byIndex('days', 'profile_id', profileId),
+    store.byIndex('progress', 'profile_id', profileId),
+  ]);
+  return { profile, attempts, results, days, progress };
+}

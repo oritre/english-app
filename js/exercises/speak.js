@@ -19,6 +19,7 @@ function pauseSpeaking(minutes) {
 export function renderSpeak(root, ex, { setReady, finish, skip }) {
   let result = null;
   let rec = null;
+  let tries = 0;
   const words = el('div', { class: 'speak-words', dir: 'ltr', lang: 'en' },
     ex.text.split(' ').map((w) => el('span', { class: 'sw' }, w)));
   const heard = el('p', { class: 'heard', dir: 'ltr', hidden: true });
@@ -62,12 +63,13 @@ export function renderSpeak(root, ex, { setReady, finish, skip }) {
       mic.classList.remove('on');
       rec = null;
       if (!finalAlts.length) return;
+      tries++;
       result = checkSpeech(finalAlts, ex.text, ex.alternatives || []);
       paint(result);
       if (result.pass) {
         status.textContent = 'מצוין!';
         setReady(true);
-        finish(true);
+        finish(tries === 1);
       } else {
         const missed = result.words.filter((w) => !w.ok).length;
         status.textContent = result.score >= 0.5

@@ -4,7 +4,7 @@ import { RENDERERS, isSupported } from '../exercises/index.js';
 import { checkAnswer } from '../check.js';
 import { speak } from '../speech.js';
 import { xpForLesson } from '../streak.js';
-import { saveLessonResult } from '../progress.js';
+import { saveLessonResult, logAttempt } from '../progress.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
 // answered right. Progress bar counts first-time-right plus fixed mistakes.
@@ -45,13 +45,20 @@ export async function renderLesson(root, nav, { lessonId }) {
     checkBtn.textContent = 'בדיקה';
     checkBtn.disabled = true;
     let handled = false;
+    const shownAt = Date.now();
+    const log = (outcome) => logAttempt({ lessonId, exercise: ex, outcome, ms: Date.now() - shownAt });
 
     const api = RENDERERS[ex.type](body, ex, {
       setReady: (ok) => { checkBtn.disabled = !ok; },
-      finish: (clean) => { handled = true; showFeedback(ex, clean ? 'correct' : 'correct-after-tries', null); },
+      finish: (clean) => {
+        handled = true;
+        log(clean ? 'correct' : 'retry');
+        showFeedback(ex, clean ? 'correct' : 'correct-after-tries', null);
+      },
       // Speaking can be paused ("can't talk now"): drop every speaking exercise
       // left in this lesson without counting it as a mistake.
       skip: () => {
+        log('skipped');
         const before = queue.length;
         for (let i = queue.length - 1; i >= 0; i--) if (queue[i].type === 'speak') queue.splice(i, 1);
         total -= 1 + (before - queue.length);
@@ -64,6 +71,7 @@ export async function renderLesson(root, nav, { lessonId }) {
       if (api.selfChecking) return;
       handled = true;
       const { result, expected } = checkAnswer(api.getAnswer(), ex.answer, ex.alternatives || [], { allowTypos: !!api.allowTypos });
+      log(result === 'wrong' ? 'wrong' : result === 'typo' ? 'typo' : 'correct');
       if (result === 'wrong') {
         mistakes.add(ex.id);
         queue.push(ex);

@@ -19,7 +19,8 @@ export async function renderProfiles(root, nav) {
     el('h1', {}, 'מי לומד עכשיו?'),
     el('div', { class: 'profile-grid' }, cards,
       el('button', { class: 'profile-card add', type: 'button', onclick: () => nav('profileCreate') },
-        el('span', { class: 'avatar' }, '+'), el('span', { class: 'profile-name' }, 'לומד חדש')))));
+        el('span', { class: 'avatar' }, '+'), el('span', { class: 'profile-name' }, 'לומד חדש'))),
+    el('button', { class: 'retest', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות')));
 }
 
 export function renderProfileCreate(root, nav, { first } = {}) {

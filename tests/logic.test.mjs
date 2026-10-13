@@ -132,3 +132,34 @@ test('speech: word-level match with numbers, contractions and a missed word', ()
   assert.equal(checkSpeech(['my name is dana and'], 'My name is Dana.').pass, true); // extra word is fine
   assert.equal(checkSpeech(['my name is dana'], 'My name is Dana.').pass, true);
 });
+
+import { skillStats, summarize, suggestions, minutesByDay, hardestItems } from '../js/report.js';
+
+test('report: skills, summary and suggestions from attempts', () => {
+  const A = (type, outcome, ms = 4000, exercise_id = type + outcome) => ({ type, outcome, ms, exercise_id, lesson_id: 'u1l1' });
+  const attempts = [
+    ...Array(6).fill(0).map(() => A('choose', 'correct')),
+    ...Array(3).fill(0).map(() => A('fill_blank', 'correct')), ...Array(3).fill(0).map((_, i) => A('fill_blank', 'wrong', 9000, 'fb' + (i % 2))),
+    A('speak', 'skipped'), A('speak', 'skipped'), A('speak', 'skipped'),
+  ];
+  const skills = skillStats(attempts);
+  const vocab = skills.find((s) => s.id === 'vocab');
+  assert.equal(vocab.accuracy, 1);
+  assert.equal(skills.find((s) => s.id === 'grammar').accuracy, 0.5);
+  assert.equal(skills.find((s) => s.id === 'speaking').skipped, 3);
+  const today = '2026-10-13';
+  const results = [{ date: today, duration_s: 240, lesson_id: 'u1l1' }, { date: '2026-10-12', duration_s: 300, lesson_id: 'u1l2' }];
+  const sum = summarize({ profile: { daily_goal_xp: 10 }, attempts, results, days: [], progress: [{ status: 'done', lesson_id: 'u1l1', best_accuracy: 60 }] }, today);
+  assert.equal(sum.totalMinutes, 9);
+  assert.equal(sum.activeDays7, 2);
+  assert.deepEqual(sum.weakLessons, ['u1l1']);
+  const tips = suggestions(sum, skills, { u1l1: 'שלום!' }).map((t) => t.text).join('\n');
+  assert.match(tips, /דקדוק/);
+  assert.match(tips, /אוצר מילים/);
+  assert.match(tips, /3 דילוגים על תרגילי דיבור/);
+  assert.match(tips, /"שלום!"/);
+  assert.equal(minutesByDay(results, today).length, 14);
+  assert.equal(minutesByDay(results, today).at(-1).minutes, 4);
+  assert.equal(hardestItems(attempts)[0].wrong, 2);
+  assert.equal(suggestions({ sessions: 0 }, skills).length, 1);
+});
