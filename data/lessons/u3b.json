@@ -1,0 +1,91 @@
+{
+ "id": "u3b",
+ "unit_id": "u3",
+ "title_he": "אנסין: היום של תום",
+ "bonus": true,
+ "exercises": [
+  {
+   "type": "read",
+   "passage": "Today is Monday. Tom wakes up at seven. He eats breakfast with his mother. It is cold today, so Tom is wearing a coat. He goes to school. After school, Tom plays football in the park. He can run fast! On Saturday he can swim with his father.",
+   "question": "What day is it today?",
+   "answer": "Monday",
+   "options": [
+    "Monday",
+    "Sunday",
+    "Saturday"
+   ],
+   "explain_he": "בטקסט כתוב: Today is Monday.",
+   "id": "u3be1"
+  },
+  {
+   "type": "read",
+   "passage": "Today is Monday. Tom wakes up at seven. He eats breakfast with his mother. It is cold today, so Tom is wearing a coat. He goes to school. After school, Tom plays football in the park. He can run fast! On Saturday he can swim with his father.",
+   "question": "When does Tom wake up?",
+   "answer": "at seven",
+   "options": [
+    "at seven",
+    "at six",
+    "at eight"
+   ],
+   "explain_he": "בטקסט כתוב: Tom wakes up at seven.",
+   "id": "u3be2"
+  },
+  {
+   "type": "read",
+   "passage": "Today is Monday. Tom wakes up at seven. He eats breakfast with his mother. It is cold today, so Tom is wearing a coat. He goes to school. After school, Tom plays football in the park. He can run fast! On Saturday he can swim with his father.",
+   "question": "Why is Tom wearing a coat?",
+   "answer": "It is cold.",
+   "options": [
+    "It is cold.",
+    "It is hot.",
+    "It is raining."
+   ],
+   "explain_he": "בטקסט כתוב: It is cold today, so Tom is wearing a coat.",
+   "id": "u3be3"
+  },
+  {
+   "type": "speak",
+   "text": "He can run fast!",
+   "alternatives": [],
+   "id": "u3be4"
+  },
+  {
+   "type": "read",
+   "passage": "Today is Monday. Tom wakes up at seven. He eats breakfast with his mother. It is cold today, so Tom is wearing a coat. He goes to school. After school, Tom plays football in the park. He can run fast! On Saturday he can swim with his father.",
+   "question": "מה תום עושה אחרי בית הספר?",
+   "answer": "משחק כדורגל",
+   "options": [
+    "משחק כדורגל",
+    "קורא ספר",
+    "שוחה"
+   ],
+   "explain_he": "בטקסט כתוב: After school, Tom plays football.",
+   "id": "u3be5"
+  },
+  {
+   "type": "read",
+   "passage": "Today is Monday. Tom wakes up at seven. He eats breakfast with his mother. It is cold today, so Tom is wearing a coat. He goes to school. After school, Tom plays football in the park. He can run fast! On Saturday he can swim with his father.",
+   "question": "True or false: Tom swims on Monday.",
+   "answer": "False",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explain_he": "בטקסט כתוב: On Saturday he can swim. הוא שוחה בשבת.",
+   "id": "u3be6"
+  },
+  {
+   "type": "read",
+   "passage": "Today is Monday. Tom wakes up at seven. He eats breakfast with his mother. It is cold today, so Tom is wearing a coat. He goes to school. After school, Tom plays football in the park. He can run fast! On Saturday he can swim with his father.",
+   "question": "Who eats breakfast with Tom?",
+   "answer": "his mother",
+   "options": [
+    "his mother",
+    "his father",
+    "his sister"
+   ],
+   "explain_he": "בטקסט כתוב: He eats breakfast with his mother.",
+   "id": "u3be7"
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+ "id": "u4l1",
+ "unit_id": "u4",
+ "title_he": "הייתי, היינו",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "yesterday",
+     "אתמול"
+    ],
+    [
+     "was",
+     "הייתי / היה"
+    ],
+    [
+     "were",
+     "היינו / היו"
+    ],
+    [
+     "last night",
+     "אתמול בלילה"
+    ],
+    [
+     "tired",
+     "עייף"
+    ]
+   ],
+   "id": "u4l1e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אתמול הייתי בבית.",
+   "answer": "I was at home yesterday.",
+   "alternatives": [
+    "Yesterday I was at home."
+   ],
+   "bank": [
+    "I",
+    "was",
+    "at",
+    "home",
+    "yesterday",
+    "were",
+    "am",
+    "in"
+   ],
+   "input": "type",
+   "id": "u4l1e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "She ___ at school yesterday.",
+   "options": [
+    "was",
+    "were",
+    "is"
+   ],
+   "answer": "was",
+   "hint_he": "היא הייתה בבית הספר אתמול.",
+   "explain_he": "בעבר: עם I, he, she, it כותבים was. עם you, we, they כותבים were.",
+   "id": "u4l1e3"
+  },
+  {
+   "type": "speak",
+   "text": "I was tired last night.",
+   "alternatives": [],
+   "id": "u4l1e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "We ___ in the park.",
+   "options": [
+    "were",
+    "was",
+    "are"
+   ],
+   "answer": "were",
+   "hint_he": "היינו בפארק.",
+   "explain_he": "עם we בעבר כותבים were.",
+   "id": "u4l1e5"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הם היו עייפים.",
+   "answer": "They were tired.",
+   "alternatives": [],
+   "bank": [
+    "They",
+    "were",
+    "tired",
+    "was",
+    "is",
+    "happy"
+   ],
+   "id": "u4l1e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "לא הייתי בבית הספר.",
+   "answer": "I wasn't at school.",
+   "alternatives": [
+    "I was not at school."
+   ],
+   "bank": [
+    "I",
+    "wasn't",
+    "at",
+    "school",
+    "were",
+    "home"
+   ],
+   "id": "u4l1e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"אתמול\"?",
+   "answer": "yesterday",
+   "options": [
+    {
+     "en": "yesterday"
+    },
+    {
+     "en": "tomorrow"
+    },
+    {
+     "en": "today"
+    }
+   ],
+   "id": "u4l1e8"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "My father was at work.",
+   "answer": "אבא שלי היה בעבודה",
+   "alternatives": [
+    "אבי היה בעבודה",
+    "אבא שלי היה בעבודה."
+   ],
+   "bank": [
+    "אבא",
+    "שלי",
+    "היה",
+    "בעבודה",
+    "אמא",
+    "בבית"
+   ],
+   "id": "u4l1e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "The weather was hot.",
+   "answer": "מזג האוויר היה חם",
+   "alternatives": [
+    "היה חם"
+   ],
+   "bank": [
+    "מזג",
+    "האוויר",
+    "היה",
+    "חם",
+    "קר",
+    "הייתה"
+   ],
+   "id": "u4l1e10"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "איפה היית אתמול?",
+   "answer": "Where were you yesterday?",
+   "alternatives": [],
+   "bank": [
+    "Where",
+    "were",
+    "you",
+    "yesterday",
+    "was",
+    "are"
+   ],
+   "input": "type",
+   "id": "u4l1e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I was tired last night.",
+   "answer": "I was tired last night.",
+   "alternatives": [],
+   "id": "u4l1e12"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "The weather was hot.",
+   "answer": "מזג האוויר היה חם",
+   "alternatives": [
+    "היה חם"
+   ],
+   "bank": [
+    "מזג",
+    "האוויר",
+    "היה",
+    "חם",
+    "קר",
+    "הייתה"
+   ],
+   "id": "u4l1e13"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "לא הייתי בבית הספר.",
+   "answer": "I wasn't at school.",
+   "alternatives": [
+    "I was not at school."
+   ],
+   "bank": [
+    "I",
+    "wasn't",
+    "at",
+    "school",
+    "were",
+    "home"
+   ],
+   "id": "u4l1e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "We were happy.",
+   "answer": "We were happy.",
+   "alternatives": [],
+   "id": "u4l1e15"
+  },
+  {
+   "type": "speak",
+   "text": "I was at home yesterday.",
+   "alternatives": [
+    "Yesterday I was at home."
+   ],
+   "id": "u4l1e16"
+  }
+ ]
+}

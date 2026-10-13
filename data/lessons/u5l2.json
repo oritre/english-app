@@ -1,0 +1,252 @@
+{
+ "id": "u5l2",
+ "unit_id": "u5",
+ "title_he": "איך מגיעים?",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "left",
+     "שמאלה"
+    ],
+    [
+     "right",
+     "ימינה"
+    ],
+    [
+     "next to",
+     "ליד"
+    ],
+    [
+     "behind",
+     "מאחורי"
+    ],
+    [
+     "between",
+     "בין"
+    ]
+   ],
+   "id": "u5l2e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "פנה שמאלה.",
+   "answer": "Turn left.",
+   "alternatives": [
+    "Go left."
+   ],
+   "bank": [
+    "Turn",
+    "left",
+    "right",
+    "go"
+   ],
+   "input": "type",
+   "id": "u5l2e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "The bank is ___ the shop and the school.",
+   "options": [
+    "between",
+    "next",
+    "behind"
+   ],
+   "answer": "between",
+   "hint_he": "הבנק בין החנות לבית הספר.",
+   "explain_he": "between = בין שני דברים.",
+   "id": "u5l2e3"
+  },
+  {
+   "type": "speak",
+   "text": "Turn right at the bank.",
+   "alternatives": [],
+   "id": "u5l2e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "המסעדה ליד הפארק.",
+   "answer": "The restaurant is next to the park.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "restaurant",
+    "is",
+    "next",
+    "to",
+    "the",
+    "park",
+    "behind",
+    "in"
+   ],
+   "id": "u5l2e5"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "The cat is ___ the door.",
+   "options": [
+    "behind",
+    "between",
+    "to"
+   ],
+   "answer": "behind",
+   "hint_he": "החתול מאחורי הדלת.",
+   "explain_he": "behind = מאחורי.",
+   "id": "u5l2e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "החנות מאחורי הבנק.",
+   "answer": "The shop is behind the bank.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "shop",
+    "is",
+    "behind",
+    "the",
+    "bank",
+    "next",
+    "to"
+   ],
+   "id": "u5l2e7"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "איך מגיעים לבית החולים?",
+   "answer": "How do I get to the hospital?",
+   "alternatives": [
+    "How can I get to the hospital?",
+    "How do you get to the hospital?"
+   ],
+   "bank": [
+    "How",
+    "do",
+    "I",
+    "get",
+    "to",
+    "the",
+    "hospital",
+    "where",
+    "go"
+   ],
+   "input": "type",
+   "id": "u5l2e8"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"ישר\"?",
+   "answer": "straight",
+   "options": [
+    {
+     "en": "straight",
+     "emoji": "⬆️"
+    },
+    {
+     "en": "left",
+     "emoji": "⬅️"
+    },
+    {
+     "en": "right",
+     "emoji": "➡️"
+    }
+   ],
+   "id": "u5l2e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "Go straight and turn right.",
+   "answer": "לך ישר ותפנה ימינה",
+   "alternatives": [
+    "לכי ישר ותפני ימינה",
+    "סע ישר ופנה ימינה",
+    "לך ישר ופנה ימינה"
+   ],
+   "bank": [
+    "לך",
+    "ישר",
+    "ותפנה",
+    "ימינה",
+    "שמאלה",
+    "תעצור"
+   ],
+   "id": "u5l2e10"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Go straight and turn right.",
+   "answer": "לך ישר ותפנה ימינה",
+   "alternatives": [
+    "לכי ישר ותפני ימינה",
+    "סע ישר ופנה ימינה",
+    "לך ישר ופנה ימינה"
+   ],
+   "bank": [
+    "לך",
+    "ישר",
+    "ותפנה",
+    "ימינה",
+    "שמאלה",
+    "תעצור"
+   ],
+   "id": "u5l2e11"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "The park is ___ to the school.",
+   "options": [
+    "next",
+    "behind",
+    "between"
+   ],
+   "answer": "next",
+   "hint_he": "הפארק ליד בית הספר.",
+   "explain_he": "ליד = next to, עם to אחריו.",
+   "id": "u5l2e12"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Turn right at the bank.",
+   "answer": "Turn right at the bank.",
+   "alternatives": [],
+   "id": "u5l2e13"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "החנות מאחורי הבנק.",
+   "answer": "The shop is behind the bank.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "shop",
+    "is",
+    "behind",
+    "the",
+    "bank",
+    "next",
+    "to"
+   ],
+   "id": "u5l2e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "It is next to the park.",
+   "answer": "It is next to the park.",
+   "alternatives": [
+    "It's next to the park."
+   ],
+   "id": "u5l2e15"
+  },
+  {
+   "type": "speak",
+   "text": "Turn left.",
+   "alternatives": [
+    "Go left."
+   ],
+   "id": "u5l2e16"
+  }
+ ]
+}

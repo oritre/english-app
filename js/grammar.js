@@ -55,6 +55,18 @@ export function diagnose(input, expected) {
     return 'פועל העזר לא מתאים: I am, you/we/they are, he/she/it is. גם עם שם עצם ברבים משתמשים ב־are ("My shoes are new").';
   }
 
+  // did + past form: "Did you went?", "I didn't saw". The verb sits two words
+  // after did either way ("did you go", "did not go").
+  const gi = got.indexOf('did');
+  const wi = want.indexOf('did');
+  if (gi >= 0 && wi >= 0) {
+    const verb = got[gi + 2];
+    const base = want[wi + 2];
+    if (verb && base && verb !== base && !got.includes(base)) {
+      return `אחרי did (או didn't) הפועל חוזר לצורה הרגילה: "${base}" ולא "${verb}". למשל: "Did you go?", "I didn't see".`;
+    }
+  }
+
   // have / has, do / does
   if (got.includes('have') && want.includes('has')) return 'עם he, she, it (הוא, היא, זה) כותבים has: "She has a cat".';
   if (got.includes('has') && want.includes('have')) return 'עם I, you, we, they כותבים have. רק עם he, she, it כותבים has.';

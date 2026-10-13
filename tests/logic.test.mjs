@@ -39,8 +39,8 @@ test('xp', () => {
 
 test('every lesson is well formed and its answers can be built from its tiles', () => {
   const course = JSON.parse(readFileSync(new URL('../data/course.json', import.meta.url)));
-  const ids = course.units.flatMap((u) => u.lessons);
-  assert.deepEqual(ids.sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
+  const ids = course.units.flatMap((u) => (u.bonus ? [...u.lessons, u.bonus] : u.lessons));
+  assert.deepEqual([...ids].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
   for (const id of ids) {
     const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
     for (const ex of lesson.exercises) {
@@ -56,6 +56,10 @@ test('every lesson is well formed and its answers can be built from its tiles', 
         assert.equal(ex.sentence.split('___').length, 2, where);
       }
       if (ex.type === 'match_pairs') assert.ok(ex.pairs.length >= 3, where);
+      if (ex.type === 'read') {
+        assert.ok(ex.passage && ex.question && ex.explain_he, where);
+        assert.ok(ex.options.includes(ex.answer) && new Set(ex.options).size === ex.options.length, where);
+      }
     }
   }
 });
@@ -179,4 +183,13 @@ test('grammar: explains common Hebrew-speaker mistakes', () => {
   assert.match(diagnose('dog is cat', 'The dog and the cat.'), /the/);
   assert.equal(diagnose('I eat a banana', 'I eat an apple.'), null);
   assert.equal(diagnose('Hello', 'Hello'), null);
+});
+
+import { lessonStates } from '../js/course.js';
+
+test('reading bonus opens only after every lesson in its unit and never blocks the path', () => {
+  const course = { units: [{ id: 'u1', lessons: ['a', 'b'], bonus: 'ar' }, { id: 'u2', lessons: ['c'] }] };
+  assert.deepEqual(lessonStates(course, ['a']), { a: 'done', b: 'current', ar: 'locked', c: 'locked' });
+  assert.deepEqual(lessonStates(course, ['a', 'b']), { a: 'done', b: 'done', ar: 'bonus', c: 'current' });
+  assert.deepEqual(lessonStates(course, ['a', 'b', 'ar']), { a: 'done', b: 'done', ar: 'done', c: 'current' });
 });

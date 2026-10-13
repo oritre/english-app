@@ -1,0 +1,240 @@
+{
+ "id": "u4l2",
+ "unit_id": "u4",
+ "title_he": "עבר עם ed",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "played",
+     "שיחקתי"
+    ],
+    [
+     "watched",
+     "צפיתי"
+    ],
+    [
+     "walked",
+     "הלכתי ברגל"
+    ],
+    [
+     "cooked",
+     "בישלתי"
+    ],
+    [
+     "cleaned",
+     "ניקיתי"
+    ]
+   ],
+   "id": "u4l2e1"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "Yesterday I ___ football.",
+   "options": [
+    "played",
+    "play",
+    "plays"
+   ],
+   "answer": "played",
+   "hint_he": "אתמול שיחקתי כדורגל.",
+   "explain_he": "בעבר מוסיפים ed לפועל: play ← played.",
+   "id": "u4l2e2"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "צפינו בטלוויזיה.",
+   "answer": "We watched TV.",
+   "alternatives": [],
+   "bank": [
+    "We",
+    "watched",
+    "TV",
+    "watch",
+    "watches"
+   ],
+   "input": "type",
+   "id": "u4l2e3"
+  },
+  {
+   "type": "speak",
+   "text": "We watched a movie.",
+   "alternatives": [],
+   "id": "u4l2e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "היא בישלה ארוחת ערב.",
+   "answer": "She cooked dinner.",
+   "alternatives": [],
+   "bank": [
+    "She",
+    "cooked",
+    "dinner",
+    "cooks",
+    "breakfast",
+    "cook"
+   ],
+   "id": "u4l2e5"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה העבר של walk?",
+   "answer": "walked",
+   "options": [
+    {
+     "en": "walked"
+    },
+    {
+     "en": "walks"
+    },
+    {
+     "en": "walking"
+    }
+   ],
+   "id": "u4l2e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אמא שלי ניקתה את הבית.",
+   "answer": "My mother cleaned the house.",
+   "alternatives": [
+    "My mom cleaned the house."
+   ],
+   "bank": [
+    "My",
+    "mother",
+    "cleaned",
+    "the",
+    "house",
+    "cleans",
+    "home"
+   ],
+   "id": "u4l2e7"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "I cleaned my room.",
+   "answer": "ניקיתי את החדר שלי",
+   "alternatives": [
+    "ניקיתי את החדר",
+    "ניקיתי את החדר שלי."
+   ],
+   "bank": [
+    "ניקיתי",
+    "את",
+    "החדר",
+    "שלי",
+    "בישלתי",
+    "הבית"
+   ],
+   "id": "u4l2e8"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "He ___ to school yesterday.",
+   "options": [
+    "walked",
+    "walks",
+    "walk"
+   ],
+   "answer": "walked",
+   "hint_he": "הוא הלך לבית הספר ברגל אתמול.",
+   "explain_he": "בעבר הפועל זהה בכל הגופים: I walked, he walked.",
+   "id": "u4l2e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "They walked in the park.",
+   "answer": "הם הלכו בפארק",
+   "alternatives": [
+    "הם טיילו בפארק"
+   ],
+   "bank": [
+    "הם",
+    "הלכו",
+    "בפארק",
+    "אנחנו",
+    "בבית"
+   ],
+   "id": "u4l2e10"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אתמול שיחקתי עם אח שלי.",
+   "answer": "Yesterday I played with my brother.",
+   "alternatives": [
+    "I played with my brother yesterday."
+   ],
+   "bank": [
+    "Yesterday",
+    "I",
+    "played",
+    "with",
+    "my",
+    "brother",
+    "play",
+    "sister"
+   ],
+   "input": "type",
+   "id": "u4l2e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "We watched a movie.",
+   "answer": "We watched a movie.",
+   "alternatives": [],
+   "id": "u4l2e12"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "They walked in the park.",
+   "answer": "הם הלכו בפארק",
+   "alternatives": [
+    "הם טיילו בפארק"
+   ],
+   "bank": [
+    "הם",
+    "הלכו",
+    "בפארק",
+    "אנחנו",
+    "בבית"
+   ],
+   "id": "u4l2e13"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אמא שלי ניקתה את הבית.",
+   "answer": "My mother cleaned the house.",
+   "alternatives": [
+    "My mom cleaned the house."
+   ],
+   "bank": [
+    "My",
+    "mother",
+    "cleaned",
+    "the",
+    "house",
+    "cleans",
+    "home"
+   ],
+   "id": "u4l2e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I cooked eggs.",
+   "answer": "I cooked eggs.",
+   "alternatives": [],
+   "id": "u4l2e15"
+  },
+  {
+   "type": "speak",
+   "text": "We watched TV.",
+   "alternatives": [],
+   "id": "u4l2e16"
+  }
+ ]
+}

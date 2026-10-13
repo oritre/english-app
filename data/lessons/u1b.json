@@ -1,0 +1,91 @@
+{
+ "id": "u1b",
+ "unit_id": "u1",
+ "title_he": "אנסין: נועה",
+ "bonus": true,
+ "exercises": [
+  {
+   "type": "read",
+   "passage": "Hello! My name is Noa. This is my dog. The dog is big and the cat is small. I eat an apple. The apple is red. I drink milk. Goodbye!",
+   "question": "מה השם של הילדה?",
+   "answer": "נועה",
+   "options": [
+    "נועה",
+    "דנה",
+    "מיכל"
+   ],
+   "explain_he": "בטקסט כתוב: My name is Noa.",
+   "id": "u1be1"
+  },
+  {
+   "type": "read",
+   "passage": "Hello! My name is Noa. This is my dog. The dog is big and the cat is small. I eat an apple. The apple is red. I drink milk. Goodbye!",
+   "question": "מי גדול?",
+   "answer": "הכלב",
+   "options": [
+    "הכלב",
+    "החתול",
+    "הציפור"
+   ],
+   "explain_he": "בטקסט כתוב: The dog is big.",
+   "id": "u1be2"
+  },
+  {
+   "type": "read",
+   "passage": "Hello! My name is Noa. This is my dog. The dog is big and the cat is small. I eat an apple. The apple is red. I drink milk. Goodbye!",
+   "question": "מה נועה אוכלת?",
+   "answer": "תפוח",
+   "options": [
+    "תפוח",
+    "לחם",
+    "ביצה"
+   ],
+   "explain_he": "בטקסט כתוב: I eat an apple.",
+   "id": "u1be3"
+  },
+  {
+   "type": "speak",
+   "text": "The dog is big and the cat is small.",
+   "alternatives": [],
+   "id": "u1be4"
+  },
+  {
+   "type": "read",
+   "passage": "Hello! My name is Noa. This is my dog. The dog is big and the cat is small. I eat an apple. The apple is red. I drink milk. Goodbye!",
+   "question": "באיזה צבע התפוח?",
+   "answer": "אדום",
+   "options": [
+    "אדום",
+    "ירוק",
+    "כחול"
+   ],
+   "explain_he": "בטקסט כתוב: The apple is red.",
+   "id": "u1be5"
+  },
+  {
+   "type": "read",
+   "passage": "Hello! My name is Noa. This is my dog. The dog is big and the cat is small. I eat an apple. The apple is red. I drink milk. Goodbye!",
+   "question": "מה נועה שותה?",
+   "answer": "חלב",
+   "options": [
+    "חלב",
+    "מים",
+    "מיץ"
+   ],
+   "explain_he": "בטקסט כתוב: I drink milk.",
+   "id": "u1be6"
+  },
+  {
+   "type": "read",
+   "passage": "Hello! My name is Noa. This is my dog. The dog is big and the cat is small. I eat an apple. The apple is red. I drink milk. Goodbye!",
+   "question": "נכון או לא נכון: החתול גדול.",
+   "answer": "לא נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "בטקסט כתוב: the cat is small, כלומר החתול קטן.",
+   "id": "u1be7"
+  }
+ ]
+}

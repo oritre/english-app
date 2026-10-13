@@ -1,0 +1,251 @@
+{
+ "id": "u5l4",
+ "unit_id": "u5",
+ "title_he": "השוואות",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "bigger",
+     "גדול יותר"
+    ],
+    [
+     "smaller",
+     "קטן יותר"
+    ],
+    [
+     "faster",
+     "מהיר יותר"
+    ],
+    [
+     "older",
+     "מבוגר יותר"
+    ],
+    [
+     "than",
+     "מ... (בהשוואה)"
+    ]
+   ],
+   "id": "u5l4e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הכלב גדול יותר מהחתול.",
+   "answer": "The dog is bigger than the cat.",
+   "alternatives": [],
+   "bank": [
+    "The",
+    "dog",
+    "is",
+    "bigger",
+    "than",
+    "the",
+    "cat",
+    "big",
+    "then"
+   ],
+   "input": "type",
+   "id": "u5l4e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "My brother is ___ than me.",
+   "options": [
+    "older",
+    "old",
+    "more old"
+   ],
+   "answer": "older",
+   "hint_he": "אח שלי מבוגר ממני.",
+   "explain_he": "במילה קצרה מוסיפים er: old ← older, ואחריה than.",
+   "id": "u5l4e3"
+  },
+  {
+   "type": "speak",
+   "text": "I am taller than my brother.",
+   "alternatives": [
+    "I'm taller than my brother."
+   ],
+   "id": "u5l4e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "A car is faster ___ a bike.",
+   "options": [
+    "than",
+    "then",
+    "that"
+   ],
+   "answer": "than",
+   "hint_he": "מכונית מהירה יותר מאופניים.",
+   "explain_he": "בהשוואה כותבים than ולא then.",
+   "id": "u5l4e5"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "החנות הזאת זולה יותר.",
+   "answer": "This shop is cheaper.",
+   "alternatives": [],
+   "bank": [
+    "This",
+    "shop",
+    "is",
+    "cheaper",
+    "cheap",
+    "that"
+   ],
+   "id": "u5l4e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "היום חם יותר מאתמול.",
+   "answer": "Today is hotter than yesterday.",
+   "alternatives": [
+    "It is hotter today than yesterday.",
+    "It's hotter today than yesterday."
+   ],
+   "bank": [
+    "Today",
+    "is",
+    "hotter",
+    "than",
+    "yesterday",
+    "hot",
+    "then"
+   ],
+   "id": "u5l4e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך אומרים \"יותר גדול\"?",
+   "answer": "bigger",
+   "options": [
+    {
+     "en": "bigger"
+    },
+    {
+     "en": "more big"
+    },
+    {
+     "en": "biger"
+    }
+   ],
+   "id": "u5l4e8"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "My sister is smaller than me.",
+   "answer": "אחות שלי קטנה ממני",
+   "alternatives": [
+    "אחותי קטנה ממני",
+    "אחותי יותר קטנה ממני",
+    "אחות שלי יותר קטנה ממני"
+   ],
+   "bank": [
+    "אחות",
+    "שלי",
+    "קטנה",
+    "ממני",
+    "גדולה",
+    "ממך"
+   ],
+   "id": "u5l4e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "The park is bigger than the school.",
+   "answer": "הפארק גדול יותר מבית הספר",
+   "alternatives": [
+    "הפארק יותר גדול מבית הספר",
+    "הפארק גדול מבית הספר"
+   ],
+   "bank": [
+    "הפארק",
+    "גדול",
+    "יותר",
+    "מבית",
+    "הספר",
+    "קטן",
+    "מהבית"
+   ],
+   "id": "u5l4e10"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "The shoes are more ___ than the shirt.",
+   "options": [
+    "expensive",
+    "expensiver",
+    "cheap"
+   ],
+   "answer": "expensive",
+   "hint_he": "הנעליים יקרות יותר מהחולצה.",
+   "explain_he": "במילה ארוכה כותבים more לפניה: more expensive.",
+   "id": "u5l4e11"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "היום חם יותר מאתמול.",
+   "answer": "Today is hotter than yesterday.",
+   "alternatives": [
+    "It is hotter today than yesterday.",
+    "It's hotter today than yesterday."
+   ],
+   "bank": [
+    "Today",
+    "is",
+    "hotter",
+    "than",
+    "yesterday",
+    "hot",
+    "then"
+   ],
+   "input": "type",
+   "id": "u5l4e12"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I am taller than my brother.",
+   "answer": "I am taller than my brother.",
+   "alternatives": [
+    "I'm taller than my brother."
+   ],
+   "id": "u5l4e13"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "The park is bigger than the school.",
+   "answer": "הפארק גדול יותר מבית הספר",
+   "alternatives": [
+    "הפארק יותר גדול מבית הספר",
+    "הפארק גדול מבית הספר"
+   ],
+   "bank": [
+    "הפארק",
+    "גדול",
+    "יותר",
+    "מבית",
+    "הספר",
+    "קטן",
+    "מהבית"
+   ],
+   "id": "u5l4e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "A cat is smaller than a dog.",
+   "answer": "A cat is smaller than a dog.",
+   "alternatives": [],
+   "id": "u5l4e15"
+  },
+  {
+   "type": "speak",
+   "text": "The dog is bigger than the cat.",
+   "alternatives": [],
+   "id": "u5l4e16"
+  }
+ ]
+}

@@ -1,0 +1,225 @@
+{
+ "id": "u4l4",
+ "unit_id": "u4",
+ "title_he": "שאלות ושלילה בעבר",
+ "exercises": [
+  {
+   "type": "translate_he_en",
+   "prompt": "הלכת לבית הספר?",
+   "answer": "Did you go to school?",
+   "alternatives": [],
+   "bank": [
+    "Did",
+    "you",
+    "go",
+    "to",
+    "school",
+    "went",
+    "do"
+   ],
+   "input": "type",
+   "id": "u4l4e1"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "Did she ___ the movie?",
+   "options": [
+    "see",
+    "saw",
+    "sees"
+   ],
+   "answer": "see",
+   "hint_he": "היא ראתה את הסרט?",
+   "explain_he": "אחרי did הפועל חוזר לצורה הרגילה: Did she see, ולא Did she saw.",
+   "id": "u4l4e2"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "לא אכלתי ארוחת בוקר.",
+   "answer": "I didn't eat breakfast.",
+   "alternatives": [
+    "I did not eat breakfast."
+   ],
+   "bank": [
+    "I",
+    "didn't",
+    "eat",
+    "breakfast",
+    "ate",
+    "not"
+   ],
+   "id": "u4l4e3"
+  },
+  {
+   "type": "speak",
+   "text": "Did you have fun?",
+   "alternatives": [],
+   "id": "u4l4e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "We ___ play yesterday.",
+   "options": [
+    "didn't",
+    "don't",
+    "wasn't"
+   ],
+   "answer": "didn't",
+   "hint_he": "לא שיחקנו אתמול.",
+   "explain_he": "didn't = did not, שלילה בעבר.",
+   "id": "u4l4e5"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "איך עונים \"כן\" על Did you see the dog?",
+   "answer": "Yes, I did.",
+   "options": [
+    {
+     "en": "Yes, I did."
+    },
+    {
+     "en": "Yes, I saw."
+    },
+    {
+     "en": "Yes, I was."
+    }
+   ],
+   "id": "u4l4e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "מה עשית אתמול?",
+   "answer": "What did you do yesterday?",
+   "alternatives": [],
+   "bank": [
+    "What",
+    "did",
+    "you",
+    "do",
+    "yesterday",
+    "does",
+    "done"
+   ],
+   "id": "u4l4e7"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Did they watch TV?",
+   "answer": "הם צפו בטלוויזיה",
+   "alternatives": [
+    "האם הם צפו בטלוויזיה"
+   ],
+   "bank": [
+    "הם",
+    "צפו",
+    "בטלוויזיה",
+    "אנחנו",
+    "ראו"
+   ],
+   "id": "u4l4e8"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הוא לא הלך לפארק.",
+   "answer": "He didn't go to the park.",
+   "alternatives": [
+    "He did not go to the park."
+   ],
+   "bank": [
+    "He",
+    "didn't",
+    "go",
+    "to",
+    "the",
+    "park",
+    "went",
+    "not"
+   ],
+   "input": "type",
+   "id": "u4l4e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "She didn't drink water.",
+   "answer": "היא לא שתתה מים",
+   "alternatives": [],
+   "bank": [
+    "היא",
+    "לא",
+    "שתתה",
+    "מים",
+    "כן",
+    "חלב"
+   ],
+   "id": "u4l4e10"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I didn't ___ my room.",
+   "options": [
+    "clean",
+    "cleaned",
+    "cleans"
+   ],
+   "answer": "clean",
+   "hint_he": "לא ניקיתי את החדר שלי.",
+   "explain_he": "אחרי didn't הפועל בא בלי ed.",
+   "id": "u4l4e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Did you have fun?",
+   "answer": "Did you have fun?",
+   "alternatives": [],
+   "id": "u4l4e12"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "מה עשית אתמול?",
+   "answer": "What did you do yesterday?",
+   "alternatives": [],
+   "bank": [
+    "What",
+    "did",
+    "you",
+    "do",
+    "yesterday",
+    "does",
+    "done"
+   ],
+   "id": "u4l4e13"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "She didn't drink water.",
+   "answer": "היא לא שתתה מים",
+   "alternatives": [],
+   "bank": [
+    "היא",
+    "לא",
+    "שתתה",
+    "מים",
+    "כן",
+    "חלב"
+   ],
+   "id": "u4l4e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I didn't see him.",
+   "answer": "I didn't see him.",
+   "alternatives": [
+    "I did not see him."
+   ],
+   "id": "u4l4e15"
+  },
+  {
+   "type": "speak",
+   "text": "Did you go to school?",
+   "alternatives": [],
+   "id": "u4l4e16"
+  }
+ ]
+}

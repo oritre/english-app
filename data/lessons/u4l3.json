@@ -1,0 +1,235 @@
+{
+ "id": "u4l3",
+ "unit_id": "u4",
+ "title_he": "פעלים מיוחדים בעבר",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "went",
+     "הלכתי / נסעתי"
+    ],
+    [
+     "ate",
+     "אכלתי"
+    ],
+    [
+     "saw",
+     "ראיתי"
+    ],
+    [
+     "had",
+     "היה לי"
+    ],
+    [
+     "drank",
+     "שתיתי"
+    ]
+   ],
+   "id": "u4l3e1"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "Yesterday we ___ to the beach.",
+   "options": [
+    "went",
+    "goed",
+    "go"
+   ],
+   "answer": "went",
+   "hint_he": "אתמול הלכנו לים.",
+   "explain_he": "יש פעלים שהעבר שלהם מיוחד: go ← went, ולא goed.",
+   "id": "u4l3e2"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אכלתי פיצה.",
+   "answer": "I ate pizza.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "ate",
+    "pizza",
+    "eat",
+    "eated"
+   ],
+   "input": "type",
+   "id": "u4l3e3"
+  },
+  {
+   "type": "speak",
+   "text": "We went to the park.",
+   "alternatives": [],
+   "id": "u4l3e4"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "ראינו כלב גדול.",
+   "answer": "We saw a big dog.",
+   "alternatives": [],
+   "bank": [
+    "We",
+    "saw",
+    "a",
+    "big",
+    "dog",
+    "see",
+    "small"
+   ],
+   "id": "u4l3e5"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "She ___ a cat when she was small.",
+   "options": [
+    "had",
+    "haved",
+    "has"
+   ],
+   "answer": "had",
+   "hint_he": "היה לה חתול כשהייתה קטנה.",
+   "explain_he": "have ← had.",
+   "id": "u4l3e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "הלכתי לבית הספר.",
+   "answer": "I went to school.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "went",
+    "to",
+    "school",
+    "go",
+    "at"
+   ],
+   "id": "u4l3e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה העבר של eat?",
+   "answer": "ate",
+   "options": [
+    {
+     "en": "ate"
+    },
+    {
+     "en": "eated"
+    },
+    {
+     "en": "eats"
+    }
+   ],
+   "id": "u4l3e8"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "He drank milk.",
+   "answer": "הוא שתה חלב",
+   "alternatives": [],
+   "bank": [
+    "הוא",
+    "שתה",
+    "חלב",
+    "אכל",
+    "מים"
+   ],
+   "id": "u4l3e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "I saw my friend.",
+   "answer": "ראיתי את החבר שלי",
+   "alternatives": [
+    "ראיתי את החברה שלי",
+    "ראיתי חבר שלי",
+    "ראיתי את חברי"
+   ],
+   "bank": [
+    "ראיתי",
+    "את",
+    "החבר",
+    "שלי",
+    "הלכתי",
+    "אח"
+   ],
+   "id": "u4l3e10"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הלכתי לבית הספר.",
+   "answer": "I went to school.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "went",
+    "to",
+    "school",
+    "go",
+    "at"
+   ],
+   "input": "type",
+   "id": "u4l3e11"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה העבר של see?",
+   "answer": "saw",
+   "options": [
+    {
+     "en": "saw"
+    },
+    {
+     "en": "seed"
+    },
+    {
+     "en": "sees"
+    }
+   ],
+   "id": "u4l3e12"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "We went to the park.",
+   "answer": "We went to the park.",
+   "alternatives": [],
+   "id": "u4l3e13"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "I saw my friend.",
+   "answer": "ראיתי את החבר שלי",
+   "alternatives": [
+    "ראיתי את החברה שלי",
+    "ראיתי חבר שלי",
+    "ראיתי את חברי"
+   ],
+   "bank": [
+    "ראיתי",
+    "את",
+    "החבר",
+    "שלי",
+    "הלכתי",
+    "אח"
+   ],
+   "id": "u4l3e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I had a good day.",
+   "answer": "I had a good day.",
+   "alternatives": [],
+   "id": "u4l3e15"
+  },
+  {
+   "type": "speak",
+   "text": "I ate pizza.",
+   "alternatives": [],
+   "id": "u4l3e16"
+  }
+ ]
+}

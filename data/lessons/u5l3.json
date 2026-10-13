@@ -1,0 +1,253 @@
+{
+ "id": "u5l3",
+ "unit_id": "u5",
+ "title_he": "בחנות",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "money",
+     "כסף"
+    ],
+    [
+     "buy",
+     "לקנות"
+    ],
+    [
+     "price",
+     "מחיר"
+    ],
+    [
+     "cheap",
+     "זול"
+    ],
+    [
+     "expensive",
+     "יקר"
+    ]
+   ],
+   "id": "u5l3e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "כמה זה עולה?",
+   "answer": "How much is it?",
+   "alternatives": [
+    "How much does it cost?",
+    "How much is this?"
+   ],
+   "bank": [
+    "How",
+    "much",
+    "is",
+    "it",
+    "many",
+    "are"
+   ],
+   "input": "type",
+   "id": "u5l3e2"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני רוצה לקנות חולצה.",
+   "answer": "I want to buy a shirt.",
+   "alternatives": [],
+   "bank": [
+    "I",
+    "want",
+    "to",
+    "buy",
+    "a",
+    "shirt",
+    "buys",
+    "coat"
+   ],
+   "id": "u5l3e3"
+  },
+  {
+   "type": "speak",
+   "text": "How much is the coat?",
+   "alternatives": [],
+   "id": "u5l3e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "How ___ is this book?",
+   "options": [
+    "much",
+    "many",
+    "old"
+   ],
+   "answer": "much",
+   "hint_he": "כמה עולה הספר הזה?",
+   "explain_he": "על מחיר שואלים How much.",
+   "id": "u5l3e5"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה ההפך של cheap?",
+   "answer": "expensive",
+   "options": [
+    {
+     "en": "expensive"
+    },
+    {
+     "en": "big"
+    },
+    {
+     "en": "small"
+    }
+   ],
+   "id": "u5l3e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אפשר לשלם בכרטיס?",
+   "answer": "Can I pay by card?",
+   "alternatives": [
+    "Can I pay with a card?",
+    "Can I pay with card?",
+    "Can I pay by credit card?"
+   ],
+   "bank": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card",
+    "with",
+    "money"
+   ],
+   "id": "u5l3e7"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "The shoes are expensive.",
+   "answer": "הנעליים יקרות",
+   "alternatives": [
+    "הנעליים הן יקרות"
+   ],
+   "bank": [
+    "הנעליים",
+    "יקרות",
+    "זולות",
+    "חולצה"
+   ],
+   "id": "u5l3e8"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "זה זול מאוד.",
+   "answer": "It is very cheap.",
+   "alternatives": [
+    "It's very cheap.",
+    "This is very cheap."
+   ],
+   "bank": [
+    "It",
+    "is",
+    "very",
+    "cheap",
+    "expensive",
+    "many"
+   ],
+   "input": "type",
+   "id": "u5l3e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "I have ten shekels.",
+   "answer": "יש לי עשרה שקלים",
+   "alternatives": [
+    "יש לי עשרה שקל",
+    "יש לי 10 שקלים"
+   ],
+   "bank": [
+    "יש",
+    "לי",
+    "עשרה",
+    "שקלים",
+    "לו",
+    "חמישה"
+   ],
+   "id": "u5l3e10"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I ___ like the red one. Do you have a blue one?",
+   "options": [
+    "don't",
+    "doesn't",
+    "not"
+   ],
+   "answer": "don't",
+   "hint_he": "אני לא אוהב את האדומה. יש לך כחולה?",
+   "explain_he": "עם I השלילה היא don't.",
+   "id": "u5l3e11"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אפשר לשלם בכרטיס?",
+   "answer": "Can I pay by card?",
+   "alternatives": [
+    "Can I pay with a card?",
+    "Can I pay with card?",
+    "Can I pay by credit card?"
+   ],
+   "bank": [
+    "Can",
+    "I",
+    "pay",
+    "by",
+    "card",
+    "with",
+    "money"
+   ],
+   "id": "u5l3e12"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "How much is the coat?",
+   "answer": "How much is the coat?",
+   "alternatives": [],
+   "id": "u5l3e13"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "I have ten shekels.",
+   "answer": "יש לי עשרה שקלים",
+   "alternatives": [
+    "יש לי עשרה שקל",
+    "יש לי 10 שקלים"
+   ],
+   "bank": [
+    "יש",
+    "לי",
+    "עשרה",
+    "שקלים",
+    "לו",
+    "חמישה"
+   ],
+   "id": "u5l3e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Here you are.",
+   "answer": "Here you are.",
+   "alternatives": [],
+   "id": "u5l3e15"
+  },
+  {
+   "type": "speak",
+   "text": "How much is it?",
+   "alternatives": [
+    "How much does it cost?",
+    "How much is this?"
+   ],
+   "id": "u5l3e16"
+  }
+ ]
+}

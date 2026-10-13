@@ -33,6 +33,17 @@ export async function renderPath(root, nav) {
         node,
         el('div', { class: 'node-label', style: `transform: translateX(${offset}px)` }, titles[id] || ''));
     });
+    if (unit.bonus) {
+      const state = states[unit.bonus];
+      const bonus = el('button', {
+        class: `node reading ${state}`, type: 'button', disabled: state === 'locked',
+        'aria-label': titles[unit.bonus] || 'בונוס',
+      }, state === 'done' ? '✓' : '📖');
+      bonus.addEventListener('click', () => nav('lesson', { lessonId: unit.bonus }));
+      nodes.push(el('div', { class: 'node-row' }, bonus,
+        el('div', { class: 'node-label' }, '⭐ בונוס · ', titles[unit.bonus] || '',
+          state === 'locked' ? el('span', { class: 'muted' }, ' (נפתח בסוף היחידה)') : null)));
+    }
     return el('section', { class: 'unit' },
       el('header', { class: `unit-header c${ui % 4}` },
         el('div', { class: 'unit-kicker' }, `יחידה ${ui + 1} · `, en(unit.cefr)),

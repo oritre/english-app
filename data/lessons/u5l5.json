@@ -1,0 +1,261 @@
+{
+ "id": "u5l5",
+ "unit_id": "u5",
+ "title_he": "תוכניות",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "next week",
+     "בשבוע הבא"
+    ],
+    [
+     "going to",
+     "הולך ל... (עתיד)"
+    ],
+    [
+     "visit",
+     "לבקר"
+    ],
+    [
+     "plan",
+     "תוכנית"
+    ],
+    [
+     "buy",
+     "לקנות"
+    ]
+   ],
+   "id": "u5l5e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "מחר אני הולך לבקר את סבתא.",
+   "answer": "Tomorrow I am going to visit grandma.",
+   "alternatives": [
+    "Tomorrow I'm going to visit grandma.",
+    "I am going to visit grandma tomorrow.",
+    "I'm going to visit grandma tomorrow."
+   ],
+   "bank": [
+    "Tomorrow",
+    "I",
+    "am",
+    "going",
+    "to",
+    "visit",
+    "grandma",
+    "go",
+    "visited"
+   ],
+   "input": "type",
+   "id": "u5l5e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "She is going ___ buy a new coat.",
+   "options": [
+    "to",
+    "for",
+    "at"
+   ],
+   "answer": "to",
+   "hint_he": "היא הולכת לקנות מעיל חדש.",
+   "explain_he": "אחרי going תמיד בא to ואז הפועל: going to buy.",
+   "id": "u5l5e3"
+  },
+  {
+   "type": "speak",
+   "text": "What are you going to buy?",
+   "alternatives": [],
+   "id": "u5l5e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "We ___ going to play football.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": "are",
+   "hint_he": "אנחנו הולכים לשחק כדורגל.",
+   "explain_he": "לפני going to בא am, is או are, כמו בהווה.",
+   "id": "u5l5e5"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "מה אתה הולך לעשות?",
+   "answer": "What are you going to do?",
+   "alternatives": [],
+   "bank": [
+    "What",
+    "are",
+    "you",
+    "going",
+    "to",
+    "do",
+    "is",
+    "go"
+   ],
+   "id": "u5l5e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אני לא הולך לשחות היום.",
+   "answer": "I am not going to swim today.",
+   "alternatives": [
+    "I'm not going to swim today."
+   ],
+   "bank": [
+    "I",
+    "am",
+    "not",
+    "going",
+    "to",
+    "swim",
+    "today",
+    "swims",
+    "go"
+   ],
+   "id": "u5l5e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"בשבוע הבא\"?",
+   "answer": "next week",
+   "options": [
+    {
+     "en": "next week"
+    },
+    {
+     "en": "last week"
+    },
+    {
+     "en": "this week"
+    }
+   ],
+   "id": "u5l5e8"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "They are going to eat in a restaurant.",
+   "answer": "הם הולכים לאכול במסעדה",
+   "alternatives": [
+    "הם יאכלו במסעדה"
+   ],
+   "bank": [
+    "הם",
+    "הולכים",
+    "לאכול",
+    "במסעדה",
+    "אנחנו",
+    "בבית"
+   ],
+   "id": "u5l5e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "Next week we are going to visit London.",
+   "answer": "בשבוע הבא אנחנו הולכים לבקר בלונדון",
+   "alternatives": [
+    "בשבוע הבא נבקר בלונדון",
+    "אנחנו הולכים לבקר בלונדון בשבוע הבא"
+   ],
+   "bank": [
+    "בשבוע",
+    "הבא",
+    "אנחנו",
+    "הולכים",
+    "לבקר",
+    "בלונדון",
+    "הם",
+    "מחר"
+   ],
+   "id": "u5l5e10"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אני לא הולך לשחות היום.",
+   "answer": "I am not going to swim today.",
+   "alternatives": [
+    "I'm not going to swim today."
+   ],
+   "bank": [
+    "I",
+    "am",
+    "not",
+    "going",
+    "to",
+    "swim",
+    "today",
+    "swims",
+    "go"
+   ],
+   "input": "type",
+   "id": "u5l5e11"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "Next week I ___ going to visit my friend.",
+   "options": [
+    "am",
+    "was",
+    "did"
+   ],
+   "answer": "am",
+   "hint_he": "בשבוע הבא אני הולך לבקר את החבר שלי.",
+   "explain_he": "going to מדבר על העתיד, ולכן am ולא was.",
+   "id": "u5l5e12"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "What are you going to buy?",
+   "answer": "What are you going to buy?",
+   "alternatives": [],
+   "id": "u5l5e13"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Next week we are going to visit London.",
+   "answer": "בשבוע הבא אנחנו הולכים לבקר בלונדון",
+   "alternatives": [
+    "בשבוע הבא נבקר בלונדון",
+    "אנחנו הולכים לבקר בלונדון בשבוע הבא"
+   ],
+   "bank": [
+    "בשבוע",
+    "הבא",
+    "אנחנו",
+    "הולכים",
+    "לבקר",
+    "בלונדון",
+    "הם",
+    "מחר"
+   ],
+   "id": "u5l5e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "I'm going to read a book.",
+   "answer": "I'm going to read a book.",
+   "alternatives": [
+    "I am going to read a book."
+   ],
+   "id": "u5l5e15"
+  },
+  {
+   "type": "speak",
+   "text": "Tomorrow I am going to visit grandma.",
+   "alternatives": [
+    "Tomorrow I'm going to visit grandma.",
+    "I am going to visit grandma tomorrow.",
+    "I'm going to visit grandma tomorrow."
+   ],
+   "id": "u5l5e16"
+  }
+ ]
+}

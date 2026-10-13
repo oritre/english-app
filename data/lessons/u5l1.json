@@ -1,0 +1,268 @@
+{
+ "id": "u5l1",
+ "unit_id": "u5",
+ "title_he": "יש בעיר",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "shop",
+     "חנות"
+    ],
+    [
+     "street",
+     "רחוב"
+    ],
+    [
+     "bank",
+     "בנק"
+    ],
+    [
+     "hospital",
+     "בית חולים"
+    ],
+    [
+     "restaurant",
+     "מסעדה"
+    ]
+   ],
+   "id": "u5l1e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "יש חנות ברחוב שלי.",
+   "answer": "There is a shop on my street.",
+   "alternatives": [
+    "There's a shop on my street."
+   ],
+   "bank": [
+    "There",
+    "is",
+    "a",
+    "shop",
+    "on",
+    "my",
+    "street",
+    "are",
+    "in"
+   ],
+   "input": "type",
+   "id": "u5l1e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "There ___ two parks in my town.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": "are",
+   "hint_he": "יש שני פארקים בעיר שלי.",
+   "explain_he": "There is לדבר אחד, There are לכמה דברים.",
+   "id": "u5l1e3"
+  },
+  {
+   "type": "speak",
+   "text": "There is a big park in my town.",
+   "alternatives": [],
+   "id": "u5l1e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "There ___ a bank next to the school.",
+   "options": [
+    "is",
+    "are",
+    "be"
+   ],
+   "answer": "is",
+   "hint_he": "יש בנק ליד בית הספר.",
+   "explain_he": "בנק אחד, לכן There is.",
+   "id": "u5l1e5"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"מסעדה\"?",
+   "answer": "restaurant",
+   "options": [
+    {
+     "en": "restaurant",
+     "emoji": "🍽️"
+    },
+    {
+     "en": "hospital",
+     "emoji": "🏥"
+    },
+    {
+     "en": "shop",
+     "emoji": "🏪"
+    }
+   ],
+   "id": "u5l1e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "אין פה בנק.",
+   "answer": "There isn't a bank here.",
+   "alternatives": [
+    "There is not a bank here.",
+    "There is no bank here."
+   ],
+   "bank": [
+    "There",
+    "isn't",
+    "a",
+    "bank",
+    "here",
+    "are",
+    "no"
+   ],
+   "id": "u5l1e7"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "יש הרבה מכוניות ברחוב.",
+   "answer": "There are many cars on the street.",
+   "alternatives": [
+    "There are a lot of cars on the street.",
+    "There are lots of cars on the street."
+   ],
+   "bank": [
+    "There",
+    "are",
+    "many",
+    "cars",
+    "on",
+    "the",
+    "street",
+    "is",
+    "a",
+    "in"
+   ],
+   "id": "u5l1e8"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Is there a hospital here?",
+   "answer": "יש פה בית חולים",
+   "alternatives": [
+    "יש כאן בית חולים",
+    "האם יש פה בית חולים",
+    "האם יש כאן בית חולים"
+   ],
+   "bank": [
+    "יש",
+    "פה",
+    "בית",
+    "חולים",
+    "אין",
+    "שם"
+   ],
+   "id": "u5l1e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "There are three restaurants on this street.",
+   "answer": "יש שלוש מסעדות ברחוב הזה",
+   "alternatives": [
+    "ברחוב הזה יש שלוש מסעדות",
+    "יש שלוש מסעדות ברחוב הזה."
+   ],
+   "bank": [
+    "יש",
+    "שלוש",
+    "מסעדות",
+    "ברחוב",
+    "הזה",
+    "שני",
+    "חנויות"
+   ],
+   "id": "u5l1e10"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "אין פה בנק.",
+   "answer": "There isn't a bank here.",
+   "alternatives": [
+    "There is not a bank here.",
+    "There is no bank here."
+   ],
+   "bank": [
+    "There",
+    "isn't",
+    "a",
+    "bank",
+    "here",
+    "are",
+    "no"
+   ],
+   "input": "type",
+   "id": "u5l1e11"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"בית חולים\"?",
+   "answer": "hospital",
+   "options": [
+    {
+     "en": "hospital",
+     "emoji": "🏥"
+    },
+    {
+     "en": "school",
+     "emoji": "🏫"
+    },
+    {
+     "en": "bank",
+     "emoji": "🏦"
+    }
+   ],
+   "id": "u5l1e12"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "There is a big park in my town.",
+   "answer": "There is a big park in my town.",
+   "alternatives": [],
+   "id": "u5l1e13"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "There are three restaurants on this street.",
+   "answer": "יש שלוש מסעדות ברחוב הזה",
+   "alternatives": [
+    "ברחוב הזה יש שלוש מסעדות",
+    "יש שלוש מסעדות ברחוב הזה."
+   ],
+   "bank": [
+    "יש",
+    "שלוש",
+    "מסעדות",
+    "ברחוב",
+    "הזה",
+    "שני",
+    "חנויות"
+   ],
+   "id": "u5l1e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Is there a shop near here?",
+   "answer": "Is there a shop near here?",
+   "alternatives": [],
+   "id": "u5l1e15"
+  },
+  {
+   "type": "speak",
+   "text": "There is a shop on my street.",
+   "alternatives": [
+    "There's a shop on my street."
+   ],
+   "id": "u5l1e16"
+  }
+ ]
+}

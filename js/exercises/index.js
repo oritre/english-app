@@ -7,6 +7,7 @@ import { canSpeakLang } from '../speech.js';
 import { renderListenTranslate } from './listenTranslate.js';
 import { renderSpeak, speakSupported } from './speak.js';
 import { renderTypeTranslate } from './typeTranslate.js';
+import { renderRead } from './read.js';
 
 export const RENDERERS = {
   choose: renderChoose,
@@ -17,6 +18,7 @@ export const RENDERERS = {
   listen_type: renderListenType,
   listen_translate: renderListenTranslate,
   speak: renderSpeak,
+  read: renderRead,
 };
 
 export function isSupported(ex) {

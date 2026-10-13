@@ -1,0 +1,91 @@
+{
+ "id": "u4b",
+ "unit_id": "u4",
+ "title_he": "אנסין: סוף שבוע בים",
+ "bonus": true,
+ "exercises": [
+  {
+   "type": "read",
+   "passage": "Last weekend my family went to the beach. The weather was hot. First we walked on the beach. Then my brother and I played football. My mother cooked fish, and we ate dinner on the beach. At night we were very tired. We didn't watch TV. We went to sleep. It was a good weekend!",
+   "question": "Where did the family go?",
+   "answer": "to the beach",
+   "options": [
+    "to the beach",
+    "to the park",
+    "to a restaurant"
+   ],
+   "explain_he": "בטקסט כתוב: my family went to the beach.",
+   "id": "u4be1"
+  },
+  {
+   "type": "read",
+   "passage": "Last weekend my family went to the beach. The weather was hot. First we walked on the beach. Then my brother and I played football. My mother cooked fish, and we ate dinner on the beach. At night we were very tired. We didn't watch TV. We went to sleep. It was a good weekend!",
+   "question": "How was the weather?",
+   "answer": "hot",
+   "options": [
+    "hot",
+    "cold",
+    "rainy"
+   ],
+   "explain_he": "בטקסט כתוב: The weather was hot.",
+   "id": "u4be2"
+  },
+  {
+   "type": "read",
+   "passage": "Last weekend my family went to the beach. The weather was hot. First we walked on the beach. Then my brother and I played football. My mother cooked fish, and we ate dinner on the beach. At night we were very tired. We didn't watch TV. We went to sleep. It was a good weekend!",
+   "question": "מה הם עשו קודם?",
+   "answer": "הלכו על החוף",
+   "options": [
+    "הלכו על החוף",
+    "שיחקו כדורגל",
+    "אכלו ארוחת ערב"
+   ],
+   "explain_he": "בטקסט כתוב: First we walked on the beach. המילה first = קודם.",
+   "id": "u4be3"
+  },
+  {
+   "type": "speak",
+   "text": "It was a good weekend!",
+   "alternatives": [],
+   "id": "u4be4"
+  },
+  {
+   "type": "read",
+   "passage": "Last weekend my family went to the beach. The weather was hot. First we walked on the beach. Then my brother and I played football. My mother cooked fish, and we ate dinner on the beach. At night we were very tired. We didn't watch TV. We went to sleep. It was a good weekend!",
+   "question": "Who cooked the fish?",
+   "answer": "the mother",
+   "options": [
+    "the mother",
+    "the father",
+    "the brother"
+   ],
+   "explain_he": "בטקסט כתוב: My mother cooked fish.",
+   "id": "u4be5"
+  },
+  {
+   "type": "read",
+   "passage": "Last weekend my family went to the beach. The weather was hot. First we walked on the beach. Then my brother and I played football. My mother cooked fish, and we ate dinner on the beach. At night we were very tired. We didn't watch TV. We went to sleep. It was a good weekend!",
+   "question": "True or false: They watched TV at night.",
+   "answer": "False",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explain_he": "בטקסט כתוב: We didn't watch TV.",
+   "id": "u4be6"
+  },
+  {
+   "type": "read",
+   "passage": "Last weekend my family went to the beach. The weather was hot. First we walked on the beach. Then my brother and I played football. My mother cooked fish, and we ate dinner on the beach. At night we were very tired. We didn't watch TV. We went to sleep. It was a good weekend!",
+   "question": "למה הם הלכו לישון?",
+   "answer": "כי הם היו עייפים",
+   "options": [
+    "כי הם היו עייפים",
+    "כי היה קר",
+    "כי הם היו רעבים"
+   ],
+   "explain_he": "בטקסט כתוב: At night we were very tired.",
+   "id": "u4be7"
+  }
+ ]
+}

@@ -1,0 +1,257 @@
+{
+ "id": "u4l5",
+ "unit_id": "u4",
+ "title_he": "מתי זה קרה?",
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "last week",
+     "בשבוע שעבר"
+    ],
+    [
+     "ago",
+     "לפני (זמן)"
+    ],
+    [
+     "first",
+     "קודם"
+    ],
+    [
+     "then",
+     "אחר כך"
+    ],
+    [
+     "weekend",
+     "סוף שבוע"
+    ]
+   ],
+   "id": "u4l5e1"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "בשבוע שעבר ביקרנו את סבתא.",
+   "answer": "Last week we visited grandma.",
+   "alternatives": [
+    "We visited grandma last week.",
+    "Last week we visited our grandma."
+   ],
+   "bank": [
+    "Last",
+    "week",
+    "we",
+    "visited",
+    "grandma",
+    "visit",
+    "went"
+   ],
+   "input": "type",
+   "id": "u4l5e2"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "I saw him two days ___.",
+   "options": [
+    "ago",
+    "last",
+    "before"
+   ],
+   "answer": "ago",
+   "hint_he": "ראיתי אותו לפני יומיים.",
+   "explain_he": "ago בא אחרי הזמן: two days ago = לפני יומיים.",
+   "id": "u4l5e3"
+  },
+  {
+   "type": "speak",
+   "text": "Last night I was tired.",
+   "alternatives": [],
+   "id": "u4l5e4"
+  },
+  {
+   "type": "fill_blank",
+   "sentence": "___ week I was sick.",
+   "options": [
+    "Last",
+    "Ago",
+    "Next"
+   ],
+   "answer": "Last",
+   "hint_he": "בשבוע שעבר הייתי חולה.",
+   "explain_he": "last week = בשבוע שעבר, next week = בשבוע הבא.",
+   "id": "u4l5e5"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "קודם אכלנו, ואחר כך שיחקנו.",
+   "answer": "First we ate, then we played.",
+   "alternatives": [
+    "First we ate and then we played.",
+    "First we ate, and then we played."
+   ],
+   "bank": [
+    "First",
+    "we",
+    "ate",
+    "then",
+    "we",
+    "played",
+    "eat",
+    "play"
+   ],
+   "id": "u4l5e6"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "he",
+   "audio_text": "בסוף השבוע צפיתי בסרט.",
+   "answer": "On the weekend I watched a movie.",
+   "alternatives": [
+    "I watched a movie on the weekend.",
+    "At the weekend I watched a movie."
+   ],
+   "bank": [
+    "On",
+    "the",
+    "weekend",
+    "I",
+    "watched",
+    "a",
+    "movie",
+    "watch",
+    "film"
+   ],
+   "id": "u4l5e7"
+  },
+  {
+   "type": "choose",
+   "prompt_he": "מה זה \"סוף שבוע\"?",
+   "answer": "weekend",
+   "options": [
+    {
+     "en": "weekend"
+    },
+    {
+     "en": "week"
+    },
+    {
+     "en": "Sunday"
+    }
+   ],
+   "id": "u4l5e8"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "What did you do on the weekend?",
+   "answer": "מה עשית בסוף השבוע",
+   "alternatives": [
+    "מה עשית בסופ\"ש",
+    "מה עשית בסוף שבוע"
+   ],
+   "bank": [
+    "מה",
+    "עשית",
+    "בסוף",
+    "השבוע",
+    "מתי",
+    "איפה"
+   ],
+   "id": "u4l5e9"
+  },
+  {
+   "type": "listen_translate",
+   "lang": "en",
+   "audio_text": "Two years ago we had a dog.",
+   "answer": "לפני שנתיים היה לנו כלב",
+   "alternatives": [],
+   "bank": [
+    "לפני",
+    "שנתיים",
+    "היה",
+    "לנו",
+    "כלב",
+    "חתול",
+    "שנה"
+   ],
+   "id": "u4l5e10"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "הוא היה חולה לפני שלושה ימים.",
+   "answer": "He was sick three days ago.",
+   "alternatives": [],
+   "bank": [
+    "He",
+    "was",
+    "sick",
+    "three",
+    "days",
+    "ago",
+    "were",
+    "last"
+   ],
+   "input": "type",
+   "id": "u4l5e11"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Last night I was tired.",
+   "answer": "Last night I was tired.",
+   "alternatives": [],
+   "id": "u4l5e12"
+  },
+  {
+   "type": "translate_en_he",
+   "prompt": "Two years ago we had a dog.",
+   "answer": "לפני שנתיים היה לנו כלב",
+   "alternatives": [],
+   "bank": [
+    "לפני",
+    "שנתיים",
+    "היה",
+    "לנו",
+    "כלב",
+    "חתול",
+    "שנה"
+   ],
+   "id": "u4l5e13"
+  },
+  {
+   "type": "translate_he_en",
+   "prompt": "בסוף השבוע צפיתי בסרט.",
+   "answer": "On the weekend I watched a movie.",
+   "alternatives": [
+    "I watched a movie on the weekend.",
+    "At the weekend I watched a movie."
+   ],
+   "bank": [
+    "On",
+    "the",
+    "weekend",
+    "I",
+    "watched",
+    "a",
+    "movie",
+    "watch",
+    "film"
+   ],
+   "id": "u4l5e14"
+  },
+  {
+   "type": "listen_type",
+   "audio_text": "Then we went home.",
+   "answer": "Then we went home.",
+   "alternatives": [],
+   "id": "u4l5e15"
+  },
+  {
+   "type": "speak",
+   "text": "Last week we visited grandma.",
+   "alternatives": [
+    "We visited grandma last week.",
+    "Last week we visited our grandma."
+   ],
+   "id": "u4l5e16"
+  }
+ ]
+}

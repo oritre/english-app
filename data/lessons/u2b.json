@@ -1,0 +1,91 @@
+{
+ "id": "u2b",
+ "unit_id": "u2",
+ "title_he": "אנסין: המשפחה של דני",
+ "bonus": true,
+ "exercises": [
+  {
+   "type": "read",
+   "passage": "Hi! I am Danny. I have a big family. I have two sisters and one brother. My brother is a baby. My sister Maya likes books. She reads at home. My father and I play in the park. I want a dog!",
+   "question": "כמה אחיות יש לדני?",
+   "answer": "שתיים",
+   "options": [
+    "שתיים",
+    "אחת",
+    "שלוש"
+   ],
+   "explain_he": "בטקסט כתוב: I have two sisters.",
+   "id": "u2be1"
+  },
+  {
+   "type": "read",
+   "passage": "Hi! I am Danny. I have a big family. I have two sisters and one brother. My brother is a baby. My sister Maya likes books. She reads at home. My father and I play in the park. I want a dog!",
+   "question": "מי התינוק במשפחה?",
+   "answer": "האח",
+   "options": [
+    "האח",
+    "האחות",
+    "אבא"
+   ],
+   "explain_he": "בטקסט כתוב: My brother is a baby.",
+   "id": "u2be2"
+  },
+  {
+   "type": "read",
+   "passage": "Hi! I am Danny. I have a big family. I have two sisters and one brother. My brother is a baby. My sister Maya likes books. She reads at home. My father and I play in the park. I want a dog!",
+   "question": "מה מאיה אוהבת?",
+   "answer": "ספרים",
+   "options": [
+    "ספרים",
+    "כלבים",
+    "כדורגל"
+   ],
+   "explain_he": "בטקסט כתוב: My sister Maya likes books.",
+   "id": "u2be3"
+  },
+  {
+   "type": "speak",
+   "text": "I have a big family.",
+   "alternatives": [],
+   "id": "u2be4"
+  },
+  {
+   "type": "read",
+   "passage": "Hi! I am Danny. I have a big family. I have two sisters and one brother. My brother is a baby. My sister Maya likes books. She reads at home. My father and I play in the park. I want a dog!",
+   "question": "איפה דני ואבא שלו משחקים?",
+   "answer": "בפארק",
+   "options": [
+    "בפארק",
+    "בבית",
+    "בבית הספר"
+   ],
+   "explain_he": "בטקסט כתוב: My father and I play in the park.",
+   "id": "u2be5"
+  },
+  {
+   "type": "read",
+   "passage": "Hi! I am Danny. I have a big family. I have two sisters and one brother. My brother is a baby. My sister Maya likes books. She reads at home. My father and I play in the park. I want a dog!",
+   "question": "נכון או לא נכון: לדני יש כלב.",
+   "answer": "לא נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "בטקסט כתוב: I want a dog! דני רוצה כלב, אבל אין לו.",
+   "id": "u2be6"
+  },
+  {
+   "type": "read",
+   "passage": "Hi! I am Danny. I have a big family. I have two sisters and one brother. My brother is a baby. My sister Maya likes books. She reads at home. My father and I play in the park. I want a dog!",
+   "question": "Where does Maya read?",
+   "answer": "at home",
+   "options": [
+    "at home",
+    "at school",
+    "in the park"
+   ],
+   "explain_he": "בטקסט כתוב: She reads at home.",
+   "id": "u2be7"
+  }
+ ]
+}

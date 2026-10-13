@@ -32,6 +32,12 @@ export function lessonStates(course, doneIds) {
       else if (!currentAssigned) { states[id] = 'current'; currentAssigned = true; }
       else states[id] = 'locked';
     }
+    // The unit's reading bonus opens when all its lessons are done; it is
+    // optional, so it never becomes the path's 'current' lesson.
+    if (unit.bonus) {
+      states[unit.bonus] = done.has(unit.bonus) ? 'done'
+        : unit.lessons.every((id) => done.has(id)) ? 'bonus' : 'locked';
+    }
   }
   return states;
 }

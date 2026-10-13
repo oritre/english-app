@@ -18,6 +18,13 @@ export function en(text, cls = '') {
   return el('span', { dir: 'ltr', lang: 'en', class: `en ${cls}`.trim() }, text);
 }
 
+// Hebrew text with English quotes in it ("בטקסט כתוב: My name is Noa."): each
+// English run gets its own left-to-right island so its punctuation stays put.
+export function mixed(text) {
+  const parts = String(text).split(/([A-Za-z][A-Za-z0-9 ,.'’!?/()-]*[A-Za-z0-9.!?)])/);
+  return parts.map((p, i) => (i % 2 ? el('bdi', { dir: 'ltr', lang: 'en' }, p) : p));
+}
+
 export function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {

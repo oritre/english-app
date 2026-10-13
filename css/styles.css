@@ -311,3 +311,17 @@ button:focus-visible, textarea:focus-visible { outline: 3px solid var(--sun); ou
 .code { font-size: 28px; font-weight: 700; letter-spacing: .15em; font-variant-numeric: tabular-nums; }
 .or { text-align: center; color: var(--muted); }
 .sync-status { text-align: center; min-height: 1.5em; }
+
+/* Reading bonus ("unseen") */
+.node.reading { border-radius: 20px; background: var(--sun); box-shadow: 0 6px 0 var(--sun-deep); }
+.node.reading.done { background: var(--node); box-shadow: 0 6px 0 var(--node-deep); }
+.node.reading.locked { background: var(--locked); box-shadow: 0 6px 0 var(--line); }
+.passage { display: flex; gap: 10px; align-items: flex-start; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); padding: 14px; max-height: 40vh; overflow-y: auto; }
+.passage p { margin: 0; font-size: 17px; line-height: 1.6; text-align: left; }
+.read-question { font-size: 18px; font-weight: 700; margin: 4px 0 0; }
+.read-question[dir="ltr"] { text-align: left; }
+.read-options { display: flex; flex-direction: column; gap: 10px; }
+.read-option { font: inherit; font-size: 17px; padding: 12px 14px; border-radius: 14px; border: 2px solid var(--line); background: var(--surface); color: var(--fg); cursor: pointer; box-shadow: 0 3px 0 var(--line); }
+.read-option[dir="ltr"] { text-align: left; }
+.read-option[dir="rtl"] { text-align: right; }
+.read-option.selected { border-color: var(--ink); color: var(--ink); box-shadow: 0 3px 0 var(--ink); }

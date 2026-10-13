@@ -1,0 +1,91 @@
+{
+ "id": "u5b",
+ "unit_id": "u5",
+ "title_he": "אנסין: העיר של מאיה",
+ "bonus": true,
+ "exercises": [
+  {
+   "type": "read",
+   "passage": "Maya lives in a small town. There is a park, a school and two shops on her street. The bank is between the shop and the school. Next week Maya is going to buy new shoes. The shoes in the big shop are cheaper than the shoes in the small shop, so she is going to go to the big shop. After that, she is going to eat in a restaurant with her friend.",
+   "question": "How many shops are on Maya's street?",
+   "answer": "two",
+   "options": [
+    "two",
+    "one",
+    "three"
+   ],
+   "explain_he": "בטקסט כתוב: two shops on her street.",
+   "id": "u5be1"
+  },
+  {
+   "type": "read",
+   "passage": "Maya lives in a small town. There is a park, a school and two shops on her street. The bank is between the shop and the school. Next week Maya is going to buy new shoes. The shoes in the big shop are cheaper than the shoes in the small shop, so she is going to go to the big shop. After that, she is going to eat in a restaurant with her friend.",
+   "question": "Where is the bank?",
+   "answer": "between the shop and the school",
+   "options": [
+    "between the shop and the school",
+    "next to the park",
+    "behind the restaurant"
+   ],
+   "explain_he": "בטקסט כתוב: The bank is between the shop and the school.",
+   "id": "u5be2"
+  },
+  {
+   "type": "read",
+   "passage": "Maya lives in a small town. There is a park, a school and two shops on her street. The bank is between the shop and the school. Next week Maya is going to buy new shoes. The shoes in the big shop are cheaper than the shoes in the small shop, so she is going to go to the big shop. After that, she is going to eat in a restaurant with her friend.",
+   "question": "What is Maya going to buy?",
+   "answer": "new shoes",
+   "options": [
+    "new shoes",
+    "a new coat",
+    "a book"
+   ],
+   "explain_he": "בטקסט כתוב: Maya is going to buy new shoes.",
+   "id": "u5be3"
+  },
+  {
+   "type": "speak",
+   "text": "There is a park on her street.",
+   "alternatives": [],
+   "id": "u5be4"
+  },
+  {
+   "type": "read",
+   "passage": "Maya lives in a small town. There is a park, a school and two shops on her street. The bank is between the shop and the school. Next week Maya is going to buy new shoes. The shoes in the big shop are cheaper than the shoes in the small shop, so she is going to go to the big shop. After that, she is going to eat in a restaurant with her friend.",
+   "question": "למה מאיה תלך לחנות הגדולה?",
+   "answer": "כי הנעליים שם זולות יותר",
+   "options": [
+    "כי הנעליים שם זולות יותר",
+    "כי היא קרובה יותר",
+    "כי החברה שלה שם"
+   ],
+   "explain_he": "בטקסט כתוב: The shoes in the big shop are cheaper. המילה cheaper = זול יותר.",
+   "id": "u5be5"
+  },
+  {
+   "type": "read",
+   "passage": "Maya lives in a small town. There is a park, a school and two shops on her street. The bank is between the shop and the school. Next week Maya is going to buy new shoes. The shoes in the big shop are cheaper than the shoes in the small shop, so she is going to go to the big shop. After that, she is going to eat in a restaurant with her friend.",
+   "question": "True or false: Maya lives in a big town.",
+   "answer": "False",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explain_he": "בטקסט כתוב: Maya lives in a small town.",
+   "id": "u5be6"
+  },
+  {
+   "type": "read",
+   "passage": "Maya lives in a small town. There is a park, a school and two shops on her street. The bank is between the shop and the school. Next week Maya is going to buy new shoes. The shoes in the big shop are cheaper than the shoes in the small shop, so she is going to go to the big shop. After that, she is going to eat in a restaurant with her friend.",
+   "question": "What is Maya going to do after the shop?",
+   "answer": "eat in a restaurant",
+   "options": [
+    "eat in a restaurant",
+    "go to the bank",
+    "play in the park"
+   ],
+   "explain_he": "בטקסט כתוב: she is going to eat in a restaurant with her friend.",
+   "id": "u5be7"
+  }
+ ]
+}

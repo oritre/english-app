@@ -15,6 +15,10 @@ const CONTRACTIONS = [
   [/\bdoesn't\b/g, 'does not'],
   [/\bisn't\b/g, 'is not'],
   [/\baren't\b/g, 'are not'],
+  [/\bdidn't\b/g, 'did not'],
+  [/\bwasn't\b/g, 'was not'],
+  [/\bweren't\b/g, 'were not'],
+  [/\bthere's\b/g, 'there is'],
   [/\bcan't\b/g, 'cannot'],
   [/\bcan not\b/g, 'cannot'],
 ];
