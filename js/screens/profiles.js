@@ -20,7 +20,8 @@ export async function renderProfiles(root, nav) {
     el('div', { class: 'profile-grid' }, cards,
       el('button', { class: 'profile-card add', type: 'button', onclick: () => nav('profileCreate') },
         el('span', { class: 'avatar' }, '+'), el('span', { class: 'profile-name' }, 'לומד חדש'))),
-    el('button', { class: 'retest', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות')));
+    el('button', { class: 'retest', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות'),
+    el('button', { class: 'retest', type: 'button', onclick: () => nav('sync') }, '🔄 סנכרון בין מכשירים')));
 }
 
 export function renderProfileCreate(root, nav, { first } = {}) {
@@ -58,7 +59,8 @@ export function renderProfileCreate(root, nav, { first } = {}) {
     el('label', { for: 'profile-name', class: 'field-label' }, 'איך קוראים לך?'), name,
     el('div', { class: 'field-label' }, 'בחרו דמות'), el('div', { class: 'avatar-grid' }, avatarBtns),
     el('div', { class: 'field-label' }, 'יעד יומי'), el('div', { class: 'goal-grid' }, goalBtns),
-    save));
+    save,
+    first ? el('button', { class: 'link-btn', type: 'button', onclick: () => nav('sync') }, 'כבר לומדים במכשיר אחר? חיבור עם קוד משפחה') : null));
   name.focus();
 }
 

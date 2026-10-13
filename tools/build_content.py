@@ -313,10 +313,16 @@ def with_audio(exercises):
 def main():
     os.makedirs(os.path.join(ROOT, 'lessons'), exist_ok=True)
     course = {'units': [], 'lesson_titles': {}}
-    for unit in UNITS:
+    for unit_index, unit in enumerate(UNITS):
         lesson_ids = []
         for lesson_id, title_he, exercises in unit['lessons']:
             exercises = with_audio(exercises)
+            # From unit 3 on, every other Hebrew-to-English translation is free
+            # writing: typed in English, no tiles.
+            if unit_index >= 2:
+                he_en = [e for e in exercises if e['type'] == 'translate_he_en']
+                for e in he_en[::2]:
+                    e['input'] = 'type'
             lesson_ids.append(lesson_id)
             course['lesson_titles'][lesson_id] = title_he
             for i, ex in enumerate(exercises):

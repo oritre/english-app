@@ -1,6 +1,6 @@
 import { el } from '../util.js';
 import { loadCourse, loadLesson } from '../course.js';
-import { RENDERERS } from '../exercises/index.js';
+import { rendererFor } from '../exercises/index.js';
 import { checkAnswer } from '../check.js';
 import { buildTest, evaluate } from '../placement.js';
 import { getProfile, updateProfile, markSkipped } from '../progress.js';
@@ -41,7 +41,7 @@ export async function renderPlacement(root, nav) {
     body.replaceChildren();
     checkBtn.disabled = true;
     const ex = item.exercise;
-    const api = RENDERERS[ex.type](body, ex, { setReady: (ok) => { checkBtn.disabled = !ok; }, finish: () => {} });
+    const api = rendererFor(ex)(body, ex, { setReady: (ok) => { checkBtn.disabled = !ok; }, finish: () => {} });
     checkBtn.onclick = () => {
       checkBtn.disabled = true;
       record(item, checkAnswer(api.getAnswer(), ex.answer, ex.alternatives || []).result !== 'wrong');

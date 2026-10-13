@@ -1,7 +1,8 @@
 import { el } from '../util.js';
 import { loadLesson } from '../course.js';
-import { RENDERERS, isSupported } from '../exercises/index.js';
+import { rendererFor, isSupported } from '../exercises/index.js';
 import { checkAnswer } from '../check.js';
+import { diagnose } from '../grammar.js';
 import { speak } from '../speech.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt } from '../progress.js';
@@ -48,7 +49,7 @@ export async function renderLesson(root, nav, { lessonId }) {
     const shownAt = Date.now();
     const log = (outcome) => logAttempt({ lessonId, exercise: ex, outcome, ms: Date.now() - shownAt });
 
-    const api = RENDERERS[ex.type](body, ex, {
+    const api = rendererFor(ex)(body, ex, {
       setReady: (ok) => { checkBtn.disabled = !ok; },
       finish: (clean) => {
         handled = true;
@@ -80,11 +81,14 @@ export async function renderLesson(root, nav, { lessonId }) {
         : ex.type === 'listen_translate' ? (ex.lang === 'en' ? ex.audio_text : expected)
         : ex.type === 'fill_blank' ? api.fullSentence() : expected;
       if (result !== 'wrong' && englishOut && ex.type !== 'choose') speak(englishOut);
-      showFeedback(ex, result, expected);
+      // Grammar explanation for English answers that are wrong for a grammar reason.
+      const grammarNote = result === 'wrong' && !answerIsHebrew(ex) && ex.type !== 'choose' && ex.type !== 'fill_blank'
+        ? diagnose(api.getAnswer(), expected) : null;
+      showFeedback(ex, result, expected, grammarNote);
     };
   }
 
-  function showFeedback(ex, result, expected) {
+  function showFeedback(ex, result, expected, grammarNote = null) {
     const ok = result !== 'wrong';
     if (ok) solved++;
     if (result === 'correct-after-tries') mistakes.add(ex.id);
@@ -99,7 +103,9 @@ export async function renderLesson(root, nav, { lessonId }) {
       ex.type === 'listen_translate' && result !== 'correct'
         ? el('div', { class: 'feedback-explain' }, 'נאמר: ', el('span', { dir: ex.lang === 'he' ? 'rtl' : 'ltr' }, ex.audio_text))
         : null,
-      ex.explain_he ? el('div', { class: 'feedback-explain' }, ex.explain_he) : null);
+      grammarNote ? el('div', { class: 'feedback-explain grammar' }, '📘 ', grammarNote)
+        : ex.explain_he && result !== 'correct' ? el('div', { class: 'feedback-explain grammar' }, '📘 ', ex.explain_he)
+          : ex.explain_he ? el('div', { class: 'feedback-explain' }, ex.explain_he) : null);
     footer.replaceChildren(sheet, checkBtn);
     footer.className = `lesson-footer ${ok ? 'good' : 'bad'}`;
     checkBtn.disabled = false;

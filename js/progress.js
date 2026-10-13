@@ -175,3 +175,23 @@ export async function reportData(profileId) {
   ]);
   return { profile, attempts, results, days, progress };
 }
+
+// After pulling from other devices, rebuild each day's XP from the lesson
+// results (each result is its own record, so nothing is lost when two devices
+// learned on the same day; a day record alone would be last-write-wins).
+export async function rebuildDays() {
+  const profiles = await store.all('profiles');
+  for (const p of profiles) {
+    const results = await store.byIndex('results', 'profile_id', p.id);
+    const days = await store.byIndex('days', 'profile_id', p.id);
+    const byDate = new Map();
+    for (const r of results) byDate.set(r.date, (byDate.get(r.date) || 0) + r.xp);
+    for (const [date, xp] of byDate) {
+      const id = `${p.id}:${date}`;
+      const old = days.find((d) => d.id === id);
+      const goal_met = xp >= p.daily_goal_xp;
+      if (old && old.xp === xp && old.goal_met === goal_met) continue;
+      await store.put('days', { id, profile_id: p.id, date, xp, goal_met, freeze_used: old ? old.freeze_used : false });
+    }
+  }
+}

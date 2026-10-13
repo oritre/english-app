@@ -1,4 +1,5 @@
 // IndexedDB wrapper, same shape as reading-practice-app's store.
+import { mirrorWrite } from './sync.js';
 const DB_NAME = 'english_app';
 const DB_VERSION = 2;
 
@@ -44,7 +45,15 @@ async function os(name, mode) {
 }
 
 export const store = {
-  async put(name, value) { return wrap((await os(name, 'readwrite')).put(value)); },
+  // Every write is stamped and mirrored to the cloud when sync is on.
+  async put(name, value) {
+    value.updated_at = Date.now();
+    const r = await wrap((await os(name, 'readwrite')).put(value));
+    mirrorWrite(name, value);
+    return r;
+  },
+  // Writes a record that came from the cloud, without sending it back.
+  async putLocal(name, value) { return wrap((await os(name, 'readwrite')).put(value)); },
   async all(name) { return wrap((await os(name, 'readonly')).getAll()); },
   async get(name, id) { return wrap((await os(name, 'readonly')).get(id)); },
   async byIndex(name, index, value) { return wrap((await os(name, 'readonly')).index(index).getAll(value)); },

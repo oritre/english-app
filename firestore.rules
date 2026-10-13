@@ -1,0 +1,11 @@
+rules_version = '2';
+// Each family's data lives under families/{code}. The 8-character code is the
+// only key, so anyone who knows it can read and write that family's data.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /families/{code}/{store}/{id} {
+      allow read, write: if code.size() == 8
+        && store in ['profiles', 'progress', 'results', 'days', 'attempts'];
+    }
+  }
+}

@@ -6,6 +6,7 @@ import { renderListenType, listenSupported } from './listenType.js';
 import { canSpeakLang } from '../speech.js';
 import { renderListenTranslate } from './listenTranslate.js';
 import { renderSpeak, speakSupported } from './speak.js';
+import { renderTypeTranslate } from './typeTranslate.js';
 
 export const RENDERERS = {
   choose: renderChoose,
@@ -24,4 +25,10 @@ export function isSupported(ex) {
   if (ex.type === 'listen_translate') return canSpeakLang(ex.lang === 'he' ? 'he-IL' : 'en-US');
   if (ex.type === 'speak') return speakSupported();
   return true;
+}
+
+// Picks the renderer: a translate exercise marked input: 'type' is free writing.
+export function rendererFor(ex) {
+  if (ex.type === 'translate_he_en' && ex.input === 'type') return renderTypeTranslate;
+  return RENDERERS[ex.type];
 }

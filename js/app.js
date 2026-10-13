@@ -5,6 +5,7 @@ import { renderProfiles, renderProfileCreate, renderStartChoice } from './screen
 import { renderPlacement } from './screens/placement.js';
 import { renderLeague } from './screens/league.js';
 import { renderReports, renderReport } from './screens/report.js';
+import { renderSync, syncOnLoad } from './screens/syncSetup.js';
 import { getProfile, setCurrentProfile } from './progress.js';
 
 const routes = {
@@ -15,6 +16,7 @@ const routes = {
   league: renderLeague,
   reports: renderReports,
   report: renderReport,
+  sync: renderSync,
   path: renderPath,
   lesson: renderLesson,
   complete: renderComplete,
@@ -37,7 +39,7 @@ function nav(route, params = {}) {
     });
 }
 
-nav('back');
+syncOnLoad().finally(() => nav('back'));
 
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   navigator.serviceWorker.register('sw.js').catch((e) => console.warn('SW failed', e));

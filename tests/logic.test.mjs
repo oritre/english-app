@@ -163,3 +163,20 @@ test('report: skills, summary and suggestions from attempts', () => {
   assert.equal(hardestItems(attempts)[0].wrong, 2);
   assert.equal(suggestions({ sessions: 0 }, skills).length, 1);
 });
+
+import { diagnose } from '../js/grammar.js';
+
+test('grammar: explains common Hebrew-speaker mistakes', () => {
+  assert.match(diagnose('This is dog', 'This is a dog.'), /a או an/);
+  assert.match(diagnose('The dog big', 'The dog is big.'), /פועל עזר/);
+  assert.match(diagnose('I is Dana', 'I am Dana.'), /עם i משתמשים ב־am/);
+  assert.match(diagnose('She have a cat', 'She has a cat.'), /has/);
+  assert.match(diagnose('She like books', 'She likes books.'), /s בסוף "likes"/);
+  assert.match(diagnose('I eat a apple', 'I eat an apple.'), /an/);
+  assert.match(diagnose('I can to swim', 'I can swim.'), /can לא כותבים to/);
+  assert.match(diagnose('The big is dog', 'The dog is big.'), /הסדר/);
+  assert.match(diagnose('I am in home', 'I am at home.'), /at home/);
+  assert.match(diagnose('dog is cat', 'The dog and the cat.'), /the/);
+  assert.equal(diagnose('I eat a banana', 'I eat an apple.'), null);
+  assert.equal(diagnose('Hello', 'Hello'), null);
+});
