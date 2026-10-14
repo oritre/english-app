@@ -8,6 +8,9 @@ import { renderListenTranslate } from './listenTranslate.js';
 import { renderSpeak, speakSupported } from './speak.js';
 import { renderTypeTranslate } from './typeTranslate.js';
 import { renderRead } from './read.js';
+import { renderTeach } from './teach.js';
+import { renderPick } from './pick.js';
+import { renderSpell } from './spell.js';
 
 export const RENDERERS = {
   choose: renderChoose,
@@ -19,6 +22,9 @@ export const RENDERERS = {
   listen_translate: renderListenTranslate,
   speak: renderSpeak,
   read: renderRead,
+  teach: renderTeach,
+  pick: renderPick,
+  spell: renderSpell,
 };
 
 export function isSupported(ex) {

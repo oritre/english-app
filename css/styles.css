@@ -368,3 +368,39 @@ body.has-tabs #app { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px
 .seg-btn { border: none; background: none; font: inherit; font-size: 14px; padding: 6px 12px; color: var(--muted); cursor: pointer; }
 .seg-btn[aria-pressed="true"] { background: var(--ink); color: #fff; }
 .app-version { text-align: center; color: var(--muted); font-size: 13px; margin-top: 16px; }
+
+/* Starter (ABC) exercises */
+.teach-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; }
+.teach-big {
+  font-size: 88px; font-weight: 700; line-height: 1.1; color: var(--ink); background: var(--surface);
+  border: 2px solid var(--line); border-radius: 24px; padding: 8px 28px; cursor: pointer; box-shadow: 0 4px 0 var(--line);
+}
+.teach-title { display: flex; align-items: center; gap: 8px; justify-content: center; }
+.teach-body { margin: 4px 0; font-size: 17px; line-height: 1.6; }
+.teach-examples { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-top: 8px; }
+.teach-example {
+  display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 92px; padding: 10px 12px; cursor: pointer;
+  background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); box-shadow: 0 3px 0 var(--line); font: inherit;
+}
+.teach-example .emoji { font-size: 36px; line-height: 1.1; }
+.teach-en { font-weight: 700; font-size: 18px; }
+.teach-he { font-size: 13px; }
+.speaker.small { width: 32px; height: 32px; font-size: 16px; border-radius: 10px; }
+.pick-prompt { display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 16px; }
+.pick-show { font-size: 64px; line-height: 1.1; font-weight: 700; }
+.choice-grid.letters .choice-card { padding: 18px 10px; }
+.pick-letter { font-size: 44px; font-weight: 700; line-height: 1; }
+.tile.pair.letter { font-size: 26px; font-weight: 700; }
+.spell-slots { display: flex; justify-content: center; gap: 8px; margin: 8px 0 20px; }
+.spell-slot {
+  width: 52px; height: 60px; font-size: 30px; font-weight: 700; border: none; border-bottom: 3px solid var(--line);
+  background: none; color: var(--fg); font-family: inherit; cursor: pointer;
+}
+.spell-slot.filled { border-color: var(--ink); color: var(--ink); }
+.spell-pool { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.spell-tile { font-size: 26px; font-weight: 700; min-width: 52px; }
+.spell-tile:disabled { visibility: hidden; }
+.unit-header.starter { background: #e0a100; color: #fff; }
+.starter-fold { margin-top: 24px; border: 2px dashed var(--line); border-radius: var(--radius); padding: 12px; }
+.starter-fold summary { cursor: pointer; font-weight: 700; color: var(--muted); padding: 4px; }
+.starter-fold[open] summary { margin-bottom: 12px; }

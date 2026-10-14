@@ -1,0 +1,284 @@
+{
+ "id": "s1l1",
+ "unit_id": "s1",
+ "title_he": "מקשיבים לאנגלית",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "ברוכים הבאים לאנגלית!",
+   "body_he": [
+    "בשיעור הזה רק מקשיבים. לא צריך לקרוא.",
+    "לחצו על כל תמונה ושמעו איך אומרים אותה באנגלית."
+   ],
+   "examples": [
+    {
+     "en": "hello",
+     "emoji": "👋",
+     "he": "שלום"
+    },
+    {
+     "en": "bye",
+     "emoji": "🚪",
+     "he": "ביי"
+    },
+    {
+     "en": "yes",
+     "emoji": "✅",
+     "he": "כן"
+    },
+    {
+     "en": "no",
+     "emoji": "❌",
+     "he": "לא"
+    }
+   ],
+   "big": "👋",
+   "say_he": "ברוכים הבאים לאנגלית! בשיעור הזה רק מקשיבים. לא צריך לקרוא. לחצו על כל תמונה ושמעו איך אומרים אותה באנגלית.",
+   "id": "s1l1e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "hello",
+   "answer": "hello",
+   "options": [
+    {
+     "emoji": "👋",
+     "value": "hello"
+    },
+    {
+     "emoji": "❌",
+     "value": "no"
+    },
+    {
+     "emoji": "✅",
+     "value": "yes"
+    }
+   ],
+   "id": "s1l1e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "yes",
+   "answer": "yes",
+   "options": [
+    {
+     "emoji": "✅",
+     "value": "yes"
+    },
+    {
+     "emoji": "❌",
+     "value": "no"
+    },
+    {
+     "emoji": "🚪",
+     "value": "bye"
+    }
+   ],
+   "id": "s1l1e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "no",
+   "answer": "no",
+   "options": [
+    {
+     "emoji": "❌",
+     "value": "no"
+    },
+    {
+     "emoji": "👋",
+     "value": "hello"
+    },
+    {
+     "emoji": "✅",
+     "value": "yes"
+    }
+   ],
+   "id": "s1l1e4"
+  },
+  {
+   "type": "teach",
+   "title_he": "דברים שמכירים",
+   "body_he": [
+    "גם לדברים מסביבנו יש שם באנגלית. לחצו ושמעו."
+   ],
+   "examples": [
+    {
+     "en": "cat",
+     "emoji": "🐱",
+     "he": "חתול"
+    },
+    {
+     "en": "dog",
+     "emoji": "🐶",
+     "he": "כלב"
+    },
+    {
+     "en": "sun",
+     "emoji": "☀️",
+     "he": "שמש"
+    },
+    {
+     "en": "ball",
+     "emoji": "⚽",
+     "he": "כדור"
+    },
+    {
+     "en": "apple",
+     "emoji": "🍎",
+     "he": "תפוח"
+    }
+   ],
+   "big": "🐱",
+   "say_he": "דברים שמכירים גם לדברים מסביבנו יש שם באנגלית. לחצו ושמעו.",
+   "id": "s1l1e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "cat",
+   "answer": "cat",
+   "options": [
+    {
+     "emoji": "🐱",
+     "value": "cat"
+    },
+    {
+     "emoji": "🐶",
+     "value": "dog"
+    },
+    {
+     "emoji": "☀️",
+     "value": "sun"
+    }
+   ],
+   "id": "s1l1e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "ball",
+   "answer": "ball",
+   "options": [
+    {
+     "emoji": "⚽",
+     "value": "ball"
+    },
+    {
+     "emoji": "🍎",
+     "value": "apple"
+    },
+    {
+     "emoji": "🐱",
+     "value": "cat"
+    }
+   ],
+   "id": "s1l1e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "dog",
+   "answer": "dog",
+   "options": [
+    {
+     "emoji": "🐶",
+     "value": "dog"
+    },
+    {
+     "emoji": "🐱",
+     "value": "cat"
+    },
+    {
+     "emoji": "⚽",
+     "value": "ball"
+    },
+    {
+     "emoji": "☀️",
+     "value": "sun"
+    }
+   ],
+   "id": "s1l1e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "apple",
+   "answer": "apple",
+   "options": [
+    {
+     "emoji": "🍎",
+     "value": "apple"
+    },
+    {
+     "emoji": "☀️",
+     "value": "sun"
+    },
+    {
+     "emoji": "🐶",
+     "value": "dog"
+    }
+   ],
+   "id": "s1l1e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "sun",
+   "answer": "sun",
+   "options": [
+    {
+     "emoji": "☀️",
+     "value": "sun"
+    },
+    {
+     "emoji": "⚽",
+     "value": "ball"
+    },
+    {
+     "emoji": "🍎",
+     "value": "apple"
+    },
+    {
+     "emoji": "🐱",
+     "value": "cat"
+    }
+   ],
+   "id": "s1l1e10"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "bye",
+   "answer": "bye",
+   "options": [
+    {
+     "emoji": "🚪",
+     "value": "bye"
+    },
+    {
+     "emoji": "👋",
+     "value": "hello"
+    },
+    {
+     "emoji": "❌",
+     "value": "no"
+    }
+   ],
+   "id": "s1l1e11"
+  }
+ ]
+}

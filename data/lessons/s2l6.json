@@ -1,0 +1,253 @@
+{
+ "id": "s2l6",
+ "unit_id": "s2",
+ "title_he": "מילים שזוכרים בעל פה",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מילים מיוחדות",
+   "body_he": [
+    "יש כמה מילים קצרות שמופיעות כל הזמן, ולא תמיד קוראים אותן לפי הצלילים.",
+    "פשוט זוכרים אותן בעל פה, כמו תמונה."
+   ],
+   "examples": [
+    {
+     "en": "I",
+     "emoji": "🙋",
+     "he": "אני"
+    },
+    {
+     "en": "a",
+     "emoji": "1️⃣",
+     "he": "אחד / איזשהו"
+    },
+    {
+     "en": "the",
+     "emoji": "👉",
+     "he": "ה־ (הידיעה)"
+    },
+    {
+     "en": "is",
+     "emoji": "🟰",
+     "he": "הוא / היא / זה"
+    }
+   ],
+   "big": "the",
+   "say_he": "יש מילים שזוכרים בעל פה.",
+   "say": "I, a, the, is",
+   "id": "s2l6e1"
+  },
+  {
+   "type": "teach",
+   "title_he": "I תמיד גדולה",
+   "body_he": [
+    "המילה I פירושה \"אני\", והיא תמיד נכתבת באות גדולה."
+   ],
+   "examples": [
+    {
+     "en": "I",
+     "emoji": "🙋",
+     "he": "אני"
+    },
+    {
+     "en": "I sit.",
+     "emoji": "🪑",
+     "he": "אני יושב"
+    }
+   ],
+   "big": "I",
+   "say_he": "I תמיד גדולה המילה I פירושה \"אני\", והיא תמיד נכתבת באות גדולה.",
+   "say": "I",
+   "id": "s2l6e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "the",
+   "answer": "the",
+   "options": [
+    {
+     "label": "the",
+     "value": "the"
+    },
+    {
+     "label": "he",
+     "value": "he"
+    },
+    {
+     "label": "it",
+     "value": "it"
+    }
+   ],
+   "id": "s2l6e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "I",
+   "answer": "I",
+   "options": [
+    {
+     "label": "I",
+     "value": "I"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    },
+    {
+     "label": "is",
+     "value": "is"
+    }
+   ],
+   "id": "s2l6e4"
+  },
+  {
+   "type": "teach",
+   "title_he": "a ו־the",
+   "body_he": [
+    "a cat = חתול (סתם חתול אחד).",
+    "the cat = החתול (חתול מסוים)."
+   ],
+   "examples": [
+    {
+     "en": "a cat",
+     "emoji": "🐱",
+     "he": "חתול"
+    },
+    {
+     "en": "the cat",
+     "emoji": "🐱",
+     "he": "החתול"
+    },
+    {
+     "en": "a dog",
+     "emoji": "🐶",
+     "he": "כלב"
+    },
+    {
+     "en": "the dog",
+     "emoji": "🐶",
+     "he": "הכלב"
+    }
+   ],
+   "big": "a / the",
+   "say_he": "a ו־the a cat = חתול (סתם חתול אחד). the cat = החתול (חתול מסוים).",
+   "id": "s2l6e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "the dog",
+   "answer": "the dog",
+   "options": [
+    {
+     "label": "the dog",
+     "value": "the dog"
+    },
+    {
+     "label": "a dog",
+     "value": "a dog"
+    },
+    {
+     "label": "the cat",
+     "value": "the cat"
+    }
+   ],
+   "id": "s2l6e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "is",
+   "answer": "is",
+   "options": [
+    {
+     "label": "is",
+     "value": "is"
+    },
+    {
+     "label": "it",
+     "value": "it"
+    },
+    {
+     "label": "in",
+     "value": "in"
+    }
+   ],
+   "id": "s2l6e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "a cat",
+   "answer": "a cat",
+   "options": [
+    {
+     "label": "a cat",
+     "value": "a cat"
+    },
+    {
+     "label": "a hat",
+     "value": "a hat"
+    },
+    {
+     "label": "the cat",
+     "value": "the cat"
+    }
+   ],
+   "id": "s2l6e8"
+  },
+  {
+   "type": "match_pairs",
+   "title_he": "התאימו כל מילה לפירוש שלה",
+   "pairs": [
+    [
+     "I",
+     "אני"
+    ],
+    [
+     "the",
+     "ה־"
+    ],
+    [
+     "cat",
+     "חתול"
+    ],
+    [
+     "is",
+     "הוא / היא"
+    ]
+   ],
+   "id": "s2l6e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "The sun is hot.",
+   "answer": "The sun is hot.",
+   "options": [
+    {
+     "label": "The sun is hot.",
+     "value": "The sun is hot."
+    },
+    {
+     "label": "The dog is hot.",
+     "value": "The dog is hot."
+    },
+    {
+     "label": "The sun is red.",
+     "value": "The sun is red."
+    }
+   ],
+   "id": "s2l6e10"
+  }
+ ]
+}

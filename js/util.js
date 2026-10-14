@@ -21,7 +21,13 @@ export function en(text, cls = '') {
 // Hebrew text with English quotes in it ("בטקסט כתוב: My name is Noa."): each
 // English run gets its own left-to-right island so its punctuation stays put.
 export function mixed(text) {
-  const parts = String(text).split(/([A-Za-z][A-Za-z0-9 ,.'’!?/()-]*[A-Za-z0-9.!?)])/);
+  const parts = String(text).split(/([A-Za-z](?:[A-Za-z0-9 ,.'’!?/()+=-]*[A-Za-z0-9.!?)])?)/);
+  // A period that ends the whole Hebrew sentence belongs to the Hebrew, not to the English island.
+  const last = parts.length - 2;
+  if (last > 0 && parts[last + 1] === '' && /[^.]\.$/.test(parts[last]) && /[֐-׿]/.test(parts.slice(0, last).join(''))) {
+    parts[last] = parts[last].slice(0, -1);
+    parts[last + 1] = '.';
+  }
   return parts.map((p, i) => (i % 2 ? el('bdi', { dir: 'ltr', lang: 'en' }, p) : p));
 }
 

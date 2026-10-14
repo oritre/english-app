@@ -81,9 +81,12 @@ export async function renderReport(root, nav, { profileId }) {
   const streak = computeStreak(data.days, today);
   const p = data.profile;
   const done = new Set(data.progress.filter((r) => r.status === 'done').map((r) => r.lesson_id));
-  const order = course.units.flatMap((u) => u.lessons);
+  const starterUnits = p.starter ? course.starter_units || [] : [];
+  const order = [...starterUnits, ...course.units].flatMap((u) => u.lessons);
   const nextId = order.find((id) => !done.has(id));
-  const unitOf = (id) => course.units.findIndex((u) => u.lessons.includes(id)) + 1;
+  const starterIndex = (id) => starterUnits.findIndex((u) => u.lessons.includes(id));
+  const unitOf = (id) => (starterIndex(id) >= 0 ? `ABC ${starterIndex(id) + 1}`
+    : course.units.findIndex((u) => u.lessons.includes(id)) + 1);
 
   const tile = (label, value, note) => el('div', { class: 'kpi' }, el('div', { class: 'kpi-label' }, label), el('div', { class: 'kpi-value' }, value), note ? el('div', { class: 'kpi-note' }, note) : null);
 

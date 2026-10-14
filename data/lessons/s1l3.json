@@ -1,0 +1,259 @@
+{
+ "id": "s1l3",
+ "unit_id": "s1",
+ "title_he": "האותיות t ו־i",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות t",
+   "body_he": [
+    "האות t נשמעת כמו ט בעברית.",
+    "שומעים אותו בהתחלה של המילה tiger"
+   ],
+   "examples": [
+    {
+     "en": "tiger",
+     "emoji": "🐯",
+     "he": "נמר"
+    },
+    {
+     "en": "ten",
+     "emoji": "🔟",
+     "he": "עשר"
+    },
+    {
+     "en": "tent",
+     "emoji": "⛺",
+     "he": "אוהל"
+    }
+   ],
+   "big": "Tt",
+   "say_he": "האות הזאת נשמעת כמו ט. הקשיבו:",
+   "say": "tiger, ten, tent",
+   "id": "s1l3e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐯",
+   "audio": "tiger",
+   "answer": "t",
+   "options": [
+    {
+     "label": "t",
+     "value": "t"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s1l3e2"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות i",
+   "body_he": [
+    "האות i נשמעת כמו אִ קצרה (כמו בהתחלה של \"אִמא\") בעברית.",
+    "שומעים אותו בהתחלה של המילה ink",
+    "זו אות של תנועה. בעברית התנועות הן ניקוד, ובאנגלית הן אותיות."
+   ],
+   "examples": [
+    {
+     "en": "ink",
+     "emoji": "🖋️",
+     "he": "דיו"
+    },
+    {
+     "en": "insect",
+     "emoji": "🐞",
+     "he": "חרק"
+    },
+    {
+     "en": "igloo",
+     "emoji": "🛖",
+     "he": "איגלו"
+    }
+   ],
+   "big": "Ii",
+   "say_he": "האות הזאת נשמעת כמו אִ קצרה (כמו בהתחלה של \"אִמא\"). הקשיבו:",
+   "say": "ink, insect, igloo",
+   "id": "s1l3e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐞",
+   "audio": "insect",
+   "answer": "i",
+   "options": [
+    {
+     "label": "i",
+     "value": "i"
+    },
+    {
+     "label": "t",
+     "value": "t"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s1l3e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "⛺",
+   "audio": "tent",
+   "answer": "t",
+   "options": [
+    {
+     "label": "t",
+     "value": "t"
+    },
+    {
+     "label": "i",
+     "value": "i"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s1l3e5"
+  },
+  {
+   "type": "teach",
+   "title_he": "מחברים צלילים למילה",
+   "body_he": [
+    "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם מהר.",
+    "s + a + t = sat",
+    "לחצו על כל מילה ושמעו איך הצלילים מתחברים."
+   ],
+   "examples": [
+    {
+     "en": "at",
+     "emoji": null,
+     "he": "ב / אצל"
+    },
+    {
+     "en": "it",
+     "emoji": null,
+     "he": "זה"
+    },
+    {
+     "en": "sat",
+     "emoji": "🪑",
+     "he": "ישב"
+    },
+    {
+     "en": "sit",
+     "emoji": "🪑",
+     "he": "שב"
+    }
+   ],
+   "big": "sat",
+   "say_he": "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם למילה אחת.",
+   "say": "sat",
+   "id": "s1l3e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "sat",
+   "answer": "sat",
+   "options": [
+    {
+     "label": "sat",
+     "value": "sat"
+    },
+    {
+     "label": "sit",
+     "value": "sit"
+    },
+    {
+     "label": "at",
+     "value": "at"
+    }
+   ],
+   "id": "s1l3e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "it",
+   "answer": "it",
+   "options": [
+    {
+     "label": "it",
+     "value": "it"
+    },
+    {
+     "label": "at",
+     "value": "at"
+    },
+    {
+     "label": "sit",
+     "value": "sit"
+    }
+   ],
+   "id": "s1l3e8"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": null,
+   "answer": "at",
+   "extra": [
+    "s",
+    "i"
+   ],
+   "id": "s1l3e9"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🪑",
+   "answer": "sit",
+   "extra": [
+    "a"
+   ],
+   "id": "s1l3e10"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🖋️",
+   "audio": "ink",
+   "answer": "i",
+   "options": [
+    {
+     "label": "i",
+     "value": "i"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    },
+    {
+     "label": "t",
+     "value": "t"
+    }
+   ],
+   "id": "s1l3e11"
+  }
+ ]
+}

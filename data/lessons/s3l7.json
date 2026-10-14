@@ -1,0 +1,356 @@
+{
+ "id": "s3l7",
+ "unit_id": "s3",
+ "title_he": "השמות של האותיות",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "לכל אות יש גם שם",
+   "body_he": [
+    "עד עכשיו למדנו איך כל אות נשמעת. לכל אות יש גם שם, כמו שבעברית יש \"בית\" ו\"גימל\".",
+    "שימו לב: השם לא תמיד דומה לצליל. השם של c הוא \"סי\", אבל ב־cat היא נשמעת ק.",
+    "לחצו על האותיות ושמעו את השמות שלהן."
+   ],
+   "examples": [
+    {
+     "en": "A",
+     "emoji": null,
+     "he": "אֵיי"
+    },
+    {
+     "en": "B",
+     "emoji": null,
+     "he": "בִּי"
+    },
+    {
+     "en": "C",
+     "emoji": null,
+     "he": "סִי"
+    },
+    {
+     "en": "D",
+     "emoji": null,
+     "he": "דִי"
+    },
+    {
+     "en": "E",
+     "emoji": null,
+     "he": "אִי"
+    },
+    {
+     "en": "F",
+     "emoji": null,
+     "he": "אֶף"
+    },
+    {
+     "en": "G",
+     "emoji": null,
+     "he": "ג'י"
+    }
+   ],
+   "big": "ABC",
+   "say_he": "לכל אות יש גם שם.",
+   "say": "A, B, C, D, E, F, G",
+   "id": "s3l7e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו לשם של האות ובחרו אותה",
+   "say_he": "הקשיבו לשם של האות ובחרו אותה",
+   "audio": "B",
+   "answer": "b",
+   "options": [
+    {
+     "label": "B b",
+     "value": "b"
+    },
+    {
+     "label": "D d",
+     "value": "d"
+    },
+    {
+     "label": "P p",
+     "value": "p"
+    }
+   ],
+   "id": "s3l7e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו לשם של האות ובחרו אותה",
+   "say_he": "הקשיבו לשם של האות ובחרו אותה",
+   "audio": "E",
+   "answer": "e",
+   "options": [
+    {
+     "label": "E e",
+     "value": "e"
+    },
+    {
+     "label": "A a",
+     "value": "a"
+    },
+    {
+     "label": "I i",
+     "value": "i"
+    }
+   ],
+   "id": "s3l7e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו לשם של האות ובחרו אותה",
+   "say_he": "הקשיבו לשם של האות ובחרו אותה",
+   "audio": "G",
+   "answer": "g",
+   "options": [
+    {
+     "label": "G g",
+     "value": "g"
+    },
+    {
+     "label": "J j",
+     "value": "j"
+    },
+    {
+     "label": "C c",
+     "value": "c"
+    }
+   ],
+   "id": "s3l7e4"
+  },
+  {
+   "type": "teach",
+   "title_he": "עוד שמות",
+   "body_he": [
+    "H, I, J, K, L, M, N, O, P"
+   ],
+   "examples": [
+    {
+     "en": "H",
+     "emoji": null,
+     "he": "אֵייץ'"
+    },
+    {
+     "en": "I",
+     "emoji": null,
+     "he": "אַיי"
+    },
+    {
+     "en": "J",
+     "emoji": null,
+     "he": "ג'יי"
+    },
+    {
+     "en": "K",
+     "emoji": null,
+     "he": "קֵיי"
+    },
+    {
+     "en": "L",
+     "emoji": null,
+     "he": "אֶל"
+    },
+    {
+     "en": "M",
+     "emoji": null,
+     "he": "אֶם"
+    },
+    {
+     "en": "N",
+     "emoji": null,
+     "he": "אֶן"
+    },
+    {
+     "en": "O",
+     "emoji": null,
+     "he": "אוֹ"
+    },
+    {
+     "en": "P",
+     "emoji": null,
+     "he": "פִּי"
+    }
+   ],
+   "big": "H–P",
+   "say_he": "עוד שמות H, I, J, K, L, M, N, O, P",
+   "say": "H, I, J, K, L, M, N, O, P",
+   "id": "s3l7e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו לשם של האות ובחרו אותה",
+   "say_he": "הקשיבו לשם של האות ובחרו אותה",
+   "audio": "I",
+   "answer": "i",
+   "options": [
+    {
+     "label": "I i",
+     "value": "i"
+    },
+    {
+     "label": "E e",
+     "value": "e"
+    },
+    {
+     "label": "A a",
+     "value": "a"
+    }
+   ],
+   "id": "s3l7e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו לשם של האות ובחרו אותה",
+   "say_he": "הקשיבו לשם של האות ובחרו אותה",
+   "audio": "K",
+   "answer": "k",
+   "options": [
+    {
+     "label": "K k",
+     "value": "k"
+    },
+    {
+     "label": "C c",
+     "value": "c"
+    },
+    {
+     "label": "Q q",
+     "value": "q"
+    }
+   ],
+   "id": "s3l7e7"
+  },
+  {
+   "type": "teach",
+   "title_he": "ועד הסוף",
+   "body_he": [
+    "Q, R, S, T, U, V, W, X, Y, Z",
+    "W נקראת \"דאבל יו\", שתי U."
+   ],
+   "examples": [
+    {
+     "en": "Q",
+     "emoji": null,
+     "he": "קְיוּ"
+    },
+    {
+     "en": "R",
+     "emoji": null,
+     "he": "אָר"
+    },
+    {
+     "en": "S",
+     "emoji": null,
+     "he": "אֶס"
+    },
+    {
+     "en": "T",
+     "emoji": null,
+     "he": "טִי"
+    },
+    {
+     "en": "U",
+     "emoji": null,
+     "he": "יוּ"
+    },
+    {
+     "en": "V",
+     "emoji": null,
+     "he": "וִי"
+    },
+    {
+     "en": "W",
+     "emoji": null,
+     "he": "דַאבֶּל יוּ"
+    },
+    {
+     "en": "X",
+     "emoji": null,
+     "he": "אֶקְס"
+    },
+    {
+     "en": "Y",
+     "emoji": null,
+     "he": "וַאי"
+    },
+    {
+     "en": "Z",
+     "emoji": null,
+     "he": "זִי"
+    }
+   ],
+   "big": "Q–Z",
+   "say_he": "ועד הסוף Q, R, S, T, U, V, W, X, Y, Z W נקראת \"דאבל יו\", שתי U.",
+   "say": "Q, R, S, T, U, V, W, X, Y, Z",
+   "id": "s3l7e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו לשם של האות ובחרו אותה",
+   "say_he": "הקשיבו לשם של האות ובחרו אותה",
+   "audio": "Y",
+   "answer": "y",
+   "options": [
+    {
+     "label": "Y y",
+     "value": "y"
+    },
+    {
+     "label": "W w",
+     "value": "w"
+    },
+    {
+     "label": "V v",
+     "value": "v"
+    }
+   ],
+   "id": "s3l7e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו לשם של האות ובחרו אותה",
+   "say_he": "הקשיבו לשם של האות ובחרו אותה",
+   "audio": "R",
+   "answer": "r",
+   "options": [
+    {
+     "label": "R r",
+     "value": "r"
+    },
+    {
+     "label": "A a",
+     "value": "a"
+    },
+    {
+     "label": "H h",
+     "value": "h"
+    }
+   ],
+   "id": "s3l7e10"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו לשם של האות ובחרו אותה",
+   "say_he": "הקשיבו לשם של האות ובחרו אותה",
+   "audio": "W",
+   "answer": "w",
+   "options": [
+    {
+     "label": "W w",
+     "value": "w"
+    },
+    {
+     "label": "V v",
+     "value": "v"
+    },
+    {
+     "label": "U u",
+     "value": "u"
+    }
+   ],
+   "id": "s3l7e11"
+  }
+ ]
+}

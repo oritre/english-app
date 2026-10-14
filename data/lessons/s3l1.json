@@ -1,0 +1,263 @@
+{
+ "id": "s3l1",
+ "unit_id": "s3",
+ "title_he": "האותיות l ו־f",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות l",
+   "body_he": [
+    "האות l נשמעת כמו ל בעברית.",
+    "שומעים אותו בהתחלה של המילה lion"
+   ],
+   "examples": [
+    {
+     "en": "lion",
+     "emoji": "🦁",
+     "he": "אריה"
+    },
+    {
+     "en": "leg",
+     "emoji": "🦵",
+     "he": "רגל"
+    },
+    {
+     "en": "lemon",
+     "emoji": "🍋",
+     "he": "לימון"
+    }
+   ],
+   "big": "Ll",
+   "say_he": "האות הזאת נשמעת כמו ל. הקשיבו:",
+   "say": "lion, leg, lemon",
+   "id": "s3l1e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🍋",
+   "audio": "lemon",
+   "answer": "l",
+   "options": [
+    {
+     "label": "l",
+     "value": "l"
+    },
+    {
+     "label": "f",
+     "value": "f"
+    },
+    {
+     "label": "n",
+     "value": "n"
+    }
+   ],
+   "id": "s3l1e2"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות f",
+   "body_he": [
+    "האות f נשמעת כמו פ רפה (כמו ב\"סֵפֶר\") בעברית.",
+    "שומעים אותו בהתחלה של המילה fish"
+   ],
+   "examples": [
+    {
+     "en": "fish",
+     "emoji": "🐟",
+     "he": "דג"
+    },
+    {
+     "en": "fox",
+     "emoji": "🦊",
+     "he": "שועל"
+    },
+    {
+     "en": "fan",
+     "emoji": "🪭",
+     "he": "מאוורר"
+    }
+   ],
+   "big": "Ff",
+   "say_he": "האות הזאת נשמעת כמו פ רפה (כמו ב\"סֵפֶר\"). הקשיבו:",
+   "say": "fish, fox, fan",
+   "id": "s3l1e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🦊",
+   "audio": "fox",
+   "answer": "f",
+   "options": [
+    {
+     "label": "f",
+     "value": "f"
+    },
+    {
+     "label": "p",
+     "value": "p"
+    },
+    {
+     "label": "l",
+     "value": "l"
+    }
+   ],
+   "id": "s3l1e4"
+  },
+  {
+   "type": "teach",
+   "title_he": "מחברים צלילים למילה",
+   "body_he": [
+    "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם מהר.",
+    "f + a + n = fan",
+    "לחצו על כל מילה ושמעו איך הצלילים מתחברים."
+   ],
+   "examples": [
+    {
+     "en": "leg",
+     "emoji": "🦵",
+     "he": "רגל"
+    },
+    {
+     "en": "lip",
+     "emoji": "👄",
+     "he": "שפה"
+    },
+    {
+     "en": "fan",
+     "emoji": "🪭",
+     "he": "מאוורר"
+    },
+    {
+     "en": "fox",
+     "emoji": "🦊",
+     "he": "שועל"
+    }
+   ],
+   "big": "fan",
+   "say_he": "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם למילה אחת.",
+   "say": "fan",
+   "id": "s3l1e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🦵",
+   "answer": "leg",
+   "options": [
+    {
+     "label": "leg",
+     "value": "leg"
+    },
+    {
+     "label": "log",
+     "value": "log"
+    },
+    {
+     "label": "lip",
+     "value": "lip"
+    }
+   ],
+   "id": "s3l1e6"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🪭",
+   "answer": "fan",
+   "extra": [
+    "p",
+    "i"
+   ],
+   "id": "s3l1e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "fox",
+   "answer": "fox",
+   "options": [
+    {
+     "label": "fox",
+     "value": "fox"
+    },
+    {
+     "label": "box",
+     "value": "box"
+    },
+    {
+     "label": "fix",
+     "value": "fix"
+    }
+   ],
+   "id": "s3l1e8"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "👄",
+   "answer": "lip",
+   "extra": [
+    "e",
+    "f"
+   ],
+   "id": "s3l1e9"
+  },
+  {
+   "type": "teach",
+   "title_he": "סיפור קטן",
+   "body_he": [
+    "קראו לאט, מילה אחרי מילה, משמאל לימין."
+   ],
+   "examples": [
+    {
+     "en": "a fat cat",
+     "emoji": "🐱",
+     "he": "חתול שמן"
+    },
+    {
+     "en": "The cat is on a bed.",
+     "emoji": "🛏️",
+     "he": "החתול על מיטה"
+    },
+    {
+     "en": "The cat is sad.",
+     "emoji": "😢",
+     "he": "החתול עצוב"
+    }
+   ],
+   "big": "📖",
+   "say_he": "סיפור קטן קראו לאט, מילה אחרי מילה, משמאל לימין.",
+   "say": "a fat cat. The cat is on a bed. The cat is sad.",
+   "id": "s3l1e10"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "The cat is on a bed.",
+   "answer": "The cat is on a bed.",
+   "options": [
+    {
+     "label": "The cat is on a bed.",
+     "value": "The cat is on a bed."
+    },
+    {
+     "label": "The cat is sad.",
+     "value": "The cat is sad."
+    },
+    {
+     "label": "The dog is on a bed.",
+     "value": "The dog is on a bed."
+    }
+   ],
+   "id": "s3l1e11"
+  }
+ ]
+}

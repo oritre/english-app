@@ -1,0 +1,203 @@
+{
+ "id": "s3l5",
+ "unit_id": "s3",
+ "title_he": "i קצרה או ee ארוכה",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "ee: אִי ארוכה",
+   "body_he": [
+    "שתי e ביחד, ee, נשמעות כמו אִי ארוכה.",
+    "i לבד היא קצרה: ship (אונייה).",
+    "ee ארוכה: sheep (כבשה). הקשיבו להבדל!"
+   ],
+   "examples": [
+    {
+     "en": "ship",
+     "emoji": "🚢",
+     "he": "אונייה"
+    },
+    {
+     "en": "sheep",
+     "emoji": "🐑",
+     "he": "כבשה"
+    },
+    {
+     "en": "fit",
+     "emoji": "💪",
+     "he": "בכושר"
+    },
+    {
+     "en": "feet",
+     "emoji": "🦶",
+     "he": "כפות רגליים"
+    }
+   ],
+   "big": "i / ee",
+   "say_he": "הקשיבו להבדל בין צליל קצר לצליל ארוך.",
+   "say": "ship, sheep, fit, feet",
+   "id": "s3l5e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "sheep",
+   "answer": "sheep",
+   "options": [
+    {
+     "emoji": "🐑",
+     "value": "sheep"
+    },
+    {
+     "emoji": "🚢",
+     "value": "ship"
+    }
+   ],
+   "id": "s3l5e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "ship",
+   "answer": "ship",
+   "options": [
+    {
+     "emoji": "🚢",
+     "value": "ship"
+    },
+    {
+     "emoji": "🐑",
+     "value": "sheep"
+    }
+   ],
+   "id": "s3l5e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "feet",
+   "answer": "feet",
+   "options": [
+    {
+     "emoji": "🦶",
+     "value": "feet"
+    },
+    {
+     "emoji": "💪",
+     "value": "fit"
+    }
+   ],
+   "id": "s3l5e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🐝",
+   "answer": "bee",
+   "options": [
+    {
+     "label": "bee",
+     "value": "bee"
+    },
+    {
+     "label": "bed",
+     "value": "bed"
+    },
+    {
+     "label": "bat",
+     "value": "bat"
+    }
+   ],
+   "id": "s3l5e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "see",
+   "answer": "see",
+   "options": [
+    {
+     "label": "see",
+     "value": "see"
+    },
+    {
+     "label": "she",
+     "value": "she"
+    },
+    {
+     "label": "bee",
+     "value": "bee"
+    }
+   ],
+   "id": "s3l5e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🌳",
+   "answer": "tree",
+   "options": [
+    {
+     "label": "tree",
+     "value": "tree"
+    },
+    {
+     "label": "three",
+     "value": "three"
+    },
+    {
+     "label": "free",
+     "value": "free"
+    }
+   ],
+   "id": "s3l5e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "fit",
+   "answer": "fit",
+   "options": [
+    {
+     "emoji": "💪",
+     "value": "fit"
+    },
+    {
+     "emoji": "🦶",
+     "value": "feet"
+    }
+   ],
+   "id": "s3l5e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "green",
+   "answer": "green",
+   "options": [
+    {
+     "label": "green",
+     "value": "green"
+    },
+    {
+     "label": "grin",
+     "value": "grin"
+    },
+    {
+     "label": "queen",
+     "value": "queen"
+    }
+   ],
+   "id": "s3l5e9"
+  }
+ ]
+}

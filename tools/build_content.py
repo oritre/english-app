@@ -7,6 +7,8 @@ import json
 import os
 import re
 
+from starter_content import STARTER_UNITS
+
 ROOT = os.path.join(os.path.dirname(__file__), '..', 'data')
 
 
@@ -647,12 +649,25 @@ def main():
             entry['bonus'] = bonus_id
         course['units'].append(entry)
     add_new_words(lessons_out)
+    # ABC starter units: their own track, kept out of the new-word glosses.
+    course['starter_units'] = []
+    for unit in STARTER_UNITS:
+        ids = []
+        for lesson_id, title_he, exercises in unit['lessons']:
+            for i, ex in enumerate(exercises):
+                ex['id'] = f'{lesson_id}e{i + 1}'
+            lessons_out.append({'id': lesson_id, 'unit_id': unit['id'], 'title_he': title_he, 'starter': True, 'exercises': exercises})
+            course['lesson_titles'][lesson_id] = title_he
+            ids.append(lesson_id)
+        course['starter_units'].append({k: unit[k] for k in ('id', 'title_he', 'title_en')} | {'cefr': 'ABC', 'lessons': ids})
     for lesson in lessons_out:
         with open(os.path.join(ROOT, 'lessons', f"{lesson['id']}.json"), 'w', encoding='utf-8') as f:
             json.dump(lesson, f, ensure_ascii=False, indent=1)
     with open(os.path.join(ROOT, 'course.json'), 'w', encoding='utf-8') as f:
         json.dump(course, f, ensure_ascii=False, indent=1)
     total = sum(len(with_audio(l[2])) for u in UNITS for l in u['lessons'])
+    starter = sum(len(l[2]) for u in STARTER_UNITS for l in u['lessons'])
+    print(f"ABC: {len(STARTER_UNITS)} units, {sum(len(u['lessons']) for u in STARTER_UNITS)} lessons, {starter} exercises")
     print(f"{len(UNITS)} units, {sum(len(u['lessons']) for u in UNITS)} lessons, {total} exercises, {len(READINGS)} reading bonuses")
 
 

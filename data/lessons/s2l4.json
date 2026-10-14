@@ -1,0 +1,264 @@
+{
+ "id": "s2l4",
+ "unit_id": "s2",
+ "title_he": "האותיות g ו־o",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות g",
+   "body_he": [
+    "האות g נשמעת כמו ג בעברית.",
+    "שומעים אותו בהתחלה של המילה goat"
+   ],
+   "examples": [
+    {
+     "en": "goat",
+     "emoji": "🐐",
+     "he": "עז"
+    },
+    {
+     "en": "gift",
+     "emoji": "🎁",
+     "he": "מתנה"
+    },
+    {
+     "en": "girl",
+     "emoji": "👧",
+     "he": "ילדה"
+    }
+   ],
+   "big": "Gg",
+   "say_he": "האות הזאת נשמעת כמו ג. הקשיבו:",
+   "say": "goat, gift, girl",
+   "id": "s2l4e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🎁",
+   "audio": "gift",
+   "answer": "g",
+   "options": [
+    {
+     "label": "g",
+     "value": "g"
+    },
+    {
+     "label": "k",
+     "value": "k"
+    },
+    {
+     "label": "d",
+     "value": "d"
+    }
+   ],
+   "id": "s2l4e2"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות o",
+   "body_he": [
+    "האות o נשמעת כמו אוֹ קצרה (כמו ב\"אוֹר\" אבל קצר) בעברית.",
+    "שומעים אותו בהתחלה של המילה octopus",
+    "גם זו אות של תנועה."
+   ],
+   "examples": [
+    {
+     "en": "octopus",
+     "emoji": "🐙",
+     "he": "תמנון"
+    },
+    {
+     "en": "on",
+     "emoji": "💡",
+     "he": "דולק / על"
+    },
+    {
+     "en": "ox",
+     "emoji": "🐂",
+     "he": "שור"
+    }
+   ],
+   "big": "Oo",
+   "say_he": "האות הזאת נשמעת כמו אוֹ קצרה (כמו ב\"אוֹר\" אבל קצר). הקשיבו:",
+   "say": "octopus, on, ox",
+   "id": "s2l4e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐙",
+   "audio": "octopus",
+   "answer": "o",
+   "options": [
+    {
+     "label": "o",
+     "value": "o"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    },
+    {
+     "label": "e",
+     "value": "e"
+    }
+   ],
+   "id": "s2l4e4"
+  },
+  {
+   "type": "teach",
+   "title_he": "מחברים צלילים למילה",
+   "body_he": [
+    "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם מהר.",
+    "d + o + g = dog",
+    "לחצו על כל מילה ושמעו איך הצלילים מתחברים."
+   ],
+   "examples": [
+    {
+     "en": "dog",
+     "emoji": "🐶",
+     "he": "כלב"
+    },
+    {
+     "en": "pot",
+     "emoji": "🍲",
+     "he": "סיר"
+    },
+    {
+     "en": "hot",
+     "emoji": "🔥",
+     "he": "חם"
+    },
+    {
+     "en": "top",
+     "emoji": "🔝",
+     "he": "למעלה"
+    },
+    {
+     "en": "got",
+     "emoji": null,
+     "he": "קיבל"
+    }
+   ],
+   "big": "dog",
+   "say_he": "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם למילה אחת.",
+   "say": "dog",
+   "id": "s2l4e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🐶",
+   "answer": "dog",
+   "options": [
+    {
+     "label": "dog",
+     "value": "dog"
+    },
+    {
+     "label": "dig",
+     "value": "dig"
+    },
+    {
+     "label": "got",
+     "value": "got"
+    }
+   ],
+   "id": "s2l4e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "hot",
+   "answer": "hot",
+   "options": [
+    {
+     "label": "hot",
+     "value": "hot"
+    },
+    {
+     "label": "hat",
+     "value": "hat"
+    },
+    {
+     "label": "pot",
+     "value": "pot"
+    }
+   ],
+   "id": "s2l4e7"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🍲",
+   "answer": "pot",
+   "extra": [
+    "a",
+    "g"
+   ],
+   "id": "s2l4e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🔝",
+   "answer": "top",
+   "options": [
+    {
+     "label": "top",
+     "value": "top"
+    },
+    {
+     "label": "tap",
+     "value": "tap"
+    },
+    {
+     "label": "pot",
+     "value": "pot"
+    }
+   ],
+   "id": "s2l4e9"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🐶",
+   "answer": "dog",
+   "extra": [
+    "p",
+    "e"
+   ],
+   "id": "s2l4e10"
+  },
+  {
+   "type": "match_pairs",
+   "title_he": "התאימו כל מילה לפירוש שלה",
+   "pairs": [
+    [
+     "dog",
+     "כלב"
+    ],
+    [
+     "hot",
+     "חם"
+    ],
+    [
+     "hat",
+     "כובע"
+    ],
+    [
+     "red",
+     "אדום"
+    ]
+   ],
+   "id": "s2l4e11"
+  }
+ ]
+}

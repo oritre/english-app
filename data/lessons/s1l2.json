@@ -1,0 +1,237 @@
+{
+ "id": "s1l2",
+ "unit_id": "s1",
+ "title_he": "האותיות s ו־a",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "אותיות באנגלית",
+   "body_he": [
+    "באנגלית יש 26 אותיות. לכל אות יש צליל, כמו בעברית.",
+    "באנגלית קוראים וכותבים משמאל לימין, הפוך מעברית.",
+    "מתחילים משתי אותיות: s ו־a."
+   ],
+   "examples": [],
+   "big": "→",
+   "say_he": "באנגלית יש עשרים ושש אותיות. קוראים משמאל לימין. מתחילים משתי אותיות.",
+   "id": "s1l2e1"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות s",
+   "body_he": [
+    "האות s נשמעת כמו ס בעברית.",
+    "שומעים אותו בהתחלה של המילה sun"
+   ],
+   "examples": [
+    {
+     "en": "sun",
+     "emoji": "☀️",
+     "he": "שמש"
+    },
+    {
+     "en": "snake",
+     "emoji": "🐍",
+     "he": "נחש"
+    },
+    {
+     "en": "sock",
+     "emoji": "🧦",
+     "he": "גרב"
+    }
+   ],
+   "big": "Ss",
+   "say_he": "האות הזאת נשמעת כמו ס. הקשיבו:",
+   "say": "sun, snake, sock",
+   "id": "s1l2e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "☀️",
+   "audio": "sun",
+   "answer": "s",
+   "options": [
+    {
+     "label": "s",
+     "value": "s"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s1l2e3"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות a",
+   "body_he": [
+    "האות a נשמעת כמו אַ פתוחה, בין אַ לאֶ בעברית.",
+    "שומעים אותו בהתחלה של המילה apple"
+   ],
+   "examples": [
+    {
+     "en": "apple",
+     "emoji": "🍎",
+     "he": "תפוח"
+    },
+    {
+     "en": "ant",
+     "emoji": "🐜",
+     "he": "נמלה"
+    },
+    {
+     "en": "ax",
+     "emoji": "🪓",
+     "he": "גרזן"
+    }
+   ],
+   "big": "Aa",
+   "say_he": "האות הזאת נשמעת כמו אַ פתוחה, בין אַ לאֶ. הקשיבו:",
+   "say": "apple, ant, ax",
+   "id": "s1l2e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🍎",
+   "audio": "apple",
+   "answer": "a",
+   "options": [
+    {
+     "label": "a",
+     "value": "a"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s1l2e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐍",
+   "audio": "snake",
+   "answer": "s",
+   "options": [
+    {
+     "label": "s",
+     "value": "s"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s1l2e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐜",
+   "audio": "ant",
+   "answer": "a",
+   "options": [
+    {
+     "label": "a",
+     "value": "a"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s1l2e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "snake",
+   "answer": "snake",
+   "options": [
+    {
+     "emoji": "🐍",
+     "value": "snake"
+    },
+    {
+     "emoji": "🐜",
+     "value": "ant"
+    },
+    {
+     "emoji": "☀️",
+     "value": "sun"
+    }
+   ],
+   "id": "s1l2e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🧦",
+   "audio": "sock",
+   "answer": "s",
+   "options": [
+    {
+     "label": "s",
+     "value": "s"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s1l2e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "ant",
+   "answer": "ant",
+   "options": [
+    {
+     "emoji": "🐜",
+     "value": "ant"
+    },
+    {
+     "emoji": "🍎",
+     "value": "apple"
+    },
+    {
+     "emoji": "🧦",
+     "value": "sock"
+    }
+   ],
+   "id": "s1l2e10"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🪓",
+   "audio": "ax",
+   "answer": "a",
+   "options": [
+    {
+     "label": "a",
+     "value": "a"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s1l2e11"
+  }
+ ]
+}

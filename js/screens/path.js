@@ -1,4 +1,4 @@
-import { el, en } from '../util.js';
+import { el, en, mixed } from '../util.js';
 import { loadCourse, lessonStates } from '../course.js';
 import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile } from '../progress.js';
 import { TIERS } from '../league.js';
@@ -17,10 +17,10 @@ export function topBar(s, profile, nav) {
 export async function renderPath(root, nav) {
   await settleLeagues();
   const [course, done, s, profile] = await Promise.all([loadCourse(), doneLessonIds(), stats(), getProfile()]);
-  const states = lessonStates(course, done);
+  const states = lessonStates(course, done, { starter: !!profile.starter });
   const titles = course.lesson_titles || {};
 
-  const units = course.units.map((unit, ui) => {
+  const renderUnit = (unit, ui, starter) => {
     const nodes = unit.lessons.map((id, li) => {
       const state = states[id];
       const offset = [0, 1, 2, 1, 0, -1, -2, -1][li % 8] * 48;
@@ -32,7 +32,7 @@ export async function renderPath(root, nav) {
       node.addEventListener('click', () => nav('lesson', { lessonId: id }));
       return el('div', { class: 'node-row' },
         node,
-        el('div', { class: 'node-label', style: `transform: translateX(${offset}px)` }, titles[id] || ''));
+        el('div', { class: 'node-label', style: `transform: translateX(${offset}px)` }, ...mixed(titles[id] || '')));
     });
     if (unit.bonus) {
       const state = states[unit.bonus];
@@ -46,12 +46,18 @@ export async function renderPath(root, nav) {
           state === 'locked' ? el('span', { class: 'muted' }, ' (נפתח בסוף היחידה)') : null)));
     }
     return el('section', { class: 'unit' },
-      el('header', { class: `unit-header c${ui % 4}` },
-        el('div', { class: 'unit-kicker' }, `יחידה ${ui + 1} · `, en(unit.cefr)),
+      el('header', { class: `unit-header c${ui % 4} ${starter ? 'starter' : ''}` },
+        el('div', { class: 'unit-kicker' }, starter ? `ABC · שלב ${ui + 1}` : [`יחידה ${ui + 1} · `, en(unit.cefr)]),
         el('h2', {}, unit.title_he),
         el('p', {}, en(unit.title_en))),
       el('div', { class: 'nodes' }, nodes));
-  });
+  };
+  const starterUnits = (course.starter_units || []).map((u, i) => renderUnit(u, i, true));
+  const mainUnits = course.units.map((u, i) => renderUnit(u, i, false));
+  // Learners who know their letters see the ABC units folded at the bottom, open for practice.
+  const units = profile.starter ? [...starterUnits, ...mainUnits]
+    : [...mainUnits, starterUnits.length ? el('details', { class: 'starter-fold' },
+      el('summary', {}, '🔤 אותיות וצלילים: יחידות ABC לתרגול'), starterUnits) : null];
 
   const test = el('button', { class: 'retest', type: 'button', onclick: () => nav('placement') },
     '🎯 ', profile.placement ? 'לעשות שוב את מבחן הרמה' : 'מבחן רמה: לקפוץ קדימה');

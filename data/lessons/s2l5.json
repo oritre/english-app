@@ -1,0 +1,327 @@
+{
+ "id": "s2l5",
+ "unit_id": "s2",
+ "title_he": "האותיות u ו־b",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות u",
+   "body_he": [
+    "האות u נשמעת כמו אַ קצרה (כמו ב\"אַבא\" אבל קצר) בעברית.",
+    "שומעים אותו בהתחלה של המילה up",
+    "גם זו אות של תנועה. שימו לב: u נכתבת כמו U אבל נשמעת אַ."
+   ],
+   "examples": [
+    {
+     "en": "up",
+     "emoji": "⬆️",
+     "he": "למעלה"
+    },
+    {
+     "en": "umbrella",
+     "emoji": "☂️",
+     "he": "מטרייה"
+    },
+    {
+     "en": "under",
+     "emoji": "⬇️",
+     "he": "מתחת"
+    }
+   ],
+   "big": "Uu",
+   "say_he": "האות הזאת נשמעת כמו אַ קצרה (כמו ב\"אַבא\" אבל קצר). הקשיבו:",
+   "say": "up, umbrella, under",
+   "id": "s2l5e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "☂️",
+   "audio": "umbrella",
+   "answer": "u",
+   "options": [
+    {
+     "label": "u",
+     "value": "u"
+    },
+    {
+     "label": "o",
+     "value": "o"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s2l5e2"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות b",
+   "body_he": [
+    "האות b נשמעת כמו בּ (ב דגושה) בעברית.",
+    "שומעים אותו בהתחלה של המילה ball"
+   ],
+   "examples": [
+    {
+     "en": "ball",
+     "emoji": "⚽",
+     "he": "כדור"
+    },
+    {
+     "en": "banana",
+     "emoji": "🍌",
+     "he": "בננה"
+    },
+    {
+     "en": "bird",
+     "emoji": "🐦",
+     "he": "ציפור"
+    }
+   ],
+   "big": "Bb",
+   "say_he": "האות הזאת נשמעת כמו בּ (ב דגושה). הקשיבו:",
+   "say": "ball, banana, bird",
+   "id": "s2l5e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🍌",
+   "audio": "banana",
+   "answer": "b",
+   "options": [
+    {
+     "label": "b",
+     "value": "b"
+    },
+    {
+     "label": "d",
+     "value": "d"
+    },
+    {
+     "label": "p",
+     "value": "p"
+    }
+   ],
+   "id": "s2l5e4"
+  },
+  {
+   "type": "teach",
+   "title_he": "איך לא מתבלבלים בין b ל־d",
+   "body_he": [
+    "b ו־d נראות דומות, כמו תמונה במראה. זה מבלבל את כולם בהתחלה.",
+    "חשבו על מיטה: במילה bed, ה־b היא הראש של המיטה וה־d היא הרגליים.",
+    "b: קודם הקו, אחר כך הבטן. d: קודם הבטן, אחר כך הקו."
+   ],
+   "examples": [
+    {
+     "en": "bed",
+     "emoji": "🛏️",
+     "he": "מיטה"
+    },
+    {
+     "en": "bat",
+     "emoji": "🦇",
+     "he": "עטלף"
+    },
+    {
+     "en": "dad",
+     "emoji": "👨‍👧",
+     "he": "אבא"
+    }
+   ],
+   "big": "bed",
+   "say_he": "איך לא מתבלבלים בין שתי האותיות? חשבו על מיטה.",
+   "say": "bed",
+   "id": "s2l5e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐦",
+   "audio": "bird",
+   "answer": "b",
+   "options": [
+    {
+     "label": "b",
+     "value": "b"
+    },
+    {
+     "label": "d",
+     "value": "d"
+    }
+   ],
+   "id": "s2l5e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🦆",
+   "audio": "duck",
+   "answer": "d",
+   "options": [
+    {
+     "label": "d",
+     "value": "d"
+    },
+    {
+     "label": "b",
+     "value": "b"
+    }
+   ],
+   "id": "s2l5e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🛏️",
+   "answer": "bed",
+   "options": [
+    {
+     "label": "bed",
+     "value": "bed"
+    },
+    {
+     "label": "deb",
+     "value": "deb"
+    },
+    {
+     "label": "bad",
+     "value": "bad"
+    }
+   ],
+   "id": "s2l5e8"
+  },
+  {
+   "type": "teach",
+   "title_he": "מחברים צלילים למילה",
+   "body_he": [
+    "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם מהר.",
+    "b + u + s = bus",
+    "לחצו על כל מילה ושמעו איך הצלילים מתחברים."
+   ],
+   "examples": [
+    {
+     "en": "bus",
+     "emoji": "🚌",
+     "he": "אוטובוס"
+    },
+    {
+     "en": "sun",
+     "emoji": "☀️",
+     "he": "שמש"
+    },
+    {
+     "en": "cup",
+     "emoji": "☕",
+     "he": "כוס"
+    },
+    {
+     "en": "bat",
+     "emoji": "🦇",
+     "he": "עטלף"
+    }
+   ],
+   "big": "bus",
+   "say_he": "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם למילה אחת.",
+   "say": "bus",
+   "id": "s2l5e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🚌",
+   "answer": "bus",
+   "options": [
+    {
+     "label": "bus",
+     "value": "bus"
+    },
+    {
+     "label": "bat",
+     "value": "bat"
+    },
+    {
+     "label": "sun",
+     "value": "sun"
+    }
+   ],
+   "id": "s2l5e10"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "☕",
+   "answer": "cup",
+   "extra": [
+    "a",
+    "b"
+   ],
+   "id": "s2l5e11"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "bat",
+   "answer": "bat",
+   "options": [
+    {
+     "label": "bat",
+     "value": "bat"
+    },
+    {
+     "label": "dad",
+     "value": "dad"
+    },
+    {
+     "label": "bad",
+     "value": "bad"
+    }
+   ],
+   "id": "s2l5e12"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🛏️",
+   "answer": "bed",
+   "extra": [
+    "d",
+    "a"
+   ],
+   "id": "s2l5e13"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "⚽",
+   "audio": "ball",
+   "answer": "b",
+   "options": [
+    {
+     "label": "b",
+     "value": "b"
+    },
+    {
+     "label": "d",
+     "value": "d"
+    },
+    {
+     "label": "p",
+     "value": "p"
+    }
+   ],
+   "id": "s2l5e14"
+  }
+ ]
+}

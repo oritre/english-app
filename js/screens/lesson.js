@@ -78,6 +78,14 @@ export async function renderLesson(root, nav, { lessonId }) {
       },
     });
 
+    // Explanation cards: nothing to check, just move on.
+    if (api.info) {
+      checkBtn.textContent = 'הבנתי, ממשיכים';
+      checkBtn.disabled = false;
+      checkBtn.onclick = () => { solved++; next(); };
+      return;
+    }
+
     checkBtn.onclick = () => {
       if (handled) return;
       if (api.selfChecking) return;
@@ -91,9 +99,9 @@ export async function renderLesson(root, nav, { lessonId }) {
       const englishOut = ex.type === 'translate_en_he' ? ex.prompt
         : ex.type === 'listen_translate' ? (ex.lang === 'en' ? ex.audio_text : expected)
         : ex.type === 'fill_blank' ? api.fullSentence() : expected;
-      if (result !== 'wrong' && englishOut && getSettings().autoplay && ex.type !== 'choose' && ex.type !== 'read') speak(englishOut);
+      if (result !== 'wrong' && englishOut && getSettings().autoplay && !['choose', 'read', 'pick', 'spell'].includes(ex.type)) speak(englishOut);
       // Grammar explanation for English answers that are wrong for a grammar reason.
-      const grammarNote = result === 'wrong' && !answerIsHebrew(ex) && !['choose', 'fill_blank', 'read'].includes(ex.type)
+      const grammarNote = result === 'wrong' && !answerIsHebrew(ex) && !['choose', 'fill_blank', 'read', 'pick', 'spell'].includes(ex.type)
         ? diagnose(api.getAnswer(), expected) : null;
       showFeedback(ex, result, expected, grammarNote);
     };

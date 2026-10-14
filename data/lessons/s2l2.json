@@ -1,0 +1,293 @@
+{
+ "id": "s2l2",
+ "unit_id": "s2",
+ "title_he": "האותיות c, k ו־e",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות c",
+   "body_he": [
+    "האות c נשמעת כמו ק בעברית.",
+    "שומעים אותו בהתחלה של המילה cat"
+   ],
+   "examples": [
+    {
+     "en": "cat",
+     "emoji": "🐱",
+     "he": "חתול"
+    },
+    {
+     "en": "car",
+     "emoji": "🚗",
+     "he": "מכונית"
+    },
+    {
+     "en": "cup",
+     "emoji": "☕",
+     "he": "כוס"
+    }
+   ],
+   "big": "Cc",
+   "say_he": "האות הזאת נשמעת כמו ק. הקשיבו:",
+   "say": "cat, car, cup",
+   "id": "s2l2e1"
+  },
+  {
+   "type": "teach",
+   "title_he": "גם k נשמעת כמו ק",
+   "body_he": [
+    "לצליל ק יש באנגלית שתי אותיות: c ו־k.",
+    "k באה למשל במילים kid ו־king."
+   ],
+   "examples": [
+    {
+     "en": "kid",
+     "emoji": "🧒",
+     "he": "ילד"
+    },
+    {
+     "en": "king",
+     "emoji": "🤴",
+     "he": "מלך"
+    },
+    {
+     "en": "kite",
+     "emoji": "🪁",
+     "he": "עפיפון"
+    }
+   ],
+   "big": "Kk",
+   "say_he": "גם האות הזאת נשמעת כמו ק.",
+   "say": "kid, king, kite",
+   "id": "s2l2e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🚗",
+   "audio": "car",
+   "answer": "c",
+   "options": [
+    {
+     "label": "c",
+     "value": "c"
+    },
+    {
+     "label": "d",
+     "value": "d"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s2l2e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🤴",
+   "audio": "king",
+   "answer": "k",
+   "options": [
+    {
+     "label": "k",
+     "value": "k"
+    },
+    {
+     "label": "p",
+     "value": "p"
+    },
+    {
+     "label": "t",
+     "value": "t"
+    }
+   ],
+   "id": "s2l2e4"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות e",
+   "body_he": [
+    "האות e נשמעת כמו אֶ (כמו בהתחלה של \"אֶרֶץ\") בעברית.",
+    "שומעים אותו בהתחלה של המילה egg",
+    "גם זו אות של תנועה."
+   ],
+   "examples": [
+    {
+     "en": "egg",
+     "emoji": "🥚",
+     "he": "ביצה"
+    },
+    {
+     "en": "elephant",
+     "emoji": "🐘",
+     "he": "פיל"
+    },
+    {
+     "en": "elf",
+     "emoji": "🧝",
+     "he": "גמד"
+    }
+   ],
+   "big": "Ee",
+   "say_he": "האות הזאת נשמעת כמו אֶ (כמו בהתחלה של \"אֶרֶץ\"). הקשיבו:",
+   "say": "egg, elephant, elf",
+   "id": "s2l2e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🥚",
+   "audio": "egg",
+   "answer": "e",
+   "options": [
+    {
+     "label": "e",
+     "value": "e"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    },
+    {
+     "label": "i",
+     "value": "i"
+    }
+   ],
+   "id": "s2l2e6"
+  },
+  {
+   "type": "teach",
+   "title_he": "מחברים צלילים למילה",
+   "body_he": [
+    "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם מהר.",
+    "p + e + n = pen",
+    "לחצו על כל מילה ושמעו איך הצלילים מתחברים."
+   ],
+   "examples": [
+    {
+     "en": "cat",
+     "emoji": "🐱",
+     "he": "חתול"
+    },
+    {
+     "en": "can",
+     "emoji": "🥫",
+     "he": "יכול / פחית"
+    },
+    {
+     "en": "pen",
+     "emoji": "🖊️",
+     "he": "עט"
+    },
+    {
+     "en": "ten",
+     "emoji": "🔟",
+     "he": "עשר"
+    },
+    {
+     "en": "net",
+     "emoji": "🥅",
+     "he": "רשת"
+    }
+   ],
+   "big": "pen",
+   "say_he": "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם למילה אחת.",
+   "say": "pen",
+   "id": "s2l2e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🔟",
+   "answer": "ten",
+   "options": [
+    {
+     "label": "ten",
+     "value": "ten"
+    },
+    {
+     "label": "tan",
+     "value": "tan"
+    },
+    {
+     "label": "tin",
+     "value": "tin"
+    }
+   ],
+   "id": "s2l2e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "pen",
+   "answer": "pen",
+   "options": [
+    {
+     "label": "pen",
+     "value": "pen"
+    },
+    {
+     "label": "pan",
+     "value": "pan"
+    },
+    {
+     "label": "pin",
+     "value": "pin"
+    }
+   ],
+   "id": "s2l2e9"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🐱",
+   "answer": "cat",
+   "extra": [
+    "k",
+    "e"
+   ],
+   "id": "s2l2e10"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🥅",
+   "answer": "net",
+   "options": [
+    {
+     "label": "net",
+     "value": "net"
+    },
+    {
+     "label": "nut",
+     "value": "nut"
+    },
+    {
+     "label": "ten",
+     "value": "ten"
+    }
+   ],
+   "id": "s2l2e11"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🖊️",
+   "answer": "pen",
+   "extra": [
+    "a",
+    "i"
+   ],
+   "id": "s2l2e12"
+  }
+ ]
+}

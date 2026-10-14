@@ -1,0 +1,227 @@
+{
+ "id": "s3l4",
+ "unit_id": "s3",
+ "title_he": "th: הלשון בין השיניים",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "הצליל th",
+   "body_he": [
+    "th הוא צליל שאין בעברית.",
+    "שמים את קצה הלשון בין השיניים ונושפים בעדינות.",
+    "זה לא ת, לא ס ולא ד. נסו מול מראה!"
+   ],
+   "examples": [
+    {
+     "en": "thin",
+     "emoji": "🥢",
+     "he": "דק"
+    },
+    {
+     "en": "three",
+     "emoji": "3️⃣",
+     "he": "שלוש"
+    },
+    {
+     "en": "bath",
+     "emoji": "🛁",
+     "he": "אמבטיה"
+    },
+    {
+     "en": "thumb",
+     "emoji": "👍",
+     "he": "אגודל"
+    }
+   ],
+   "big": "th",
+   "say_he": "שמים את קצה הלשון בין השיניים ונושפים בעדינות.",
+   "say": "thin, three, bath, thumb",
+   "id": "s3l4e1"
+  },
+  {
+   "type": "teach",
+   "title_he": "גם the מתחילה ב־th",
+   "body_he": [
+    "במילה the הצליל קצת יותר \"מזמזם\", אבל הלשון עדיין בין השיניים."
+   ],
+   "examples": [
+    {
+     "en": "the",
+     "emoji": "👉",
+     "he": "ה־"
+    },
+    {
+     "en": "this",
+     "emoji": "👇",
+     "he": "זה"
+    },
+    {
+     "en": "that",
+     "emoji": "👉",
+     "he": "ההוא"
+    }
+   ],
+   "big": "the",
+   "say_he": "גם the מתחילה ב־th במילה the הצליל קצת יותר \"מזמזם\", אבל הלשון עדיין בין השיניים.",
+   "say": "the, this, that",
+   "id": "s3l4e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "3️⃣",
+   "audio": "three",
+   "answer": "th",
+   "options": [
+    {
+     "label": "th",
+     "value": "th"
+    },
+    {
+     "label": "t",
+     "value": "t"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s3l4e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "thumb",
+   "answer": "thumb",
+   "options": [
+    {
+     "emoji": "👍",
+     "value": "thumb"
+    },
+    {
+     "emoji": "🛁",
+     "value": "bath"
+    },
+    {
+     "emoji": "3️⃣",
+     "value": "three"
+    }
+   ],
+   "id": "s3l4e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🛁",
+   "answer": "bath",
+   "options": [
+    {
+     "label": "bath",
+     "value": "bath"
+    },
+    {
+     "label": "bat",
+     "value": "bat"
+    },
+    {
+     "label": "bed",
+     "value": "bed"
+    }
+   ],
+   "id": "s3l4e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "thin",
+   "answer": "thin",
+   "options": [
+    {
+     "label": "thin",
+     "value": "thin"
+    },
+    {
+     "label": "tin",
+     "value": "tin"
+    },
+    {
+     "label": "fin",
+     "value": "fin"
+    }
+   ],
+   "id": "s3l4e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "this",
+   "answer": "this",
+   "options": [
+    {
+     "label": "this",
+     "value": "this"
+    },
+    {
+     "label": "is",
+     "value": "is"
+    },
+    {
+     "label": "his",
+     "value": "his"
+    }
+   ],
+   "id": "s3l4e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "👍",
+   "audio": "thumb",
+   "answer": "th",
+   "options": [
+    {
+     "label": "th",
+     "value": "th"
+    },
+    {
+     "label": "sh",
+     "value": "sh"
+    },
+    {
+     "label": "t",
+     "value": "t"
+    }
+   ],
+   "id": "s3l4e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "the bus",
+   "answer": "the bus",
+   "options": [
+    {
+     "label": "the bus",
+     "value": "the bus"
+    },
+    {
+     "label": "a bus",
+     "value": "a bus"
+    },
+    {
+     "label": "the bat",
+     "value": "the bat"
+    }
+   ],
+   "id": "s3l4e9"
+  }
+ ]
+}

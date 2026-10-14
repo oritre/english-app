@@ -1,0 +1,228 @@
+{
+ "id": "s1l5",
+ "unit_id": "s1",
+ "title_he": "קוראים מילים ראשונות",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "כבר יודעים 6 אותיות!",
+   "body_he": [
+    "s, a, t, i, p, n",
+    "עם 6 האותיות האלה כבר אפשר לקרוא הרבה מילים קטנות. בואו ננסה."
+   ],
+   "examples": [
+    {
+     "en": "sat",
+     "emoji": "🪑",
+     "he": "ישב"
+    },
+    {
+     "en": "ant",
+     "emoji": "🐜",
+     "he": "נמלה"
+    },
+    {
+     "en": "pan",
+     "emoji": "🍳",
+     "he": "מחבת"
+    },
+    {
+     "en": "tin",
+     "emoji": "🥫",
+     "he": "פחית"
+    }
+   ],
+   "big": "satipn",
+   "say_he": "כבר יודעים שש אותיות. עכשיו קוראים מילים.",
+   "id": "s1l5e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🐜",
+   "answer": "ant",
+   "options": [
+    {
+     "label": "ant",
+     "value": "ant"
+    },
+    {
+     "label": "pan",
+     "value": "pan"
+    },
+    {
+     "label": "tin",
+     "value": "tin"
+    }
+   ],
+   "id": "s1l5e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "pit",
+   "answer": "pit",
+   "options": [
+    {
+     "label": "pit",
+     "value": "pit"
+    },
+    {
+     "label": "pat",
+     "value": "pat"
+    },
+    {
+     "label": "tip",
+     "value": "tip"
+    }
+   ],
+   "id": "s1l5e3"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🍳",
+   "answer": "pan",
+   "extra": [
+    "i"
+   ],
+   "id": "s1l5e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🥫",
+   "answer": "tin",
+   "options": [
+    {
+     "label": "tin",
+     "value": "tin"
+    },
+    {
+     "label": "tap",
+     "value": "tap"
+    },
+    {
+     "label": "sit",
+     "value": "sit"
+    }
+   ],
+   "id": "s1l5e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "nap",
+   "answer": "nap",
+   "options": [
+    {
+     "label": "nap",
+     "value": "nap"
+    },
+    {
+     "label": "pan",
+     "value": "pan"
+    },
+    {
+     "label": "tap",
+     "value": "tap"
+    }
+   ],
+   "id": "s1l5e6"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🐜",
+   "answer": "ant",
+   "extra": [
+    "s",
+    "p"
+   ],
+   "id": "s1l5e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "📌",
+   "answer": "pin",
+   "options": [
+    {
+     "label": "pin",
+     "value": "pin"
+    },
+    {
+     "label": "pan",
+     "value": "pan"
+    },
+    {
+     "label": "nap",
+     "value": "nap"
+    }
+   ],
+   "id": "s1l5e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "sit",
+   "answer": "sit",
+   "options": [
+    {
+     "label": "sit",
+     "value": "sit"
+    },
+    {
+     "label": "sat",
+     "value": "sat"
+    },
+    {
+     "label": "tip",
+     "value": "tip"
+    }
+   ],
+   "id": "s1l5e9"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": null,
+   "answer": "tip",
+   "extra": [
+    "a",
+    "s"
+   ],
+   "id": "s1l5e10"
+  },
+  {
+   "type": "match_pairs",
+   "title_he": "התאימו כל מילה לפירוש שלה",
+   "pairs": [
+    [
+     "sat",
+     "ישב"
+    ],
+    [
+     "pan",
+     "מחבת"
+    ],
+    [
+     "ant",
+     "נמלה"
+    ],
+    [
+     "pin",
+     "סיכה"
+    ]
+   ],
+   "id": "s1l5e11"
+  }
+ ]
+}

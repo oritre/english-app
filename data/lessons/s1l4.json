@@ -1,0 +1,286 @@
+{
+ "id": "s1l4",
+ "unit_id": "s1",
+ "title_he": "האותיות p ו־n",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות p",
+   "body_he": [
+    "האות p נשמעת כמו פּ (פ דגושה) בעברית.",
+    "שומעים אותו בהתחלה של המילה pig"
+   ],
+   "examples": [
+    {
+     "en": "pig",
+     "emoji": "🐷",
+     "he": "חזיר"
+    },
+    {
+     "en": "pen",
+     "emoji": "🖊️",
+     "he": "עט"
+    },
+    {
+     "en": "pizza",
+     "emoji": "🍕",
+     "he": "פיצה"
+    }
+   ],
+   "big": "Pp",
+   "say_he": "האות הזאת נשמעת כמו פּ (פ דגושה). הקשיבו:",
+   "say": "pig, pen, pizza",
+   "id": "s1l4e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🍕",
+   "audio": "pizza",
+   "answer": "p",
+   "options": [
+    {
+     "label": "p",
+     "value": "p"
+    },
+    {
+     "label": "t",
+     "value": "t"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s1l4e2"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות n",
+   "body_he": [
+    "האות n נשמעת כמו נ בעברית.",
+    "שומעים אותו בהתחלה של המילה nest"
+   ],
+   "examples": [
+    {
+     "en": "nest",
+     "emoji": "🪺",
+     "he": "קן"
+    },
+    {
+     "en": "nose",
+     "emoji": "👃",
+     "he": "אף"
+    },
+    {
+     "en": "nine",
+     "emoji": "9️⃣",
+     "he": "תשע"
+    }
+   ],
+   "big": "Nn",
+   "say_he": "האות הזאת נשמעת כמו נ. הקשיבו:",
+   "say": "nest, nose, nine",
+   "id": "s1l4e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "👃",
+   "audio": "nose",
+   "answer": "n",
+   "options": [
+    {
+     "label": "n",
+     "value": "n"
+    },
+    {
+     "label": "p",
+     "value": "p"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s1l4e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐷",
+   "audio": "pig",
+   "answer": "p",
+   "options": [
+    {
+     "label": "p",
+     "value": "p"
+    },
+    {
+     "label": "n",
+     "value": "n"
+    },
+    {
+     "label": "i",
+     "value": "i"
+    }
+   ],
+   "id": "s1l4e5"
+  },
+  {
+   "type": "teach",
+   "title_he": "מחברים צלילים למילה",
+   "body_he": [
+    "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם מהר.",
+    "p + a + n = pan",
+    "לחצו על כל מילה ושמעו איך הצלילים מתחברים."
+   ],
+   "examples": [
+    {
+     "en": "pan",
+     "emoji": "🍳",
+     "he": "מחבת"
+    },
+    {
+     "en": "pin",
+     "emoji": "📌",
+     "he": "סיכה"
+    },
+    {
+     "en": "tap",
+     "emoji": "🚰",
+     "he": "ברז"
+    },
+    {
+     "en": "nap",
+     "emoji": "😴",
+     "he": "תנומה"
+    },
+    {
+     "en": "tin",
+     "emoji": "🥫",
+     "he": "פחית"
+    }
+   ],
+   "big": "pan",
+   "say_he": "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם למילה אחת.",
+   "say": "pan",
+   "id": "s1l4e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🍳",
+   "answer": "pan",
+   "options": [
+    {
+     "label": "pan",
+     "value": "pan"
+    },
+    {
+     "label": "pin",
+     "value": "pin"
+    },
+    {
+     "label": "nap",
+     "value": "nap"
+    }
+   ],
+   "id": "s1l4e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "tap",
+   "answer": "tap",
+   "options": [
+    {
+     "label": "tap",
+     "value": "tap"
+    },
+    {
+     "label": "nap",
+     "value": "nap"
+    },
+    {
+     "label": "tip",
+     "value": "tip"
+    }
+   ],
+   "id": "s1l4e8"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "📌",
+   "answer": "pin",
+   "extra": [
+    "a",
+    "t"
+   ],
+   "id": "s1l4e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "😴",
+   "answer": "nap",
+   "options": [
+    {
+     "label": "nap",
+     "value": "nap"
+    },
+    {
+     "label": "pan",
+     "value": "pan"
+    },
+    {
+     "label": "tap",
+     "value": "tap"
+    }
+   ],
+   "id": "s1l4e10"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🚰",
+   "answer": "tap",
+   "extra": [
+    "n",
+    "i"
+   ],
+   "id": "s1l4e11"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🪺",
+   "audio": "nest",
+   "answer": "n",
+   "options": [
+    {
+     "label": "n",
+     "value": "n"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    },
+    {
+     "label": "p",
+     "value": "p"
+    }
+   ],
+   "id": "s1l4e12"
+  }
+ ]
+}

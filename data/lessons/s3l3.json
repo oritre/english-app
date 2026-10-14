@@ -1,0 +1,245 @@
+{
+ "id": "s3l3",
+ "unit_id": "s3",
+ "title_he": "sh ו־ch: שתי אותיות, צליל אחד",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "שתי אותיות שעושות צליל אחד",
+   "body_he": [
+    "לפעמים שתי אותיות ביחד עושות צליל חדש.",
+    "sh נשמעת כמו ש.",
+    "ch נשמעת כמו צ׳ (כמו ב\"צ׳יפס\")."
+   ],
+   "examples": [
+    {
+     "en": "ship",
+     "emoji": "🚢",
+     "he": "אונייה"
+    },
+    {
+     "en": "fish",
+     "emoji": "🐟",
+     "he": "דג"
+    },
+    {
+     "en": "chip",
+     "emoji": "🍟",
+     "he": "צ׳יפס"
+    },
+    {
+     "en": "chick",
+     "emoji": "🐣",
+     "he": "אפרוח"
+    }
+   ],
+   "big": "sh  ch",
+   "say_he": "לפעמים שתי אותיות ביחד עושות צליל אחד.",
+   "say": "ship, fish, chip, chick",
+   "id": "s3l3e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🚢",
+   "audio": "ship",
+   "answer": "sh",
+   "options": [
+    {
+     "label": "sh",
+     "value": "sh"
+    },
+    {
+     "label": "ch",
+     "value": "ch"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s3l3e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🍟",
+   "audio": "chip",
+   "answer": "ch",
+   "options": [
+    {
+     "label": "ch",
+     "value": "ch"
+    },
+    {
+     "label": "sh",
+     "value": "sh"
+    },
+    {
+     "label": "c",
+     "value": "c"
+    }
+   ],
+   "id": "s3l3e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "fish",
+   "answer": "fish",
+   "options": [
+    {
+     "emoji": "🐟",
+     "value": "fish"
+    },
+    {
+     "emoji": "🚢",
+     "value": "ship"
+    },
+    {
+     "emoji": "🐣",
+     "value": "chick"
+    }
+   ],
+   "id": "s3l3e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🏪",
+   "answer": "shop",
+   "options": [
+    {
+     "label": "shop",
+     "value": "shop"
+    },
+    {
+     "label": "chop",
+     "value": "chop"
+    },
+    {
+     "label": "ship",
+     "value": "ship"
+    }
+   ],
+   "id": "s3l3e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🧀",
+   "audio": "cheese",
+   "answer": "ch",
+   "options": [
+    {
+     "label": "ch",
+     "value": "ch"
+    },
+    {
+     "label": "sh",
+     "value": "sh"
+    },
+    {
+     "label": "c",
+     "value": "c"
+    }
+   ],
+   "id": "s3l3e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🙂👇",
+   "answer": "chin",
+   "options": [
+    {
+     "label": "chin",
+     "value": "chin"
+    },
+    {
+     "label": "shin",
+     "value": "shin"
+    },
+    {
+     "label": "thin",
+     "value": "thin"
+    }
+   ],
+   "id": "s3l3e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "👟",
+   "audio": "shoe",
+   "answer": "sh",
+   "options": [
+    {
+     "label": "sh",
+     "value": "sh"
+    },
+    {
+     "label": "ch",
+     "value": "ch"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s3l3e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "fish",
+   "answer": "fish",
+   "options": [
+    {
+     "label": "fish",
+     "value": "fish"
+    },
+    {
+     "label": "dish",
+     "value": "dish"
+    },
+    {
+     "label": "chip",
+     "value": "chip"
+    }
+   ],
+   "id": "s3l3e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🐣",
+   "answer": "chick",
+   "options": [
+    {
+     "label": "chick",
+     "value": "chick"
+    },
+    {
+     "label": "check",
+     "value": "check"
+    },
+    {
+     "label": "shock",
+     "value": "shock"
+    }
+   ],
+   "id": "s3l3e10"
+  }
+ ]
+}

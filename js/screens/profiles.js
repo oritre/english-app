@@ -69,14 +69,18 @@ export function renderProfileCreate(root, nav, { first } = {}) {
 export async function renderStartChoice(root, nav) {
   const { getProfile, updateProfile } = await import('../progress.js');
   const p = await getProfile();
-  const begin = async () => { p.start_choice = 'beginning'; await updateProfile(p); nav('path'); };
+  const begin = async (starter) => { p.start_choice = 'beginning'; p.starter = starter; await updateProfile(p); nav('path'); };
   root.replaceChildren(el('div', { class: 'screen start-choice' },
     el('div', { class: 'avatar big' }, p.avatar),
     el('h1', {}, `${p.name}, מאיפה מתחילים?`),
-    el('button', { class: 'choice-big', type: 'button', onclick: begin },
+    el('button', { class: 'choice-big', type: 'button', onclick: () => begin(true) },
+      el('span', { class: 'emoji' }, '🔤'),
+      el('strong', {}, 'מתחילים מאפס, מה־ABC'),
+      el('span', {}, 'עוד לא מכירים את האותיות באנגלית. מתחילים מאותיות וצלילים, עם הסברים בעברית')),
+    el('button', { class: 'choice-big', type: 'button', onclick: () => begin(false) },
       el('span', { class: 'emoji' }, '🌱'),
-      el('strong', {}, 'מתחילים מההתחלה'),
-      el('span', {}, 'אני חדש באנגלית, או רוצה לעבור על הכל מהבסיס')),
+      el('strong', {}, 'מתחילים מהמילים הראשונות'),
+      el('span', {}, 'מכירים את האותיות, ורוצים להתחיל מהבסיס')),
     el('button', { class: 'choice-big', type: 'button', onclick: () => nav('placement') },
       el('span', { class: 'emoji' }, '🎯'),
       el('strong', {}, 'מבחן רמה'),

@@ -1,0 +1,283 @@
+{
+ "id": "s2l3",
+ "unit_id": "s2",
+ "title_he": "האותיות h ו־r",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות h",
+   "body_he": [
+    "האות h נשמעת כמו ה בעברית.",
+    "שומעים אותו בהתחלה של המילה hat",
+    "באנגלית שומעים את ה גם באמצע מילה, לא כמו בעברית שלפעמים היא שקטה."
+   ],
+   "examples": [
+    {
+     "en": "hat",
+     "emoji": "🎩",
+     "he": "כובע"
+    },
+    {
+     "en": "house",
+     "emoji": "🏠",
+     "he": "בית"
+    },
+    {
+     "en": "horse",
+     "emoji": "🐴",
+     "he": "סוס"
+    }
+   ],
+   "big": "Hh",
+   "say_he": "האות הזאת נשמעת כמו ה. הקשיבו:",
+   "say": "hat, house, horse",
+   "id": "s2l3e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐴",
+   "audio": "horse",
+   "answer": "h",
+   "options": [
+    {
+     "label": "h",
+     "value": "h"
+    },
+    {
+     "label": "r",
+     "value": "r"
+    },
+    {
+     "label": "a",
+     "value": "a"
+    }
+   ],
+   "id": "s2l3e2"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות r",
+   "body_he": [
+    "האות r נשמעת כמו ר, אבל רכה יותר: הלשון לא נוגעת בחך בעברית.",
+    "שומעים אותו בהתחלה של המילה red"
+   ],
+   "examples": [
+    {
+     "en": "red",
+     "emoji": "🔴",
+     "he": "אדום"
+    },
+    {
+     "en": "rain",
+     "emoji": "🌧️",
+     "he": "גשם"
+    },
+    {
+     "en": "rabbit",
+     "emoji": "🐰",
+     "he": "ארנב"
+    }
+   ],
+   "big": "Rr",
+   "say_he": "האות הזאת נשמעת כמו ר, אבל רכה יותר: הלשון לא נוגעת בחך. הקשיבו:",
+   "say": "red, rain, rabbit",
+   "id": "s2l3e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🐰",
+   "audio": "rabbit",
+   "answer": "r",
+   "options": [
+    {
+     "label": "r",
+     "value": "r"
+    },
+    {
+     "label": "h",
+     "value": "h"
+    },
+    {
+     "label": "n",
+     "value": "n"
+    }
+   ],
+   "id": "s2l3e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🏠",
+   "audio": "house",
+   "answer": "h",
+   "options": [
+    {
+     "label": "h",
+     "value": "h"
+    },
+    {
+     "label": "m",
+     "value": "m"
+    },
+    {
+     "label": "r",
+     "value": "r"
+    }
+   ],
+   "id": "s2l3e5"
+  },
+  {
+   "type": "teach",
+   "title_he": "מחברים צלילים למילה",
+   "body_he": [
+    "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם מהר.",
+    "h + a + t = hat",
+    "לחצו על כל מילה ושמעו איך הצלילים מתחברים."
+   ],
+   "examples": [
+    {
+     "en": "hat",
+     "emoji": "🎩",
+     "he": "כובע"
+    },
+    {
+     "en": "hen",
+     "emoji": "🐔",
+     "he": "תרנגולת"
+    },
+    {
+     "en": "red",
+     "emoji": "🔴",
+     "he": "אדום"
+    },
+    {
+     "en": "rat",
+     "emoji": "🐀",
+     "he": "עכברוש"
+    }
+   ],
+   "big": "hat",
+   "say_he": "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם למילה אחת.",
+   "say": "hat",
+   "id": "s2l3e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🐔",
+   "answer": "hen",
+   "options": [
+    {
+     "label": "hen",
+     "value": "hen"
+    },
+    {
+     "label": "hat",
+     "value": "hat"
+    },
+    {
+     "label": "ten",
+     "value": "ten"
+    }
+   ],
+   "id": "s2l3e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "rat",
+   "answer": "rat",
+   "options": [
+    {
+     "label": "rat",
+     "value": "rat"
+    },
+    {
+     "label": "hat",
+     "value": "hat"
+    },
+    {
+     "label": "red",
+     "value": "red"
+    }
+   ],
+   "id": "s2l3e8"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🔴",
+   "answer": "red",
+   "extra": [
+    "a",
+    "h"
+   ],
+   "id": "s2l3e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🎩",
+   "answer": "hat",
+   "options": [
+    {
+     "label": "hat",
+     "value": "hat"
+    },
+    {
+     "label": "rat",
+     "value": "rat"
+    },
+    {
+     "label": "hen",
+     "value": "hen"
+    }
+   ],
+   "id": "s2l3e10"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🐔",
+   "answer": "hen",
+   "extra": [
+    "r",
+    "a"
+   ],
+   "id": "s2l3e11"
+  },
+  {
+   "type": "match_pairs",
+   "right": "en",
+   "title_he": "התאימו כל אות גדולה לאות הקטנה שלה",
+   "pairs": [
+    [
+     "H",
+     "h"
+    ],
+    [
+     "R",
+     "r"
+    ],
+    [
+     "C",
+     "c"
+    ],
+    [
+     "E",
+     "e"
+    ]
+   ],
+   "id": "s2l3e12"
+  }
+ ]
+}

@@ -1,0 +1,253 @@
+{
+ "id": "s3l2",
+ "unit_id": "s3",
+ "title_he": "w ו־v: לא אותו צליל",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות w",
+   "body_he": [
+    "האות w נשמעת כמו וּ קצרה: שפתיים עגולות כמו נשיקה, ואז פותחים בעברית.",
+    "שומעים אותו בהתחלה של המילה water",
+    "זה צליל שאין בעברית. הוא לא כמו ו!"
+   ],
+   "examples": [
+    {
+     "en": "water",
+     "emoji": "💧",
+     "he": "מים"
+    },
+    {
+     "en": "window",
+     "emoji": "🪟",
+     "he": "חלון"
+    },
+    {
+     "en": "worm",
+     "emoji": "🪱",
+     "he": "תולעת"
+    }
+   ],
+   "big": "Ww",
+   "say_he": "האות הזאת נשמעת כמו וּ קצרה: שפתיים עגולות כמו נשיקה, ואז פותחים. הקשיבו:",
+   "say": "water, window, worm",
+   "id": "s3l2e1"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות v",
+   "body_he": [
+    "האות v נשמעת כמו ו (כמו בעברית): השיניים נוגעות בשפה התחתונה בעברית.",
+    "שומעים אותו בהתחלה של המילה van"
+   ],
+   "examples": [
+    {
+     "en": "van",
+     "emoji": "🚐",
+     "he": "טנדר"
+    },
+    {
+     "en": "violin",
+     "emoji": "🎻",
+     "he": "כינור"
+    },
+    {
+     "en": "vet",
+     "emoji": "🩺",
+     "he": "וטרינר"
+    }
+   ],
+   "big": "Vv",
+   "say_he": "האות הזאת נשמעת כמו ו (כמו בעברית): השיניים נוגעות בשפה התחתונה. הקשיבו:",
+   "say": "van, violin, vet",
+   "id": "s3l2e2"
+  },
+  {
+   "type": "teach",
+   "title_he": "w או v?",
+   "body_he": [
+    "w: השפתיים עגולות ולא נוגעות בשיניים.",
+    "v: השיניים העליונות נוגעות בשפה התחתונה.",
+    "הקשיבו להבדל: wet (רטוב) ו־vet (וטרינר)."
+   ],
+   "examples": [
+    {
+     "en": "wet",
+     "emoji": "💧",
+     "he": "רטוב"
+    },
+    {
+     "en": "vet",
+     "emoji": "🩺",
+     "he": "וטרינר"
+    },
+    {
+     "en": "web",
+     "emoji": "🕸️",
+     "he": "רשת עכביש"
+    },
+    {
+     "en": "van",
+     "emoji": "🚐",
+     "he": "טנדר"
+    }
+   ],
+   "big": "w / v",
+   "say_he": "w או v? w: השפתיים עגולות ולא נוגעות בשיניים. v: השיניים העליונות נוגעות בשפה התחתונה. הקשיבו להבדל: wet (רטוב) ו־vet (וטרינר).",
+   "id": "s3l2e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🪟",
+   "audio": "window",
+   "answer": "w",
+   "options": [
+    {
+     "label": "w",
+     "value": "w"
+    },
+    {
+     "label": "v",
+     "value": "v"
+    }
+   ],
+   "id": "s3l2e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🎻",
+   "audio": "violin",
+   "answer": "v",
+   "options": [
+    {
+     "label": "v",
+     "value": "v"
+    },
+    {
+     "label": "w",
+     "value": "w"
+    }
+   ],
+   "id": "s3l2e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "wet",
+   "answer": "wet",
+   "options": [
+    {
+     "emoji": "💧",
+     "value": "wet"
+    },
+    {
+     "emoji": "🩺",
+     "value": "vet"
+    }
+   ],
+   "id": "s3l2e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "say_he": "הקשיבו ובחרו את התמונה הנכונה",
+   "audio": "vet",
+   "answer": "vet",
+   "options": [
+    {
+     "emoji": "🩺",
+     "value": "vet"
+    },
+    {
+     "emoji": "💧",
+     "value": "wet"
+    }
+   ],
+   "id": "s3l2e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🕸️",
+   "answer": "web",
+   "options": [
+    {
+     "label": "web",
+     "value": "web"
+    },
+    {
+     "label": "wet",
+     "value": "wet"
+    },
+    {
+     "label": "van",
+     "value": "van"
+    }
+   ],
+   "id": "s3l2e8"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "🚐",
+   "answer": "van",
+   "extra": [
+    "w",
+    "e"
+   ],
+   "id": "s3l2e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "win",
+   "answer": "win",
+   "options": [
+    {
+     "label": "win",
+     "value": "win"
+    },
+    {
+     "label": "van",
+     "value": "van"
+    },
+    {
+     "label": "wet",
+     "value": "wet"
+    }
+   ],
+   "id": "s3l2e10"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🪱",
+   "audio": "worm",
+   "answer": "w",
+   "options": [
+    {
+     "label": "w",
+     "value": "w"
+    },
+    {
+     "label": "v",
+     "value": "v"
+    },
+    {
+     "label": "u",
+     "value": "u"
+    }
+   ],
+   "id": "s3l2e11"
+  }
+ ]
+}

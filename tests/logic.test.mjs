@@ -39,7 +39,7 @@ test('xp', () => {
 
 test('every lesson is well formed and its answers can be built from its tiles', () => {
   const course = JSON.parse(readFileSync(new URL('../data/course.json', import.meta.url)));
-  const ids = course.units.flatMap((u) => (u.bonus ? [...u.lessons, u.bonus] : u.lessons));
+  const ids = [...course.starter_units, ...course.units].flatMap((u) => (u.bonus ? [...u.lessons, u.bonus] : u.lessons));
   assert.deepEqual([...ids].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
   for (const id of ids) {
     const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
@@ -56,6 +56,14 @@ test('every lesson is well formed and its answers can be built from its tiles', 
         assert.equal(ex.sentence.split('___').length, 2, where);
       }
       if (ex.type === 'match_pairs') assert.ok(ex.pairs.length >= 3, where);
+      if (ex.type === 'pick') {
+        const values = ex.options.map((o) => o.value);
+        assert.ok(values.includes(ex.answer) && new Set(values).size === values.length, where);
+        assert.ok(ex.options.length >= 2 && ex.options.length <= 4, `${where}: 2-4 choices for young learners`);
+        assert.ok(ex.audio || ex.show, `${where}: something to hear or see`);
+      }
+      if (ex.type === 'spell') assert.ok(ex.answer.length >= 2 && ex.answer.length <= 5 && /^[a-z]+$/.test(ex.answer), where);
+      if (ex.type === 'teach') assert.ok(ex.title_he && ex.body_he.length, where);
       if (ex.type === 'read') {
         assert.ok(ex.passage && ex.question && ex.explain_he, where);
         assert.ok(ex.options.includes(ex.answer) && new Set(ex.options).size === ex.options.length, where);
@@ -192,4 +200,11 @@ test('reading bonus opens only after every lesson in its unit and never blocks t
   assert.deepEqual(lessonStates(course, ['a']), { a: 'done', b: 'current', ar: 'locked', c: 'locked' });
   assert.deepEqual(lessonStates(course, ['a', 'b']), { a: 'done', b: 'done', ar: 'bonus', c: 'current' });
   assert.deepEqual(lessonStates(course, ['a', 'b', 'ar']), { a: 'done', b: 'done', ar: 'done', c: 'current' });
+});
+
+test('starter units lead the path only for ABC learners', () => {
+  const course = { starter_units: [{ id: 's1', lessons: ['s1', 's2'] }], units: [{ id: 'u1', lessons: ['a', 'b'] }] };
+  assert.deepEqual(lessonStates(course, [], { starter: true }), { s1: 'current', s2: 'locked', a: 'locked', b: 'locked' });
+  assert.deepEqual(lessonStates(course, ['s1', 's2'], { starter: true }), { s1: 'done', s2: 'done', a: 'current', b: 'locked' });
+  assert.deepEqual(lessonStates(course, ['s1']), { s1: 'done', s2: 'bonus', a: 'current', b: 'locked' });
 });

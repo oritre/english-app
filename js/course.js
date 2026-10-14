@@ -22,11 +22,17 @@ export async function loadLesson(id) {
 }
 
 // Each lesson is 'done', 'current' (the first not done) or 'locked'.
-export function lessonStates(course, doneIds) {
+// Starter (ABC) units lead the path for learners who start from zero; for
+// everyone else they stay open as optional practice ('bonus').
+export function lessonStates(course, doneIds, { starter = false } = {}) {
   const done = new Set(doneIds);
   const states = {};
   let currentAssigned = false;
-  for (const unit of course.units) {
+  const starterUnits = course.starter_units || [];
+  if (!starter) {
+    for (const unit of starterUnits) for (const id of unit.lessons) states[id] = done.has(id) ? 'done' : 'bonus';
+  }
+  for (const unit of starter ? [...starterUnits, ...course.units] : course.units) {
     for (const id of unit.lessons) {
       if (done.has(id)) states[id] = 'done';
       else if (!currentAssigned) { states[id] = 'current'; currentAssigned = true; }

@@ -3,7 +3,7 @@ import { speak, canSpeak, canSpeakLang, voiceName } from '../speech.js';
 import { getSettings, setSetting } from '../settings.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
 import { Recognition } from '../exercises/speak.js';
-import { getProfile, setCurrentProfile } from '../progress.js';
+import { getProfile, setCurrentProfile, updateProfile } from '../progress.js';
 import { APP_VERSION } from '../version.js';
 
 
@@ -116,11 +116,21 @@ function micSection() {
     toggle('תרגילי דיבור', 'כשכבוי, תרגילי "קראו בקול" מדולגים', 'speaking'));
 }
 
+function starterToggle(profile) {
+  const box = el('input', { type: 'checkbox', checked: !!profile.starter });
+  box.addEventListener('change', async () => { profile.starter = box.checked; await updateProfile(profile); });
+  return el('label', { class: 'setting-row' },
+    el('span', {}, el('span', { class: 'setting-label' }, 'מסלול ABC למתחילים מאפס'),
+      el('span', { class: 'muted setting-hint' }, 'אותיות, צלילים ומילים ראשונות לפני השיעור הראשון')),
+    box);
+}
+
 export async function renderSettings(root, nav) {
   const profile = await getProfile();
   const account = profile
     ? section('👤 לומד',
       el('p', {}, 'לומד עכשיו: ', profile.avatar, ' ', profile.name),
+      starterToggle(profile),
       el('div', { class: 'row-btns' },
         el('button', { class: 'btn', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } }, '🚪 החלפת לומד'),
         el('button', { class: 'btn', type: 'button', onclick: () => nav('placement') }, '🎯 מבחן רמה')))

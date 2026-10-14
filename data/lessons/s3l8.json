@@ -1,0 +1,237 @@
+{
+ "id": "s3l8",
+ "unit_id": "s3",
+ "title_he": "משפטים ראשונים",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "קוראים משפט",
+   "body_he": [
+    "משפט באנגלית מתחיל באות גדולה ונגמר בנקודה.",
+    "קוראים מילה אחרי מילה, משמאל לימין."
+   ],
+   "examples": [
+    {
+     "en": "I see a cat.",
+     "emoji": "🐱",
+     "he": "אני רואה חתול"
+    },
+    {
+     "en": "It is red.",
+     "emoji": "🔴",
+     "he": "זה אדום"
+    },
+    {
+     "en": "The dog is big.",
+     "emoji": "🐕",
+     "he": "הכלב גדול"
+    }
+   ],
+   "big": "I see a cat.",
+   "say_he": "קוראים משפט משפט באנגלית מתחיל באות גדולה ונגמר בנקודה. קוראים מילה אחרי מילה, משמאל לימין.",
+   "say": "I see a cat. It is red. The dog is big.",
+   "id": "s3l8e1"
+  },
+  {
+   "type": "teach",
+   "title_he": "מילים חדשות למשפטים",
+   "body_he": [
+    "see = רואה",
+    "big = גדול",
+    "and = ו־"
+   ],
+   "examples": [
+    {
+     "en": "see",
+     "emoji": "👀",
+     "he": "רואה"
+    },
+    {
+     "en": "big",
+     "emoji": "🐘",
+     "he": "גדול"
+    },
+    {
+     "en": "and",
+     "emoji": "➕",
+     "he": "ו־"
+    }
+   ],
+   "big": "👀",
+   "say_he": "מילים חדשות למשפטים see = רואה big = גדול and = ו־",
+   "id": "s3l8e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "I see a dog.",
+   "answer": "I see a dog.",
+   "options": [
+    {
+     "label": "I see a dog.",
+     "value": "I see a dog."
+    },
+    {
+     "label": "I see a cat.",
+     "value": "I see a cat."
+    },
+    {
+     "label": "I see a bus.",
+     "value": "I see a bus."
+    }
+   ],
+   "id": "s3l8e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "☀️🔥",
+   "answer": "The sun is hot.",
+   "options": [
+    {
+     "label": "The sun is hot.",
+     "value": "The sun is hot."
+    },
+    {
+     "label": "The bus is red.",
+     "value": "The bus is red."
+    },
+    {
+     "label": "The cat is sad.",
+     "value": "The cat is sad."
+    }
+   ],
+   "id": "s3l8e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "It is red.",
+   "answer": "It is red.",
+   "options": [
+    {
+     "label": "It is red.",
+     "value": "It is red."
+    },
+    {
+     "label": "It is big.",
+     "value": "It is big."
+    },
+    {
+     "label": "It is hot.",
+     "value": "It is hot."
+    }
+   ],
+   "id": "s3l8e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🐷",
+   "answer": "A big pig",
+   "options": [
+    {
+     "label": "A big pig",
+     "value": "A big pig"
+    },
+    {
+     "label": "A big bus",
+     "value": "A big bus"
+    },
+    {
+     "label": "A red hat",
+     "value": "A red hat"
+    }
+   ],
+   "id": "s3l8e6"
+  },
+  {
+   "type": "match_pairs",
+   "title_he": "התאימו כל מילה לפירוש שלה",
+   "pairs": [
+    [
+     "see",
+     "רואה"
+    ],
+    [
+     "big",
+     "גדול"
+    ],
+    [
+     "red",
+     "אדום"
+    ],
+    [
+     "hot",
+     "חם"
+    ],
+    [
+     "sad",
+     "עצוב"
+    ]
+   ],
+   "id": "s3l8e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🐟🚢",
+   "answer": "I see a fish and a ship.",
+   "options": [
+    {
+     "label": "I see a fish and a ship.",
+     "value": "I see a fish and a ship."
+    },
+    {
+     "label": "I see a cat and a dog.",
+     "value": "I see a cat and a dog."
+    },
+    {
+     "label": "I see a bee and a tree.",
+     "value": "I see a bee and a tree."
+    }
+   ],
+   "id": "s3l8e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "The cat and the dog",
+   "answer": "The cat and the dog",
+   "options": [
+    {
+     "label": "The cat and the dog",
+     "value": "The cat and the dog"
+    },
+    {
+     "label": "The cat and the hat",
+     "value": "The cat and the hat"
+    },
+    {
+     "label": "The dog and the bed",
+     "value": "The dog and the bed"
+    }
+   ],
+   "id": "s3l8e9"
+  },
+  {
+   "type": "teach",
+   "title_he": "כל הכבוד!",
+   "body_he": [
+    "סיימתם את מסלול ה־ABC!",
+    "עכשיו אפשר להתחיל את השיעורים הרגילים, עם מילים ומשפטים."
+   ],
+   "examples": [],
+   "big": "🎉",
+   "say_he": "כל הכבוד! סיימתם את מסלול האותיות.",
+   "id": "s3l8e10"
+  }
+ ]
+}

@@ -1,0 +1,281 @@
+{
+ "id": "s2l1",
+ "unit_id": "s2",
+ "title_he": "האותיות m ו־d",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "האות m",
+   "body_he": [
+    "האות m נשמעת כמו מ בעברית.",
+    "שומעים אותו בהתחלה של המילה moon"
+   ],
+   "examples": [
+    {
+     "en": "moon",
+     "emoji": "🌙",
+     "he": "ירח"
+    },
+    {
+     "en": "milk",
+     "emoji": "🥛",
+     "he": "חלב"
+    },
+    {
+     "en": "man",
+     "emoji": "👨",
+     "he": "איש"
+    }
+   ],
+   "big": "Mm",
+   "say_he": "האות הזאת נשמעת כמו מ. הקשיבו:",
+   "say": "moon, milk, man",
+   "id": "s2l1e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🌙",
+   "audio": "moon",
+   "answer": "m",
+   "options": [
+    {
+     "label": "m",
+     "value": "m"
+    },
+    {
+     "label": "n",
+     "value": "n"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    }
+   ],
+   "id": "s2l1e2"
+  },
+  {
+   "type": "teach",
+   "title_he": "האות d",
+   "body_he": [
+    "האות d נשמעת כמו ד בעברית.",
+    "שומעים אותו בהתחלה של המילה dog"
+   ],
+   "examples": [
+    {
+     "en": "dog",
+     "emoji": "🐶",
+     "he": "כלב"
+    },
+    {
+     "en": "duck",
+     "emoji": "🦆",
+     "he": "ברווז"
+    },
+    {
+     "en": "door",
+     "emoji": "🚪",
+     "he": "דלת"
+    }
+   ],
+   "big": "Dd",
+   "say_he": "האות הזאת נשמעת כמו ד. הקשיבו:",
+   "say": "dog, duck, door",
+   "id": "s2l1e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🦆",
+   "audio": "duck",
+   "answer": "d",
+   "options": [
+    {
+     "label": "d",
+     "value": "d"
+    },
+    {
+     "label": "m",
+     "value": "m"
+    },
+    {
+     "label": "t",
+     "value": "t"
+    }
+   ],
+   "id": "s2l1e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🥛",
+   "audio": "milk",
+   "answer": "m",
+   "options": [
+    {
+     "label": "m",
+     "value": "m"
+    },
+    {
+     "label": "d",
+     "value": "d"
+    },
+    {
+     "label": "n",
+     "value": "n"
+    }
+   ],
+   "id": "s2l1e5"
+  },
+  {
+   "type": "teach",
+   "title_he": "מחברים צלילים למילה",
+   "body_he": [
+    "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם מהר.",
+    "m + a + n = man",
+    "לחצו על כל מילה ושמעו איך הצלילים מתחברים."
+   ],
+   "examples": [
+    {
+     "en": "man",
+     "emoji": "👨",
+     "he": "איש"
+    },
+    {
+     "en": "mat",
+     "emoji": null,
+     "he": "שטיחון"
+    },
+    {
+     "en": "dad",
+     "emoji": "👨‍👧",
+     "he": "אבא"
+    },
+    {
+     "en": "sad",
+     "emoji": "😢",
+     "he": "עצוב"
+    }
+   ],
+   "big": "man",
+   "say_he": "אומרים כל צליל לפי הסדר, משמאל לימין, ומחברים אותם למילה אחת.",
+   "say": "man",
+   "id": "s2l1e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "😢",
+   "answer": "sad",
+   "options": [
+    {
+     "label": "sad",
+     "value": "sad"
+    },
+    {
+     "label": "dad",
+     "value": "dad"
+    },
+    {
+     "label": "mad",
+     "value": "mad"
+    }
+   ],
+   "id": "s2l1e7"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "say_he": "הקשיבו ובחרו את המילה ששמעתם",
+   "audio": "dad",
+   "answer": "dad",
+   "options": [
+    {
+     "label": "dad",
+     "value": "dad"
+    },
+    {
+     "label": "sad",
+     "value": "sad"
+    },
+    {
+     "label": "mad",
+     "value": "mad"
+    }
+   ],
+   "id": "s2l1e8"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "👨",
+   "answer": "man",
+   "extra": [
+    "d",
+    "i"
+   ],
+   "id": "s2l1e9"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "👨‍👧",
+   "answer": "dad",
+   "options": [
+    {
+     "label": "dad",
+     "value": "dad"
+    },
+    {
+     "label": "man",
+     "value": "man"
+    },
+    {
+     "label": "sad",
+     "value": "sad"
+    }
+   ],
+   "id": "s2l1e10"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": null,
+   "answer": "mat",
+   "extra": [
+    "p"
+   ],
+   "id": "s2l1e11"
+  },
+  {
+   "type": "match_pairs",
+   "right": "en",
+   "title_he": "התאימו כל אות גדולה לאות הקטנה שלה",
+   "pairs": [
+    [
+     "M",
+     "m"
+    ],
+    [
+     "D",
+     "d"
+    ],
+    [
+     "N",
+     "n"
+    ],
+    [
+     "P",
+     "p"
+    ]
+   ],
+   "id": "s2l1e12"
+  }
+ ]
+}

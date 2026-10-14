@@ -1,0 +1,247 @@
+{
+ "id": "s3l6",
+ "unit_id": "s3",
+ "title_he": "האותיות j, y, z, x ו־qu",
+ "starter": true,
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "עוד חמש אותיות",
+   "body_he": [
+    "j נשמעת כמו ג׳ (ג׳ירפה).",
+    "y נשמעת כמו י בתחילת מילה.",
+    "z נשמעת כמו ז.",
+    "x בסוף מילה נשמעת כמו קס.",
+    "q באה תמיד עם u: qu נשמעת קו."
+   ],
+   "examples": [
+    {
+     "en": "jam",
+     "emoji": "🍓",
+     "he": "ריבה"
+    },
+    {
+     "en": "yes",
+     "emoji": "✅",
+     "he": "כן"
+    },
+    {
+     "en": "zoo",
+     "emoji": "🦓",
+     "he": "גן חיות"
+    },
+    {
+     "en": "box",
+     "emoji": "📦",
+     "he": "קופסה"
+    },
+    {
+     "en": "queen",
+     "emoji": "👸",
+     "he": "מלכה"
+    }
+   ],
+   "big": "j y z x q",
+   "say_he": "עוד חמש אותיות.",
+   "say": "jam, yes, zoo, box, queen",
+   "id": "s3l6e1"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🍓",
+   "audio": "jam",
+   "answer": "j",
+   "options": [
+    {
+     "label": "j",
+     "value": "j"
+    },
+    {
+     "label": "g",
+     "value": "g"
+    },
+    {
+     "label": "y",
+     "value": "y"
+    }
+   ],
+   "id": "s3l6e2"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "✅",
+   "audio": "yes",
+   "answer": "y",
+   "options": [
+    {
+     "label": "y",
+     "value": "y"
+    },
+    {
+     "label": "j",
+     "value": "j"
+    },
+    {
+     "label": "u",
+     "value": "u"
+    }
+   ],
+   "id": "s3l6e3"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "🦓",
+   "audio": "zoo",
+   "answer": "z",
+   "options": [
+    {
+     "label": "z",
+     "value": "z"
+    },
+    {
+     "label": "s",
+     "value": "s"
+    },
+    {
+     "label": "x",
+     "value": "x"
+    }
+   ],
+   "id": "s3l6e4"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "📦",
+   "answer": "box",
+   "options": [
+    {
+     "label": "box",
+     "value": "box"
+    },
+    {
+     "label": "fox",
+     "value": "fox"
+    },
+    {
+     "label": "bus",
+     "value": "bus"
+    }
+   ],
+   "id": "s3l6e5"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "באיזו אות מתחילה המילה?",
+   "say_he": "באיזו אות מתחילה המילה?",
+   "show": "👸",
+   "audio": "queen",
+   "answer": "q",
+   "options": [
+    {
+     "label": "q",
+     "value": "q"
+    },
+    {
+     "label": "k",
+     "value": "k"
+    },
+    {
+     "label": "c",
+     "value": "c"
+    }
+   ],
+   "id": "s3l6e6"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "6️⃣",
+   "answer": "six",
+   "options": [
+    {
+     "label": "six",
+     "value": "six"
+    },
+    {
+     "label": "sit",
+     "value": "sit"
+    },
+    {
+     "label": "fix",
+     "value": "fix"
+    }
+   ],
+   "id": "s3l6e7"
+  },
+  {
+   "type": "spell",
+   "prompt_he": "הקשיבו והרכיבו את המילה, משמאל לימין",
+   "emoji": "✈️",
+   "answer": "jet",
+   "extra": [
+    "g",
+    "a"
+   ],
+   "id": "s3l6e8"
+  },
+  {
+   "type": "pick",
+   "prompt_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "say_he": "איזו מילה מתאימה לתמונה? קראו לפי הצלילים",
+   "show": "🤐",
+   "answer": "zip",
+   "options": [
+    {
+     "label": "zip",
+     "value": "zip"
+    },
+    {
+     "label": "sip",
+     "value": "sip"
+    },
+    {
+     "label": "zap",
+     "value": "zap"
+    }
+   ],
+   "id": "s3l6e9"
+  },
+  {
+   "type": "match_pairs",
+   "right": "en",
+   "title_he": "התאימו כל אות גדולה לאות הקטנה שלה",
+   "pairs": [
+    [
+     "J",
+     "j"
+    ],
+    [
+     "Y",
+     "y"
+    ],
+    [
+     "Z",
+     "z"
+    ],
+    [
+     "X",
+     "x"
+    ],
+    [
+     "Q",
+     "q"
+    ]
+   ],
+   "id": "s3l6e10"
+  }
+ ]
+}
