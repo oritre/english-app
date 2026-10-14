@@ -20,6 +20,9 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
   let result = null;
   let rec = null;
   let tries = 0;
+  // After an empty attempt, retry in the plainest mode: some Android builds
+  // return nothing when interim results or alternatives are requested.
+  let simple = false;
   const words = el('div', { class: 'speak-words', dir: 'ltr', lang: 'en' },
     ex.text.split(' ').map((w) => el('span', { class: 'sw' }, ...gloss(w))));
   const heard = el('p', { class: 'heard', dir: 'ltr', hidden: true });
@@ -35,12 +38,20 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
 
   mic.addEventListener('click', () => {
     if (rec) { rec.stop(); return; }
+    try { speechSynthesis.cancel(); } catch { /* no TTS */ }
     rec = new Recognition();
     rec.lang = 'en-US';
-    rec.interimResults = true;
-    rec.maxAlternatives = 3;
+    rec.continuous = false;
+    rec.interimResults = !simple;
+    rec.maxAlternatives = simple ? 1 : 3;
     let finalAlts = [];
     let lastAlts = [];
+    let gotAudio = false;
+    let gotSpeech = false;
+    let failed = false;
+    rec.onaudiostart = () => { gotAudio = true; };
+    rec.onsoundstart = () => { gotAudio = true; };
+    rec.onspeechstart = () => { gotAudio = true; gotSpeech = true; status.textContent = 'מקשיב... (שומע דיבור)'; };
     mic.classList.add('on');
     status.textContent = 'מקשיב...';
     rec.onresult = (e) => {
@@ -52,6 +63,7 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
       if (res.isFinal) finalAlts = alts;
     };
     rec.onerror = (e) => {
+      if (e.error !== 'aborted') failed = true;
       if (e.error === 'not-allowed' || e.error === 'service-not-allowed' || e.error === 'audio-capture') {
         status.textContent = 'אין גישה למיקרופון כאן. אפשר לדלג על תרגילי דיבור.';
         skipBtn.textContent = 'דילוג על תרגילי דיבור';
@@ -74,7 +86,15 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
       // Stopped before the browser finalised: judge what it heard so far.
       if (!finalAlts.length) finalAlts = lastAlts;
       if (!finalAlts.length) {
-        if (status.textContent === 'מקשיב...') status.textContent = 'לא שמעתי משפט. לחצו שוב על המיקרופון ודברו.';
+        if (failed) return;
+        simple = true;
+        if (!gotAudio) {
+          status.textContent = 'לא הגיע קול מהמיקרופון. אם מחוברות אוזניות Bluetooth נסו לנתק אותן, ולחצו שוב על המיקרופון.';
+        } else if (gotSpeech) {
+          status.textContent = 'שמעתי דיבור אבל לא הצלחתי לתמלל אותו. לחצו שוב, דברו ברור, וחכו שהמיקרופון ייכבה לבד.';
+        } else {
+          status.textContent = 'המיקרופון פעל אבל לא זיהיתי דיבור. לחצו שוב ודברו קרוב יותר לטלפון.';
+        }
         return;
       }
       tries++;
