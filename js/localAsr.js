@@ -1,6 +1,6 @@
 // Speech-to-text inside the app, for phones whose Google speech service
 // returns nothing (and browsers without one, like Brave). Whisper runs on the
-// device through transformers.js: the model downloads once (about 60MB), is
+// device through transformers.js: the model downloads once (about 65MB), is
 // kept in the browser's cache, and audio never leaves the phone.
 const TF_URL = 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dist/transformers.min.js';
 const MODEL = 'Xenova/whisper-tiny.en';

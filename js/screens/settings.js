@@ -138,7 +138,7 @@ function micSection() {
   const engines = [['google', 'גוגל'], ['local', 'בתוך האפליקציה']];
   const engineNote = el('span', { class: 'muted setting-hint' });
   const noteFor = (id) => (id === 'local'
-    ? (localAsrDownloaded() ? 'מותקן במכשיר. עובד גם בלי אינטרנט.' : 'הורדה חד־פעמית של כ־60MB בשימוש הראשון.')
+    ? (localAsrDownloaded() ? 'מותקן במכשיר. עובד גם בלי אינטרנט.' : 'הורדה חד־פעמית של כ־65MB בשימוש הראשון.')
     : 'שירות הזיהוי של הדפדפן. צריך אינטרנט.');
   const engineBtns = engines.map(([id, label]) => {
     const b = el('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(asrEngine() === id), disabled: (id === 'google' && !Recognition) || (id === 'local' && !localAsrSupported()) }, label);
