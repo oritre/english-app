@@ -89,7 +89,8 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
         if (failed) return;
         simple = true;
         if (!gotAudio) {
-          status.textContent = 'לא הגיע קול מהמיקרופון. אם מחוברות אוזניות Bluetooth נסו לנתק אותן, ולחצו שוב על המיקרופון.';
+          status.textContent = 'לא הגיע קול לתמלול. לחצו על "בדיקת מיקרופון" כדי לבדוק אם המיקרופון קולט.';
+          micTest.hidden = false;
         } else if (gotSpeech) {
           status.textContent = 'שמעתי דיבור אבל לא הצלחתי לתמלל אותו. לחצו שוב, דברו ברור, וחכו שהמיקרופון ייכבה לבד.';
         } else {
@@ -114,6 +115,52 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
     try { rec.start(); } catch { mic.classList.remove('on'); rec = null; }
   });
 
+  // Records 3 seconds without speech recognition: tells a dead mic apart
+  // from a phone whose speech service gets no microphone.
+  const meterFill = el('div', { class: 'mic-meter-fill' });
+  const meter = el('div', { class: 'mic-meter', hidden: true }, meterFill);
+  const micTest = el('button', { class: 'link-btn', type: 'button', hidden: true }, 'בדיקת מיקרופון');
+  micTest.addEventListener('click', async () => {
+    if (rec) rec.abort();
+    micTest.disabled = true;
+    status.textContent = 'בודק... דברו עכשיו 3 שניות.';
+    let stream = null;
+    let ctx = null;
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      ctx = new (window.AudioContext || window.webkitAudioContext)();
+      const an = ctx.createAnalyser();
+      an.fftSize = 1024;
+      ctx.createMediaStreamSource(stream).connect(an);
+      const buf = new Float32Array(an.fftSize);
+      let peak = 0;
+      meter.hidden = false;
+      const end = Date.now() + 3000;
+      await new Promise((done) => {
+        const tick = () => {
+          an.getFloatTimeDomainData(buf);
+          let sum = 0;
+          for (const v of buf) sum += v * v;
+          const rms = Math.sqrt(sum / buf.length);
+          peak = Math.max(peak, rms);
+          meterFill.style.width = `${Math.min(100, rms * 400)}%`;
+          if (Date.now() < end) requestAnimationFrame(tick); else done();
+        };
+        tick();
+      });
+      status.textContent = peak > 0.02
+        ? 'המיקרופון קולט, אז הבעיה בשירות התמלול של הטלפון. בהגדרות אנדרואיד: אפליקציות > Google > הרשאות > מיקרופון > לאפשר. אחר כך נסו שוב.'
+        : 'המיקרופון לא קלט קול. בדקו שאין אוזניות Bluetooth מחוברות, ושל־Chrome יש הרשאת מיקרופון בהגדרות אנדרואיד.';
+    } catch (err) {
+      status.textContent = `אין גישה למיקרופון (${err?.name || 'שגיאה'}). אשרו ל־Chrome גישה למיקרופון בהגדרות האתר.`;
+    } finally {
+      stream?.getTracks().forEach((t) => t.stop());
+      ctx?.close().catch(() => {});
+      meter.hidden = true;
+      micTest.disabled = false;
+    }
+  });
+
   const skipBtn = el('button', { class: 'link-btn', type: 'button' }, 'לא יכול לדבר עכשיו');
   skipBtn.addEventListener('click', () => { if (rec) rec.abort(); pauseSpeaking(15); skip(); });
 
@@ -122,6 +169,6 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
     el('div', { class: 'prompt-bubble speak-prompt' },
       el('button', { class: 'speaker', type: 'button', 'aria-label': 'השמע', onclick: () => speak(ex.text) }, '🔊'),
       words),
-    el('div', { class: 'mic-row' }, mic), status, heard, skipBtn);
+    el('div', { class: 'mic-row' }, mic), status, meter, heard, micTest, skipBtn);
   return { getAnswer: () => null, selfChecking: true };
 }
