@@ -146,6 +146,13 @@ function micSection() {
       setSetting('asr', id);
       engineBtns.forEach((x, i) => x.setAttribute('aria-pressed', String(engines[i][0] === id)));
       engineNote.textContent = noteFor(id);
+      // Start the one-time download right away, with progress, so it's visible.
+      if (id === 'local' && !localAsrDownloaded()) {
+        engineNote.textContent = 'מוריד את מנוע התמלול... 0%';
+        loadLocalAsr((f) => { engineNote.textContent = `מוריד את מנוע התמלול... ${Math.round(f * 100)}%`; })
+          .then(() => { engineNote.textContent = 'הורד והותקן. עובד גם בלי אינטרנט. אפשר ללחוץ "בדיקת תמלול".'; })
+          .catch(() => { engineNote.textContent = 'ההורדה נכשלה. בדקו את החיבור לאינטרנט ונסו שוב.'; });
+      }
     });
     return b;
   });
