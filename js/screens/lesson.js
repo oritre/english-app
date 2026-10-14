@@ -5,6 +5,7 @@ import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
 import { glossify, closePop } from '../gloss.js';
 import { speak } from '../speech.js';
+import { getSettings } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt } from '../progress.js';
 
@@ -30,11 +31,12 @@ export async function renderLesson(root, nav, { lessonId }) {
       el('button', { class: 'btn primary', type: 'button', onclick: () => { quitDialog.hidden = true; } }, 'להמשיך ללמוד'),
       el('button', { class: 'btn ghost', type: 'button', onclick: () => nav('path') }, 'יציאה')));
   quit.addEventListener('click', () => { quitDialog.hidden = false; });
+  const homeBtn = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'מסך הבית', onclick: () => { quitDialog.hidden = false; } }, '🏠');
   const body = el('main', { class: 'ex-body' });
   const checkBtn = el('button', { class: 'btn primary wide', type: 'button', disabled: true }, 'בדיקה');
   const footer = el('footer', { class: 'lesson-footer' }, checkBtn);
   root.replaceChildren(el('div', { class: 'screen lesson' },
-    el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar)),
+    el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar), homeBtn),
     body, footer, quitDialog));
 
   const setProgress = () => { bar.style.width = `${Math.round((solved / total) * 100)}%`; };
@@ -89,7 +91,7 @@ export async function renderLesson(root, nav, { lessonId }) {
       const englishOut = ex.type === 'translate_en_he' ? ex.prompt
         : ex.type === 'listen_translate' ? (ex.lang === 'en' ? ex.audio_text : expected)
         : ex.type === 'fill_blank' ? api.fullSentence() : expected;
-      if (result !== 'wrong' && englishOut && ex.type !== 'choose' && ex.type !== 'read') speak(englishOut);
+      if (result !== 'wrong' && englishOut && getSettings().autoplay && ex.type !== 'choose' && ex.type !== 'read') speak(englishOut);
       // Grammar explanation for English answers that are wrong for a grammar reason.
       const grammarNote = result === 'wrong' && !answerIsHebrew(ex) && !['choose', 'fill_blank', 'read'].includes(ex.type)
         ? diagnose(api.getAnswer(), expected) : null;

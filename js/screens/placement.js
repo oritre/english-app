@@ -20,7 +20,8 @@ export async function renderPlacement(root, nav) {
   const footer = el('footer', { class: 'lesson-footer' }, checkBtn, dontKnow);
   const quit = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'יציאה', onclick: () => nav('back') }, '✕');
   root.replaceChildren(el('div', { class: 'screen lesson placement' },
-    el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar)),
+    el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar),
+      el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'מסך הבית', onclick: () => nav('back') }, '🏠')),
     el('div', { class: 'test-tag' }, 'מבחן רמה'),
     body, footer));
 

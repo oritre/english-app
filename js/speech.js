@@ -1,4 +1,6 @@
 // Browser text-to-speech for English. No keys, works offline on most devices.
+import { rateFactor } from './settings.js';
+
 let voice = null;
 
 function pickVoice() {
@@ -13,6 +15,11 @@ function pickVoice() {
 if ('speechSynthesis' in window) {
   pickVoice();
   speechSynthesis.addEventListener('voiceschanged', pickVoice);
+}
+
+export function voiceName(lang) {
+  if (!canSpeak()) return null;
+  return voiceFor(lang)?.name || null;
 }
 
 export function canSpeak() {
@@ -42,7 +49,7 @@ export function speakSequence(parts) {
     u.lang = lang;
     const v = voiceFor(lang);
     if (v) u.voice = v;
-    u.rate = 0.9;
+    u.rate = 0.9 * rateFactor();
     speechSynthesis.speak(u);
   }
 }
@@ -54,6 +61,6 @@ export function speak(text, { slow = false, lang = 'en-US' } = {}) {
   u.lang = lang;
   const v = voiceFor(lang);
   if (v) u.voice = v;
-  u.rate = slow ? 0.6 : 0.95;
+  u.rate = (slow ? 0.6 : 0.95) * rateFactor();
   speechSynthesis.speak(u);
 }

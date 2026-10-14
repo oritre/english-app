@@ -1,12 +1,14 @@
 import { el, en } from '../util.js';
 import { speak } from '../speech.js';
 import { checkSpeech } from '../check.js';
+import { getSettings } from '../settings.js';
+import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
 
-const Recognition = typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition);
+export const Recognition = typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition);
 const PAUSE_KEY = 'english_app_speak_paused_until';
 
 export function speakSupported() {
-  if (!Recognition) return false;
+  if (!Recognition || !getSettings().speaking) return false;
   try { return Number(localStorage.getItem(PAUSE_KEY) || 0) < Date.now(); } catch { return true; }
 }
 
@@ -117,46 +119,18 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
 
   // Records 3 seconds without speech recognition: tells a dead mic apart
   // from a phone whose speech service gets no microphone.
-  const meterFill = el('div', { class: 'mic-meter-fill' });
-  const meter = el('div', { class: 'mic-meter', hidden: true }, meterFill);
+  const { meter, show, hide } = micMeter();
   const micTest = el('button', { class: 'link-btn', type: 'button', hidden: true }, 'בדיקת מיקרופון');
   micTest.addEventListener('click', async () => {
     if (rec) rec.abort();
     micTest.disabled = true;
     status.textContent = 'בודק... דברו עכשיו 3 שניות.';
-    let stream = null;
-    let ctx = null;
     try {
-      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      ctx = new (window.AudioContext || window.webkitAudioContext)();
-      const an = ctx.createAnalyser();
-      an.fftSize = 1024;
-      ctx.createMediaStreamSource(stream).connect(an);
-      const buf = new Float32Array(an.fftSize);
-      let peak = 0;
-      meter.hidden = false;
-      const end = Date.now() + 3000;
-      await new Promise((done) => {
-        const tick = () => {
-          an.getFloatTimeDomainData(buf);
-          let sum = 0;
-          for (const v of buf) sum += v * v;
-          const rms = Math.sqrt(sum / buf.length);
-          peak = Math.max(peak, rms);
-          meterFill.style.width = `${Math.min(100, rms * 400)}%`;
-          if (Date.now() < end) requestAnimationFrame(tick); else done();
-        };
-        tick();
-      });
-      status.textContent = peak > 0.02
-        ? 'המיקרופון קולט, אז הבעיה בשירות התמלול של הטלפון. בהגדרות אנדרואיד: אפליקציות > Google > הרשאות > מיקרופון > לאפשר. אחר כך נסו שוב.'
-        : 'המיקרופון לא קלט קול. בדקו שאין אוזניות Bluetooth מחוברות, ושל־Chrome יש הרשאת מיקרופון בהגדרות אנדרואיד.';
+      status.textContent = (await measureMic(3, show)) > HEARD_LEVEL ? MIC_OK_TIP : MIC_SILENT_TIP;
     } catch (err) {
-      status.textContent = `אין גישה למיקרופון (${err?.name || 'שגיאה'}). אשרו ל־Chrome גישה למיקרופון בהגדרות האתר.`;
+      status.textContent = micErrorTip(err);
     } finally {
-      stream?.getTracks().forEach((t) => t.stop());
-      ctx?.close().catch(() => {});
-      meter.hidden = true;
+      hide();
       micTest.disabled = false;
     }
   });
