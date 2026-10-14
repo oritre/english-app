@@ -367,3 +367,4 @@ body.has-tabs #app { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px
 .seg { display: flex; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; flex-shrink: 0; }
 .seg-btn { border: none; background: none; font: inherit; font-size: 14px; padding: 6px 12px; color: var(--muted); cursor: pointer; }
 .seg-btn[aria-pressed="true"] { background: var(--ink); color: #fff; }
+.app-version { text-align: center; color: var(--muted); font-size: 13px; margin-top: 16px; }

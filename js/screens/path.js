@@ -2,6 +2,7 @@ import { el, en } from '../util.js';
 import { loadCourse, lessonStates } from '../course.js';
 import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile } from '../progress.js';
 import { TIERS } from '../league.js';
+import { APP_VERSION } from '../version.js';
 
 export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
@@ -57,7 +58,8 @@ export async function renderPath(root, nav) {
   // Logging out clears the current learner, so the next open lands on the learner picker.
   const logout = el('button', { class: 'retest', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } },
     '🚪 התנתקות (מעבר ללומד אחר)');
-  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), units, test, logout));
+  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), units, test, logout,
+    el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`)));
   const current = root.querySelector('.node.current');
   if (current) current.scrollIntoView({ block: 'center' });
 }

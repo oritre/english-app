@@ -1,3 +1,4 @@
+import { APP_VERSION } from '../version.js';
 import { el } from '../util.js';
 import { listProfiles, setCurrentProfile } from '../progress.js';
 
@@ -21,7 +22,8 @@ export async function renderProfiles(root, nav) {
       el('button', { class: 'profile-card add', type: 'button', onclick: () => nav('profileCreate') },
         el('span', { class: 'avatar' }, '+'), el('span', { class: 'profile-name' }, 'לומד חדש'))),
     el('button', { class: 'retest', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות'),
-    el('button', { class: 'retest', type: 'button', onclick: () => nav('sync') }, '🔄 סנכרון בין מכשירים')));
+    el('button', { class: 'retest', type: 'button', onclick: () => nav('sync') }, '🔄 סנכרון בין מכשירים'),
+    el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`)));
 }
 
 export function renderProfileCreate(root, nav, { first } = {}) {

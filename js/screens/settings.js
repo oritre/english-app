@@ -4,8 +4,8 @@ import { getSettings, setSetting } from '../settings.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
 import { Recognition } from '../exercises/speak.js';
 import { getProfile, setCurrentProfile } from '../progress.js';
+import { APP_VERSION } from '../version.js';
 
-export const APP_VERSION = '15';
 
 function section(title, ...children) {
   return el('section', { class: 'settings-card' }, el('h2', {}, title), ...children);
