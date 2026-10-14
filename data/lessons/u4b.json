@@ -87,5 +87,10 @@
    "explain_he": "בטקסט כתוב: At night we were very tired.",
    "id": "u4be7"
   }
- ]
+ ],
+ "new_words": {
+  "dinner": "ארוחת ערב",
+  "sleep": "לישון",
+  "very": "מאוד"
+ }
 }

@@ -87,5 +87,21 @@
    "explain_he": "בטקסט כתוב: He eats breakfast with his mother.",
    "id": "u3be7"
   }
- ]
+ ],
+ "new_words": {
+  "after": "אחרי",
+  "eats": "אוכל / אוכלת",
+  "false": "לא נכון",
+  "goes": "הולך / הולכת",
+  "his": "שלו",
+  "or": "או",
+  "plays": "משחק / משחקת",
+  "so": "אז / לכן",
+  "swims": "שוחה",
+  "true": "נכון",
+  "wakes": "מתעורר / מתעוררת",
+  "wearing": "לובש",
+  "when": "מתי / כאשר",
+  "with": "עם"
+ }
 }

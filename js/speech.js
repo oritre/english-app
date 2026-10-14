@@ -33,6 +33,20 @@ export function canSpeakLang(lang) {
   return !!voiceFor(lang);
 }
 
+// Speaks several utterances one after another (e.g. a word in English, then in Hebrew).
+export function speakSequence(parts) {
+  if (!canSpeak()) return;
+  speechSynthesis.cancel();
+  for (const { text, lang = 'en-US' } of parts) {
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = lang;
+    const v = voiceFor(lang);
+    if (v) u.voice = v;
+    u.rate = 0.9;
+    speechSynthesis.speak(u);
+  }
+}
+
 export function speak(text, { slow = false, lang = 'en-US' } = {}) {
   if (!canSpeak()) return;
   speechSynthesis.cancel();

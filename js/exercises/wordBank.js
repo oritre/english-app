@@ -3,7 +3,7 @@ import { speak } from '../speech.js';
 
 // Translate a sentence by tapping word tiles. Works both ways:
 // translate_he_en (Hebrew prompt, English tiles) and translate_en_he.
-export function renderWordBank(root, ex, { setReady }) {
+export function renderWordBank(root, ex, { setReady, gloss = (t) => [t] }) {
   const toEnglish = ex.type === 'translate_he_en';
   const answerDir = toEnglish ? 'ltr' : 'rtl';
   const chosen = [];
@@ -12,7 +12,7 @@ export function renderWordBank(root, ex, { setReady }) {
     ? el('div', { class: 'prompt-bubble' }, ex.prompt)
     : el('div', { class: 'prompt-bubble' },
         el('button', { class: 'speaker', type: 'button', 'aria-label': 'השמע', onclick: () => speak(ex.prompt) }, '🔊'),
-        en(ex.prompt));
+        el('span', { dir: 'ltr', lang: 'en', class: 'en' }, ...gloss(ex.prompt)));
   if (!toEnglish) setTimeout(() => speak(ex.prompt), 250);
 
   const line = el('div', { class: 'answer-line', dir: answerDir });

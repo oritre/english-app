@@ -241,5 +241,17 @@
    "alternatives": [],
    "id": "u3l3e16"
   }
- ]
+ ],
+ "new_words": {
+  "days": "ימים",
+  "football": "כדורגל",
+  "friday": "יום שישי",
+  "monday": "יום שני",
+  "on": "על / ב־ (on Monday = ביום שני)",
+  "sunday": "יום ראשון",
+  "there": "שם (there is = יש)",
+  "today": "היום",
+  "tomorrow": "מחר",
+  "wednesday": "יום רביעי"
+ }
 }

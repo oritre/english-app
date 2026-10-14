@@ -230,5 +230,16 @@
    "alternatives": [],
    "id": "u3l1e16"
   }
- ]
+ ],
+ "new_words": {
+  "breakfast": "ארוחת בוקר",
+  "day": "יום",
+  "every": "כל",
+  "go": "ללכת / הולך",
+  "good": "טוב",
+  "mom": "אמא",
+  "morning": "בוקר",
+  "night": "לילה",
+  "up": "למעלה (wake up = להתעורר)"
+ }
 }

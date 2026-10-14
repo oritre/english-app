@@ -1,11 +1,11 @@
 import { el, en, shuffle } from '../util.js';
 import { speak } from '../speech.js';
 
-export function renderFillBlank(root, ex, { setReady }) {
+export function renderFillBlank(root, ex, { setReady, gloss = (t) => [t] }) {
   let picked = null;
   const [before, after] = ex.sentence.split('___');
   const gap = el('span', { class: 'gap' }, '    ');
-  const sentence = el('div', { class: 'prompt-bubble', dir: 'ltr', lang: 'en' }, before, gap, after);
+  const sentence = el('div', { class: 'prompt-bubble', dir: 'ltr', lang: 'en' }, ...gloss(before), gap, ...gloss(after));
   const options = shuffle(ex.options).map((opt) => {
     const b = el('button', { class: 'tile', type: 'button', dir: 'ltr' }, opt);
     b.addEventListener('click', () => {

@@ -214,5 +214,13 @@
    "alternatives": [],
    "id": "u1l1e15"
   }
- ]
+ ],
+ "new_words": {
+  "goodbye": "להתראות",
+  "hello": "שלום",
+  "please": "בבקשה",
+  "thank": "תודה (thank you)",
+  "yes": "כן",
+  "you": "אתה / את"
+ }
 }

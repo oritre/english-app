@@ -325,3 +325,11 @@ button:focus-visible, textarea:focus-visible { outline: 3px solid var(--sun); ou
 .read-option[dir="ltr"] { text-align: left; }
 .read-option[dir="rtl"] { text-align: right; }
 .read-option.selected { border-color: var(--ink); color: var(--ink); box-shadow: 0 3px 0 var(--ink); }
+
+/* New-word glosses */
+.gloss { font: inherit; color: inherit; background: none; border: none; padding: 0; margin: 0; cursor: pointer;
+  text-decoration: underline dotted var(--ink); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.gloss:hover, .gloss:focus-visible { background: color-mix(in srgb, var(--ink) 12%, transparent); border-radius: 4px; }
+.gloss-pop { position: absolute; z-index: 50; max-width: min(320px, calc(100vw - 16px)); background: var(--fg); color: var(--bg);
+  padding: 8px 12px; border-radius: 12px; font-size: 16px; box-shadow: 0 6px 18px rgb(0 0 0 / .25); }
+.gloss-pop .gloss-en { font-weight: 700; }

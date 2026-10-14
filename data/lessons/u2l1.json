@@ -247,5 +247,12 @@
    ],
    "id": "u2l1e16"
   }
- ]
+ ],
+ "new_words": {
+  "brother": "אח",
+  "family": "משפחה",
+  "father": "אבא",
+  "mother": "אמא",
+  "sister": "אחות"
+ }
 }

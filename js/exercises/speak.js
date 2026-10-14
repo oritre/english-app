@@ -16,12 +16,12 @@ function pauseSpeaking(minutes) {
 
 // Read an English sentence aloud. The browser transcribes it, and each word
 // lights up green or red. Passing needs every word.
-export function renderSpeak(root, ex, { setReady, finish, skip }) {
+export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [t] }) {
   let result = null;
   let rec = null;
   let tries = 0;
   const words = el('div', { class: 'speak-words', dir: 'ltr', lang: 'en' },
-    ex.text.split(' ').map((w) => el('span', { class: 'sw' }, w)));
+    ex.text.split(' ').map((w) => el('span', { class: 'sw' }, ...gloss(w))));
   const heard = el('p', { class: 'heard', dir: 'ltr', hidden: true });
   const status = el('p', { class: 'hint speak-status' }, 'לחצו על המיקרופון וקראו את המשפט בקול');
   const mic = el('button', { class: 'mic', type: 'button', 'aria-label': 'הקלטה' }, '🎤');
@@ -40,6 +40,7 @@ export function renderSpeak(root, ex, { setReady, finish, skip }) {
     rec.interimResults = true;
     rec.maxAlternatives = 3;
     let finalAlts = [];
+    let lastAlts = [];
     mic.classList.add('on');
     status.textContent = 'מקשיב...';
     rec.onresult = (e) => {
@@ -47,6 +48,7 @@ export function renderSpeak(root, ex, { setReady, finish, skip }) {
       const alts = Array.from(res, (a) => a.transcript);
       heard.hidden = false;
       heard.textContent = `שמעתי: "${alts[0]}"`;
+      lastAlts = alts;
       if (res.isFinal) finalAlts = alts;
     };
     rec.onerror = (e) => {
@@ -55,14 +57,26 @@ export function renderSpeak(root, ex, { setReady, finish, skip }) {
         skipBtn.textContent = 'דילוג על תרגילי דיבור';
       } else if (e.error === 'no-speech') {
         status.textContent = 'לא שמעתי כלום. נסו שוב, קרוב יותר למיקרופון.';
-      } else {
-        status.textContent = 'ההקלטה נכשלה. נסו שוב.';
+      } else if (e.error === 'network') {
+        status.textContent = navigator.brave
+          ? 'דפדפן Brave לא מתמלל דיבור. פתחו את האפליקציה ב־Chrome או ב־Edge כדי לתרגל דיבור.'
+          : 'התמלול צריך חיבור לאינטרנט, ובחלק מהדפדפנים הוא לא זמין. בדקו את החיבור, או נסו ב־Chrome או ב־Edge.';
+        skipBtn.textContent = 'דילוג על תרגילי דיבור';
+      } else if (e.error === 'language-not-supported') {
+        status.textContent = 'הדפדפן הזה לא מתמלל אנגלית. נסו ב־Chrome או ב־Edge.';
+      } else if (e.error !== 'aborted') {
+        status.textContent = `ההקלטה נכשלה (${e.error || 'שגיאה לא ידועה'}). נסו שוב.`;
       }
     };
     rec.onend = () => {
       mic.classList.remove('on');
       rec = null;
-      if (!finalAlts.length) return;
+      // Stopped before the browser finalised: judge what it heard so far.
+      if (!finalAlts.length) finalAlts = lastAlts;
+      if (!finalAlts.length) {
+        if (status.textContent === 'מקשיב...') status.textContent = 'לא שמעתי משפט. לחצו שוב על המיקרופון ודברו.';
+        return;
+      }
       tries++;
       result = checkSpeech(finalAlts, ex.text, ex.alternatives || []);
       paint(result);

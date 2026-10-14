@@ -3,6 +3,7 @@ import { loadLesson } from '../course.js';
 import { rendererFor, isSupported } from '../exercises/index.js';
 import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
+import { glossify, closePop } from '../gloss.js';
 import { speak } from '../speech.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt } from '../progress.js';
@@ -41,7 +42,12 @@ export async function renderLesson(root, nav, { lessonId }) {
   function next() {
     setProgress();
     footer.className = 'lesson-footer';
-    if (queue.length === 0) return finishLesson();
+    if (queue.length === 0) {
+      // Clear the last exercise while the result saves, so nothing can be tapped twice.
+      body.replaceChildren();
+      footer.replaceChildren();
+      return finishLesson();
+    }
     const ex = queue.shift();
     body.replaceChildren();
     checkBtn.textContent = 'בדיקה';
@@ -50,7 +56,9 @@ export async function renderLesson(root, nav, { lessonId }) {
     const shownAt = Date.now();
     const log = (outcome) => logAttempt({ lessonId, exercise: ex, outcome, ms: Date.now() - shownAt });
 
+    closePop();
     const api = rendererFor(ex)(body, ex, {
+      gloss: (text) => glossify(text, lesson.new_words),
       setReady: (ok) => { checkBtn.disabled = !ok; },
       finish: (clean) => {
         handled = true;

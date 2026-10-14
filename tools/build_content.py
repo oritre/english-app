@@ -5,6 +5,7 @@ one screen. Run: python3 tools/build_content.py
 """
 import json
 import os
+import re
 
 ROOT = os.path.join(os.path.dirname(__file__), '..', 'data')
 
@@ -531,9 +532,93 @@ def reading_lesson(passage, questions, speak_line):
     return exercises
 
 
+# Hebrew glosses for English words that first show up in a sentence or passage
+# rather than in a vocabulary exercise. Vocabulary exercises (match pairs and
+# "what is X?") supply the rest automatically.
+GLOSS = {
+    'please': 'בבקשה', 'thank': 'תודה (thank you)', 'am': 'אני... (עם I)', 'is': 'הוא / היא / זה (פועל עזר)',
+    'a': 'מילה לפני שם עצם אחד (כלב = a dog)', 'and': 'ו־ / וגם', 'the': 'ה׳ הידיעה', 'this': 'זה / זאת',
+    'an': 'כמו a, לפני תנועה (an apple)', 'drink': 'לשתות / שותה', 'eat': 'לאכול / אוכל', 'family': 'משפחה',
+    'two': 'שתיים / שניים', 'three': 'שלוש / שלושה', 'seven': 'שבע / שבעה', 'ten': 'עשר / עשרה',
+    'dogs': 'כלבים', 'sisters': 'אחיות', 'cats': 'חתולים', 'has': 'יש לו / יש לה', 'at': 'ב־ (at home = בבית)',
+    'books': 'ספרים', 'likes': 'אוהב / אוהבת', 'to': 'אל / ל־', 'does': 'עושה (גם פועל עזר בשאלות)', 'hi': 'היי',
+    'reads': 'קורא / קוראת', 'day': 'יום', 'every': 'כל', 'go': 'ללכת / הולך', 'good': 'טוב', 'mom': 'אמא',
+    'up': 'למעלה (wake up = להתעורר)', 'are': 'הם / אתה / אנחנו (פועל עזר)', 'happy': 'שמח', 'your': 'שלך',
+    'days': 'ימים', 'football': 'כדורגל', 'on': 'על / ב־ (on Monday = ביום שני)', 'there': 'שם (there is = יש)',
+    'it': 'זה / זו', 'need': 'צריך', 'new': 'חדש', 'fast': 'מהר', 'learning': 'לומד', 'me': 'אותי / לי',
+    'after': 'אחרי', 'eats': 'אוכל / אוכלת', 'false': 'לא נכון', 'goes': 'הולך / הולכת', 'his': 'שלו', 'or': 'או',
+    'plays': 'משחק / משחקת', 'so': 'אז / לכן', 'swims': 'שוחה', 'true': 'נכון', 'wakes': 'מתעורר / מתעוררת',
+    'wearing': 'לובש', 'when': 'מתי / כאשר', 'with': 'עם', 'last': 'אחרון / שעבר (last week)', 'weather': 'מזג אוויר',
+    'work': 'עבודה / לעבוד', 'movie': 'סרט', 'room': 'חדר', 'tv': 'טלוויזיה', 'beach': 'חוף ים', 'friend': 'חבר / חברה',
+    'pizza': 'פיצה', 'did': 'עשה (פועל עזר בעבר)', "didn't": 'לא (בעבר)', 'fun': 'כיף', 'watch': 'לצפות',
+    'grandma': 'סבתא', 'him': 'אותו', 'sick': 'חולה', 'visited': 'ביקרנו / ביקר', 'years': 'שנים', 'dinner': 'ארוחת ערב',
+    'sleep': 'לישון', 'very': 'מאוד', 'here': 'כאן / פה', 'next': 'הבא / ליד (next to)', 'parks': 'פארקים',
+    'restaurants': 'מסעדות', 'town': 'עיירה / עיר', 'door': 'דלת', 'turn': 'לפנות', 'much': 'הרבה (how much = כמה)',
+    'shekels': 'שקלים', 'bike': 'אופניים', 'car': 'מכונית', 'more': 'יותר', 'taller': 'גבוה יותר', 'going': 'הולך (going to = עתיד)',
+    'cheaper': 'זול יותר', 'her': 'שלה / אותה', 'lives': 'גר / גרה', 'many': 'הרבה', 'shops': 'חנויות', 'that': 'ש־ / ההוא',
+}
+NAMES = {'dana', 'noa', 'ori', 'tom', 'danny', 'maya', "maya's", 'london'}
+WORD = re.compile(r"[A-Za-z]+(?:'[a-z]+)?")
+
+
+def visible_english(ex):
+    """English text the learner reads in an exercise (not answer tiles or choices)."""
+    t = ex['type']
+    if t == 'translate_en_he':
+        return [ex['prompt']]
+    if t == 'fill_blank':
+        return [ex['sentence'].replace('___', ' ')]
+    if t == 'speak':
+        return [ex['text']]
+    if t == 'read':
+        return [ex['passage']] + ([] if re.search('[֐-׿]', ex['question']) else [ex['question']])
+    return []
+
+
+def taught_words(ex):
+    if ex['type'] == 'match_pairs':
+        return [p[0] for p in ex['pairs']]
+    if ex['type'] == 'choose':
+        return [ex['answer']]
+    return []
+
+
+def auto_glosses(lessons):
+    out = {}
+    for lesson in lessons:
+        for ex in lesson['exercises']:
+            if ex['type'] == 'match_pairs':
+                for en, he in ex['pairs']:
+                    if ' ' not in en and not he.isdigit():
+                        out.setdefault(en.lower(), he)
+            elif ex['type'] == 'choose' and ex['prompt_he'].startswith('מה זה'):
+                m = re.search(r'"(.+?)"', ex['prompt_he'])
+                if m and ' ' not in ex['answer']:
+                    out.setdefault(ex['answer'].lower(), m.group(1))
+    return out
+
+
+def add_new_words(lessons):
+    """Marks, per lesson in course order, the English words the learner meets
+    for the first time in a sentence, with their Hebrew meaning."""
+    glosses = auto_glosses(lessons) | GLOSS
+    seen = set()
+    for lesson in lessons:
+        shown, taught = set(), set()
+        for ex in lesson['exercises']:
+            shown |= {w.lower() for s in visible_english(ex) for w in WORD.findall(s)}
+            taught |= {w.lower() for s in taught_words(ex) for w in WORD.findall(s)}
+        new = sorted(shown - seen - NAMES)
+        missing = [w for w in new if w not in glosses]
+        assert not missing, f"{lesson['id']}: add a Hebrew gloss for {missing}"
+        lesson['new_words'] = {w: glosses[w] for w in new}
+        seen |= shown | taught
+
+
 def main():
     os.makedirs(os.path.join(ROOT, 'lessons'), exist_ok=True)
     course = {'units': [], 'lesson_titles': {}}
+    lessons_out = []
     for unit_index, unit in enumerate(UNITS):
         lesson_ids = []
         for lesson_id, title_he, exercises in unit['lessons']:
@@ -549,8 +634,7 @@ def main():
             for i, ex in enumerate(exercises):
                 ex['id'] = f'{lesson_id}e{i + 1}'
             lesson = {'id': lesson_id, 'unit_id': unit['id'], 'title_he': title_he, 'exercises': exercises}
-            with open(os.path.join(ROOT, 'lessons', f'{lesson_id}.json'), 'w', encoding='utf-8') as f:
-                json.dump(lesson, f, ensure_ascii=False, indent=1)
+            lessons_out.append(lesson)
         entry = {k: unit[k] for k in ('id', 'cefr', 'title_he', 'title_en')} | {'lessons': lesson_ids}
         if unit['id'] in READINGS:
             bonus_id, title_he, passage, questions, speak_line = READINGS[unit['id']]
@@ -558,11 +642,14 @@ def main():
             for i, ex in enumerate(exercises):
                 ex['id'] = f'{bonus_id}e{i + 1}'
             lesson = {'id': bonus_id, 'unit_id': unit['id'], 'title_he': title_he, 'bonus': True, 'exercises': exercises}
-            with open(os.path.join(ROOT, 'lessons', f'{bonus_id}.json'), 'w', encoding='utf-8') as f:
-                json.dump(lesson, f, ensure_ascii=False, indent=1)
+            lessons_out.append(lesson)
             course['lesson_titles'][bonus_id] = title_he
             entry['bonus'] = bonus_id
         course['units'].append(entry)
+    add_new_words(lessons_out)
+    for lesson in lessons_out:
+        with open(os.path.join(ROOT, 'lessons', f"{lesson['id']}.json"), 'w', encoding='utf-8') as f:
+            json.dump(lesson, f, ensure_ascii=False, indent=1)
     with open(os.path.join(ROOT, 'course.json'), 'w', encoding='utf-8') as f:
         json.dump(course, f, ensure_ascii=False, indent=1)
     total = sum(len(with_audio(l[2])) for u in UNITS for l in u['lessons'])
