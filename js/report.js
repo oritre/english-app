@@ -92,7 +92,7 @@ const TIPS = {
 };
 
 // Rule-based suggestions, most useful first. Each has a tone: good, info or warn.
-export function suggestions(sum, skills, titles = {}) {
+export function suggestions(sum, skills, titles = {}, extra = {}) {
   const out = [];
   if (sum.sessions === 0) return [{ tone: 'info', text: 'עוד אין שיעורים. אחרי שיעור או שניים יופיעו כאן נתונים והמלצות.' }];
 
@@ -113,8 +113,88 @@ export function suggestions(sum, skills, titles = {}) {
 
   if (sum.accuracy >= 0.92 && sum.sessions >= 3 && sum.avgLessonMin < 5) out.push({ tone: 'info', text: 'הצלחה מהירה ובדיוק גבוה. כדאי לנסות שוב את מבחן הרמה ולקפוץ קדימה.' });
   if (sum.weakLessons.length) out.push({ tone: 'info', text: `כדאי לחזור על: ${sum.weakLessons.slice(0, 3).map((id) => `"${titles[id] || id}"`).join(', ')}. הדיוק הכי טוב שם עדיין מתחת ל־70%.` });
+  const stages = (extra.stages || []).filter((x) => x.enough);
+  const start = stages.find((x) => x.id === 'start');
+  const end = stages.find((x) => x.id === 'end');
+  if (start && end && start.accuracy - end.accuracy >= 0.15) out.push({ tone: 'warn', text: `בסוף השיעור הדיוק יורד (${pct(start.accuracy)} בהתחלה, ${pct(end.accuracy)} בסוף). אולי הריכוז נגמר: כדאי שיעור אחד בכל פעם, עם הפסקה.` });
+  const parts = (extra.parts || []).filter((x) => x.enough).sort((a, b) => b.accuracy - a.accuracy);
+  if (parts.length >= 2 && parts[0].accuracy - parts[parts.length - 1].accuracy >= 0.15) out.push({ tone: 'info', text: `הכי טוב ב${parts[0].name} (${pct(parts[0].accuracy)}), הכי חלש ב${parts[parts.length - 1].name} (${pct(parts[parts.length - 1].accuracy)}).` });
+  const top = (extra.confusions || []).find((c) => c.kind !== 'hesitate' && c.count >= 2);
+  if (top) out.push({ tone: 'info', text: `בלבול שחוזר: "${top.expected}" ו־"${top.given}" (${top.count} פעמים). כדאי לעבור עליהם יחד ולהשוות.` });
   if (!out.length) out.push({ tone: 'good', text: 'התקדמות יפה ומאוזנת. להמשיך ככה!' });
   return out;
+}
+
+// What the learner mixes up. Three sources: a wrong final answer (expected vs
+// given), a wrong pair tapped in matching, and hesitations: another card tapped
+// before settling on the right one.
+const CHOICE_TYPES = new Set(['choose', 'pick', 'read', 'fill_blank']);
+const short = (x) => String(x ?? '').trim();
+
+export function confusions(attempts, limit = 8) {
+  const rows = new Map();
+  const add = (kind, expected, given) => {
+    if (!expected || !given || expected === given) return;
+    const key = `${kind}|${expected}|${given}`;
+    const r = rows.get(key) || { kind, expected, given, count: 0 };
+    r.count++;
+    rows.set(key, r);
+  };
+  for (const a of attempts) {
+    if (a.outcome === 'wrong' && a.given != null && a.expected != null) add('wrong', short(a.expected), short(a.given));
+    for (const t of a.taps || []) if (t.k === 'mismatch') { const [en, he] = t.v.split('|'); add('match', en, he); }
+    if (CHOICE_TYPES.has(a.type) && a.outcome === 'correct') {
+      const chosen = (a.taps || []).filter((t) => t.k === 'choice').map((t) => t.v);
+      const final = chosen[chosen.length - 1];
+      for (const v of new Set(chosen.slice(0, -1))) if (v !== final) add('hesitate', final, v);
+    }
+  }
+  const weight = { wrong: 3, match: 2, hesitate: 1 };
+  return [...rows.values()].sort((x, y) => y.count * weight[y.kind] - x.count * weight[x.kind]).slice(0, limit);
+}
+
+export const DAY_PARTS = [
+  { id: 'morning', name: 'בוקר', from: 5, to: 12 },
+  { id: 'noon', name: 'צהריים', from: 12, to: 16 },
+  { id: 'afternoon', name: 'אחר הצהריים', from: 16, to: 19 },
+  { id: 'evening', name: 'ערב', from: 19, to: 22 },
+  { id: 'night', name: 'לילה', from: 22, to: 29 },
+];
+const hourOf = (a) => a.hour ?? new Date(a.at).getHours();
+
+function bucketStats(rows) {
+  const done = rows.filter(answered);
+  return { count: done.length, accuracy: done.length ? done.filter(isRight).length / done.length : null, enough: done.length >= MIN_FOR_VERDICT };
+}
+
+export function byDayPart(attempts) {
+  return DAY_PARTS.map((p) => ({ ...p, ...bucketStats(attempts.filter((a) => { const h = hourOf(a) < 5 ? hourOf(a) + 24 : hourOf(a); return h >= p.from && h < p.to; })) }));
+}
+
+// Early vs late in a lesson: a big drop late suggests lessons are too long or attention runs out.
+export function byLessonStage(attempts) {
+  const withPos = attempts.filter((a) => a.pos != null && a.source !== 'placement');
+  return [
+    { id: 'start', name: 'תחילת שיעור (שאלות 1–5)', ...bucketStats(withPos.filter((a) => a.pos <= 5)) },
+    { id: 'middle', name: 'אמצע (6–10)', ...bucketStats(withPos.filter((a) => a.pos > 5 && a.pos <= 10)) },
+    { id: 'end', name: 'סוף (11 והלאה)', ...bucketStats(withPos.filter((a) => a.pos > 10)) },
+  ];
+}
+
+// Habits: replays per listening exercise, meanings looked up, cards tried per choice question.
+export function habits(attempts) {
+  const listen = attempts.filter((a) => ['listen_type', 'listen_translate', 'pick', 'spell'].includes(a.type) && a.taps);
+  const plays = listen.reduce((s, a) => s + a.taps.filter((t) => t.k === 'play' || t.k === 'slow').length, 0);
+  const slow = listen.reduce((s, a) => s + a.taps.filter((t) => t.k === 'slow').length, 0);
+  const choice = attempts.filter((a) => CHOICE_TYPES.has(a.type) && a.taps);
+  const tries = choice.reduce((s, a) => s + a.taps.filter((t) => t.k === 'choice').length, 0);
+  const glossWords = {};
+  for (const a of attempts) for (const t of a.taps || []) if (t.k === 'gloss') glossWords[t.v] = (glossWords[t.v] || 0) + 1;
+  return {
+    replaysPerListen: listen.length ? plays / listen.length : null, slowShare: plays ? slow / plays : null,
+    cardsPerChoice: choice.length ? tries / choice.length : null,
+    lookedUp: Object.entries(glossWords).sort((a, b) => b[1] - a[1]).slice(0, 8),
+  };
 }
 
 export const pct = (x) => (x == null ? '—' : `${Math.round(x * 100)}%`);

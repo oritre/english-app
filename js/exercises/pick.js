@@ -14,7 +14,7 @@ export function renderPick(root, ex, { setReady }) {
   };
   const letters = ex.options.every((o) => !o.emoji);
   const cards = shuffle(ex.options).map((o) => {
-    const card = el('button', { class: `choice-card pick-card ${letters ? 'letter' : ''}`, type: 'button', dir: 'ltr' },
+    const card = el('button', { class: `choice-card pick-card ${letters ? 'letter' : ''}`, type: 'button', dir: 'ltr', 'data-value': o.value },
       o.emoji ? el('span', { class: 'emoji' }, o.emoji) : null,
       o.label ? el('span', { class: letters ? 'pick-letter' : 'en' }, o.label) : null);
     card.addEventListener('click', () => {

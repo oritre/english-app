@@ -39,6 +39,22 @@ export async function renderLesson(root, nav, { lessonId }) {
     el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar), homeBtn),
     body, footer, quitDialog));
 
+  // Every tap inside an exercise is kept with its answer: which cards were
+  // tried before the final one, audio replays, meanings looked up. The report
+  // turns this into confusions and hesitations.
+  let shownCount = 0;
+  let taps = [];
+  let tapStart = Date.now();
+  const record = (k, v) => { if (taps.length < 40) taps.push({ k, v: String(v ?? '').slice(0, 60), t: Date.now() - tapStart }); };
+  const TAP_KINDS = [['.speaker.slow', 'slow'], ['.speaker', 'play'], ['.gloss', 'gloss'], ['.mic', 'mic'],
+    ['.spell-slot', 'unplace'], ['.spell-tile', 'letter'], ['.choice-card, .read-option', 'choice'], ['.tile', 'tile']];
+  body.addEventListener('click', (e) => {
+    const btn = e.target.closest('button');
+    if (!btn || !body.contains(btn)) return;
+    const kind = TAP_KINDS.find(([sel]) => btn.matches(sel));
+    if (kind) record(kind[1], btn.dataset.value ?? btn.textContent.trim());
+  }, true);
+
   const setProgress = () => { bar.style.width = `${Math.round((solved / total) * 100)}%`; };
 
   function next() {
@@ -56,11 +72,19 @@ export async function renderLesson(root, nav, { lessonId }) {
     checkBtn.disabled = true;
     let handled = false;
     const shownAt = Date.now();
-    const log = (outcome) => logAttempt({ lessonId, exercise: ex, outcome, ms: Date.now() - shownAt });
+    shownCount++;
+    taps = [];
+    tapStart = shownAt;
+    const log = (outcome, given) => logAttempt({
+      lessonId, exercise: ex, outcome, ms: Date.now() - shownAt,
+      given: given == null ? null : String(given), expected: ex.answer ?? null,
+      taps: taps.slice(), pos: shownCount, lessonSec: Math.round((shownAt - started) / 1000),
+    });
 
     closePop();
     const api = rendererFor(ex)(body, ex, {
       gloss: (text) => glossify(text, lesson.new_words),
+      track: (k, v) => record(k, v),
       setReady: (ok) => { checkBtn.disabled = !ok; },
       finish: (clean) => {
         handled = true;
@@ -90,8 +114,9 @@ export async function renderLesson(root, nav, { lessonId }) {
       if (handled) return;
       if (api.selfChecking) return;
       handled = true;
-      const { result, expected } = checkAnswer(api.getAnswer(), ex.answer, ex.alternatives || [], { allowTypos: !!api.allowTypos });
-      log(result === 'wrong' ? 'wrong' : result === 'typo' ? 'typo' : 'correct');
+      const given = api.getAnswer();
+      const { result, expected } = checkAnswer(given, ex.answer, ex.alternatives || [], { allowTypos: !!api.allowTypos });
+      log(result === 'wrong' ? 'wrong' : result === 'typo' ? 'typo' : 'correct', given);
       if (result === 'wrong') {
         mistakes.add(ex.id);
         queue.push(ex);

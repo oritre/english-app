@@ -404,3 +404,21 @@ body.has-tabs #app { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px
 .starter-fold { margin-top: 24px; border: 2px dashed var(--line); border-radius: var(--radius); padding: 12px; }
 .starter-fold summary { cursor: pointer; font-weight: 700; color: var(--muted); padding: 4px; }
 .starter-fold[open] summary { margin-bottom: 12px; }
+
+/* Report: confusions, buckets, habits */
+.card h3 { font-size: 15px; margin: 4px 0 0; color: var(--muted); }
+.confusions { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px; }
+.confusion { display: flex; flex-direction: column; gap: 2px; padding: 8px 10px; border-radius: 10px; background: var(--bg); border-inline-start: 4px solid var(--line); }
+.confusion.wrong { border-color: var(--bad); }
+.confusion.match { border-color: var(--sun); }
+.confusion.hesitate { border-color: var(--muted); }
+.conf-pair { font-weight: 700; }
+.buckets { display: flex; flex-direction: column; gap: 6px; }
+.bucket { display: grid; grid-template-columns: minmax(110px, 1.3fr) 2fr auto; align-items: center; gap: 8px; font-size: 14px; }
+.bucket-bar { height: 8px; border-radius: 4px; background: var(--line); overflow: hidden; }
+.bucket-bar > span { display: block; height: 100%; background: var(--ink); }
+.bucket.good .bucket-bar > span { background: var(--good); }
+.bucket.weak .bucket-bar > span { background: var(--bad); }
+.bucket.none .bucket-bar > span { background: var(--muted); }
+.bucket-val { color: var(--muted); font-variant-numeric: tabular-nums; }
+.habits { margin: 0; padding-inline-start: 20px; display: flex; flex-direction: column; gap: 4px; }

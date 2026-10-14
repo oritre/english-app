@@ -1,7 +1,7 @@
 import { el, en } from '../util.js';
 import { listProfiles, reportData } from '../progress.js';
 import { loadCourse, loadLesson } from '../course.js';
-import { skillStats, summarize, suggestions, minutesByDay, hardestItems, pct } from '../report.js';
+import { skillStats, summarize, suggestions, minutesByDay, hardestItems, pct, confusions, byDayPart, byLessonStage, habits } from '../report.js';
 import { computeStreak } from '../streak.js';
 import { localISO } from '../dates.js';
 import { TIERS } from '../league.js';
@@ -63,6 +63,32 @@ function activityChart(days) {
   return g;
 }
 
+const KIND_LABEL = { wrong: 'ענה את השני במקום הנכון', match: 'חיבר ביניהם בתרגיל התאמה', hesitate: 'לחץ קודם על השני, ובסוף בחר נכון' };
+
+function confusionList(rows) {
+  if (!rows.length) return el('p', { class: 'muted' }, 'עוד אין מספיק נתונים. הבלבולים יופיעו כאן אחרי כמה שיעורים.');
+  return el('ul', { class: 'confusions' }, rows.map((r) => el('li', { class: `confusion ${r.kind}` },
+    el('span', { class: 'conf-pair' }, 'נכון: ', el('bdi', {}, r.expected), ' · בלבול עם: ', el('bdi', {}, r.given)),
+    el('span', { class: 'muted small-l' }, `${KIND_LABEL[r.kind]} · ${r.count} ${r.count === 1 ? 'פעם' : 'פעמים'}`))));
+}
+
+function bucketTable(rows) {
+  return el('div', { class: 'buckets' }, rows.filter((r) => r.count).map((r) => el('div', { class: `bucket ${!r.enough ? 'none' : r.accuracy >= 0.9 ? 'good' : r.accuracy < 0.75 ? 'weak' : 'ok'}` },
+    el('span', {}, r.name), el('span', { class: 'bucket-bar' }, el('span', { style: `width:${Math.round((r.accuracy || 0) * 100)}%` })),
+    el('span', { class: 'bucket-val' }, `${pct(r.accuracy)} · ${r.count}`))));
+}
+
+// The full answer log as a spreadsheet (CSV opens in Excel and Google Sheets).
+function logCsv(attempts, titles) {
+  const q = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
+  const head = ['תאריך', 'שעה', 'שיעור', 'תרגיל', 'סוג', 'תוצאה', 'תשובה שניתנה', 'תשובה נכונה', 'שניות', 'מיקום בשיעור', 'לחיצות'];
+  const rows = [...attempts].sort((a, b) => a.at - b.at).map((a) => [
+    a.date, new Date(a.at).toTimeString().slice(0, 5), titles[a.lesson_id] || a.lesson_id, a.exercise_id, a.type, a.outcome,
+    a.given, a.expected, Math.round(a.ms / 100) / 10, a.pos,
+    (a.taps || []).map((t) => `${t.k}:${t.v}@${Math.round(t.t / 100) / 10}s`).join(' | ')]);
+  return '\ufeff' + [head, ...rows].map((r) => r.map(q).join(',')).join('\n');
+}
+
 function exerciseText(ex) {
   if (!ex) return '';
   if (ex.type === 'match_pairs') return ex.pairs.map((p) => p[0]).join(', ');
@@ -76,7 +102,11 @@ export async function renderReport(root, nav, { profileId }) {
   const titles = course.lesson_titles;
   const sum = summarize(data, today);
   const skills = skillStats(data.attempts);
-  const tips = suggestions(sum, skills, titles);
+  const confused = confusions(data.attempts);
+  const parts = byDayPart(data.attempts);
+  const stages = byLessonStage(data.attempts);
+  const habit = habits(data.attempts);
+  const tips = suggestions(sum, skills, titles, { confusions: confused, parts, stages });
   const hard = hardestItems(data.attempts);
   const streak = computeStreak(data.days, today);
   const p = data.profile;
@@ -130,5 +160,24 @@ export async function renderReport(root, nav, { profileId }) {
       el('ul', { class: 'tips' }, tips.map((t) => el('li', { class: `tip ${t.tone}` }, t.text)))),
     el('section', { class: 'card' }, el('h2', {}, 'דקות לימוד ב־14 הימים האחרונים'), activityChart(minutesByDay(data.results, today))),
     el('section', { class: 'card' }, el('h2', {}, 'לפי מיומנות'), el('div', { class: 'skills' }, skillRows)),
-    hardRows.length ? el('section', { class: 'card' }, el('h2', {}, 'מה הכי קשה'), el('ol', { class: 'hard-list' }, hardRows)) : null));
+    hardRows.length ? el('section', { class: 'card' }, el('h2', {}, 'מה הכי קשה'), el('ol', { class: 'hard-list' }, hardRows)) : null,
+    el('section', { class: 'card' }, el('h2', {}, 'בלבולים והתלבטויות'),
+      el('p', { class: 'muted small-l' }, 'מה נלחץ במקום התשובה הנכונה, כולל לחיצות לפני שהגיע לתשובה הנכונה.'),
+      confusionList(confused)),
+    el('section', { class: 'card' }, el('h2', {}, 'מתי הכי טוב'),
+      el('h3', {}, 'לפי שעה ביום'), bucketTable(parts),
+      el('h3', {}, 'לפי שלב בשיעור'), bucketTable(stages)),
+    el('section', { class: 'card' }, el('h2', {}, 'הרגלים'),
+      el('ul', { class: 'habits' },
+        habit.replaysPerListen != null ? el('li', {}, `השמעות לכל תרגיל הקשבה: ${habit.replaysPerListen.toFixed(1)}`, habit.slowShare ? ` (${pct(habit.slowShare)} מהן לאט 🐢)` : '') : null,
+        habit.cardsPerChoice != null ? el('li', {}, `כרטיסים שנלחצו בכל שאלת בחירה: ${habit.cardsPerChoice.toFixed(1)} (1.0 = בחירה בלי היסוס)`) : null,
+        habit.lookedUp.length ? el('li', {}, 'מילים שבדק את הפירוש שלהן: ', habit.lookedUp.map(([w, n]) => `${w} (${n})`).join(', ')) : null)),
+    el('section', { class: 'card' }, el('h2', {}, 'היומן המלא'),
+      el('p', { class: 'muted small-l' }, `${data.attempts.length} רשומות: כל תשובה, מה נלחץ ומתי. נפתח באקסל או ב־Google Sheets.`),
+      el('button', { class: 'btn', type: 'button', onclick: () => {
+        const url = URL.createObjectURL(new Blob([logCsv(data.attempts, titles)], { type: 'text/csv;charset=utf-8' }));
+        const a = el('a', { href: url, download: `english-log-${p.name}-${today}.csv` });
+        document.body.append(a); a.click(); a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 5000);
+      } }, '⬇️ הורדת היומן (CSV)'))));
 }

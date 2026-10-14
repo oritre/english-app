@@ -5,7 +5,7 @@ import { speak } from '../speech.js';
 export function renderChoose(root, ex, { setReady }) {
   let picked = null;
   const cards = shuffle(ex.options).map((opt) => {
-    const card = el('button', { class: 'choice-card', type: 'button' },
+    const card = el('button', { class: 'choice-card', type: 'button', 'data-value': opt.en },
       opt.emoji ? el('span', { class: 'emoji' }, opt.emoji) : null,
       en(opt.en));
     card.addEventListener('click', () => {

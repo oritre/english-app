@@ -3,7 +3,7 @@ import { speak } from '../speech.js';
 
 // Tap an English word and its Hebrew meaning. Self-checking: finishes when all
 // pairs are matched; wrong taps are counted and reported as mistakes.
-export function renderMatchPairs(root, ex, { setReady, finish }) {
+export function renderMatchPairs(root, ex, { setReady, finish, track }) {
   let selected = null;
   let wrongTaps = 0;
   let matched = 0;
@@ -34,6 +34,8 @@ export function renderMatchPairs(root, ex, { setReady, finish }) {
       } else {
         wrongTaps++;
         const other = selected;
+        const [a, c] = other.dataset.side === 'en' ? [other, b] : [b, other];
+        track?.('mismatch', `${a.textContent}|${c.textContent}`);
         other.classList.remove('selected');
         [other, b].forEach((x) => x.classList.add('shake'));
         setTimeout(() => [other, b].forEach((x) => x.classList.remove('shake')), 400);

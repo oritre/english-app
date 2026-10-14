@@ -156,12 +156,13 @@ export async function markResultSeen() {
 
 // One row per answer: what kind of exercise, right or wrong, how long it took.
 // The progress report is built from these.
-export async function logAttempt({ lessonId, exercise, outcome, ms, source = 'lesson' }) {
+export async function logAttempt({ lessonId, exercise, outcome, ms, source = 'lesson', given = null, expected = null, taps = [], pos = null, lessonSec = null }) {
   if (!currentId) return;
   await store.put('attempts', {
     id: newId(), profile_id: currentId, lesson_id: lessonId, exercise_id: exercise.id,
     type: exercise.type, lang: exercise.lang || null, outcome, ms: Math.round(ms), source,
-    date: localISO(), at: Date.now(),
+    date: localISO(), at: Date.now(), hour: new Date().getHours(),
+    given, expected, taps, pos, lesson_sec: lessonSec,
   });
 }
 

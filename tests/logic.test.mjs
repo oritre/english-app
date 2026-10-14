@@ -208,3 +208,26 @@ test('starter units lead the path only for ABC learners', () => {
   assert.deepEqual(lessonStates(course, ['s1', 's2'], { starter: true }), { s1: 'done', s2: 'done', a: 'current', b: 'locked' });
   assert.deepEqual(lessonStates(course, ['s1']), { s1: 'done', s2: 'bonus', a: 'current', b: 'locked' });
 });
+
+import { confusions, byDayPart, byLessonStage, habits } from '../js/report.js';
+
+test('report: confusions from wrong answers, mismatched pairs and hesitations', () => {
+  const at = new Date('2026-10-14T09:00:00').getTime();
+  const attempts = [
+    { type: 'pick', outcome: 'wrong', given: 'd', expected: 'b', taps: [{ k: 'choice', v: 'd' }], pos: 1, at, hour: 9 },
+    { type: 'pick', outcome: 'wrong', given: 'd', expected: 'b', taps: [], pos: 2, at, hour: 9 },
+    { type: 'match_pairs', outcome: 'retry', taps: [{ k: 'mismatch', v: 'cat|כלב' }], pos: 3, at, hour: 20 },
+    { type: 'choose', outcome: 'correct', given: 'dog', expected: 'dog', taps: [{ k: 'choice', v: 'cat' }, { k: 'choice', v: 'dog' }], pos: 12, at, hour: 20 },
+    { type: 'listen_type', outcome: 'correct', taps: [{ k: 'play', v: '🔊' }, { k: 'slow', v: '🐢' }, { k: 'gloss', v: 'wakes' }], pos: 13, at, hour: 23 },
+  ];
+  const c = confusions(attempts);
+  assert.deepEqual(c[0], { kind: 'wrong', expected: 'b', given: 'd', count: 2 });
+  assert.ok(c.some((r) => r.kind === 'match' && r.expected === 'cat' && r.given === 'כלב'));
+  assert.ok(c.some((r) => r.kind === 'hesitate' && r.expected === 'dog' && r.given === 'cat'));
+  const parts = Object.fromEntries(byDayPart(attempts).map((p) => [p.id, p.count]));
+  assert.deepEqual(parts, { morning: 2, noon: 0, afternoon: 0, evening: 2, night: 1 });
+  assert.deepEqual(byLessonStage(attempts).map((s) => s.count), [3, 0, 2]);
+  const h = habits(attempts);
+  assert.equal(h.replaysPerListen, 2 / 3); // two picks without replays, one listening exercise with two
+  assert.deepEqual(h.lookedUp, [['wakes', 1]]);
+});

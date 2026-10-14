@@ -18,7 +18,7 @@ function pauseSpeaking(minutes) {
 
 // Read an English sentence aloud. The browser transcribes it, and each word
 // lights up green or red. Passing needs every word.
-export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [t] }) {
+export function renderSpeak(root, ex, { setReady, finish, skip, track, gloss = (t) => [t] }) {
   let result = null;
   let rec = null;
   let tries = 0;
@@ -101,6 +101,7 @@ export function renderSpeak(root, ex, { setReady, finish, skip, gloss = (t) => [
         return;
       }
       tries++;
+      track?.('heard', finalAlts[0]);
       result = checkSpeech(finalAlts, ex.text, ex.alternatives || []);
       paint(result);
       if (result.pass) {
