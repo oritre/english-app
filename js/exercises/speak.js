@@ -1,14 +1,23 @@
 import { el, en } from '../util.js';
 import { speak } from '../speech.js';
 import { checkSpeech } from '../check.js';
-import { getSettings } from '../settings.js';
+import { getSettings, setSetting } from '../settings.js';
+import { localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
 
 export const Recognition = typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition);
 const PAUSE_KEY = 'english_app_speak_paused_until';
 
+// 'google' = the browser's speech service; 'local' = Whisper inside the app.
+export function asrEngine() {
+  const pick = getSettings().asr;
+  if (pick === 'local' && localAsrSupported()) return 'local';
+  if (pick === 'google' && Recognition) return 'google';
+  return Recognition ? 'google' : 'local';
+}
+
 export function speakSupported() {
-  if (!Recognition || !getSettings().speaking) return false;
+  if (!(Recognition || localAsrSupported()) || !getSettings().speaking) return false;
   try { return Number(localStorage.getItem(PAUSE_KEY) || 0) < Date.now(); } catch { return true; }
 }
 
@@ -38,7 +47,60 @@ export function renderSpeak(root, ex, { setReady, finish, skip, track, gloss = (
     heard.textContent = `שמעתי: "${r.heard}"`;
   }
 
+  function judge(alts) {
+    tries++;
+    track?.('heard', alts[0]);
+    result = checkSpeech(alts, ex.text, ex.alternatives || []);
+    paint(result);
+    if (result.pass) {
+      status.textContent = 'מצוין!';
+      setReady(true);
+      finish(tries === 1);
+    } else {
+      const missed = result.words.filter((w) => !w.ok).length;
+      status.textContent = result.score >= 0.5
+        ? `כמעט. ${missed === 1 ? 'מילה אחת לא נשמעה' : `${missed} מילים לא נשמעו`} נכון (באדום). נסו שוב.`
+        : 'לא הצלחתי לזהות את המשפט. נסו שוב, לאט וברור.';
+    }
+  }
+
+  // In-app transcription: record until a pause, then Whisper on the device.
+  let recording = null;
+  let busy = false;
+  async function localClick() {
+    if (recording) { recording.stop(); return; }
+    if (busy) return;
+    busy = true;
+    try { speechSynthesis.cancel(); } catch { /* no TTS */ }
+    try {
+      if (!localAsrDownloaded()) status.textContent = 'מוריד את מנוע התמלול (פעם אחת בלבד)...';
+      await loadLocalAsr((f) => { status.textContent = `מוריד את מנוע התמלול (פעם אחת בלבד)... ${Math.round(f * 100)}%`; });
+      mic.classList.add('on');
+      status.textContent = 'מקשיב... דברו, והמיקרופון ייכבה לבד כשתסיימו';
+      recording = recordUtterance({ onLevel: show, onSpeech: () => { status.textContent = 'מקשיב... (שומע דיבור)'; } });
+      const { audio, heard: gotSpeech } = await recording.done;
+      recording = null;
+      mic.classList.remove('on');
+      hide();
+      if (!gotSpeech) { status.textContent = 'לא שמעתי דיבור. לחצו שוב ודברו קרוב יותר לטלפון.'; return; }
+      status.textContent = 'מתמלל...';
+      const text = await transcribe(audio);
+      if (!text) { status.textContent = 'לא הצלחתי לתמלל. לחצו שוב ודברו ברור.'; return; }
+      judge([text]);
+    } catch (err) {
+      console.warn(err);
+      recording = null;
+      mic.classList.remove('on');
+      hide();
+      status.textContent = err?.name === 'NotAllowedError' ? micErrorTip(err)
+        : 'מנוע התמלול לא נטען. בדקו את החיבור לאינטרנט ונסו שוב.';
+    } finally {
+      busy = false;
+    }
+  }
+
   mic.addEventListener('click', () => {
+    if (asrEngine() === 'local') { localClick(); return; }
     if (rec) { rec.stop(); return; }
     try { speechSynthesis.cancel(); } catch { /* no TTS */ }
     rec = new Recognition();
@@ -90,30 +152,18 @@ export function renderSpeak(root, ex, { setReady, finish, skip, track, gloss = (
       if (!finalAlts.length) {
         if (failed) return;
         simple = true;
+        useLocal.hidden = !localAsrSupported();
         if (!gotAudio) {
-          status.textContent = 'לא הגיע קול לתמלול. לחצו על "בדיקת מיקרופון" כדי לבדוק אם המיקרופון קולט.';
+          status.textContent = 'לא הגיע קול לתמלול. אפשר לבדוק את המיקרופון, או לעבור לתמלול בתוך האפליקציה.';
           micTest.hidden = false;
         } else if (gotSpeech) {
           status.textContent = 'שמעתי דיבור אבל לא הצלחתי לתמלל אותו. לחצו שוב, דברו ברור, וחכו שהמיקרופון ייכבה לבד.';
         } else {
-          status.textContent = 'המיקרופון פעל אבל לא זיהיתי דיבור. לחצו שוב ודברו קרוב יותר לטלפון.';
+          status.textContent = 'המיקרופון פעל אבל לא זיהיתי דיבור. לחצו שוב ודברו קרוב יותר לטלפון, או עברו לתמלול בתוך האפליקציה.';
         }
         return;
       }
-      tries++;
-      track?.('heard', finalAlts[0]);
-      result = checkSpeech(finalAlts, ex.text, ex.alternatives || []);
-      paint(result);
-      if (result.pass) {
-        status.textContent = 'מצוין!';
-        setReady(true);
-        finish(tries === 1);
-      } else {
-        const missed = result.words.filter((w) => !w.ok).length;
-        status.textContent = result.score >= 0.5
-          ? `כמעט. ${missed === 1 ? 'מילה אחת לא נשמעה' : `${missed} מילים לא נשמעו`} נכון (באדום). נסו שוב.`
-          : 'לא הצלחתי לזהות את המשפט. נסו שוב, לאט וברור.';
-      }
+      judge(finalAlts);
     };
     try { rec.start(); } catch { mic.classList.remove('on'); rec = null; }
   });
@@ -136,14 +186,18 @@ export function renderSpeak(root, ex, { setReady, finish, skip, track, gloss = (
     }
   });
 
+  // Google's service came back empty: switch this device to in-app transcription for good.
+  const useLocal = el('button', { class: 'btn', type: 'button', hidden: true }, '🧠 לתמלל בתוך האפליקציה');
+  useLocal.addEventListener('click', () => { setSetting('asr', 'local'); useLocal.hidden = true; micTest.hidden = true; localClick(); });
+
   const skipBtn = el('button', { class: 'link-btn', type: 'button' }, 'לא יכול לדבר עכשיו');
-  skipBtn.addEventListener('click', () => { if (rec) rec.abort(); pauseSpeaking(15); skip(); });
+  skipBtn.addEventListener('click', () => { if (rec) rec.abort(); recording?.stop(); pauseSpeaking(15); skip(); });
 
   root.append(
     el('h2', { class: 'ex-title' }, 'קראו בקול'),
     el('div', { class: 'prompt-bubble speak-prompt' },
       el('button', { class: 'speaker', type: 'button', 'aria-label': 'השמע', onclick: () => speak(ex.text) }, '🔊'),
       words),
-    el('div', { class: 'mic-row' }, mic), status, meter, heard, micTest, skipBtn);
+    el('div', { class: 'mic-row' }, mic), status, meter, heard, useLocal, micTest, skipBtn);
   return { getAnswer: () => null, selfChecking: true };
 }

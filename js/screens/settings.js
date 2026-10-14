@@ -2,7 +2,8 @@ import { el, en } from '../util.js';
 import { speak, canSpeak, canSpeakLang, voiceName } from '../speech.js';
 import { getSettings, setSetting } from '../settings.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
-import { Recognition } from '../exercises/speak.js';
+import { Recognition, asrEngine } from '../exercises/speak.js';
+import { localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
 import { getProfile, setCurrentProfile, updateProfile } from '../progress.js';
 import { APP_VERSION } from '../version.js';
 
@@ -75,7 +76,29 @@ function micSection() {
 
   // Full speech-to-text round trip, the same path speaking exercises use.
   const testRec = el('button', { class: 'btn', type: 'button' }, '📝 בדיקת תמלול');
-  testRec.addEventListener('click', () => {
+  testRec.addEventListener('click', async () => {
+    if (asrEngine() === 'local') {
+      heard.hidden = true;
+      testRec.disabled = true;
+      try {
+        await loadLocalAsr((f) => { status.textContent = `מוריד את מנוע התמלול... ${Math.round(f * 100)}%`; });
+        status.textContent = 'אמרו באנגלית: Hello, how are you?';
+        const { audio, heard: gotSpeech } = await recordUtterance({ onLevel: show }).done;
+        hide();
+        if (!gotSpeech) { status.textContent = MIC_SILENT_TIP; return; }
+        status.textContent = 'מתמלל...';
+        const text = await transcribe(audio);
+        heard.hidden = !text;
+        heard.textContent = `שמעתי: "${text}"`;
+        status.textContent = text ? 'התמלול בתוך האפליקציה עובד.' : 'לא הצלחתי לתמלל. נסו שוב, ברור וקרוב לטלפון.';
+      } catch (err) {
+        hide();
+        status.textContent = err?.name === 'NotAllowedError' ? micErrorTip(err) : 'מנוע התמלול לא נטען. בדקו את החיבור לאינטרנט ונסו שוב.';
+      } finally {
+        testRec.disabled = false;
+      }
+      return;
+    }
     if (!Recognition) {
       status.textContent = 'הדפדפן הזה לא מתמלל דיבור. נסו ב־Chrome או ב־Edge.';
       return;
@@ -111,8 +134,26 @@ function micSection() {
     try { rec.start(); } catch { testRec.disabled = false; }
   });
 
+  // Which speech-to-text runs: Google's service in the browser, or Whisper on the device.
+  const engines = [['google', 'גוגל'], ['local', 'בתוך האפליקציה']];
+  const engineNote = el('span', { class: 'muted setting-hint' });
+  const noteFor = (id) => (id === 'local'
+    ? (localAsrDownloaded() ? 'מותקן במכשיר. עובד גם בלי אינטרנט.' : 'הורדה חד־פעמית של כ־60MB בשימוש הראשון.')
+    : 'שירות הזיהוי של הדפדפן. צריך אינטרנט.');
+  const engineBtns = engines.map(([id, label]) => {
+    const b = el('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(asrEngine() === id), disabled: (id === 'google' && !Recognition) || (id === 'local' && !localAsrSupported()) }, label);
+    b.addEventListener('click', () => {
+      setSetting('asr', id);
+      engineBtns.forEach((x, i) => x.setAttribute('aria-pressed', String(engines[i][0] === id)));
+      engineNote.textContent = noteFor(id);
+    });
+    return b;
+  });
+  engineNote.textContent = noteFor(asrEngine());
+
   return section('🎤 מיקרופון',
     el('div', { class: 'row-btns' }, testMic, testRec), meter, status, heard,
+    el('div', { class: 'setting-row' }, el('span', {}, el('span', { class: 'setting-label' }, 'מנוע תמלול'), engineNote), el('div', { class: 'seg' }, engineBtns)),
     toggle('תרגילי דיבור', 'כשכבוי, תרגילי "קראו בקול" מדולגים', 'speaking'));
 }
 
