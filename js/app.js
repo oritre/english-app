@@ -1,3 +1,4 @@
+import './polyfills.js';
 import { renderPath } from './screens/path.js';
 import { renderLesson } from './screens/lesson.js';
 import { renderComplete } from './screens/complete.js';
