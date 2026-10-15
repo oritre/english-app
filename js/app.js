@@ -52,9 +52,28 @@ function nav(route, params = {}) {
     .then((r) => { showTabs(r); return routes[r](root, nav, params); })
     .catch((err) => {
       console.error(err);
-      root.textContent = 'משהו השתבש בטעינה. נסו לרענן.';
+      showLoadError(err);
     });
 }
+
+// The error itself is shown, so a screenshot says what failed (e.g. a blocked site on a filtered device).
+function showLoadError(err) {
+  const reset = async () => {
+    try {
+      for (const r of await navigator.serviceWorker?.getRegistrations?.() || []) await r.unregister();
+      for (const n of await caches.keys()) if (n.startsWith('english-app-')) await caches.delete(n);
+    } catch { /* best effort */ }
+    location.reload();
+  };
+  root.replaceChildren(el('div', { class: 'screen load-error' },
+    el('h1', {}, 'משהו השתבש בטעינה'),
+    el('p', {}, 'אם האינטרנט במכשיר מסונן, ייתכן שאתר שהאפליקציה צריכה חסום.'),
+    el('pre', { class: 'error-detail', dir: 'ltr' }, `${err?.name || 'Error'}: ${err?.message || err}\n${navigator.userAgent}`),
+    el('div', { class: 'row-btns' },
+      el('button', { class: 'btn primary', type: 'button', onclick: () => location.reload() }, 'נסו שוב'),
+      el('button', { class: 'btn', type: 'button', onclick: reset }, 'ניקוי ורענון'))));
+}
+window.addEventListener('unhandledrejection', (e) => console.warn('unhandled', e.reason));
 
 syncOnLoad().finally(() => nav('back'));
 

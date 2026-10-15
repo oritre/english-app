@@ -422,3 +422,4 @@ body.has-tabs #app { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px
 .bucket.none .bucket-bar > span { background: var(--muted); }
 .bucket-val { color: var(--muted); font-variant-numeric: tabular-nums; }
 .habits { margin: 0; padding-inline-start: 20px; display: flex; flex-direction: column; gap: 4px; }
+.error-detail { white-space: pre-wrap; word-break: break-word; font-size: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px; color: var(--muted); }
