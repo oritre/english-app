@@ -127,12 +127,13 @@ def publish(code, pid, plan_path):
             e['id'] = f"coach-{week}-{mi + 1}-{n + 1}-{e.get('id', 'x')}"
             exs.append(e)
         if not exs: sys.exit(f'module {mi + 1} has no exercises')
-        modules.append({'title_he': m['title_he'], 'about_he': m.get('about_he', ''), 'exercises': exs})
+        # Firestore can't hold arrays inside arrays (match_pairs), so exercises travel as JSON text.
+        modules.append({'title_he': m['title_he'], 'about_he': m.get('about_he', ''), 'exercises_json': json.dumps(exs, ensure_ascii=False)})
     coach = {k: plan.get(k) for k in ('week', 'title_he', 'note_he', 'strengths', 'work_on')}
     coach['modules'] = modules
     coach['made_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
     patch(code, pid, {'coach': coach})
-    print(f'published {len(modules)} modules, {sum(len(m["exercises"]) for m in modules)} exercises to {pid}')
+    print(f'published {len(modules)} modules, {sum(len(json.loads(m["exercises_json"])) for m in modules)} exercises to {pid}')
 
 
 def patch(code, pid, fields):

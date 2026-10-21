@@ -234,7 +234,7 @@ test('report: confusions from wrong answers, mismatched pairs and hesitations', 
 
 test('coach plan: modules get week-based ids, an old single-lesson plan still works', async () => {
   const { coachModules, coachLesson, hasCoach, lessonTitle } = await import('../js/coach.js');
-  const p = { coach: { week: '2026-10-21', modules: [{ title_he: 'א', exercises: [{ id: 'x', type: 'choose' }] }, { title_he: 'ב', exercises: [] }] } };
+  const p = { coach: { week: '2026-10-21', modules: [{ title_he: 'א', exercises: [{ id: 'x', type: 'choose' }] }, { title_he: 'ב', exercises_json: '[]' }] } };
   assert.deepEqual(coachModules(p).map((m) => m.id), ['coach-2026-10-21-1', 'coach-2026-10-21-2']);
   assert.equal(coachLesson(p, 0).exercises.length, 1);
   assert.ok(hasCoach(p));

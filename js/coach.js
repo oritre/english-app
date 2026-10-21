@@ -8,7 +8,11 @@ export function coachModules(profile) {
   const c = profile?.coach;
   if (!c) return [];
   const mods = c.modules?.length ? c.modules : c.exercises?.length ? [{ title_he: c.title_he, exercises: c.exercises }] : [];
-  return mods.map((m, i) => ({ ...m, id: c.modules?.length ? `coach-${c.week}-${i + 1}` : `coach-${c.week}` }));
+  // Exercises arrive as JSON text: Firestore can't store the arrays inside arrays some exercises have.
+  return mods.map((m, i) => ({
+    ...m, exercises: m.exercises_json ? JSON.parse(m.exercises_json) : m.exercises,
+    id: c.modules?.length ? `coach-${c.week}-${i + 1}` : `coach-${c.week}`,
+  }));
 }
 
 export function coachLesson(profile, i = 0) {
