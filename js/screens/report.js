@@ -1,6 +1,7 @@
 import { el, en } from '../util.js';
 import { listProfiles, reportData } from '../progress.js';
 import { loadCourse, loadLesson } from '../course.js';
+import { lessonTitle } from '../coach.js';
 import { skillStats, summarize, suggestions, minutesByDay, hardestItems, pct, confusions, byDayPart, byLessonStage, habits } from '../report.js';
 import { computeStreak } from '../streak.js';
 import { localISO } from '../dates.js';
@@ -83,7 +84,7 @@ function logCsv(attempts, titles) {
   const q = (v) => `"${String(v ?? '').replace(/"/g, '""')}"`;
   const head = ['תאריך', 'שעה', 'שיעור', 'תרגיל', 'סוג', 'תוצאה', 'תשובה שניתנה', 'תשובה נכונה', 'שניות', 'מיקום בשיעור', 'לחיצות'];
   const rows = [...attempts].sort((a, b) => a.at - b.at).map((a) => [
-    a.date, new Date(a.at).toTimeString().slice(0, 5), titles[a.lesson_id] || a.lesson_id, a.exercise_id, a.type, a.outcome,
+    a.date, new Date(a.at).toTimeString().slice(0, 5), lessonTitle(titles, a.lesson_id), a.exercise_id, a.type, a.outcome,
     a.given, a.expected, Math.round(a.ms / 100) / 10, a.pos,
     (a.taps || []).map((t) => `${t.k}:${t.v}@${Math.round(t.t / 100) / 10}s`).join(' | ')]);
   return '\ufeff' + [head, ...rows].map((r) => r.map(q).join(',')).join('\n');
@@ -140,7 +141,7 @@ export async function renderReport(root, nav, { profileId }) {
     hardRows.push(el('li', { class: 'hard' },
       el('div', { class: 'hard-q', dir: 'auto' }, exerciseText(ex)),
       ex.answer ? el('div', { class: 'hard-a' }, 'תשובה: ', el('span', { dir: 'auto' }, ex.answer)) : null,
-      el('div', { class: 'muted small-l' }, `${titles[h.lesson_id]} · ${h.wrong} טעויות מתוך ${h.total} ניסיונות`)));
+      el('div', { class: 'muted small-l' }, `${lessonTitle(titles, h.lesson_id)} · ${h.wrong} טעויות מתוך ${h.total} ניסיונות`)));
   }
 
   root.replaceChildren(el('div', { class: 'screen report' },

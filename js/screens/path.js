@@ -3,6 +3,7 @@ import { loadCourse, lessonStates } from '../course.js';
 import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile } from '../progress.js';
 import { TIERS } from '../league.js';
 import { APP_VERSION } from '../version.js';
+import { COACH_LESSON, hasCoach } from '../coach.js';
 
 export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
@@ -59,13 +60,21 @@ export async function renderPath(root, nav) {
     : [...mainUnits, starterUnits.length ? el('details', { class: 'starter-fold' },
       el('summary', {}, '🔤 אותיות וצלילים: יחידות ABC לתרגול'), starterUnits) : null];
 
+  // This week's personal practice, written by the weekly review of the learner's log.
+  const coach = hasCoach(profile) ? el('section', { class: 'coach-card' },
+    el('div', { class: 'coach-kicker' }, done.includes(`coach-${profile.coach.week}`) ? '✓ תרגלת השבוע · אפשר שוב' : '🎯 תרגול אישי לשבוע הזה'),
+    el('h2', {}, ...mixed(profile.coach.title_he || 'תרגול אישי')),
+    profile.coach.note_he ? el('p', {}, ...mixed(profile.coach.note_he)) : null,
+    el('button', { class: 'btn primary', type: 'button', onclick: () => nav('lesson', { lessonId: COACH_LESSON }) },
+      `להתחיל (${profile.coach.exercises.length} תרגילים)`)) : null;
+
   const test = el('button', { class: 'retest', type: 'button', onclick: () => nav('placement') },
     '🎯 ', profile.placement ? 'לעשות שוב את מבחן הרמה' : 'מבחן רמה: לקפוץ קדימה');
   // Logging out clears the current learner, so the next open lands on the learner picker.
   const logout = el('button', { class: 'retest', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } },
     '🚪 התנתקות (מעבר ללומד אחר)');
-  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), units, test, logout,
+  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), coach, units, test, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`)));
-  const current = root.querySelector('.node.current');
+  const current = coach && !done.includes(`coach-${profile.coach.week}`) ? coach : root.querySelector('.node.current');
   if (current) current.scrollIntoView({ block: 'center' });
 }

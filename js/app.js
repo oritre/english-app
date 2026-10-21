@@ -46,10 +46,19 @@ function showTabs(r) {
   tabs.querySelectorAll('.tab').forEach((t) => t.setAttribute('aria-current', String(t.dataset.tab === (r === 'settings' ? 'settings' : r === 'path' || r === 'profiles' ? 'home' : ''))));
 }
 
+let screen = null;
+let updateReady = false;
+
 function nav(route, params = {}) {
   window.scrollTo(0, 0);
   Promise.resolve(route === 'back' ? home() : route)
-    .then((r) => { showTabs(r); return routes[r](root, nav, params); })
+    .then((r) => {
+      // A new version waiting from earlier loads as soon as the learner leaves a lesson.
+      if (updateReady && !NO_TABS.has(r)) { location.reload(); return null; }
+      screen = r;
+      showTabs(r);
+      return routes[r](root, nav, params);
+    })
     .catch((err) => {
       console.error(err);
       showLoadError(err);
@@ -78,5 +87,16 @@ window.addEventListener('unhandledrejection', (e) => console.warn('unhandled', e
 syncOnLoad().finally(() => nav('back'));
 
 if ('serviceWorker' in navigator && location.protocol !== 'file:') {
-  navigator.serviceWorker.register('sw.js').catch((e) => console.warn('SW failed', e));
+  // A new version installs in the background; without a reload the open app
+  // keeps running the old files. Reload when it takes over, but never mid-lesson.
+  let hadController = !!navigator.serviceWorker.controller;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController) { hadController = true; return; }
+    if (NO_TABS.has(screen)) updateReady = true;
+    else location.reload();
+  });
+  navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then((reg) => {
+    // An installed app is often resumed rather than relaunched, so check for updates on return too.
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') reg.update().catch(() => {}); });
+  }).catch((e) => console.warn('SW failed', e));
 }

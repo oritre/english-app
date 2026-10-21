@@ -8,6 +8,7 @@ import { speak } from '../speech.js';
 import { getSettings } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
+import { COACH_LESSON, coachLesson } from '../coach.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
 // answered right. Progress bar counts first-time-right plus fixed mistakes.
@@ -15,9 +16,11 @@ const answerIsHebrew = (ex) => ex.type === 'translate_en_he' || (ex.type === 'li
   || (ex.type === 'read' && /[\u0590-\u05FF]/.test(ex.answer));
 
 export async function renderLesson(root, nav, { lessonId }) {
-  const lesson = await loadLesson(lessonId);
+  const profile = await getProfile();
+  const lesson = lessonId === COACH_LESSON ? coachLesson(profile) : await loadLesson(lessonId);
+  if (lessonId === COACH_LESSON) lessonId = `coach-${lesson.week}`;
   const exercises = lesson.exercises.filter(isSupported);
-  const voiceTyping = !!(await getProfile())?.voice_typing;
+  const voiceTyping = !!profile?.voice_typing;
   const queue = exercises.slice();
   const mistakes = new Set();
   let total = exercises.length;

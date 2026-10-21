@@ -1,6 +1,7 @@
 // Turns a learner's raw answers into the progress report: time spent, skills,
 // hardest items and suggestions. Pure functions, unit tested.
 import { addDays } from './dates.js';
+import { lessonTitle } from './coach.js';
 
 export const SKILLS = [
   { id: 'vocab', name: 'אוצר מילים', types: ['choose', 'match_pairs'] },
@@ -69,7 +70,7 @@ export function summarize({ profile, attempts, results, days, progress }, today)
   const answeredAll = attempts.filter(answered);
   const accuracy = answeredAll.length ? answeredAll.filter(isRight).length / answeredAll.length : null;
   const avgLessonMin = results.length ? totalSec / results.length / 60 : null;
-  const weakLessons = progress.filter((p) => p.status === 'done' && !p.skipped && p.best_accuracy < 70).map((p) => p.lesson_id);
+  const weakLessons = progress.filter((p) => p.status === 'done' && !p.skipped && p.best_accuracy < 70 && !String(p.lesson_id).startsWith('coach')).map((p) => p.lesson_id);
   const startDate = (profile.created_at || '').slice(0, 10) || today;
   const daysSinceStart = Math.round((new Date(today) - new Date(startDate)) / 86400e3);
   return {
@@ -112,7 +113,7 @@ export function suggestions(sum, skills, titles = {}, extra = {}) {
   else if (sum.goalDays7 >= 5 && sum.goalXp < 40) out.push({ tone: 'good', text: `היעד היומי הושג ${sum.goalDays7} ימים מתוך 7. אפשר להעלות את היעד.` });
 
   if (sum.accuracy >= 0.92 && sum.sessions >= 3 && sum.avgLessonMin < 5) out.push({ tone: 'info', text: 'הצלחה מהירה ובדיוק גבוה. כדאי לנסות שוב את מבחן הרמה ולקפוץ קדימה.' });
-  if (sum.weakLessons.length) out.push({ tone: 'info', text: `כדאי לחזור על: ${sum.weakLessons.slice(0, 3).map((id) => `"${titles[id] || id}"`).join(', ')}. הדיוק הכי טוב שם עדיין מתחת ל־70%.` });
+  if (sum.weakLessons.length) out.push({ tone: 'info', text: `כדאי לחזור על: ${sum.weakLessons.slice(0, 3).map((id) => `"${lessonTitle(titles, id)}"`).join(', ')}. הדיוק הכי טוב שם עדיין מתחת ל־70%.` });
   const stages = (extra.stages || []).filter((x) => x.enough);
   const start = stages.find((x) => x.id === 'start');
   const end = stages.find((x) => x.id === 'end');
