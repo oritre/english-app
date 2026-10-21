@@ -5,7 +5,7 @@ import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
 import { glossify, closePop } from '../gloss.js';
 import { speak } from '../speech.js';
-import { getSettings } from '../settings.js';
+import { getSettings, setSetting } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
 import { COACH_LESSON, coachLesson } from '../coach.js';
@@ -15,10 +15,11 @@ import { COACH_LESSON, coachLesson } from '../coach.js';
 const answerIsHebrew = (ex) => ex.type === 'translate_en_he' || (ex.type === 'listen_translate' && ex.lang === 'en')
   || (ex.type === 'read' && /[\u0590-\u05FF]/.test(ex.answer));
 
-export async function renderLesson(root, nav, { lessonId }) {
+export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   const profile = await getProfile();
-  const lesson = lessonId === COACH_LESSON ? coachLesson(profile) : await loadLesson(lessonId);
-  if (lessonId === COACH_LESSON) lessonId = `coach-${lesson.week}`;
+  if (profile?.asr && getSettings().asr !== profile.asr) setSetting('asr', profile.asr);
+  const lesson = lessonId === COACH_LESSON ? coachLesson(profile, module) : await loadLesson(lessonId);
+  if (lessonId === COACH_LESSON) lessonId = lesson.id;
   const exercises = lesson.exercises.filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
   const queue = exercises.slice();

@@ -6,9 +6,13 @@ import { speak, speakSequence, canSpeakLang } from '../speech.js';
 // examples to tap and hear. Nothing to answer; "הבנתי" moves on.
 export function renderTeach(root, ex) {
   const narrate = () => {
-    const parts = [];
-    if (ex.say_he && canSpeakLang('he-IL')) parts.push({ text: ex.say_he, lang: 'he-IL' });
-    if (ex.say) parts.push({ text: ex.say, lang: 'en-US' });
+    const he = canSpeakLang('he-IL');
+    // A full explanation is a list of Hebrew and English parts, read in turn.
+    const parts = ex.narration
+      ? ex.narration.filter((p) => p.en || he).map((p) => (p.he ? { text: p.he, lang: 'he-IL' } : { text: p.en, lang: 'en-US' }))
+      : [];
+    if (!ex.narration && ex.say_he && he) parts.push({ text: ex.say_he, lang: 'he-IL' });
+    if (!ex.narration && ex.say) parts.push({ text: ex.say, lang: 'en-US' });
     if (parts.length) speakSequence(parts);
   };
   const examples = (ex.examples || []).map((x) => el('button', { class: 'teach-example', type: 'button', onclick: () => speak(x.en, { slow: !!x.slow }) },

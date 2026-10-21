@@ -3,7 +3,7 @@ import { loadCourse, lessonStates } from '../course.js';
 import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile } from '../progress.js';
 import { TIERS } from '../league.js';
 import { APP_VERSION } from '../version.js';
-import { COACH_LESSON, hasCoach } from '../coach.js';
+import { COACH_LESSON, hasCoach, coachModules } from '../coach.js';
 
 export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
@@ -61,12 +61,21 @@ export async function renderPath(root, nav) {
       el('summary', {}, '🔤 אותיות וצלילים: יחידות ABC לתרגול'), starterUnits) : null];
 
   // This week's personal practice, written by the weekly review of the learner's log.
+  const mods = coachModules(profile);
+  const coachDone = mods.length > 0 && mods.every((m) => done.includes(m.id));
+  const list = (title, items) => (items?.length ? el('div', { class: 'coach-list' }, el('h3', {}, title), el('ul', {}, items.map((t) => el('li', {}, ...mixed(t))))) : null);
   const coach = hasCoach(profile) ? el('section', { class: 'coach-card' },
-    el('div', { class: 'coach-kicker' }, done.includes(`coach-${profile.coach.week}`) ? '✓ תרגלת השבוע · אפשר שוב' : '🎯 תרגול אישי לשבוע הזה'),
+    el('div', { class: 'coach-kicker' }, coachDone ? '✓ סיימת את התרגול של השבוע · אפשר שוב' : '🎯 תרגול אישי לשבוע הזה'),
     el('h2', {}, ...mixed(profile.coach.title_he || 'תרגול אישי')),
     profile.coach.note_he ? el('p', {}, ...mixed(profile.coach.note_he)) : null,
-    el('button', { class: 'btn primary', type: 'button', onclick: () => nav('lesson', { lessonId: COACH_LESSON }) },
-      `להתחיל (${profile.coach.exercises.length} תרגילים)`)) : null;
+    list('💪 במה אני כבר טוב', profile.coach.strengths),
+    list('🎯 במה כדאי להתחזק', profile.coach.work_on),
+    el('div', { class: 'coach-modules' }, mods.map((m, i) => el('button', {
+      class: `coach-module ${done.includes(m.id) ? 'done' : ''}`, type: 'button',
+      onclick: () => nav('lesson', { lessonId: COACH_LESSON, module: i }),
+    }, el('span', { class: 'coach-mod-mark' }, done.includes(m.id) ? '✓' : String(i + 1)),
+    el('span', {}, el('span', { class: 'coach-mod-title' }, ...mixed(m.title_he || 'תרגול')),
+      m.about_he ? el('span', { class: 'muted coach-mod-about' }, ...mixed(m.about_he)) : null))))) : null;
 
   const test = el('button', { class: 'retest', type: 'button', onclick: () => nav('placement') },
     '🎯 ', profile.placement ? 'לעשות שוב את מבחן הרמה' : 'מבחן רמה: לקפוץ קדימה');
@@ -75,6 +84,6 @@ export async function renderPath(root, nav) {
     '🚪 התנתקות (מעבר ללומד אחר)');
   root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), coach, units, test, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`)));
-  const current = coach && !done.includes(`coach-${profile.coach.week}`) ? coach : root.querySelector('.node.current');
+  const current = coach && !coachDone ? coach : root.querySelector('.node.current');
   if (current) current.scrollIntoView({ block: 'center' });
 }

@@ -429,3 +429,12 @@ body.has-tabs #app { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px
 .coach-card h2 { margin: 4px 0 6px; font-size: 20px; }
 .coach-card p { margin: 0 0 12px; line-height: 1.5; }
 .coach-kicker { font-weight: 700; color: var(--ink); font-size: 14px; }
+.coach-list h3 { margin: 10px 0 4px; font-size: 15px; }
+.coach-list ul { margin: 0; padding-inline-start: 20px; line-height: 1.5; }
+.coach-modules { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.coach-module { display: flex; align-items: center; gap: 12px; text-align: start; padding: 10px 12px; border-radius: var(--radius); border: 2px solid var(--line); background: var(--bg); color: var(--fg); font: inherit; cursor: pointer; box-shadow: 0 3px 0 var(--line); }
+.coach-module.done { border-color: var(--good); box-shadow: 0 3px 0 var(--good); }
+.coach-mod-mark { flex: none; width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: #fff; font-weight: 700; }
+.coach-module.done .coach-mod-mark { background: var(--good); }
+.coach-mod-title { display: block; font-weight: 700; }
+.coach-mod-about { display: block; font-size: 14px; }

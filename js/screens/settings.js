@@ -144,6 +144,8 @@ function micSection() {
     const b = el('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(asrEngine() === id), disabled: (id === 'google' && !Recognition) || (id === 'local' && !localAsrSupported()) }, label);
     b.addEventListener('click', () => {
       setSetting('asr', id);
+      // Kept on the learner too, so it follows them to their other devices.
+      getProfile().then((p) => { if (p && p.asr !== id) { p.asr = id; updateProfile(p); } });
       engineBtns.forEach((x, i) => x.setAttribute('aria-pressed', String(engines[i][0] === id)));
       engineNote.textContent = noteFor(id);
       // Start the one-time download right away, with progress, so it's visible.

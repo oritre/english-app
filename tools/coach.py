@@ -3,12 +3,17 @@
 
   python3 tools/coach.py summary CODE [--days 7]      per-learner summary as JSON
   python3 tools/coach.py publish CODE PROFILE_ID plan.json
+  python3 tools/coach.py set CODE PROFILE_ID voice_typing=true 'asr="local"'
 
 publish writes plan.json to the learner's profile as `coach`; the app shows it
-on the path as this week's personal practice. A plan is
-  {"week": "YYYY-MM-DD", "title_he": ..., "note_he": ..., "focus": [...],
-   "exercise_ids": ["u3l2e4", ...], "exercises": [extra exercise objects]}
-Exercises named by id are copied from data/lessons, so they render exactly as in their lesson.
+on the path as this week's feedback and personal practice. A plan is
+  {"week": "YYYY-MM-DD", "title_he": ..., "note_he": ...,
+   "strengths": ["..."], "work_on": ["..."],
+   "modules": [{"title_he": ..., "about_he": ..., "items": ["u3l2e4", {exercise}, ...]}]}
+Each module is a short lesson: start with teach cards (type "teach") whose
+"narration" is a list of {"he": ...} / {"en": ...} parts read aloud in turn, then
+a small quiz. A string item is an exercise id copied from data/lessons, so it
+renders exactly as in its lesson; an object is a new exercise in the same schema.
 """
 import collections, datetime, glob, json, os, sys, urllib.request
 
@@ -110,26 +115,33 @@ def summary(code, days):
 def publish(code, pid, plan_path):
     plan = json.load(open(plan_path, encoding='utf-8'))
     bank, _ = lessons()
-    exs = []
-    for i in plan.get('exercise_ids', []):
-        if i not in bank: sys.exit(f'unknown exercise id {i}')
-        exs.append(bank[i])
-    exs += plan.get('exercises', [])
-    for n, e in enumerate(exs):
-        e = dict(e)
-        e['id'] = f"coach-{plan['week']}-{n + 1}-{e.get('id', 'x')}"
-        exs[n] = e
-    if not exs: sys.exit('plan has no exercises')
-    coach = {k: plan.get(k) for k in ('week', 'title_he', 'note_he', 'focus')}
-    coach['exercises'] = exs
-    coach['new_words'] = plan.get('new_words', [])
+    week = plan['week']
+    modules = []
+    for mi, m in enumerate(plan['modules']):
+        exs = []
+        for n, item in enumerate(m['items']):
+            if isinstance(item, str):
+                if item not in bank: sys.exit(f'unknown exercise id {item}')
+                item = bank[item]
+            e = dict(item)
+            e['id'] = f"coach-{week}-{mi + 1}-{n + 1}-{e.get('id', 'x')}"
+            exs.append(e)
+        if not exs: sys.exit(f'module {mi + 1} has no exercises')
+        modules.append({'title_he': m['title_he'], 'about_he': m.get('about_he', ''), 'exercises': exs})
+    coach = {k: plan.get(k) for k in ('week', 'title_he', 'note_he', 'strengths', 'work_on')}
+    coach['modules'] = modules
     coach['made_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    body = json.dumps({'fields': {'coach': enc(coach), 'updated_at': enc(int(datetime.datetime.now().timestamp() * 1000))}}).encode()
-    url = f'{BASE}/{code}/profiles/{pid}?updateMask.fieldPaths=coach&updateMask.fieldPaths=updated_at&currentDocument.exists=true&key={API_KEY}'
-    req = urllib.request.Request(url, data=body, method='PATCH', headers={'Content-Type': 'application/json'})
-    urllib.request.urlopen(req).read()
-    print(f'published {len(exs)} exercises to {pid}')
+    patch(code, pid, {'coach': coach})
+    print(f'published {len(modules)} modules, {sum(len(m["exercises"]) for m in modules)} exercises to {pid}')
 
+
+def patch(code, pid, fields):
+    """Sets only these profile fields; the newer updated_at makes devices take them on their next sync."""
+    fields = dict(fields, updated_at=int(datetime.datetime.now().timestamp() * 1000))
+    mask = ''.join(f'updateMask.fieldPaths={k}&' for k in fields)
+    body = json.dumps({'fields': {k: enc(v) for k, v in fields.items()}}).encode()
+    url = f'{BASE}/{code}/profiles/{pid}?{mask}currentDocument.exists=true&key={API_KEY}'
+    urllib.request.urlopen(urllib.request.Request(url, data=body, method='PATCH', headers={'Content-Type': 'application/json'})).read()
 
 if __name__ == '__main__':
     cmd, code = sys.argv[1], sys.argv[2]
@@ -138,3 +150,6 @@ if __name__ == '__main__':
         print(json.dumps(summary(code, days), ensure_ascii=False, indent=1))
     elif cmd == 'publish':
         publish(code, sys.argv[3], sys.argv[4])
+    elif cmd == 'set':  # set CODE PROFILE_ID field=json ...  e.g. voice_typing=true asr='"local"'
+        patch(code, sys.argv[3], {k: json.loads(v) for k, v in (a.split('=', 1) for a in sys.argv[4:])})
+        print('set', ', '.join(sys.argv[4:]))
