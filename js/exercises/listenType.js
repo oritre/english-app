@@ -1,8 +1,9 @@
 import { el } from '../util.js';
 import { speak, canSpeak } from '../speech.js';
+import { voiceInput, voiceInputSupported } from '../voiceInput.js';
 
 // Hear an English phrase and type it. Typos are forgiven (see check.js).
-export function renderListenType(root, ex, { setReady }) {
+export function renderListenType(root, ex, { setReady, track, voiceTyping }) {
   const input = el('textarea', {
     class: 'type-input', dir: 'ltr', lang: 'en', rows: 2,
     autocapitalize: 'off', autocomplete: 'off', spellcheck: 'false',
@@ -16,7 +17,10 @@ export function renderListenType(root, ex, { setReady }) {
       el('button', { class: 'speaker slow', type: 'button', 'aria-label': 'השמע לאט', onclick: () => speak(ex.audio_text, { slow: true }) }, '🐢')),
     input,
   );
-  setTimeout(() => { speak(ex.audio_text); input.focus(); }, 250);
+  const voice = voiceTyping && voiceInputSupported();
+  if (voice) root.append(voiceInput(input, { track }));
+  // With voice typing the keyboard stays closed until the box is tapped.
+  setTimeout(() => { speak(ex.audio_text); if (!voice) input.focus(); }, 250);
   return { getAnswer: () => input.value, allowTypos: true };
 }
 

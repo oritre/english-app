@@ -164,12 +164,12 @@ function micSection() {
     toggle('תרגילי דיבור', 'כשכבוי, תרגילי "קראו בקול" מדולגים', 'speaking'));
 }
 
-function starterToggle(profile) {
-  const box = el('input', { type: 'checkbox', checked: !!profile.starter });
-  box.addEventListener('change', async () => { profile.starter = box.checked; await updateProfile(profile); });
+// A switch saved on the learner's profile, so it follows them to every device.
+function profileToggle(profile, key, label, hint) {
+  const box = el('input', { type: 'checkbox', checked: !!profile[key] });
+  box.addEventListener('change', async () => { profile[key] = box.checked; await updateProfile(profile); });
   return el('label', { class: 'setting-row' },
-    el('span', {}, el('span', { class: 'setting-label' }, 'מסלול ABC למתחילים מאפס'),
-      el('span', { class: 'muted setting-hint' }, 'אותיות, צלילים ומילים ראשונות לפני השיעור הראשון')),
+    el('span', {}, el('span', { class: 'setting-label' }, label), el('span', { class: 'muted setting-hint' }, hint)),
     box);
 }
 
@@ -178,7 +178,8 @@ export async function renderSettings(root, nav) {
   const account = profile
     ? section('👤 לומד',
       el('p', {}, 'לומד עכשיו: ', profile.avatar, ' ', profile.name),
-      starterToggle(profile),
+      profileToggle(profile, 'starter', 'מסלול ABC למתחילים מאפס', 'אותיות, צלילים ומילים ראשונות לפני השיעור הראשון'),
+      profileToggle(profile, 'voice_typing', 'הקלטה במקום הקלדה', 'בתרגילי כתיבה באנגלית יש כפתור מיקרופון שכותב את מה שאמרתם'),
       el('div', { class: 'row-btns' },
         el('button', { class: 'btn', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } }, '🚪 החלפת לומד'),
         el('button', { class: 'btn', type: 'button', onclick: () => nav('placement') }, '🎯 מבחן רמה')))

@@ -7,7 +7,7 @@ import { glossify, closePop } from '../gloss.js';
 import { speak } from '../speech.js';
 import { getSettings } from '../settings.js';
 import { xpForLesson } from '../streak.js';
-import { saveLessonResult, logAttempt } from '../progress.js';
+import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
 // answered right. Progress bar counts first-time-right plus fixed mistakes.
@@ -17,6 +17,7 @@ const answerIsHebrew = (ex) => ex.type === 'translate_en_he' || (ex.type === 'li
 export async function renderLesson(root, nav, { lessonId }) {
   const lesson = await loadLesson(lessonId);
   const exercises = lesson.exercises.filter(isSupported);
+  const voiceTyping = !!(await getProfile())?.voice_typing;
   const queue = exercises.slice();
   const mistakes = new Set();
   let total = exercises.length;
@@ -85,6 +86,7 @@ export async function renderLesson(root, nav, { lessonId }) {
     const api = rendererFor(ex)(body, ex, {
       gloss: (text) => glossify(text, lesson.new_words),
       track: (k, v) => record(k, v),
+      voiceTyping,
       setReady: (ok) => { checkBtn.disabled = !ok; },
       finish: (clean) => {
         handled = true;
