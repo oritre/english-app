@@ -195,5 +195,28 @@ export async function renderSettings(root, nav) {
       el('div', { class: 'row-btns' },
         el('button', { class: 'btn', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות'),
         el('button', { class: 'btn', type: 'button', onclick: () => nav('sync') }, '🔄 סנכרון בין מכשירים')),
-      el('p', { class: 'muted' }, `גרסה ${APP_VERSION}`))));
+      el('p', { class: 'muted' }, `גרסה ${APP_VERSION}`), updateCheck())));
+}
+
+// Asks the server for the latest version, past the app's own cache. When a newer
+// one exists, drops the cached app files (never the learners' data) and reloads.
+function updateCheck() {
+  const status = el('p', { class: 'muted', 'aria-live': 'polite' });
+  const btn = el('button', { class: 'btn', type: 'button' }, '⬇️ בדיקת עדכונים');
+  btn.addEventListener('click', async () => {
+    status.textContent = 'בודק...';
+    try {
+      const text = await (await fetch(`js/version.js?check=${Date.now()}`, { cache: 'no-store' })).text();
+      const latest = text.match(/APP_VERSION = '(\d+)'/)?.[1];
+      if (!latest) throw new Error('no version');
+      if (Number(latest) <= Number(APP_VERSION)) { status.textContent = 'יש לך את הגרסה האחרונה.'; return; }
+      status.textContent = `מעדכן לגרסה ${latest}...`;
+      for (const r of await navigator.serviceWorker?.getRegistrations?.() || []) await r.unregister();
+      for (const n of await caches.keys()) if (n.startsWith('english-app-')) await caches.delete(n);
+      location.reload();
+    } catch {
+      status.textContent = 'לא הצלחתי לבדוק. בדקו את החיבור לאינטרנט.';
+    }
+  });
+  return el('div', {}, btn, status);
 }
