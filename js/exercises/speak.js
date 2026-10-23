@@ -2,16 +2,20 @@ import { el, en } from '../util.js';
 import { speak } from '../speech.js';
 import { checkSpeech } from '../check.js';
 import { getSettings, setSetting } from '../settings.js';
-import { localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
+import { LOW_MEMORY, localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
 
 export const Recognition = typeof window !== 'undefined' && (window.SpeechRecognition || window.webkitSpeechRecognition);
 const PAUSE_KEY = 'english_app_speak_paused_until';
 
 // 'google' = the browser's speech service; 'local' = Whisper inside the app.
+// Even the 8-bit Whisper runs out of memory on low-memory devices (a 3GB tablet failed and crashed),
+// so there Google is used whenever the browser has it, whatever was picked.
+export const localAsrUsable = () => localAsrSupported() && !(LOW_MEMORY && Recognition);
+
 export function asrEngine() {
   const pick = getSettings().asr;
-  if (pick === 'local' && localAsrSupported()) return 'local';
+  if (pick === 'local' && localAsrUsable()) return 'local';
   if (pick === 'google' && Recognition) return 'google';
   return Recognition ? 'google' : 'local';
 }
@@ -152,7 +156,7 @@ export function renderSpeak(root, ex, { setReady, finish, skip, track, gloss = (
       if (!finalAlts.length) {
         if (failed) return;
         simple = true;
-        useLocal.hidden = !localAsrSupported();
+        useLocal.hidden = !localAsrUsable();
         if (!gotAudio) {
           status.textContent = 'לא הגיע קול לתמלול. אפשר לבדוק את המיקרופון, או לעבור לתמלול בתוך האפליקציה.';
           micTest.hidden = false;

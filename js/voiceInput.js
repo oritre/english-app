@@ -1,5 +1,5 @@
 import { el } from './util.js';
-import { Recognition, asrEngine } from './exercises/speak.js';
+import { Recognition, asrEngine, localAsrUsable } from './exercises/speak.js';
 import { setSetting } from './settings.js';
 import { localAsrSupported, loadLocalAsr, recordUtterance, transcribe } from './localAsr.js';
 import { micErrorTip } from './micTest.js';
@@ -73,14 +73,14 @@ export function voiceInput(input, { track } = {}) {
       status.textContent = e.error === 'no-speech' ? 'לא שמעתי כלום. נסו שוב, קרוב יותר למיקרופון.'
         : (e.error === 'not-allowed' || e.error === 'service-not-allowed' || e.error === 'audio-capture') ? 'אין גישה למיקרופון כאן. אפשר להקליד את התשובה.'
           : 'התמלול לא הצליח. נסו שוב, או עברו לתמלול בתוך האפליקציה.';
-      useLocal.hidden = !localAsrSupported() || e.error === 'no-speech';
+      useLocal.hidden = !localAsrUsable() || e.error === 'no-speech';
     };
     rec.onend = () => {
       mic.classList.remove('on');
       rec = null;
       if (put(text) || failed) return;
       status.textContent = 'לא הצלחתי לתמלל. נסו שוב, או עברו לתמלול בתוך האפליקציה.';
-      useLocal.hidden = !localAsrSupported();
+      useLocal.hidden = !localAsrUsable();
     };
     try { rec.start(); } catch { mic.classList.remove('on'); rec = null; }
   });

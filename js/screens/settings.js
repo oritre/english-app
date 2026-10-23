@@ -2,7 +2,7 @@ import { el, en } from '../util.js';
 import { speak, canSpeak, canSpeakLang, voiceName } from '../speech.js';
 import { getSettings, setSetting } from '../settings.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
-import { Recognition, asrEngine } from '../exercises/speak.js';
+import { Recognition, asrEngine, localAsrUsable } from '../exercises/speak.js';
 import { localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
 import { getProfile, setCurrentProfile, updateProfile } from '../progress.js';
 import { APP_VERSION } from '../version.js';
@@ -139,9 +139,10 @@ function micSection() {
   const engineNote = el('span', { class: 'muted setting-hint' });
   const noteFor = (id) => (id === 'local'
     ? (localAsrDownloaded() ? 'מותקן במכשיר. עובד גם בלי אינטרנט.' : 'הורדה חד־פעמית של כ־65MB בשימוש הראשון.')
-    : 'שירות הזיהוי של הדפדפן. צריך אינטרנט.');
+    : 'שירות הזיהוי של הדפדפן. צריך אינטרנט.' +
+      (localAsrSupported() && !localAsrUsable() ? ' (במכשיר הזה אין מספיק זיכרון למנוע שבתוך האפליקציה)' : ''));
   const engineBtns = engines.map(([id, label]) => {
-    const b = el('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(asrEngine() === id), disabled: (id === 'google' && !Recognition) || (id === 'local' && !localAsrSupported()) }, label);
+    const b = el('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(asrEngine() === id), disabled: (id === 'google' && !Recognition) || (id === 'local' && !localAsrUsable()) }, label);
     b.addEventListener('click', () => {
       setSetting('asr', id);
       // Kept on the learner too, so it follows them to their other devices.

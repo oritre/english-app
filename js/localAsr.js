@@ -8,7 +8,7 @@ const READY_KEY = 'english_app_local_asr_ready';
 const RATE = 16000;
 // Low-memory devices (like a 3GB tablet running 32-bit Chrome) crash the page while the
 // full-precision encoder transcribes; they get the 8-bit one, which needs a quarter of the memory.
-const LOW_MEMORY = (navigator.deviceMemory || 8) <= 4;
+export const LOW_MEMORY = (navigator.deviceMemory || 8) <= 4;
 
 let asrPromise = null;
 
