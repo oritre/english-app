@@ -6,6 +6,9 @@ const TF_URL = 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.8.1/dis
 const MODEL = 'Xenova/whisper-tiny.en';
 const READY_KEY = 'english_app_local_asr_ready';
 const RATE = 16000;
+// Low-memory devices (like a 3GB tablet running 32-bit Chrome) crash the page while the
+// full-precision encoder transcribes; they get the 8-bit one, which needs a quarter of the memory.
+const LOW_MEMORY = (navigator.deviceMemory || 8) <= 4;
 
 let asrPromise = null;
 
@@ -25,7 +28,7 @@ export function loadLocalAsr(onProgress) {
       const asr = await tf.pipeline('automatic-speech-recognition', MODEL, {
         device: 'wasm',
         // A full-precision encoder keeps recognition accurate; the quantized decoder keeps the download small.
-        dtype: { encoder_model: 'fp32', decoder_model_merged: 'q8' },
+        dtype: { encoder_model: LOW_MEMORY ? 'q8' : 'fp32', decoder_model_merged: 'q8' },
         progress_callback: (p) => {
           if (p.status !== 'progress' || !p.total) return;
           files[p.file] = [p.loaded, p.total];
