@@ -1,0 +1,157 @@
+{
+ "id": "x1",
+ "unit_id": "unseen",
+ "title_he": "אנסין: טיול לילה במדבר",
+ "unseen": true,
+ "new_words": {
+  "guide": "מדריך",
+  "woke": "העיר (wake ← woke)",
+  "quietly": "בשקט",
+  "hill": "גבעה",
+  "believe": "להאמין",
+  "thousands": "אלפים",
+  "lay": "שכבו (lie ← lay)",
+  "shapes": "צורות",
+  "usually": "בדרך כלל",
+  "silent": "שקט, דומם",
+  "silence": "שקט",
+  "whole": "כל ה־, שלם"
+ },
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "guide",
+     "מדריך"
+    ],
+    [
+     "woke",
+     "העיר (wake ← woke)"
+    ],
+    [
+     "quietly",
+     "בשקט"
+    ],
+    [
+     "hill",
+     "גבעה"
+    ],
+    [
+     "believe",
+     "להאמין"
+    ]
+   ],
+   "id": "x1e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "thousands",
+     "אלפים"
+    ],
+    [
+     "lay",
+     "שכבו (lie ← lay)"
+    ],
+    [
+     "shapes",
+     "צורות"
+    ],
+    [
+     "usually",
+     "בדרך כלל"
+    ],
+    [
+     "silent",
+     "שקט, דומם"
+    ]
+   ],
+   "id": "x1e2"
+  },
+  {
+   "type": "read",
+   "passage": "Last spring, the eighth graders of Ramon School went on a three-day trip to the Negev desert. On the first night, their guide, Eli, woke them up at two in the morning. \"Bring your coats and follow me,\" he said. Nobody understood why, but they walked quietly behind him to the top of a small hill. When they looked up, they could not believe their eyes. The sky was full of thousands of stars. \"In the city we can't see them because of the lights,\" Eli explained. Some students lay on the cold sand and tried to find shapes in the sky. Noa, who usually hates getting up early, said it was the best night of the whole year. Before they went back to sleep, Eli asked everyone to stay silent for one minute and just listen. \"That is the sound of the desert,\" he said. \"Silence.\"",
+   "question": "Where did the students go?",
+   "answer": "to the Negev desert",
+   "options": [
+    "to the Negev desert",
+    "to the beach",
+    "to a big city"
+   ],
+   "explain_he": "בהתחלה כתוב: went on a three-day trip to the Negev desert.",
+   "id": "x1e3"
+  },
+  {
+   "type": "read",
+   "passage": "Last spring, the eighth graders of Ramon School went on a three-day trip to the Negev desert. On the first night, their guide, Eli, woke them up at two in the morning. \"Bring your coats and follow me,\" he said. Nobody understood why, but they walked quietly behind him to the top of a small hill. When they looked up, they could not believe their eyes. The sky was full of thousands of stars. \"In the city we can't see them because of the lights,\" Eli explained. Some students lay on the cold sand and tried to find shapes in the sky. Noa, who usually hates getting up early, said it was the best night of the whole year. Before they went back to sleep, Eli asked everyone to stay silent for one minute and just listen. \"That is the sound of the desert,\" he said. \"Silence.\"",
+   "question": "Why did Eli wake the students up at night?",
+   "answer": "to show them the stars",
+   "options": [
+    "to show them the stars",
+    "to go home early",
+    "because it was cold"
+   ],
+   "explain_he": "הם עלו לגבעה וראו שמיים מלאים בכוכבים: The sky was full of thousands of stars.",
+   "id": "x1e4"
+  },
+  {
+   "type": "read",
+   "passage": "Last spring, the eighth graders of Ramon School went on a three-day trip to the Negev desert. On the first night, their guide, Eli, woke them up at two in the morning. \"Bring your coats and follow me,\" he said. Nobody understood why, but they walked quietly behind him to the top of a small hill. When they looked up, they could not believe their eyes. The sky was full of thousands of stars. \"In the city we can't see them because of the lights,\" Eli explained. Some students lay on the cold sand and tried to find shapes in the sky. Noa, who usually hates getting up early, said it was the best night of the whole year. Before they went back to sleep, Eli asked everyone to stay silent for one minute and just listen. \"That is the sound of the desert,\" he said. \"Silence.\"",
+   "question": "Why can't we see many stars in the city?",
+   "answer": "because of the lights",
+   "options": [
+    "because of the lights",
+    "because of the rain",
+    "because people sleep"
+   ],
+   "explain_he": "אלי מסביר: In the city we can't see them because of the lights.",
+   "id": "x1e5"
+  },
+  {
+   "type": "speak",
+   "text": "The sky was full of thousands of stars.",
+   "alternatives": [],
+   "id": "x1e6"
+  },
+  {
+   "type": "read",
+   "passage": "Last spring, the eighth graders of Ramon School went on a three-day trip to the Negev desert. On the first night, their guide, Eli, woke them up at two in the morning. \"Bring your coats and follow me,\" he said. Nobody understood why, but they walked quietly behind him to the top of a small hill. When they looked up, they could not believe their eyes. The sky was full of thousands of stars. \"In the city we can't see them because of the lights,\" Eli explained. Some students lay on the cold sand and tried to find shapes in the sky. Noa, who usually hates getting up early, said it was the best night of the whole year. Before they went back to sleep, Eli asked everyone to stay silent for one minute and just listen. \"That is the sound of the desert,\" he said. \"Silence.\"",
+   "question": "The word \"silent\" means:",
+   "answer": "without any noise",
+   "options": [
+    "without any noise",
+    "very cold",
+    "very fast"
+   ],
+   "explain_he": "silent = שקט, בלי רעש. בסוף אלי אומר שהקול של המדבר הוא Silence.",
+   "id": "x1e7"
+  },
+  {
+   "type": "read",
+   "passage": "Last spring, the eighth graders of Ramon School went on a three-day trip to the Negev desert. On the first night, their guide, Eli, woke them up at two in the morning. \"Bring your coats and follow me,\" he said. Nobody understood why, but they walked quietly behind him to the top of a small hill. When they looked up, they could not believe their eyes. The sky was full of thousands of stars. \"In the city we can't see them because of the lights,\" Eli explained. Some students lay on the cold sand and tried to find shapes in the sky. Noa, who usually hates getting up early, said it was the best night of the whole year. Before they went back to sleep, Eli asked everyone to stay silent for one minute and just listen. \"That is the sound of the desert,\" he said. \"Silence.\"",
+   "question": "נכון או לא נכון: נועה בדרך כלל אוהבת לקום מוקדם.",
+   "answer": "לא נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "כתוב: Noa, who usually hates getting up early. כלומר היא בדרך כלל שונאת לקום מוקדם.",
+   "id": "x1e8"
+  },
+  {
+   "type": "read",
+   "passage": "Last spring, the eighth graders of Ramon School went on a three-day trip to the Negev desert. On the first night, their guide, Eli, woke them up at two in the morning. \"Bring your coats and follow me,\" he said. Nobody understood why, but they walked quietly behind him to the top of a small hill. When they looked up, they could not believe their eyes. The sky was full of thousands of stars. \"In the city we can't see them because of the lights,\" Eli explained. Some students lay on the cold sand and tried to find shapes in the sky. Noa, who usually hates getting up early, said it was the best night of the whole year. Before they went back to sleep, Eli asked everyone to stay silent for one minute and just listen. \"That is the sound of the desert,\" he said. \"Silence.\"",
+   "question": "What did Noa think about the night?",
+   "answer": "It was the best night of the year.",
+   "options": [
+    "It was the best night of the year.",
+    "It was too cold.",
+    "It was boring."
+   ],
+   "explain_he": "כתוב: said it was the best night of the whole year.",
+   "id": "x1e9"
+  }
+ ]
+}

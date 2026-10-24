@@ -1,0 +1,171 @@
+{
+ "id": "x3",
+ "unit_id": "unseen",
+ "title_he": "אנסין: מאיה והבקבוקים",
+ "unseen": true,
+ "new_words": {
+  "plastic": "פלסטיק",
+  "ground": "אדמה, רצפה",
+  "decided": "החליטה",
+  "gate": "שער",
+  "sign": "שלט",
+  "competition": "תחרות",
+  "collected": "אספו",
+  "recycling": "מחזור",
+  "company": "חברה",
+  "benches": "ספסלים",
+  "bench": "ספסל",
+  "mayor": "ראש העיר",
+  "famous": "מפורסם"
+ },
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "plastic",
+     "פלסטיק"
+    ],
+    [
+     "ground",
+     "אדמה, רצפה"
+    ],
+    [
+     "decided",
+     "החליטה"
+    ],
+    [
+     "gate",
+     "שער"
+    ],
+    [
+     "sign",
+     "שלט"
+    ]
+   ],
+   "id": "x3e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "competition",
+     "תחרות"
+    ],
+    [
+     "collected",
+     "אספו"
+    ],
+    [
+     "recycling",
+     "מחזור"
+    ],
+    [
+     "company",
+     "חברה"
+    ],
+    [
+     "benches",
+     "ספסלים"
+    ]
+   ],
+   "id": "x3e2"
+  },
+  {
+   "type": "read",
+   "passage": "When Maya walked to school, she always saw plastic bottles on the ground near the park. One day she decided to do something. She put a big box at the school gate with a sign: \"Bring your bottles here!\" At first only a few students used it. Then Maya had a better idea. She made a competition between the classes: the class that collected the most bottles would win a pizza party. In one month the students collected more than three thousand bottles. A recycling company took them and turned the plastic into new things, like benches. The mayor heard about the project and visited the school. Now there is a new green bench in the park, made from the students' bottles. \"It started with one box,\" Maya says. \"You don't have to be famous to change something.\"",
+   "question": "What did Maya see near the park?",
+   "answer": "plastic bottles",
+   "options": [
+    "plastic bottles",
+    "a pizza",
+    "new benches"
+   ],
+   "explain_he": "כתוב: she always saw plastic bottles on the ground near the park.",
+   "id": "x3e3"
+  },
+  {
+   "type": "read",
+   "passage": "When Maya walked to school, she always saw plastic bottles on the ground near the park. One day she decided to do something. She put a big box at the school gate with a sign: \"Bring your bottles here!\" At first only a few students used it. Then Maya had a better idea. She made a competition between the classes: the class that collected the most bottles would win a pizza party. In one month the students collected more than three thousand bottles. A recycling company took them and turned the plastic into new things, like benches. The mayor heard about the project and visited the school. Now there is a new green bench in the park, made from the students' bottles. \"It started with one box,\" Maya says. \"You don't have to be famous to change something.\"",
+   "question": "Where did Maya put the box?",
+   "answer": "at the school gate",
+   "options": [
+    "at the school gate",
+    "in the park",
+    "in her house"
+   ],
+   "explain_he": "כתוב: She put a big box at the school gate.",
+   "id": "x3e4"
+  },
+  {
+   "type": "read",
+   "passage": "When Maya walked to school, she always saw plastic bottles on the ground near the park. One day she decided to do something. She put a big box at the school gate with a sign: \"Bring your bottles here!\" At first only a few students used it. Then Maya had a better idea. She made a competition between the classes: the class that collected the most bottles would win a pizza party. In one month the students collected more than three thousand bottles. A recycling company took them and turned the plastic into new things, like benches. The mayor heard about the project and visited the school. Now there is a new green bench in the park, made from the students' bottles. \"It started with one box,\" Maya says. \"You don't have to be famous to change something.\"",
+   "question": "Why did more students start bringing bottles?",
+   "answer": "because of the competition",
+   "options": [
+    "because of the competition",
+    "because it rained",
+    "because the mayor asked"
+   ],
+   "explain_he": "אחרי שמאיה עשתה תחרות בין הכיתות, עם מסיבת פיצה לכיתה המנצחת, אספו יותר מ־3,000 בקבוקים.",
+   "id": "x3e5"
+  },
+  {
+   "type": "speak",
+   "text": "You don't have to be famous to change something.",
+   "alternatives": [],
+   "id": "x3e6"
+  },
+  {
+   "type": "read",
+   "passage": "When Maya walked to school, she always saw plastic bottles on the ground near the park. One day she decided to do something. She put a big box at the school gate with a sign: \"Bring your bottles here!\" At first only a few students used it. Then Maya had a better idea. She made a competition between the classes: the class that collected the most bottles would win a pizza party. In one month the students collected more than three thousand bottles. A recycling company took them and turned the plastic into new things, like benches. The mayor heard about the project and visited the school. Now there is a new green bench in the park, made from the students' bottles. \"It started with one box,\" Maya says. \"You don't have to be famous to change something.\"",
+   "question": "The word \"collected\" means:",
+   "answer": "brought together",
+   "options": [
+    "brought together",
+    "threw away",
+    "broke"
+   ],
+   "explain_he": "collect = לאסוף. The class that collected the most bottles: הכיתה שאספה הכי הרבה בקבוקים.",
+   "id": "x3e7"
+  },
+  {
+   "type": "read",
+   "passage": "When Maya walked to school, she always saw plastic bottles on the ground near the park. One day she decided to do something. She put a big box at the school gate with a sign: \"Bring your bottles here!\" At first only a few students used it. Then Maya had a better idea. She made a competition between the classes: the class that collected the most bottles would win a pizza party. In one month the students collected more than three thousand bottles. A recycling company took them and turned the plastic into new things, like benches. The mayor heard about the project and visited the school. Now there is a new green bench in the park, made from the students' bottles. \"It started with one box,\" Maya says. \"You don't have to be famous to change something.\"",
+   "question": "What did the recycling company make from the bottles?",
+   "answer": "benches",
+   "options": [
+    "benches",
+    "new bottles",
+    "pizza boxes"
+   ],
+   "explain_he": "כתוב: turned the plastic into new things, like benches.",
+   "id": "x3e8"
+  },
+  {
+   "type": "read",
+   "passage": "When Maya walked to school, she always saw plastic bottles on the ground near the park. One day she decided to do something. She put a big box at the school gate with a sign: \"Bring your bottles here!\" At first only a few students used it. Then Maya had a better idea. She made a competition between the classes: the class that collected the most bottles would win a pizza party. In one month the students collected more than three thousand bottles. A recycling company took them and turned the plastic into new things, like benches. The mayor heard about the project and visited the school. Now there is a new green bench in the park, made from the students' bottles. \"It started with one box,\" Maya says. \"You don't have to be famous to change something.\"",
+   "question": "נכון או לא נכון: ראש העיר ביקר בבית הספר.",
+   "answer": "נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "כתוב: The mayor heard about the project and visited the school.",
+   "id": "x3e9"
+  },
+  {
+   "type": "read",
+   "passage": "When Maya walked to school, she always saw plastic bottles on the ground near the park. One day she decided to do something. She put a big box at the school gate with a sign: \"Bring your bottles here!\" At first only a few students used it. Then Maya had a better idea. She made a competition between the classes: the class that collected the most bottles would win a pizza party. In one month the students collected more than three thousand bottles. A recycling company took them and turned the plastic into new things, like benches. The mayor heard about the project and visited the school. Now there is a new green bench in the park, made from the students' bottles. \"It started with one box,\" Maya says. \"You don't have to be famous to change something.\"",
+   "question": "What is the main message of the story?",
+   "answer": "Anyone can make a change.",
+   "options": [
+    "Anyone can make a change.",
+    "Pizza is the best prize.",
+    "Plastic is strong."
+   ],
+   "explain_he": "מאיה אומרת: You don't have to be famous to change something. לא צריך להיות מפורסם כדי לשנות משהו.",
+   "id": "x3e10"
+  }
+ ]
+}

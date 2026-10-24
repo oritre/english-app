@@ -8,6 +8,7 @@ import os
 import re
 
 from starter_content import STARTER_UNITS
+from unseen_content import UNSEENS
 
 ROOT = os.path.join(os.path.dirname(__file__), '..', 'data')
 
@@ -660,6 +661,19 @@ def main():
             course['lesson_titles'][lesson_id] = title_he
             ids.append(lesson_id)
         course['starter_units'].append({k: unit[k] for k in ('id', 'title_he', 'title_en')} | {'cefr': 'ABC', 'lessons': ids})
+    # Unseens for middle school: their own track, outside the path. Each one
+    # pre-teaches its hardest words, then asks about the passage.
+    course['unseen'] = []
+    for lesson_id, title_he, passage, glossary, questions, speak_line in UNSEENS:
+        words_ = list(glossary.items())
+        warmup = [M(*words_[i:i + 5]) for i in range(0, min(len(words_), 10), 5)]
+        exercises = warmup + reading_lesson(passage, questions, speak_line)
+        for i, ex in enumerate(exercises):
+            ex['id'] = f'{lesson_id}e{i + 1}'
+        lessons_out.append({'id': lesson_id, 'unit_id': 'unseen', 'title_he': title_he, 'unseen': True,
+                            'new_words': dict(glossary), 'exercises': exercises})
+        course['lesson_titles'][lesson_id] = title_he
+        course['unseen'].append(lesson_id)
     for lesson in lessons_out:
         with open(os.path.join(ROOT, 'lessons', f"{lesson['id']}.json"), 'w', encoding='utf-8') as f:
             json.dump(lesson, f, ensure_ascii=False, indent=1)
@@ -669,6 +683,7 @@ def main():
     starter = sum(len(l[2]) for u in STARTER_UNITS for l in u['lessons'])
     print(f"ABC: {len(STARTER_UNITS)} units, {sum(len(u['lessons']) for u in STARTER_UNITS)} lessons, {starter} exercises")
     print(f"{len(UNITS)} units, {sum(len(u['lessons']) for u in UNITS)} lessons, {total} exercises, {len(READINGS)} reading bonuses")
+    print(f"{len(UNSEENS)} unseens")
 
 
 if __name__ == '__main__':

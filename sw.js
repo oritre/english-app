@@ -6,9 +6,9 @@ const ASR_CACHE = 'asr-lib-3.8.1';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './css/styles.css',
   './js/app.js', './js/polyfills.js', './js/check.js', './js/course.js', './js/dates.js', './js/db.js',
-  './js/progress.js', './js/placement.js', './js/league.js', './js/report.js', './js/grammar.js', './js/gloss.js', './js/sync.js', './js/firebaseConfig.js', './js/speech.js', './js/streak.js', './js/util.js', './js/settings.js', './js/version.js', './js/micTest.js', './js/localAsr.js', './js/voiceInput.js', './js/coach.js',
+  './js/progress.js', './js/placement.js', './js/league.js', './js/report.js', './js/grammar.js', './js/gloss.js', './js/sync.js', './js/firebaseConfig.js', './js/speech.js', './js/streak.js', './js/util.js', './js/settings.js', './js/version.js', './js/micTest.js', './js/localAsr.js', './js/voiceInput.js', './js/coach.js', './js/talk.js',
   './js/screens/path.js', './js/screens/lesson.js', './js/screens/complete.js',
-  './js/screens/profiles.js', './js/screens/placement.js', './js/screens/league.js', './js/screens/report.js', './js/screens/syncSetup.js', './js/screens/settings.js',
+  './js/screens/profiles.js', './js/screens/placement.js', './js/screens/league.js', './js/screens/report.js', './js/screens/syncSetup.js', './js/screens/settings.js', './js/screens/talk.js',
   './js/exercises/index.js', './js/exercises/choose.js', './js/exercises/wordBank.js',
   './js/exercises/matchPairs.js', './js/exercises/fillBlank.js', './js/exercises/listenType.js', './js/exercises/listenTranslate.js', './js/exercises/speak.js', './js/exercises/typeTranslate.js', './js/exercises/read.js', './js/exercises/teach.js', './js/exercises/pick.js', './js/exercises/spell.js',
   './data/course.json', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/favicon-32.png', './icons/apple-touch-icon.png', './favicon.ico',

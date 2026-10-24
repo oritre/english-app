@@ -1,0 +1,159 @@
+{
+ "id": "x4",
+ "unit_id": "unseen",
+ "title_he": "אנסין: מאיפה באה הפיצה?",
+ "unseen": true,
+ "new_words": {
+  "popular": "פופולרי, אהוב",
+  "ago": "לפני (two hundred years ago)",
+  "cheap": "זול",
+  "poor": "עני",
+  "workers": "פועלים",
+  "queen": "מלכה",
+  "cook": "טבח",
+  "cheese": "גבינה",
+  "basil": "בזיליקום",
+  "flag": "דגל",
+  "soldiers": "חיילים",
+  "pineapple": "אננס",
+  "although": "למרות ש",
+  "terrible": "נורא"
+ },
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "popular",
+     "פופולרי, אהוב"
+    ],
+    [
+     "ago",
+     "לפני (two hundred years ago)"
+    ],
+    [
+     "cheap",
+     "זול"
+    ],
+    [
+     "poor",
+     "עני"
+    ],
+    [
+     "workers",
+     "פועלים"
+    ]
+   ],
+   "id": "x4e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "queen",
+     "מלכה"
+    ],
+    [
+     "cook",
+     "טבח"
+    ],
+    [
+     "cheese",
+     "גבינה"
+    ],
+    [
+     "basil",
+     "בזיליקום"
+    ],
+    [
+     "flag",
+     "דגל"
+    ]
+   ],
+   "id": "x4e2"
+  },
+  {
+   "type": "read",
+   "passage": "Pizza is one of the most popular foods in the world, but it was not always like this. About two hundred years ago, in the city of Naples in Italy, pizza was cheap food for poor workers. They bought it in the street and ate it quickly. In 1889, the Queen of Italy visited Naples. A cook named Raffaele Esposito made her a special pizza with tomatoes, white cheese and green basil, the colors of the Italian flag. The queen loved it, and the pizza got her name: Margherita. Later, many Italians moved to the United States and opened pizza shops there. After World War Two, American soldiers who had eaten pizza in Italy wanted it at home too. Today people eat pizza with almost everything on top, even pineapple, although many Italians think that is a terrible idea!",
+   "question": "Who ate pizza in Naples two hundred years ago?",
+   "answer": "poor workers",
+   "options": [
+    "poor workers",
+    "the queen",
+    "American soldiers"
+   ],
+   "explain_he": "כתוב: pizza was cheap food for poor workers.",
+   "id": "x4e3"
+  },
+  {
+   "type": "read",
+   "passage": "Pizza is one of the most popular foods in the world, but it was not always like this. About two hundred years ago, in the city of Naples in Italy, pizza was cheap food for poor workers. They bought it in the street and ate it quickly. In 1889, the Queen of Italy visited Naples. A cook named Raffaele Esposito made her a special pizza with tomatoes, white cheese and green basil, the colors of the Italian flag. The queen loved it, and the pizza got her name: Margherita. Later, many Italians moved to the United States and opened pizza shops there. After World War Two, American soldiers who had eaten pizza in Italy wanted it at home too. Today people eat pizza with almost everything on top, even pineapple, although many Italians think that is a terrible idea!",
+   "question": "Why did the cook use tomatoes, white cheese and basil?",
+   "answer": "They are the colors of the Italian flag.",
+   "options": [
+    "They are the colors of the Italian flag.",
+    "They were cheap.",
+    "The queen asked for them."
+   ],
+   "explain_he": "כתוב: the colors of the Italian flag: אדום, לבן וירוק.",
+   "id": "x4e4"
+  },
+  {
+   "type": "read",
+   "passage": "Pizza is one of the most popular foods in the world, but it was not always like this. About two hundred years ago, in the city of Naples in Italy, pizza was cheap food for poor workers. They bought it in the street and ate it quickly. In 1889, the Queen of Italy visited Naples. A cook named Raffaele Esposito made her a special pizza with tomatoes, white cheese and green basil, the colors of the Italian flag. The queen loved it, and the pizza got her name: Margherita. Later, many Italians moved to the United States and opened pizza shops there. After World War Two, American soldiers who had eaten pizza in Italy wanted it at home too. Today people eat pizza with almost everything on top, even pineapple, although many Italians think that is a terrible idea!",
+   "question": "Where does the name \"Margherita\" come from?",
+   "answer": "from the queen",
+   "options": [
+    "from the queen",
+    "from the cook",
+    "from a city"
+   ],
+   "explain_he": "כתוב: the pizza got her name: Margherita. ה־her זו המלכה.",
+   "id": "x4e5"
+  },
+  {
+   "type": "speak",
+   "text": "Pizza is one of the most popular foods in the world.",
+   "alternatives": [],
+   "id": "x4e6"
+  },
+  {
+   "type": "read",
+   "passage": "Pizza is one of the most popular foods in the world, but it was not always like this. About two hundred years ago, in the city of Naples in Italy, pizza was cheap food for poor workers. They bought it in the street and ate it quickly. In 1889, the Queen of Italy visited Naples. A cook named Raffaele Esposito made her a special pizza with tomatoes, white cheese and green basil, the colors of the Italian flag. The queen loved it, and the pizza got her name: Margherita. Later, many Italians moved to the United States and opened pizza shops there. After World War Two, American soldiers who had eaten pizza in Italy wanted it at home too. Today people eat pizza with almost everything on top, even pineapple, although many Italians think that is a terrible idea!",
+   "question": "The word \"cheap\" means:",
+   "answer": "it doesn't cost a lot of money",
+   "options": [
+    "it doesn't cost a lot of money",
+    "it tastes very good",
+    "it is very hot"
+   ],
+   "explain_he": "cheap = זול. הפיצה הייתה אוכל זול לפועלים עניים.",
+   "id": "x4e7"
+  },
+  {
+   "type": "read",
+   "passage": "Pizza is one of the most popular foods in the world, but it was not always like this. About two hundred years ago, in the city of Naples in Italy, pizza was cheap food for poor workers. They bought it in the street and ate it quickly. In 1889, the Queen of Italy visited Naples. A cook named Raffaele Esposito made her a special pizza with tomatoes, white cheese and green basil, the colors of the Italian flag. The queen loved it, and the pizza got her name: Margherita. Later, many Italians moved to the United States and opened pizza shops there. After World War Two, American soldiers who had eaten pizza in Italy wanted it at home too. Today people eat pizza with almost everything on top, even pineapple, although many Italians think that is a terrible idea!",
+   "question": "How did pizza become popular in the United States?",
+   "answer": "Italians opened pizza shops there.",
+   "options": [
+    "Italians opened pizza shops there.",
+    "The queen moved there.",
+    "It was invented there."
+   ],
+   "explain_he": "כתוב: many Italians moved to the United States and opened pizza shops there.",
+   "id": "x4e8"
+  },
+  {
+   "type": "read",
+   "passage": "Pizza is one of the most popular foods in the world, but it was not always like this. About two hundred years ago, in the city of Naples in Italy, pizza was cheap food for poor workers. They bought it in the street and ate it quickly. In 1889, the Queen of Italy visited Naples. A cook named Raffaele Esposito made her a special pizza with tomatoes, white cheese and green basil, the colors of the Italian flag. The queen loved it, and the pizza got her name: Margherita. Later, many Italians moved to the United States and opened pizza shops there. After World War Two, American soldiers who had eaten pizza in Italy wanted it at home too. Today people eat pizza with almost everything on top, even pineapple, although many Italians think that is a terrible idea!",
+   "question": "נכון או לא נכון: כל האיטלקים אוהבים פיצה עם אננס.",
+   "answer": "לא נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "כתוב: many Italians think that is a terrible idea. הרבה איטלקים חושבים שזה רעיון נורא.",
+   "id": "x4e9"
+  }
+ ]
+}

@@ -4,6 +4,7 @@ import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile } fr
 import { TIERS } from '../league.js';
 import { APP_VERSION } from '../version.js';
 import { COACH_LESSON, hasCoach, coachModules } from '../coach.js';
+import { talkSupported } from '../talk.js';
 
 export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
@@ -77,13 +78,27 @@ export async function renderPath(root, nav) {
     el('span', {}, el('span', { class: 'coach-mod-title' }, ...mixed(m.title_he || 'תרגול')),
       m.about_he ? el('span', { class: 'muted coach-mod-about' }, ...mixed(m.about_he)) : null))))) : null;
 
+  // Middle-school extras: a spoken lesson with the AI tutor, and unseen reading passages.
+  const talk = profile.talk && talkSupported() ? el('button', { class: 'talk-card', type: 'button', onclick: () => nav('talk') },
+    el('span', { class: 'talk-card-icon' }, '🗣️'),
+    el('span', {}, el('span', { class: 'talk-card-title' }, 'שיחה באנגלית עם ', en('Sam')),
+      el('span', { class: 'muted' }, 'מדברים בקול, והמורה מתקן ומסביר תוך כדי'))) : null;
+  const unseenIds = course.unseen || [];
+  const unseenList = unseenIds.length ? el('div', { class: 'unseen-list' }, unseenIds.map((id) => el('button', {
+    class: `unseen-item ${done.includes(id) ? 'done' : ''}`, type: 'button', onclick: () => nav('lesson', { lessonId: id }),
+  }, el('span', { class: 'coach-mod-mark' }, done.includes(id) ? '✓' : '📖'), ...mixed((titles[id] || id).replace(/^אנסין: /, ''))))) : null;
+  const unseen = !unseenList ? null : profile.unseen
+    ? el('section', { class: 'unseen-card' }, el('h2', {}, '📖 אנסינים: קריאה והבנה'), unseenList)
+    : el('details', { class: 'starter-fold' }, el('summary', {}, '📖 אנסינים: קטעי קריאה לחטיבת ביניים'), unseenList);
+
   const test = el('button', { class: 'retest', type: 'button', onclick: () => nav('placement') },
     '🎯 ', profile.placement ? 'לעשות שוב את מבחן הרמה' : 'מבחן רמה: לקפוץ קדימה');
   // Logging out clears the current learner, so the next open lands on the learner picker.
   const logout = el('button', { class: 'retest', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } },
     '🚪 התנתקות (מעבר ללומד אחר)');
-  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), coach, units, test, logout,
+  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`)));
-  const current = coach && !coachDone ? coach : root.querySelector('.node.current');
+  // Learners on the talk / unseen track start at the top, where those cards are.
+  const current = coach && !coachDone ? coach : talk || profile.unseen ? null : root.querySelector('.node.current');
   if (current) current.scrollIntoView({ block: 'center' });
 }

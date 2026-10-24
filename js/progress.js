@@ -166,6 +166,16 @@ export async function logAttempt({ lessonId, exercise, outcome, ms, source = 'le
   });
 }
 
+// A spoken conversation: kept with the attempts (so it syncs) but apart from exercise stats.
+export async function logTalk({ topic, sec, transcript }) {
+  if (!currentId) return;
+  await store.put('attempts', {
+    id: newId(), profile_id: currentId, lesson_id: 'talk', exercise_id: `talk-${topic}`, type: 'talk', source: 'talk',
+    outcome: 'talk', ms: sec * 1000, date: localISO(), at: Date.now(), hour: new Date().getHours(),
+    topic, transcript: transcript.slice(0, 200).map((t) => ({ who: t.who, text: t.text.slice(0, 600) })),
+  });
+}
+
 export async function reportData(profileId) {
   const [profile, attempts, results, days, progress] = await Promise.all([
     store.get('profiles', profileId),
@@ -174,7 +184,7 @@ export async function reportData(profileId) {
     store.byIndex('days', 'profile_id', profileId),
     store.byIndex('progress', 'profile_id', profileId),
   ]);
-  return { profile, attempts, results, days, progress };
+  return { profile, attempts: attempts.filter((a) => a.type !== 'talk'), talks: attempts.filter((a) => a.type === 'talk'), results, days, progress };
 }
 
 // After pulling from other devices, rebuild each day's XP from the lesson

@@ -8,6 +8,7 @@ import { renderLeague } from './screens/league.js';
 import { renderReports, renderReport } from './screens/report.js';
 import { renderSync, syncOnLoad } from './screens/syncSetup.js';
 import { renderSettings } from './screens/settings.js';
+import { renderTalk, leaveTalk } from './screens/talk.js';
 import { getProfile, setCurrentProfile } from './progress.js';
 import { el } from './util.js';
 
@@ -24,9 +25,10 @@ const routes = {
   lesson: renderLesson,
   complete: renderComplete,
   settings: renderSettings,
+  talk: renderTalk,
 };
 // Lesson-like screens have their own footer and a 🏠 in their top bar instead.
-const NO_TABS = new Set(['lesson', 'placement']);
+const NO_TABS = new Set(['lesson', 'placement', 'talk']);
 const root = document.getElementById('app');
 
 async function home() {
@@ -56,6 +58,7 @@ function nav(route, params = {}) {
     .then((r) => {
       // A new version waiting from earlier loads as soon as the learner leaves a lesson.
       if (updateReady && !NO_TABS.has(r)) { location.reload(); return null; }
+      if (screen === 'talk') leaveTalk();
       screen = r;
       showTabs(r);
       return routes[r](root, nav, params);

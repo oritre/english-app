@@ -1,0 +1,161 @@
+{
+ "id": "x5",
+ "unit_id": "unseen",
+ "title_he": "אנסין: המשחק האחרון",
+ "unseen": true,
+ "new_words": {
+  "season": "עונה",
+  "losing": "מפסידים",
+  "seconds": "שניות",
+  "suddenly": "פתאום",
+  "hurt": "נפגע, פצע",
+  "coach": "מאמן",
+  "shaking": "רעדו",
+  "passed": "מסר (כדור)",
+  "missed": "החטיא",
+  "shot": "זריקה לסל",
+  "caught": "תפס (catch ← caught)",
+  "ring": "טבעת, חישוק",
+  "screamed": "צעקו",
+  "practice": "אימון",
+  "ready": "מוכן"
+ },
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "season",
+     "עונה"
+    ],
+    [
+     "losing",
+     "מפסידים"
+    ],
+    [
+     "seconds",
+     "שניות"
+    ],
+    [
+     "suddenly",
+     "פתאום"
+    ],
+    [
+     "hurt",
+     "נפגע, פצע"
+    ]
+   ],
+   "id": "x5e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "coach",
+     "מאמן"
+    ],
+    [
+     "shaking",
+     "רעדו"
+    ],
+    [
+     "passed",
+     "מסר (כדור)"
+    ],
+    [
+     "missed",
+     "החטיא"
+    ],
+    [
+     "shot",
+     "זריקה לסל"
+    ]
+   ],
+   "id": "x5e2"
+  },
+  {
+   "type": "read",
+   "passage": "Omer was the smallest player on his basketball team, and he usually sat on the bench. In the last game of the season, his team was losing by one point, and there were only ten seconds left. Suddenly, their best player hurt his leg. The coach looked at the bench and called Omer's name. Omer's hands were shaking. He got the ball and ran. A tall player stood in front of him, so he passed the ball to his friend Yoni. Yoni missed the shot, but Omer jumped, caught the ball and threw it again. The ball hit the ring, went around it twice, and fell in. Everybody screamed. After the game, the coach told Omer, \"You didn't play a lot this year, but you came to every practice. That's why you were ready.\"",
+   "question": "Why did Omer usually sit on the bench?",
+   "answer": "He was the smallest player.",
+   "options": [
+    "He was the smallest player.",
+    "He was hurt.",
+    "He didn't like basketball."
+   ],
+   "explain_he": "כתוב: Omer was the smallest player on his team, and he usually sat on the bench.",
+   "id": "x5e3"
+  },
+  {
+   "type": "read",
+   "passage": "Omer was the smallest player on his basketball team, and he usually sat on the bench. In the last game of the season, his team was losing by one point, and there were only ten seconds left. Suddenly, their best player hurt his leg. The coach looked at the bench and called Omer's name. Omer's hands were shaking. He got the ball and ran. A tall player stood in front of him, so he passed the ball to his friend Yoni. Yoni missed the shot, but Omer jumped, caught the ball and threw it again. The ball hit the ring, went around it twice, and fell in. Everybody screamed. After the game, the coach told Omer, \"You didn't play a lot this year, but you came to every practice. That's why you were ready.\"",
+   "question": "Why did the coach call Omer?",
+   "answer": "The best player hurt his leg.",
+   "options": [
+    "The best player hurt his leg.",
+    "Omer asked to play.",
+    "The game was over."
+   ],
+   "explain_he": "כתוב: their best player hurt his leg. The coach ... called Omer's name.",
+   "id": "x5e4"
+  },
+  {
+   "type": "read",
+   "passage": "Omer was the smallest player on his basketball team, and he usually sat on the bench. In the last game of the season, his team was losing by one point, and there were only ten seconds left. Suddenly, their best player hurt his leg. The coach looked at the bench and called Omer's name. Omer's hands were shaking. He got the ball and ran. A tall player stood in front of him, so he passed the ball to his friend Yoni. Yoni missed the shot, but Omer jumped, caught the ball and threw it again. The ball hit the ring, went around it twice, and fell in. Everybody screamed. After the game, the coach told Omer, \"You didn't play a lot this year, but you came to every practice. That's why you were ready.\"",
+   "question": "How did Omer feel when he got into the game?",
+   "answer": "nervous",
+   "options": [
+    "nervous",
+    "bored",
+    "angry"
+   ],
+   "explain_he": "כתוב: Omer's hands were shaking. ידיים רועדות = לחוץ (nervous).",
+   "id": "x5e5"
+  },
+  {
+   "type": "speak",
+   "text": "You came to every practice. That's why you were ready.",
+   "alternatives": [],
+   "id": "x5e6"
+  },
+  {
+   "type": "read",
+   "passage": "Omer was the smallest player on his basketball team, and he usually sat on the bench. In the last game of the season, his team was losing by one point, and there were only ten seconds left. Suddenly, their best player hurt his leg. The coach looked at the bench and called Omer's name. Omer's hands were shaking. He got the ball and ran. A tall player stood in front of him, so he passed the ball to his friend Yoni. Yoni missed the shot, but Omer jumped, caught the ball and threw it again. The ball hit the ring, went around it twice, and fell in. Everybody screamed. After the game, the coach told Omer, \"You didn't play a lot this year, but you came to every practice. That's why you were ready.\"",
+   "question": "What happened after Yoni missed the shot?",
+   "answer": "Omer caught the ball and scored.",
+   "options": [
+    "Omer caught the ball and scored.",
+    "The game ended.",
+    "Yoni tried again."
+   ],
+   "explain_he": "כתוב: Omer jumped, caught the ball and threw it again ... and fell in.",
+   "id": "x5e7"
+  },
+  {
+   "type": "read",
+   "passage": "Omer was the smallest player on his basketball team, and he usually sat on the bench. In the last game of the season, his team was losing by one point, and there were only ten seconds left. Suddenly, their best player hurt his leg. The coach looked at the bench and called Omer's name. Omer's hands were shaking. He got the ball and ran. A tall player stood in front of him, so he passed the ball to his friend Yoni. Yoni missed the shot, but Omer jumped, caught the ball and threw it again. The ball hit the ring, went around it twice, and fell in. Everybody screamed. After the game, the coach told Omer, \"You didn't play a lot this year, but you came to every practice. That's why you were ready.\"",
+   "question": "The word \"suddenly\" means:",
+   "answer": "very quickly, without warning",
+   "options": [
+    "very quickly, without warning",
+    "very slowly",
+    "every day"
+   ],
+   "explain_he": "suddenly = פתאום.",
+   "id": "x5e8"
+  },
+  {
+   "type": "read",
+   "passage": "Omer was the smallest player on his basketball team, and he usually sat on the bench. In the last game of the season, his team was losing by one point, and there were only ten seconds left. Suddenly, their best player hurt his leg. The coach looked at the bench and called Omer's name. Omer's hands were shaking. He got the ball and ran. A tall player stood in front of him, so he passed the ball to his friend Yoni. Yoni missed the shot, but Omer jumped, caught the ball and threw it again. The ball hit the ring, went around it twice, and fell in. Everybody screamed. After the game, the coach told Omer, \"You didn't play a lot this year, but you came to every practice. That's why you were ready.\"",
+   "question": "According to the coach, why was Omer ready?",
+   "answer": "He came to every practice.",
+   "options": [
+    "He came to every practice.",
+    "He is very tall.",
+    "He played a lot this year."
+   ],
+   "explain_he": "המאמן אומר: you came to every practice. That's why you were ready.",
+   "id": "x5e9"
+  }
+ ]
+}

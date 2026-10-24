@@ -39,7 +39,7 @@ test('xp', () => {
 
 test('every lesson is well formed and its answers can be built from its tiles', () => {
   const course = JSON.parse(readFileSync(new URL('../data/course.json', import.meta.url)));
-  const ids = [...course.starter_units, ...course.units].flatMap((u) => (u.bonus ? [...u.lessons, u.bonus] : u.lessons));
+  const ids = [...course.starter_units, ...course.units].flatMap((u) => (u.bonus ? [...u.lessons, u.bonus] : u.lessons)).concat(course.unseen || []);
   assert.deepEqual([...ids].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
   for (const id of ids) {
     const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));

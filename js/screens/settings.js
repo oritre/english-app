@@ -6,6 +6,7 @@ import { Recognition, asrEngine, localAsrUsable } from '../exercises/speak.js';
 import { localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
 import { getProfile, setCurrentProfile, updateProfile } from '../progress.js';
 import { APP_VERSION } from '../version.js';
+import { getTalkKey, setTalkKey } from '../talk.js';
 
 
 function section(title, ...children) {
@@ -183,6 +184,8 @@ export async function renderSettings(root, nav) {
       el('p', {}, 'לומד עכשיו: ', profile.avatar, ' ', profile.name),
       profileToggle(profile, 'starter', 'מסלול ABC למתחילים מאפס', 'אותיות, צלילים ומילים ראשונות לפני השיעור הראשון'),
       profileToggle(profile, 'voice_typing', 'הקלטה במקום הקלדה', 'בתרגילי כתיבה באנגלית יש כפתור מיקרופון שכותב את מה שאמרתם'),
+      profileToggle(profile, 'talk', 'שיחה קולית עם מורה', 'כרטיס "שיחה באנגלית" בראש המסלול'),
+      profileToggle(profile, 'unseen', 'אנסינים בראש המסלול', 'קטעי קריאה עם שאלות הבנה, ברמת חטיבת ביניים'),
       el('div', { class: 'row-btns' },
         el('button', { class: 'btn', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } }, '🚪 החלפת לומד'),
         el('button', { class: 'btn', type: 'button', onclick: () => nav('placement') }, '🎯 מבחן רמה')))
@@ -192,6 +195,7 @@ export async function renderSettings(root, nav) {
     speakerSection(),
     micSection(),
     account,
+    talkSection(),
     section('📦 עוד',
       el('div', { class: 'row-btns' },
         el('button', { class: 'btn', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות'),
@@ -220,4 +224,22 @@ function updateCheck() {
     }
   });
   return el('div', {}, btn, status);
+}
+
+// The Gemini key for spoken lessons. It stays in this browser only: never synced, never sent anywhere but Google.
+function talkSection() {
+  const status = el('p', { class: 'muted', 'aria-live': 'polite' }, getTalkKey() ? 'יש מפתח במכשיר הזה ✓' : 'אין עדיין מפתח במכשיר הזה.');
+  const input = el('input', { type: 'password', class: 'text-input', dir: 'ltr', placeholder: 'AIza...', autocomplete: 'off', value: getTalkKey() });
+  const saveBtn = el('button', { class: 'btn', type: 'button' }, '💾 שמירה');
+  saveBtn.addEventListener('click', () => {
+    setTalkKey(input.value);
+    status.textContent = input.value.trim() ? 'נשמר במכשיר הזה ✓' : 'המפתח נמחק מהמכשיר.';
+  });
+  return section('🗣️ שיחה עם מורה (Gemini)',
+    el('p', { class: 'muted' }, 'השיחה הקולית רצה על Gemini של גוגל. צריך מפתח, פעם אחת בכל מכשיר:'),
+    el('ol', { class: 'muted steps' },
+      el('li', {}, 'נכנסים ל־', el('a', { href: 'https://aistudio.google.com/apikey', target: '_blank', rel: 'noopener', dir: 'ltr' }, 'aistudio.google.com/apikey'), ' עם חשבון גוגל.'),
+      el('li', {}, 'לוחצים Create API key ומעתיקים את המפתח.'),
+      el('li', {}, 'מדביקים כאן ולוחצים שמירה.')),
+    el('div', { class: 'row-btns' }, input, saveBtn), status);
 }

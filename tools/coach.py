@@ -71,7 +71,8 @@ def summary(code, days):
     out = []
     for p in profiles:
         pid = p['id']
-        mine = [a for a in attempts if a.get('profile_id') == pid]
+        talks = [a for a in attempts if a.get('profile_id') == pid and a.get('type') == 'talk' and a.get('date', '') >= since]
+        mine = [a for a in attempts if a.get('profile_id') == pid and a.get('type') != 'talk']
         week = [a for a in mine if a.get('date', '') >= since]
         by_type = collections.defaultdict(lambda: [0, 0])
         for a in week:
@@ -98,6 +99,10 @@ def summary(code, days):
         out.append({
             'profile_id': pid, 'name': p.get('name'), 'starter': p.get('starter'), 'voice_typing': p.get('voice_typing'),
             'placement': p.get('placement'), 'current_coach': p.get('coach'),
+            'talk': p.get('talk'), 'unseen': p.get('unseen'), 'talk_focus': p.get('talk_focus'),
+            # Spoken lessons with the AI tutor: what was said, to find recurring speaking mistakes.
+            'talks_week': [{'date': a.get('date'), 'topic': a.get('topic'), 'sec': round((a.get('ms') or 0) / 1000),
+                            'transcript': a.get('transcript')} for a in sorted(talks, key=lambda a: a.get('at') or 0)],
             'attempts_total': len(mine), 'attempts_week': len(week),
             'days_active_week': sorted({a['date'] for a in week}),
             'lessons_done': done, 'lessons_done_titles': [titles.get(i, i) for i in done[-8:]],

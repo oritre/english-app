@@ -438,3 +438,32 @@ body.has-tabs #app { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px
 .coach-module.done .coach-mod-mark { background: var(--good); }
 .coach-mod-title { display: block; font-weight: 700; }
 .coach-mod-about { display: block; font-size: 14px; }
+
+/* Spoken lesson with the AI tutor */
+.talk-card { display: flex; align-items: center; gap: 14px; width: 100%; margin-block: 12px 4px; padding: 14px 16px; text-align: start; border-radius: var(--radius); border: 2px solid var(--good); background: var(--surface); color: var(--fg); font: inherit; cursor: pointer; box-shadow: 0 4px 0 var(--good); }
+.talk-card-icon { font-size: 34px; }
+.talk-card-title { display: block; font-weight: 700; font-size: 18px; }
+.talk-card .muted { display: block; font-size: 14px; }
+.screen.talk { display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+.talk-top { display: flex; align-items: center; justify-content: space-between; width: 100%; }
+.talk-top h1 { margin: 0; font-size: 22px; }
+.talk-topics { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; width: 100%; }
+.talk-topic { padding: 14px 10px; border-radius: var(--radius); border: 2px solid var(--line); background: var(--surface); color: var(--fg); font: inherit; font-weight: 700; cursor: pointer; box-shadow: 0 3px 0 var(--line); }
+.talk-topic-now { margin: 0; }
+.talk-avatar { width: 150px; height: 150px; border-radius: 50%; display: grid; place-items: center; font-size: 76px; background: var(--surface); border: 4px solid var(--line); transition: border-color .2s; }
+.talk-avatar.speaking { border-color: var(--ink); animation: talkpulse 1.2s ease-in-out infinite; }
+.talk-avatar.listening { border-color: var(--good); }
+.talk-avatar.connecting, .talk-avatar.ending { opacity: .7; }
+@keyframes talkpulse { 50% { box-shadow: 0 0 0 16px color-mix(in srgb, var(--ink) 18%, transparent); } }
+.talk-state { margin: 0; font-size: 20px; font-weight: 700; min-height: 1.4em; }
+.talk-level { width: min(260px, 80%); height: 10px; border-radius: 5px; background: var(--line); overflow: hidden; }
+.talk-level span { display: block; height: 100%; width: 0; background: var(--good); transition: width .1s; }
+.talk-clock { color: var(--muted); font-variant-numeric: tabular-nums; }
+.talk-error { color: var(--bad); font-weight: 700; }
+.unseen-card { margin-block: 12px 4px; padding: 16px 18px; border-radius: var(--radius); border: 2px solid var(--sun); background: var(--surface); box-shadow: 0 4px 0 var(--sun); }
+.unseen-card h2 { margin: 0 0 10px; font-size: 20px; }
+.unseen-list { display: flex; flex-direction: column; gap: 8px; }
+.unseen-item { display: flex; align-items: center; gap: 12px; text-align: start; padding: 8px 12px; border-radius: var(--radius); border: 2px solid var(--line); background: var(--bg); color: var(--fg); font: inherit; font-weight: 700; cursor: pointer; }
+.unseen-item .coach-mod-mark { background: var(--sun); }
+.unseen-item.done .coach-mod-mark { background: var(--good); }
+.settings-card .steps { margin: 0 0 10px; padding-inline-start: 20px; line-height: 1.6; }

@@ -1,0 +1,171 @@
+{
+ "id": "x8",
+ "unit_id": "unseen",
+ "title_he": "אנסין: התלמיד החדש",
+ "unseen": true,
+ "new_words": {
+  "joined": "הצטרף",
+  "moved": "עברו (דירה, ארץ)",
+  "breaks": "הפסקות",
+  "unfriendly": "לא חברותי",
+  "noticed": "שם לב",
+  "drawing": "מצייר",
+  "amazing": "מדהים",
+  "notebook": "מחברת",
+  "smiled": "חייך",
+  "turned": "התברר (it turned out)",
+  "language": "שפה",
+  "favorite": "אהוב",
+  "project": "פרויקט"
+ },
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "joined",
+     "הצטרף"
+    ],
+    [
+     "moved",
+     "עברו (דירה, ארץ)"
+    ],
+    [
+     "breaks",
+     "הפסקות"
+    ],
+    [
+     "unfriendly",
+     "לא חברותי"
+    ],
+    [
+     "noticed",
+     "שם לב"
+    ]
+   ],
+   "id": "x8e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "drawing",
+     "מצייר"
+    ],
+    [
+     "amazing",
+     "מדהים"
+    ],
+    [
+     "notebook",
+     "מחברת"
+    ],
+    [
+     "smiled",
+     "חייך"
+    ],
+    [
+     "turned",
+     "התברר (it turned out)"
+    ]
+   ],
+   "id": "x8e2"
+  },
+  {
+   "type": "read",
+   "passage": "In September, a new student joined Tal's class. His name was Artyom, and his family had just moved to Israel from Ukraine. He didn't speak much Hebrew, and during the breaks he usually sat alone and looked at his phone. Some kids said he was unfriendly, but Tal noticed that Artyom was drawing amazing pictures of football players in his notebook. One day Tal sat next to him and asked, in English, \"Do you like football?\" Artyom smiled for the first time. It turned out that English was the language they both knew. They talked about their favorite teams, and soon they were playing together every break. Tal helped Artyom with Hebrew, and Artyom helped Tal with his art project. By the end of the year, Artyom was speaking Hebrew with everyone. \"Sometimes,\" Tal says, \"all you need is one question.\"",
+   "question": "Where did Artyom's family come from?",
+   "answer": "Ukraine",
+   "options": [
+    "Ukraine",
+    "England",
+    "the United States"
+   ],
+   "explain_he": "כתוב: his family had just moved to Israel from Ukraine.",
+   "id": "x8e3"
+  },
+  {
+   "type": "read",
+   "passage": "In September, a new student joined Tal's class. His name was Artyom, and his family had just moved to Israel from Ukraine. He didn't speak much Hebrew, and during the breaks he usually sat alone and looked at his phone. Some kids said he was unfriendly, but Tal noticed that Artyom was drawing amazing pictures of football players in his notebook. One day Tal sat next to him and asked, in English, \"Do you like football?\" Artyom smiled for the first time. It turned out that English was the language they both knew. They talked about their favorite teams, and soon they were playing together every break. Tal helped Artyom with Hebrew, and Artyom helped Tal with his art project. By the end of the year, Artyom was speaking Hebrew with everyone. \"Sometimes,\" Tal says, \"all you need is one question.\"",
+   "question": "What did Artyom do during the breaks at first?",
+   "answer": "He sat alone.",
+   "options": [
+    "He sat alone.",
+    "He played football.",
+    "He talked to Tal."
+   ],
+   "explain_he": "כתוב: during the breaks he usually sat alone.",
+   "id": "x8e4"
+  },
+  {
+   "type": "read",
+   "passage": "In September, a new student joined Tal's class. His name was Artyom, and his family had just moved to Israel from Ukraine. He didn't speak much Hebrew, and during the breaks he usually sat alone and looked at his phone. Some kids said he was unfriendly, but Tal noticed that Artyom was drawing amazing pictures of football players in his notebook. One day Tal sat next to him and asked, in English, \"Do you like football?\" Artyom smiled for the first time. It turned out that English was the language they both knew. They talked about their favorite teams, and soon they were playing together every break. Tal helped Artyom with Hebrew, and Artyom helped Tal with his art project. By the end of the year, Artyom was speaking Hebrew with everyone. \"Sometimes,\" Tal says, \"all you need is one question.\"",
+   "question": "What did Tal notice about Artyom?",
+   "answer": "He drew great pictures.",
+   "options": [
+    "He drew great pictures.",
+    "He was angry.",
+    "He spoke Hebrew well."
+   ],
+   "explain_he": "כתוב: Tal noticed that Artyom was drawing amazing pictures.",
+   "id": "x8e5"
+  },
+  {
+   "type": "speak",
+   "text": "Sometimes all you need is one question.",
+   "alternatives": [],
+   "id": "x8e6"
+  },
+  {
+   "type": "read",
+   "passage": "In September, a new student joined Tal's class. His name was Artyom, and his family had just moved to Israel from Ukraine. He didn't speak much Hebrew, and during the breaks he usually sat alone and looked at his phone. Some kids said he was unfriendly, but Tal noticed that Artyom was drawing amazing pictures of football players in his notebook. One day Tal sat next to him and asked, in English, \"Do you like football?\" Artyom smiled for the first time. It turned out that English was the language they both knew. They talked about their favorite teams, and soon they were playing together every break. Tal helped Artyom with Hebrew, and Artyom helped Tal with his art project. By the end of the year, Artyom was speaking Hebrew with everyone. \"Sometimes,\" Tal says, \"all you need is one question.\"",
+   "question": "Why did Tal speak to Artyom in English?",
+   "answer": "It was a language they both knew.",
+   "options": [
+    "It was a language they both knew.",
+    "The teacher asked him to.",
+    "Tal doesn't speak Hebrew."
+   ],
+   "explain_he": "כתוב: English was the language they both knew.",
+   "id": "x8e7"
+  },
+  {
+   "type": "read",
+   "passage": "In September, a new student joined Tal's class. His name was Artyom, and his family had just moved to Israel from Ukraine. He didn't speak much Hebrew, and during the breaks he usually sat alone and looked at his phone. Some kids said he was unfriendly, but Tal noticed that Artyom was drawing amazing pictures of football players in his notebook. One day Tal sat next to him and asked, in English, \"Do you like football?\" Artyom smiled for the first time. It turned out that English was the language they both knew. They talked about their favorite teams, and soon they were playing together every break. Tal helped Artyom with Hebrew, and Artyom helped Tal with his art project. By the end of the year, Artyom was speaking Hebrew with everyone. \"Sometimes,\" Tal says, \"all you need is one question.\"",
+   "question": "The word \"unfriendly\" means:",
+   "answer": "not nice to other people",
+   "options": [
+    "not nice to other people",
+    "very funny",
+    "very good at sports"
+   ],
+   "explain_he": "unfriendly = לא חברותי. un בתחילת מילה הופך אותה להפך: friendly ← unfriendly.",
+   "id": "x8e8"
+  },
+  {
+   "type": "read",
+   "passage": "In September, a new student joined Tal's class. His name was Artyom, and his family had just moved to Israel from Ukraine. He didn't speak much Hebrew, and during the breaks he usually sat alone and looked at his phone. Some kids said he was unfriendly, but Tal noticed that Artyom was drawing amazing pictures of football players in his notebook. One day Tal sat next to him and asked, in English, \"Do you like football?\" Artyom smiled for the first time. It turned out that English was the language they both knew. They talked about their favorite teams, and soon they were playing together every break. Tal helped Artyom with Hebrew, and Artyom helped Tal with his art project. By the end of the year, Artyom was speaking Hebrew with everyone. \"Sometimes,\" Tal says, \"all you need is one question.\"",
+   "question": "נכון או לא נכון: בסוף השנה ארטיום דיבר עברית עם כולם.",
+   "answer": "נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "כתוב: By the end of the year, Artyom was speaking Hebrew with everyone.",
+   "id": "x8e9"
+  },
+  {
+   "type": "read",
+   "passage": "In September, a new student joined Tal's class. His name was Artyom, and his family had just moved to Israel from Ukraine. He didn't speak much Hebrew, and during the breaks he usually sat alone and looked at his phone. Some kids said he was unfriendly, but Tal noticed that Artyom was drawing amazing pictures of football players in his notebook. One day Tal sat next to him and asked, in English, \"Do you like football?\" Artyom smiled for the first time. It turned out that English was the language they both knew. They talked about their favorite teams, and soon they were playing together every break. Tal helped Artyom with Hebrew, and Artyom helped Tal with his art project. By the end of the year, Artyom was speaking Hebrew with everyone. \"Sometimes,\" Tal says, \"all you need is one question.\"",
+   "question": "What does Tal mean by \"all you need is one question\"?",
+   "answer": "A small step can start a friendship.",
+   "options": [
+    "A small step can start a friendship.",
+    "Asking questions in class is important.",
+    "Football is the best game."
+   ],
+   "explain_he": "טל אומר שמספיקה שאלה אחת כדי להתחיל חברות.",
+   "id": "x8e10"
+  }
+ ]
+}

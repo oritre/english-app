@@ -1,0 +1,174 @@
+{
+ "id": "x7",
+ "unit_id": "unseen",
+ "title_he": "אנסין: הרובוט של סבתא",
+ "unseen": true,
+ "new_words": {
+  "alone": "לבד",
+  "died": "נפטר",
+  "worried": "מודאגים",
+  "forgot": "שכחה (forget ← forgot)",
+  "medicine": "תרופה",
+  "robot": "רובוט",
+  "lamp": "מנורה",
+  "pills": "כדורים (תרופות)",
+  "reminds": "מזכיר",
+  "appointments": "תורים, פגישות",
+  "machine": "מכונה",
+  "taught": "לימדה (teach ← taught)",
+  "quiz": "חידון",
+  "replace": "להחליף",
+  "helpful": "מועיל",
+  "jokes": "בדיחות"
+ },
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "alone",
+     "לבד"
+    ],
+    [
+     "died",
+     "נפטר"
+    ],
+    [
+     "worried",
+     "מודאגים"
+    ],
+    [
+     "forgot",
+     "שכחה (forget ← forgot)"
+    ],
+    [
+     "medicine",
+     "תרופה"
+    ]
+   ],
+   "id": "x7e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "robot",
+     "רובוט"
+    ],
+    [
+     "lamp",
+     "מנורה"
+    ],
+    [
+     "pills",
+     "כדורים (תרופות)"
+    ],
+    [
+     "reminds",
+     "מזכיר"
+    ],
+    [
+     "appointments",
+     "תורים, פגישות"
+    ]
+   ],
+   "id": "x7e2"
+  },
+  {
+   "type": "read",
+   "passage": "Last year, Ella's grandmother started living alone after Grandpa died. Ella's parents were worried, because Grandma sometimes forgot to take her medicine. So they bought her a small robot. It looks like a lamp with two big eyes, and it talks. Every morning it says, \"Good morning, Rivka! It's time for your pills.\" It also reminds her about doctor's appointments and tells her the weather. At first Grandma didn't like it. \"I don't need a machine to tell me what to do,\" she said. But after a few weeks, she started to talk to it like a friend. She even taught it to play a quiz game. Still, Ella thinks the robot can't replace people. Every Friday she visits Grandma, and they cook together. \"The robot is helpful,\" Grandma says, \"but it doesn't laugh at my jokes.\"",
+   "question": "Why were Ella's parents worried?",
+   "answer": "Grandma forgot to take her medicine.",
+   "options": [
+    "Grandma forgot to take her medicine.",
+    "Grandma was cooking too much.",
+    "The robot was broken."
+   ],
+   "explain_he": "כתוב: Grandma sometimes forgot to take her medicine.",
+   "id": "x7e3"
+  },
+  {
+   "type": "read",
+   "passage": "Last year, Ella's grandmother started living alone after Grandpa died. Ella's parents were worried, because Grandma sometimes forgot to take her medicine. So they bought her a small robot. It looks like a lamp with two big eyes, and it talks. Every morning it says, \"Good morning, Rivka! It's time for your pills.\" It also reminds her about doctor's appointments and tells her the weather. At first Grandma didn't like it. \"I don't need a machine to tell me what to do,\" she said. But after a few weeks, she started to talk to it like a friend. She even taught it to play a quiz game. Still, Ella thinks the robot can't replace people. Every Friday she visits Grandma, and they cook together. \"The robot is helpful,\" Grandma says, \"but it doesn't laugh at my jokes.\"",
+   "question": "What does the robot look like?",
+   "answer": "a lamp with two big eyes",
+   "options": [
+    "a lamp with two big eyes",
+    "a small dog",
+    "a person"
+   ],
+   "explain_he": "כתוב: It looks like a lamp with two big eyes.",
+   "id": "x7e4"
+  },
+  {
+   "type": "read",
+   "passage": "Last year, Ella's grandmother started living alone after Grandpa died. Ella's parents were worried, because Grandma sometimes forgot to take her medicine. So they bought her a small robot. It looks like a lamp with two big eyes, and it talks. Every morning it says, \"Good morning, Rivka! It's time for your pills.\" It also reminds her about doctor's appointments and tells her the weather. At first Grandma didn't like it. \"I don't need a machine to tell me what to do,\" she said. But after a few weeks, she started to talk to it like a friend. She even taught it to play a quiz game. Still, Ella thinks the robot can't replace people. Every Friday she visits Grandma, and they cook together. \"The robot is helpful,\" Grandma says, \"but it doesn't laugh at my jokes.\"",
+   "question": "Which of these does the robot NOT do?",
+   "answer": "cook dinner",
+   "options": [
+    "cook dinner",
+    "tell the weather",
+    "remind her about pills"
+   ],
+   "explain_he": "הרובוט מזכיר כדורים, תורים ומזג אוויר. את הבישול סבתא עושה עם אלה ביום שישי.",
+   "id": "x7e5"
+  },
+  {
+   "type": "speak",
+   "text": "The robot is helpful, but it doesn't laugh at my jokes.",
+   "alternatives": [],
+   "id": "x7e6"
+  },
+  {
+   "type": "read",
+   "passage": "Last year, Ella's grandmother started living alone after Grandpa died. Ella's parents were worried, because Grandma sometimes forgot to take her medicine. So they bought her a small robot. It looks like a lamp with two big eyes, and it talks. Every morning it says, \"Good morning, Rivka! It's time for your pills.\" It also reminds her about doctor's appointments and tells her the weather. At first Grandma didn't like it. \"I don't need a machine to tell me what to do,\" she said. But after a few weeks, she started to talk to it like a friend. She even taught it to play a quiz game. Still, Ella thinks the robot can't replace people. Every Friday she visits Grandma, and they cook together. \"The robot is helpful,\" Grandma says, \"but it doesn't laugh at my jokes.\"",
+   "question": "How did Grandma feel about the robot at first?",
+   "answer": "She didn't like it.",
+   "options": [
+    "She didn't like it.",
+    "She loved it.",
+    "She was afraid of it."
+   ],
+   "explain_he": "כתוב: At first Grandma didn't like it.",
+   "id": "x7e7"
+  },
+  {
+   "type": "read",
+   "passage": "Last year, Ella's grandmother started living alone after Grandpa died. Ella's parents were worried, because Grandma sometimes forgot to take her medicine. So they bought her a small robot. It looks like a lamp with two big eyes, and it talks. Every morning it says, \"Good morning, Rivka! It's time for your pills.\" It also reminds her about doctor's appointments and tells her the weather. At first Grandma didn't like it. \"I don't need a machine to tell me what to do,\" she said. But after a few weeks, she started to talk to it like a friend. She even taught it to play a quiz game. Still, Ella thinks the robot can't replace people. Every Friday she visits Grandma, and they cook together. \"The robot is helpful,\" Grandma says, \"but it doesn't laugh at my jokes.\"",
+   "question": "The word \"replace\" means:",
+   "answer": "take the place of",
+   "options": [
+    "take the place of",
+    "help",
+    "repair"
+   ],
+   "explain_he": "replace = להחליף, לבוא במקום. אלה חושבת שרובוט לא יכול לבוא במקום אנשים.",
+   "id": "x7e8"
+  },
+  {
+   "type": "read",
+   "passage": "Last year, Ella's grandmother started living alone after Grandpa died. Ella's parents were worried, because Grandma sometimes forgot to take her medicine. So they bought her a small robot. It looks like a lamp with two big eyes, and it talks. Every morning it says, \"Good morning, Rivka! It's time for your pills.\" It also reminds her about doctor's appointments and tells her the weather. At first Grandma didn't like it. \"I don't need a machine to tell me what to do,\" she said. But after a few weeks, she started to talk to it like a friend. She even taught it to play a quiz game. Still, Ella thinks the robot can't replace people. Every Friday she visits Grandma, and they cook together. \"The robot is helpful,\" Grandma says, \"but it doesn't laugh at my jokes.\"",
+   "question": "נכון או לא נכון: סבתא לימדה את הרובוט משחק.",
+   "answer": "נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "כתוב: She even taught it to play a quiz game.",
+   "id": "x7e9"
+  },
+  {
+   "type": "read",
+   "passage": "Last year, Ella's grandmother started living alone after Grandpa died. Ella's parents were worried, because Grandma sometimes forgot to take her medicine. So they bought her a small robot. It looks like a lamp with two big eyes, and it talks. Every morning it says, \"Good morning, Rivka! It's time for your pills.\" It also reminds her about doctor's appointments and tells her the weather. At first Grandma didn't like it. \"I don't need a machine to tell me what to do,\" she said. But after a few weeks, she started to talk to it like a friend. She even taught it to play a quiz game. Still, Ella thinks the robot can't replace people. Every Friday she visits Grandma, and they cook together. \"The robot is helpful,\" Grandma says, \"but it doesn't laugh at my jokes.\"",
+   "question": "What is Grandma's opinion at the end?",
+   "answer": "The robot helps, but it's not like a person.",
+   "options": [
+    "The robot helps, but it's not like a person.",
+    "The robot is better than people.",
+    "She wants to give it back."
+   ],
+   "explain_he": "סבתא אומרת: The robot is helpful, but it doesn't laugh at my jokes.",
+   "id": "x7e10"
+  }
+ ]
+}

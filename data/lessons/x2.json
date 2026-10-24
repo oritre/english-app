@@ -1,0 +1,170 @@
+{
+ "id": "x2",
+ "unit_id": "unseen",
+ "title_he": "אנסין: הטלפון והשינה",
+ "unseen": true,
+ "new_words": {
+  "teenagers": "בני נוער",
+  "awake": "ער",
+  "midnight": "חצות",
+  "concentrate": "להתרכז",
+  "scientists": "מדענים",
+  "screens": "מסכים",
+  "brain": "מוח",
+  "experiment": "ניסוי",
+  "instead": "במקום זה",
+  "difficult": "קשה",
+  "grades": "ציונים",
+  "energy": "אנרגיה, כוח"
+ },
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "teenagers",
+     "בני נוער"
+    ],
+    [
+     "awake",
+     "ער"
+    ],
+    [
+     "midnight",
+     "חצות"
+    ],
+    [
+     "concentrate",
+     "להתרכז"
+    ],
+    [
+     "scientists",
+     "מדענים"
+    ]
+   ],
+   "id": "x2e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "screens",
+     "מסכים"
+    ],
+    [
+     "brain",
+     "מוח"
+    ],
+    [
+     "experiment",
+     "ניסוי"
+    ],
+    [
+     "instead",
+     "במקום זה"
+    ],
+    [
+     "difficult",
+     "קשה"
+    ]
+   ],
+   "id": "x2e2"
+  },
+  {
+   "type": "read",
+   "passage": "Daniel is fourteen, and like many teenagers, he takes his phone to bed every night. He usually says he will watch \"just one more video\", but often he is still awake after midnight. In the morning he is tired, and in class it is hard for him to concentrate. Scientists say that teenagers need eight to ten hours of sleep. They also say that the blue light from screens tells the brain that it is still day, so it is harder to fall asleep. Last month Daniel tried an experiment. For two weeks he left his phone in the kitchen at ten o'clock and read a book instead. The first nights were difficult, but after a few days he fell asleep faster. His grades in math went up, and he even had more energy for basketball. \"I still love my phone,\" he says, \"but now it sleeps in the kitchen.\"",
+   "question": "What is Daniel's problem at the beginning?",
+   "answer": "He goes to sleep too late.",
+   "options": [
+    "He goes to sleep too late.",
+    "He has no phone.",
+    "He doesn't like basketball."
+   ],
+   "explain_he": "כתוב: often he is still awake after midnight.",
+   "id": "x2e3"
+  },
+  {
+   "type": "read",
+   "passage": "Daniel is fourteen, and like many teenagers, he takes his phone to bed every night. He usually says he will watch \"just one more video\", but often he is still awake after midnight. In the morning he is tired, and in class it is hard for him to concentrate. Scientists say that teenagers need eight to ten hours of sleep. They also say that the blue light from screens tells the brain that it is still day, so it is harder to fall asleep. Last month Daniel tried an experiment. For two weeks he left his phone in the kitchen at ten o'clock and read a book instead. The first nights were difficult, but after a few days he fell asleep faster. His grades in math went up, and he even had more energy for basketball. \"I still love my phone,\" he says, \"but now it sleeps in the kitchen.\"",
+   "question": "How many hours of sleep do teenagers need?",
+   "answer": "eight to ten",
+   "options": [
+    "eight to ten",
+    "six",
+    "twelve"
+   ],
+   "explain_he": "כתוב: teenagers need eight to ten hours of sleep.",
+   "id": "x2e4"
+  },
+  {
+   "type": "read",
+   "passage": "Daniel is fourteen, and like many teenagers, he takes his phone to bed every night. He usually says he will watch \"just one more video\", but often he is still awake after midnight. In the morning he is tired, and in class it is hard for him to concentrate. Scientists say that teenagers need eight to ten hours of sleep. They also say that the blue light from screens tells the brain that it is still day, so it is harder to fall asleep. Last month Daniel tried an experiment. For two weeks he left his phone in the kitchen at ten o'clock and read a book instead. The first nights were difficult, but after a few days he fell asleep faster. His grades in math went up, and he even had more energy for basketball. \"I still love my phone,\" he says, \"but now it sleeps in the kitchen.\"",
+   "question": "What does blue light do?",
+   "answer": "It makes it harder to fall asleep.",
+   "options": [
+    "It makes it harder to fall asleep.",
+    "It helps us sleep.",
+    "It makes the room cold."
+   ],
+   "explain_he": "כתוב: blue light ... so it is harder to fall asleep.",
+   "id": "x2e5"
+  },
+  {
+   "type": "speak",
+   "text": "Teenagers need eight to ten hours of sleep.",
+   "alternatives": [],
+   "id": "x2e6"
+  },
+  {
+   "type": "read",
+   "passage": "Daniel is fourteen, and like many teenagers, he takes his phone to bed every night. He usually says he will watch \"just one more video\", but often he is still awake after midnight. In the morning he is tired, and in class it is hard for him to concentrate. Scientists say that teenagers need eight to ten hours of sleep. They also say that the blue light from screens tells the brain that it is still day, so it is harder to fall asleep. Last month Daniel tried an experiment. For two weeks he left his phone in the kitchen at ten o'clock and read a book instead. The first nights were difficult, but after a few days he fell asleep faster. His grades in math went up, and he even had more energy for basketball. \"I still love my phone,\" he says, \"but now it sleeps in the kitchen.\"",
+   "question": "The word \"concentrate\" in the text means:",
+   "answer": "to think carefully about one thing",
+   "options": [
+    "to think carefully about one thing",
+    "to run very fast",
+    "to sleep in class"
+   ],
+   "explain_he": "concentrate = להתרכז. בכיתה היה לו קשה להתרכז כי היה עייף.",
+   "id": "x2e7"
+  },
+  {
+   "type": "read",
+   "passage": "Daniel is fourteen, and like many teenagers, he takes his phone to bed every night. He usually says he will watch \"just one more video\", but often he is still awake after midnight. In the morning he is tired, and in class it is hard for him to concentrate. Scientists say that teenagers need eight to ten hours of sleep. They also say that the blue light from screens tells the brain that it is still day, so it is harder to fall asleep. Last month Daniel tried an experiment. For two weeks he left his phone in the kitchen at ten o'clock and read a book instead. The first nights were difficult, but after a few days he fell asleep faster. His grades in math went up, and he even had more energy for basketball. \"I still love my phone,\" he says, \"but now it sleeps in the kitchen.\"",
+   "question": "What did Daniel do in his experiment?",
+   "answer": "He left his phone in the kitchen.",
+   "options": [
+    "He left his phone in the kitchen.",
+    "He bought a new phone.",
+    "He stopped reading."
+   ],
+   "explain_he": "כתוב: he left his phone in the kitchen at ten o'clock and read a book instead.",
+   "id": "x2e8"
+  },
+  {
+   "type": "read",
+   "passage": "Daniel is fourteen, and like many teenagers, he takes his phone to bed every night. He usually says he will watch \"just one more video\", but often he is still awake after midnight. In the morning he is tired, and in class it is hard for him to concentrate. Scientists say that teenagers need eight to ten hours of sleep. They also say that the blue light from screens tells the brain that it is still day, so it is harder to fall asleep. Last month Daniel tried an experiment. For two weeks he left his phone in the kitchen at ten o'clock and read a book instead. The first nights were difficult, but after a few days he fell asleep faster. His grades in math went up, and he even had more energy for basketball. \"I still love my phone,\" he says, \"but now it sleeps in the kitchen.\"",
+   "question": "נכון או לא נכון: בלילות הראשונים היה לדניאל קל להירדם.",
+   "answer": "לא נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "כתוב: The first nights were difficult. רק אחרי כמה ימים הוא נרדם מהר יותר.",
+   "id": "x2e9"
+  },
+  {
+   "type": "read",
+   "passage": "Daniel is fourteen, and like many teenagers, he takes his phone to bed every night. He usually says he will watch \"just one more video\", but often he is still awake after midnight. In the morning he is tired, and in class it is hard for him to concentrate. Scientists say that teenagers need eight to ten hours of sleep. They also say that the blue light from screens tells the brain that it is still day, so it is harder to fall asleep. Last month Daniel tried an experiment. For two weeks he left his phone in the kitchen at ten o'clock and read a book instead. The first nights were difficult, but after a few days he fell asleep faster. His grades in math went up, and he even had more energy for basketball. \"I still love my phone,\" he says, \"but now it sleeps in the kitchen.\"",
+   "question": "What does \"now it sleeps in the kitchen\" mean?",
+   "answer": "The phone stays in the kitchen at night.",
+   "options": [
+    "The phone stays in the kitchen at night.",
+    "Daniel sleeps in the kitchen.",
+    "The phone is broken."
+   ],
+   "explain_he": "זה משפט מצחיק: הטלפון \"ישן\" במטבח, כלומר נשאר שם בלילה.",
+   "id": "x2e10"
+  }
+ ]
+}

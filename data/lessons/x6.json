@@ -1,0 +1,174 @@
+{
+ "id": "x6",
+ "unit_id": "unseen",
+ "title_he": "אנסין: הדולפינים של אילת",
+ "unseen": true,
+ "new_words": {
+  "tourists": "תיירים",
+  "reef": "שונית",
+  "area": "שטח",
+  "net": "רשת",
+  "interestingly": "מעניין ש",
+  "smart": "חכם",
+  "whistle": "שריקה",
+  "recognize": "מזהים",
+  "breathe": "לנשום",
+  "surface": "פני המים",
+  "half": "חצי",
+  "wooden": "מעץ",
+  "bridge": "גשר",
+  "rules": "כללים",
+  "touch": "לגעת",
+  "feed": "להאכיל"
+ },
+ "exercises": [
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "tourists",
+     "תיירים"
+    ],
+    [
+     "reef",
+     "שונית"
+    ],
+    [
+     "area",
+     "שטח"
+    ],
+    [
+     "net",
+     "רשת"
+    ],
+    [
+     "interestingly",
+     "מעניין ש"
+    ]
+   ],
+   "id": "x6e1"
+  },
+  {
+   "type": "match_pairs",
+   "pairs": [
+    [
+     "smart",
+     "חכם"
+    ],
+    [
+     "whistle",
+     "שריקה"
+    ],
+    [
+     "recognize",
+     "מזהים"
+    ],
+    [
+     "breathe",
+     "לנשום"
+    ],
+    [
+     "surface",
+     "פני המים"
+    ]
+   ],
+   "id": "x6e2"
+  },
+  {
+   "type": "read",
+   "passage": "Every year, thousands of tourists visit Dolphin Reef in Eilat. The dolphins there live in a large area of the Red Sea. It is closed with a net, but the net has an open part, so the dolphins can swim out to the open sea if they want to. Interestingly, most of them come back. Dolphins are very smart animals. They live in groups, and each dolphin has its own whistle, like a name, that the others recognize. They breathe air, so they must come up to the surface. Scientists believe that dolphins sleep with only half of their brain at a time, so they can keep breathing. Visitors can watch the dolphins from a wooden bridge or swim near them with a guide. The rules are simple: don't touch them and don't feed them. \"We visit their home,\" a guide explains, \"not the other way around.\"",
+   "question": "Can the dolphins leave the area?",
+   "answer": "Yes, there is an open part in the net.",
+   "options": [
+    "Yes, there is an open part in the net.",
+    "No, the net is closed.",
+    "Only at night."
+   ],
+   "explain_he": "כתוב: the net has an open part, so the dolphins can swim out to the open sea.",
+   "id": "x6e3"
+  },
+  {
+   "type": "read",
+   "passage": "Every year, thousands of tourists visit Dolphin Reef in Eilat. The dolphins there live in a large area of the Red Sea. It is closed with a net, but the net has an open part, so the dolphins can swim out to the open sea if they want to. Interestingly, most of them come back. Dolphins are very smart animals. They live in groups, and each dolphin has its own whistle, like a name, that the others recognize. They breathe air, so they must come up to the surface. Scientists believe that dolphins sleep with only half of their brain at a time, so they can keep breathing. Visitors can watch the dolphins from a wooden bridge or swim near them with a guide. The rules are simple: don't touch them and don't feed them. \"We visit their home,\" a guide explains, \"not the other way around.\"",
+   "question": "What is surprising about the dolphins?",
+   "answer": "Most of them come back.",
+   "options": [
+    "Most of them come back.",
+    "They never swim.",
+    "They eat with people."
+   ],
+   "explain_he": "כתוב: Interestingly, most of them come back.",
+   "id": "x6e4"
+  },
+  {
+   "type": "read",
+   "passage": "Every year, thousands of tourists visit Dolphin Reef in Eilat. The dolphins there live in a large area of the Red Sea. It is closed with a net, but the net has an open part, so the dolphins can swim out to the open sea if they want to. Interestingly, most of them come back. Dolphins are very smart animals. They live in groups, and each dolphin has its own whistle, like a name, that the others recognize. They breathe air, so they must come up to the surface. Scientists believe that dolphins sleep with only half of their brain at a time, so they can keep breathing. Visitors can watch the dolphins from a wooden bridge or swim near them with a guide. The rules are simple: don't touch them and don't feed them. \"We visit their home,\" a guide explains, \"not the other way around.\"",
+   "question": "What is a dolphin's whistle like?",
+   "answer": "a name",
+   "options": [
+    "a name",
+    "a song",
+    "a game"
+   ],
+   "explain_he": "כתוב: each dolphin has its own whistle, like a name.",
+   "id": "x6e5"
+  },
+  {
+   "type": "speak",
+   "text": "Dolphins are very smart animals.",
+   "alternatives": [],
+   "id": "x6e6"
+  },
+  {
+   "type": "read",
+   "passage": "Every year, thousands of tourists visit Dolphin Reef in Eilat. The dolphins there live in a large area of the Red Sea. It is closed with a net, but the net has an open part, so the dolphins can swim out to the open sea if they want to. Interestingly, most of them come back. Dolphins are very smart animals. They live in groups, and each dolphin has its own whistle, like a name, that the others recognize. They breathe air, so they must come up to the surface. Scientists believe that dolphins sleep with only half of their brain at a time, so they can keep breathing. Visitors can watch the dolphins from a wooden bridge or swim near them with a guide. The rules are simple: don't touch them and don't feed them. \"We visit their home,\" a guide explains, \"not the other way around.\"",
+   "question": "Why must dolphins come up to the surface?",
+   "answer": "to breathe air",
+   "options": [
+    "to breathe air",
+    "to sleep",
+    "to see the tourists"
+   ],
+   "explain_he": "כתוב: They breathe air, so they must come up to the surface.",
+   "id": "x6e7"
+  },
+  {
+   "type": "read",
+   "passage": "Every year, thousands of tourists visit Dolphin Reef in Eilat. The dolphins there live in a large area of the Red Sea. It is closed with a net, but the net has an open part, so the dolphins can swim out to the open sea if they want to. Interestingly, most of them come back. Dolphins are very smart animals. They live in groups, and each dolphin has its own whistle, like a name, that the others recognize. They breathe air, so they must come up to the surface. Scientists believe that dolphins sleep with only half of their brain at a time, so they can keep breathing. Visitors can watch the dolphins from a wooden bridge or swim near them with a guide. The rules are simple: don't touch them and don't feed them. \"We visit their home,\" a guide explains, \"not the other way around.\"",
+   "question": "The word \"recognize\" means:",
+   "answer": "know who someone is",
+   "options": [
+    "know who someone is",
+    "forget",
+    "swim away from"
+   ],
+   "explain_he": "recognize = לזהות. הדולפינים האחרים מזהים את השריקה.",
+   "id": "x6e8"
+  },
+  {
+   "type": "read",
+   "passage": "Every year, thousands of tourists visit Dolphin Reef in Eilat. The dolphins there live in a large area of the Red Sea. It is closed with a net, but the net has an open part, so the dolphins can swim out to the open sea if they want to. Interestingly, most of them come back. Dolphins are very smart animals. They live in groups, and each dolphin has its own whistle, like a name, that the others recognize. They breathe air, so they must come up to the surface. Scientists believe that dolphins sleep with only half of their brain at a time, so they can keep breathing. Visitors can watch the dolphins from a wooden bridge or swim near them with a guide. The rules are simple: don't touch them and don't feed them. \"We visit their home,\" a guide explains, \"not the other way around.\"",
+   "question": "נכון או לא נכון: מותר להאכיל את הדולפינים.",
+   "answer": "לא נכון",
+   "options": [
+    "נכון",
+    "לא נכון"
+   ],
+   "explain_he": "כתוב: don't touch them and don't feed them.",
+   "id": "x6e9"
+  },
+  {
+   "type": "read",
+   "passage": "Every year, thousands of tourists visit Dolphin Reef in Eilat. The dolphins there live in a large area of the Red Sea. It is closed with a net, but the net has an open part, so the dolphins can swim out to the open sea if they want to. Interestingly, most of them come back. Dolphins are very smart animals. They live in groups, and each dolphin has its own whistle, like a name, that the others recognize. They breathe air, so they must come up to the surface. Scientists believe that dolphins sleep with only half of their brain at a time, so they can keep breathing. Visitors can watch the dolphins from a wooden bridge or swim near them with a guide. The rules are simple: don't touch them and don't feed them. \"We visit their home,\" a guide explains, \"not the other way around.\"",
+   "question": "What does the guide mean by \"We visit their home\"?",
+   "answer": "People should respect the dolphins.",
+   "options": [
+    "People should respect the dolphins.",
+    "The dolphins visit people.",
+    "The guide lives in the sea."
+   ],
+   "explain_he": "המדריך אומר שאנחנו האורחים, ולכן צריך לכבד את הדולפינים ולא להפריע להם.",
+   "id": "x6e10"
+  }
+ ]
+}
