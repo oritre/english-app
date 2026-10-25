@@ -108,7 +108,7 @@ export async function renderTalk(root, nav) {
     try {
       talk = await startTalk({
         name: profile.name,
-        grade: profile.grade || '8th grade',
+        grade: profile.grade || 8,
         topic,
         focus: profile.talk_focus || '',
         on: {

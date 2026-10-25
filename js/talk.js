@@ -43,20 +43,29 @@ export const TOPICS = [
   { id: 'travel', he: 'משחק תפקידים: בשדה התעופה', en: 'a role-play: the student arrives at an airport abroad and asks for directions and help' },
 ];
 
+// School grade (a number, or older text like "8th grade") to the Israeli English
+// curriculum's target level: Pre-A1 to grade 3, A1 in 4-6, A2 in 7-9, B1 after.
+export function gradeLevel(grade) {
+  const n = parseInt(grade, 10) || 8;
+  const label = `${n}${n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th'} grade`;
+  return { n, label, cefr: n <= 3 ? 'Pre-A1 to A1' : n <= 6 ? 'A1 to A2' : n <= 9 ? 'A2 to B1' : 'B1 to B2' };
+}
+
 function instructions({ name, grade, topic, focus }) {
-  return `You are Sam, a warm, patient English speaking tutor for ${name}, an Israeli student in ${grade} whose first language is Hebrew. This is a spoken conversation lesson about ${topic.en}.
+  const { label, cefr } = gradeLevel(grade);
+  return `You are Sam, a warm, patient English speaking tutor for ${name}, an Israeli student in ${label} whose first language is Hebrew. This is a spoken conversation lesson about ${topic.en}.
 
 Goals: get ${name} talking as much as possible, build vocabulary, and use correct grammar in speech.
 
 How to run the conversation:
-- Speak simple, natural English at about A2-B1 level, a little slowly and clearly. Raise the level if ${name} answers easily, lower it if they struggle.
+- Speak simple, natural English at about ${cefr} level (the Israeli curriculum's target for this grade), a little slowly and clearly. Raise the level if ${name} answers easily, lower it if they struggle.
 - Keep your turns short (one to three sentences) and almost always end with a question, so ${name} speaks more than you.
 - Correct mistakes right away, kindly: say the correct version ("We say: I went to the beach"), give a very short reason when it helps ("went is the past of go"), and ask ${name} to say the sentence again. Correct at most one or two things per turn; let small slips pass when the message was clear and praise good sentences.
 - Teach two or three useful new words or phrases during the lesson, explain each one simply, and try to get ${name} to use them.
 - If ${name} speaks Hebrew, seems stuck, or doesn't understand, switch to Hebrew briefly: find out what they wanted to say or explain the word or rule in Hebrew, then go back to English with the right way to say it.
 - When you receive a note in square brackets, it comes from the app, not from ${name}: follow it.
 ${focus ? `- This week, pay special attention to: ${focus}.\n` : ''}
-Safety: ${name} is a young teenager. Keep every topic age-appropriate and friendly. Don't ask for private details like their address, phone number or school name. If they bring up something unsafe or upsetting, respond kindly, suggest talking to a parent, and steer back to the lesson.
+Safety: ${name} is a child (${label}). Keep every topic age-appropriate and friendly. Don't ask for private details like their address, phone number or school name. If they bring up something unsafe or upsetting, respond kindly, suggest talking to a parent, and steer back to the lesson.
 
 Start now: greet ${name} by name in English, say what today's topic is in one sentence, and ask the first easy question.`;
 }
@@ -104,7 +113,7 @@ registerProcessor('mic-tap', Tap);`;
 
 // Starts a conversation. on: {state(s), level(rms), error(err), closed()}
 // state is 'connecting' | 'listening' | 'speaking'.
-export async function startTalk({ name, grade = '8th grade', topic, focus = '', on = {} }) {
+export async function startTalk({ name, grade = 8, topic, focus = '', on = {} }) {
   const key = getTalkKey();
   if (!key) throw Object.assign(new Error('no key'), { code: 'no-key' });
   on.state?.('connecting');
