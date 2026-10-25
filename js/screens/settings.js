@@ -235,7 +235,7 @@ export async function renderSettings(root, nav) {
     await talkSection(profile),
     section('📦 עוד',
       el('div', { class: 'row-btns' },
-        el('button', { class: 'btn', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות'),
+        el('button', { class: 'btn', type: 'button', onclick: () => nav('parent') }, '👨‍👩‍👧 אזור הורים'),
         el('button', { class: 'btn', type: 'button', onclick: () => nav('sync') }, '🔄 סנכרון בין מכשירים')),
       el('p', { class: 'muted' }, `גרסה ${APP_VERSION}`), updateCheck())));
 }

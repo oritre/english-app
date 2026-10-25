@@ -156,13 +156,13 @@ export async function markResultSeen() {
 
 // One row per answer: what kind of exercise, right or wrong, how long it took.
 // The progress report is built from these.
-export async function logAttempt({ lessonId, exercise, outcome, ms, source = 'lesson', given = null, expected = null, taps = [], pos = null, lessonSec = null }) {
+export async function logAttempt({ lessonId, exercise, outcome, ms, source = 'lesson', given = null, expected = null, taps = [], pos = null, lessonSec = null, sid = null }) {
   if (!currentId) return;
   await store.put('attempts', {
     id: newId(), profile_id: currentId, lesson_id: lessonId, exercise_id: exercise.id,
     type: exercise.type, lang: exercise.lang || null, outcome, ms: Math.round(ms), source,
     date: localISO(), at: Date.now(), hour: new Date().getHours(),
-    given, expected, taps, pos, lesson_sec: lessonSec,
+    given, expected, taps, pos, lesson_sec: lessonSec, sid,
   });
 }
 
@@ -184,7 +184,10 @@ export async function reportData(profileId) {
     store.byIndex('days', 'profile_id', profileId),
     store.byIndex('progress', 'profile_id', profileId),
   ]);
-  return { profile, attempts: attempts.filter((a) => a.type !== 'talk'), talks: attempts.filter((a) => a.type === 'talk'), results, days, progress };
+  return {
+    profile, attempts: attempts.filter((a) => a.type !== 'talk' && a.type !== 'session'),
+    talks: attempts.filter((a) => a.type === 'talk'), sessions: attempts.filter((a) => a.type === 'session'), results, days, progress,
+  };
 }
 
 // After pulling from other devices, rebuild each day's XP from the lesson

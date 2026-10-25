@@ -6,6 +6,7 @@ import { APP_VERSION } from '../version.js';
 import { COACH_LESSON, hasCoach, coachModules } from '../coach.js';
 import { talkSupported } from '../talk.js';
 import { courseLevel, skipUnits, requiredLessons, LEVEL_NAMES } from '../thinkLogic.js';
+import { goalStrip } from './parent.js';
 
 export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
@@ -246,6 +247,8 @@ export async function renderPath(root, nav) {
   screenEl = el('div', { class: `screen path subject-${subject}${subject === 'know' ? ' subject-think' : ''}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`));
   root.replaceChildren(screenEl);
+  // The goals a parent set, with how far along they are.
+  goalStrip(profile).then((strip) => { if (strip) screenEl.querySelector('.top-stats')?.after(strip); }).catch(() => {});
   if (openCourse) {
     const { next, ids } = progressOf(openCourse);
     selectLesson(next || ids[0]);
