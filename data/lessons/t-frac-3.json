@@ -1,0 +1,118 @@
+{
+ "id": "t-frac-3",
+ "unit_id": "t-frac",
+ "course": "fractions",
+ "title_he": "שברים על הציר",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "שבר הוא גם מספר",
+   "body_he": [
+    "בין 0 ל-1 יש מקום לכל השברים הקטנים מ-1.",
+    "החצי נמצא בדיוק באמצע."
+   ],
+   "say_he": "שבר הוא גם מספר בין 0 ל-1 יש מקום לכל השברים הקטנים מ-1. החצי נמצא בדיוק באמצע.",
+   "id": "t-frac-3e1"
+  },
+  {
+   "type": "numberline",
+   "prompt_he": "הזיזו את הסמן ל-1/2",
+   "min": 0,
+   "max": 1,
+   "step": 0.25,
+   "answer": "1/2",
+   "explain_he": "חצי נמצא באמצע הדרך בין 0 ל-1.",
+   "denominator": 4,
+   "labels": [
+    0,
+    1
+   ],
+   "id": "t-frac-3e2"
+  },
+  {
+   "type": "numberline",
+   "prompt_he": "איפה 3/4? הזיזו את הסמן (בלי מספרים הפעם)",
+   "min": 0,
+   "max": 1,
+   "step": 0.25,
+   "answer": "3/4",
+   "explain_he": "שלושה רבעים מהדרך, בין החצי ל-1.",
+   "hint_he": "קודם מצאו את החצי",
+   "show_value": false,
+   "labels": [
+    0,
+    {
+     "at": "1/2",
+     "text": "1/2"
+    },
+    1
+   ],
+   "id": "t-frac-3e3"
+  },
+  {
+   "type": "numberline",
+   "prompt_he": "איפה 3/8?",
+   "min": 0,
+   "max": 1,
+   "step": 0.125,
+   "answer": "3/8",
+   "explain_he": "3/8 קצת לפני החצי, כי חצי זה 4/8.",
+   "hint_he": "חצי זה 4/8",
+   "show_value": false,
+   "labels": [
+    0,
+    {
+     "at": "1/2",
+     "text": "1/2"
+    },
+    1
+   ],
+   "id": "t-frac-3e4"
+  },
+  {
+   "type": "numberline",
+   "prompt_he": "איפה 3/2?",
+   "min": 0,
+   "max": 2,
+   "step": 0.25,
+   "answer": "3/2",
+   "explain_he": "3/2 זה 1 ועוד חצי.",
+   "hint_he": "3/2 זה שלושה חצאים: 1 ועוד חצי",
+   "show_value": false,
+   "labels": [
+    0,
+    1,
+    2
+   ],
+   "id": "t-frac-3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה שבר הכי קרוב ל-1?",
+   "answer": "7/8",
+   "options": [
+    "7/8",
+    "1/8",
+    "1/2"
+   ],
+   "explain_he": "ל-7/8 חסרה רק שמינית אחת כדי להגיע ל-1.",
+   "id": "t-frac-3e6"
+  },
+  {
+   "type": "order",
+   "prompt_he": "סדרו מהקטן לגדול",
+   "items": [
+    "1/8",
+    "1/4",
+    "1/2",
+    "3/4"
+   ],
+   "explain_he": "שמינית < רבע < חצי < שלושה רבעים.",
+   "ends": [
+    "קטן",
+    "גדול"
+   ],
+   "id": "t-frac-3e7"
+  }
+ ]
+}

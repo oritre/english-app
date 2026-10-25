@@ -10,6 +10,17 @@ export function loadCourse() {
   return coursePromise;
 }
 
+// The math and logic track ("חשיבה ומתמטיקה") has its own course file; its
+// lessons live with the English ones in data/lessons (ids start with "t").
+let thinkPromise = null;
+export function loadThink() {
+  if (!thinkPromise) {
+    thinkPromise = window.__COURSE__ ? Promise.resolve(window.__COURSE__.think || { units: [], lesson_titles: {} })
+      : fetch('data/think.json').then((r) => r.json());
+  }
+  return thinkPromise;
+}
+
 export async function loadLesson(id) {
   if (window.__COURSE__) return window.__COURSE__.lessons[id];
   if (!lessonCache.has(id)) {

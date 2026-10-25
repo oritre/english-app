@@ -1,6 +1,6 @@
 import { el, en } from '../util.js';
 import { listProfiles, reportData } from '../progress.js';
-import { loadCourse, loadLesson } from '../course.js';
+import { loadCourse, loadLesson, loadThink } from '../course.js';
 import { lessonTitle } from '../coach.js';
 import { skillStats, summarize, suggestions, minutesByDay, hardestItems, pct, confusions, byDayPart, byLessonStage, habits } from '../report.js';
 import { computeStreak } from '../streak.js';
@@ -99,8 +99,8 @@ function exerciseText(ex) {
 export async function renderReport(root, nav, { profileId }) {
   const data = await reportData(profileId);
   const today = localISO();
-  const course = await loadCourse();
-  const titles = course.lesson_titles;
+  const [course, think] = await Promise.all([loadCourse(), loadThink()]);
+  const titles = { ...course.lesson_titles, ...think.lesson_titles };
   const sum = summarize(data, today);
   const skills = skillStats(data.attempts);
   const confused = confusions(data.attempts);
@@ -121,7 +121,7 @@ export async function renderReport(root, nav, { profileId }) {
 
   const tile = (label, value, note) => el('div', { class: 'kpi' }, el('div', { class: 'kpi-label' }, label), el('div', { class: 'kpi-value' }, value), note ? el('div', { class: 'kpi-note' }, note) : null);
 
-  const skillRows = skills.map((s) => {
+  const skillRows = skills.filter((s) => s.count || !['math', 'logic'].includes(s.id)).map((s) => {
     const state = !s.enough ? 'none' : s.accuracy >= 0.9 ? 'good' : s.accuracy < 0.75 ? 'weak' : 'ok';
     const badge = { none: 'מעט נתונים', good: '✔ חזק', weak: '▲ לחזק', ok: 'בסדר' }[state];
     return el('div', { class: `skill ${state}` },

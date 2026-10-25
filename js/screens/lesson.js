@@ -9,6 +9,7 @@ import { getSettings, setSetting } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
 import { COACH_LESSON, coachLesson } from '../coach.js';
+import { THINK_TYPES, txt } from '../exercises/think.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
 // answered right. Progress bar counts first-time-right plus fixed mistakes.
@@ -121,6 +122,14 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       if (api.selfChecking) return;
       handled = true;
       const given = api.getAnswer();
+      // Math and logic exercises check themselves (numbers, fractions, positions).
+      if (api.check) {
+        const right = api.check();
+        log(right ? 'correct' : 'wrong', given);
+        if (!right) { mistakes.add(ex.id); queue.push(ex); }
+        showFeedback(ex, right ? 'correct' : 'wrong', api.expectedText());
+        return;
+      }
       const { result, expected } = checkAnswer(given, ex.answer, ex.alternatives || [], { allowTypos: !!api.allowTypos });
       log(result === 'wrong' ? 'wrong' : result === 'typo' ? 'typo' : 'correct', given);
       if (result === 'wrong') {
@@ -148,7 +157,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       el('div', { class: 'feedback-title' }, ok ? '✔ ' : '✘ ', title),
       (result === 'wrong' || result === 'typo') && expected
         ? el('div', { class: 'feedback-answer' }, 'התשובה הנכונה: ',
-            el('span', { dir: answerIsHebrew(ex) ? 'rtl' : 'ltr' }, expected))
+            el('span', { dir: THINK_TYPES.has(ex.type) ? 'auto' : answerIsHebrew(ex) ? 'rtl' : 'ltr' }, ...(THINK_TYPES.has(ex.type) ? txt(expected) : [expected])))
         : null,
       ex.type === 'listen_translate' && result !== 'correct'
         ? el('div', { class: 'feedback-explain' }, 'נאמר: ', el('span', { dir: ex.lang === 'he' ? 'rtl' : 'ltr' }, ex.audio_text))

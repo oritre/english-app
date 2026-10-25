@@ -1,6 +1,6 @@
 import { el, en, mixed } from '../util.js';
-import { loadCourse, lessonStates } from '../course.js';
-import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile } from '../progress.js';
+import { loadCourse, loadThink, lessonStates } from '../course.js';
+import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile, updateProfile } from '../progress.js';
 import { TIERS } from '../league.js';
 import { APP_VERSION } from '../version.js';
 import { COACH_LESSON, hasCoach, coachModules } from '../coach.js';
@@ -18,11 +18,24 @@ export function topBar(s, profile, nav) {
 
 export async function renderPath(root, nav) {
   await settleLeagues();
-  const [course, done, s, profile] = await Promise.all([loadCourse(), doneLessonIds(), stats(), getProfile()]);
-  const states = lessonStates(course, done, { starter: !!profile.starter });
-  const titles = course.lesson_titles || {};
+  const [course, think, done, s, profile] = await Promise.all([loadCourse(), loadThink(), doneLessonIds(), stats(), getProfile()]);
+  // Two subjects share the learner, the streak and the weekly coach: English,
+  // and the Brilliant-style courses ("think": math, logic, code, science...).
+  // The chosen subject and open course are kept on the profile, so they sync.
+  const courses = think.courses || [];
+  const subject = profile.subject === 'think' && courses.length ? 'think' : 'english';
+  const openCourse = subject === 'think' ? courses.find((c) => c.id === profile.think_course) : null;
+  const states = subject === 'english' ? lessonStates(course, done, { starter: !!profile.starter })
+    : openCourse ? lessonStates(openCourse, done) : {};
+  const titles = { ...(course.lesson_titles || {}), ...(think.lesson_titles || {}) };
+  const setProfile = async (patch) => { Object.assign(profile, patch); await updateProfile(profile); nav('path'); };
+  const switcher = courses.length ? el('div', { class: 'subject-switch', role: 'tablist' },
+    [['english', '🔤', 'אנגלית'], ['think', '🧠', 'חשיבה ומדעים']].map(([id, icon, name]) => el('button', {
+      class: `subject-tab ${subject === id ? 'on' : ''}`, type: 'button', role: 'tab', 'aria-selected': String(subject === id),
+      onclick: () => { if (subject !== id) setProfile({ subject: id }); },
+    }, el('span', { class: 'subject-icon' }, icon), name))) : null;
 
-  const renderUnit = (unit, ui, starter) => {
+  const renderUnit = (unit, ui, starter, kind = 'english') => {
     const nodes = unit.lessons.map((id, li) => {
       const state = states[id];
       const offset = [0, 1, 2, 1, 0, -1, -2, -1][li % 8] * 48;
@@ -49,9 +62,9 @@ export async function renderPath(root, nav) {
     }
     return el('section', { class: 'unit' },
       el('header', { class: `unit-header c${ui % 4} ${starter ? 'starter' : ''}` },
-        el('div', { class: 'unit-kicker' }, starter ? `ABC · שלב ${ui + 1}` : [`יחידה ${ui + 1} · `, en(unit.cefr)]),
+        el('div', { class: 'unit-kicker' }, starter ? `ABC · שלב ${ui + 1}` : kind === 'think' ? `יחידה ${ui + 1}` : [`יחידה ${ui + 1} · `, en(unit.cefr)]),
         el('h2', {}, unit.title_he),
-        el('p', {}, en(unit.title_en))),
+        kind === 'think' ? el('p', {}, unit.about_he || '') : el('p', {}, en(unit.title_en))),
       el('div', { class: 'nodes' }, nodes));
   };
   const starterUnits = (course.starter_units || []).map((u, i) => renderUnit(u, i, true));
@@ -96,9 +109,31 @@ export async function renderPath(root, nav) {
   // Logging out clears the current learner, so the next open lands on the learner picker.
   const logout = el('button', { class: 'retest', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } },
     '🚪 התנתקות (מעבר ללומד אחר)');
-  root.replaceChildren(el('div', { class: 'screen path' }, topBar(s, profile, nav), talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test, logout,
+  const lessonsOf = (c) => c.units.flatMap((u) => u.lessons);
+  const catalog = subject === 'think' && !openCourse ? el('section', { class: 'catalog' },
+    el('h2', { class: 'catalog-title' }, 'מה בא לך ללמוד?'),
+    el('div', { class: 'course-grid' }, courses.map((c) => {
+      const ids = lessonsOf(c);
+      const n = ids.filter((id) => done.includes(id)).length;
+      return el('button', { class: `course-card ${n === ids.length ? 'complete' : ''}`, type: 'button', style: `--course: ${c.color}`, onclick: () => setProfile({ think_course: c.id }) },
+        el('span', { class: 'course-icon' }, c.icon),
+        el('span', { class: 'course-name' }, c.title_he),
+        el('span', { class: 'course-about' }, c.about_he),
+        el('span', { class: 'course-progress' }, el('span', { style: `width: ${Math.round((n / ids.length) * 100)}%` })),
+        el('span', { class: 'course-count' }, n === 0 ? `${ids.length} שיעורים` : n === ids.length ? '✓ הושלם' : `${n} מתוך ${ids.length}`));
+    }))) : null;
+  const courseView = openCourse ? [
+    el('header', { class: 'course-head' },
+      el('button', { class: 'course-back', type: 'button', onclick: () => setProfile({ think_course: null }) }, '→ כל הקורסים'),
+      el('div', { class: 'course-head-icon' }, openCourse.icon),
+      el('h1', {}, openCourse.title_he),
+      el('p', {}, openCourse.about_he)),
+    ...openCourse.units.map((u, i) => renderUnit(u, i, false, 'think'))] : null;
+  const content = subject === 'think' ? [coach, catalog, courseView]
+    : [talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test];
+  root.replaceChildren(el('div', { class: `screen path subject-${subject}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`)));
   // Learners on the talk / unseen track start at the top, where those cards are.
-  const current = coach && !coachDone ? coach : talk || profile.unseen ? null : root.querySelector('.node.current');
+  const current = coach && !coachDone ? coach : subject === 'english' && (talk || profile.unseen) ? null : root.querySelector('.node.current');
   if (current) current.scrollIntoView({ block: 'center' });
 }
