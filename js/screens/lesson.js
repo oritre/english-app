@@ -2,11 +2,12 @@ import { el, mixed } from '../util.js';
 import { loadLesson, loadThink, loadKnow } from '../course.js';
 import { rendererFor, isSupported } from '../exercises/index.js';
 import { forGrade } from '../storyLogic.js';
+import { withoutTyping } from '../typing.js';
 import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
 import { glossify, closePop } from '../gloss.js';
 import { speak, speakSequence, canSpeakLang } from '../speech.js';
-import { getSettings, setSetting } from '../settings.js';
+import { getSettings, setSetting, RATE_CHOICES } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
 import { COACH_LESSON, coachLesson } from '../coach.js';
@@ -22,7 +23,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   if (profile?.asr && getSettings().asr !== profile.asr) setSetting('asr', profile.asr);
   const lesson = lessonId === COACH_LESSON ? coachLesson(profile, module) : await loadLesson(lessonId);
   if (lessonId === COACH_LESSON) lessonId = lesson.id;
-  const exercises = forGrade(lesson.exercises, profile?.grade).filter(isSupported);
+  const exercises = withoutTyping(forGrade(lesson.exercises, profile?.grade), profile).filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
   // Young readers (grades 1-2) hear every question unless turned off in settings.
   setReadAloud(profile?.read_aloud ?? (parseInt(profile?.grade, 10) <= 2));
@@ -41,12 +42,23 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       el('button', { class: 'btn ghost', type: 'button', onclick: () => nav('path') }, 'יציאה')));
   quit.addEventListener('click', () => { quitDialog.hidden = false; });
   const homeBtn = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'מסך הבית', onclick: () => { quitDialog.hidden = false; } }, '🏠');
+  // Reading speed, changeable mid-lesson: the choice is kept for the next lessons too.
+  const speedRow = el('div', { class: 'speed-row', hidden: true }, RATE_CHOICES.map(([id, label]) => {
+    const b = el('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(getSettings().rate === id) }, label);
+    b.addEventListener('click', () => {
+      setSetting('rate', id);
+      speedRow.querySelectorAll('.seg-btn').forEach((x, i) => x.setAttribute('aria-pressed', String(RATE_CHOICES[i][0] === id)));
+      speak('This is the new speed.');
+    });
+    return b;
+  }));
+  const speedBtn = el('button', { class: 'icon-btn speed-btn', type: 'button', 'aria-label': 'מהירות ההקראה', onclick: () => { speedRow.hidden = !speedRow.hidden; } }, '🐢');
   const body = el('main', { class: 'ex-body' });
   const checkBtn = el('button', { class: 'btn primary wide', type: 'button', disabled: true }, 'בדיקה');
   const footer = el('footer', { class: 'lesson-footer' }, checkBtn);
   const screen = el('div', { class: `screen lesson ${lesson.course ? 'think-lesson' : ''}` },
-    el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar), homeBtn),
-    body, footer, quitDialog);
+    el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar), speedBtn, homeBtn),
+    speedRow, body, footer, quitDialog);
   root.replaceChildren(screen);
   // A think lesson borrows its course's colour for the manipulatives and the progress bar.
   if (lesson.course) Promise.all([loadThink(), loadKnow()]).then((cats) => { const c = cats.flatMap((t) => t.courses || []).find((x) => x.id === lesson.course); if (c) screen.style.setProperty('--course', c.color); }).catch(() => {});

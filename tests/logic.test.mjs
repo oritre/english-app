@@ -420,3 +420,13 @@ test('think level follows the weekly review, else the school grade', async () =>
   // A one-unit course can't be skipped.
   assert.equal(skipUnits({ grades: [1, 2], units: [{ lessons: ['a'] }] }, { grade: 9 }), 0);
 });
+
+test('young learners get no free typing', async () => {
+  const { withoutTyping } = await import('../js/typing.js');
+  const exs = [{ type: 'listen_type', text: 'a' }, { type: 'translate_he_en', input: 'type', bank: ['a'] }, { type: 'translate_he_en', input: 'type' }, { type: 'choose' }];
+  const young = withoutTyping(exs, { grade: 1 });
+  assert.deepEqual(young.map((e) => [e.type, e.input]), [['translate_he_en', undefined], ['choose', undefined]]);
+  assert.equal(withoutTyping(exs, { grade: 6 }).length, 4);
+  assert.equal(withoutTyping(exs, { grade: 6, no_typing: true }).length, 2);
+  assert.equal(withoutTyping(exs, { grade: 2, no_typing: false }).length, 4);
+});

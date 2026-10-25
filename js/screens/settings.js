@@ -1,6 +1,6 @@
 import { el, en } from '../util.js';
 import { speak, canSpeak, canSpeakLang, voiceName } from '../speech.js';
-import { getSettings, setSetting } from '../settings.js';
+import { getSettings, setSetting, RATE_CHOICES } from '../settings.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
 import { Recognition, asrEngine, localAsrUsable } from '../exercises/speak.js';
 import { localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
@@ -39,7 +39,7 @@ function speakerSection() {
     status.textContent = 'מקריא בעברית. שומעים?';
   });
 
-  const rates = [['slow', 'איטי'], ['normal', 'רגיל'], ['fast', 'מהיר']];
+  const rates = RATE_CHOICES;
   const rateBtns = rates.map(([id, label]) => {
     const b = el('button', { class: 'seg-btn', type: 'button', 'aria-pressed': String(getSettings().rate === id) }, label);
     b.addEventListener('click', () => {

@@ -1014,3 +1014,9 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
   .story-piece, .story-scene, .story-cam, .story-far, .story-near, .story-title-icon, .story-play-big, .story-caption, .story-tag, .story-confetti i, .story-done .lesson-footer .btn.primary { animation: none !important; }
   .story-scene.out { display: none; }
 }
+.speed-row { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; padding: 6px 0 2px; }
+.speed-row .seg-btn { flex: 1 1 auto; }
+.speed-row .seg-btn { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.speed-row .seg-btn[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.setting-row:has(.seg) { flex-wrap: wrap; gap: 8px; }
+.setting-row .seg { flex-wrap: wrap; max-width: 100%; }

@@ -2,7 +2,9 @@
 // not the learner: speaker, microphone, how fast the voice talks).
 const KEY = 'english_app_settings';
 const DEFAULTS = { rate: 'normal', speaking: true, autoplay: true };
-const RATES = { slow: 0.75, normal: 1, fast: 1.15 };
+const RATES = { xslow: 0.5, slow: 0.7, normal: 0.9, fast: 1.1, xfast: 1.3 };
+// The reading speeds offered in settings and inside every lesson, slowest first.
+export const RATE_CHOICES = [['xslow', 'לאט מאוד'], ['slow', 'לאט'], ['normal', 'רגיל'], ['fast', 'מהר'], ['xfast', 'מהר מאוד']];
 
 export function getSettings() {
   try { return { ...DEFAULTS, ...JSON.parse(localStorage.getItem(KEY) || '{}') }; } catch { return { ...DEFAULTS }; }
