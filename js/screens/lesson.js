@@ -6,12 +6,13 @@ import { withoutTyping } from '../typing.js';
 import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
 import { glossify, closePop } from '../gloss.js';
-import { speak, speakSequence, canSpeakLang } from '../speech.js';
+import { speak, speakSequence, canSpeakLang, warmSpeech } from '../speech.js';
+import { spokenLines } from '../spoken.js';
 import { getSettings, setSetting, RATE_CHOICES } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
 import { COACH_LESSON, coachLesson } from '../coach.js';
-import { THINK_TYPES, txt, setReadAloud } from '../exercises/think.js';
+import { THINK_TYPES, txt, setReadAloud, renderConcept } from '../exercises/think.js';
 import { startSession, markFinished } from '../activity.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
@@ -27,7 +28,10 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   const exercises = withoutTyping(forGrade(lesson.exercises, profile?.grade), profile).filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
   // Young readers (grades 1-2) hear every question unless turned off in settings.
-  setReadAloud(profile?.read_aloud ?? (parseInt(profile?.grade, 10) <= 2));
+  const readAloud = profile?.read_aloud ?? (parseInt(profile?.grade, 10) <= 2);
+  setReadAloud(readAloud);
+  // The home Pi records the lesson's lines in a natural voice while the first exercise is up.
+  warmSpeech(spokenLines(exercises, { thinkAloud: readAloud }));
   const queue = exercises.slice();
   const mistakes = new Set();
   let total = exercises.length;
@@ -59,12 +63,17 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   const body = el('main', { class: 'ex-body' });
   const checkBtn = el('button', { class: 'btn primary wide', type: 'button', disabled: true }, 'בדיקה');
   const footer = el('footer', { class: 'lesson-footer' }, checkBtn);
+  // A think lesson's bar is split into one step per exercise (--steps), so the end is in sight.
+  const progress = el('div', { class: `progress ${lesson.course ? 'stepped' : ''}` }, bar);
   const screen = el('div', { class: `screen lesson ${lesson.course ? 'think-lesson' : ''}` },
-    el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar), speedBtn, homeBtn),
+    el('div', { class: 'lesson-top' }, quit, progress, speedBtn, homeBtn),
     speedRow, body, footer, quitDialog);
   root.replaceChildren(screen);
-  // A think lesson borrows its course's colour for the manipulatives and the progress bar.
-  if (lesson.course) Promise.all([loadThink(), loadKnow()]).then((cats) => { const c = cats.flatMap((t) => t.courses || []).find((x) => x.id === lesson.course); if (c) screen.style.setProperty('--course', c.color); }).catch(() => {});
+  // A think lesson borrows its course's colour for the manipulatives and the progress bar, and its icon for the concept cards.
+  if (lesson.course) Promise.all([loadThink(), loadKnow()]).then((cats) => {
+    const c = cats.flatMap((t) => t.courses || []).find((x) => x.id === lesson.course);
+    if (c) { screen.style.setProperty('--course', c.color); screen.style.setProperty('--course-icon', JSON.stringify(c.icon)); }
+  }).catch(() => {});
 
   // Every tap inside an exercise is kept with its answer: which cards were
   // tried before the final one, audio replays, meanings looked up. The report
@@ -82,7 +91,9 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     if (kind) record(kind[1], btn.dataset.value ?? btn.textContent.trim());
   }, true);
 
-  const setProgress = () => { bar.style.width = `${Math.round((solved / total) * 100)}%`; };
+  const setProgress = () => { bar.style.width = `${Math.round((solved / total) * 100)}%`; progress.style.setProperty('--steps', total); };
+  // Right answers in a row (first try), shown as a small "3 ברצף" chip on the think track.
+  let combo = 0;
 
   function next() {
     setProgress();
@@ -110,7 +121,9 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     });
 
     closePop();
-    const api = rendererFor(ex)(body, ex, {
+    // Think lessons show their teach cards as concept cards, one line at a time.
+    const render = lesson.course && ex.type === 'teach' ? renderConcept : rendererFor(ex);
+    const api = render(body, ex, {
       gloss: (text) => glossify(text, lesson.new_words),
       track: (k, v) => record(k, v),
       voiceTyping,
@@ -133,10 +146,12 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
 
     // Explanation cards: nothing to check, just move on.
     // A cartoon (story / video) holds the button until it has played to the end.
+    // A concept card reveals one more line per tap (api.pending) before it lets go.
     if (api.info) {
-      checkBtn.textContent = api.nextLabel || 'הבנתי, ממשיכים';
+      const label = () => { checkBtn.textContent = api.pending?.() ? 'המשך' : api.nextLabel || 'הבנתי, ממשיכים'; };
+      label();
       checkBtn.disabled = !!api.gated && !api.ready?.();
-      checkBtn.onclick = () => { solved++; next(); };
+      checkBtn.onclick = () => { if (api.pending?.()) { api.advance(); label(); return; } solved++; next(); };
       return;
     }
 
@@ -241,9 +256,11 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       return el('div', { class: 'why' }, btn, box);
     };
     if (ok) body.classList.add('solved');
+    if (think) combo = result === 'correct' ? combo + 1 : result === 'wrong' ? 0 : combo;
     const sheet = el('div', { class: `feedback ${ok ? 'good' : 'bad'}` },
       ok ? sparkles() : null,
-      el('div', { class: 'feedback-title' }, think ? (ok ? '🎉 ' : '🤔 ') : ok ? '✔ ' : '✘ ', title),
+      el('div', { class: 'feedback-title' }, think ? (ok ? '🎉 ' : '🤔 ') : ok ? '✔ ' : '✘ ', title,
+        think && combo >= 3 ? el('span', { class: 'combo' }, `${combo} ברצף! 🔥`) : null),
       (result === 'wrong' || result === 'typo') && expected
         ? el('div', { class: 'feedback-answer' }, 'התשובה הנכונה: ',
             el('span', { dir: THINK_TYPES.has(ex.type) ? 'auto' : answerIsHebrew(ex) ? 'rtl' : 'ltr' }, ...(THINK_TYPES.has(ex.type) ? txt(expected) : [expected])))
@@ -268,7 +285,9 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     const xp = xpForLesson({ mistakes: mistakes.size, total });
     markFinished();
     const streakInfo = await saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes: [...mistakes] });
-    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null });
+    // The concept cards' titles make the "what we learned" recap on the complete screen.
+    const concepts = lesson.course ? exercises.filter((ex) => ex.type === 'teach' && ex.title_he).map((ex) => ex.title_he) : [];
+    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null, concepts });
   }
 
   next();

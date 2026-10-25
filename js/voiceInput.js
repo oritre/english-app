@@ -3,6 +3,7 @@ import { Recognition, asrEngine, localAsrUsable } from './exercises/speak.js';
 import { setSetting } from './settings.js';
 import { localAsrSupported, loadLocalAsr, recordUtterance, transcribe } from './localAsr.js';
 import { micErrorTip } from './micTest.js';
+import { stopSpeech } from './speech.js';
 
 // A 🎤 button under a typing box: the learner says the answer and the
 // transcription is written into the box, where it can still be fixed by hand
@@ -55,7 +56,7 @@ export function voiceInput(input, { track } = {}) {
   mic.addEventListener('click', () => {
     if (asrEngine() === 'local') { localClick(); return; }
     if (rec) { rec.stop(); return; }
-    try { speechSynthesis.cancel(); } catch { /* no TTS */ }
+    stopSpeech();
     rec = new Recognition();
     rec.lang = 'en-US';
     rec.continuous = false;

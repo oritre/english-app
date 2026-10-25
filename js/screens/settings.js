@@ -1,5 +1,5 @@
 import { el, en } from '../util.js';
-import { speak, canSpeak, canSpeakLang, voiceName, voicesFor, refreshVoice } from '../speech.js';
+import { speak, canSpeak, canSpeakLang, voiceName, voicesFor, refreshVoice, stopSpeech, PI_VOICE } from '../speech.js';
 import { getSettings, setSetting, RATE_CHOICES } from '../settings.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
 import { Recognition, asrEngine, localAsrUsable } from '../exercises/speak.js';
@@ -56,8 +56,10 @@ function speakerSection() {
     const select = el('select', { class: 'voice-select', dir: 'ltr' });
     const fill = () => {
       const list = voicesFor(lang);
-      select.replaceChildren(...list.map((v, i) => el('option', { value: v.name, selected: v.name === (getSettings()[key] || list[0]?.name) }, `${i === 0 ? '★ ' : ''}${v.name}`)));
-      row.hidden = list.length === 0;
+      const chosen = getSettings()[key] || PI_VOICE;
+      // First: the natural voice the home Pi records. The device's own voices back it up.
+      select.replaceChildren(el('option', { value: PI_VOICE, selected: chosen === PI_VOICE }, '★ קול טבעי (מהשרת בבית)'),
+        ...list.map((v) => el('option', { value: v.name, selected: v.name === chosen }, v.name)));
     };
     select.addEventListener('change', () => { setSetting(key, select.value); refreshVoice(); speak(sample, { lang }); });
     const row = el('label', { class: 'setting-row voice-row' }, el('span', { class: 'setting-label' }, label), select);
@@ -123,7 +125,7 @@ function micSection() {
       status.textContent = 'הדפדפן הזה לא מתמלל דיבור. נסו ב־Chrome או ב־Edge.';
       return;
     }
-    try { speechSynthesis.cancel(); } catch { /* no TTS */ }
+    stopSpeech();
     const rec = new Recognition();
     rec.lang = 'en-US';
     rec.interimResults = false;

@@ -1,9 +1,9 @@
 name: English app videos
-version: "1.0.0"
+version: "1.1.3"
 slug: english_media
-description: Downloads the general-knowledge videos of the לימודים app once and serves them to the family's devices, without YouTube or ads.
+description: Serves the לימודים app's general-knowledge videos (downloaded once, without YouTube or ads) and reads its words and sentences in a natural voice.
 url: https://github.com/oritre/english-app/tree/main/pi/english_media
-arch: [aarch64, amd64, armv7]
+arch: [aarch64, amd64]
 init: false
 boot: auto
 startup: application
@@ -19,9 +19,15 @@ options:
   tailscale_hostname: english-media
   quality: 720
   videos_url: https://oritre.github.io/english-app/data/videos.json
+  gemini_api_key: ""
+  tts_model: gemini-3.8-flash-tts
+  tts_voice: Sulafat
 schema:
   family_code: password
   tailscale_authkey: password?
   tailscale_hostname: str
   quality: int(240,1080)
   videos_url: url
+  gemini_api_key: password?
+  tts_model: str
+  tts_voice: str
