@@ -48,8 +48,10 @@ export function scaleView({ left, right, tilt }) {
 
 // ---- shared parts ----
 
-// A picture made only of emoji (a clock, a fruit) is shown big.
+// A picture made only of emoji (a clock, a fruit) is shown big. Joiners and
+// variation selectors don't count as pictures (a polar bear is one emoji, not four).
 const EMOJI_ONLY = /^[\p{Extended_Pictographic}\uFE0F\u200D\s]+$/u;
+const emojiCount = (s) => [...String(s).replace(/[\uFE0F\u200D\s]/g, '')].length;
 
 // Young readers (profile.read_aloud) hear every question as it appears.
 let readAloud = false;
@@ -64,12 +66,12 @@ function header(root, ex, track) {
     class: 'hint-btn', type: 'button',
     onclick: () => { hint.hidden = false; hintBtn.hidden = true; track?.('hint', ''); sayHe(ex.hint_he); },
   }, '💡 רמז') : null;
-  put(root, 
-    el('h2', { class: 'ex-title think-title' }, ...mixed(ex.prompt_he),
-      canSpeakLang('he-IL') ? el('button', { class: 'speaker small', type: 'button', 'aria-label': 'הקראה', onclick: read }, '🔊') : null),
+  put(root,
+    el('h2', { class: 'ex-title think-title' }, el('span', { class: 'think-q' }, ...mixed(ex.prompt_he)),
+      canSpeakLang('he-IL') ? el('button', { class: 'speaker small think-speak', type: 'button', 'aria-label': 'הקראה', onclick: read }, '🔊') : null),
     ...(ex.body_he || []).map((p) => el('p', { class: 'teach-body' }, ...mixed(p))),
     ex.visual && ex.code ? el('pre', { class: 'think-code', dir: 'ltr' }, ex.visual)
-      : ex.visual ? el('div', { class: `think-visual ${EMOJI_ONLY.test(ex.visual) && [...ex.visual].length <= 3 ? 'solo' : ''}`, dir: 'ltr' }, ex.visual.split('\n').map((line) => el('div', {}, line))) : null,
+      : ex.visual ? el('div', { class: `think-visual ${EMOJI_ONLY.test(ex.visual) && emojiCount(ex.visual) <= 3 ? 'solo' : ''}`, dir: 'ltr' }, ex.visual.split('\n').map((line) => el('div', {}, line))) : null,
     ex.scale ? scaleView(ex.scale).view : null,
     ex.bars ? barsView(ex.bars) : null);
   return { hint, hintBtn };
@@ -107,6 +109,37 @@ function cue(root, type) {
   const tip = el('div', { class: 'howto', role: 'note' }, el('span', { class: 'howto-icon' }, '👆'), el('span', {}, HOWTO[type]),
     el('button', { class: 'howto-close', type: 'button', 'aria-label': 'סגירה', onclick: () => tip.remove() }, '✕'));
   put(root, tip);
+}
+
+// ---- concept card ----
+
+// A teach card in a think lesson: a big picture (the course icon, via --course-icon),
+// the title, and the body one line at a time. The lesson's bottom button reveals
+// the next line (api.pending / api.advance), so there is one idea on screen at a time.
+export function renderConcept(root, ex, { track }) {
+  const lines = (ex.body_he || []).map(String);
+  const he = canSpeakLang('he-IL');
+  const list = el('div', { class: 'concept-lines' });
+  const dots = el('div', { class: 'concept-dots', 'aria-hidden': 'true' }, lines.map(() => el('i')));
+  let shown = 0;
+  const reveal = () => {
+    if (shown >= lines.length) return;
+    list.querySelectorAll('.concept-line').forEach((p) => p.classList.replace('now', 'past'));
+    list.append(el('p', { class: 'concept-line now' }, ...mixed(lines[shown])));
+    dots.children[shown].classList.add('on');
+    if (he) sayHe(lines[shown]);
+    shown++;
+    if (shown > 1) track?.('more', shown);
+  };
+  put(root, el('div', { class: 'concept' },
+    el('div', { class: 'concept-art', 'aria-hidden': 'true' }),
+    el('div', { class: 'concept-kicker' }, '💡 רעיון חדש'),
+    el('h2', { class: 'ex-title concept-title' }, el('span', { class: 'think-q' }, ...mixed(ex.title_he)),
+      he ? el('button', { class: 'speaker small think-speak', type: 'button', 'aria-label': 'הקראה', onclick: () => sayHe(ex.say_he || [ex.title_he, ...lines].join('. ')) }, '🔊') : null),
+    list, lines.length > 1 ? dots : null));
+  if (he) sayHe(ex.title_he);
+  reveal();
+  return { getAnswer: () => null, info: true, pending: () => lines.length - shown, advance: reveal };
 }
 
 // ---- exercise types ----

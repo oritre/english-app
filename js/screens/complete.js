@@ -86,6 +86,10 @@ export async function renderComplete(root, nav, p) {
     league.myRow ? el('button', { class: 'league-note', type: 'button', onclick: () => nav('league') },
       `${league.tier.icon} מקום ${league.myRow.rank} בליגת ${league.tier.name}`) : null,
     p.goalMetNow ? el('p', { class: 'goal-met' }, 'עמדתם ביעד היומי ✔') : null,
+    // Think lessons: a recap of the ideas the lesson taught (the concept cards' titles).
+    p.concepts?.length ? el('div', { class: 'recap' },
+      el('div', { class: 'recap-head' }, '📚 מה למדנו'),
+      el('ul', { class: 'recap-list' }, p.concepts.map((t) => el('li', {}, el('span', { class: 'recap-check' }, '✓'), ...mixed(t))))) : null,
     nextRow,
     el('button', { class: `btn ${nextRow ? '' : 'primary'} wide`, type: 'button', onclick: () => nav('path') }, nextRow ? 'חזרה למסלול' : 'המשך')));
   }
