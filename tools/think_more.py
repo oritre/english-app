@@ -136,7 +136,7 @@ MORE = [
         ]}],
     },
     {
-        'id': 'ai', 'icon': '🧠', 'color': '#9333ea', 'area': 'logic',
+        'id': 'ai', 'icon': '🧠', 'color': '#9333ea', 'area': 'tech',
         'title_he': 'איך בינה מלאכותית לומדת', 'about_he': 'דוגמאות, דפוסים ומכונה שמנחשת',
         'units': [{'id': 't-ai', 'title_he': 'מכונה לומדת', 'about_he': 'מלמדים מחשב מדוגמאות', 'lessons': [
             ('t-ai-1', 'לומדים מדוגמאות', [
@@ -158,7 +158,7 @@ MORE = [
         ]}],
     },
     {
-        'id': 'python', 'icon': '🐍', 'color': '#15803d', 'area': 'logic',
+        'id': 'python', 'icon': '🐍', 'color': '#15803d', 'area': 'tech',
         'title_he': 'קוד אמיתי: פייתון', 'about_he': 'קוראים קוד אמיתי ומנחשים מה הוא יעשה',
         'units': [{'id': 't-py', 'title_he': 'פייתון ראשון', 'about_he': 'הדפסה, משתנים ולולאות', 'lessons': [
             ('t-py-1', 'הדפסה ומשתנים', [

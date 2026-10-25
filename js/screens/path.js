@@ -153,6 +153,7 @@ export async function renderPath(root, nav) {
         el('span', { class: 'course-badge' }, state === 'complete' ? '✓ הושלם' : state === 'started' ? `${pct}%` : 'חדש')),
       el('span', { class: 'course-name' }, c.title_he),
       el('span', { class: 'course-about' }, c.about_he),
+      c.moe ? el('span', { class: 'course-moe', title: 'תואם לתוכנית הלימודים של משרד החינוך' }, '🏫 תוכנית משרד החינוך') : null,
       el('span', { class: 'course-progress', role: 'progressbar', 'aria-valuenow': pct, 'aria-valuemin': 0, 'aria-valuemax': 100 }, el('span', { style: `width: ${pct}%` })),
       el('span', { class: 'course-count' }, state === 'complete' ? `${ids.length} שיעורים ✓`
         : state === 'started' ? `${n} מתוך ${ids.length} · הבא: ${titles[next] || ''}` : `${ids.length} שיעורים`));
@@ -179,7 +180,11 @@ export async function renderPath(root, nav) {
   const gradeName = grade >= 13 ? 'מבוגרים' : grade ? `כיתה ${['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט', 'י', 'יא', 'יב'][grade - 1]}'` : '';
   const plan = profile.think_plan?.courses?.length ? profile.think_plan : null;
   const picks = plan ? plan.courses.map((id) => courses.find((c) => c.id === id)).filter(Boolean)
-    : grade ? courses.filter((c) => c.grades && grade >= c.grades[0] && grade <= c.grades[1]) : [];
+    : grade ? courses.filter((c) => c.grades && grade >= c.grades[0] && grade <= c.grades[1])
+      // Curriculum courses first, then the ones aimed most tightly at this grade.
+      .map((c, i) => ({ c, key: [c.moe ? 0 : 1, c.grades[1] - c.grades[0], i] }))
+      .sort((a, b) => a.key[0] - b.key[0] || a.key[1] - b.key[1] || a.key[2] - b.key[2])
+      .slice(0, 8).map((x) => x.c) : [];
   const rest = courses.filter((c) => !picks.includes(c));
   const recommended = picks.length ? el('div', { class: 'course-area recommended' },
     el('h3', { class: 'area-title' }, el('span', { class: 'area-icon' }, '🎯'), plan ? 'נבחר בשבילך השבוע' : `מומלץ ל${gradeName}`),

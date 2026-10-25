@@ -88,7 +88,7 @@ BLOCK = '🧱'
 Q = '❓'
 
 # Catalog groups ('area' on each course): maths, logic and code, science.
-AREAS = [('math', '🧮', 'מתמטיקה'), ('logic', '🧩', 'היגיון וקוד'), ('science', '🔬', 'מדע')]
+AREAS = [('math', '🧮', 'מתמטיקה'), ('logic', '🧩', 'היגיון וקוד'), ('science', '🔬', 'מדע'), ('tech', '💻', 'מחשבים וטכנולוגיה')]
 
 COURSES = [
     {
@@ -268,7 +268,7 @@ COURSES = [
         ]}],
     },
     {
-        'id': 'code', 'area': 'logic', 'icon': '🤖', 'color': '#16a34a',
+        'id': 'code', 'area': 'tech', 'icon': '🤖', 'color': '#16a34a',
         'title_he': 'חשיבה בקוד', 'about_he': 'כותבים תוכניות לרובוט ולומדים לחשוב כמו מתכנתים',
         'units': [{'id': 't-code', 'title_he': 'רובוט במבוך', 'about_he': 'פקודות, סדר ולולאות', 'lessons': [
             ('t-code-1', 'הפקודות הראשונות', [
@@ -377,7 +377,8 @@ def main():
     count = 0
     # More courses live in think_more.py; every course gets its school-grade band.
     from think_more import MORE, GRADES
-    for c in COURSES + MORE:
+    from think_extra import EXTRA, MOE_IDS
+    for c in COURSES + MORE + EXTRA:
         units = []
         for u in c['units']:
             ids = []
@@ -391,7 +392,7 @@ def main():
                 ids.append(lesson_id)
                 count += len(exercises)
             units.append({'id': u['id'], 'title_he': u['title_he'], 'about_he': u['about_he'], 'lessons': ids})
-        out['courses'].append({k: c[k] for k in ('id', 'area', 'icon', 'color', 'title_he', 'about_he')} | {'grades': list(GRADES[c['id']]), 'units': units})
+        out['courses'].append({k: c[k] for k in ('id', 'area', 'icon', 'color', 'title_he', 'about_he')} | {'grades': list(c.get('grades') or GRADES[c['id']]), 'moe': bool(c.get('moe') or c['id'] in MOE_IDS), 'units': units})
     with open(os.path.join(ROOT, 'think.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"{len(out['courses'])} courses, {len(out['lesson_titles'])} lessons, {count} exercises")

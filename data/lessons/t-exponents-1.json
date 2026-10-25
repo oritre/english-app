@@ -1,0 +1,57 @@
+{
+ "id": "t-exponents-1",
+ "unit_id": "t-exponents",
+ "course": "exponents",
+ "title_he": "חזקות",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "חזקה",
+   "body_he": [
+    "2³ זה 2 × 2 × 2 = 8. המספר הקטן אומר כמה פעמים כופלים."
+   ],
+   "say_he": "חזקה 2³ זה 2 × 2 × 2 = 8. המספר הקטן אומר כמה פעמים כופלים.",
+   "id": "t-exponents-1e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה זה 3²?",
+   "answer": "9",
+   "explain_he": "3 × 3 = 9.",
+   "id": "t-exponents-1e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה זה 2⁵?",
+   "answer": "32",
+   "explain_he": "2 × 2 × 2 × 2 × 2 = 32.",
+   "id": "t-exponents-1e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "דף מקופל לחצי, ושוב, ושוב: 3 פעמים. לכמה שכבות?",
+   "answer": "8",
+   "explain_he": "כל קיפול מכפיל: 2 → 4 → 8.",
+   "hint_he": "כל קיפול מכפיל ב-2",
+   "id": "t-exponents-1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גדול יותר?",
+   "answer": "2¹⁰",
+   "options": [
+    "2¹⁰",
+    "10²"
+   ],
+   "explain_he": "2¹⁰ = 1024, ו-10² = 100. חזקות גדלות מהר!",
+   "id": "t-exponents-1e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "חיידק מתחלק לשניים כל שעה. מתחילים מאחד. כמה יהיו אחרי 6 שעות?",
+   "answer": "64",
+   "explain_he": "2⁶ = 64.",
+   "id": "t-exponents-1e6"
+  }
+ ]
+}

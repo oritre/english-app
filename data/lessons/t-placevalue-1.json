@@ -1,0 +1,84 @@
+{
+ "id": "t-placevalue-1",
+ "unit_id": "t-placevalue",
+ "course": "placevalue",
+ "title_he": "ערך המקום",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "כל ספרה במקום שלה",
+   "body_he": [
+    "במספר 352: הספרה 3 היא 3 מאות, 5 היא 5 עשרות, ו-2 הן 2 אחדות.",
+    "300 + 50 + 2 = 352."
+   ],
+   "say_he": "כל ספרה במקום שלה במספר 352: הספרה 3 היא 3 מאות, 5 היא 5 עשרות, ו-2 הן 2 אחדות. 300 + 50 + 2 = 352.",
+   "id": "t-placevalue-1e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה עשרות יש במספר 47?",
+   "answer": "4",
+   "explain_he": "47 זה 4 עשרות ו-7 אחדות.",
+   "visual": "4 7",
+   "id": "t-placevalue-1e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "איזה מספר זה?",
+   "answer": "236",
+   "explain_he": "2 מאות, 3 עשרות ו-6 אחדות: 236.",
+   "visual": "💯💯 🔟🔟🔟 ▪️▪️▪️▪️▪️▪️",
+   "id": "t-placevalue-1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ערך הספרה 5 במספר 583?",
+   "answer": "500",
+   "options": [
+    "500",
+    "50",
+    "5"
+   ],
+   "explain_he": "הספרה 5 במקום המאות.",
+   "id": "t-placevalue-1e4"
+  },
+  {
+   "type": "order",
+   "prompt_he": "סדרו מהקטן לגדול",
+   "items": [
+    "199",
+    "210",
+    "301",
+    "310"
+   ],
+   "explain_he": "קודם משווים מאות, אחר כך עשרות.",
+   "ends": [
+    "קטן",
+    "גדול"
+   ],
+   "id": "t-placevalue-1e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה זה 400 + 30 + 8?",
+   "answer": "438",
+   "explain_he": "ארבע מאות שלושים ושמונה.",
+   "id": "t-placevalue-1e6"
+  },
+  {
+   "type": "numberline",
+   "prompt_he": "הזיזו את הסמן ל-750",
+   "min": 0,
+   "max": 1000,
+   "step": 50,
+   "answer": "750",
+   "explain_he": "750 זה שלושה רבעים מהדרך ל-1,000.",
+   "labels": [
+    0,
+    500,
+    1000
+   ],
+   "id": "t-placevalue-1e7"
+  }
+ ]
+}

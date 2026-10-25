@@ -1,0 +1,60 @@
+{
+ "id": "t-functions-1",
+ "unit_id": "t-functions",
+ "course": "functions",
+ "title_he": "מכונת מספרים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "פונקציה היא מכונה",
+   "body_he": [
+    "מכניסים x, המכונה עושה פעולה קבועה, ויוצא y."
+   ],
+   "say_he": "פונקציה היא מכונה מכניסים x, המכונה עושה פעולה קבועה, ויוצא y.",
+   "id": "t-functions-1e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "המכונה כופלת ב-3 ומוסיפה 1. מה יוצא מ-4?",
+   "answer": "13",
+   "explain_he": "4 × 3 + 1 = 13.",
+   "id": "t-functions-1e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה החוק? (מה יוצא מ-10?)",
+   "answer": "20",
+   "explain_he": "כל פעם y = 2x, אז מ-10 יוצא 20.",
+   "hint_he": "בכמה y גדול מ-x?",
+   "visual": "x: 1  2  3  4\ny: 2  4  6  8",
+   "code": true,
+   "id": "t-functions-1e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "f(x) = x² . מה f(5)?",
+   "answer": "25",
+   "explain_he": "5 × 5 = 25.",
+   "id": "t-functions-1e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה נכנס, אם המכונה מוסיפה 7 ויצא 12?",
+   "answer": "5",
+   "explain_he": "הולכים אחורה: 12 - 7 = 5.",
+   "id": "t-functions-1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה גרף הוא קו ישר?",
+   "answer": "y = 2x + 1",
+   "options": [
+    "y = 2x + 1",
+    "y = x²",
+    "y = 1/x"
+   ],
+   "explain_he": "כשאין חזקה ואין חלוקה ב-x, הגרף ישר.",
+   "id": "t-functions-1e6"
+  }
+ ]
+}

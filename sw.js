@@ -1,7 +1,7 @@
 // App shell is cache-first; course data and the Firebase config are network-first
 // so new lessons (or turning sync on) show up as soon as they're deployed, and
 // still work offline afterwards.
-const CACHE_NAME = 'english-app-v32';
+const CACHE_NAME = 'english-app-v33';
 const ASR_CACHE = 'asr-lib-3.8.1';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './css/styles.css',
