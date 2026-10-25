@@ -103,6 +103,12 @@ def grade_level(course, grade):
     return 1 if t < 1 / 3 else 2 if t < 2 / 3 else 3
 
 
+def subject_of(lesson_id):
+    """Same as subjectOf in js/insights.js."""
+    i = str(lesson_id or '')
+    return 'know' if i.startswith('k-') else 'think' if i.startswith(('t-', 'tp-')) else 'english'
+
+
 def think_stats(p, results, done, since28):
     """Per think course touched in the last 4 weeks: progress, accuracy and level."""
     out = {}
@@ -136,7 +142,8 @@ def summary(code, days):
     for p in profiles:
         pid = p['id']
         talks = [a for a in attempts if a.get('profile_id') == pid and a.get('type') == 'talk' and a.get('date', '') >= since]
-        mine = [a for a in attempts if a.get('profile_id') == pid and a.get('type') != 'talk']
+        mine = [a for a in attempts if a.get('profile_id') == pid and a.get('type') not in ('talk', 'session')]
+        sessions = [a for a in attempts if a.get('profile_id') == pid and a.get('type') == 'session' and a.get('date', '') >= since]
         week = [a for a in mine if a.get('date', '') >= since]
         by_type = collections.defaultdict(lambda: [0, 0])
         for a in week:
@@ -176,6 +183,11 @@ def summary(code, days):
             'talks_week': [{'date': a.get('date'), 'topic': a.get('topic'), 'sec': round((a.get('ms') or 0) / 1000),
                             'transcript': a.get('transcript')} for a in sorted(talks, key=lambda a: a.get('at') or 0)],
             'attempts_total': len(mine), 'attempts_week': len(week),
+            # Active minutes (taps, video or talk in the last 45 s) per tab, and minutes the screen was just open.
+            'active_min_week': {s: round(sum(a.get('active_s') or 0 for a in sessions if subject_of(a.get('lesson_id')) == s) / 60)
+                                for s in ('english', 'think', 'know')},
+            'open_min_week': round(sum(a.get('open_s') or 0 for a in sessions) / 60),
+            'goals': p.get('goals'),
             'days_active_week': sorted({a['date'] for a in week}),
             'lessons_done': done, 'lessons_done_titles': [titles.get(i, i) for i in done[-8:]],
             'results_week': [{k: r.get(k) for k in ('date', 'lesson_id', 'accuracy', 'duration_s', 'xp')} for r in res],

@@ -10,7 +10,7 @@ const APP_SHELL = [
   './js/screens/path.js', './js/screens/lesson.js', './js/screens/complete.js',
   './js/screens/profiles.js', './js/screens/placement.js', './js/screens/league.js', './js/screens/report.js', './js/screens/syncSetup.js', './js/screens/settings.js', './js/screens/talk.js',
   './js/exercises/index.js', './js/exercises/choose.js', './js/exercises/wordBank.js',
-  './js/exercises/matchPairs.js', './js/exercises/fillBlank.js', './js/exercises/listenType.js', './js/exercises/listenTranslate.js', './js/exercises/speak.js', './js/exercises/typeTranslate.js', './js/exercises/read.js', './js/exercises/teach.js', './js/exercises/pick.js', './js/exercises/spell.js', './js/exercises/think.js', './js/exercises/story.js', './js/storyLogic.js', './js/media.js', './js/thinkLogic.js', './js/thinkPractice.js',
+  './js/exercises/matchPairs.js', './js/exercises/fillBlank.js', './js/exercises/listenType.js', './js/exercises/listenTranslate.js', './js/exercises/speak.js', './js/exercises/typeTranslate.js', './js/exercises/read.js', './js/exercises/teach.js', './js/exercises/pick.js', './js/exercises/spell.js', './js/exercises/think.js', './js/exercises/story.js', './js/storyLogic.js', './js/media.js', './js/thinkLogic.js', './js/thinkPractice.js', './js/activity.js', './js/insights.js', './js/screens/parent.js',
   './data/course.json', './data/think.json', './data/know.json', './data/videos.json', './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png', './icons/favicon-32.png', './icons/apple-touch-icon.png', './favicon.ico',
 ];
 

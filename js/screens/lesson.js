@@ -12,6 +12,7 @@ import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
 import { COACH_LESSON, coachLesson } from '../coach.js';
 import { THINK_TYPES, txt, setReadAloud } from '../exercises/think.js';
+import { startSession, markFinished } from '../activity.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
 // answered right. Progress bar counts first-time-right plus fixed mistakes.
@@ -32,6 +33,8 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   let total = exercises.length;
   let solved = 0;
   const started = Date.now();
+  // Active time in this lesson, saved even if it is left halfway (see activity.js).
+  const session = startSession(lessonId);
 
   const bar = el('div', { class: 'progress-fill' });
   const quit = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'יציאה' }, '✕');
@@ -103,7 +106,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     const log = (outcome, given) => logAttempt({
       lessonId, exercise: ex, outcome, ms: Date.now() - shownAt,
       given: given == null ? null : String(given), expected: ex.answer ?? null,
-      taps: taps.slice(), pos: shownCount, lessonSec: Math.round((shownAt - started) / 1000),
+      taps: taps.slice(), pos: shownCount, lessonSec: Math.round((shownAt - started) / 1000), sid: session?.rec.id,
     });
 
     closePop();
@@ -263,6 +266,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     const durationS = Math.round((Date.now() - started) / 1000);
     const accuracy = Math.round(((total - mistakes.size) / total) * 100);
     const xp = xpForLesson({ mistakes: mistakes.size, total });
+    markFinished();
     const streakInfo = await saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes: [...mistakes] });
     nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null });
   }

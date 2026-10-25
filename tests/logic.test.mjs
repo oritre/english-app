@@ -430,3 +430,85 @@ test('young learners get no free typing', async () => {
   assert.equal(withoutTyping(exs, { grade: 6, no_typing: true }).length, 2);
   assert.equal(withoutTyping(exs, { grade: 2, no_typing: false }).length, 4);
 });
+
+// ---- parent view: active time, quality, goals ----
+import { subjectOf, periodRange, previousRange, insights, isGuess, qualityScore, goalStatus, lastPeriodStatus, goalLabel } from '../js/insights.js';
+
+test('subjectOf maps lesson ids to the three tabs', () => {
+  assert.equal(subjectOf('k-ani-v1'), 'know');
+  assert.equal(subjectOf('t-frac-1'), 'think');
+  assert.equal(subjectOf('tp-frac'), 'think');
+  assert.equal(subjectOf('u1-l1'), 'english');
+  assert.equal(subjectOf('coach-2026-10-20-1'), 'english');
+  assert.equal(subjectOf('talk'), 'english');
+});
+
+test('periodRange: day, Sunday-to-Saturday week, last week', () => {
+  assert.deepEqual(periodRange('day', '2026-10-25'), { from: '2026-10-25', to: '2026-10-25' });
+  assert.deepEqual(periodRange('week', '2026-10-28'), { from: '2026-10-25', to: '2026-10-31' });
+  assert.deepEqual(periodRange('lastweek', '2026-10-28'), { from: '2026-10-18', to: '2026-10-24' });
+  assert.deepEqual(previousRange({ from: '2026-10-25', to: '2026-10-31' }), { from: '2026-10-18', to: '2026-10-24' });
+});
+
+const T = '2026-10-27';
+const sess = (lesson, active, open, extra = {}) => ({ type: 'session', lesson_id: lesson, date: T, active_s: active, open_s: open, finished: true, ...extra });
+const ans = (lesson, ex, outcome, ms = 4000, extra = {}) => ({ lesson_id: lesson, exercise_id: ex, type: 'choose', outcome, ms, date: T, at: ++ans.n, sid: 's1', ...extra });
+ans.n = 0;
+
+test('insights: active vs open time per tab, first try, fixes, guesses, new lessons', () => {
+  const data = {
+    sessions: [sess('u1-l1', 600, 900), sess('t-a-1', 300, 300), sess('k-x-1', 120, 600, { finished: false })],
+    attempts: [
+      ans('u1-l1', 'e1', 'correct'), ans('u1-l1', 'e2', 'wrong', 500), ans('u1-l1', 'e2', 'correct'),
+      ans('u1-l1', 'e3', 'wrong'), ans('t-a-1', 'q1', 'correct', 3000, { type: 'mcq' }),
+    ],
+    results: [
+      { id: 'r0', lesson_id: 'u1-l1', date: '2026-10-01', accuracy: 60 },
+      { id: 'r1', lesson_id: 'u1-l1', date: T, accuracy: 90 },
+      { id: 'r2', lesson_id: 't-a-1', date: T, accuracy: 85 },
+      { id: 'r3', lesson_id: 'tp-a', date: T, accuracy: 70 },
+    ],
+  };
+  const range = { from: T, to: T };
+  const all = insights(data, range);
+  assert.equal(Math.round(all.activeMin), 17);
+  assert.equal(Math.round(all.openMin), 30);
+  assert.equal(all.items, 4);
+  assert.equal(all.firstTry, 0.5);
+  assert.equal(all.fixRate, 0.5);
+  assert.equal(all.guessShare, 1 / 5);
+  assert.equal(all.newLessons, 1); // u1-l1 was first done earlier: a repeat
+  assert.equal(all.repeats, 1);
+  assert.equal(all.practice, 1);
+  assert.equal(all.progress, 2);
+  assert.equal(all.quit, 1);
+  const en = insights(data, range, 'english');
+  assert.equal(en.activeMin, 10);
+  assert.equal(insights(data, range, 'know').activeMin, 2);
+  assert.equal(all.quality, null); // fewer than 8 questions
+});
+
+test('isGuess: too-fast wrong answers and trial-and-error, never typed answers', () => {
+  assert.ok(isGuess({ type: 'choose', outcome: 'wrong', ms: 600 }));
+  assert.ok(!isGuess({ type: 'choose', outcome: 'wrong', ms: 5000 }));
+  assert.ok(isGuess({ type: 'mcq', outcome: 'correct', ms: 5000, taps: [{ k: 'choice' }, { k: 'choice' }, { k: 'choice' }] }));
+  assert.ok(!isGuess({ type: 'translate_he_en', outcome: 'wrong', ms: 300 }));
+});
+
+test('qualityScore weighs first try most and skips missing parts', () => {
+  assert.equal(qualityScore({ items: 3 }), null);
+  assert.equal(qualityScore({ items: 10, firstTry: 1, guessShare: 0, focus: 1, fixRate: null }), 100);
+  assert.equal(qualityScore({ items: 10, firstTry: 0.5, guessShare: 0.5, focus: null, fixRate: 0 }), Math.round((100 * (0.225 + 0.125)) / 0.85));
+});
+
+test('goalStatus: met, open and missed; last period', () => {
+  const data = { sessions: [sess('u1-l1', 1500, 1600), { ...sess('u1-l1', 300, 300), date: '2026-10-26' }], attempts: [], results: [] };
+  const daily = { id: 'g1', kind: 'minutes', subject: 'all', target: 20, period: 'day' };
+  assert.equal(goalStatus(daily, data, T).state, 'met');
+  assert.equal(goalStatus(daily, data, '2026-10-28').state, 'open');
+  assert.equal(lastPeriodStatus(daily, data, '2026-10-28').met, true);
+  assert.equal(lastPeriodStatus(daily, data, T).state, 'missed'); // only 5 minutes on the 26th
+  const weekly = { id: 'g2', kind: 'lessons', subject: 'think', target: 3, period: 'week' };
+  assert.equal(goalStatus(weekly, data, T).actual, 0);
+  assert.equal(goalLabel(weekly), '3 שיעורים בשבוע בחשיבה ומדעים');
+});

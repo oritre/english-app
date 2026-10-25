@@ -1,5 +1,6 @@
 import { el, en } from '../util.js';
 import { getProfile, logTalk } from '../progress.js';
+import { startSession, holdActive, markFinished, endSession } from '../activity.js';
 import { startTalk, loadTalkKey, talkSupported, TOPICS } from '../talk.js';
 import { micErrorTip } from '../micTest.js';
 
@@ -77,6 +78,7 @@ export async function renderTalk(root, nav) {
     };
     const release = () => {
       clearInterval(timer);
+      if (started) { markFinished(); endSession(); }
       lock?.release?.().catch(() => {});
       if (active === handle) active = null;
     };
@@ -134,6 +136,9 @@ export async function renderTalk(root, nav) {
     }
     if (active !== handle) { talk.close(); return; }
     started = Date.now();
+    // A conversation is active time even without taps.
+    startSession('talk');
+    holdActive(true);
     try { lock = await navigator.wakeLock?.request('screen'); } catch { /* not allowed */ }
     timer = setInterval(() => {
       const sec = Math.round((Date.now() - started) / 1000);

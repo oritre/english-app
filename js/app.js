@@ -9,8 +9,10 @@ import { renderReports, renderReport } from './screens/report.js';
 import { renderSync, syncOnLoad } from './screens/syncSetup.js';
 import { renderSettings } from './screens/settings.js';
 import { renderTalk, leaveTalk } from './screens/talk.js';
+import { renderParent, renderParentKid } from './screens/parent.js';
 import { getProfile, setCurrentProfile } from './progress.js';
 import { el } from './util.js';
+import { endSession } from './activity.js';
 
 const routes = {
   profiles: renderProfiles,
@@ -26,6 +28,8 @@ const routes = {
   complete: renderComplete,
   settings: renderSettings,
   talk: renderTalk,
+  parent: renderParent,
+  parentKid: renderParentKid,
 };
 // Lesson-like screens have their own footer and a 🏠 in their top bar instead.
 const NO_TABS = new Set(['lesson', 'placement', 'talk']);
@@ -59,6 +63,7 @@ function nav(route, params = {}) {
       // A new version waiting from earlier loads as soon as the learner leaves a lesson.
       if (updateReady && !NO_TABS.has(r)) { location.reload(); return null; }
       if (screen === 'talk') leaveTalk();
+      endSession();
       screen = r;
       showTabs(r);
       return routes[r](root, nav, params);

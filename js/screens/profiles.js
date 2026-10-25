@@ -21,7 +21,7 @@ export async function renderProfiles(root, nav) {
     el('div', { class: 'profile-grid' }, cards,
       el('button', { class: 'profile-card add', type: 'button', onclick: () => nav('profileCreate') },
         el('span', { class: 'avatar' }, '+'), el('span', { class: 'profile-name' }, 'לומד חדש'))),
-    el('button', { class: 'retest', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות'),
+    el('button', { class: 'retest', type: 'button', onclick: () => nav('parent') }, '👨‍👩‍👧 אזור הורים: זמן, איכות ויעדים'),
     el('button', { class: 'retest', type: 'button', onclick: () => nav('sync') }, '🔄 סנכרון בין מכשירים'),
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`)));
 }
