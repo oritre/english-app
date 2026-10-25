@@ -1,5 +1,55 @@
 [
  {
+  "youtube": "SSk5FkTkIQc",
+  "lesson": "k-ber-v1",
+  "title_he": "בריאת העולם"
+ },
+ {
+  "youtube": "FmywE4WNCqw",
+  "lesson": "k-ber-v2",
+  "title_he": "נח והמבול"
+ },
+ {
+  "youtube": "xA_rv9GVIGw",
+  "lesson": "k-ber-v3",
+  "title_he": "אברהם יוצא לדרך"
+ },
+ {
+  "youtube": "GN4BJs-pZt8",
+  "lesson": "k-ber-v4",
+  "title_he": "יוסף פותר את חלומות פרעה"
+ },
+ {
+  "youtube": "V-0yCswp6qM",
+  "lesson": "k-exo-v1",
+  "title_he": "משה והסנה הבוער"
+ },
+ {
+  "youtube": "w_1IXW8_dpM",
+  "lesson": "k-exo-v2",
+  "title_he": "עשר המכות"
+ },
+ {
+  "youtube": "uQ0JHIrDIyE",
+  "lesson": "k-exo-v3",
+  "title_he": "יציאת מצרים וקריעת ים סוף"
+ },
+ {
+  "youtube": "cgpMg82gzMc",
+  "lesson": "k-kin-v1",
+  "title_he": "שאול ודוד"
+ },
+ {
+  "youtube": "MFNumre0rA4",
+  "lesson": "k-kin-v2",
+  "title_he": "שלמה המלך"
+ },
+ {
+  "youtube": "eIzSdx1xX20",
+  "lesson": "k-kin-v3",
+  "title_he": "חורבן בית ראשון"
+ },
+ {
   "youtube": "MM5nAuAhtKs",
   "lesson": "k-inv-v1",
   "title_he": "איך הומצא הגפרור?"
@@ -8,11 +58,6 @@
   "youtube": "irB5Guv6MEs",
   "lesson": "k-wor-v1",
   "title_he": "אוקיינוסים"
- },
- {
-  "youtube": "h6HmcezA7Ag",
-  "lesson": "k-ani-v1",
-  "title_he": "משפחות של חיות"
  },
  {
   "youtube": "QLZ2k_ew2ww",
@@ -30,9 +75,9 @@
   "title_he": "חיות בר בעיר"
  },
  {
-  "youtube": "_MJCnIaVw6g",
-  "lesson": "k-bod-v1",
-  "title_he": "הלב וכלי הדם"
+  "youtube": "h6HmcezA7Ag",
+  "lesson": "k-ani-v1",
+  "title_he": "משפחות של חיות"
  },
  {
   "youtube": "sARnFeGLdb0",
@@ -48,6 +93,11 @@
   "youtube": "NHqT0X6exFE",
   "lesson": "k-bod-v4",
   "title_he": "מה קורה לאוכל? מערכת העיכול"
+ },
+ {
+  "youtube": "_MJCnIaVw6g",
+  "lesson": "k-bod-v1",
+  "title_he": "הלב וכלי הדם"
  },
  {
   "youtube": "Fhg_VfSyi5I",
