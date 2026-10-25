@@ -1,19 +1,48 @@
 // Browser text-to-speech for English. No keys, works offline on most devices.
-import { rateFactor } from './settings.js';
+import { rateFactor, getSettings } from './settings.js';
 
+// Some Android devices still name Hebrew by its old code, iw.
+const ALIASES = { he: ['he', 'iw'] };
 let voice = null;
 // Online voices (Chrome's "Google ..." voices) fail when HomeGuard has the
 // internet off. After one such failure, only voices installed on the device.
 let localOnly = false;
 const usable = () => speechSynthesis.getVoices().filter((v) => !localOnly || v.localService);
 
+// How human a voice sounds, from its name: Edge's "Natural" voices and Apple's
+// premium ones are close to a person; old desktop and eSpeak voices are robotic.
+export function voiceScore(v) {
+  const n = v.name;
+  let s = 0;
+  if (/Natural|Neural|Premium|Enhanced|Siri/i.test(n)) s += 50;
+  if (/Google/.test(n)) s += 20;
+  if (/Samantha|Ava|Zoe|Allison|Carmit|Aria|Jenny|Hila|Avri/.test(n)) s += 10;
+  if (/eSpeak|espeak|Microsoft (David|Zira|Mark|Asaf) Desktop/i.test(n)) s -= 30;
+  if (/Desktop/.test(n)) s -= 10;
+  return s;
+}
+
+// The voices for a language, most natural first.
+export function voicesFor(lang) {
+  if (!('speechSynthesis' in window)) return [];
+  const base = lang.split('-')[0];
+  const prefixes = ALIASES[base] || [base];
+  const norm = (v) => v.lang.replace('_', '-').toLowerCase();
+  return usable()
+    .filter((v) => prefixes.some((p) => norm(v).startsWith(p)))
+    .sort((a, b) => (voiceScore(b) + (norm(b) === lang.toLowerCase() ? 5 : 0)) - (voiceScore(a) + (norm(a) === lang.toLowerCase() ? 5 : 0)));
+}
+
+// The voice chosen in settings for the language, or else the most natural one.
+function bestVoice(lang) {
+  const chosen = getSettings()[`voice_${lang.split('-')[0]}`];
+  const list = voicesFor(lang);
+  return list.find((v) => v.name === chosen) || list[0] || null;
+}
+
 function pickVoice() {
   if (!('speechSynthesis' in window)) return;
-  const voices = usable();
-  voice = voices.find((v) => v.lang === 'en-US' && /Google|Samantha|Microsoft/.test(v.name))
-    || voices.find((v) => v.lang === 'en-US')
-    || voices.find((v) => v.lang.startsWith('en'))
-    || null;
+  voice = bestVoice('en-US');
 }
 
 if ('speechSynthesis' in window) {
@@ -30,15 +59,14 @@ export function canSpeak() {
   return 'speechSynthesis' in window;
 }
 
-// Some Android devices still name Hebrew by its old code, iw.
-const ALIASES = { he: ['he', 'iw'] };
 
 function voiceFor(lang) {
   if (lang === 'en-US') return voice;
-  const base = lang.split('-')[0];
-  const prefixes = ALIASES[base] || [base];
-  return usable().find((v) => prefixes.some((p) => v.lang.replace('_', '-').toLowerCase().startsWith(p))) || null;
+  return bestVoice(lang);
 }
+
+// After the voice is changed in settings.
+export function refreshVoice() { pickVoice(); }
 
 // handlers: optional onend, onerror and onboundary, for callers that follow
 // one line themselves (the cartoon's narration). A retry keeps them.

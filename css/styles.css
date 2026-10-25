@@ -1020,3 +1020,5 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
 .speed-row .seg-btn[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
 .setting-row:has(.seg) { flex-wrap: wrap; gap: 8px; }
 .setting-row .seg { flex-wrap: wrap; max-width: 100%; }
+.voice-row { flex-wrap: wrap; gap: 8px; }
+.voice-select { max-width: 100%; flex: 1 1 200px; font: inherit; font-size: 14px; padding: 6px 8px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }

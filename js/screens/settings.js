@@ -1,5 +1,5 @@
 import { el, en } from '../util.js';
-import { speak, canSpeak, canSpeakLang, voiceName } from '../speech.js';
+import { speak, canSpeak, canSpeakLang, voiceName, voicesFor, refreshVoice } from '../speech.js';
 import { getSettings, setSetting, RATE_CHOICES } from '../settings.js';
 import { measureMic, micMeter, HEARD_LEVEL, MIC_OK_TIP, MIC_SILENT_TIP, micErrorTip } from '../micTest.js';
 import { Recognition, asrEngine, localAsrUsable } from '../exercises/speak.js';
@@ -50,8 +50,27 @@ function speakerSection() {
     return b;
   });
 
+  // Which voice reads each language. The most natural one on the device is the default.
+  const voicePicker = (lang, label, sample) => {
+    const key = `voice_${lang.split('-')[0]}`;
+    const select = el('select', { class: 'voice-select', dir: 'ltr' });
+    const fill = () => {
+      const list = voicesFor(lang);
+      select.replaceChildren(...list.map((v, i) => el('option', { value: v.name, selected: v.name === (getSettings()[key] || list[0]?.name) }, `${i === 0 ? '★ ' : ''}${v.name}`)));
+      row.hidden = list.length === 0;
+    };
+    select.addEventListener('change', () => { setSetting(key, select.value); refreshVoice(); speak(sample, { lang }); });
+    const row = el('label', { class: 'setting-row voice-row' }, el('span', { class: 'setting-label' }, label), select);
+    fill();
+    if (canSpeak()) speechSynthesis.addEventListener('voiceschanged', fill);
+    return row;
+  };
+
   return section('🔊 רמקול',
     el('div', { class: 'row-btns' }, testEn, testHe), status,
+    voicePicker('en-US', 'קול באנגלית', 'Hello! This is my voice.'),
+    voicePicker('he-IL', 'קול בעברית', 'שלום, זה הקול שלי.'),
+    el('p', { class: 'muted setting-hint' }, '★ הקול הכי טבעי שנמצא במכשיר. בדפדפן Edge יש קולות "Natural" שנשמעים כמו אדם.'),
     el('div', { class: 'setting-row' }, el('span', { class: 'setting-label' }, 'מהירות ההקראה'), el('div', { class: 'seg' }, rateBtns)),
     toggle('השמעה אחרי תשובה נכונה', 'המשפט באנגלית מוקרא אחרי כל תשובה', 'autoplay'));
 }
