@@ -24,7 +24,8 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   if (lessonId === COACH_LESSON) lessonId = lesson.id;
   const exercises = forGrade(lesson.exercises, profile?.grade).filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
-  setReadAloud(profile?.read_aloud);
+  // Young readers (grades 1-2) hear every question unless turned off in settings.
+  setReadAloud(profile?.read_aloud ?? (parseInt(profile?.grade, 10) <= 2));
   const queue = exercises.slice();
   const mistakes = new Set();
   let total = exercises.length;

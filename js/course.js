@@ -37,8 +37,10 @@ export async function loadLesson(id) {
   if (id.startsWith('tp-')) {
     const [think, { practiceLesson }] = await Promise.all([loadThink(), import('./thinkPractice.js')]);
     const course = think.courses.find((c) => `tp-${c.id}` === id);
+    const [{ getProfile }, { courseLevel }] = await Promise.all([import('./progress.js'), import('./thinkLogic.js')]);
+    const { level } = courseLevel(course, await getProfile());
     const lessons = await Promise.all(course.units.flatMap((u) => u.lessons).map((l) => loadLesson(l).catch(() => null)));
-    return practiceLesson(course, lessons.filter(Boolean));
+    return practiceLesson(course, lessons.filter(Boolean), Math.random, level);
   }
   if (window.__COURSE__) return window.__COURSE__.lessons[id];
   if (!lessonCache.has(id)) {
@@ -53,15 +55,18 @@ export async function loadLesson(id) {
 // Each lesson is 'done', 'current' (the first not done) or 'locked'.
 // Starter (ABC) units lead the path for learners who start from zero; for
 // everyone else they stay open as optional practice ('bonus').
-export function lessonStates(course, doneIds, { starter = false } = {}) {
+export function lessonStates(course, doneIds, { starter = false, skipUnits = 0 } = {}) {
   const done = new Set(doneIds);
   const states = {};
   let currentAssigned = false;
+  // Units a think learner is past (by level) stay open as optional review.
+  for (const unit of course.units.slice(0, skipUnits)) for (const id of unit.lessons) states[id] = done.has(id) ? 'done' : 'bonus';
   const starterUnits = course.starter_units || [];
   if (!starter) {
     for (const unit of starterUnits) for (const id of unit.lessons) states[id] = done.has(id) ? 'done' : 'bonus';
   }
-  for (const unit of starter ? [...starterUnits, ...course.units] : course.units) {
+  const main = course.units.slice(skipUnits);
+  for (const unit of starter ? [...starterUnits, ...main] : main) {
     // An open unit (a course's videos) can be watched in any order, and never holds up the path.
     if (unit.open) {
       for (const id of unit.lessons) states[id] = done.has(id) ? 'done' : 'bonus';

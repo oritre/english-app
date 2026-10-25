@@ -5,6 +5,7 @@ import { TIERS } from '../league.js';
 import { APP_VERSION } from '../version.js';
 import { COACH_LESSON, hasCoach, coachModules } from '../coach.js';
 import { talkSupported } from '../talk.js';
+import { courseLevel, skipUnits, requiredLessons, LEVEL_NAMES } from '../thinkLogic.js';
 
 export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
@@ -31,7 +32,7 @@ export async function renderPath(root, nav) {
   const key = (k) => `${subject}_${k}`;
   const openCourse = subject !== 'english' ? courses.find((c) => c.id === profile[key('course')]) : null;
   const states = subject === 'english' ? lessonStates(course, done, { starter: !!profile.starter })
-    : openCourse ? lessonStates(openCourse, done) : {};
+    : openCourse ? lessonStates(openCourse, done, { skipUnits: subject === 'think' ? skipUnits(openCourse, profile) : 0 }) : {};
   const titles = { ...(course.lesson_titles || {}), ...(thinkData.lesson_titles || {}), ...(know.lesson_titles || {}) };
   const setProfile = async (patch) => { Object.assign(profile, patch); await updateProfile(profile); nav('path'); };
   const subjects = [['english', '🔤', 'אנגלית'], ['think', '🧠', 'חשיבה ומדעים'], ['know', '🌍', 'ידע כללי']]
@@ -138,7 +139,8 @@ export async function renderPath(root, nav) {
   const logout = el('button', { class: 'retest', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } },
     '🚪 התנתקות (מעבר ללומד אחר)');
   // Course progress: how many lessons are done and which one comes next.
-  const lessonsOf = (c) => c.units.flatMap((u) => u.lessons);
+  // Think courses fit the learner's level: units they are past don't count toward progress.
+  const lessonsOf = (c) => (subject === 'think' ? requiredLessons(c, profile) : c.units.flatMap((u) => u.lessons));
   const progressOf = (c) => {
     const ids = lessonsOf(c);
     const n = ids.filter((id) => done.includes(id)).length;
@@ -223,6 +225,12 @@ export async function renderPath(root, nav) {
           el('div', { class: 'course-head-progress' },
             el('span', { class: 'course-progress' }, el('span', { style: `width: ${pct}%` })),
             el('span', { class: 'course-head-count' }, finished ? '🏆 הקורס הושלם' : `${n} מתוך ${ids.length} שיעורים`)),
+          subject === 'think' ? (() => {
+            const { level, measured } = courseLevel(openCourse, profile);
+            return el('p', { class: 'course-level' }, `${'⭐'.repeat(level)} רמה: ${LEVEL_NAMES[level]}`,
+              el('span', {}, measured ? ' · לפי איך שהלך לך' : ' · לפי הכיתה'),
+              skipUnits(openCourse, profile) ? el('span', {}, ' · אפשר לדלג על ההתחלה') : null);
+          })() : null,
           n && subject === 'think' ? el('button', { class: `btn course-practice${finished ? ' main' : ''}`, type: 'button', onclick: () => nav('lesson', { lessonId: `tp-${openCourse.id}` }) },
             finished ? '🔁 תרגול: שאלות חדשות בכל פעם' : '🔁 תרגול חופשי') : null,
           finished

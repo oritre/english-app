@@ -10,39 +10,41 @@ const NL = (prompt_he, min, max, step, answer, explain_he) => ({ type: 'numberli
 const near = (r, x, d = 3) => [x + int(r, 1, d), x - int(r, 1, d), x + int(r, d + 1, d * 3)];
 const gcd = (a, b) => (b ? gcd(b, a % b) : Math.abs(a));
 const dec = (x) => String(Math.round(x * 100) / 100);
+// A value by level: S(L, basic, advanced, challenge).
+const S = (L, ...v) => v[Math.min(Math.max(L, 1), 3) - 1];
 const signed = (x) => (x < 0 ? `(${x})` : String(x));
 
 // Each generator returns one problem; a course draws from its list at random.
 export const GENERATORS = {
   counting: [
-    (r) => { const a = int(r, 1, 10), b = int(r, 1, 10); return N(`${a} + ${b} = ?`, a + b, `סופרים ${b} קדימה מ-${a}: ${a + b}.`); },
-    (r) => { const a = int(r, 6, 20), b = int(r, 1, a); return N(`${a} − ${b} = ?`, a - b, `סופרים ${b} אחורה מ-${a}: ${a - b}.`); },
-    (r) => { const n = int(r, 2, 6), icon = pick(r, ['🍎', '⭐', '🐟', '🎈']); return N(`כמה יש? ${icon.repeat(n)} ועוד ${icon.repeat(2)}`, n + 2, `${n} ועוד 2 זה ${n + 2}.`); },
+    (r, L = 2) => { const m = S(L, 5, 10, 40); const a = int(r, 1, m), b = int(r, 1, m); return N(`${a} + ${b} = ?`, a + b, `סופרים ${b} קדימה מ-${a}: ${a + b}.`); },
+    (r, L = 2) => { const a = int(r, S(L, 3, 6, 20), S(L, 10, 20, 99)), b = int(r, 1, Math.min(a, S(L, 5, 10, 40))); return N(`${a} − ${b} = ?`, a - b, `סופרים ${b} אחורה מ-${a}: ${a - b}.`); },
+    (r, L = 2) => { const n = int(r, 2, S(L, 4, 6, 9)), k = S(L, 1, 2, 3), icon = pick(r, ['🍎', '⭐', '🐟', '🎈']); return N(`כמה יש? ${icon.repeat(n)} ועוד ${icon.repeat(k)}`, n + k, `${n} ועוד ${k} זה ${n + k}.`); },
   ],
   placevalue: [
-    (r) => { const n = int(r, 101, 999); return N(`כמה עשרות יש במספר ${n}? (רק ספרת העשרות)`, Math.floor(n / 10) % 10, `ב-${n}: ${Math.floor(n / 100)} מאות, ${Math.floor(n / 10) % 10} עשרות, ${n % 10} אחדות.`); },
-    (r) => { const h = int(r, 1, 9), t = int(r, 0, 9), o = int(r, 0, 9); return N(`${h} מאות, ${t} עשרות ו-${o} אחדות. איזה מספר זה?`, h * 100 + t * 10 + o, `${h * 100} + ${t * 10} + ${o} = ${h * 100 + t * 10 + o}.`); },
-    (r) => { const n = int(r, 100, 889); return N(`מה המספר שגדול ב-10 מ-${n}?`, n + 10, `מוסיפים עשרת אחת: ${n} + 10 = ${n + 10}.`); },
+    (r, L = 2) => { const n = int(r, S(L, 11, 101, 1001), S(L, 99, 999, 9999)); return N(`כמה עשרות שלמות יש במספר ${n}? (רק ספרת העשרות)`, Math.floor(n / 10) % 10, `ספרת העשרות במספר ${n} היא ${Math.floor(n / 10) % 10}.`); },
+    (r, L = 2) => { const h = L === 1 ? 0 : int(r, 1, 9), t = int(r, 1, 9), o = int(r, 0, 9), th = L === 3 ? int(r, 1, 9) : 0; const n = th * 1000 + h * 100 + t * 10 + o; return N(`${th ? `${th} אלפים, ` : ''}${h ? `${h} מאות, ` : ''}${t} עשרות ו-${o} אחדות. איזה מספר זה?`, n, `מחברים: ${[th * 1000, h * 100, t * 10, o].filter(Boolean).join(' + ') || 0} = ${n}.`); },
+    (r, L = 2) => { const step = S(L, 10, 10, 100), n = int(r, S(L, 10, 100, 1000), S(L, 89, 889, 8899)); return N(`מה המספר שגדול ב-${step} מ-${n}?`, n + step, `מוסיפים ${step === 10 ? 'עשרת אחת' : 'מאה אחת'}: ${n} + ${step} = ${n + step}.`); },
   ],
   times: [
-    (r) => { const a = int(r, 2, 10), b = int(r, 2, 10); return N(`${a} × ${b} = ?`, a * b, `${a} קבוצות של ${b}: ${a * b}.`); },
-    (r) => { const a = int(r, 2, 10), b = int(r, 2, 10); return N(`${a * b} : ${a} = ?`, b, `${a} × ${b} = ${a * b}, אז ${a * b} : ${a} = ${b}.`); },
-    (r) => { const a = int(r, 2, 9), b = int(r, 2, 9); return N(`ב-${a} קופסאות יש ${b} עפרונות בכל אחת. כמה עפרונות בסך הכול?`, a * b, `${a} × ${b} = ${a * b}.`); },
+    (r, L = 2) => { const a = L === 1 ? pick(r, [2, 5, 10]) : int(r, 2, 10), b = int(r, 2, S(L, 6, 10, 19)); return N(`${a} × ${b} = ?`, a * b, `${a} קבוצות של ${b}: ${a * b}.`); },
+    (r, L = 2) => { const a = L === 1 ? pick(r, [2, 5, 10]) : int(r, 2, 10), b = int(r, 2, S(L, 6, 10, 15)); return N(`${a * b} : ${a} = ?`, b, `${a} × ${b} = ${a * b}, אז ${a * b} : ${a} = ${b}.`); },
+    (r, L = 2) => { const a = int(r, 2, S(L, 5, 9, 12)), b = int(r, 2, S(L, 5, 9, 12)); return N(`ב-${a} קופסאות יש ${b} עפרונות בכל אחת. כמה עפרונות בסך הכול?`, a * b, `${a} × ${b} = ${a * b}.`); },
   ],
   algebra: [
-    (r) => { const x = int(r, 1, 12), a = int(r, 1, 15); return N(`x + ${a} = ${x + a}. כמה זה x?`, x, `מורידים ${a} משני הצדדים: x = ${x}.`); },
-    (r) => { const x = int(r, 1, 10), a = int(r, 2, 6); return N(`${a}x = ${a * x}. כמה זה x?`, x, `מחלקים את שני הצדדים ב-${a}: x = ${x}.`); },
-    (r) => { const x = int(r, 1, 9), a = int(r, 2, 5), b = int(r, 1, 12); return N(`${a}x + ${b} = ${a * x + b}. כמה זה x?`, x, `מורידים ${b}: ${a}x = ${a * x}. מחלקים ב-${a}: x = ${x}.`); },
+    (r, L = 2) => { const x = int(r, 1, S(L, 9, 12, 30)), a = int(r, 1, S(L, 9, 15, 40)); return N(`x + ${a} = ${x + a}. כמה זה x?`, x, `מורידים ${a} משני הצדדים: x = ${x}.`); },
+    (r, L = 2) => { const x = int(r, 1, S(L, 5, 10, 15)), a = int(r, 2, S(L, 3, 6, 12)); return N(`${a}x = ${a * x}. כמה זה x?`, x, `מחלקים את שני הצדדים ב-${a}: x = ${x}.`); },
+    (r, L = 2) => { const x = int(r, 1, S(L, 5, 9, 15)), a = int(r, 2, S(L, 3, 5, 9)), b = int(r, 1, S(L, 6, 12, 30)); return N(`${a}x + ${b} = ${a * x + b}. כמה זה x?`, x, `מורידים ${b}: ${a}x = ${a * x}. מחלקים ב-${a}: x = ${x}.`); },
   ],
   fractions: [
-    (r) => { const parts = pick(r, [2, 3, 4, 5, 6, 8]), k = int(r, 1, parts - 1); return { type: 'fraction', prompt_he: `צבעו ${k}/${parts} מהצורה`, parts, answer: `${k}/${parts}`, explain_he: `מחלקים ל-${parts} חלקים שווים וצובעים ${k}.` }; },
-    (r) => { const d = pick(r, [2, 3, 4, 5]), m = int(r, 2, 6); return N(`כמה זה 1/${d} מ-${d * m}?`, m, `${d * m} : ${d} = ${m}.`); },
-    (r) => { const d = pick(r, [4, 5, 8, 10]), a = int(r, 1, d - 2), b = int(r, 1, d - 1 - a); return N(`${a}/${d} + ${b}/${d} = ?/${d}. מה המונה?`, a + b, `כשהמכנה זהה, מחברים רק את המונים: ${a} + ${b} = ${a + b}.`); },
+    (r, L = 2) => { const parts = pick(r, S(L, [2, 3, 4], [2, 3, 4, 5, 6, 8], [5, 6, 8, 10, 12])), k = int(r, 1, parts - 1); return { type: 'fraction', prompt_he: `צבעו ${k}/${parts} מהצורה`, parts, answer: `${k}/${parts}`, explain_he: `מחלקים ל-${parts} חלקים שווים וצובעים ${k}.` }; },
+    (r, L = 2) => { const d = pick(r, S(L, [2, 4], [2, 3, 4, 5], [3, 4, 5, 6, 8])), m = int(r, 2, S(L, 5, 6, 12)), k = L === 3 ? int(r, 2, d - 1) : 1; return N(`כמה זה ${k}/${d} מ-${d * m}?`, k * m, `${d * m} : ${d} = ${m}${k > 1 ? `, ו-${k} × ${m} = ${k * m}` : ''}.`); },
+    (r, L = 2) => { const d = pick(r, S(L, [4, 5], [4, 5, 8, 10], [8, 10, 12])), a = int(r, 1, d - 2), b = int(r, 1, d - 1 - a); return N(`${a}/${d} + ${b}/${d} = ?/${d}. מה המונה?`, a + b, `כשהמכנה זהה, מחברים רק את המונים: ${a} + ${b} = ${a + b}.`); },
   ],
   patterns: [
-    (r) => { const s = int(r, 1, 20), d = int(r, 2, 9); const a = [0, 1, 2, 3].map((i) => s + i * d); return N(`${a.join(', ')}, ? מה המספר הבא?`, s + 4 * d, `כל פעם מוסיפים ${d}: ${a[3]} + ${d} = ${s + 4 * d}.`); },
-    (r) => { const s = int(r, 1, 3), q = pick(r, [2, 3]); const a = [0, 1, 2, 3].map((i) => s * q ** i); return N(`${a.join(', ')}, ? מה המספר הבא?`, a[3] * q, `כל פעם כופלים ב-${q}: ${a[3]} × ${q} = ${a[3] * q}.`); },
-    (r) => { const s = int(r, 40, 80), d = int(r, 3, 8); const a = [0, 1, 2, 3].map((i) => s - i * d); return N(`${a.join(', ')}, ? מה המספר הבא?`, s - 4 * d, `כל פעם מורידים ${d}: ${a[3]} − ${d} = ${s - 4 * d}.`); },
+    (r, L = 2) => { const s0 = int(r, 1, S(L, 10, 20, 50)), d = int(r, S(L, 1, 2, 6), S(L, 3, 9, 15)); const a = [0, 1, 2, 3].map((i) => s0 + i * d); return N(`${a.join(', ')}, ? מה המספר הבא?`, s0 + 4 * d, `כל פעם מוסיפים ${d}: ${a[3]} + ${d} = ${s0 + 4 * d}.`); },
+    (r, L = 2) => { const s0 = int(r, 1, 3), q = pick(r, S(L, [2], [2, 3], [3, 4])); const a = [0, 1, 2, 3].map((i) => s0 * q ** i); return N(`${a.join(', ')}, ? מה המספר הבא?`, a[3] * q, `כל פעם כופלים ב-${q}: ${a[3]} × ${q} = ${a[3] * q}.`); },
+    (r, L = 2) => { const s0 = int(r, S(L, 15, 40, 80), S(L, 30, 80, 150)), d = int(r, S(L, 1, 3, 6), S(L, 3, 8, 15)); const a = [0, 1, 2, 3].map((i) => s0 - i * d); return N(`${a.join(', ')}, ? מה המספר הבא?`, s0 - 4 * d, `כל פעם מורידים ${d}: ${a[3]} − ${d} = ${s0 - 4 * d}.`); },
   ],
   numbers: [
     (r) => { const a = pick(r, [12, 18, 24, 30, 36, 42]), b = pick(r, [8, 16, 20, 27, 45]); return N(`מה המחלק המשותף הגדול ביותר של ${a} ו-${b}?`, gcd(a, b), `המספר הגדול ביותר שמחלק את שניהם: ${gcd(a, b)}.`); },
@@ -50,14 +52,14 @@ export const GENERATORS = {
     (r) => { const a = pick(r, [4, 6, 8, 9, 10]), b = pick(r, [3, 5, 6, 12, 15]); const l = (a * b) / gcd(a, b); return N(`מה הכפולה המשותפת הקטנה ביותר של ${a} ו-${b}?`, l, `המספר הקטן ביותר ששניהם מחלקים: ${l}.`); },
   ],
   negatives: [
-    (r) => { const a = int(r, -9, 9), b = int(r, -9, -1); return N(`${a} + ${signed(b)} = ?`, a + b, `מוסיפים מספר שלילי, כלומר זזים ${-b} שמאלה: ${a + b}.`, { negative: true }); },
-    (r) => { const a = int(r, -5, 8), b = int(r, 3, 12); return N(`${a} − ${b} = ?`, a - b, `מ-${a} זזים ${b} שמאלה על ציר המספרים: ${a - b}.`, { negative: true }); },
-    (r) => { const t = int(r, -6, 4), d = int(r, 2, 9); return N(`בבוקר היו ${t}°. בצהריים התחמם ב-${d}°. כמה מעלות עכשיו?`, t + d, `${t} + ${d} = ${t + d}.`, { negative: true }); },
+    (r, L = 2) => { const m = S(L, 9, 20, 60); const a = int(r, -m, m), b = int(r, -m, -1); return N(`${a} + ${signed(b)} = ?`, a + b, `מוסיפים מספר שלילי, כלומר זזים ${-b} שמאלה: ${a + b}.`, { negative: true }); },
+    (r, L = 2) => { const a = int(r, -S(L, 5, 15, 40), S(L, 8, 15, 40)), b = int(r, 3, S(L, 12, 25, 60)); return N(`${a} − ${b} = ?`, a - b, `מ-${a} זזים ${b} שמאלה על ציר המספרים: ${a - b}.`, { negative: true }); },
+    (r, L = 2) => { const t = int(r, -S(L, 6, 10, 20), 4), d = int(r, 2, S(L, 9, 15, 25)); return N(`בבוקר היו ${t}°. בצהריים התחמם ב-${d}°. כמה מעלות עכשיו?`, t + d, `${t} + ${d} = ${t + d}.`, { negative: true }); },
   ],
   percents: [
-    (r) => { const p = pick(r, [10, 20, 25, 50, 75]), n = pick(r, [20, 40, 60, 80, 120, 200]); return N(`כמה זה ${p}% מ-${n}?`, (p * n) / 100, `${p}% = ${p}/100, ו-${n} × ${p}/100 = ${(p * n) / 100}.`); },
-    (r) => { const n = pick(r, [40, 80, 100, 120, 200]), p = pick(r, [10, 25, 50]); return N(`חולצה ב-${n} ₪ בהנחה של ${p}%. כמה משלמים?`, n - (n * p) / 100, `ההנחה היא ${(n * p) / 100} ₪, אז ${n} − ${(n * p) / 100} = ${n - (n * p) / 100}.`); },
-    (r) => { const k = int(r, 1, 9), n = pick(r, [10, 20, 50]); return N(`${k * n / 10} מתוך ${n} הם כמה אחוזים?`, (k * 10), `${k * n / 10}/${n} = ${k * 10}/100 = ${k * 10}%.`); },
+    (r, L = 2) => { const p = pick(r, S(L, [10, 50], [10, 20, 25, 50, 75], [5, 15, 35, 40, 60])), n = pick(r, [20, 40, 60, 80, 120, 200]); return N(`כמה זה ${p}% מ-${n}?`, (p * n) / 100, `${p}% = ${p}/100, ו-${n} × ${p}/100 = ${(p * n) / 100}.`); },
+    (r, L = 2) => { const n = pick(r, [40, 80, 100, 120, 200]), p = pick(r, S(L, [10, 50], [10, 25, 50], [5, 15, 35])); return N(`חולצה ב-${n} ₪ בהנחה של ${p}%. כמה משלמים?`, n - (n * p) / 100, `ההנחה היא ${(n * p) / 100} ₪, אז ${n} − ${(n * p) / 100} = ${n - (n * p) / 100}.`); },
+    (r, L = 2) => { const k = int(r, 1, 9), n = pick(r, S(L, [10], [10, 20, 50], [20, 50, 200])); return N(`${k * n / 10} מתוך ${n} הם כמה אחוזים?`, (k * 10), `${k * n / 10}/${n} = ${k * 10}/100 = ${k * 10}%.`); },
   ],
   decimals: [
     (r) => { const k = int(r, 1, 9); return NL(`סמנו את ${k / 10} על הציר`, 0, 1, 0.1, k / 10, `${k / 10} זה ${k} עשיריות: ${k} קפיצות של 0.1.`); },
@@ -112,13 +114,18 @@ GENERATORS.clock[1] = (r) => { const [m, name] = pick(r, [[15, 'רבע שעה'],
 const REVIEWABLE = new Set(['mcq', 'number', 'balance', 'fraction', 'numberline', 'order', 'robot', 'buckets', 'angle']);
 const shuffle = (r, a) => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
 
-// A practice lesson: 6 new problems where the course has generators, topped up
-// to 8 with exercises from the course's lessons, in random order.
-export function practiceLesson(course, lessons, r = Math.random) {
+// A practice lesson at the learner's level (1-3): 6 new problems where the
+// course has generators, topped up to 8 with exercises from the course's
+// lessons up to that level, in random order.
+export function practiceLesson(course, lessons, r = Math.random, level = 2) {
   const gens = GENERATORS[course.id] || [];
-  const fresh = gens.length ? Array.from({ length: 6 }, (_, i) => gens[(i + Math.floor(r() * gens.length)) % gens.length](r)) : [];
-  const pool = shuffle(r, lessons.flatMap((l) => l.exercises || []).filter((e) => REVIEWABLE.has(e.type)));
-  const review = pool.slice(0, Math.max(2, 8 - fresh.length)).map((e) => JSON.parse(JSON.stringify(e)));
+  const fresh = gens.length ? Array.from({ length: 6 }, (_, i) => gens[(i + Math.floor(r() * gens.length)) % gens.length](r, level)) : [];
+  const upTo = new Set((course.units || []).slice(0, level).flatMap((u) => u.lessons));
+  const reviewable = (ls) => ls.flatMap((l) => l.exercises || []).filter((e) => REVIEWABLE.has(e.type));
+  const inLevel = reviewable(lessons.filter((l) => upTo.has(l.id)));
+  const need = Math.max(2, 8 - fresh.length);
+  const pool = shuffle(r, inLevel.length >= need ? inLevel : reviewable(lessons));
+  const review = pool.slice(0, need).map((e) => JSON.parse(JSON.stringify(e)));
   const exercises = shuffle(r, [...fresh, ...review]).map((e, i) => ({ ...e, id: `tp-${course.id}-${i}` }));
-  return { id: `tp-${course.id}`, course: course.id, title_he: `תרגול: ${course.title_he}`, practice: true, exercises };
+  return { id: `tp-${course.id}`, course: course.id, title_he: `תרגול: ${course.title_he}`, practice: true, level, exercises };
 }
