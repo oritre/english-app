@@ -1,5 +1,40 @@
 [
  {
+  "youtube": "s0EZ900HrDM",
+  "lesson": "k-hol-v1",
+  "title_he": "חגי תשרי"
+ },
+ {
+  "youtube": "6YBKWyfK-NE",
+  "lesson": "k-hol-v2",
+  "title_he": "חנוכה"
+ },
+ {
+  "youtube": "SsBIjPy63YI",
+  "lesson": "k-hol-v3",
+  "title_he": "פורים ומגילת אסתר"
+ },
+ {
+  "youtube": "RlBXUpZ7xNY",
+  "lesson": "k-hol-v4",
+  "title_he": "פסח וסיפור יציאת מצרים"
+ },
+ {
+  "youtube": "FwwZjORC-3M",
+  "lesson": "k-hol-v5",
+  "title_he": "שבועות"
+ },
+ {
+  "youtube": "U5wvkSqE-UM",
+  "lesson": "k-hol-v6",
+  "title_he": "ט\"ו בשבט"
+ },
+ {
+  "youtube": "NXvSVViA_Jo",
+  "lesson": "k-hol-v7",
+  "title_he": "ל\"ג בעומר"
+ },
+ {
   "youtube": "SSk5FkTkIQc",
   "lesson": "k-ber-v1",
   "title_he": "בריאת העולם"
@@ -50,14 +85,69 @@
   "title_he": "חורבן בית ראשון"
  },
  {
+  "youtube": "tSCxyc8Wtgw",
+  "lesson": "k-egy-v1",
+  "title_he": "מצרים העתיקה וכתב החרטומים"
+ },
+ {
   "youtube": "MM5nAuAhtKs",
   "lesson": "k-inv-v1",
   "title_he": "איך הומצא הגפרור?"
  },
  {
+  "youtube": "0_7EOvqHHdI",
+  "lesson": "k-inv-v2",
+  "title_he": "מי המציא את המטוס?"
+ },
+ {
   "youtube": "irB5Guv6MEs",
   "lesson": "k-wor-v1",
   "title_he": "אוקיינוסים"
+ },
+ {
+  "youtube": "h0yEn8M7iMc",
+  "lesson": "k-wor-v2",
+  "title_he": "יבשות"
+ },
+ {
+  "youtube": "qZtOtsSnE0Y",
+  "lesson": "k-mon-v1",
+  "title_he": "מהי כלכלה?"
+ },
+ {
+  "youtube": "YhVwuJoY3ic",
+  "lesson": "k-mon-v2",
+  "title_he": "מה זה כסף?"
+ },
+ {
+  "youtube": "EKP_T2IUXp0",
+  "lesson": "k-mon-v3",
+  "title_he": "מה זו עבודה?"
+ },
+ {
+  "youtube": "-h9cgKnjniY",
+  "lesson": "k-mon-v4",
+  "title_he": "מה זה עסק?"
+ },
+ {
+  "youtube": "ADKMARYFy_E",
+  "lesson": "k-mon-v5",
+  "title_he": "בנק, הלוואה וריבית"
+ },
+ {
+  "youtube": "tRvH_8FQtzo",
+  "lesson": "k-mon-v6",
+  "title_he": "יבוא ויצוא"
+ },
+ {
+  "youtube": "UM7tFLK5heI",
+  "lesson": "k-mon-v7",
+  "title_he": "מה זה מיסים?"
+ },
+ {
+  "youtube": "h6HmcezA7Ag",
+  "lesson": "k-ani-v1",
+  "title_he": "משפחות של חיות"
  },
  {
   "youtube": "QLZ2k_ew2ww",
@@ -75,9 +165,9 @@
   "title_he": "חיות בר בעיר"
  },
  {
-  "youtube": "h6HmcezA7Ag",
-  "lesson": "k-ani-v1",
-  "title_he": "משפחות של חיות"
+  "youtube": "_MJCnIaVw6g",
+  "lesson": "k-bod-v1",
+  "title_he": "הלב וכלי הדם"
  },
  {
   "youtube": "sARnFeGLdb0",
@@ -95,9 +185,34 @@
   "title_he": "מה קורה לאוכל? מערכת העיכול"
  },
  {
-  "youtube": "_MJCnIaVw6g",
-  "lesson": "k-bod-v1",
-  "title_he": "הלב וכלי הדם"
+  "youtube": "VWYtpKPiUq4",
+  "lesson": "k-bod-v5",
+  "title_he": "מערכת השלד"
+ },
+ {
+  "youtube": "OOeNyDnBlJw",
+  "lesson": "k-bod-v6",
+  "title_he": "שרירים"
+ },
+ {
+  "youtube": "gp0MOEl0FSg",
+  "lesson": "k-bod-v7",
+  "title_he": "חמשת החושים"
+ },
+ {
+  "youtube": "73oK3ya75bU",
+  "lesson": "k-bod-v8",
+  "title_he": "המוח ומערכת העצבים"
+ },
+ {
+  "youtube": "BFbx0SIdZTg",
+  "lesson": "k-bod-v9",
+  "title_he": "מערכת הנשימה"
+ },
+ {
+  "youtube": "_aBUpdJTDfE",
+  "lesson": "k-bod-v10",
+  "title_he": "שיניים"
  },
  {
   "youtube": "Fhg_VfSyi5I",
@@ -138,6 +253,16 @@
   "youtube": "J1TvnPRpJDM",
   "lesson": "k-spa-v8",
   "title_he": "חוזרים לירח: תוכנית ארטמיס"
+ },
+ {
+  "youtube": "3FZhJvXQT6I",
+  "lesson": "k-spa-v9",
+  "title_he": "מערכת השמש"
+ },
+ {
+  "youtube": "N_0DkNYpBxU",
+  "lesson": "k-spa-v10",
+  "title_he": "עונות השנה"
  },
  {
   "youtube": "CZCqfabljik",
