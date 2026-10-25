@@ -1,0 +1,86 @@
+{
+ "id": "t-gates-3",
+ "unit_id": "t-gates-b",
+ "course": "gates",
+ "title_he": "משלבים שערים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "NOT ו-XOR",
+   "body_he": [
+    "NOT הופך: 0 ל-1 ו-1 ל-0.",
+    "XOR (או בלעדי) נותן 1 כשהכניסות שונות."
+   ],
+   "say_he": "NOT ו-XOR NOT הופך: 0 ל-1 ו-1 ל-0. XOR (או בלעדי) נותן 1 כשהכניסות שונות.",
+   "id": "t-gates-3e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצא?",
+   "answer": "0",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "NOT הופך את 1 ל-0.",
+   "visual": "NOT 1 = ?",
+   "code": true,
+   "keep_order": true,
+   "id": "t-gates-3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצא?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "הכניסות שונות.",
+   "visual": "1 XOR 0 = ?",
+   "code": true,
+   "keep_order": true,
+   "id": "t-gates-3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצא?",
+   "answer": "0",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "הכניסות שוות.",
+   "visual": "1 XOR 1 = ?",
+   "code": true,
+   "keep_order": true,
+   "id": "t-gates-3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצא?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "1 AND 1 = 1, ואז OR עם 0 נותן 1.",
+   "visual": "(1 AND 1) OR 0 = ?",
+   "code": true,
+   "keep_order": true,
+   "id": "t-gates-3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מנורה בחדר מדרגות עם שני מתגים: כל מתג משנה את המצב. איזה שער זה?",
+   "answer": "XOR",
+   "options": [
+    "XOR",
+    "AND",
+    "NOT"
+   ],
+   "explain_he": "המנורה דולקת כשהמתגים במצבים שונים.",
+   "id": "t-gates-3e6"
+  }
+ ]
+}

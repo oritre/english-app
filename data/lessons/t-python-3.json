@@ -1,0 +1,64 @@
+{
+ "id": "t-python-3",
+ "unit_id": "t-py-b",
+ "course": "python",
+ "title_he": "רשימות ופונקציות",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "רשימה",
+   "body_he": [
+    "רשימה שומרת כמה ערכים: nums = [4, 7, 1]. nums[0] הוא הראשון.",
+    "פונקציה היא פקודה שאנחנו בונים עם def."
+   ],
+   "say_he": "רשימה רשימה שומרת כמה ערכים: nums = [4, 7, 1]. nums[0] הוא הראשון. פונקציה היא פקודה שאנחנו בונים עם def.",
+   "id": "t-python-3e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "7",
+   "explain_he": "הספירה מתחילה מ-0, אז [1] הוא השני.",
+   "visual": "nums = [4, 7, 1]\nprint(nums[1])",
+   "code": true,
+   "id": "t-python-3e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "3",
+   "explain_he": "len מחזירה כמה איברים ברשימה.",
+   "visual": "pets = [\"cat\", \"dog\", \"fish\"]\nprint(len(pets))",
+   "code": true,
+   "id": "t-python-3e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "12",
+   "explain_he": "sum מחברת את כל הרשימה: 4 + 7 + 1.",
+   "visual": "print(sum([4, 7, 1]))",
+   "code": true,
+   "id": "t-python-3e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "10",
+   "explain_he": "double(5) מחזירה 5 * 2.",
+   "visual": "def double(n):\n    return n * 2\n\nprint(double(5))",
+   "code": true,
+   "id": "t-python-3e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "6",
+   "explain_he": "הלולאה מחברת 1 + 2 + 3.",
+   "hint_he": "עקבו אחרי total בכל סיבוב",
+   "visual": "total = 0\nfor n in [1, 2, 3]:\n    total = total + n\nprint(total)",
+   "code": true,
+   "id": "t-python-3e6"
+  }
+ ]
+}

@@ -22,6 +22,13 @@ export function loadThink() {
 }
 
 export async function loadLesson(id) {
+  // "tp-<course>" is a practice round, built fresh every time.
+  if (id.startsWith('tp-')) {
+    const [think, { practiceLesson }] = await Promise.all([loadThink(), import('./thinkPractice.js')]);
+    const course = think.courses.find((c) => `tp-${c.id}` === id);
+    const lessons = await Promise.all(course.units.flatMap((u) => u.lessons).map((l) => loadLesson(l).catch(() => null)));
+    return practiceLesson(course, lessons.filter(Boolean));
+  }
   if (window.__COURSE__) return window.__COURSE__.lessons[id];
   if (!lessonCache.has(id)) {
     lessonCache.set(id, fetch(`data/lessons/${id}.json`).then((r) => {

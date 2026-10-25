@@ -315,3 +315,41 @@ test('every think exercise is solvable as written', () => {
     }
   }
 });
+
+test('every generated practice problem is well formed and solvable', async () => {
+  const { GENERATORS, practiceLesson } = await import('../js/thinkPractice.js');
+  const { sameNumber } = await import('../js/thinkLogic.js');
+  const think = JSON.parse(readFileSync(new URL('../data/think.json', import.meta.url)));
+  let seed = 7;
+  const r = () => { seed = (seed * 16807) % 2147483647; return seed / 2147483647; };
+  for (const [id, gens] of Object.entries(GENERATORS)) {
+    assert.ok(think.courses.some((c) => c.id === id), `generator for unknown course ${id}`);
+    for (const g of gens) for (let i = 0; i < 150; i++) {
+      const ex = g(r);
+      const where = `${id}: ${ex.prompt_he}`;
+      assert.ok(ex.prompt_he && ex.explain_he && !/undefined|NaN/.test(ex.prompt_he + ex.explain_he), where);
+      if (ex.type === 'number') {
+        assert.ok(/^-?\d+$/.test(ex.answer), `${where} -> ${ex.answer}`);
+        if (ex.answer.startsWith('-')) assert.ok(ex.negative, `${where} needs the minus key`);
+        assert.ok(sameNumber(ex.answer, ex.answer), where);
+      } else if (ex.type === 'mcq') {
+        assert.ok(ex.options.length >= 2 && ex.options.includes(ex.answer) && new Set(ex.options).size === ex.options.length, where);
+      } else if (ex.type === 'fraction') {
+        const [k, n] = ex.answer.split('/').map(Number);
+        assert.ok(n === ex.parts && k > 0 && k < n, where);
+      } else if (ex.type === 'numberline') {
+        const a = Number(ex.answer), steps = (a - ex.min) / ex.step;
+        assert.ok(a >= ex.min && a <= ex.max && Math.abs(steps - Math.round(steps)) < 1e-9, where);
+      } else if (ex.type === 'angle') {
+        assert.ok(ex.answer > 0 && ex.answer < 180, where);
+      } else assert.fail(`${where}: unexpected type ${ex.type}`);
+    }
+  }
+  // Every course gets a practice round of at least 6 exercises.
+  for (const c of think.courses) {
+    const lessons = c.units.flatMap((u) => u.lessons).map((l) => JSON.parse(readFileSync(new URL(`../data/lessons/${l}.json`, import.meta.url))));
+    const p = practiceLesson(c, lessons, r);
+    assert.ok(p.exercises.length >= 6, `${c.id}: only ${p.exercises.length} practice exercises`);
+    assert.equal(new Set(p.exercises.map((e) => e.id)).size, p.exercises.length);
+  }
+});

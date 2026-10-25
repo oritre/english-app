@@ -1,0 +1,61 @@
+{
+ "id": "t-fractions-5",
+ "unit_id": "t-frac-c",
+ "course": "fractions",
+ "title_he": "חיבור שברים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מכנה שווה",
+   "body_he": [
+    "כשהחלקים באותו גודל, פשוט סופרים אותם: 2/8 + 3/8 = 5/8."
+   ],
+   "say_he": "מכנה שווה כשהחלקים באותו גודל, פשוט סופרים אותם: 2/8 + 3/8 = 5/8.",
+   "id": "t-fractions-5e1"
+  },
+  {
+   "type": "fraction",
+   "prompt_he": "צבעו 1/4 + 2/4",
+   "parts": 4,
+   "answer": 3,
+   "explain_he": "רבע ועוד שני רבעים זה שלושה רבעים.",
+   "id": "t-fractions-5e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "2/5 + 2/5 = ?/5. מה המונה?",
+   "answer": "4",
+   "explain_he": "2 חמישיות ועוד 2 חמישיות זה 4 חמישיות.",
+   "hint_he": "סופרים חלקים באותו גודל",
+   "id": "t-fractions-5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "1/2 + 1/4 = ?",
+   "answer": "3/4",
+   "options": [
+    "3/4",
+    "2/6",
+    "2/4"
+   ],
+   "explain_he": "חצי זה 2/4, ו-2/4 + 1/4 = 3/4.",
+   "hint_he": "כתבו את החצי ברבעים",
+   "id": "t-fractions-5e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה זה 1/3 מ-12 עוגיות?",
+   "answer": "4",
+   "explain_he": "12 : 3 = 4.",
+   "id": "t-fractions-5e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה זה 3/4 מ-20?",
+   "answer": "15",
+   "explain_he": "רבע מ-20 זה 5, ושלושה רבעים 15.",
+   "hint_he": "קודם רבע אחד",
+   "id": "t-fractions-5e6"
+  }
+ ]
+}

@@ -30,7 +30,10 @@ export async function renderComplete(root, nav, p) {
               el('span', { class: 'next-icon' }, course.icon),
               el('span', { class: 'next-text' }, el('span', { class: 'next-kicker' }, 'השיעור הבא'), el('span', { class: 'next-title' }, ...mixed(titles[next] || ''))),
               el('span', { class: 'next-arrow' }, '←'))
-            : el('div', { class: 'course-done' }, el('span', { class: 'next-icon' }, '🏆'), el('span', {}, `סיימת את הקורס "${course.title_he}"!`)),
+            : el('button', { class: 'next-lesson', type: 'button', onclick: () => nav('lesson', { lessonId: `tp-${course.id}` }) },
+              el('span', { class: 'next-icon' }, p.lessonId?.startsWith('tp-') ? '🔁' : '🏆'),
+              el('span', { class: 'next-text' }, el('span', { class: 'next-kicker' }, p.lessonId?.startsWith('tp-') ? 'עוד סיבוב?' : `סיימת את "${course.title_he}"!`), el('span', { class: 'next-title' }, 'תרגול עם שאלות חדשות')),
+              el('span', { class: 'next-arrow' }, '←')),
           el('button', { class: 'btn ghost', type: 'button', onclick: goCatalog }, next ? 'לכל הקורסים' : '🧭 לבחור קורס חדש'));
       }
     } catch { nextRow = null; }

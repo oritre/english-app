@@ -1,0 +1,55 @@
+{
+ "id": "t-exponents-3",
+ "unit_id": "t-exp-b",
+ "course": "exponents",
+ "title_he": "מספרים ענקיים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "כתיב מדעי",
+   "body_he": [
+    "10⁶ זה מיליון: 1 ואחריו 6 אפסים.",
+    "המרחק לשמש בערך 1.5 × 10⁸ ק\"מ."
+   ],
+   "say_he": "כתיב מדעי 10⁶ זה מיליון: 1 ואחריו 6 אפסים. המרחק לשמש בערך 1.5 × 10⁸ ק\"מ.",
+   "id": "t-exponents-3e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה אפסים יש ב-10^9?",
+   "answer": "9",
+   "explain_he": "מיליארד: 1,000,000,000.",
+   "id": "t-exponents-3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך כותבים 3,000,000?",
+   "answer": "3 × 10^6",
+   "options": [
+    "3 × 10^6",
+    "3 × 10^7",
+    "30 × 10^6"
+   ],
+   "explain_he": "שישה אפסים.",
+   "id": "t-exponents-3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גדול יותר?",
+   "answer": "10^8",
+   "options": [
+    "10^8",
+    "9 × 10^7"
+   ],
+   "explain_he": "9 × 10⁷ זה 90 מיליון, ו-10⁸ זה 100 מיליון.",
+   "id": "t-exponents-3e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "דף מקופל לשניים 5 פעמים. כמה שכבות?",
+   "answer": "32",
+   "explain_he": "כל קיפול מכפיל: 2⁵ = 32.",
+   "id": "t-exponents-3e5"
+  }
+ ]
+}

@@ -854,3 +854,6 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
 .think-visual.solo { font-size: 84px; line-height: 1.1; padding: 6px; }
 .think-choice .emoji-label { font-size: 36px; line-height: 1.1; letter-spacing: 1px; }
 .course-moe { position: relative; align-self: flex-start; font-size: 11px; font-weight: 800; padding: 2px 8px; border-radius: 999px; background: rgb(255 255 255 / .22); color: #fff; margin-top: 2px; }
+.course-practice { margin-top: 12px; width: 100%; background: rgb(255 255 255 / .18); color: #fff; border: 2px solid rgb(255 255 255 / .55); box-shadow: none; font-size: 16px; }
+.course-practice.main { background: #fff; color: var(--course); border-color: #fff; box-shadow: 0 4px 0 rgb(0 0 0 / .25); font-size: 17px; }
+.course-practice.main + .course-cta { background: transparent; color: #fff; box-shadow: none; border: 2px solid rgb(255 255 255 / .55); }

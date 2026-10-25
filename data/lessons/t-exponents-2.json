@@ -1,0 +1,54 @@
+{
+ "id": "t-exponents-2",
+ "unit_id": "t-exp-b",
+ "course": "exponents",
+ "title_he": "חוקים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "אותו בסיס",
+   "body_he": [
+    "כופלים: מחברים מעריכים. 2³ × 2² = 2⁵.",
+    "מחלקים: מחסרים מעריכים. 5⁴ : 5² = 5²."
+   ],
+   "say_he": "אותו בסיס כופלים: מחברים מעריכים. 2³ × 2² = 2⁵. מחלקים: מחסרים מעריכים. 5⁴ : 5² = 5².",
+   "id": "t-exponents-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "3^2 × 3^3 = 3^? מה המעריך?",
+   "answer": "5",
+   "explain_he": "2 + 3 = 5.",
+   "id": "t-exponents-2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "7^6 : 7^4 = 7^? מה המעריך?",
+   "answer": "2",
+   "explain_he": "6 − 4 = 2.",
+   "id": "t-exponents-2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "(2^3)^2 = 2^? מה המעריך?",
+   "answer": "6",
+   "explain_he": "חזקה של חזקה: כופלים מעריכים.",
+   "id": "t-exponents-2e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "5^0 = ?",
+   "answer": "1",
+   "explain_he": "כל מספר (חוץ מ-0) בחזקת 0 הוא 1.",
+   "hint_he": "מה זה 5² : 5²?",
+   "id": "t-exponents-2e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "2^10 = ?",
+   "answer": "1024",
+   "explain_he": "מכפילים 10 פעמים: 1,024. בערך אלף, ולכן קילובייט.",
+   "id": "t-exponents-2e6"
+  }
+ ]
+}

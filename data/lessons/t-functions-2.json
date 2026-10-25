@@ -1,0 +1,63 @@
+{
+ "id": "t-functions-2",
+ "unit_id": "t-func-b",
+ "course": "functions",
+ "title_he": "מטבלה לכלל",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מוצאים את הכלל",
+   "body_he": [
+    "בטבלה x ו-y, מחפשים מה עושים ל-x כדי לקבל y."
+   ],
+   "say_he": "מוצאים את הכלל בטבלה x ו-y, מחפשים מה עושים ל-x כדי לקבל y.",
+   "id": "t-functions-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "x: 1, 2, 3. y: 5, 7, 9. מה y כש-x = 10?",
+   "answer": "23",
+   "explain_he": "y = 2x + 3. 2 × 10 + 3 = 23.",
+   "hint_he": "בכמה עולה y בכל צעד?",
+   "id": "t-functions-2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "x: 1, 2, 3. y: 1, 4, 9. מה הכלל?",
+   "answer": "y = x²",
+   "options": [
+    "y = x²",
+    "y = 3x",
+    "y = x + 3"
+   ],
+   "explain_he": "1², 2², 3².",
+   "id": "t-functions-2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "f(x) = 10 − x. מה f(4)?",
+   "answer": "6",
+   "explain_he": "10 − 4 = 6.",
+   "id": "t-functions-2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזו פונקציה הגרף קו ישר?",
+   "answer": "y = 3x − 1",
+   "options": [
+    "y = 3x − 1",
+    "y = x²",
+    "y = 1/x"
+   ],
+   "explain_he": "רק לפונקציה קווית יש קו ישר.",
+   "id": "t-functions-2e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "f(x) = 2x. איזה x נותן f(x) = 18?",
+   "answer": "9",
+   "explain_he": "2 × 9 = 18.",
+   "id": "t-functions-2e6"
+  }
+ ]
+}

@@ -216,11 +216,13 @@ export async function renderPath(root, nav) {
           el('div', { class: 'course-head-progress' },
             el('span', { class: 'course-progress' }, el('span', { style: `width: ${pct}%` })),
             el('span', { class: 'course-head-count' }, finished ? '🏆 הקורס הושלם' : `${n} מתוך ${ids.length} שיעורים`)),
+          n ? el('button', { class: `btn course-practice${finished ? ' main' : ''}`, type: 'button', onclick: () => nav('lesson', { lessonId: `tp-${openCourse.id}` }) },
+            finished ? '🔁 תרגול: שאלות חדשות בכל פעם' : '🔁 תרגול חופשי') : null,
           finished
-            ? el('button', { class: 'btn course-cta', type: 'button', onclick: () => setProfile({ think_course: null }) }, '🎉 כל הכבוד! לבחור קורס חדש')
+            ? el('button', { class: 'btn course-cta', type: 'button', onclick: () => setProfile({ think_course: null }) }, '🧭 לבחור קורס חדש')
             : null)),
       ...openCourse.units.map((u, i) => renderUnit(u, i, false, 'think')),
-      el('p', { class: 'path-note muted' }, finished ? 'אפשר לחזור על כל שיעור, או לנסות קורס אחר.' : 'שיעור נעול 🔒 נפתח כשמסיימים את השיעור שלפניו.'),
+      el('p', { class: 'path-note muted' }, finished ? 'בתרגול יש בכל פעם שאלות חדשות, ואפשר גם לחזור על כל שיעור.' : 'שיעור נעול 🔒 נפתח כשמסיימים את השיעור שלפניו.'),
       el('button', { class: 'to-current', type: 'button', hidden: true, onclick: () => rows.get(next)?.scrollIntoView({ block: 'center', behavior: 'smooth' }) }, '★ לשיעור הנוכחי'),
       sheet];
   })() : null;

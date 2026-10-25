@@ -1,0 +1,96 @@
+{
+ "id": "t-animals-2",
+ "unit_id": "t-animals",
+ "course": "animals",
+ "title_he": "מי אוכל מה?",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "צמחוני או טורף",
+   "body_he": [
+    "יש בעלי חיים שאוכלים צמחים, יש שאוכלים בעלי חיים אחרים, ויש שאוכלים הכול."
+   ],
+   "say_he": "צמחוני או טורף יש בעלי חיים שאוכלים צמחים, יש שאוכלים בעלי חיים אחרים, ויש שאוכלים הכול.",
+   "id": "t-animals-2e1"
+  },
+  {
+   "type": "buckets",
+   "prompt_he": "מה הם אוכלים?",
+   "buckets": [
+    {
+     "id": "plants",
+     "label": "🌿 צמחים"
+    },
+    {
+     "id": "meat",
+     "label": "🍖 בשר"
+    }
+   ],
+   "items": [
+    {
+     "label": "🐄",
+     "in": "plants"
+    },
+    {
+     "label": "🦁",
+     "in": "meat"
+    },
+    {
+     "label": "🐰",
+     "in": "plants"
+    },
+    {
+     "label": "🦈",
+     "in": "meat"
+    },
+    {
+     "label": "🦓",
+     "in": "plants"
+    },
+    {
+     "label": "🐺",
+     "in": "meat"
+    }
+   ],
+   "explain_he": "לטורפים יש שיניים חדות.",
+   "id": "t-animals-2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אוכלת פרה?",
+   "answer": "עשב",
+   "options": [
+    "עשב",
+    "דגים",
+    "עכברים"
+   ],
+   "explain_he": "פרה אוכלת עשב ומעלה גירה.",
+   "visual": "🐄",
+   "id": "t-animals-2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאריה שיניים חדות. מה זה אומר?",
+   "answer": "הוא אוכל בשר",
+   "options": [
+    "הוא אוכל בשר",
+    "הוא אוכל רק עלים",
+    "הוא לא אוכל"
+   ],
+   "explain_he": "שיניים חדות קורעות בשר.",
+   "id": "t-animals-2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי אוכל גם צמחים וגם בשר?",
+   "answer": "🐻 דוב",
+   "options": [
+    "🐻 דוב",
+    "🐑 כבשה",
+    "🐊 תנין"
+   ],
+   "explain_he": "דוב אוכל פירות, דבש ודגים.",
+   "id": "t-animals-2e5"
+  }
+ ]
+}

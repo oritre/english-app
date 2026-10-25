@@ -1,0 +1,65 @@
+{
+ "id": "t-gates-2",
+ "unit_id": "t-gates-b",
+ "course": "gates",
+ "title_he": "בינארי",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "סופרים בשתי ספרות",
+   "body_he": [
+    "בבינארי כל מקום שווה פי 2 מהקודם: 1, 2, 4, 8.",
+    "101 בבינארי זה 4 + 0 + 1 = 5."
+   ],
+   "say_he": "סופרים בשתי ספרות בבינארי כל מקום שווה פי 2 מהקודם: 1, 2, 4, 8. 101 בבינארי זה 4 + 0 + 1 = 5.",
+   "id": "t-gates-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה הערך של 11 בבינארי?",
+   "answer": "3",
+   "explain_he": "2 + 1 = 3.",
+   "visual": "11",
+   "code": true,
+   "id": "t-gates-2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה הערך של 1000 בבינארי?",
+   "answer": "8",
+   "explain_he": "הספרה במקום של 8.",
+   "visual": "1000",
+   "code": true,
+   "id": "t-gates-2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה הערך של 1101 בבינארי?",
+   "answer": "13",
+   "explain_he": "8 + 4 + 0 + 1 = 13.",
+   "hint_he": "רשמו 8 4 2 1 מעל הספרות",
+   "visual": "1101",
+   "code": true,
+   "id": "t-gates-2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך כותבים 6 בבינארי?",
+   "answer": "110",
+   "options": [
+    "110",
+    "011",
+    "1001"
+   ],
+   "explain_he": "4 + 2 = 6.",
+   "id": "t-gates-2e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה מספרים שונים אפשר לכתוב עם 3 ביטים?",
+   "answer": "8",
+   "explain_he": "000 עד 111: 2 × 2 × 2 = 8.",
+   "id": "t-gates-2e6"
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "t-linear-4",
+ "unit_id": "t-lin-b",
+ "course": "linear",
+ "title_he": "משוואות",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "פותרים צעד צעד",
+   "body_he": [
+    "מה שעושים לצד אחד, עושים גם לשני.",
+    "3x + 4 = 19: מורידים 4, מקבלים 3x = 15, מחלקים ב-3: x = 5."
+   ],
+   "say_he": "פותרים צעד צעד מה שעושים לצד אחד, עושים גם לשני. 3x + 4 = 19: מורידים 4, מקבלים 3x = 15, מחלקים ב-3: x = 5.",
+   "id": "t-linear-4e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "2x + 7 = 21. x = ?",
+   "answer": "7",
+   "explain_he": "2x = 14, x = 7.",
+   "id": "t-linear-4e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "5x − 3 = 27. x = ?",
+   "answer": "6",
+   "explain_he": "5x = 30, x = 6.",
+   "id": "t-linear-4e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "4(x − 2) = 20. x = ?",
+   "answer": "7",
+   "explain_he": "מחלקים ב-4: x − 2 = 5, x = 7.",
+   "id": "t-linear-4e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "3x + 5 = x + 13. x = ?",
+   "answer": "4",
+   "explain_he": "מורידים x: 2x + 5 = 13, 2x = 8, x = 4.",
+   "id": "t-linear-4e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "בשתי קופסאות שוות ועוד 3 קוביות יש 11 קוביות. כמה קוביות בכל קופסה?",
+   "answer": "4",
+   "explain_he": "2x + 3 = 11, אז 2x = 8, x = 4.",
+   "hint_he": "הורידו קודם את 3 הקוביות",
+   "id": "t-linear-4e6"
+  }
+ ]
+}
