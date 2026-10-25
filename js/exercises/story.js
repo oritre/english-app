@@ -15,6 +15,8 @@ import { videoUrl } from '../media.js';
 // carry a motion after "~" (🚢~sail, ☀️~spin); see MOTIONS below.
 
 const hasHebrewVoice = () => canSpeakLang('he-IL');
+// Android lists no voices at first and adds them a moment later.
+const voicesKnown = () => 'speechSynthesis' in window && speechSynthesis.getVoices().length > 0;
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 // Says one line and calls done() when it ends; returns a cancel function.
@@ -76,7 +78,21 @@ export function renderStory(root, ex, { setReady, track }) {
   const prevBtn = el('button', { class: 'story-btn', type: 'button', 'aria-label': 'סצנה קודמת' }, '⏭');
   const nextBtn = el('button', { class: 'story-btn', type: 'button', 'aria-label': 'סצנה הבאה' }, '⏮');
   const voiceBtn = el('button', { class: 'story-btn voice', type: 'button', 'aria-label': 'הקראה', 'aria-pressed': 'true' }, '🔊');
-  if (!hasHebrewVoice()) { voiceOn = false; voiceBtn.hidden = true; }
+  const noVoice = el('p', { class: 'muted small story-source', hidden: true },
+    'אין במכשיר קול בעברית, אז הסרטון בלי הקראה. אפשר להוסיף אותו: הגדרות ← ניהול כללי ← שפה ← המרת טקסט לדיבור ← Google ← התקנת נתוני קול ← עברית.');
+  // Until the voices are known, narration stays on; once they are, it goes only
+  // if there is no Hebrew voice (checked again if the list changes).
+  const checkVoice = () => {
+    if (!voicesKnown()) return;
+    const has = hasHebrewVoice();
+    voiceBtn.hidden = !has;
+    noVoice.hidden = has;
+    if (!has) voiceOn = false;
+  };
+  if (!('speechSynthesis' in window)) { voiceOn = false; voiceBtn.hidden = true; } else {
+    checkVoice();
+    speechSynthesis.addEventListener('voiceschanged', checkVoice);
+  }
   const frame = el('div', { class: 'story-frame' }, stage, caption);
   const controls = el('div', { class: 'story-controls' },
     el('div', { class: 'story-bar' }, segs, count),
@@ -198,10 +214,14 @@ export function renderStory(root, ex, { setReady, track }) {
   });
 
   stage.append(titleCard());
-  root.append(el('div', { class: 'story' }, frame, controls,
+  root.append(el('div', { class: 'story' }, frame, controls, noVoice,
     ex.source_he ? el('p', { class: 'muted small story-source' }, ...mixed(ex.source_he)) : null));
   // Leaving the cartoon stops the voice and the nudge on the lesson's button.
-  const watch = setInterval(() => { if (!root.isConnected) { stop(); lesson?.classList.remove('story-done'); clearInterval(watch); } }, 1000);
+  const watch = setInterval(() => {
+    if (root.isConnected) return;
+    stop(); lesson?.classList.remove('story-done'); clearInterval(watch);
+    if ('speechSynthesis' in window) speechSynthesis.removeEventListener('voiceschanged', checkVoice);
+  }, 1000);
   return { getAnswer: () => null, info: true, gated: true, ready: () => finished, nextLabel: 'לחידון ←' };
 }
 

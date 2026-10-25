@@ -30,10 +30,14 @@ export function canSpeak() {
   return 'speechSynthesis' in window;
 }
 
+// Some Android devices still name Hebrew by its old code, iw.
+const ALIASES = { he: ['he', 'iw'] };
+
 function voiceFor(lang) {
   if (lang === 'en-US') return voice;
-  const prefix = lang.split('-')[0];
-  return usable().find((v) => v.lang.replace('_', '-').toLowerCase().startsWith(prefix)) || null;
+  const base = lang.split('-')[0];
+  const prefixes = ALIASES[base] || [base];
+  return usable().find((v) => prefixes.some((p) => v.lang.replace('_', '-').toLowerCase().startsWith(p))) || null;
 }
 
 // handlers: optional onend, onerror and onboundary, for callers that follow
