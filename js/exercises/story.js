@@ -254,7 +254,7 @@ export function renderVideo(root, ex, { setReady, track }) {
     new YT.Player(host.id, {
       host: 'https://www.youtube-nocookie.com',
       videoId: ex.youtube,
-      playerVars: { rel: 0, playsinline: 1, modestbranding: 1, hl: 'he', cc_lang_pref: 'he', start: ex.start || 0, ...(ex.end ? { end: ex.end } : {}) },
+      playerVars: { rel: 0, playsinline: 1, modestbranding: 1, hl: 'he', cc_lang_pref: 'he', origin: location.origin, start: ex.start || 0, ...(ex.end ? { end: ex.end } : {}) },
       events: {
         onStateChange: (e) => {
           if (e.data === 1) track?.('play', '');
@@ -268,7 +268,7 @@ export function renderVideo(root, ex, { setReady, track }) {
       },
     });
     // Some devices never report the end; after a while the quiz can open anyway.
-    setTimeout(() => { if (!finished && root.isConnected) { note.textContent = 'סיימתם לצפות? אפשר לעבור לחידון.'; done(); } }, Math.max(30, ((ex.end || 0) - (ex.start || 0)) || 90) * 1000);
+    setTimeout(() => { if (!finished && root.isConnected) { note.textContent = 'סיימתם לצפות? אפשר לעבור לחידון.'; done(); } }, Math.max(30, ((ex.end || ex.duration || 0) - (ex.start || 0)) + 20) * 1000);
   }).catch(fail);
   return { getAnswer: () => null, info: true, gated: true, ready: () => finished, nextLabel: 'לחידון ←' };
 }

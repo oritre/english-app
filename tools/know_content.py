@@ -61,23 +61,33 @@ def main():
     out = {'areas': [{'id': i, 'icon': ic, 'title_he': t} for i, ic, t in AREAS], 'courses': [], 'lesson_titles': {}}
     count = 0
     seen = set()
+
+    def write_lessons(c, unit_id, lessons):
+        nonlocal count
+        ids = []
+        for lesson_id, title_he, exercises in lessons:
+            assert lesson_id.startswith('k-') and lesson_id not in seen, f'bad or duplicate lesson id {lesson_id}'
+            seen.add(lesson_id)
+            for i, ex in enumerate(exercises):
+                ex['id'] = f'{lesson_id}e{i + 1}'
+            lesson = {'id': lesson_id, 'unit_id': unit_id, 'course': c['id'], 'title_he': title_he, 'exercises': exercises}
+            with open(os.path.join(ROOT, 'lessons', f'{lesson_id}.json'), 'w', encoding='utf-8') as f:
+                json.dump(lesson, f, ensure_ascii=False, indent=1)
+            out['lesson_titles'][lesson_id] = title_he
+            ids.append(lesson_id)
+            count += len(exercises)
+        return ids
+
     for c in ISRAEL + WORLD:
-        units = []
-        for u in c['units']:
-            ids = []
-            for lesson_id, title_he, exercises in u['lessons'] + VIDEOS.get(c['id'], []):
-                assert lesson_id.startswith('k-') and lesson_id not in seen, f'bad or duplicate lesson id {lesson_id}'
-                seen.add(lesson_id)
-                for i, ex in enumerate(exercises):
-                    ex['id'] = f'{lesson_id}e{i + 1}'
-                lesson = {'id': lesson_id, 'unit_id': u['id'], 'course': c['id'], 'title_he': title_he, 'exercises': exercises}
-                with open(os.path.join(ROOT, 'lessons', f'{lesson_id}.json'), 'w', encoding='utf-8') as f:
-                    json.dump(lesson, f, ensure_ascii=False, indent=1)
-                out['lesson_titles'][lesson_id] = title_he
-                ids.append(lesson_id)
-                count += len(exercises)
-            units.append({'id': u['id'], 'title_he': u['title_he'], 'about_he': u['about_he'], 'lessons': ids})
+        units = [{'id': u['id'], 'title_he': u['title_he'], 'about_he': u['about_he'], 'lessons': write_lessons(c, u['id'], u['lessons'])}
+                 for u in c['units']]
+        # The course's embedded videos get their own unit, open in any order.
+        if c['id'] in VIDEOS:
+            vid = f"k-{c['id']}-video"
+            units.append({'id': vid, 'title_he': '🎬 סרטונים', 'about_he': 'סרטונים נבחרים, ואחרי כל אחד חידון קצר',
+                          'open': True, 'lessons': write_lessons(c, vid, VIDEOS.pop(c['id']))})
         out['courses'].append({k: c[k] for k in ('id', 'area', 'icon', 'color', 'title_he', 'about_he', 'grades')} | {'units': units})
+    assert not VIDEOS, f'videos for unknown courses: {list(VIDEOS)}'
     with open(os.path.join(ROOT, 'know.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"{len(out['courses'])} courses, {len(out['lesson_titles'])} lessons, {count} exercises")

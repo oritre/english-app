@@ -62,6 +62,11 @@ export function lessonStates(course, doneIds, { starter = false } = {}) {
     for (const unit of starterUnits) for (const id of unit.lessons) states[id] = done.has(id) ? 'done' : 'bonus';
   }
   for (const unit of starter ? [...starterUnits, ...course.units] : course.units) {
+    // An open unit (a course's videos) can be watched in any order, and never holds up the path.
+    if (unit.open) {
+      for (const id of unit.lessons) states[id] = done.has(id) ? 'done' : 'bonus';
+      continue;
+    }
     for (const id of unit.lessons) {
       if (done.has(id)) states[id] = 'done';
       else if (!currentAssigned) { states[id] = 'current'; currentAssigned = true; }

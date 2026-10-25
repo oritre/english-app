@@ -63,7 +63,7 @@ export async function renderPath(root, nav) {
     const nodes = unit.lessons.map((id, li) => {
       const state = states[id];
       const offset = [0, 1, 2, 1, 0, -1, -2, -1][li % 8] * 48;
-      const label = state === 'done' ? '✓' : state === 'locked' ? '🔒' : '★';
+      const label = state === 'done' ? '✓' : state === 'locked' ? '🔒' : state === 'bonus' && kind === 'think' ? '▶' : '★';
       const node = el('button', {
         class: `node ${state}`, type: 'button', style: `transform: translateX(${offset}px)`,
         disabled: state === 'locked', 'aria-label': titles[id] || id,
