@@ -35,6 +35,23 @@ export async function renderPath(root, nav) {
       onclick: () => { if (subject !== id) setProfile({ subject: id }); },
     }, el('span', { class: 'subject-icon' }, icon), name))) : null;
 
+  // Think course map: tapping a stop selects it and a bottom sheet offers to start it (the current one is pre-selected).
+  const rows = new Map();
+  const sheet = el('div', { class: 'lesson-sheet', hidden: true });
+  let screenEl = null;
+  const selectLesson = (id) => {
+    const state = states[id];
+    rows.forEach((row, rid) => { row.classList.toggle('selected', rid === id); row.querySelector('.node').classList.toggle('selected', rid === id); });
+    const go = () => (openCourse ? startLesson(openCourse, id) : nav('lesson', { lessonId: id }));
+    sheet.replaceChildren(
+      el('span', { class: 'lesson-sheet-icon' }, state === 'done' ? '✓' : '★'),
+      el('span', { class: 'lesson-sheet-text' },
+        el('span', { class: 'lesson-sheet-kicker' }, state === 'done' ? 'שיעור שסיימת · אפשר לחזור עליו' : 'השיעור הבא שלך'),
+        el('span', { class: 'lesson-sheet-title' }, ...mixed(titles[id] || ''))),
+      el('button', { class: 'btn primary', type: 'button', onclick: go }, state === 'done' ? 'שוב' : 'התחלה'));
+    sheet.hidden = false;
+    screenEl?.classList.add('has-sheet');
+  };
   const renderUnit = (unit, ui, starter, kind = 'english') => {
     const nodes = unit.lessons.map((id, li) => {
       const state = states[id];
@@ -43,11 +60,15 @@ export async function renderPath(root, nav) {
       const node = el('button', {
         class: `node ${state}`, type: 'button', style: `transform: translateX(${offset}px)`,
         disabled: state === 'locked', 'aria-label': titles[id] || id,
+        title: state === 'locked' ? 'נפתח כשמסיימים את השיעור שלפניו' : null,
       }, label);
-      node.addEventListener('click', () => nav('lesson', { lessonId: id }));
-      return el('div', { class: 'node-row' },
+      node.addEventListener('click', () => (kind === 'think' ? selectLesson(id) : nav('lesson', { lessonId: id })));
+      const row = el('div', { class: 'node-row' },
         node,
-        el('div', { class: 'node-label', style: `transform: translateX(${offset}px)` }, ...mixed(titles[id] || '')));
+        el('div', { class: 'node-label', style: `transform: translateX(${offset}px)` }, ...mixed(titles[id] || ''),
+          kind === 'think' && state === 'locked' ? el('span', { class: 'muted small-l' }, ' 🔒') : null));
+      if (kind === 'think') rows.set(id, row);
+      return row;
     });
     if (unit.bonus) {
       const state = states[unit.bonus];
@@ -109,30 +130,110 @@ export async function renderPath(root, nav) {
   // Logging out clears the current learner, so the next open lands on the learner picker.
   const logout = el('button', { class: 'retest', type: 'button', onclick: () => { setCurrentProfile(null); nav('profiles'); } },
     '🚪 התנתקות (מעבר ללומד אחר)');
+  // Course progress: how many lessons are done and which one comes next.
   const lessonsOf = (c) => c.units.flatMap((u) => u.lessons);
-  const catalog = subject === 'think' && !openCourse ? el('section', { class: 'catalog' },
-    el('h2', { class: 'catalog-title' }, 'מה בא לך ללמוד?'),
-    el('div', { class: 'course-grid' }, courses.map((c) => {
-      const ids = lessonsOf(c);
-      const n = ids.filter((id) => done.includes(id)).length;
-      return el('button', { class: `course-card ${n === ids.length ? 'complete' : ''}`, type: 'button', style: `--course: ${c.color}`, onclick: () => setProfile({ think_course: c.id }) },
+  const progressOf = (c) => {
+    const ids = lessonsOf(c);
+    const n = ids.filter((id) => done.includes(id)).length;
+    return { ids, n, pct: ids.length ? Math.round((n / ids.length) * 100) : 0, next: ids.find((id) => !done.includes(id)) || null };
+  };
+  // Opening a course remembers it as the last one, so the catalog can offer to continue it.
+  const openCourseId = (id) => setProfile({ think_course: id, think_last: id });
+  const startLesson = async (c, lessonId) => {
+    Object.assign(profile, { think_course: c.id, think_last: c.id });
+    await updateProfile(profile);
+    nav('lesson', { lessonId });
+  };
+  const courseCard = (c) => {
+    const { ids, n, pct, next } = progressOf(c);
+    const state = n === ids.length ? 'complete' : n > 0 ? 'started' : 'fresh';
+    return el('button', { class: `course-card ${state}`, type: 'button', style: `--course: ${c.color}`, onclick: () => openCourseId(c.id) },
+      el('span', { class: 'course-card-top' },
         el('span', { class: 'course-icon' }, c.icon),
-        el('span', { class: 'course-name' }, c.title_he),
-        el('span', { class: 'course-about' }, c.about_he),
-        el('span', { class: 'course-progress' }, el('span', { style: `width: ${Math.round((n / ids.length) * 100)}%` })),
-        el('span', { class: 'course-count' }, n === 0 ? `${ids.length} שיעורים` : n === ids.length ? '✓ הושלם' : `${n} מתוך ${ids.length}`));
-    }))) : null;
-  const courseView = openCourse ? [
-    el('header', { class: 'course-head' },
-      el('button', { class: 'course-back', type: 'button', onclick: () => setProfile({ think_course: null }) }, '→ כל הקורסים'),
-      el('div', { class: 'course-head-icon' }, openCourse.icon),
-      el('h1', {}, openCourse.title_he),
-      el('p', {}, openCourse.about_he)),
-    ...openCourse.units.map((u, i) => renderUnit(u, i, false, 'think'))] : null;
+        el('span', { class: 'course-badge' }, state === 'complete' ? '✓ הושלם' : state === 'started' ? `${pct}%` : 'חדש')),
+      el('span', { class: 'course-name' }, c.title_he),
+      el('span', { class: 'course-about' }, c.about_he),
+      el('span', { class: 'course-progress', role: 'progressbar', 'aria-valuenow': pct, 'aria-valuemin': 0, 'aria-valuemax': 100 }, el('span', { style: `width: ${pct}%` })),
+      el('span', { class: 'course-count' }, state === 'complete' ? `${ids.length} שיעורים ✓`
+        : state === 'started' ? `${n} מתוך ${ids.length} · הבא: ${titles[next] || ''}` : `${ids.length} שיעורים`));
+  };
+  // "Continue where you left off": the last course the learner opened, if it still has lessons.
+  const lastCourse = courses.find((c) => c.id === profile.think_last && progressOf(c).next);
+  const hero = lastCourse ? (() => {
+    const { n, ids, pct, next } = progressOf(lastCourse);
+    return el('section', { class: 'continue-card', style: `--course: ${lastCourse.color}` },
+      el('div', { class: 'continue-kicker' }, n ? '▶ ממשיכים מאיפה שעצרת' : '▶ התחלת ללמוד'),
+      el('div', { class: 'continue-main' },
+        el('span', { class: 'continue-icon' }, lastCourse.icon),
+        el('div', { class: 'continue-text' },
+          el('h2', {}, lastCourse.title_he),
+          el('p', {}, 'השיעור הבא: ', el('strong', {}, titles[next] || ''))),
+        el('span', { class: 'continue-ring', style: `--pct: ${pct}` }, el('span', {}, `${n}/${ids.length}`))),
+      el('div', { class: 'continue-actions' },
+        el('button', { class: 'btn continue-go', type: 'button', onclick: () => startLesson(lastCourse, next) }, 'המשך שיעור'),
+        el('button', { class: 'btn ghost continue-open', type: 'button', onclick: () => openCourseId(lastCourse.id) }, 'למסלול הקורס')));
+  })() : null;
+  // Recommended first: this week's plan from the weekly review, or else the
+  // courses whose grade band covers the learner's school grade.
+  const grade = parseInt(profile.grade, 10) || null;
+  const gradeName = grade >= 13 ? 'מבוגרים' : grade ? `כיתה ${['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט', 'י', 'יא', 'יב'][grade - 1]}'` : '';
+  const plan = profile.think_plan?.courses?.length ? profile.think_plan : null;
+  const picks = plan ? plan.courses.map((id) => courses.find((c) => c.id === id)).filter(Boolean)
+    : grade ? courses.filter((c) => c.grades && grade >= c.grades[0] && grade <= c.grades[1]) : [];
+  const rest = courses.filter((c) => !picks.includes(c));
+  const recommended = picks.length ? el('div', { class: 'course-area recommended' },
+    el('h3', { class: 'area-title' }, el('span', { class: 'area-icon' }, '🎯'), plan ? 'נבחר בשבילך השבוע' : `מומלץ ל${gradeName}`),
+    plan?.note_he ? el('p', { class: 'muted area-note' }, ...mixed(plan.note_he)) : null,
+    el('div', { class: 'course-grid' }, picks.map(courseCard))) : null;
+  const areas = (think.areas || []).filter((a) => rest.some((c) => c.area === a.id));
+  const ungrouped = rest.filter((c) => !areas.some((a) => a.id === c.area));
+  const group = (title, icon, list) => el('div', { class: 'course-area' },
+    el('h3', { class: 'area-title' }, el('span', { class: 'area-icon' }, icon), title,
+      el('span', { class: 'area-count' }, `${list.filter((c) => progressOf(c).n === lessonsOf(c).length).length}/${list.length}`)),
+    el('div', { class: 'course-grid' }, list.map(courseCard)));
+  const catalog = subject === 'think' && !openCourse ? el('section', { class: 'catalog' },
+    hero,
+    el('h2', { class: 'catalog-title' }, lastCourse ? 'או משהו אחר?' : 'מה בא לך ללמוד?'),
+    recommended,
+    recommended ? el('h2', { class: 'catalog-title' }, 'עוד נושאים') : null,
+    ...areas.map((a) => group(a.title_he, a.icon, rest.filter((c) => c.area === a.id))),
+    ungrouped.length ? group('עוד', '✨', ungrouped) : null) : null;
+  const courseView = openCourse ? (() => {
+    const { n, ids, pct, next } = progressOf(openCourse);
+    const finished = !next;
+    return [
+      el('header', { class: 'course-head' },
+        el('button', { class: 'course-back', type: 'button', onclick: () => setProfile({ think_course: null }) }, '→ כל הקורסים'),
+        el('div', { class: 'course-head-card' },
+          el('div', { class: 'course-head-icon' }, openCourse.icon),
+          el('h1', {}, openCourse.title_he),
+          el('p', {}, openCourse.about_he),
+          el('div', { class: 'course-head-progress' },
+            el('span', { class: 'course-progress' }, el('span', { style: `width: ${pct}%` })),
+            el('span', { class: 'course-head-count' }, finished ? '🏆 הקורס הושלם' : `${n} מתוך ${ids.length} שיעורים`)),
+          finished
+            ? el('button', { class: 'btn course-cta', type: 'button', onclick: () => setProfile({ think_course: null }) }, '🎉 כל הכבוד! לבחור קורס חדש')
+            : null)),
+      ...openCourse.units.map((u, i) => renderUnit(u, i, false, 'think')),
+      el('p', { class: 'path-note muted' }, finished ? 'אפשר לחזור על כל שיעור, או לנסות קורס אחר.' : 'שיעור נעול 🔒 נפתח כשמסיימים את השיעור שלפניו.'),
+      el('button', { class: 'to-current', type: 'button', hidden: true, onclick: () => rows.get(next)?.scrollIntoView({ block: 'center', behavior: 'smooth' }) }, '★ לשיעור הנוכחי'),
+      sheet];
+  })() : null;
   const content = subject === 'think' ? [coach, catalog, courseView]
     : [talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test];
-  root.replaceChildren(el('div', { class: `screen path subject-${subject}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
-    el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`)));
+  screenEl = el('div', { class: `screen path subject-${subject}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
+    el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`));
+  root.replaceChildren(screenEl);
+  if (openCourse) {
+    const { next, ids } = progressOf(openCourse);
+    selectLesson(next || ids[0]);
+    // A floating button brings the current stop back into view when it is scrolled away.
+    const target = rows.get(next);
+    const toCurrent = screenEl.querySelector('.to-current');
+    if (target && toCurrent && 'IntersectionObserver' in window) {
+      new IntersectionObserver(([e]) => { toCurrent.hidden = e.intersectionRatio >= 0.5; }, { threshold: [0, 0.5, 1] }).observe(target.querySelector('.node'));
+    }
+  }
   // Learners on the talk / unseen track start at the top, where those cards are.
   const current = coach && !coachDone ? coach : subject === 'english' && (talk || profile.unseen) ? null : root.querySelector('.node.current');
   if (current) current.scrollIntoView({ block: 'center' });

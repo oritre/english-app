@@ -177,11 +177,27 @@ function profileToggle(profile, key, label, hint) {
     box);
 }
 
+// The learner's school grade picks the courses recommended in "חשיבה ומדעים"
+// (the weekly review can fine-tune them); it syncs with the profile.
+const GRADES = ['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט', 'י', 'יא', 'יב'];
+function gradeRow(profile) {
+  const pick = el('select', { class: 'grade-select', 'aria-label': 'כיתה' },
+    el('option', { value: '' }, 'לא נבחרה'),
+    GRADES.map((g, i) => el('option', { value: String(i + 1), selected: profile.grade === i + 1 }, `כיתה ${g}'`)),
+    el('option', { value: '13', selected: profile.grade === 13 }, 'מבוגר'));
+  pick.addEventListener('change', async () => { profile.grade = pick.value ? Number(pick.value) : null; await updateProfile(profile); });
+  return el('label', { class: 'setting-row' },
+    el('span', {}, el('span', { class: 'setting-label' }, 'כיתה'), el('span', { class: 'muted setting-hint' }, 'הקורסים המומלצים ב"חשיבה ומדעים" נבחרים לפי הכיתה')),
+    pick);
+}
+
 export async function renderSettings(root, nav) {
   const profile = await getProfile();
   const account = profile
     ? section('👤 לומד',
       el('p', {}, 'לומד עכשיו: ', profile.avatar, ' ', profile.name),
+      gradeRow(profile),
+      profileToggle(profile, 'read_aloud', 'הקראה אוטומטית בעברית', 'בקורסי החשיבה כל שאלה מוקראת בקול כשהיא מופיעה (לקוראים צעירים)'),
       profileToggle(profile, 'starter', 'מסלול ABC למתחילים מאפס', 'אותיות, צלילים ומילים ראשונות לפני השיעור הראשון'),
       profileToggle(profile, 'voice_typing', 'הקלטה במקום הקלדה', 'בתרגילי כתיבה באנגלית יש כפתור מיקרופון שכותב את מה שאמרתם'),
       profileToggle(profile, 'talk', 'שיחה קולית עם מורה', 'כרטיס "שיחה באנגלית" בראש המסלול'),

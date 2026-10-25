@@ -1,11 +1,33 @@
 {
+ "areas": [
+  {
+   "id": "math",
+   "icon": "🧮",
+   "title_he": "מתמטיקה"
+  },
+  {
+   "id": "logic",
+   "icon": "🧩",
+   "title_he": "היגיון וקוד"
+  },
+  {
+   "id": "science",
+   "icon": "🔬",
+   "title_he": "מדע"
+  }
+ ],
  "courses": [
   {
    "id": "algebra",
+   "area": "math",
    "icon": "⚖️",
    "color": "#6b3fd4",
    "title_he": "מאזניים ומשוואות",
    "about_he": "מגלים משקל נעלם, ומשם למשוואות",
+   "grades": [
+    3,
+    8
+   ],
    "units": [
     {
      "id": "t-alg",
@@ -22,10 +44,15 @@
   },
   {
    "id": "fractions",
+   "area": "math",
    "icon": "🍕",
    "color": "#ea580c",
    "title_he": "שברים בעיניים",
    "about_he": "צובעים פיצות ושוקולדים ומבינים שברים",
+   "grades": [
+    3,
+    6
+   ],
    "units": [
     {
      "id": "t-frac",
@@ -42,10 +69,15 @@
   },
   {
    "id": "patterns",
+   "area": "math",
    "icon": "🔢",
    "color": "#0891b2",
    "title_he": "תבניות ומספרים",
    "about_he": "מוצאים את החוק ומנחשים מה בא אחר כך",
+   "grades": [
+    2,
+    7
+   ],
    "units": [
     {
      "id": "t-pat",
@@ -60,10 +92,15 @@
   },
   {
    "id": "logic",
+   "area": "logic",
    "icon": "🕵️",
    "color": "#be123c",
    "title_he": "חידות היגיון",
    "about_he": "חושבים כמו בלש, צעד אחרי צעד",
+   "grades": [
+    2,
+    13
+   ],
    "units": [
     {
      "id": "t-log",
@@ -78,10 +115,15 @@
   },
   {
    "id": "code",
+   "area": "logic",
    "icon": "🤖",
    "color": "#16a34a",
    "title_he": "חשיבה בקוד",
    "about_he": "כותבים תוכניות לרובוט ולומדים לחשוב כמו מתכנתים",
+   "grades": [
+    1,
+    13
+   ],
    "units": [
     {
      "id": "t-code",
@@ -96,10 +138,15 @@
   },
   {
    "id": "chance",
+   "area": "logic",
    "icon": "🎲",
    "color": "#0284c7",
    "title_he": "סיכויים והסתברות",
    "about_he": "מטילים מטבעות וקוביות ומגלים מה צפוי",
+   "grades": [
+    4,
+    9
+   ],
    "units": [
     {
      "id": "t-prob",
@@ -114,10 +161,15 @@
   },
   {
    "id": "geometry",
+   "area": "math",
    "icon": "📐",
    "color": "#db2777",
    "title_he": "צורות וזוויות",
    "about_he": "זוויות, צורות ושטחים, בידיים",
+   "grades": [
+    4,
+    7
+   ],
    "units": [
     {
      "id": "t-geo",
@@ -132,10 +184,15 @@
   },
   {
    "id": "science",
+   "area": "science",
    "icon": "🔬",
    "color": "#ca8a04",
    "title_he": "מדע סביבנו",
    "about_he": "ניסויים קטנים בחשיבה: ציפה, מגנטים וחומרים",
+   "grades": [
+    1,
+    4
+   ],
    "units": [
     {
      "id": "t-sci",
@@ -144,6 +201,327 @@
      "lessons": [
       "t-sci-1",
       "t-sci-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "negatives",
+   "area": "math",
+   "icon": "🌡️",
+   "color": "#4f46e5",
+   "title_he": "מספרים שליליים",
+   "about_he": "מתחת לאפס: מדחום, מעליות וחובות",
+   "grades": [
+    6,
+    8
+   ],
+   "units": [
+    {
+     "id": "t-neg",
+     "title_he": "מתחת לאפס",
+     "about_he": "הציר ממשיך שמאלה",
+     "lessons": [
+      "t-neg-1",
+      "t-neg-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "percents",
+   "area": "math",
+   "icon": "💯",
+   "color": "#0d9488",
+   "title_he": "אחוזים",
+   "about_he": "הנחות, ציונים וסוללה: אחוזים בחיים",
+   "grades": [
+    5,
+    8
+   ],
+   "units": [
+    {
+     "id": "t-pct",
+     "title_he": "מאה חלקים",
+     "about_he": "אחוז הוא חלק אחד ממאה",
+     "lessons": [
+      "t-pct-1",
+      "t-pct-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "numbers",
+   "area": "math",
+   "icon": "🔐",
+   "color": "#7c3aed",
+   "title_he": "סודות המספרים",
+   "about_he": "ראשוניים, התחלקות ומשחקי מספרים",
+   "grades": [
+    4,
+    7
+   ],
+   "units": [
+    {
+     "id": "t-num",
+     "title_he": "תורת המספרים",
+     "about_he": "מי מתחלק במי, ולמה זה חשוב",
+     "lessons": [
+      "t-num-1",
+      "t-num-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stats",
+   "area": "math",
+   "icon": "📊",
+   "color": "#2563eb",
+   "title_he": "נתונים וסטטיסטיקה",
+   "about_he": "ממוצע, חציון ומה הנתונים מספרים",
+   "grades": [
+    5,
+    9
+   ],
+   "units": [
+    {
+     "id": "t-stat",
+     "title_he": "קוראים נתונים",
+     "about_he": "מסכמים הרבה מספרים במספר אחד",
+     "lessons": [
+      "t-stat-1",
+      "t-stat-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "circuits",
+   "area": "science",
+   "icon": "💡",
+   "color": "#d97706",
+   "title_he": "חשמל ומעגלים",
+   "about_he": "סוללות, נורות ומה זורם בחוטים",
+   "grades": [
+    3,
+    6
+   ],
+   "units": [
+    {
+     "id": "t-elec",
+     "title_he": "מעגל חשמלי",
+     "about_he": "זרם צריך דרך סגורה",
+     "lessons": [
+      "t-elec-1",
+      "t-elec-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "physics",
+   "area": "science",
+   "icon": "🚀",
+   "color": "#0f766e",
+   "title_he": "פיזיקה של היומיום",
+   "about_he": "כוחות, מנופים ולמה דברים נופלים",
+   "grades": [
+    4,
+    8
+   ],
+   "units": [
+    {
+     "id": "t-phys",
+     "title_he": "כוחות",
+     "about_he": "דחיפה, משיכה וכוח המשיכה",
+     "lessons": [
+      "t-phys-1",
+      "t-phys-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "area": "logic",
+   "icon": "🧠",
+   "color": "#9333ea",
+   "title_he": "איך בינה מלאכותית לומדת",
+   "about_he": "דוגמאות, דפוסים ומכונה שמנחשת",
+   "grades": [
+    4,
+    13
+   ],
+   "units": [
+    {
+     "id": "t-ai",
+     "title_he": "מכונה לומדת",
+     "about_he": "מלמדים מחשב מדוגמאות",
+     "lessons": [
+      "t-ai-1",
+      "t-ai-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "python",
+   "area": "logic",
+   "icon": "🐍",
+   "color": "#15803d",
+   "title_he": "קוד אמיתי: פייתון",
+   "about_he": "קוראים קוד אמיתי ומנחשים מה הוא יעשה",
+   "grades": [
+    6,
+    13
+   ],
+   "units": [
+    {
+     "id": "t-py",
+     "title_he": "פייתון ראשון",
+     "about_he": "הדפסה, משתנים ולולאות",
+     "lessons": [
+      "t-py-1",
+      "t-py-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "counting",
+   "area": "math",
+   "icon": "🐣",
+   "color": "#f59e0b",
+   "title_he": "חשבון ראשון",
+   "about_he": "סופרים, מחברים ומחסירים עד 20",
+   "grades": [
+    1,
+    2
+   ],
+   "units": [
+    {
+     "id": "t-cnt",
+     "title_he": "מספרים ראשונים",
+     "about_he": "ספירה, חיבור וחיסור",
+     "lessons": [
+      "t-cnt-1",
+      "t-cnt-2",
+      "t-cnt-3"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nature",
+   "area": "science",
+   "icon": "🌱",
+   "color": "#65a30d",
+   "title_he": "העולם סביבי",
+   "about_he": "חושים, עונות, צמחים ובעלי חיים",
+   "grades": [
+    1,
+    3
+   ],
+   "units": [
+    {
+     "id": "t-nat",
+     "title_he": "מגלים את הטבע",
+     "about_he": "מסתכלים, מקשיבים ומשווים",
+     "lessons": [
+      "t-nat-1",
+      "t-nat-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "times",
+   "area": "math",
+   "icon": "✖️",
+   "color": "#e11d48",
+   "title_he": "לוח הכפל",
+   "about_he": "כפל כמערך, חילוק כחלוקה הוגנת",
+   "grades": [
+    2,
+    4
+   ],
+   "units": [
+    {
+     "id": "t-mul",
+     "title_he": "כפל וחילוק",
+     "about_he": "שורות, קבוצות וחלוקה",
+     "lessons": [
+      "t-mul-1",
+      "t-mul-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "clock",
+   "area": "math",
+   "icon": "🕒",
+   "color": "#0369a1",
+   "title_he": "שעון ומדידות",
+   "about_he": "קוראים שעון, מודדים אורך וזמן",
+   "grades": [
+    2,
+    4
+   ],
+   "units": [
+    {
+     "id": "t-clk",
+     "title_he": "זמן ואורך",
+     "about_he": "שעות, דקות, סנטימטרים ומטרים",
+     "lessons": [
+      "t-clk-1",
+      "t-clk-2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pythagoras",
+   "area": "math",
+   "icon": "🔺",
+   "color": "#be185d",
+   "title_he": "משפט פיתגורס",
+   "about_he": "ריבועים על צלעות המשולש",
+   "grades": [
+    8,
+    9
+   ],
+   "units": [
+    {
+     "id": "t-pyth",
+     "title_he": "משולש ישר זווית",
+     "about_he": "a² + b² = c²",
+     "lessons": [
+      "t-pyth-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "linear",
+   "area": "math",
+   "icon": "📈",
+   "color": "#4338ca",
+   "title_he": "פונקציה קווית",
+   "about_he": "טבלה, שיפוע וקו ישר",
+   "grades": [
+    8,
+    9
+   ],
+   "units": [
+    {
+     "id": "t-lin",
+     "title_he": "y = mx + b",
+     "about_he": "קשרים שגדלים בקצב קבוע",
+     "lessons": [
+      "t-lin-1"
      ]
     }
    ]
@@ -169,6 +547,33 @@
   "t-geo-1": "זוויות",
   "t-geo-2": "שטח והיקף",
   "t-sci-1": "צף או שוקע?",
-  "t-sci-2": "מצבי צבירה"
+  "t-sci-2": "מצבי צבירה",
+  "t-neg-1": "מתחת לאפס",
+  "t-neg-2": "חיבור וחיסור עם שליליים",
+  "t-pct-1": "מה זה אחוז?",
+  "t-pct-2": "הנחות",
+  "t-num-1": "זוגי, אי-זוגי והתחלקות",
+  "t-num-2": "מספרים ראשוניים",
+  "t-stat-1": "ממוצע וחציון",
+  "t-stat-2": "גרפים",
+  "t-elec-1": "מעגל סגור",
+  "t-elec-2": "טורי ומקבילי",
+  "t-phys-1": "מנופים",
+  "t-phys-2": "נפילה וחיכוך",
+  "t-ai-1": "לומדים מדוגמאות",
+  "t-ai-2": "מנחשים את המילה הבאה",
+  "t-py-1": "הדפסה ומשתנים",
+  "t-py-2": "לולאות ותנאים",
+  "t-cnt-1": "סופרים",
+  "t-cnt-2": "חיבור וחיסור",
+  "t-cnt-3": "צורות",
+  "t-nat-1": "החושים שלנו",
+  "t-nat-2": "טבע או מעשה ידי אדם",
+  "t-mul-1": "כפל הוא חיבור חוזר",
+  "t-mul-2": "חילוק",
+  "t-clk-1": "מה השעה?",
+  "t-clk-2": "מודדים",
+  "t-pyth-1": "ריבועים על הצלעות",
+  "t-lin-1": "קצב קבוע"
  }
 }

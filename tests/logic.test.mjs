@@ -269,8 +269,11 @@ test('think: the robot runs, repeats and crashes into walls', () => {
 test('every think exercise is solvable as written', () => {
   const think = JSON.parse(readFileSync(new URL('../data/think.json', import.meta.url)));
   assert.ok(think.courses.length >= 6);
+  // Every school grade from 1 to 8 has at least three courses to pick from.
+  for (let g = 1; g <= 8; g++) assert.ok(think.courses.filter((c) => g >= c.grades[0] && g <= c.grades[1]).length >= 3, `grade ${g}`);
   for (const c of think.courses) {
     assert.ok(c.id && c.icon && /^#[0-9a-f]{6}$/i.test(c.color) && c.title_he && c.about_he, c.id);
+    assert.ok(Array.isArray(c.grades) && c.grades[0] >= 1 && c.grades[0] <= c.grades[1] && c.grades[1] <= 13, `${c.id}: grade band`);
     for (const id of c.units.flatMap((u) => u.lessons)) {
       const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
       assert.ok(think.lesson_titles[id] && lesson.exercises.length >= 4, id);

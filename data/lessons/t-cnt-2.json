@@ -1,0 +1,87 @@
+{
+ "id": "t-cnt-2",
+ "unit_id": "t-cnt",
+ "course": "counting",
+ "title_he": "חיבור וחיסור",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "חיבור",
+   "body_he": [
+    "חיבור זה לשים יחד. 3 תפוחים ועוד 2 תפוחים זה 5 תפוחים."
+   ],
+   "say_he": "חיבור חיבור זה לשים יחד. 3 תפוחים ועוד 2 תפוחים זה 5 תפוחים.",
+   "id": "t-cnt-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה ביחד?",
+   "answer": "5",
+   "explain_he": "3 ועוד 2: ממשיכים לספור מ-3: ארבע, חמש.",
+   "hint_he": "התחילו מ-3 וספרו עוד 2",
+   "visual": "🍎🍎🍎 + 🍎🍎",
+   "id": "t-cnt-2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה זה?",
+   "answer": "9",
+   "explain_he": "6 ועוד 3: שבע, שמונה, תשע.",
+   "visual": "6 + 3 = ?",
+   "id": "t-cnt-2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "היו 7 בלונים, 2 עפו. כמה נשארו?",
+   "answer": "5",
+   "explain_he": "7 פחות 2 זה 5.",
+   "hint_he": "סופרים אחורה",
+   "visual": "🎈🎈🎈🎈🎈🎈🎈",
+   "id": "t-cnt-2e4"
+  },
+  {
+   "type": "balance",
+   "prompt_he": "כמה קוביות צריך כדי לאזן?",
+   "left": [
+    {
+     "icon": "🧱",
+     "n": 4,
+     "w": 1
+    },
+    {
+     "icon": "🧱",
+     "n": 3,
+     "w": 1
+    }
+   ],
+   "right": [
+    {
+     "icon": "🧱",
+     "n": 0,
+     "w": 1,
+     "adjustable": true
+    }
+   ],
+   "answer": 7,
+   "explain_he": "4 ועוד 3 זה 7.",
+   "id": "t-cnt-2e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה זה?",
+   "answer": "14",
+   "explain_he": "10 ועוד 4: ארבע-עשרה.",
+   "hint_he": "עשר ועוד...",
+   "visual": "10 + 4 = ?",
+   "id": "t-cnt-2e6"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה זה?",
+   "answer": "8",
+   "explain_he": "12 פחות 4: מ-12 סופרים אחורה ארבעה: 11, 10, 9, 8.",
+   "visual": "12 - 4 = ?",
+   "id": "t-cnt-2e7"
+  }
+ ]
+}
