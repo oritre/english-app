@@ -19,6 +19,12 @@ The Brilliant-style courses (data/think.json, lessons t-*) log to the same
 attempts, so the summary covers them too. Their exercise types (mcq, number,
 balance, fraction, numberline, order, robot, buckets, angle, sim) can be used in
 modules; see tools/think_content.py for the schema of each.
+
+Each learner's school grade is profile.grade (1-12, 13 = adult); the catalog
+recommends the courses whose grade band (data/think.json courses[].grades)
+covers it. To pick the courses yourself for the week:
+  python3 tools/coach.py set CODE PROFILE_ID 'think_plan={"week": "YYYY-MM-DD", "courses": ["times", "clock"], "note_he": "..."}'
+read_aloud=true reads every think question aloud in Hebrew (young readers).
 """
 import collections, datetime, glob, json, os, sys, urllib.request
 
@@ -105,6 +111,8 @@ def summary(code, days):
             'profile_id': pid, 'name': p.get('name'), 'starter': p.get('starter'), 'voice_typing': p.get('voice_typing'),
             'placement': p.get('placement'), 'current_coach': p.get('coach'),
             'talk': p.get('talk'), 'unseen': p.get('unseen'), 'talk_focus': p.get('talk_focus'),
+            'grade': p.get('grade'), 'read_aloud': p.get('read_aloud'), 'think_plan': p.get('think_plan'),
+            'think_done': [i for i in done if i.startswith('t-')],
             # Spoken lessons with the AI tutor: what was said, to find recurring speaking mistakes.
             'talks_week': [{'date': a.get('date'), 'topic': a.get('topic'), 'sec': round((a.get('ms') or 0) / 1000),
                             'transcript': a.get('transcript')} for a in sorted(talks, key=lambda a: a.get('at') or 0)],
