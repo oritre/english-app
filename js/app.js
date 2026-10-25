@@ -102,5 +102,13 @@ if ('serviceWorker' in navigator && location.protocol !== 'file:') {
   navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then((reg) => {
     // An installed app is often resumed rather than relaunched, so check for updates on return too.
     document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') reg.update().catch(() => {}); });
+    // A tab left open for hours still picks up new versions.
+    setInterval(() => reg.update().catch(() => {}), 60 * 60 * 1000);
+    // Installed apps (Chrome, Edge, Android) can also check while closed, about twice a day.
+    if (reg.periodicSync && navigator.permissions) {
+      navigator.permissions.query({ name: 'periodic-background-sync' })
+        .then((p) => { if (p.state === 'granted') return reg.periodicSync.register('app-update', { minInterval: 12 * 60 * 60 * 1000 }); })
+        .catch(() => {});
+    }
   }).catch((e) => console.warn('SW failed', e));
 }
