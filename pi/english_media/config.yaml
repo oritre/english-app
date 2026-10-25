@@ -1,5 +1,5 @@
 name: English app videos
-version: "1.1.1"
+version: "1.1.2"
 slug: english_media
 description: Serves the לימודים app's general-knowledge videos (downloaded once, without YouTube or ads) and reads its words and sentences in a natural voice.
 url: https://github.com/oritre/english-app/tree/main/pi/english_media
