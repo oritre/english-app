@@ -6,7 +6,8 @@ import { withoutTyping } from '../typing.js';
 import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
 import { glossify, closePop } from '../gloss.js';
-import { speak, speakSequence, canSpeakLang } from '../speech.js';
+import { speak, speakSequence, canSpeakLang, warmSpeech } from '../speech.js';
+import { spokenLines } from '../spoken.js';
 import { getSettings, setSetting, RATE_CHOICES } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
@@ -26,7 +27,10 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   const exercises = withoutTyping(forGrade(lesson.exercises, profile?.grade), profile).filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
   // Young readers (grades 1-2) hear every question unless turned off in settings.
-  setReadAloud(profile?.read_aloud ?? (parseInt(profile?.grade, 10) <= 2));
+  const readAloud = profile?.read_aloud ?? (parseInt(profile?.grade, 10) <= 2);
+  setReadAloud(readAloud);
+  // The home Pi records the lesson's lines in a natural voice while the first exercise is up.
+  warmSpeech(spokenLines(exercises, { thinkAloud: readAloud }));
   const queue = exercises.slice();
   const mistakes = new Set();
   let total = exercises.length;

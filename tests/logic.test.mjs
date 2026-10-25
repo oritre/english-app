@@ -430,3 +430,15 @@ test('young learners get no free typing', async () => {
   assert.equal(withoutTyping(exs, { grade: 6, no_typing: true }).length, 2);
   assert.equal(withoutTyping(exs, { grade: 2, no_typing: false }).length, 4);
 });
+
+test('spokenLines lists a lesson\'s spoken lines once, auto-read first, English without Hebrew', async () => {
+  const { spokenLines } = await import('../js/spoken.js');
+  const lines = spokenLines([
+    { type: 'teach', say_he: 'שלום', say: 'Hello', examples: [{ en: 'Hello, Dana!' }] },
+    { type: 'pick', audio: 'Hello', options: [{ en: 'cat', say: 'a cat' }] },
+    { type: 'speak', text: 'I like cats.' },
+    { type: 'think_choice', prompt_he: 'כמה?', audio: 'מה' },
+  ], { thinkAloud: true });
+  assert.deepEqual(lines.map((l) => `${l.lang}:${l.text}`), [
+    'he-IL:שלום', 'en-US:Hello', 'he-IL:כמה?', 'en-US:Hello, Dana!', 'en-US:a cat', 'en-US:cat', 'en-US:I like cats.']);
+});

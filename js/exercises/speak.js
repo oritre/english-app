@@ -1,5 +1,5 @@
 import { el, en } from '../util.js';
-import { speak } from '../speech.js';
+import { speak, stopSpeech } from '../speech.js';
 import { checkSpeech } from '../check.js';
 import { getSettings, setSetting } from '../settings.js';
 import { LOW_MEMORY, localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
@@ -75,7 +75,7 @@ export function renderSpeak(root, ex, { setReady, finish, skip, track, gloss = (
     if (recording) { recording.stop(); return; }
     if (busy) return;
     busy = true;
-    try { speechSynthesis.cancel(); } catch { /* no TTS */ }
+    stopSpeech();
     try {
       if (!localAsrDownloaded()) status.textContent = 'מוריד את מנוע התמלול (פעם אחת בלבד)...';
       await loadLocalAsr((f) => { status.textContent = `מוריד את מנוע התמלול (פעם אחת בלבד)... ${Math.round(f * 100)}%`; });
@@ -106,7 +106,7 @@ export function renderSpeak(root, ex, { setReady, finish, skip, track, gloss = (
   mic.addEventListener('click', () => {
     if (asrEngine() === 'local') { localClick(); return; }
     if (rec) { rec.stop(); return; }
-    try { speechSynthesis.cancel(); } catch { /* no TTS */ }
+    stopSpeech();
     rec = new Recognition();
     rec.lang = 'en-US';
     rec.continuous = false;
