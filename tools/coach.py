@@ -113,6 +113,8 @@ def summary(code, days):
             'talk': p.get('talk'), 'unseen': p.get('unseen'), 'talk_focus': p.get('talk_focus'),
             'grade': p.get('grade'), 'read_aloud': p.get('read_aloud'), 'think_plan': p.get('think_plan'),
             'think_done': [i for i in done if i.startswith('t-')],
+            # Practice rounds (tp-<course>) this week: a finished course still being practised.
+            'think_practice_week': dict(collections.Counter(r['lesson_id'][3:] for r in res if str(r.get('lesson_id', '')).startswith('tp-'))),
             # Spoken lessons with the AI tutor: what was said, to find recurring speaking mistakes.
             'talks_week': [{'date': a.get('date'), 'topic': a.get('topic'), 'sec': round((a.get('ms') or 0) / 1000),
                             'transcript': a.get('transcript')} for a in sorted(talks, key=lambda a: a.get('at') or 0)],

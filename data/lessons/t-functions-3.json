@@ -1,0 +1,56 @@
+{
+ "id": "t-functions-3",
+ "unit_id": "t-func-b",
+ "course": "functions",
+ "title_he": "הפרבולה",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "y = x²",
+   "body_he": [
+    "הגרף של x² נראה כמו U: פרבולה.",
+    "גם −3 וגם 3 נותנים 9, ולכן הגרף סימטרי."
+   ],
+   "say_he": "y = x² הגרף של x² נראה כמו U: פרבולה. גם −3 וגם 3 נותנים 9, ולכן הגרף סימטרי.",
+   "id": "t-functions-3e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "y = x². מה y כש-x = −4?",
+   "answer": "16",
+   "explain_he": "(−4) × (−4) = 16.",
+   "id": "t-functions-3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפרבולה y = x² יש נקודה הכי נמוכה. איפה?",
+   "answer": "(0, 0)",
+   "options": [
+    "(0, 0)",
+    "(1, 1)",
+    "אין"
+   ],
+   "explain_he": "x² לא יכול להיות שלילי.",
+   "id": "t-functions-3e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "y = x² + 3. מה הערך הנמוך ביותר של y?",
+   "answer": "3",
+   "explain_he": "x² הכי קטן ב-0, אז y = 3.",
+   "id": "t-functions-3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כדור שנזרק למעלה. מסלולו נראה כמו...",
+   "answer": "פרבולה הפוכה",
+   "options": [
+    "פרבולה הפוכה",
+    "קו ישר",
+    "עיגול"
+   ],
+   "explain_he": "עולה, מאט, ויורד: ∩.",
+   "id": "t-functions-3e5"
+  }
+ ]
+}

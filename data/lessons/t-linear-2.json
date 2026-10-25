@@ -1,0 +1,64 @@
+{
+ "id": "t-linear-2",
+ "unit_id": "t-lin-b",
+ "course": "linear",
+ "title_he": "שיפוע",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "כמה עולה בכל צעד",
+   "body_he": [
+    "שיפוע הוא כמה y משתנה כש-x גדל ב-1.",
+    "ב-y = 3x + 2 השיפוע 3, והקו חותך את ציר y ב-2."
+   ],
+   "say_he": "כמה עולה בכל צעד שיפוע הוא כמה y משתנה כש-x גדל ב-1. ב-y = 3x + 2 השיפוע 3, והקו חותך את ציר y ב-2.",
+   "id": "t-linear-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "y = 4x + 1. מה השיפוע?",
+   "answer": "4",
+   "explain_he": "המספר שליד x.",
+   "id": "t-linear-2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "y = 2x − 5. איפה הקו חותך את ציר y?",
+   "answer": "-5",
+   "explain_he": "כש-x = 0, y = −5.",
+   "negative": true,
+   "id": "t-linear-2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "הישר עובר ב-(0, 1) וב-(2, 7). מה השיפוע?",
+   "answer": "3",
+   "explain_he": "y עלה ב-6 כש-x עלה ב-2: 6 : 2 = 3.",
+   "id": "t-linear-2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לקו עם שיפוע שלילי...",
+   "answer": "יורד משמאל לימין",
+   "options": [
+    "יורד משמאל לימין",
+    "עולה משמאל לימין",
+    "אופקי"
+   ],
+   "explain_he": "כש-x גדל, y קטן.",
+   "id": "t-linear-2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "y = 5. איך נראה הקו?",
+   "answer": "אופקי",
+   "options": [
+    "אופקי",
+    "אנכי",
+    "אלכסוני"
+   ],
+   "explain_he": "y תמיד 5, לא משנה מה x. שיפוע 0.",
+   "id": "t-linear-2e6"
+  }
+ ]
+}

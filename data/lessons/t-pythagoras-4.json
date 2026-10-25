@@ -1,0 +1,72 @@
+{
+ "id": "t-pythagoras-4",
+ "unit_id": "t-pyth-b",
+ "course": "pythagoras",
+ "title_he": "שורשים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "שורש ריבועי",
+   "body_he": [
+    "√49 = 7, כי 7 × 7 = 49.",
+    "לפעמים השורש לא שלם: √50 קצת יותר מ-7."
+   ],
+   "say_he": "שורש ריבועי √49 = 7, כי 7 × 7 = 49. לפעמים השורש לא שלם: √50 קצת יותר מ-7.",
+   "id": "t-pythagoras-4e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "√81 = ?",
+   "answer": "9",
+   "explain_he": "9 × 9 = 81.",
+   "id": "t-pythagoras-4e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "√144 = ?",
+   "answer": "12",
+   "explain_he": "12 × 12 = 144.",
+   "id": "t-pythagoras-4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בין אילו מספרים שלמים נמצא √30?",
+   "answer": "5 ו-6",
+   "options": [
+    "5 ו-6",
+    "4 ו-5",
+    "6 ו-7"
+   ],
+   "explain_he": "25 < 30 < 36.",
+   "id": "t-pythagoras-4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "יתר של משולש עם ניצבים 1 ו-1 הוא...",
+   "answer": "√2",
+   "options": [
+    "√2",
+    "2",
+    "1"
+   ],
+   "explain_he": "1 + 1 = 2, אז היתר √2, בערך 1.41.",
+   "id": "t-pythagoras-4e5"
+  },
+  {
+   "type": "order",
+   "prompt_he": "סדרו מהקטן לגדול",
+   "items": [
+    "√10",
+    "4",
+    "√20",
+    "5"
+   ],
+   "explain_he": "√10 ≈ 3.2, √20 ≈ 4.5.",
+   "ends": [
+    "קטן",
+    "גדול"
+   ],
+   "id": "t-pythagoras-4e6"
+  }
+ ]
+}

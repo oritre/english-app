@@ -1,0 +1,62 @@
+{
+ "id": "t-pythagoras-2",
+ "unit_id": "t-pyth-b",
+ "course": "pythagoras",
+ "title_he": "ניצב חסר",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "הפוך",
+   "body_he": [
+    "אם יודעים יתר וניצב: ניצב² = יתר² − ניצב אחר².",
+    "יתר 13 וניצב 5: 169 − 25 = 144, והשורש 12."
+   ],
+   "say_he": "הפוך אם יודעים יתר וניצב: ניצב² = יתר² − ניצב אחר². יתר 13 וניצב 5: 169 − 25 = 144, והשורש 12.",
+   "id": "t-pythagoras-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "יתר 10, ניצב 6. מה הניצב השני?",
+   "answer": "8",
+   "explain_he": "100 − 36 = 64, והשורש 8.",
+   "id": "t-pythagoras-2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "יתר 17, ניצב 8. מה הניצב השני?",
+   "answer": "15",
+   "explain_he": "289 − 64 = 225, והשורש 15.",
+   "id": "t-pythagoras-2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "ניצבים 9 ו-12. מה היתר?",
+   "answer": "15",
+   "explain_he": "81 + 144 = 225, והשורש 15.",
+   "id": "t-pythagoras-2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "האם 4, 5, 6 יכולות להיות צלעות של משולש ישר זווית?",
+   "answer": "לא",
+   "options": [
+    "לא",
+    "כן"
+   ],
+   "explain_he": "16 + 25 = 41, וזה לא 36.",
+   "hint_he": "בדקו אם a² + b² = c²",
+   "id": "t-pythagoras-2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "האם 7, 24, 25 משולש ישר זווית?",
+   "answer": "כן",
+   "options": [
+    "כן",
+    "לא"
+   ],
+   "explain_he": "49 + 576 = 625 = 25².",
+   "id": "t-pythagoras-2e6"
+  }
+ ]
+}

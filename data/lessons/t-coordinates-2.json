@@ -1,0 +1,58 @@
+{
+ "id": "t-coordinates-2",
+ "unit_id": "t-coord-b",
+ "course": "coordinates",
+ "title_he": "מרחקים ישרים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מרחק על קו",
+   "body_he": [
+    "בין (1, 2) ל-(6, 2) ה-y זהה, אז המרחק הוא ההפרש ב-x: 6 − 1 = 5."
+   ],
+   "say_he": "מרחק על קו בין (1, 2) ל-(6, 2) ה-y זהה, אז המרחק הוא ההפרש ב-x: 6 − 1 = 5.",
+   "id": "t-coordinates-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה המרחק בין (2, 3) ל-(9, 3)?",
+   "answer": "7",
+   "explain_he": "ה-y זהה. 9 − 2 = 7.",
+   "id": "t-coordinates-2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה המרחק בין (4, −1) ל-(4, 6)?",
+   "answer": "7",
+   "explain_he": "ה-x זהה. מ-−1 עד 6 יש 7.",
+   "hint_he": "עצרו באפס בדרך",
+   "id": "t-coordinates-2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מלבן: (0, 0), (5, 0), (5, 3), (0, 3). מה השטח?",
+   "answer": "15",
+   "explain_he": "רוחב 5, גובה 3: 15.",
+   "id": "t-coordinates-2e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה ההיקף של אותו מלבן?",
+   "answer": "16",
+   "explain_he": "5 + 3 + 5 + 3 = 16.",
+   "id": "t-coordinates-2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו נקודה חסרה לריבוע (1, 1), (4, 1), (4, 4)?",
+   "answer": "(1, 4)",
+   "options": [
+    "(1, 4)",
+    "(4, 1)",
+    "(0, 4)"
+   ],
+   "explain_he": "הפינה הרביעית: x כמו הראשונה ו-y כמו השלישית.",
+   "id": "t-coordinates-2e6"
+  }
+ ]
+}

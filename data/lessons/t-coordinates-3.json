@@ -1,0 +1,72 @@
+{
+ "id": "t-coordinates-3",
+ "unit_id": "t-coord-b",
+ "course": "coordinates",
+ "title_he": "הזזה ושיקוף",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "הזזה",
+   "body_he": [
+    "מזיזים 3 ימינה: מוסיפים 3 ל-x. מזיזים 2 למטה: מורידים 2 מ-y."
+   ],
+   "say_he": "הזזה מזיזים 3 ימינה: מוסיפים 3 ל-x. מזיזים 2 למטה: מורידים 2 מ-y.",
+   "id": "t-coordinates-3e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מזיזים את (2, 5) ארבעה ימינה. לאן מגיעים?",
+   "answer": "(6, 5)",
+   "options": [
+    "(6, 5)",
+    "(2, 9)",
+    "(−2, 5)"
+   ],
+   "explain_he": "ימינה משנה רק את x: 2 + 4 = 6.",
+   "id": "t-coordinates-3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מזיזים את (3, 1) שלושה למטה. לאן מגיעים?",
+   "answer": "(3, −2)",
+   "options": [
+    "(3, −2)",
+    "(0, 1)",
+    "(3, 4)"
+   ],
+   "explain_he": "למטה מוריד מ-y: 1 − 3 = −2.",
+   "id": "t-coordinates-3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "משקפים את (4, 2) בציר ה-y. לאן מגיעים?",
+   "answer": "(−4, 2)",
+   "options": [
+    "(−4, 2)",
+    "(4, −2)",
+    "(2, 4)"
+   ],
+   "explain_he": "שיקוף בציר y הופך את הסימן של x.",
+   "id": "t-coordinates-3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "משקפים את (−1, 5) בציר ה-x. לאן מגיעים?",
+   "answer": "(−1, −5)",
+   "options": [
+    "(−1, −5)",
+    "(1, 5)",
+    "(5, −1)"
+   ],
+   "explain_he": "שיקוף בציר x הופך את הסימן של y.",
+   "id": "t-coordinates-3e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "הנקודה (−2, 3) זזה 5 ימינה. מה ה-x החדש?",
+   "answer": "3",
+   "explain_he": "−2 + 5 = 3.",
+   "id": "t-coordinates-3e6"
+  }
+ ]
+}

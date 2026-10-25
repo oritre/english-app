@@ -1,0 +1,84 @@
+{
+ "id": "t-geometry-4",
+ "unit_id": "t-geo-b",
+ "course": "geometry",
+ "title_he": "סימטריה ומצולעים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "ציר סימטריה",
+   "body_he": [
+    "ציר סימטריה מחלק צורה לשני חצאים זהים, כמו מראה."
+   ],
+   "say_he": "ציר סימטריה ציר סימטריה מחלק צורה לשני חצאים זהים, כמו מראה.",
+   "id": "t-geometry-4e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה צירי סימטריה יש לריבוע?",
+   "answer": "4",
+   "explain_he": "שניים באמצע הצלעות ושניים באלכסונים.",
+   "id": "t-geometry-4e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה צירי סימטריה יש למלבן (לא ריבוע)?",
+   "answer": "2",
+   "explain_he": "רק דרך אמצעי הצלעות. האלכסונים לא עובדים.",
+   "id": "t-geometry-4e3"
+  },
+  {
+   "type": "buckets",
+   "prompt_he": "יש ציר סימטריה?",
+   "buckets": [
+    {
+     "id": "yes",
+     "label": "🪞 יש"
+    },
+    {
+     "id": "no",
+     "label": "✖️ אין"
+    }
+   ],
+   "items": [
+    {
+     "label": "❤️",
+     "in": "yes"
+    },
+    {
+     "label": "🦋",
+     "in": "yes"
+    },
+    {
+     "label": "⭐",
+     "in": "yes"
+    },
+    {
+     "label": "🌀",
+     "in": "no"
+    },
+    {
+     "label": "😀",
+     "in": "yes"
+    }
+   ],
+   "explain_he": "הסליל מסתובב ולא משתקף.",
+   "id": "t-geometry-4e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה צלעות יש למשושה?",
+   "answer": "6",
+   "explain_he": "משושה, כמו תא בכוורת.",
+   "visual": "⬡",
+   "id": "t-geometry-4e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה סכום הזוויות במחומש? (אפשר לחלק ל-3 משולשים)",
+   "answer": "540",
+   "explain_he": "3 × 180 = 540.",
+   "id": "t-geometry-4e6"
+  }
+ ]
+}

@@ -378,11 +378,22 @@ def main():
     # More courses live in think_more.py; every course gets its school-grade band.
     from think_more import MORE, GRADES
     from think_extra import EXTRA, MOE_IDS
-    for c in COURSES + MORE + EXTRA:
+    from think_deep import DEEP, NEW
+    from think_deep2 import DEEP2, NEW2
+    deep = {**DEEP}
+    from think_deep3 import DEEP3
+    for k, v in [*DEEP2.items(), *DEEP3.items()]:
+        deep[k] = deep.get(k, []) + v
+    seen = set()
+    for c in COURSES + MORE + EXTRA + NEW + NEW2:
+        # Deeper levels of a course come after its own units.
+        c = {**c, 'units': c['units'] + deep.pop(c['id'], [])}
         units = []
         for u in c['units']:
             ids = []
             for lesson_id, title_he, exercises in u['lessons']:
+                assert lesson_id not in seen, f'duplicate lesson id {lesson_id}'
+                seen.add(lesson_id)
                 for i, ex in enumerate(exercises):
                     ex['id'] = f'{lesson_id}e{i + 1}'
                 lesson = {'id': lesson_id, 'unit_id': u['id'], 'course': c['id'], 'title_he': title_he, 'exercises': exercises}
@@ -393,6 +404,7 @@ def main():
                 count += len(exercises)
             units.append({'id': u['id'], 'title_he': u['title_he'], 'about_he': u['about_he'], 'lessons': ids})
         out['courses'].append({k: c[k] for k in ('id', 'area', 'icon', 'color', 'title_he', 'about_he')} | {'grades': list(c.get('grades') or GRADES[c['id']]), 'moe': bool(c.get('moe') or c['id'] in MOE_IDS), 'units': units})
+    assert not deep, f'deeper levels for unknown courses: {list(deep)}'
     with open(os.path.join(ROOT, 'think.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"{len(out['courses'])} courses, {len(out['lesson_titles'])} lessons, {count} exercises")

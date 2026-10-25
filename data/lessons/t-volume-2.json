@@ -1,0 +1,53 @@
+{
+ "id": "t-volume-2",
+ "unit_id": "t-vol-b",
+ "course": "volume",
+ "title_he": "נפח של תיבה",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "נפח",
+   "body_he": [
+    "נפח של תיבה: אורך × רוחב × גובה.",
+    "מודדים בקוביות של סנטימטר, סמ\"ק."
+   ],
+   "say_he": "נפח נפח של תיבה: אורך × רוחב × גובה. מודדים בקוביות של סנטימטר, סמ\"ק.",
+   "id": "t-volume-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "תיבה 5 × 4 × 2. מה הנפח?",
+   "answer": "40",
+   "explain_he": "5 × 4 = 20 בשכבה, ושתי שכבות: 40.",
+   "id": "t-volume-2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "קובייה שצלעה 3. מה הנפח?",
+   "answer": "27",
+   "explain_he": "3 × 3 × 3 = 27.",
+   "id": "t-volume-2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "אקווריום 50 × 20 × 30 ס\"מ. כמה סמ\"ק?",
+   "answer": "30000",
+   "explain_he": "50 × 20 = 1,000, ו-1,000 × 30 = 30,000.",
+   "id": "t-volume-2e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "1,000 סמ\"ק הם ליטר. כמה ליטר באקווריום הזה?",
+   "answer": "30",
+   "explain_he": "30,000 : 1,000 = 30.",
+   "id": "t-volume-2e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "בתיבה נפח 60 ושטח הבסיס 12. מה הגובה?",
+   "answer": "5",
+   "explain_he": "60 : 12 = 5.",
+   "id": "t-volume-2e6"
+  }
+ ]
+}

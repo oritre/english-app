@@ -1,0 +1,63 @@
+{
+ "id": "t-negatives-4",
+ "unit_id": "t-neg-b",
+ "course": "negatives",
+ "title_he": "כפל וחילוק",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "חוק הסימנים",
+   "body_he": [
+    "שלילי כפול חיובי נותן שלילי: −3 × 4 = −12.",
+    "שלילי כפול שלילי נותן חיובי: −3 × −4 = 12."
+   ],
+   "say_he": "חוק הסימנים שלילי כפול חיובי נותן שלילי: −3 × 4 = −12. שלילי כפול שלילי נותן חיובי: −3 × −4 = 12.",
+   "id": "t-negatives-4e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "−5 × 3 = ?",
+   "answer": "-15",
+   "explain_he": "שלילי כפול חיובי: שלילי. 5 × 3 = 15.",
+   "negative": true,
+   "id": "t-negatives-4e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "−6 × −2 = ?",
+   "answer": "12",
+   "explain_he": "שני שליליים: התוצאה חיובית.",
+   "hint_he": "מינוס כפול מינוס...",
+   "negative": true,
+   "id": "t-negatives-4e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "−20 : 4 = ?",
+   "answer": "-5",
+   "explain_he": "סימנים שונים: שלילי. 20 : 4 = 5.",
+   "negative": true,
+   "id": "t-negatives-4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הסימן של −2 × −3 × −1?",
+   "answer": "שלילי",
+   "options": [
+    "שלילי",
+    "חיובי"
+   ],
+   "explain_he": "שלושה סימני מינוס: זוג אחד מתבטל, ונשאר אחד.",
+   "hint_he": "ספרו כמה מינוסים יש",
+   "id": "t-negatives-4e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "צוללת יורדת 12 מטר בכל דקה. איפה היא אחרי 3 דקות? (עומק כמספר שלילי)",
+   "answer": "-36",
+   "explain_he": "3 × −12 = −36.",
+   "negative": true,
+   "id": "t-negatives-4e6"
+  }
+ ]
+}
