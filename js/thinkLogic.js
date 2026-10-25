@@ -46,3 +46,33 @@ export function runRobot(grid, program) {
   }
   return { steps, ok: x === gx && y === gy, crash: false };
 }
+
+// A learner's level in a course: 1 basic, 2 advanced, 3 challenge. The weekly
+// review sets it from measured accuracy (profile.think_level = {course: n});
+// until then it follows where the school grade sits in the course's grade band.
+export const LEVEL_NAMES = ['', 'בסיס', 'מתקדם', 'אתגר'];
+export function courseLevel(course, profile) {
+  const set = Number(profile?.think_level?.[course.id]);
+  if (set >= 1 && set <= 3) return { level: set, measured: true };
+  const g = parseInt(profile?.grade, 10);
+  const [lo, hi] = course.grades || [1, 13];
+  if (!g || g <= lo) return { level: 1, measured: false };
+  if (g > hi) return { level: 3, measured: false };
+  const t = (g - lo) / Math.max(1, hi - lo);
+  return { level: t < 1 / 3 ? 1 : t < 2 / 3 ? 2 : 3, measured: false };
+}
+
+// How many leading units the learner may skip (they stay open as optional
+// review): what the weekly review measured, or one unit when the course is
+// below the learner's grade.
+export function skipUnits(course, profile) {
+  const { level, measured } = courseLevel(course, profile);
+  const g = parseInt(profile?.grade, 10);
+  const want = measured ? level - 1 : g > (course.grades || [1, 13])[1] ? 1 : 0;
+  return Math.max(0, Math.min(want, course.units.length - 1));
+}
+
+// The lessons a learner still has to do in order, after any skipped units.
+export function requiredLessons(course, profile) {
+  return course.units.slice(skipUnits(course, profile)).flatMap((u) => u.lessons);
+}

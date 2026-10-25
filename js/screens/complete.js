@@ -1,5 +1,6 @@
 import { mixed, el } from '../util.js';
 import { loadThink, loadKnow } from '../course.js';
+import { requiredLessons } from '../thinkLogic.js';
 
 // Confetti for the lesson-complete screen: a handful of coloured bits that fall once (CSS does the motion).
 const confetti = (n = 24) => el('div', { class: 'confetti', 'aria-hidden': 'true' }, Array.from({ length: n }, (_, i) =>
@@ -21,7 +22,7 @@ export async function renderComplete(root, nav, p) {
       const subject = (know.courses || []).some((c) => c.id === p.course) ? 'know' : 'think';
       const think = subject === 'know' ? know : thinkData;
       const course = (think.courses || []).find((c) => c.id === p.course);
-      const ids = course ? course.units.flatMap((u) => u.lessons) : [];
+      const ids = !course ? [] : subject === 'think' ? requiredLessons(course, profile) : course.units.flatMap((u) => u.lessons);
       const next = ids.find((id) => !done.includes(id));
       const titles = think.lesson_titles || {};
       const goCatalog = async () => { Object.assign(profile, { subject, [`${subject}_course`]: null }); await updateProfile(profile); nav('path'); };

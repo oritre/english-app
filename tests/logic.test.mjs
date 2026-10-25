@@ -327,7 +327,7 @@ test('every generated practice problem is well formed and solvable', async () =>
   for (const [id, gens] of Object.entries(GENERATORS)) {
     assert.ok(think.courses.some((c) => c.id === id), `generator for unknown course ${id}`);
     for (const g of gens) for (let i = 0; i < 150; i++) {
-      const ex = g(r);
+      const ex = g(r, (i % 3) + 1);
       const where = `${id}: ${ex.prompt_he}`;
       assert.ok(ex.prompt_he && ex.explain_he && !/undefined|NaN/.test(ex.prompt_he + ex.explain_he), where);
       if (ex.type === 'number') {
@@ -402,4 +402,21 @@ test('quiz questions fitted to the grade, or the nearest band', () => {
 test('an open unit (videos) never locks and is never the current lesson', () => {
   const course = { units: [{ id: 'u1', lessons: ['a', 'b'] }, { id: 'v', open: true, lessons: ['v1', 'v2'] }] };
   assert.deepEqual(lessonStates(course, ['v2']), { a: 'current', b: 'locked', v1: 'bonus', v2: 'done' });
+});
+
+test('think level follows the weekly review, else the school grade', async () => {
+  const { courseLevel, skipUnits, requiredLessons } = await import('../js/thinkLogic.js');
+  const c = { id: 'x', grades: [3, 8], units: [{ lessons: ['a', 'b'] }, { lessons: ['c'] }, { lessons: ['d'] }] };
+  assert.deepEqual(courseLevel(c, { grade: 3 }), { level: 1, measured: false });
+  assert.equal(courseLevel(c, { grade: 6 }).level, 2);
+  assert.equal(courseLevel(c, { grade: 8 }).level, 3);
+  assert.equal(courseLevel(c, { grade: 1 }).level, 1);
+  assert.deepEqual(courseLevel(c, { grade: 3, think_level: { x: 3 } }), { level: 3, measured: true });
+  // Grade-based levels never skip units inside the band; the review's measured level does.
+  assert.equal(skipUnits(c, { grade: 8 }), 0);
+  assert.equal(skipUnits(c, { grade: 9 }), 1);
+  assert.equal(skipUnits(c, { grade: 3, think_level: { x: 3 } }), 2);
+  assert.deepEqual(requiredLessons(c, { grade: 3, think_level: { x: 2 } }), ['c', 'd']);
+  // A one-unit course can't be skipped.
+  assert.equal(skipUnits({ grades: [1, 2], units: [{ lessons: ['a'] }] }, { grade: 9 }), 0);
 });

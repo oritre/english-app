@@ -169,8 +169,8 @@ function micSection() {
 }
 
 // A switch saved on the learner's profile, so it follows them to every device.
-function profileToggle(profile, key, label, hint) {
-  const box = el('input', { type: 'checkbox', checked: !!profile[key] });
+function profileToggle(profile, key, label, hint, fallback = false) {
+  const box = el('input', { type: 'checkbox', checked: !!(profile[key] ?? fallback) });
   box.addEventListener('change', async () => { profile[key] = box.checked; await updateProfile(profile); });
   return el('label', { class: 'setting-row' },
     el('span', {}, el('span', { class: 'setting-label' }, label), el('span', { class: 'muted setting-hint' }, hint)),
@@ -197,7 +197,7 @@ export async function renderSettings(root, nav) {
     ? section('👤 לומד',
       el('p', {}, 'לומד עכשיו: ', profile.avatar, ' ', profile.name),
       gradeRow(profile),
-      profileToggle(profile, 'read_aloud', 'הקראה אוטומטית בעברית', 'בקורסי החשיבה כל שאלה מוקראת בקול כשהיא מופיעה (לקוראים צעירים)'),
+      profileToggle(profile, 'read_aloud', 'הקראה אוטומטית בעברית', 'בקורסי החשיבה כל שאלה מוקראת בקול כשהיא מופיעה (לקוראים צעירים)', parseInt(profile.grade, 10) <= 2),
       profileToggle(profile, 'starter', 'מסלול ABC למתחילים מאפס', 'אותיות, צלילים ומילים ראשונות לפני השיעור הראשון'),
       profileToggle(profile, 'voice_typing', 'הקלטה במקום הקלדה', 'בתרגילי כתיבה באנגלית יש כפתור מיקרופון שכותב את מה שאמרתם'),
       profileToggle(profile, 'talk', 'שיחה קולית עם מורה', 'כרטיס "שיחה באנגלית" בראש המסלול'),

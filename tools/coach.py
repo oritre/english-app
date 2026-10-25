@@ -24,7 +24,15 @@ Each learner's school grade is profile.grade (1-12, 13 = adult); the catalog
 recommends the courses whose grade band (data/think.json courses[].grades)
 covers it. To pick the courses yourself for the week:
   python3 tools/coach.py set CODE PROFILE_ID 'think_plan={"week": "YYYY-MM-DD", "courses": ["times", "clock"], "note_he": "..."}'
-read_aloud=true reads every think question aloud in Hebrew (young readers).
+read_aloud=true reads every think question aloud in Hebrew (young readers;
+on by default for grades 1-2).
+
+Level per think course (1 basic, 2 advanced, 3 challenge) sets how hard the
+practice rounds are and how many leading units are skipped (level 2 skips one,
+level 3 two; they stay open as review). Without a measured level it follows the
+grade's place in the course band. think_stats in the summary shows, per course
+touched in the last 4 weeks, accuracy and the current level. To set levels:
+  python3 tools/coach.py set CODE PROFILE_ID 'think_level={"times": 3, "fractions": 1}'
 
 General knowledge ("ידע כללי", data/know.json, lessons k-*) works the same way:
 a narrated cartoon, then a short quiz; know_plan has the same shape as think_plan.
@@ -75,6 +83,48 @@ def lessons():
     return ex, titles
 
 
+def think_courses():
+    try:
+        return json.load(open(os.path.join(ROOT, 'data/think.json'), encoding='utf-8'))['courses']
+    except OSError:
+        return []
+
+
+def grade_level(course, grade):
+    """Same as courseLevel() in js/thinkLogic.js when no level was measured."""
+    lo, hi = course.get('grades') or (1, 13)
+    try:
+        g = int(grade)
+    except (TypeError, ValueError):
+        return 1
+    if g <= lo: return 1
+    if g > hi: return 3
+    t = (g - lo) / max(1, hi - lo)
+    return 1 if t < 1 / 3 else 2 if t < 2 / 3 else 3
+
+
+def think_stats(p, results, done, since28):
+    """Per think course touched in the last 4 weeks: progress, accuracy and level."""
+    out = {}
+    levels = p.get('think_level') or {}
+    for c in think_courses():
+        ids = [l for u in c['units'] for l in u['lessons']]
+        rs = [r for r in results if r.get('date', '') >= since28
+              and (r.get('lesson_id') in ids or r.get('lesson_id') == f"tp-{c['id']}")]
+        if not rs:
+            continue
+        acc = [r['accuracy'] for r in rs if isinstance(r.get('accuracy'), (int, float))]
+        out[c['id']] = {
+            'grades': c.get('grades'), 'units': len(c['units']),
+            'lessons_done': f"{sum(1 for l in ids if l in done)}/{len(ids)}",
+            'rounds_4w': len(rs), 'practice_rounds_4w': sum(1 for r in rs if str(r.get('lesson_id')).startswith('tp-')),
+            'accuracy_4w': round(sum(acc) / len(acc)) if acc else None,
+            'accuracy_last3': [r.get('accuracy') for r in sorted(rs, key=lambda r: r.get('date', ''))[-3:]],
+            'level': levels.get(c['id']), 'level_by_grade': grade_level(c, p.get('grade')),
+        }
+    return out
+
+
 def summary(code, days):
     profiles = fetch(code, 'profiles')
     attempts = fetch(code, 'attempts')
@@ -118,6 +168,9 @@ def summary(code, days):
             'think_done': [i for i in done if i.startswith('t-')],
             'know_plan': p.get('know_plan'), 'know_done': [i for i in done if i.startswith('k-')],
             # Practice rounds (tp-<course>) this week: a finished course still being practised.
+            'think_level': p.get('think_level'),
+            'think_stats': think_stats(p, [r for r in results if r.get('profile_id') == pid], set(done),
+                                       (datetime.date.today() - datetime.timedelta(days=28)).isoformat()),
             'think_practice_week': dict(collections.Counter(r['lesson_id'][3:] for r in res if str(r.get('lesson_id', '')).startswith('tp-'))),
             # Spoken lessons with the AI tutor: what was said, to find recurring speaking mistakes.
             'talks_week': [{'date': a.get('date'), 'topic': a.get('topic'), 'sec': round((a.get('ms') or 0) / 1000),
