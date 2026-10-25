@@ -2,10 +2,14 @@
 import { rateFactor } from './settings.js';
 
 let voice = null;
+// Online voices (Chrome's "Google ..." voices) fail when HomeGuard has the
+// internet off. After one such failure, only voices installed on the device.
+let localOnly = false;
+const usable = () => speechSynthesis.getVoices().filter((v) => !localOnly || v.localService);
 
 function pickVoice() {
   if (!('speechSynthesis' in window)) return;
-  const voices = speechSynthesis.getVoices();
+  const voices = usable();
   voice = voices.find((v) => v.lang === 'en-US' && /Google|Samantha|Microsoft/.test(v.name))
     || voices.find((v) => v.lang === 'en-US')
     || voices.find((v) => v.lang.startsWith('en'))
@@ -29,7 +33,23 @@ export function canSpeak() {
 function voiceFor(lang) {
   if (lang === 'en-US') return voice;
   const prefix = lang.split('-')[0];
-  return speechSynthesis.getVoices().find((v) => v.lang.replace('_', '-').toLowerCase().startsWith(prefix)) || null;
+  return usable().find((v) => v.lang.replace('_', '-').toLowerCase().startsWith(prefix)) || null;
+}
+
+function utterance(text, lang, rate) {
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = lang;
+  const v = voiceFor(lang);
+  if (v) u.voice = v;
+  u.rate = rate;
+  if (v && !v.localService) {
+    u.onerror = (e) => {
+      if (!['network', 'synthesis-failed', 'synthesis-unavailable'].includes(e.error)) return;
+      if (!localOnly) { localOnly = true; pickVoice(); }
+      speechSynthesis.speak(utterance(text, lang, rate));
+    };
+  }
+  return u;
 }
 
 // True when the device has a voice for the language. Voices can load late, so
@@ -44,23 +64,11 @@ export function canSpeakLang(lang) {
 export function speakSequence(parts) {
   if (!canSpeak()) return;
   speechSynthesis.cancel();
-  for (const { text, lang = 'en-US' } of parts) {
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = lang;
-    const v = voiceFor(lang);
-    if (v) u.voice = v;
-    u.rate = 0.9 * rateFactor();
-    speechSynthesis.speak(u);
-  }
+  for (const { text, lang = 'en-US' } of parts) speechSynthesis.speak(utterance(text, lang, 0.9 * rateFactor()));
 }
 
 export function speak(text, { slow = false, lang = 'en-US' } = {}) {
   if (!canSpeak()) return;
   speechSynthesis.cancel();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang = lang;
-  const v = voiceFor(lang);
-  if (v) u.voice = v;
-  u.rate = (slow ? 0.6 : 0.95) * rateFactor();
-  speechSynthesis.speak(u);
+  speechSynthesis.speak(utterance(text, lang, (slow ? 0.6 : 0.95) * rateFactor()));
 }
