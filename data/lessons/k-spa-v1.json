@@ -1,8 +1,8 @@
 {
  "id": "k-spa-v1",
- "unit_id": "k-space-video",
+ "unit_id": "k-space",
  "course": "space",
- "title_he": "🎬 מה זה ירח?",
+ "title_he": "מה זה ירח?",
  "exercises": [
   {
    "type": "video",

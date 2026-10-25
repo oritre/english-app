@@ -1,8 +1,8 @@
 {
  "id": "k-bod-v2",
- "unit_id": "k-body-video",
+ "unit_id": "k-body",
  "course": "body",
- "title_he": "🎬 הדופק העולה",
+ "title_he": "הדופק העולה",
  "exercises": [
   {
    "type": "video",

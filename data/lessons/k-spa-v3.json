@@ -1,8 +1,8 @@
 {
  "id": "k-spa-v3",
- "unit_id": "k-space-video",
+ "unit_id": "k-space",
  "course": "space",
- "title_he": "🎬 מה זה צל?",
+ "title_he": "מה זה צל?",
  "exercises": [
   {
    "type": "video",

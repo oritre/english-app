@@ -1,18 +1,19 @@
 """Builds data/know.json and data/lessons/k-*.json: general knowledge ("ידע כללי").
 
-After BrainPOP, but all in Hebrew and with our own content: every lesson is a
-short narrated cartoon (a `story`: scenes of emoji on a painted backdrop, read
-aloud by the device's Hebrew voice, with subtitles), then a short multiple
-choice quiz. A lesson may instead open with an embedded `video` from an
-approved Hebrew channel (see VIDEOS in know_videos.py).
+After BrainPOP, all in Hebrew: every lesson is a real video from a channel ori
+approved (tools/know_videos.py), then a short multiple-choice quiz. ori
+(2026-10-25): only real videos, no home-made cartoons; a topic with no
+approved video is left out until one is found.
+
+The quiz is fitted to the learner's school grade: a video's questions come in
+grade bands, and the app shows each child the band for their grade
+(js/storyLogic.js forGrade).
 
 Content rules (ori, 2026-10-25): Hebrew only. Factual and neutral, respectful
 of Jewish tradition and of Israel; history is told as it happened, without
-social or political agendas from either side. Torah stories are told in a
-traditional, respectful voice ("התורה מספרת").
+social or political agendas from either side.
 
-The courses live in know_israel.py (Jewish people and the Land of Israel) and
-know_world.py (history, society, nature). Run: python3 tools/know_content.py
+Run: python3 tools/know_content.py
 """
 import json
 import os
@@ -29,73 +30,69 @@ AREAS = [
 ]
 
 
-def S(bg, art, text_he, tag=None):
-    """One scene of the cartoon: a backdrop, emoji art (first one is the star), the narration."""
-    s = {'bg': bg, 'art': art, 'text_he': text_he}
-    if tag:
-        s['tag'] = tag
-    return s
-
-
 def Q(prompt_he, answer, wrong, explain_he):
     """A quiz question: the right answer and the wrong options (shuffled in the app)."""
     return {'type': 'mcq', 'prompt_he': prompt_he, 'answer': answer, 'options': [answer, *wrong], 'explain_he': explain_he}
 
 
-def L(lesson_id, title_he, icon, scenes, quiz, bg='night'):
-    """A lesson: the cartoon, then the quiz."""
-    story = {'type': 'story', 'title_he': title_he, 'icon': icon, 'bg': bg, 'scenes': scenes}
-    return (lesson_id, title_he, [story, *quiz])
-
-
-def course(cid, area, icon, color, title_he, about_he, grades, lessons):
-    return {'id': cid, 'area': area, 'icon': icon, 'color': color, 'title_he': title_he, 'about_he': about_he,
-            'grades': grades, 'units': [{'id': f'k-{cid}', 'title_he': title_he, 'about_he': about_he, 'lessons': lessons}]}
+# The topics, in catalog order: (id, area, icon, color, title, about, grades).
+# A topic shows only when it has videos.
+COURSES = [
+    ('holidays', 'israel', '🕎', '#d97706', 'חגי ישראל', 'מה חוגגים בכל חג, ולמה', [1, 4]),
+    ('bereshit', 'israel', '📜', '#7c3aed', 'סיפורי בראשית', 'בריאת העולם, נח, האבות ויוסף', [1, 4]),
+    ('exodus', 'israel', '🌊', '#0e7490', 'משה ויציאת מצרים', 'מהתיבה ביאור ועד הר סיני', [2, 5]),
+    ('kings', 'israel', '👑', '#b45309', 'מלכים ובית המקדש', 'דוד, שלמה, החורבן והשיבה לציון', [4, 7]),
+    ('land', 'israel', '🗺️', '#16a34a', 'מסע בארץ ישראל', 'ירושלים, הצפון והדרום', [2, 6]),
+    ('zionism', 'israel', '🇮🇱', '#2563eb', 'הציונות והקמת המדינה', 'הרצל, בן־יהודה, העליות והעצמאות', [5, 8]),
+    ('wars', 'israel', '🛡️', '#475569', 'מלחמות ישראל', 'העצמאות, ששת הימים ויום כיפור', [7, 8]),
+    ('holocaust', 'israel', '🕯️', '#334155', 'השואה', 'מה קרה, ומה למדנו', [7, 8]),
+    ('egypt', 'history', '🔺', '#ca8a04', 'מצרים העתיקה', 'פירמידות, פרעונים וכתב חרטומים', [4, 6]),
+    ('greece', 'history', '🏛️', '#0369a1', 'יוון ורומא', 'דמוקרטיה, פילוסופיה ואימפריה', [6, 8]),
+    ('inventors', 'history', '💡', '#eab308', 'ממציאים ששינו את העולם', 'דפוס, חשמל, מטוסים והמצאות ישראליות', [3, 7]),
+    ('world', 'history', '🌍', '#0891b2', 'יבשות ואוקיינוסים', 'מסע סביב כדור הארץ', [3, 6]),
+    ('money', 'society', '💰', '#15803d', 'כסף וכלכלה', 'מסחר, חיסכון, שוק ומסים', [2, 8]),
+    ('animals', 'nature', '🦁', '#65a30d', 'עולם החי', 'יונקים, עופות, דגים וחיות בישראל', [1, 4]),
+    ('body', 'nature', '❤️', '#e11d48', 'גוף האדם', 'הלב, השלד והחושים', [2, 6]),
+    ('space', 'nature', '🪐', '#4338ca', 'כדור הארץ והחלל', 'השמש, הכוכבים, הירח ואילן רמון', [2, 6]),
+    ('water', 'nature', '💧', '#0284c7', 'מים ומזג אוויר', 'מחזור המים, גשם ועונות בישראל', [1, 4]),
+]
+KEYS = ('id', 'area', 'icon', 'color', 'title_he', 'about_he', 'grades')
 
 
 def main():
-    from know_israel import COURSES as ISRAEL
-    from know_world import COURSES as WORLD
     from know_videos import VIDEOS
-    os.makedirs(os.path.join(ROOT, 'lessons'), exist_ok=True)
+    lessons_dir = os.path.join(ROOT, 'lessons')
+    os.makedirs(lessons_dir, exist_ok=True)
+    for name in os.listdir(lessons_dir):  # start clean: lessons of removed videos go too
+        if name.startswith('k-'):
+            os.remove(os.path.join(lessons_dir, name))
     out = {'areas': [{'id': i, 'icon': ic, 'title_he': t} for i, ic, t in AREAS], 'courses': [], 'lesson_titles': {}}
+    videos = []
     count = 0
     seen = set()
-
-    def write_lessons(c, unit_id, lessons):
-        nonlocal count
+    for row in COURSES:
+        c = dict(zip(KEYS, row))
         ids = []
-        for lesson_id, title_he, exercises in lessons:
+        for lesson_id, title_he, exercises in VIDEOS.pop(c['id'], []):
             assert lesson_id.startswith('k-') and lesson_id not in seen, f'bad or duplicate lesson id {lesson_id}'
             seen.add(lesson_id)
             for i, ex in enumerate(exercises):
                 ex['id'] = f'{lesson_id}e{i + 1}'
-            lesson = {'id': lesson_id, 'unit_id': unit_id, 'course': c['id'], 'title_he': title_he, 'exercises': exercises}
-            with open(os.path.join(ROOT, 'lessons', f'{lesson_id}.json'), 'w', encoding='utf-8') as f:
+            lesson = {'id': lesson_id, 'unit_id': f"k-{c['id']}", 'course': c['id'], 'title_he': title_he, 'exercises': exercises}
+            with open(os.path.join(lessons_dir, f'{lesson_id}.json'), 'w', encoding='utf-8') as f:
                 json.dump(lesson, f, ensure_ascii=False, indent=1)
             out['lesson_titles'][lesson_id] = title_he
+            videos.append({'youtube': exercises[0]['youtube'], 'lesson': lesson_id, 'title_he': exercises[0]['title_he']})
             ids.append(lesson_id)
             count += len(exercises)
-        return ids
-
-    for c in ISRAEL + WORLD:
-        units = [{'id': u['id'], 'title_he': u['title_he'], 'about_he': u['about_he'], 'lessons': write_lessons(c, u['id'], u['lessons'])}
-                 for u in c['units']]
-        # The course's embedded videos get their own unit, open in any order.
-        if c['id'] in VIDEOS:
-            vid = f"k-{c['id']}-video"
-            units.append({'id': vid, 'title_he': '🎬 סרטונים', 'about_he': 'סרטונים נבחרים, ואחרי כל אחד חידון קצר',
-                          'open': True, 'lessons': write_lessons(c, vid, VIDEOS.pop(c['id']))})
-        out['courses'].append({k: c[k] for k in ('id', 'area', 'icon', 'color', 'title_he', 'about_he', 'grades')} | {'units': units})
+        if ids:
+            out['courses'].append(c | {'units': [{'id': f"k-{c['id']}", 'title_he': c['title_he'], 'about_he': c['about_he'], 'lessons': ids}]})
     assert not VIDEOS, f'videos for unknown courses: {list(VIDEOS)}'
-    # The list the Pi add-on (pi/english_media) downloads and serves.
-    videos = [{'youtube': ex['youtube'], 'lesson': lid, 'title_he': ex['title_he']}
-              for lid in out['lesson_titles'] for ex in json.load(open(os.path.join(ROOT, 'lessons', f'{lid}.json'), encoding='utf-8'))['exercises']
-              if ex['type'] == 'video']
-    with open(os.path.join(ROOT, 'videos.json'), 'w', encoding='utf-8') as f:
-        json.dump(videos, f, ensure_ascii=False, indent=1)
     with open(os.path.join(ROOT, 'know.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
+    # The list the Pi add-on (pi/english_media) downloads and serves.
+    with open(os.path.join(ROOT, 'videos.json'), 'w', encoding='utf-8') as f:
+        json.dump(videos, f, ensure_ascii=False, indent=1)
     print(f"{len(out['courses'])} courses, {len(out['lesson_titles'])} lessons, {count} exercises")
 
 

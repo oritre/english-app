@@ -356,36 +356,47 @@ test('every generated practice problem is well formed and solvable', async () =>
   }
 });
 
-import { parseArt, sceneMs } from '../js/storyLogic.js';
+import { parseArt, sceneMs, forGrade } from '../js/storyLogic.js';
 
-test('general knowledge: every lesson is a cartoon, then a quiz', () => {
+test('general knowledge: every lesson is a real video, then a quiz for the learner\'s grade', () => {
   const know = JSON.parse(readFileSync(new URL('../data/know.json', import.meta.url)));
-  // Every school grade from 1 to 8 has at least three topics.
-  for (let g = 1; g <= 8; g++) assert.ok(know.courses.filter((c) => g >= c.grades[0] && g <= c.grades[1]).length >= 3, `grade ${g}`);
+  const videos = JSON.parse(readFileSync(new URL('../data/videos.json', import.meta.url)));
+  assert.ok(know.courses.length > 0);
   for (const c of know.courses) {
     assert.ok(c.id && c.icon && /^#[0-9a-f]{6}$/i.test(c.color) && c.title_he && c.about_he && know.areas.some((a) => a.id === c.area), c.id);
-    for (const id of c.units.flatMap((u) => u.lessons)) {
+    const ids = c.units.flatMap((u) => u.lessons);
+    assert.ok(ids.length > 0, `${c.id}: a topic shows only with videos`);
+    for (const id of ids) {
       const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
       const [first, ...quiz] = lesson.exercises;
-      assert.ok(['story', 'video'].includes(first.type) && know.lesson_titles[id], id);
-      if (first.type === 'story') {
-        assert.ok(first.scenes.length >= 4, `${id}: scenes`);
-        for (const s of first.scenes) {
-          assert.ok(s.text_he && s.text_he.length <= 200 && /[\u0590-\u05FF]/.test(s.text_he), `${id}: narration`);
-          const art = parseArt(s.art);
-          assert.ok(art.length >= 1 && art.length <= 6 && art.every((p) => p.e), `${id}: art`);
-        }
-      } else assert.match(first.youtube, /^[\w-]{11}$/, id);
-      assert.ok(quiz.length >= 3 && quiz.length <= 6, `${id}: a short quiz`);
+      assert.ok(first.type === 'video' && know.lesson_titles[id], id);
+      assert.match(first.youtube, /^[\w-]{11}$/, id);
+      assert.ok(videos.some((v) => v.youtube === first.youtube && v.lesson === id), `${id}: listed for the Pi`);
       for (const q of quiz) {
         assert.equal(q.type, 'mcq', id);
         assert.ok(q.options.includes(q.answer) && new Set(q.options).size === q.options.length && q.explain_he, `${id} ${q.id}`);
+        if (q.grades) assert.ok(q.grades[0] >= 1 && q.grades[1] <= 12 && q.grades[0] <= q.grades[1], `${id} ${q.id}: band`);
+      }
+      // Every grade the topic is for gets a short quiz of its own.
+      for (let g = c.grades[0]; g <= c.grades[1]; g++) {
+        const mine = forGrade(lesson.exercises, g).filter((e) => e.type === 'mcq');
+        assert.ok(mine.length >= 3 && mine.length <= 6, `${id}: grade ${g} gets ${mine.length}`);
       }
     }
   }
   assert.equal(parseArt('🚢~sail 🌊 🐟')[0].motion, 'sail');
-  assert.equal(parseArt('🚢~nonsense')[0].motion, 'pop');
   assert.ok(sceneMs('קצר') >= 3000);
+});
+
+test('quiz questions fitted to the grade, or the nearest band', () => {
+  const ex = [{ type: 'video' }, { id: 'a', grades: [1, 2] }, { id: 'b', grades: [3, 4] }, { id: 'c', grades: [7, 8] }, { id: 'all' }];
+  const ids = (g) => forGrade(ex, g).map((e) => e.id || e.type);
+  assert.deepEqual(ids(1), ['video', 'a', 'all']);
+  assert.deepEqual(ids(3), ['video', 'b', 'all']);
+  assert.deepEqual(ids(6), ['video', 'c', 'all']);
+  assert.deepEqual(ids(5), ['video', 'b', 'all']);
+  assert.deepEqual(ids(null), ['video', 'c', 'all']);
+  assert.deepEqual(forGrade([{ id: 'x' }], 3), [{ id: 'x' }]);
 });
 
 test('an open unit (videos) never locks and is never the current lesson', () => {

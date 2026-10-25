@@ -1,8 +1,8 @@
 {
  "id": "k-spa-v7",
- "unit_id": "k-space-video",
+ "unit_id": "k-space",
  "course": "space",
- "title_he": "🎬 סיור בחללית הדרגון",
+ "title_he": "סיור בחללית הדרגון",
  "exercises": [
   {
    "type": "video",

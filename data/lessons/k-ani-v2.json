@@ -1,8 +1,8 @@
 {
  "id": "k-ani-v2",
- "unit_id": "k-animals-video",
+ "unit_id": "k-animals",
  "course": "animals",
- "title_he": "🎬 איך דבורים מכינות דבש?",
+ "title_he": "איך דבורים מכינות דבש?",
  "exercises": [
   {
    "type": "video",

@@ -1,8 +1,8 @@
 """Embedded YouTube videos for general knowledge, by course id.
 
 Only Hebrew videos from sources ori approved (2026-10-25): the Davidson
-Institute (@davidsonweb), משימת רקיע (@rakiamission) and הילימוד; nothing on
-religious or social/political topics from them. Every video here was checked
+Institute (@davidsonweb), משימת רקיע (@rakiamission), הילימוד and 929 (תנ"ך
+ביחד, "מציירים את זה"); nothing on social/political agendas from them. Every video here was checked
 public on 2026-10-25, and its quiz was written from its captions or the
 channel's own description. A video lesson is the video, then a short quiz
 written by us.
@@ -16,11 +16,16 @@ from know_content import Q
 DAVIDSON = 'מכון דוידסון לחינוך מדעי'
 RAKIA = 'משימת רקיע'
 HILIMOOD = 'הילימוד'
+MAKOR929 = '929, תנ"ך ביחד'
 
 
 def V(lesson_id, title_he, youtube_id, source_he, duration, quiz):
+    """A video lesson. quiz is a list of questions for every grade, or a dict
+    {(first grade, last grade): [questions]}, and each child gets their band."""
     video = {'type': 'video', 'title_he': title_he, 'youtube': youtube_id, 'source_he': f'סרטון: {source_he}', 'duration': duration}
-    return (lesson_id, f'🎬 {title_he}', [video, *quiz])
+    if isinstance(quiz, dict):
+        quiz = [q | {'grades': list(band)} for band, qs in quiz.items() for q in qs]
+    return (lesson_id, title_he, [video, *quiz])
 
 
 VIDEOS = {

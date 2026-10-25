@@ -1,8 +1,8 @@
 {
  "id": "k-spa-v2",
- "unit_id": "k-space-video",
+ "unit_id": "k-space",
  "course": "space",
- "title_he": "🎬 מה זה כוכב נופל?",
+ "title_he": "מה זה כוכב נופל?",
  "exercises": [
   {
    "type": "video",

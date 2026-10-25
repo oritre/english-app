@@ -1,8 +1,8 @@
 {
  "id": "k-bod-v3",
- "unit_id": "k-body-video",
+ "unit_id": "k-body",
  "course": "body",
- "title_he": "🎬 טעם וריח",
+ "title_he": "טעם וריח",
  "exercises": [
   {
    "type": "video",
