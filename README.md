@@ -50,4 +50,12 @@ node --test tests/logic.test.mjs
 python3 tools/think_content.py   # data/think.json + data/lessons/t-*.json
 ```
 
+### ידע כללי (בסגנון בריין פופ)
+
+לשונית שלישית: נושאים לפי כיתה (חגים, סיפורי בראשית, ארץ ישראל, הציונות, היסטוריה, כלכלה, גוף האדם, החלל ועוד). כל שיעור הוא סרטון מצויר שלנו, סצנות מאוירות שמוקראות בעברית עם כתוביות, ואחריו חידון אמריקאי קצר. אפשר גם להטמיע סרטוני יוטיוב בעברית מערוצים רשמיים שאושרו (`tools/know_videos.py`).
+
+```bash
+python3 tools/know_content.py   # data/know.json + data/lessons/k-*.json
+```
+
 התכנון (recon, ארכיטקטורה, טבלת פיצ'רים) נעשה עם [Replica](https://github.com/Jakeschincariol/replica-skill) ונמצא ב־`replica/`.

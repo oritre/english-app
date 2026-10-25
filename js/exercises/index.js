@@ -11,6 +11,7 @@ import { renderRead } from './read.js';
 import { renderTeach } from './teach.js';
 import { renderPick } from './pick.js';
 import { renderSpell } from './spell.js';
+import { renderStory, renderVideo } from './story.js';
 import { renderMcq, renderNumber, renderBalance, renderFraction, renderNumberLine, renderOrder, renderRobot, renderBuckets, renderAngle, renderSim } from './think.js';
 
 export const RENDERERS = {
@@ -36,6 +37,8 @@ export const RENDERERS = {
   buckets: renderBuckets,
   angle: renderAngle,
   sim: renderSim,
+  story: renderStory,
+  video: renderVideo,
 };
 
 export function isSupported(ex) {

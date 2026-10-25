@@ -21,6 +21,17 @@ export function loadThink() {
   return thinkPromise;
 }
 
+// General knowledge ("ידע כללי", after BrainPOP): a narrated cartoon and a
+// short quiz per lesson. Same catalog shape as think; lesson ids start with "k-".
+let knowPromise = null;
+export function loadKnow() {
+  if (!knowPromise) {
+    knowPromise = window.__COURSE__ ? Promise.resolve(window.__COURSE__.know || { courses: [], lesson_titles: {} })
+      : fetch('data/know.json').then((r) => (r.ok ? r.json() : { courses: [], lesson_titles: {} })).catch(() => ({ courses: [], lesson_titles: {} }));
+  }
+  return knowPromise;
+}
+
 export async function loadLesson(id) {
   // "tp-<course>" is a practice round, built fresh every time.
   if (id.startsWith('tp-')) {

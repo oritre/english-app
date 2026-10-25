@@ -25,6 +25,9 @@ recommends the courses whose grade band (data/think.json courses[].grades)
 covers it. To pick the courses yourself for the week:
   python3 tools/coach.py set CODE PROFILE_ID 'think_plan={"week": "YYYY-MM-DD", "courses": ["times", "clock"], "note_he": "..."}'
 read_aloud=true reads every think question aloud in Hebrew (young readers).
+
+General knowledge ("ידע כללי", data/know.json, lessons k-*) works the same way:
+a narrated cartoon, then a short quiz; know_plan has the same shape as think_plan.
 """
 import collections, datetime, glob, json, os, sys, urllib.request
 
@@ -113,6 +116,7 @@ def summary(code, days):
             'talk': p.get('talk'), 'unseen': p.get('unseen'), 'talk_focus': p.get('talk_focus'),
             'grade': p.get('grade'), 'read_aloud': p.get('read_aloud'), 'think_plan': p.get('think_plan'),
             'think_done': [i for i in done if i.startswith('t-')],
+            'know_plan': p.get('know_plan'), 'know_done': [i for i in done if i.startswith('k-')],
             # Practice rounds (tp-<course>) this week: a finished course still being practised.
             'think_practice_week': dict(collections.Counter(r['lesson_id'][3:] for r in res if str(r.get('lesson_id', '')).startswith('tp-'))),
             # Spoken lessons with the AI tutor: what was said, to find recurring speaking mistakes.

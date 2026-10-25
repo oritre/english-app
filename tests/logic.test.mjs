@@ -42,7 +42,9 @@ test('every lesson is well formed and its answers can be built from its tiles', 
   const ids = [...course.starter_units, ...course.units].flatMap((u) => (u.bonus ? [...u.lessons, u.bonus] : u.lessons)).concat(course.unseen || []);
   const think = JSON.parse(readFileSync(new URL('../data/think.json', import.meta.url)));
   const thinkIds = think.courses.flatMap((c) => c.units.flatMap((u) => u.lessons));
-  assert.deepEqual([...ids, ...thinkIds].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
+  const know = JSON.parse(readFileSync(new URL('../data/know.json', import.meta.url)));
+  const knowIds = know.courses.flatMap((c) => c.units.flatMap((u) => u.lessons));
+  assert.deepEqual([...ids, ...thinkIds, ...knowIds].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
   for (const id of ids) {
     const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
     for (const ex of lesson.exercises) {
@@ -352,4 +354,36 @@ test('every generated practice problem is well formed and solvable', async () =>
     assert.ok(p.exercises.length >= 6, `${c.id}: only ${p.exercises.length} practice exercises`);
     assert.equal(new Set(p.exercises.map((e) => e.id)).size, p.exercises.length);
   }
+});
+
+import { parseArt, sceneMs } from '../js/storyLogic.js';
+
+test('general knowledge: every lesson is a cartoon, then a quiz', () => {
+  const know = JSON.parse(readFileSync(new URL('../data/know.json', import.meta.url)));
+  // Every school grade from 1 to 8 has at least three topics.
+  for (let g = 1; g <= 8; g++) assert.ok(know.courses.filter((c) => g >= c.grades[0] && g <= c.grades[1]).length >= 3, `grade ${g}`);
+  for (const c of know.courses) {
+    assert.ok(c.id && c.icon && /^#[0-9a-f]{6}$/i.test(c.color) && c.title_he && c.about_he && know.areas.some((a) => a.id === c.area), c.id);
+    for (const id of c.units.flatMap((u) => u.lessons)) {
+      const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
+      const [first, ...quiz] = lesson.exercises;
+      assert.ok(['story', 'video'].includes(first.type) && know.lesson_titles[id], id);
+      if (first.type === 'story') {
+        assert.ok(first.scenes.length >= 4, `${id}: scenes`);
+        for (const s of first.scenes) {
+          assert.ok(s.text_he && s.text_he.length <= 200 && /[\u0590-\u05FF]/.test(s.text_he), `${id}: narration`);
+          const art = parseArt(s.art);
+          assert.ok(art.length >= 1 && art.length <= 6 && art.every((p) => p.e), `${id}: art`);
+        }
+      } else assert.match(first.youtube, /^[\w-]{11}$/, id);
+      assert.ok(quiz.length >= 3 && quiz.length <= 6, `${id}: a short quiz`);
+      for (const q of quiz) {
+        assert.equal(q.type, 'mcq', id);
+        assert.ok(q.options.includes(q.answer) && new Set(q.options).size === q.options.length && q.explain_he, `${id} ${q.id}`);
+      }
+    }
+  }
+  assert.equal(parseArt('🚢~sail 🌊 🐟')[0].motion, 'sail');
+  assert.equal(parseArt('🚢~nonsense')[0].motion, 'pop');
+  assert.ok(sceneMs('קצר') >= 3000);
 });

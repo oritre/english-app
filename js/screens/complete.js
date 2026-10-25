@@ -1,5 +1,5 @@
 import { mixed, el } from '../util.js';
-import { loadThink } from '../course.js';
+import { loadThink, loadKnow } from '../course.js';
 
 // Confetti for the lesson-complete screen: a handful of coloured bits that fall once (CSS does the motion).
 const confetti = (n = 24) => el('div', { class: 'confetti', 'aria-hidden': 'true' }, Array.from({ length: n }, (_, i) =>
@@ -16,13 +16,16 @@ export async function renderComplete(root, nav, p) {
   let nextRow = null;
   if (p.course) {
     try {
-      const [think, done, profile] = await Promise.all([loadThink(), doneLessonIds(), getProfile()]);
+      const [thinkData, know, done, profile] = await Promise.all([loadThink(), loadKnow(), doneLessonIds(), getProfile()]);
+      // The lesson's course is in one of the two catalogs; general knowledge has no practice rounds.
+      const subject = (know.courses || []).some((c) => c.id === p.course) ? 'know' : 'think';
+      const think = subject === 'know' ? know : thinkData;
       const course = (think.courses || []).find((c) => c.id === p.course);
       const ids = course ? course.units.flatMap((u) => u.lessons) : [];
       const next = ids.find((id) => !done.includes(id));
       const titles = think.lesson_titles || {};
-      const goCatalog = async () => { Object.assign(profile, { subject: 'think', think_course: null }); await updateProfile(profile); nav('path'); };
-      const goNext = async () => { Object.assign(profile, { subject: 'think', think_course: course.id, think_last: course.id }); await updateProfile(profile); nav('lesson', { lessonId: next }); };
+      const goCatalog = async () => { Object.assign(profile, { subject, [`${subject}_course`]: null }); await updateProfile(profile); nav('path'); };
+      const goNext = async () => { Object.assign(profile, { subject, [`${subject}_course`]: course.id, [`${subject}_last`]: course.id }); await updateProfile(profile); nav('lesson', { lessonId: next }); };
       if (course) {
         nextRow = el('div', { class: 'next-up', style: `--course: ${course.color}` },
           next
@@ -30,6 +33,9 @@ export async function renderComplete(root, nav, p) {
               el('span', { class: 'next-icon' }, course.icon),
               el('span', { class: 'next-text' }, el('span', { class: 'next-kicker' }, 'השיעור הבא'), el('span', { class: 'next-title' }, ...mixed(titles[next] || ''))),
               el('span', { class: 'next-arrow' }, '←'))
+            : subject === 'know' ? el('div', { class: 'next-lesson done-course' },
+              el('span', { class: 'next-icon' }, '🏆'),
+              el('span', { class: 'next-text' }, el('span', { class: 'next-kicker' }, `סיימת את "${course.title_he}"!`), el('span', { class: 'next-title' }, 'אפשר לבחור נושא חדש')))
             : el('button', { class: 'next-lesson', type: 'button', onclick: () => nav('lesson', { lessonId: `tp-${course.id}` }) },
               el('span', { class: 'next-icon' }, p.lessonId?.startsWith('tp-') ? '🔁' : '🏆'),
               el('span', { class: 'next-text' }, el('span', { class: 'next-kicker' }, p.lessonId?.startsWith('tp-') ? 'עוד סיבוב?' : `סיימת את "${course.title_he}"!`), el('span', { class: 'next-title' }, 'תרגול עם שאלות חדשות')),
