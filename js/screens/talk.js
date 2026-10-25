@@ -1,6 +1,6 @@
 import { el, en } from '../util.js';
 import { getProfile, logTalk } from '../progress.js';
-import { startTalk, getTalkKey, talkSupported, TOPICS } from '../talk.js';
+import { startTalk, loadTalkKey, talkSupported, TOPICS } from '../talk.js';
 import { micErrorTip } from '../micTest.js';
 
 // A spoken lesson with Sam, the AI tutor. Deliberately no transcript on screen:
@@ -34,7 +34,7 @@ export async function renderTalk(root, nav) {
     show(el('p', {}, 'הדפדפן הזה לא תומך בשיחה קולית. נסו ב־Chrome.'));
     return;
   }
-  if (!getTalkKey()) {
+  if (!(await loadTalkKey())) {
     show(el('p', {}, 'כדי לדבר עם המורה צריך פעם אחת להכניס מפתח Gemini במכשיר הזה.'),
       el('button', { class: 'btn primary wide', type: 'button', onclick: () => nav('settings') }, '⚙️ להגדרות'));
     return;

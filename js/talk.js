@@ -2,7 +2,10 @@
 // both ways in real time: the microphone is streamed as 16kHz PCM, the tutor's
 // voice comes back as 24kHz PCM and is played as it arrives. Nothing is shown
 // as text; transcripts are only kept for the weekly review.
-// The Gemini key is typed into this device's settings and never synced.
+// The Gemini key is typed in settings once and synced to the family's devices
+// on the learner's profile (ori chose that on 2026-10-25); each device keeps a copy.
+import { store } from './db.js';
+
 const SDK_URL = 'https://cdn.jsdelivr.net/npm/@google/genai@2.28.0/dist/web/index.mjs/+esm';
 const KEY = 'english_app_gemini_key';
 const MODEL_KEY = 'english_app_gemini_model';
@@ -12,6 +15,19 @@ const OUT_RATE = 24000;
 
 export function getTalkKey() { try { return localStorage.getItem(KEY) || ''; } catch { return ''; } }
 export function setTalkKey(k) { try { k ? localStorage.setItem(KEY, k.trim()) : localStorage.removeItem(KEY); } catch { /* storage blocked */ } }
+// The key from this device, or else the newest one any learner in the family saved.
+export async function loadTalkKey() {
+  const local = getTalkKey();
+  if (local) return local;
+  const withKey = (await store.all('profiles')).filter((p) => p.gemini_key).sort((a, b) => (b.updated_at || 0) - (a.updated_at || 0));
+  if (withKey[0]) setTalkKey(withKey[0].gemini_key);
+  return getTalkKey();
+}
+// Saved on the current learner only: writing other learners' profiles could overwrite their newer progress from another device.
+export async function saveTalkKey(profile, key) {
+  setTalkKey(key);
+  if (profile) { profile.gemini_key = key.trim(); await store.put('profiles', profile); }
+}
 const model = () => { try { return localStorage.getItem(MODEL_KEY) || DEFAULT_MODEL; } catch { return DEFAULT_MODEL; } };
 
 export const talkSupported = () => !!navigator.mediaDevices?.getUserMedia && typeof AudioContext === 'function' && typeof WebSocket === 'function';

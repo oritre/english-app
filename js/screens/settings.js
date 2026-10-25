@@ -6,7 +6,7 @@ import { Recognition, asrEngine, localAsrUsable } from '../exercises/speak.js';
 import { localAsrSupported, localAsrDownloaded, loadLocalAsr, recordUtterance, transcribe } from '../localAsr.js';
 import { getProfile, setCurrentProfile, updateProfile } from '../progress.js';
 import { APP_VERSION } from '../version.js';
-import { getTalkKey, setTalkKey } from '../talk.js';
+import { getTalkKey, loadTalkKey, saveTalkKey } from '../talk.js';
 
 
 function section(title, ...children) {
@@ -195,7 +195,7 @@ export async function renderSettings(root, nav) {
     speakerSection(),
     micSection(),
     account,
-    talkSection(),
+    await talkSection(profile),
     section('📦 עוד',
       el('div', { class: 'row-btns' },
         el('button', { class: 'btn', type: 'button', onclick: () => nav('reports') }, '📊 דוחות התקדמות'),
@@ -226,17 +226,18 @@ function updateCheck() {
   return el('div', {}, btn, status);
 }
 
-// The Gemini key for spoken lessons. It stays in this browser only: never synced, never sent anywhere but Google.
-function talkSection() {
+// The Gemini key for spoken lessons, synced to the family's devices with the learner's profile.
+async function talkSection(profile) {
+  await loadTalkKey();
   const status = el('p', { class: 'muted', 'aria-live': 'polite' }, getTalkKey() ? 'יש מפתח במכשיר הזה ✓' : 'אין עדיין מפתח במכשיר הזה.');
   const input = el('input', { type: 'password', class: 'text-input', dir: 'ltr', placeholder: 'AIza...', autocomplete: 'off', value: getTalkKey() });
   const saveBtn = el('button', { class: 'btn', type: 'button' }, '💾 שמירה');
-  saveBtn.addEventListener('click', () => {
-    setTalkKey(input.value);
-    status.textContent = input.value.trim() ? 'נשמר במכשיר הזה ✓' : 'המפתח נמחק מהמכשיר.';
+  saveBtn.addEventListener('click', async () => {
+    await saveTalkKey(profile, input.value);
+    status.textContent = input.value.trim() ? 'נשמר ✓ יעבור לכל המכשירים שמסונכרנים למשפחה.' : 'המפתח נמחק.';
   });
   return section('🗣️ שיחה עם מורה (Gemini)',
-    el('p', { class: 'muted' }, 'השיחה הקולית רצה על Gemini של גוגל. צריך מפתח, פעם אחת בכל מכשיר:'),
+    el('p', { class: 'muted' }, 'השיחה הקולית רצה על Gemini של גוגל. צריך מפתח פעם אחת, והוא עובר לשאר המכשירים בסנכרון:'),
     el('ol', { class: 'muted steps' },
       el('li', {}, 'נכנסים ל־', el('a', { href: 'https://aistudio.google.com/apikey', target: '_blank', rel: 'noopener', dir: 'ltr' }, 'aistudio.google.com/apikey'), ' עם חשבון גוגל.'),
       el('li', {}, 'לוחצים Create API key ומעתיקים את המפתח.'),
