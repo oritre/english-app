@@ -36,19 +36,24 @@ function voiceFor(lang) {
   return usable().find((v) => v.lang.replace('_', '-').toLowerCase().startsWith(prefix)) || null;
 }
 
-function utterance(text, lang, rate) {
+// handlers: optional onend, onerror and onboundary, for callers that follow
+// one line themselves (the cartoon's narration). A retry keeps them.
+export function utterance(text, lang, rate, handlers = {}) {
   const u = new SpeechSynthesisUtterance(text);
   u.lang = lang;
   const v = voiceFor(lang);
   if (v) u.voice = v;
   u.rate = rate;
-  if (v && !v.localService) {
-    u.onerror = (e) => {
-      if (!['network', 'synthesis-failed', 'synthesis-unavailable'].includes(e.error)) return;
+  if (handlers.onend) u.onend = handlers.onend;
+  if (handlers.onboundary) u.onboundary = handlers.onboundary;
+  u.onerror = (e) => {
+    if (v && !v.localService && ['network', 'synthesis-failed', 'synthesis-unavailable'].includes(e.error)) {
       if (!localOnly) { localOnly = true; pickVoice(); }
-      speechSynthesis.speak(utterance(text, lang, rate));
-    };
-  }
+      speechSynthesis.speak(utterance(text, lang, rate, handlers));
+      return;
+    }
+    handlers.onerror?.(e);
+  };
   return u;
 }
 

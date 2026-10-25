@@ -966,7 +966,7 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
 .know-lesson .think-title::before { flex-basis: 100%; content: '🎬 חידון'; display: block; font-size: 13px; font-weight: 700; color: var(--course, var(--ink)); letter-spacing: .02em; margin-bottom: 2px; }
 .know-lesson .choice-grid:has(> :nth-child(3):last-child) { grid-template-columns: 1fr; }
 .video-box { position: relative; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; background: #000; }
-.video-box iframe, .video-box > div { position: absolute; inset: 0; width: 100%; height: 100%; }
+.video-box video, .video-box > div { position: absolute; inset: 0; width: 100%; height: 100%; }
 .video-note { text-align: center; margin: 0; }
 .m-pop { animation: st-pop .6s cubic-bezier(.2, 1.6, .4, 1) both var(--d); }
 .m-float { animation: st-pop .5s ease both var(--d), st-float 3.2s ease-in-out infinite calc(var(--d) + .5s); }
