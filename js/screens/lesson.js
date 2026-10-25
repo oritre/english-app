@@ -1,15 +1,15 @@
 import { el, mixed } from '../util.js';
-import { loadLesson } from '../course.js';
+import { loadLesson, loadThink } from '../course.js';
 import { rendererFor, isSupported } from '../exercises/index.js';
 import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
 import { glossify, closePop } from '../gloss.js';
-import { speak } from '../speech.js';
+import { speak, speakSequence, canSpeakLang } from '../speech.js';
 import { getSettings, setSetting } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
 import { COACH_LESSON, coachLesson } from '../coach.js';
-import { THINK_TYPES, txt } from '../exercises/think.js';
+import { THINK_TYPES, txt, setReadAloud } from '../exercises/think.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
 // answered right. Progress bar counts first-time-right plus fixed mistakes.
@@ -23,6 +23,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   if (lessonId === COACH_LESSON) lessonId = lesson.id;
   const exercises = lesson.exercises.filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
+  setReadAloud(profile?.read_aloud);
   const queue = exercises.slice();
   const mistakes = new Set();
   let total = exercises.length;
@@ -41,9 +42,12 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   const body = el('main', { class: 'ex-body' });
   const checkBtn = el('button', { class: 'btn primary wide', type: 'button', disabled: true }, 'בדיקה');
   const footer = el('footer', { class: 'lesson-footer' }, checkBtn);
-  root.replaceChildren(el('div', { class: 'screen lesson' },
+  const screen = el('div', { class: `screen lesson ${lesson.course ? 'think-lesson' : ''}` },
     el('div', { class: 'lesson-top' }, quit, el('div', { class: 'progress' }, bar), homeBtn),
-    body, footer, quitDialog));
+    body, footer, quitDialog);
+  root.replaceChildren(screen);
+  // A think lesson borrows its course's colour for the manipulatives and the progress bar.
+  if (lesson.course) loadThink().then((t) => { const c = (t.courses || []).find((x) => x.id === lesson.course); if (c) screen.style.setProperty('--course', c.color); }).catch(() => {});
 
   // Every tap inside an exercise is kept with its answer: which cards were
   // tried before the final one, audio replays, meanings looked up. The report
@@ -77,6 +81,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     checkBtn.textContent = 'בדיקה';
     checkBtn.disabled = true;
     let handled = false;
+    let retried = false;
     const shownAt = Date.now();
     shownCount++;
     taps = [];
@@ -126,8 +131,20 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       if (api.check) {
         const right = api.check();
         log(right ? 'correct' : 'wrong', given);
-        if (!right) { mistakes.add(ex.id); queue.push(ex); }
-        showFeedback(ex, right ? 'correct' : 'wrong', api.expectedText());
+        if (right) { showFeedback(ex, retried ? 'correct-after-tries' : 'correct', api.expectedText()); return; }
+        mistakes.add(ex.id);
+        // One more go before the answer is shown: the exercise stays as it is, so the learner can fix it.
+        const reveal = () => { queue.push(ex); body.classList.add('revealed'); api.reveal?.(); showFeedback(ex, 'wrong', api.expectedText()); };
+        if (!retried) {
+          retried = true;
+          showRetry(ex, () => {
+            handled = false; footer.replaceChildren(checkBtn); footer.className = 'lesson-footer';
+            // A wrong choice stays greyed out with ✗, so the next pick is a different one.
+            body.querySelectorAll('.choice-card.selected').forEach((c) => { c.classList.remove('selected'); c.classList.add('was-wrong'); c.disabled = true; });
+          }, reveal);
+          return;
+        }
+        reveal();
         return;
       }
       const { result, expected } = checkAnswer(given, ex.answer, ex.alternatives || [], { allowTypos: !!api.allowTypos });
@@ -147,14 +164,68 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     };
   }
 
+  // A wrong answer on a think exercise: a nudge (and the hint, if there is one), then "try again".
+  function showRetry(ex, again, reveal) {
+    const sheet = el('div', { class: 'feedback bad retry' },
+      el('div', { class: 'feedback-title' }, '💪 ', 'לא בדיוק'),
+      el('div', { class: 'feedback-explain' }, ex.hint_he ? ['💡 ', ...mixed(ex.hint_he)] : 'אפשר לנסות שוב, או לראות את הפתרון.'));
+    const tryBtn = el('button', { class: 'btn primary wide', type: 'button', onclick: again }, '🔁 נסו שוב');
+    const showBtn = el('button', { class: 'btn wide', type: 'button', onclick: reveal }, '👀 הראו לי');
+    footer.replaceChildren(sheet, el('div', { class: 'retry-row' }, tryBtn, showBtn));
+    footer.className = 'lesson-footer bad';
+  }
+
+  // Splits an explanation into short steps of one or two sentences.
+  const pageSentences = (text) => {
+    const parts = String(text).match(/[^.!?]+[.!?]*\s*/g) || [String(text)];
+    if (text.length < 90 || parts.length < 2) return [String(text).trim()];
+    const steps = [];
+    for (const part of parts) {
+      const last = steps[steps.length - 1];
+      if (last && (last + part).length <= 90) steps[steps.length - 1] = last + part;
+      else steps.push(part);
+    }
+    return steps.map((x) => x.trim()).filter(Boolean);
+  };
+
+  const PRAISE = ['מעולה!', 'כל הכבוד!', 'בדיוק!', 'יפה מאוד!', 'נכון!'];
+  const sparkles = () => el('div', { class: 'sparkles', 'aria-hidden': 'true' }, Array.from({ length: 14 }, (_, i) =>
+    el('i', { style: `--i: ${i}; --l: ${Math.round(4 + Math.random() * 92)}%; --d: ${Math.round(Math.random() * 180)}ms; --h: ${Math.round(Math.random() * 360)}` })));
+
   function showFeedback(ex, result, expected, grammarNote = null) {
     const ok = result !== 'wrong';
     if (ok) solved++;
     if (result === 'correct-after-tries') mistakes.add(ex.id);
     setProgress();
-    const title = result === 'wrong' ? 'לא בדיוק' : result === 'typo' ? 'כמעט! שימו לב לאיות' : 'מעולה!';
+    const think = THINK_TYPES.has(ex.type);
+    const title = result === 'wrong' ? 'לא בדיוק' : result === 'typo' ? 'כמעט! שימו לב לאיות'
+      : think ? PRAISE[Math.floor(Math.random() * PRAISE.length)] : 'מעולה!';
+    // The explanation can be read aloud when the device has a Hebrew voice.
+    const readBtn = (text) => (text && canSpeakLang('he-IL') ? el('button', {
+      class: 'speaker small read-explain', type: 'button', 'aria-label': 'הקראת ההסבר',
+      onclick: () => speakSequence([{ text, lang: 'he-IL' }]),
+    }, '🔊') : null);
+    // Think track: the explanation opens on demand ("למה?"), a sentence or two at a time, with read-aloud.
+    const why = (text) => {
+      const steps = pageSentences(text);
+      let at = 0;
+      const page = el('div', { class: 'why-text' });
+      const dots = el('span', { class: 'why-dots' });
+      const nextBtn = el('button', { class: 'btn small why-next', type: 'button' }, 'הבא ←');
+      const show = () => {
+        page.replaceChildren(...[...mixed(steps[at]), readBtn(steps[at])].filter(Boolean));
+        dots.textContent = steps.length > 1 ? `${at + 1}/${steps.length}` : '';
+        nextBtn.hidden = at >= steps.length - 1;
+      };
+      nextBtn.addEventListener('click', () => { at++; show(); });
+      const box = el('div', { class: 'why-box', hidden: true }, page, steps.length > 1 ? el('div', { class: 'why-nav' }, dots, nextBtn) : null);
+      const btn = el('button', { class: 'why-btn', type: 'button', onclick: () => { btn.hidden = true; box.hidden = false; show(); record('why', ''); } }, '🤔 למה?');
+      return el('div', { class: 'why' }, btn, box);
+    };
+    if (ok) body.classList.add('solved');
     const sheet = el('div', { class: `feedback ${ok ? 'good' : 'bad'}` },
-      el('div', { class: 'feedback-title' }, ok ? '✔ ' : '✘ ', title),
+      ok ? sparkles() : null,
+      el('div', { class: 'feedback-title' }, think ? (ok ? '🎉 ' : '🤔 ') : ok ? '✔ ' : '✘ ', title),
       (result === 'wrong' || result === 'typo') && expected
         ? el('div', { class: 'feedback-answer' }, 'התשובה הנכונה: ',
             el('span', { dir: THINK_TYPES.has(ex.type) ? 'auto' : answerIsHebrew(ex) ? 'rtl' : 'ltr' }, ...(THINK_TYPES.has(ex.type) ? txt(expected) : [expected])))
@@ -163,8 +234,9 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
         ? el('div', { class: 'feedback-explain' }, 'נאמר: ', el('span', { dir: ex.lang === 'he' ? 'rtl' : 'ltr' }, ex.audio_text))
         : null,
       grammarNote ? el('div', { class: 'feedback-explain grammar' }, '📘 ', ...mixed(grammarNote))
-        : ex.explain_he && result !== 'correct' ? el('div', { class: 'feedback-explain grammar' }, '📘 ', ...mixed(ex.explain_he))
-          : ex.explain_he ? el('div', { class: 'feedback-explain' }, ...mixed(ex.explain_he)) : null);
+        : think && ex.explain_he ? why(ex.explain_he)
+        : ex.explain_he && result !== 'correct' ? el('div', { class: 'feedback-explain grammar' }, '📘 ', ...mixed(ex.explain_he), readBtn(ex.explain_he))
+          : ex.explain_he ? el('div', { class: 'feedback-explain' }, ...mixed(ex.explain_he), readBtn(ex.explain_he)) : null);
     footer.replaceChildren(sheet, checkBtn);
     footer.className = `lesson-footer ${ok ? 'good' : 'bad'}`;
     checkBtn.disabled = false;
@@ -177,7 +249,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     const accuracy = Math.round(((total - mistakes.size) / total) * 100);
     const xp = xpForLesson({ mistakes: mistakes.size, total });
     const streakInfo = await saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes: [...mistakes] });
-    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he });
+    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null });
   }
 
   next();

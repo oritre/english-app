@@ -1,0 +1,79 @@
+{
+ "id": "t-cnt-3",
+ "unit_id": "t-cnt",
+ "course": "counting",
+ "title_he": "צורות",
+ "exercises": [
+  {
+   "type": "buckets",
+   "prompt_he": "מיינו את הצורות",
+   "buckets": [
+    {
+     "id": "round",
+     "label": "⚪ עגול"
+    },
+    {
+     "id": "corners",
+     "label": "🔷 עם פינות"
+    }
+   ],
+   "items": [
+    {
+     "label": "⚽",
+     "in": "round"
+    },
+    {
+     "label": "📦",
+     "in": "corners"
+    },
+    {
+     "label": "🍩",
+     "in": "round"
+    },
+    {
+     "label": "🪟",
+     "in": "corners"
+    },
+    {
+     "label": "🌕",
+     "in": "round"
+    },
+    {
+     "label": "🧀",
+     "in": "corners"
+    }
+   ],
+   "explain_he": "לעיגול אין פינות. לריבוע ולמשולש יש.",
+   "id": "t-cnt-3e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה פינות יש למשולש?",
+   "answer": "3",
+   "explain_he": "למשולש 3 צלעות ו-3 פינות.",
+   "visual": "🔺",
+   "id": "t-cnt-3e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה פינות יש לריבוע?",
+   "answer": "4",
+   "explain_he": "לריבוע 4 צלעות שוות ו-4 פינות.",
+   "visual": "🟥",
+   "id": "t-cnt-3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בא אחר כך?",
+   "answer": "🔺",
+   "options": [
+    "🔺",
+    "⚪",
+    "🟥"
+   ],
+   "explain_he": "עיגול, משולש, עיגול, משולש...",
+   "visual": "⚪🔺⚪🔺⚪ ?",
+   "id": "t-cnt-3e4"
+  }
+ ]
+}

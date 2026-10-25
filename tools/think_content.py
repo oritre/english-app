@@ -87,9 +87,12 @@ def bars(*rows):
 BLOCK = '🧱'
 Q = '❓'
 
+# Catalog groups ('area' on each course): maths, logic and code, science.
+AREAS = [('math', '🧮', 'מתמטיקה'), ('logic', '🧩', 'היגיון וקוד'), ('science', '🔬', 'מדע')]
+
 COURSES = [
     {
-        'id': 'algebra', 'icon': '⚖️', 'color': '#6b3fd4',
+        'id': 'algebra', 'area': 'math', 'icon': '⚖️', 'color': '#6b3fd4',
         'title_he': 'מאזניים ומשוואות', 'about_he': 'מגלים משקל נעלם, ומשם למשוואות',
         'units': [{'id': 't-alg', 'title_he': 'חשיבה אלגברית', 'about_he': 'המאזניים מלמדים לפתור משוואות', 'lessons': [
             ('t-alg-1', 'מה זה מאוזן?', [
@@ -158,7 +161,7 @@ COURSES = [
         ]}],
     },
     {
-        'id': 'fractions', 'icon': '🍕', 'color': '#ea580c',
+        'id': 'fractions', 'area': 'math', 'icon': '🍕', 'color': '#ea580c',
         'title_he': 'שברים בעיניים', 'about_he': 'צובעים פיצות ושוקולדים ומבינים שברים',
         'units': [{'id': 't-frac', 'title_he': 'שברים', 'about_he': 'רואים חלקים, משווים ומחלקים', 'lessons': [
             ('t-frac-1', 'חצי ורבע', [
@@ -208,7 +211,7 @@ COURSES = [
         ]}],
     },
     {
-        'id': 'patterns', 'icon': '🔢', 'color': '#0891b2',
+        'id': 'patterns', 'area': 'math', 'icon': '🔢', 'color': '#0891b2',
         'title_he': 'תבניות ומספרים', 'about_he': 'מוצאים את החוק ומנחשים מה בא אחר כך',
         'units': [{'id': 't-pat', 'title_he': 'חוקיות', 'about_he': 'סדרות, תבניות וקסמי מספרים', 'lessons': [
             ('t-pat-1', 'מה בא אחר כך?', [
@@ -235,7 +238,7 @@ COURSES = [
         ]}],
     },
     {
-        'id': 'logic', 'icon': '🕵️', 'color': '#be123c',
+        'id': 'logic', 'area': 'logic', 'icon': '🕵️', 'color': '#be123c',
         'title_he': 'חידות היגיון', 'about_he': 'חושבים כמו בלש, צעד אחרי צעד',
         'units': [{'id': 't-log', 'title_he': 'בלשים', 'about_he': 'רמזים, הסקות ובעיות מילוליות', 'lessons': [
             ('t-log-1', 'חושבים כמו בלש', [
@@ -265,7 +268,7 @@ COURSES = [
         ]}],
     },
     {
-        'id': 'code', 'icon': '🤖', 'color': '#16a34a',
+        'id': 'code', 'area': 'logic', 'icon': '🤖', 'color': '#16a34a',
         'title_he': 'חשיבה בקוד', 'about_he': 'כותבים תוכניות לרובוט ולומדים לחשוב כמו מתכנתים',
         'units': [{'id': 't-code', 'title_he': 'רובוט במבוך', 'about_he': 'פקודות, סדר ולולאות', 'lessons': [
             ('t-code-1', 'הפקודות הראשונות', [
@@ -293,7 +296,7 @@ COURSES = [
         ]}],
     },
     {
-        'id': 'chance', 'icon': '🎲', 'color': '#0284c7',
+        'id': 'chance', 'area': 'logic', 'icon': '🎲', 'color': '#0284c7',
         'title_he': 'סיכויים והסתברות', 'about_he': 'מטילים מטבעות וקוביות ומגלים מה צפוי',
         'units': [{'id': 't-prob', 'title_he': 'מזל או מתמטיקה?', 'about_he': 'ניסויים, סיכויים וממוצעים', 'lessons': [
             ('t-prob-1', 'מטבע וקובייה', [
@@ -316,7 +319,7 @@ COURSES = [
         ]}],
     },
     {
-        'id': 'geometry', 'icon': '📐', 'color': '#db2777',
+        'id': 'geometry', 'area': 'math', 'icon': '📐', 'color': '#db2777',
         'title_he': 'צורות וזוויות', 'about_he': 'זוויות, צורות ושטחים, בידיים',
         'units': [{'id': 't-geo', 'title_he': 'גאומטריה', 'about_he': 'בונים זוויות ומודדים צורות', 'lessons': [
             ('t-geo-1', 'זוויות', [
@@ -339,7 +342,7 @@ COURSES = [
         ]}],
     },
     {
-        'id': 'science', 'icon': '🔬', 'color': '#ca8a04',
+        'id': 'science', 'area': 'science', 'icon': '🔬', 'color': '#ca8a04',
         'title_he': 'מדע סביבנו', 'about_he': 'ניסויים קטנים בחשיבה: ציפה, מגנטים וחומרים',
         'units': [{'id': 't-sci', 'title_he': 'מדע', 'about_he': 'מסתכלים, משערים, בודקים', 'lessons': [
             ('t-sci-1', 'צף או שוקע?', [
@@ -370,9 +373,11 @@ COURSES = [
 
 def main():
     os.makedirs(os.path.join(ROOT, 'lessons'), exist_ok=True)
-    out = {'courses': [], 'lesson_titles': {}}
+    out = {'areas': [{'id': i, 'icon': ic, 'title_he': t} for i, ic, t in AREAS], 'courses': [], 'lesson_titles': {}}
     count = 0
-    for c in COURSES:
+    # More courses live in think_more.py; every course gets its school-grade band.
+    from think_more import MORE, GRADES
+    for c in COURSES + MORE:
         units = []
         for u in c['units']:
             ids = []
@@ -386,10 +391,10 @@ def main():
                 ids.append(lesson_id)
                 count += len(exercises)
             units.append({'id': u['id'], 'title_he': u['title_he'], 'about_he': u['about_he'], 'lessons': ids})
-        out['courses'].append({k: c[k] for k in ('id', 'icon', 'color', 'title_he', 'about_he')} | {'units': units})
+        out['courses'].append({k: c[k] for k in ('id', 'area', 'icon', 'color', 'title_he', 'about_he')} | {'grades': list(GRADES[c['id']]), 'units': units})
     with open(os.path.join(ROOT, 'think.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
-    print(f"{len(COURSES)} courses, {len(out['lesson_titles'])} lessons, {count} exercises")
+    print(f"{len(out['courses'])} courses, {len(out['lesson_titles'])} lessons, {count} exercises")
 
 
 if __name__ == '__main__':

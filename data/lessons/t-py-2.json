@@ -1,0 +1,60 @@
+{
+ "id": "t-py-2",
+ "unit_id": "t-py",
+ "course": "python",
+ "title_he": "לולאות ותנאים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "לולאה",
+   "body_he": [
+    "for i in range(3) חוזרת על השורות שמתחתיה 3 פעמים."
+   ],
+   "say_he": "לולאה for i in range(3) חוזרת על השורות שמתחתיה 3 פעמים.",
+   "id": "t-py-2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה פעמים יודפס 🎉?",
+   "answer": "4",
+   "explain_he": "range(4) חוזרת 4 פעמים.",
+   "visual": "for i in range(4):\n    print(\"🎉\")",
+   "code": true,
+   "id": "t-py-2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס בסוף?",
+   "answer": "6",
+   "explain_he": "total מקבל 1, 2, 3: 0 + 1 + 2 + 3 = 6.",
+   "hint_he": "range(1, 4) זה 1, 2, 3",
+   "visual": "total = 0\nfor i in range(1, 4):\n    total = total + i\nprint(total)",
+   "code": true,
+   "id": "t-py-2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "גדול",
+   "options": [
+    "גדול",
+    "קטן"
+   ],
+   "explain_he": "8 גדול מ-5, אז השורה הראשונה מתבצעת.",
+   "visual": "n = 8\nif n > 5:\n    print(\"גדול\")\nelse:\n    print(\"קטן\")",
+   "code": true,
+   "id": "t-py-2e4"
+  },
+  {
+   "type": "order",
+   "prompt_he": "סדרו את השורות כדי להדפיס 1, 2, 3",
+   "items": [
+    "for i in range(1, 4):",
+    "    print(i)",
+    "print(\"סוף\")"
+   ],
+   "explain_he": "קודם הלולאה, בתוכה ההדפסה, ואחריה הסוף.",
+   "id": "t-py-2e5"
+  }
+ ]
+}

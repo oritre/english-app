@@ -1,0 +1,65 @@
+{
+ "id": "t-py-1",
+ "unit_id": "t-py",
+ "course": "python",
+ "title_he": "הדפסה ומשתנים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "פייתון היא שפת תכנות",
+   "body_he": [
+    "השורה print מדפיסה למסך את מה שבסוגריים.",
+    "משתנה הוא קופסה עם שם, ששומרת ערך."
+   ],
+   "say_he": "פייתון היא שפת תכנות השורה print מדפיסה למסך את מה שבסוגריים. משתנה הוא קופסה עם שם, ששומרת ערך.",
+   "id": "t-py-1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "5",
+   "options": [
+    "5",
+    "2 + 3",
+    "print"
+   ],
+   "explain_he": "פייתון מחשב 2 + 3 ומדפיס 5.",
+   "visual": "print(2 + 3)",
+   "code": true,
+   "id": "t-py-1e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "12",
+   "explain_he": "בקופסה x יש 4, ו-4 כפול 3 זה 12.",
+   "visual": "x = 4\nprint(x * 3)",
+   "code": true,
+   "id": "t-py-1e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "7",
+   "explain_he": "x מתחיל ב-5 ואז גדל ב-2.",
+   "hint_he": "x = x + 2 אומר: הערך הישן ועוד 2",
+   "visual": "x = 5\nx = x + 2\nprint(x)",
+   "code": true,
+   "id": "t-py-1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "שלום דנה",
+   "options": [
+    "שלום דנה",
+    "שלום name",
+    "name"
+   ],
+   "explain_he": "name היא קופסה שבה כתוב \"דנה\".",
+   "visual": "name = \"דנה\"\nprint(\"שלום\", name)",
+   "code": true,
+   "id": "t-py-1e5"
+  }
+ ]
+}

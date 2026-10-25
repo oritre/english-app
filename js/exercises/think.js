@@ -29,12 +29,16 @@ export function scaleView({ left, right, tilt }) {
   const leftPan = el('div', { class: 'pan' }, items(left));
   const rightPan = el('div', { class: 'pan' }, items(right));
   const arm = el('div', { class: 'scale-arm' }, el('div', { class: 'pan-hang' }, leftPan), beam, el('div', { class: 'pan-hang' }, rightPan));
-  const view = el('div', { class: 'scale', dir: 'ltr' }, arm, el('div', { class: 'scale-post' }), el('div', { class: 'scale-base' }));
+  const spark = el('div', { class: 'scale-spark', 'aria-hidden': 'true' }, '✨');
+  const view = el('div', { class: 'scale', dir: 'ltr' }, arm, el('div', { class: 'scale-post' }), el('div', { class: 'scale-base' }), spark);
   const update = (l = left, r = right, t = tilt) => {
     const diff = t === 'left' ? -1 : t === 'right' ? 1 : t === 'even' ? 0 : weightOf(r) - weightOf(l);
     const deg = diff === 0 ? 0 : Math.sign(diff) * Math.min(14, 5 + Math.abs(diff) * 2);
     arm.style.setProperty('--tilt', `${deg}deg`);
+    const wasEven = view.classList.contains('even');
     view.classList.toggle('even', diff === 0);
+    // A fresh balance gets a little sparkle; it is re-triggered by removing and re-adding the class.
+    if (diff === 0 && !wasEven) { spark.classList.remove('go'); void spark.offsetWidth; spark.classList.add('go'); }
     leftPan.replaceChildren(items(l));
     rightPan.replaceChildren(items(r));
   };
@@ -44,9 +48,17 @@ export function scaleView({ left, right, tilt }) {
 
 // ---- shared parts ----
 
+// A picture made only of emoji (a clock, a fruit) is shown big.
+const EMOJI_ONLY = /^[\p{Extended_Pictographic}\uFE0F\u200D\s]+$/u;
+
+// Young readers (profile.read_aloud) hear every question as it appears.
+let readAloud = false;
+export const setReadAloud = (on) => { readAloud = !!on; };
+
 // Title (read aloud in Hebrew on tap), an optional picture, and a hint behind a button.
 function header(root, ex, track) {
   const read = () => sayHe([ex.prompt_he, ex.say_he].filter(Boolean).join('. '));
+  if (readAloud && ex.type !== 'teach') setTimeout(read, 300);
   const hint = ex.hint_he ? el('p', { class: 'think-hint', hidden: true }, '💡 ', ...mixed(ex.hint_he)) : null;
   const hintBtn = ex.hint_he ? el('button', {
     class: 'hint-btn', type: 'button',
@@ -56,7 +68,8 @@ function header(root, ex, track) {
     el('h2', { class: 'ex-title think-title' }, ...mixed(ex.prompt_he),
       canSpeakLang('he-IL') ? el('button', { class: 'speaker small', type: 'button', 'aria-label': 'הקראה', onclick: read }, '🔊') : null),
     ...(ex.body_he || []).map((p) => el('p', { class: 'teach-body' }, ...mixed(p))),
-    ex.visual ? el('div', { class: 'think-visual', dir: 'ltr' }, ex.visual.split('\n').map((line) => el('div', {}, line))) : null,
+    ex.visual && ex.code ? el('pre', { class: 'think-code', dir: 'ltr' }, ex.visual)
+      : ex.visual ? el('div', { class: `think-visual ${EMOJI_ONLY.test(ex.visual) && [...ex.visual].length <= 3 ? 'solo' : ''}`, dir: 'ltr' }, ex.visual.split('\n').map((line) => el('div', {}, line))) : null,
     ex.scale ? scaleView(ex.scale).view : null,
     ex.bars ? barsView(ex.bars) : null);
   return { hint, hintBtn };
@@ -71,6 +84,31 @@ function barsView(bars) {
 
 const footer = (root, { hint, hintBtn }) => { if (hintBtn) put(root, el('div', { class: 'hint-row' }, hintBtn, hint)); };
 
+// "How to play": one line under the title the first few times an interaction type shows up.
+const HOWTO = {
+  number: 'הקישו את התשובה במקשים שלמטה',
+  balance: 'לחצו על + ו− עד שהמאזניים יתאזנו',
+  fraction: 'לחצו על חלק כדי לצבוע אותו, ושוב כדי למחוק',
+  numberline: 'גררו את הסמן על הציר למקום הנכון',
+  order: 'לחצו על הפריטים לפי הסדר. לחיצה על פריט שהונח מחזירה אותו',
+  robot: 'לחצו על חיצים כדי לבנות תוכנית, ואז ▶ הרצה כדי לראות את הרובוט זז',
+  buckets: 'לחצו על פריט, ואז על הקבוצה שהוא שייך אליה',
+  angle: 'גררו את הידית כדי לפתוח או לסגור את הזווית',
+  sim: 'לחצו על כפתור הטלה ועקבו אחרי העמודות',
+};
+const SEEN_KEY = 'think-howto';
+function cue(root, type) {
+  if (!HOWTO[type]) return;
+  let seen = {};
+  try { seen = JSON.parse(localStorage.getItem(SEEN_KEY) || '{}') || {}; } catch { seen = {}; }
+  const n = Number(seen[type] || 0);
+  if (n >= 2) return;
+  try { seen[type] = n + 1; localStorage.setItem(SEEN_KEY, JSON.stringify(seen)); } catch { /* private mode */ }
+  const tip = el('div', { class: 'howto', role: 'note' }, el('span', { class: 'howto-icon' }, '👆'), el('span', {}, HOWTO[type]),
+    el('button', { class: 'howto-close', type: 'button', 'aria-label': 'סגירה', onclick: () => tip.remove() }, '✕'));
+  put(root, tip);
+}
+
 // ---- exercise types ----
 
 // Pick one answer. Options are text or {label, show} (a picture or a big symbol).
@@ -82,7 +120,7 @@ export function renderMcq(root, ex, { setReady, track }) {
   const cards = (ex.keep_order ? opts : shuffle(opts)).map((o) => {
     const card = el('button', { class: `choice-card think-choice ${big ? 'big' : ''}`, type: 'button', 'data-value': o.label },
       o.show ? el('span', { class: 'think-show', dir: 'ltr' }, o.show) : null,
-      el('span', {}, ...txt(o.label)));
+      el('span', { class: EMOJI_ONLY.test(o.label) ? 'emoji-label' : null }, ...txt(o.label)));
     card.addEventListener('click', () => {
       cards.forEach((c) => c.classList.remove('selected'));
       card.classList.add('selected');
@@ -93,7 +131,9 @@ export function renderMcq(root, ex, { setReady, track }) {
   });
   put(root, el('div', { class: `choice-grid ${opts.length > 4 || opts.some((o) => o.label.length > 18) ? 'one-col' : ''}` }, cards));
   footer(root, h);
-  return { getAnswer: () => picked, check: () => picked === String(ex.answer), expectedText: () => String(ex.answer) };
+  // reveal(): "show me": the model shows the right answer (called by the lesson runner, never by check()).
+  const reveal = () => cards.forEach((c) => { c.classList.toggle('answer', c.dataset.value === String(ex.answer)); c.disabled = true; });
+  return { getAnswer: () => picked, check: () => picked === String(ex.answer), expectedText: () => String(ex.answer), reveal };
 }
 
 // Type a number (or a fraction) on an on-screen keypad, so phones never open a keyboard.
@@ -111,14 +151,17 @@ export function renderNumber(root, ex, { setReady, track }) {
     }
     track?.('key', k);
     show();
+    shown.classList.remove('bump'); void shown.offsetWidth; shown.classList.add('bump');
   };
   const keys = ['7', '8', '9', '4', '5', '6', '1', '2', '3', ex.fraction ? '/' : ex.negative ? '-' : '', '0', '⌫'];
   put(root, 
     el('div', { class: 'num-display', dir: 'ltr' }, ex.before ? el('span', {}, ex.before) : null, shown, ex.after ? el('span', {}, ex.after) : null),
-    el('div', { class: 'keypad', dir: 'ltr' }, keys.map((k) => (k ? el('button', { class: 'key', type: 'button', onclick: () => press(k) }, k) : el('span')))));
+    el('div', { class: 'keypad', dir: 'ltr' }, keys.map((k) => (k ? el('button', { class: `key ${k === '⌫' ? 'key-del' : /\d/.test(k) ? '' : 'key-op'}`, type: 'button', 'aria-label': k === '⌫' ? 'מחיקה' : null, onclick: () => press(k) }, k) : el('span')))));
+  cue(root, 'number');
   footer(root, h);
   show();
-  return { getAnswer: () => value, check: () => sameNumber(value, ex.answer, { exact: ex.exact }), expectedText: () => String(ex.answer) };
+  const reveal = () => { shown.textContent = String(ex.answer); shown.classList.remove('empty'); shown.classList.add('answer'); };
+  return { getAnswer: () => value, check: () => sameNumber(value, ex.answer, { exact: ex.exact }), expectedText: () => String(ex.answer), reveal };
 }
 
 // A scale with one thing you can add or take away until both sides weigh the same.
@@ -144,10 +187,12 @@ export function renderBalance(root, ex, { setReady, track }) {
       el('button', { class: 'key', type: 'button', 'aria-label': 'להוריד', onclick: () => step(-1) }, '−'),
       el('span', { class: 'bal-adj' }, adj.icon, ' × ', count),
       el('button', { class: 'key', type: 'button', 'aria-label': 'להוסיף', onclick: () => step(1) }, '+')) : null);
+  if (adj) cue(root, 'balance');
   footer(root, h);
   refresh();
   if (ex.explore) return { getAnswer: () => null, info: true };
-  return { getAnswer: () => adj.n, check: () => adj.n === Number(ex.answer), expectedText: () => `${ex.answer} ${adj.icon}` };
+  const reveal = () => { adj.n = Number(ex.answer); refresh(); };
+  return { getAnswer: () => adj.n, check: () => adj.n === Number(ex.answer), expectedText: () => `${ex.answer} ${adj.icon}`, reveal };
 }
 
 // Tap parts of a bar or a pizza to colour them. The answer is how many parts
@@ -163,6 +208,8 @@ export function renderFraction(root, ex, { setReady, track }) {
     on.has(i) ? on.delete(i) : on.add(i);
     track?.('cell', on.size);
     paint();
+    const c = cells[i];
+    c.classList.remove('pop'); void c.getBoundingClientRect(); c.classList.add('pop');
     setReady(true);
   };
   if (ex.shape === 'circle') {
@@ -191,11 +238,17 @@ export function renderFraction(root, ex, { setReady, track }) {
     cells.forEach((c, i) => c.classList.toggle('on', on.has(i)));
     label.textContent = ex.hide_label ? '' : `${on.size}/${n}`;
   }
+  if (!ex.locked) cue(root, 'fraction');
   footer(root, h);
   paint();
   if (ex.explore) return { getAnswer: () => null, info: true };
   const right = () => (String(ex.answer).includes('/') ? sameNumber(`${on.size}/${n}`, ex.answer) : on.size === Number(ex.answer));
-  return { getAnswer: () => `${on.size}/${n}`, check: right, expectedText: () => (String(ex.answer).includes('/') ? ex.answer : `${ex.answer}/${n}`) };
+  const reveal = () => {
+    const want = String(ex.answer).includes('/') ? Math.round(parseNum(ex.answer) * n) : Number(ex.answer);
+    on.clear(); for (let i = 0; i < want; i++) on.add(i);
+    paint();
+  };
+  return { getAnswer: () => `${on.size}/${n}`, check: right, expectedText: () => (String(ex.answer).includes('/') ? ex.answer : `${ex.answer}/${n}`), reveal };
 }
 
 // Drag a marker along a number line. Right when it lands within half a step.
@@ -213,14 +266,22 @@ export function renderNumberLine(root, ex, { setReady, track }) {
     const at = parseNum(typeof t === 'object' ? t.at : t);
     return el('span', { class: 'nl-tick', style: `left: ${((at - min) / (max - min)) * 100}%` }, typeof t === 'object' ? t.text : String(t));
   }));
-  const update = () => { readout.textContent = ex.show_value === false ? '' : fmt(Number(slider.value)); };
+  const update = () => {
+    readout.textContent = ex.show_value === false ? '' : fmt(Number(slider.value));
+    slider.style.setProperty('--pct', `${((Number(slider.value) - min) / (max - min)) * 100}%`);
+  };
   slider.addEventListener('input', () => { update(); setReady(true); });
   slider.addEventListener('change', () => track?.('slide', slider.value));
-  put(root, el('div', { class: 'nl', dir: 'ltr' }, readout, slider, ticks));
+  put(root, el('div', { class: 'nl', dir: 'ltr' }, readout, el('div', { class: 'nl-track' }, slider), ticks));
+  cue(root, 'numberline');
   footer(root, h);
   update();
   const target = parseNum(ex.answer);
-  return { getAnswer: () => fmt(Number(slider.value)), check: () => Math.abs(Number(slider.value) - target) <= step / 2 + 1e-9, expectedText: () => String(ex.answer) };
+  const reveal = () => {
+    ticks.append(el('span', { class: 'nl-tick nl-mark', style: `left: ${((target - min) / (max - min)) * 100}%` }, '✓'));
+    slider.value = target; update();
+  };
+  return { getAnswer: () => fmt(Number(slider.value)), check: () => Math.abs(Number(slider.value) - target) <= step / 2 + 1e-9, expectedText: () => String(ex.answer), reveal };
 }
 
 // Put things in order: tap them into the row, tap a placed one to take it back.
@@ -231,18 +292,26 @@ export function renderOrder(root, ex, { setReady, track }) {
   const pool = el('div', { class: 'word-bank', dir: ex.rtl ? 'rtl' : 'ltr' });
   const tiles = shuffle(ex.items.map((t, i) => ({ t: String(t), i })));
   const draw = () => {
-    line.replaceChildren(...placed.map((p, k) => el('button', { class: 'tile', type: 'button', onclick: () => { placed.splice(k, 1); draw(); } }, p.t)));
+    line.replaceChildren(...placed.map((p, k) => el('button', { class: 'tile placed', type: 'button', 'aria-label': `להחזיר ${p.t}`, onclick: () => { placed.splice(k, 1); draw(); } }, p.t)),
+      ...tiles.slice(placed.length).map((_, k) => el('span', { class: 'order-slot', 'aria-hidden': 'true' }, String(placed.length + k + 1))));
     pool.replaceChildren(...tiles.map((p) => el('button', {
       class: `tile ${placed.includes(p) ? 'matched' : ''}`, type: 'button', disabled: placed.includes(p),
       onclick: () => { placed.push(p); track?.('tile', p.t); draw(); },
     }, p.t)));
     setReady(placed.length === tiles.length);
   };
-  put(root, ex.ends ? el('div', { class: 'order-ends', dir: ex.rtl ? 'rtl' : 'ltr' }, el('span', {}, ex.ends[0]), el('span', {}, ex.ends[1])) : null, line, pool);
+  put(root, el('div', { class: 'order-wrap' },
+    ex.ends ? el('div', { class: 'order-ends', dir: ex.rtl ? 'rtl' : 'ltr' }, el('span', {}, ex.ends[0]), el('span', {}, ex.ends[1])) : null, line), pool);
+  cue(root, 'order');
   footer(root, h);
   draw();
   const answer = (ex.answer || ex.items).map(String);
-  return { getAnswer: () => placed.map((p) => p.t).join(' · '), check: () => placed.map((p) => p.t).join('|') === answer.join('|'), expectedText: () => answer.join(' · ') };
+  const reveal = () => {
+    placed.splice(0, placed.length, ...answer.map((t) => tiles.find((p) => p.t === t)).filter(Boolean));
+    draw();
+    line.querySelectorAll('.tile').forEach((t) => { t.classList.add('answer'); t.disabled = true; });
+  };
+  return { getAnswer: () => placed.map((p) => p.t).join(' · '), check: () => placed.map((p) => p.t).join('|') === answer.join('|'), expectedText: () => answer.join(' · '), reveal };
 }
 
 // ---- code: a robot on a grid ----
@@ -254,7 +323,7 @@ export function renderRobot(root, ex, { setReady, track }) {
   const cells = [];
   const board = el('div', { class: 'robot-grid', dir: 'ltr', style: `grid-template-columns: repeat(${grid[0].length}, 1fr)` },
     grid.flatMap((row, j) => [...row].map((c, i) => {
-      const cell = el('div', { class: `robot-cell ${c === '#' ? 'wall' : ''}` }, c === '*' ? '⭐' : c === '#' ? '🧱' : '');
+      const cell = el('div', { class: `robot-cell ${c === '#' ? 'wall' : ''} ${c === '*' ? 'goal' : ''}` }, c === '*' ? '⭐' : c === '#' ? '🧱' : '');
       cells.push({ cell, i, j });
       return cell;
     })));
@@ -262,24 +331,44 @@ export function renderRobot(root, ex, { setReady, track }) {
   board.append(bot);
   const start = (() => { for (let j = 0; j < grid.length; j++) { const i = grid[j].indexOf('R'); if (i >= 0) return { x: i, y: j }; } return { x: 0, y: 0 }; })();
   const place = ({ x, y }) => { bot.style.setProperty('--x', x); bot.style.setProperty('--y', y); };
-  bot.style.setProperty('--cols', grid[0].length);
-  bot.style.setProperty('--rows', grid.length);
+  board.style.setProperty('--cols', grid[0].length);
+  board.style.setProperty('--rows', grid.length);
   place(start);
   const line = el('div', { class: 'answer-line program-line', dir: 'ltr' });
   const tools = (ex.commands || ['up', 'down', 'left', 'right']);
   const label = (t) => (MOVES[t] ? MOVES[t][2] : t.replace('x', '🔁×'));
+  const burst = el('div', { class: 'robot-burst', 'aria-hidden': 'true' }, Array.from({ length: 8 }, (_, i) => el('i', { style: `--a: ${i * 45}deg` })));
+  board.append(burst);
+  const cellAt = (x, y) => cells.find((c) => c.i === x && c.j === y)?.cell;
+  const clearTrail = () => { cells.forEach((c) => c.cell.classList.remove('trail')); board.classList.remove('won'); };
   let timer = null;
   const animate = (steps) => {
     clearInterval(timer);
+    clearTrail();
     place(start);
     bot.classList.remove('crash', 'win');
+    cellAt(start.x, start.y)?.classList.add('trail');
+    const cmds = line.querySelectorAll('.tile.cmd');
+    cmds.forEach((t) => t.classList.remove('active'));
     let k = 0;
+    board.classList.add('running');
     timer = setInterval(() => {
-      if (k >= steps.length) { clearInterval(timer); return; }
+      if (k >= steps.length) { clearInterval(timer); board.classList.remove('running'); cmds.forEach((t) => t.classList.remove('active')); return; }
       const st = steps[k++];
+      // Light the command being run (steps and commands line up one to one unless a loop expands them).
+      cmds.forEach((t, i) => t.classList.toggle('active', i === Math.min(k - 1, cmds.length - 1) && steps.length === cmds.length));
       place(st);
+      bot.classList.remove('step'); void bot.offsetWidth; bot.classList.add('step');
       if (st.crash) bot.classList.add('crash');
-      else if (k === steps.length && runRobot(grid, program).ok) bot.classList.add('win');
+      else {
+        cellAt(st.x, st.y)?.classList.add('trail');
+        if (k === steps.length && runRobot(grid, program).ok) {
+          bot.classList.add('win');
+          board.classList.add('won');
+          burst.style.setProperty('--bx', st.x); burst.style.setProperty('--by', st.y);
+          burst.classList.remove('go'); void burst.offsetWidth; burst.classList.add('go');
+        }
+      }
     }, 380);
   };
   const draw = () => {
@@ -296,12 +385,20 @@ export function renderRobot(root, ex, { setReady, track }) {
       class: 'tile cmd', type: 'button',
       onclick: () => { if (full()) return; program.push(t); track?.('cmd', t); draw(); },
     }, label(t)))));
+  cue(root, 'robot');
   footer(root, h);
   draw();
   return {
     getAnswer: () => program.join(','),
     check: () => { const r = runRobot(grid, program); animate(r.steps); return r.ok; },
     expectedText: () => (ex.solution || []).map(label).join(' '),
+    reveal: () => {
+      if (!ex.solution) return;
+      program.splice(0, program.length, ...ex.solution);
+      draw();
+      line.querySelectorAll('.tile').forEach((t) => { t.classList.add('answer'); t.disabled = true; });
+      animate(runRobot(grid, program).steps);
+    },
   };
 }
 
@@ -321,16 +418,27 @@ export function renderBuckets(root, ex, { setReady, track }) {
       draw();
     },
   }, it.label);
+  const status = el('p', { class: 'bucket-status muted' });
   const draw = () => {
     pool.replaceChildren(...items.filter((it) => !where.has(it.i)).map(tile));
     boxes.forEach(({ b, zone }) => zone.replaceChildren(...items.filter((it) => where.get(it.i) === b.id).map(tile)));
     root.querySelectorAll('.bucket').forEach((z) => z.classList.toggle('armed', !!picked));
+    const left = items.length - where.size;
+    status.textContent = picked ? `לאן שייך "${picked.label}"? לחצו על קבוצה` : left === 0 ? 'הכל מוין! אפשר לבדוק' : left === items.length ? '' : `נשארו ${left}`;
     setReady(where.size === items.length);
   };
-  put(root, pool, el('div', { class: 'buckets' }, boxes.map(({ b, zone }) => el('button', {
-    class: 'bucket', type: 'button',
-    onclick: (e) => { if (!picked || e.target.closest('.bucket-tile')) return; where.set(picked.i, b.id); track?.('sort', `${picked.label}>${b.id}`); picked = null; draw(); },
-  }, el('span', { class: 'bucket-name' }, ...mixed(b.label)), zone))));
+  put(root, pool, status, el('div', { class: 'buckets' }, boxes.map(({ b, zone }) => {
+    const box = el('button', {
+      class: 'bucket', type: 'button',
+      onclick: (e) => {
+        if (!picked || e.target.closest('.bucket-tile')) return;
+        where.set(picked.i, b.id); track?.('sort', `${picked.label}>${b.id}`); picked = null; draw();
+        box.classList.remove('drop'); void box.offsetWidth; box.classList.add('drop');
+      },
+    }, el('span', { class: 'bucket-name' }, ...mixed(b.label)), zone);
+    return box;
+  })));
+  cue(root, 'buckets');
   footer(root, h);
   draw();
   const name = (id) => ex.buckets.find((b) => b.id === id)?.label || id;
@@ -338,6 +446,7 @@ export function renderBuckets(root, ex, { setReady, track }) {
     getAnswer: () => items.map((it) => `${it.label}>${where.get(it.i)}`).join(', '),
     check: () => items.every((it) => where.get(it.i) === it.in),
     expectedText: () => ex.buckets.map((b) => `${b.label}: ${ex.items.filter((it) => it.in === b.id).map((it) => it.label).join(' ')}`).join(' · '),
+    reveal: () => { picked = null; items.forEach((it) => where.set(it.i, it.in)); draw(); root.querySelectorAll('.bucket').forEach((z) => z.classList.add('answer')); },
   };
 }
 
@@ -347,16 +456,22 @@ export function renderAngle(root, ex, { setReady, track }) {
   const h = header(root, ex, track);
   const NS = 'http://www.w3.org/2000/svg';
   const svg = document.createElementNS(NS, 'svg');
-  svg.setAttribute('viewBox', '-110 -110 220 120');
+  svg.setAttribute('viewBox', '-130 -128 260 140');
   svg.setAttribute('class', 'angle-svg');
   const mk = (tag, attrs) => { const n = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v); svg.append(n); return n; };
   for (let d = 0; d <= 180; d += 30) {
     const r = (d * Math.PI) / 180;
     mk('line', { x1: 92 * Math.cos(r), y1: -92 * Math.sin(r), x2: 100 * Math.cos(r), y2: -100 * Math.sin(r), class: 'angle-tick' });
   }
+  for (const d of [0, 90, 180]) {
+    const r = (d * Math.PI) / 180;
+    const t = mk('text', { x: 118 * Math.cos(r), y: -118 * Math.sin(r) + (d === 90 ? 2 : 4), class: 'angle-label', 'text-anchor': 'middle' });
+    t.textContent = `${d}°`;
+  }
   const arc = mk('path', { class: 'angle-arc' });
   mk('line', { x1: 0, y1: 0, x2: 100, y2: 0, class: 'angle-ray' });
   const ray = mk('line', { x1: 0, y1: 0, x2: 100, y2: 0, class: 'angle-ray moving' });
+  const knob = mk('circle', { cx: 100, cy: 0, r: 7, class: 'angle-knob' });
   mk('circle', { cx: 0, cy: 0, r: 4, class: 'angle-dot' });
   const slider = el('input', { type: 'range', class: 'nl-range', min: 0, max: 180, step: 1, value: ex.start ?? 20, 'aria-label': 'גודל הזווית' });
   const readout = el('div', { class: 'nl-readout', dir: 'ltr' });
@@ -365,16 +480,25 @@ export function renderAngle(root, ex, { setReady, track }) {
     const r = (d * Math.PI) / 180;
     ray.setAttribute('x2', 100 * Math.cos(r));
     ray.setAttribute('y2', -100 * Math.sin(r));
-    arc.setAttribute('d', `M30 0 A30 30 0 0 0 ${30 * Math.cos(r)} ${-30 * Math.sin(r)}`);
+    knob.setAttribute('cx', 100 * Math.cos(r));
+    knob.setAttribute('cy', -100 * Math.sin(r));
+    arc.setAttribute('d', `M0 0 L30 0 A30 30 0 ${d > 180 ? 1 : 0} 0 ${30 * Math.cos(r)} ${-30 * Math.sin(r)} Z`);
     readout.textContent = ex.show_value === false ? '' : `${d}°`;
+    slider.style.setProperty('--pct', `${(d / 180) * 100}%`);
   };
   slider.addEventListener('input', () => { update(); setReady(true); });
   slider.addEventListener('change', () => track?.('slide', slider.value));
-  put(root, el('div', { class: 'angle-wrap', dir: 'ltr' }, svg, readout, slider));
+  put(root, el('div', { class: 'angle-wrap', dir: 'ltr' }, svg, readout, el('div', { class: 'nl-track' }, slider)));
+  cue(root, 'angle');
   footer(root, h);
   update();
   const tol = ex.tolerance ?? 5;
-  return { getAnswer: () => `${slider.value}°`, check: () => Math.abs(Number(slider.value) - Number(ex.answer)) <= tol, expectedText: () => `${ex.answer}°` };
+  const reveal = () => {
+    const r = (Number(ex.answer) * Math.PI) / 180;
+    mk('line', { x1: 0, y1: 0, x2: 100 * Math.cos(r), y2: -100 * Math.sin(r), class: 'angle-ray ghost' });
+    slider.value = ex.answer; update();
+  };
+  return { getAnswer: () => `${slider.value}°`, check: () => Math.abs(Number(slider.value) - Number(ex.answer)) <= tol, expectedText: () => `${ex.answer}°`, reveal };
 }
 
 // ---- chance: roll and watch the results pile up (explore only) ----
@@ -390,26 +514,40 @@ export function renderSim(root, ex, { track }) {
     return String(ex.kind === 'dice2' ? d() + d() : d());
   };
   const last = el('div', { class: 'sim-last' }, ex.kind === 'coin' ? '🪙' : '🎲');
-  const chart = el('div', { class: 'sim-chart', dir: 'ltr' });
+  // The columns are built once, so a new roll animates the bars instead of redrawing them.
+  const cols = new Map(faces.map((f) => [f, {
+    pct: el('span', { class: 'sim-pct' }), bar: el('div', { class: 'sim-bar', style: 'height: 0%' }),
+    col: null,
+  }]));
+  const chart = el('div', { class: `sim-chart ${faces.length > 6 ? 'dense' : ''}`, dir: 'ltr' }, faces.map((f) => {
+    const c = cols.get(f);
+    c.col = el('div', { class: 'sim-col' }, c.pct, c.bar, el('span', { class: 'sim-face' }, f));
+    return c.col;
+  }));
+  let lastFace = null;
   const draw = () => {
     const max = Math.max(1, ...counts.values());
-    chart.replaceChildren(...faces.map((f) => el('div', { class: 'sim-col' },
-      el('span', { class: 'sim-pct' }, total ? `${Math.round((counts.get(f) / total) * 100)}%` : ''),
-      el('div', { class: 'sim-bar', style: `height: ${(counts.get(f) / max) * 100}%` }),
-      el('span', { class: 'sim-face' }, f))));
+    faces.forEach((f) => {
+      const c = cols.get(f);
+      c.pct.textContent = total ? `${Math.round((counts.get(f) / total) * 100)}%` : '';
+      c.bar.style.height = `${(counts.get(f) / max) * 100}%`;
+      c.col.classList.toggle('hit', f === lastFace);
+    });
   };
   const go = (n) => {
     let r;
     for (let k = 0; k < n; k++) { r = roll(); counts.set(r, counts.get(r) + 1); total++; }
+    lastFace = r;
     last.textContent = r;
     last.classList.remove('pop'); void last.offsetWidth; last.classList.add('pop');
     track?.('roll', n);
     draw();
     note.textContent = `${total} הטלות`;
   };
-  const note = el('p', { class: 'muted sim-note' }, 'עוד לא הטלנו');
+  const note = el('p', { class: 'muted sim-note' }, 'עוד לא הטלנו. לחצו למטה!');
   put(root, el('div', { class: 'sim' }, last, chart, note,
-    el('div', { class: 'row-btns sim-btns' }, [1, 10, 100].map((n) => el('button', { class: 'btn', type: 'button', onclick: () => go(n) }, n === 1 ? 'הטלה אחת' : `${n} הטלות`)))));
+    el('div', { class: 'row-btns sim-btns' }, [1, 10, 100].map((n) => el('button', { class: `btn ${n === 100 ? 'primary' : ''}`, type: 'button', onclick: () => go(n) }, n === 1 ? '🎯 הטלה אחת' : `${n} הטלות`)))));
+  cue(root, 'sim');
   footer(root, h);
   draw();
   return { getAnswer: () => null, info: true };
