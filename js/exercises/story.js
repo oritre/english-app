@@ -1,7 +1,8 @@
 import { el, mixed } from '../util.js';
-import { canSpeakLang } from '../speech.js';
+import { canSpeakLang, utterance } from '../speech.js';
 import { rateFactor } from '../settings.js';
 import { parseArt, sceneMs } from '../storyLogic.js';
+import { videoUrl } from '../media.js';
 
 // General knowledge ("ידע כללי", after BrainPOP): every lesson opens with a
 // short cartoon, then a quiz. The cartoon is our own: scenes drawn from emoji
@@ -16,10 +17,6 @@ import { parseArt, sceneMs } from '../storyLogic.js';
 const hasHebrewVoice = () => canSpeakLang('he-IL');
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-function voiceHe() {
-  return speechSynthesis.getVoices().find((v) => v.lang.replace('_', '-').toLowerCase().startsWith('he')) || null;
-}
-
 // Says one line and calls done() when it ends; returns a cancel function.
 // Chrome sometimes never fires onend, so a generous timer backs it up.
 // onWord(charIndex) fires at each word on voices that report boundaries.
@@ -29,15 +26,12 @@ function sayLine(text, done, onWord) {
   const safety = setTimeout(finish, String(text).length * 160 + 4000);
   try {
     speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'he-IL';
-    const v = voiceHe();
-    if (v) u.voice = v;
-    u.rate = 0.95 * rateFactor();
-    u.onend = finish;
-    u.onerror = finish;
-    u.onboundary = (e) => { if (!over && e.name === 'word') onWord?.(e.charIndex); };
-    speechSynthesis.speak(u);
+    // Through speech.js, so an online voice that fails offline falls back to one on the device.
+    speechSynthesis.speak(utterance(text, 'he-IL', 0.95 * rateFactor(), {
+      onend: finish,
+      onerror: finish,
+      onboundary: (e) => { if (!over && e.name === 'word') onWord?.(e.charIndex); },
+    }));
   } catch { finish(); }
   return () => { over = true; clearTimeout(safety); try { speechSynthesis.cancel(); } catch { /* none */ } };
 }
@@ -211,64 +205,38 @@ export function renderStory(root, ex, { setReady, track }) {
   return { getAnswer: () => null, info: true, gated: true, ready: () => finished, nextLabel: 'לחידון ←' };
 }
 
-// ---- an embedded video (YouTube, from an approved Hebrew channel) ----
+// ---- a video (from an approved Hebrew channel, served by the home Pi) ----
 
-let ytPromise = null;
-function loadYouTube() {
-  if (window.YT?.Player) return Promise.resolve(window.YT);
-  if (!ytPromise) {
-    ytPromise = new Promise((resolve, reject) => {
-      const prev = window.onYouTubeIframeAPIReady;
-      window.onYouTubeIframeAPIReady = () => { prev?.(); resolve(window.YT); };
-      const s = document.createElement('script');
-      s.src = 'https://www.youtube.com/iframe_api';
-      s.onerror = () => { ytPromise = null; reject(new Error('youtube blocked')); };
-      document.head.append(s);
-      setTimeout(() => reject(new Error('youtube timeout')), 10000);
-    });
-  }
-  return ytPromise;
-}
-
-// {type: 'video', youtube: id, start?, end?, title_he, source_he}. When it ends
-// the player is taken away, so YouTube's suggestions never show, and the quiz opens.
+// {type: 'video', youtube: id, duration, title_he, source_he}. The file comes
+// from our own server (see media.js), never from YouTube. When it ends the
+// player is taken away and the quiz opens.
 export function renderVideo(root, ex, { setReady, track }) {
   let finished = false;
   const done = () => { if (!finished) { finished = true; setReady(true); } };
   const box = el('div', { class: 'video-box' });
-  const host = el('div', { id: `yt-${Math.random().toString(36).slice(2)}` });
-  box.append(host);
   const note = el('p', { class: 'muted small video-note' });
   root.append(el('div', { class: 'story video' },
     el('h2', { class: 'ex-title' }, '🎬 ', ...mixed(ex.title_he || '')), box, note,
     ex.source_he ? el('p', { class: 'muted small story-source' }, ...mixed(ex.source_he)) : null));
-  const fail = () => {
-    box.replaceChildren(el('div', { class: 'story-scene story-end bg-night' },
-      el('span', { class: 'story-title-icon' }, '📵'),
-      el('span', { class: 'story-title-text' }, 'הסרטון לא נטען. אולי אין אינטרנט, או שיוטיוב חסום במכשיר.')));
-    done();
-  };
-  loadYouTube().then((YT) => {
+  const card = (icon, text) => box.replaceChildren(el('div', { class: 'story-scene story-end bg-night' },
+    el('span', { class: 'story-title-icon' }, icon), el('span', { class: 'story-title-text' }, text)));
+  // A video that can't play never holds up the quiz.
+  const fail = (text) => { card('📵', text); done(); };
+  videoUrl(ex.youtube).then((src) => {
     if (!root.isConnected) return;
-    // eslint-disable-next-line no-new
-    new YT.Player(host.id, {
-      host: 'https://www.youtube-nocookie.com',
-      videoId: ex.youtube,
-      playerVars: { rel: 0, playsinline: 1, modestbranding: 1, hl: 'he', cc_lang_pref: 'he', origin: location.origin, start: ex.start || 0, ...(ex.end ? { end: ex.end } : {}) },
-      events: {
-        onStateChange: (e) => {
-          if (e.data === 1) track?.('play', '');
-          if (e.data === 0) {
-            box.replaceChildren(el('div', { class: 'story-scene story-end bg-night' },
-              el('span', { class: 'story-title-icon' }, '🎬'), el('span', { class: 'story-title-text' }, 'סוף! עכשיו חידון קצר')));
-            done();
-          }
-        },
-        onError: fail,
-      },
+    if (!src) { fail('כדי לראות סרטונים, צריך לחבר את המכשיר למשפחה (בהגדרות, סנכרון).'); return; }
+    const video = el('video', {
+      src, controls: '', playsinline: '', preload: 'metadata', controlslist: 'nodownload', disablepictureinpicture: '',
     });
-    // Some devices never report the end; after a while the quiz can open anyway.
-    setTimeout(() => { if (!finished && root.isConnected) { note.textContent = 'סיימתם לצפות? אפשר לעבור לחידון.'; done(); } }, Math.max(30, ((ex.end || ex.duration || 0) - (ex.start || 0)) + 20) * 1000);
-  }).catch(fail);
+    let started = false;
+    video.addEventListener('play', () => { if (!started) { started = true; track?.('play', ''); } });
+    video.addEventListener('ended', () => { card('🎬', 'סוף! עכשיו חידון קצר'); done(); });
+    video.addEventListener('error', () => fail('הסרטון לא נטען. אולי אין חיבור לשרת של הבית, או שהסרטון עוד יורד אליו. אפשר לנסות שוב אחר כך.'));
+    box.append(video);
+    // Leaving the lesson stops the video.
+    const watch = setInterval(() => { if (!root.isConnected) { video.pause(); video.removeAttribute('src'); video.load(); clearInterval(watch); } }, 1000);
+    // If the end is somehow missed, the quiz opens a while after the video's length.
+    setTimeout(() => { if (!finished && root.isConnected) { note.textContent = 'סיימתם לצפות? אפשר לעבור לחידון.'; done(); } }, Math.max(30, (ex.duration || 0) + 20) * 1000);
+  });
   return { getAnswer: () => null, info: true, gated: true, ready: () => finished, nextLabel: 'לחידון ←' };
 }

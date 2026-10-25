@@ -88,6 +88,12 @@ def main():
                           'open': True, 'lessons': write_lessons(c, vid, VIDEOS.pop(c['id']))})
         out['courses'].append({k: c[k] for k in ('id', 'area', 'icon', 'color', 'title_he', 'about_he', 'grades')} | {'units': units})
     assert not VIDEOS, f'videos for unknown courses: {list(VIDEOS)}'
+    # The list the Pi add-on (pi/english_media) downloads and serves.
+    videos = [{'youtube': ex['youtube'], 'lesson': lid, 'title_he': ex['title_he']}
+              for lid in out['lesson_titles'] for ex in json.load(open(os.path.join(ROOT, 'lessons', f'{lid}.json'), encoding='utf-8'))['exercises']
+              if ex['type'] == 'video']
+    with open(os.path.join(ROOT, 'videos.json'), 'w', encoding='utf-8') as f:
+        json.dump(videos, f, ensure_ascii=False, indent=1)
     with open(os.path.join(ROOT, 'know.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
     print(f"{len(out['courses'])} courses, {len(out['lesson_titles'])} lessons, {count} exercises")

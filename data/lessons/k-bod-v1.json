@@ -1,0 +1,64 @@
+{
+ "id": "k-bod-v1",
+ "unit_id": "k-body-video",
+ "course": "body",
+ "title_he": "🎬 הלב וכלי הדם",
+ "exercises": [
+  {
+   "type": "video",
+   "title_he": "הלב וכלי הדם",
+   "youtube": "_MJCnIaVw6g",
+   "source_he": "סרטון: הילימוד",
+   "duration": 480,
+   "id": "k-bod-v1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן מוביל עורק את הדם?",
+   "answer": "מהלב לגוף",
+   "options": [
+    "מהלב לגוף",
+    "מהגוף ללב",
+    "מהבטן לרגליים בלבד"
+   ],
+   "explain_he": "עורקים יוצאים מהלב.",
+   "id": "k-bod-v1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה חללים יש בלב?",
+   "answer": "ארבעה",
+   "options": [
+    "ארבעה",
+    "שניים",
+    "אחד"
+   ],
+   "explain_he": "שתי עליות ושני חדרים.",
+   "id": "k-bod-v1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצר את קולות הלב?",
+   "answer": "המסתמים",
+   "options": [
+    "המסתמים",
+    "הריאות",
+    "העצמות"
+   ],
+   "explain_he": "המסתמים נסגרים ופותחים.",
+   "id": "k-bod-v1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה תפקיד הטסיות בדם?",
+   "answer": "לסתום פצעים",
+   "options": [
+    "לסתום פצעים",
+    "לשאת חמצן",
+    "לעכל אוכל"
+   ],
+   "explain_he": "הטסיות עוצרות דימום.",
+   "id": "k-bod-v1e5"
+  }
+ ]
+}
