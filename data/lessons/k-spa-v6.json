@@ -1,8 +1,8 @@
 {
  "id": "k-spa-v6",
- "unit_id": "k-space-video",
+ "unit_id": "k-space",
  "course": "space",
- "title_he": "🎬 יום בחיי אסטרונאוט: צחצוח שיניים ומקלחת",
+ "title_he": "יום בחיי אסטרונאוט: צחצוח שיניים ומקלחת",
  "exercises": [
   {
    "type": "video",

@@ -1,8 +1,8 @@
 {
  "id": "k-ani-v1",
- "unit_id": "k-animals-video",
+ "unit_id": "k-animals",
  "course": "animals",
- "title_he": "🎬 משפחות של חיות",
+ "title_he": "משפחות של חיות",
  "exercises": [
   {
    "type": "video",

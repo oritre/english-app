@@ -1,8 +1,8 @@
 {
  "id": "k-inv-v1",
- "unit_id": "k-inventors-video",
+ "unit_id": "k-inventors",
  "course": "inventors",
- "title_he": "🎬 איך הומצא הגפרור?",
+ "title_he": "איך הומצא הגפרור?",
  "exercises": [
   {
    "type": "video",

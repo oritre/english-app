@@ -1,8 +1,8 @@
 {
  "id": "k-ani-v4",
- "unit_id": "k-animals-video",
+ "unit_id": "k-animals",
  "course": "animals",
- "title_he": "🎬 חיות בר בעיר",
+ "title_he": "חיות בר בעיר",
  "exercises": [
   {
    "type": "video",

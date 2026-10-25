@@ -1,6 +1,7 @@
 import { el, mixed } from '../util.js';
 import { loadLesson, loadThink, loadKnow } from '../course.js';
 import { rendererFor, isSupported } from '../exercises/index.js';
+import { forGrade } from '../storyLogic.js';
 import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
 import { glossify, closePop } from '../gloss.js';
@@ -21,7 +22,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   if (profile?.asr && getSettings().asr !== profile.asr) setSetting('asr', profile.asr);
   const lesson = lessonId === COACH_LESSON ? coachLesson(profile, module) : await loadLesson(lessonId);
   if (lessonId === COACH_LESSON) lessonId = lesson.id;
-  const exercises = lesson.exercises.filter(isSupported);
+  const exercises = forGrade(lesson.exercises, profile?.grade).filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
   setReadAloud(profile?.read_aloud);
   const queue = exercises.slice();
