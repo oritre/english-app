@@ -1,7 +1,7 @@
 {
-  "name": "אנגלית צעד צעד",
-  "short_name": "אנגלית",
-  "description": "שיעורי אנגלית קצרים לדוברי עברית",
+  "name": "לימודים",
+  "short_name": "לימודים",
+  "description": "אנגלית, חשיבה ומדעים וידע כללי, בכמה דקות ביום",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

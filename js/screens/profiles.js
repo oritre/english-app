@@ -54,7 +54,7 @@ export function renderProfileCreate(root, nav, { first } = {}) {
 
   root.replaceChildren(el('div', { class: 'screen form' },
     first ? el('div', { class: 'welcome' }, el('div', { class: 'celebrate' }, '👋'),
-      el('h1', {}, 'ברוכים הבאים!'), el('p', { class: 'muted' }, 'שיעורי אנגלית קצרים, כמה דקות ביום.'))
+      el('h1', {}, 'ברוכים הבאים!'), el('p', { class: 'muted' }, 'לימודים: אנגלית, חשיבה ומדעים וידע כללי, כמה דקות ביום.'))
       : el('div', { class: 'form-top' },
         el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'חזרה', onclick: () => nav('profiles') }, '→'),
         el('h1', {}, 'לומד חדש')),
