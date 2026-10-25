@@ -1,7 +1,7 @@
 // App shell is cache-first; course data and the Firebase config are network-first
 // so new lessons (or turning sync on) show up as soon as they're deployed, and
 // still work offline afterwards.
-const CACHE_NAME = 'english-app-v37';
+const CACHE_NAME = 'english-app-v38';
 const ASR_CACHE = 'asr-lib-3.8.1';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './css/styles.css',
@@ -15,7 +15,15 @@ const APP_SHELL = [
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(caches.open(CACHE_NAME).then((c) => c.addAll(APP_SHELL)).then(() => self.skipWaiting()));
+  // GitHub Pages' CDN can serve the previous release for a few minutes after a
+  // deploy, so each file is fetched past every cache (a ?v= query and no HTTP
+  // cache) and stored under its plain URL. Otherwise old files would be kept
+  // in the new version's cache until the next release.
+  const fresh = (c, url) => fetch(new Request(`${url}?v=${CACHE_NAME}`, { cache: 'reload' })).then((res) => {
+    if (!res.ok) throw new Error(`${url}: ${res.status}`);
+    return c.put(url, res);
+  });
+  event.waitUntil(caches.open(CACHE_NAME).then((c) => Promise.all(APP_SHELL.map((url) => fresh(c, url)))).then(() => self.skipWaiting()));
 });
 
 self.addEventListener('activate', (event) => {
