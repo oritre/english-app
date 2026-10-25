@@ -14,6 +14,11 @@ Each module is a short lesson: start with teach cards (type "teach") whose
 "narration" is a list of {"he": ...} / {"en": ...} parts read aloud in turn, then
 a small quiz. A string item is an exercise id copied from data/lessons, so it
 renders exactly as in its lesson; an object is a new exercise in the same schema.
+
+The Brilliant-style courses (data/think.json, lessons t-*) log to the same
+attempts, so the summary covers them too. Their exercise types (mcq, number,
+balance, fraction, numberline, order, robot, buckets, angle, sim) can be used in
+modules; see tools/think_content.py for the schema of each.
 """
 import collections, datetime, glob, json, os, sys, urllib.request
 

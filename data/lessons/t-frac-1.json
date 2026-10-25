@@ -1,0 +1,105 @@
+{
+ "id": "t-frac-1",
+ "unit_id": "t-frac",
+ "course": "fractions",
+ "title_he": "חצי ורבע",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מה זה שבר?",
+   "body_he": [
+    "מחלקים דבר אחד לחלקים שווים.",
+    "רבע, 1/4, הוא חלק אחד מתוך ארבעה חלקים שווים."
+   ],
+   "say_he": "מה זה שבר? מחלקים דבר אחד לחלקים שווים. רבע, 1/4, הוא חלק אחד מתוך ארבעה חלקים שווים.",
+   "id": "t-frac-1e1"
+  },
+  {
+   "type": "fraction",
+   "prompt_he": "שחקו: צבעו חלקים בפיצה וראו איך השבר משתנה",
+   "parts": 4,
+   "answer": 0,
+   "shape": "circle",
+   "explore": true,
+   "id": "t-frac-1e2"
+  },
+  {
+   "type": "fraction",
+   "prompt_he": "צבעו חצי (1/2) מהשוקולד",
+   "parts": 2,
+   "answer": 1,
+   "explain_he": "השוקולד מחולק ל-2. חצי הוא חלק אחד מתוך שניים.",
+   "id": "t-frac-1e3"
+  },
+  {
+   "type": "fraction",
+   "prompt_he": "צבעו רבע (1/4) מהפיצה",
+   "parts": 4,
+   "answer": 1,
+   "explain_he": "רבע הוא משולש אחד מתוך ארבעה.",
+   "shape": "circle",
+   "id": "t-frac-1e4"
+  },
+  {
+   "type": "fraction",
+   "prompt_he": "צבעו 3/4 מהשוקולד",
+   "parts": 4,
+   "answer": 3,
+   "explain_he": "3/4 זה שלושה חלקים מתוך ארבעה.",
+   "id": "t-frac-1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה שבר צבוע?",
+   "answer": "2/4",
+   "options": [
+    "2/4",
+    "1/4",
+    "4/2"
+   ],
+   "explain_he": "שני חלקים צבועים מתוך ארבעה: 2/4. שימו לב שזה גם חצי!",
+   "bars": [
+    {
+     "parts": 4,
+     "shaded": 2,
+     "label": ""
+    }
+   ],
+   "id": "t-frac-1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גדול יותר?",
+   "answer": "1/2",
+   "options": [
+    "1/2",
+    "1/4",
+    "הם שווים"
+   ],
+   "explain_he": "כשמחלקים ליותר חלקים, כל חלק קטן יותר. חצי גדול מרבע.",
+   "bars": [
+    {
+     "parts": 2,
+     "shaded": 1,
+     "label": "1/2"
+    },
+    {
+     "parts": 4,
+     "shaded": 1,
+     "label": "1/4"
+    }
+   ],
+   "id": "t-frac-1e7"
+  },
+  {
+   "type": "fraction",
+   "prompt_he": "צבעו חצי פיצה. שימו לב: יש 8 משולשים",
+   "parts": 8,
+   "answer": "1/2",
+   "explain_he": "חצי מ-8 משולשים זה 4 משולשים: 4/8 = 1/2.",
+   "hint_he": "כמה זה חצי מ-8?",
+   "shape": "circle",
+   "id": "t-frac-1e8"
+  }
+ ]
+}

@@ -40,7 +40,9 @@ test('xp', () => {
 test('every lesson is well formed and its answers can be built from its tiles', () => {
   const course = JSON.parse(readFileSync(new URL('../data/course.json', import.meta.url)));
   const ids = [...course.starter_units, ...course.units].flatMap((u) => (u.bonus ? [...u.lessons, u.bonus] : u.lessons)).concat(course.unseen || []);
-  assert.deepEqual([...ids].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
+  const think = JSON.parse(readFileSync(new URL('../data/think.json', import.meta.url)));
+  const thinkIds = think.courses.flatMap((c) => c.units.flatMap((u) => u.lessons));
+  assert.deepEqual([...ids, ...thinkIds].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
   for (const id of ids) {
     const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
     for (const ex of lesson.exercises) {
@@ -242,4 +244,71 @@ test('coach plan: modules get week-based ids, an old single-lesson plan still wo
   assert.equal(coachLesson(old).id, 'coach-2026-10-21');
   assert.ok(!hasCoach({}));
   assert.equal(lessonTitle({}, 'coach-2026-10-21-1'), 'תרגול אישי');
+});
+
+import { parseNum, sameNumber, runRobot } from '../js/thinkLogic.js';
+
+test('think: numbers and fractions compare by value', () => {
+  assert.equal(parseNum('3/4'), 0.75);
+  assert.equal(parseNum('-2'), -2);
+  assert.equal(parseNum('1/0'), null);
+  assert.equal(parseNum('abc'), null);
+  assert.ok(sameNumber('6/8', '3/4'));
+  assert.ok(!sameNumber('6/8', '3/4', { exact: true }));
+  assert.ok(sameNumber('12', '12'));
+  assert.ok(!sameNumber('', '0'));
+});
+
+test('think: the robot runs, repeats and crashes into walls', () => {
+  assert.ok(runRobot(['R..*'], ['right', 'x3']).ok);
+  assert.ok(!runRobot(['R..*'], ['right', 'x2']).ok);
+  assert.ok(runRobot(['R#*'], ['right']).crash);
+  assert.ok(runRobot(['R.'], ['left']).crash);
+});
+
+test('every think exercise is solvable as written', () => {
+  const think = JSON.parse(readFileSync(new URL('../data/think.json', import.meta.url)));
+  assert.ok(think.courses.length >= 6);
+  for (const c of think.courses) {
+    assert.ok(c.id && c.icon && /^#[0-9a-f]{6}$/i.test(c.color) && c.title_he && c.about_he, c.id);
+    for (const id of c.units.flatMap((u) => u.lessons)) {
+      const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
+      assert.ok(think.lesson_titles[id] && lesson.exercises.length >= 4, id);
+      for (const ex of lesson.exercises) {
+        const where = `${id} ${ex.id}`;
+        if (!['teach', 'sim'].includes(ex.type) && !ex.explore) assert.ok(ex.explain_he, `${where}: explanation`);
+        if (ex.type === 'mcq') {
+          const labels = ex.options.map((o) => (typeof o === 'object' ? o.label : o));
+          assert.ok(labels.includes(ex.answer) && new Set(labels).size === labels.length, where);
+        }
+        if (ex.type === 'number') assert.ok(parseNum(ex.answer) != null, where);
+        if (ex.type === 'balance') {
+          const w = (side) => side.reduce((s, it) => s + (it.w ?? 0) * (it.adjustable ? Number(ex.answer) : it.n), 0);
+          assert.equal(w(ex.left), w(ex.right), `${where}: the answer balances`);
+          assert.equal([...ex.left, ...ex.right].filter((it) => it.adjustable).length, 1, where);
+        }
+        if (ex.type === 'fraction' && !ex.explore) {
+          const a = String(ex.answer).includes('/') ? parseNum(ex.answer) * ex.parts : Number(ex.answer);
+          assert.ok(Number.isInteger(Math.round(a * 1e9) / 1e9) && a >= 0 && a <= ex.parts, `${where}: can be coloured`);
+        }
+        if (ex.type === 'numberline') {
+          const a = parseNum(ex.answer);
+          assert.ok(a >= ex.min && a <= ex.max, where);
+          assert.ok(Math.abs(Math.round((a - ex.min) / ex.step) * ex.step + ex.min - a) < 1e-9, `${where}: on a step`);
+        }
+        if (ex.type === 'robot') {
+          assert.ok(runRobot(ex.grid, ex.solution).ok, `${where}: solution reaches the star`);
+          if (ex.max) assert.ok(ex.solution.length <= ex.max, where);
+          if (ex.commands) assert.ok(ex.solution.every((t) => ex.commands.includes(t)), `${where}: solution uses the given tiles`);
+          assert.equal(new Set(ex.grid.map((r) => r.length)).size, 1, `${where}: rectangular grid`);
+        }
+        if (ex.type === 'buckets') {
+          const ids = ex.buckets.map((b) => b.id);
+          assert.ok(ex.items.every((it) => ids.includes(it.in)), where);
+        }
+        if (ex.type === 'angle') assert.ok(ex.answer >= 0 && ex.answer <= 180, where);
+        if (ex.type === 'order') assert.ok(ex.items.length >= 3 && new Set(ex.items).size === ex.items.length, where);
+      }
+    }
+  }
 });

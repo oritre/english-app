@@ -12,6 +12,8 @@ export const SKILLS = [
   { id: 'speaking', name: 'דיבור', types: ['speak'] },
   { id: 'reading', name: 'הבנת הנקרא', types: ['read'] },
   { id: 'abc', name: 'אותיות וצלילים', types: ['pick', 'spell'] },
+  { id: 'math', name: 'חשבון ושברים', types: ['number', 'balance', 'fraction', 'numberline'] },
+  { id: 'logic', name: 'חשיבה והיגיון', types: ['mcq', 'order'] },
 ];
 const MIN_FOR_VERDICT = 5;
 

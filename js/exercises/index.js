@@ -11,6 +11,7 @@ import { renderRead } from './read.js';
 import { renderTeach } from './teach.js';
 import { renderPick } from './pick.js';
 import { renderSpell } from './spell.js';
+import { renderMcq, renderNumber, renderBalance, renderFraction, renderNumberLine, renderOrder, renderRobot, renderBuckets, renderAngle, renderSim } from './think.js';
 
 export const RENDERERS = {
   choose: renderChoose,
@@ -25,6 +26,16 @@ export const RENDERERS = {
   teach: renderTeach,
   pick: renderPick,
   spell: renderSpell,
+  mcq: renderMcq,
+  number: renderNumber,
+  balance: renderBalance,
+  fraction: renderFraction,
+  numberline: renderNumberLine,
+  order: renderOrder,
+  robot: renderRobot,
+  buckets: renderBuckets,
+  angle: renderAngle,
+  sim: renderSim,
 };
 
 export function isSupported(ex) {
