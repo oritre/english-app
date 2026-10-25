@@ -14,6 +14,11 @@
    "id": "science",
    "icon": "🔬",
    "title_he": "מדע"
+  },
+  {
+   "id": "tech",
+   "icon": "💻",
+   "title_he": "מחשבים וטכנולוגיה"
   }
  ],
  "courses": [
@@ -28,6 +33,7 @@
     3,
     8
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-alg",
@@ -53,6 +59,7 @@
     3,
     6
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-frac",
@@ -78,6 +85,7 @@
     2,
     7
    ],
+   "moe": false,
    "units": [
     {
      "id": "t-pat",
@@ -101,6 +109,7 @@
     2,
     13
    ],
+   "moe": false,
    "units": [
     {
      "id": "t-log",
@@ -115,7 +124,7 @@
   },
   {
    "id": "code",
-   "area": "logic",
+   "area": "tech",
    "icon": "🤖",
    "color": "#16a34a",
    "title_he": "חשיבה בקוד",
@@ -124,6 +133,7 @@
     1,
     13
    ],
+   "moe": false,
    "units": [
     {
      "id": "t-code",
@@ -147,6 +157,7 @@
     4,
     9
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-prob",
@@ -170,6 +181,7 @@
     4,
     7
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-geo",
@@ -193,6 +205,7 @@
     1,
     4
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-sci",
@@ -216,6 +229,7 @@
     6,
     8
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-neg",
@@ -239,6 +253,7 @@
     5,
     8
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-pct",
@@ -262,6 +277,7 @@
     4,
     7
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-num",
@@ -285,6 +301,7 @@
     5,
     9
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-stat",
@@ -308,6 +325,7 @@
     3,
     6
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-elec",
@@ -331,6 +349,7 @@
     4,
     8
    ],
+   "moe": false,
    "units": [
     {
      "id": "t-phys",
@@ -345,7 +364,7 @@
   },
   {
    "id": "ai",
-   "area": "logic",
+   "area": "tech",
    "icon": "🧠",
    "color": "#9333ea",
    "title_he": "איך בינה מלאכותית לומדת",
@@ -354,6 +373,7 @@
     4,
     13
    ],
+   "moe": false,
    "units": [
     {
      "id": "t-ai",
@@ -368,7 +388,7 @@
   },
   {
    "id": "python",
-   "area": "logic",
+   "area": "tech",
    "icon": "🐍",
    "color": "#15803d",
    "title_he": "קוד אמיתי: פייתון",
@@ -377,6 +397,7 @@
     6,
     13
    ],
+   "moe": false,
    "units": [
     {
      "id": "t-py",
@@ -400,6 +421,7 @@
     1,
     2
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-cnt",
@@ -424,6 +446,7 @@
     1,
     3
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-nat",
@@ -447,6 +470,7 @@
     2,
     4
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-mul",
@@ -470,6 +494,7 @@
     2,
     4
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-clk",
@@ -493,6 +518,7 @@
     8,
     9
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-pyth",
@@ -515,6 +541,7 @@
     8,
     9
    ],
+   "moe": true,
    "units": [
     {
      "id": "t-lin",
@@ -522,6 +549,558 @@
      "about_he": "קשרים שגדלים בקצב קבוע",
      "lessons": [
       "t-lin-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "placevalue",
+   "area": "math",
+   "icon": "🔟",
+   "color": "#ea580c",
+   "title_he": "אחדות, עשרות ומאות",
+   "about_he": "מספרים עד 1,000 וערך המקום",
+   "grades": [
+    2,
+    3
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-placevalue",
+     "title_he": "אחדות, עשרות ומאות",
+     "about_he": "מספרים עד 1,000 וערך המקום",
+     "lessons": [
+      "t-placevalue-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "decimals",
+   "area": "math",
+   "icon": "🔸",
+   "color": "#0891b2",
+   "title_he": "מספרים עשרוניים",
+   "about_he": "עשיריות, מאיות ומחירים בחנות",
+   "grades": [
+    5,
+    7
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-decimals",
+     "title_he": "מספרים עשרוניים",
+     "about_he": "עשיריות, מאיות ומחירים בחנות",
+     "lessons": [
+      "t-decimals-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ratio",
+   "area": "math",
+   "icon": "⚗️",
+   "color": "#7c3aed",
+   "title_he": "יחס ופרופורציה",
+   "about_he": "מתכונים, מפות והגדלות",
+   "grades": [
+    6,
+    8
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-ratio",
+     "title_he": "יחס ופרופורציה",
+     "about_he": "מתכונים, מפות והגדלות",
+     "lessons": [
+      "t-ratio-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "coordinates",
+   "area": "math",
+   "icon": "📍",
+   "color": "#2563eb",
+   "title_he": "מערכת צירים",
+   "about_he": "נקודות, מפות ומצב גרפי",
+   "grades": [
+    6,
+    8
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-coordinates",
+     "title_he": "מערכת צירים",
+     "about_he": "נקודות, מפות ומצב גרפי",
+     "lessons": [
+      "t-coordinates-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "volume",
+   "area": "math",
+   "icon": "📦",
+   "color": "#c2410c",
+   "title_he": "שטח ונפח",
+   "about_he": "שטחים של צורות ונפח של קופסה",
+   "grades": [
+    5,
+    7
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-volume",
+     "title_he": "שטח ונפח",
+     "about_he": "שטחים של צורות ונפח של קופסה",
+     "lessons": [
+      "t-volume-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "materials",
+   "area": "science",
+   "icon": "🧪",
+   "color": "#0d9488",
+   "title_he": "חומרים ותערובות",
+   "about_he": "תכונות של חומרים ואיך מפרידים תערובת",
+   "grades": [
+    2,
+    5
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-materials",
+     "title_he": "חומרים ותערובות",
+     "about_he": "תכונות של חומרים ואיך מפרידים תערובת",
+     "lessons": [
+      "t-materials-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plants",
+   "area": "science",
+   "icon": "🌻",
+   "color": "#16a34a",
+   "title_he": "צמחים",
+   "about_he": "חלקי הצמח, מה הוא צריך ואיך הוא מתרבה",
+   "grades": [
+    2,
+    4
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-plants",
+     "title_he": "צמחים",
+     "about_he": "חלקי הצמח, מה הוא צריך ואיך הוא מתרבה",
+     "lessons": [
+      "t-plants-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "body",
+   "area": "science",
+   "icon": "🫀",
+   "color": "#dc2626",
+   "title_he": "גוף האדם",
+   "about_he": "שלד, שרירים, נשימה ועיכול",
+   "grades": [
+    4,
+    6
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-body",
+     "title_he": "גוף האדם",
+     "about_he": "שלד, שרירים, נשימה ועיכול",
+     "lessons": [
+      "t-body-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "space",
+   "area": "science",
+   "icon": "🪐",
+   "color": "#1e3a8a",
+   "title_he": "מערכת השמש",
+   "about_he": "כוכבי לכת, יום ולילה, ירח ועונות",
+   "grades": [
+    4,
+    7
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-space",
+     "title_he": "מערכת השמש",
+     "about_he": "כוכבי לכת, יום ולילה, ירח ועונות",
+     "lessons": [
+      "t-space-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "energy",
+   "area": "science",
+   "icon": "⚡",
+   "color": "#ca8a04",
+   "title_he": "אנרגיה",
+   "about_he": "סוגי אנרגיה, המרות ומקורות",
+   "grades": [
+    5,
+    8
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-energy",
+     "title_he": "אנרגיה",
+     "about_he": "סוגי אנרגיה, המרות ומקורות",
+     "lessons": [
+      "t-energy-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ecology",
+   "area": "science",
+   "icon": "🌍",
+   "color": "#15803d",
+   "title_he": "אקולוגיה",
+   "about_he": "שרשראות מזון, בתי גידול והשפעת האדם",
+   "grades": [
+    5,
+    8
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-ecology",
+     "title_he": "אקולוגיה",
+     "about_he": "שרשראות מזון, בתי גידול והשפעת האדם",
+     "lessons": [
+      "t-ecology-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gates",
+   "area": "logic",
+   "icon": "🔌",
+   "color": "#9333ea",
+   "title_he": "מחשב משערים",
+   "about_he": "כן ולא, וגם ואו: איך מחשב חושב",
+   "grades": [
+    5,
+    13
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-gates",
+     "title_he": "מחשב משערים",
+     "about_he": "כן ולא, וגם ואו: איך מחשב חושב",
+     "lessons": [
+      "t-gates-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "truth",
+   "area": "logic",
+   "icon": "🎭",
+   "color": "#be123c",
+   "title_he": "אמת ושקר",
+   "about_he": "אבירים שתמיד אומרים אמת ונוכלים שתמיד משקרים",
+   "grades": [
+    4,
+    13
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-truth",
+     "title_he": "אמת ושקר",
+     "about_he": "אבירים שתמיד אומרים אמת ונוכלים שתמיד משקרים",
+     "lessons": [
+      "t-truth-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sets",
+   "area": "logic",
+   "icon": "⭕",
+   "color": "#0e7490",
+   "title_he": "דיאגרמות ון",
+   "about_he": "קבוצות, חיתוכים ומי שייך לאן",
+   "grades": [
+    4,
+    9
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-sets",
+     "title_he": "דיאגרמות ון",
+     "about_he": "קבוצות, חיתוכים ומי שייך לאן",
+     "lessons": [
+      "t-sets-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "algorithms",
+   "area": "tech",
+   "icon": "🔎",
+   "color": "#4338ca",
+   "title_he": "אלגוריתמים",
+   "about_he": "איך מחפשים ומסדרים מהר",
+   "grades": [
+    5,
+    13
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-algorithms",
+     "title_he": "אלגוריתמים",
+     "about_he": "איך מחפשים ומסדרים מהר",
+     "lessons": [
+      "t-algorithms-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "crypto",
+   "area": "tech",
+   "icon": "🔐",
+   "color": "#1d4ed8",
+   "title_he": "צפנים וסודות",
+   "about_he": "מצפינים הודעות כמו מרגלים",
+   "grades": [
+    3,
+    13
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-crypto",
+     "title_he": "צפנים וסודות",
+     "about_he": "מצפינים הודעות כמו מרגלים",
+     "lessons": [
+      "t-crypto-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "internet",
+   "area": "tech",
+   "icon": "🌐",
+   "color": "#0369a1",
+   "title_he": "איך האינטרנט עובד",
+   "about_he": "חבילות מידע, כתובות ומנועי חיפוש",
+   "grades": [
+    4,
+    13
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-internet",
+     "title_he": "איך האינטרנט עובד",
+     "about_he": "חבילות מידע, כתובות ומנועי חיפוש",
+     "lessons": [
+      "t-internet-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "exponents",
+   "area": "math",
+   "icon": "🚀",
+   "color": "#db2777",
+   "title_he": "חזקות",
+   "about_he": "כפל חוזר וגדילה מהירה",
+   "grades": [
+    6,
+    9
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-exponents",
+     "title_he": "חזקות",
+     "about_he": "כפל חוזר וגדילה מהירה",
+     "lessons": [
+      "t-exponents-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "functions",
+   "area": "math",
+   "icon": "🎛️",
+   "color": "#6d28d9",
+   "title_he": "פונקציות",
+   "about_he": "מכונה שמקבלת מספר ומחזירה מספר",
+   "grades": [
+    7,
+    10
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-functions",
+     "title_he": "פונקציות",
+     "about_he": "מכונה שמקבלת מספר ומחזירה מספר",
+     "lessons": [
+      "t-functions-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "infinity",
+   "area": "math",
+   "icon": "♾️",
+   "color": "#0f172a",
+   "title_he": "אינסוף",
+   "about_he": "פרדוקסים ומספרים שלא נגמרים",
+   "grades": [
+    6,
+    13
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-infinity",
+     "title_he": "אינסוף",
+     "about_he": "פרדוקסים ומספרים שלא נגמרים",
+     "lessons": [
+      "t-infinity-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "games",
+   "area": "logic",
+   "icon": "♟️",
+   "color": "#b45309",
+   "title_he": "משחקי אסטרטגיה",
+   "about_he": "לנצח במשחק בעזרת חשיבה",
+   "grades": [
+    3,
+    13
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-games",
+     "title_he": "משחקי אסטרטגיה",
+     "about_he": "לנצח במשחק בעזרת חשיבה",
+     "lessons": [
+      "t-games-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "motion",
+   "area": "science",
+   "icon": "🏎️",
+   "color": "#0f766e",
+   "title_he": "תנועה ומהירות",
+   "about_he": "דרך, זמן ומהירות",
+   "grades": [
+    6,
+    10
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-motion",
+     "title_he": "תנועה ומהירות",
+     "about_he": "דרך, זמן ומהירות",
+     "lessons": [
+      "t-motion-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "light",
+   "area": "science",
+   "icon": "🔦",
+   "color": "#a16207",
+   "title_he": "אור וקול",
+   "about_he": "צללים, מראות, הד ומוזיקה",
+   "grades": [
+    3,
+    8
+   ],
+   "moe": true,
+   "units": [
+    {
+     "id": "t-light",
+     "title_he": "אור וקול",
+     "about_he": "צללים, מראות, הד ומוזיקה",
+     "lessons": [
+      "t-light-1"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "atoms",
+   "area": "science",
+   "icon": "⚛️",
+   "color": "#7e22ce",
+   "title_he": "אטומים וכימיה",
+   "about_he": "ממה הכל עשוי",
+   "grades": [
+    7,
+    13
+   ],
+   "moe": false,
+   "units": [
+    {
+     "id": "t-atoms",
+     "title_he": "אטומים וכימיה",
+     "about_he": "ממה הכל עשוי",
+     "lessons": [
+      "t-atoms-1"
      ]
     }
    ]
@@ -574,6 +1153,30 @@
   "t-clk-1": "מה השעה?",
   "t-clk-2": "מודדים",
   "t-pyth-1": "ריבועים על הצלעות",
-  "t-lin-1": "קצב קבוע"
+  "t-lin-1": "קצב קבוע",
+  "t-placevalue-1": "ערך המקום",
+  "t-decimals-1": "עשיריות",
+  "t-ratio-1": "יחס",
+  "t-coordinates-1": "נקודה במישור",
+  "t-volume-1": "שטח משולש ומקבילית",
+  "t-materials-1": "תכונות של חומרים",
+  "t-plants-1": "חלקי הצמח",
+  "t-body-1": "מערכות בגוף",
+  "t-space-1": "השמש והכוכבים",
+  "t-energy-1": "אנרגיה עוברת צורה",
+  "t-ecology-1": "מי אוכל את מי",
+  "t-gates-1": "שערים לוגיים",
+  "t-truth-1": "אבירים ונוכלים",
+  "t-sets-1": "קבוצות",
+  "t-algorithms-1": "חיפוש חכם",
+  "t-crypto-1": "צופן הזזה",
+  "t-internet-1": "מסע של הודעה",
+  "t-exponents-1": "חזקות",
+  "t-functions-1": "מכונת מספרים",
+  "t-infinity-1": "מלון אינסופי",
+  "t-games-1": "משחק הגפרורים",
+  "t-motion-1": "מהירות",
+  "t-light-1": "אור וצל",
+  "t-atoms-1": "אבני הבניין"
  }
 }

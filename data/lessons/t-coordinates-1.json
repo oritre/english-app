@@ -1,0 +1,70 @@
+{
+ "id": "t-coordinates-1",
+ "unit_id": "t-coordinates",
+ "course": "coordinates",
+ "title_he": "נקודה במישור",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "שני מספרים לכל מקום",
+   "body_he": [
+    "נקודה (3, 2) נמצאת 3 צעדים ימינה ו-2 צעדים למעלה מנקודת הראשית (0, 0)."
+   ],
+   "say_he": "שני מספרים לכל מקום נקודה (3, 2) נמצאת 3 צעדים ימינה ו-2 צעדים למעלה מנקודת הראשית (0, 0).",
+   "id": "t-coordinates-1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה הכוכב?",
+   "answer": "(2, 1)",
+   "options": [
+    "(2, 1)",
+    "(1, 2)",
+    "(2, 2)"
+   ],
+   "explain_he": "שני צעדים ימינה ואחד למעלה. קודם x, אחר כך y.",
+   "visual": ". . . .\n. . ⭐ .\n🟢 . . .",
+   "code": true,
+   "id": "t-coordinates-1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הנקודה (3, 4) והנקודה (4, 3): האם הן אותה נקודה?",
+   "answer": "לא",
+   "options": [
+    "לא",
+    "כן"
+   ],
+   "explain_he": "הסדר חשוב: x קודם, y אחר כך.",
+   "keep_order": true,
+   "id": "t-coordinates-1e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה הערך של y בנקודה (5, 2-)?",
+   "answer": "-2",
+   "explain_he": "y הוא המספר השני.",
+   "negative": true,
+   "id": "t-coordinates-1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה רביע נמצאת הנקודה (3-, 2)?",
+   "answer": "שמאל למעלה",
+   "options": [
+    "שמאל למעלה",
+    "ימין למעלה",
+    "שמאל למטה"
+   ],
+   "explain_he": "x שלילי: שמאלה. y חיובי: למעלה.",
+   "id": "t-coordinates-1e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה המרחק בין (1, 3) ל-(6, 3)?",
+   "answer": "5",
+   "explain_he": "אותו y, אז רק x משתנה: 6 - 1 = 5.",
+   "id": "t-coordinates-1e6"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "id": "t-gates-1",
+ "unit_id": "t-gates",
+ "course": "gates",
+ "title_he": "שערים לוגיים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מחשב יודע רק 0 ו-1",
+   "body_he": [
+    "1 זה \"דולק\" ו-0 זה \"כבוי\". שער לוגי מקבל כניסות ומחליט מה לצאת."
+   ],
+   "say_he": "מחשב יודע רק 0 ו-1 1 זה \"דולק\" ו-0 זה \"כבוי\". שער לוגי מקבל כניסות ומחליט מה לצאת.",
+   "id": "t-gates-1e1"
+  },
+  {
+   "type": "teach",
+   "title_he": "שער AND (וגם)",
+   "body_he": [
+    "יוצא 1 רק אם שתי הכניסות 1. כמו דלת עם שני מפתחות."
+   ],
+   "say_he": "שער AND (וגם) יוצא 1 רק אם שתי הכניסות 1. כמו דלת עם שני מפתחות.",
+   "id": "t-gates-1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצא?",
+   "answer": "0",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "ב-AND צריך את שתיהן 1. כאן B = 0.",
+   "visual": "A = 1, B = 0\nA AND B = ?",
+   "code": true,
+   "keep_order": true,
+   "id": "t-gates-1e3"
+  },
+  {
+   "type": "teach",
+   "title_he": "שער OR (או)",
+   "body_he": [
+    "יוצא 1 אם לפחות אחת הכניסות 1."
+   ],
+   "say_he": "שער OR (או) יוצא 1 אם לפחות אחת הכניסות 1.",
+   "id": "t-gates-1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצא?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "ב-OR מספיקה אחת.",
+   "visual": "A = 0, B = 1\nA OR B = ?",
+   "code": true,
+   "keep_order": true,
+   "id": "t-gates-1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצא? (NOT הופך)",
+   "answer": "0",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "NOT הופך 1 ל-0.",
+   "visual": "A = 1\nNOT A = ?",
+   "code": true,
+   "keep_order": true,
+   "id": "t-gates-1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "האור בחדר נדלק אם יש תנועה וגם חשוך. איזה שער מתאים?",
+   "answer": "AND",
+   "options": [
+    "AND",
+    "OR",
+    "NOT"
+   ],
+   "explain_he": "צריך את שני התנאים יחד.",
+   "id": "t-gates-1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יוצא?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "1 AND 0 זה 0, ו-NOT 0 זה 1.",
+   "hint_he": "קודם הסוגריים",
+   "visual": "NOT (1 AND 0) = ?",
+   "code": true,
+   "keep_order": true,
+   "id": "t-gates-1e8"
+  }
+ ]
+}
