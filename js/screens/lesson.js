@@ -1,5 +1,5 @@
 import { el, mixed } from '../util.js';
-import { loadLesson, loadThink } from '../course.js';
+import { loadLesson, loadThink, loadKnow } from '../course.js';
 import { rendererFor, isSupported } from '../exercises/index.js';
 import { checkAnswer } from '../check.js';
 import { diagnose } from '../grammar.js';
@@ -47,7 +47,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     body, footer, quitDialog);
   root.replaceChildren(screen);
   // A think lesson borrows its course's colour for the manipulatives and the progress bar.
-  if (lesson.course) loadThink().then((t) => { const c = (t.courses || []).find((x) => x.id === lesson.course); if (c) screen.style.setProperty('--course', c.color); }).catch(() => {});
+  if (lesson.course) Promise.all([loadThink(), loadKnow()]).then((cats) => { const c = cats.flatMap((t) => t.courses || []).find((x) => x.id === lesson.course); if (c) screen.style.setProperty('--course', c.color); }).catch(() => {});
 
   // Every tap inside an exercise is kept with its answer: which cards were
   // tried before the final one, audio replays, meanings looked up. The report
@@ -115,9 +115,10 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     });
 
     // Explanation cards: nothing to check, just move on.
+    // A cartoon (story / video) holds the button until it has played to the end.
     if (api.info) {
-      checkBtn.textContent = 'הבנתי, ממשיכים';
-      checkBtn.disabled = false;
+      checkBtn.textContent = api.nextLabel || 'הבנתי, ממשיכים';
+      checkBtn.disabled = !!api.gated && !api.ready?.();
       checkBtn.onclick = () => { solved++; next(); };
       return;
     }

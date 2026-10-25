@@ -1,5 +1,5 @@
 import { el, en, mixed } from '../util.js';
-import { loadCourse, loadThink, lessonStates } from '../course.js';
+import { loadCourse, loadThink, loadKnow, lessonStates } from '../course.js';
 import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile, updateProfile } from '../progress.js';
 import { TIERS } from '../league.js';
 import { APP_VERSION } from '../version.js';
@@ -18,19 +18,26 @@ export function topBar(s, profile, nav) {
 
 export async function renderPath(root, nav) {
   await settleLeagues();
-  const [course, think, done, s, profile] = await Promise.all([loadCourse(), loadThink(), doneLessonIds(), stats(), getProfile()]);
-  // Two subjects share the learner, the streak and the weekly coach: English,
-  // and the Brilliant-style courses ("think": math, logic, code, science...).
-  // The chosen subject and open course are kept on the profile, so they sync.
+  const [course, thinkData, know, done, s, profile] = await Promise.all([loadCourse(), loadThink(), loadKnow(), doneLessonIds(), stats(), getProfile()]);
+  // Three subjects share the learner, the streak and the weekly coach: English,
+  // the Brilliant-style courses ("think": math, logic, code, science...) and
+  // BrainPOP-style general knowledge ("know": a narrated cartoon, then a quiz).
+  // The two catalogs work the same way; each keeps its open course, last course
+  // and weekly plan on the profile under its own prefix, so they sync.
+  const catalogs = { think: thinkData, know };
+  const subject = ['think', 'know'].includes(profile.subject) && catalogs[profile.subject].courses?.length ? profile.subject : 'english';
+  const think = catalogs[subject] || thinkData;
   const courses = think.courses || [];
-  const subject = profile.subject === 'think' && courses.length ? 'think' : 'english';
-  const openCourse = subject === 'think' ? courses.find((c) => c.id === profile.think_course) : null;
+  const key = (k) => `${subject}_${k}`;
+  const openCourse = subject !== 'english' ? courses.find((c) => c.id === profile[key('course')]) : null;
   const states = subject === 'english' ? lessonStates(course, done, { starter: !!profile.starter })
     : openCourse ? lessonStates(openCourse, done) : {};
-  const titles = { ...(course.lesson_titles || {}), ...(think.lesson_titles || {}) };
+  const titles = { ...(course.lesson_titles || {}), ...(thinkData.lesson_titles || {}), ...(know.lesson_titles || {}) };
   const setProfile = async (patch) => { Object.assign(profile, patch); await updateProfile(profile); nav('path'); };
-  const switcher = courses.length ? el('div', { class: 'subject-switch', role: 'tablist' },
-    [['english', '🔤', 'אנגלית'], ['think', '🧠', 'חשיבה ומדעים']].map(([id, icon, name]) => el('button', {
+  const subjects = [['english', '🔤', 'אנגלית'], ['think', '🧠', 'חשיבה ומדעים'], ['know', '🌍', 'ידע כללי']]
+    .filter(([id]) => id === 'english' || catalogs[id].courses?.length);
+  const switcher = subjects.length > 1 ? el('div', { class: 'subject-switch', role: 'tablist' },
+    subjects.map(([id, icon, name]) => el('button', {
       class: `subject-tab ${subject === id ? 'on' : ''}`, type: 'button', role: 'tab', 'aria-selected': String(subject === id),
       onclick: () => { if (subject !== id) setProfile({ subject: id }); },
     }, el('span', { class: 'subject-icon' }, icon), name))) : null;
@@ -138,9 +145,9 @@ export async function renderPath(root, nav) {
     return { ids, n, pct: ids.length ? Math.round((n / ids.length) * 100) : 0, next: ids.find((id) => !done.includes(id)) || null };
   };
   // Opening a course remembers it as the last one, so the catalog can offer to continue it.
-  const openCourseId = (id) => setProfile({ think_course: id, think_last: id });
+  const openCourseId = (id) => setProfile({ [key('course')]: id, [key('last')]: id });
   const startLesson = async (c, lessonId) => {
-    Object.assign(profile, { think_course: c.id, think_last: c.id });
+    Object.assign(profile, { [key('course')]: c.id, [key('last')]: c.id });
     await updateProfile(profile);
     nav('lesson', { lessonId });
   };
@@ -159,7 +166,7 @@ export async function renderPath(root, nav) {
         : state === 'started' ? `${n} מתוך ${ids.length} · הבא: ${titles[next] || ''}` : `${ids.length} שיעורים`));
   };
   // "Continue where you left off": the last course the learner opened, if it still has lessons.
-  const lastCourse = courses.find((c) => c.id === profile.think_last && progressOf(c).next);
+  const lastCourse = courses.find((c) => c.id === profile[key('last')] && progressOf(c).next);
   const hero = lastCourse ? (() => {
     const { n, ids, pct, next } = progressOf(lastCourse);
     return el('section', { class: 'continue-card', style: `--course: ${lastCourse.color}` },
@@ -178,7 +185,7 @@ export async function renderPath(root, nav) {
   // courses whose grade band covers the learner's school grade.
   const grade = parseInt(profile.grade, 10) || null;
   const gradeName = grade >= 13 ? 'מבוגרים' : grade ? `כיתה ${['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט', 'י', 'יא', 'יב'][grade - 1]}'` : '';
-  const plan = profile.think_plan?.courses?.length ? profile.think_plan : null;
+  const plan = profile[key('plan')]?.courses?.length ? profile[key('plan')] : null;
   const picks = plan ? plan.courses.map((id) => courses.find((c) => c.id === id)).filter(Boolean)
     : grade ? courses.filter((c) => c.grades && grade >= c.grades[0] && grade <= c.grades[1])
       // Curriculum courses first, then the ones aimed most tightly at this grade.
@@ -196,7 +203,7 @@ export async function renderPath(root, nav) {
     el('h3', { class: 'area-title' }, el('span', { class: 'area-icon' }, icon), title,
       el('span', { class: 'area-count' }, `${list.filter((c) => progressOf(c).n === lessonsOf(c).length).length}/${list.length}`)),
     el('div', { class: 'course-grid' }, list.map(courseCard)));
-  const catalog = subject === 'think' && !openCourse ? el('section', { class: 'catalog' },
+  const catalog = subject !== 'english' && !openCourse ? el('section', { class: 'catalog' },
     hero,
     el('h2', { class: 'catalog-title' }, lastCourse ? 'או משהו אחר?' : 'מה בא לך ללמוד?'),
     recommended,
@@ -208,7 +215,7 @@ export async function renderPath(root, nav) {
     const finished = !next;
     return [
       el('header', { class: 'course-head' },
-        el('button', { class: 'course-back', type: 'button', onclick: () => setProfile({ think_course: null }) }, '→ כל הקורסים'),
+        el('button', { class: 'course-back', type: 'button', onclick: () => setProfile({ [key('course')]: null }) }, '→ כל הקורסים'),
         el('div', { class: 'course-head-card' },
           el('div', { class: 'course-head-icon' }, openCourse.icon),
           el('h1', {}, openCourse.title_he),
@@ -216,19 +223,19 @@ export async function renderPath(root, nav) {
           el('div', { class: 'course-head-progress' },
             el('span', { class: 'course-progress' }, el('span', { style: `width: ${pct}%` })),
             el('span', { class: 'course-head-count' }, finished ? '🏆 הקורס הושלם' : `${n} מתוך ${ids.length} שיעורים`)),
-          n ? el('button', { class: `btn course-practice${finished ? ' main' : ''}`, type: 'button', onclick: () => nav('lesson', { lessonId: `tp-${openCourse.id}` }) },
+          n && subject === 'think' ? el('button', { class: `btn course-practice${finished ? ' main' : ''}`, type: 'button', onclick: () => nav('lesson', { lessonId: `tp-${openCourse.id}` }) },
             finished ? '🔁 תרגול: שאלות חדשות בכל פעם' : '🔁 תרגול חופשי') : null,
           finished
-            ? el('button', { class: 'btn course-cta', type: 'button', onclick: () => setProfile({ think_course: null }) }, '🧭 לבחור קורס חדש')
+            ? el('button', { class: 'btn course-cta', type: 'button', onclick: () => setProfile({ [key('course')]: null }) }, '🧭 לבחור קורס חדש')
             : null)),
       ...openCourse.units.map((u, i) => renderUnit(u, i, false, 'think')),
-      el('p', { class: 'path-note muted' }, finished ? 'בתרגול יש בכל פעם שאלות חדשות, ואפשר גם לחזור על כל שיעור.' : 'שיעור נעול 🔒 נפתח כשמסיימים את השיעור שלפניו.'),
+      el('p', { class: 'path-note muted' }, finished ? (subject === 'think' ? 'בתרגול יש בכל פעם שאלות חדשות, ואפשר גם לחזור על כל שיעור.' : 'אפשר לחזור על כל שיעור ולראות שוב את הסרטון.') : 'שיעור נעול 🔒 נפתח כשמסיימים את השיעור שלפניו.'),
       el('button', { class: 'to-current', type: 'button', hidden: true, onclick: () => rows.get(next)?.scrollIntoView({ block: 'center', behavior: 'smooth' }) }, '★ לשיעור הנוכחי'),
       sheet];
   })() : null;
-  const content = subject === 'think' ? [coach, catalog, courseView]
+  const content = subject !== 'english' ? [coach, catalog, courseView]
     : [talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test];
-  screenEl = el('div', { class: `screen path subject-${subject}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
+  screenEl = el('div', { class: `screen path subject-${subject}${subject === 'know' ? ' subject-think' : ''}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`));
   root.replaceChildren(screenEl);
   if (openCourse) {

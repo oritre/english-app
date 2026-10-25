@@ -502,7 +502,7 @@ body.has-tabs #app { padding-bottom: calc(88px + env(safe-area-inset-bottom, 0px
 .settings-card .steps { margin: 0 0 10px; padding-inline-start: 20px; line-height: 1.6; }
 
 /* ---- Subjects: English and the math & logic track ---- */
-.subject-switch { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; padding: 4px; background: var(--line); border-radius: 999px; margin-block: 4px 14px; }
+.subject-switch { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 6px; padding: 4px; background: var(--line); border-radius: 999px; margin-block: 4px 14px; }
 .subject-tab { border: none; background: transparent; color: var(--muted); font: inherit; font-size: 15px; font-weight: 600; padding: 9px 8px; border-radius: 999px; cursor: pointer; transition: background .2s, color .2s; }
 .subject-tab.on { background: var(--surface); color: var(--fg); box-shadow: 0 2px 6px rgb(0 0 0 / .12); }
 .subject-icon { margin-inline-end: 4px; }
@@ -857,3 +857,160 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
 .course-practice { margin-top: 12px; width: 100%; background: rgb(255 255 255 / .18); color: #fff; border: 2px solid rgb(255 255 255 / .55); box-shadow: none; font-size: 16px; }
 .course-practice.main { background: #fff; color: var(--course); border-color: #fff; box-shadow: 0 4px 0 rgb(0 0 0 / .25); font-size: 17px; }
 .course-practice.main + .course-cta { background: transparent; color: #fff; box-shadow: none; border: 2px solid rgb(255 255 255 / .55); }
+
+/* ---- general knowledge: the cartoon player (story) and embedded videos ---- */
+.story { display: flex; flex-direction: column; gap: 10px; }
+.story-frame { position: relative; border-radius: 22px; overflow: hidden; isolation: isolate; background: #0d1030; box-shadow: 0 0 0 4px var(--surface), 0 12px 30px rgb(0 0 0 / .25); }
+.story-stage { aspect-ratio: 4 / 3; max-height: 56vh; width: 100%; position: relative; }
+.story-scene { position: absolute; inset: 0; overflow: hidden; border: 0; padding: 0; width: 100%; font: inherit; color: #fff; background: transparent; animation: st-scene-in .5s ease both; }
+.story-scene.out { animation: st-scene-out .45s ease both; pointer-events: none; z-index: 1; }
+/* The "camera": every scene drifts and zooms a little, like a real cartoon's pan; odd scenes pan the other way. */
+.story-cam { position: absolute; inset: 0; transform-origin: 50% 60%; animation: st-ken 14s ease-out both; }
+.story-scene.alt .story-cam { animation-name: st-ken-b; }
+.story-sky, .story-far, .story-near { position: absolute; inset: 0; background-repeat: no-repeat; }
+.story-far { animation: st-drift 18s ease-in-out infinite alternate; }
+.story-near { background-repeat: no-repeat; }
+
+/* Backdrops. Sky: the gradient and the sun or moon. Far: clouds, stars or snow (they drift). Near: hills, waves, floors. */
+.story-sky { background: radial-gradient(circle at 80% 18%, #fff6b0 0 7%, rgb(255 230 120 / .5) 8%, transparent 14%), linear-gradient(#5fb3ff, #bfe3ff 62%, #a2dc7e 62%, #5fae4f); }
+.story-far { background: radial-gradient(ellipse 62px 26px at 18% 24%, #fff 60%, transparent 63%), radial-gradient(ellipse 38px 22px at 26% 18%, #fff 60%, transparent 63%), radial-gradient(ellipse 74px 28px at 68% 34%, rgb(255 255 255 / .85) 60%, transparent 63%), radial-gradient(ellipse 42px 24px at 74% 28%, rgb(255 255 255 / .85) 60%, transparent 63%); }
+.story-near { background: radial-gradient(ellipse 70% 38% at 12% 102%, #7cc45c 0 60%, transparent 61%), radial-gradient(ellipse 80% 34% at 88% 104%, #66b24a 0 60%, transparent 61%); }
+.bg-field .story-sky { background: radial-gradient(circle at 20% 16%, #fff6b0 0 7%, rgb(255 230 120 / .5) 8%, transparent 14%), linear-gradient(#8ccfff, #e2f4ff 58%, #a6dc6e 58%, #6fb342); }
+.bg-field .story-near { background: radial-gradient(circle at 12% 86%, #ff6b8b 0 1.4%, transparent 1.9%), radial-gradient(circle at 30% 92%, #ffd23f 0 1.2%, transparent 1.7%), radial-gradient(circle at 86% 88%, #ff6b8b 0 1.3%, transparent 1.8%), radial-gradient(circle at 66% 94%, #fff 0 1.1%, transparent 1.6%), radial-gradient(ellipse 70% 36% at 10% 104%, #8ccd63 0 60%, transparent 61%), radial-gradient(ellipse 90% 30% at 90% 104%, #79bd54 0 60%, transparent 61%); }
+.bg-night .story-sky { background: radial-gradient(circle at 73% 16%, #141a52 0 6.2%, transparent 6.7%), radial-gradient(circle at 78% 19%, #fff6c8 0 7%, rgb(255 246 200 / .35) 7.5%, transparent 13%), linear-gradient(#0a0f3a, #1c2470 70%, #2a3185); }
+.bg-night .story-far, .bg-space .story-far { animation: st-twinkle 3s ease-in-out infinite alternate; }
+.bg-night .story-far { background: radial-gradient(circle at 12% 22%, #fff 0 1.2px, transparent 2.2px), radial-gradient(circle at 30% 12%, #fff 0 1px, transparent 2px), radial-gradient(circle at 48% 26%, #fffa 0 1px, transparent 2px), radial-gradient(circle at 60% 10%, #fff 0 1.4px, transparent 2.4px), radial-gradient(circle at 90% 40%, #fffa 0 1px, transparent 2px), radial-gradient(circle at 22% 44%, #fff8 0 1px, transparent 2px), radial-gradient(circle at 40% 48%, #fff 0 1px, transparent 2px), radial-gradient(circle at 84% 8%, #fff 0 1px, transparent 2px), radial-gradient(circle at 70% 36%, #fff 0 1.2px, transparent 2.2px); }
+.bg-night .story-near { background: radial-gradient(ellipse 70% 34% at 14% 104%, #0b1030 0 60%, transparent 61%), radial-gradient(ellipse 80% 30% at 86% 104%, #0d1338 0 60%, transparent 61%); }
+.bg-space .story-sky { background: radial-gradient(ellipse 60% 40% at 25% 70%, rgb(120 60 200 / .35), transparent 70%), radial-gradient(ellipse 50% 30% at 80% 20%, rgb(40 120 220 / .3), transparent 70%), linear-gradient(#04061c, #141044); }
+.bg-space .story-far { background: radial-gradient(circle at 15% 25%, #fff 0 1.4px, transparent 2.4px), radial-gradient(circle at 70% 60%, #fff 0 1.2px, transparent 2.2px), radial-gradient(circle at 40% 80%, #fffa 0 1px, transparent 2px), radial-gradient(circle at 85% 15%, #fff 0 1.2px, transparent 2.2px), radial-gradient(circle at 55% 30%, #fff 0 1px, transparent 2px), radial-gradient(circle at 28% 55%, #fff8 0 1px, transparent 2px), radial-gradient(circle at 92% 78%, #fff 0 1.2px, transparent 2.2px), radial-gradient(circle at 8% 70%, #fff8 0 1px, transparent 2px), radial-gradient(circle at 62% 8%, #fffa 0 1.2px, transparent 2.2px); }
+.bg-space .story-near { background: radial-gradient(ellipse 95% 60% at 50% 150%, #5a49c4 0 58%, #3f3399 58.5% 62%, transparent 62.5%); }
+.bg-desert .story-sky { background: radial-gradient(circle at 22% 20%, #fff2b0 0 9%, rgb(255 220 120 / .5) 10%, transparent 18%), linear-gradient(#ffd27a, #ffefc4 55%, #f0c070 55%, #c98d3f); }
+.bg-desert .story-far { background: radial-gradient(ellipse 60px 18px at 70% 34%, rgb(255 255 255 / .55) 60%, transparent 63%), radial-gradient(ellipse 36px 14px at 76% 30%, rgb(255 255 255 / .55) 60%, transparent 63%); }
+.bg-desert .story-near { background: radial-gradient(ellipse 72% 30% at 16% 102%, #e3a95a 0 60%, transparent 61%), radial-gradient(ellipse 84% 24% at 84% 104%, #d5984a 0 60%, transparent 61%); }
+.bg-sea .story-sky { background: radial-gradient(circle at 80% 16%, #fff6b0 0 7%, rgb(255 230 120 / .5) 8%, transparent 14%), linear-gradient(#8fd3ff, #d4f0ff 50%, #2f8fd6 50%, #155a9c); }
+.bg-sea .story-near { background: radial-gradient(ellipse 34px 9px at 50% 50%, rgb(255 255 255 / .55) 60%, transparent 63%) 0 54% / 96px 20px repeat-x, radial-gradient(ellipse 30px 8px at 50% 50%, rgb(255 255 255 / .4) 60%, transparent 63%) 40px 66% / 110px 22px repeat-x, radial-gradient(ellipse 36px 9px at 50% 50%, rgb(255 255 255 / .3) 60%, transparent 63%) 20px 82% / 120px 24px repeat-x; animation: st-drift 9s ease-in-out infinite alternate-reverse; }
+.bg-city .story-sky { background: radial-gradient(circle at 18% 18%, #fff6b0 0 6%, rgb(255 230 120 / .4) 7%, transparent 12%), linear-gradient(#a7c7ff, #e6eeff 64%, #8d95a8 64%, #6c7488); }
+.bg-city .story-near { background: repeating-linear-gradient(0deg, #4e586f 0 9px, #8d97b5 9px 12px) 4% 100% / 13% 44% no-repeat, repeating-linear-gradient(0deg, #5d6880 0 8px, #ffe9a0 8px 10px) 20% 100% / 10% 32% no-repeat, repeating-linear-gradient(0deg, #46506a 0 10px, #9aa4c2 10px 13px) 34% 100% / 15% 52% no-repeat, repeating-linear-gradient(0deg, #5d6880 0 8px, #ffe9a0 8px 10px) 54% 100% / 9% 36% no-repeat, repeating-linear-gradient(0deg, #4e586f 0 9px, #8d97b5 9px 12px) 70% 100% / 14% 46% no-repeat, repeating-linear-gradient(0deg, #46506a 0 8px, #ffe9a0 8px 10px) 92% 100% / 12% 38% no-repeat, linear-gradient(#5a6378, #5a6378) 0 100% / 100% 9% no-repeat; }
+.bg-indoor .story-sky { background: linear-gradient(#ffe9c7, #ffdca8 70%, #b9814c 70%, #8f5f33); }
+.bg-indoor .story-far { background: linear-gradient(#8f5f33, #8f5f33) 14% 26% / 28% 34% no-repeat, linear-gradient(#9fd5ff, #cdeaff) 14.5% 26.5% / 25% 30% no-repeat, linear-gradient(#8f5f33, #8f5f33) 14.5% 26.5% / 25% 30% no-repeat, linear-gradient(#9fd5ff, #cdeaff) 14.2% 27% / 11% 13% no-repeat, linear-gradient(#9fd5ff, #cdeaff) 14.8% 27% / 11% 13% no-repeat, linear-gradient(#9fd5ff, #cdeaff) 14.2% 43% / 11% 13% no-repeat, linear-gradient(#9fd5ff, #cdeaff) 14.8% 43% / 11% 13% no-repeat; animation: none; }
+.bg-indoor .story-near { background: repeating-linear-gradient(90deg, transparent 0 38px, rgb(0 0 0 / .12) 38px 41px) 0 100% / 100% 30% repeat-x, linear-gradient(rgb(0 0 0 / .18), transparent) 0 70% / 100% 6% no-repeat; }
+.bg-paper .story-sky { background: linear-gradient(#e88, #e88) 88% 0 / 2px 100% no-repeat, repeating-linear-gradient(0deg, transparent 0 27px, #d9c9a8 27px 28px), #f6ecd6; }
+.bg-paper .story-far, .bg-paper .story-near { background: none; animation: none; }
+.bg-fire .story-sky { background: linear-gradient(#2a0808, #8d2616 55%, #f08a24); }
+.bg-fire .story-far { background: radial-gradient(circle at 20% 80%, #ffd27a 0 1.6px, transparent 2.8px), radial-gradient(circle at 36% 62%, #ffb347 0 1.4px, transparent 2.6px), radial-gradient(circle at 55% 88%, #ffd27a 0 1.4px, transparent 2.6px), radial-gradient(circle at 70% 70%, #ff9a3c 0 1.6px, transparent 2.8px), radial-gradient(circle at 84% 84%, #ffd27a 0 1.2px, transparent 2.4px), radial-gradient(circle at 10% 60%, #ffb347 0 1.2px, transparent 2.4px); animation: st-embers 5s linear infinite; }
+.bg-fire .story-near { background: linear-gradient(transparent 84%, #1a0606 84%); }
+.bg-snow .story-sky { background: linear-gradient(#b8d4ee, #eaf3fb 60%, #fff); }
+.bg-snow .story-far { inset: -60px 0 0; background: radial-gradient(circle at 10px 10px, #fff 0 2.2px, transparent 3.4px) 0 0 / 60px 60px, radial-gradient(circle at 38px 32px, #fff 0 1.8px, transparent 3px) 0 0 / 60px 60px, radial-gradient(circle at 22px 48px, #fffd 0 1.4px, transparent 2.6px) 0 0 / 60px 60px; background-repeat: repeat; animation: st-snow 6s linear infinite; }
+.bg-snow .story-near { background: radial-gradient(ellipse 70% 30% at 14% 104%, #fff 0 60%, transparent 61%), radial-gradient(ellipse 80% 26% at 86% 104%, #eef5fc 0 60%, transparent 61%); }
+.bg-temple .story-sky { background: radial-gradient(circle at 80% 14%, #fff6b0 0 7%, rgb(255 230 120 / .5) 8%, transparent 14%), linear-gradient(#ffd99a, #fff1d0 60%, #e9d3a5 60%, #cdb27c); }
+.bg-temple .story-near { background: linear-gradient(#e2c488, #e2c488) 0 50% / 100% 7% no-repeat, repeating-linear-gradient(90deg, transparent 0 58px, #f3dfb4 58px 84px, #d9bd84 84px 88px) 0 100% / 100% 46% repeat-x, linear-gradient(#cdb27c, #c3a46a) 0 100% / 100% 12% no-repeat; }
+.bg-forest .story-sky { background: linear-gradient(#9ad3ff, #d9f0c4 62%, #4f9a3a 62%, #2f6d26); }
+.bg-forest .story-near { background: radial-gradient(circle 46px at 12% 56%, #3d8f31 0 97%, transparent 100%), radial-gradient(circle 54px at 88% 54%, #4a9c3a 0 97%, transparent 100%), repeating-linear-gradient(90deg, transparent 0 24%, #5b3a1e 24% 28%, transparent 28% 76%, #5b3a1e 76% 80%, transparent 80%) 0 100% / 100% 44% repeat-x, radial-gradient(ellipse 80% 24% at 50% 104%, #3f8a30 0 60%, transparent 61%); }
+.bg-mountain .story-sky { background: radial-gradient(circle at 20% 18%, #fff6b0 0 7%, rgb(255 230 120 / .5) 8%, transparent 14%), linear-gradient(#78b9f5, #d6ebff 62%, #86b86a 62%, #5f9a4b); }
+/* Mountains: a grey triangle drawn over a white one a little taller, so the tip stays snowy. */
+.bg-mountain .story-near { background: conic-gradient(from 150deg at 50% 0, #7f8aa3 0 60deg, transparent 60deg) 12% 100% / 48% calc(58% - 18px) no-repeat, conic-gradient(from 150deg at 50% 0, #fff 0 60deg, transparent 60deg) 12% 100% / 48% 58% no-repeat, conic-gradient(from 150deg at 50% 0, #6c7891 0 60deg, transparent 60deg) 92% 100% / 44% calc(50% - 16px) no-repeat, conic-gradient(from 150deg at 50% 0, #fff 0 60deg, transparent 60deg) 92% 100% / 44% 50% no-repeat, radial-gradient(ellipse 80% 24% at 50% 104%, #7bb35e 0 60%, transparent 61%); background-repeat: no-repeat; }
+
+.story-piece { position: absolute; left: var(--x); top: var(--y); font-size: var(--s); line-height: 1; transform: translate(-50%, -50%); animation-delay: var(--d); filter: drop-shadow(0 6px 6px rgb(0 0 0 / .22)); }
+.story-tag { position: absolute; top: 12px; inset-inline-start: 12px; background: rgb(0 0 0 / .55); color: #fff; font-weight: 700; padding: 4px 14px; border-radius: 999px; font-size: 18px; z-index: 2; backdrop-filter: blur(4px); animation: st-pop-tag .5s cubic-bezier(.2, 1.4, .4, 1) .2s both; }
+/* Subtitles: big, bold, one word lights up as the voice reads it (karaoke style). */
+.story-caption { position: absolute; inset-inline: 0; bottom: 0; z-index: 2; padding: 36px 14px 14px; background: linear-gradient(transparent, rgb(0 0 0 / .78) 48%); color: #fff; font-size: 20px; font-weight: 600; line-height: 1.5; text-align: center; min-height: 3.4em; text-shadow: 0 1px 3px #000, 0 0 10px rgb(0 0 0 / .5); text-wrap: balance; animation: st-cap-in .4s ease both; }
+.story-caption:empty { display: none; }
+.story-caption .w { transition: color .15s; }
+.story-caption .w.on { color: #ffe066; }
+.story-frame.paused .story-caption { opacity: .85; }
+/* Title and end cards: a dimmed still of the cartoon behind a big play button or the trophy. */
+.story-title, .story-end { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; cursor: pointer; }
+.story-end { cursor: default; }
+.story-preview .story-piece { animation: none; opacity: .55; }
+.story-preview .story-cam, .story-preview .story-far { animation: none; }
+.story-preview .story-tag { display: none; }
+.story-scrim { position: absolute; inset: 0; background: radial-gradient(ellipse 80% 70% at 50% 45%, rgb(10 12 40 / .45), rgb(10 12 40 / .82)); }
+.story-card-body { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 10px 16px; max-width: 100%; }
+.story-kicker { font-size: 13px; font-weight: 700; letter-spacing: .02em; padding: 3px 12px; border-radius: 999px; background: rgb(255 255 255 / .18); border: 1px solid rgb(255 255 255 / .4); }
+.story-title-icon { font-size: 4em; line-height: 1.1; filter: drop-shadow(0 6px 8px rgb(0 0 0 / .35)); animation: st-bob 3s ease-in-out infinite; }
+.story-end > .story-title-icon, .story-end > .story-title-text { position: relative; }
+.story-end-icon { animation: st-trophy .8s cubic-bezier(.2, 1.5, .4, 1) both; }
+.story-title-text { font-size: 26px; font-weight: 800; line-height: 1.25; text-shadow: 0 2px 6px rgb(0 0 0 / .6); text-wrap: balance; }
+.story-end-sub { font-size: 16px; opacity: .92; text-shadow: 0 1px 3px rgb(0 0 0 / .6); }
+.story-play-big { width: 84px; height: 84px; margin-top: 6px; border-radius: 50%; display: grid; place-items: center; font-size: 34px; padding-inline-start: 6px; color: #fff; background: linear-gradient(#ff6a6a, #e42323); box-shadow: 0 6px 0 #9c1515, 0 0 0 0 rgb(255 255 255 / .55); animation: st-ring 2s ease-out infinite; transition: transform .1s; }
+.story-title:hover .story-play-big { transform: scale(1.06); }
+.story-title:active .story-play-big { transform: scale(.94); }
+.story-title-hint { font-size: 14px; opacity: .9; text-shadow: 0 1px 3px rgb(0 0 0 / .6); }
+.story-replay { position: relative; margin-top: 8px; min-height: 44px; }
+.story-confetti { position: absolute; inset: 0; pointer-events: none; z-index: 1; }
+.story-confetti i { position: absolute; left: var(--l); top: -14px; width: 10px; height: 14px; border-radius: 3px; background: hsl(var(--h) 90% 62%); animation: st-confetti 2.6s ease-in var(--d) 2 both; }
+.story-confetti i:nth-child(odd) { border-radius: 50%; width: 9px; height: 9px; }
+/* Controls: the scene bar across the top (big enough to tap), then prev / play / next centred and the voice toggle at the edge. */
+.story-controls { display: flex; flex-direction: column; gap: 8px; }
+.story-bar { display: flex; align-items: center; gap: 8px; padding-inline: 2px; }
+.story-segs { flex: 1; display: flex; gap: 4px; }
+.story-seg { flex: 1; height: 30px; border: 0; padding: 0; background: transparent; cursor: pointer; display: flex; align-items: center; }
+.story-seg span { display: block; width: 100%; height: 9px; border-radius: 5px; background: var(--line); overflow: hidden; position: relative; transition: transform .15s; }
+.story-seg:hover span, .story-seg:focus-visible span { transform: scaleY(1.35); }
+.story-seg.seen span { background: var(--course, var(--ink)); }
+.story-seg.now span::after { content: ''; position: absolute; inset: 0; background: var(--course, var(--ink)); transform-origin: right; animation: st-seg-fill var(--ms, 4s) linear both; box-shadow: 0 0 8px var(--course, var(--ink)); }
+.story-frame.paused ~ .story-controls .story-seg.now span::after { animation-play-state: paused; }
+.story-count { font-size: 13px; font-weight: 700; color: var(--muted); font-variant-numeric: tabular-nums; min-width: 2.4em; text-align: center; }
+.story-count:empty { display: none; }
+.story-buttons { position: relative; display: flex; justify-content: center; align-items: center; gap: 14px; }
+.story-btn { border: 0; background: var(--surface); color: var(--fg); box-shadow: 0 3px 0 var(--line); border-radius: 16px; width: 58px; height: 52px; font-size: 20px; cursor: pointer; transition: transform .1s, box-shadow .1s; }
+.story-btn:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--line); }
+.story-btn.play { width: 74px; height: 64px; border-radius: 22px; font-size: 26px; background: var(--course, var(--ink)); color: #fff; box-shadow: 0 5px 0 rgb(0 0 0 / .28); }
+.story-btn.play:active { box-shadow: 0 2px 0 rgb(0 0 0 / .28); }
+.story-btn.voice { position: absolute; inset-inline-start: 0; width: 48px; height: 48px; font-size: 18px; }
+.story-btn.voice.off { opacity: .6; }
+.story-source { margin: 0; text-align: center; }
+/* After the cartoon: the lesson's button nudges, and the quiz is laid out for this subject. */
+.story-done .lesson-footer .btn.primary:not(:disabled) { animation: st-nudge 1.1s ease-in-out 3; }
+.know-lesson .think-title { flex-wrap: wrap; }
+.know-lesson .think-title::before { flex-basis: 100%; content: '🎬 חידון'; display: block; font-size: 13px; font-weight: 700; color: var(--course, var(--ink)); letter-spacing: .02em; margin-bottom: 2px; }
+.know-lesson .choice-grid:has(> :nth-child(3):last-child) { grid-template-columns: 1fr; }
+.video-box { position: relative; aspect-ratio: 16 / 9; border-radius: 16px; overflow: hidden; background: #000; }
+.video-box iframe, .video-box > div { position: absolute; inset: 0; width: 100%; height: 100%; }
+.video-note { text-align: center; margin: 0; }
+.m-pop { animation: st-pop .6s cubic-bezier(.2, 1.6, .4, 1) both var(--d); }
+.m-float { animation: st-pop .5s ease both var(--d), st-float 3.2s ease-in-out infinite calc(var(--d) + .5s); }
+.m-sail { animation: st-sail 6s linear both var(--d); }
+.m-walk { animation: st-walk 5s ease-in-out both var(--d); }
+.m-spin { animation: st-pop .5s ease both var(--d), st-spin 8s linear infinite; }
+.m-pulse { animation: st-pop .5s ease both var(--d), st-pulse 1.4s ease-in-out infinite; }
+.m-rise { animation: st-rise 2.4s ease-out both var(--d); }
+.m-fall { animation: st-fall 2s ease-in both var(--d); }
+.m-shake { animation: st-pop .4s ease both var(--d), st-shake .5s ease-in-out infinite .5s; }
+.m-grow { animation: st-grow 3s ease-out both var(--d); }
+.m-swing { animation: st-pop .5s ease both var(--d), st-swing 2s ease-in-out infinite; transform-origin: 50% 0; }
+@keyframes st-scene-in { from { opacity: 0; transform: scale(1.04); } to { opacity: 1; transform: none; } }
+@keyframes st-scene-out { from { opacity: 1; } to { opacity: 0; transform: scale(.98); } }
+@keyframes st-ken { from { transform: scale(1) translateX(0); } to { transform: scale(1.09) translateX(-1.5%); } }
+@keyframes st-ken-b { from { transform: scale(1.02) translateX(0); } to { transform: scale(1.1) translateX(1.5%); } }
+@keyframes st-drift { from { transform: translateX(-2.5%); } to { transform: translateX(2.5%); } }
+@keyframes st-twinkle { from { opacity: .55; } to { opacity: 1; } }
+@keyframes st-embers { from { transform: translateY(0); opacity: 1; } to { transform: translateY(-40%); opacity: 0; } }
+@keyframes st-snow { to { transform: translateY(60px); } }
+@keyframes st-cap-in { from { opacity: 0; transform: translateY(8px); } }
+@keyframes st-pop-tag { from { opacity: 0; transform: scale(.6); } }
+@keyframes st-ring { 0% { box-shadow: 0 6px 0 #9c1515, 0 0 0 0 rgb(255 255 255 / .55); } 100% { box-shadow: 0 6px 0 #9c1515, 0 0 0 24px rgb(255 255 255 / 0); } }
+@keyframes st-trophy { from { opacity: 0; transform: scale(.2) rotate(-20deg); } }
+@keyframes st-confetti { from { transform: translateY(0) rotate(0); opacity: 1; } 80% { opacity: 1; } to { transform: translateY(340px) rotate(540deg); opacity: 0; } }
+@keyframes st-nudge { 50% { transform: translateY(-5px) scale(1.02); } }
+@keyframes st-pop { from { opacity: 0; transform: translate(-50%, -50%) scale(.3); } to { opacity: 1; transform: translate(-50%, -50%) scale(1); } }
+@keyframes st-float { 0%, 100% { transform: translate(-50%, -50%); } 50% { transform: translate(-50%, -62%); } }
+@keyframes st-sail { from { left: 110%; } to { left: -10%; } }
+@keyframes st-walk { from { left: 85%; opacity: 0; } 15% { opacity: 1; } to { left: var(--x); } }
+@keyframes st-spin { to { transform: translate(-50%, -50%) rotate(360deg); } }
+@keyframes st-pulse { 0%, 100% { transform: translate(-50%, -50%) scale(1); } 50% { transform: translate(-50%, -50%) scale(1.12); } }
+@keyframes st-rise { from { top: 105%; } to { top: var(--y); } }
+@keyframes st-fall { from { top: -10%; } to { top: var(--y); } }
+@keyframes st-shake { 0%, 100% { transform: translate(-50%, -50%) rotate(0); } 25% { transform: translate(-50%, -50%) rotate(-8deg); } 75% { transform: translate(-50%, -50%) rotate(8deg); } }
+@keyframes st-grow { from { transform: translate(-50%, -50%) scale(.2); } to { transform: translate(-50%, -50%) scale(1); } }
+@keyframes st-swing { 0%, 100% { transform: translate(-50%, -50%) rotate(-6deg); } 50% { transform: translate(-50%, -50%) rotate(6deg); } }
+@keyframes st-bob { 50% { transform: translateY(-8px); } }
+@keyframes st-seg-fill { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.next-lesson.done-course { cursor: default; }
+/* The three subject tabs must fit one line on a narrow phone. */
+.subject-tab { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 420px) { .subject-tab { font-size: 13px; padding-inline: 2px; } .subject-icon { margin-inline-end: 2px; } }
+@media (prefers-reduced-motion: reduce) {
+  .story-piece, .story-scene, .story-cam, .story-far, .story-near, .story-title-icon, .story-play-big, .story-caption, .story-tag, .story-confetti i, .story-done .lesson-footer .btn.primary { animation: none !important; }
+  .story-scene.out { display: none; }
+}
