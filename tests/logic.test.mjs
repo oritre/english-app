@@ -387,3 +387,8 @@ test('general knowledge: every lesson is a cartoon, then a quiz', () => {
   assert.equal(parseArt('🚢~nonsense')[0].motion, 'pop');
   assert.ok(sceneMs('קצר') >= 3000);
 });
+
+test('an open unit (videos) never locks and is never the current lesson', () => {
+  const course = { units: [{ id: 'u1', lessons: ['a', 'b'] }, { id: 'v', open: true, lessons: ['v1', 'v2'] }] };
+  assert.deepEqual(lessonStates(course, ['v2']), { a: 'current', b: 'locked', v1: 'bonus', v2: 'done' });
+});
