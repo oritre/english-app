@@ -56,6 +56,9 @@ async function init() {
   return initPromise;
 }
 
+// Profile fields only the weekly review (tools/coach.py) sets.
+export const COACH_FIELDS = ['coach', 'think_plan', 'know_plan', 'think_level', 'talk_focus'];
+
 export async function mirrorWrite(storeName, record) {
   if (!SYNC_STORES.includes(storeName)) return;
   const code = getFamilyCode();
@@ -63,7 +66,16 @@ export async function mirrorWrite(storeName, record) {
   try {
     if (!(await init())) return;
     // Firestore rejects undefined fields; a JSON round-trip drops them.
-    await fs.setDoc(fs.doc(fdb, 'families', code, storeName, String(record.id)), JSON.parse(JSON.stringify(record)));
+    const data = JSON.parse(JSON.stringify(record));
+    const ref = fs.doc(fdb, 'families', code, storeName, String(record.id));
+    if (storeName === 'profiles') {
+      // The weekly review writes these from outside the app; a device that has
+      // not pulled them yet must not overwrite them with its older copy.
+      for (const k of COACH_FIELDS) delete data[k];
+      await fs.setDoc(ref, data, { merge: true });
+    } else {
+      await fs.setDoc(ref, data);
+    }
   } catch (err) {
     console.warn('Sync: write stays on this device for now', err);
   }
@@ -100,6 +112,11 @@ export async function pullAll(store) {
       const local = await store.get(name, remote.id);
       if (!local || (remote.updated_at || 0) > (local.updated_at || 0)) {
         await store.putLocal(name, remote);
+        changed++;
+      } else if (name === 'profiles' && COACH_FIELDS.some((k) => JSON.stringify(remote[k]) !== JSON.stringify(local[k]))) {
+        // This device wrote the profile later, but the review's fields come from the cloud.
+        for (const k of COACH_FIELDS) { if (k in remote) local[k] = remote[k]; else delete local[k]; }
+        await store.putLocal(name, local);
         changed++;
       }
     }
