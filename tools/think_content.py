@@ -382,10 +382,11 @@ def main():
     from think_deep2 import DEEP2, NEW2
     deep = {**DEEP}
     from think_deep3 import DEEP3
+    from think_grade8 import GRADE8
     for k, v in [*DEEP2.items(), *DEEP3.items()]:
         deep[k] = deep.get(k, []) + v
     seen = set()
-    for c in COURSES + MORE + EXTRA + NEW + NEW2:
+    for c in COURSES + MORE + EXTRA + NEW + NEW2 + [GRADE8]:
         # Deeper levels of a course come after its own units.
         c = {**c, 'units': c['units'] + deep.pop(c['id'], [])}
         units = []

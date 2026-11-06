@@ -268,6 +268,25 @@ test('think: the robot runs, repeats and crashes into walls', () => {
   assert.ok(runRobot(['R.'], ['left']).crash);
 });
 
+// A figure's references all point at named points, and angles/segments have what they need.
+function checkFig(fig, where) {
+  const pts = fig.pts || {};
+  const has = (p) => Array.isArray(p) || Object.hasOwn(pts, p);
+  for (const [a, b] of fig.segs || []) assert.ok(has(a) && has(b), `${where}: segment ${a}-${b}`);
+  for (const [a, b] of fig.lines || []) assert.ok(has(a) && has(b), `${where}: line ${a}-${b}`);
+  for (const poly of fig.poly || []) assert.ok(poly.of.length >= 3 && poly.of.every(has), `${where}: polygon`);
+  for (const a of fig.angles || []) {
+    assert.ok(has(a.at) && has(a.from) && has(a.to), `${where}: angle at ${a.at}`);
+    if (a.right) {
+      const P = (n) => (Array.isArray(n) ? n : pts[n]);
+      const V = P(a.at), F = P(a.from), T = P(a.to);
+      const dot = (F[0] - V[0]) * (T[0] - V[0]) + (F[1] - V[1]) * (T[1] - V[1]);
+      assert.ok(Math.abs(dot) < 1e-6, `${where}: right-angle mark at ${a.at} is not 90°`);
+    }
+  }
+  for (const c of fig.circles || []) assert.ok(has(c.at) && c.r > 0, `${where}: circle`);
+}
+
 test('every think exercise is solvable as written', () => {
   const think = JSON.parse(readFileSync(new URL('../data/think.json', import.meta.url)));
   assert.ok(think.courses.length >= 6);
@@ -281,7 +300,30 @@ test('every think exercise is solvable as written', () => {
       assert.ok(think.lesson_titles[id] && lesson.exercises.length >= 4, id);
       for (const ex of lesson.exercises) {
         const where = `${id} ${ex.id}`;
-        if (!['teach', 'sim'].includes(ex.type) && !ex.explore) assert.ok(ex.explain_he, `${where}: explanation`);
+        if (!['teach', 'sim', 'blitz'].includes(ex.type) && !ex.explore) assert.ok(ex.explain_he, `${where}: explanation`);
+        if (ex.fig) checkFig(ex.fig, where);
+        if (ex.type === 'mcq') for (const o of ex.options) if (o.fig) checkFig(o.fig, where);
+        if (ex.type === 'pyth' && !ex.explore) {
+          const c = Number(ex.answer);
+          assert.ok(Array.isArray(ex.solution) && ex.solution[0] ** 2 + ex.solution[1] ** 2 === c * c, `${where}: solution gives the hypotenuse`);
+          assert.ok(ex.solution.every((v) => v >= 1 && v <= (ex.max ?? 12)), `${where}: solution within the sliders`);
+          if (ex.fixed_a) assert.equal(ex.solution[0], ex.a, `${where}: fixed leg kept`);
+        }
+        if (ex.type === 'plot' && !ex.explore) {
+          const R = ex.range ?? 6;
+          const answers = Array.isArray(ex.answer[0]) ? ex.answer : [ex.answer];
+          for (const [x, y] of answers) assert.ok(Number.isInteger(x) && Number.isInteger(y) && Math.abs(x) <= R && Math.abs(y) <= R, `${where}: answer on the grid`);
+          for (const p of ex.points || []) assert.ok(Math.abs(p.x) <= R && Math.abs(p.y) <= R, `${where}: point on the grid`);
+        }
+        if (ex.type === 'angles' && !ex.explore) {
+          const ids = (Array.isArray(ex.answer) ? ex.answer : [ex.answer]).map(Number);
+          const n = ex.kind === 'cross' ? 4 : 8;
+          assert.ok(ids.length && ids.every((i) => i >= 1 && i <= n), `${where}: angle ids`);
+          // The marked angle is never the answer, and the answer really has the asked size:
+          // angles 1, 3, 5, 7 measure theta, the others 180 - theta.
+          for (const g of Object.keys(ex.given || {})) assert.ok(!ids.includes(Number(g)) || ex.multi, `${where}: tapping the given angle`);
+        }
+        if (ex.type === 'blitz') assert.ok(['squares', 'roots', 'triples', 'angles', 'powers', 'mixed'].includes(ex.pool), where);
         if (ex.type === 'mcq') {
           const labels = ex.options.map((o) => (typeof o === 'object' ? o.label : o));
           assert.ok(labels.includes(ex.answer) && new Set(labels).size === labels.length, where);

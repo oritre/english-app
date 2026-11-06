@@ -95,6 +95,18 @@ export const GENERATORS = {
     (r) => { const [a, b, c] = pick(r, [[3, 4, 5], [6, 8, 10], [5, 12, 13], [9, 12, 15], [8, 15, 17]]); return N(`במשולש ישר זווית הניצבים ${a} ו-${b}. מה אורך היתר?`, c, `${a}² + ${b}² = ${a * a} + ${b * b} = ${c * c}, והשורש הוא ${c}.`); },
     (r) => { const [a, b, c] = pick(r, [[3, 4, 5], [6, 8, 10], [5, 12, 13], [12, 16, 20]]); return N(`היתר ${c} וניצב אחד ${a}. מה אורך הניצב השני?`, b, `${c}² − ${a}² = ${c * c} − ${a * a} = ${b * b}, והשורש הוא ${b}.`); },
   ],
+  math8: [
+    (r, L = 2) => { const T = S(L, [[3, 4, 5], [6, 8, 10], [5, 12, 13]], [[6, 8, 10], [5, 12, 13], [8, 15, 17], [9, 12, 15]], [[7, 24, 25], [20, 21, 29], [12, 35, 37], [9, 40, 41]]); const [a, b, c] = pick(r, T); return N(`משולש ישר זווית, ניצבים ${a} ו-${b}. מה היתר?`, c, `${a}² + ${b}² = ${a * a} + ${b * b} = ${c * c}, והיתר √${c * c} = ${c}.`); },
+    (r, L = 2) => { const T = S(L, [[3, 4, 5], [6, 8, 10]], [[5, 12, 13], [8, 15, 17], [9, 12, 15]], [[7, 24, 25], [20, 21, 29], [12, 35, 37]]); const [a, b, c] = pick(r, T); return N(`יתר ${c}, ניצב ${a}. מה הניצב השני?`, b, `${c}² − ${a}² = ${c * c} − ${a * a} = ${b * b}, הניצב √${b * b} = ${b}.`); },
+    (r, L = 2) => { const a = int(r, 2, S(L, 9, 14, 17)) * 5, b = int(r, 2, Math.min(17, 34 - a / 5) - 2) * 5; return N(`במשולש זוויות ${a}° ו-${b}°. מה השלישית?`, 180 - a - b, `180 − ${a} − ${b} = ${180 - a - b}.`); },
+    (r, L = 2) => { const a = int(r, S(L, 3, 4, 6), S(L, 8, 12, 17)) * 5; const kind = pick(r, ['adj', 'vert', 'co']); if (kind === 'vert') return MC(`ישר חותך שני מקבילים. זווית אחת ${a}°. מה הזווית המתאימה לה?`, `${a}°`, [`${180 - a}°`, `${90 - a < 0 ? a + 10 : 90 - a}°`, `${a + 10}°`], 'זוויות מתאימות שוות.'); if (kind === 'co') return N(`זווית חד-צדדית לזווית של ${a}° בין מקבילים. מה גודלה?`, 180 - a, `חד-צדדיות משלימות ל-180: 180 − ${a} = ${180 - a}.`); return N(`זווית אחת ${a}°. מה הזווית הצמודה לה?`, 180 - a, `צמודות משלימות ל-180: ${180 - a}.`); },
+    (r, L = 2) => { const top = int(r, 1, S(L, 4, 6, 8)) * 10; return N(`משולש שווה שוקיים, זווית הראש ${top}°. מה כל זווית בסיס?`, (180 - top) / 2, `(180 − ${top}) : 2 = ${(180 - top) / 2}.`); },
+    (r, L = 2) => { const b = int(r, 3, S(L, 9, 12, 20)), h = int(r, 2, S(L, 8, 10, 15)); const shape = pick(r, ['tri', 'par', 'trap']); if (shape === 'tri') return N(`משולש: בסיס ${b * 2}, גובה ${h}. מה השטח?`, b * h, `${b * 2} × ${h} : 2 = ${b * h}.`); if (shape === 'par') return N(`מקבילית: בסיס ${b}, גובה ${h}. מה השטח?`, b * h, `בסיס × גובה = ${b * h}.`); const t = b + int(r, 2, 6); return N(`טרפז: בסיסים ${b} ו-${t}, גובה ${2 * h}. מה השטח?`, (b + t) * h, `(${b} + ${t}) × ${2 * h} : 2 = ${(b + t) * h}.`); },
+    (r, L = 2) => { const x = int(r, 1, S(L, 6, 9, 12)), a = int(r, 2, S(L, 3, 5, 7)), b = int(r, 1, S(L, 5, 9, 12)); return N(`${a}(x + ${b}) = ${a * (x + b)}. מה x?`, x, `פותחים: ${a}x + ${a * b} = ${a * (x + b)}, ${a}x = ${a * x}, x = ${x}.`); },
+    (r, L = 2) => { const m = int(r, S(L, 1, -3, -5), S(L, 4, 5, 7)) || 2, b = int(r, -6, 8), x = int(r, S(L, 0, -3, -6), S(L, 5, 6, 9)); return N(`y = ${m}x ${b < 0 ? '−' : '+'} ${Math.abs(b)}. מה y כש-x = ${x}?`, m * x + b, `${m} × ${signed(x)} ${b < 0 ? '−' : '+'} ${Math.abs(b)} = ${m * x + b}.`, { negative: true }); },
+    (r, L = 2) => { const d = int(r, S(L, 1, 2, 3), S(L, 4, 6, 9)), s = int(r, d + 2, d + S(L, 10, 16, 30)); const x = (s + d) / 2; if (!Number.isInteger(x)) return N(`סכום שני מספרים ${s + 1} והפרשם ${d}. מה הגדול?`, (s + 1 + d) / 2, `מחברים את המשוואות: 2x = ${s + 1 + d}, x = ${(s + 1 + d) / 2}.`); return N(`סכום שני מספרים ${s} והפרשם ${d}. מה הגדול?`, x, `x + y = ${s}, x − y = ${d}: מחברים, 2x = ${s + d}, x = ${x}.`); },
+    (r, L = 2) => { const [a, b] = pick(r, S(L, [[3, 4], [6, 8]], [[5, 12], [8, 15], [9, 12]], [[7, 24], [20, 21], [10, 24]])); const x = int(r, -4, 4), y = int(r, -4, 4); return N(`מה המרחק בין (${x}, ${y}) ל-(${x + a}, ${y + b})?`, Math.hypot(a, b), `הפרשים ${a} ו-${b}: ${a * a} + ${b * b} = ${a * a + b * b}, המרחק ${Math.hypot(a, b)}.`); },
+  ],
   stats: [
     (r) => { const m = int(r, 3, 9), d = [int(r, 1, 3), int(r, 0, 2)]; const xs = [m - d[0], m, m + d[0], m - d[1], m + d[1]].sort(() => r() - 0.5); return N(`מה הממוצע של ${xs.join(', ')}?`, m, `הסכום ${xs.reduce((s, x) => s + x, 0)} חלקי 5 = ${m}.`); },
     (r) => { const xs = Array.from({ length: 5 }, () => int(r, 1, 20)); const s = [...xs].sort((a, b) => a - b); return N(`מה החציון של ${xs.join(', ')}?`, s[2], `מסדרים: ${s.join(', ')}. האמצעי הוא ${s[2]}.`); },
@@ -111,7 +123,7 @@ export const GENERATORS = {
 // The clock thirds prompt is clumsy for 20/40; keep the clean ones.
 GENERATORS.clock[1] = (r) => { const [m, name] = pick(r, [[15, 'רבע שעה'], [30, 'חצי שעה'], [45, 'שלושה רבעי שעה'], [120, 'שעתיים']]); return N(`כמה דקות יש ב${name}?`, m, `בשעה 60 דקות, אז ב${name} ${m} דקות.`); };
 
-const REVIEWABLE = new Set(['mcq', 'number', 'balance', 'fraction', 'numberline', 'order', 'robot', 'buckets', 'angle']);
+const REVIEWABLE = new Set(['mcq', 'number', 'balance', 'fraction', 'numberline', 'order', 'robot', 'buckets', 'angle', 'pyth', 'plot', 'angles']);
 const shuffle = (r, a) => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
 
 // A practice lesson at the learner's level (1-3): 6 new problems where the

@@ -1,12 +1,13 @@
 import { el, mixed, shuffle } from '../util.js';
 import { speakSequence, canSpeakLang } from '../speech.js';
 import { parseNum, sameNumber, runRobot, MOVES } from '../thinkLogic.js';
+import { figView, GEO_TYPES } from './geo.js';
 
 // The "think" track (math and logic, after Brilliant): you learn by doing.
 // Every problem has something to move, tap or build, a hint you can open, and
 // an explanation after the answer. These exercises check themselves (check()),
 // so the lesson runner doesn't run them through the English answer checker.
-export const THINK_TYPES = new Set(['mcq', 'number', 'balance', 'fraction', 'numberline', 'order', 'robot', 'buckets', 'angle', 'sim']);
+export const THINK_TYPES = new Set(['mcq', 'number', 'balance', 'fraction', 'numberline', 'order', 'robot', 'buckets', 'angle', 'sim', ...GEO_TYPES]);
 
 // Hebrew text goes through mixed(); a formula or a number ("2x + 1 = 7") keeps left-to-right order.
 export const txt = (s) => (/[\u0590-\u05FF]/.test(String(s)) ? mixed(s) : [el('span', { dir: 'ltr', class: 'formula' }, String(s))]);
@@ -72,6 +73,7 @@ function header(root, ex, track) {
     ...(ex.body_he || []).map((p) => el('p', { class: 'teach-body' }, ...mixed(p))),
     ex.visual && ex.code ? el('pre', { class: 'think-code', dir: 'ltr' }, ex.visual)
       : ex.visual ? el('div', { class: `think-visual ${EMOJI_ONLY.test(ex.visual) && emojiCount(ex.visual) <= 3 ? 'solo' : ''}`, dir: 'ltr' }, ex.visual.split('\n').map((line) => el('div', {}, line))) : null,
+    ex.fig ? figView(ex.fig) : null,
     ex.scale ? scaleView(ex.scale).view : null,
     ex.bars ? barsView(ex.bars) : null);
   return { hint, hintBtn };
@@ -97,6 +99,9 @@ const HOWTO = {
   buckets: 'לחצו על פריט, ואז על הקבוצה שהוא שייך אליה',
   angle: 'גררו את הידית כדי לפתוח או לסגור את הזווית',
   sim: 'לחצו על כפתור הטלה ועקבו אחרי העמודות',
+  pyth: 'גררו את הידיות כדי לשנות את הניצבים, והריבועים על הצלעות משתנים איתם',
+  plot: 'לחצו על נקודה במערכת הצירים כדי לבחור אותה',
+  angles: 'לחצו על הזווית המבוקשת באיור',
 };
 const SEEN_KEY = 'think-howto';
 function cue(root, type) {
@@ -131,8 +136,8 @@ export function renderConcept(root, ex, { track }) {
     shown++;
     if (shown > 1) track?.('more', shown);
   };
-  put(root, el('div', { class: 'concept' },
-    el('div', { class: 'concept-art', 'aria-hidden': 'true' }),
+  put(root, el('div', { class: `concept ${ex.fig ? 'with-fig' : ''}` },
+    ex.fig ? el('div', { class: 'concept-fig' }, figView(ex.fig)) : el('div', { class: 'concept-art', 'aria-hidden': 'true' }),
     el('div', { class: 'concept-kicker' }, '💡 רעיון חדש'),
     el('h2', { class: 'ex-title concept-title' }, el('span', { class: 'think-q' }, ...mixed(ex.title_he)),
       he ? el('button', { class: 'speaker small think-speak', type: 'button', 'aria-label': 'הקראה', onclick: () => sayHe(ex.say_he || [ex.title_he, ...lines].join('. ')) }, '🔊') : null),
@@ -149,10 +154,10 @@ export function renderMcq(root, ex, { setReady, track }) {
   const h = header(root, ex, track);
   let picked = null;
   const opts = ex.options.map((o) => (typeof o === 'object' ? o : { label: String(o) }));
-  const big = opts.some((o) => o.show);
+  const big = opts.some((o) => o.show || o.fig);
   const cards = (ex.keep_order ? opts : shuffle(opts)).map((o) => {
-    const card = el('button', { class: `choice-card think-choice ${big ? 'big' : ''}`, type: 'button', 'data-value': o.label },
-      o.show ? el('span', { class: 'think-show', dir: 'ltr' }, o.show) : null,
+    const card = el('button', { class: `choice-card think-choice ${big ? 'big' : ''} ${o.fig ? 'with-fig' : ''}`, type: 'button', 'data-value': o.label },
+      o.fig ? figView(o.fig, { small: true }) : o.show ? el('span', { class: 'think-show', dir: 'ltr' }, o.show) : null,
       el('span', { class: EMOJI_ONLY.test(o.label) ? 'emoji-label' : null }, ...txt(o.label)));
     card.addEventListener('click', () => {
       cards.forEach((c) => c.classList.remove('selected'));
@@ -162,7 +167,7 @@ export function renderMcq(root, ex, { setReady, track }) {
     });
     return card;
   });
-  put(root, el('div', { class: `choice-grid ${opts.length > 4 || opts.some((o) => o.label.length > 18) ? 'one-col' : ''}` }, cards));
+  put(root, el('div', { class: `choice-grid ${(opts.length > 4 || opts.some((o) => o.label.length > 18)) && !opts.some((o) => o.fig) ? 'one-col' : ''}` }, cards));
   footer(root, h);
   // reveal(): "show me": the model shows the right answer (called by the lesson runner, never by check()).
   const reveal = () => cards.forEach((c) => { c.classList.toggle('answer', c.dataset.value === String(ex.answer)); c.disabled = true; });
@@ -178,7 +183,7 @@ export function renderNumber(root, ex, { setReady, track }) {
   const press = (k) => {
     if (k === '⌫') value = value.slice(0, -1);
     else if (value.length < 8) {
-      if (k === '/' && (value.includes('/') || !value)) return;
+      if ((k === '/' || k === '.') && (value.includes(k) || !value)) return;
       if (k === '-' && value) return;
       value += k;
     }
@@ -186,7 +191,7 @@ export function renderNumber(root, ex, { setReady, track }) {
     show();
     shown.classList.remove('bump'); void shown.offsetWidth; shown.classList.add('bump');
   };
-  const keys = ['7', '8', '9', '4', '5', '6', '1', '2', '3', ex.fraction ? '/' : ex.negative ? '-' : '', '0', '⌫'];
+  const keys = ['7', '8', '9', '4', '5', '6', '1', '2', '3', ex.fraction ? '/' : ex.negative ? '-' : ex.decimal ? '.' : '', '0', '⌫'];
   put(root, 
     el('div', { class: 'num-display', dir: 'ltr' }, ex.before ? el('span', {}, ex.before) : null, shown, ex.after ? el('span', {}, ex.after) : null),
     el('div', { class: 'keypad', dir: 'ltr' }, keys.map((k) => (k ? el('button', { class: `key ${k === '⌫' ? 'key-del' : /\d/.test(k) ? '' : 'key-op'}`, type: 'button', 'aria-label': k === '⌫' ? 'מחיקה' : null, onclick: () => press(k) }, k) : el('span')))));
