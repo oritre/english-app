@@ -20,8 +20,11 @@ export function en(text, cls = '') {
 
 // Hebrew text with English quotes in it ("בטקסט כתוב: My name is Noa."): each
 // English run gets its own left-to-right island so its punctuation stays put.
+// A formula or a number run ("5⁷ : 5⁴ = 5", "(x + 1)/2 = 4", "−2x + 10") is an
+// island too, so its order survives inside a Hebrew sentence.
+const ISLAND = /([A-Za-z0-9(−√π][A-Za-z0-9 ,.'’!?/()+=:^×÷−√π²³⁰¹⁴⁵⁶⁷⁸⁹⁻₀₁₂₃₄₅₆₇₈₉≤≥≈°-]*[A-Za-z0-9.!?)°²³⁰¹⁴⁵⁶⁷⁸⁹√π]|[A-Za-z0-9])/;
 export function mixed(text) {
-  const parts = String(text).split(/([A-Za-z](?:[A-Za-z0-9 ,.'’!?/()+=-]*[A-Za-z0-9.!?)])?)/);
+  const parts = String(text).split(ISLAND);
   // A period that ends the whole Hebrew sentence belongs to the Hebrew, not to the English island.
   const last = parts.length - 2;
   if (last > 0 && parts[last + 1] === '' && /[^.]\.$/.test(parts[last]) && /[֐-׿]/.test(parts.slice(0, last).join(''))) {

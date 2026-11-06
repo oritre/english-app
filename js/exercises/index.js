@@ -13,6 +13,7 @@ import { renderPick } from './pick.js';
 import { renderSpell } from './spell.js';
 import { renderStory, renderVideo } from './story.js';
 import { renderMcq, renderNumber, renderBalance, renderFraction, renderNumberLine, renderOrder, renderRobot, renderBuckets, renderAngle, renderSim } from './think.js';
+import { renderPyth, renderPlot, renderAngles, renderBlitz } from './geo.js';
 
 export const RENDERERS = {
   choose: renderChoose,
@@ -37,6 +38,10 @@ export const RENDERERS = {
   buckets: renderBuckets,
   angle: renderAngle,
   sim: renderSim,
+  pyth: renderPyth,
+  plot: renderPlot,
+  angles: renderAngles,
+  blitz: renderBlitz,
   story: renderStory,
   video: renderVideo,
 };
