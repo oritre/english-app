@@ -13,7 +13,7 @@ export async function renderSync(root, nav) {
 
   const run = async (label, fn) => {
     status.textContent = label;
-    try { await fn(); } catch (e) { console.warn(e); status.textContent = 'הסנכרון נכשל. בדקו את החיבור לאינטרנט ונסו שוב.'; return false; }
+    try { await fn(); } catch (e) { console.warn(e); status.textContent = e && e.message === 'sync-init-failed' ? 'לא הצלחתי להתחבר לשירות הסנכרון (Firebase). ייתכן שהדפדפן חוסם אותו (ב־Brave: כבו את Shields לאתר הזה) או שאין אינטרנט. נסו Chrome או Edge.' : 'הסנכרון נכשל. בדקו את החיבור לאינטרנט ונסו שוב.'; return false; }
     return true;
   };
 

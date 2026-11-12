@@ -98,7 +98,7 @@ function pullState(code) {
 export async function pullAll(store) {
   const code = getFamilyCode();
   if (!code) return null;
-  if (!(await init())) return null;
+  if (!(await init())) throw new Error('sync-init-failed'); // never pretend a failed connection is "nothing new"
   const state = pullState(code);
   const full = !state.full || Date.now() - state.full > FULL_EVERY_MS;
   let changed = 0;
@@ -128,7 +128,8 @@ export async function pullAll(store) {
 
 // Pushes everything on this device, used when a device first joins a family.
 export async function pushAll(store) {
-  if (!getFamilyCode() || !(await init())) return 0;
+  if (!getFamilyCode()) return 0;
+  if (!(await init())) throw new Error('sync-init-failed');
   let n = 0;
   for (const name of SYNC_STORES) {
     for (const r of await store.all(name)) { await mirrorWrite(name, r); n++; }
