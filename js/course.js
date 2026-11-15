@@ -32,6 +32,17 @@ export function loadKnow() {
   return knowPromise;
 }
 
+// The weekly Torah portion ("פרשת שבוע"): an animated film in three levels and
+// a quiz per parasha (tools/parasha_content.py). Same catalog shape; ids start with "p-".
+let parashaPromise = null;
+export function loadParasha() {
+  if (!parashaPromise) {
+    parashaPromise = window.__COURSE__ ? Promise.resolve(window.__COURSE__.parasha || { courses: [], lesson_titles: {} })
+      : fetch('data/parasha.json').then((r) => (r.ok ? r.json() : { courses: [], lesson_titles: {} })).catch(() => ({ courses: [], lesson_titles: {} }));
+  }
+  return parashaPromise;
+}
+
 export async function loadLesson(id) {
   // "tp-<course>" is a practice round, built fresh every time.
   if (id.startsWith('tp-')) {

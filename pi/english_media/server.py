@@ -9,6 +9,8 @@ sync code: the first 16 hex digits of SHA-256("media:" + code) (js/media.js).
 It also reads the app's words and sentences aloud in a natural voice
 (/tts): each line is made once with Gemini text-to-speech, using the key in the
 add-on options, and kept as an mp3 in /media/english-app/tts.
+And it paints the parasha films' illustrations (/img): each picture is made
+once by a Gemini image model and kept as a jpg in /media/english-app/img.
 
 Pure standard library apart from yt-dlp and ffmpeg. Port 8811.
 """
@@ -21,6 +23,7 @@ import re
 import subprocess
 import threading
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
@@ -38,8 +41,13 @@ tts_slots = threading.Semaphore(2)
 tts_locks = {}
 tts_locks_guard = threading.Lock()
 
+IMG_MAX_CHARS = 1800
+IMG_URL = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
+IMG_MODEL = 'gemini-2.5-flash-image'
+img_slots = threading.Semaphore(1)
+
 log = logging.getLogger('english_media')
-status = {'videos': 0, 'ready': 0, 'failed': {}, 'last_check': None, 'tts_made': 0, 'tts_error': None}
+status = {'videos': 0, 'ready': 0, 'failed': {}, 'last_check': None, 'tts_made': 0, 'tts_error': None, 'img_made': 0, 'img_error': None}
 
 
 def load_options(path=OPTIONS):
@@ -188,6 +196,86 @@ def tts_file(text, lang, options, store=STORE, request=None):
     return target
 
 
+def img_hash(prompt):
+    """Matches js/media.js imageUrl: SHA-1 of "img\n<prompt>", first 16 hex digits."""
+    return hashlib.sha1(f'img\n{prompt.strip()}'.encode()).hexdigest()[:16]
+
+
+def img_path(h, store=STORE):
+    return os.path.join(store, 'img', f'{h}.jpg')
+
+
+def find_image(obj):
+    """The base64 picture in a generateContent response: (data, mime)."""
+    if isinstance(obj, dict):
+        data = obj.get('data')
+        mime = str(obj.get('mime_type') or obj.get('mimeType') or '')
+        if isinstance(data, str) and len(data) > 100 and mime.startswith('image'):
+            return data, mime
+        for v in obj.values():
+            found = find_image(v)
+            if found:
+                return found
+    elif isinstance(obj, list):
+        for v in obj:
+            found = find_image(v)
+            if found:
+                return found
+    return None
+
+
+def img_request(prompt, options):
+    """One wide illustration for the prompt, as (image bytes, mime)."""
+    model = options.get('img_model') or IMG_MODEL
+    body = {
+        'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
+        'generationConfig': {'responseModalities': ['TEXT', 'IMAGE'], 'imageConfig': {'aspectRatio': '16:9'}},
+    }
+    req = urllib.request.Request(IMG_URL.format(model=model), data=json.dumps(body).encode(), method='POST', headers={
+        'Content-Type': 'application/json', 'x-goog-api-key': options.get('gemini_api_key') or ''})
+    try:
+        with urllib.request.urlopen(req, timeout=120) as r:
+            found = find_image(json.load(r))
+    except urllib.error.HTTPError as e:
+        raise ValueError(f'HTTP {e.code}: {e.read()[:300].decode(errors="replace")}') from e
+    if not found:
+        raise ValueError('no image in the response')
+    return base64.b64decode(found[0]), found[1]
+
+
+def to_jpg(image, target):
+    """Any picture to a 1280-wide jpg, small enough for a phone."""
+    tmp = f'{target}.part.jpg'
+    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', 'pipe:0', '-vf', 'scale=1280:-2', '-q:v', '4', tmp],
+                   input=image, check=True, timeout=60, capture_output=True)
+    os.replace(tmp, target)
+
+
+def img_file(prompt, options, store=STORE, request=None):
+    """The jpg for one prompt, painted on first use. Raises when it cannot be made."""
+    request = request or img_request
+    h = img_hash(prompt)
+    target = img_path(h, store)
+    if os.path.exists(target):
+        return target
+    if not options.get('gemini_api_key'):
+        raise LookupError('no gemini_api_key in the add-on options')
+    with tts_locks_guard:
+        lock = tts_locks.setdefault(f'img:{h}', threading.Lock())
+    with lock, img_slots:
+        if not os.path.exists(target):
+            os.makedirs(os.path.dirname(target), exist_ok=True)
+            try:
+                image, _mime = request(prompt.strip(), options)
+                to_jpg(image, target)
+            except Exception as e:
+                status['img_error'] = f'{time.strftime("%H:%M")} {str(e)[:300]}'
+                raise
+            status['img_made'] += 1
+            status['img_error'] = None
+    return target
+
+
 def refresh(options):
     """Fetch the list and download what is missing. Files of videos no longer listed stay."""
     url = options.get('videos_url') or 'https://oritre.github.io/english-app/data/videos.json'
@@ -255,11 +343,17 @@ class Handler(BaseHTTPRequestHandler):
             self.plain(200, f"{status['ready']} of {status['videos']} videos ready; "
                             f"{len(status['failed'])} failed; last check {status['last_check']}; "
                             f"voice: {status['tts_made']} made since start"
-                            + (f", last error {status['tts_error']}" if status['tts_error'] else ''))
+                            + (f", last error {status['tts_error']}" if status['tts_error'] else '')
+                            + f"; pictures: {status['img_made']} made since start"
+                            + (f", last error {status['img_error']}" if status['img_error'] else ''))
             return
         t = re.fullmatch(r'/tts/([0-9a-f]{16})\.mp3', path)
         if t:
             self.tts(t.group(1), params)
+            return
+        i = re.fullmatch(r'/img/([0-9a-f]{16})\.jpg', path)
+        if i:
+            self.img(i.group(1), params)
             return
         m = re.fullmatch(r'/v/([A-Za-z0-9_-]{11})\.mp4', path)
         if not m:
@@ -296,6 +390,28 @@ class Handler(BaseHTTPRequestHandler):
             self.plain(200, 'ok')
             return
         self.send_file(file, 'audio/mpeg', 'public, max-age=31536000, immutable')
+
+    def img(self, h, params):
+        """/img/<hash>.jpg?k=&p=<prompt>[&warm=1]: the illustration, painted once."""
+        if params.get('k') not in self.keys:
+            self.plain(403, 'this device is not in the family')
+            return
+        prompt = urllib.parse.unquote_plus(params.get('p', '')).strip()
+        if not prompt or len(prompt) > IMG_MAX_CHARS or img_hash(prompt) != h:
+            self.plain(400, 'bad picture')
+            return
+        try:
+            file = img_file(prompt, self.options, self.store)
+        except LookupError as e:
+            self.plain(404, str(e))
+            return
+        except Exception:  # the film shows its painted backdrop instead
+            self.plain(503, 'could not paint the picture now')
+            return
+        if params.get('warm'):
+            self.plain(200, 'ok')
+            return
+        self.send_file(file, 'image/jpeg', 'public, max-age=31536000, immutable')
 
     def send_file(self, file, ctype='video/mp4', cache='private, max-age=86400'):
         size = os.path.getsize(file)

@@ -9,6 +9,7 @@ export const SUBJECTS = [
   { id: 'english', icon: '🔤', name: 'אנגלית' },
   { id: 'think', icon: '🧠', name: 'חשיבה ומדעים' },
   { id: 'know', icon: '🌍', name: 'ידע כללי' },
+  { id: 'parasha', icon: '📜', name: 'פרשת שבוע' },
 ];
 
 // Lesson ids: k-… general knowledge, t-… / tp-… (practice) thinking, the rest English
@@ -16,6 +17,7 @@ export const SUBJECTS = [
 export function subjectOf(lessonId) {
   const id = String(lessonId || '');
   if (id.startsWith('k-')) return 'know';
+  if (id.startsWith('p-')) return 'parasha';
   if (/^tp?-/.test(id)) return 'think';
   return 'english';
 }

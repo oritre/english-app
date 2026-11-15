@@ -106,7 +106,7 @@ def grade_level(course, grade):
 def subject_of(lesson_id):
     """Same as subjectOf in js/insights.js."""
     i = str(lesson_id or '')
-    return 'know' if i.startswith('k-') else 'think' if i.startswith(('t-', 'tp-')) else 'english'
+    return 'know' if i.startswith('k-') else 'parasha' if i.startswith('p-') else 'think' if i.startswith(('t-', 'tp-')) else 'english'
 
 
 def think_stats(p, results, done, since28):
@@ -174,6 +174,7 @@ def summary(code, days):
             'grade': p.get('grade'), 'read_aloud': p.get('read_aloud'), 'think_plan': p.get('think_plan'),
             'think_done': [i for i in done if i.startswith('t-')],
             'know_plan': p.get('know_plan'), 'know_done': [i for i in done if i.startswith('k-')],
+            'parasha_done': [i for i in done if i.startswith('p-')],
             # Practice rounds (tp-<course>) this week: a finished course still being practised.
             'think_level': p.get('think_level'),
             # Levels the app moved by itself (3 rounds 90+ up, 3 under 50 down); a think_level you set replaces them.
@@ -192,7 +193,7 @@ def summary(code, days):
             'attempts_total': len(mine), 'attempts_week': len(week),
             # Active minutes (taps, video or talk in the last 45 s) per tab, and minutes the screen was just open.
             'active_min_week': {s: round(sum(a.get('active_s') or 0 for a in sessions if subject_of(a.get('lesson_id')) == s) / 60)
-                                for s in ('english', 'think', 'know')},
+                                for s in ('english', 'think', 'know', 'parasha')},
             'open_min_week': round(sum(a.get('open_s') or 0 for a in sessions) / 60),
             'goals': p.get('goals'),
             'days_active_week': sorted({a['date'] for a in week}),

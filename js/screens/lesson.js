@@ -1,5 +1,5 @@
 import { el, mixed } from '../util.js';
-import { loadLesson, loadThink, loadKnow } from '../course.js';
+import { loadLesson, loadThink, loadKnow, loadParasha } from '../course.js';
 import { rendererFor, isSupported } from '../exercises/index.js';
 import { forGrade } from '../storyLogic.js';
 import { withoutTyping } from '../typing.js';
@@ -84,7 +84,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     speedRow, body, footer, quitDialog);
   root.replaceChildren(screen);
   // A think lesson borrows its course's colour for the manipulatives and the progress bar, and its icon for the concept cards.
-  if (lesson.course) Promise.all([loadThink(), loadKnow()]).then((cats) => {
+  if (lesson.course) Promise.all([loadThink(), loadKnow(), loadParasha()]).then((cats) => {
     const c = cats.flatMap((t) => t.courses || []).find((x) => x.id === lesson.course);
     if (c) { screen.style.setProperty('--course', c.color); screen.style.setProperty('--course-icon', JSON.stringify(c.icon)); }
   }).catch(() => {});
@@ -183,6 +183,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       voiceTyping,
       // A video seen before can be skimmed; on a first viewing it has to really play.
       seen: repeat !== 'new',
+      learnerId: profile?.id,
       setReady: (ok) => { checkBtn.disabled = !ok; },
       finish: (clean) => {
         handled = true;

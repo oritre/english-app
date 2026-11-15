@@ -1170,6 +1170,201 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
 .goal-chip b { font-weight: 700; }
 .goal-chip.met { background: var(--good-bg); border-color: var(--good); color: var(--good); }
 
+/* ---- Parasha film ---- */
+/* The animated film of the weekly Torah portion (js/exercises/parasha.js). The stage is always dark and cinematic; what sits under it follows the app's theme. */
+.pf { --pf-gold: #f1cf7a; --pf-gold-deep: #c4932f; --pf-serif: "Frank Ruhl Libre", "David Libre", "Noto Serif Hebrew", "David", "Times New Roman", serif; container: pf / inline-size; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.pf-frame { position: relative; border-radius: 20px; overflow: hidden; isolation: isolate; background: #0b0d1f; color: #eef0fa; box-shadow: 0 14px 34px rgb(10 12 40 / .28); }
+.pf-stage { position: relative; aspect-ratio: 16 / 9; width: 100%; overflow: hidden; container: pfstage / size; background: #06071a; cursor: pointer; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent; }
+.pf-ico { width: 1em; height: 1em; fill: currentColor; display: block; }
+
+/* scenes: the new one fades in over the old one */
+.pf-scenes, .pf-scene, .pf-paint, .pf-paint svg, .pf-near, .pf-fx, .pf-vignette, .pf-cards, .pf-title, .pf-end, .pf-card-back { position: absolute; inset: 0; }
+.pf-paint svg { width: 100%; height: 100%; display: block; }
+.pf-scene { opacity: 0; transition: opacity 1.2s ease; overflow: hidden; }
+.pf-scene.in { opacity: 1; }
+.pf-cam { position: absolute; inset: -1px; transform-origin: 50% 56%; will-change: transform; backface-visibility: hidden; animation: pf-kb-in var(--dur, 30s) ease-in-out infinite alternate; }
+.pf-move-out .pf-cam { animation-name: pf-kb-out; }
+.pf-move-left .pf-cam { animation-name: pf-kb-left; }
+.pf-move-right .pf-cam { animation-name: pf-kb-right; }
+.pf-move-up .pf-cam { animation-name: pf-kb-up; }
+@keyframes pf-kb-in { from { transform: scale(1.04); } to { transform: scale(1.17) translate3d(0, -1%, 0); } }
+@keyframes pf-kb-out { from { transform: scale(1.2); } to { transform: scale(1.04); } }
+@keyframes pf-kb-left { from { transform: scale(1.13) translate3d(2.6%, 0, 0); } to { transform: scale(1.13) translate3d(-2.6%, 0, 0); } }
+@keyframes pf-kb-right { from { transform: scale(1.13) translate3d(-2.6%, 0, 0); } to { transform: scale(1.13) translate3d(2.6%, 0, 0); } }
+@keyframes pf-kb-up { from { transform: scale(1.15) translate3d(0, 3%, 0); } to { transform: scale(1.15) translate3d(0, -3%, 0); } }
+.pf-pic { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1.4s ease; pointer-events: none; }
+.pf-scene.has-pic .pf-pic { opacity: 1; }
+/* the painted backdrop: the near ground drifts a little more than the sky (depth) */
+.pf-near { animation: pf-near var(--dur, 30s) ease-in-out infinite alternate; }
+.pf-move-left .pf-near { animation-direction: alternate-reverse; }
+.pf-scene.has-pic .pf-near { animation: none; }
+@keyframes pf-near { from { transform: translate3d(-1.3%, .4%, 0) scale(1.03); } to { transform: translate3d(1.3%, 0, 0) scale(1.03); } }
+.pf-sil { position: absolute; font-size: 44px; font-size: 14cqw; line-height: 1; transform: translate(-50%, -96%) scale(var(--k, 1)); filter: brightness(0); opacity: .8; }
+.pf-ladder { animation: pf-breathe 5s ease-in-out infinite alternate; }
+.pf-vignette { pointer-events: none; background: radial-gradient(ellipse 85% 85% at 50% 45%, transparent 58%, rgb(4 5 20 / .5) 100%), linear-gradient(to top, rgb(4 5 20 / .82), rgb(4 5 20 / .35) 22%, transparent 46%); }
+
+/* light and particles */
+.pf-fx { pointer-events: none; overflow: hidden; }
+.pf-fx i { position: absolute; display: block; }
+.pf-twinkle { position: absolute; inset: 0; animation: pf-twinkle 3.4s ease-in-out infinite alternate; }
+.pf-twinkle.t1 { animation-duration: 4.6s; animation-delay: -1.3s; }
+.pf-twinkle.t2 { animation-duration: 5.8s; animation-delay: -2.9s; }
+.pf-star { width: calc((.14cqw + 1.2px) * var(--s)); aspect-ratio: 1; border-radius: 50%; background: #fff; box-shadow: 0 0 3px rgb(220 230 255 / .6); }
+.pf-glow { position: absolute; inset: -30% -10% 25%; background: radial-gradient(ellipse 46% 62% at 50% 0%, rgb(255 246 208 / .8), rgb(255 222 136 / .26) 46%, transparent 72%); animation: pf-breathe 7s ease-in-out infinite alternate; }
+.pf-rays { position: absolute; left: 50%; top: -14%; width: 0; height: 0; animation: pf-sway 17s ease-in-out infinite alternate; }
+.pf-rays i { top: 0; left: 0; width: calc(var(--w) * 1cqw); height: 135cqh; margin-inline-start: calc(var(--w) * -.5cqw); transform-origin: 50% 0; transform: rotate(var(--a)); background: linear-gradient(to bottom, rgb(255 247 214 / .55), rgb(255 236 170 / .16) 56%, transparent 92%); clip-path: polygon(40% 0, 60% 0, 100% 100%, 0 100%); animation: pf-breathe 6s ease-in-out var(--d) infinite alternate; }
+.pf-mote { width: calc((.55cqw + 2px) * var(--s)); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgb(255 244 210 / .95), rgb(255 232 170 / 0) 70%); opacity: 0; animation: pf-mote var(--t) linear var(--d) infinite; }
+.pf-haze { position: absolute; inset: 0; background: linear-gradient(to top, rgb(255 214 150 / .26), transparent 58%); }
+.pf-mist { position: absolute; left: -40%; width: 180%; height: 46%; top: 36%; background: radial-gradient(ellipse 34% 50% at 28% 50%, rgb(255 255 255 / .5), transparent 70%), radial-gradient(ellipse 30% 44% at 70% 56%, rgb(255 255 255 / .42), transparent 70%); animation: pf-drift 40s linear infinite alternate; }
+.pf-mist.b { top: 56%; animation-duration: 56s; animation-direction: alternate-reverse; opacity: .8; }
+.pf-spark { width: calc((1.5cqw + 6px) * var(--s)); aspect-ratio: 1; background: #fff6d2; clip-path: polygon(50% 0, 57% 43%, 100% 50%, 57% 57%, 50% 100%, 43% 57%, 0 50%, 43% 43%); opacity: 0; animation: pf-spark calc(var(--t) * .55) ease-in-out var(--d) infinite; }
+.pf-warm { position: absolute; inset: 28% -10% -20%; background: radial-gradient(ellipse 60% 55% at 60% 68%, rgb(255 172 84 / .5), transparent 70%); animation: pf-breathe 9s ease-in-out infinite alternate; }
+.pf-lampglow { position: absolute; inset: 0; background: radial-gradient(ellipse 52% 46% at 50% 30%, rgb(255 190 100 / .32), transparent 70%); animation: pf-breathe 4.6s ease-in-out infinite alternate; }
+@keyframes pf-twinkle { from { opacity: .25; } to { opacity: 1; } }
+@keyframes pf-breathe { from { opacity: .62; } to { opacity: 1; } }
+@keyframes pf-sway { from { transform: rotate(-2.4deg); } to { transform: rotate(2.4deg); } }
+@keyframes pf-mote { 0% { opacity: 0; transform: translate3d(0, 0, 0); } 18% { opacity: .55; } 80% { opacity: .4; } 100% { opacity: 0; transform: translate3d(9cqw, -13cqh, 0); } }
+@keyframes pf-drift { from { transform: translate3d(-9%, 0, 0); } to { transform: translate3d(9%, 0, 0); } }
+@keyframes pf-spark { 0%, 100% { opacity: 0; transform: scale(.2) rotate(0deg); } 50% { opacity: .8; transform: scale(1) rotate(28deg); } }
+.pf-frame.paused .pf-scenes * { animation-play-state: paused !important; }
+
+/* the chapter title in the lower third, alone on the stage before the narration starts */
+.pf-chapter { position: absolute; inset-inline-start: 6cqw; bottom: 13cqh; display: flex; flex-direction: column; gap: .4cqw; opacity: 0; pointer-events: none; padding-inline-start: 2.2cqw; border-inline-start: max(2px, .4cqw) solid var(--pf-gold); }
+.pf-chapter-n { font-size: clamp(11px, 1.9cqw, 22px); font-weight: 700; letter-spacing: .12em; color: var(--pf-gold); }
+.pf-chapter-t { font-family: var(--pf-serif); font-size: clamp(22px, 6.2cqw, 76px); font-weight: 700; line-height: 1.1; color: #fff; text-shadow: 0 2px 14px rgb(0 0 0 / .65); }
+.pf-chapter.run { animation: pf-chapter 2.7s cubic-bezier(.2, .7, .2, 1) both; }
+@keyframes pf-chapter { 0% { opacity: 0; transform: translate3d(5cqw, 0, 0); } 22% { opacity: 1; transform: none; } 76% { opacity: 1; transform: none; } 100% { opacity: 0; transform: translate3d(-2cqw, 0, 0); } }
+
+/* subtitles */
+.pf-subs { position: absolute; inset-inline: 5cqw; bottom: 5cqh; display: flex; justify-content: center; pointer-events: none; transition: transform .3s ease; }
+.pf-sub { margin: 0; max-width: 100%; text-align: center; text-wrap: balance; font-size: clamp(15px, 3.3cqw, 42px); font-weight: 500; line-height: 1.42; color: #fff; text-shadow: 0 1px 2px rgb(0 0 0 / .9), 0 0 12px rgb(0 0 0 / .6); animation: pf-sub-in .35s ease both; }
+.pf-sub .w { opacity: .6; transition: opacity .25s ease, color .25s ease; }
+.pf-sub .w.said { opacity: 1; }
+.pf-sub .w.on { opacity: 1; color: #ffe394; }
+@keyframes pf-sub-in { from { opacity: 0; transform: translateY(.3em); } }
+
+/* the verse (parchment) and Rashi, over the picture on a wide stage */
+.pf-ov { position: absolute; top: 6cqh; display: none; flex-direction: column; opacity: 0; transform: translate3d(0, -1.2cqh, 0); transition: opacity .7s ease, transform .7s ease; pointer-events: none; }
+.pf-ov-pasuk, .pf-card-pasuk { background: linear-gradient(180deg, #f8edcf, #eedcae); color: #3a2810; font-family: var(--pf-serif); box-shadow: 0 10px 28px rgb(0 0 0 / .35), inset 0 0 0 1px rgb(150 105 40 / .28), inset 0 0 26px rgb(170 120 50 / .18); }
+.pf-ov-pasuk { inset-inline-start: 4cqw; max-width: 46cqw; text-align: center; gap: .8cqw; padding: 2cqw 2.6cqw 1.7cqw; border-radius: .6cqw; }
+.pf-ov-pasuk::before, .pf-ov-pasuk::after, .pf-card-pasuk::before, .pf-card-pasuk::after { content: ''; position: absolute; inset-inline: -7px; height: 9px; border-radius: 5px; background: linear-gradient(180deg, #a8763a, #6b4418 60%, #8a5c28); box-shadow: 0 2px 4px rgb(0 0 0 / .3); }
+.pf-ov-pasuk::before, .pf-card-pasuk::before { top: -5px; }
+.pf-ov-pasuk::after, .pf-card-pasuk::after { bottom: -5px; }
+.pf-pasuk-text { font-size: clamp(19px, 2.7cqw, 38px); font-weight: 700; line-height: 1.55; text-wrap: balance; }
+.pf-pasuk-ref { font-family: var(--font); font-size: clamp(12px, 1.35cqw, 18px); font-weight: 500; color: #8a6427; }
+.pf-ov-note { inset-inline-end: 4cqw; max-width: 42cqw; gap: .7cqw; padding: 1.6cqw 2cqw; border-radius: 1.2cqw; background: rgb(13 16 44 / .86); border: 1px solid rgb(241 207 122 / .5); box-shadow: 0 10px 28px rgb(0 0 0 / .4); color: #f3f1e8; }
+.pf-note-who { display: inline-flex; align-items: center; gap: .4em; font-weight: 700; color: var(--pf-gold); font-size: clamp(14px, 1.7cqw, 22px); }
+.pf-note-text { font-size: clamp(15px, 1.9cqw, 26px); line-height: 1.5; }
+@container pfstage (min-width: 700px) { .pf-ov { display: flex; } }
+.pf-frame.is-full .pf-ov { display: flex; }
+.pf-frame.pasuk-on .pf-ov-pasuk, .pf-frame.note-on .pf-ov-note { opacity: 1; transform: none; }
+
+/* paused: a quiet mark in the middle */
+.pf-badge { position: absolute; left: 50%; top: 46%; width: clamp(54px, 13cqw, 120px); aspect-ratio: 1; border-radius: 50%; display: grid; place-items: center; font-size: clamp(24px, 6cqw, 54px); color: #fff; background: rgb(8 10 30 / .55); border: 1px solid rgb(255 255 255 / .28); transform: translate(-50%, -50%) scale(.85); opacity: 0; transition: opacity .25s ease, transform .25s ease; pointer-events: none; }
+.pf-badge .pf-ico { margin-inline-end: -.08em; }
+.pf-frame.paused:not(.at-title, .at-end) .pf-badge { opacity: 1; transform: translate(-50%, -50%); }
+.pf-frame.at-title .pf-vignette { opacity: 0; }
+
+/* title and end cards */
+.pf-cards { pointer-events: none; }
+.pf-cards > * { pointer-events: auto; }
+.pf-title { cursor: pointer; transition: opacity .7s ease 2.5s; }
+.pf-card-back::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 70% 80% at 50% 42%, rgb(5 7 30 / .15), rgb(5 7 30 / .7)); }
+.pf-title-body, .pf-end-body { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1.6cqh; padding: 4cqh 6cqw; text-align: center; }
+.pf-kicker { font-size: clamp(11px, 2cqw, 24px); font-weight: 500; letter-spacing: .32em; margin-inline-end: -.32em; color: var(--pf-gold); opacity: .9; animation: pf-rise .9s ease .15s both; }
+.pf-title-text, .pf-end-text { margin: 0; font-family: var(--pf-serif); font-weight: 700; line-height: 1.15; font-size: clamp(40px, 13cqw, 168px); animation: pf-rise 1.2s cubic-bezier(.2, .7, .2, 1) .3s both; }
+.pf-title-text span, .pf-end-text { background: linear-gradient(100deg, #c4932f 0%, #f1cf7a 30%, #fff9e0 50%, #f1cf7a 70%, #c4932f 100%) 100% 0 / 260% 100%; -webkit-background-clip: text; background-clip: text; color: transparent; -webkit-text-fill-color: transparent; filter: drop-shadow(0 2px 10px rgb(0 0 0 / .5)); padding-block: .08em; }
+.pf-title-text span { display: inline-block; animation: pf-sweep 2.6s ease-in-out .5s both; }
+.pf-rule { display: flex; align-items: center; gap: 1.4cqw; animation: pf-rise .9s ease .8s both; }
+.pf-rule i { display: block; width: clamp(34px, 13cqw, 170px); height: 1px; background: linear-gradient(to left, var(--pf-gold), transparent); }
+.pf-rule i:last-child { background: linear-gradient(to right, var(--pf-gold), transparent); }
+.pf-rule b { display: block; width: clamp(5px, .9cqw, 10px); aspect-ratio: 1; background: var(--pf-gold); transform: rotate(45deg); }
+.pf-title-ref { font-size: clamp(13px, 2.5cqw, 30px); color: #e9e4d0; animation: pf-rise .9s ease 1s both; }
+.pf-title-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.4cqw 2cqw; margin-top: 1.4cqh; animation: pf-rise .9s ease 1.3s both; }
+.pf-title-meta { font-size: clamp(11px, 1.7cqw, 20px); color: rgb(233 228 208 / .7); animation: pf-rise .9s ease 1.5s both; }
+.pf-cta { display: inline-flex; align-items: center; gap: .5em; border: none; border-radius: 999px; padding: .55em 1.25em; font-weight: 700; font-size: clamp(14px, 2.5cqw, 26px); cursor: pointer; color: #2a1b04; background: linear-gradient(180deg, #f8e2a0, #e2b552); box-shadow: 0 4px 16px rgb(0 0 0 / .35), inset 0 1px 0 rgb(255 255 255 / .6); transition: transform .15s ease, opacity .4s ease; }
+.pf-cta:active { transform: scale(.97); }
+.pf-cta.ghost { background: rgb(10 12 36 / .45); color: #f6e5ae; box-shadow: inset 0 0 0 1px rgb(241 207 122 / .6); }
+.pf-cta .pf-ico { font-size: .95em; }
+/* the opening: the buttons leave, light sweeps the name once more, the card fades to the first scene */
+.pf-title.go { opacity: 0; cursor: default; }
+.pf-title.go .pf-title-actions, .pf-title.go .pf-title-meta { opacity: 0; transition: opacity .4s ease; animation: none; pointer-events: none; }
+.pf-title.go .pf-title-text { animation: pf-lift 3.2s ease-out both; }
+.pf-title.go .pf-title-text span { animation: pf-sweep-go 2.3s ease-in-out .1s both; }
+@keyframes pf-rise { from { opacity: 0; transform: translate3d(0, 1.6cqh, 0); } }
+@keyframes pf-sweep { from { background-position: 100% 0; } to { background-position: 0 0; } }
+@keyframes pf-sweep-go { from { background-position: 0 0; } to { background-position: 100% 0; } }
+@keyframes pf-lift { from { transform: none; } to { transform: scale(1.07); } }
+.pf-end { background: radial-gradient(ellipse 80% 90% at 50% 45%, rgb(7 9 30 / .74), rgb(7 9 30 / .93)); animation: pf-fade 1.2s ease both; }
+.pf-end-text { font-size: clamp(38px, 11cqw, 140px); }
+.pf-end-sub { font-size: clamp(15px, 3cqw, 36px); font-weight: 500; color: #f3efe0; animation: pf-rise .9s ease 1s both; }
+.pf-end .pf-cta { margin-top: 1.6cqh; animation: pf-rise .9s ease 1.3s both; }
+@keyframes pf-fade { from { opacity: 0; } }
+
+/* controls */
+.pf-controls { position: relative; display: flex; flex-direction: column; gap: 8px; padding: 10px 12px 10px; background: #0d1024; transition: opacity .35s ease; }
+.pf-segs { display: flex; gap: 3px; direction: rtl; }
+.pf-segs i { flex: 1; height: 4px; border-radius: 2px; background: rgb(255 255 255 / .16); overflow: hidden; }
+.pf-segs b { display: block; height: 100%; border-radius: 2px; background: var(--pf-gold); transform-origin: 100% 50%; transform: scaleX(var(--p, 0)); transition: transform .2s linear; }
+.pf-segs i.seen b { transform: none; }
+.pf-row { display: flex; align-items: center; gap: 8px; }
+.pf-transport, .pf-tools { display: flex; align-items: center; gap: 2px; flex: none; }
+.pf-btn { display: grid; place-items: center; width: 38px; height: 38px; padding: 0; border: none; border-radius: 50%; background: transparent; color: #e6e9fb; font-size: 21px; cursor: pointer; transition: background .15s ease, opacity .2s ease; }
+.pf-btn:hover:not(:disabled) { background: rgb(255 255 255 / .1); }
+.pf-btn:disabled { opacity: .3; cursor: default; }
+.pf-btn.pf-play { width: 48px; height: 48px; margin-inline: 3px; font-size: 24px; color: #241703; background: linear-gradient(180deg, #f8e2a0, #e2b552); box-shadow: 0 3px 10px rgb(0 0 0 / .35), inset 0 1px 0 rgb(255 255 255 / .6); }
+.pf-btn.pf-play:hover { background: linear-gradient(180deg, #fbeab5, #e8bf62); }
+.pf-btn.pf-play:active { transform: scale(.95); }
+.pf-meta { flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.25; }
+.pf-meta-title { font-size: 14px; font-weight: 700; color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pf-meta-count { font-size: 12px; color: #a4aac8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
+.pf-btn.pf-speed { width: auto; min-width: 42px; height: 30px; padding-inline: 7px; margin-inline-end: 2px; border-radius: 999px; font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; direction: ltr; box-shadow: inset 0 0 0 1px rgb(255 255 255 / .25); }
+.pf-btn.pf-speed.changed { color: var(--pf-gold); box-shadow: inset 0 0 0 1px rgb(241 207 122 / .7); }
+.pf-frame button:focus-visible { outline: 3px solid var(--pf-gold); outline-offset: 2px; }
+
+/* the chapter strip */
+.pf-chips { display: flex; gap: 8px; overflow-x: auto; padding: 3px 2px 6px; margin-inline: -2px; scrollbar-width: none; scroll-snap-type: x proximity; position: relative; }
+.pf-chips::-webkit-scrollbar { display: none; }
+.pf-chip { flex: none; display: inline-flex; align-items: center; gap: 8px; padding: 6px 8px 6px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); font-size: 14px; font-weight: 500; cursor: pointer; scroll-snap-align: center; white-space: nowrap; }
+.pf-chip-n { display: grid; place-items: center; width: 24px; height: 24px; border-radius: 50%; background: var(--line); color: var(--muted); font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.pf-chip .pf-ico { display: none; font-size: 14px; color: var(--muted); }
+.pf-chip.seen .pf-chip-n { background: var(--good-bg); color: var(--good); }
+.pf-chip.now { border-color: var(--sun); box-shadow: 0 0 0 2px rgb(243 167 18 / .22); font-weight: 700; }
+.pf-chip.now .pf-chip-n { background: var(--sun); color: #2a1b04; }
+.pf-chip.locked { cursor: default; color: var(--muted); background: transparent; border-style: dashed; }
+.pf-chip.locked .pf-ico { display: block; }
+
+/* under the picture on a narrow screen: the verse and Rashi stay to be read */
+.pf-shelf { display: flex; flex-direction: column; gap: 16px; padding-top: 4px; }
+.pf-shelf:empty { display: none; }
+.pf-card { position: relative; display: none; flex-direction: column; gap: 6px; }
+.pf-card.on { display: flex; animation: pf-card-in .7s cubic-bezier(.2, .7, .2, 1) both; }
+.pf-card-pasuk { margin-inline: 7px; padding: 16px 18px 13px; border-radius: 4px; text-align: center; }
+.pf-card-pasuk .pf-pasuk-text { font-size: 21px; }
+.pf-card-pasuk .pf-pasuk-ref { font-size: 13px; }
+.pf-card-note { padding: 12px 16px 14px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); border-inline-start: 4px solid var(--sun); color: var(--fg); }
+.pf-card-note .pf-note-who { font-size: 15px; color: var(--sun-deep); }
+.pf-card-note .pf-note-text { font-size: 16px; }
+@keyframes pf-card-in { from { opacity: 0; transform: translate3d(0, 10px, 0); } }
+@container pf (min-width: 700px) { .pf-shelf { display: none; } }
+
+/* full screen (and the window-filling stand-in where there is none) */
+.pf-frame:fullscreen, .pf-frame.pseudo-full { display: flex; align-items: center; justify-content: center; width: 100vw; height: 100vh; height: 100dvh; border-radius: 0; background: #000; box-shadow: none; }
+.pf-frame.pseudo-full { position: fixed; inset: 0; z-index: 1000; }
+.pf-noscroll, .pf-noscroll body { overflow: hidden; }
+.pf-frame.is-full .pf-stage { flex: none; width: min(100vw, 100vh * 16 / 9); width: min(100vw, 100dvh * 16 / 9); }
+.pf-frame.is-full .pf-controls { position: absolute; inset-inline: 0; bottom: 0; padding: 26px max(16px, env(safe-area-inset-right)) calc(12px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left)); background: linear-gradient(to top, rgb(0 0 0 / .88), rgb(0 0 0 / .55) 60%, transparent); }
+.pf-frame.is-full.idle .pf-controls { opacity: 0; pointer-events: none; }
+.pf-frame.is-full.idle { cursor: none; }
+.pf-frame.is-full.idle .pf-stage { cursor: none; }
+@media (min-aspect-ratio: 16/10) { .pf-frame.is-full:not(.idle) .pf-subs { transform: translateY(-84px); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .pf-cam, .pf-near, .pf-fx *, .pf-ladder, .pf-title-text, .pf-title-text span, .pf-sub { animation: none !important; }
+  .pf-cam { transform: scale(1.06); }
+  .pf-title { transition-delay: .1s; }
+}
+/* ---- end of Parasha film ---- */
 /* v56: meaningful learning */
 /* Shared warm-amber ink for "worth practising": readable on the amber tint in both themes. */
 :root { --weak-ink: color-mix(in srgb, var(--sun-deep) 72%, var(--fg)); --weak-bg: color-mix(in srgb, var(--sun) 14%, var(--surface)); --weak-line: color-mix(in srgb, var(--sun) 55%, var(--line)); }
