@@ -152,5 +152,68 @@ class VoiceServeTest(ServeTest):
         self.assertEqual(self.get(self.url('no key yet'))[0], 404)
 
 
+def fake_png():
+    import subprocess
+    return subprocess.run(['ffmpeg', '-loglevel', 'error', '-f', 'lavfi', '-i', 'color=c=blue:s=64x36', '-frames:v', '1',
+                           '-f', 'image2pipe', '-vcodec', 'png', 'pipe:1'], check=True, capture_output=True).stdout
+
+
+class PictureTest(unittest.TestCase):
+    def test_hash_matches_the_app(self):
+        import hashlib
+        self.assertEqual(server.img_hash(' A field '), hashlib.sha1(b'img\nA field').hexdigest()[:16])
+
+    def test_finds_the_image(self):
+        data = 'B' * 200
+        resp = {'candidates': [{'content': {'parts': [{'text': 'here'}, {'inlineData': {'mimeType': 'image/png', 'data': data}}]}}]}
+        self.assertEqual(server.find_image(resp), (data, 'image/png'))
+        self.assertIsNone(server.find_image({'candidates': [{'content': {'parts': [{'text': 'no'}]}}]}))
+
+    def test_paints_once_and_keeps(self):
+        store = tempfile.mkdtemp()
+        calls = []
+        def request(prompt, options):
+            calls.append(prompt)
+            return fake_png(), 'image/png'
+        with self.assertRaises(LookupError):
+            server.img_file('A well', {}, store, request)
+        a = server.img_file(' A well ', {'gemini_api_key': 'x'}, store, request)
+        b = server.img_file('A well', {'gemini_api_key': 'x'}, store, request)
+        self.assertEqual((a, calls), (b, ['A well']))
+        with open(a, 'rb') as f:
+            self.assertEqual(f.read(2), b'\xff\xd8')
+
+
+class PictureServeTest(ServeTest):
+    def setUp(self):
+        super().setUp()
+        def request(prompt, options):
+            if prompt == 'fail':
+                raise OSError('no image quota')
+            return fake_png(), 'image/png'
+        self.orig = server.img_request
+        server.img_request = request
+        self.httpd.RequestHandlerClass.options = {'gemini_api_key': 'x'}
+
+    def tearDown(self):
+        server.img_request = self.orig
+        super().tearDown()
+
+    def url(self, prompt, key=None, extra=''):
+        import urllib.parse
+        k = key or server.media_key('ABCD2345')
+        return f'/img/{server.img_hash(prompt)}.jpg?k={k}&p={urllib.parse.quote(prompt)}{extra}'
+
+    def test_picture(self):
+        prompt = 'Storybook painting: a well & sheep at dusk'
+        self.assertEqual(self.get(self.url(prompt, key='0000000000000000'))[0], 403)
+        self.assertEqual(self.get(self.url(prompt).replace('p=', 'p=x'))[0], 400)
+        self.assertEqual(self.get(self.url(prompt, extra='&warm=1'))[:2], (200, b'ok'))
+        code, body, headers = self.get(self.url(prompt))
+        self.assertEqual((code, headers['Content-Type'], body[:2]), (200, 'image/jpeg', b'\xff\xd8'))
+        self.assertEqual(self.get(self.url('fail'))[0], 503)
+        self.assertIn('no image quota', self.get('/status')[1].decode())
+
+
 if __name__ == '__main__':
     unittest.main()

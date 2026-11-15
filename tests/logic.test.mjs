@@ -44,7 +44,9 @@ test('every lesson is well formed and its answers can be built from its tiles', 
   const thinkIds = think.courses.flatMap((c) => c.units.flatMap((u) => u.lessons));
   const know = JSON.parse(readFileSync(new URL('../data/know.json', import.meta.url)));
   const knowIds = know.courses.flatMap((c) => c.units.flatMap((u) => u.lessons));
-  assert.deepEqual([...ids, ...thinkIds, ...knowIds].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
+  const parasha = JSON.parse(readFileSync(new URL('../data/parasha.json', import.meta.url)));
+  const parashaIds = parasha.courses.flatMap((c) => c.units.flatMap((u) => u.lessons));
+  assert.deepEqual([...ids, ...thinkIds, ...knowIds, ...parashaIds].sort(), readdirSync(new URL('../data/lessons/', import.meta.url)).map((f) => f.replace('.json', '')).sort());
   for (const id of ids) {
     const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
     for (const ex of lesson.exercises) {
@@ -523,4 +525,80 @@ test('goalStatus: met, open and missed; last period', () => {
   const weekly = { id: 'g2', kind: 'lessons', subject: 'think', target: 3, period: 'week' };
   assert.equal(goalStatus(weekly, data, T).actual, 0);
   assert.equal(goalLabel(weekly), '3 שיעורים בשבוע בחשיבה ומדעים');
+});
+
+test('parasha of the week: the coming Shabbat, up to six days ahead', async () => {
+  const { parashaOfWeek } = await import('../js/parashaWeek.js');
+  const data = { weeks: [{ shabbat: '2026-11-21', lesson: 'p-vayetze' }, { shabbat: '2026-11-28', lesson: 'p-vayishlach' }] };
+  assert.equal(parashaOfWeek(data, '2026-11-15')?.lesson, 'p-vayetze');
+  assert.equal(parashaOfWeek(data, '2026-11-21')?.lesson, 'p-vayetze');
+  assert.equal(parashaOfWeek(data, '2026-11-22')?.lesson, 'p-vayishlach');
+  assert.equal(parashaOfWeek(data, '2026-11-01'), null);
+});
+
+test('parasha lessons: three film cuts by grade, quiz for each level', async () => {
+  const { forGrade } = await import('../js/storyLogic.js');
+  const lesson = JSON.parse(readFileSync(new URL('../data/lessons/p-vayetze.json', import.meta.url)));
+  for (const [grade, level] of [[1, 1], [3, 1], [6, 2], [8, 3], [13, 3]]) {
+    const ex = forGrade(lesson.exercises, grade);
+    const films = ex.filter((e) => e.type === 'parasha_film');
+    assert.equal(films.length, 1);
+    assert.equal(films[0].level, level);
+    assert.ok(ex.filter((e) => e.type === 'mcq').length >= 6);
+  }
+});
+
+test('parasha film: gate, jumps, cues, subtitles and backdrop plan', async () => {
+  const L = await import('../js/parashaLogic.js');
+  // The quiz opens at 85% of the scenes; jumps only as far as the film has reached.
+  assert.equal(L.gateOpen(16, 19), false);
+  assert.equal(L.gateOpen(17, 19), true);
+  assert.equal(L.gateOpen(9, 10), true);
+  assert.equal(L.canJump(3, 3, 19), true);
+  assert.equal(L.canJump(4, 3, 19), false);
+  assert.equal(L.canJump(-1, 3, 19), false);
+  assert.equal(L.canJump(19, 19, 19), false);
+  assert.equal(L.lineMs('קצר'), 3200);
+  assert.equal(L.lineMs('א'.repeat(100)), 7000);
+
+  const lesson = JSON.parse(readFileSync(new URL('../data/lessons/p-vayetze.json', import.meta.url)));
+  const film = lesson.exercises.find((e) => e.type === 'parasha_film' && e.level === 3);
+  const byId = Object.fromEntries(film.scenes.map((s) => [s.id, s]));
+  // The verse comes with the line that quotes it, Rashi with the line that names him.
+  const open = L.cues(byId.open);
+  assert.ok(byId.open.say[open.pasukLine].includes('ויצא יעקב מבאר שבע'));
+  assert.ok(byId.open.say[open.noteLine].includes('רש"י'));
+  for (const s of film.scenes) {
+    const c = L.cues(s);
+    assert.equal(c.pasukLine >= 0, !!s.pasuk, s.id);
+    assert.equal(c.noteLine >= 0, !!s.note, s.id);
+    if (s.pasuk && s.note && s.say.length > 1) assert.notEqual(c.pasukLine, c.noteLine, s.id);
+    assert.ok(c.pasukLine < s.say.length && c.noteLine < s.say.length);
+    // Subtitles: whole words, in order, nothing lost, no chunk too long, time runs 0..1.
+    for (const line of s.say) {
+      const chunks = L.subtitlePlan(line, 54);
+      assert.equal(chunks.flatMap((ch) => ch.words.map((w) => w.w)).join(' '), line.split(/\s+/).filter(Boolean).join(' '));
+      for (const ch of chunks) assert.ok(ch.words.map((w) => w.w).join(' ').length <= 54 || ch.words.length === 1, line);
+      assert.equal(chunks[0].from, 0);
+      assert.ok(Math.abs(chunks[chunks.length - 1].to - 1) < 1e-9);
+      assert.deepEqual(L.subtitleAt(chunks, 0), { chunk: 0, word: 0 });
+      assert.equal(L.subtitleAt(chunks, 1).chunk, chunks.length - 1);
+    }
+  }
+  assert.deepEqual(L.subtitleAt([], 0.5), { chunk: -1, word: -1 });
+  assert.ok(L.filmMinutes(film.scenes) >= 8);
+
+  // The painted backdrop: the light of the scene, and what stands on its ground.
+  assert.equal(L.mood(byId.ladder), 'night');
+  assert.equal(L.mood(byId.wedding), 'lamp');
+  assert.equal(L.mood(byId.stones), 'sunset');
+  assert.equal(L.mood(byId.open), 'dawn');
+  assert.equal(L.mood(byId.speech) === 'night', false);
+  assert.deepEqual(L.artPlan('🌙 🪜 ✨ 😴').map((a) => a.kind), ['ladder', 'sleeper']);
+  assert.deepEqual(L.artPlan('🐑 🐑 🕳️ 🧔').map((a) => [a.kind, a.count]), [['sheep', 2], ['well', 1], ['man', 1]]);
+  assert.deepEqual(L.artPlan('🐫 🐫 🐑 🌄').map((a) => a.kind), ['emoji', 'sheep']);
+  assert.deepEqual(L.artPlan('❤️ 7️⃣ 🎉'), []);
+  const a = L.seeded('ladder');
+  const b = L.seeded('ladder');
+  assert.equal(a(), b());
 });
