@@ -243,6 +243,8 @@ export async function renderPath(root, nav) {
   const week = subject === 'parasha' ? parashaOfWeek(parasha) : null;
   const weekCourse = week && courses.find((c) => c.units.some((u) => u.lessons.includes(week.lesson)));
   if (weekCourse) warmParasha(week.lesson);
+  // An animated general-knowledge film (k-*-f*) is painted and voiced by the Pi ahead, like the parasha.
+  if (subject === 'know' && openCourse) Object.keys(states).filter((id) => states[id] === 'current' && /^k-.*-f\d+$/.test(id)).slice(0, 1).forEach(warmParasha);
   const weekHero = weekCourse ? el('section', { class: 'continue-card parasha-week', style: `--course: ${weekCourse.color}` },
     el('div', { class: 'continue-kicker' }, `📜 פרשת השבוע · ${hebrewShabbat(week.shabbat)}`),
     el('div', { class: 'continue-main' },

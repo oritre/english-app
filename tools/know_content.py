@@ -70,9 +70,14 @@ def main():
     videos = []
     count = 0
     seen = set()
-    for row in COURSES:
+    # Animated films made here (tools/know_films_*.py): extra units on a topic, or new topics.
+    from know_films import load, lesson_exercises
+    films = load()
+    rows = list(COURSES) + [tuple(f[k] for k in KEYS) for f in films if f['id'] not in {r[0] for r in COURSES}]
+    for row in rows:
         c = dict(zip(KEYS, row))
         ids = []
+        units = []
         for lesson_id, title_he, exercises in VIDEOS.pop(c['id'], []):
             assert lesson_id.startswith('k-') and lesson_id not in seen, f'bad or duplicate lesson id {lesson_id}'
             seen.add(lesson_id)
@@ -86,7 +91,25 @@ def main():
             ids.append(lesson_id)
             count += len(exercises)
         if ids:
-            out['courses'].append(c | {'units': [{'id': f"k-{c['id']}", 'title_he': c['title_he'], 'about_he': c['about_he'], 'lessons': ids}]})
+            units.append({'id': f"k-{c['id']}", 'title_he': '🎬 סרטונים' if any(f['id'] == c['id'] for f in films) else c['title_he'], 'about_he': c['about_he'], 'lessons': ids})
+        for f in (f for f in films if f['id'] == c['id']):
+            for u in f['units']:
+                fids = []
+                for les in u['lessons']:
+                    assert les['id'] not in seen, f"duplicate lesson id {les['id']}"
+                    seen.add(les['id'])
+                    exercises = lesson_exercises(f, les)
+                    for i, ex in enumerate(exercises):
+                        ex['id'] = f"{les['id']}e{i + 1}"
+                    lesson = {'id': les['id'], 'unit_id': u['id'], 'course': c['id'], 'title_he': les['title_he'], 'exercises': exercises}
+                    with open(os.path.join(lessons_dir, f"{les['id']}.json"), 'w', encoding='utf-8') as fh:
+                        json.dump(lesson, fh, ensure_ascii=False, indent=1)
+                    out['lesson_titles'][les['id']] = les['title_he']
+                    fids.append(les['id'])
+                    count += len(exercises)
+                units.append({'id': u['id'], 'title_he': u['title_he'], 'about_he': u['about_he'], 'lessons': fids})
+        if units:
+            out['courses'].append(c | {'units': units})
     assert not VIDEOS, f'videos for unknown courses: {list(VIDEOS)}'
     with open(os.path.join(ROOT, 'know.json'), 'w', encoding='utf-8') as f:
         json.dump(out, f, ensure_ascii=False, indent=1)

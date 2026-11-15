@@ -556,7 +556,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     const resumeAt = !seen?.done && furthest > 0 ? furthest : 0;
     const card = el('div', { class: 'pf-title' }, titleBackdrop(),
       el('div', { class: 'pf-title-body' },
-        el('span', { class: 'pf-kicker' }, 'פרשת השבוע'),
+        el('span', { class: 'pf-kicker' }, ex.kicker_he || 'פרשת השבוע'),
         el('h2', { class: 'pf-title-text' }, el('span', {}, ex.title_he || '')),
         rule(),
         el('span', { class: 'pf-title-ref' }, ex.ref_he || ''),
