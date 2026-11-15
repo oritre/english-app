@@ -66,6 +66,8 @@ FRAME_EDITS = {
                         'earnestly. The mouth stays closed, the feet stay where they are.'),
     'gesture_talk': ('gesture', 'the mouth is open, as in the middle of speaking a word.'),
 }
+# A frame edit that lost something of one character's own (Yaakov's staff vanished from his first talk frame).
+FRAME_KEEP = {('yaakov', 'talk'): ' He still holds his wooden staff upright in his far hand, exactly as before.'}
 VOICES = {
     # who: (name_he, subtitle color, Gemini voice, style, figure height (share of the stage), pose for the base frame)
     'yaakov': ('יעקב', '#f0c27a', 'Iapetus', 'A gentle, sincere and thoughtful man in his prime, speaking Hebrew with '
@@ -91,7 +93,7 @@ def cast_for(who):
     base = f"{SPRITE_STYLE} {CAST[who]} Pose: {pose}"
     frames = {'base': {'p': base}}
     for frame, (ref, change) in FRAME_EDITS.items():
-        frames[frame] = {'p': SPRITE_EDIT + change, 'ref': ref}
+        frames[frame] = {'p': SPRITE_EDIT + change + FRAME_KEEP.get((who, frame), ''), 'ref': ref}
     return {'name_he': name_he, 'color': color, 'voice': voice, 'style': style, 'height': height, 'frames': frames}
 
 LEVEL_GRADES = {1: [1, 3], 2: [4, 6], 3: [7, 13]}
