@@ -274,10 +274,6 @@ async function talkSection(profile) {
     status.textContent = input.value.trim() ? 'נשמר ✓ יעבור לכל המכשירים שמסונכרנים למשפחה.' : 'המפתח נמחק.';
   });
   return section('🗣️ שיחה עם מורה (Gemini)',
-    el('p', { class: 'muted' }, 'השיחה הקולית רצה על Gemini של גוגל. צריך מפתח פעם אחת, והוא עובר לשאר המכשירים בסנכרון:'),
-    el('ol', { class: 'muted steps' },
-      el('li', {}, 'נכנסים ל־', el('a', { href: 'https://aistudio.google.com/apikey', target: '_blank', rel: 'noopener', dir: 'ltr' }, 'aistudio.google.com/apikey'), ' עם חשבון גוגל.'),
-      el('li', {}, 'לוחצים Create API key ומעתיקים את המפתח.'),
-      el('li', {}, 'מדביקים כאן ולוחצים שמירה.')),
+    el('p', { class: 'muted' }, 'השיחה הקולית רצה על Gemini דרך Vertex AI בפרויקט של המשפחה ב-Google Cloud (משולם מהקרדיט, לא מתשלום). מדביקים פעם אחת את מפתח ה-Vertex (pi-english-media-vertex), והוא עובר לשאר המכשירים בסנכרון. מפתח רגיל של AI Studio כבר לא עובד כאן.'),
     el('div', { class: 'row-btns' }, input, saveBtn), status);
 }

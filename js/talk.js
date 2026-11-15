@@ -4,12 +4,17 @@
 // as text; transcripts are only kept for the weekly review.
 // The Gemini key is typed in settings once and synced to the family's devices
 // on the learner's profile (ori chose that on 2026-10-25); each device keeps a copy.
+// Billing (ori, 2026-11-15): through Vertex AI in the family's Google Cloud
+// project, which the account's credit pays for, never the paid Gemini API. The
+// key is a Vertex key (service-account bound, Vertex only); Live on Vertex needs
+// the project and a region (wss://us-central1-aiplatform.googleapis.com).
 import { store } from './db.js';
 
 const SDK_URL = 'https://cdn.jsdelivr.net/npm/@google/genai@2.28.0/dist/web/index.mjs/+esm';
 const KEY = 'english_app_gemini_key';
 const MODEL_KEY = 'english_app_gemini_model';
 const DEFAULT_MODEL = 'gemini-3.8-live';
+const VERTEX = { vertexai: true, project: 'secretary-bot-511411', location: 'us-central1' };
 const IN_RATE = 16000;
 const OUT_RATE = 24000;
 
@@ -155,7 +160,7 @@ export async function startTalk({ name, grade = 8, topic, focus = '', on = {} })
 
     let turnDone = null;
     let closed = false;
-    const ai = new GoogleGenAI({ apiKey: key });
+    const ai = new GoogleGenAI({ ...VERTEX, apiKey: key });
     session = await ai.live.connect({
       model: model(),
       config: {
