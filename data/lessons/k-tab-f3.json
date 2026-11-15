@@ -1,0 +1,261 @@
+{
+ "id": "k-tab-f3",
+ "unit_id": "k-tab-u2",
+ "course": "table",
+ "title_he": "ארץ זבת חלב ודבש",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌾 ידע כללי",
+   "title_he": "ארץ זבת חלב ודבש",
+   "ref_he": "מהשדה לשולחן",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "חלב ודבש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: A wide view of green Israeli hills in spring: cows graze in a meadow and beehives stand in a row beside a field of wildflowers, morning light.",
+     "move": "out",
+     "fx": "light",
+     "art": "🐄🐝",
+     "say": [
+      "התורה קוראת לארץ ישראל בשם מיוחד: ״ארץ זבת חלב ודבש״.",
+      "״זבת״ פירושו: זורמת. כאילו החלב והדבש זורמים בה כמו נחל! איזה שם מתוק.",
+      "היום נבקר ברפת, במחלבה ובכוורת, ונגלה מאיפה מגיעים החלב, הגבינה והדבש."
+     ],
+     "pasuk": {
+      "text": "אֶל אֶרֶץ זָבַת חָלָב וּדְבָשׁ",
+      "ref": "שמות ג, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ברפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Early morning in a clean modern dairy barn: black-and-white cows stand calmly in a row, a farmer attaches a milking machine, the children watch with big eyes.",
+     "move": "right",
+     "fx": "light",
+     "art": "🐄",
+     "say": [
+      "החלב מגיע מהפרה. בבוקר מוקדם, כשעוד קריר בחוץ, הרפת כבר ערה.",
+      "הפרות אוכלות הרבה: עשב, חציר ותבואה. והרפתן דואג להן, שיהיו נקיות, שבעות ובריאות.",
+      "אחר כך הוא חולב אותן. פעם חלבו ביד, לתוך דלי. היום עוזרות לו מכונות חליבה, שחולבות הרבה פרות יחד.",
+      "פרה אחת נותנת הרבה חלב, בכל יום, דליים שלמים!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חלב כשר מגיע רק מבהמה כשרה, כמו פרה, עז או כבשה."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "במחלבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: A shiny refrigerated milk truck at a dairy plant; inside, clean steel tanks and a line of milk cartons moving along.",
+     "move": "left",
+     "fx": null,
+     "art": "🐄",
+     "say": [
+      "את החלב שומרים קר, כדי שלא יתקלקל. משאית מיוחדת, קרה, לוקחת אותו למחלבה.",
+      "שם מחממים אותו לרגע, כדי שיהיה נקי ובריא, ומיד מקררים אותו שוב.",
+      "ואז ממלאים בו קרטונים ושקיות. הם נוסעים לחנויות, ומשם, אלינו למקרר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "גבינה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: A cozy cheese room: a cheesemaker in a white apron pours thick white curd into round baskets; on wooden shelves rest wheels of yellow cheese and bowls of soft white cheese.",
+     "move": "in",
+     "fx": null,
+     "art": "🧀",
+     "say": [
+      "ממה עושים גבינה? מחלב! מוסיפים לחלב חומר מיוחד, והחלב נעשה סמיך, כמו ג׳לי לבן.",
+      "מסננים את הנוזל, ומה שנשאר זו גבינה.",
+      "יש גבינה לבנה ורכה, שמורחים על לחם. ויש גבינה צהובה וקשה, שמחכה הרבה זמן, שבועות ואפילו חודשים, עד שהיא מוכנה.",
+      "וגם יוגורט ושמנת עושים מחלב. כמה דברים טובים יוצאים מכוס חלב אחת!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "בשר וחלב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: A kosher kitchen with two separate sets of dishes on two shelves, one marked by blue towels and one by red towels, a glass of milk on one counter.",
+     "move": "right",
+     "fx": null,
+     "art": "🥛",
+     "say": [
+      "על חלב ועל גבינה מברכים ״שהכל נהיה בדברו״. כלומר: הכול נברא בדבר השם.",
+      "ועוד דבר חשוב: לא אוכלים בשר וחלב יחד. בתורה כתוב: ״לא תבשל גדי בחלב אמו״.",
+      "לכן במטבח כשר יש כלים לבשר, וכלים לחלב, ולא מערבבים ביניהם.",
+      "ואחרי ארוחה בשרית מחכים זמן, לפני שאוכלים חלבי. כל משפחה לפי המנהג שלה."
+     ],
+     "pasuk": {
+      "text": "לֹא תְבַשֵּׁל גְּדִי בַּחֲלֵב אִמּוֹ",
+      "ref": "שמות כג, יט"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בחג השבועות נוהגים לאכול מאכלי חלב."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "בכוורת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: Close-up of a beehive in a sunny garden: golden bees fly from blossoming flowers to the hive entrance, pollen on their legs.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🐝",
+     "say": [
+      "ועכשיו, אל הדבש. הכוורת היא הבית של הדבורים, ובכוורת אחת גרות אלפי דבורים.",
+      "יש בה מלכה אחת, שמטילה ביצים. ויש הרבה דבורים פועלות, שעובדות כל היום: מנקות, שומרות, בונות, ומביאות אוכל.",
+      "הן עפות מפרח לפרח, ואוספות מהפרחים מיץ מתוק, שנקרא ״צוף״.",
+      "וכשדבורה מוצאת שדה מלא פרחים, היא חוזרת לכוורת ו״רוקדת״. כך היא מראה לחברות שלה לאן לעוף!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דבורה שמצאה פרחים חוזרת לכוורת ו״רוקדת״ ריקוד מיוחד. כך היא מראה לחברות שלה לאן לעוף!"
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "הדבש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A beekeeper in a white protective suit and veil holds up a wooden frame of golden honeycomb dripping with honey, the six-sided cells glowing in the sun; Saba and the children watch from a safe distance.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🐝",
+     "say": [
+      "בכוורת, הדבורים בונות חלות של שעווה, מלאות בתאים קטנים. לכל תא יש שש צלעות, כולם שווים ומסודרים.",
+      "הן שמות את הצוף בתאים, ומנפנפות בכנפיים. הצוף מתייבש, ונעשה דבש סמיך ומתוק. ואז הן סוגרות את התא במכסה של שעווה.",
+      "ואז מגיע הכוורן. הוא לובש בגד מגן ורשת על הפנים, ומוציא בזהירות את החלות.",
+      "הוא משאיר לדבורים מספיק דבש לחורף, ואת השאר הוא לוקח בשבילנו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "פלא הדבש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Rosh Hashana evening: a festive table with a round challah, a plate of apple slices and a small bowl of golden honey; the children dip apples, smiling.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦👧🍎",
+     "say": [
+      "והנה פלא: הדבורה לא כשרה, ואסור לאכול אותה. אבל הדבש שלה כשר! איך זה יכול להיות?",
+      "חז״ל מסבירים: הדבורה לא מייצרת את הדבש מהגוף שלה. היא רק אוספת אותו מהפרחים, ושומרת אותו.",
+      "גם על דבש מברכים ״שהכל״. ובראש השנה טובלים תפוח בדבש, ומבקשים מהשם שנה טובה ומתוקה."
+     ],
+     "pasuk": {
+      "text": "מִפְּנֵי שֶׁמַּכְנִיסוֹת אוֹתוֹ לְגוּפָן, וְאֵין מְמַצּוֹת אוֹתוֹ מִגּוּפָן",
+      "ref": "בכורות ז, ב"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-tab-f3e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קוראת התורה לארץ ישראל?",
+   "answer": "ארץ זבת חלב ודבש",
+   "options": [
+    "ארץ זבת חלב ודבש",
+    "ארץ הזהב והכסף",
+    "ארץ ההרים הגבוהים"
+   ],
+   "explain_he": "כך כתוב בתורה: ״ארץ זבת חלב ודבש״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ממה עושים גבינה?",
+   "answer": "מחלב",
+   "options": [
+    "מחלב",
+    "מדבש",
+    "מקמח"
+   ],
+   "explain_he": "מוסיפים לחלב חומר מיוחד, מסננים, ומה שנשאר הוא גבינה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה מברכים על חלב, גבינה ודבש?",
+   "answer": "שהכל נהיה בדברו",
+   "options": [
+    "שהכל נהיה בדברו",
+    "בורא פרי האדמה",
+    "המוציא לחם מן הארץ"
+   ],
+   "explain_he": "הם לא גדלים מהאדמה, ולכן מברכים עליהם ״שהכל״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לא אוכלים יחד?",
+   "answer": "בשר וחלב",
+   "options": [
+    "בשר וחלב",
+    "לחם וגבינה",
+    "תפוח ודבש"
+   ],
+   "explain_he": "התורה אומרת ״לא תבשל גדי בחלב אמו״, ולכן בשר וחלב נפרדים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אוספות הדבורים הפועלות מהפרחים?",
+   "answer": "צוף מתוק",
+   "options": [
+    "צוף מתוק",
+    "שעווה מוכנה",
+    "מים קרים"
+   ],
+   "explain_he": "הדבורים אוספות צוף, ובכוורת הוא מתייבש ונעשה דבש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הדבש כשר, אף שהדבורה לא כשרה?",
+   "answer": "כי הדבורה רק אוספת ושומרת אותו, ולא מייצרת אותו מגופה",
+   "options": [
+    "כי הדבורה רק אוספת ושומרת אותו, ולא מייצרת אותו מגופה",
+    "כי הדבורה קטנה מאוד",
+    "כי הכוורן מבשל אותו"
+   ],
+   "explain_he": "כך מסבירים חז״ל: הדבש בא מהפרחים, לא מגוף הדבורה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f3e7"
+  }
+ ]
+}

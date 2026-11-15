@@ -1,0 +1,541 @@
+{
+ "id": "k-gre-f2",
+ "unit_id": "k-gre-u1",
+ "course": "greece",
+ "title_he": "תרבות יוון מול התורה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "תרבות יוון מול התורה",
+   "ref_he": "יוון ורומא",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "העולם היווני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A sunny ancient Greek city on a hill above a blue sea: white marble columns of a public building, men in tunics and cloaks talking in a busy open square, a semicircular stone theater carved into the hillside, olive trees.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨👨",
+     "say": [
+      "כדי להבין את חנוכה, צריך קודם להכיר את יוון. היוונים היו עם של חכמים ואמנים.",
+      "הם פיתחו את הגאומטריה, חקרו את הכוכבים, כתבו ספרים על הגוף ועל הטבע. הם בנו תיאטראות, ערכו תחרויות ספורט, ובעיר אתונה אף ניהלו את העיר בהצבעה של האזרחים.",
+      "הפילוסופים שלהם, כמו אריסטו, שאלו שאלות גדולות: מה זה טוב? איך צריך לחיות?",
+      "אבל את התשובות הם חיפשו רק בשכל האדם. ובזה, כפי שנראה, היה ההבדל הגדול בינם ובין עם ישראל.",
+      "ושימו לב: גם היום, כשאומרים \"פילוסופיה\", \"גאומטריה\" או \"אולימפיאדה\", משתמשים במילים יווניות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המילה \"דמוקרטיה\" היא מילה יוונית שפירושה \"שלטון העם\". באתונה העתיקה הצביעו האזרחים בעצמם על החוקים."
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "יוונות מתפשטת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A new Greek-style city in the Land of Israel: a wide paved street with columns, a sports hall building, young men in short Greek tunics, and on a nearby rooftop an old Jewish man in a robe and head covering watching sadly.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👴👨",
+     "say": [
+      "אחרי אלכסנדר, התרבות היוונית התפשטה בכל העולם. קוראים לזה \"הלניזם\", מהמילה \"הלאס\", כך קראו היוונים לארצם.",
+      "גם בארץ ישראל קמו ערים בסגנון יווני, עם עמודי שיש, בתי התעמלות ותיאטראות. השפה היוונית נשמעה בשווקים.",
+      "חלק מהיהודים נמשכו אחרי התרבות החדשה. הם החליפו את שמותיהם לשמות יווניים, וזנחו את המצוות. הם נקראו \"מתייוונים\".",
+      "בספרי ההיסטוריה העתיקים מסופר שאפילו בירושלים הוקם בית התעמלות יווני, ובחורים מבית הכהונה עזבו את העבודה במקדש כדי להשתתף בתחרויות.",
+      "מי שהמשיך לשמור מצוות נחשב בעיני המתייוונים לפרימיטיבי ומיושן. היה צריך אומץ גדול כדי להישאר נאמן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "כהונה בכסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The steps leading up to the Temple in Jerusalem in harsh midday light, a richly dressed man in a fine Greek cloak handing a heavy leather pouch to a royal official, while an old sage in a simple robe watches sadly from the side.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨👨👴",
+     "say": [
+      "ההתייוונות הגיעה עד לבית המקדש עצמו. בימים ההם היו אנשים שקנו מהמלך היווני את תפקיד הכהן הגדול, תמורת כסף רב.",
+      "גם חז\"ל אומרים על ימי הבית השני, שהיו שנתנו ממון כדי לקבל את הכהונה הגדולה, ולכן רבים מהכהנים הגדולים לא החזיקו מעמד אפילו שנה.",
+      "כהן גדול מתייוון רצה לקרב את ירושלים לתרבות יוון, ולא לשמור עליה מפניה. העם הפשוט הביט בצער, ולא ידע מה לעשות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מה היה הוויכוח?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Twilight split scene: on the left a cold marble hall with empty pedestals and columns in silver light, on the right a warm small study room in Jerusalem with an old sage and boys learning from a scroll by an oil lamp.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴👦",
+     "say": [
+      "חז\"ל לא היו נגד חכמה. הם אמרו: אם יאמר לך אדם יש חכמה בגויים, תאמין. אבל אם יאמר לך יש תורה בגויים, אל תאמין.",
+      "ההבדל היה במקור. אצל היוונים, האדם הוא המרכז, והשכל שלו קובע מה טוב ומה רע. הם גם עבדו אלילים רבים.",
+      "אצל עם ישראל, התורה ניתנה מן השמיים, בהר סיני. השכל הוא כלי נפלא, אבל את הדרך קובע הקדוש ברוך הוא."
+     ],
+     "pasuk": {
+      "text": "אִם יֹאמַר לְךָ אָדָם יֵשׁ חָכְמָה בַּגּוֹיִם, תַּאֲמֵן. יֵשׁ תּוֹרָה בַּגּוֹיִם, אַל תַּאֲמֵן",
+      "ref": "איכה רבה ב, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שבעים ושניים זקנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: In Alexandria in Egypt: a row of separate small stone rooms along a sunny courtyard, in each one an old Jewish sage with a white beard and head covering writing on a long scroll at a desk, palm trees and the sea beyond.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴👴👴",
+     "say": [
+      "במצרים שלט אז המלך תלמי. הגמרא במסכת מגילה מספרת שהוא אסף שבעים ושניים זקנים מחכמי ישראל.",
+      "הוא הכניס כל אחד מהם לחדר נפרד, ולא גילה להם למה. ואז ציווה על כל אחד: כתוב לי את תורת משה רבך ביוונית.",
+      "אולי קיווה למצוא סתירות בין התרגומים. אבל הקדוש ברוך הוא נתן בלב כל אחד מהם עצה, וכולם כתבו בדיוק אותו דבר.",
+      "בכמה מקומות הם אף שינו את התרגום באותו אופן, כדי שהיוונים לא יטעו בהבנת הפסוקים. התרגום הזה נקרא \"תרגום השבעים\".",
+      "לפי מקורות עתיקים, המלך תלמי שמח מאוד בתרגום, והוא נשמר בספרייה הגדולה של אלכסנדריה.",
+      "בזכות התרגום הזה, עמים רבים בעולם שמעו לראשונה על בריאת העולם, על אברהם אבינו ועל עשרת הדיברות."
+     ],
+     "pasuk": {
+      "text": "וְנָתַן הַקָּדוֹשׁ בָּרוּךְ הוּא בְּלֵב כָּל אֶחָד וְאֶחָד עֵצָה, וְהִסְכִּימוּ כֻּלָּן לְדַעַת אַחַת",
+      "ref": "מגילה ט, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "הסוד שלא תורגם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: An old sage with a white beard and head covering sitting with a young student under a fig tree in the Galilee at sunset, teaching him by heart with a raised finger, no book between them, a warm and close feeling.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴👦",
+     "say": [
+      "ומה עם התורה שבעל פה? אותה אי אפשר היה לתרגם באמת.",
+      "המדרש מספר שהקדוש ברוך הוא ידע מראש שהגויים יתרגמו את התורה שבכתב ויאמרו: גם אנחנו ישראל! ולכן נתן לנו את המשנה, התורה שבעל פה, שהיא כמו סוד בין השם לעמו.",
+      "מי שיש בידו רק את הכתב, בלי ההסבר של חכמים, לא יודע באמת מה התורה אומרת. התורה שבעל פה עוברת מרב לתלמיד, מפה לאוזן, ומדור לדור.",
+      "וזה בדיוק הדבר שהיוונים לא יכלו לקחת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יופיו של יפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A Jewish scribe with a beard and kippah in a quiet sunlit room carefully writing on parchment with a quill, a beautiful elegant view of a Greek-style colonnade outside the window, the two worlds in one frame.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "יפת, בנו של נח, היה אבי היוונים, ושם היה אבי עם ישראל. נח בירך: יפת אלקים ליפת, וישכון באהלי שם.",
+      "חז\"ל למדו מכאן: יופיו של יפת יהיה באהלי שם. כלומר, היופי והחכמה של יוון יכולים להיות טובים, כשהם נכנסים אל תוך האוהל של התורה ומשרתים אותה.",
+      "הבעיה מתחילה כשהיופי רוצה להחליף את התורה.",
+      "בגמרא מובא שחכמים התירו לכתוב ספר תורה גם ביוונית, משום שהיא שפה יפה. אבל את התוכן, את הדרך ואת המצוות, קובעת רק התורה."
+     ],
+     "pasuk": {
+      "text": "יַפְתְּ אֱלֹקִים לְיֶפֶת וְיִשְׁכֹּן בְּאָהֳלֵי שֵׁם",
+      "ref": "בראשית ט, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "החושך שירד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Jerusalem at dusk seen from the Mount of Olives: the Temple standing golden but with long dark shadows creeping over the city, a single small oil lamp burning in the window of a house in the foreground.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠",
+     "say": [
+      "חז\"ל קראו לשלטון יוון \"חושך\". למה חושך? הרי היוונים הביאו חכמה ומדע!",
+      "אלא שהחושך הזה היה חושך של הנשמה: ניסיון לכבות את האור של התורה, ולהשאיר רק את השכל.",
+      "בתפילת \"על הנסים\" בחנוכה אנחנו אומרים שהיוונים רצו \"להשכיחם תורתך ולהעבירם מחוקי רצונך\".",
+      "בסרט הבא נראה איך הוויכוח הזה הפך לגזירות קשות, ואיך קבוצה קטנה של כהנים החזירה את האור.",
+      "כי מול החושך הזה לא עוזר רק לכעוס. צריך להדליק אור, וזה בדיוק מה שנעשה בחנוכה.",
+      "בכל שנה, כשאנחנו מדליקים נרות חנוכה, אנחנו מזכירים לעצמנו שהאור של התורה חזק יותר מכל חושך."
+     ],
+     "pasuk": {
+      "text": "\"וְחֹשֶׁךְ\" - זוֹ גָּלוּת יָוָן, שֶׁהֶחְשִׁיכָה עֵינֵיהֶם שֶׁל יִשְׂרָאֵל בִּגְזֵרוֹתֶיהָ",
+      "ref": "בראשית רבה ב, ד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-gre-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "תרבות יוון מול התורה",
+   "ref_he": "יוון ורומא",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "העולם היווני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A sunny ancient Greek city on a hill above a blue sea: white marble columns of a public building, men in tunics and cloaks talking in a busy open square, a semicircular stone theater carved into the hillside, olive trees.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨👨",
+     "say": [
+      "כדי להבין את חנוכה, צריך קודם להכיר את יוון. היוונים היו עם של חכמים ואמנים.",
+      "הם פיתחו את הגאומטריה, חקרו את הכוכבים, כתבו ספרים על הגוף ועל הטבע. הם בנו תיאטראות, ערכו תחרויות ספורט, ובעיר אתונה אף ניהלו את העיר בהצבעה של האזרחים.",
+      "הפילוסופים שלהם, כמו אריסטו, שאלו שאלות גדולות: מה זה טוב? איך צריך לחיות?",
+      "אבל את התשובות הם חיפשו רק בשכל האדם. ובזה, כפי שנראה, היה ההבדל הגדול בינם ובין עם ישראל.",
+      "ושימו לב: גם היום, כשאומרים \"פילוסופיה\", \"גאומטריה\" או \"אולימפיאדה\", משתמשים במילים יווניות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המילה \"דמוקרטיה\" היא מילה יוונית שפירושה \"שלטון העם\". באתונה העתיקה הצביעו האזרחים בעצמם על החוקים."
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "יוונות מתפשטת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A new Greek-style city in the Land of Israel: a wide paved street with columns, a sports hall building, young men in short Greek tunics, and on a nearby rooftop an old Jewish man in a robe and head covering watching sadly.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👴👨",
+     "say": [
+      "אחרי אלכסנדר, התרבות היוונית התפשטה בכל העולם. קוראים לזה \"הלניזם\", מהמילה \"הלאס\", כך קראו היוונים לארצם.",
+      "גם בארץ ישראל קמו ערים בסגנון יווני, עם עמודי שיש, בתי התעמלות ותיאטראות. השפה היוונית נשמעה בשווקים.",
+      "חלק מהיהודים נמשכו אחרי התרבות החדשה. הם החליפו את שמותיהם לשמות יווניים, וזנחו את המצוות. הם נקראו \"מתייוונים\".",
+      "בספרי ההיסטוריה העתיקים מסופר שאפילו בירושלים הוקם בית התעמלות יווני, ובחורים מבית הכהונה עזבו את העבודה במקדש כדי להשתתף בתחרויות.",
+      "מי שהמשיך לשמור מצוות נחשב בעיני המתייוונים לפרימיטיבי ומיושן. היה צריך אומץ גדול כדי להישאר נאמן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "כהונה בכסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The steps leading up to the Temple in Jerusalem in harsh midday light, a richly dressed man in a fine Greek cloak handing a heavy leather pouch to a royal official, while an old sage in a simple robe watches sadly from the side.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨👨👴",
+     "say": [
+      "ההתייוונות הגיעה עד לבית המקדש עצמו. בימים ההם היו אנשים שקנו מהמלך היווני את תפקיד הכהן הגדול, תמורת כסף רב.",
+      "גם חז\"ל אומרים על ימי הבית השני, שהיו שנתנו ממון כדי לקבל את הכהונה הגדולה, ולכן רבים מהכהנים הגדולים לא החזיקו מעמד אפילו שנה.",
+      "כהן גדול מתייוון רצה לקרב את ירושלים לתרבות יוון, ולא לשמור עליה מפניה. העם הפשוט הביט בצער, ולא ידע מה לעשות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מה היה הוויכוח?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Twilight split scene: on the left a cold marble hall with empty pedestals and columns in silver light, on the right a warm small study room in Jerusalem with an old sage and boys learning from a scroll by an oil lamp.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴👦",
+     "say": [
+      "חז\"ל לא היו נגד חכמה. הם אמרו: אם יאמר לך אדם יש חכמה בגויים, תאמין. אבל אם יאמר לך יש תורה בגויים, אל תאמין.",
+      "ההבדל היה במקור. אצל היוונים, האדם הוא המרכז, והשכל שלו קובע מה טוב ומה רע. הם גם עבדו אלילים רבים.",
+      "אצל עם ישראל, התורה ניתנה מן השמיים, בהר סיני. השכל הוא כלי נפלא, אבל את הדרך קובע הקדוש ברוך הוא.",
+      "לכן היוונים יכלו לסבול יהודים שלומדים תורה כחכמה, כמו ספר עתיק ומעניין. מה שהם לא סבלו הוא את האמונה שהתורה היא ציווי מבורא עולם, ושצריך לקיים אותה.",
+      "לכן המאבק לא היה על ספרים, אלא על החיים עצמם: האם יהודי חי לפי מה שהוא חושב, או לפי מה שהשם ציווה."
+     ],
+     "pasuk": {
+      "text": "אִם יֹאמַר לְךָ אָדָם יֵשׁ חָכְמָה בַּגּוֹיִם, תַּאֲמֵן. יֵשׁ תּוֹרָה בַּגּוֹיִם, אַל תַּאֲמֵן",
+      "ref": "איכה רבה ב, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שבעים ושניים זקנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: In Alexandria in Egypt: a row of separate small stone rooms along a sunny courtyard, in each one an old Jewish sage with a white beard and head covering writing on a long scroll at a desk, palm trees and the sea beyond.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴👴👴",
+     "say": [
+      "במצרים שלט אז המלך תלמי. הגמרא במסכת מגילה מספרת שהוא אסף שבעים ושניים זקנים מחכמי ישראל.",
+      "הוא הכניס כל אחד מהם לחדר נפרד, ולא גילה להם למה. ואז ציווה על כל אחד: כתוב לי את תורת משה רבך ביוונית.",
+      "אולי קיווה למצוא סתירות בין התרגומים. אבל הקדוש ברוך הוא נתן בלב כל אחד מהם עצה, וכולם כתבו בדיוק אותו דבר.",
+      "בכמה מקומות הם אף שינו את התרגום באותו אופן, כדי שהיוונים לא יטעו בהבנת הפסוקים. התרגום הזה נקרא \"תרגום השבעים\".",
+      "לפי מקורות עתיקים, המלך תלמי שמח מאוד בתרגום, והוא נשמר בספרייה הגדולה של אלכסנדריה.",
+      "בזכות התרגום הזה, עמים רבים בעולם שמעו לראשונה על בריאת העולם, על אברהם אבינו ועל עשרת הדיברות."
+     ],
+     "pasuk": {
+      "text": "וְנָתַן הַקָּדוֹשׁ בָּרוּךְ הוּא בְּלֵב כָּל אֶחָד וְאֶחָד עֵצָה, וְהִסְכִּימוּ כֻּלָּן לְדַעַת אַחַת",
+      "ref": "מגילה ט, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "יום קשה לישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A dark heavy sky over the city of Alexandria at midday, as if the sun is covered, the harbor quiet, a single Jewish sage standing on a balcony looking up with concern, a rolled scroll in his hands.",
+     "move": "up",
+     "fx": "mist",
+     "art": "👴",
+     "say": [
+      "ובכל זאת, יש מקור נוסף שמביט על אותו מאורע בעין אחרת. במסכת סופרים נאמר: היה אותו היום קשה לישראל כיום שנעשה בו העגל.",
+      "למה? כי התורה אינה יכולה להיתרגם כל צרכה. בתרגום הולכים לאיבוד העומק, הרמזים והתורה שבעל פה שמסבירה כל מילה.",
+      "מעכשיו, כל אחד בעולם יכול היה לקרוא \"את התורה\" בלי המסורת, ולפרש אותה כרצונו.",
+      "כך שני הדברים נכונים יחד: היה נס בכך שכל הזקנים כתבו אותו דבר, ובכל זאת חכמים הצטערו על שהתורה יצאה מרשות ישראל.",
+      "ובשולחן ערוך מובא ששמונה בטבת הוא מן הימים שראוי לצום בהם, בגלל הצער הזה.",
+      "וכך אנחנו מבינים: המדע והשפה של יוון אינם אויבים. הסכנה היא כשהם רוצים להוציא את התורה מידי עם ישראל, ולפרש אותה בלי חכמים.",
+      "זה גם מסביר למה חשוב כל כך ללמוד תורה מפי רבותינו, ולא רק לקרוא אותה לבד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בשולחן ערוך מוזכר שבשמונה בטבת נכתבה התורה יוונית בימי תלמי המלך, והיה חושך בעולם שלושה ימים."
+     }
+    },
+    {
+     "id": "s5b",
+     "title_he": "הסוד שלא תורגם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: An old sage with a white beard and head covering sitting with a young student under a fig tree in the Galilee at sunset, teaching him by heart with a raised finger, no book between them, a warm and close feeling.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴👦",
+     "say": [
+      "ומה עם התורה שבעל פה? אותה אי אפשר היה לתרגם באמת.",
+      "המדרש מספר שהקדוש ברוך הוא ידע מראש שהגויים יתרגמו את התורה שבכתב ויאמרו: גם אנחנו ישראל! ולכן נתן לנו את המשנה, התורה שבעל פה, שהיא כמו סוד בין השם לעמו.",
+      "מי שיש בידו רק את הכתב, בלי ההסבר של חכמים, לא יודע באמת מה התורה אומרת. התורה שבעל פה עוברת מרב לתלמיד, מפה לאוזן, ומדור לדור.",
+      "וזה בדיוק הדבר שהיוונים לא יכלו לקחת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יופיו של יפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A Jewish scribe with a beard and kippah in a quiet sunlit room carefully writing on parchment with a quill, a beautiful elegant view of a Greek-style colonnade outside the window, the two worlds in one frame.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "יפת, בנו של נח, היה אבי היוונים, ושם היה אבי עם ישראל. נח בירך: יפת אלקים ליפת, וישכון באהלי שם.",
+      "חז\"ל למדו מכאן: יופיו של יפת יהיה באהלי שם. כלומר, היופי והחכמה של יוון יכולים להיות טובים, כשהם נכנסים אל תוך האוהל של התורה ומשרתים אותה.",
+      "הבעיה מתחילה כשהיופי רוצה להחליף את התורה.",
+      "בגמרא מובא שחכמים התירו לכתוב ספר תורה גם ביוונית, משום שהיא שפה יפה. אבל את התוכן, את הדרך ואת המצוות, קובעת רק התורה."
+     ],
+     "pasuk": {
+      "text": "יַפְתְּ אֱלֹקִים לְיֶפֶת וְיִשְׁכֹּן בְּאָהֳלֵי שֵׁם",
+      "ref": "בראשית ט, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "החושך שירד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Jerusalem at dusk seen from the Mount of Olives: the Temple standing golden but with long dark shadows creeping over the city, a single small oil lamp burning in the window of a house in the foreground.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠",
+     "say": [
+      "חז\"ל קראו לשלטון יוון \"חושך\". למה חושך? הרי היוונים הביאו חכמה ומדע!",
+      "אלא שהחושך הזה היה חושך של הנשמה: ניסיון לכבות את האור של התורה, ולהשאיר רק את השכל.",
+      "בתפילת \"על הנסים\" בחנוכה אנחנו אומרים שהיוונים רצו \"להשכיחם תורתך ולהעבירם מחוקי רצונך\".",
+      "בסרט הבא נראה איך הוויכוח הזה הפך לגזירות קשות, ואיך קבוצה קטנה של כהנים החזירה את האור.",
+      "כי מול החושך הזה לא עוזר רק לכעוס. צריך להדליק אור, וזה בדיוק מה שנעשה בחנוכה.",
+      "בכל שנה, כשאנחנו מדליקים נרות חנוכה, אנחנו מזכירים לעצמנו שהאור של התורה חזק יותר מכל חושך."
+     ],
+     "pasuk": {
+      "text": "\"וְחֹשֶׁךְ\" - זוֹ גָּלוּת יָוָן, שֶׁהֶחְשִׁיכָה עֵינֵיהֶם שֶׁל יִשְׂרָאֵל בִּגְזֵרוֹתֶיהָ",
+      "ref": "בראשית רבה ב, ד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-gre-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש המילה \"דמוקרטיה\"?",
+   "answer": "שלטון העם",
+   "options": [
+    "שלטון העם",
+    "שלטון המלך",
+    "שלטון הכהנים",
+    "שלטון הצבא"
+   ],
+   "explain_he": "דמוקרטיה היא מילה יוונית שפירושה שלטון העם. באתונה הצביעו האזרחים על החוקים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש המילה \"דמוקרטיה\"?",
+   "answer": "שלטון העם",
+   "options": [
+    "שלטון העם",
+    "שלטון המלך",
+    "שלטון הכהנים",
+    "שלטון הצבא"
+   ],
+   "explain_he": "דמוקרטיה היא מילה יוונית שפירושה שלטון העם. באתונה הצביעו האזרחים על החוקים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו \"המתייוונים\"?",
+   "answer": "יהודים שאימצו את התרבות היוונית וזנחו את המצוות",
+   "options": [
+    "יהודים שאימצו את התרבות היוונית וזנחו את המצוות",
+    "יוונים שהתגיירו",
+    "חיילים של אלכסנדר",
+    "חכמי אלכסנדריה"
+   ],
+   "explain_he": "חלק מהיהודים החליפו את שמותיהם לשמות יווניים וזנחו את המצוות. הם נקראו מתייוונים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו \"המתייוונים\"?",
+   "answer": "יהודים שאימצו את התרבות היוונית וזנחו את המצוות",
+   "options": [
+    "יהודים שאימצו את התרבות היוונית וזנחו את המצוות",
+    "יוונים שהתגיירו",
+    "חיילים של אלכסנדר",
+    "חכמי אלכסנדריה"
+   ],
+   "explain_he": "חלק מהיהודים החליפו את שמותיהם לשמות יווניים וזנחו את המצוות. הם נקראו מתייוונים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז\"ל, האם יש חכמה בגויים?",
+   "answer": "כן, יש חכמה בגויים, אבל אין תורה בגויים",
+   "options": [
+    "כן, יש חכמה בגויים, אבל אין תורה בגויים",
+    "לא, אין שום חכמה בגויים",
+    "כן, ויש גם תורה בגויים",
+    "רק בשבת"
+   ],
+   "explain_he": "חז\"ל אמרו: יש חכמה בגויים, תאמין. יש תורה בגויים, אל תאמין.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז\"ל, האם יש חכמה בגויים?",
+   "answer": "כן, יש חכמה בגויים, אבל אין תורה בגויים",
+   "options": [
+    "כן, יש חכמה בגויים, אבל אין תורה בגויים",
+    "לא, אין שום חכמה בגויים",
+    "כן, ויש גם תורה בגויים",
+    "רק בשבת"
+   ],
+   "explain_he": "חז\"ל אמרו: יש חכמה בגויים, תאמין. יש תורה בגויים, אל תאמין.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הנס בתרגום השבעים?",
+   "answer": "כל הזקנים, כל אחד בחדר נפרד, כתבו בדיוק אותו דבר",
+   "options": [
+    "כל הזקנים, כל אחד בחדר נפרד, כתבו בדיוק אותו דבר",
+    "התרגום נכתב ביום אחד בלי דיו",
+    "המלך תלמי התגייר",
+    "הספר עף לשמיים"
+   ],
+   "explain_he": "הקדוש ברוך הוא נתן בלב כל אחד עצה, וכולם הסכימו לדעת אחת, אפילו בשינויים שעשו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הנס בתרגום השבעים?",
+   "answer": "כל הזקנים, כל אחד בחדר נפרד, כתבו בדיוק אותו דבר",
+   "options": [
+    "כל הזקנים, כל אחד בחדר נפרד, כתבו בדיוק אותו דבר",
+    "התרגום נכתב ביום אחד בלי דיו",
+    "המלך תלמי התגייר",
+    "הספר עף לשמיים"
+   ],
+   "explain_he": "הקדוש ברוך הוא נתן בלב כל אחד עצה, וכולם הסכימו לדעת אחת, אפילו בשינויים שעשו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חז\"ל קראו לשלטון יוון \"חושך\"?",
+   "answer": "כי היוונים ניסו לכבות את אור התורה ולהשאיר רק את השכל",
+   "options": [
+    "כי היוונים ניסו לכבות את אור התורה ולהשאיר רק את השכל",
+    "כי ביוון היה תמיד לילה",
+    "כי לא היה להם חשמל",
+    "כי הם היו עניים"
+   ],
+   "explain_he": "זה היה חושך של הנשמה: ניסיון להשכיח את התורה ולהעביר את ישראל מחוקי השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה, לפי מסכת סופרים, היה יום תרגום התורה קשה לישראל?",
+   "answer": "כי התורה אינה יכולה להיתרגם כל צרכה, והעומק והמסורת הולכים לאיבוד",
+   "options": [
+    "כי התורה אינה יכולה להיתרגם כל צרכה, והעומק והמסורת הולכים לאיבוד",
+    "כי הזקנים כתבו דברים שונים",
+    "כי התרגום נשרף",
+    "כי היה אסור לכתוב באותו יום"
+   ],
+   "explain_he": "בתרגום הולכים לאיבוד העומק והתורה שבעל פה, וכל אחד יכול לפרש כרצונו. לכן השוו את היום ליום העגל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדו חז\"ל מהברכה \"יפת אלקים ליפת וישכון באהלי שם\"?",
+   "answer": "שיופיו של יפת יכול להיות טוב כשהוא בתוך האוהל של התורה",
+   "options": [
+    "שיופיו של יפת יכול להיות טוב כשהוא בתוך האוהל של התורה",
+    "שהיוונים צריכים לגור באוהלים",
+    "שאסור ללמוד שפות",
+    "שיפת היה גדול משם"
+   ],
+   "explain_he": "היופי והחכמה של יוון טובים כשהם משרתים את התורה. הבעיה מתחילה כשהם רוצים להחליף אותה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f2e13"
+  }
+ ]
+}

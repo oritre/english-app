@@ -1,0 +1,554 @@
+{
+ "id": "k-zio-f4",
+ "unit_id": "k-zio-u2",
+ "course": "zionism",
+ "title_he": "הרצל והקונגרס הציוני",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "הרצל והקונגרס הציוני",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בוקר אפור בפריז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A gray winter morning in Paris in 1895, a large crowd in dark coats and hats gathered in a wide military courtyard seen from far away, a lone journalist in a dark coat standing at the side, troubled, holding a notebook.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨🚶🚶",
+     "say": [
+      "פריז, חורף 1895. בחצר צבאית גדולה עומד קהל רב, ומסביב מאות אנשים צועקים.",
+      "במרכז עומד קצין יהודי בצבא צרפת, אלפרד דרייפוס. האשימו אותו בשקר שריגל בשביל האויב.",
+      "מוציאים אותו בבושה מהצבא, וההמון צועק: מוות ליהודים!",
+      "בצד עומד עיתונאי צעיר, שנשלח לכתוב על המשפט. שמו תאודור הרצל.",
+      "הוא רואה את השנאה ולא מאמין. הרי זאת צרפת, ארץ מתקדמת ומשכילה!",
+      "אם גם כאן שונאים יהודים, הוא חושב, אז השנאה לא תיעלם מעצמה.",
+      "הבוקר הזה, כך כתב הרצל עצמו שנים אחר כך, שינה את דרכו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מי היה הרצל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: An elegant newspaper office in Vienna in the 1890s, tall windows, desks with papers and ink, a tall bearded writer in a dark suit sitting deep in thought, gray afternoon light.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨",
+     "say": [
+      "הרצל נולד בשנת 1860 בבודפשט, ואחר כך גר בווינה, בירת אוסטריה.",
+      "הוא היה סופר ועיתונאי מוכשר, וכתב באחד העיתונים החשובים באירופה.",
+      "הרצל גדל רחוק מאורח החיים של תורה ומצוות, וידע מעט מאוד על היהדות.",
+      "כמו יהודים רבים באותה תקופה, הוא חשב פעם שאם היהודים יהיו כמו כולם, השנאה אליהם תיגמר.",
+      "אבל משפט דרייפוס הראה לו שזה לא נכון. גם יהודי שמתנהג בדיוק כמו כולם, נשאר בעיני השונאים יהודי.",
+      "והוא הגיע למסקנה: ליהודים צריכה להיות מדינה משלהם.",
+      "שימו לב: מה שגדולי ישראל ידעו מתוך התורה, שעם ישראל לא יכול להיבלע בין העמים, הרצל גילה מתוך המציאות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מדינת היהודים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A small study at night in Vienna, a bearded man in a dark suit writing quickly by a green-shaded lamp, pages piled on the desk, a window showing city lights.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "הרצל ישב וכתב, יום ולילה. בשנת 1896 יצא לאור ספר קטן בשם מדינת היהודים.",
+      "בספר הוא הסביר שהיהודים הם עם אחד, ושהם צריכים בית מולדת מוכר בכל העולם.",
+      "הוא לא הסתפק בכתיבה. הוא נסע לפגוש מלכים, שרים ועשירים, כדי לשכנע אותם לעזור.",
+      "הוא נפגש עם קיסר גרמניה, וביקש להיפגש עם השולטן התורכי, ששלט אז בארץ ישראל.",
+      "רבים צחקו עליו וקראו לו חולם. אחרים התלהבו מאוד, במיוחד יהודים עניים במזרח אירופה.",
+      "לאט לאט, הרעיון שלו התחיל להתפשט."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את הספר \"מדינת היהודים\" כתב הרצל בתוך כמה שבועות בלבד, בהתלהבות גדולה, והוא יצא לאור בשנת 1896."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "הקונגרס בבזל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A grand concert hall in Basel, Switzerland, in August 1897, about two hundred delegates in black formal suits seated in rows, some with beards and kippot, a tall bearded man standing at the front podium, solemn light.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨👴👨👨",
+     "say": [
+      "באוגוסט 1897 התכנס בעיר בזל שבשווייץ הקונגרס הציוני הראשון.",
+      "הגיעו בערך מאתיים צירים, יהודים מארצות רבות, וביניהם גם רבנים.",
+      "הרצל ביקש מכולם לבוא בבגדים חגיגיים ושחורים, כי זה רגע היסטורי של עם שלם.",
+      "בקונגרס הוחלט על המטרה: להקים לעם ישראל בית מולדת בארץ ישראל, בהסכמה של העמים.",
+      "כשהרצל עלה לדבר, האולם כולו קם על רגליו, ורבים בכו מהתרגשות.",
+      "אחרי אלפיים שנה, נציגים של העם היהודי ישבו שוב יחד, כדי לדבר על החזרה לארץ.",
+      "מאז נקראה התנועה הזאת בשם הציונות, מהמילה ציון."
+     ],
+     "pasuk": {
+      "text": "הציונות שואפת להקים לעם ישראל בית מולדת מובטח במשפט הכללי בארץ ישראל",
+      "ref": "תוכנית בזל, 1897"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "בעוד חמישים שנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A hotel room in Basel at night after the congress, a bearded man in a dark suit writing in a small diary by a candle, the window open to a starry sky over old rooftops.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👨",
+     "say": [
+      "אחרי הקונגרס כתב הרצל ביומן שלו משפט מפתיע.",
+      "בבזל ייסדתי את מדינת היהודים. אם אגיד את זה היום בקול, יצחקו לי.",
+      "אולי בעוד חמש שנים, ובוודאי בעוד חמישים, יכירו בזה כולם.",
+      "בשנת 1897 זה נשמע כמו חלום רחוק מאוד. לא הייתה אז אדמה, לא צבא ולא הסכמה של אף מעצמה.",
+      "עכשיו בואו נחשב יחד: 1897 ועוד חמישים שנה, זה 1947.",
+      "ובשנת 1947, בדיוק חמישים שנה אחרי הקונגרס, הצביעו האומות המאוחדות בעד הקמת מדינה יהודית בארץ ישראל.",
+      "הרצל עצמו לא זכה לראות את זה. אבל הדברים שכתב התקיימו כמעט ביום."
+     ],
+     "pasuk": {
+      "text": "בבזל ייסדתי את מדינת היהודים... אולי בעוד חמש שנים, ובוודאי בעוד חמישים, יכירו בזה כולם",
+      "ref": "מיומנו של הרצל, 1897"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "אם אשכחך ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A crowded congress hall in 1903 with delegates in dark suits, some standing in protest and walking out, others arguing, a tired bearded leader at the podium raising his right hand, tense evening light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨👨👴",
+     "say": [
+      "בשנת 1903 קרה דבר שבחן את התנועה כולה.",
+      "בארצות רוסיה היו פרעות קשות ביהודים. וממשלת בריטניה הציעה לתת ליהודים שטח באפריקה, באזור שכונה אז אוגנדה.",
+      "הרצל חשב שאולי זה יהיה מקלט זמני ליהודים בסכנה, עד שייפתחו שערי ארץ ישראל.",
+      "אבל הצירים מרוסיה, שסבלו יותר מכולם, קמו ויצאו מהאולם. הם אמרו: לא! אין לנו ארץ אחרת.",
+      "ובסוף הקונגרס, הרצל עצמו הרים את ידו הימנית ואמר: אם אשכחך ירושלים, תשכח ימיני.",
+      "הקונגרס שאחריו דחה את ההצעה לגמרי. גם אנשים רחוקים מתורה הרגישו שהקשר לארץ ישראל הוא בנפש של העם.",
+      "אלפיים שנה של תפילות לא הלכו לאיבוד. הן היו חזקות יותר מכל תוכנית מעשית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מה נשאר מהרצל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Mount Herzl in Jerusalem on a quiet morning, a simple black stone grave among tall pine trees, a family with children in modest clothes standing respectfully, the hills of Jerusalem behind.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👩👦🌳",
+     "say": [
+      "הרצל עבד ללא הפסקה, ונחלש מאוד. בשנת 1904 הוא נפטר, כשהיה רק בן ארבעים וארבע.",
+      "הוא נקבר בווינה, אבל ביקש שיום אחד יעבירו אותו לארץ ישראל.",
+      "בשנת 1949, אחרי קום המדינה, הובא ארונו לירושלים, להר שנקרא היום הר הרצל.",
+      "הרצל לא היה רב ולא נביא. אבל הוא נתן לעם ישראל תנועה מאורגנת, ועזר להפוך את החלום למעשים.",
+      "הנביאים אמרו שהקדוש ברוך הוא יקבץ את עמו, וחז״ל לימדו שלה׳ דרכים רבות ושלוחים רבים.",
+      "גם הרצל, שגדל רחוק, הפך לחלק מהסיפור הזה.",
+      "ובפרק הבא נפגוש אדם שהחזיר לעם עוד אוצר גדול: את השפה העברית בדיבור."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-zio-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "הרצל והקונגרס הציוני",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בוקר אפור בפריז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A gray winter morning in Paris in 1895, a large crowd in dark coats and hats gathered in a wide military courtyard seen from far away, a lone journalist in a dark coat standing at the side, troubled, holding a notebook.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨🚶🚶",
+     "say": [
+      "פריז, חורף 1895. בחצר צבאית גדולה עומד קהל רב, ומסביב מאות אנשים צועקים.",
+      "במרכז עומד קצין יהודי בצבא צרפת, אלפרד דרייפוס. האשימו אותו בשקר שריגל בשביל האויב.",
+      "מוציאים אותו בבושה מהצבא, וההמון צועק: מוות ליהודים!",
+      "בצד עומד עיתונאי צעיר, שנשלח לכתוב על המשפט. שמו תאודור הרצל.",
+      "הוא רואה את השנאה ולא מאמין. הרי זאת צרפת, ארץ מתקדמת ומשכילה!",
+      "אם גם כאן שונאים יהודים, הוא חושב, אז השנאה לא תיעלם מעצמה.",
+      "הבוקר הזה, כך כתב הרצל עצמו שנים אחר כך, שינה את דרכו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מי היה הרצל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: An elegant newspaper office in Vienna in the 1890s, tall windows, desks with papers and ink, a tall bearded writer in a dark suit sitting deep in thought, gray afternoon light.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨",
+     "say": [
+      "הרצל נולד בשנת 1860 בבודפשט, ואחר כך גר בווינה, בירת אוסטריה.",
+      "הוא היה סופר ועיתונאי מוכשר, וכתב באחד העיתונים החשובים באירופה.",
+      "הרצל גדל רחוק מאורח החיים של תורה ומצוות, וידע מעט מאוד על היהדות.",
+      "כמו יהודים רבים באותה תקופה, הוא חשב פעם שאם היהודים יהיו כמו כולם, השנאה אליהם תיגמר.",
+      "אבל משפט דרייפוס הראה לו שזה לא נכון. גם יהודי שמתנהג בדיוק כמו כולם, נשאר בעיני השונאים יהודי.",
+      "והוא הגיע למסקנה: ליהודים צריכה להיות מדינה משלהם.",
+      "שימו לב: מה שגדולי ישראל ידעו מתוך התורה, שעם ישראל לא יכול להיבלע בין העמים, הרצל גילה מתוך המציאות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מדינת היהודים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A small study at night in Vienna, a bearded man in a dark suit writing quickly by a green-shaded lamp, pages piled on the desk, a window showing city lights.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "הרצל ישב וכתב, יום ולילה. בשנת 1896 יצא לאור ספר קטן בשם מדינת היהודים.",
+      "בספר הוא הסביר שהיהודים הם עם אחד, ושהם צריכים בית מולדת מוכר בכל העולם.",
+      "הוא לא הסתפק בכתיבה. הוא נסע לפגוש מלכים, שרים ועשירים, כדי לשכנע אותם לעזור.",
+      "הוא נפגש עם קיסר גרמניה, וביקש להיפגש עם השולטן התורכי, ששלט אז בארץ ישראל.",
+      "רבים צחקו עליו וקראו לו חולם. אחרים התלהבו מאוד, במיוחד יהודים עניים במזרח אירופה.",
+      "לאט לאט, הרעיון שלו התחיל להתפשט."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את הספר \"מדינת היהודים\" כתב הרצל בתוך כמה שבועות בלבד, בהתלהבות גדולה, והוא יצא לאור בשנת 1896."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "הקונגרס בבזל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A grand concert hall in Basel, Switzerland, in August 1897, about two hundred delegates in black formal suits seated in rows, some with beards and kippot, a tall bearded man standing at the front podium, solemn light.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨👴👨👨",
+     "say": [
+      "באוגוסט 1897 התכנס בעיר בזל שבשווייץ הקונגרס הציוני הראשון.",
+      "הגיעו בערך מאתיים צירים, יהודים מארצות רבות, וביניהם גם רבנים.",
+      "הרצל ביקש מכולם לבוא בבגדים חגיגיים ושחורים, כי זה רגע היסטורי של עם שלם.",
+      "בקונגרס הוחלט על המטרה: להקים לעם ישראל בית מולדת בארץ ישראל, בהסכמה של העמים.",
+      "כשהרצל עלה לדבר, האולם כולו קם על רגליו, ורבים בכו מהתרגשות.",
+      "אחרי אלפיים שנה, נציגים של העם היהודי ישבו שוב יחד, כדי לדבר על החזרה לארץ.",
+      "מאז נקראה התנועה הזאת בשם הציונות, מהמילה ציון."
+     ],
+     "pasuk": {
+      "text": "הציונות שואפת להקים לעם ישראל בית מולדת מובטח במשפט הכללי בארץ ישראל",
+      "ref": "תוכנית בזל, 1897"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "רבנים וציונות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A meeting room in Eastern Europe around 1902, several rabbis with long beards and black hats sitting around a table covered with books and letters, discussing seriously, candles and a window with snow.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴👴👴",
+     "say": [
+      "איך הגיבו גדולי התורה לתנועה החדשה? לא כולם באותה דרך.",
+      "הרב שמואל מוהליבר, מראשי חובבי ציון, שלח לקונגרס הראשון מכתב ברכה. הוא ביקש שהתנועה תשמור על התורה.",
+      "רבנים רבים אחרים חששו מאוד. הם ראו שרוב מנהיגי התנועה רחוקים משמירת מצוות, ופחדו שיבנו לאומיות בלי תורה.",
+      "הם הזכירו שעם ישראל הוא עם בזכות התורה, ושבלעדיה אין לו קיום אמיתי. רב סעדיה גאון כתב כבר לפני כאלף שנה: אומתנו איננה אומה אלא בתורותיה.",
+      "בשנת 1902 ייסד הרב יצחק יעקב ריינס את תנועת המזרחי, שהלכה בתוך הציונות בדרך התורה.",
+      "הסיסמה שלה הייתה: ארץ ישראל לעם ישראל על פי תורת ישראל.",
+      "כך התחיל ויכוח חשוב שנמשך שנים רבות. אבל כולם, כל הצדדים, אהבו את ארץ ישראל והתפללו לגאולה.",
+      "ובינתיים, יהודים יראי שמיים רבים המשיכו לעלות לארץ ולבנות אותה, כל אחד בדרכו.",
+      "אנשי המזרחי השתתפו בקונגרסים הציוניים, ודאגו שהחלטות התנועה לא יפגעו בתורה ובמצוות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "בעוד חמישים שנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A hotel room in Basel at night after the congress, a bearded man in a dark suit writing in a small diary by a candle, the window open to a starry sky over old rooftops.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👨",
+     "say": [
+      "אחרי הקונגרס כתב הרצל ביומן שלו משפט מפתיע.",
+      "בבזל ייסדתי את מדינת היהודים. אם אגיד את זה היום בקול, יצחקו לי.",
+      "אולי בעוד חמש שנים, ובוודאי בעוד חמישים, יכירו בזה כולם.",
+      "בשנת 1897 זה נשמע כמו חלום רחוק מאוד. לא הייתה אז אדמה, לא צבא ולא הסכמה של אף מעצמה.",
+      "עכשיו בואו נחשב יחד: 1897 ועוד חמישים שנה, זה 1947.",
+      "ובשנת 1947, בדיוק חמישים שנה אחרי הקונגרס, הצביעו האומות המאוחדות בעד הקמת מדינה יהודית בארץ ישראל.",
+      "הרצל עצמו לא זכה לראות את זה. אבל הדברים שכתב התקיימו כמעט ביום."
+     ],
+     "pasuk": {
+      "text": "בבזל ייסדתי את מדינת היהודים... אולי בעוד חמש שנים, ובוודאי בעוד חמישים, יכירו בזה כולם",
+      "ref": "מיומנו של הרצל, 1897"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "פגישה בשער מקווה ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A dusty road by the gate of an agricultural school near Jaffa in 1898, rows of young trees, a tall bearded man in a white summer suit and hat standing among Jewish students and teachers, a distant column of riders, bright heat.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨👦👦🌳",
+     "say": [
+      "בשנת 1898 ביקר הרצל בארץ ישראל, פעם אחת ויחידה בחייו.",
+      "קיסר גרמניה, וילהלם השני, הגיע אז לביקור בארץ, והרצל קיווה שהקיסר יעזור לו מול השולטן התורכי.",
+      "הם נפגשו לרגע ליד שער מקווה ישראל. תלמידי בית הספר עמדו בשורה ושרו, והקיסר לחץ את ידו של הרצל.",
+      "הרצל ביקר במושבות ראשון לציון ורחובות, וראה במו עיניו יהודים עובדים את האדמה.",
+      "אחר כך עלה לירושלים. הוא התרגש מהעיר העתיקה, אבל גם נבהל מהעוני ומהצפיפות.",
+      "הפגישה עם הקיסר לא הביאה תוצאות. הרצל חזר לאירופה, והבין שהדרך עוד ארוכה.",
+      "אבל מה שראה בארץ, את האנשים ואת העצים הצעירים, נתן לו כוח להמשיך.",
+      "ובשנים שאחר כך המשיך להיפגש עם מלכים ושרים, וגם עם השולטן התורכי עצמו, אבל ללא הצלחה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הרצל ביקר בארץ ישראל פעם אחת בלבד, בסתיו 1898, וראה בעיניו את המושבות ואת ירושלים."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "אם אשכחך ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A crowded congress hall in 1903 with delegates in dark suits, some standing in protest and walking out, others arguing, a tired bearded leader at the podium raising his right hand, tense evening light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨👨👴",
+     "say": [
+      "בשנת 1903 קרה דבר שבחן את התנועה כולה.",
+      "בארצות רוסיה היו פרעות קשות ביהודים. וממשלת בריטניה הציעה לתת ליהודים שטח באפריקה, באזור שכונה אז אוגנדה.",
+      "הרצל חשב שאולי זה יהיה מקלט זמני ליהודים בסכנה, עד שייפתחו שערי ארץ ישראל.",
+      "אבל הצירים מרוסיה, שסבלו יותר מכולם, קמו ויצאו מהאולם. הם אמרו: לא! אין לנו ארץ אחרת.",
+      "ובסוף הקונגרס, הרצל עצמו הרים את ידו הימנית ואמר: אם אשכחך ירושלים, תשכח ימיני.",
+      "הקונגרס שאחריו דחה את ההצעה לגמרי. גם אנשים רחוקים מתורה הרגישו שהקשר לארץ ישראל הוא בנפש של העם.",
+      "אלפיים שנה של תפילות לא הלכו לאיבוד. הן היו חזקות יותר מכל תוכנית מעשית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מה נשאר מהרצל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Mount Herzl in Jerusalem on a quiet morning, a simple black stone grave among tall pine trees, a family with children in modest clothes standing respectfully, the hills of Jerusalem behind.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👩👦🌳",
+     "say": [
+      "הרצל עבד ללא הפסקה, ונחלש מאוד. בשנת 1904 הוא נפטר, כשהיה רק בן ארבעים וארבע.",
+      "הוא נקבר בווינה, אבל ביקש שיום אחד יעבירו אותו לארץ ישראל.",
+      "בשנת 1949, אחרי קום המדינה, הובא ארונו לירושלים, להר שנקרא היום הר הרצל.",
+      "הרצל לא היה רב ולא נביא. אבל הוא נתן לעם ישראל תנועה מאורגנת, ועזר להפוך את החלום למעשים.",
+      "הנביאים אמרו שהקדוש ברוך הוא יקבץ את עמו, וחז״ל לימדו שלה׳ דרכים רבות ושלוחים רבים.",
+      "גם הרצל, שגדל רחוק, הפך לחלק מהסיפור הזה.",
+      "ובפרק הבא נפגוש אדם שהחזיר לעם עוד אוצר גדול: את השפה העברית בדיבור."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-zio-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מאורע בפריז הסעיר את הרצל?",
+   "answer": "משפט דרייפוס, קצין יהודי שהואשם בשקר",
+   "options": [
+    "משפט דרייפוס, קצין יהודי שהואשם בשקר",
+    "מלחמה גדולה בין צרפת לגרמניה",
+    "שריפה בבית כנסת גדול"
+   ],
+   "explain_he": "הרצל ראה את ההמון צועק \"מוות ליהודים\" במשפט דרייפוס, והבין שהשנאה לא תיעלם מעצמה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מאורע בפריז הסעיר את הרצל?",
+   "answer": "משפט דרייפוס, קצין יהודי שהואשם בשקר",
+   "options": [
+    "משפט דרייפוס, קצין יהודי שהואשם בשקר",
+    "מלחמה גדולה בין צרפת לגרמניה",
+    "שריפה בבית כנסת גדול"
+   ],
+   "explain_he": "הרצל ראה את ההמון צועק \"מוות ליהודים\" במשפט דרייפוס, והבין שהשנאה לא תיעלם מעצמה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקרא הספר שכתב הרצל בשנת 1896?",
+   "answer": "מדינת היהודים",
+   "options": [
+    "מדינת היהודים",
+    "דרישת ציון",
+    "פאת השולחן"
+   ],
+   "explain_he": "בספר \"מדינת היהודים\" הסביר הרצל שליהודים צריך להיות בית מולדת משלהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקרא הספר שכתב הרצל בשנת 1896?",
+   "answer": "מדינת היהודים",
+   "options": [
+    "מדינת היהודים",
+    "דרישת ציון",
+    "פאת השולחן"
+   ],
+   "explain_he": "בספר \"מדינת היהודים\" הסביר הרצל שליהודים צריך להיות בית מולדת משלהם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו עיר התכנס הקונגרס הציוני הראשון?",
+   "answer": "בזל שבשווייץ",
+   "options": [
+    "בזל שבשווייץ",
+    "וינה שבאוסטריה",
+    "פריז שבצרפת"
+   ],
+   "explain_he": "הקונגרס הראשון התכנס בבזל באוגוסט 1897, ובו כמאתיים צירים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו עיר התכנס הקונגרס הציוני הראשון?",
+   "answer": "בזל שבשווייץ",
+   "options": [
+    "בזל שבשווייץ",
+    "וינה שבאוסטריה",
+    "פריז שבצרפת"
+   ],
+   "explain_he": "הקונגרס הראשון התכנס בבזל באוגוסט 1897, ובו כמאתיים צירים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרצל ביומנו אחרי הקונגרס?",
+   "answer": "שבעוד חמישים שנה יכירו כולם במדינת היהודים",
+   "options": [
+    "שבעוד חמישים שנה יכירו כולם במדינת היהודים",
+    "שהמדינה תקום כבר בשנה הבאה",
+    "שהיהודים צריכים להישאר באירופה"
+   ],
+   "explain_he": "הרצל כתב \"בוודאי בעוד חמישים\", ובשנת 1947, חמישים שנה אחרי, הצביע האו״ם בעד מדינה יהודית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרצל ביומנו אחרי הקונגרס?",
+   "answer": "שבעוד חמישים שנה יכירו כולם במדינת היהודים",
+   "options": [
+    "שבעוד חמישים שנה יכירו כולם במדינת היהודים",
+    "שהמדינה תקום כבר בשנה הבאה",
+    "שהיהודים צריכים להישאר באירופה"
+   ],
+   "explain_he": "הרצל כתב \"בוודאי בעוד חמישים\", ובשנת 1947, חמישים שנה אחרי, הצביע האו״ם בעד מדינה יהודית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מסקנתו של הרצל דומה למה שגדולי ישראל ידעו מהתורה?",
+   "answer": "כי שניהם הבינו שעם ישראל לא יכול להיבלע בין העמים",
+   "options": [
+    "כי שניהם הבינו שעם ישראל לא יכול להיבלע בין העמים",
+    "כי שניהם רצו שהיהודים יהיו בדיוק כמו כולם",
+    "כי הרצל למד בישיבה אצל גדולי ישראל"
+   ],
+   "explain_he": "הרצל גילה מתוך המציאות את מה שהתורה לימדה: עם ישראל נשאר עם מיוחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מסקנתו של הרצל דומה למה שגדולי ישראל ידעו מהתורה?",
+   "answer": "כי שניהם הבינו שעם ישראל לא יכול להיבלע בין העמים",
+   "options": [
+    "כי שניהם הבינו שעם ישראל לא יכול להיבלע בין העמים",
+    "כי שניהם רצו שהיהודים יהיו בדיוק כמו כולם",
+    "כי הרצל למד בישיבה אצל גדולי ישראל"
+   ],
+   "explain_he": "הרצל גילה מתוך המציאות את מה שהתורה לימדה: עם ישראל נשאר עם מיוחד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה הסיסמה של תנועת המזרחי?",
+   "answer": "ארץ ישראל לעם ישראל על פי תורת ישראל",
+   "options": [
+    "ארץ ישראל לעם ישראל על פי תורת ישראל",
+    "ארץ ישראל לכל עם, בכל דרך שיבחר",
+    "עם חופשי בארצנו, בלי קשר לתורה"
+   ],
+   "explain_he": "תנועת המזרחי נוסדה בשנת 1902 בידי הרב ריינס, והלכה בתוך הציונות בדרך התורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענו הצירים מרוסיה על הצעת אוגנדה?",
+   "answer": "שאין לעם ישראל ארץ אחרת מלבד ארץ ישראל",
+   "options": [
+    "שאין לעם ישראל ארץ אחרת מלבד ארץ ישראל",
+    "שאוגנדה טובה יותר מארץ ישראל",
+    "שכדאי להישאר ברוסיה"
+   ],
+   "explain_he": "הם יצאו מהאולם במחאה, והרצל עצמו אמר \"אם אשכחך ירושלים\". ההצעה נדחתה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f4e14"
+  }
+ ]
+}

@@ -1,0 +1,306 @@
+{
+ "id": "k-sho-f2",
+ "unit_id": "k-sho-u1",
+ "course": "holocaust",
+ "title_he": "עליית הנאצים והגזירות",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "עליית הנאצים והגזירות",
+   "ref_he": "השואה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "גרמניה, 1933",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A grey rainy city street in Germany in 1933: tall stone buildings, a closed Jewish shop with its shutters down, an elderly Jewish man in a hat and long coat walking alone with an umbrella, seen from behind.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👴🏠",
+     "say": [
+      "גרמניה של שנות העשרים נחשבה לאחת המדינות המתקדמות בעולם: אוניברסיטאות, מדענים, מוזיקה, ספרים.",
+      "יהודים רבים חיו בה מאות שנים. הם היו רופאים, סוחרים ומורים, ורבים מהם הרגישו גרמנים לכל דבר.",
+      "רבים מהם אף נלחמו בצבא גרמניה במלחמת העולם הראשונה, וקיבלו עיטורים על אומץ לב. הם האמינו שהם שייכים.",
+      "אבל אחרי מלחמת העולם הראשונה הייתה בגרמניה מצוקה גדולה: עוני, אבטלה וכעס. ולתוך הכעס הזה נכנסה מפלגה אחת, המפלגה הנאצית, בראשות אדם בשם היטלר.",
+      "בחודש ינואר 1933 עלה היטלר לשלטון. מאותו רגע, השנאה ליהודים כבר לא הייתה רק דיבורים. היא הפכה למדיניות של מדינה שלמה.",
+      "שימו לב: היהודים בגרמניה היו מיעוט קטן מאוד, בערך חצי מיליון איש, פחות מאחד מכל מאה תושבים. ובכל זאת, הנאצים האשימו אותם בכל הצרות.",
+      "הם טענו שהיהודים אשמים בהפסד במלחמה ובעוני. זה היה שקר גמור, אבל שקר שחוזרים עליו שוב ושוב מתחיל להישמע לאנשים כמו אמת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שנאה ישנה בבגד חדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: An old European town square at dusk with cobblestones and a church tower in the distance, torn paper posters blowing in the wind on a wall, the faces on them not visible, a gloomy grey sky.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🏠",
+     "say": [
+      "שנאת ישראל לא התחילה בגרמניה. בהגדה של פסח אנחנו אומרים: בכל דור ודור עומדים עלינו לכלותנו.",
+      "אבל הנאצים הוסיפו משהו חדש ומפחיד. הם טענו שהיהודים הם \"גזע\" רע, ושלכן אין שום דרך להפסיק להיות יהודי.",
+      "בעבר, אויבים לפעמים דרשו מהיהודים לעזוב את דתם. הנאצים לא דרשו דבר. הם רצו פשוט שלא יהיו יהודים בעולם.",
+      "הם הפיצו שקרים בעיתונים, בבתי הספר ובנאומים, עד שמיליוני אנשים התחילו להאמין להם.",
+      "השנאה התחילה במילים. אחר כך באו החוקים, ורק אחר כך הרצח. שלמה המלך כתב: מוות וחיים ביד לשון."
+     ],
+     "pasuk": {
+      "text": "שֶׁלֹּא אֶחָד בִּלְבַד עָמַד עָלֵינוּ לְכַלּוֹתֵנוּ, אֶלָּא שֶׁבְּכָל דּוֹר וָדוֹר עוֹמְדִים עָלֵינוּ לְכַלּוֹתֵנוּ",
+      "ref": "הגדה של פסח"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הגזירות הראשונות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A small Jewish school classroom in Germany standing empty: wooden desks, a few schoolbags left on the benches, chalk dust in a beam of grey light from a high window, a closed door.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🏠",
+     "say": [
+      "הגזירות הגיעו לאט, צעד אחרי צעד. בהתחלה הכריזו הנאצים על חרם: \"אל תקנו אצל יהודים!\"",
+      "אחר כך אסרו על השחיטה הכשרה. רופאים ועורכי דין יהודים פוטרו מעבודתם, וילדים יהודים גורשו מבתי הספר.",
+      "בשנת 1935 נקבעו \"חוקי נירנברג\": היהודים כבר לא נחשבו אזרחים של גרמניה. הם הפכו לזרים בארץ שבה חיו דורות.",
+      "כל גזירה לבדה נראתה אולי קטנה. אבל ביחד הן בנו חומה סביב היהודים, והבידוד הזה הכין את הדרך למה שבא אחר כך.",
+      "שלטים הופיעו בפתחי חנויות ובגנים: \"ליהודים הכניסה אסורה\". ילדים יהודים כבר לא הורשו לשחק בגנים הציבוריים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כבר בשנת 1933, הגזירה הראשונה של הנאצים נגד מצווה הייתה איסור השחיטה הכשרה בגרמניה."
+     }
+    },
+    {
+     "id": "s3b",
+     "title_he": "נדחקים החוצה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A German city railway station in the late 1930s: a Jewish family in coats and hats with suitcases saying goodbye to the grandparents on the platform, a long train waiting, steam and grey light, faces seen from the side.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👴👵👨👧",
+     "say": [
+      "יהודי גרמניה הבינו לאט לאט שאין להם עתיד במקום. ילדים יהודים שנשארו בבתי הספר הכלליים ישבו לבד, ולפעמים המורים ביזו אותם מול כולם.",
+      "הקהילות הקימו בתי ספר יהודיים משלהן, כדי לשמור על הילדים. בבתי הכנסת התאספו יהודים כדי לחזק זה את זה.",
+      "רבים החליטו לעזוב. עד פרוץ המלחמה יצאו מגרמניה בערך מחצית מיהודיה, ורבים מהם עלו לארץ ישראל.",
+      "אבל לא כולם יכלו. מי שהיה זקן, עני או חולה, נשאר לעיתים קרובות מאחור.",
+      "וגם רבים מאלה שברחו למדינות שכנות, כמו הולנד, בלגיה וצרפת, נלכדו כעבור כמה שנים, כשהנאצים כבשו גם אותן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ליל הבדולח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: The morning after, in a German city street: shattered glass sparkling on the wet pavement, the blackened empty shell of a stone synagogue with smoke still rising quietly into a pale sky, nobody in the street.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🏠",
+     "say": [
+      "בלילה אחד בחודש נובמבר 1938 פרצו פורעים בכל רחבי גרמניה ואוסטריה. הם הציתו מאות בתי כנסת, ושברו את חלונותיהם של אלפי חנויות ובתים יהודיים.",
+      "ספרי תורה נזרקו לרחוב ונשרפו. אלפי יהודים נלקחו מבתיהם.",
+      "בערך שלושים אלף גברים יהודים נשלחו למחנות ריכוז, רק משום שהיו יהודים. והיו יהודים שסיכנו את עצמם כדי להציל ספרי תורה מבתי הכנסת הבוערים.",
+      "בבוקר היו הרחובות מכוסים זכוכית שבורה שנצצה כמו בדולח, ולכן קראו ללילה הזה \"ליל הבדולח\".",
+      "והעולם? רוב המדינות הביעו צער, אבל כמעט אף אחת לא פתחה את שעריה ליהודים שרצו לברוח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מחפשים מקום מקלט",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A long quiet line of Jewish families in coats and hats with old suitcases waiting outside a closed iron gate of a consulate building on a cold grey morning, a mother holding a small child close.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨👩👧",
+     "say": [
+      "יהודים רבים הבינו שצריך לברוח. הם עמדו בתורים ארוכים מול שגרירויות, וביקשו אשרה, כלומר רשות להיכנס למדינה אחרת.",
+      "אבל השערים היו כמעט נעולים. גם לארץ ישראל הגבילו הבריטים, ששלטו בה, את מספר העולים.",
+      "חלק הצליחו לצאת, והצילו את חייהם. רבים אחרים נשארו, כי לא היה להם לאן ללכת.",
+      "ויש עוד דבר: איש לא תיאר לעצמו מה עומד לקרות. גם מי שחשש מצרות, לא העלה בדעתו רצח של עם שלם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בשנת 1938 נפגשו נציגים של עשרות מדינות בעיירה אוויאן שבצרפת כדי לדון בפליטים היהודים. כמעט אף מדינה לא הסכימה לקלוט אותם."
+     }
+    },
+    {
+     "id": "s5b",
+     "title_he": "האונייה שחזרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A large ocean liner anchored in a sunny tropical harbor in 1939, small boats around it, passengers in coats and hats crowded at the rails looking toward a palm-lined shore they cannot reach, a quiet sad mood.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "בחודש מאי 1939 יצאה מגרמניה אונייה בשם \"סנט לואיס\", ועליה בערך תשע מאות פליטים יהודים. בידיהם היו אישורי כניסה לקובה.",
+      "אבל כשהגיעו, קובה סירבה לתת להם לרדת. גם ארצות הברית וקנדה לא הסכימו לקלוט אותם.",
+      "האונייה נאלצה לחזור לאירופה. הנוסעים התקבלו במדינות שונות שם, אבל כשהנאצים כבשו את המדינות האלה, רבים מהם נרצחו.",
+      "הסיפור הזה מלמד כמה בודדים היו היהודים: לא הייתה להם מדינה משלהם שתפתח להם את שעריה.",
+      "וזו אחת הסיבות שאחרי השואה הבינו יהודים רבים כמה חשוב שתהיה לעם ישראל מדינה משלו בארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "המלחמה פורצת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Late summer fields in Poland at dawn: a quiet village with a wooden synagogue, dark clouds gathering on the far horizon, a line of tiny dark shapes of an army far away on a distant road, birds flying away.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🏠🐑",
+     "say": [
+      "ב־1 בספטמבר 1939 פלש הצבא הגרמני לפולין. כך פרצה מלחמת העולם השנייה.",
+      "בתוך שבועות ספורים נפלה פולין. בשנים שאחר כך כבשו הנאצים את רוב אירופה, מצרפת במערב ועד עומק רוסיה במזרח.",
+      "עכשיו נפלו לידי הנאצים לא מאות אלפי יהודים, כמו בגרמניה, אלא מיליונים.",
+      "מיד הגיעו גזירות חדשות: היהודים חויבו לענוד סרט או טלאי עם מגן דוד, כדי שכולם יזהו אותם. בתי כנסת נסגרו, ורכוש נלקח.",
+      "ובכל זאת, בתוך הבתים, המשיכו יהודים להתפלל, ללמוד ולשמור שבת, ככל שרק יכלו.",
+      "הרבנים חיזקו את קהילותיהם: גם כשהכול מסביב חשוך, אנחנו ממשיכים לעשות את מה שעשו אבותינו.",
+      "במקומות שבהם נסגרו בתי הכנסת, התאספו יהודים למניין בבתים פרטיים, בשקט, מאחורי חלונות מוגפים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הטלאי שהפך לסימן כבוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A close view of an old worn coat hanging on a wooden peg in a dim room, a cloth star sewn on its sleeve, a soft ray of light from a small window falling across it.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "הנאצים רצו שהטלאי יהיה סימן של בושה. אבל יהודים רבים ראו בו דבר אחר.",
+      "לפי המסופר, היו רבנים שאמרו לקהילותיהם: אל תתביישו. זה המגן דוד שלנו. אנחנו בני אברהם, יצחק ויעקב, ואנחנו גאים בזה.",
+      "כבר בשנת 1933 כתב עורך של עיתון יהודי בגרמניה מאמר שכותרתו: \"שאו אותו בגאווה, את הטלאי הצהוב\".",
+      "זה היה הצעד הראשון של מה שנקרא \"עמידה רוחנית\": הם יכלו לגזול מהיהודים את הבית ואת הרכוש, אבל לא את הגאווה ולא את האמונה.",
+      "בסרט הבא ניכנס לגטו, ונראה איך העמידה הזאת המשיכה גם במקום הקשה ביותר."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sho-f2e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לאוניית \"סנט לואיס\"?",
+   "answer": "קובה, ארצות הברית וקנדה סירבו לקלוט את הפליטים, והיא חזרה לאירופה",
+   "options": [
+    "קובה, ארצות הברית וקנדה סירבו לקלוט את הפליטים, והיא חזרה לאירופה",
+    "היא הגיעה בשלום לארץ ישראל",
+    "היא טבעה בים",
+    "כל הנוסעים ירדו בקובה"
+   ],
+   "explain_he": "אף מדינה שם לא הסכימה לקבל את בערך תשע מאות הפליטים, והאונייה נאלצה לחזור לאירופה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו שנה עלה היטלר לשלטון בגרמניה?",
+   "answer": "1933",
+   "options": [
+    "1933",
+    "1918",
+    "1945",
+    "1948"
+   ],
+   "explain_he": "בינואר 1933 עלה היטלר לשלטון, ומאז השנאה ליהודים הפכה למדיניות של מדינה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה חדש ומפחיד ברעיון של הנאצים?",
+   "answer": "שאין שום דרך להפסיק להיות יהודי, ולכן רצו שלא יהיו יהודים כלל",
+   "options": [
+    "שאין שום דרך להפסיק להיות יהודי, ולכן רצו שלא יהיו יהודים כלל",
+    "שהם דרשו מהיהודים לעבור לגור בעיר אחרת",
+    "שהם רצו שהיהודים ילמדו גרמנית",
+    "שהם שנאו רק את היהודים העשירים"
+   ],
+   "explain_he": "אויבים בעבר דרשו לפעמים מהיהודים לעזוב את דתם. הנאצים טענו שהיהודים \"גזע\" ורצו שלא יהיו יהודים בעולם כלל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קבעו \"חוקי נירנברג\"?",
+   "answer": "שהיהודים אינם עוד אזרחים של גרמניה",
+   "options": [
+    "שהיהודים אינם עוד אזרחים של גרמניה",
+    "שאסור ליהודים לגור בכפרים",
+    "שכל היהודים חייבים לעלות לארץ ישראל",
+    "שמותר ליהודים לפתוח רק חנויות קטנות"
+   ],
+   "explain_he": "בשנת 1935 נקבע שהיהודים אינם אזרחים, והם הפכו לזרים בארץ שבה חיו דורות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא ליל הפרעות בשם \"ליל הבדולח\"?",
+   "answer": "כי בבוקר הרחובות היו מכוסים זכוכית שבורה שנצצה",
+   "options": [
+    "כי בבוקר הרחובות היו מכוסים זכוכית שבורה שנצצה",
+    "כי הוא היה בליל ירח מלא",
+    "כי היהודים הדליקו בו נרות",
+    "כי הוא היה ביום חג"
+   ],
+   "explain_he": "בלילה ההוא נשברו חלונות של אלפי חנויות ובתים יהודיים, ובבוקר נצצה הזכוכית השבורה ברחובות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה יהודים רבים לא הצליחו לברוח לפני המלחמה?",
+   "answer": "כי רוב המדינות כמעט לא פתחו את שעריהן",
+   "options": [
+    "כי רוב המדינות כמעט לא פתחו את שעריהן",
+    "כי לא רצו לעזוב את החנויות",
+    "כי לא ידעו לקרוא מפות",
+    "כי לא היו אז אוניות"
+   ],
+   "explain_he": "יהודים עמדו בתורים ארוכים ליד השגרירויות, אבל כמעט אף מדינה לא הסכימה לקלוט אותם, וגם לארץ ישראל הגבילו הבריטים את העלייה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הכוונה ב\"עמידה רוחנית\"?",
+   "answer": "לשמור על האמונה, הגאווה והמצוות גם כשלוקחים את כל השאר",
+   "options": [
+    "לשמור על האמונה, הגאווה והמצוות גם כשלוקחים את כל השאר",
+    "לברוח ליער",
+    "לכתוב מכתבים לעיתונים",
+    "לשנות את השם לשם גרמני"
+   ],
+   "explain_he": "הנאצים יכלו לגזול את הבית והרכוש, אבל יהודים רבים שמרו על הגאווה, על התפילה ועל האמונה. זו העמידה הרוחנית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f2e8"
+  }
+ ]
+}

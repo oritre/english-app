@@ -1,0 +1,544 @@
+{
+ "id": "k-exl-f1",
+ "unit_id": "k-exl-u1",
+ "course": "exile",
+ "title_he": "החורבן ויבנה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "החורבן ויבנה",
+   "ref_he": "עם ישראל בגלות",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "eicha",
+     "title_he": "ליל תשעה באב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Night of Tisha B'Av in a synagogue: dim candlelight, men and boys sit on low stools and on the floor reading quietly from small books, the curtain of the ark removed, a sad and holy hush.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👦",
+     "say": [
+      "ערב תשעה באב. בבית הכנסת האורות מעומעמים, האנשים יושבים על הרצפה, ומישהו קורא בניגון עצוב: איכה ישבה בדד.",
+      "על מה אנחנו בוכים? על יום אחד, לפני כמעט אלפיים שנה, שבו נחרב בית המקדש השני, והתחילה הגלות הארוכה של עם ישראל.",
+      "בקורס הזה נלך בעקבות עם ישראל בגלות: לבבל, לספרד, לאשכנז, לצפון אפריקה, לתימן ולפולין.",
+      "ונראה איך עם קטן ומפוזר שמר על התורה ועל האמונה, בנה קהילות בכל מקום, ואף פעם לא שכח את ירושלים."
+     ],
+     "pasuk": {
+      "text": "איכה ישבה בדד העיר רבתי עם",
+      "ref": "איכה א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "temple",
+     "title_he": "בית המקדש השני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A sweeping painted view of Jerusalem in the Second Temple era at golden morning: the gleaming Temple on its mountain above the city walls, crowds of pilgrims in modest robes climbing the steps with baskets of first fruits.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "בית המקדש השני עמד בירושלים ארבע מאות ועשרים שנה. אליו עלו יהודים לרגל, בפסח, בשבועות ובסוכות, מכל הארץ ומארצות רחוקות.",
+      "אבל בסוף ימי הבית, הרומאים שלטו בארץ ביד קשה. וגם בתוך העם היו מריבות, ויהודים שנאו זה את זה בלי סיבה.",
+      "צבא רומא, בראשות טיטוס, צר על ירושלים. ובתשעה באב שרפו הרומאים את בית המקדש.",
+      "חז\"ל אומרים: מקדש ראשון נחרב בגלל עבודה זרה ועוד עבירות חמורות. ומקדש שני, שהיו בו תורה ומצוות וגמילות חסדים, נחרב בגלל שנאת חינם."
+     ],
+     "pasuk": {
+      "text": "מקדש שני, שהיו עוסקין בתורה ובמצות ובגמילות חסדים, מפני מה חרב? מפני שהיתה בו שנאת חנם",
+      "ref": "יומא ט ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "kamtza",
+     "title_he": "קמצא ובר קמצא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A grand banquet hall in old Jerusalem with long tables of food and oil lamps: a host in a fine robe points sternly toward the door, a humiliated guest turns away, and elderly sages at the table sit silent; tense but not violent.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 👨 👴",
+     "say": [
+      "הגמרא מספרת איך התחיל החורבן. אדם אחד עשה סעודה גדולה, ושלח את משרתו להזמין את חברו, קמצא. המשרת טעה, והזמין את בר קמצא, שהיה שונא של בעל הבית.",
+      "בעל הבית ראה אותו ואמר: צא מכאן. בר קמצא התחנן: תן לי להישאר, ואשלם על מה שאוכל. אשלם חצי מהסעודה. אשלם את כל הסעודה! אבל בעל הבית סירב, והוציא אותו בבושה.",
+      "החכמים שישבו שם שתקו, ולא מחו. ובר קמצא, בכעסו, הלך והלשין על היהודים לפני הקיסר.",
+      "סיפור אחד של בושה ושנאה, ותוצאה גדולה כל כך. ולכן אומרים: אם החורבן בא משנאת חינם, התיקון שלו הוא אהבת חינם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "coffin",
+     "title_he": "תן לי יבנה וחכמיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Night outside the walls of besieged Jerusalem: two young students in dark cloaks carry a plain wooden box out through a city gate, torchlit guards in the distance letting them pass, the old city behind them under a dark sky.",
+     "move": "right",
+     "fx": "night",
+     "art": "👨 👨",
+     "say": [
+      "בתוך ירושלים הנצורה היה חכם גדול: רבן יוחנן בן זכאי. הוא ראה שהעיר עומדת ליפול, ושאל את עצמו: איך נציל את התורה?",
+      "הוא ביקש מתלמידיו, רבי אליעזר ורבי יהושע, להוציא אותו מהעיר בתוך ארון, כאילו מת. כך עבר את השומרים.",
+      "הוא הגיע אל המפקד הרומאי, אספסיאנוס, וקרא לו בשם מלך. ובאותה שעה הגיעה הידיעה שאספסיאנוס באמת נבחר לקיסר. אמר לו אספסיאנוס: בקש ממני משהו.",
+      "ורבן יוחנן ביקש: תן לי יבנה וחכמיה. כלומר, תן לי עיר קטנה, שבה החכמים יוכלו להמשיך ללמד תורה."
+     ],
+     "pasuk": {
+      "text": "תן לי יבנה וחכמיה",
+      "ref": "גיטין נו ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "yavne",
+     "title_he": "הכרם ביבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence. Rabban Yochanan ben Zakkai: a very old Torah sage of the Second Temple era with a long white beard, a plain white mantle and head covering, wise and calm. Scene: A sunny vineyard on the coastal plain of the Land of Israel: rows of sages and students in white mantles sit on benches under the vines, an old sage teaching at the front; a calm feeling of new beginning.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "ביבנה פתח רבן יוחנן בן זכאי בית מדרש, וחכמי ישראל התאספו שם. בית המקדש נחרב, אבל התורה נשארה חיה. בית המדרש נקרא \"הכרם ביבנה\", כי התלמידים ישבו בו בשורות, כמו גפנים בכרם.",
+      "בלי מקדש, איך נעבוד את השם? הנביא הושע אמר: ונשלמה פרים שפתינו. כלומר, במקום הקורבנות, נביא את התפילה שלנו.",
+      "ביבנה, לפני רבן גמליאל, סודרה תפילת שמונה עשרה, כפי שאנחנו מתפללים אותה עד היום. שלוש פעמים ביום, כנגד הקורבנות שהיו במקדש.",
+      "כך התחילה דרכו של עם ישראל בגלות: בכל מקום יש מקדש קטן, בית הכנסת. ולידו בית המדרש, שבו לומדים תורה."
+     ],
+     "pasuk": {
+      "text": "ונשלמה פרים שפתינו",
+      "ref": "הושע יד, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל דרשו על בתי הכנסת ובתי המדרש את הפסוק \"ואהי להם למקדש מעט\" (יחזקאל יא, טז)."
+     }
+    },
+    {
+     "id": "remember",
+     "title_he": "זכר לחורבן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Inside a simple Jewish home: a small square of rough unplastered wall is left opposite the front door, a boy in a kippah touches it gently while his father explains; a window shows a far-off view of hills.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "חז\"ל לימדו את עם ישראל לזכור את ירושלים בכל יום. למשל, כשבונים בית, משאירים פינה קטנה בקיר בלי טיח, זכר לחורבן.",
+      "אפילו בשמחה הגדולה של החתונה, שוברים כוס, כדי לזכור שהשמחה שלנו לא שלמה בלי ירושלים.",
+      "בכל תפילה אנחנו עומדים עם הפנים לירושלים. ובתשעה באב צמים, יושבים על הרצפה ואומרים קינות.",
+      "הרומאים חשבו שאם ישרפו את המקדש, עם ישראל ישכח ויתפזר. אבל קרה ההפך: הזיכרון של ירושלים נעשה הדבק ששומר את העם ביחד."
+     ],
+     "pasuk": {
+      "text": "אם אשכחך ירושלים, תשכח ימיני",
+      "ref": "תהלים קלז, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "arch",
+     "title_he": "קשת טיטוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: An ancient Roman stone triumphal arch at dusk, its weathered relief carving showing a large seven-branched menorah carried on poles; grass and old stones around it, no people.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨",
+     "say": [
+      "בעיר רומא עומדת עד היום קשת אבן ישנה, שבנו הרומאים לכבוד הניצחון שלהם. על הקיר שלה חרוטה המנורה של בית המקדש.",
+      "הרומאים חשבו שזה סוף עם ישראל. אבל האימפריה הרומית נעלמה מזמן, ועם ישראל חי.",
+      "היהודים נדדו מהארץ לארצות רבות: לבבל, למצרים, לאיטליה ולצפון אפריקה. ובכל מקום לקחו איתם את התורה.",
+      "ועכשיו נצא לדרך. התחנה הראשונה שלנו: בבל, שבה יהודים חיו כבר מאות שנים לפני החורבן.",
+      "ובכותל המערבי, שריד מחומות הר הבית, התפללו יהודים בכל הדורות. חז\"ל אמרו שהשכינה אינה זזה מהכותל המערבי."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "החורבן ויבנה",
+   "ref_he": "עם ישראל בגלות",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "eicha",
+     "title_he": "ליל תשעה באב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Night of Tisha B'Av in a synagogue: dim candlelight, men and boys sit on low stools and on the floor reading quietly from small books, the curtain of the ark removed, a sad and holy hush.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👦",
+     "say": [
+      "ערב תשעה באב. בבית הכנסת האורות מעומעמים, האנשים יושבים על הרצפה, ומישהו קורא בניגון עצוב: איכה ישבה בדד.",
+      "על מה אנחנו בוכים? על יום אחד, לפני כמעט אלפיים שנה, שבו נחרב בית המקדש השני, והתחילה הגלות הארוכה של עם ישראל.",
+      "בקורס הזה נלך בעקבות עם ישראל בגלות: לבבל, לספרד, לאשכנז, לצפון אפריקה, לתימן ולפולין.",
+      "ונראה איך עם קטן ומפוזר שמר על התורה ועל האמונה, בנה קהילות בכל מקום, ואף פעם לא שכח את ירושלים."
+     ],
+     "pasuk": {
+      "text": "איכה ישבה בדד העיר רבתי עם",
+      "ref": "איכה א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "temple",
+     "title_he": "בית המקדש השני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A sweeping painted view of Jerusalem in the Second Temple era at golden morning: the gleaming Temple on its mountain above the city walls, crowds of pilgrims in modest robes climbing the steps with baskets of first fruits.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "בית המקדש השני עמד בירושלים ארבע מאות ועשרים שנה. אליו עלו יהודים לרגל, בפסח, בשבועות ובסוכות, מכל הארץ ומארצות רחוקות.",
+      "אבל בסוף ימי הבית, הרומאים שלטו בארץ ביד קשה. וגם בתוך העם היו מריבות, ויהודים שנאו זה את זה בלי סיבה.",
+      "צבא רומא, בראשות טיטוס, צר על ירושלים. ובתשעה באב שרפו הרומאים את בית המקדש.",
+      "חז\"ל אומרים: מקדש ראשון נחרב בגלל עבודה זרה ועוד עבירות חמורות. ומקדש שני, שהיו בו תורה ומצוות וגמילות חסדים, נחרב בגלל שנאת חינם.",
+      "הגמרא מספרת שבתוך העיר הנצורה היו מחסנים מלאים מזון לשנים רבות. אבל קבוצה של קנאים שרפה אותם, כדי להכריח את העם להילחם. גם זה היה חלק מהמחלוקת שבתוך העם."
+     ],
+     "pasuk": {
+      "text": "מקדש שני, שהיו עוסקין בתורה ובמצות ובגמילות חסדים, מפני מה חרב? מפני שהיתה בו שנאת חנם",
+      "ref": "יומא ט ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "kamtza",
+     "title_he": "קמצא ובר קמצא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A grand banquet hall in old Jerusalem with long tables of food and oil lamps: a host in a fine robe points sternly toward the door, a humiliated guest turns away, and elderly sages at the table sit silent; tense but not violent.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 👨 👴",
+     "say": [
+      "הגמרא מספרת איך התחיל החורבן. אדם אחד עשה סעודה גדולה, ושלח את משרתו להזמין את חברו, קמצא. המשרת טעה, והזמין את בר קמצא, שהיה שונא של בעל הבית.",
+      "בעל הבית ראה אותו ואמר: צא מכאן. בר קמצא התחנן: תן לי להישאר, ואשלם על מה שאוכל. אשלם חצי מהסעודה. אשלם את כל הסעודה! אבל בעל הבית סירב, והוציא אותו בבושה.",
+      "החכמים שישבו שם שתקו, ולא מחו. ובר קמצא, בכעסו, הלך והלשין על היהודים לפני הקיסר.",
+      "סיפור אחד של בושה ושנאה, ותוצאה גדולה כל כך. ולכן אומרים: אם החורבן בא משנאת חינם, התיקון שלו הוא אהבת חינם.",
+      "שימו לב: הגמרא לא מאשימה רק את בעל הבית. היא מאשימה גם את החכמים, שראו בושה ושתקו. מי שיכול למחות ואינו מוחה, גם הוא אחראי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "coffin",
+     "title_he": "תן לי יבנה וחכמיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Night outside the walls of besieged Jerusalem: two young students in dark cloaks carry a plain wooden box out through a city gate, torchlit guards in the distance letting them pass, the old city behind them under a dark sky.",
+     "move": "right",
+     "fx": "night",
+     "art": "👨 👨",
+     "say": [
+      "בתוך ירושלים הנצורה היה חכם גדול: רבן יוחנן בן זכאי. הוא ראה שהעיר עומדת ליפול, ושאל את עצמו: איך נציל את התורה?",
+      "הוא ביקש מתלמידיו, רבי אליעזר ורבי יהושע, להוציא אותו מהעיר בתוך ארון, כאילו מת. כך עבר את השומרים.",
+      "הוא הגיע אל המפקד הרומאי, אספסיאנוס, וקרא לו בשם מלך. ובאותה שעה הגיעה הידיעה שאספסיאנוס באמת נבחר לקיסר. אמר לו אספסיאנוס: בקש ממני משהו.",
+      "ורבן יוחנן ביקש: תן לי יבנה וחכמיה. כלומר, תן לי עיר קטנה, שבה החכמים יוכלו להמשיך ללמד תורה.",
+      "הוא ביקש עוד שני דברים: להציל את משפחת רבן גמליאל, משפחת הנשיאים מבית הלל, ולשלוח רופאים לרבי צדוק, שצם ארבעים שנה והתפלל שירושלים לא תיחרב.",
+      "יש חכמים ששאלו: למה לא ביקש להציל את ירושלים כולה? והגמרא עונה שחשש: אם יבקש יותר מדי, אולי לא יקבל כלום. הוא בחר להציל את מה שהיה הכי חשוב, את התורה."
+     ],
+     "pasuk": {
+      "text": "תן לי יבנה וחכמיה",
+      "ref": "גיטין נו ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "yavne",
+     "title_he": "הכרם ביבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence. Rabban Yochanan ben Zakkai: a very old Torah sage of the Second Temple era with a long white beard, a plain white mantle and head covering, wise and calm. Scene: A sunny vineyard on the coastal plain of the Land of Israel: rows of sages and students in white mantles sit on benches under the vines, an old sage teaching at the front; a calm feeling of new beginning.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "ביבנה פתח רבן יוחנן בן זכאי בית מדרש, וחכמי ישראל התאספו שם. בית המקדש נחרב, אבל התורה נשארה חיה. בית המדרש נקרא \"הכרם ביבנה\", כי התלמידים ישבו בו בשורות, כמו גפנים בכרם.",
+      "בלי מקדש, איך נעבוד את השם? הנביא הושע אמר: ונשלמה פרים שפתינו. כלומר, במקום הקורבנות, נביא את התפילה שלנו.",
+      "ביבנה, לפני רבן גמליאל, סודרה תפילת שמונה עשרה, כפי שאנחנו מתפללים אותה עד היום. שלוש פעמים ביום, כנגד הקורבנות שהיו במקדש.",
+      "כך התחילה דרכו של עם ישראל בגלות: בכל מקום יש מקדש קטן, בית הכנסת. ולידו בית המדרש, שבו לומדים תורה.",
+      "רבן יוחנן בן זכאי תיקן תקנות \"זכר למקדש\". למשל, ליטול לולב בכל שבעת ימי הסוכות, בכל מקום, כמו שנטלו במקדש."
+     ],
+     "pasuk": {
+      "text": "ונשלמה פרים שפתינו",
+      "ref": "הושע יד, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל דרשו על בתי הכנסת ובתי המדרש את הפסוק \"ואהי להם למקדש מעט\" (יחזקאל יא, טז)."
+     }
+    },
+    {
+     "id": "mourners",
+     "title_he": "כמה מתאבלים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Ancient Land of Israel after the destruction: a wise old sage sits on a stone bench in a village courtyard talking gently with a group of grieving men in dark mantles, a simple meal of bread and water on a table; soft overcast light.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "אחרי החורבן, היו יהודים שהחליטו לא לאכול בשר ולא לשתות יין, מרוב צער. רבי יהושע שאל אותם: למה? אמרו לו: איך נאכל בשר, שהיו מקריבים על המזבח, ונשתה יין, שהיו מנסכים עליו?",
+      "אמר להם רבי יהושע: אם כך, גם לחם לא נאכל, כי היו מביאים מנחות. וגם מים לא נשתה, כי היו מנסכים מים. ושתקו.",
+      "אמר להם: לא להתאבל בכלל, אי אפשר. ולהתאבל יותר מדי, גם אי אפשר, כי אין גוזרים על הציבור גזירה שרוב הציבור לא יכול לעמוד בה.",
+      "לכן קבעו החכמים זכר לחורבן, בדברים קטנים שכל אחד יכול לקיים. וכך נולדו המנהגים שנראה עכשיו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "remember",
+     "title_he": "זכר לחורבן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Inside a simple Jewish home: a small square of rough unplastered wall is left opposite the front door, a boy in a kippah touches it gently while his father explains; a window shows a far-off view of hills.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "חז\"ל לימדו את עם ישראל לזכור את ירושלים בכל יום. למשל, כשבונים בית, משאירים פינה קטנה בקיר בלי טיח, זכר לחורבן.",
+      "אפילו בשמחה הגדולה של החתונה, שוברים כוס, כדי לזכור שהשמחה שלנו לא שלמה בלי ירושלים.",
+      "בכל תפילה אנחנו עומדים עם הפנים לירושלים. ובתשעה באב צמים, יושבים על הרצפה ואומרים קינות.",
+      "הרומאים חשבו שאם ישרפו את המקדש, עם ישראל ישכח ויתפזר. אבל קרה ההפך: הזיכרון של ירושלים נעשה הדבק ששומר את העם ביחד."
+     ],
+     "pasuk": {
+      "text": "אם אשכחך ירושלים, תשכח ימיני",
+      "ref": "תהלים קלז, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "arch",
+     "title_he": "קשת טיטוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: An ancient Roman stone triumphal arch at dusk, its weathered relief carving showing a large seven-branched menorah carried on poles; grass and old stones around it, no people.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨",
+     "say": [
+      "בעיר רומא עומדת עד היום קשת אבן ישנה, שבנו הרומאים לכבוד הניצחון שלהם. על הקיר שלה חרוטה המנורה של בית המקדש.",
+      "הרומאים חשבו שזה סוף עם ישראל. אבל האימפריה הרומית נעלמה מזמן, ועם ישראל חי.",
+      "היהודים נדדו מהארץ לארצות רבות: לבבל, למצרים, לאיטליה ולצפון אפריקה. ובכל מקום לקחו איתם את התורה.",
+      "ועכשיו נצא לדרך. התחנה הראשונה שלנו: בבל, שבה יהודים חיו כבר מאות שנים לפני החורבן.",
+      "ובכותל המערבי, שריד מחומות הר הבית, התפללו יהודים בכל הדורות. חז\"ל אמרו שהשכינה אינה זזה מהכותל המערבי.",
+      "יש יהודים שנזהרים לא לעבור מתחת לקשת הזאת, כי היא נבנתה לכבוד חורבן המקדש."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים עמד בית המקדש השני?",
+   "answer": "ארבע מאות ועשרים שנה",
+   "options": [
+    "ארבע מאות ועשרים שנה",
+    "שבעים שנה",
+    "אלף שנה"
+   ],
+   "explain_he": "בית המקדש השני עמד ארבע מאות ועשרים שנה, עד שהרומאים שרפו אותו בתשעה באב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים עמד בית המקדש השני?",
+   "answer": "ארבע מאות ועשרים שנה",
+   "options": [
+    "ארבע מאות ועשרים שנה",
+    "שבעים שנה",
+    "אלף שנה"
+   ],
+   "explain_he": "בית המקדש השני עמד ארבע מאות ועשרים שנה, עד שהרומאים שרפו אותו בתשעה באב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז\"ל, למה נחרב בית המקדש השני?",
+   "answer": "בגלל שנאת חינם",
+   "options": [
+    "בגלל שנאת חינם",
+    "כי לא היו בו חכמים",
+    "כי היהודים עזבו את ירושלים"
+   ],
+   "explain_he": "בבית השני עסקו בתורה ובמצוות, אבל הייתה בו שנאת חינם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז\"ל, למה נחרב בית המקדש השני?",
+   "answer": "בגלל שנאת חינם",
+   "options": [
+    "בגלל שנאת חינם",
+    "כי לא היו בו חכמים",
+    "כי היהודים עזבו את ירושלים"
+   ],
+   "explain_he": "בבית השני עסקו בתורה ובמצוות, אבל הייתה בו שנאת חינם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הלך בר קמצא להלשין על היהודים?",
+   "answer": "כי הוציאו אותו בבושה מהסעודה, והחכמים שתקו",
+   "options": [
+    "כי הוציאו אותו בבושה מהסעודה, והחכמים שתקו",
+    "כי לא הזמינו אותו לחתונה",
+    "כי הקיסר שלח אותו"
+   ],
+   "explain_he": "סיפור אחד של בושה ושנאה הביא תוצאה גדולה מאוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הלך בר קמצא להלשין על היהודים?",
+   "answer": "כי הוציאו אותו בבושה מהסעודה, והחכמים שתקו",
+   "options": [
+    "כי הוציאו אותו בבושה מהסעודה, והחכמים שתקו",
+    "כי לא הזמינו אותו לחתונה",
+    "כי הקיסר שלח אותו"
+   ],
+   "explain_he": "סיפור אחד של בושה ושנאה הביא תוצאה גדולה מאוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש רבן יוחנן בן זכאי מאספסיאנוס?",
+   "answer": "יבנה וחכמיה, מקום ללמד בו תורה",
+   "options": [
+    "יבנה וחכמיה, מקום ללמד בו תורה",
+    "זהב וכסף",
+    "שיחזירו לו את ביתו בירושלים"
+   ],
+   "explain_he": "רבן יוחנן ידע שאם תינצל התורה, יינצל עם ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש רבן יוחנן בן זכאי מאספסיאנוס?",
+   "answer": "יבנה וחכמיה, מקום ללמד בו תורה",
+   "options": [
+    "יבנה וחכמיה, מקום ללמד בו תורה",
+    "זהב וכסף",
+    "שיחזירו לו את ביתו בירושלים"
+   ],
+   "explain_he": "רבן יוחנן ידע שאם תינצל התורה, יינצל עם ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בא במקום הקורבנות אחרי החורבן?",
+   "answer": "התפילה, שלוש פעמים ביום",
+   "options": [
+    "התפילה, שלוש פעמים ביום",
+    "קריאת שירים",
+    "עלייה לרגל לבבל"
+   ],
+   "explain_he": "\"ונשלמה פרים שפתינו\": במקום קורבנות, אנחנו מביאים את התפילה שלנו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בא במקום הקורבנות אחרי החורבן?",
+   "answer": "התפילה, שלוש פעמים ביום",
+   "options": [
+    "התפילה, שלוש פעמים ביום",
+    "קריאת שירים",
+    "עלייה לרגל לבבל"
+   ],
+   "explain_he": "\"ונשלמה פרים שפתינו\": במקום קורבנות, אנחנו מביאים את התפילה שלנו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה משאירים פינה בלי טיח בקיר הבית?",
+   "answer": "זכר לחורבן ירושלים",
+   "options": [
+    "זכר לחורבן ירושלים",
+    "כדי לחסוך בטיח",
+    "כדי לסמן את הכניסה"
+   ],
+   "explain_he": "חז\"ל לימדו לזכור את ירושלים בכל יום, גם בבית וגם בשמחה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה משאירים פינה בלי טיח בקיר הבית?",
+   "answer": "זכר לחורבן ירושלים",
+   "options": [
+    "זכר לחורבן ירושלים",
+    "כדי לחסוך בטיח",
+    "כדי לסמן את הכניסה"
+   ],
+   "explain_he": "חז\"ל לימדו לזכור את ירושלים בכל יום, גם בבית וגם בשמחה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f1e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "את מי מאשימה הגמרא בסיפור קמצא ובר קמצא, מלבד בעל הבית?",
+   "answer": "את החכמים, שראו בושה ושתקו",
+   "options": [
+    "את החכמים, שראו בושה ושתקו",
+    "את המשרת בלבד",
+    "את קמצא"
+   ],
+   "explain_he": "מי שיכול למחות ואינו מוחה, גם הוא אחראי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f1e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה רבי יהושע למי שרצו להפסיק לאכול בשר ולשתות יין?",
+   "answer": "שאי אפשר להתאבל יותר מדי, ולכן קבעו זכר לחורבן בדברים קטנים",
+   "options": [
+    "שאי אפשר להתאבל יותר מדי, ולכן קבעו זכר לחורבן בדברים קטנים",
+    "שצריך לצום כל ימות השנה",
+    "שאין צורך להתאבל בכלל"
+   ],
+   "explain_he": "אין גוזרים על הציבור גזירה שרוב הציבור לא יכול לעמוד בה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f1e16"
+  }
+ ]
+}

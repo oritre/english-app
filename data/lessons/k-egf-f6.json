@@ -1,0 +1,272 @@
+{
+ "id": "k-egf-f6",
+ "unit_id": "k-egf-u2",
+ "course": "egypt",
+ "title_he": "מעבדות לחירות",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🔺 ידע כללי",
+   "title_he": "מעבדות לחירות",
+   "ref_he": "מצרים העתיקה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך חדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A hot day in ancient Egypt: Hebrew men in simple tunics and head cloths making mud bricks in wooden molds and stacking them, a large store city with walls rising behind them, a stern Egyptian overseer standing nearby with folded arms, no one being hit.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🧱",
+     "say": [
+      "שנים עברו. יוסף ואחיו נפטרו, ובני ישראל פרו ורבו ומילאו את הארץ.",
+      "ואז קם במצרים מלך חדש, שלא רצה לזכור את כל הטוב שיוסף עשה למצרים.",
+      "הוא פחד שבני ישראל נהיו רבים מדי, ושם עליהם שרי מסים. הם בנו לפרעה ערי מסכנות: פיתום ורעמסס.",
+      "שימו לב: התורה מספרת שעבדו בחומר ובלבנים, לבנים של בוץ ותבן. וימררו את חייהם בעבודה קשה.",
+      "אבל ככל שעינו אותם, כך הם גדלו והתרבו. השם שמר עליהם."
+     ],
+     "pasuk": {
+      "text": "ויקם מלך חדש על מצרים, אשר לא ידע את יוסף",
+      "ref": "שמות א, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אמונה ומסירות נפש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Night in a small Hebrew house in Egypt: two brave midwives in long dresses and head coverings quietly carry a wrapped newborn baby to its mother, a small oil lamp glowing, faces full of courage.",
+     "move": "in",
+     "fx": "night",
+     "art": "👩👶",
+     "say": [
+      "פרעה גזר גזירה אכזרית על התינוקות של בני ישראל. אבל גם בזמן הקשה, היו גיבורים.",
+      "המיילדות, שפרה ופועה, יראו את השם. הן לא שמעו בקול פרעה, והצילו את הילדים.",
+      "יוכבד הסתירה את משה התינוק, ואחר כך שמה אותו בתיבת גומא בין קני הסוף על שפת היאור. מרים אחותו עמדה מרחוק ושמרה עליו.",
+      "ובת פרעה ירדה לנהר, ראתה את התינוק בוכה, ריחמה עליו והצילה אותו.",
+      "השם הכין את המושיע, ממש בתוך הבית של פרעה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מי השם?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Moshe: a tall man with a dark beard, in a simple wool robe and head cloth, holding a wooden staff. Pharaoh: a proud Egyptian king in a long white and gold robe with sleeves and a striped royal headdress, on a stone throne. Scene: Moshe and his brother Aharon, a man with a grey beard in a white robe, stand calmly before Pharaoh on his throne in a great hall, Moshe holding his wooden staff, Pharaoh pointing at them in anger.",
+     "move": "in",
+     "fx": "light",
+     "art": "👑",
+     "say": [
+      "כשמשה גדל, השם נגלה אליו בסנה, שיח שבוער באש ואינו נשרף, ושלח אותו להוציא את עם ישראל.",
+      "השם אמר למשה: כי אהיה עמך. ומשה, העניו מכל האדם, יצא בשליחות עם אהרן אחיו.",
+      "משה ואהרן באו לפרעה ואמרו: כה אמר השם, שלח את עמי.",
+      "ופרעה צחק וענה בגאווה: מי השם, שאשמע בקולו? לא ידעתי את השם.",
+      "פרעה חשב שהוא עצמו אל, ושאלילי מצרים חזקים. עכשיו כל מצרים תלמד מי באמת שולט בעולם."
+     ],
+     "pasuk": {
+      "text": "מי ה' אשר אשמע בקלו",
+      "ref": "שמות ה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "עשר המכות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: The Nile under a dark red-tinted sky, its water turned deep red, Egyptians standing on the bank digging small wells in the sand for water, frogs on the river stones, an eerie quiet.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🐸",
+     "say": [
+      "השם הביא על מצרים עשר מכות: דם, צפרדע, כינים, ערוב, דבר, שחין, ברד, ארבה, חושך, ומכת בכורות.",
+      "רבי יהודה נתן בהן סימן כדי לזכור: דצ\"ך, עד\"ש, באח\"ב.",
+      "והמכה הראשונה? היאור, הנילוס עצמו, הפך לדם! רש\"י מסביר: המצרים עבדו לנילוס, ולכן השם היכה קודם את מה שהם חשבו לאל שלהם.",
+      "הנהר שנתן להם חיים, ושהם עבדו לו בטעות, לא יכול היה לעזור לעצמו. כך ראו כולם שזה אליל שקר, ושהשם הוא ששולט במים."
+     ],
+     "pasuk": {
+      "text": "ובכל אלהי מצרים אעשה שפטים, אני ה'",
+      "ref": "שמות יב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אור במושבותם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A total darkness over Egyptian houses, thick like black fog, while in the distance the houses of the Hebrews in Goshen glow with warm golden light through their windows.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠",
+     "say": [
+      "במכת חושך ירד על מצרים חושך כל כך כבד, שאי אפשר היה לראות אחד את השני. המצרים עבדו גם לשמש, וחשבו שהיא אל.",
+      "שלושה ימים אף מצרי לא קם ממקומו, והשמש שהם עבדו לה לא האירה להם כלל.",
+      "אבל באותו זמן, בבתים של בני ישראל היה אור.",
+      "בכל מכה, השם הבדיל בין בני ישראל למצרים. כולם ראו שיש מי שמשגיח, ויש מי ששומר על עמו."
+     ],
+     "pasuk": {
+      "text": "ולכל בני ישראל היה אור במושבתם",
+      "ref": "שמות י, כג"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ליל הסדר הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: The night of the first Pesach: inside a Hebrew home, a family in travelling clothes with belts and sandals, staffs in hand, standing around a table with matzah and bitter herbs, blood marks visible only as a red line on the doorframe outside, moonlight.",
+     "move": "in",
+     "fx": "night",
+     "art": "🫓",
+     "say": [
+      "לפני המכה האחרונה, השם ציווה את בני ישראל לקחת שה, ולהקריב אותו קרבן פסח.",
+      "המצרים חשבו שהשה הוא אל. ובני ישראל לקחו אותו לעיני כולם, וכך הראו שאין בו שום כוח. חכמינו אמרו: משכו ידיכם מעבודה זרה, וקחו לכם צאן של מצווה.",
+      "הם שמו סימן מהדם על המשקוף ועל המזוזות, ואכלו את הקרבן עם מצות ומרור, כשהנעליים על הרגליים והמקל ביד, מוכנים לצאת.",
+      "ובחצות הלילה, השם היכה בבכורות מצרים, ופסח על הבתים של בני ישראל. פרעה רץ בלילה וצעק: קומו, צאו!"
+     ],
+     "pasuk": {
+      "text": "משכו ידיכם מעבודה זרה, וקחו לכם צאן של מצוה",
+      "ref": "רש\"י שמות יב, כא"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "קריעת ים סוף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Moshe: a tall man with a dark beard, in a simple wool robe and head cloth, holding a wooden staff. Scene: The splitting of the sea: a wide dry path through the sea with tall walls of blue-green water on both sides, a huge crowd of Hebrew families with children, sheep and wagons walking through at dawn, Moshe at the front lifting his staff, a pillar of cloud glowing softly above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🌊🚶",
+     "say": [
+      "בני ישראל יצאו ממצרים ביד רמה: כשש מאות אלף גברים, מלבד נשים וילדים.",
+      "אבל פרעה התחרט, ורדף אחריהם עם כל המרכבות שלו, עד שפת ים סוף.",
+      "משה נטה את ידו על הים, והשם בקע את המים. בני ישראל הלכו ביבשה בתוך הים, והמים היו להם חומה מימין ומשמאל.",
+      "כשהמצרים נכנסו אחריהם, הים חזר למקומו. וכשבני ישראל ראו את היד הגדולה, ויאמינו בהשם ובמשה עבדו.",
+      "ואז משה ובני ישראל שרו את שירת הים, ומרים והנשים יצאו בתופים ובמחולות להודות להשם."
+     ],
+     "pasuk": {
+      "text": "ובני ישראל הלכו ביבשה בתוך הים, והמים להם חמה מימינם ומשמאלם",
+      "ref": "שמות יד, כט"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מה למדנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A warm Seder night today: a religious family around a festive table with matzot, a Seder plate, wine cups and Haggadot, a boy in a kippah asking a question while his father listens with a smile, candles glowing.",
+     "move": "out",
+     "fx": "light",
+     "art": "🍷👨👦",
+     "say": [
+      "אז מה למדנו ממצרים העתיקה? מצרים הייתה הממלכה הכי חזקה בעולם: נהר ענק, פירמידות, חכמים וצבא גדול.",
+      "אבל היא עבדה לאלילי שקר: לנהר, לשמש, לשה, ואפילו לפרעה. וכל אלה לא יכלו להציל אותה.",
+      "עם ישראל יצא ממנה עם הדבר החשוב ביותר: האמונה בהשם, אחד ויחיד, שברא את העולם ומשגיח עליו.",
+      "וזה גם הדיבר הראשון בעשרת הדיברות: אנכי השם, אשר הוצאתיך מארץ מצרים מבית עבדים.",
+      "ובכל שנה, בליל הסדר, אנחנו מספרים את הסיפור הזה לילדים שלנו. כי בכל דור ודור, חייב אדם לראות את עצמו כאילו הוא יצא ממצרים."
+     ],
+     "pasuk": {
+      "text": "אנכי ה' אלקיך, אשר הוצאתיך מארץ מצרים מבית עבדים",
+      "ref": "שמות כ, ב"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-egf-f6e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בנו בני ישראל לפרעה בזמן השעבוד?",
+   "answer": "ערי מסכנות: פיתום ורעמסס",
+   "options": [
+    "ערי מסכנות: פיתום ורעמסס",
+    "את בית המקדש",
+    "ספינות מלחמה"
+   ],
+   "explain_he": "התורה מספרת שבני ישראל בנו לפרעה ערי מסכנות, פיתום ורעמסס, בחומר ובלבנים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו המיילדות שפרה ופועה?",
+   "answer": "יראו את השם, לא שמעו בקול פרעה, והצילו את הילדים",
+   "options": [
+    "יראו את השם, לא שמעו בקול פרעה, והצילו את הילדים",
+    "ברחו מהארץ",
+    "עזרו לפרעה"
+   ],
+   "explain_he": "המיילדות יראו את השם ומסרו את נפשן כדי להציל את ילדי ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המכה הראשונה הייתה בנילוס, לפי רש\"י?",
+   "answer": "כי המצרים עבדו לנילוס, והשם הראה שהוא אליל שקר",
+   "options": [
+    "כי המצרים עבדו לנילוס, והשם הראה שהוא אליל שקר",
+    "כי הנהר היה מלוכלך",
+    "כי לא היה שם אף אחד"
+   ],
+   "explain_he": "רש\"י מסביר שהמצרים עבדו לנילוס, ולכן השם היכה קודם את מה שחשבו לאל שלהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה בבתים של בני ישראל במכת חושך?",
+   "answer": "אור",
+   "options": [
+    "אור",
+    "חושך גדול כמו אצל המצרים",
+    "גשם חזק"
+   ],
+   "explain_he": "התורה אומרת: ולכל בני ישראל היה אור במושבותם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לקחו בני ישראל דווקא שה לקרבן פסח?",
+   "answer": "כי המצרים חשבו שהשה הוא אל, וכך הראו שאין בו שום כוח",
+   "options": [
+    "כי המצרים חשבו שהשה הוא אל, וכך הראו שאין בו שום כוח",
+    "כי זה היה הכבש הכי זול",
+    "כי פרעה ביקש מהם"
+   ],
+   "explain_he": "חכמינו אמרו: משכו ידיכם מעבודה זרה וקחו לכם צאן של מצווה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הדבר החשוב ביותר שעם ישראל לקח איתו ממצרים?",
+   "answer": "האמונה בהשם, אחד ויחיד, שמשגיח על העולם",
+   "options": [
+    "האמונה בהשם, אחד ויחיד, שמשגיח על העולם",
+    "את הפירמידות",
+    "את כתב החרטומים"
+   ],
+   "explain_he": "מצרים עבדה לאלילי שקר. עם ישראל יצא עם האמונה בהשם, וזה הדיבר הראשון: אנכי השם, אשר הוצאתיך מארץ מצרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f6e7"
+  }
+ ]
+}

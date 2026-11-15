@@ -1,0 +1,534 @@
+{
+ "id": "k-mik-f6",
+ "unit_id": "k-mik-u3",
+ "course": "mikdash",
+ "title_he": "החורבן הראשון ובית שני",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "החורבן הראשון ובית שני",
+   "ref_he": "בית המקדש",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ירמיהו מזהיר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. The prophet Yirmiyahu: a thin bearded man in a rough brown cloak, sad but caring eyes. Scene: The prophet Yirmiyahu standing at a gate of ancient Jerusalem, speaking earnestly to a crowd of people who mostly turn away and walk on, grey clouds gathering over the city.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👴 👨 👨",
+     "say": [
+      "בית המקדש הראשון עמד שנים רבות. אבל לאט לאט, הרבה אנשים בעם ישראל עזבו את דרך התורה.",
+      "השם שלח נביא, ירמיהו, כדי להזהיר אותם.",
+      "ירמיהו אמר: חזרו בתשובה! תהיו טובים, ותשמרו את המצוות, ואז הבית יישאר.",
+      "אבל רבים לא הקשיבו לו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "החורבן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Jerusalem the day after: a ruined hilltop of fallen stones and blackened beams under a red dusk sky, smoke drifting quietly, no people, a single bird on a broken wall.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 🕊️",
+     "say": [
+      "ואז בא מלך בבל, נבוכדנצר, עם צבא גדול.",
+      "הוא כבש את ירושלים, ושרף את בית המקדש.",
+      "זה קרה בתשעה באב – יום עצוב מאוד לעם ישראל.",
+      "הבית היפה ששלמה בנה – נחרב.",
+      "ירמיהו בכה על החורבן, וכתב מגילה עצובה – מגילת איכה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גם בית ראשון וגם בית שני נחרבו באותו יום בשנה – תשעה באב."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "על נהרות בבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Jewish exiles sitting quietly by a wide river in Babylon at dusk, harps hanging on the branches of willow trees, faces turned westward toward home, an elderly man comforting a child.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👦 🌳",
+     "say": [
+      "רוב העם נלקח לגלות, לארץ רחוקה – בבל.",
+      "שם הם ישבו ליד הנהרות ובכו, כי התגעגעו לירושלים.",
+      "את הכינורות שלהם תלו על העצים. איך אפשר לשיר רחוק מהבית?",
+      "אבל הם הבטיחו: \"אם אשכחך ירושלים\" – לעולם לא נשכח אותך!",
+      "ובבבל, רחוק מהבית, הם המשיכו לשמור על התורה ולהתפלל."
+     ],
+     "pasuk": {
+      "text": "אִם אֶשְׁכָּחֵךְ יְרוּשָׁלָםִ, תִּשְׁכַּח יְמִינִי",
+      "ref": "תהילים קלז, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הבטחה לשבעים שנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. The prophet Yirmiyahu: a thin bearded man in a rough brown cloak, sad but caring eyes. Scene: The prophet Yirmiyahu writing a letter on a scroll by lamplight, looking up hopefully toward a window where the first light of dawn appears.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "אבל ירמיהו הנביא נתן גם תקווה.",
+      "הוא שלח מכתב לגולים בבבל: אל תתייאשו! עוד שבעים שנה – תחזרו הביתה.",
+      "בינתיים, בנו בתים, נטעו גנים, ותתפללו.",
+      "והגולים חיכו, וספרו את השנים."
+     ],
+     "pasuk": {
+      "text": "כִּי לְפִי מְלֹאת לְבָבֶל שִׁבְעִים שָׁנָה אֶפְקֹד אֶתְכֶם",
+      "ref": "ירמיהו כט, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "כורש מכריז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A royal herald reading a decree from a scroll in a Persian city square, Jewish families listening with joyful surprise, some already packing bundles onto camels and donkeys.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 🐫",
+     "say": [
+      "ואז קרה נס. מלך פרס, כורש, ניצח את בבל.",
+      "והוא הכריז: כל יהודי שרוצה – יכול לחזור לירושלים, ולבנות שם את בית המקדש!",
+      "וכמה יהודים קמו ויצאו לדרך הארוכה, בחזרה הביתה.",
+      "בראשם הלך מנהיג ששמו זרובבל.",
+      "כורש גם החזיר להם את כלי המקדש שנבוכדנצר לקח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "בוכים ושמחים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: The foundation stones of the Second Temple being laid on Mount Moriah: young people cheering joyfully, old men with white beards weeping with emotion, kohanim blowing silver trumpets.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👦 🪨",
+     "say": [
+      "כשהניחו את היסודות של הבית החדש, קרה דבר מרגש.",
+      "הצעירים צעקו משמחה: אנחנו בונים שוב את בית המקדש!",
+      "והזקנים, שזכרו את הבית הראשון, בכו. הם זכרו כמה יפה הוא היה.",
+      "והקולות התערבבו: שמחה ובכי, יחד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "נחמיה בונה חומה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Nechemia: a bearded Jewish man in fine Persian court robes and a cloth head covering, determined and warm. Scene: Families of Jerusalem rebuilding a city wall of large stones together on a bright morning: men lifting stones, boys carrying baskets of earth, Nechemia in Persian court robes encouraging them.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👦 🪨",
+     "say": [
+      "שנים רבות אחר כך, בארמון של מלך פרס, עבד יהודי בשם נחמיה.",
+      "הוא שמע שחומות ירושלים עדיין הרוסות, והיה עצוב מאוד.",
+      "המלך שאל: למה פניך עצובות? ונחמיה ביקש: תן לי לבנות את העיר של אבותיי.",
+      "המלך הסכים. ונחמיה וכל העם בנו את החומה – בחמישים ושניים ימים בלבד!"
+     ],
+     "pasuk": {
+      "text": "וַתִּשְׁלַם הַחוֹמָה... לַחֲמִשִּׁים וּשְׁנַיִם יוֹם",
+      "ref": "נחמיה ו, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בית שני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Ezra the scribe: a white-bearded sage in white robes holding a Torah scroll. Scene: The Second Temple standing on Mount Moriah in afternoon sun, Ezra the scribe reading from a Torah scroll on a wooden platform to a huge crowd of men, women and children in a Jerusalem square.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👩",
+     "say": [
+      "לבסוף הבית השני נבנה, ושוב הקריבו בו קורבנות.",
+      "אחר כך הגיע עזרא הסופר, וקרא את התורה לפני כל העם.",
+      "האנשים הקשיבו, והתחילו לשמור שוב על המצוות.",
+      "ובבית הזה, הבית השני, קרה נס חנוכה. אבל גם הוא, בסוף, נחרב. על זה נלמד בשיעור האחרון."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שבית המקדש השני עמד 420 שנים, ונס חנוכה קרה בו."
+     }
+    }
+   ],
+   "id": "k-mik-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "החורבן הראשון ובית שני",
+   "ref_he": "בית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ירמיהו מזהיר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. The prophet Yirmiyahu: a thin bearded man in a rough brown cloak, sad but caring eyes. Scene: The prophet Yirmiyahu standing at a gate of ancient Jerusalem, speaking earnestly to a crowd of people who mostly turn away and walk on, grey clouds gathering over the city.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👴 👨 👨",
+     "say": [
+      "אחרי מאות שנים, עם ישראל התרחק מהתורה. חז\"ל אומרים שבית ראשון חרב בגלל שלוש עבירות חמורות מאוד, ובראשן עבודה זרה.",
+      "השם שלח נביאים לבקש מהעם לחזור, והגדול שבהם בימים ההם היה ירמיהו.",
+      "ירמיהו עמד בשערי ירושלים וקרא: שובו! אל תבטחו רק בכך שיש לכם מקדש – הבית עומד בזכות המעשים.",
+      "הוא סבל הרבה בגלל דבריו, ולמרות זאת לא הפסיק לאהוב את עמו ולהתפלל עליו.",
+      "ירמיהו אמר דברים קשים לשמוע, אבל אמיתיים: אם לא תשובו – העיר תיפול. נביא אמת אומר את האמת, גם כשהיא לא נעימה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "החורבן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Jerusalem the day after: a ruined hilltop of fallen stones and blackened beams under a red dusk sky, smoke drifting quietly, no people, a single bird on a broken wall.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 🕊️",
+     "say": [
+      "נבוכדנצר, מלך בבל, צר על ירושלים. בעיר היה רעב גדול.",
+      "ובתשעה באב, אחרי ארבע מאות ועשר שנים, הציתו הבבלים את בית המקדש, והבית ששלמה בנה נשרף.",
+      "חז\"ל אומרים שבשעה ההיא, הכהנים הצעירים עלו לגג ההיכל עם מפתחות המקדש, ומסרו אותם לשמיים.",
+      "ירמיהו כתב על החורבן את מגילת איכה: \"איכה ישבה בדד, העיר רבתי עם\". אותה מגילה אנחנו קוראים בתשעה באב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גם בית ראשון וגם בית שני נחרבו באותו יום בשנה – תשעה באב."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "על נהרות בבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Jewish exiles sitting quietly by a wide river in Babylon at dusk, harps hanging on the branches of willow trees, faces turned westward toward home, an elderly man comforting a child.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👦 🌳",
+     "say": [
+      "רבים מהעם הוגלו לבבל. שם, ליד הנהרות, נכתב אחד המזמורים העצובים והיפים בתהילים.",
+      "\"על נהרות בבל, שם ישבנו גם בכינו, בזוכרנו את ציון\". השובים ביקשו: שירו לנו משירי ציון! והם ענו: \"איך נשיר את שיר ה' על אדמת נכר?\"",
+      "ואז שבועה: \"אם אשכחך ירושלים, תשכח ימיני\". את השבועה הזאת אנחנו אומרים עד היום, בכל חתונה יהודית.",
+      "ובבבל, רחוק מהמקדש, שמרו היהודים על התורה, התפללו והתאספו. העם לא נעלם – הוא חיכה."
+     ],
+     "pasuk": {
+      "text": "אִם אֶשְׁכָּחֵךְ יְרוּשָׁלָםִ, תִּשְׁכַּח יְמִינִי",
+      "ref": "תהילים קלז, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הבטחה לשבעים שנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. The prophet Yirmiyahu: a thin bearded man in a rough brown cloak, sad but caring eyes. Scene: The prophet Yirmiyahu writing a letter on a scroll by lamplight, looking up hopefully toward a window where the first light of dawn appears.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "אותו נביא שהזהיר – הוא גם שנתן תקווה. ירמיהו שלח מכתב לגולים: \"כי לפי מלאת לבבל שבעים שנה אפקוד אתכם\".",
+      "הוא כתב להם: בנו בתים, נטעו גנים, הקימו משפחות, והתפללו – כי השם לא שכח אתכם.",
+      "שבעים שנה. זמן ארוך, אבל יש לו סוף. וזה מה שהחזיק את הגולים: הידיעה שהגלות איננה לנצח.",
+      "וגם בגלות היו בבבל גדולי ישראל: דניאל, חנניה, מישאל ועזריה, שנשארו נאמנים לשם גם בארמון המלך."
+     ],
+     "pasuk": {
+      "text": "כִּי לְפִי מְלֹאת לְבָבֶל שִׁבְעִים שָׁנָה אֶפְקֹד אֶתְכֶם",
+      "ref": "ירמיהו כט, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "כורש מכריז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A royal herald reading a decree from a scroll in a Persian city square, Jewish families listening with joyful surprise, some already packing bundles onto camels and donkeys.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 🐫",
+     "say": [
+      "כורש מלך פרס כבש את בבל, ובשנה הראשונה למלכותו הוציא הכרזה: מי שרוצה מבני ישראל – יעלה לירושלים ויבנה את בית ה'.",
+      "הוא אפילו החזיר להם את כלי המקדש שנבוכדנצר לקח.",
+      "אבל לא כולם עלו. רבים כבר התרגלו לחיים בבבל. עלו בערך ארבעים ושניים אלף איש, בהנהגת זרובבל ויהושע הכהן הגדול.",
+      "הם מצאו ארץ חרבה ועזובה, אבל לא התייאשו. קודם כול בנו מזבח, והתחילו להקריב שוב קורבנות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "בוכים ושמחים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: The foundation stones of the Second Temple being laid on Mount Moriah: young people cheering joyfully, old men with white beards weeping with emotion, kohanim blowing silver trumpets.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👦 🪨",
+     "say": [
+      "כשהניחו את יסודות הבית, הכהנים תקעו בחצוצרות והלוויים שרו: \"כי טוב, כי לעולם חסדו\".",
+      "ספר עזרא מספר שהזקנים, שראו את הבית הראשון, בכו בקול גדול, ורבים אחרים הריעו בשמחה.",
+      "\"ואין העם מכירים קול תרועת השמחה לקול בכי העם\" – אי אפשר היה להבחין מה בכי ומה שמחה.",
+      "הנביא חגי עודד את העם: \"גדול יהיה כבוד הבית הזה האחרון מן הראשון\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "נחמיה בונה חומה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Nechemia: a bearded Jewish man in fine Persian court robes and a cloth head covering, determined and warm. Scene: Families of Jerusalem rebuilding a city wall of large stones together on a bright morning: men lifting stones, boys carrying baskets of earth, Nechemia in Persian court robes encouraging them.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👦 🪨",
+     "say": [
+      "נחמיה היה שר המשקים של ארתחשסתא מלך פרס. כששמע שחומות ירושלים פרוצות ושעריה שרופים, ישב ובכה, צם והתפלל ימים רבים.",
+      "כשהמלך ראה את פניו העצובות ושאל מה קרה, נחמיה התפלל בליבו לשם, וביקש: שלח אותי אל העיר של קברות אבותיי, ואבנה אותה.",
+      "בירושלים חילק נחמיה את העבודה בין כל המשפחות: כל אחד בנה את החלק שליד ביתו. היו שכנים שניסו להפריע, אבל העם לא נבהל, ושמר על העבודה יום ולילה.",
+      "והחומה נגמרה בחמישים ושניים יום. כולם הבינו שהמלאכה נעשתה בעזרת השם."
+     ],
+     "pasuk": {
+      "text": "וַתִּשְׁלַם הַחוֹמָה... לַחֲמִשִּׁים וּשְׁנַיִם יוֹם",
+      "ref": "נחמיה ו, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בית שני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Ezra the scribe: a white-bearded sage in white robes holding a Torah scroll. Scene: The Second Temple standing on Mount Moriah in afternoon sun, Ezra the scribe reading from a Torah scroll on a wooden platform to a huge crowd of men, women and children in a Jerusalem square.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👩",
+     "say": [
+      "הבית השני נגמר בימי דריווש מלך פרס. עזרא הסופר עלה לירושלים ולימד את העם תורה, ונחמיה, כפי שראינו, בנה את חומותיה.",
+      "עזרא קרא בתורה לפני כל העם, והעם בכה כששמע. אנשי כנסת הגדולה, שעזרא עמד בראשם, תיקנו לנו את נוסח התפילה.",
+      "בבית השני לא היו כמה דברים שהיו בראשון – למשל, ארון הברית, שנגנז. ובכל זאת, הבית עמד ארבע מאות ועשרים שנה.",
+      "בו קרה נס חנוכה, ובו לימדו הלל ושמאי. אבל גם הבית הזה נחרב, ועל כך – ועל התקווה – נלמד בשיעור האחרון."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שבית המקדש השני עמד 420 שנים, ונס חנוכה קרה בו."
+     }
+    }
+   ],
+   "id": "k-mik-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נביא הזהיר את העם לפני החורבן הראשון?",
+   "answer": "ירמיהו",
+   "options": [
+    "ירמיהו",
+    "משה",
+    "נתן"
+   ],
+   "explain_he": "ירמיהו הנביא ביקש מהעם לחזור בתשובה, אבל רבים לא הקשיבו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נביא הזהיר את העם לפני החורבן הראשון?",
+   "answer": "ירמיהו",
+   "options": [
+    "ירמיהו",
+    "משה",
+    "נתן"
+   ],
+   "explain_he": "ירמיהו הנביא ביקש מהעם לחזור בתשובה, אבל רבים לא הקשיבו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה יום נחרב בית המקדש?",
+   "answer": "בתשעה באב",
+   "options": [
+    "בתשעה באב",
+    "בראש השנה",
+    "בט\"ו בשבט"
+   ],
+   "explain_he": "בית המקדש הראשון – וגם השני – נחרבו בתשעה באב.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה יום נחרב בית המקדש?",
+   "answer": "בתשעה באב",
+   "options": [
+    "בתשעה באב",
+    "בראש השנה",
+    "בט\"ו בשבט"
+   ],
+   "explain_he": "בית המקדש הראשון – וגם השני – נחרבו בתשעה באב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבטיחו הגולים בבבל?",
+   "answer": "\"אם אשכחך ירושלים\" – שלעולם לא ישכחו את ירושלים",
+   "options": [
+    "\"אם אשכחך ירושלים\" – שלעולם לא ישכחו את ירושלים",
+    "שיישארו בבבל לתמיד",
+    "שיבנו מקדש חדש בבבל"
+   ],
+   "explain_he": "ליד נהרות בבל הם נשבעו: \"אם אשכחך ירושלים, תשכח ימיני\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבטיחו הגולים בבבל?",
+   "answer": "\"אם אשכחך ירושלים\" – שלעולם לא ישכחו את ירושלים",
+   "options": [
+    "\"אם אשכחך ירושלים\" – שלעולם לא ישכחו את ירושלים",
+    "שיישארו בבבל לתמיד",
+    "שיבנו מקדש חדש בבבל"
+   ],
+   "explain_he": "ליד נהרות בבל הם נשבעו: \"אם אשכחך ירושלים, תשכח ימיני\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מלך הרשה ליהודים לחזור ולבנות את בית המקדש?",
+   "answer": "כורש מלך פרס",
+   "options": [
+    "כורש מלך פרס",
+    "נבוכדנצר מלך בבל",
+    "פרעה מלך מצרים"
+   ],
+   "explain_he": "כורש מלך פרס הכריז שכל יהודי שרוצה יכול לחזור לירושלים ולבנות את הבית.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מלך הרשה ליהודים לחזור ולבנות את בית המקדש?",
+   "answer": "כורש מלך פרס",
+   "options": [
+    "כורש מלך פרס",
+    "נבוכדנצר מלך בבל",
+    "פרעה מלך מצרים"
+   ],
+   "explain_he": "כורש מלך פרס הכריז שכל יהודי שרוצה יכול לחזור לירושלים ולבנות את הבית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הזקנים בכו כשהניחו את יסודות הבית השני?",
+   "answer": "כי זכרו כמה יפה היה הבית הראשון",
+   "options": [
+    "כי זכרו כמה יפה היה הבית הראשון",
+    "כי לא רצו לחזור לירושלים",
+    "כי היה להם קר"
+   ],
+   "explain_he": "הזקנים זכרו את הבית הראשון ובכו, והצעירים צעקו משמחה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים אמר ירמיהו שתימשך גלות בבל?",
+   "answer": "שבעים שנה",
+   "options": [
+    "שבעים שנה",
+    "שבע שנים",
+    "אלף שנה"
+   ],
+   "explain_he": "ירמיהו כתב לגולים שאחרי שבעים שנה יחזרו הביתה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו העולים עם זרובבל כשהגיעו לארץ החרבה?",
+   "answer": "בנו מזבח והתחילו להקריב קורבנות",
+   "options": [
+    "בנו מזבח והתחילו להקריב קורבנות",
+    "חזרו מיד לבבל",
+    "בנו ארמון למלך"
+   ],
+   "explain_he": "הם מצאו ארץ עזובה, אבל קודם כול בנו מזבח והתחילו להקריב שוב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה נחמיה בירושלים?",
+   "answer": "בנה מחדש את חומות העיר",
+   "options": [
+    "בנה מחדש את חומות העיר",
+    "כתב את מגילת איכה",
+    "כבש את בבל"
+   ],
+   "explain_he": "נחמיה בנה את חומות ירושלים, ועזרא קרא את התורה לפני העם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עדיין אנחנו אומרים בכל חתונה יהודית, מימי גלות בבל?",
+   "answer": "\"אם אשכחך ירושלים, תשכח ימיני\"",
+   "options": [
+    "\"אם אשכחך ירושלים, תשכח ימיני\"",
+    "\"איכה ישבה בדד\"",
+    "\"שמחתי באומרים לי\""
+   ],
+   "explain_he": "את השבועה של גולי בבל אומרים עד היום תחת החופה, כדי לזכור את ירושלים גם ביום השמח ביותר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f6e15"
+  }
+ ]
+}

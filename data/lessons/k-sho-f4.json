@@ -1,0 +1,312 @@
+{
+ "id": "k-sho-f4",
+ "unit_id": "k-sho-u2",
+ "course": "holocaust",
+ "title_he": "המחנות וקידוש השם",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "המחנות וקידוש השם",
+   "ref_he": "השואה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "פסי רכבת בערפל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Long empty railway tracks stretching away across a flat misty plain at dawn, a line of bare birch trees, a distant dark shape of a far-off gate barely visible in the fog, no people.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🌲",
+     "say": [
+      "מהגטאות, ומכל ארצות אירופה, הסיעו הנאצים יהודים ברכבות משא, צפופים, בלי אוכל ובלי מים.",
+      "הרכבות נסעו אל מחנות. בחלק מהם עבדו האסירים עבודת כפייה קשה. אחרים נבנו לשם דבר אחד: להרוג יהודים רבים ככל האפשר.",
+      "המחנה הגדול ביותר נקרא אושוויץ־בירקנאו, בפולין. היו גם טרבלינקה, סוביבור, מיידנק ומחנות רבים אחרים.",
+      "הנאצים ניסו להסתיר את מה שעשו. הם אמרו ליהודים שהם נוסעים \"לעבודה במזרח\", כדי שלא יתנגדו.",
+      "לא נכנס לתוך המחנות בסרט הזה. מה שקרה שם קשה מדי לתיאור. נעמוד מרחוק, ונזכור.",
+      "ובכל זאת חשוב לדעת: גם בתוך המחנות, מעבר לגדרות, המשיכו יהודים להיות יהודים. על כך נספר עכשיו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s1b",
+     "title_he": "קהילות שנעלמו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A quiet forest of tall pine trees in Lithuania in soft winter light, a simple grey memorial stone in a small clearing with a few memorial candles burning before it, snow on the ground, no people.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🌲",
+     "say": [
+      "עוד לפני שהמחנות פעלו במלואם, כשהצבא הגרמני נכנס לליטא, לאוקראינה ולרוסיה, רצחו יחידות מיוחדות קהילות שלמות ליד עריהן, ביערות ובשדות.",
+      "ליד וילנה, למשל, נמצא יער פונאר. עשרות אלפי יהודים מוילנה, \"ירושלים דליטא\", נרצחו שם.",
+      "היום עומדות במקומות האלה אבני זיכרון שקטות. יהודים שמגיעים לשם אומרים קדיש ותהלים.",
+      "כל מקום כזה הוא קהילה שלמה, עם רב, עם בית מדרש ועם ילדים, שאיננה עוד.",
+      "ולפי עדויות, גם שם היו יהודים שהלכו בדרכם האחרונה עטופים בטלית, ואמרו וידוי ו\"שמע ישראל\".",
+      "לכן, כשמבקרים במקומות האלה, עומדים בשקט ובכבוד, כמו בבית קברות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שישה מיליון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A large dim memorial hall filled with rows upon rows of small candle flames reflected endlessly in dark glass, a quiet starry feeling, silence.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🕊️",
+     "say": [
+      "עד סוף המלחמה, באביב 1945, רצחו הנאצים ועוזריהם שישה מיליון יהודים. בערך שליש מכל העם היהודי בעולם.",
+      "קשה להבין מספר כזה. אם היינו קוראים בקול שם אחד בכל שנייה, בלי הפסקה, יום ולילה, היינו צריכים בערך שבעים יום כדי לקרוא את כולם.",
+      "קהילות שלמות נעלמו. ישיבות, בתי כנסת ועיירות, שבהם חיו יהודים מאות שנים, נשארו ריקים.",
+      "קשה לשאול \"למה\". גדולי ישראל אמרו שאין לנו תשובה, ושדרכי השם נעלמות מאיתנו. אבל אנחנו יכולים לשאול: מה עלינו לעשות עכשיו?",
+      "ובכל זאת, הסיפור של השואה הוא לא רק סיפור של מוות. הוא גם סיפור של נשמות שלא נכנעו.",
+      "וכשאנחנו אומרים \"שישה מיליון\", חשוב לזכור: לא היה זה אסון אחד גדול, אלא שישה מיליון אסונות, כל אחד עם שם ועם משפחה."
+     ],
+     "pasuk": {
+      "text": "קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן הָאֲדָמָה",
+      "ref": "בראשית ד, י"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בין שישה מיליון הנרצחים היו בערך מיליון וחצי ילדים."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "אני מאמין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Inside a dark closed wooden freight wagon, only thin rays of light coming through the slats, the hands of an elderly bearded man in a coat resting on a small old siddur, faces not shown, a quiet holy feeling.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "לפי המסופר, ברכבת שנסעה למחנה טרבלינקה ישב יהודי מחסידי מודז׳יץ, רבי עזריאל דוד פסטג.",
+      "בתוך החושך והצפיפות הוא התחיל לשיר את המילים מתוך שלושה עשר העיקרים: אני מאמין באמונה שלמה בביאת המשיח.",
+      "מעט מעט הצטרפו אליו כולם בקרון. הניגון הזה עבר מפה לאוזן, ושרו אותו יהודים רבים בדרכם האחרונה.",
+      "עד היום, כשיהודים שרים \"אני מאמין\", הם זוכרים שגם ברגע הכי חשוך, עם ישראל המשיך לחכות לגאולה.",
+      "האמונה הזאת לא הייתה בריחה מן המציאות. היא הייתה ההחלטה לא לתת לרוצחים לקבוע מי אנחנו."
+     ],
+     "pasuk": {
+      "text": "אֲנִי מַאֲמִין בֶּאֱמוּנָה שְׁלֵמָה בְּבִיאַת הַמָּשִׁיחַ, וְאַף עַל פִּי שֶׁיִּתְמַהְמֵהַּ, עִם כָּל זֶה אֲחַכֶּה לּוֹ",
+      "ref": "י\"ג עיקרים"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "מצוות בתוך המחנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A bare wooden bunk barracks seen only as a dark empty space at night, a small pair of tefillin carefully wrapped in a cloth hidden in a gap between wooden boards, a thin ray of moonlight on it.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠",
+     "say": [
+      "גם בתוך המחנות היו יהודים ששמרו מצוות במסירות נפש.",
+      "היו אסירים שהבריחו זוג תפילין אחד, וכל בוקר עשרות יהודים עמדו בתור כדי להניח אותו לרגע.",
+      "היו שספרו את הימים בראש, כדי לדעת מתי חל יום כיפור, ובאותו יום צמו. היו שוויתרו על מנת המרק כדי לא לאכול טרף.",
+      "אף אחד לא היה מחויב לזה בהלכה במצב כזה. אבל הם רצו להראות לעצמם ולבורא עולם: אנחנו עדיין שלך.",
+      "רעבים ועייפים, היו שמצאו כוח לומר תהלים בעל פה, או ללמד משנה את מי שעבד לידם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "מספר על היד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Close view of the forearm of an elderly man in a white shirt with a rolled sleeve, a faded small blue mark on the skin, his hand gently holding the small hand of a grandchild, warm peaceful daylight.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👦",
+     "say": [
+      "באושוויץ, אסירים שנשלחו לעבודה קיבלו מספר שקועקע על זרועם. מאותו רגע, לא קראו להם בשמם, אלא רק במספר.",
+      "זו הייתה עוד דרך לנסות להפוך בני אדם לחפצים.",
+      "אבל רבים מהשורדים אמרו אחר כך: המספר היה על היד, לא על הנשמה. בפנים נשארתי יהודי, עם שם, עם הורים ועם אמונה.",
+      "ואם תפגשו פעם סבא או סבתא עם מספר כזה על היד, דעו שאתם עומדים מול עדות חיה.",
+      "היו שורדים שבחרו להשאיר את המספר כל חייהם, כדי לזכור, והיו שכיסו אותו בשרוול. כל אחד התמודד בדרכו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "נר חנוכה בברגן בלזן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A small Chanukah menorah made from a wooden shoe sole with tiny flames in a dark empty barracks, the lights reflected in a frosted window, the outlines of a few figures in caps standing back in shadow.",
+     "move": "in",
+     "fx": "light",
+     "art": "🕊️",
+     "say": [
+      "במחנה ברגן בלזן, בחנוכה, הדליק הרבי מבלוז׳וב נר חנוכה מאולתר. האסירים התאספו בשקט סביבו.",
+      "הוא בירך את הברכות, וגם \"שהחיינו\". אחר כך שאל אותו יהודי: רבי, איך אפשר לברך \"שהחיינו\" כאן, במקום כזה?",
+      "הרבי ענה, לפי המסופר: גם אני שאלתי את עצמי. אבל כשראיתי כמה יהודים עומדים כאן סביב הנר, אחרי כל מה שעבר עליהם, ועדיין מאמינים, הבנתי שעל אמונה כזאת חייבים לברך.",
+      "נר קטן, בתוך מחנה גדול וחשוך. אבל חנוכה מלמד אותנו שמעט אור דוחה הרבה מן החושך."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הרבי מבלוז׳וב, רבי ישראל שפירא, שרד את המלחמה ועבר לגור בניו יורק, שם המשיך לעמוד בראש חסידיו."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "קידוש השם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A large old wooden yeshiva hall in Baranovich in the 1930s: an elderly rosh yeshiva with a white beard and black hat teaching students from a raised seat, sunlight through tall windows, a feeling of greatness and calm.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴👦👦",
+     "say": [
+      "יהודי שנרצח רק משום שהוא יהודי נקרא \"קדוש\". הוא מקדש את שם השם במותו.",
+      "אחד מגדולי הדור, הרב אלחנן וסרמן, ראש ישיבת ברנוביץ׳ ותלמידו של החפץ חיים, נלקח עם תלמידיו בקובנה בשנת 1941.",
+      "כמה שנים לפני כן, בשנת 1938, שהה הרב אלחנן באמריקה. רבים הפצירו בו להישאר שם, במקום מבטחים. אבל הוא חזר אל ישיבתו ואל תלמידיו באירופה.",
+      "לפי עדות של מי ששרד, הוא דיבר אליהם ברוגע: אם זה רצון השם, נקבל זאת באהבה, ונחשוב רק על קידוש השם. אל תניחו לשום מחשבה פסולה להיכנס לליבכם.",
+      "קידוש השם לא היה רק במוות. גם כל תפילה, כל נר וכל פרוסת לחם שנחלקה היו קידוש השם, בתוך החיים.",
+      "יהודים רבים קידשו שם שמיים גם בכך שעזרו זה לזה, חלקו את מעט האוכל, והחזיקו זה את זה בחיים.",
+      "חז\"ל אמרו על הרוגי לוד, שנהרגו על קידוש השם, שאין שום בריה יכולה לעמוד במחיצתם בגן עדן. כך אנחנו מתייחסים לקדושי השואה."
+     ],
+     "pasuk": {
+      "text": "וְנִקְדַּשְׁתִּי בְּתוֹךְ בְּנֵי יִשְׂרָאֵל",
+      "ref": "ויקרא כב, לב"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "השחרור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Spring morning in 1945: a rusty iron gate standing wide open onto green fields and a blue sky, a few birds flying, train tracks fading into the distance, soft bright light.",
+     "move": "out",
+     "fx": "light",
+     "art": "🕊️",
+     "say": [
+      "באביב 1945 הובס הצבא הנאצי, וצבאות בעלות הברית הגיעו אל המחנות ושחררו את האסירים שנשארו בחיים.",
+      "השורדים היו חלשים ורעבים, ורובם איבדו את כל משפחתם. רבים מהם לא ידעו אם נשאר להם מישהו בעולם.",
+      "רבים שאלו: מה עכשיו? איך ממשיכים לחיות אחרי חורבן כזה? והתשובה שלהם, כפי שנראה, הייתה מדהימה.",
+      "אבל הם היו חיים. ובסרטים הבאים נראה מה הם בנו בכוח החיים הזה, ונכיר גם את מי שניסו להציל, עוד בזמן המלחמה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sho-f4e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי השורדים, מה לא הצליח המספר שעל היד לקחת מהם?",
+   "answer": "את השם, את הזהות היהודית ואת האמונה",
+   "options": [
+    "את השם, את הזהות היהודית ואת האמונה",
+    "את הבגדים",
+    "את הכוח לעבוד",
+    "את הרכבת"
+   ],
+   "explain_he": "הנאצים רצו להפוך בני אדם למספרים, אבל השורדים אמרו: המספר היה על היד, לא על הנשמה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה יהודים נרצחו בשואה?",
+   "answer": "שישה מיליון",
+   "options": [
+    "שישה מיליון",
+    "שישים אלף",
+    "מיליון אחד",
+    "שישים מיליון"
+   ],
+   "explain_he": "הנאצים ועוזריהם רצחו שישה מיליון יהודים, בערך שליש מכל העם היהודי, ובהם בערך מיליון וחצי ילדים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שרו יהודים רבים בדרכם האחרונה, לפי המסופר?",
+   "answer": "\"אני מאמין\"",
+   "options": [
+    "\"אני מאמין\"",
+    "\"התקווה\"",
+    "\"אדון עולם\"",
+    "\"מעוז צור\""
+   ],
+   "explain_he": "הניגון ל\"אני מאמין באמונה שלמה בביאת המשיח\" נולד לפי המסופר ברכבת לטרבלינקה, ושרו אותו יהודים רבים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה יהודים במחנות שמרו מצוות, אף שלא היו מחויבים בכך במצב כזה?",
+   "answer": "כדי להראות לעצמם ולבורא עולם שהם עדיין שלו",
+   "options": [
+    "כדי להראות לעצמם ולבורא עולם שהם עדיין שלו",
+    "כי הנאצים הרשו להם",
+    "כי זה נתן להם עוד אוכל",
+    "כי לא הייתה להם עבודה"
+   ],
+   "explain_he": "הסרט מספר שהם רצו להראות: אנחנו עדיין שלך. זו הייתה מסירות נפש.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בירך הרבי מבלוז׳וב \"שהחיינו\" בברגן בלזן?",
+   "answer": "כי ראה יהודים שעדיין מאמינים, ועל אמונה כזאת חייבים לברך",
+   "options": [
+    "כי ראה יהודים שעדיין מאמינים, ועל אמונה כזאת חייבים לברך",
+    "כי המלחמה נגמרה באותו יום",
+    "כי קיבל מכתב ממשפחתו",
+    "כי טעה בתאריך"
+   ],
+   "explain_he": "לפי המסופר, הרבי אמר שכשראה יהודים עומדים סביב הנר אחרי כל מה שעבר עליהם ועדיין מאמינים, הבין שעל זה חייבים לברך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה הרב אלחנן וסרמן?",
+   "answer": "ראש ישיבת ברנוביץ׳ ותלמיד החפץ חיים",
+   "options": [
+    "ראש ישיבת ברנוביץ׳ ותלמיד החפץ חיים",
+    "רופא בגטו ורשה",
+    "קונסול של יפן",
+    "ראש ממשלת ישראל"
+   ],
+   "explain_he": "הרב אלחנן וסרמן, מגדולי הדור, נלקח עם תלמידיו בקובנה, ודיבר אליהם על קידוש השם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הסרט, האם קידוש השם הוא רק במוות?",
+   "answer": "לא, גם כל תפילה, נר וחסד בתוך החיים הם קידוש השם",
+   "options": [
+    "לא, גם כל תפילה, נר וחסד בתוך החיים הם קידוש השם",
+    "כן, רק במוות",
+    "לא, רק ביום כיפור",
+    "כן, ורק לרבנים"
+   ],
+   "explain_he": "הסרט מסביר שכל תפילה, כל נר וכל פרוסת לחם שנחלקה היו קידוש השם בתוך החיים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f4e8"
+  }
+ ]
+}

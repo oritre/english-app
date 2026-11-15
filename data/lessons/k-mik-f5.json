@@ -1,0 +1,547 @@
+{
+ "id": "k-mik-f5",
+ "unit_id": "k-mik-u2",
+ "course": "mikdash",
+ "title_he": "עולים לרגל",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "עולים לרגל",
+   "ref_he": "בית המקדש",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "יוצאים לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Scene: A village in the hills of Eretz Yisrael at dawn: a family loading a donkey with bundles, the children excited, neighbors in modest clothes gathering on the path with baskets.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "הכירו את המשפחה הזאת. הם גרים בכפר קטן, רחוק מירושלים.",
+      "היום הם קמו מוקדם מאוד, והעמיסו על החמור אוכל ובגדים לדרך.",
+      "לאן הם נוסעים? לירושלים, לבית המקדש! עוד מעט פסח.",
+      "שלוש פעמים בשנה – בפסח, בשבועות ובסוכות – עם ישראל עולה לירושלים. זה נקרא \"עלייה לרגל\".",
+      "וגם ילדים עלו! כל ילד שיכול ללכת ביד אבא – עלה עם המשפחה."
+     ],
+     "pasuk": {
+      "text": "שָׁלוֹשׁ פְּעָמִים בַּשָּׁנָה יֵרָאֶה כָל זְכוּרְךָ אֶת פְּנֵי ה'",
+      "ref": "דברים טז, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "בדרך לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Scene: Long lines of pilgrims walking along winding roads between green hills and vineyards, families with donkeys and sheep, some singing, Jerusalem glowing on a mountain in the far distance.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🚶 🚶 🐑",
+     "say": [
+      "בדרך פוגשים עוד משפחות, ועוד, ועוד. כל הדרכים מלאות אנשים.",
+      "כולם הולכים יחד, ושרים שירים מספר תהילים.",
+      "ואז, מראש ההר, רואים אותה: ירושלים! ובית המקדש מבריק בשמש.",
+      "איזו שמחה! כל הילדים קופצים ומצביעים: הנה, הנה הוא!",
+      "ובירושלים, כל אחד פתח את הבית שלו לאורחים, בחינם."
+     ],
+     "pasuk": {
+      "text": "שָׂמַחְתִּי בְּאֹמְרִים לִי בֵּית ה' נֵלֵךְ",
+      "ref": "תהילים קכב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "נסים בעזרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: The vast Temple courtyard tightly packed with festival pilgrims in white and modest colors, yet everyone bowing with comfortable space around them, a soft golden light filling the scene.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👴 👵",
+     "say": [
+      "בחג, כל החצר של המקדש הייתה מלאה. אנשים עמדו צפופים צפופים.",
+      "אבל כשהגיע הזמן להשתחוות – פתאום היה מקום לכולם!",
+      "זה היה נס. חז\"ל אומרים: עמדו צפופים, והשתחוו בריווח.",
+      "ועוד נס: אף אחד לא אמר \"צר לי, אין לי מקום לישון בירושלים\". לכולם היה מקום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מונים עשרה נסים שקרו בבית המקדש בכל יום, ואחד מהם: אף אחד לא אמר \"צר לי המקום\"."
+     }
+    },
+    {
+     "id": "s3b",
+     "title_he": "ליל פסח בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Scene: Jerusalem on Pesach night: families in modest festive clothes seated around tables in courtyards and on flat rooftops with matzot and bitter herbs, lamps glowing in windows across the city, people singing.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "בפסח, כל משפחה הביאה קורבן פסח – כבש או גדי.",
+      "בערב התאספו המשפחות בבתים בירושלים, ואכלו יחד עם מצה ומרור.",
+      "וכולם שרו את ההלל, בקול רם ושמח.",
+      "חז\"ל אומרים: הקולות היו כל כך חזקים, כאילו הגגות של ירושלים עומדים להישבר!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "היום, בליל הסדר, אוכלים את האפיקומן – זכר לקורבן הפסח שאכלו בירושלים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "הביכורים הראשונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A farmer in a green field in spring tying a thin reed around the first ripe cluster of grapes on a vine, pomegranates, figs and wheat around him, his young son watching closely.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "ויש עוד מצווה מיוחדת: ביכורים.",
+      "חקלאי יורד לשדה שלו באביב, ורואה את הפרי הראשון שהבשיל. אולי תאנה, אולי אשכול ענבים.",
+      "הוא קושר עליו חוט ואומר: \"אלה ביכורים!\" – זה יהיה לשם.",
+      "את הפירות הראשונים מביאים לבית המקדש, כדי להגיד תודה לשם על כל הטוב.",
+      "את הביכורים התחילו להביא בחג השבועות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "תהלוכת הביכורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A festive procession entering Jerusalem: a large ox with golden horns and a crown of olive leaves leading the way, a flute player, farmers carrying baskets of figs, grapes and pomegranates, city craftsmen standing to greet them.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "🐂 🌳",
+     "say": [
+      "ואיך הביאו את הביכורים? בתהלוכה גדולה ושמחה!",
+      "בראש הלך שור, והקרניים שלו מצופות בזהב, ועל ראשו עטרה מעלי זית.",
+      "חליל ניגן לפניהם, וכולם נשאו סלים מלאים פירות.",
+      "וכשהגיעו לירושלים, כל בעלי המלאכה בעיר עמדו לכבודם, ואמרו: ברוכים הבאים!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המשנה מספרת שהשור שהוביל את תהלוכת הביכורים היה עם קרניים מצופות זהב ועטרה של עלי זית."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "תודה על הכול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: A farmer standing before a kohen in white in the Temple courtyard, holding up a woven basket full of fruit with tears of gratitude in his eyes, his wife and children beside him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩",
+     "say": [
+      "ומה אמר החקלאי כשנתן את הסל לכהן?",
+      "הוא סיפר את כל הסיפור: אבותינו היו עבדים במצרים, והשם הוציא אותנו.",
+      "והשם הביא אותנו לארץ טובה, ארץ זבת חלב ודבש. והנה, אלה הפירות הראשונים מהאדמה שלי.",
+      "ביכורים הם תודה גדולה. ואנחנו? אנחנו אומרים תודה בכל ברכה על אוכל."
+     ],
+     "pasuk": {
+      "text": "אֲרַמִּי אֹבֵד אָבִי",
+      "ref": "דברים כו, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שמחת בית השואבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Leviim: men in light linen tunics with harps, lyres, cymbals and silver trumpets. Scene: Night in the Temple courtyard during Sukkot: tall golden lamp stands blazing with light, men in white robes dancing joyfully with flaming torches, Leviim playing on the wide steps, families watching from the side.",
+     "move": "up",
+     "fx": "night",
+     "art": "🪨 👨",
+     "say": [
+      "ובחג הסוכות הייתה השמחה הכי גדולה: שמחת בית השואבה.",
+      "בלילה הדליקו מנורות ענקיות בחצר, וכל ירושלים הוארה.",
+      "החכמים הגדולים רקדו עם לפידים, והלוויים ניגנו ושרו.",
+      "חז\"ל אומרים: מי שלא ראה את השמחה הזאת – לא ראה שמחה בחייו!"
+     ],
+     "pasuk": {
+      "text": "מִי שֶׁלֹּא רָאָה שִׂמְחַת בֵּית הַשּׁוֹאֵבָה – לֹא רָאָה שִׂמְחָה מִיָּמָיו",
+      "ref": "משנה סוכה ה, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-mik-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "עולים לרגל",
+   "ref_he": "בית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "יוצאים לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Scene: A village in the hills of Eretz Yisrael at dawn: a family loading a donkey with bundles, the children excited, neighbors in modest clothes gathering on the path with baskets.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "בכל רחבי הארץ, בכפרים ובערים, מתכוננים. עוד מעט חג, וכל המשפחות יוצאות לדרך.",
+      "התורה מצווה: \"שלוש פעמים בשנה יראה כל זכורך את פני ה'\" – בחג המצות, בחג השבועות ובחג הסוכות.",
+      "לכן הם נקראים \"שלושת הרגלים\": עולים ברגל לירושלים, לבית המקדש.",
+      "ומי שבא – לא בא בידיים ריקות: הביאו קורבנות, ובכל חג שמחו שם עם כל המשפחה.",
+      "ומה עם הילדים? המשנה אומרת שילד שיכול לאחוז ביד אביו ולעלות איתו מירושלים להר הבית – כבר מחנכים אותו לעלות לרגל."
+     ],
+     "pasuk": {
+      "text": "שָׁלוֹשׁ פְּעָמִים בַּשָּׁנָה יֵרָאֶה כָל זְכוּרְךָ אֶת פְּנֵי ה'",
+      "ref": "דברים טז, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "בדרך לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Scene: Long lines of pilgrims walking along winding roads between green hills and vineyards, families with donkeys and sheep, some singing, Jerusalem glowing on a mountain in the far distance.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🚶 🚶 🐑",
+     "say": [
+      "מכל הכיוונים הגיעו: מהגליל ומהנגב, מהעמקים ומעבר לירדן. הדרכים התמלאו אלפי עולים.",
+      "בדרך שרו את \"שירי המעלות\" מספר תהילים: \"שמחתי באומרים לי, בית ה' נלך\".",
+      "ותושבי ירושלים פתחו את בתיהם לאורחים בחינם. חז\"ל אומרים שירושלים לא נחלקה לשבטים – היא שייכת לכל ישראל.",
+      "וכשהתגלתה העיר מראש ההר, עם בית המקדש בוהק בשמש – אנשים עצרו, ולא יכלו לדבר מרוב התרגשות."
+     ],
+     "pasuk": {
+      "text": "שָׂמַחְתִּי בְּאֹמְרִים לִי בֵּית ה' נֵלֵךְ",
+      "ref": "תהילים קכב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "נסים בעזרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: The vast Temple courtyard tightly packed with festival pilgrims in white and modest colors, yet everyone bowing with comfortable space around them, a soft golden light filling the scene.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👴 👵",
+     "say": [
+      "במשנה, בפרקי אבות, מונים עשרה נסים שקרו לאבותינו בבית המקדש.",
+      "אחד מהם: \"עומדים צפופים ומשתחווים רווחים\". אנשים עמדו צמודים זה לזה, וכשהשתחוו – היה מקום לכל אחד.",
+      "ועוד נס: \"ולא אמר אדם לחברו: צר לי המקום שאלין בירושלים\". מאות אלפים באו, ולכולם נמצא מקום.",
+      "ויש בזה גם רמז לנו: כשאנשים באים יחד לעבוד את השם באהבה, יש מקום לכולם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מונים עשרה נסים שקרו בבית המקדש בכל יום, ואחד מהם: אף אחד לא אמר \"צר לי המקום\"."
+     }
+    },
+    {
+     "id": "s3b",
+     "title_he": "ליל פסח בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Scene: Jerusalem on Pesach night: families in modest festive clothes seated around tables in courtyards and on flat rooftops with matzot and bitter herbs, lamps glowing in windows across the city, people singing.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "בערב פסח הקריבו כל ישראל את קורבן הפסח בעזרה, בשלוש קבוצות גדולות, והלוויים שרו את ההלל.",
+      "בלילה התאספה כל חבורה בבית בירושלים. צלו את הקורבן ואכלו אותו עם מצה ומרור, כמו שאכלו אבותינו במצרים.",
+      "חז\"ל אומרים: \"פסחא כזיתא, והלילא פקע איגרא\" – מהפסח אכל כל אחד רק כזית, אבל קול ההלל כמעט שבר את הגגות.",
+      "משפחות שלמות, עם שכנים ואורחים – כולם בירושלים, באותו לילה, מספרים על יציאת מצרים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "היום, בליל הסדר, אוכלים את האפיקומן – זכר לקורבן הפסח שאכלו בירושלים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "הביכורים הראשונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A farmer in a green field in spring tying a thin reed around the first ripe cluster of grapes on a vine, pomegranates, figs and wheat around him, his young son watching closely.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "מצוות הביכורים: את הפירות הראשונים מכל שבעת המינים מביאים לבית המקדש ונותנים לכהן.",
+      "שבעת המינים הם: חיטה, שעורה, גפן, תאנה ורימון, זית שמן ודבש – דבש של תמרים.",
+      "המשנה מספרת: אדם יורד לשדהו, רואה תאנה שביכרה, אשכול שביכר, רימון שביכר – קושר עליו גמי ואומר: \"הרי אלו ביכורים\".",
+      "למה הראשון? כי הראשון הוא הכי מרגש. ואותו נותנים לשם, כדי לזכור שהכול בא ממנו.",
+      "ואת הביכורים מתחילים להביא בחג השבועות, שנקרא בתורה גם \"יום הביכורים\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "תהלוכת הביכורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A festive procession entering Jerusalem: a large ox with golden horns and a crown of olive leaves leading the way, a flute player, farmers carrying baskets of figs, grapes and pomegranates, city craftsmen standing to greet them.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "🐂 🌳",
+     "say": [
+      "המשנה מתארת את התהלוכה: השור הולך לפניהם, קרניו מצופות זהב ועטרת זית בראשו, והחליל מכה לפניהם.",
+      "כשהגיעו קרוב לירושלים, יצאו לקראתם, וכל בעלי האומנויות בירושלים עמדו מפניהם ושאלו בשלומם: \"אחינו, אנשי העיר הזאת וזאת – באתם לשלום!\"",
+      "העשירים הביאו את הביכורים בסלים של כסף ושל זהב, והעניים – בסלי נצרים. וכולם התקבלו באותה שמחה.",
+      "בעזרה, כל אחד הרים את הסל על כתפו – אפילו המלך אגריפס – ואמר את פסוקי \"ארמי אובד אבי\", ונתן לכהן."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המשנה מספרת שהשור שהוביל את תהלוכת הביכורים היה עם קרניים מצופות זהב ועטרה של עלי זית."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "תודה על הכול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: A farmer standing before a kohen in white in the Temple courtyard, holding up a woven basket full of fruit with tears of gratitude in his eyes, his wife and children beside him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩",
+     "say": [
+      "החקלאי אמר את פסוקי התורה: \"ארמי אובד אבי\" – רש\"י מסביר: לבן הארמי רצה לאבד את יעקב אבינו.",
+      "ואז סיפר על השעבוד במצרים, על היציאה ביד חזקה, ועל הכניסה לארץ – \"ארץ זבת חלב ודבש\".",
+      "\"ועתה הנה הבאתי את ראשית פרי האדמה אשר נתתה לי\". חקלאי פשוט מספר את כל תולדות עמו, ואומר תודה.",
+      "זה סוד הביכורים: לא לשכוח מאיפה באנו, ומי נתן לנו הכול. היום אנחנו אומרים את הפסוקים האלה בליל הסדר."
+     ],
+     "pasuk": {
+      "text": "אֲרַמִּי אֹבֵד אָבִי",
+      "ref": "דברים כו, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שמחת בית השואבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Leviim: men in light linen tunics with harps, lyres, cymbals and silver trumpets. Scene: Night in the Temple courtyard during Sukkot: tall golden lamp stands blazing with light, men in white robes dancing joyfully with flaming torches, Leviim playing on the wide steps, families watching from the side.",
+     "move": "up",
+     "fx": "night",
+     "art": "🪨 👨",
+     "say": [
+      "בסוכות ניסכו על המזבח מים, ששאבו ממעיין השילוח, ובלילות חגגו את \"שמחת בית השואבה\".",
+      "הדליקו מנורות ענק בעזרה, והמשנה אומרת: \"לא הייתה חצר בירושלים שאינה מאירה מאור בית השואבה\".",
+      "חסידים ואנשי מעשה רקדו לפני העם עם אבוקות של אור, והלוויים ניגנו על חמש עשרה המעלות.",
+      "\"מי שלא ראה שמחת בית השואבה – לא ראה שמחה מימיו\". וגם היום, בשמחות בית השואבה בסוכות, אנחנו מזכירים את השמחה ההיא."
+     ],
+     "pasuk": {
+      "text": "מִי שֶׁלֹּא רָאָה שִׂמְחַת בֵּית הַשּׁוֹאֵבָה – לֹא רָאָה שִׂמְחָה מִיָּמָיו",
+      "ref": "משנה סוכה ה, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-mik-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי עלו לרגל לירושלים?",
+   "answer": "בפסח, בשבועות ובסוכות",
+   "options": [
+    "בפסח, בשבועות ובסוכות",
+    "בחנוכה, בפורים ובראש השנה",
+    "רק ביום כיפור"
+   ],
+   "explain_he": "שלוש פעמים בשנה – בפסח, בשבועות ובסוכות – עלה עם ישראל לבית המקדש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי עלו לרגל לירושלים?",
+   "answer": "בפסח, בשבועות ובסוכות",
+   "options": [
+    "בפסח, בשבועות ובסוכות",
+    "בחנוכה, בפורים ובראש השנה",
+    "רק ביום כיפור"
+   ],
+   "explain_he": "שלוש פעמים בשנה – בפסח, בשבועות ובסוכות – עלה עם ישראל לבית המקדש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נס קרה כשכולם השתחוו בעזרה?",
+   "answer": "פתאום היה מקום לכולם להשתחוות",
+   "options": [
+    "פתאום היה מקום לכולם להשתחוות",
+    "החצר נעשתה קטנה יותר",
+    "כולם הצליחו לעוף"
+   ],
+   "explain_he": "חז\"ל אומרים: עמדו צפופים, והשתחוו בריווח. היה מקום לכל אחד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נס קרה כשכולם השתחוו בעזרה?",
+   "answer": "פתאום היה מקום לכולם להשתחוות",
+   "options": [
+    "פתאום היה מקום לכולם להשתחוות",
+    "החצר נעשתה קטנה יותר",
+    "כולם הצליחו לעוף"
+   ],
+   "explain_he": "חז\"ל אומרים: עמדו צפופים, והשתחוו בריווח. היה מקום לכל אחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הם ביכורים?",
+   "answer": "הפירות הראשונים שמביאים לבית המקדש",
+   "options": [
+    "הפירות הראשונים שמביאים לבית המקדש",
+    "לחם שאופים בפסח",
+    "פירות שנשארו בסוף הקיץ"
+   ],
+   "explain_he": "ביכורים הם הפירות הראשונים שהבשילו. מביאים אותם למקדש כדי להגיד תודה לשם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הם ביכורים?",
+   "answer": "הפירות הראשונים שמביאים לבית המקדש",
+   "options": [
+    "הפירות הראשונים שמביאים לבית המקדש",
+    "לחם שאופים בפסח",
+    "פירות שנשארו בסוף הקיץ"
+   ],
+   "explain_he": "ביכורים הם הפירות הראשונים שהבשילו. מביאים אותם למקדש כדי להגיד תודה לשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו בעלי המלאכה בירושלים כשהגיעה תהלוכת הביכורים?",
+   "answer": "עמדו לכבודם ואמרו ברוכים הבאים",
+   "options": [
+    "עמדו לכבודם ואמרו ברוכים הבאים",
+    "סגרו את השערים",
+    "המשיכו לעבוד ולא הסתכלו"
+   ],
+   "explain_he": "כל בעלי המלאכה בירושלים עמדו מפני מביאי הביכורים וקיבלו אותם בשמחה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הביאו את הביכורים?",
+   "answer": "כדי להגיד תודה לשם על כל הטוב",
+   "options": [
+    "כדי להגיד תודה לשם על כל הטוב",
+    "כדי למכור אותם בשוק",
+    "כדי לקשט את העיר"
+   ],
+   "explain_he": "הביכורים הם תודה גדולה לשם, שנתן לנו את הארץ ואת הפירות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים חז\"ל על שמחת בית השואבה?",
+   "answer": "מי שלא ראה אותה – לא ראה שמחה בחייו",
+   "options": [
+    "מי שלא ראה אותה – לא ראה שמחה בחייו",
+    "שהיא הייתה רק לילדים",
+    "שהיא הייתה שקטה ועצובה"
+   ],
+   "explain_he": "\"מי שלא ראה שמחת בית השואבה – לא ראה שמחה מימיו\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים חז\"ל על שמחת בית השואבה?",
+   "answer": "מי שלא ראה אותה – לא ראה שמחה בחייו",
+   "options": [
+    "מי שלא ראה אותה – לא ראה שמחה בחייו",
+    "שהיא הייתה רק לילדים",
+    "שהיא הייתה שקטה ועצובה"
+   ],
+   "explain_he": "\"מי שלא ראה שמחת בית השואבה – לא ראה שמחה מימיו\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהם שבעת המינים?",
+   "answer": "חיטה, שעורה, גפן, תאנה, רימון, זית ותמר",
+   "options": [
+    "חיטה, שעורה, גפן, תאנה, רימון, זית ותמר",
+    "תפוח, בננה, תפוז ואבטיח",
+    "חיטה, אורז ותירס"
+   ],
+   "explain_he": "אלה שבעת המינים שהארץ נשתבחה בהם, ומהם מביאים ביכורים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה הביאו העניים את הביכורים?",
+   "answer": "בסלי נצרים, והתקבלו באותה שמחה",
+   "options": [
+    "בסלי נצרים, והתקבלו באותה שמחה",
+    "בסלים של זהב",
+    "לא הביאו בכלל"
+   ],
+   "explain_he": "העשירים הביאו בסלי כסף וזהב, העניים בסלי נצרים – וכולם התקבלו בשמחה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ירושלים לא חולקה לאחד השבטים?",
+   "answer": "כי היא שייכת לכל ישראל",
+   "options": [
+    "כי היא שייכת לכל ישראל",
+    "כי אף שבט לא רצה אותה",
+    "כי היא הייתה קטנה מדי"
+   ],
+   "explain_he": "חז\"ל אומרים שירושלים לא נחלקה לשבטים. היא של כל עם ישראל, ולכן פתחו את הבתים לעולי הרגל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f5e15"
+  }
+ ]
+}

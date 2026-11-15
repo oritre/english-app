@@ -1,0 +1,559 @@
+{
+ "id": "k-exl-f4",
+ "unit_id": "k-exl-u2",
+ "course": "exile",
+ "title_he": "גירוש ספרד והאנוסים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "גירוש ספרד והאנוסים",
+   "ref_he": "עם ישראל בגלות",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "1391",
+     "title_he": "שנה קשה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A grey dawn over a medieval Spanish town: an old synagogue with closed wooden doors and an empty courtyard, fallen leaves blowing across the stones, a sense of loss without any people or violence shown.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🏠",
+     "say": [
+      "בשנת 1391, בספרד הנוצרית, פרצו פרעות נוראות ביהודים. בעיר אחר עיר, המונים הותקפו, ורבים מהיהודים נהרגו על קידוש השם.",
+      "יהודים רבים אחרים הוכרחו בכוח להתנצר. כך נוצרה בספרד קבוצה גדולה, שנקראה בפי היהודים \"אנוסים\". כלומר, יהודים שהכריחו אותם.",
+      "בחוץ הם נראו כמו נוצרים. אבל בליבם, ובסתר, רבים מהם נשארו נאמנים להשם ולתורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "anusim",
+     "title_he": "נרות במרתף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Friday night in a hidden cellar of a Spanish house: a mother with a head covering lights two small candles inside a clay jar, her children watching quietly and her husband guarding the stairs; warm tiny light in the darkness.",
+     "move": "in",
+     "fx": "night",
+     "art": "👩 👦 👧 👨",
+     "say": [
+      "איך שמרו האנוסים על היהדות? בערב שבת הם הדליקו נרות במרתף, או בתוך כד, כדי שהשכנים לא יראו.",
+      "הם נמנעו בסתר ממאכלות אסורים, וביום הכיפורים התענו ובכו בשקט. ולילדים לחשו: אנחנו יהודים. אל תשכחו.",
+      "כדי לחפש אותם הוקמה האינקוויזיציה, בית דין אכזרי שבדק מי מהם שומר מצוות בסתר. רבים מהאנוסים שילמו על כך מחיר כבד מאוד, ונהרגו על קידוש השם.",
+      "אבל גם באפלה הזאת, שלהבת קטנה של אמונה המשיכה לדלוק. עד היום יש משפחות, צאצאי אנוסים, ששמרו מנהגים כאלה במשך מאות שנים, ובסוף חזרו לעם ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "decree",
+     "title_he": "גזירת הגירוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A royal palace chamber in Spain in 1492: a heavy parchment decree with a red wax seal lies on a dark wooden table beside a quill, cold light from a tall window; no people shown.",
+     "move": "left",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "בשנת 1492 המלך פרדיננד והמלכה איזבלה החליטו: כל היהודים בספרד חייבים להתנצר, או לעזוב את הארץ.",
+      "ליהודים ניתנו בערך ארבעה חודשים. בחודשים האלה היו צריכים להחליט: להישאר ולוותר על התורה, או לעזוב הכל ולצאת לגלות.",
+      "ורוב היהודים בחרו. הם בחרו בתורה, ובהשם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "abarbanel",
+     "title_he": "דון יצחק אברבנאל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence. Don Yitzchak Abarbanel: a distinguished 15th-century Spanish Jewish statesman and sage with a grey beard, a dark velvet robe and a dark cap, dignified and sorrowful. Scene: In a dim royal hall, a dignified Jewish statesman in a dark velvet robe kneels respectfully before an empty throne, a bag of gold coins at his side, his face pleading and sad.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "אחד מגדולי היהודים בספרד היה דון יצחק אברבנאל. הוא היה איש חשוב בחצר המלך, אחראי על כספי הממלכה, וגם חכם גדול בתורה.",
+      "הוא ניסה בכל כוחו לבטל את הגזירה. הוא בא אל המלך, התחנן, והציע הון עצום. אבל המלך לא הסכים.",
+      "לאברבנאל הציעו להישאר, בכבוד ובעושר. אבל הוא סירב, ויצא לגלות יחד עם כל אחיו היהודים.",
+      "בגלות הוא כתב פירוש גדול על התנ\"ך, שלומדים בו עד היום. בפירוש הזה הוא כתב שהיום האחרון שבו יכלו היהודים להישאר בספרד הגיע סמוך לתשעה באב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "leaving",
+     "title_he": "יוצאים לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A long line of Jewish families in modest travelling clothes walks on a dusty road away from a Spanish town at sunset: elders on donkeys, a father carrying a Torah scroll wrapped in cloth against his chest, children holding hands.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👴",
+     "say": [
+      "רבבות רבות של יהודים יצאו מספרד. הם מכרו את בתיהם ואת שדותיהם במחיר זעום, כי כולם ידעו שהם חייבים למכור.",
+      "הם לקחו איתם את מה שהיה הכי יקר: ספרי תורה, ספרים, ואת הזיכרונות. במשפחות ספרדיות יש מסורת, ששמרו את המפתחות של הבתים בספרד במשך דורות.",
+      "הדרך הייתה קשה מאוד. היו שנפלו בידי שודדים, והיו שחלו בדרך. אבל היהודים הלכו עם אמונה, כמו אבותיהם במדבר.",
+      "השם הבטיח בתורה: גם כשיהיו בארץ אויביהם, לא אמאס בהם ולא אכלה אותם. וההבטחה הזאת שמרה עליהם.",
+      "מסופר שהרבנים עודדו את העם בדרך, בשירה ובתפילה, כדי שלא יאבדו את התקווה."
+     ],
+     "pasuk": {
+      "text": "ואף גם זאת בהיותם בארץ איביהם, לא מאסתים ולא געלתים לכלתם",
+      "ref": "ויקרא כו, מד"
+     },
+     "note": null
+    },
+    {
+     "id": "where",
+     "title_he": "לאן הלכו?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A busy 16th-century harbor of an Ottoman city with domes and minarets in the distance: Sephardi Jewish families in modest dress step off old ships, greeted by local Jews with bread and water; bright hopeful morning.",
+     "move": "out",
+     "fx": "light",
+     "art": "⛵ 👨 👩 👦",
+     "say": [
+      "רבים מהמגורשים עברו לפורטוגל השכנה. אבל אחרי כמה שנים, גם שם הכריחו את היהודים להתנצר, ורבים נעשו שם אנוסים.",
+      "אחרים הפליגו לצפון אפריקה, למרוקו, לאלג'יריה ולתוניסיה. ורבים הגיעו לארצות של הסולטן הטורקי, שקיבל אותם: לאיסטנבול, לסלוניקי, וגם לארץ ישראל, לצפת ולירושלים.",
+      "בכל מקום שהגיעו, המגורשים הקימו קהילות, ישיבות ובתי כנסת. הם דיברו לאדינו, שפה שמבוססת על ספרדית, וכתבו אותה באותיות עבריות.",
+      "וכך, מנהגי ספרד והפיוטים שלה התפשטו לכל רחבי העולם היהודי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "gracia",
+     "title_he": "דונה גרציה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A 16th-century Mediterranean port at golden hour: a dignified noblewoman in a long dark dress and head covering stands on the dock, welcoming a group of weary refugee families stepping off a ship, her servants handing them bread.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👩 👨 👩 👦",
+     "say": [
+      "אחת הדמויות המופלאות של אותם ימים היא דונה גרציה. היא נולדה במשפחה של אנוסים בפורטוגל, והייתה עשירה מאוד.",
+      "כשיכלה, עזבה את פורטוגל, ובסוף הגיעה לאיסטנבול, וחזרה בגלוי ליהדות.",
+      "את הכסף שלה היא הקדישה להצלת אנוסים. היא שלחה אוניות, ועזרה למאות משפחות לברוח ולחזור ליהדות. היא גם תמכה בישיבות ובחכמים.",
+      "ואחיינה, דון יוסף נשיא, קיבל מהסולטן את העיר טבריה, כדי לבנות בה יישוב יהודי מחדש. הם חלמו להחזיר את היהודים לארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "tzfat",
+     "title_he": "מן הגירוש צמחה צפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Morning over Tzfat in the 16th century on its green mountain: houses with blue doors, students walking to study halls, a rabbi with a white turban teaching outdoors; soft hopeful light.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠 👴 👦",
+     "say": [
+      "והנה דבר מופלא: מתוך הגירוש הנורא צמחה פריחה חדשה. רבים ממגורשי ספרד ומבניהם עלו לצפת.",
+      "שם חי רבי יוסף קארו, שגורש מספרד כילד, וכתב את השולחן ערוך. ושם חיו גדולי הקבלה, ושם נכתב \"לכה דודי\".",
+      "מי שרצה להשמיד את התורה בספרד, לא הצליח. התורה עברה דירה, וחזרה לארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "גירוש ספרד והאנוסים",
+   "ref_he": "עם ישראל בגלות",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "1391",
+     "title_he": "שנה קשה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A grey dawn over a medieval Spanish town: an old synagogue with closed wooden doors and an empty courtyard, fallen leaves blowing across the stones, a sense of loss without any people or violence shown.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🏠",
+     "say": [
+      "בשנת 1391, בספרד הנוצרית, פרצו פרעות נוראות ביהודים. בעיר אחר עיר, המונים הותקפו, ורבים מהיהודים נהרגו על קידוש השם.",
+      "יהודים רבים אחרים הוכרחו בכוח להתנצר. כך נוצרה בספרד קבוצה גדולה, שנקראה בפי היהודים \"אנוסים\". כלומר, יהודים שהכריחו אותם.",
+      "בחוץ הם נראו כמו נוצרים. אבל בליבם, ובסתר, רבים מהם נשארו נאמנים להשם ולתורה.",
+      "בין הנהרגים על קידוש השם היו גם בני משפחות של גדולי התורה. רבי חסדאי קרשקש, מגדולי חכמי ספרד, איבד אז את בנו היחיד, בברצלונה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "anusim",
+     "title_he": "נרות במרתף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Friday night in a hidden cellar of a Spanish house: a mother with a head covering lights two small candles inside a clay jar, her children watching quietly and her husband guarding the stairs; warm tiny light in the darkness.",
+     "move": "in",
+     "fx": "night",
+     "art": "👩 👦 👧 👨",
+     "say": [
+      "איך שמרו האנוסים על היהדות? בערב שבת הם הדליקו נרות במרתף, או בתוך כד, כדי שהשכנים לא יראו.",
+      "הם נמנעו בסתר ממאכלות אסורים, וביום הכיפורים התענו ובכו בשקט. ולילדים לחשו: אנחנו יהודים. אל תשכחו.",
+      "כדי לחפש אותם הוקמה האינקוויזיציה, בית דין אכזרי שבדק מי מהם שומר מצוות בסתר. רבים מהאנוסים שילמו על כך מחיר כבד מאוד, ונהרגו על קידוש השם.",
+      "אבל גם באפלה הזאת, שלהבת קטנה של אמונה המשיכה לדלוק. עד היום יש משפחות, צאצאי אנוסים, ששמרו מנהגים כאלה במשך מאות שנים, ובסוף חזרו לעם ישראל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: \"ישראל אף על פי שחטא, ישראל הוא\". יהודי שהוכרח לעזוב את דתו נשאר יהודי."
+     }
+    },
+    {
+     "id": "decree",
+     "title_he": "גזירת הגירוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A royal palace chamber in Spain in 1492: a heavy parchment decree with a red wax seal lies on a dark wooden table beside a quill, cold light from a tall window; no people shown.",
+     "move": "left",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "בשנת 1492 המלך פרדיננד והמלכה איזבלה החליטו: כל היהודים בספרד חייבים להתנצר, או לעזוב את הארץ.",
+      "ליהודים ניתנו בערך ארבעה חודשים. בחודשים האלה היו צריכים להחליט: להישאר ולוותר על התורה, או לעזוב הכל ולצאת לגלות.",
+      "ורוב היהודים בחרו. הם בחרו בתורה, ובהשם.",
+      "השליטים טענו שהיהודים משפיעים על האנוסים לשמור מצוות. כלומר, הם רצו שלא יישאר בספרד אף יהודי, שיזכיר לאנוסים מי הם באמת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "abarbanel",
+     "title_he": "דון יצחק אברבנאל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence. Don Yitzchak Abarbanel: a distinguished 15th-century Spanish Jewish statesman and sage with a grey beard, a dark velvet robe and a dark cap, dignified and sorrowful. Scene: In a dim royal hall, a dignified Jewish statesman in a dark velvet robe kneels respectfully before an empty throne, a bag of gold coins at his side, his face pleading and sad.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "אחד מגדולי היהודים בספרד היה דון יצחק אברבנאל. הוא היה איש חשוב בחצר המלך, אחראי על כספי הממלכה, וגם חכם גדול בתורה.",
+      "הוא ניסה בכל כוחו לבטל את הגזירה. הוא בא אל המלך, התחנן, והציע הון עצום. אבל המלך לא הסכים.",
+      "לאברבנאל הציעו להישאר, בכבוד ובעושר. אבל הוא סירב, ויצא לגלות יחד עם כל אחיו היהודים.",
+      "בגלות הוא כתב פירוש גדול על התנ\"ך, שלומדים בו עד היום. בפירוש הזה הוא כתב שהיום האחרון שבו יכלו היהודים להישאר בספרד הגיע סמוך לתשעה באב.",
+      "אברבנאל עצמו נדד לאיטליה, ושם המשיך ללמוד ולכתוב עד סוף ימיו. הוא לא איבד את האמונה, ואף כתב ספרים על הגאולה העתידה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "leaving",
+     "title_he": "יוצאים לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A long line of Jewish families in modest travelling clothes walks on a dusty road away from a Spanish town at sunset: elders on donkeys, a father carrying a Torah scroll wrapped in cloth against his chest, children holding hands.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👴",
+     "say": [
+      "רבבות רבות של יהודים יצאו מספרד. הם מכרו את בתיהם ואת שדותיהם במחיר זעום, כי כולם ידעו שהם חייבים למכור.",
+      "הם לקחו איתם את מה שהיה הכי יקר: ספרי תורה, ספרים, ואת הזיכרונות. במשפחות ספרדיות יש מסורת, ששמרו את המפתחות של הבתים בספרד במשך דורות.",
+      "הדרך הייתה קשה מאוד. היו שנפלו בידי שודדים, והיו שחלו בדרך. אבל היהודים הלכו עם אמונה, כמו אבותיהם במדבר.",
+      "השם הבטיח בתורה: גם כשיהיו בארץ אויביהם, לא אמאס בהם ולא אכלה אותם. וההבטחה הזאת שמרה עליהם.",
+      "מסופר שהרבנים עודדו את העם בדרך, בשירה ובתפילה, כדי שלא יאבדו את התקווה."
+     ],
+     "pasuk": {
+      "text": "ואף גם זאת בהיותם בארץ איביהם, לא מאסתים ולא געלתים לכלתם",
+      "ref": "ויקרא כו, מד"
+     },
+     "note": null
+    },
+    {
+     "id": "where",
+     "title_he": "לאן הלכו?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A busy 16th-century harbor of an Ottoman city with domes and minarets in the distance: Sephardi Jewish families in modest dress step off old ships, greeted by local Jews with bread and water; bright hopeful morning.",
+     "move": "out",
+     "fx": "light",
+     "art": "⛵ 👨 👩 👦",
+     "say": [
+      "רבים מהמגורשים עברו לפורטוגל השכנה. אבל אחרי כמה שנים, גם שם הכריחו את היהודים להתנצר, ורבים נעשו שם אנוסים.",
+      "אחרים הפליגו לצפון אפריקה, למרוקו, לאלג'יריה ולתוניסיה. ורבים הגיעו לארצות של הסולטן הטורקי, שקיבל אותם: לאיסטנבול, לסלוניקי, וגם לארץ ישראל, לצפת ולירושלים.",
+      "בכל מקום שהגיעו, המגורשים הקימו קהילות, ישיבות ובתי כנסת. הם דיברו לאדינו, שפה שמבוססת על ספרדית, וכתבו אותה באותיות עבריות.",
+      "וכך, מנהגי ספרד והפיוטים שלה התפשטו לכל רחבי העולם היהודי.",
+      "בפורטוגל, בשנת 1497, הכריח המלך את רוב היהודים להתנצר. כך נוצרה גם שם קהילה גדולה של אנוסים, שרבים מהם ברחו אחר כך לארצות אחרות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "gracia",
+     "title_he": "דונה גרציה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A 16th-century Mediterranean port at golden hour: a dignified noblewoman in a long dark dress and head covering stands on the dock, welcoming a group of weary refugee families stepping off a ship, her servants handing them bread.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👩 👨 👩 👦",
+     "say": [
+      "אחת הדמויות המופלאות של אותם ימים היא דונה גרציה. היא נולדה במשפחה של אנוסים בפורטוגל, והייתה עשירה מאוד.",
+      "כשיכלה, עזבה את פורטוגל, ובסוף הגיעה לאיסטנבול, וחזרה בגלוי ליהדות.",
+      "את הכסף שלה היא הקדישה להצלת אנוסים. היא שלחה אוניות, ועזרה למאות משפחות לברוח ולחזור ליהדות. היא גם תמכה בישיבות ובחכמים.",
+      "ואחיינה, דון יוסף נשיא, קיבל מהסולטן את העיר טבריה, כדי לבנות בה יישוב יהודי מחדש. הם חלמו להחזיר את היהודים לארץ ישראל.",
+      "כך, מתוך משפחה של אנוסים, צמחה משפחה שהצילה אחרים. זו התשובה הטובה ביותר לגירוש: לא להתייאש, אלא לבנות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "tzfat",
+     "title_he": "מן הגירוש צמחה צפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Morning over Tzfat in the 16th century on its green mountain: houses with blue doors, students walking to study halls, a rabbi with a white turban teaching outdoors; soft hopeful light.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠 👴 👦",
+     "say": [
+      "והנה דבר מופלא: מתוך הגירוש הנורא צמחה פריחה חדשה. רבים ממגורשי ספרד ומבניהם עלו לצפת.",
+      "שם חי רבי יוסף קארו, שגורש מספרד כילד, וכתב את השולחן ערוך. ושם חיו גדולי הקבלה, ושם נכתב \"לכה דודי\".",
+      "מי שרצה להשמיד את התורה בספרד, לא הצליח. התורה עברה דירה, וחזרה לארץ ישראל.",
+      "גם צאצאי האנוסים שברחו מספרד ומפורטוגל, בנו אחרי מאה שנה קהילה יהודית גדולה באמסטרדם, ושם חזרו בגלוי לתורה ולמצוות.",
+      "מה הלקח? אפשר לגרש יהודים ממקום, אבל אי אפשר לגרש את היהדות מליבם. הקדוש ברוך הוא שומר על עמו בכל מקום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "choice",
+     "title_he": "הבחירה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A quiet empty road at dawn leading away from a Spanish town toward distant mountains, a single wild olive tree beside the road and the first light of sunrise on the horizon.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🌳",
+     "say": [
+      "נחשוב רגע על הבחירה של יהודי ספרד. הם יכלו להישאר בבתים שלהם, עם הכסף והכבוד. כל מה שהיה עליהם לעשות הוא לוותר על התורה.",
+      "ובכל זאת, רובם יצאו לדרך קשה, עם ילדים קטנים, בלי לדעת לאן. זו מסירות נפש של עם שלם.",
+      "כשאנחנו שומעים על המגורשים, כדאי לשאול את עצמנו: האם גם אני מוכן לוותר על נוחות קטנה בשביל מצווה? כי מסירות נפש מתחילה בדברים קטנים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו האנוסים?",
+   "answer": "יהודים שהוכרחו בכוח להתנצר, ורבים מהם שמרו מצוות בסתר",
+   "options": [
+    "יהודים שהוכרחו בכוח להתנצר, ורבים מהם שמרו מצוות בסתר",
+    "יהודים שעלו לארץ ישראל",
+    "סוחרים נוצרים שעזרו ליהודים"
+   ],
+   "explain_he": "המילה \"אנוסים\" פירושה שהכריחו אותם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו האנוסים?",
+   "answer": "יהודים שהוכרחו בכוח להתנצר, ורבים מהם שמרו מצוות בסתר",
+   "options": [
+    "יהודים שהוכרחו בכוח להתנצר, ורבים מהם שמרו מצוות בסתר",
+    "יהודים שעלו לארץ ישראל",
+    "סוחרים נוצרים שעזרו ליהודים"
+   ],
+   "explain_he": "המילה \"אנוסים\" פירושה שהכריחו אותם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הדליקו האנוסים נרות שבת?",
+   "answer": "במרתף או בתוך כד, כדי שלא יראו",
+   "options": [
+    "במרתף או בתוך כד, כדי שלא יראו",
+    "בחלון, כדי שכולם יראו",
+    "רק בבית הכנסת"
+   ],
+   "explain_he": "הם שמרו מצוות בסתר, בסכנה גדולה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הדליקו האנוסים נרות שבת?",
+   "answer": "במרתף או בתוך כד, כדי שלא יראו",
+   "options": [
+    "במרתף או בתוך כד, כדי שלא יראו",
+    "בחלון, כדי שכולם יראו",
+    "רק בבית הכנסת"
+   ],
+   "explain_he": "הם שמרו מצוות בסתר, בסכנה גדולה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה הבחירה שניתנה ליהודי ספרד בשנת 1492?",
+   "answer": "להתנצר או לעזוב את ספרד",
+   "options": [
+    "להתנצר או לעזוב את ספרד",
+    "לשלם מס או לעבור לעיר אחרת",
+    "לעבוד בצבא או לעזוב"
+   ],
+   "explain_he": "רוב היהודים בחרו בתורה, ויצאו לגלות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה הבחירה שניתנה ליהודי ספרד בשנת 1492?",
+   "answer": "להתנצר או לעזוב את ספרד",
+   "options": [
+    "להתנצר או לעזוב את ספרד",
+    "לשלם מס או לעבור לעיר אחרת",
+    "לעבוד בצבא או לעזוב"
+   ],
+   "explain_he": "רוב היהודים בחרו בתורה, ויצאו לגלות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דון יצחק אברבנאל כשהציעו לו להישאר?",
+   "answer": "סירב, ויצא לגלות עם אחיו היהודים",
+   "options": [
+    "סירב, ויצא לגלות עם אחיו היהודים",
+    "נשאר בחצר המלך",
+    "ברח לבד לפני כולם"
+   ],
+   "explain_he": "אברבנאל ניסה לבטל את הגזירה, וכשלא הצליח, יצא עם עמו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דון יצחק אברבנאל כשהציעו לו להישאר?",
+   "answer": "סירב, ויצא לגלות עם אחיו היהודים",
+   "options": [
+    "סירב, ויצא לגלות עם אחיו היהודים",
+    "נשאר בחצר המלך",
+    "ברח לבד לפני כולם"
+   ],
+   "explain_he": "אברבנאל ניסה לבטל את הגזירה, וכשלא הצליח, יצא עם עמו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן הלכו המגורשים?",
+   "answer": "לפורטוגל, לצפון אפריקה, לארצות הסולטן הטורקי ולארץ ישראל",
+   "options": [
+    "לפורטוגל, לצפון אפריקה, לארצות הסולטן הטורקי ולארץ ישראל",
+    "רק לצרפת",
+    "כולם לבבל"
+   ],
+   "explain_he": "בכל מקום שהגיעו, הם הקימו קהילות וישיבות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן הלכו המגורשים?",
+   "answer": "לפורטוגל, לצפון אפריקה, לארצות הסולטן הטורקי ולארץ ישראל",
+   "options": [
+    "לפורטוגל, לצפון אפריקה, לארצות הסולטן הטורקי ולארץ ישראל",
+    "רק לצרפת",
+    "כולם לבבל"
+   ],
+   "explain_he": "בכל מקום שהגיעו, הם הקימו קהילות וישיבות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה ספר נכתב בצפת בידי מגורש מספרד?",
+   "answer": "השולחן ערוך",
+   "options": [
+    "השולחן ערוך",
+    "התלמוד הבבלי",
+    "ספר הכוזרי"
+   ],
+   "explain_he": "רבי יוסף קארו גורש מספרד כילד, וכתב את השולחן ערוך בצפת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה ספר נכתב בצפת בידי מגורש מספרד?",
+   "answer": "השולחן ערוך",
+   "options": [
+    "השולחן ערוך",
+    "התלמוד הבבלי",
+    "ספר הכוזרי"
+   ],
+   "explain_he": "רבי יוסף קארו גורש מספרד כילד, וכתב את השולחן ערוך בצפת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מלמד המשפט \"ישראל אף על פי שחטא, ישראל הוא\" על האנוסים?",
+   "answer": "שיהודי שהוכרח לעזוב את דתו נשאר יהודי",
+   "options": [
+    "שיהודי שהוכרח לעזוב את דתו נשאר יהודי",
+    "שאסור לדבר עם אנוסים",
+    "שהאנוסים אינם יהודים"
+   ],
+   "explain_he": "גם צאצאי האנוסים יכולים לחזור לעם ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה השתמשה דונה גרציה בכספה?",
+   "answer": "להצלת אנוסים ולתמיכה בתורה",
+   "options": [
+    "להצלת אנוסים ולתמיכה בתורה",
+    "לבניית ארמון באיסטנבול",
+    "לקניית אוניות מלחמה"
+   ],
+   "explain_he": "היא עזרה למאות משפחות לברוח ולחזור ליהדות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה השתמשה דונה גרציה בכספה?",
+   "answer": "להצלת אנוסים ולתמיכה בתורה",
+   "options": [
+    "להצלת אנוסים ולתמיכה בתורה",
+    "לבניית ארמון באיסטנבול",
+    "לקניית אוניות מלחמה"
+   ],
+   "explain_he": "היא עזרה למאות משפחות לברוח ולחזור ליהדות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f4e17"
+  }
+ ]
+}

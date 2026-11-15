@@ -1,0 +1,851 @@
+{
+ "id": "k-jer-f7",
+ "unit_id": "k-jer-u3",
+ "course": "jerusalem",
+ "title_he": "הר הבית בידינו – וירושלים היום",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "הר הבית בידינו – וירושלים היום",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ימי ההמתנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A crowded synagogue in Jerusalem in late May 1967: men, women in the balcony and children saying Tehillim from small books with serious, hopeful faces, evening light through the windows.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "עברו תשע עשרה שנה. ובשנת תשכ\"ז, ישראל שוב הייתה בסכנה גדולה.",
+      "צבאות של כמה ארצות התקרבו לגבולות, ואיימו לתקוף.",
+      "בכל הארץ אנשים פחדו. ומה עשו? התפללו, ואמרו תהילים.",
+      "בבתי הכנסת, בבתים ובבתי הספר – כולם ביקשו מהשם: שמור עלינו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ירושלים מותקפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: Today: Ammunition Hill memorial in Jerusalem on a quiet morning, old stone-lined trenches among pine trees, wreaths of flowers and small flags, a family walking respectfully on the path.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩 👦 🌳",
+     "say": [
+      "המלחמה התחילה בדרום. ישראל ביקשה ממלך ירדן: אל תצטרף למלחמה, ואנחנו לא נילחם בך.",
+      "אבל ירדן התחילה לירות על ירושלים.",
+      "ואז החיילים של ישראל, וביניהם הצנחנים, יצאו להגן על העיר.",
+      "הם נלחמו באומץ גדול. הרבה מהם נפלו, ואנחנו זוכרים אותם עד היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שער האריות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Israeli soldiers of 1967 in olive-green uniforms and helmets, young and dusty, rifles slung on their backs, pointing down. Scene: Morning light on an ancient stone gate of the Old City walls of Jerusalem with carved lions on its sides, young Israeli soldiers walking through it with emotion, rifles slung down on their backs.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👨",
+     "say": [
+      "ביום רביעי בבוקר, הצנחנים נכנסו לעיר העתיקה דרך שער האריות.",
+      "הם עלו אל הר הבית – המקום שבו עמד בית המקדש!",
+      "המפקד שלהם, מוטה גור, אמר בקשר שלוש מילים שכל עם ישראל זוכר:",
+      "\"הר הבית בידינו!\" אחרי אלפיים שנה, המקום של המקדש שוב בידי עם ישראל."
+     ],
+     "pasuk": {
+      "text": "הַר הַבַּיִת בְּיָדֵינוּ",
+      "ref": "מוטה גור, כ\"ח באייר תשכ\"ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "אל הכותל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Israeli soldiers of 1967 in olive-green uniforms and helmets, young and dusty, rifles slung on their backs, pointing down. Rabbi Shlomo Goren in 1967: a bearded army rabbi in olive uniform and kippah, holding a shofar. Scene: The Western Wall on the morning of its liberation in 1967: young soldiers in olive uniforms and helmets standing close to the huge stones, one touching them with his hand, one with tears, an army rabbi blowing a shofar beside them. A soft light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👨 👴",
+     "say": [
+      "החיילים רצו אל הכותל, דרך סמטאות צרות.",
+      "וכשהגיעו – הם עצרו. נגעו באבנים הענקיות, ובכו.",
+      "גם חיילים שלא היו רגילים להתפלל – בכו והתפללו.",
+      "והרב הצבאי, הרב שלמה גורן, תקע בשופר ליד הכותל. כמו ביום כיפור, כמו בגאולה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שבועות תשכ\"ז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A vast crowd of people of all ages in white shirts and modest festive clothes walking along a road toward the Old City walls on a bright Shavuot morning, families with children, elderly people with canes, joyful faces.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "שבוע אחר כך הגיע חג השבועות, והכותל נפתח לכולם.",
+      "ומה קרה? מכל הארץ באו אנשים ברגל: זקנים וצעירים, הורים וילדים.",
+      "בערך מאתיים אלף איש באו לכותל ביום אחד!",
+      "זה הזכיר את העלייה לרגל בזמן בית המקדש. שוב כל העם עולה לירושלים בחג."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בחג השבועות תשכ\"ז, שבוע אחרי השחרור, באו לכותל בערך מאתיים אלף איש."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "בונים מחדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: The rebuilt Jewish Quarter of Jerusalem today: clean stone alleys, the great white dome of the Hurva synagogue rising again over the rooftops, children with kippot and girls in long skirts walking to school.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "אחרי השחרור, התחילו לבנות מחדש את הרובע היהודי בעיר העתיקה.",
+      "בנו בתים, ישיבות ובתי כנסת. ומשפחות חזרו לגור ליד הכותל.",
+      "וזוכרים את החורבה? שוב בנו אותה, יפה וגבוהה, עם כיפה לבנה!",
+      "ובכל שנה, בכ\"ח באייר, חוגגים את יום ירושלים, ומודים לשם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ירושלים היום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: Jerusalem today on a sunny afternoon from a rooftop above the Western Wall plaza: crowds praying at the Wall, the modern city spreading over the hills beyond, children playing in a nearby courtyard, elderly people resting on a bench.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👵 👧 👦",
+     "say": [
+      "והיום? ירושלים היא העיר הכי גדולה בישראל. גרים בה קרוב למיליון אנשים!",
+      "יש בה מאות בתי כנסת, ישיבות ובתי ספר. ובה יושבת הכנסת של מדינת ישראל.",
+      "לכותל באים מיליוני אנשים בכל שנה, להתפלל ולהכניס פתקים בין האבנים.",
+      "והנביא זכריה אמר: עוד יהיו ברחובות ירושלים זקנים וזקנות, וילדים וילדות ישחקו בה. והנה – זה קורה!"
+     ],
+     "pasuk": {
+      "text": "וּרְחֹבוֹת הָעִיר יִמָּלְאוּ יְלָדִים וִילָדוֹת מְשַׂחֲקִים בִּרְחֹבֹתֶיהָ",
+      "ref": "זכריה ח, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הסיפור נמשך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: A father with a kippah and his young son standing at the Western Wall at sunset, the boy's small hand on the huge stone beside his father's hand, soft golden light falling from above.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨 👦",
+     "say": [
+      "אז בואו ניזכר בכל הדרך שעשינו:",
+      "אברהם על הר המוריה, דוד שעשה את ירושלים לבירה, ושלמה שבנה את המקדש. החורבן, והגלות, ואלפיים שנה של תפילה.",
+      "הרמב\"ן שבא לעיר החרבה, מונטיפיורי והשכונות החדשות, המצור, והיום שבו חזרנו לכותל.",
+      "והסיפור עוד לא נגמר. בכל יום אנחנו מבקשים: \"ובנה ירושלים עיר הקודש במהרה בימינו\". ואולי – אתם תראו את ההמשך."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "הר הבית בידינו – וירושלים היום",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ימי ההמתנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A crowded synagogue in Jerusalem in late May 1967: men, women in the balcony and children saying Tehillim from small books with serious, hopeful faces, evening light through the windows.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "באביב תשכ\"ז, תשע עשרה שנה אחרי מלחמת העצמאות, נעשה המצב מתוח מאוד. צבאות ערב ריכזו כוחות גדולים סביב הגבולות, ומנהיגיהם איימו להשמיד את ישראל.",
+      "שבועות של המתנה עברו על הארץ. הגברים גויסו, והמשפחות נשארו בבית, בפחד.",
+      "הרבנים קראו לעם להתפלל. בבתי הכנסת אמרו תהילים, ויהודים בכל העולם התאחדו בתפילה.",
+      "אף אחד לא ידע שבעוד כמה ימים יקרה אחד הרגעים הגדולים בתולדות ירושלים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ירושלים מותקפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: Today: Ammunition Hill memorial in Jerusalem on a quiet morning, old stone-lined trenches among pine trees, wreaths of flowers and small flags, a family walking respectfully on the path.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩 👦 🌳",
+     "say": [
+      "המלחמה פרצה ביום כ\"ו באייר. ישראל שלחה הודעה למלך ירדן: אם לא תצטרף, לא נתקוף אותך. אבל ירדן פתחה באש כבדה על ירושלים.",
+      "הצנחנים קיבלו פקודה לצאת לקרב. בלילה ההוא נלחמו בגבעת התחמושת, באחד הקרבות הקשים במלחמה.",
+      "הלוחמים התקדמו מתעלה לתעלה, באומץ גדול, ורבים מהם נפלו.",
+      "היום יש שם אתר זיכרון, ומשפחות וילדים באים ללמוד על הגבורה ועל המחיר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בגבעת התחמושת, שבה נלחמו הצנחנים, יש היום אתר הנצחה לזכר הלוחמים שנפלו בקרבות על ירושלים."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "שער האריות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Israeli soldiers of 1967 in olive-green uniforms and helmets, young and dusty, rifles slung on their backs, pointing down. Scene: Morning light on an ancient stone gate of the Old City walls of Jerusalem with carved lions on its sides, young Israeli soldiers walking through it with emotion, rifles slung down on their backs.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👨",
+     "say": [
+      "בבוקר כ\"ח באייר תשכ\"ז נכנסו הצנחנים לעיר העתיקה דרך שער האריות, ועלו אל הר הבית.",
+      "המפקד, מוטה גור, הודיע בקשר: \"הר הבית בידינו!\" – המשפט הזה עבר בין החיילים ובכל הארץ, ואנשים בכו כששמעו אותו.",
+      "חשבו על זה: מאז חורבן הבית השני, כמעט אלפיים שנה, המקום הזה לא היה בידי עם ישראל.",
+      "ומהר הבית ירדו החיילים במהירות אל הכותל."
+     ],
+     "pasuk": {
+      "text": "הַר הַבַּיִת בְּיָדֵינוּ",
+      "ref": "מוטה גור, כ\"ח באייר תשכ\"ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "אל הכותל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Israeli soldiers of 1967 in olive-green uniforms and helmets, young and dusty, rifles slung on their backs, pointing down. Rabbi Shlomo Goren in 1967: a bearded army rabbi in olive uniform and kippah, holding a shofar. Scene: The Western Wall on the morning of its liberation in 1967: young soldiers in olive uniforms and helmets standing close to the huge stones, one touching them with his hand, one with tears, an army rabbi blowing a shofar beside them. A soft light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👨 👴",
+     "say": [
+      "החיילים הגיעו אל הכותל המערבי – הצעירים, המאובקים, העייפים מקרב לילה שלם. רבים מהם לא ראו אותו מעולם.",
+      "הם עמדו מול האבנים, נגעו בהן, נישקו אותן ובכו. גם חיילים שלא היו שומרי מצוות התפללו שם מכל הלב.",
+      "הרב שלמה גורן, הרב הראשי של הצבא, תקע בשופר ליד הכותל ואמר תפילה. קול השופר נשמע ברדיו בכל הארץ.",
+      "קול השופר של האיל מהעקדה, בירושלים, במקום הקרוב ביותר להר המוריה – כאילו הסיפור כולו נסגר במעגל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שבועות תשכ\"ז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A vast crowd of people of all ages in white shirts and modest festive clothes walking along a road toward the Old City walls on a bright Shavuot morning, families with children, elderly people with canes, joyful faces.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בחג השבועות, שבוע אחרי השחרור, נפתח הכותל לציבור. מבתי הכנסת יצאו אנשים בשעות הבוקר המוקדמות, וצעדו ברגל אל העיר העתיקה.",
+      "בערך מאתיים אלף איש הגיעו – זקנים שזכרו את הכותל לפני תש\"ח, ילדים שמעולם לא ראו אותו, חסידים וספרדים ותימנים.",
+      "תושבי הרובע היהודי שגורשו בתש\"ח חזרו לראות את בתיהם.",
+      "לראשונה אחרי אלפיים שנה, זה נראה שוב כמו עלייה לרגל, ברגל, בחג – כמו שתיארו חז\"ל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בחג השבועות תשכ\"ז, שבוע אחרי השחרור, באו לכותל בערך מאתיים אלף איש."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "בונים מחדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: The rebuilt Jewish Quarter of Jerusalem today: clean stone alleys, the great white dome of the Hurva synagogue rising again over the rooftops, children with kippot and girls in long skirts walking to school.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "הרובע היהודי, שנהרס בתש\"ח, נבנה מחדש מן היסוד: בתים, ישיבות, בתי כנסת ובתי ספר. משפחות חזרו לגור בסמטאות שבהן גרו סבא וסבתא.",
+      "בית הכנסת הרמב\"ן נפתח שוב לתפילה, וגם בתי הכנסת הספרדיים שוקמו.",
+      "והחורבה? היא נבנתה מחדש, כמו שהייתה, עם כיפתה הלבנה הגבוהה, ונחנכה בשנת תש\"ע. פעמיים נחרבה – ושוב עומדת.",
+      "את כ\"ח באייר קבעו כ\"יום ירושלים\". בבתי כנסת רבים אומרים בו הלל ומודים לשם על הנס."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ירושלים היום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: Jerusalem today on a sunny afternoon from a rooftop above the Western Wall plaza: crowds praying at the Wall, the modern city spreading over the hills beyond, children playing in a nearby courtyard, elderly people resting on a bench.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👵 👧 👦",
+     "say": [
+      "ירושלים של היום היא העיר הגדולה בישראל, וגרים בה קרוב למיליון תושבים. בה יושבת הכנסת, ובה מאות ישיבות, בתי כנסת ובתי מדרש – אולי יותר מבכל עיר אחרת בעולם.",
+      "לכותל המערבי באים מיליוני מבקרים בכל שנה. בחול המועד של פסח ושל סוכות, עשרות אלפים מתאספים בו לברכת כוהנים.",
+      "זכריה ניבא: \"עוד ישבו זקנים וזקנות ברחובות ירושלים... ורחובות העיר יימלאו ילדים וילדות משחקים ברחובותיה\".",
+      "רבי עקיבא צחק כשראה שועל על הר הבית, כי ידע שהנבואה הזאת תתקיים. אנחנו זוכים לראות חלק ממנה בעינינו."
+     ],
+     "pasuk": {
+      "text": "וּרְחֹבוֹת הָעִיר יִמָּלְאוּ יְלָדִים וִילָדוֹת מְשַׂחֲקִים בִּרְחֹבֹתֶיהָ",
+      "ref": "זכריה ח, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הסיפור נמשך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: A father with a kippah and his young son standing at the Western Wall at sunset, the boy's small hand on the huge stone beside his father's hand, soft golden light falling from above.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨 👦",
+     "say": [
+      "עברנו יחד על סיפור של כמעט ארבעת אלפים שנה: הר של אמונה, עיר של מלכות, בית של שכינה – ואחר כך חורבן, גלות, ותפילה שלא פסקה.",
+      "ראינו את הרמב\"ן בונה בית כנסת מתוך חורבה, את היישוב הישן ששמר על העיר, את השכונות שיצאו מן החומות, את מגיני העיר במצור ואת הצנחנים בכותל.",
+      "בכל שלב היו אנשים שבחרו לא לוותר: להתפלל, לעלות, לבנות.",
+      "ועכשיו התור שלנו. בכל ברכת מזון ובכל תפילה, אנחנו ממשיכים את השרשרת: \"ובנה ירושלים עיר הקודש במהרה בימינו\"."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f7e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "הר הבית בידינו – וירושלים היום",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ימי ההמתנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A crowded synagogue in Jerusalem in late May 1967: men, women in the balcony and children saying Tehillim from small books with serious, hopeful faces, evening light through the windows.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "באביב תשכ\"ז, תשע עשרה שנה אחרי מלחמת העצמאות, נעשה המצב מתוח מאוד. צבאות ערב ריכזו כוחות גדולים סביב הגבולות, ומנהיגיהם איימו להשמיד את ישראל.",
+      "שבועות של המתנה עברו על הארץ. הגברים גויסו, והמשפחות נשארו בבית, בפחד.",
+      "הרבנים קראו לעם להתפלל. בבתי הכנסת אמרו תהילים, ויהודים בכל העולם התאחדו בתפילה.",
+      "אף אחד לא ידע שבעוד כמה ימים יקרה אחד הרגעים הגדולים בתולדות ירושלים.",
+      "הימים האלה נקראו אחר כך \"תקופת ההמתנה\". אנשים שחיו אז מספרים על תחושת סכנה קיומית – ועל אחדות מופלאה של כל העם.",
+      "ההבדל בין הפחד שלפני המלחמה לבין הישועה שאחריה היה כה גדול, שרבים, גם רחוקים מתורה, ראו בה יד השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ירושלים מותקפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: Today: Ammunition Hill memorial in Jerusalem on a quiet morning, old stone-lined trenches among pine trees, wreaths of flowers and small flags, a family walking respectfully on the path.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩 👦 🌳",
+     "say": [
+      "המלחמה פרצה ביום כ\"ו באייר. ישראל שלחה הודעה למלך ירדן: אם לא תצטרף, לא נתקוף אותך. אבל ירדן פתחה באש כבדה על ירושלים.",
+      "הצנחנים קיבלו פקודה לצאת לקרב. בלילה ההוא נלחמו בגבעת התחמושת, באחד הקרבות הקשים במלחמה.",
+      "הלוחמים התקדמו מתעלה לתעלה, באומץ גדול, ורבים מהם נפלו.",
+      "היום יש שם אתר זיכרון, ומשפחות וילדים באים ללמוד על הגבורה ועל המחיר.",
+      "חשוב לזכור: ישראל לא תכננה לכבוש את העיר העתיקה. היא נאלצה להגן על ירושלים – ומתוך ההגנה, נפתחה הדרך אל ליבה.",
+      "חז\"ל אומרים על ניסים: \"אין בעל הנס מכיר בניסו\". רק כשמסתכלים אחורה, רואים את התמונה כולה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בגבעת התחמושת, שבה נלחמו הצנחנים, יש היום אתר הנצחה לזכר הלוחמים שנפלו בקרבות על ירושלים."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "שער האריות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Israeli soldiers of 1967 in olive-green uniforms and helmets, young and dusty, rifles slung on their backs, pointing down. Scene: Morning light on an ancient stone gate of the Old City walls of Jerusalem with carved lions on its sides, young Israeli soldiers walking through it with emotion, rifles slung down on their backs.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👨",
+     "say": [
+      "בבוקר כ\"ח באייר תשכ\"ז נכנסו הצנחנים לעיר העתיקה דרך שער האריות, ועלו אל הר הבית.",
+      "המפקד, מוטה גור, הודיע בקשר: \"הר הבית בידינו!\" – המשפט הזה עבר בין החיילים ובכל הארץ, ואנשים בכו כששמעו אותו.",
+      "חשבו על זה: מאז חורבן הבית השני, כמעט אלפיים שנה, המקום הזה לא היה בידי עם ישראל.",
+      "ומהר הבית ירדו החיילים במהירות אל הכותל.",
+      "ההר שאברהם עלה אליו לעקדה, שדוד קנה, ששלמה בנה עליו את הבית – חזר לעם ישראל באותו בוקר.",
+      "אבל המקדש עצמו עוד לא נבנה, והתקווה לבניינו נשארה תפילה, כמו שהייתה בכל הדורות."
+     ],
+     "pasuk": {
+      "text": "הַר הַבַּיִת בְּיָדֵינוּ",
+      "ref": "מוטה גור, כ\"ח באייר תשכ\"ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "אל הכותל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Israeli soldiers of 1967 in olive-green uniforms and helmets, young and dusty, rifles slung on their backs, pointing down. Rabbi Shlomo Goren in 1967: a bearded army rabbi in olive uniform and kippah, holding a shofar. Scene: The Western Wall on the morning of its liberation in 1967: young soldiers in olive uniforms and helmets standing close to the huge stones, one touching them with his hand, one with tears, an army rabbi blowing a shofar beside them. A soft light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👨 👴",
+     "say": [
+      "החיילים הגיעו אל הכותל המערבי – הצעירים, המאובקים, העייפים מקרב לילה שלם. רבים מהם לא ראו אותו מעולם.",
+      "הם עמדו מול האבנים, נגעו בהן, נישקו אותן ובכו. גם חיילים שלא היו שומרי מצוות התפללו שם מכל הלב.",
+      "הרב שלמה גורן, הרב הראשי של הצבא, תקע בשופר ליד הכותל ואמר תפילה. קול השופר נשמע ברדיו בכל הארץ.",
+      "קול השופר של האיל מהעקדה, בירושלים, במקום הקרוב ביותר להר המוריה – כאילו הסיפור כולו נסגר במעגל.",
+      "צלם בשם דוד רובינגר צילם שם שלושה צנחנים מביטים בכותל. התמונה הזאת נעשתה לאחת המפורסמות בתולדות ישראל.",
+      "וחיילים סיפרו אחר כך שהם, שהגיעו ממשפחות שונות ומגלויות שונות, הרגישו באותו רגע שהם שליחים של כל הדורות שהתפללו ולא זכו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שבועות תשכ\"ז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A vast crowd of people of all ages in white shirts and modest festive clothes walking along a road toward the Old City walls on a bright Shavuot morning, families with children, elderly people with canes, joyful faces.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בחג השבועות, שבוע אחרי השחרור, נפתח הכותל לציבור. מבתי הכנסת יצאו אנשים בשעות הבוקר המוקדמות, וצעדו ברגל אל העיר העתיקה.",
+      "בערך מאתיים אלף איש הגיעו – זקנים שזכרו את הכותל לפני תש\"ח, ילדים שמעולם לא ראו אותו, חסידים וספרדים ותימנים.",
+      "תושבי הרובע היהודי שגורשו בתש\"ח חזרו לראות את בתיהם.",
+      "לראשונה אחרי אלפיים שנה, זה נראה שוב כמו עלייה לרגל, ברגל, בחג – כמו שתיארו חז\"ל.",
+      "חג השבועות הוא חג מתן תורה, וגם אחד משלושת הרגלים. שני הדברים נפגשו באותו יום: עם שקיבל תורה בסיני, עולה ברגליו לירושלים.",
+      "והמראה הזה הזכיר לרבים את נבואת ירמיהו: \"כי יש יום, קראו נוצרים בהר אפרים: קומו ונעלה ציון\"."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בחג השבועות תשכ\"ז, שבוע אחרי השחרור, באו לכותל בערך מאתיים אלף איש."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "בונים מחדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: The rebuilt Jewish Quarter of Jerusalem today: clean stone alleys, the great white dome of the Hurva synagogue rising again over the rooftops, children with kippot and girls in long skirts walking to school.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "הרובע היהודי, שנהרס בתש\"ח, נבנה מחדש מן היסוד: בתים, ישיבות, בתי כנסת ובתי ספר. משפחות חזרו לגור בסמטאות שבהן גרו סבא וסבתא.",
+      "בית הכנסת הרמב\"ן נפתח שוב לתפילה, וגם בתי הכנסת הספרדיים שוקמו.",
+      "והחורבה? היא נבנתה מחדש, כמו שהייתה, עם כיפתה הלבנה הגבוהה, ונחנכה בשנת תש\"ע. פעמיים נחרבה – ושוב עומדת.",
+      "את כ\"ח באייר קבעו כ\"יום ירושלים\". בבתי כנסת רבים אומרים בו הלל ומודים לשם על הנס.",
+      "חז\"ל אומרים על ירושלים: \"כל המתאבל על ירושלים – זוכה ורואה בשמחתה\". הדור שהתאבל על החורבה זכה לראות אותה בנויה.",
+      "והחורבה נעשתה סמל לדרך של עם ישראל כולו: לא להשלים עם חורבן, ולבנות שוב, בסבלנות, דור אחרי דור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ירושלים היום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: Jerusalem today on a sunny afternoon from a rooftop above the Western Wall plaza: crowds praying at the Wall, the modern city spreading over the hills beyond, children playing in a nearby courtyard, elderly people resting on a bench.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👵 👧 👦",
+     "say": [
+      "ירושלים של היום היא העיר הגדולה בישראל, וגרים בה קרוב למיליון תושבים. בה יושבת הכנסת, ובה מאות ישיבות, בתי כנסת ובתי מדרש – אולי יותר מבכל עיר אחרת בעולם.",
+      "לכותל המערבי באים מיליוני מבקרים בכל שנה. בחול המועד של פסח ושל סוכות, עשרות אלפים מתאספים בו לברכת כוהנים.",
+      "זכריה ניבא: \"עוד ישבו זקנים וזקנות ברחובות ירושלים... ורחובות העיר יימלאו ילדים וילדות משחקים ברחובותיה\".",
+      "רבי עקיבא צחק כשראה שועל על הר הבית, כי ידע שהנבואה הזאת תתקיים. אנחנו זוכים לראות חלק ממנה בעינינו.",
+      "זכריה מוסיף שם: \"כי יפלא בעיני שארית העם הזה בימים ההם – גם בעיני ייפלא?\" מה שנראה לאדם בלתי אפשרי, איננו בלתי אפשרי לפני השם.",
+      "ובכל זאת אנחנו אומרים בכל יום \"ובנה ירושלים\": העיר בנויה, אבל לבה – בית המקדש – עדיין מחכה."
+     ],
+     "pasuk": {
+      "text": "וּרְחֹבוֹת הָעִיר יִמָּלְאוּ יְלָדִים וִילָדוֹת מְשַׂחֲקִים בִּרְחֹבֹתֶיהָ",
+      "ref": "זכריה ח, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הסיפור נמשך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. A religious Israeli family of today: a father with a beard and knitted kippah, a mother in a long skirt and head covering, a boy of nine and a girl of seven. Scene: A father with a kippah and his young son standing at the Western Wall at sunset, the boy's small hand on the huge stone beside his father's hand, soft golden light falling from above.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨 👦",
+     "say": [
+      "עברנו יחד על סיפור של כמעט ארבעת אלפים שנה: הר של אמונה, עיר של מלכות, בית של שכינה – ואחר כך חורבן, גלות, ותפילה שלא פסקה.",
+      "ראינו את הרמב\"ן בונה בית כנסת מתוך חורבה, את היישוב הישן ששמר על העיר, את השכונות שיצאו מן החומות, את מגיני העיר במצור ואת הצנחנים בכותל.",
+      "בכל שלב היו אנשים שבחרו לא לוותר: להתפלל, לעלות, לבנות.",
+      "ועכשיו התור שלנו. בכל ברכת מזון ובכל תפילה, אנחנו ממשיכים את השרשרת: \"ובנה ירושלים עיר הקודש במהרה בימינו\".",
+      "חז\"ל אומרים שירושלים עתידה להתרחב ולהתעלות, ושהקדוש ברוך הוא אמר: \"לא אבוא בירושלים של מעלה, עד שאבוא בירושלים של מטה\". הבניין שלמטה הוא שער לבניין שלמעלה.",
+      "ולכן כל מעשה טוב בירושלים, וכל אהבת חינם בין יהודים, הוא עוד אבן בבניין. והתפילה נשארת: \"ותחזינה עינינו בשובך לציון ברחמים\"."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר המפקד מוטה גור בקשר?",
+   "answer": "\"הר הבית בידינו!\"",
+   "options": [
+    "\"הר הבית בידינו!\"",
+    "\"המלחמה נגמרה!\"",
+    "\"חזרנו הביתה!\""
+   ],
+   "explain_he": "כשהצנחנים עלו להר הבית, אמר מוטה גור: \"הר הבית בידינו!\" – וכל העם התרגש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר המפקד מוטה גור בקשר?",
+   "answer": "\"הר הבית בידינו!\"",
+   "options": [
+    "\"הר הבית בידינו!\"",
+    "\"המלחמה נגמרה!\"",
+    "\"חזרנו הביתה!\""
+   ],
+   "explain_he": "כשהצנחנים עלו להר הבית, אמר מוטה גור: \"הר הבית בידינו!\" – וכל העם התרגש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר המפקד מוטה גור בקשר?",
+   "answer": "\"הר הבית בידינו!\"",
+   "options": [
+    "\"הר הבית בידינו!\"",
+    "\"המלחמה נגמרה!\"",
+    "\"חזרנו הביתה!\""
+   ],
+   "explain_he": "כשהצנחנים עלו להר הבית, אמר מוטה גור: \"הר הבית בידינו!\" – וכל העם התרגש.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "דרך איזה שער נכנסו הצנחנים לעיר העתיקה?",
+   "answer": "שער האריות",
+   "options": [
+    "שער האריות",
+    "שער יפו",
+    "שער הגיא"
+   ],
+   "explain_he": "הצנחנים נכנסו לעיר העתיקה דרך שער האריות, ועלו להר הבית.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "דרך איזה שער נכנסו הצנחנים לעיר העתיקה?",
+   "answer": "שער האריות",
+   "options": [
+    "שער האריות",
+    "שער יפו",
+    "שער הגיא"
+   ],
+   "explain_he": "הצנחנים נכנסו לעיר העתיקה דרך שער האריות, ועלו להר הבית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "דרך איזה שער נכנסו הצנחנים לעיר העתיקה?",
+   "answer": "שער האריות",
+   "options": [
+    "שער האריות",
+    "שער יפו",
+    "שער הגיא"
+   ],
+   "explain_he": "הצנחנים נכנסו לעיר העתיקה דרך שער האריות, ועלו להר הבית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרב שלמה גורן ליד הכותל?",
+   "answer": "תקע בשופר",
+   "options": [
+    "תקע בשופר",
+    "הדליק נרות חנוכה",
+    "קרא את מגילת אסתר"
+   ],
+   "explain_he": "הרב גורן תקע בשופר ליד הכותל ואמר תפילה, וקול השופר נשמע בכל הארץ.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרב שלמה גורן ליד הכותל?",
+   "answer": "תקע בשופר",
+   "options": [
+    "תקע בשופר",
+    "הדליק נרות חנוכה",
+    "קרא את מגילת אסתר"
+   ],
+   "explain_he": "הרב גורן תקע בשופר ליד הכותל ואמר תפילה, וקול השופר נשמע בכל הארץ.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרב שלמה גורן ליד הכותל?",
+   "answer": "תקע בשופר",
+   "options": [
+    "תקע בשופר",
+    "הדליק נרות חנוכה",
+    "קרא את מגילת אסתר"
+   ],
+   "explain_he": "הרב גורן תקע בשופר ליד הכותל ואמר תפילה, וקול השופר נשמע בכל הארץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו יהודים בכל הארץ לפני המלחמה, כשפחדו?",
+   "answer": "התפללו ואמרו תהילים",
+   "options": [
+    "התפללו ואמרו תהילים",
+    "ברחו מהארץ",
+    "הלכו לים"
+   ],
+   "explain_he": "בבתי הכנסת, בבתים ובבתי הספר – כולם התפללו ואמרו תהילים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אנשים באו לכותל בחג השבועות אחרי השחרור?",
+   "answer": "בערך מאתיים אלף",
+   "options": [
+    "בערך מאתיים אלף",
+    "בערך מאה",
+    "רק החיילים"
+   ],
+   "explain_he": "בחג השבועות, שבוע אחרי השחרור, באו בערך מאתיים אלף איש לכותל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ניבא זכריה על רחובות ירושלים?",
+   "answer": "שיהיו בהם זקנים וזקנות, וילדים וילדות ישחקו בהם",
+   "options": [
+    "שיהיו בהם זקנים וזקנות, וילדים וילדות ישחקו בהם",
+    "שיהיו ריקים לתמיד",
+    "שיהיו בהם רק סוחרים"
+   ],
+   "explain_he": "זכריה ניבא: \"עוד ישבו זקנים וזקנות ברחובות ירושלים... ורחובות העיר יימלאו ילדים וילדות משחקים\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f7e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ניבא זכריה על רחובות ירושלים?",
+   "answer": "שיהיו בהם זקנים וזקנות, וילדים וילדות ישחקו בהם",
+   "options": [
+    "שיהיו בהם זקנים וזקנות, וילדים וילדות ישחקו בהם",
+    "שיהיו ריקים לתמיד",
+    "שיהיו בהם רק סוחרים"
+   ],
+   "explain_he": "זכריה ניבא: \"עוד ישבו זקנים וזקנות ברחובות ירושלים... ורחובות העיר יימלאו ילדים וילדות משחקים\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f7e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ניבא זכריה על רחובות ירושלים?",
+   "answer": "שיהיו בהם זקנים וזקנות, וילדים וילדות ישחקו בהם",
+   "options": [
+    "שיהיו בהם זקנים וזקנות, וילדים וילדות ישחקו בהם",
+    "שיהיו ריקים לתמיד",
+    "שיהיו בהם רק סוחרים"
+   ],
+   "explain_he": "זכריה ניבא: \"עוד ישבו זקנים וזקנות ברחובות ירושלים... ורחובות העיר יימלאו ילדים וילדות משחקים\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקשה ישראל ממלך ירדן בתחילת המלחמה?",
+   "answer": "לא להצטרף למלחמה, ואז ישראל לא תתקוף אותו",
+   "options": [
+    "לא להצטרף למלחמה, ואז ישראל לא תתקוף אותו",
+    "לתת לה את העיר העתיקה",
+    "לשלוח לה אוכל"
+   ],
+   "explain_he": "ישראל הודיעה לירדן שאם לא תצטרף – לא תותקף. אבל ירדן פתחה באש על ירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f7e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקשה ישראל ממלך ירדן בתחילת המלחמה?",
+   "answer": "לא להצטרף למלחמה, ואז ישראל לא תתקוף אותו",
+   "options": [
+    "לא להצטרף למלחמה, ואז ישראל לא תתקוף אותו",
+    "לתת לה את העיר העתיקה",
+    "לשלוח לה אוכל"
+   ],
+   "explain_he": "ישראל הודיעה לירדן שאם לא תצטרף – לא תותקף. אבל ירדן פתחה באש על ירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי חוגגים את יום ירושלים?",
+   "answer": "בכ\"ח באייר",
+   "options": [
+    "בכ\"ח באייר",
+    "בתשעה באב",
+    "בה' באייר"
+   ],
+   "explain_he": "בכ\"ח באייר תשכ\"ז שוחררה העיר העתיקה, ולכן חוגגים בו את יום ירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f7e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי חוגגים את יום ירושלים?",
+   "answer": "בכ\"ח באייר",
+   "options": [
+    "בכ\"ח באייר",
+    "בתשעה באב",
+    "בה' באייר"
+   ],
+   "explain_he": "בכ\"ח באייר תשכ\"ז שוחררה העיר העתיקה, ולכן חוגגים בו את יום ירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לבית הכנסת החורבה בימינו?",
+   "answer": "הוא נבנה מחדש, ושוב עומד ברובע היהודי",
+   "options": [
+    "הוא נבנה מחדש, ושוב עומד ברובע היהודי",
+    "הוא עדיין חורבה",
+    "הפכו אותו למוזיאון של מכוניות"
+   ],
+   "explain_he": "החורבה נחרבה פעמיים, ונבנתה מחדש בימינו, עם כיפתה הלבנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f7e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לבית הכנסת החורבה בימינו?",
+   "answer": "הוא נבנה מחדש, ושוב עומד ברובע היהודי",
+   "options": [
+    "הוא נבנה מחדש, ושוב עומד ברובע היהודי",
+    "הוא עדיין חורבה",
+    "הפכו אותו למוזיאון של מכוניות"
+   ],
+   "explain_he": "החורבה נחרבה פעמיים, ונבנתה מחדש בימינו, עם כיפתה הלבנה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e23"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים חז\"ל: \"לא אבוא בירושלים של מעלה...\"?",
+   "answer": "\"...עד שאבוא בירושלים של מטה\"",
+   "options": [
+    "\"...עד שאבוא בירושלים של מטה\"",
+    "\"...עד שיבואו כל העמים\"",
+    "\"...עד סוף כל הדורות\""
+   ],
+   "explain_he": "הבניין של ירושלים שלמטה הוא שער לבניין של ירושלים של מעלה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e24"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה, לפי הסרט, ממשיכים לומר \"ובנה ירושלים\" גם היום?",
+   "answer": "כי העיר בנויה, אבל לבה – בית המקדש – עדיין מחכה",
+   "options": [
+    "כי העיר בנויה, אבל לבה – בית המקדש – עדיין מחכה",
+    "כי שוכחים לשנות את הנוסח",
+    "כי העיר עדיין חרבה כולה"
+   ],
+   "explain_he": "ירושלים בנויה ומלאה, אבל בית המקדש עוד לא נבנה, ולכן ממשיכים להתפלל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e25"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נסגר \"מעגל\" כשהרב גורן תקע בשופר ליד הכותל?",
+   "answer": "שופר של איל, כמו האיל של העקדה, ליד הר המוריה",
+   "options": [
+    "שופר של איל, כמו האיל של העקדה, ליד הר המוריה",
+    "כי זה היה ביום כיפור",
+    "כי השופר היה של דוד המלך"
+   ],
+   "explain_he": "השופר מזכיר את האיל של העקדה, והוא נתקע ליד ההר שבו הכול התחיל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f7e26"
+  }
+ ]
+}

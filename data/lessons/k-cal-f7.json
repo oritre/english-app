@@ -1,0 +1,543 @@
+{
+ "id": "k-cal-f7",
+ "unit_id": "k-cal-u3",
+ "course": "calendar",
+ "title_he": "תאריך עברי ושנה עברית",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "תאריך עברי ושנה עברית",
+   "ref_he": "לוח השנה העברי",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מה כתוב פה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. Scene: The children look at a handwritten letter on the table with a puzzled smile; the father sits beside them, pointing to the top corner of the page; no readable writing shown.",
+     "move": "in",
+     "fx": null,
+     "art": "👨👦👧",
+     "say": [
+      "על מכתב, או על הזמנה לשמחה, כתוב לפעמים למעלה: ״ט״ו בשבט, תשפ״ז״.",
+      "מה פירוש האותיות האלה? זו לא מילה. זה תאריך! תאריך שכתוב באותיות.",
+      "בשיעור הזה נלמד לקרוא תאריך עברי, כמו גדולים. וגם נחבר את כל מה שלמדנו על הלוח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אותיות ומספרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Colorful wooden blocks on a carpet arranged in neat rows of one, ten and a hundred small beads beside each block, the boy counting the beads; no letters visible.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👦",
+     "say": [
+      "בעברית, כל אות היא גם מספר! א׳ היא אחת, ב׳ שתיים, ג׳ שלוש, ד׳ ארבע, וכך עד ט׳, שהיא תשע.",
+      "ואז קופצים בעשרות: י׳ היא עשר, כ׳ עשרים, ל׳ שלושים, מ׳ ארבעים, וכך הלאה, עד צ׳, תשעים.",
+      "כך, עם האותיות של האלף בית, אפשר לכתוב כל מספר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "לחבר אותיות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A cozy winter evening: a menorah with the first candle lit stands in a window, and the girl counts on her fingers with a proud smile.",
+     "move": "in",
+     "fx": "night",
+     "art": "👧🕎",
+     "say": [
+      "כדי לכתוב מספר גדול, מחברים אותיות. שתים עשרה, זה י׳ ועוד ב׳: י״ב.",
+      "וכ״ה? זה כ׳, עשרים, ועוד ה׳, חמש: עשרים וחמש.",
+      "כך כתוב ״כ״ה בכסלו״: היום העשרים וחמישה בחודש כסלו, היום הראשון של חנוכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ט״ו ולא י״ה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A Tu BiShvat table with dried fruits, almonds and dates, and in the background almond trees blooming in the garden, the children sitting respectfully around the table.",
+     "move": "left",
+     "fx": "light",
+     "art": "👦👧🌸",
+     "say": [
+      "ומה עם חמש עשרה? לפי החשבון, זה י׳ ועוד ה׳.",
+      "אבל שתי האותיות האלה יחד הן חלק משם השם. ולכן, מתוך כבוד, לא כותבים כך!",
+      "כותבים ט׳ ועוד ו׳: תשע ועוד שש, ט״ו. גם זה חמש עשרה.",
+      "עכשיו אתם יודעים למה אומרים ״ט״ו בשבט״, ו״ט״ו בניסן״, ליל הסדר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גם שש עשרה לא כותבים י״ו, אלא ט״ז, מאותה סיבה."
+     }
+    },
+    {
+     "id": "s9",
+     "title_he": "מספרים שמספרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Lag BaOmer evening: a family by a small bonfire; beside them a charity box on a table with coins stacked in neat little piles.",
+     "move": "up",
+     "fx": "night",
+     "art": "🔥👦👧",
+     "say": [
+      "לפעמים, המספרים של האותיות מספרים לנו משהו. זוכרים את ״ל״ג בעומר״? ל׳ היא שלושים, וג׳ היא שלוש: שלושים ושלוש! היום השלושים ושלושה לעומר.",
+      "ומה עם המילה ״חי״? ח׳ שמונה, וי׳ עשר. ביחד: שמונה עשרה.",
+      "לכן יש שנותנים צדקה בסכום של שמונה עשרה, או פי שניים, שלושים ושש. כאילו אומרים: לחיים!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "השנה שלנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Night sky full of stars over the hills of Israel, a soft glow on the horizon at dawn, suggesting the long chain of generations since Creation.",
+     "move": "up",
+     "fx": "stars",
+     "art": "✨",
+     "say": [
+      "ועכשיו, השנה. אנחנו סופרים שנים מבריאת העולם. השנה היא שנת חמשת אלפים, שבע מאות שמונים ושבע.",
+      "איך כותבים את זה? ת׳ זה ארבע מאות, ש׳ שלוש מאות. ביחד, שבע מאות. פ׳ זה שמונים, וז׳ שבע.",
+      "ביחד: תשפ״ז! שבע מאות שמונים ושבע."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "התאריך שלי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A family celebration: a boy at his bar mitzva wearing new tefillin, standing proudly next to his father in a synagogue, his younger siblings watching.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👦",
+     "say": [
+      "התאריך העברי שייך לנו. בר מצווה חוגגים לפי התאריך העברי. וגם יום הולדת עברי.",
+      "ולפעמים, התאריך העברי והתאריך הלועזי של יום ההולדת לא נופלים באותו יום. זוכרים למה? כי הלוח שלנו הולך גם לפי הירח.",
+      "נסו לשאול את אבא ואמא: באיזה תאריך עברי נולדתם?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "נחבר הכול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A beautiful painted circle like a clock: an evening sky with stars at the top, seven small arcs for the days, a ring of moon phases and around it the four seasons.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "🌙☀️",
+     "say": [
+      "בואו נחבר הכול: היום מתחיל בערב. שבעה ימים הם שבוע, שמסתיים בשבת.",
+      "הירח נותן לנו חודש, וראש חודש. ושנים עשר חודשים, או שלושה עשר בשנה מעוברת, הם שנה.",
+      "ובשנה יש גלגל של חגים, וספירה של ארבעים ותשעה ימים, מפסח לשבועות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "שעון בשמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The family stands together on a hill at dusk looking at the new crescent moon and the first stars over Jerusalem, a warm feeling of togetherness.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨👦👧🌙",
+     "say": [
+      "ביום הרביעי לבריאה, השם ברא את השמש והירח, ואמר: ״והיו לאותות, ולמועדים, ולימים ושנים״.",
+      "הלוח העברי הוא כמו שעון גדול, שהשם תלה לנו בשמים.",
+      "וכבר אלפי שנים, יהודים בכל מקום בעולם חוגגים את אותו חג, באותו תאריך. איזה פלא!"
+     ],
+     "pasuk": {
+      "text": "וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִים",
+      "ref": "בראשית א, יד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-cal-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "תאריך עברי ושנה עברית",
+   "ref_he": "לוח השנה העברי",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מה כתוב פה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. Scene: The children look at a handwritten letter on the table with a puzzled smile; the father sits beside them, pointing to the top corner of the page; no readable writing shown.",
+     "move": "in",
+     "fx": null,
+     "art": "👨👦👧",
+     "say": [
+      "על מכתב, או על הזמנה לשמחה, כתוב לפעמים למעלה: ״ט״ו בשבט, תשפ״ז״.",
+      "מה פירוש האותיות האלה? זו לא מילה. זה תאריך! תאריך שכתוב באותיות.",
+      "בשיעור הזה נלמד לקרוא תאריך עברי, כמו גדולים. וגם נחבר את כל מה שלמדנו על הלוח.",
+      "תאריך עברי כותבים במקומות חשובים: בהזמנות לשמחות, בספרים, במכתבים של רבנים, ועל המצבות של סבא וסבתא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אותיות ומספרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Colorful wooden blocks on a carpet arranged in neat rows of one, ten and a hundred small beads beside each block, the boy counting the beads; no letters visible.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👦",
+     "say": [
+      "בעברית, כל אות היא גם מספר! א׳ היא אחת, ב׳ שתיים, ג׳ שלוש, ד׳ ארבע, וכך עד ט׳, שהיא תשע.",
+      "ואז קופצים בעשרות: י׳ היא עשר, כ׳ עשרים, ל׳ שלושים, מ׳ ארבעים, וכך הלאה, עד צ׳, תשעים.",
+      "כך, עם האותיות של האלף בית, אפשר לכתוב כל מספר.",
+      "ואחרי העשרות, באות המאות: ק׳ היא מאה, ר׳ מאתיים, ש׳ שלוש מאות, ות׳ ארבע מאות.",
+      "החשבון של אותיות כמספרים נקרא ״גימטריה״. בעזרתו ממספרים גם פרקים בתנ״ך ודפים בגמרא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "לחבר אותיות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A cozy winter evening: a menorah with the first candle lit stands in a window, and the girl counts on her fingers with a proud smile.",
+     "move": "in",
+     "fx": "night",
+     "art": "👧🕎",
+     "say": [
+      "כדי לכתוב מספר גדול, מחברים אותיות. שתים עשרה, זה י׳ ועוד ב׳: י״ב.",
+      "וכ״ה? זה כ׳, עשרים, ועוד ה׳, חמש: עשרים וחמש.",
+      "כך כתוב ״כ״ה בכסלו״: היום העשרים וחמישה בחודש כסלו, היום הראשון של חנוכה.",
+      "וכדי שנדע שזה מספר ולא מילה, מוסיפים סימן: גרש אחרי אות אחת, כמו ה׳, או גרשיים לפני האות האחרונה, כמו כ״ה.",
+      "כותבים תמיד מהגדול לקטן: קודם העשרות, ואחר כך האחדות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ט״ו ולא י״ה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A Tu BiShvat table with dried fruits, almonds and dates, and in the background almond trees blooming in the garden, the children sitting respectfully around the table.",
+     "move": "left",
+     "fx": "light",
+     "art": "👦👧🌸",
+     "say": [
+      "ומה עם חמש עשרה? לפי החשבון, זה י׳ ועוד ה׳.",
+      "אבל שתי האותיות האלה יחד הן חלק משם השם. ולכן, מתוך כבוד, לא כותבים כך!",
+      "כותבים ט׳ ועוד ו׳: תשע ועוד שש, ט״ו. גם זה חמש עשרה.",
+      "עכשיו אתם יודעים למה אומרים ״ט״ו בשבט״, ו״ט״ו בניסן״, ליל הסדר.",
+      "וכך גם בספר תהלים: פרק חמש עשרה מסומן ט״ו, ופרק שש עשרה ט״ז.",
+      "זו דוגמה לכבוד שאנחנו נותנים לשם השם: גם בדבר קטן כמו מספר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גם שש עשרה לא כותבים י״ו, אלא ט״ז, מאותה סיבה."
+     }
+    },
+    {
+     "id": "s9",
+     "title_he": "מספרים שמספרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Lag BaOmer evening: a family by a small bonfire; beside them a charity box on a table with coins stacked in neat little piles.",
+     "move": "up",
+     "fx": "night",
+     "art": "🔥👦👧",
+     "say": [
+      "לפעמים, המספרים של האותיות מספרים לנו משהו. זוכרים את ״ל״ג בעומר״? ל׳ היא שלושים, וג׳ היא שלוש: שלושים ושלוש! היום השלושים ושלושה לעומר.",
+      "ומה עם המילה ״חי״? ח׳ שמונה, וי׳ עשר. ביחד: שמונה עשרה.",
+      "לכן יש שנותנים צדקה בסכום של שמונה עשרה, או פי שניים, שלושים ושש. כאילו אומרים: לחיים!",
+      "גם התפילה העיקרית שלנו נקראת ״שמונה עשרה״, כי היו בה בהתחלה שמונה עשרה ברכות. מאוחר יותר, חכמים הוסיפו בה ברכה נוספת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "השנה שלנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Night sky full of stars over the hills of Israel, a soft glow on the horizon at dawn, suggesting the long chain of generations since Creation.",
+     "move": "up",
+     "fx": "stars",
+     "art": "✨",
+     "say": [
+      "ועכשיו, השנה. אנחנו סופרים שנים מבריאת העולם. השנה היא שנת חמשת אלפים, שבע מאות שמונים ושבע.",
+      "איך כותבים את זה? ת׳ זה ארבע מאות, ש׳ שלוש מאות. ביחד, שבע מאות. פ׳ זה שמונים, וז׳ שבע.",
+      "ביחד: תשפ״ז! שבע מאות שמונים ושבע.",
+      "ומה עם חמשת האלפים? בדרך כלל מדלגים עליהם. ומי שרוצה, מוסיף ה׳ בהתחלה: ה׳תשפ״ז. ה׳ כאן היא חמשת אלפים.",
+      "ובשנה הבאה? מוסיפים אחת: ז׳ נעשית ח׳, והשנה תהיה תשפ״ח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "התאריך שלי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A family celebration: a boy at his bar mitzva wearing new tefillin, standing proudly next to his father in a synagogue, his younger siblings watching.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👦",
+     "say": [
+      "התאריך העברי שייך לנו. בר מצווה חוגגים לפי התאריך העברי. וגם יום הולדת עברי.",
+      "ולפעמים, התאריך העברי והתאריך הלועזי של יום ההולדת לא נופלים באותו יום. זוכרים למה? כי הלוח שלנו הולך גם לפי הירח.",
+      "נסו לשאול את אבא ואמא: באיזה תאריך עברי נולדתם?",
+      "ובראש הדף, הרבה יהודים כותבים: ״בס״ד״, בסייעתא דשמיא, כלומר: בעזרת השם.",
+      "כך כבר בשורה הראשונה, אנחנו זוכרים מי עוזר לנו בכל דבר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "נחבר הכול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A beautiful painted circle like a clock: an evening sky with stars at the top, seven small arcs for the days, a ring of moon phases and around it the four seasons.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "🌙☀️",
+     "say": [
+      "בואו נחבר הכול: היום מתחיל בערב. שבעה ימים הם שבוע, שמסתיים בשבת.",
+      "הירח נותן לנו חודש, וראש חודש. ושנים עשר חודשים, או שלושה עשר בשנה מעוברת, הם שנה.",
+      "ובשנה יש גלגל של חגים, וספירה של ארבעים ותשעה ימים, מפסח לשבועות.",
+      "ואת הכול אנחנו כותבים באותיות: יום, חודש ושנה. למשל: כ״ה בכסלו, תשפ״ז.",
+      "עכשיו, כשתראו תאריך עברי, תוכלו לקרוא אותו לבד, ואפילו להסביר לאחים הקטנים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "שעון בשמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The family stands together on a hill at dusk looking at the new crescent moon and the first stars over Jerusalem, a warm feeling of togetherness.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨👦👧🌙",
+     "say": [
+      "ביום הרביעי לבריאה, השם ברא את השמש והירח, ואמר: ״והיו לאותות, ולמועדים, ולימים ושנים״.",
+      "הלוח העברי הוא כמו שעון גדול, שהשם תלה לנו בשמים.",
+      "וכבר אלפי שנים, יהודים בכל מקום בעולם חוגגים את אותו חג, באותו תאריך. איזה פלא!",
+      "בכל פעם שאתם כותבים תאריך עברי, אתם מצטרפים לשרשרת ארוכה של דורות, מבריאת העולם ועד היום."
+     ],
+     "pasuk": {
+      "text": "וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִים",
+      "ref": "בראשית א, יד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-cal-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שווה האות י׳?",
+   "answer": "עשר",
+   "options": [
+    "עשר",
+    "אחת",
+    "מאה"
+   ],
+   "explain_he": "י׳ היא עשר, כ׳ עשרים, ל׳ שלושים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שווה האות י׳?",
+   "answer": "עשר",
+   "options": [
+    "עשר",
+    "אחת",
+    "מאה"
+   ],
+   "explain_he": "י׳ היא עשר, כ׳ עשרים, ל׳ שלושים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש ״כ״ה בכסלו״?",
+   "answer": "היום העשרים וחמישה בחודש כסלו",
+   "options": [
+    "היום העשרים וחמישה בחודש כסלו",
+    "היום החמישי בכסלו",
+    "היום החמישים בכסלו"
+   ],
+   "explain_he": "כ׳ היא עשרים, ה׳ חמש: עשרים וחמש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש ״כ״ה בכסלו״?",
+   "answer": "היום העשרים וחמישה בחודש כסלו",
+   "options": [
+    "היום העשרים וחמישה בחודש כסלו",
+    "היום החמישי בכסלו",
+    "היום החמישים בכסלו"
+   ],
+   "explain_he": "כ׳ היא עשרים, ה׳ חמש: עשרים וחמש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך כותבים חמש עשרה בתאריך עברי?",
+   "answer": "ט״ו",
+   "options": [
+    "ט״ו",
+    "י״ה",
+    "ה״י"
+   ],
+   "explain_he": "ט׳ ועוד ו׳ הם חמש עשרה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך כותבים חמש עשרה בתאריך עברי?",
+   "answer": "ט״ו",
+   "options": [
+    "ט״ו",
+    "י״ה",
+    "ה״י"
+   ],
+   "explain_he": "ט׳ ועוד ו׳ הם חמש עשרה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא כותבים חמש עשרה ״י״ה״?",
+   "answer": "כי אלו אותיות משם השם",
+   "options": [
+    "כי אלו אותיות משם השם",
+    "כי זה ארוך מדי",
+    "כי זה מספר אחר"
+   ],
+   "explain_he": "לכן כותבים ט״ו, וגם ט״ז במקום י״ו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא כותבים חמש עשרה ״י״ה״?",
+   "answer": "כי אלו אותיות משם השם",
+   "options": [
+    "כי אלו אותיות משם השם",
+    "כי זה ארוך מדי",
+    "כי זה מספר אחר"
+   ],
+   "explain_he": "לכן כותבים ט״ו, וגם ט״ז במקום י״ו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה סופרים את השנים העבריות?",
+   "answer": "מבריאת העולם",
+   "options": [
+    "מבריאת העולם",
+    "מיציאת מצרים",
+    "מבניין בית המקדש"
+   ],
+   "explain_he": "השנה היא 5787 לבריאת העולם: תשפ״ז.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה סופרים את השנים העבריות?",
+   "answer": "מבריאת העולם",
+   "options": [
+    "מבריאת העולם",
+    "מיציאת מצרים",
+    "מבניין בית המקדש"
+   ],
+   "explain_he": "השנה היא 5787 לבריאת העולם: תשפ״ז.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שווה האות ת׳?",
+   "answer": "ארבע מאות",
+   "options": [
+    "ארבע מאות",
+    "מאתיים",
+    "תשעים"
+   ],
+   "explain_he": "ק׳ 100, ר׳ 200, ש׳ 300, ת׳ 400.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש ה׳ שכותבים לפעמים לפני תשפ״ז?",
+   "answer": "חמשת אלפים",
+   "options": [
+    "חמשת אלפים",
+    "חמש",
+    "חמש מאות"
+   ],
+   "explain_he": "ה׳תשפ״ז היא 5787.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך תיכתב השנה שאחרי תשפ״ז?",
+   "answer": "תשפ״ח",
+   "options": [
+    "תשפ״ח",
+    "תשפ״ו",
+    "תשצ״ז"
+   ],
+   "explain_he": "מוסיפים אחת: ז׳ (7) נעשית ח׳ (8).",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f7e15"
+  }
+ ]
+}

@@ -1,0 +1,536 @@
+{
+ "id": "k-mik-f4",
+ "unit_id": "k-mik-u2",
+ "course": "mikdash",
+ "title_he": "הכהנים והלוויים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "הכהנים והלוויים",
+   "ref_he": "בית המקדש",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בוקר במקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: The Temple courtyard before dawn, the sky deep blue with the first pink light, kohanim in white linen climbing the ramp of the great altar, the fire glowing softly.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨",
+     "say": [
+      "עוד לפני שהשמש זורחת, בית המקדש כבר ער.",
+      "הכהנים קמו מוקדם מאוד, טבלו במים, ולבשו בגדים לבנים.",
+      "הם עולים אל המזבח, מסדרים את העצים ומוסיפים אש.",
+      "מי הם האנשים האלה? בואו נכיר אותם.",
+      "וכדי שלא יריבו מי יעבוד, הם הפילו גורל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מי הם?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A gathering in the desert camp: Aharon, an elderly bearded man in white robes, with his sons beside him, and behind them many men of the tribe of Levi standing together loyally.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👨 👨",
+     "say": [
+      "הכהנים הם הצאצאים של אהרן הכהן, אחיו של משה.",
+      "והלוויים הם כל שבט לוי – השבט של משה ואהרן.",
+      "למה דווקא הם? כי כשעם ישראל עשו את עגל הזהב, שבט לוי לא השתתף.",
+      "הם נשארו נאמנים לשם, ולכן זכו לעבוד בבית המקדש.",
+      "ושבט לוי לא קיבל שדות בארץ. כל ימיהם הם עבדו את השם ולימדו תורה."
+     ],
+     "pasuk": {
+      "text": "מִי לַה' אֵלָי! וַיֵּאָסְפוּ אֵלָיו כָּל בְּנֵי לֵוִי",
+      "ref": "שמות לב, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בגדי הכהונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. The Kohen Gadol: a dignified bearded priest with a blue robe hemmed with tiny golden bells and pomegranates, an embroidered vest, a breastplate of twelve colored gems, a white turban with a plain golden band. Scene: Two figures side by side in the Temple courtyard: an ordinary kohen in simple white linen garments, and the Kohen Gadol in his colorful robes with the gem breastplate. Soft morning light.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨 👴",
+     "say": [
+      "לכהן רגיל היו ארבעה בגדים, כולם לבנים.",
+      "ולכהן הגדול היו שמונה בגדים, מפוארים וצבעוניים.",
+      "על הלב היה לו חושן, עם שתים עשרה אבנים יקרות – אבן לכל שבט.",
+      "כך, כשהכהן הגדול עבד, כל שבטי ישראל היו כאילו קרובים ללבו.",
+      "ובשולי המעיל של הכהן הגדול היו פעמונים קטנים מזהב, שצלצלו כשהלך."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הכהנים עבדו במקדש יחפים, בלי נעליים, כי הרצפה הייתה קדושה."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "העבודה במקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: Busy morning in the Temple courtyard: kohanim in white carrying wood to the altar, others washing at the large bronze basin, one carrying a golden pan of incense, pilgrims watching respectfully from the side.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👨 🪨",
+     "say": [
+      "ומה עשו הכהנים כל היום? הרבה דברים!",
+      "הם הקריבו קורבנות על המזבח, הדליקו את המנורה, והקטירו קטורת.",
+      "וכל הכהנים מכל הארץ לא עבדו יחד. כל קבוצה באה בתורה, שבוע אחד.",
+      "כך כל כהן זכה לעבוד במקדש, וכל העבודה נעשתה בסדר ובשמחה.",
+      "את החלוקה הזאת עשו דוד המלך ושמואל הנביא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שירת הלוויים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Leviim: men in light linen tunics with harps, lyres, cymbals and silver trumpets. Scene: Leviim standing on wide stone steps in the Temple courtyard, singing with joyful faces while playing harps, lyres, cymbals and silver trumpets, morning sun on their white tunics.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "ותקשיבו! מה הקולות היפים האלה? אלה הלוויים, שרים ומנגנים.",
+      "הם עמדו על מדרגות, וניגנו בכינורות, בנבלים ובחצוצרות.",
+      "בכל יום שרו מזמור אחר מספר תהילים – שיר של יום.",
+      "וגם אנחנו, בסוף התפילה בבוקר, אומרים את אותו שיר. כך המקדש ממשיך אצלנו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את \"שיר של יום\" שאנחנו אומרים בסוף תפילת שחרית – שרו הלוויים בבית המקדש."
+     }
+    },
+    {
+     "id": "s5b",
+     "title_he": "לשכת הגזית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A dignified hall of smooth hewn stone beside the Temple courtyard, elderly bearded sages in robes seated in a wide half circle, a younger man standing respectfully before them asking a question.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👴 👨",
+     "say": [
+      "בבית המקדש לא רק הקריבו קורבנות. שם גם לימדו תורה!",
+      "בחדר מיוחד, עשוי אבנים חלקות, ישבו שבעים ואחד חכמים – הסנהדרין.",
+      "אליהם באו עם שאלות קשות בתורה, ומהם יצאה התשובה לכל ישראל.",
+      "והכהנים והלוויים לימדו את העם תורה בכל מקום בארץ."
+     ],
+     "pasuk": {
+      "text": "יוֹרוּ מִשְׁפָּטֶיךָ לְיַעֲקֹב וְתוֹרָתְךָ לְיִשְׂרָאֵל",
+      "ref": "דברים לג, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ברכת כוהנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: Kohanim in white standing on the Temple steps with raised hands blessing a large crowd of men, women and children who bow their heads quietly, golden sunlight from behind.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "בכל בוקר, הכהנים עמדו על המדרגות, הרימו ידיים, ובירכו את כל העם.",
+      "\"יברכך השם וישמרך\" – הם אמרו, וכולם הקשיבו בשקט.",
+      "והנה משהו מיוחד: עד היום, גם בבית הכנסת שלנו, הכהנים מברכים אותנו באותה ברכה!",
+      "אולי גם בכיתה שלכם יש ילד שהוא כהן או לוי."
+     ],
+     "pasuk": {
+      "text": "יְבָרֶכְךָ ה' וְיִשְׁמְרֶךָ",
+      "ref": "במדבר ו, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "יום הכיפורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. The Kohen Gadol: a dignified bearded priest with a blue robe hemmed with tiny golden bells and pomegranates, an embroidered vest, a breastplate of twelve colored gems, a white turban with a plain golden band. Scene: Late afternoon of Yom Kippur in the Temple courtyard: the Kohen Gadol in pure white garments walking out of the sanctuary doors with a peaceful face, a huge crowd in white cheering with joy, golden sunset light.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👨 👩",
+     "say": [
+      "וביום אחד בשנה, ביום הכיפורים, הכהן הגדול עשה עבודה מיוחדת.",
+      "הוא לבש בגדים לבנים, ונכנס לבדו אל קודש הקודשים, כדי לבקש סליחה על כל עם ישראל.",
+      "וכל העם חיכו בחוץ, והתפללו.",
+      "וכשהכהן הגדול יצא בשלום – כולם שמחו מאוד! ככה נגמר יום כיפור – בשמחה גדולה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-mik-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "הכהנים והלוויים",
+   "ref_he": "בית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בוקר במקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: The Temple courtyard before dawn, the sky deep blue with the first pink light, kohanim in white linen climbing the ramp of the great altar, the fire glowing softly.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨",
+     "say": [
+      "עוד לפני עלות השחר, במקדש כבר יש תנועה. הכהנים טבלו במקווה ולבשו את בגדי הכהונה.",
+      "העבודה הראשונה של היום הייתה \"תרומת הדשן\": הכהן הרים מעט מהאפר של המזבח, כדי להתחיל יום חדש של עבודה.",
+      "ואיך ידעו מי יעשה כל עבודה? הכהנים עמדו במעגל, והפילו גורל. כך אף אחד לא נדחק לפני חברו.",
+      "מי הם הכהנים, ומי הם הלוויים? בואו נכיר.",
+      "למה צריך גורל? הגמרא מספרת שפעם רצו כהנים במרוצה על הכבש, כל אחד רצה להגיע ראשון, ואחד נפגע. מאז קבעו את הפיס, כדי שבעבודת השם לא יהיה שום ריב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מי הם?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A gathering in the desert camp: Aharon, an elderly bearded man in white robes, with his sons beside him, and behind them many men of the tribe of Levi standing together loyally.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👨 👨",
+     "say": [
+      "הכהנים הם בני אהרן, אחי משה – אב אחרי אב, דור אחרי דור. והלוויים הם כל שאר בני שבט לוי.",
+      "למה נבחר שבט לוי? אחרי חטא העגל קרא משה: \"מי לה' אליי!\", ונאספו אליו כל בני לוי.",
+      "בזכות הנאמנות הזאת, השבט כולו נבחר לשרת את השם. הכהנים עובדים בעבודת הקורבנות, והלוויים שומרים, שרים ומנגנים.",
+      "ושבט לוי לא קיבל נחלה בארץ. \"ה' הוא נחלתו\" – כל השבטים נתנו להם מעשר, והם הקדישו את חייהם לעבודת השם ולתורה."
+     ],
+     "pasuk": {
+      "text": "מִי לַה' אֵלָי! וַיֵּאָסְפוּ אֵלָיו כָּל בְּנֵי לֵוִי",
+      "ref": "שמות לב, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בגדי הכהונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. The Kohen Gadol: a dignified bearded priest with a blue robe hemmed with tiny golden bells and pomegranates, an embroidered vest, a breastplate of twelve colored gems, a white turban with a plain golden band. Scene: Two figures side by side in the Temple courtyard: an ordinary kohen in simple white linen garments, and the Kohen Gadol in his colorful robes with the gem breastplate. Soft morning light.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨 👴",
+     "say": [
+      "לכהן הדיוט – כהן רגיל – היו ארבעה בגדים מפשתן לבן: כותונת, מכנסיים, אבנט ומגבעת.",
+      "לכהן הגדול היו שמונה בגדים: עוד ארבעה, מפוארים. מעיל תכלת, שבשוליו פעמונים ורימונים, ואפוד וחושן.",
+      "בחושן היו שתים עשרה אבנים יקרות, ועל כל אחת שם של שבט. כך נשא הכהן הגדול את כל ישראל על ליבו.",
+      "והפעמונים במעיל צלצלו כשהלך – שמע אותם כל מי שהיה בקודש.",
+      "חז\"ל אומרים שכל בגד מבגדי הכהונה כיפר על חטא אחר. המעיל עם הפעמונים כיפר על לשון הרע: יבוא דבר שיש בו קול, ויכפר על חטא של קול."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הכהנים עבדו במקדש יחפים, בלי נעליים, כי הרצפה הייתה קדושה."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "העבודה במקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: Busy morning in the Temple courtyard: kohanim in white carrying wood to the altar, others washing at the large bronze basin, one carrying a golden pan of incense, pilgrims watching respectfully from the side.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👨 🪨",
+     "say": [
+      "עבודת הכהנים מלאה את כל היום: קורבן התמיד בבוקר ובערב, הקטורת, הדלקת המנורה, וקורבנות שהביאו אנשים מכל הארץ.",
+      "דוד המלך ושמואל הנביא חילקו את הכהנים לעשרים וארבע משמרות. כל משמר עבד שבוע, ואז עלה משמר אחר.",
+      "וגם בני הארץ השתתפו: יהודים מכל אזור נשלחו לעמוד במקדש בזמן העבודה, בשם כל העם. הם נקראו \"מעמדות\".",
+      "כך כל ישראל היו שותפים בעבודה – גם מי שגר רחוק מירושלים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שירת הלוויים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Leviim: men in light linen tunics with harps, lyres, cymbals and silver trumpets. Scene: Leviim standing on wide stone steps in the Temple courtyard, singing with joyful faces while playing harps, lyres, cymbals and silver trumpets, morning sun on their white tunics.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "בזמן שהקריבו את הקורבן, עמדו הלוויים על הדוכן – מדרגות רחבות בחצר – ושרו בליווי כינורות, נבלים, מצלתיים וחצוצרות.",
+      "לכל יום בשבוע היה מזמור משלו מספר תהילים, \"שיר של יום\". רבים מהשירים כתב דוד המלך.",
+      "וגם בתפילת שחרית שלנו אנחנו אומרים: \"היום יום ראשון בשבת, שבו היו הלוויים אומרים בבית המקדש\".",
+      "והלוויים עשו עוד עבודה חשובה: הם שמרו על שערי המקדש בלילה, כדי שהמקום יהיה תמיד שמור ומכובד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את \"שיר של יום\" שאנחנו אומרים בסוף תפילת שחרית – שרו הלוויים בבית המקדש."
+     }
+    },
+    {
+     "id": "s5b",
+     "title_he": "לשכת הגזית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A dignified hall of smooth hewn stone beside the Temple courtyard, elderly bearded sages in robes seated in a wide half circle, a younger man standing respectfully before them asking a question.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👴 👨",
+     "say": [
+      "ליד העזרה ישב בית הדין הגדול – הסנהדרין, שבעים ואחד חכמים – בלשכת הגזית, אולם בנוי אבני גזית חלקות.",
+      "כל שאלה קשה בדיני התורה, שהחכמים בעיר לא ידעו לפסוק, עלתה לירושלים, ומשם יצאה הוראה לכל ישראל.",
+      "ועל שבט לוי אמר משה בברכתו: \"יורו משפטיך ליעקב ותורתך לישראל\". הכהנים והלוויים היו גם מורי העם.",
+      "כך היה המקדש לא רק מקום של עבודה, אלא גם לב התורה של כל העם."
+     ],
+     "pasuk": {
+      "text": "יוֹרוּ מִשְׁפָּטֶיךָ לְיַעֲקֹב וְתוֹרָתְךָ לְיִשְׂרָאֵל",
+      "ref": "דברים לג, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ברכת כוהנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: Kohanim in white standing on the Temple steps with raised hands blessing a large crowd of men, women and children who bow their heads quietly, golden sunlight from behind.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "בכל יום, אחרי קורבן התמיד, עמדו הכהנים על מעלות האולם ונשאו את כפיהם לברך את העם.",
+      "הברכה היא מהתורה: \"יברכך ה' וישמרך, יאר ה' פניו אליך ויחונך, ישא ה' פניו אליך וישם לך שלום\".",
+      "והברכה הזאת לא פסקה: עד היום הכהנים עולים לדוכן בבתי הכנסת ומברכים את הקהל באהבה.",
+      "וגם היום כהן עולה ראשון לתורה, ואחריו לוי. וכשמגיע פדיון הבן – נותנים את הכסף לכהן. כך זוכרים את כולם."
+     ],
+     "pasuk": {
+      "text": "יְבָרֶכְךָ ה' וְיִשְׁמְרֶךָ",
+      "ref": "במדבר ו, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "יום הכיפורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. The Kohen Gadol: a dignified bearded priest with a blue robe hemmed with tiny golden bells and pomegranates, an embroidered vest, a breastplate of twelve colored gems, a white turban with a plain golden band. Scene: Late afternoon of Yom Kippur in the Temple courtyard: the Kohen Gadol in pure white garments walking out of the sanctuary doors with a peaceful face, a huge crowd in white cheering with joy, golden sunset light.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👨 👩",
+     "say": [
+      "ביום הכיפורים עשה הכהן הגדול את כל העבודה בעצמו. הוא החליף בגדים חמש פעמים וטבל במקווה בכל פעם.",
+      "בבגדי לבן פשוטים נכנס אל קודש הקודשים עם הקטורת, וביקש כפרה על כל ישראל. העם עמד בחוץ והתפלל.",
+      "וכשיצא – המשנה מספרת שכל העם ליוו אותו לביתו, והוא עשה יום טוב לאוהביו, כי יצא בשלום מן הקודש.",
+      "מכהנים ולוויים ועד כל העם – כולם יחד עבדו את השם. ועכשיו הגיע הזמן להכיר את הימים שבהם כל ישראל באו למקדש."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-mik-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הם הכהנים?",
+   "answer": "הצאצאים של אהרן הכהן",
+   "options": [
+    "הצאצאים של אהרן הכהן",
+    "הצאצאים של משה",
+    "כל מי שהיה גר בירושלים"
+   ],
+   "explain_he": "הכהנים הם בני אהרן, אחי משה, דור אחרי דור.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הם הכהנים?",
+   "answer": "הצאצאים של אהרן הכהן",
+   "options": [
+    "הצאצאים של אהרן הכהן",
+    "הצאצאים של משה",
+    "כל מי שהיה גר בירושלים"
+   ],
+   "explain_he": "הכהנים הם בני אהרן, אחי משה, דור אחרי דור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה זכה שבט לוי לעבוד במקדש?",
+   "answer": "כי לא השתתף בחטא העגל ונשאר נאמן לשם",
+   "options": [
+    "כי לא השתתף בחטא העגל ונשאר נאמן לשם",
+    "כי היה השבט הגדול ביותר",
+    "כי גר הכי קרוב לירושלים"
+   ],
+   "explain_he": "כשמשה קרא \"מי לה' אליי\", נאספו אליו כל בני לוי. בזכות הנאמנות הם נבחרו לעבוד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה זכה שבט לוי לעבוד במקדש?",
+   "answer": "כי לא השתתף בחטא העגל ונשאר נאמן לשם",
+   "options": [
+    "כי לא השתתף בחטא העגל ונשאר נאמן לשם",
+    "כי היה השבט הגדול ביותר",
+    "כי גר הכי קרוב לירושלים"
+   ],
+   "explain_he": "כשמשה קרא \"מי לה' אליי\", נאספו אליו כל בני לוי. בזכות הנאמנות הם נבחרו לעבוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אבנים יקרות היו בחושן של הכהן הגדול?",
+   "answer": "שתים עשרה – אחת לכל שבט",
+   "options": [
+    "שתים עשרה – אחת לכל שבט",
+    "שבע",
+    "עשר"
+   ],
+   "explain_he": "בחושן היו שתים עשרה אבנים, אחת לכל שבט מישראל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שרו הלוויים בכל יום?",
+   "answer": "שיר של יום, מספר תהילים",
+   "options": [
+    "שיר של יום, מספר תהילים",
+    "שירים חדשים שהמציאו",
+    "רק את שירת הים"
+   ],
+   "explain_he": "לכל יום היה מזמור משלו מתהילים. אנחנו אומרים אותו עד היום בסוף תפילת שחרית.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שרו הלוויים בכל יום?",
+   "answer": "שיר של יום, מספר תהילים",
+   "options": [
+    "שיר של יום, מספר תהילים",
+    "שירים חדשים שהמציאו",
+    "רק את שירת הים"
+   ],
+   "explain_he": "לכל יום היה מזמור משלו מתהילים. אנחנו אומרים אותו עד היום בסוף תפילת שחרית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה של הכהנים שומעים עד היום בבית הכנסת?",
+   "answer": "ברכת כוהנים – \"יברכך ה' וישמרך\"",
+   "options": [
+    "ברכת כוהנים – \"יברכך ה' וישמרך\"",
+    "ברכת המזון",
+    "ברכת הלבנה"
+   ],
+   "explain_he": "הכהנים בירכו את העם במקדש, ועד היום הם מברכים בבית הכנסת באותה ברכה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה של הכהנים שומעים עד היום בבית הכנסת?",
+   "answer": "ברכת כוהנים – \"יברכך ה' וישמרך\"",
+   "options": [
+    "ברכת כוהנים – \"יברכך ה' וישמרך\"",
+    "ברכת המזון",
+    "ברכת הלבנה"
+   ],
+   "explain_he": "הכהנים בירכו את העם במקדש, ועד היום הם מברכים בבית הכנסת באותה ברכה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה העם כשהכהן הגדול יצא מקודש הקודשים ביום כיפור?",
+   "answer": "שמחו מאוד",
+   "options": [
+    "שמחו מאוד",
+    "הלכו לישון",
+    "בכו ונבהלו"
+   ],
+   "explain_he": "כשהכהן הגדול יצא בשלום, כל העם שמחו, ויום הכיפורים נגמר בשמחה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הפילו הכהנים גורל?",
+   "answer": "כדי לדעת מי יעשה כל עבודה, בלי שאיש יידחק לפני חברו",
+   "options": [
+    "כדי לדעת מי יעשה כל עבודה, בלי שאיש יידחק לפני חברו",
+    "כדי לשחק בזמן ההפסקה",
+    "כדי לבחור את הכהן הגדול"
+   ],
+   "explain_he": "הכהנים עמדו במעגל והפילו גורל, וכך התחלקו העבודות בסדר ובשלום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו המשמרות?",
+   "answer": "קבוצות כהנים שכל אחת עבדה במקדש שבוע",
+   "options": [
+    "קבוצות כהנים שכל אחת עבדה במקדש שבוע",
+    "שומרים בשערי העיר",
+    "שירים של הלוויים"
+   ],
+   "explain_he": "דוד ושמואל חילקו את הכהנים לעשרים וארבע משמרות. כל משמר עבד שבוע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שבט לוי לא קיבל נחלה בארץ?",
+   "answer": "כי הקדיש את חייו לעבודת השם, ו\"ה' הוא נחלתו\"",
+   "options": [
+    "כי הקדיש את חייו לעבודת השם, ו\"ה' הוא נחלתו\"",
+    "כי לא רצה לגור בארץ",
+    "כי כבר היו לו שדות במצרים"
+   ],
+   "explain_he": "שבט לוי לא קיבל נחלה. כל השבטים נתנו לו מעשר, והוא עסק בעבודת השם ובתורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f4e15"
+  }
+ ]
+}

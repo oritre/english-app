@@ -1,0 +1,573 @@
+{
+ "id": "k-sag-f6",
+ "unit_id": "k-sag-u3",
+ "course": "sages",
+ "title_he": "רבי יוסף קארו והשולחן ערוך",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "רבי יוסף קארו והשולחן ערוך",
+   "ref_he": "גדולי ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "tzfat",
+     "title_he": "בוקר בצפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Early morning in 16th-century Tzfat: stone houses with blue doors on a mountain slope, mist in the valley below and Mount Meron in the distance, a few sages in robes walking down a narrow alley toward a synagogue.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🏠 👴 👴",
+     "say": [
+      "בוקר בצפת, לפני יותר מארבע מאות וחמישים שנה. ההרים מכוסים ערפל, וחכמים בגלימות הולכים בסמטאות לבית הכנסת.",
+      "בעיר הקטנה הזאת, בגליל, חיו באותו זמן גדולי עולם רבים. אחד מהם כתב ספר, שעל פיו מתנהגים יהודים בכל העולם עד היום.",
+      "שמו רבי יוסף קארו, והספר נקרא: שולחן ערוך.",
+      "בימים ההם הייתה צפת מרכז של מסחר באריגים. יהודים רבים, ורבים מהם מגורשי ספרד, התיישבו בה ובנו בה בתי כנסת וישיבות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "child",
+     "title_he": "ילד שגורש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A dusty harbor at sunset at the end of the fifteenth century: Jewish families in modest dress with bundles board old sailing ships, a father holding the hand of a small boy who looks back at the shore; sad but brave mood, no soldiers shown.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👦 ⛵",
+     "say": [
+      "רבי יוסף קארו נולד בספרד בשנת 1488. כשהיה בן ארבע, גורשו כל היהודים מספרד. המשפחה שלו יצאה לגלות, כמו עוד רבבות יהודים.",
+      "הם עברו לפורטוגל, ומשם לארצות של הסולטן הטורקי. שם גדל רבי יוסף, והיה לתלמיד חכם עצום.",
+      "הגירוש הביא איתו בעיה גדולה. יהודים מספרד, מאשכנז ומהמזרח נפגשו עכשיו באותן ערים. לכל קהילה היו מנהגים אחרים, והיו ספרי הלכה רבים. איך יודעים מה ההלכה?",
+      "כל חייו זכר רבי יוסף קארו את הגירוש. הוא ראה איך יהודים עוזבים הכל, ובלבד שלא לעזוב את התורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "beit",
+     "title_he": "בית יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yosef Karo: a 16th-century Sephardi sage of Tzfat with a long white beard, a white wrapped head covering and a long dark robe. Scene: A sage with a long white beard writes in a large manuscript at a desk piled with many open books of law, by the light of a tall window in a stone room; ink, quills and stacked notes.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴",
+     "say": [
+      "רבי יוסף קארו החליט לעשות סדר. הוא לקח את ספר ההלכה החשוב בזמנו, ספר \"הטורים\", וכתב עליו פירוש ענק בשם \"בית יוסף\".",
+      "בבית יוסף הוא הביא את כל הדעות, מהגמרא ועד הפוסקים האחרונים, ובירר מאיפה בא כל דין.",
+      "כמה זמן זה לקח? בהקדמה הוא כותב: עשרים שנה כתב, ועוד שתים עשרה שנה בדק ותיקן. יותר משלושים שנה של עבודה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "city",
+     "title_he": "עיר של צדיקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Friday afternoon outside 16th-century Tzfat: a group of sages in white robes walks out to the fields facing the setting sun to welcome Shabbat, hills glowing golden, the town on the mountain behind them.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👴 👴",
+     "say": [
+      "רבי יוסף קארו עלה לצפת, ושם עמד בראש בית הדין והישיבה. צפת של אז הייתה עיר של תורה.",
+      "חיו בה המקובל הגדול האר\"י הקדוש, רבי משה קורדובירו, והרב אלשיך, שהיה תלמידו של רבי יוסף קארו.",
+      "גם רבי שלמה אלקבץ חי בצפת. הוא כתב את \"לכה דודי\", שאנחנו שרים בכל ליל שבת. מקובלי צפת היו יוצאים לשדות לקבל את השבת, וממנהגם נולדה \"קבלת שבת\"."
+     ],
+     "pasuk": {
+      "text": "לכה דודי לקראת כלה, פני שבת נקבלה",
+      "ref": "רבי שלמה אלקבץ, צפת"
+     },
+     "note": null
+    },
+    {
+     "id": "table",
+     "title_he": "שולחן ערוך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A long table covered with a pure white cloth, neatly set with plates, cups, bread and fruit, ready for guests, in a sunlit stone dining room in Tzfat; inviting and orderly.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "בית יוסף היה ספר ענק, מתאים לחכמים גדולים. אבל רבי יוסף רצה שגם כל יהודי פשוט יידע מה לעשות.",
+      "לכן כתב ספר קצר וברור, שבו רק ההלכה למעשה, בלי כל הוויכוחים. הוא קרא לו: שולחן ערוך.",
+      "למה השם הזה? כי ההלכות מוגשות בו כמו שולחן ערוך ומוכן לאכילה. בא, שב, ותדע מה לעשות.",
+      "השולחן ערוך נדפס בוונציה שבאיטליה בשנת 1565. בזכות הדפוס, הוא הגיע במהירות לכל קהילות ישראל.",
+      "הוא חילק אותו לסימנים קצרים וברורים, כך שאפשר ללמוד בכל יום קצת, ולהבין."
+     ],
+     "pasuk": {
+      "text": "\"אשר תשים לפניהם\", כשולחן הערוך ומוכן לאכול לפני האדם",
+      "ref": "רש\"י, שמות כא, א"
+     },
+     "note": null
+    },
+    {
+     "id": "parts",
+     "title_he": "ארבעה חלקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Four large bound volumes stand side by side on a wooden lectern in a quiet study hall, each with a different colored cloth cover, morning light falling across them.",
+     "move": "right",
+     "fx": "dust",
+     "art": "",
+     "say": [
+      "לשולחן ערוך ארבעה חלקים. אורח חיים: ההלכות של כל יום, תפילה, ברכות, שבת וחגים.",
+      "יורה דעה: כשרות, צדקה, כיבוד אב ואם, ועוד. אבן העזר: הלכות המשפחה. וחושן משפט: דיני ממונות ובית דין.",
+      "כך, מהרגע שיהודי קם בבוקר ועד שהוא הולך לישון, יש לו הדרכה בשולחן ערוך.",
+      "למשל, בחלק אורח חיים יש הלכות ציצית ותפילין, ברכות השחר, ומה עושים בחנוכה ובפורים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "lion",
+     "title_he": "יתגבר כארי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Very early morning before sunrise in Tzfat: a boy in a kippah gets up energetically from his bed and washes his hands from a cup over a basin, the first pale light over the mountains through the window.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👦",
+     "say": [
+      "הסימן הראשון בשולחן ערוך פותח במשפט מפורסם: יתגבר כארי לעמוד בבוקר לעבודת בוראו, שיהא הוא מעורר השחר.",
+      "כלומר, בבוקר, כשקשה לקום, צריך להתגבר כמו אריה, ולקום בזריזות לעבוד את השם. שאנחנו נעיר את הבוקר, ולא הבוקר יעיר אותנו.",
+      "והרמ\"א, שתיכף נכיר, הוסיף שם משפט שהוא כמו סיכום של כל הספר: שויתי ה' לנגדי תמיד, הוא כלל גדול בתורה. כלומר, לזכור תמיד שהשם נמצא איתנו, בכל מקום.",
+      "זה מה שהשולחן ערוך נותן לנו: לא רק רשימה של חוקים, אלא דרך חיים שלמה, מהבוקר עד הלילה, עם השם."
+     ],
+     "pasuk": {
+      "text": "יתגבר כארי לעמוד בבוקר לעבודת בוראו, שיהא הוא מעורר השחר",
+      "ref": "שולחן ערוך, אורח חיים א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "mapa",
+     "title_he": "המפה של הרמ\"א",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Winter in 16th-century Krakow: a sage with a dark beard and fur hat writes at a desk near a frosted window, an open volume before him and a fine embroidered tablecloth folded on a chair beside him; warm candlelight.",
+     "move": "left",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "רבי יוסף קארו פסק בדרך כלל לפי מנהגי ספרד. ובאותו זמן, בעיר קראקא שבפולין, חי גדול חכמי אשכנז: רבי משה איסרליש, הרמ\"א.",
+      "הרמ\"א כתב הגהות קצרות על השולחן ערוך, ובהן מנהגי אשכנז. הוא קרא להן \"המפה\", כי הן כמו מפה שפורסים על השולחן הערוך.",
+      "מאז, השולחן ערוך עם המפה הוא ספר ההלכה של כל עם ישראל: ספרדים ואשכנזים, באותו ספר, על אותו שולחן.",
+      "רבי יוסף קארו נפטר בצפת בשנת 1575, וקברו שם עד היום. ופוסקים רבים, עד ימינו, כתבו את ספריהם על השולחן ערוך."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sag-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "רבי יוסף קארו והשולחן ערוך",
+   "ref_he": "גדולי ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "tzfat",
+     "title_he": "בוקר בצפת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Early morning in 16th-century Tzfat: stone houses with blue doors on a mountain slope, mist in the valley below and Mount Meron in the distance, a few sages in robes walking down a narrow alley toward a synagogue.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🏠 👴 👴",
+     "say": [
+      "בוקר בצפת, לפני יותר מארבע מאות וחמישים שנה. ההרים מכוסים ערפל, וחכמים בגלימות הולכים בסמטאות לבית הכנסת.",
+      "בעיר הקטנה הזאת, בגליל, חיו באותו זמן גדולי עולם רבים. אחד מהם כתב ספר, שעל פיו מתנהגים יהודים בכל העולם עד היום.",
+      "שמו רבי יוסף קארו, והספר נקרא: שולחן ערוך.",
+      "בימים ההם הייתה צפת מרכז של מסחר באריגים. יהודים רבים, ורבים מהם מגורשי ספרד, התיישבו בה ובנו בה בתי כנסת וישיבות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "child",
+     "title_he": "ילד שגורש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A dusty harbor at sunset at the end of the fifteenth century: Jewish families in modest dress with bundles board old sailing ships, a father holding the hand of a small boy who looks back at the shore; sad but brave mood, no soldiers shown.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👦 ⛵",
+     "say": [
+      "רבי יוסף קארו נולד בספרד בשנת 1488. כשהיה בן ארבע, גורשו כל היהודים מספרד. המשפחה שלו יצאה לגלות, כמו עוד רבבות יהודים.",
+      "הם עברו לפורטוגל, ומשם לארצות של הסולטן הטורקי. שם גדל רבי יוסף, והיה לתלמיד חכם עצום.",
+      "הגירוש הביא איתו בעיה גדולה. יהודים מספרד, מאשכנז ומהמזרח נפגשו עכשיו באותן ערים. לכל קהילה היו מנהגים אחרים, והיו ספרי הלכה רבים. איך יודעים מה ההלכה?",
+      "כל חייו זכר רבי יוסף קארו את הגירוש. הוא ראה איך יהודים עוזבים הכל, ובלבד שלא לעזוב את התורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "beit",
+     "title_he": "בית יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yosef Karo: a 16th-century Sephardi sage of Tzfat with a long white beard, a white wrapped head covering and a long dark robe. Scene: A sage with a long white beard writes in a large manuscript at a desk piled with many open books of law, by the light of a tall window in a stone room; ink, quills and stacked notes.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴",
+     "say": [
+      "רבי יוסף קארו החליט לעשות סדר. הוא לקח את ספר ההלכה החשוב בזמנו, ספר \"הטורים\", וכתב עליו פירוש ענק בשם \"בית יוסף\".",
+      "בבית יוסף הוא הביא את כל הדעות, מהגמרא ועד הפוסקים האחרונים, ובירר מאיפה בא כל דין.",
+      "כמה זמן זה לקח? בהקדמה הוא כותב: עשרים שנה כתב, ועוד שתים עשרה שנה בדק ותיקן. יותר משלושים שנה של עבודה!",
+      "בבית יוסף קבע כלל: לפסוק לפי שלושה עמודי ההוראה, הרי\"ף, הרמב\"ם והרא\"ש. כששניים מהם אמרו דבר אחד, כך פסק."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ספר הטורים נכתב בידי רבי יעקב, בנו של הרא\"ש. הוא חילק את ההלכה לארבעה \"טורים\", כמו ארבע שורות אבני החושן."
+     }
+    },
+    {
+     "id": "city",
+     "title_he": "עיר של צדיקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Friday afternoon outside 16th-century Tzfat: a group of sages in white robes walks out to the fields facing the setting sun to welcome Shabbat, hills glowing golden, the town on the mountain behind them.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👴 👴",
+     "say": [
+      "רבי יוסף קארו עלה לצפת, ושם עמד בראש בית הדין והישיבה. צפת של אז הייתה עיר של תורה.",
+      "חיו בה המקובל הגדול האר\"י הקדוש, רבי משה קורדובירו, והרב אלשיך, שהיה תלמידו של רבי יוסף קארו.",
+      "גם רבי שלמה אלקבץ חי בצפת. הוא כתב את \"לכה דודי\", שאנחנו שרים בכל ליל שבת. מקובלי צפת היו יוצאים לשדות לקבל את השבת, וממנהגם נולדה \"קבלת שבת\".",
+      "מסופר שרבי יוסף קארו זכה ל\"מגיד\", מלאך שלימד אותו תורה ועורר אותו לקדושה. את הדברים האלה רשם בספר \"מגיד מישרים\".",
+      "חכמי צפת אף ניסו לחדש את הסמיכה, הסמכת הרבנים שהייתה בימי חז\"ל. רבי יוסף קארו היה אחד מהנסמכים."
+     ],
+     "pasuk": {
+      "text": "לכה דודי לקראת כלה, פני שבת נקבלה",
+      "ref": "רבי שלמה אלקבץ, צפת"
+     },
+     "note": null
+    },
+    {
+     "id": "ari",
+     "title_he": "האר\"י הקדוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A small old stone synagogue in Tzfat at dusk with blue-painted walls and a wooden ark, a young sage with a black beard teaching a few disciples by candlelight, mist rising over the hills outside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👨 👨",
+     "say": [
+      "בשנת 1570 בערך הגיע לצפת רבי יצחק לוריא, המקובל הגדול שנקרא האר\"י הקדוש. הוא חי בצפת רק כשנתיים, ונפטר צעיר מאוד.",
+      "בזמן הקצר הזה לימד את תלמידיו, ובראשם רבי חיים ויטאל, את סודות הקבלה. רבי חיים ויטאל כתב את הדברים בספרים.",
+      "רבים ממנהגי התפילה והשבת שאנחנו נוהגים היום באים מצפת של אותם ימים.",
+      "כך, באותה עיר קטנה ובאותם שנים, נכתב ספר ההלכה של עם ישראל, ונלמדו סודות התורה. צפת הייתה אז לב של עם ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "table",
+     "title_he": "שולחן ערוך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A long table covered with a pure white cloth, neatly set with plates, cups, bread and fruit, ready for guests, in a sunlit stone dining room in Tzfat; inviting and orderly.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "בית יוסף היה ספר ענק, מתאים לחכמים גדולים. אבל רבי יוסף רצה שגם כל יהודי פשוט יידע מה לעשות.",
+      "לכן כתב ספר קצר וברור, שבו רק ההלכה למעשה, בלי כל הוויכוחים. הוא קרא לו: שולחן ערוך.",
+      "למה השם הזה? כי ההלכות מוגשות בו כמו שולחן ערוך ומוכן לאכילה. בא, שב, ותדע מה לעשות.",
+      "השולחן ערוך נדפס בוונציה שבאיטליה בשנת 1565. בזכות הדפוס, הוא הגיע במהירות לכל קהילות ישראל.",
+      "הוא חילק אותו לסימנים קצרים וברורים, כך שאפשר ללמוד בכל יום קצת, ולהבין.",
+      "בהקדמה כתב רבי יוסף קארו שהספר נועד לשני סוגי לומדים: לתלמיד חכם, כדי שיחזור ויזכור את ההלכות, ולתלמיד צעיר, כדי שילמד אותן בעל פה."
+     ],
+     "pasuk": {
+      "text": "\"אשר תשים לפניהם\", כשולחן הערוך ומוכן לאכול לפני האדם",
+      "ref": "רש\"י, שמות כא, א"
+     },
+     "note": null
+    },
+    {
+     "id": "parts",
+     "title_he": "ארבעה חלקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Four large bound volumes stand side by side on a wooden lectern in a quiet study hall, each with a different colored cloth cover, morning light falling across them.",
+     "move": "right",
+     "fx": "dust",
+     "art": "",
+     "say": [
+      "לשולחן ערוך ארבעה חלקים. אורח חיים: ההלכות של כל יום, תפילה, ברכות, שבת וחגים.",
+      "יורה דעה: כשרות, צדקה, כיבוד אב ואם, ועוד. אבן העזר: הלכות המשפחה. וחושן משפט: דיני ממונות ובית דין.",
+      "כך, מהרגע שיהודי קם בבוקר ועד שהוא הולך לישון, יש לו הדרכה בשולחן ערוך.",
+      "למשל, בחלק אורח חיים יש הלכות ציצית ותפילין, ברכות השחר, ומה עושים בחנוכה ובפורים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "lion",
+     "title_he": "יתגבר כארי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Very early morning before sunrise in Tzfat: a boy in a kippah gets up energetically from his bed and washes his hands from a cup over a basin, the first pale light over the mountains through the window.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👦",
+     "say": [
+      "הסימן הראשון בשולחן ערוך פותח במשפט מפורסם: יתגבר כארי לעמוד בבוקר לעבודת בוראו, שיהא הוא מעורר השחר.",
+      "כלומר, בבוקר, כשקשה לקום, צריך להתגבר כמו אריה, ולקום בזריזות לעבוד את השם. שאנחנו נעיר את הבוקר, ולא הבוקר יעיר אותנו.",
+      "והרמ\"א, שתיכף נכיר, הוסיף שם משפט שהוא כמו סיכום של כל הספר: שויתי ה' לנגדי תמיד, הוא כלל גדול בתורה. כלומר, לזכור תמיד שהשם נמצא איתנו, בכל מקום.",
+      "זה מה שהשולחן ערוך נותן לנו: לא רק רשימה של חוקים, אלא דרך חיים שלמה, מהבוקר עד הלילה, עם השם.",
+      "הסימן הזה מלמד שהזריזות בבוקר קובעת את כל היום. מי שמתחיל את הבוקר במודה אני, נטילת ידיים ותפילה, נותן כיוון ליום כולו."
+     ],
+     "pasuk": {
+      "text": "יתגבר כארי לעמוד בבוקר לעבודת בוראו, שיהא הוא מעורר השחר",
+      "ref": "שולחן ערוך, אורח חיים א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "mapa",
+     "title_he": "המפה של הרמ\"א",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Winter in 16th-century Krakow: a sage with a dark beard and fur hat writes at a desk near a frosted window, an open volume before him and a fine embroidered tablecloth folded on a chair beside him; warm candlelight.",
+     "move": "left",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "רבי יוסף קארו פסק בדרך כלל לפי מנהגי ספרד. ובאותו זמן, בעיר קראקא שבפולין, חי גדול חכמי אשכנז: רבי משה איסרליש, הרמ\"א.",
+      "הרמ\"א כתב הגהות קצרות על השולחן ערוך, ובהן מנהגי אשכנז. הוא קרא להן \"המפה\", כי הן כמו מפה שפורסים על השולחן הערוך.",
+      "מאז, השולחן ערוך עם המפה הוא ספר ההלכה של כל עם ישראל: ספרדים ואשכנזים, באותו ספר, על אותו שולחן.",
+      "רבי יוסף קארו נפטר בצפת בשנת 1575, וקברו שם עד היום. ופוסקים רבים, עד ימינו, כתבו את ספריהם על השולחן ערוך.",
+      "בזכות שני הגדולים האלה, ספרדי ואשכנזי, יש לעם ישראל המפוזר ספר הלכה משותף. יהודי ממרוקו ויהודי מפולין יכולים לפתוח אותו ספר, ולמצוא בו את ההלכה ואת המנהג שלהם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sag-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה עזבה משפחתו של רבי יוסף קארו את ספרד?",
+   "answer": "כל היהודים גורשו מספרד כשהיה בן ארבע",
+   "options": [
+    "כל היהודים גורשו מספרד כשהיה בן ארבע",
+    "הם רצו לגור בצפת",
+    "אביו נעשה רב בטורקיה"
+   ],
+   "explain_he": "רבי יוסף קארו נולד בשנת 1488, ובשנת 1492 גורשו היהודים מספרד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה עזבה משפחתו של רבי יוסף קארו את ספרד?",
+   "answer": "כל היהודים גורשו מספרד כשהיה בן ארבע",
+   "options": [
+    "כל היהודים גורשו מספרד כשהיה בן ארבע",
+    "הם רצו לגור בצפת",
+    "אביו נעשה רב בטורקיה"
+   ],
+   "explain_he": "רבי יוסף קארו נולד בשנת 1488, ובשנת 1492 גורשו היהודים מספרד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו בעיה ניסה רבי יוסף קארו לפתור?",
+   "answer": "קהילות עם מנהגים שונים וספרים רבים, וקשה היה לדעת מה ההלכה",
+   "options": [
+    "קהילות עם מנהגים שונים וספרים רבים, וקשה היה לדעת מה ההלכה",
+    "לא היו בתי כנסת בצפת",
+    "לא היה נייר לכתוב ספרים"
+   ],
+   "explain_he": "אחרי הגירוש נפגשו קהילות רבות, והיה צריך ספר שמברר מה ההלכה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו בעיה ניסה רבי יוסף קארו לפתור?",
+   "answer": "קהילות עם מנהגים שונים וספרים רבים, וקשה היה לדעת מה ההלכה",
+   "options": [
+    "קהילות עם מנהגים שונים וספרים רבים, וקשה היה לדעת מה ההלכה",
+    "לא היו בתי כנסת בצפת",
+    "לא היה נייר לכתוב ספרים"
+   ],
+   "explain_he": "אחרי הגירוש נפגשו קהילות רבות, והיה צריך ספר שמברר מה ההלכה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן עבד רבי יוסף קארו על ספר \"בית יוסף\"?",
+   "answer": "יותר משלושים שנה",
+   "options": [
+    "יותר משלושים שנה",
+    "שנה אחת",
+    "חמש שנים"
+   ],
+   "explain_he": "עשרים שנה כתב, ועוד שתים עשרה שנה בדק ותיקן.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן עבד רבי יוסף קארו על ספר \"בית יוסף\"?",
+   "answer": "יותר משלושים שנה",
+   "options": [
+    "יותר משלושים שנה",
+    "שנה אחת",
+    "חמש שנים"
+   ],
+   "explain_he": "עשרים שנה כתב, ועוד שתים עשרה שנה בדק ותיקן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא הספר \"שולחן ערוך\"?",
+   "answer": "כי ההלכות מוגשות בו מוכנות, כמו שולחן ערוך לאכילה",
+   "options": [
+    "כי ההלכות מוגשות בו מוכנות, כמו שולחן ערוך לאכילה",
+    "כי הוא נכתב ליד שולחן",
+    "כי הוא עוסק רק בהלכות אוכל"
+   ],
+   "explain_he": "השם בא מדברי רש\"י: כשולחן הערוך ומוכן לאכול לפני האדם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא הספר \"שולחן ערוך\"?",
+   "answer": "כי ההלכות מוגשות בו מוכנות, כמו שולחן ערוך לאכילה",
+   "options": [
+    "כי ההלכות מוגשות בו מוכנות, כמו שולחן ערוך לאכילה",
+    "כי הוא נכתב ליד שולחן",
+    "כי הוא עוסק רק בהלכות אוכל"
+   ],
+   "explain_he": "השם בא מדברי רש\"י: כשולחן הערוך ומוכן לאכול לפני האדם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הוסיף הרמ\"א לשולחן ערוך?",
+   "answer": "את מנהגי אשכנז, ב\"מפה\"",
+   "options": [
+    "את מנהגי אשכנז, ב\"מפה\"",
+    "ציורים של כלי המקדש",
+    "סיפורים על חכמי צפת"
+   ],
+   "explain_he": "כך השולחן ערוך עם המפה נעשה ספר ההלכה של ספרדים ואשכנזים יחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הוסיף הרמ\"א לשולחן ערוך?",
+   "answer": "את מנהגי אשכנז, ב\"מפה\"",
+   "options": [
+    "את מנהגי אשכנז, ב\"מפה\"",
+    "ציורים של כלי המקדש",
+    "סיפורים על חכמי צפת"
+   ],
+   "explain_he": "כך השולחן ערוך עם המפה נעשה ספר ההלכה של ספרדים ואשכנזים יחד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה שיר שאנחנו שרים בליל שבת נכתב בצפת?",
+   "answer": "\"לכה דודי\"",
+   "options": [
+    "\"לכה דודי\"",
+    "\"יום שבתון\"",
+    "\"יגדל\""
+   ],
+   "explain_he": "רבי שלמה אלקבץ כתב את \"לכה דודי\" בצפת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה שיר שאנחנו שרים בליל שבת נכתב בצפת?",
+   "answer": "\"לכה דודי\"",
+   "options": [
+    "\"לכה דודי\"",
+    "\"יום שבתון\"",
+    "\"יגדל\""
+   ],
+   "explain_he": "רבי שלמה אלקבץ כתב את \"לכה דודי\" בצפת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה רשם רבי יוסף קארו בספר \"מגיד מישרים\"?",
+   "answer": "דברי תורה שלימד אותו \"מגיד\", מלאך",
+   "options": [
+    "דברי תורה שלימד אותו \"מגיד\", מלאך",
+    "את פסקי בית הדין של צפת",
+    "את רשימת התלמידים שלו"
+   ],
+   "explain_he": "מסופר שזכה למגיד שלימד אותו תורה ועורר אותו לקדושה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"יתגבר כארי לעמוד בבוקר\"?",
+   "answer": "להתגבר ולקום בזריזות לעבוד את השם",
+   "options": [
+    "להתגבר ולקום בזריזות לעבוד את השם",
+    "לקום מוקדם כדי לצוד",
+    "להתפלל בקול חזק כמו אריה"
+   ],
+   "explain_he": "כך פותח השולחן ערוך: שאנחנו נעיר את הבוקר, ולא הבוקר יעיר אותנו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f6e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"יתגבר כארי לעמוד בבוקר\"?",
+   "answer": "להתגבר ולקום בזריזות לעבוד את השם",
+   "options": [
+    "להתגבר ולקום בזריזות לעבוד את השם",
+    "לקום מוקדם כדי לצוד",
+    "להתפלל בקול חזק כמו אריה"
+   ],
+   "explain_he": "כך פותח השולחן ערוך: שאנחנו נעיר את הבוקר, ולא הבוקר יעיר אותנו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f6e17"
+  }
+ ]
+}

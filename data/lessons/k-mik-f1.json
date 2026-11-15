@@ -1,0 +1,539 @@
+{
+ "id": "k-mik-f1",
+ "unit_id": "k-mik-u1",
+ "course": "mikdash",
+ "title_he": "המשכן במדבר",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "המשכן במדבר",
+   "ref_he": "בית המקדש",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מחנה במדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A vast Israelite camp of tents in the Sinai desert at dawn, tribes in orderly groups, high mountains in the distance, children walking between the tents.",
+     "move": "out",
+     "fx": "light",
+     "art": "⛺",
+     "say": [
+      "דמיינו מחנה ענק באמצע המדבר. אלפי אוהלים, ובתוכם כל עם ישראל: אבות ואימהות, סבים, ילדים ותינוקות.",
+      "רק לפני זמן קצר הם יצאו ממצרים. הם עמדו ליד הר סיני, ושמעו את עשרת הדיברות.",
+      "ועכשיו הקדוש ברוך הוא אומר למשה דבר מיוחד מאוד: בנו לי בית, ואני אשכון בתוככם.",
+      "בית לשכינה, באמצע המחנה. איך בונים בית כזה? בואו נראה."
+     ],
+     "pasuk": {
+      "text": "וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם",
+      "ref": "שמות כה, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "כולם מביאים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Moshe: an elderly man with a long white beard, a simple cream robe and a wooden staff, humble and kind. Scene: Israelites in modest robes bringing gifts to Moshe outside a large tent: gold bracelets, silver, copper, dyed wool in blue, purple and scarlet, goat hair and acacia planks. Joyful, generous faces.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👩 👴",
+     "say": [
+      "משה סיפר לעם, וכולם רצו לעזור. כל אחד נתן מה שליבו רצה לתת.",
+      "הביאו זהב וכסף ונחושת, צמר צבוע בכחול, בסגול ובאדום, עורות, עצים ושמן.",
+      "בכל בוקר הביאו עוד ועוד. עד שהאומנים באו למשה ואמרו: יש לנו יותר ממה שצריך!",
+      "ומשה הודיע בכל המחנה: מספיק, אל תביאו עוד. איזה עם נדיב!"
+     ],
+     "pasuk": {
+      "text": "וְהַמְּלָאכָה הָיְתָה דַיָּם לְכָל הַמְּלָאכָה לַעֲשׂוֹת אֹתָהּ וְהוֹתֵר",
+      "ref": "שמות לו, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בצלאל האומן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Betzalel: a very young craftsman with a light beard, a cloth cap, a leather apron over a tan robe. Scene: Betzalel in a large open-air desert workshop shaping a golden object at a workbench, helpers carving acacia boards, and nearby women in long dresses and headscarves spinning colored yarn.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨 👩",
+     "say": [
+      "ומי יבנה את המשכן? השם בחר באומן מיוחד, ששמו בצלאל.",
+      "בצלאל ידע לעבוד בזהב ובכסף, בעץ ובאבנים יקרות. השם נתן לו חכמה גדולה בידיים ובלב.",
+      "ואיתו עבדו עוד הרבה אנשים חכמים, והנשים טוו חוטים צבעוניים יפים.",
+      "כולם עבדו יחד, כמו משפחה אחת גדולה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "איך נראה המשכן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: The finished Mishkan seen from a hill at morning: a rectangular courtyard surrounded by white linen curtains on posts, a large bronze altar and a bronze washbasin inside, and the tent of gold-covered boards draped with colorful woven coverings.",
+     "move": "out",
+     "fx": "light",
+     "art": "⛺",
+     "say": [
+      "והנה המשכן מוכן! מסביב יש חצר גדולה, עם וילונות לבנים.",
+      "בחצר עומד מזבח גדול. שם הכהנים מקריבים קורבנות לשם.",
+      "לידו יש כיור גדול של נחושת, עם מים. שם הכהנים רוחצים ידיים ורגליים לפני העבודה.",
+      "ובקצה החצר עומד אוהל מיוחד. הקירות שלו מעץ, מצופה בזהב, ומעליו יריעות צבעוניות.",
+      "ואת העצים, אומרים חז\"ל, הביאו ממצרים! יעקב אבינו נטע אותם שם לפני שנים רבות, כדי שלבניו יהיו עצים למשכן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "קודש הקודשים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Inside the Mishkan tent, the outer room: a golden menorah glowing on one side, a golden table on the other, a small golden altar in the middle, and a heavy closed curtain embroidered in blue, purple and scarlet at the far end.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "⛺",
+     "say": [
+      "בתוך האוהל יש מנורה של זהב, שולחן של זהב ומזבח קטן של זהב.",
+      "ובסוף החדר תלויה פרוכת, וילון יפה וכבד. מאחוריה נמצא המקום הכי קדוש: קודש הקודשים.",
+      "שם עמד ארון הברית, ובתוכו לוחות הברית.",
+      "לשם לא נכנס אף אחד. רק הכהן הגדול, ורק פעם אחת בשנה – ביום הכיפורים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הכהן הגדול נכנס לקודש הקודשים רק יום אחד בשנה – ביום הכיפורים."
+     }
+    },
+    {
+     "id": "s5b",
+     "title_he": "משה מקים את המשכן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Moshe: an elderly man with a long white beard, a simple cream robe and a wooden staff, humble and kind. Scene: Moshe alone in the desert lifting a tall gold-covered board with both hands, the heavy boards around him rising upright as if by themselves, the people watching in wonder. Soft light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👩",
+     "say": [
+      "כשהכול היה מוכן, הביאו את כל החלקים אל משה. ומשה בירך את כולם.",
+      "אבל הקרשים היו כבדים מאוד. אף אחד לא הצליח להקים את המשכן!",
+      "רש\"י מספר: השם אמר למשה – אתה תתחיל, תשים את הידיים. ומשה התחיל, והמשכן קם כאילו מעצמו!",
+      "מה לומדים מזה? אנחנו עושים את מה שאנחנו יכולים, והשם עוזר לנו להשלים."
+     ],
+     "pasuk": {
+      "text": "יְהִי רָצוֹן שֶׁתִּשְׁרֶה שְׁכִינָה בְּמַעֲשֵׂה יְדֵיכֶם",
+      "ref": "רש\"י, שמות לט, מג"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הענן מעל המשכן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Night in the desert camp: a soft pillar of warm glowing light rests above the Mishkan tent, the tents around it quiet under the stars, a few people outside looking up in awe.",
+     "move": "up",
+     "fx": "night",
+     "art": "⛺",
+     "say": [
+      "ביום שבו הקימו את המשכן, ענן מיוחד ירד ונח עליו.",
+      "ביום ראו מעל המשכן ענן, ובלילה ראו אור, כמו אש.",
+      "כשהענן עלה למעלה – כולם ידעו שצריך לנסוע. כשהענן נח – עצרו.",
+      "כך ידע עם ישראל: השם שומר עלינו ומוביל אותנו.",
+      "וכל העם שמחו מאוד, ונפלו על פניהם להודות לשם."
+     ],
+     "pasuk": {
+      "text": "כִּי עֲנַן ה' עַל הַמִּשְׁכָּן יוֹמָם, וְאֵשׁ תִּהְיֶה לַיְלָה בּוֹ",
+      "ref": "שמות מ, לח"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בית שיוצא לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Leviim carrying a covered ark on wooden poles on their shoulders through the desert, followed by ox carts loaded with folded curtains and boards, the tribes walking behind in long lines.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🚶 🚶 🐑",
+     "say": [
+      "והמשכן היה בית שנוסע! כשעם ישראל המשיך בדרך, פירקו אותו.",
+      "הלוויים נשאו את הארון ואת הכלים הקדושים על הכתפיים, ואת הקרשים העמיסו על עגלות.",
+      "ובמקום החדש הקימו אותו שוב. ארבעים שנה הלך המשכן עם עם ישראל במדבר.",
+      "אבל החלום היה גדול יותר: בית קבוע, מאבן, בירושלים. ועל זה נלמד בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-mik-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "המשכן במדבר",
+   "ref_he": "בית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מחנה במדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A vast Israelite camp of tents in the Sinai desert at dawn, tribes in orderly groups, high mountains in the distance, children walking between the tents.",
+     "move": "out",
+     "fx": "light",
+     "art": "⛺",
+     "say": [
+      "דמיינו מחנה ענק באמצע המדבר: אלפי אוהלים, שנים עשר שבטים, ובתוכם עם שלם שרק לפני זמן קצר יצא ממצרים.",
+      "ליד הר סיני הם שמעו את עשרת הדיברות וקיבלו את התורה. רגע כזה לא היה מעולם, ולא יהיה שוב.",
+      "ואז אמר הקדוש ברוך הוא למשה: \"ועשו לי מקדש ושכנתי בתוכם\". שימו לב: לא כתוב \"בתוכו\", אלא \"בתוכם\" – בתוך כל אחד ואחד.",
+      "המשכן יהיה בית קדוש שנוסע עם עם ישראל לכל מקום, עד שייבנה בית המקדש בירושלים. וזה הסיפור שלנו."
+     ],
+     "pasuk": {
+      "text": "וְעָשׂוּ לִי מִקְדָּשׁ וְשָׁכַנְתִּי בְּתוֹכָם",
+      "ref": "שמות כה, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "כולם מביאים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Moshe: an elderly man with a long white beard, a simple cream robe and a wooden staff, humble and kind. Scene: Israelites in modest robes bringing gifts to Moshe outside a large tent: gold bracelets, silver, copper, dyed wool in blue, purple and scarlet, goat hair and acacia planks. Joyful, generous faces.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👩 👴",
+     "say": [
+      "משה ביקש תרומה, אבל רק ממי שרוצה באמת: \"מאת כל איש אשר ידבנו ליבו\".",
+      "ואנשים באו בשמחה: זהב, כסף ונחושת, צמר בצבעי תכלת, ארגמן ותולעת שני, שמן למאור, בשמים ואבנים יקרות.",
+      "בכל בוקר הביאו עוד ועוד, עד שהאומנים באו אל משה ואמרו: העם מביאים הרבה יותר ממה שצריך לעבודה!",
+      "ומשה העביר קול במחנה: אל תביאו עוד. עם שלם שצריך לבקש ממנו להפסיק לתת – ככה נראית נדיבות של לב.",
+      "ורש\"י מוסיף: הנשיאים, ראשי השבטים, אמרו – נחכה, ובסוף נשלים את מה שחסר. אבל העם הביא הכול, וכמעט לא נשאר להם מה להביא. מאז הם מיהרו להיות ראשונים."
+     ],
+     "pasuk": {
+      "text": "וְהַמְּלָאכָה הָיְתָה דַיָּם לְכָל הַמְּלָאכָה לַעֲשׂוֹת אֹתָהּ וְהוֹתֵר",
+      "ref": "שמות לו, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בצלאל האומן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Betzalel: a very young craftsman with a light beard, a cloth cap, a leather apron over a tan robe. Scene: Betzalel in a large open-air desert workshop shaping a golden object at a workbench, helpers carving acacia boards, and nearby women in long dresses and headscarves spinning colored yarn.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨 👩",
+     "say": [
+      "את העבודה הגדולה הזו עשה בצלאל בן אורי משבט יהודה, ואיתו אהליאב בן אחיסמך משבט דן.",
+      "התורה אומרת שהשם מילא את בצלאל בחכמה, בתבונה ובדעת: לעבוד בזהב, בכסף ובנחושת, בעץ ובאבנים טובות.",
+      "איתם עבדו עוד הרבה חכמי לב, והנשים טוו בידיהן תכלת וארגמן, ואפילו את שיער העיזים.",
+      "ושימו לב לשני השבטים: יהודה, שבט גדול וחשוב, ודן, מהשבטים שהלכו בסוף המחנה. במשכן כולם שותפים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל חישבו שבצלאל היה רק בן שלוש עשרה כשבנה את המשכן."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "איך נראה המשכן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: The finished Mishkan seen from a hill at morning: a rectangular courtyard surrounded by white linen curtains on posts, a large bronze altar and a bronze washbasin inside, and the tent of gold-covered boards draped with colorful woven coverings.",
+     "move": "out",
+     "fx": "light",
+     "art": "⛺",
+     "say": [
+      "והנה המשכן גמור. מסביב – חצר גדולה, מוקפת יריעות לבנות של פשתן.",
+      "בחצר עומד מזבח הנחושת, שעליו הקריבו קורבנות, ולידו כיור הנחושת, שבו רחצו הכהנים ידיים ורגליים לפני העבודה.",
+      "ובקצה החצר – האוהל עצמו: קרשים של עצי שיטים מצופים זהב, ומעליהם יריעות ארוגות ועורות שמגינים מפני השמש והרוח.",
+      "באוהל יש שני חדרים: הקודש, ולפנים ממנו – קודש הקודשים.",
+      "ומאין היו במדבר עצים גדולים כאלה? רש\"י מספר שיעקב אבינו נטע ארזים במצרים, וציווה את בניו לקחת אותם איתם כשיצאו – כדי שיהיו להם עצים למשכן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "קודש הקודשים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Inside the Mishkan tent, the outer room: a golden menorah glowing on one side, a golden table on the other, a small golden altar in the middle, and a heavy closed curtain embroidered in blue, purple and scarlet at the far end.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "⛺",
+     "say": [
+      "בחדר הראשון, הקודש, עמדו המנורה, השולחן ומזבח הזהב. עליהם נלמד בשיעור מיוחד.",
+      "ומאחורי פרוכת ארוגה בתכלת, ארגמן ותולעת שני – קודש הקודשים. שם עמד ארון הברית, ובתוכו לוחות הברית.",
+      "לשם לא נכנס איש. רק הכהן הגדול, ורק פעם אחת בשנה – ביום הכיפורים, כדי לבקש כפרה על כל עם ישראל.",
+      "זה המקום הקדוש ביותר, ולכן גם אנחנו נשארים בחוץ, ורק מסתכלים על הפרוכת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הכהן הגדול נכנס לקודש הקודשים רק יום אחד בשנה – ביום הכיפורים."
+     }
+    },
+    {
+     "id": "s5b",
+     "title_he": "משה מקים את המשכן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Moshe: an elderly man with a long white beard, a simple cream robe and a wooden staff, humble and kind. Scene: Moshe alone in the desert lifting a tall gold-covered board with both hands, the heavy boards around him rising upright as if by themselves, the people watching in wonder. Soft light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👩",
+     "say": [
+      "כשסיימו את המלאכה, הביאו האומנים את הכול אל משה: הקרשים, היריעות והכלים. משה ראה שעשו בדיוק כמו שציווה השם, ובירך אותם: \"יהי רצון שתשרה שכינה במעשה ידיכם\".",
+      "אבל אז התברר קושי: הקרשים היו כבדים כל כך, שאף אדם לא הצליח להקים את המשכן.",
+      "רש\"י מביא את דברי המדרש: השם אמר למשה – עסוק אתה בידך, ויֵראה כאילו אתה מקים אותו. משה התחיל, והמשכן הוקם מאליו.",
+      "זה יסוד חשוב לחיים: אנחנו משתדלים בכל הכוח, והקדוש ברוך הוא משלים את מה שאנחנו לא יכולים לבד."
+     ],
+     "pasuk": {
+      "text": "יְהִי רָצוֹן שֶׁתִּשְׁרֶה שְׁכִינָה בְּמַעֲשֵׂה יְדֵיכֶם",
+      "ref": "רש\"י, שמות לט, מג"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הענן מעל המשכן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Night in the desert camp: a soft pillar of warm glowing light rests above the Mishkan tent, the tents around it quiet under the stars, a few people outside looking up in awe.",
+     "move": "up",
+     "fx": "night",
+     "art": "⛺",
+     "say": [
+      "המשכן הוקם בראש חודש ניסן, שנה אחרי היציאה ממצרים. ובאותו יום כיסה הענן את אוהל מועד.",
+      "ביום ראו מעליו ענן, ובלילה מראה של אש. עם ישראל הבין: השכינה שורה בתוכנו.",
+      "כשהענן עלה מעל המשכן ידעו שהגיע הזמן לנסוע, וכשנח – חנו במקום. כך הלכו אחרי הענן כל שנות המדבר.",
+      "ובאותם ימים התחילו הכהנים לעבוד במשכן. אש יצאה מלפני השם ואכלה את הקורבן על המזבח, וכל העם ראו, רננו ונפלו על פניהם."
+     ],
+     "pasuk": {
+      "text": "כִּי עֲנַן ה' עַל הַמִּשְׁכָּן יוֹמָם, וְאֵשׁ תִּהְיֶה לַיְלָה בּוֹ",
+      "ref": "שמות מ, לח"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בית שיוצא לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Leviim carrying a covered ark on wooden poles on their shoulders through the desert, followed by ox carts loaded with folded curtains and boards, the tribes walking behind in long lines.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🚶 🚶 🐑",
+     "say": [
+      "בכל פעם שנסעו, הלוויים פירקו את המשכן ועטפו את הכלים בבדים. את הארון ואת הכלים נשאו על הכתפיים, ואת הקרשים והיריעות – בעגלות.",
+      "ארבעים שנה נדד המשכן עם עם ישראל במדבר. וגם כשנכנסו לארץ, הוא עמד שנים רבות בגלגל ובשילה.",
+      "אבל החלום היה גדול יותר: בית קבוע לשכינה, בית מאבן, במקום שהשם יבחר. ועל הבית הזה נלמד בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שאחרי שנכנסו לארץ, עמד המשכן בשילה 369 שנים."
+     }
+    }
+   ],
+   "id": "k-mik-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש הקדוש ברוך הוא ממשה לבנות?",
+   "answer": "משכן – בית שהשכינה תשרה בו",
+   "options": [
+    "משכן – בית שהשכינה תשרה בו",
+    "ארמון גדול למשה",
+    "חומה גבוהה סביב המחנה"
+   ],
+   "explain_he": "השם אמר: \"ועשו לי מקדש ושכנתי בתוכם\". המשכן היה בית לשכינה באמצע המחנה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש הקדוש ברוך הוא ממשה לבנות?",
+   "answer": "משכן – בית שהשכינה תשרה בו",
+   "options": [
+    "משכן – בית שהשכינה תשרה בו",
+    "ארמון גדול למשה",
+    "חומה גבוהה סביב המחנה"
+   ],
+   "explain_he": "השם אמר: \"ועשו לי מקדש ושכנתי בתוכם\". המשכן היה בית לשכינה באמצע המחנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ביקש משה מהעם להפסיק להביא תרומות?",
+   "answer": "כי הביאו יותר ממה שצריך",
+   "options": [
+    "כי הביאו יותר ממה שצריך",
+    "כי נגמר להם הזהב",
+    "כי המשכן כבר נסע למקום אחר"
+   ],
+   "explain_he": "העם היה נדיב כל כך, שהביאו יותר ממה שהיה צריך לעבודה, ומשה הודיע: אל תביאו עוד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ביקש משה מהעם להפסיק להביא תרומות?",
+   "answer": "כי הביאו יותר ממה שצריך",
+   "options": [
+    "כי הביאו יותר ממה שצריך",
+    "כי נגמר להם הזהב",
+    "כי המשכן כבר נסע למקום אחר"
+   ],
+   "explain_he": "העם היה נדיב כל כך, שהביאו יותר ממה שהיה צריך לעבודה, ומשה הודיע: אל תביאו עוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי נכנס לקודש הקודשים?",
+   "answer": "רק הכהן הגדול, ביום הכיפורים",
+   "options": [
+    "רק הכהן הגדול, ביום הכיפורים",
+    "כל הכהנים, בכל יום",
+    "כל מי שרצה, בשבת"
+   ],
+   "explain_he": "קודש הקודשים הוא המקום הקדוש ביותר. רק הכהן הגדול נכנס אליו, פעם אחת בשנה, ביום הכיפורים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי נכנס לקודש הקודשים?",
+   "answer": "רק הכהן הגדול, ביום הכיפורים",
+   "options": [
+    "רק הכהן הגדול, ביום הכיפורים",
+    "כל הכהנים, בכל יום",
+    "כל מי שרצה, בשבת"
+   ],
+   "explain_he": "קודש הקודשים הוא המקום הקדוש ביותר. רק הכהן הגדול נכנס אליו, פעם אחת בשנה, ביום הכיפורים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראו מעל המשכן בלילה?",
+   "answer": "אור, כמו אש",
+   "options": [
+    "אור, כמו אש",
+    "קשת צבעונית",
+    "כוכב אחד גדול"
+   ],
+   "explain_he": "ביום ראו מעל המשכן ענן, ובלילה ראו אור כמו אש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ידעו בני ישראל שהגיע הזמן לנסוע?",
+   "answer": "כשהענן עלה מעל המשכן",
+   "options": [
+    "כשהענן עלה מעל המשכן",
+    "כשנגמר להם האוכל",
+    "כשהשמש שקעה"
+   ],
+   "explain_he": "כשהענן עלה – נסעו, וכשהענן נח – עצרו. כך הלכו אחרי הענן כל שנות המדבר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ידעו בני ישראל שהגיע הזמן לנסוע?",
+   "answer": "כשהענן עלה מעל המשכן",
+   "options": [
+    "כשהענן עלה מעל המשכן",
+    "כשנגמר להם האוכל",
+    "כשהשמש שקעה"
+   ],
+   "explain_he": "כשהענן עלה – נסעו, וכשהענן נח – עצרו. כך הלכו אחרי הענן כל שנות המדבר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי נשא את הארון כשעם ישראל נסע?",
+   "answer": "הלוויים, על הכתפיים",
+   "options": [
+    "הלוויים, על הכתפיים",
+    "שוורים, בעגלה",
+    "משה, לבד"
+   ],
+   "explain_he": "הלוויים נשאו את הארון ואת הכלים הקדושים על הכתפיים. רק הקרשים והיריעות נסעו בעגלות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזה שבט היה בצלאל?",
+   "answer": "שבט יהודה",
+   "options": [
+    "שבט יהודה",
+    "שבט דן",
+    "שבט לוי"
+   ],
+   "explain_he": "בצלאל בן אורי היה משבט יהודה, ואהליאב שעבד איתו היה משבט דן. במשכן כולם שותפים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שימש כיור הנחושת?",
+   "answer": "הכהנים רחצו בו ידיים ורגליים לפני העבודה",
+   "options": [
+    "הכהנים רחצו בו ידיים ורגליים לפני העבודה",
+    "שתו ממנו מים במדבר",
+    "כיבסו בו את היריעות"
+   ],
+   "explain_he": "לפני שהכהנים עבדו במשכן, הם רחצו ידיים ורגליים בכיור הנחושת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f1e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כתוב \"ושכנתי בתוכם\" ולא \"בתוכו\"?",
+   "answer": "כדי ללמד שהשכינה שורה בתוך כל אחד ואחד",
+   "options": [
+    "כדי ללמד שהשכינה שורה בתוך כל אחד ואחד",
+    "כי היו הרבה אוהלים",
+    "כי המשכן היה גדול מאוד"
+   ],
+   "explain_he": "הסרט הסביר: לא כתוב \"בתוכו\" – בתוך המשכן – אלא \"בתוכם\", בתוך כל אחד מעם ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f1e15"
+  }
+ ]
+}

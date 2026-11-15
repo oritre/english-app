@@ -1,0 +1,637 @@
+{
+ "id": "k-zio-f8",
+ "unit_id": "k-zio-u3",
+ "course": "zionism",
+ "title_he": "כ״ט בנובמבר וה׳ באייר",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "כ״ט בנובמבר וה׳ באייר",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ליד הרדיו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A small Jerusalem apartment late at night in 1947, a family and neighbors crowded around an old radio on a table, the father with a kippah, the mother in a head covering, children in pajamas listening tensely, one lamp lit.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨👩👦👧",
+     "say": [
+      "מוצאי שבת, כ״ט בנובמבר 1947. השעה מאוחרת בלילה.",
+      "בבתים רבים בארץ, משפחות שלמות יושבות ליד מכשיר הרדיו. גם השכנים באו, כי לא בכל בית יש רדיו.",
+      "רחוק מאוד, באמריקה, מתכנסת עצרת האומות המאוחדות, האו״ם.",
+      "נציגי המדינות עומדים להצביע: האם לחלק את הארץ ולתת לעם היהודי מדינה?",
+      "כדי שההחלטה תעבור, צריך ששני שלישים מהמצביעים יגידו כן.",
+      "ברדיו נשמע קולו של הקריין, ולפעמים רעשים והפרעות. כל דקה נראית כמו שעה.",
+      "הילדים לא הולכים לישון. כולם מקשיבים בשקט, וסופרים כל קול.",
+      "בואו נקשיב יחד איתם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שלושים ושלוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Dawn in the streets of Jerusalem after the vote in 1947, crowds of people in modest coats and hats dancing in circles in the street, a father lifting a child on his shoulders, flags of blue and white, joyful light.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👨👩👦👧",
+     "say": [
+      "המדינות מצביעות, אחת אחרי השנייה. כן. לא. נמנעת. כן.",
+      "ואז מגיעה התוצאה: שלושים ושלוש בעד, שלוש עשרה נגד, ועשר נמנעו.",
+      "יש רוב של שני שלישים! האו״ם החליט שתקום בארץ ישראל מדינה יהודית.",
+      "באמצע הלילה, אנשים יצאו לרחובות. רקדו במעגלים, שרו, חיבקו זרים, ובכו מהתרגשות.",
+      "בבתי הכנסת אמרו תהילים והודו לקדוש ברוך הוא.",
+      "זוכרים מה כתב הרצל ביומנו? בעוד חמישים שנה יכירו בזה כולם. 1897 ועוד חמישים זה בדיוק 1947.",
+      "אבל עוד לפני שהשמחה נגמרה, התברר שהדרך לא תהיה קלה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ההצבעה הייתה בט״ז בכסלו תש״ח, בדיוק חמישים שנה אחרי הקונגרס הציוני הראשון, כמו שכתב הרצל ביומנו."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "חודשים של מתח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. David Ben-Gurion: a short sturdy man of sixty with tufts of white hair at the sides, dark suit, 1948. Scene: A tense spring of 1948 in a modest office in Tel Aviv, a few leaders in simple suits around a table with maps and papers, a sturdy white-haired man listening seriously, a window open to a street with sandbags.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨👨👨",
+     "say": [
+      "כבר למחרת ההצבעה, כנופיות ערביות התחילו לתקוף יהודים בדרכים וביישובים. על המלחמה הזאת נלמד בקורס מלחמות ישראל.",
+      "הבריטים הודיעו שיעזבו את הארץ באמצע מאי 1948.",
+      "מנהיגי היישוב היו צריכים להחליט: האם להכריז על מדינה מיד כשהבריטים יוצאים?",
+      "היו שיעצו לחכות. מדינות ערב איימו לפלוש, והיישוב היה קטן, בערך שש מאות וחמישים אלף יהודים.",
+      "בראש המנהיגים עמד דוד בן־גוריון, שעלה לארץ כצעיר ועבד בה עשרות שנים.",
+      "אחרי ויכוח קשה, הוחלט ברוב קולות: מכריזים.",
+      "הם ידעו שרגע כזה עלול לא לחזור עוד אלפיים שנה.",
+      "בכל הבתים התכוננו: אגרו מים ומזון, ובני הנוער התנדבו לשמירה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יום שישי, ארבע אחר הצהריים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. David Ben-Gurion: a short sturdy man of sixty with tufts of white hair at the sides, dark suit, 1948. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A modest hall in a Tel Aviv museum on May 14, 1948, rows of men in suits seated at a long table, a crowd of guests, a sturdy white-haired man standing and reading from a paper, a large portrait of a bearded man on the wall behind.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👨👴👨",
+     "say": [
+      "יום שישי, ה׳ באייר תש״ח, 14 במאי 1948.",
+      "באולם קטן של מוזיאון בתל אביב מתאספים נציגי העם. על הקיר תלויה תמונה גדולה של הרצל.",
+      "הטקס נקבע לשעה ארבע אחר הצהריים, כדי שיסתיים לפני כניסת השבת, ולפני שהבריטים עוזבים בחצות.",
+      "בן־גוריון קם, ומתחיל לקרוא את המגילה.",
+      "ואז מגיעות המילים שחיכו להן דורות: אנו מכריזים בזאת על הקמת מדינה יהודית בארץ ישראל, היא מדינת ישראל.",
+      "האולם כולו קם. אנשים בכו. בחוץ, ברחובות, חיכו אלפים ליד מכשירי הרדיו.",
+      "אחרי כמעט אלפיים שנה, עם ישראל שוב ריבון בארצו."
+     ],
+     "pasuk": {
+      "text": "אָנוּ מַכְרִיזִים בָּזֹאת עַל הֲקָמַת מְדִינָה יְהוּדִית בְּאֶרֶץ יִשְׂרָאֵל, הִיא מְדִינַת יִשְׂרָאֵל",
+      "ref": "מגילת העצמאות, ה׳ באייר תש״ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "צור ישראל ושהחיינו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Close view of a long table with signatures being added to a large document by men in suits, an elderly rabbi with a white beard and black hat standing with raised hands blessing, faces full of emotion, soft light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴👨👨",
+     "say": [
+      "על המגילה היו ויכוחים. הנציגים הדתיים רצו להזכיר בה את הקדוש ברוך הוא. נציגים אחרים לא רצו.",
+      "בסוף הסכימו על המילים: ומתוך ביטחון בצור ישראל.",
+      "צור ישראל הוא כינוי לקדוש ברוך הוא, הסלע והמגן של עמו, כמו שאומרים בתפילת שחרית.",
+      "בין החותמים היה הרב יהודה לייב מימון, ממנהיגי הציונות הדתית.",
+      "בסוף הטקס הוא קם, ובירך בקול: ברוך אתה ה׳ אלקינו מלך העולם, שהחיינו וקיימנו והגיענו לזמן הזה.",
+      "וכל הקהל ענה: אמן.",
+      "אחר כך שרו כולם את התקווה, והטקס נגמר. כעבור זמן קצר נכנסה השבת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במגילה נכתב \"מתוך ביטחון בצור ישראל\". צור ישראל הוא כינוי לקדוש ברוך הוא, כמו בתפילה: צור ישראל, קומה בעזרת ישראל."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "על כנפי נשרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A large propeller airplane on a desert airstrip at sunrise around 1949, Yemenite Jewish families in traditional modest clothes climbing the steps, an old man holding a Torah scroll wrapped in cloth, children gazing up in wonder.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴👨👩👧",
+     "say": [
+      "עכשיו, כשהשערים נפתחו, החלה קיבוץ גלויות גדול.",
+      "כבר בשנים הראשונות הגיעו לארץ מאות אלפי עולים: ניצולי השואה מאירופה, ויהודים מעיראק, ממרוקו, מלוב ומארצות רבות.",
+      "בשנים 1949 ו־1950 הובאו במטוסים כמעט חמישים אלף יהודים מתימן.",
+      "רבים מהם מעולם לא ראו מטוס. אבל הם לא נבהלו.",
+      "הם אמרו: זה בדיוק מה שכתוב בתורה, ואשא אתכם על כנפי נשרים ואביא אתכם אליי.",
+      "המבצע נקרא באמת על כנפי נשרים. הזקנים עלו למטוס כשהם מחבקים את ספרי התורה שלהם.",
+      "בתוך שנים מעטות, מספר היהודים בארץ גדל פי שניים. הם גרו באוהלים ובצריפים, אבל היו בבית."
+     ],
+     "pasuk": {
+      "text": "וָאֶשָּׂא אֶתְכֶם עַל כַּנְפֵי נְשָׁרִים וָאָבִא אֶתְכֶם אֵלָי",
+      "ref": "שמות יט, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "ונטעתים על אדמתם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A panoramic view of the Land of Israel at golden hour: green fields and orchards, villages with red roofs, the hills of Jerusalem in the distance, a father and his children with kippot standing on a hill looking out, doves flying.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨👦👧🕊️",
+     "say": [
+      "בואו נסתכל אחורה על כל הדרך שעברנו.",
+      "אלפיים שנה של תפילות: לשנה הבאה בירושלים.",
+      "תלמידי הבעל שם טוב ותלמידי הגר״א, שעלו בספינות מפרשים.",
+      "הרב אלקלעי והרב קלישר, ופתח תקווה ומקווה ישראל. הרצל והקונגרס בבזל, ובן־יהודה והשפה העברית.",
+      "הרב קוק ואהבת ישראל שלו, הצהרת בלפור, והמעפילים בלילה.",
+      "וכל זה הגיע לרגע אחד: יום שישי, ה׳ באייר.",
+      "הנביא עמוס ניבא: ונטעתים על אדמתם, ולא יינתשו עוד מעל אדמתם אשר נתתי להם.",
+      "אנחנו, הילדים של היום, חיים בתוך קיום הנבואה הזאת. וזה דבר שצריך להודות עליו לקדוש ברוך הוא, בכל יום מחדש."
+     ],
+     "pasuk": {
+      "text": "וּנְטַעְתִּים עַל אַדְמָתָם, וְלֹא יִנָּתְשׁוּ עוֹד מֵעַל אַדְמָתָם אֲשֶׁר נָתַתִּי לָהֶם",
+      "ref": "עמוס ט, טו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-zio-f8e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "כ״ט בנובמבר וה׳ באייר",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ליד הרדיו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A small Jerusalem apartment late at night in 1947, a family and neighbors crowded around an old radio on a table, the father with a kippah, the mother in a head covering, children in pajamas listening tensely, one lamp lit.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨👩👦👧",
+     "say": [
+      "מוצאי שבת, כ״ט בנובמבר 1947. השעה מאוחרת בלילה.",
+      "בבתים רבים בארץ, משפחות שלמות יושבות ליד מכשיר הרדיו. גם השכנים באו, כי לא בכל בית יש רדיו.",
+      "רחוק מאוד, באמריקה, מתכנסת עצרת האומות המאוחדות, האו״ם.",
+      "נציגי המדינות עומדים להצביע: האם לחלק את הארץ ולתת לעם היהודי מדינה?",
+      "כדי שההחלטה תעבור, צריך ששני שלישים מהמצביעים יגידו כן.",
+      "ברדיו נשמע קולו של הקריין, ולפעמים רעשים והפרעות. כל דקה נראית כמו שעה.",
+      "הילדים לא הולכים לישון. כולם מקשיבים בשקט, וסופרים כל קול.",
+      "בואו נקשיב יחד איתם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שלושים ושלוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Dawn in the streets of Jerusalem after the vote in 1947, crowds of people in modest coats and hats dancing in circles in the street, a father lifting a child on his shoulders, flags of blue and white, joyful light.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👨👩👦👧",
+     "say": [
+      "המדינות מצביעות, אחת אחרי השנייה. כן. לא. נמנעת. כן.",
+      "ואז מגיעה התוצאה: שלושים ושלוש בעד, שלוש עשרה נגד, ועשר נמנעו.",
+      "יש רוב של שני שלישים! האו״ם החליט שתקום בארץ ישראל מדינה יהודית.",
+      "באמצע הלילה, אנשים יצאו לרחובות. רקדו במעגלים, שרו, חיבקו זרים, ובכו מהתרגשות.",
+      "בבתי הכנסת אמרו תהילים והודו לקדוש ברוך הוא.",
+      "זוכרים מה כתב הרצל ביומנו? בעוד חמישים שנה יכירו בזה כולם. 1897 ועוד חמישים זה בדיוק 1947.",
+      "אבל עוד לפני שהשמחה נגמרה, התברר שהדרך לא תהיה קלה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ההצבעה הייתה בט״ז בכסלו תש״ח, בדיוק חמישים שנה אחרי הקונגרס הציוני הראשון, כמו שכתב הרצל ביומנו."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "חודשים של מתח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. David Ben-Gurion: a short sturdy man of sixty with tufts of white hair at the sides, dark suit, 1948. Scene: A tense spring of 1948 in a modest office in Tel Aviv, a few leaders in simple suits around a table with maps and papers, a sturdy white-haired man listening seriously, a window open to a street with sandbags.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨👨👨",
+     "say": [
+      "כבר למחרת ההצבעה, כנופיות ערביות התחילו לתקוף יהודים בדרכים וביישובים. על המלחמה הזאת נלמד בקורס מלחמות ישראל.",
+      "הבריטים הודיעו שיעזבו את הארץ באמצע מאי 1948.",
+      "מנהיגי היישוב היו צריכים להחליט: האם להכריז על מדינה מיד כשהבריטים יוצאים?",
+      "היו שיעצו לחכות. מדינות ערב איימו לפלוש, והיישוב היה קטן, בערך שש מאות וחמישים אלף יהודים.",
+      "בראש המנהיגים עמד דוד בן־גוריון, שעלה לארץ כצעיר ועבד בה עשרות שנים.",
+      "אחרי ויכוח קשה, הוחלט ברוב קולות: מכריזים.",
+      "הם ידעו שרגע כזה עלול לא לחזור עוד אלפיים שנה.",
+      "בכל הבתים התכוננו: אגרו מים ומזון, ובני הנוער התנדבו לשמירה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יום שישי, ארבע אחר הצהריים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. David Ben-Gurion: a short sturdy man of sixty with tufts of white hair at the sides, dark suit, 1948. Theodor Herzl: a tall man of about forty with a full dark beard and dark hair, dark formal suit, 1890s. Scene: A modest hall in a Tel Aviv museum on May 14, 1948, rows of men in suits seated at a long table, a crowd of guests, a sturdy white-haired man standing and reading from a paper, a large portrait of a bearded man on the wall behind.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👨👴👨",
+     "say": [
+      "יום שישי, ה׳ באייר תש״ח, 14 במאי 1948.",
+      "באולם קטן של מוזיאון בתל אביב מתאספים נציגי העם. על הקיר תלויה תמונה גדולה של הרצל.",
+      "הטקס נקבע לשעה ארבע אחר הצהריים, כדי שיסתיים לפני כניסת השבת, ולפני שהבריטים עוזבים בחצות.",
+      "בן־גוריון קם, ומתחיל לקרוא את המגילה.",
+      "ואז מגיעות המילים שחיכו להן דורות: אנו מכריזים בזאת על הקמת מדינה יהודית בארץ ישראל, היא מדינת ישראל.",
+      "האולם כולו קם. אנשים בכו. בחוץ, ברחובות, חיכו אלפים ליד מכשירי הרדיו.",
+      "אחרי כמעט אלפיים שנה, עם ישראל שוב ריבון בארצו."
+     ],
+     "pasuk": {
+      "text": "אָנוּ מַכְרִיזִים בָּזֹאת עַל הֲקָמַת מְדִינָה יְהוּדִית בְּאֶרֶץ יִשְׂרָאֵל, הִיא מְדִינַת יִשְׂרָאֵל",
+      "ref": "מגילת העצמאות, ה׳ באייר תש״ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "צור ישראל ושהחיינו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Close view of a long table with signatures being added to a large document by men in suits, an elderly rabbi with a white beard and black hat standing with raised hands blessing, faces full of emotion, soft light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴👨👨",
+     "say": [
+      "על המגילה היו ויכוחים. הנציגים הדתיים רצו להזכיר בה את הקדוש ברוך הוא. נציגים אחרים לא רצו.",
+      "בסוף הסכימו על המילים: ומתוך ביטחון בצור ישראל.",
+      "צור ישראל הוא כינוי לקדוש ברוך הוא, הסלע והמגן של עמו, כמו שאומרים בתפילת שחרית.",
+      "בין החותמים היה הרב יהודה לייב מימון, ממנהיגי הציונות הדתית.",
+      "בסוף הטקס הוא קם, ובירך בקול: ברוך אתה ה׳ אלקינו מלך העולם, שהחיינו וקיימנו והגיענו לזמן הזה.",
+      "וכל הקהל ענה: אמן.",
+      "אחר כך שרו כולם את התקווה, והטקס נגמר. כעבור זמן קצר נכנסה השבת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במגילה נכתב \"מתוך ביטחון בצור ישראל\". צור ישראל הוא כינוי לקדוש ברוך הוא, כמו בתפילה: צור ישראל, קומה בעזרת ישראל."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "לא חדל מתפילה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: An old parchment-like document resting on a table beside an open siddur and a pair of Shabbat candlesticks, warm evening light from a window, no readable text, a quiet solemn mood.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🕊️",
+     "say": [
+      "בואו נקרא עוד כמה מילים מתוך המגילה.",
+      "היא פותחת כך: בארץ ישראל קם העם היהודי, בה עוצבה דמותו הרוחנית, הדתית והמדינית. כאן הנחיל לעולם כולו את ספר הספרים הנצחי.",
+      "ספר הספרים הוא התנ״ך. המגילה מתחילה בקשר של עם ישראל לארצו מימי התנ״ך.",
+      "ועוד כתוב בה שהעם, בכל ארצות פזוריו, לא חדל מתפילה ומתקווה לשוב לארצו.",
+      "זוכרים את הפרק הראשון? לשנה הבאה בירושלים, תקע בשופר גדול, ותחזינה עינינו.",
+      "אנשים שכתבו את המגילה, גם כאלה שהיו רחוקים מתורה, הבינו שאי אפשר לספר את סיפור העם בלי התפילות.",
+      "מגילת העצמאות עצמה מעידה: התפילות האלה הן ששמרו על העם, והן שהביאו אותו הביתה.",
+      "עוד נאמר במגילה שהמדינה תהיה פתוחה לעלייה יהודית ולקיבוץ גלויות. השערים שנסגרו בימי הספר הלבן נפתחו לרווחה."
+     ],
+     "pasuk": {
+      "text": "לאחר שהוגלה העם מארצו בכוח הזרוע, שמר לה אמונים בכל ארצות פזוריו, ולא חדל מתפילה ומתקווה לשוב לארצו",
+      "ref": "מגילת העצמאות"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ראשית צמיחת גאולתנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A synagogue in Jerusalem on a Shabbat morning in 1948, men in tallitot standing as the rabbi at the bimah reads a prayer from a small booklet, boys beside their fathers, sunlight streaming through high windows.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👴👦",
+     "say": [
+      "זמן קצר אחרי קום המדינה, הרבנות הראשית, בראשות הרב יצחק אייזיק הלוי הרצוג, קבעה תפילה מיוחדת.",
+      "זו התפילה לשלום המדינה, שאומרים בבתי כנסת רבים בשבת אחרי קריאת התורה.",
+      "יש בה בקשה: אבינו שבשמיים, צור ישראל וגואלו, ברך את מדינת ישראל, ראשית צמיחת גאולתנו.",
+      "ראשית צמיחה, כלומר, עדיין לא הגאולה השלמה, אבל התחלה שצומחת, כמו נבט קטן מן האדמה.",
+      "כך הרבה יהודים יראי שמיים ראו את המדינה: לא סוף הדרך, אלא שלב חשוב בדרך שהבטיחו הנביאים.",
+      "ויש גם גדולי תורה שראו את הדברים אחרת, והתפללו בעיקר על הגאולה השלמה. אבל כולם רצו בשלום הארץ ויושביה.",
+      "ובכל שנה, בה׳ באייר, בקהילות רבות אומרים הלל ומודים לקדוש ברוך הוא על הנס.",
+      "ואנחנו ממשיכים להתפלל על בניין בית המקדש ועל הגאולה השלמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "על כנפי נשרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A large propeller airplane on a desert airstrip at sunrise around 1949, Yemenite Jewish families in traditional modest clothes climbing the steps, an old man holding a Torah scroll wrapped in cloth, children gazing up in wonder.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴👨👩👧",
+     "say": [
+      "עכשיו, כשהשערים נפתחו, החלה קיבוץ גלויות גדול.",
+      "כבר בשנים הראשונות הגיעו לארץ מאות אלפי עולים: ניצולי השואה מאירופה, ויהודים מעיראק, ממרוקו, מלוב ומארצות רבות.",
+      "בשנים 1949 ו־1950 הובאו במטוסים כמעט חמישים אלף יהודים מתימן.",
+      "רבים מהם מעולם לא ראו מטוס. אבל הם לא נבהלו.",
+      "הם אמרו: זה בדיוק מה שכתוב בתורה, ואשא אתכם על כנפי נשרים ואביא אתכם אליי.",
+      "המבצע נקרא באמת על כנפי נשרים. הזקנים עלו למטוס כשהם מחבקים את ספרי התורה שלהם.",
+      "בתוך שנים מעטות, מספר היהודים בארץ גדל פי שניים. הם גרו באוהלים ובצריפים, אבל היו בבית."
+     ],
+     "pasuk": {
+      "text": "וָאֶשָּׂא אֶתְכֶם עַל כַּנְפֵי נְשָׁרִים וָאָבִא אֶתְכֶם אֵלָי",
+      "ref": "שמות יט, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "ונטעתים על אדמתם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A panoramic view of the Land of Israel at golden hour: green fields and orchards, villages with red roofs, the hills of Jerusalem in the distance, a father and his children with kippot standing on a hill looking out, doves flying.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨👦👧🕊️",
+     "say": [
+      "בואו נסתכל אחורה על כל הדרך שעברנו.",
+      "אלפיים שנה של תפילות: לשנה הבאה בירושלים.",
+      "תלמידי הבעל שם טוב ותלמידי הגר״א, שעלו בספינות מפרשים.",
+      "הרב אלקלעי והרב קלישר, ופתח תקווה ומקווה ישראל. הרצל והקונגרס בבזל, ובן־יהודה והשפה העברית.",
+      "הרב קוק ואהבת ישראל שלו, הצהרת בלפור, והמעפילים בלילה.",
+      "וכל זה הגיע לרגע אחד: יום שישי, ה׳ באייר.",
+      "הנביא עמוס ניבא: ונטעתים על אדמתם, ולא יינתשו עוד מעל אדמתם אשר נתתי להם.",
+      "אנחנו, הילדים של היום, חיים בתוך קיום הנבואה הזאת. וזה דבר שצריך להודות עליו לקדוש ברוך הוא, בכל יום מחדש."
+     ],
+     "pasuk": {
+      "text": "וּנְטַעְתִּים עַל אַדְמָתָם, וְלֹא יִנָּתְשׁוּ עוֹד מֵעַל אַדְמָתָם אֲשֶׁר נָתַתִּי לָהֶם",
+      "ref": "עמוס ט, טו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-zio-f8e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי הצביע האו״ם על הקמת מדינה יהודית?",
+   "answer": "בכ״ט בנובמבר 1947",
+   "options": [
+    "בכ״ט בנובמבר 1947",
+    "בה׳ באייר תש״ח",
+    "ב־2 בנובמבר 1917"
+   ],
+   "explain_he": "ההצבעה הייתה במוצאי שבת, כ״ט בנובמבר 1947, ט״ז בכסלו תש״ח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f8e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי הצביע האו״ם על הקמת מדינה יהודית?",
+   "answer": "בכ״ט בנובמבר 1947",
+   "options": [
+    "בכ״ט בנובמבר 1947",
+    "בה׳ באייר תש״ח",
+    "ב־2 בנובמבר 1917"
+   ],
+   "explain_he": "ההצבעה הייתה במוצאי שבת, כ״ט בנובמבר 1947, ט״ז בכסלו תש״ח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה מדינות הצביעו בעד?",
+   "answer": "שלושים ושלוש",
+   "options": [
+    "שלושים ושלוש",
+    "שלוש עשרה",
+    "עשר"
+   ],
+   "explain_he": "שלושים ושלוש בעד, שלוש עשרה נגד ועשר נמנעו. היה רוב של שני שלישים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f8e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה מדינות הצביעו בעד?",
+   "answer": "שלושים ושלוש",
+   "options": [
+    "שלושים ושלוש",
+    "שלוש עשרה",
+    "עשר"
+   ],
+   "explain_he": "שלושים ושלוש בעד, שלוש עשרה נגד ועשר נמנעו. היה רוב של שני שלישים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקבע טקס ההכרזה לשעה ארבע אחר הצהריים ביום שישי?",
+   "answer": "כדי שיסתיים לפני כניסת השבת ולפני שהבריטים עוזבים",
+   "options": [
+    "כדי שיסתיים לפני כניסת השבת ולפני שהבריטים עוזבים",
+    "כי הרדיו שידר רק בשעה הזאת",
+    "כי אז הסתיים יום העבודה בנמל"
+   ],
+   "explain_he": "הטקס הסתיים לפני שבת, ובחצות הסתיים השלטון הבריטי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f8e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקבע טקס ההכרזה לשעה ארבע אחר הצהריים ביום שישי?",
+   "answer": "כדי שיסתיים לפני כניסת השבת ולפני שהבריטים עוזבים",
+   "options": [
+    "כדי שיסתיים לפני כניסת השבת ולפני שהבריטים עוזבים",
+    "כי הרדיו שידר רק בשעה הזאת",
+    "כי אז הסתיים יום העבודה בנמל"
+   ],
+   "explain_he": "הטקס הסתיים לפני שבת, ובחצות הסתיים השלטון הבריטי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי קרא את מגילת העצמאות?",
+   "answer": "דוד בן־גוריון",
+   "options": [
+    "דוד בן־גוריון",
+    "חיים ויצמן",
+    "הרב קוק"
+   ],
+   "explain_he": "בן־גוריון קרא את המגילה באולם המוזיאון בתל אביב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f8e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי קרא את מגילת העצמאות?",
+   "answer": "דוד בן־גוריון",
+   "options": [
+    "דוד בן־גוריון",
+    "חיים ויצמן",
+    "הרב קוק"
+   ],
+   "explain_he": "בן־גוריון קרא את המגילה באולם המוזיאון בתל אביב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה בירך הרב מימון בסוף הטקס?",
+   "answer": "שהחיינו",
+   "options": [
+    "שהחיינו",
+    "הגומל",
+    "המוציא"
+   ],
+   "explain_he": "הרב יהודה לייב מימון בירך שהחיינו, וכל הקהל ענה אמן.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f8e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה בירך הרב מימון בסוף הטקס?",
+   "answer": "שהחיינו",
+   "options": [
+    "שהחיינו",
+    "הגומל",
+    "המוציא"
+   ],
+   "explain_he": "הרב יהודה לייב מימון בירך שהחיינו, וכל הקהל ענה אמן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ראו עולי תימן את המטוסים כקיום של פסוק?",
+   "answer": "כי בתורה כתוב \"ואשא אתכם על כנפי נשרים\"",
+   "options": [
+    "כי בתורה כתוב \"ואשא אתכם על כנפי נשרים\"",
+    "כי בתורה כתוב שהם ישובו ברגל",
+    "כי הנביא ניבא על אוניות גדולות"
+   ],
+   "explain_he": "עולי תימן אמרו שהמטוסים הם כנפי הנשרים שעליהם מדברת התורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f8e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ראו עולי תימן את המטוסים כקיום של פסוק?",
+   "answer": "כי בתורה כתוב \"ואשא אתכם על כנפי נשרים\"",
+   "options": [
+    "כי בתורה כתוב \"ואשא אתכם על כנפי נשרים\"",
+    "כי בתורה כתוב שהם ישובו ברגל",
+    "כי הנביא ניבא על אוניות גדולות"
+   ],
+   "explain_he": "עולי תימן אמרו שהמטוסים הם כנפי הנשרים שעליהם מדברת התורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"צור ישראל\" במגילת העצמאות?",
+   "answer": "כינוי לקדוש ברוך הוא, הסלע והמגן של עמו",
+   "options": [
+    "כינוי לקדוש ברוך הוא, הסלע והמגן של עמו",
+    "שם של הר בגליל",
+    "שם של עיר בצפון"
+   ],
+   "explain_he": "צור ישראל הוא כינוי לקדוש ברוך הוא, כמו בתפילה \"צור ישראל, קומה בעזרת ישראל\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f8e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"צור ישראל\" במגילת העצמאות?",
+   "answer": "כינוי לקדוש ברוך הוא, הסלע והמגן של עמו",
+   "options": [
+    "כינוי לקדוש ברוך הוא, הסלע והמגן של עמו",
+    "שם של הר בגליל",
+    "שם של עיר בצפון"
+   ],
+   "explain_he": "צור ישראל הוא כינוי לקדוש ברוך הוא, כמו בתפילה \"צור ישראל, קומה בעזרת ישראל\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתוב במגילת העצמאות על העם בגלות?",
+   "answer": "שלא חדל מתפילה ומתקווה לשוב לארצו",
+   "options": [
+    "שלא חדל מתפילה ומתקווה לשוב לארצו",
+    "שהוא שכח את ארצו",
+    "שהוא חזר רק בגלל הצהרת בלפור"
+   ],
+   "explain_he": "המגילה מעידה שהעם שמר אמונים לארצו בכל ארצות פזוריו, ולא חדל מתפילה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"ראשית צמיחת גאולתנו\"?",
+   "answer": "התחלה של הגאולה, שצומחת לאט, ועדיין איננה הגאולה השלמה",
+   "options": [
+    "התחלה של הגאולה, שצומחת לאט, ועדיין איננה הגאולה השלמה",
+    "שהגאולה השלמה כבר הגיעה",
+    "שאין קשר בין המדינה לגאולה"
+   ],
+   "explain_he": "כמו נבט קטן שצומח מן האדמה: התחלה חשובה, והמשך התפילה לגאולה השלמה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f8e18"
+  }
+ ]
+}

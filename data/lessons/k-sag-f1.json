@@ -1,0 +1,489 @@
+{
+ "id": "k-sag-f1",
+ "unit_id": "k-sag-u1",
+ "course": "sages",
+ "title_he": "הלל ושמאי",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "הלל ושמאי",
+   "ref_he": "גדולי ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "snow",
+     "title_he": "שלג על הגג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Scene: Night in winter in ancient Jerusalem: a poor young man lies on the flat roof of a stone study hall, listening through a small skylight, with gentle snow falling on him; warm lamplight glows up through the opening from the sages inside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "ערב שבת, בחורף קר מאוד. על גג של בית מדרש בירושלים שוכב אדם צעיר, ושלג יורד עליו. מה הוא עושה שם? בואו נשמע.",
+      "הצעיר הזה הוא הלל. הוא עלה מבבל לארץ ישראל כדי ללמוד תורה, והיה עני מאוד.",
+      "בכל יום עבד הלל והרוויח מטבע קטן. חצי מהמטבע נתן לשומר של בית המדרש כדי שיכניס אותו ללמוד, ובחצי השני פרנס את ביתו.",
+      "יום אחד לא מצא הלל עבודה, ולא היה לו כסף לשומר. אז הוא טיפס על הגג, והקשיב דרך החלון שבתקרה לתורה של שני גדולי הדור, שמעיה ואבטליון.",
+      "הוא היה כל כך שקוע בלימוד, שלא הרגיש שהשלג מכסה אותו. בבוקר, בשבת, אמר שמעיה לאבטליון: למה הבית חשוך היום? הם הביטו למעלה, וראו צורת אדם בחלון.",
+      "הם הורידו את הלל, רחצו אותו וחיממו אותו ליד האש. ואמרו: ראוי הוא שנחלל עליו את השבת. כי הצלת חיים דוחה שבת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את הסיפור הזה מספרת הגמרא במסכת יומא. החכמים אמרו: \"הלל מחייב את העניים\"."
+     }
+    },
+    {
+     "id": "nasi",
+     "title_he": "הנשיא הענו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Shammai: a Torah sage with a dark-grey beard and an upright serious bearing, a dark woollen cloak and head covering, Second Temple era. Scene: Daylight in a Second Temple era study hall in Jerusalem: two elderly sages sit side by side on low benches before rows of attentive students, the Temple Mount visible through an arched window in soft morning light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👴",
+     "say": [
+      "הלל גדל והיה לגדול הדור. הוא נעשה הנשיא, ראש החכמים של עם ישראל, בערך מאה שנה לפני חורבן בית המקדש השני.",
+      "לצידו עמד חכם גדול נוסף: שמאי. שניהם היו הזוג האחרון בשרשרת של \"זוגות\", חכמים שהנהיגו את העם בתקופת הבית השני.",
+      "הלל היה ידוע בענווה ובסבלנות שלו. שמאי היה ידוע באהבת האמת ובהקפדה על כל פרט בהלכה. ושניהם אהבו את התורה בכל ליבם.",
+      "ואל תחשבו ששמאי לא אהב אנשים. דווקא הוא אמר במשנה: הוי מקבל את כל האדם בסבר פנים יפות. כלומר, קבל כל אדם בפנים מאירות.",
+      "איך נעשה הלל לנשיא? פעם שכחו ראשי החכמים, בני בתירא, הלכה חשובה: מה עושים עם קורבן הפסח כשערב פסח חל בשבת?",
+      "אמרו: יש כאן אדם שעלה מבבל, ולמד אצל שמעיה ואבטליון. שאלו את הלל, והוא הוכיח להם שמקריבים את הפסח גם בשבת. מיד מינו אותו לנשיא."
+     ],
+     "pasuk": {
+      "text": "הוי מקבל את כל האדם בסבר פנים יפות",
+      "ref": "שמאי, פרקי אבות א, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "bet",
+     "title_he": "מי יצליח להרגיז את הלל?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Scene: Friday afternoon in an old Jerusalem lane: a calm sage stands in the doorway of his modest stone house, wrapped in a cloak, patiently answering a man who gestures with a cheeky question; golden pre-Shabbat light.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨",
+     "say": [
+      "חז\"ל מספרים על שני אנשים שעשו התערבות. אחד אמר: מי שיצליח להרגיז את הלל, יקבל ממני ארבע מאות זוז. זה היה סכום גדול מאוד.",
+      "זה היה ביום שישי, והלל רחץ את ראשו לכבוד שבת. האיש עבר ליד הבית וצעק: מי כאן הלל? מי כאן הלל?",
+      "הלל התעטף ויצא אליו בנחת. בני, מה אתה מבקש? והאיש שאל שאלה משונה: למה הראשים של הבבלים עגולים? הלל ענה לו בסבלנות: שאלה גדולה שאלת. ונתן לו תשובה.",
+      "האיש חזר שוב ושוב, שלוש פעמים, עם שאלות מוזרות. ובכל פעם הלל יצא אליו, וענה לו בכבוד ובשקט.",
+      "בסוף אמר האיש בכעס: בגללך הפסדתי ארבע מאות זוז! והלל ענה לו: כדאי הוא הלל שתפסיד בגללו ארבע מאות זוז, ועוד ארבע מאות זוז, והלל לא יקפיד."
+     ],
+     "pasuk": {
+      "text": "לעולם יהא אדם ענוותן כהלל, ואל יהא קפדן כשמאי",
+      "ref": "שבת ל ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "foot",
+     "title_he": "על רגל אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Scene: A sunlit courtyard in ancient Jerusalem: a kind elderly sage gently welcomes a foreign man in a traveller's cloak who stands on one foot, half smiling; the sage raises one finger as he teaches.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 🚶",
+     "say": [
+      "פעם בא נכרי אל שמאי ואמר: אני רוצה להתגייר, בתנאי שתלמד אותי את כל התורה כולה כשאני עומד על רגל אחת.",
+      "שמאי ידע שאי אפשר ללמוד את כל התורה ברגע, וראה שהבקשה הזאת אינה רצינית. לכן דחה אותו.",
+      "הנכרי הלך אל הלל. הלל קיבל אותו בסבר פנים יפות, ואמר לו: מה ששנוא עליך, אל תעשה לחברך. זו היא כל התורה כולה, והשאר הוא הפירוש. לך ולמד.",
+      "והאיש באמת הלך ולמד, ונעשה יהודי ירא שמים."
+     ],
+     "pasuk": {
+      "text": "דעלך סני לחברך לא תעביד, זו היא כל התורה כולה, ואידך פירושה הוא, זיל גמור",
+      "ref": "שבת לא ע\"א"
+     },
+     "note": null
+    },
+    {
+     "id": "houses",
+     "title_he": "בית הלל ובית שמאי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Two groups of young Torah students in modest robes debate warmly across a long wooden table in a lamp-lit study hall, open scrolls between them, faces earnest and respectful, one student listening with his hand on his heart.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👦 👦 👦",
+     "say": [
+      "התלמידים של הלל נקראו \"בית הלל\", והתלמידים של שמאי נקראו \"בית שמאי\". במשך שנים רבות הם התווכחו בהרבה שאלות בהלכה.",
+      "הגמרא מספרת שפעם נמשך ויכוח שלוש שנים, עד שיצא קול מן השמים ואמר: שתי הדעות הן דברי תורה אמיתיים, אבל ההלכה היא כבית הלל.",
+      "למה דווקא כבית הלל? הגמרא עונה: כי הם היו נוחים וענווים. הם למדו גם את דברי בית שמאי, ואפילו הקדימו את דברי בית שמאי לדבריהם.",
+      "ועוד דבר מופלא: למרות המחלוקות, המשפחות של בית הלל ובית שמאי נקשרו זו בזו בשידוכים. הם התווכחו בתורה, ונשארו אחים.",
+      "זה שיעור גדול לכולנו: אפשר לחלוק על מישהו בדברי תורה, ועדיין לכבד אותו ולאהוב אותו."
+     ],
+     "pasuk": {
+      "text": "אלו ואלו דברי אלקים חיים, והלכה כבית הלל",
+      "ref": "עירובין יג ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "chain",
+     "title_he": "שושלת של נשיאים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A wide view of the hills of the Land of Israel at sunrise, with a long path winding into the distance and a row of small oil lamps along the path, each one lit from the one before it.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨",
+     "say": [
+      "הלל זכה לבנים ולנכדים שהמשיכו בדרכו. במשך דורות רבים, הנשיאים של עם ישראל היו מצאצאיו.",
+      "אחד מהם, רבי יהודה הנשיא, יכתוב אחרי שנים את המשנה. נפגוש אותו בעוד שני שיעורים.",
+      "אז מה למדנו מהלל ושמאי? ללמוד תורה גם כשקשה, לקבל כל אדם בפנים מאירות, להיות סבלניים, ולהתווכח רק לשם שמים, באהבה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sag-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "הלל ושמאי",
+   "ref_he": "גדולי ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "snow",
+     "title_he": "שלג על הגג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Scene: Night in winter in ancient Jerusalem: a poor young man lies on the flat roof of a stone study hall, listening through a small skylight, with gentle snow falling on him; warm lamplight glows up through the opening from the sages inside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "ערב שבת, בחורף קר מאוד. על גג של בית מדרש בירושלים שוכב אדם צעיר, ושלג יורד עליו. מה הוא עושה שם? בואו נשמע.",
+      "הצעיר הזה הוא הלל. הוא עלה מבבל לארץ ישראל כדי ללמוד תורה, והיה עני מאוד.",
+      "בכל יום עבד הלל והרוויח מטבע קטן. חצי מהמטבע נתן לשומר של בית המדרש כדי שיכניס אותו ללמוד, ובחצי השני פרנס את ביתו.",
+      "יום אחד לא מצא הלל עבודה, ולא היה לו כסף לשומר. אז הוא טיפס על הגג, והקשיב דרך החלון שבתקרה לתורה של שני גדולי הדור, שמעיה ואבטליון.",
+      "הוא היה כל כך שקוע בלימוד, שלא הרגיש שהשלג מכסה אותו. בבוקר, בשבת, אמר שמעיה לאבטליון: למה הבית חשוך היום? הם הביטו למעלה, וראו צורת אדם בחלון.",
+      "הם הורידו את הלל, רחצו אותו וחיממו אותו ליד האש. ואמרו: ראוי הוא שנחלל עליו את השבת. כי הצלת חיים דוחה שבת.",
+      "חז\"ל לומדים מכאן משפט חשוב: הלל מחייב את העניים. אף אחד לא יכול לומר: הייתי עני מדי בשביל ללמוד תורה. כי הלל היה עני מאוד, ובכל זאת למד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את הסיפור הזה מספרת הגמרא במסכת יומא. החכמים אמרו: \"הלל מחייב את העניים\"."
+     }
+    },
+    {
+     "id": "nasi",
+     "title_he": "הנשיא הענו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Shammai: a Torah sage with a dark-grey beard and an upright serious bearing, a dark woollen cloak and head covering, Second Temple era. Scene: Daylight in a Second Temple era study hall in Jerusalem: two elderly sages sit side by side on low benches before rows of attentive students, the Temple Mount visible through an arched window in soft morning light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👴",
+     "say": [
+      "הלל גדל והיה לגדול הדור. הוא נעשה הנשיא, ראש החכמים של עם ישראל, בערך מאה שנה לפני חורבן בית המקדש השני.",
+      "לצידו עמד חכם גדול נוסף: שמאי. שניהם היו הזוג האחרון בשרשרת של \"זוגות\", חכמים שהנהיגו את העם בתקופת הבית השני.",
+      "הלל היה ידוע בענווה ובסבלנות שלו. שמאי היה ידוע באהבת האמת ובהקפדה על כל פרט בהלכה. ושניהם אהבו את התורה בכל ליבם.",
+      "ואל תחשבו ששמאי לא אהב אנשים. דווקא הוא אמר במשנה: הוי מקבל את כל האדם בסבר פנים יפות. כלומר, קבל כל אדם בפנים מאירות.",
+      "איך נעשה הלל לנשיא? פעם שכחו ראשי החכמים, בני בתירא, הלכה חשובה: מה עושים עם קורבן הפסח כשערב פסח חל בשבת?",
+      "אמרו: יש כאן אדם שעלה מבבל, ולמד אצל שמעיה ואבטליון. שאלו את הלל, והוא הוכיח להם שמקריבים את הפסח גם בשבת. מיד מינו אותו לנשיא."
+     ],
+     "pasuk": {
+      "text": "הוי מקבל את כל האדם בסבר פנים יפות",
+      "ref": "שמאי, פרקי אבות א, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "bet",
+     "title_he": "מי יצליח להרגיז את הלל?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Scene: Friday afternoon in an old Jerusalem lane: a calm sage stands in the doorway of his modest stone house, wrapped in a cloak, patiently answering a man who gestures with a cheeky question; golden pre-Shabbat light.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨",
+     "say": [
+      "חז\"ל מספרים על שני אנשים שעשו התערבות. אחד אמר: מי שיצליח להרגיז את הלל, יקבל ממני ארבע מאות זוז. זה היה סכום גדול מאוד.",
+      "זה היה ביום שישי, והלל רחץ את ראשו לכבוד שבת. האיש עבר ליד הבית וצעק: מי כאן הלל? מי כאן הלל?",
+      "הלל התעטף ויצא אליו בנחת. בני, מה אתה מבקש? והאיש שאל שאלה משונה: למה הראשים של הבבלים עגולים? הלל ענה לו בסבלנות: שאלה גדולה שאלת. ונתן לו תשובה.",
+      "האיש חזר שוב ושוב, שלוש פעמים, עם שאלות מוזרות. ובכל פעם הלל יצא אליו, וענה לו בכבוד ובשקט.",
+      "בסוף אמר האיש בכעס: בגללך הפסדתי ארבע מאות זוז! והלל ענה לו: כדאי הוא הלל שתפסיד בגללו ארבע מאות זוז, ועוד ארבע מאות זוז, והלל לא יקפיד."
+     ],
+     "pasuk": {
+      "text": "לעולם יהא אדם ענוותן כהלל, ואל יהא קפדן כשמאי",
+      "ref": "שבת ל ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "foot",
+     "title_he": "על רגל אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Scene: A sunlit courtyard in ancient Jerusalem: a kind elderly sage gently welcomes a foreign man in a traveller's cloak who stands on one foot, half smiling; the sage raises one finger as he teaches.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 🚶",
+     "say": [
+      "פעם בא נכרי אל שמאי ואמר: אני רוצה להתגייר, בתנאי שתלמד אותי את כל התורה כולה כשאני עומד על רגל אחת.",
+      "שמאי ידע שאי אפשר ללמוד את כל התורה ברגע, וראה שהבקשה הזאת אינה רצינית. לכן דחה אותו.",
+      "הנכרי הלך אל הלל. הלל קיבל אותו בסבר פנים יפות, ואמר לו: מה ששנוא עליך, אל תעשה לחברך. זו היא כל התורה כולה, והשאר הוא הפירוש. לך ולמד.",
+      "והאיש באמת הלך ולמד, ונעשה יהודי ירא שמים.",
+      "שימו לב: הלל לא אמר לו \"זה מספיק\". הוא אמר \"זיל גמור\", לך ולמד. האהבה לחבר היא הפתח, והתורה כולה היא הבית שנכנסים אליו.",
+      "הגמרא מספרת שבאו אל הלל עוד שני נכרים עם בקשות משונות. שמאי דחה אותם, והלל קירב אותם, וכולם התגיירו.",
+      "אחר כך נפגשו שלושתם ואמרו: הקפדנות של שמאי כמעט הרחיקה אותנו, והענווה של הלל קירבה אותנו תחת כנפי השכינה."
+     ],
+     "pasuk": {
+      "text": "דעלך סני לחברך לא תעביד, זו היא כל התורה כולה, ואידך פירושה הוא, זיל גמור",
+      "ref": "שבת לא ע\"א"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "המשפט של הלל נאמר בארמית, שהייתה אז שפת הדיבור של היהודים."
+     }
+    },
+    {
+     "id": "houses",
+     "title_he": "בית הלל ובית שמאי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Two groups of young Torah students in modest robes debate warmly across a long wooden table in a lamp-lit study hall, open scrolls between them, faces earnest and respectful, one student listening with his hand on his heart.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👦 👦 👦",
+     "say": [
+      "התלמידים של הלל נקראו \"בית הלל\", והתלמידים של שמאי נקראו \"בית שמאי\". במשך שנים רבות הם התווכחו בהרבה שאלות בהלכה.",
+      "הגמרא מספרת שפעם נמשך ויכוח שלוש שנים, עד שיצא קול מן השמים ואמר: שתי הדעות הן דברי תורה אמיתיים, אבל ההלכה היא כבית הלל.",
+      "למה דווקא כבית הלל? הגמרא עונה: כי הם היו נוחים וענווים. הם למדו גם את דברי בית שמאי, ואפילו הקדימו את דברי בית שמאי לדבריהם.",
+      "ועוד דבר מופלא: למרות המחלוקות, המשפחות של בית הלל ובית שמאי נקשרו זו בזו בשידוכים. הם התווכחו בתורה, ונשארו אחים.",
+      "זה שיעור גדול לכולנו: אפשר לחלוק על מישהו בדברי תורה, ועדיין לכבד אותו ולאהוב אותו.",
+      "בפרקי אבות כתוב: כל מחלוקת שהיא לשם שמים, סופה להתקיים. ואיזו היא מחלוקת לשם שמים? מחלוקת הלל ושמאי. כי שניהם רצו רק דבר אחד: לדעת מה רצון השם."
+     ],
+     "pasuk": {
+      "text": "אלו ואלו דברי אלקים חיים, והלכה כבית הלל",
+      "ref": "עירובין יג ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "sayings",
+     "title_he": "אם לא עכשיו, אימתי?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Hillel: a gentle Torah sage with a long white beard, calm smiling eyes, a simple light-colored cloak and a white head covering, Second Temple era. Scene: Evening by an oil lamp: an old sage with a white beard sits at a low table with a few young students, speaking softly, the flame lighting their faces; outside the window the hills of Jerusalem fade into dusk.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👦",
+     "say": [
+      "במסכת אבות נשמרו כמה משפטים קצרים של הלל. כל אחד מהם הוא שיעור לכל החיים.",
+      "אם אין אני לי, מי לי? כלומר, אף אחד לא יעשה את העבודה הרוחנית במקומי. אני צריך להשתדל בעצמי.",
+      "וכשאני לעצמי, מה אני? אבל אם אני דואג רק לעצמי, מה שווה כל זה? צריך לחשוב גם על אחרים.",
+      "ואם לא עכשיו, אימתי? אל תדחה למחר. הזמן הטוב ביותר לעשות טוב הוא עכשיו.",
+      "ועוד אמר הלל: הוי מתלמידיו של אהרן, אוהב שלום ורודף שלום, אוהב את הבריות ומקרבן לתורה."
+     ],
+     "pasuk": {
+      "text": "אם אין אני לי, מי לי? וכשאני לעצמי, מה אני? ואם לא עכשיו, אימתי?",
+      "ref": "הלל, פרקי אבות א, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "chain",
+     "title_he": "שושלת של נשיאים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A wide view of the hills of the Land of Israel at sunrise, with a long path winding into the distance and a row of small oil lamps along the path, each one lit from the one before it.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨",
+     "say": [
+      "הלל זכה לבנים ולנכדים שהמשיכו בדרכו. במשך דורות רבים, הנשיאים של עם ישראל היו מצאצאיו.",
+      "אחד מהם, רבי יהודה הנשיא, יכתוב אחרי שנים את המשנה. נפגוש אותו בעוד שני שיעורים.",
+      "אז מה למדנו מהלל ושמאי? ללמוד תורה גם כשקשה, לקבל כל אדם בפנים מאירות, להיות סבלניים, ולהתווכח רק לשם שמים, באהבה.",
+      "ואולי זה הסוד: גם מי שמקפיד מאוד על האמת, כמו שמאי, וגם מי שסבלני מאוד, כמו הלל, שניהם בונים יחד את תורת ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sag-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה טיפס הלל על הגג של בית המדרש?",
+   "answer": "לא היה לו כסף לשומר, והוא רצה לשמוע את הלימוד",
+   "options": [
+    "לא היה לו כסף לשומר, והוא רצה לשמוע את הלימוד",
+    "הוא רצה לפנות את השלג מהגג",
+    "הוא רצה לראות משם את בית המקדש"
+   ],
+   "explain_he": "הלל לא מצא עבודה באותו יום ולא יכול היה לשלם לשומר, אז עלה לגג כדי לשמוע את התורה של שמעיה ואבטליון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה טיפס הלל על הגג של בית המדרש?",
+   "answer": "לא היה לו כסף לשומר, והוא רצה לשמוע את הלימוד",
+   "options": [
+    "לא היה לו כסף לשומר, והוא רצה לשמוע את הלימוד",
+    "הוא רצה לפנות את השלג מהגג",
+    "הוא רצה לראות משם את בית המקדש"
+   ],
+   "explain_he": "הלל לא מצא עבודה באותו יום ולא יכול היה לשלם לשומר, אז עלה לגג כדי לשמוע את התורה של שמעיה ואבטליון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה רצה האיש שבא לבית הלל שוב ושוב בערב שבת?",
+   "answer": "להרגיז את הלל כדי לזכות בהתערבות",
+   "options": [
+    "להרגיז את הלל כדי לזכות בהתערבות",
+    "ללמוד ממנו הלכות שבת",
+    "לבקש ממנו מקום לשבת"
+   ],
+   "explain_he": "הוא התערב על ארבע מאות זוז שיצליח להרגיז את הלל, אבל הלל ענה לו בשקט ובכבוד בכל פעם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה רצה האיש שבא לבית הלל שוב ושוב בערב שבת?",
+   "answer": "להרגיז את הלל כדי לזכות בהתערבות",
+   "options": [
+    "להרגיז את הלל כדי לזכות בהתערבות",
+    "ללמוד ממנו הלכות שבת",
+    "לבקש ממנו מקום לשבת"
+   ],
+   "explain_he": "הוא התערב על ארבע מאות זוז שיצליח להרגיז את הלל, אבל הלל ענה לו בשקט ובכבוד בכל פעם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר הלל לנכרי שרצה ללמוד את כל התורה על רגל אחת?",
+   "answer": "מה ששנוא עליך, אל תעשה לחברך, ועכשיו לך ולמד",
+   "options": [
+    "מה ששנוא עליך, אל תעשה לחברך, ועכשיו לך ולמד",
+    "שיחזור כשיהיה לו זמן",
+    "שאי אפשר ללמוד תורה בכלל"
+   ],
+   "explain_he": "הלל נתן לו את היסוד, ואמר לו \"זיל גמור\", לך ולמד את השאר. והאיש באמת למד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר הלל לנכרי שרצה ללמוד את כל התורה על רגל אחת?",
+   "answer": "מה ששנוא עליך, אל תעשה לחברך, ועכשיו לך ולמד",
+   "options": [
+    "מה ששנוא עליך, אל תעשה לחברך, ועכשיו לך ולמד",
+    "שיחזור כשיהיה לו זמן",
+    "שאי אפשר ללמוד תורה בכלל"
+   ],
+   "explain_he": "הלל נתן לו את היסוד, ואמר לו \"זיל גמור\", לך ולמד את השאר. והאיש באמת למד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נפסקה ההלכה כבית הלל?",
+   "answer": "כי הם היו נוחים וענווים, ולמדו גם את דברי בית שמאי",
+   "options": [
+    "כי הם היו נוחים וענווים, ולמדו גם את דברי בית שמאי",
+    "כי הלל היה מבוגר יותר משמאי",
+    "כי בית הלל היו עשירים יותר"
+   ],
+   "explain_he": "הגמרא אומרת שבית הלל היו נוחים וענווים, ואפילו הקדימו את דברי בית שמאי לדבריהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נפסקה ההלכה כבית הלל?",
+   "answer": "כי הם היו נוחים וענווים, ולמדו גם את דברי בית שמאי",
+   "options": [
+    "כי הם היו נוחים וענווים, ולמדו גם את דברי בית שמאי",
+    "כי הלל היה מבוגר יותר משמאי",
+    "כי בית הלל היו עשירים יותר"
+   ],
+   "explain_he": "הגמרא אומרת שבית הלל היו נוחים וענווים, ואפילו הקדימו את דברי בית שמאי לדבריהם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי אמר במשנה \"הוי מקבל את כל האדם בסבר פנים יפות\"?",
+   "answer": "שמאי",
+   "options": [
+    "שמאי",
+    "שמעיה",
+    "אבטליון"
+   ],
+   "explain_he": "דווקא שמאי, שהיה מקפיד מאוד, לימד לקבל כל אדם בפנים מאירות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי אמר במשנה \"הוי מקבל את כל האדם בסבר פנים יפות\"?",
+   "answer": "שמאי",
+   "options": [
+    "שמאי",
+    "שמעיה",
+    "אבטליון"
+   ],
+   "explain_he": "דווקא שמאי, שהיה מקפיד מאוד, לימד לקבל כל אדם בפנים מאירות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי פרקי אבות, מה היא \"מחלוקת לשם שמים\"?",
+   "answer": "מחלוקת הלל ושמאי",
+   "options": [
+    "מחלוקת הלל ושמאי",
+    "מחלוקת שבה צד אחד מוותר",
+    "מחלוקת שנגמרת מהר"
+   ],
+   "explain_he": "מחלוקת לשם שמים היא ויכוח שכל הצדדים בו רוצים לדעת את האמת ואת רצון השם, כמו הלל ושמאי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מלמד המשפט \"ואם לא עכשיו, אימתי\"?",
+   "answer": "לא לדחות למחר את מה שאפשר לעשות היום",
+   "options": [
+    "לא לדחות למחר את מה שאפשר לעשות היום",
+    "שצריך תמיד למהר בלימוד",
+    "שאין טעם לתכנן את העתיד"
+   ],
+   "explain_he": "הלל לימד שהזמן הטוב ביותר להשתפר ולעשות טוב הוא עכשיו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f1e14"
+  }
+ ]
+}

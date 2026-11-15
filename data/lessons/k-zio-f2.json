@@ -1,0 +1,573 @@
+{
+ "id": "k-zio-f2",
+ "unit_id": "k-zio-u1",
+ "course": "zionism",
+ "title_he": "תלמידי הבעש״ט ותלמידי הגר״א",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "תלמידי הבעש״ט ותלמידי הגר״א",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ספינה בים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: An old wooden sailing ship on a wide blue sea in the 1770s, families of Chassidim on deck: men with beards, long coats and fur hats, women in long dresses and head scarves, children looking out at the horizon.",
+     "move": "right",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "דמיינו ספינת עץ קטנה בלב הים, בשנת 1777.",
+      "על הסיפון עומדות משפחות שלמות: אבות עם זקנים ומעילים ארוכים, אמהות וילדים.",
+      "הם עזבו בתים, קרובים וקהילות, ונסעו חודשים ארוכים ביבשה ובים.",
+      "לאן? לארץ ישראל. לא היו אז מטוסים, לא הייתה מדינה, והדרך הייתה קשה ומסוכנת.",
+      "הילדים על הסיפון שואלים: אבא, מתי נגיע? והאבא עונה: בעזרת השם, בקרוב.",
+      "חלק מהנוסעים כבר היו זקנים. הם רצו לחיות את שנותיהם האחרונות בארץ הקודש.",
+      "אלה היו תלמידים של אחד מגדולי ישראל, רבי ישראל בעל שם טוב. בואו נכיר אותם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הבעל שם טוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A wooded Ukrainian village in the 1700s at sunrise, a rabbi with a long beard and a simple coat walking among the trees with a few simple Jews, a stream and wooden houses behind.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴👨🌳",
+     "say": [
+      "רבי ישראל בעל שם טוב, הבעש״ט, חי באוקראינה לפני בערך שלוש מאות שנה.",
+      "הוא לימד שכל יהודי, גם הפשוט ביותר, יכול להתקרב לקדוש ברוך הוא בשמחה ובתפילה מכל הלב.",
+      "מתלמידיו צמחה תנועת החסידות, שהפיחה חיים בקהילות רבות.",
+      "הבעש״ט אהב מאוד את ארץ ישראל. לפי המסורת, הוא עצמו ניסה לעלות, אך לא זכה להגיע.",
+      "הוא היה אומר שהקדוש ברוך הוא אוהב כל יהודי כמו שאב אוהב את בנו היחיד.",
+      "הבעש״ט נפטר בערך בשנת 1760, ותלמידיו המשיכו את דרכו בעיירות רבות.",
+      "אבל גיסו עלה, ותלמידיו ותלמידי תלמידיו לא שכחו את החלום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גיסו של הבעל שם טוב, רבי אברהם גרשון מקוטוב, עלה לארץ ישראל בערך בשנת 1747, והבעל שם טוב כתב אליו מכתבים."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "עליית החסידים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: The old town of Safed on a green mountain in the Galilee, stone houses with domes, a group of Chassidic families arriving on donkeys and on foot with bundles, morning mist in the valleys.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨👩🐐",
+     "say": [
+      "בשנת 1777 יצאה קבוצה גדולה של חסידים, בערך שלוש מאות איש, נשים וטף.",
+      "בראשם עמדו רבי מנחם מנדל מוויטבסק ורבי אברהם מקאליסק, תלמידיו של המגיד ממזריטש, תלמיד הבעש״ט.",
+      "הם התיישבו תחילה בצפת, ואחר כך רבים מהם עברו לטבריה.",
+      "החיים היו קשים מאוד. לא הייתה עבודה, והעוני היה גדול.",
+      "אז הרבנים כתבו מכתבים לקהילות שבחוץ לארץ, והקהילות שלחו כסף של צדקה כדי שיוכלו להמשיך לגור בארץ וללמוד תורה.",
+      "הכסף הזה נקרא כסף החלוקה. במשך יותר ממאה שנה, יהודים בכל העולם שלחו פרוטה אחרי פרוטה כדי להחזיק את היהודים שבארץ.",
+      "כך גם מי שלא עלה בעצמו היה שותף בעלייה. בבתים ובבתי הכנסת עמדו קופות צדקה מיוחדות, כמו הקופה של רבי מאיר בעל הנס."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הגאון מווילנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A study room in Vilna in the late 1700s at night, shelves full of old books, an elderly gaon with a white beard and tallit bent over a large Gemara by candlelight, a window with snowy rooftops.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "באותם ימים חי בליטא אחד מגדולי התורה בכל הדורות: רבי אליהו מווילנה, הגאון מווילנה, הגר״א.",
+      "הוא ידע את כל התורה כולה, ולמד יומם ולילה.",
+      "לפי המסורת, גם הגר״א יצא בעצמו לדרך לארץ ישראל, אך חזר לביתו מסיבה שלא נודעה לנו.",
+      "אבל הוא עודד את תלמידיו לעלות.",
+      "ובשנים שאחרי פטירתו, החל משנת 1808 בערך, יצאו תלמידיו בקבוצות אחת אחרי השנייה, כמה מאות איש.",
+      "הם נקראו הפרושים, ובראשם עמדו רבי מנחם מנדל משקלוב ורבי ישראל משקלוב.",
+      "הדרך הייתה ארוכה ומסוכנת: ברגל, בעגלות ובאוניות, במשך חודשים.",
+      "וילנה נקראה אז ירושלים דליטא, בגלל ריבוי הלומדים והספרים שבה. ועכשיו תלמידיה הלכו אל ירושלים האמיתית."
+     ],
+     "pasuk": {
+      "text": "כִּי רָצוּ עֲבָדֶיךָ אֶת אֲבָנֶיהָ, וְאֶת עֲפָרָהּ יְחֹנֵנוּ",
+      "ref": "תהילים קב, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מצפת לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: The Old City of Jerusalem in the 1860s, workers in simple clothes and kippot building a large synagogue with a tall white dome, scaffolding of wood, scholars in long coats watching with joy, late afternoon light.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👨👴🏠",
+     "say": [
+      "גם הפרושים התיישבו בהתחלה בצפת. אבל עברו עליהם צרות קשות: מגפות, ובשנת 1837 רעידת אדמה גדולה שהחריבה את העיר.",
+      "רבים מהם עברו לירושלים. שם, בעיר העתיקה, הם הקימו קהילה חזקה.",
+      "הם בנו מחדש בית כנסת גדול שעמד חרב במשך שנים רבות, ולכן נקרא החורבה.",
+      "דוד המלך כתב בתהילים: כי רצו עבדיך את אבניה, ואת עפרה יחוננו.",
+      "כך הם הרגישו: הם אהבו כל אבן וכל גרגר עפר של ירושלים.",
+      "החיים בעיר לא היו קלים. היא הייתה קטנה, צפופה וענייה, ואת המים אספו בבורות מהגשם.",
+      "אבל בכל ערב נשמע בה קול התורה מבתי המדרש, וזה היה שווה הכול."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בית הכנסת \"החורבה\" שבנו הפרושים נחנך בשנת 1864 בערך. הוא נחרב ב־1948 ונבנה מחדש בימינו."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "שקולה כנגד כל המצוות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A narrow stone alley in old Jerusalem at evening, a Chassid in a long coat and a Perush scholar in a long coat walking together and talking warmly, lanterns lit in doorways.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨👴",
+     "say": [
+      "כך, בתוך כמה עשרות שנים, נוצרו בארץ שתי קהילות גדולות: החסידים והפרושים.",
+      "היו ביניהם הבדלים במנהגים ובדרך העבודה, אבל את אהבת הארץ חלקו כולם.",
+      "הם הלכו בדרכם של חז״ל, שאמרו בספרי: ישיבת ארץ ישראל שקולה כנגד כל המצוות שבתורה.",
+      "הקהילות האלה נקראות היום היישוב הישן. הן החזיקו את ירושלים, צפת, טבריה וחברון בזמנים הקשים ביותר.",
+      "בלי המסירות שלהן, הסיפור שנשמע בהמשך לא היה מתחיל."
+     ],
+     "pasuk": {
+      "text": "יְשִׁיבַת אֶרֶץ יִשְׂרָאֵל שְׁקוּלָה כְּנֶגֶד כָּל הַמִּצְווֹת שֶׁבַּתּוֹרָה",
+      "ref": "ספרי, דברים, ראה"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "יסודות ראשונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A view over the rooftops and domes of old Jerusalem at sunset, smoke rising from chimneys, new Jewish homes and courtyards beginning to appear outside the old walls, a peaceful scene.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠🏠🕊️",
+     "say": [
+      "חשבו על זה רגע. הם באו בלי מדינה, בלי צבא ובלי כסף.",
+      "הם הגיעו ברגל, על חמורים ובספינות מפרשים, ולא ידעו מה מחכה להם.",
+      "מה הביא אותם? אמונה, אהבת תורה ואהבת הארץ.",
+      "בזכות העליות האלה, היישוב היהודי בירושלים הלך וגדל, ובסוף אותה מאה היו היהודים הקבוצה הגדולה ביותר בעיר.",
+      "גדולי התורה ותלמידיהם היו הראשונים שהתחילו להחזיר את עם ישראל הביתה.",
+      "הם היו כמו האבנים של יסוד הבית. אף אחד לא רואה אותן כשהבית גמור, אבל בלעדיהן אין בית.",
+      "וכשאתם עוברים היום בסמטאות העיר העתיקה, אתם הולכים בעקבותיהם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-zio-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "תלמידי הבעש״ט ותלמידי הגר״א",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ספינה בים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: An old wooden sailing ship on a wide blue sea in the 1770s, families of Chassidim on deck: men with beards, long coats and fur hats, women in long dresses and head scarves, children looking out at the horizon.",
+     "move": "right",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "דמיינו ספינת עץ קטנה בלב הים, בשנת 1777.",
+      "על הסיפון עומדות משפחות שלמות: אבות עם זקנים ומעילים ארוכים, אמהות וילדים.",
+      "הם עזבו בתים, קרובים וקהילות, ונסעו חודשים ארוכים ביבשה ובים.",
+      "לאן? לארץ ישראל. לא היו אז מטוסים, לא הייתה מדינה, והדרך הייתה קשה ומסוכנת.",
+      "הילדים על הסיפון שואלים: אבא, מתי נגיע? והאבא עונה: בעזרת השם, בקרוב.",
+      "חלק מהנוסעים כבר היו זקנים. הם רצו לחיות את שנותיהם האחרונות בארץ הקודש.",
+      "אלה היו תלמידים של אחד מגדולי ישראל, רבי ישראל בעל שם טוב. בואו נכיר אותם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הבעל שם טוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A wooded Ukrainian village in the 1700s at sunrise, a rabbi with a long beard and a simple coat walking among the trees with a few simple Jews, a stream and wooden houses behind.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴👨🌳",
+     "say": [
+      "רבי ישראל בעל שם טוב, הבעש״ט, חי באוקראינה לפני בערך שלוש מאות שנה.",
+      "הוא לימד שכל יהודי, גם הפשוט ביותר, יכול להתקרב לקדוש ברוך הוא בשמחה ובתפילה מכל הלב.",
+      "מתלמידיו צמחה תנועת החסידות, שהפיחה חיים בקהילות רבות.",
+      "הבעש״ט אהב מאוד את ארץ ישראל. לפי המסורת, הוא עצמו ניסה לעלות, אך לא זכה להגיע.",
+      "הוא היה אומר שהקדוש ברוך הוא אוהב כל יהודי כמו שאב אוהב את בנו היחיד.",
+      "הבעש״ט נפטר בערך בשנת 1760, ותלמידיו המשיכו את דרכו בעיירות רבות.",
+      "אבל גיסו עלה, ותלמידיו ותלמידי תלמידיו לא שכחו את החלום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גיסו של הבעל שם טוב, רבי אברהם גרשון מקוטוב, עלה לארץ ישראל בערך בשנת 1747, והבעל שם טוב כתב אליו מכתבים."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "עליית החסידים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: The old town of Safed on a green mountain in the Galilee, stone houses with domes, a group of Chassidic families arriving on donkeys and on foot with bundles, morning mist in the valleys.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨👩🐐",
+     "say": [
+      "בשנת 1777 יצאה קבוצה גדולה של חסידים, בערך שלוש מאות איש, נשים וטף.",
+      "בראשם עמדו רבי מנחם מנדל מוויטבסק ורבי אברהם מקאליסק, תלמידיו של המגיד ממזריטש, תלמיד הבעש״ט.",
+      "הם התיישבו תחילה בצפת, ואחר כך רבים מהם עברו לטבריה.",
+      "החיים היו קשים מאוד. לא הייתה עבודה, והעוני היה גדול.",
+      "אז הרבנים כתבו מכתבים לקהילות שבחוץ לארץ, והקהילות שלחו כסף של צדקה כדי שיוכלו להמשיך לגור בארץ וללמוד תורה.",
+      "הכסף הזה נקרא כסף החלוקה. במשך יותר ממאה שנה, יהודים בכל העולם שלחו פרוטה אחרי פרוטה כדי להחזיק את היהודים שבארץ.",
+      "כך גם מי שלא עלה בעצמו היה שותף בעלייה. בבתים ובבתי הכנסת עמדו קופות צדקה מיוחדות, כמו הקופה של רבי מאיר בעל הנס."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הגאון מווילנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A study room in Vilna in the late 1700s at night, shelves full of old books, an elderly gaon with a white beard and tallit bent over a large Gemara by candlelight, a window with snowy rooftops.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "באותם ימים חי בליטא אחד מגדולי התורה בכל הדורות: רבי אליהו מווילנה, הגאון מווילנה, הגר״א.",
+      "הוא ידע את כל התורה כולה, ולמד יומם ולילה.",
+      "לפי המסורת, גם הגר״א יצא בעצמו לדרך לארץ ישראל, אך חזר לביתו מסיבה שלא נודעה לנו.",
+      "אבל הוא עודד את תלמידיו לעלות.",
+      "ובשנים שאחרי פטירתו, החל משנת 1808 בערך, יצאו תלמידיו בקבוצות אחת אחרי השנייה, כמה מאות איש.",
+      "הם נקראו הפרושים, ובראשם עמדו רבי מנחם מנדל משקלוב ורבי ישראל משקלוב.",
+      "הדרך הייתה ארוכה ומסוכנת: ברגל, בעגלות ובאוניות, במשך חודשים.",
+      "וילנה נקראה אז ירושלים דליטא, בגלל ריבוי הלומדים והספרים שבה. ועכשיו תלמידיה הלכו אל ירושלים האמיתית."
+     ],
+     "pasuk": {
+      "text": "כִּי רָצוּ עֲבָדֶיךָ אֶת אֲבָנֶיהָ, וְאֶת עֲפָרָהּ יְחֹנֵנוּ",
+      "ref": "תהילים קב, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מצפת לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: The Old City of Jerusalem in the 1860s, workers in simple clothes and kippot building a large synagogue with a tall white dome, scaffolding of wood, scholars in long coats watching with joy, late afternoon light.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👨👴🏠",
+     "say": [
+      "גם הפרושים התיישבו בהתחלה בצפת. אבל עברו עליהם צרות קשות: מגפות, ובשנת 1837 רעידת אדמה גדולה שהחריבה את העיר.",
+      "רבים מהם עברו לירושלים. שם, בעיר העתיקה, הם הקימו קהילה חזקה.",
+      "הם בנו מחדש בית כנסת גדול שעמד חרב במשך שנים רבות, ולכן נקרא החורבה.",
+      "דוד המלך כתב בתהילים: כי רצו עבדיך את אבניה, ואת עפרה יחוננו.",
+      "כך הם הרגישו: הם אהבו כל אבן וכל גרגר עפר של ירושלים.",
+      "החיים בעיר לא היו קלים. היא הייתה קטנה, צפופה וענייה, ואת המים אספו בבורות מהגשם.",
+      "אבל בכל ערב נשמע בה קול התורה מבתי המדרש, וזה היה שווה הכול."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בית הכנסת \"החורבה\" שבנו הפרושים נחנך בשנת 1864 בערך. הוא נחרב ב־1948 ונבנה מחדש בימינו."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "פאת השולחן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A farmer with a long beard and kippah standing in a small wheat field near Jerusalem, setting aside a corner of the field unharvested, a scholar with a book nearby, soft golden light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨👴",
+     "say": [
+      "למה היה לתלמידי הגר״א חשוב כל כך לגור דווקא בארץ ישראל?",
+      "אחת הסיבות: יש מצוות רבות שאפשר לקיים רק בארץ. תרומות ומעשרות, שמיטה, ערלה, ופאה בקצה השדה.",
+      "רבי ישראל משקלוב כתב ספר שלם על המצוות האלה, וקרא לו פאת השולחן, כהמשך לשולחן ערוך.",
+      "בזכותו, יהודים שחיו בארץ ידעו איך לקיים את מצוות הארץ כהלכה.",
+      "תארו לכם את השמחה של יהודי שמפריש בפעם הראשונה בחייו תרומות ומעשרות מפירות שגדלו בשדה שלו בארץ הקודש.",
+      "וגם הגר״א עצמו כתב פירוש על מסכת שקלים ועל סדר זרעים, שעוסקים במצוות הארץ והמקדש.",
+      "זו הייתה עלייה של לימוד, של מצוות ושל אמונה, ולא רק מעבר ממקום למקום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שקולה כנגד כל המצוות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A narrow stone alley in old Jerusalem at evening, a Chassid in a long coat and a Perush scholar in a long coat walking together and talking warmly, lanterns lit in doorways.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨👴",
+     "say": [
+      "כך, בתוך כמה עשרות שנים, נוצרו בארץ שתי קהילות גדולות: החסידים והפרושים.",
+      "היו ביניהם הבדלים במנהגים ובדרך העבודה, אבל את אהבת הארץ חלקו כולם.",
+      "הם הלכו בדרכם של חז״ל, שאמרו בספרי: ישיבת ארץ ישראל שקולה כנגד כל המצוות שבתורה.",
+      "הקהילות האלה נקראות היום היישוב הישן. הן החזיקו את ירושלים, צפת, טבריה וחברון בזמנים הקשים ביותר.",
+      "בלי המסירות שלהן, הסיפור שנשמע בהמשך לא היה מתחיל."
+     ],
+     "pasuk": {
+      "text": "יְשִׁיבַת אֶרֶץ יִשְׂרָאֵל שְׁקוּלָה כְּנֶגֶד כָּל הַמִּצְווֹת שֶׁבַּתּוֹרָה",
+      "ref": "ספרי, דברים, ראה"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "יוצאים מן החומות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Outside the walls of old Jerusalem in the 1870s: a new row of stone houses with red-tiled roofs and a windmill on a hill, Jewish families in long coats and long dresses carrying belongings from the Old City gate toward the houses.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨👩🏠",
+     "say": [
+      "במשך שנים רבות גרו כל יהודי ירושלים בתוך החומות של העיר העתיקה, בצפיפות גדולה.",
+      "בלילה נסגרו שערי העיר, ומי שנשאר בחוץ היה בסכנה.",
+      "אבל הקהילה הלכה וגדלה, ובסוף הבינו שצריך להעז ולבנות בחוץ.",
+      "משה מונטיפיורי, יהודי ירא שמיים מאנגליה, עזר לבנות את משכנות שאננים, השכונה הראשונה מחוץ לחומות.",
+      "אחריה קמו שכונות נוספות, כמו מאה שערים בשנת 1874. ירושלים החדשה התחילה לצמוח.",
+      "השם מאה שערים נלקח מפרשת תולדות: ויזרע יצחק בארץ ההיא, וימצא בשנה ההיא מאה שערים. ולפי המסורת, את הפרשה הזאת קראו בשבוע שבו נוסדה השכונה.",
+      "בהתחלה פחדו לישון בבתים החדשים, ובכל זאת, משפחה אחרי משפחה עברה. העיר יצאה מן החומות, כמו שכתוב בזכריה: פרזות תשב ירושלים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השכונה היהודית הראשונה מחוץ לחומות, משכנות שאננים, נבנתה בערך בשנת 1860 בעזרת השר משה מונטיפיורי. ליד השכונה עומדת עד היום טחנת הרוח שבנה."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "יסודות ראשונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A view over the rooftops and domes of old Jerusalem at sunset, smoke rising from chimneys, new Jewish homes and courtyards beginning to appear outside the old walls, a peaceful scene.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠🏠🕊️",
+     "say": [
+      "חשבו על זה רגע. הם באו בלי מדינה, בלי צבא ובלי כסף.",
+      "הם הגיעו ברגל, על חמורים ובספינות מפרשים, ולא ידעו מה מחכה להם.",
+      "מה הביא אותם? אמונה, אהבת תורה ואהבת הארץ.",
+      "בזכות העליות האלה, היישוב היהודי בירושלים הלך וגדל, ובסוף אותה מאה היו היהודים הקבוצה הגדולה ביותר בעיר.",
+      "גדולי התורה ותלמידיהם היו הראשונים שהתחילו להחזיר את עם ישראל הביתה.",
+      "הם היו כמו האבנים של יסוד הבית. אף אחד לא רואה אותן כשהבית גמור, אבל בלעדיהן אין בית.",
+      "וכשאתם עוברים היום בסמטאות העיר העתיקה, אתם הולכים בעקבותיהם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-zio-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו שנה עלו בערך שלוש מאות חסידים מתלמידי הבעש״ט?",
+   "answer": "1777",
+   "options": [
+    "1777",
+    "1948",
+    "1897"
+   ],
+   "explain_he": "בשנת 1777 עלו החסידים בראשות רבי מנחם מנדל מוויטבסק ורבי אברהם מקאליסק.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו שנה עלו בערך שלוש מאות חסידים מתלמידי הבעש״ט?",
+   "answer": "1777",
+   "options": [
+    "1777",
+    "1948",
+    "1897"
+   ],
+   "explain_he": "בשנת 1777 עלו החסידים בראשות רבי מנחם מנדל מוויטבסק ורבי אברהם מקאליסק.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקראו תלמידי הגר״א שעלו לארץ?",
+   "answer": "הפרושים",
+   "options": [
+    "הפרושים",
+    "הביל״ויים",
+    "החלוצים"
+   ],
+   "explain_he": "תלמידי הגר״א נקראו הפרושים. הם עלו בקבוצות החל משנת 1808 בערך.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקראו תלמידי הגר״א שעלו לארץ?",
+   "answer": "הפרושים",
+   "options": [
+    "הפרושים",
+    "הביל״ויים",
+    "החלוצים"
+   ],
+   "explain_he": "תלמידי הגר״א נקראו הפרושים. הם עלו בקבוצות החל משנת 1808 בערך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזו עיר עברו רבים מהפרושים אחרי הצרות בצפת?",
+   "answer": "ירושלים",
+   "options": [
+    "ירושלים",
+    "חברון",
+    "יפו"
+   ],
+   "explain_he": "אחרי מגפות ורעידת האדמה של 1837, עברו רבים לירושלים והקימו בה קהילה חזקה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזו עיר עברו רבים מהפרושים אחרי הצרות בצפת?",
+   "answer": "ירושלים",
+   "options": [
+    "ירושלים",
+    "חברון",
+    "יפו"
+   ],
+   "explain_he": "אחרי מגפות ורעידת האדמה של 1837, עברו רבים לירושלים והקימו בה קהילה חזקה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך התפרנסו העולים, כשלא הייתה עבודה בארץ?",
+   "answer": "מצדקה ששלחו להם קהילות בחוץ לארץ",
+   "options": [
+    "מצדקה ששלחו להם קהילות בחוץ לארץ",
+    "ממשכורת של ממשלה בארץ",
+    "ממסחר גדול בנמל יפו"
+   ],
+   "explain_he": "הרבנים כתבו מכתבים לקהילות בגולה, והן שלחו כסף כדי שהעולים יוכלו לגור בארץ וללמוד תורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך התפרנסו העולים, כשלא הייתה עבודה בארץ?",
+   "answer": "מצדקה ששלחו להם קהילות בחוץ לארץ",
+   "options": [
+    "מצדקה ששלחו להם קהילות בחוץ לארץ",
+    "ממשכורת של ממשלה בארץ",
+    "ממסחר גדול בנמל יפו"
+   ],
+   "explain_he": "הרבנים כתבו מכתבים לקהילות בגולה, והן שלחו כסף כדי שהעולים יוכלו לגור בארץ וללמוד תורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא בית הכנסת שבנו הפרושים בשם \"החורבה\"?",
+   "answer": "כי לפני כן הוא עמד חרב במשך שנים רבות",
+   "options": [
+    "כי לפני כן הוא עמד חרב במשך שנים רבות",
+    "כי הוא נבנה מאבני בית המקדש",
+    "כי הוא נבנה על הר החורבה"
+   ],
+   "explain_he": "הפרושים בנו מחדש בית כנסת שעמד חרב שנים רבות, ולכן קראו לו החורבה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא בית הכנסת שבנו הפרושים בשם \"החורבה\"?",
+   "answer": "כי לפני כן הוא עמד חרב במשך שנים רבות",
+   "options": [
+    "כי לפני כן הוא עמד חרב במשך שנים רבות",
+    "כי הוא נבנה מאבני בית המקדש",
+    "כי הוא נבנה על הר החורבה"
+   ],
+   "explain_he": "הפרושים בנו מחדש בית כנסת שעמד חרב שנים רבות, ולכן קראו לו החורבה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה כתב רבי ישראל משקלוב בספרו \"פאת השולחן\"?",
+   "answer": "על המצוות התלויות בארץ",
+   "options": [
+    "על המצוות התלויות בארץ",
+    "על דקדוק הלשון העברית",
+    "על תולדות קהילות ליטא"
+   ],
+   "explain_he": "פאת השולחן עוסק במצוות כמו תרומות ומעשרות, שמיטה ופאה, שמקיימים רק בארץ ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו חז״ל בספרי על ישיבת ארץ ישראל?",
+   "answer": "שהיא שקולה כנגד כל המצוות שבתורה",
+   "options": [
+    "שהיא שקולה כנגד כל המצוות שבתורה",
+    "שהיא מצווה רק לכוהנים",
+    "שאפשר לקיים אותה רק בזמן המקדש"
+   ],
+   "explain_he": "חז״ל אמרו בספרי: ישיבת ארץ ישראל שקולה כנגד כל המצוות שבתורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו חז״ל בספרי על ישיבת ארץ ישראל?",
+   "answer": "שהיא שקולה כנגד כל המצוות שבתורה",
+   "options": [
+    "שהיא שקולה כנגד כל המצוות שבתורה",
+    "שהיא מצווה רק לכוהנים",
+    "שאפשר לקיים אותה רק בזמן המקדש"
+   ],
+   "explain_he": "חז״ל אמרו בספרי: ישיבת ארץ ישראל שקולה כנגד כל המצוות שבתורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f2e15"
+  }
+ ]
+}

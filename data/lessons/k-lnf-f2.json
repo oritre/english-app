@@ -1,0 +1,473 @@
+{
+ "id": "k-lnf-f2",
+ "unit_id": "k-lnf-u1",
+ "course": "land",
+ "title_he": "הגליל והגולן",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "הגליל והגולן",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הר עם שלג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Mount Hermon in winter: a wide white snowy mountain under a clear blue sky, children in warm coats and wool hats play in the snow, Saba watches smiling.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🏔️",
+     "say": [
+      "הגענו לצפון! תסתכלו למעלה.",
+      "זה החרמון, ההר הכי גבוה בארץ.",
+      "בחורף יורד עליו שלג לבן.",
+      "אפשר לבנות שם איש שלג, וגם לגלוש.",
+      "ברר, קר פה! טוב שהבאנו מעילים.",
+      "החרמון כל כך גבוה, שרואים אותו מרחוק, מהרבה מקומות בצפון.",
+      "דוד המלך כתב עליו בתהילים: \"כטל חרמון\".",
+      "כי על ההר הזה יורד הרבה טל ושלג.",
+      "ומה קורה לשלג כשמגיע האביב? בואו נראה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "החרמון הוא ההר הכי גבוה בארץ ישראל. בחורף הוא מתכסה בשלג, ואנשים באים לגלוש עליו!"
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "מקורות הירדן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A clear cold stream rushing among green trees and smooth rocks in the Galilee, small waterfalls, ferns and sunlight through the leaves.",
+     "move": "right",
+     "fx": "mist",
+     "art": "💧",
+     "say": [
+      "המים מהשלג יורדים מתחת לאדמה.",
+      "ואז הם יוצאים מהאדמה במעיינות.",
+      "אם תכניסו יד למים, תרגישו כמה הם קרים, גם בקיץ!",
+      "המעיינות נהיים נחלים קרים ונקיים.",
+      "והנחלים מתחברים לנהר אחד: נהר הירדן.",
+      "הירדן הוא נהר מפורסם מאוד.",
+      "כשבני ישראל נכנסו לארץ עם יהושע, הם עברו בו.",
+      "המים נעצרו, וכל העם עבר ביבשה!"
+     ],
+     "pasuk": {
+      "text": "כטל חרמון שירד על הררי ציון",
+      "ref": "תהלים קלג, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "ים כנרת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The Sea of Galilee at sunrise: a calm blue lake surrounded by green and brown hills, a small fishing boat with a net, birds over the water, the town of Tiberias on the shore.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "הנה הכנרת! היא נראית כמו ים, אבל המים שלה מתוקים.",
+      "הכנרת היא אגם גדול. המים שלה באים מנהר הירדן.",
+      "במשך שנים רבות, הרבה מהמים ששתינו בבית הגיעו מהכנרת.",
+      "בכנרת שוחים הרבה דגים, ודייגים יוצאים לדוג בסירות.",
+      "חכמינו אמרו: הפירות שליד הכנרת מתוקים, כמו קול נעים של כינור.",
+      "כמה יפה לשבת על החוף, ולשמוע את הגלים הקטנים."
+     ],
+     "pasuk": {
+      "text": "למה נקרא שמה כנרת? שמתוקים פירותיה כקול כינור",
+      "ref": "על פי מגילה ו, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s3b",
+     "title_he": "טבריה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Tiberias on the shore of the Kinneret in the evening: old black basalt stone walls and houses, soft steam rising from hot springs into a stone bath house by the lake, palm trees, calm water.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🏠",
+     "say": [
+      "על שפת הכנרת יושבת טבריה.",
+      "יש בה מעיינות מיוחדים: המים יוצאים מהאדמה חמים, כמו אמבטיה!",
+      "כבר בגמרא מדברים על \"חמי טבריה\".",
+      "טבריה היא אחת מארבע ערי הקודש. ישבו בה חכמים גדולים.",
+      "ושם קבורים הרמב\"ם, וגם רבי מאיר בעל הנס."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הגולן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The Golan Heights plateau in spring: wide green fields with black basalt stones, cows grazing, a waterfall in a deep canyon, and the Kinneret far below in the distance.",
+     "move": "left",
+     "fx": null,
+     "art": "🐄",
+     "say": [
+      "ממזרח לכנרת עולים לגולן.",
+      "הגולן הוא רמה, כמו שולחן גדול וגבוה.",
+      "יש בו אבנים שחורות, שקוראים להן בזלת.",
+      "פרות רועות בשדות, ויש מפלים יפים.",
+      "בגולן גדלים גם תפוחים ודובדבנים.",
+      "והגולן מוזכר כבר בתורה!",
+      "שם הייתה עיר בשם גולן, בנחלת שבט מנשה."
+     ],
+     "pasuk": {
+      "text": "ואת גולן בבשן למנשי",
+      "ref": "דברים ד, מג"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "צפת בראש ההר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The old city of Tzfat on a high mountain at dusk: stone houses, narrow stepped alleys, blue painted doors, an old synagogue, men in kippot walking to prayer, mountains of the Galilee all around.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠",
+     "say": [
+      "עכשיו נעלה להר גבוה בגליל, אל העיר צפת.",
+      "כשעולים לצפת, הדרך מתפתלת למעלה ולמעלה, בין ההרים.",
+      "צפת היא עיר קדושה, עם סמטאות צרות ובתי כנסת עתיקים.",
+      "לפני מאות שנים גרו בה חכמים גדולים.",
+      "שם נכתב השיר \"לכה דודי\", שאנחנו שרים בכל ליל שבת.",
+      "בצפת לימד תורה גם האר\"י הקדוש.",
+      "ורבי יוסף קארו כתב בה את השולחן ערוך, ספר ההלכה.",
+      "צפת בנויה גבוה על ההר. בערב רואים ממנה את כל הרי הגליל."
+     ],
+     "pasuk": {
+      "text": "לכה דודי לקראת כלה, פני שבת נקבלה",
+      "ref": "רבי שלמה אלקבץ, צפת"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הגליל הירוק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: A green Galilee valley with orchards and vineyards, red anemones in the grass, Saba and the two children sit under an old oak tree eating apples.",
+     "move": "right",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "הגליל הוא ירוק מאוד.",
+      "למה? כי יורד בו הרבה גשם בחורף.",
+      "יש בו יערות, מטעים וכרמים.",
+      "באביב צומחות בו כלניות אדומות. כמה יפה!",
+      "בגליל יש גם עמק שבו עוצרות המון ציפורים, בדרך הארוכה שלהן לארצות החמות.",
+      "בגליל גרים בכפרים ובמושבים, ומגדלים פירות וירקות.",
+      "עכשיו נרד מערבה, אל הים הגדול."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הגליל הוא האזור הכי גשום בארץ. לכן הוא כל כך ירוק!"
+     }
+    }
+   ],
+   "id": "k-lnf-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "הגליל והגולן",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הר עם שלג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Mount Hermon in winter: a wide white snowy mountain under a clear blue sky, children in warm coats and wool hats play in the snow, Saba watches smiling.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🏔️",
+     "say": [
+      "הגענו לקצה הצפוני של המסע. מולנו מתנשא החרמון, ההר הכי גבוה בארץ ישראל.",
+      "בחורף ההר מתכסה בשלג עבה, ואנשים מכל הארץ עולים אליו לשחק ולגלוש.",
+      "דוד המלך כתב בתהילים: \"כטל חרמון שיורד על הררי ציון\". על ההר הזה יורד הרבה טל ושלג.",
+      "בגלל הגובה, על החרמון קר הרבה יותר מאשר למטה בעמק. ככל שעולים גבוה יותר, האוויר נעשה קר יותר.",
+      "לכן אפשר לצאת מבית חם בעמק, ותוך זמן קצר לעמוד בשלג!",
+      "ומה קורה לשלג באביב? הוא נמס, והמים נכנסים לתוך האדמה. עוד מעט נראה לאן הם הולכים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "החרמון הוא ההר הכי גבוה בארץ ישראל. בחורף הוא מתכסה בשלג, ואנשים באים לגלוש עליו!"
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "מקורות הירדן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A clear cold stream rushing among green trees and smooth rocks in the Galilee, small waterfalls, ferns and sunlight through the leaves.",
+     "move": "right",
+     "fx": "mist",
+     "art": "💧",
+     "say": [
+      "השלג של החרמון נמס ונבלע באדמה. המים עוברים בתוך הסלעים, ויוצאים למטה במעיינות גדולים.",
+      "כך נולדים נחלי הצפון: נחל דן, נחל חרמון ונחל שניר. המים שלהם קרים וצלולים כל השנה.",
+      "שלושת הנחלים מתחברים יחד, ונהיים לנהר הירדן.",
+      "הירדן זורם דרומה, ומגיע אל מקום מיוחד מאוד: הכנרת.",
+      "הירדן מוזכר בתנ\"ך פעמים רבות. כשבני ישראל נכנסו לארץ עם יהושע, הכהנים נשאו את ארון הברית ונכנסו לירדן, והמים נעצרו ועמדו. כל העם עבר ביבשה."
+     ],
+     "pasuk": {
+      "text": "כטל חרמון שירד על הררי ציון",
+      "ref": "תהלים קלג, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "ים כנרת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The Sea of Galilee at sunrise: a calm blue lake surrounded by green and brown hills, a small fishing boat with a net, birds over the water, the town of Tiberias on the shore.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "הירדן נשפך אל הכנרת, האגם הגדול של הארץ. אורכה בערך 21 קילומטרים.",
+      "המים בכנרת מתוקים, לא מלוחים כמו בים. במשך שנים רבות היא הייתה מאגר המים הכי חשוב של המדינה.",
+      "הכנרת נמצאת נמוך מאוד, מתחת לגובה פני הים. כשיורדים אליה מהגליל, מרגישים את החום.",
+      "הכנרת נמצאת בתוך עמק עמוק, ומסביבה הרים. לפעמים יורדות מההרים רוחות חזקות, ופתאום עולים בה גלים גבוהים.",
+      "למה קוראים לה כנרת? יש אומרים שצורתה כמו כינור. וחכמינו אמרו: כי הפירות שגדלים לידה מתוקים כמו קול הכינור.",
+      "כמה יפה לשבת על החוף בערב, ולראות את השמש שוקעת מאחורי הרי הגליל, ואת האור שלה על המים.",
+      "בלילות יוצאים דייגים בסירות, ופורשים רשתות לדוג דגים. ועל החוף יושבת עיר עתיקה, שעליה נספר עכשיו."
+     ],
+     "pasuk": {
+      "text": "למה נקרא שמה כנרת? שמתוקים פירותיה כקול כינור",
+      "ref": "על פי מגילה ו, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s3b",
+     "title_he": "טבריה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Tiberias on the shore of the Kinneret in the evening: old black basalt stone walls and houses, soft steam rising from hot springs into a stone bath house by the lake, palm trees, calm water.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🏠",
+     "say": [
+      "על שפת הכנרת יושבת טבריה, אחת מארבע ערי הקודש: ירושלים, חברון, טבריה וצפת.",
+      "בדרום העיר נובעים מעיינות חמים: המים יוצאים מעומק האדמה חמים מאוד. כבר הגמרא מזכירה את \"חמי טבריה\".",
+      "אחרי חורבן בית המקדש, הסנהדרין עברה ממקום למקום, ובסוף ישבה בטבריה. שם גם נכתב חלק גדול מהתלמוד הירושלמי.",
+      "בטבריה קבורים הרמב\"ם ורבי מאיר בעל הנס, ויהודים רבים באים להתפלל על קבריהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הגולן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The Golan Heights plateau in spring: wide green fields with black basalt stones, cows grazing, a waterfall in a deep canyon, and the Kinneret far below in the distance.",
+     "move": "left",
+     "fx": null,
+     "art": "🐄",
+     "say": [
+      "ממזרח לכנרת עולים במעלה תלול אל רמת הגולן. רמה היא שטח גבוה ושטוח, כמו שולחן ענק.",
+      "בכל מקום בגולן רואים אבנים שחורות וקשות. קוראים להן בזלת, ומהן בנו כאן בתים ובתי כנסת עתיקים.",
+      "בגולן רועים עדרי בקר, וגדלים בו תפוחים, דובדבנים וענבים. יש בו גם נחלים עם מפלים יפים.",
+      "הגולן מוזכר כבר בתורה: \"גולן בבשן\" הייתה עיר מקלט בנחלת שבט מנשה.",
+      "מה זאת עיר מקלט? מי שגרם בטעות, בלי שום כוונה, למוות של אדם, היה בורח לעיר כזו, ושם היה מוגן. התורה דאגה גם לו.",
+      "מהגולן רואים את הכנרת למטה, כמו קערה כחולה בין ההרים."
+     ],
+     "pasuk": {
+      "text": "ואת גולן בבשן למנשי",
+      "ref": "דברים ד, מג"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "צפת בראש ההר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The old city of Tzfat on a high mountain at dusk: stone houses, narrow stepped alleys, blue painted doors, an old synagogue, men in kippot walking to prayer, mountains of the Galilee all around.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠",
+     "say": [
+      "עכשיו נעלה אל צפת, העיר שבראש ההר. גם היא אחת מארבע ערי הקודש.",
+      "לפני בערך 500 שנה התאספו בצפת חכמים גדולים של עם ישראל.",
+      "האר\"י הקדוש לימד בה תורה, ורבי יוסף קארו כתב בה את השולחן ערוך, ספר ההלכה שכל עם ישראל לומד ממנו עד היום.",
+      "ורבי שלמה אלקבץ כתב בצפת את \"לכה דודי\". בכל ליל שבת, בכל העולם, יהודים שרים את השיר שנכתב כאן.",
+      "לא רחוק מצפת נמצא הר מירון, ושם קבור רבי שמעון בר יוחאי. בל\"ג בעומר באים לשם המוני אנשים.",
+      "עד היום יש בצפת בתי כנסת עתיקים על שם החכמים האלה, ואנשים באים מכל העולם להתפלל בהם."
+     ],
+     "pasuk": {
+      "text": "לכה דודי לקראת כלה, פני שבת נקבלה",
+      "ref": "רבי שלמה אלקבץ, צפת"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הגליל הירוק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: A green Galilee valley with orchards and vineyards, red anemones in the grass, Saba and the two children sit under an old oak tree eating apples.",
+     "move": "right",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "למה הגליל כל כך ירוק? כי זה האזור הכי גשום בארץ. בחורף יורד בו הרבה יותר גשם מאשר בדרום.",
+      "לכן יש בגליל יערות של אלונים, מטעים של תפוחים ואגסים, וכרמים של ענבים.",
+      "באביב השדות מתמלאים בכלניות אדומות ובפרחים צבעוניים.",
+      "בגליל יש גם עמקים רחבים ופוריים, כמו עמק החולה. פעם היה שם אגם וביצה, והיום יש בו שדות, ובכל סתיו עוברות בו המוני ציפורים נודדות.",
+      "עכשיו נרד מערבה, אל הים הגדול, ונראה את הערים שעל החוף."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הגליל הוא האזור הכי גשום בארץ. לכן הוא כל כך ירוק!"
+     }
+    }
+   ],
+   "id": "k-lnf-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו ההר הכי גבוה בארץ ישראל?",
+   "answer": "החרמון",
+   "options": [
+    "החרמון",
+    "הר תבור",
+    "הר הכרמל"
+   ],
+   "explain_he": "החרמון הוא ההר הכי גבוה בארץ ישראל, ובחורף יורד עליו שלג.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו ההר הכי גבוה בארץ ישראל?",
+   "answer": "החרמון",
+   "options": [
+    "החרמון",
+    "הר תבור",
+    "הר הכרמל"
+   ],
+   "explain_he": "החרמון הוא ההר הכי גבוה בארץ ישראל, ובחורף יורד עליו שלג.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד במים של הכנרת?",
+   "answer": "הם מתוקים, לא מלוחים",
+   "options": [
+    "הם מתוקים, לא מלוחים",
+    "הם חמים כמו אמבטיה",
+    "הם מלוחים מאוד"
+   ],
+   "explain_he": "הכנרת היא אגם של מים מתוקים, ובמשך שנים רבות היא הייתה מאגר המים הכי חשוב בארץ.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד במים של הכנרת?",
+   "answer": "הם מתוקים, לא מלוחים",
+   "options": [
+    "הם מתוקים, לא מלוחים",
+    "הם חמים כמו אמבטיה",
+    "הם מלוחים מאוד"
+   ],
+   "explain_he": "הכנרת היא אגם של מים מתוקים, ובמשך שנים רבות היא הייתה מאגר המים הכי חשוב בארץ.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה שיר נכתב בצפת?",
+   "answer": "לכה דודי",
+   "options": [
+    "לכה דודי",
+    "התקווה",
+    "אדון עולם"
+   ],
+   "explain_he": "רבי שלמה אלקבץ כתב בצפת את \"לכה דודי\", שאנחנו שרים בכל ליל שבת.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה שיר נכתב בצפת?",
+   "answer": "לכה דודי",
+   "options": [
+    "לכה דודי",
+    "התקווה",
+    "אדון עולם"
+   ],
+   "explain_he": "רבי שלמה אלקבץ כתב בצפת את \"לכה דודי\", שאנחנו שרים בכל ליל שבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הגליל כל כך ירוק?",
+   "answer": "כי יורד בו הרבה גשם",
+   "options": [
+    "כי יורד בו הרבה גשם",
+    "כי יש בו מדבר גדול",
+    "כי צובעים אותו"
+   ],
+   "explain_he": "הגליל הוא האזור הכי גשום בארץ, ולכן יש בו יערות, מטעים ופרחים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן הולכים המים של השלג שנמס על החרמון?",
+   "answer": "נכנסים לאדמה, יוצאים במעיינות ונהיים לנהר הירדן",
+   "options": [
+    "נכנסים לאדמה, יוצאים במעיינות ונהיים לנהר הירדן",
+    "נשארים על ההר כל השנה",
+    "זורמים ישר לים התיכון"
+   ],
+   "explain_he": "השלג נמס ונבלע באדמה, יוצא במעיינות של נחל דן, חרמון ושניר, והם מתחברים לירדן שזורם לכנרת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה ספר כתב רבי יוסף קארו בצפת?",
+   "answer": "השולחן ערוך",
+   "options": [
+    "השולחן ערוך",
+    "ספר התהילים",
+    "המשנה"
+   ],
+   "explain_he": "רבי יוסף קארו כתב בצפת את השולחן ערוך, ספר ההלכה שכל עם ישראל לומד ממנו עד היום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f2e11"
+  }
+ ]
+}

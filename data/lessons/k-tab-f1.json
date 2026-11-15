@@ -1,0 +1,246 @@
+{
+ "id": "k-tab-f1",
+ "unit_id": "k-tab-u1",
+ "course": "table",
+ "title_he": "מהזרע ועד הקמח",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌾 ידע כללי",
+   "title_he": "מהזרע ועד הקמח",
+   "ref_he": "מהשדה לשולחן",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "פרוסה אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A sunny kitchen in an Israeli home in the morning: the children sit at a wooden table with a fresh loaf of bread and a cutting board, looking curiously at a slice.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦👧🏠",
+     "say": [
+      "בוקר טוב! על השולחן יש פרוסת לחם רכה וטעימה. אפשר למרוח עליה גבינה, או לטבול אותה במרק.",
+      "האם פעם שאלתם את עצמכם: מאיפה הלחם הזה הגיע?",
+      "אולי תגידו: מהמכולת! נכון, קנינו אותו במכולת. אבל הלחם לא גדל בחנות.",
+      "הוא התחיל את הדרך שלו רחוק מכאן, בשדה גדול, מגרעין קטן אחד, קטן כמו ציפורן של תינוק.",
+      "בואו נצא יחד למסע: מהשדה, ועד השולחן שלנו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "זריעה בסתיו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. Scene: A brown plowed field in the Galilee in autumn after the first rain, grey clouds parting; Saba walks along the furrows scattering wheat seeds from a cloth bag, a small tractor in the distance.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👴🌾",
+     "say": [
+      "זה סבא, והוא חקלאי. כל הקיץ האדמה בשדה שלו יבשה וקשה.",
+      "בסתיו, אחרי הגשם הראשון, האדמה נעשית רכה. אז סבא חורש אותה: הוא הופך אותה, ועושה בה תלמים ארוכים.",
+      "אחר כך הוא מפזר בה גרעיני חיטה קטנים. זה נקרא ״זריעה״.",
+      "האדמה הרטובה מכסה את הגרעינים, והם מחכים בשקט, מתחת לאדמה. עכשיו צריך סבלנות, ותפילה."
+     ],
+     "pasuk": {
+      "text": "הַזֹּרְעִים בְּדִמְעָה בְּרִנָּה יִקְצֹרוּ",
+      "ref": "תהלים קכו, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "חורף ירוק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: The same field in winter: gentle rain falls on rows of bright green wheat sprouts, like a soft green carpet over the hills, a rainbow far away.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🌱",
+     "say": [
+      "כל החורף יורד גשם. הגרעין שותה מים, ונפתח. ממנו יוצא שורש קטן למטה, ונבט ירוק למעלה.",
+      "אחרי כמה שבועות, השדה כולו נעשה ירוק, כמו שטיח רך על הגבעות.",
+      "החקלאי מתפלל שהגשם ירד בזמן, ולא יותר מדי ולא פחות מדי. כי בלי גשם, אין חיטה, ואין לחם.",
+      "וגם אנחנו, בבית הכנסת, מבקשים כל החורף: ״ותן טל ומטר לברכה״."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בחורף אנחנו מבקשים בתפילת שמונה עשרה: ״ותן טל ומטר לברכה״, כי בלי גשם אין חיטה ואין לחם."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "שיבולים של זהב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Spring: tall golden wheat ears sway in the breeze under a blue sky; the boy holds one ear close and counts the grains with wonder while Saba smiles beside him.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴👦🌾",
+     "say": [
+      "באביב, השמש מתחממת, והחיטה גדלה וגבוהה. בראש כל גבעול צומחת שיבולת.",
+      "בואו נסתכל מקרוב. בתוך כל שיבולת יש הרבה גרעינים חדשים, צפופים, אחד ליד השני!",
+      "זה הפלא: מגרעין אחד שזרענו, יצאו עשרות גרעינים.",
+      "לאט לאט השדה מצהיב, ומבריק כמו זהב. הרוח עוברת, והשיבולים מתנועעות כמו גלים בים. החיטה מוכנה לקציר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הקציר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: Late spring harvest: a big red combine harvester moves through a golden wheat field, leaving rows of straw; in the foreground an old iron sickle rests on a sheaf, a reminder of olden days.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🌾",
+     "say": [
+      "בסוף האביב, בערך בזמן חג השבועות, מגיע הקציר. לכן התורה קוראת לשבועות גם ״חג הקציר״.",
+      "פעם קצרו ביד, עם סכין מעוקלת שנקראת ״מגל״. אחר כך קשרו את השיבולים לאגודות, שנקראות ״אלומות״.",
+      "היום נוסעת בשדה מכונה ענקית, שנקראת ״קומביין״.",
+      "היא חותכת את השיבולים, מפרידה בין הגרעינים לקש, ושופכת את הגרעינים למשאית. עבודה של שבוע, ביום אחד!"
+     ],
+     "pasuk": {
+      "text": "וְחַג הַקָּצִיר בִּכּוּרֵי מַעֲשֶׂיךָ",
+      "ref": "שמות כג, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "בגורן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: Ancient times: an open stone threshing floor on a hilltop at golden hour; two oxen walk in a circle over spread wheat while a farmer in a simple robe and head covering tosses grain into the wind with a wooden fork, chaff flying away.",
+     "move": "up",
+     "fx": "dust",
+     "art": "🐂",
+     "say": [
+      "ואיך עשו את זה פעם, בלי מכונות? הביאו את השיבולים לגורן: מקום שטוח ופתוח, בראש גבעה.",
+      "שוורים הלכו שם במעגל, ודרכו על השיבולים, עד שהגרעינים יצאו מהן. זה נקרא ״דיש״.",
+      "ואז זרו אותן ברוח: זרקו אותן למעלה, הקש הקל עף הצידה, והגרעינים הכבדים נפלו למטה.",
+      "והתורה דאגה גם לשור: אסור לסגור לו את הפה בזמן הדיש. הוא עובד קשה, אז שגם הוא יאכל!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "התורה אומרת: ״לא תחסום שור בדישו״. אסור לסגור את הפה של השור בזמן שהוא עובד, כדי שגם הוא יוכל לאכול."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "בטחנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: An old stone flour mill by a stream, its round millstone turning; white flour pours softly into a sack, and the children peek in with surprise, flour dust in the sunbeams.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👦👧",
+     "say": [
+      "עכשיו הגרעינים נוסעים לטחנה. פעם טחנו אותם בין שתי אבנים כבדות ועגולות. את האבן סובבו בעלי חיים, או זרם של מים בנחל.",
+      "היום טוחנות אותם מכונות גדולות, בטחנת קמח.",
+      "הגרעין הקשה נשבר לחתיכות קטנות קטנות, עד שהוא נעשה אבקה לבנה ורכה. זה הקמח!",
+      "ומהקמח הזה, בשיעור הבא, נאפה לחם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "כמה עבודה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Evening: Saba and the children sit on a stone wall overlooking the harvested fields in sunset light, a loaf of bread wrapped in a cloth on Saba's lap.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴👦👧",
+     "say": [
+      "חז״ל מספרים על חכם בשם בן זומא. הוא אמר: כמה עבד אדם הראשון עד שהיה לו לחם! חרש, זרע, קצר, דש, טחן ואפה.",
+      "ואני, אמר בן זומא, קם בבוקר ומוצא הכול מוכן לפניי.",
+      "גם אנחנו כמו בן זומא: הגשם, האדמה, החקלאי, הקוצר והטוחן, כולם עבדו בשבילנו. והכול, מאת השם.",
+      "איזו מתנה גדולה יש בפרוסה אחת קטנה!"
+     ],
+     "pasuk": {
+      "text": "כַּמָּה יְגִיעוֹת יָגַע אָדָם הָרִאשׁוֹן עַד שֶׁמָּצָא פַּת לֶאֱכוֹל... וַאֲנִי מַשְׁכִּים וּמוֹצֵא כָּל אֵלּוּ מְתֻקָּנִין לְפָנַי",
+      "ref": "בן זומא, ברכות נח, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-tab-f1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי זורעים את החיטה?",
+   "answer": "בסתיו, אחרי הגשם הראשון",
+   "options": [
+    "בסתיו, אחרי הגשם הראשון",
+    "באמצע הקיץ החם",
+    "ביום הקציר"
+   ],
+   "explain_he": "סבא זורע בסתיו, אחרי הגשם הראשון, כשהאדמה רכה ורטובה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה צריכה החיטה כדי לגדול בחורף?",
+   "answer": "גשם",
+   "options": [
+    "גשם",
+    "רוח חזקה",
+    "הרבה צל"
+   ],
+   "explain_he": "בלי גשם אין חיטה, ולכן מתפללים ״ותן טל ומטר לברכה״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הפרידו בגורן בין הקש לגרעינים?",
+   "answer": "זרו אותם ברוח: הקש הקל עף",
+   "options": [
+    "זרו אותם ברוח: הקש הקל עף",
+    "שטפו אותם במים",
+    "בחרו ביד גרעין אחד אחד"
+   ],
+   "explain_he": "הקש קל ועף ברוח, והגרעינים הכבדים נופלים למטה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אסור לסגור את הפה של השור בזמן הדיש?",
+   "answer": "כדי שגם הוא יוכל לאכול",
+   "options": [
+    "כדי שגם הוא יוכל לאכול",
+    "כדי שלא ירעש",
+    "כדי שיעבוד מהר יותר"
+   ],
+   "explain_he": "התורה דואגת גם לבעלי החיים: ״לא תחסום שור בדישו״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים בטחנה?",
+   "answer": "טוחנים את הגרעינים לקמח",
+   "options": [
+    "טוחנים את הגרעינים לקמח",
+    "משקים את השדה",
+    "אופים את הלחם"
+   ],
+   "explain_he": "בטחנה הגרעין הקשה נעשה אבקה רכה: קמח.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f1e6"
+  }
+ ]
+}

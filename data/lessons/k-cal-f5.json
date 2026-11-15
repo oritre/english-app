@@ -1,0 +1,544 @@
+{
+ "id": "k-cal-f5",
+ "unit_id": "k-cal-u2",
+ "course": "calendar",
+ "title_he": "גלגל החגים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "גלגל החגים",
+   "ref_he": "לוח השנה העברי",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מעגל השנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A large painted circle divided into four seasons around a Jewish home: autumn sukkah, winter rain and menorah, spring blossoms and matzah, summer sun and fields.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🍂❄️🌸☀️",
+     "say": [
+      "דמיינו מעגל גדול, כמו גלגל. זו השנה.",
+      "בגלגל יש ארבעה חלקים: סתיו, חורף, אביב וקיץ. ובכל עונה מחכים לנו חגים וימים מיוחדים.",
+      "בואו נסתובב איתו, מעונה לעונה, ונראה איפה עומד כל חג.",
+      "כמו שעון שהמחוגים שלו מסתובבים, כך גם השנה: כל חג חוזר בדיוק למקומו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "סתיו: תשרי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Autumn in a Jerusalem neighborhood: families build sukkot on balconies decorated with fruits, a shofar and a pomegranate on a table, first clouds in the sky.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👦👧🍂",
+     "say": [
+      "נתחיל בסתיו, בחודש תשרי. באחד ובשניים בתשרי, ראש השנה. בעשרה בתשרי, יום כיפור.",
+      "בחמישה עשר בתשרי, סוכות, שבעה ימים. ובסופו, שמחת תורה. איזה חודש מלא!",
+      "בסתיו גם מתחילים העננים הראשונים, ומחכים לגשם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "חורף: אור בלילות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Winter night: rain on the window, a menorah burning brightly; then a sunny winter day with white almond blossoms on a hill and the children planting a sapling.",
+     "move": "right",
+     "fx": "night",
+     "art": "🕎🌸",
+     "say": [
+      "בחורף, כשהלילות ארוכים וחשוכים, מגיע חנוכה, בעשרים וחמישה בכסלו. שמונה ימים של אור.",
+      "ובחמישה עשר בשבט, כשהשקדייה פורחת, חוגגים ראש השנה לאילנות. אוכלים פירות של ארץ ישראל.",
+      "ובמיוחד, נוהגים לאכול משבעת המינים, הפירות שהארץ התברכה בהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "פורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A festive street in Jerusalem near the old city walls: children in modest costumes carry baskets of food to neighbors, the stone walls glowing in afternoon sun.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "בסוף החורף מגיע אדר, ובארבעה עשר באדר, פורים.",
+      "ובירושלים, עיר מוקפת חומה, חוגגים יום אחד אחר כך: שושן פורים, בחמישה עשר באדר.",
+      "וזוכרים מהשיעור הקודם? בשנה מעוברת, פורים חל באדר ב׳."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אביב: מפסח לשבועות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Spring: a family seder table by a window opening onto blooming fields; and in the distance a mountain under a soft light from above, a reminder of Mount Sinai.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌸",
+     "say": [
+      "באביב, בחמישה עשר בניסן, חג הפסח. גם הוא, כמו סוכות, שבעה ימים.",
+      "ושבעה שבועות אחריו, בשישה בסיוון, חג השבועות: היום שבו קיבלנו את התורה.",
+      "ובין שני החגים, סופרים בכל ערב את ספירת העומר. עליה נלמד בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "שלוש הרגלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Ancient times: crowds of pilgrims in simple robes and head coverings, families with children and donkeys, walk up winding roads toward Jerusalem and the Holy Temple on the mountain, singing.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🚶🚶🚶",
+     "say": [
+      "שלושה חגים נקראים ״שלוש הרגלים״: פסח, שבועות וסוכות.",
+      "בזמן בית המקדש, עם ישראל עלה ברגל לירושלים בכל אחד מהם. משפחות שלמות, מכל הארץ, בשירה ובשמחה.",
+      "וכל אחד קשור לעונה בשדה: פסח הוא חג האביב, שבועות חג הקציר, וסוכות חג האסיף."
+     ],
+     "pasuk": {
+      "text": "שָׁלֹשׁ רְגָלִים תָּחֹג לִי בַּשָּׁנָה",
+      "ref": "שמות כג, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "חג אחד או שניים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Split view: on one side a family in a sunlit Israeli home on a hill finishes the holiday and makes havdalah; on the other a Jewish family in a cold faraway city abroad still sits at a festive holiday table.",
+     "move": "left",
+     "fx": "light",
+     "art": "🏠🏠",
+     "say": [
+      "ויש עוד הבדל מעניין. בחוץ לארץ, חוגגים כמה חגים יום אחד נוסף. זה נקרא ״יום טוב שני של גלויות״.",
+      "למה? בזמן הסנהדרין, השליחים מירושלים לא הספיקו להגיע רחוק בזמן. היהודים שם לא ידעו בדיוק מתי התחיל החודש, ולכן חגגו שני ימים, ליתר ביטחון.",
+      "ובארץ ישראל? יום אחד, כמו שכתוב בתורה. עוד מתנה של הארץ!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "קיץ: זיכרון ונחמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A summer evening at the Western Wall: people sit quietly on low stools reading by candlelight; above, the evening sky turns soft gold, a sign of hope.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🕯️",
+     "say": [
+      "בקיץ, החגים שקטים. בשבעה עשר בתמוז ובתשעה באב, אנחנו מתאבלים על חורבן בית המקדש.",
+      "בתשעה באב צמים, ויושבים על הרצפה או על כיסא נמוך, וקוראים את מגילת איכה.",
+      "ואחריו מגיעות שבע שבתות של נחמה, שבהן קוראים בבית הכנסת דברי נחמה מהנביאים."
+     ],
+     "pasuk": {
+      "text": "נַחֲמוּ נַחֲמוּ עַמִּי",
+      "ref": "ישעיהו מ, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "אלול, והגלגל חוזר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Late summer dawn in a synagogue courtyard: a man blows a shofar, the boy listening with closed eyes; behind them the circle of the seasons painted faintly in the sky.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👦",
+     "say": [
+      "ובסוף הקיץ, אלול: תוקעים בשופר, אומרים סליחות, ומתכוננים לראש השנה. כל קהילה לפי המנהג שלה.",
+      "והגלגל חוזר לתשרי. כל שנה, אותו מעגל.",
+      "אבל אנחנו לא אותו דבר: אנחנו גדלים בתוכו. ובכל סיבוב, מתקרבים קצת יותר להשם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "גלגל החגים",
+   "ref_he": "לוח השנה העברי",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מעגל השנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A large painted circle divided into four seasons around a Jewish home: autumn sukkah, winter rain and menorah, spring blossoms and matzah, summer sun and fields.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🍂❄️🌸☀️",
+     "say": [
+      "דמיינו מעגל גדול, כמו גלגל. זו השנה.",
+      "בגלגל יש ארבעה חלקים: סתיו, חורף, אביב וקיץ. ובכל עונה מחכים לנו חגים וימים מיוחדים.",
+      "בואו נסתובב איתו, מעונה לעונה, ונראה איפה עומד כל חג.",
+      "כמו שעון שהמחוגים שלו מסתובבים, כך גם השנה: כל חג חוזר בדיוק למקומו.",
+      "על כל חג יש הרבה מה ללמוד. כאן נראה רק את המקום שלו בגלגל, ואת התאריך שלו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "סתיו: תשרי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Autumn in a Jerusalem neighborhood: families build sukkot on balconies decorated with fruits, a shofar and a pomegranate on a table, first clouds in the sky.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👦👧🍂",
+     "say": [
+      "נתחיל בסתיו, בחודש תשרי. באחד ובשניים בתשרי, ראש השנה. בעשרה בתשרי, יום כיפור.",
+      "בחמישה עשר בתשרי, סוכות, שבעה ימים. ובסופו, שמחת תורה. איזה חודש מלא!",
+      "בסתיו גם מתחילים העננים הראשונים, ומחכים לגשם.",
+      "ואז מתפללים על הגשם. בשמיני עצרת מתחילים לומר ״משיב הרוח ומוריד הגשם״.",
+      "ובארץ ישראל, בשבעה בחשוון, מתחילים לבקש ״ותן טל ומטר״. למה לחכות? כדי שהעולים לרגל יספיקו לחזור הביתה לפני הגשמים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "חורף: אור בלילות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Winter night: rain on the window, a menorah burning brightly; then a sunny winter day with white almond blossoms on a hill and the children planting a sapling.",
+     "move": "right",
+     "fx": "night",
+     "art": "🕎🌸",
+     "say": [
+      "בחורף, כשהלילות ארוכים וחשוכים, מגיע חנוכה, בעשרים וחמישה בכסלו. שמונה ימים של אור.",
+      "ובחמישה עשר בשבט, כשהשקדייה פורחת, חוגגים ראש השנה לאילנות. אוכלים פירות של ארץ ישראל.",
+      "ובמיוחד, נוהגים לאכול משבעת המינים, הפירות שהארץ התברכה בהם.",
+      "ובאמצע, בעשרה בטבת, צמים. ביום הזה, בימי בית המקדש הראשון, התחיל המצור על ירושלים.",
+      "זה צום קצר, מהבוקר עד הערב. ובו מתפללים שירושלים תיבנה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "פורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A festive street in Jerusalem near the old city walls: children in modest costumes carry baskets of food to neighbors, the stone walls glowing in afternoon sun.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "בסוף החורף מגיע אדר, ובארבעה עשר באדר, פורים.",
+      "ובירושלים, עיר מוקפת חומה, חוגגים יום אחד אחר כך: שושן פורים, בחמישה עשר באדר.",
+      "וזוכרים מהשיעור הקודם? בשנה מעוברת, פורים חל באדר ב׳.",
+      "כך היה גם בשושן הבירה, שהייתה מוקפת חומה: שם היהודים הוצרכו להתגונן יום נוסף, ונחו רק בחמישה עשר.",
+      "וחכמים קבעו שערים שהיו מוקפות חומה כבר בימי יהושע בן נון, יחגגו כמו שושן. ירושלים היא העיר החשובה מכולן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אביב: מפסח לשבועות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Spring: a family seder table by a window opening onto blooming fields; and in the distance a mountain under a soft light from above, a reminder of Mount Sinai.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌸",
+     "say": [
+      "באביב, בחמישה עשר בניסן, חג הפסח. גם הוא, כמו סוכות, שבעה ימים.",
+      "ושבעה שבועות אחריו, בשישה בסיוון, חג השבועות: היום שבו קיבלנו את התורה.",
+      "ובין שני החגים, סופרים בכל ערב את ספירת העומר. עליה נלמד בשיעור הבא.",
+      "באייר יש גם ימים חדשים, שבהם רבים מודים להשם על מדינת ישראל ועל ירושלים: יום העצמאות ויום ירושלים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "שלוש הרגלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Ancient times: crowds of pilgrims in simple robes and head coverings, families with children and donkeys, walk up winding roads toward Jerusalem and the Holy Temple on the mountain, singing.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🚶🚶🚶",
+     "say": [
+      "שלושה חגים נקראים ״שלוש הרגלים״: פסח, שבועות וסוכות.",
+      "בזמן בית המקדש, עם ישראל עלה ברגל לירושלים בכל אחד מהם. משפחות שלמות, מכל הארץ, בשירה ובשמחה.",
+      "וכל אחד קשור לעונה בשדה: פסח הוא חג האביב, שבועות חג הקציר, וסוכות חג האסיף.",
+      "כך החקלאי, בכל עונה, עוצר את העבודה, עולה לירושלים, ומודה להשם על היבול.",
+      "ואנחנו מחכים ליום שבו נעלה שוב לבית המקדש, בשלוש הרגלים."
+     ],
+     "pasuk": {
+      "text": "שָׁלֹשׁ רְגָלִים תָּחֹג לִי בַּשָּׁנָה",
+      "ref": "שמות כג, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "חג אחד או שניים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Split view: on one side a family in a sunlit Israeli home on a hill finishes the holiday and makes havdalah; on the other a Jewish family in a cold faraway city abroad still sits at a festive holiday table.",
+     "move": "left",
+     "fx": "light",
+     "art": "🏠🏠",
+     "say": [
+      "ויש עוד הבדל מעניין. בחוץ לארץ, חוגגים כמה חגים יום אחד נוסף. זה נקרא ״יום טוב שני של גלויות״.",
+      "למה? בזמן הסנהדרין, השליחים מירושלים לא הספיקו להגיע רחוק בזמן. היהודים שם לא ידעו בדיוק מתי התחיל החודש, ולכן חגגו שני ימים, ליתר ביטחון.",
+      "ובארץ ישראל? יום אחד, כמו שכתוב בתורה. עוד מתנה של הארץ!",
+      "חוץ מראש השנה: אותו חוגגים יומיים גם בארץ ישראל, כי הוא חל בראש חודש עצמו, וגם בירושלים לא תמיד ידעו בזמן אם החודש התחיל.",
+      "ובחוץ לארץ, גם אחרי שיש לוח קבוע, שומרים על המנהג של האבות, ומוסיפים יום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "קיץ: זיכרון ונחמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A summer evening at the Western Wall: people sit quietly on low stools reading by candlelight; above, the evening sky turns soft gold, a sign of hope.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🕯️",
+     "say": [
+      "בקיץ, החגים שקטים. בשבעה עשר בתמוז ובתשעה באב, אנחנו מתאבלים על חורבן בית המקדש.",
+      "בתשעה באב צמים, ויושבים על הרצפה או על כיסא נמוך, וקוראים את מגילת איכה.",
+      "ואחריו מגיעות שבע שבתות של נחמה, שבהן קוראים בבית הכנסת דברי נחמה מהנביאים.",
+      "הנביא ישעיהו אומר: ״נחמו נחמו עמי״. אנחנו בוכים על מה שנחרב, אבל מאמינים שבית המקדש עוד ייבנה.",
+      "ושלושת השבועות שבין י״ז בתמוז לתשעה באב נקראים ״בין המצרים״."
+     ],
+     "pasuk": {
+      "text": "נַחֲמוּ נַחֲמוּ עַמִּי",
+      "ref": "ישעיהו מ, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "אלול, והגלגל חוזר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Late summer dawn in a synagogue courtyard: a man blows a shofar, the boy listening with closed eyes; behind them the circle of the seasons painted faintly in the sky.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👦",
+     "say": [
+      "ובסוף הקיץ, אלול: תוקעים בשופר, אומרים סליחות, ומתכוננים לראש השנה. כל קהילה לפי המנהג שלה.",
+      "והגלגל חוזר לתשרי. כל שנה, אותו מעגל.",
+      "אבל אנחנו לא אותו דבר: אנחנו גדלים בתוכו. ובכל סיבוב, מתקרבים קצת יותר להשם.",
+      "ובעשרה הימים שבין ראש השנה ליום כיפור, ״עשרת ימי תשובה״, משתדלים במיוחד בתפילה ובמעשים טובים.",
+      "כך כל שנה מתחילה בבדיקה: מה עשיתי טוב, ומה אני רוצה לתקן בשנה החדשה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו עונה חל חודש תשרי?",
+   "answer": "בסתיו",
+   "options": [
+    "בסתיו",
+    "באביב",
+    "בקיץ"
+   ],
+   "explain_he": "תשרי, עם ראש השנה וסוכות, הוא בסתיו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו עונה חל חודש תשרי?",
+   "answer": "בסתיו",
+   "options": [
+    "בסתיו",
+    "באביב",
+    "בקיץ"
+   ],
+   "explain_he": "תשרי, עם ראש השנה וסוכות, הוא בסתיו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי מתחיל חנוכה?",
+   "answer": "בעשרים וחמישה בכסלו",
+   "options": [
+    "בעשרים וחמישה בכסלו",
+    "בחמישה עשר בניסן",
+    "בעשרה בתשרי"
+   ],
+   "explain_he": "כ״ה בכסלו, בחורף, כשהלילות ארוכים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי מתחיל חנוכה?",
+   "answer": "בעשרים וחמישה בכסלו",
+   "options": [
+    "בעשרים וחמישה בכסלו",
+    "בחמישה עשר בניסן",
+    "בעשרה בתשרי"
+   ],
+   "explain_he": "כ״ה בכסלו, בחורף, כשהלילות ארוכים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הם ״שלוש הרגלים״?",
+   "answer": "פסח, שבועות וסוכות",
+   "options": [
+    "פסח, שבועות וסוכות",
+    "ראש השנה, חנוכה ופורים",
+    "ט״ו בשבט, פורים ושבועות"
+   ],
+   "explain_he": "בהם עלה עם ישראל לירושלים, לבית המקדש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הם ״שלוש הרגלים״?",
+   "answer": "פסח, שבועות וסוכות",
+   "options": [
+    "פסח, שבועות וסוכות",
+    "ראש השנה, חנוכה ופורים",
+    "ט״ו בשבט, פורים ושבועות"
+   ],
+   "explain_he": "בהם עלה עם ישראל לירושלים, לבית המקדש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בירושלים חוגגים פורים יום אחד אחר כך?",
+   "answer": "כי היא עיר מוקפת חומה",
+   "options": [
+    "כי היא עיר מוקפת חומה",
+    "כי שם קר יותר",
+    "כי שם המגילה ארוכה יותר"
+   ],
+   "explain_he": "בעיר מוקפת חומה חוגגים שושן פורים, בט״ו באדר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בירושלים חוגגים פורים יום אחד אחר כך?",
+   "answer": "כי היא עיר מוקפת חומה",
+   "options": [
+    "כי היא עיר מוקפת חומה",
+    "כי שם קר יותר",
+    "כי שם המגילה ארוכה יותר"
+   ],
+   "explain_he": "בעיר מוקפת חומה חוגגים שושן פורים, בט״ו באדר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה מתאבלים בתשעה באב?",
+   "answer": "על חורבן בית המקדש",
+   "options": [
+    "על חורבן בית המקדש",
+    "על גזירת המן",
+    "על המבול"
+   ],
+   "explain_he": "בתשעה באב צמים ומתאבלים, ואחריו שבע שבתות של נחמה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה מתאבלים בתשעה באב?",
+   "answer": "על חורבן בית המקדש",
+   "options": [
+    "על חורבן בית המקדש",
+    "על גזירת המן",
+    "על המבול"
+   ],
+   "explain_he": "בתשעה באב צמים ומתאבלים, ואחריו שבע שבתות של נחמה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מבקשים ״ותן טל ומטר״ רק בשבעה בחשוון?",
+   "answer": "כדי שהעולים לרגל יספיקו לחזור הביתה לפני הגשם",
+   "options": [
+    "כדי שהעולים לרגל יספיקו לחזור הביתה לפני הגשם",
+    "כי לפני כן אין עננים",
+    "כי כך החליט המלך"
+   ],
+   "explain_he": "חיכו לעולים לרגל שגרו רחוק מירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה התחיל בעשרה בטבת?",
+   "answer": "המצור על ירושלים",
+   "options": [
+    "המצור על ירושלים",
+    "נס פך השמן",
+    "קבלת התורה"
+   ],
+   "explain_he": "בימי בית המקדש הראשון, ובו צמים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חג נקרא ״חג האסיף״?",
+   "answer": "סוכות",
+   "options": [
+    "סוכות",
+    "פסח",
+    "שבועות"
+   ],
+   "explain_he": "פסח חג האביב, שבועות חג הקציר, וסוכות חג האסיף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f5e15"
+  }
+ ]
+}

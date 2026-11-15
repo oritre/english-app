@@ -1,0 +1,323 @@
+{
+ "id": "k-war-f6",
+ "unit_id": "k-war-u3",
+ "course": "wars",
+ "title_he": "אנטבה ואמונת הלוחמים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🛡️ ידע כללי",
+   "title_he": "אנטבה ואמונת הלוחמים",
+   "ref_he": "מלחמות ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "טיסה לפריז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A large passenger airplane of the 1970s taking off from an airport on a sunny summer morning, families with children in modest clothes waving goodbye at the terminal windows, a calm blue sky.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👩👧",
+     "say": [
+      "יום ראשון, 27 ביוני 1976. מטוס של חברת אייר פרנס ממריא מנמל התעופה בלוד, בדרך לפריז.",
+      "על המטוס בערך מאתיים וחמישים נוסעים, ביניהם משפחות עם ילדים, מישראל וממקומות אחרים.",
+      "המטוס עוצר באתונה, ועולים עליו נוסעים נוספים.",
+      "אבל בין הנוסעים החדשים יש מחבלים. זמן קצר אחרי ההמראה הם משתלטים על המטוס.",
+      "המטוס משנה את כיוונו. הנוסעים לא יודעים לאן הם טסים.",
+      "בסוף, אחרי עצירה בלוב, הוא נוחת במקום רחוק מאוד: בשדה התעופה של אנטבה, באוגנדה, באפריקה.",
+      "היום נספר על אחד ממבצעי ההצלה הנועזים ביותר בהיסטוריה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "באנטבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: An old airport terminal hall in Africa in 1976 at night, tired passengers sitting on the floor and on benches, a mother holding a sleeping child, an older man praying quietly with a small siddur, a dim lamp, no weapons visible.",
+     "move": "in",
+     "fx": "night",
+     "art": "👩👶👴👨",
+     "say": [
+      "באנטבה החזיקו המחבלים את הנוסעים באולם ישן של שדה התעופה.",
+      "שליט אוגנדה, אידי אמין, לא עזר לנוסעים. הוא עזר למחבלים.",
+      "אחרי כמה ימים הפרידו המחבלים בין הנוסעים: את רוב מי שלא היו ישראלים או יהודים, הם שחררו.",
+      "נשארו בערך מאה בני ערובה, ישראלים ויהודים, וגם צוות המטוס.",
+      "ההפרדה הזאת הזכירה לרבים מבני הערובה, ובהם ניצולי שואה, ימים נוראים מעברם.",
+      "המחבלים דרשו לשחרר מחבלים רבים מבתי הכלא, ואיימו שאם לא, יפגעו בבני הערובה.",
+      "בבית, בישראל, כל העם עצר את נשימתו.",
+      "משפחות בני הערובה התפללו, ובבתי כנסת רבים אמרו תהילים לשלומם, יום אחרי יום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "קברניט המטוס, הצרפתי מישל בקוס, ואנשי הצוות שלו, סירבו להשתחרר. הם בחרו להישאר עם בני הערובה."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "ההחלטה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A modest government meeting room in Jerusalem in 1976 at night, a few serious men in white shirts around a table with a large map of Africa, cups of coffee, the clock showing late hours, tense concentration.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨👨👨",
+     "say": [
+      "מה עושים? אנטבה רחוקה מישראל בערך ארבעת אלפים קילומטרים.",
+      "ממשלת ישראל ומפקדי צה״ל חשבו יום ולילה. רבים חשבו שאין שום דרך להגיע לשם.",
+      "אבל בסוף הוחלט: יוצאים למבצע הצלה.",
+      "לוחמי היחידה המובחרת התאמנו בסתר. הם בנו דגם של אולם שדה התעופה, כדי לדעת בדיוק לאן לרוץ.",
+      "את המטוסים היה צריך לשלוח ביום שבת, כדי להגיע בזמן.",
+      "וזה פיקוח נפש: כשיש סכנה לחיים, השבת נדחית. כך פוסקת ההלכה.",
+      "הלוחמים ידעו שהם יוצאים למשימה מסוכנת מאוד, רחוק מכל עזרה.",
+      "אבל הם ידעו גם דבר נוסף: אם עם ישראל לא יציל את בניו, אף אחד אחר לא יעשה זאת בשבילו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "טיסה בלילה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Four large military cargo planes flying low in a line over a dark sea under a starry sky in 1976, seen from far away, their silhouettes against the faint moonlight, a calm and silent night.",
+     "move": "right",
+     "fx": "stars",
+     "art": "🕊️",
+     "say": [
+      "ארבעה מטוסי תובלה גדולים, הרקולס, המריאו מישראל.",
+      "הם טסו שעות ארוכות, נמוך מאוד מעל הים האדום, כדי שהמכ״מים לא יגלו אותם.",
+      "בתוך המטוסים ישבו הלוחמים בשקט. היו שהתפללו, היו שעצמו עיניים, והיו שחשבו על הבית.",
+      "באחד המטוסים הייתה מכונית מרצדס, דומה למכוניות של אידי אמין.",
+      "התוכנית הייתה שהשומרים יחשבו שהשליט עצמו מגיע, ולא יעצרו את הלוחמים.",
+      "בשעת לילה מאוחרת נחת המטוס הראשון באנטבה, בשקט, באפלה.",
+      "בישראל, רק מעטים ידעו על המבצע. המשפחות של בני הערובה עוד לא ידעו שהעזרה כבר בדרך.",
+      "שעת האמת הגיעה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "החילוץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: At night, a line of rescued passengers wrapped in blankets walking quickly toward the open rear ramp of a large cargo plane on a dark runway, soldiers guiding them and carrying children in their arms, runway lights glowing.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨👩👦👶",
+     "say": [
+      "הלוחמים פרצו אל האולם, וקראו בעברית: לשכב! לשכב! אנחנו צה״ל!",
+      "בתוך דקות ספורות הם השתלטו על המקום.",
+      "בני הערובה, שלא האמינו למראה עיניהם, הובלו במהירות אל המטוסים.",
+      "כל המבצע על הקרקע נמשך בערך שעה וחצי.",
+      "כמעט כל בני הערובה ניצלו, וחזרו הביתה. הם נחתו בישראל בבוקר יום ראשון, 4 ביולי.",
+      "בנמל התעופה חיכו להם אלפי אנשים. הם שרו, בכו, וחיבקו את הלוחמים ואת בני הערובה.",
+      "העולם כולו נדהם: מדינה קטנה הגיעה לקצה אפריקה, כדי להציל את בניה.",
+      "בני הערובה שחזרו סיפרו שבאולם באנטבה, ברגעים הקשים, היו שהתפללו בלחש, ושהאמינו שיבוא יום של ישועה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יוני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A quiet military cemetery on Mount Herzl in Jerusalem at sunset, a simple stone grave with small pebbles and a few flowers, tall pine trees, an old couple standing quietly, the light gentle and golden.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👴👵🌳",
+     "say": [
+      "אבל במבצע נפל לוחם אחד: מפקד הכוח, סגן אלוף יונתן נתניהו, יוני.",
+      "הוא הוביל את הלוחמים קדימה, ונפגע בתחילת הפריצה.",
+      "לזכרו נקרא המבצע מאז מבצע יונתן.",
+      "השם מזכיר את יהונתן בן שאול, שעליו קונן דוד המלך: מנשרים קלו, מאריות גברו.",
+      "יהונתן של התנ״ך היה אמיץ, נאמן ואוהב, ויצא לבדו עם נושא כליו אל מחנה הפלשתים, כי אמר: אין לה׳ מעצור להושיע ברב או במעט.",
+      "ויוני של אנטבה הוביל קבוצה קטנה של לוחמים אל מקום רחוק, כדי להושיע.",
+      "גם שלושה מבני הערובה נהרגו, ואנחנו זוכרים גם אותם."
+     ],
+     "pasuk": {
+      "text": "הַנֶּאֱהָבִים וְהַנְּעִימִם בְּחַיֵּיהֶם וּבְמוֹתָם לֹא נִפְרָדוּ, מִנְּשָׁרִים קַלּוּ מֵאֲרָיוֹת גָּבֵרוּ",
+      "ref": "שמואל ב א, כג"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "אמונת הלוחמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Soldiers of different years in simple olive uniforms at dawn by a rocky hillside, one wrapping tefillin on his arm, another reading a small book of Tehillim, a third writing a letter home, a soft light from above.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨👨👦",
+     "say": [
+      "עכשיו בואו נסתכל על כל המלחמות שלמדנו, ונמצא את מה שמחבר ביניהן.",
+      "בגוש עציון, לוחמים התפללו במניין גם במצור. בירושלים, בני ישיבות חפרו ביצורים בשבת, כי זה פיקוח נפש.",
+      "בששת הימים, חיילים הניחו תפילין ליד הטנקים, ובכו ליד הכותל.",
+      "ביום כיפור, אנשים יצאו מבית הכנסת לחזית עם הטלית, ובנו סוכות במדבר.",
+      "ובאנטבה, לוחמים טסו ארבעת אלפים קילומטרים כדי להציל אחים שלא הכירו.",
+      "המשנה אומרת: כל המקיים נפש אחת מישראל, כאילו קיים עולם מלא.",
+      "זו מסירות נפש: לתת מעצמך, אפילו את החיים, כדי שאחרים יחיו.",
+      "והם עשו זאת לא מתוך שנאה, אלא מתוך אהבה: לעם, לארץ ולמשפחות שבבית."
+     ],
+     "pasuk": {
+      "text": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת מִיִּשְׂרָאֵל, מַעֲלֶה עָלָיו הַכָּתוּב כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
+      "ref": "משנה, סנהדרין ד, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "צפירה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A busy Israeli street on Memorial Day morning, cars stopped in the road and drivers standing beside them in silence, a mother and children with heads bowed on the sidewalk, a schoolboy with a kippah standing still, still air.",
+     "move": "out",
+     "fx": "mist",
+     "art": "👨👩👦👧",
+     "say": [
+      "בכל שנה, בד׳ באייר, ביום הזיכרון, נשמעת בכל הארץ צפירה.",
+      "מכוניות עוצרות באמצע הכביש. נהגים יוצאים ועומדים בשקט. ילדים בבית הספר קמים.",
+      "כל המדינה עומדת דקה אחת, וזוכרת.",
+      "בבתי הכנסת אומרים קדיש, ואת תפילת אל מלא רחמים לזכר הנופלים.",
+      "ובבתי העלמין, משפחות מניחות אבנים קטנות על הקברים, ואומרות תהילים.",
+      "אנחנו זוכרים כל אחד ואחת בשמם, כי כל אחד הוא עולם שלם.",
+      "ולמחרת, ביום העצמאות, אנחנו שמחים ומודים. כי הזיכרון והתודה הולכים יחד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "מי שברך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A synagogue on a Shabbat morning, the congregation standing as an elderly rabbi at the bimah holds a small prayer book and blesses, fathers with their sons in tallitot, sunlight streaming over the Aron Kodesh, peaceful and warm.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴👨👦",
+     "say": [
+      "בכל שבת, בבתי כנסת רבים, אחרי קריאת התורה, הקהל עומד ומתפלל: מי שברך אבותינו אברהם יצחק ויעקב, הוא יברך את חיילי צבא ההגנה לישראל.",
+      "אנחנו מבקשים שהקדוש ברוך הוא ישמור עליהם, ויחזיר אותם בשלום לביתם.",
+      "במסע שלנו ראינו את גוש עציון ואת ירושלים הנצורה. את הכותל וחברון. את יום הכיפורים ואת אנטבה.",
+      "ראינו פחד, וראינו אומץ. ראינו כאב, וראינו ישועה.",
+      "ובכל המלחמות האלה, עם ישראל נאבק על הזכות לחיות בארץ שהקדוש ברוך הוא הבטיח לאבותינו.",
+      "הנה לא ינום ולא יישן שומר ישראל. הוא שמר עלינו אז, והוא שומר עלינו היום.",
+      "ואנחנו, הילדים, ממשיכים את השרשרת: זוכרים, מודים, ומתפללים לשלום.",
+      "כמו שאנחנו מבקשים בסוף כל תפילה: עושה שלום במרומיו, הוא יעשה שלום עלינו ועל כל ישראל."
+     ],
+     "pasuk": {
+      "text": "מִי שֶׁבֵּרַךְ אֲבוֹתֵינוּ אַבְרָהָם יִצְחָק וְיַעֲקֹב, הוּא יְבָרֵךְ אֶת חַיָּלֵי צְבָא הַהֲגַנָּה לְיִשְׂרָאֵל",
+      "ref": "תפילה לשלום חיילי צה״ל"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-war-f6e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן הובא המטוס החטוף?",
+   "answer": "לאנטבה שבאוגנדה",
+   "options": [
+    "לאנטבה שבאוגנדה",
+    "לפריז",
+    "לאתונה"
+   ],
+   "explain_he": "אחרי עצירה בלוב, נחת המטוס בשדה התעופה של אנטבה, באפריקה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו קברניט המטוס ואנשי הצוות שלו כשהציעו לשחרר אותם?",
+   "answer": "סירבו, ובחרו להישאר עם בני הערובה",
+   "options": [
+    "סירבו, ובחרו להישאר עם בני הערובה",
+    "טסו מיד הביתה",
+    "עזרו למחבלים"
+   ],
+   "explain_he": "הקברניט מישל בקוס וצוותו נשארו עם בני הערובה עד החילוץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה יצאו המטוסים למבצע ביום שבת?",
+   "answer": "כי זה פיקוח נפש, וכשיש סכנה לחיים השבת נדחית",
+   "options": [
+    "כי זה פיקוח נפש, וכשיש סכנה לחיים השבת נדחית",
+    "כי לא ידעו שזו שבת",
+    "כי בשבת אין טיסות אחרות"
+   ],
+   "explain_he": "ההלכה פוסקת שהצלת חיים דוחה שבת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הביאו הלוחמים מכונית מרצדס?",
+   "answer": "כדי שהשומרים יחשבו שהשליט אידי אמין מגיע",
+   "options": [
+    "כדי שהשומרים יחשבו שהשליט אידי אמין מגיע",
+    "כדי להסיע את בני הערובה",
+    "כדי לנסוע בה לעיר"
+   ],
+   "explain_he": "המכונית הייתה דומה לזו של אידי אמין, כדי להפתיע את השומרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על שם מי נקרא המבצע \"מבצע יונתן\"?",
+   "answer": "על שם מפקד הכוח, יוני נתניהו, שנפל במבצע",
+   "options": [
+    "על שם מפקד הכוח, יוני נתניהו, שנפל במבצע",
+    "על שם יהונתן בן שאול בלבד",
+    "על שם הטייס הראשון"
+   ],
+   "explain_he": "יוני נתניהו נפל בתחילת הפריצה, והמבצע נקרא לזכרו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מלמדת המשנה \"כל המקיים נפש אחת מישראל\"?",
+   "answer": "שמי שמציל נפש אחת, כאילו קיים עולם מלא",
+   "options": [
+    "שמי שמציל נפש אחת, כאילו קיים עולם מלא",
+    "שרק מלך יכול להציל",
+    "שאסור להסתכן בשביל אחרים"
+   ],
+   "explain_he": "זה מה שמחבר את הלוחמים בכל המלחמות: מסירות נפש כדי שאחרים יחיו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים בכל הארץ בשעת הצפירה ביום הזיכרון?",
+   "answer": "עוצרים ועומדים בשקט, וזוכרים את הנופלים",
+   "options": [
+    "עוצרים ועומדים בשקט, וזוכרים את הנופלים",
+    "ממשיכים בנסיעה כרגיל",
+    "שרים שירי שמחה"
+   ],
+   "explain_he": "מכוניות עוצרות, אנשים עומדים, ובבתי הכנסת אומרים קדיש ואל מלא רחמים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f6e8"
+  }
+ ]
+}

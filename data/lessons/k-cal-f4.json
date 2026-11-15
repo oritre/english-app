@@ -1,0 +1,536 @@
+{
+ "id": "k-cal-f4",
+ "unit_id": "k-cal-u2",
+ "course": "calendar",
+ "title_he": "השנה המעוברת",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "השנה המעוברת",
+   "ref_he": "לוח השנה העברי",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שלושה עשר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The children look at a big wall calendar in their kitchen with thirteen month pages, the girl pointing in surprise at two pages that look alike.",
+     "move": "in",
+     "fx": null,
+     "art": "👦👧",
+     "say": [
+      "תסתכלו על לוח השנה שבבית. השנה, תשפ״ז, היא שנה מיוחדת.",
+      "יש בה לא שנים עשר חודשים, אלא שלושה עשר! ויש בה שני חודשים עם אותו שם.",
+      "איך זה יכול להיות? זוכרים את החידה מהשיעור הקודם? היום נפתור אותה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שני שעונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A painted sky with two giant gentle clocks of light: a golden sun on one side and a silver moon on the other, above the hills of Israel in the four seasons.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "☀️🌙",
+     "say": [
+      "יש לנו שני שעונים בשמים: הירח והשמש.",
+      "הירח קובע את החודשים. שנים עשר חודשים של ירח, הם בערך שלוש מאות חמישים וארבעה ימים.",
+      "והשמש קובעת את העונות: קיץ, סתיו, חורף ואביב. ושנת השמש, מאביב לאביב, ארוכה יותר: בערך שלוש מאות שישים וחמישה ימים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "פסח בחורף?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A funny imaginary scene: a family holds a Pesach seder in a room with snow falling outside the window, everyone wrapped in coats and scarves, looking puzzled.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👦👧❄️",
+     "say": [
+      "מה יקרה אם נלך רק לפי הירח, ולא נעשה כלום?",
+      "בכל שנה, החגים יזוזו אחורה, בערך אחד עשר ימים. אחרי כמה שנים, פסח יגיע בחורף.",
+      "תארו לכם: ליל הסדר, ובחוץ קר וגשום, אולי אפילו שלג! ואחר כך, פסח יגיע בסתיו, ואפילו בקיץ.",
+      "וסוכות? הוא יגיע בחורף, בגשם, ולא נוכל לשבת בנחת בסוכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "חודש האביב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Spring in Israel: blossoming almond and apple trees, fields of green and ripening barley, and a family walking to the seder dressed lightly in warm sunshine.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌸",
+     "say": [
+      "אבל התורה אומרת: פסח חייב להיות באביב! ״שמור את חודש האביב, ועשית פסח״.",
+      "יצאנו ממצרים באביב, כשהשעורה מבשילה והפרחים פורחים, ולכן גם החג צריך להיות באביב.",
+      "וגם סוכות צריך להיות בסתיו, בזמן האסיף, כשאוספים את הפירות מהשדה."
+     ],
+     "pasuk": {
+      "text": "שָׁמוֹר אֶת חֹדֶשׁ הָאָבִיב וְעָשִׂיתָ פֶּסַח",
+      "ref": "דברים טז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אדר א׳ ואדר ב׳",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Two identical joyful Purim scenes side by side: children in modest costumes carrying gift baskets of food; one scene is painted in pale light, the other in brighter festive light.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "אז מה הפתרון? מוסיפים חודש!",
+      "בשנה מעוברת יש שני חודשי אדר: אדר א׳ ואדר ב׳. החודש הנוסף בא בסוף החורף, לפני ניסן.",
+      "החודש הזה מחזיר את החגים למקום שלהם, וניסן שוב מגיע באביב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "החכמים בודקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: Ancient times: elderly sages in robes walk through a barley field at the end of winter, one gently holding a barley ear to check it, another looking at fruit buds on a tree.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👴👴🌾",
+     "say": [
+      "בזמן הסנהדרין, החכמים החליטו בכל שנה, אם לעבר אותה.",
+      "בסוף החורף, הם יצאו לבדוק: האם השעורה כבר מבשילה בשדות? האם הפירות על העצים גדלים?",
+      "ואם האביב עוד לא הגיע, הם הוסיפו חודש."
+     ],
+     "pasuk": {
+      "text": "עַל שְׁלֹשָׁה דְבָרִים מְעַבְּרִין אֶת הַשָּׁנָה: עַל הָאָבִיב, וְעַל פֵּרוֹת הָאִילָן, וְעַל הַתְּקוּפָה",
+      "ref": "סנהדרין יא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שבע בתשע עשרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A ring of nineteen small round stones laid on a wooden table, seven of them shining gold; an old scroll and an oil lamp beside them.",
+     "move": "up",
+     "fx": "light",
+     "art": "📜",
+     "say": [
+      "והיום, בלי סנהדרין? גם על זה חשב הלל הנשיא.",
+      "לפי הלוח שלו, יש שבע שנים מעוברות בכל תשע עשרה שנים. כך, כמעט כל שנתיים או שלוש, מגיעה שנה עם אדר כפול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "לא אד״ו ראש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A painted week of seven round panels in a row; three of them, the first, the fourth and the sixth, are softly faded, and the others shine; a shofar rests below.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "📜",
+     "say": [
+      "ועוד סוד של הלוח: ראש השנה אף פעם לא חל ביום ראשון, ביום רביעי או ביום שישי!",
+      "למה? למשל, כדי שיום כיפור לא יחול ביום שישי או ביום ראשון, צמוד לשבת.",
+      "אחרת היו שני ימים רצופים שבהם אי אפשר לבשל, להכין ולטפל בכל צרכי הבית."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הסימן הוא ״לא אד״ו ראש״: א׳ היא יום ראשון, ד׳ יום רביעי, ו׳ יום שישי."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "חודש במתנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Late winter in Israel: almond trees in full white bloom on a hillside, and the children walk happily on a path between them carrying a basket of Purim treats.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦👧🌸",
+     "say": [
+      "אז השנה, בתשפ״ז, יש לנו חודש שלם במתנה: עוד חודש של שמחת אדר!",
+      "ובזכות הלוח הזה, פסח תמיד מגיע עם האביב, והשעורה מצהיבה בשדות.",
+      "הירח והשמש הולכים יחד, כמו שני חברים שמחזיקים ידיים, ושומרים על החגים שלנו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "השנה המעוברת",
+   "ref_he": "לוח השנה העברי",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שלושה עשר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The children look at a big wall calendar in their kitchen with thirteen month pages, the girl pointing in surprise at two pages that look alike.",
+     "move": "in",
+     "fx": null,
+     "art": "👦👧",
+     "say": [
+      "תסתכלו על לוח השנה שבבית. השנה, תשפ״ז, היא שנה מיוחדת.",
+      "יש בה לא שנים עשר חודשים, אלא שלושה עשר! ויש בה שני חודשים עם אותו שם.",
+      "איך זה יכול להיות? זוכרים את החידה מהשיעור הקודם? היום נפתור אותה.",
+      "שנה כזאת נקראת ״שנה מעוברת״. כמו שתינוק גדל בבטן של אמא, השנה ״מתמלאת״, ומקבלת חודש נוסף."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שני שעונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A painted sky with two giant gentle clocks of light: a golden sun on one side and a silver moon on the other, above the hills of Israel in the four seasons.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "☀️🌙",
+     "say": [
+      "יש לנו שני שעונים בשמים: הירח והשמש.",
+      "הירח קובע את החודשים. שנים עשר חודשים של ירח, הם בערך שלוש מאות חמישים וארבעה ימים.",
+      "והשמש קובעת את העונות: קיץ, סתיו, חורף ואביב. ושנת השמש, מאביב לאביב, ארוכה יותר: בערך שלוש מאות שישים וחמישה ימים.",
+      "ההפרש הוא בערך אחד עשר ימים, בכל שנה.",
+      "ואחד עשר ימים בשנה, אחרי שלוש שנים, הם כבר יותר מחודש שלם!",
+      "יש עמים שהולכים רק לפי הירח, ואצלם החגים באמת נודדים בין העונות. ויש שהולכים רק לפי השמש, וחודשיהם כבר לא קשורים לירח. הלוח שלנו שומר על שניהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "פסח בחורף?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A funny imaginary scene: a family holds a Pesach seder in a room with snow falling outside the window, everyone wrapped in coats and scarves, looking puzzled.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👦👧❄️",
+     "say": [
+      "מה יקרה אם נלך רק לפי הירח, ולא נעשה כלום?",
+      "בכל שנה, החגים יזוזו אחורה, בערך אחד עשר ימים. אחרי כמה שנים, פסח יגיע בחורף.",
+      "תארו לכם: ליל הסדר, ובחוץ קר וגשום, אולי אפילו שלג! ואחר כך, פסח יגיע בסתיו, ואפילו בקיץ.",
+      "וסוכות? הוא יגיע בחורף, בגשם, ולא נוכל לשבת בנחת בסוכה.",
+      "ואחרי בערך שלושים ושלוש שנים, החגים יעשו סיבוב שלם על כל העונות.",
+      "ואז כבר לא תהיה משמעות ל״חג האביב״ או ל״חג האסיף״: החג והשדה ילכו כל אחד לדרכו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "חודש האביב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Spring in Israel: blossoming almond and apple trees, fields of green and ripening barley, and a family walking to the seder dressed lightly in warm sunshine.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌸",
+     "say": [
+      "אבל התורה אומרת: פסח חייב להיות באביב! ״שמור את חודש האביב, ועשית פסח״.",
+      "יצאנו ממצרים באביב, כשהשעורה מבשילה והפרחים פורחים, ולכן גם החג צריך להיות באביב.",
+      "וגם סוכות צריך להיות בסתיו, בזמן האסיף, כשאוספים את הפירות מהשדה.",
+      "״שמור״ פירושו: שימו לב, ותדאגו שניסן תמיד יפגוש את האביב.",
+      "לכן הלוח שלנו לא הולך רק לפי הירח, וגם לא רק לפי השמש. הוא הולך לפי שניהם יחד."
+     ],
+     "pasuk": {
+      "text": "שָׁמוֹר אֶת חֹדֶשׁ הָאָבִיב וְעָשִׂיתָ פֶּסַח",
+      "ref": "דברים טז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אדר א׳ ואדר ב׳",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Two identical joyful Purim scenes side by side: children in modest costumes carrying gift baskets of food; one scene is painted in pale light, the other in brighter festive light.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "אז מה הפתרון? מוסיפים חודש!",
+      "בשנה מעוברת יש שני חודשי אדר: אדר א׳ ואדר ב׳. החודש הנוסף בא בסוף החורף, לפני ניסן.",
+      "החודש הזה מחזיר את החגים למקום שלהם, וניסן שוב מגיע באביב.",
+      "ופורים? חוגגים אותו באדר ב׳, הסמוך לניסן.",
+      "חז״ל אומרים: כדי לסמוך גאולה לגאולה. את גאולת פורים, לגאולת פסח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "החכמים בודקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: Ancient times: elderly sages in robes walk through a barley field at the end of winter, one gently holding a barley ear to check it, another looking at fruit buds on a tree.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👴👴🌾",
+     "say": [
+      "בזמן הסנהדרין, החכמים החליטו בכל שנה, אם לעבר אותה.",
+      "בסוף החורף, הם יצאו לבדוק: האם השעורה כבר מבשילה בשדות? האם הפירות על העצים גדלים?",
+      "ואם האביב עוד לא הגיע, הם הוסיפו חודש.",
+      "הם בדקו גם את ״התקופה״: האם השמש כבר הגיעה לזמן האביב. ולמה זה כל כך חשוב?",
+      "כי בפסח צריך להביא את העומר, מן השעורה החדשה. אם השעורה לא מוכנה, אי אפשר להביא אותו."
+     ],
+     "pasuk": {
+      "text": "עַל שְׁלֹשָׁה דְבָרִים מְעַבְּרִין אֶת הַשָּׁנָה: עַל הָאָבִיב, וְעַל פֵּרוֹת הָאִילָן, וְעַל הַתְּקוּפָה",
+      "ref": "סנהדרין יא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שבע בתשע עשרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A ring of nineteen small round stones laid on a wooden table, seven of them shining gold; an old scroll and an oil lamp beside them.",
+     "move": "up",
+     "fx": "light",
+     "art": "📜",
+     "say": [
+      "והיום, בלי סנהדרין? גם על זה חשב הלל הנשיא.",
+      "לפי הלוח שלו, יש שבע שנים מעוברות בכל תשע עשרה שנים. כך, כמעט כל שנתיים או שלוש, מגיעה שנה עם אדר כפול.",
+      "תשע עשרה השנים האלה נקראות ״מחזור״. בכל מחזור, השנים המעוברות הן: שלוש, שש, שמונה, אחת עשרה, ארבע עשרה, שבע עשרה ותשע עשרה.",
+      "והשנה, תשפ״ז, היא השנה האחת עשרה במחזור, ולכן היא מעוברת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יש סימן לשנים המעוברות במחזור: גו״ח אדז״ט. כלומר השנים 3, 6, 8, 11, 14, 17 ו־19."
+     }
+    },
+    {
+     "id": "s9",
+     "title_he": "לא אד״ו ראש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A painted week of seven round panels in a row; three of them, the first, the fourth and the sixth, are softly faded, and the others shine; a shofar rests below.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "📜",
+     "say": [
+      "ועוד סוד של הלוח: ראש השנה אף פעם לא חל ביום ראשון, ביום רביעי או ביום שישי!",
+      "למה? למשל, כדי שיום כיפור לא יחול ביום שישי או ביום ראשון, צמוד לשבת.",
+      "אחרת היו שני ימים רצופים שבהם אי אפשר לבשל, להכין ולטפל בכל צרכי הבית.",
+      "וכדי שהושענא רבה, היום השביעי של סוכות, לא יחול בשבת. כי בו חובטים ערבות, ואת זה לא עושים בשבת.",
+      "הלל סידר את כל זה בחשבון חכם, שעובד כבר מאות שנים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הסימן הוא ״לא אד״ו ראש״: א׳ היא יום ראשון, ד׳ יום רביעי, ו׳ יום שישי."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "חודש במתנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Late winter in Israel: almond trees in full white bloom on a hillside, and the children walk happily on a path between them carrying a basket of Purim treats.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦👧🌸",
+     "say": [
+      "אז השנה, בתשפ״ז, יש לנו חודש שלם במתנה: עוד חודש של שמחת אדר!",
+      "ובזכות הלוח הזה, פסח תמיד מגיע עם האביב, והשעורה מצהיבה בשדות.",
+      "הירח והשמש הולכים יחד, כמו שני חברים שמחזיקים ידיים, ושומרים על החגים שלנו.",
+      "הלוח העברי הוא חכם מאוד: הוא מחבר את הירח ואת השמש יחד, ושומר את החגים בעונות שלהם כבר מאות שנים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה חודשים יש בשנה מעוברת?",
+   "answer": "שלושה עשר",
+   "options": [
+    "שלושה עשר",
+    "שנים עשר",
+    "ארבעה עשר"
+   ],
+   "explain_he": "בשנה מעוברת מוסיפים חודש אחד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה חודשים יש בשנה מעוברת?",
+   "answer": "שלושה עשר",
+   "options": [
+    "שלושה עשר",
+    "שנים עשר",
+    "ארבעה עשר"
+   ],
+   "explain_he": "בשנה מעוברת מוסיפים חודש אחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חודש מכפילים בשנה מעוברת?",
+   "answer": "אדר",
+   "options": [
+    "אדר",
+    "ניסן",
+    "תשרי"
+   ],
+   "explain_he": "יש אדר א׳ ואדר ב׳.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חודש מכפילים בשנה מעוברת?",
+   "answer": "אדר",
+   "options": [
+    "אדר",
+    "ניסן",
+    "תשרי"
+   ],
+   "explain_he": "יש אדר א׳ ואדר ב׳.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה צריך להוסיף חודש?",
+   "answer": "כדי שפסח תמיד יהיה באביב",
+   "options": [
+    "כדי שפסח תמיד יהיה באביב",
+    "כדי שיהיו יותר ימי חופש",
+    "כי הירח נעלם"
+   ],
+   "explain_he": "שנת הירח קצרה משנת השמש, והתורה אומרת ״שמור את חודש האביב״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה צריך להוסיף חודש?",
+   "answer": "כדי שפסח תמיד יהיה באביב",
+   "options": [
+    "כדי שפסח תמיד יהיה באביב",
+    "כדי שיהיו יותר ימי חופש",
+    "כי הירח נעלם"
+   ],
+   "explain_he": "שנת הירח קצרה משנת השמש, והתורה אומרת ״שמור את חודש האביב״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בדקו החכמים כדי להחליט על שנה מעוברת?",
+   "answer": "אם השעורה והפירות מבשילים",
+   "options": [
+    "אם השעורה והפירות מבשילים",
+    "כמה ילדים נולדו",
+    "אם יש מספיק יין"
+   ],
+   "explain_he": "אם האביב עוד לא הגיע, הוסיפו חודש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בדקו החכמים כדי להחליט על שנה מעוברת?",
+   "answer": "אם השעורה והפירות מבשילים",
+   "options": [
+    "אם השעורה והפירות מבשילים",
+    "כמה ילדים נולדו",
+    "אם יש מספיק יין"
+   ],
+   "explain_he": "אם האביב עוד לא הגיע, הוסיפו חודש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קובע את העונות: הירח או השמש?",
+   "answer": "השמש",
+   "options": [
+    "השמש",
+    "הירח",
+    "הכוכבים"
+   ],
+   "explain_he": "הירח קובע את החודשים, והשמש את העונות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בכמה ימים בערך שנת השמש ארוכה משנת הירח?",
+   "answer": "בערך אחד עשר ימים",
+   "options": [
+    "בערך אחד עשר ימים",
+    "בערך יום אחד",
+    "בערך שלושים ימים"
+   ],
+   "explain_he": "365 פחות 354 הם בערך 11 ימים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חוגגים את פורים באדר ב׳?",
+   "answer": "כדי לסמוך גאולה לגאולה: פורים לפסח",
+   "options": [
+    "כדי לסמוך גאולה לגאולה: פורים לפסח",
+    "כי באדר א׳ קר מדי",
+    "כי כך כתוב במגילה"
+   ],
+   "explain_he": "אדר ב׳ סמוך לניסן, חודש הגאולה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים מעוברות יש בכל מחזור של 19 שנים?",
+   "answer": "שבע",
+   "options": [
+    "שבע",
+    "שלוש",
+    "תשע"
+   ],
+   "explain_he": "הסימן הוא גו״ח אדז״ט: שבע שנים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f4e14"
+  }
+ ]
+}

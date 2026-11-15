@@ -1,0 +1,233 @@
+{
+ "id": "k-egf-f2",
+ "unit_id": "k-egf-u1",
+ "course": "egypt",
+ "title_he": "פרעונים ופירמידות",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🔺 ידע כללי",
+   "title_he": "פרעונים ופירמידות",
+   "ref_he": "מצרים העתיקה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "המלך של מצרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Pharaoh: a proud Egyptian king in a long white and gold robe with sleeves and a striped royal headdress, on a stone throne. Scene: A grand Egyptian throne hall with tall painted columns shaped like papyrus plants, Pharaoh on his stone throne, officials in long white robes standing in rows, sunlight through high windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👑",
+     "say": [
+      "למלך של מצרים קראו פרעה. במשך דורות רבים מלכו במצרים פרעונים רבים, אחד אחרי השני.",
+      "פרעה היה שליט חזק מאוד. כל האדמה, הצבא והפקידים היו שלו.",
+      "המצרים חשבו שפרעה הוא לא סתם בן אדם, אלא מעין אל. זו הייתה כמובן אמונת שקר.",
+      "פרעה לבש בגדים מפוארים, כתר ומטפחת מפוספסת, ובידו מקל ושוט, סימנים לשלטון.",
+      "הפרעונים גרו בארמונות גדולים, ומשרתים רבים עבדו בשבילם. כל העם היה צריך לעבוד ולשלם מסים לפרעה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הפירמידות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: The three great pyramids of Giza rising from the golden desert at sunrise, enormous and smooth, a small caravan of camels passing in front of them to show their size.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🔺",
+     "say": [
+      "והנה הסמל המפורסם ביותר של מצרים: הפירמידות.",
+      "פירמידה היא בניין עם בסיס מרובע, ושיש לו ארבעה צדדים משולשים שנפגשים בנקודה אחת למעלה.",
+      "הפירמידות הכי מפורסמות עומדות בגיזה, ליד קהיר. הגדולה שבהן נבנתה בשביל פרעה בשם ח'ופו.",
+      "הפירמידה הגדולה בנויה כך, שכל צד שלה פונה בדיוק לאחד מארבעת הכיוונים: צפון, דרום, מזרח ומערב.",
+      "פעם הפירמידות היו מצופות באבן לבנה וחלקה, שהבריקה בשמש. היום רוב הציפוי הזה כבר נעלם, ורואים את האבנים שמתחתיו.",
+      "הן עתיקות מאוד, ועד היום אנשים מכל העולם באים לראות אותן ולהתפלא.",
+      "כשעומדים לידן, מרגישים קטנים מאוד. אבל עוד מעט נלמד מה באמת גדול."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הפירמידה הגדולה הייתה גבוהה כמעט 150 מטרים, כמו בניין של בערך 50 קומות! במשך תקופה ארוכה מאוד היא הייתה המבנה הגבוה בעולם."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "בשביל מה בנו אותן?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Inside a narrow stone passage of a pyramid lit by oil lamps, leading to a dark chamber with a large plain stone coffin, smooth granite walls, quiet and mysterious.",
+     "move": "in",
+     "fx": "night",
+     "art": "🪨",
+     "say": [
+      "למה בנו פירמידות? הן לא היו ארמונות, ואף אחד לא גר בהן. הן היו קברים.",
+      "המצרים האמינו שאחרי המוות, פרעה ממשיך לחיות בעולם אחר, וצריך שם את כל הדברים שלו.",
+      "לכן בנו לו קבר ענק, והכניסו לתוכו אוכל, תכשיטים, רהיטים וכלים.",
+      "במרכז הפירמידה היה חדר סודי, ובו ארון אבן גדול שבו הניחו את פרעה.",
+      "על הקירות של קברים רבים ציירו תמונות מחיי היום יום: איכרים, דייגים וסירות. מהציורים האלה אנחנו יודעים הרבה על החיים שם.",
+      "בתוך הפירמידה עשו מסדרונות צרים ומבוכים, כדי שגנבים לא ימצאו את האוצרות. אבל בסוף, רוב הקברים נשדדו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "איך בנו?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A huge building site in ancient Egypt: thousands of workers in linen tunics and head cloths pulling giant stone blocks on wooden sledges up a long ramp of earth, the half-built pyramid in the background.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🪨🚶",
+     "say": [
+      "איך בנו בניין כל כך גדול, בלי מנופים ובלי מכונות?",
+      "בפירמידה הגדולה יש בערך שני מיליון ושלוש מאות אלף אבנים, ורוב האבנים כבדות יותר ממכונית!",
+      "כל צד של הבסיס של הפירמידה הגדולה ארוך בערך 230 מטרים. זה כמו שני מגרשי כדורגל, אחד אחרי השני!",
+      "אלפי פועלים חצבו את האבנים, הניחו אותן על מזחלות עץ, וגררו אותן בחבלים. כנראה שבנו גם סוללות עפר כדי להעלות את האבנים למעלה.",
+      "אבנים רבות הובאו בסירות על הנילוס. שוב רואים: בלי הנהר, לא היו פירמידות.",
+      "עד היום החוקרים מתווכחים על חלק מהפרטים, ואנחנו לא יודעים בדיוק הכל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שמירה על הגוף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A quiet tomb chamber with a beautifully painted wooden coffin shaped like a person, golden and blue, lying on a stone base, jars and baskets around it, oil lamp light.",
+     "move": "in",
+     "fx": "night",
+     "art": "⚱️",
+     "say": [
+      "המצרים גם רצו לשמור על הגוף אחרי המוות, שלא יתקלקל. הם ייבשו אותו במלח מיוחד, עטפו אותו בבד פשתן, והניחו אותו בארון מצויר.",
+      "זה נקרא חניטה. גוף חנוט נשמר אלפי שנים.",
+      "ויודעים מה? גם התורה מזכירה חניטה! כשיעקב אבינו נפטר במצרים, הרופאים המצרים חנטו אותו.",
+      "וגם את יוסף חנטו, כדי שיום אחד יוכלו להעלות את עצמותיו לארץ ישראל.",
+      "ובאמת, ביציאת מצרים, משה רבנו בעצמו לקח את הארון של יוסף, ובני ישראל נשאו אותו במדבר ארבעים שנה, עד ארץ ישראל."
+     ],
+     "pasuk": {
+      "text": "ויחנטו הרפאים את ישראל",
+      "ref": "בראשית נ, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "המרכבות של פרעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Egyptian chariots with pairs of horses lined up on a desert plain near a mud-brick fortress, charioteers in linen tunics standing ready, dust glowing in golden light, no fighting.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐎",
+     "say": [
+      "פרעה לא היה חזק רק בגלל הבניינים. היה לו גם צבא גדול, עם מרכבות.",
+      "מרכבה היא עגלה קלה עם שני גלגלים, שסוסים מושכים במהירות. בזמנה זה היה הכלי הכי מתקדם בצבא.",
+      "התורה מספרת שכאשר פרעה רדף אחרי בני ישראל, הוא לקח שש מאות רכב בחור, וכל רכב מצרים.",
+      "מצרים הייתה הממלכה הכי חזקה בעולם באותה תקופה. ודווקא ממנה השם הוציא את עם ישראל, כדי שכל העולם יראה שאין כוח שעומד מול השם."
+     ],
+     "pasuk": {
+      "text": "ויקח שש מאות רכב בחור, וכל רכב מצרים",
+      "ref": "שמות יד, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "מה נשאר מפרעה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: The great pyramids at dusk standing silent and empty in the desert, wind blowing sand, stars beginning to appear above them.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🔺",
+     "say": [
+      "הפרעונים רצו שיזכרו אותם לנצח. הם בנו את הבניינים הכי גדולים בעולם.",
+      "אבל היום הפירמידות עומדות ריקות. רוב האוצרות נגנבו כבר מזמן, והממלכה של הפרעונים נעלמה.",
+      "לפני בערך מאה שנה מצאו קבר של פרעה צעיר בשם תות ענח אמון, מלא בזהב ובאוצרות. אבל הזהב לא עזר לו: הממלכה שלו נעלמה, ואת שמו כמעט שכחו.",
+      "לעומת זאת, עם קטן שהיה פעם עבד במצרים, עם ישראל, עדיין חי, לומד את התורה ומספר את הסיפור שלו בכל שנה.",
+      "מה נשאר לנצח? לא אבנים גדולות, אלא תורה, מצוות ומעשים טובים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-egf-f2e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נבנו הפירמידות?",
+   "answer": "כקברים לפרעונים",
+   "options": [
+    "כקברים לפרעונים",
+    "כארמונות לגור בהם",
+    "כמחסנים לתבואה"
+   ],
+   "explain_he": "הפירמידות היו קברים. המצרים האמינו שפרעה ממשיך לחיות אחרי המוות, ולכן בנו לו קבר ענק.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הובאו הרבה מהאבנים לפירמידות?",
+   "answer": "בסירות על הנילוס, ואחר כך בגרירה על מזחלות",
+   "options": [
+    "בסירות על הנילוס, ואחר כך בגרירה על מזחלות",
+    "במשאיות",
+    "בעזרת מנופים חשמליים"
+   ],
+   "explain_he": "אבנים רבות הובאו בסירות על הנהר, ואז פועלים גררו אותן על מזחלות עץ בחבלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "את מי חנטו הרופאים המצרים לפי התורה?",
+   "answer": "את יעקב אבינו, וגם את יוסף",
+   "options": [
+    "את יעקב אבינו, וגם את יוסף",
+    "את משה רבנו",
+    "את אברהם אבינו"
+   ],
+   "explain_he": "התורה מספרת שהרופאים חנטו את יעקב כשנפטר במצרים, וגם את יוסף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה חשבו המצרים על פרעה?",
+   "answer": "שהוא מעין אל, וזו הייתה אמונת שקר",
+   "options": [
+    "שהוא מעין אל, וזו הייתה אמונת שקר",
+    "שהוא נביא של השם",
+    "שהוא עבד פשוט"
+   ],
+   "explain_he": "המצרים חשבו שפרעה הוא מעין אל. אבל פרעה היה רק בן אדם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדנו מהפירמידות הריקות?",
+   "answer": "שלא האבנים הגדולות נשארות לנצח, אלא תורה ומעשים טובים",
+   "options": [
+    "שלא האבנים הגדולות נשארות לנצח, אלא תורה ומעשים טובים",
+    "שצריך לבנות בניינים גבוהים יותר",
+    "שהפרעונים עדיין מולכים"
+   ],
+   "explain_he": "ממלכת הפרעונים נעלמה, אבל עם ישראל, עם התורה והמצוות, עדיין חי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f2e6"
+  }
+ ]
+}

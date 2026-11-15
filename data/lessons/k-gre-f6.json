@@ -1,0 +1,613 @@
+{
+ "id": "k-gre-f6",
+ "unit_id": "k-gre-u2",
+ "course": "greece",
+ "title_he": "מי נשאר? מה נשאר מיוון ורומא",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "מי נשאר? מה נשאר מיוון ורומא",
+   "ref_he": "יוון ורומא",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ארבע מלכויות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A dreamy night sky over a quiet sea with four huge dark shapes of ancient ruined monuments standing on four distant shores, one with columns, one with arches, and above them a soft light from the heavens.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🪨",
+     "say": [
+      "הנביא דניאל ראה בחזון ארבע חיות גדולות עולות מן הים. חז\"ל מסבירים שהן ארבע המלכויות ששלטו בעם ישראל: בבל, פרס, יוון ורומא.",
+      "חז\"ל מלמדים שגם הגלויות האלה נועדו לזמן מוגבל, ושבסופן תבוא הגאולה, כמו שראה דניאל בסוף חזונו.",
+      "כל אחת מהן הייתה הכוח הגדול בעולם בזמנה. כל אחת חשבה שהיא תשלוט לנצח.",
+      "בסרט האחרון בקורס נשאל שאלה פשוטה: מי מהן נשארה? ומה נשאר מהן?",
+      "וגם נשאל: איך עם קטן, בלי צבא ובלי מדינה, הצליח להאריך ימים יותר מכולן?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "רבי יהודה הנשיא כותב את המשנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A sage with a white beard and fine robe sitting in a beautiful study hall in the Galilee in morning light, many scholars around him, a scribe carefully writing on scrolls, green hills through the arched windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👨👨",
+     "say": [
+      "אחרי מרד בר כוכבא, מרכז התורה עבר לגליל. החכמים המשיכו ללמוד, בתנאים קשים מאוד.",
+      "כמה דורות אחר כך, רבי יהודה הנשיא חשש שבגלל הצרות והגלות, התורה שבעל פה תישכח.",
+      "הוא אסף את כל דברי החכמים, סידר אותם ונתן להם צורה קבועה. כך נולדה המשנה: שישה סדרים, שעליהם נבנה אחר כך התלמוד.",
+      "האימפריה הרומית עוד שלטה בעולם. אבל בגליל נכתב ספר שיחיה הרבה יותר ממנה.",
+      "רבי יהודה הנשיא נקרא בפי כולם פשוט \"רבי\", כי היה הרב של הדור כולו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "מהמשנה לתלמוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A large ancient study hall in Babylonia beside a river with palm trees, hundreds of sages and students in robes and head coverings sitting on mats around their teachers, debating with lively hand gestures, warm evening light.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴👨👨👦",
+     "say": [
+      "אחרי המשנה המשיכו החכמים, הנקראים אמוראים, לעיין ולשאול: מה פירוש כל משנה? מאיפה היא לומדת? ומה עושים במקרה חדש?",
+      "הם לימדו בארץ ישראל, וגם בבבל, שם חיה קהילה יהודית גדולה מחוץ לשלטון רומא.",
+      "מן הלימוד הזה נולד התלמוד: התלמוד הירושלמי, שנכתב בארץ ישראל, והתלמוד הבבלי, שנכתב בבבל.",
+      "שימו לב לכוח המיוחד של התורה: כשנסגר מקום אחד, היא עברה עם החכמים למקום אחר, והמשיכה לחיות.",
+      "ובזכות התלמוד, יהודי מתימן, יהודי מפולין ויהודי ממרוקו יכולים לשבת יחד וללמוד את אותו דף."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מה נשאר מיוון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: An ancient Greek scholar's workroom in sunlight: geometric diagrams drawn in sand on a table, a compass, a lever with a stone, scrolls and a simple model of the stars, a window looking out on the sea, no people.",
+     "move": "left",
+     "fx": "light",
+     "art": "⛵",
+     "say": [
+      "מה נשאר מיוון? הרבה ידע. הגאומטריה שאתם לומדים בבית הספר, עם המשולשים והמעגלים, מבוססת על ספר של חכם יווני בשם אוקלידס.",
+      "החכם ארכימדס הסביר איך פועל המנוף, ולמה ספינה צפה על המים. והרופא היפוקרטס נחשב לאבי הרפואה.",
+      "ארכימדס, לפי המסופר, אמר: תנו לי נקודת משען, ואזיז את העולם.",
+      "גם מילים רבות בעברית באו מיוונית: תיאטרון, גאוגרפיה, אסטרונומיה, ואפילו מילים בדברי חז\"ל, כמו \"סנהדרין\" ו\"פרוזדור\".",
+      "זו בדיוק \"חכמה בגויים\". אפשר ללמוד ממנה, ולהשתמש בה לטובה.",
+      "גם חכמי ישראל עסקו בחשבון ובאסטרונומיה, כדי לקבוע את לוח השנה העברי ואת מולד הלבנה."
+     ],
+     "pasuk": {
+      "text": "הָעוֹלָם הַזֶּה דּוֹמֶה לִפְרוֹזְדוֹר בִּפְנֵי הָעוֹלָם הַבָּא",
+      "ref": "אבות ד, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "מה נשאר מרומא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The tall stone arches of an ancient Roman aqueduct running along a golden sandy beach beside the blue sea at Caesarea in Israel, gentle waves, a family in modest clothes walking along the sand in the afternoon sun.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨👩👦",
+     "say": [
+      "ומה נשאר מרומא? בחוף קיסריה תוכלו לראות עד היום את קשתות אמת המים שבנו הרומאים, כדי להביא מים לעיר ממרחק רב.",
+      "הרומאים סללו עשרות אלפי קילומטרים של דרכים מאבן. חלק מהדרכים המודרניות באירופה עוברות עד היום באותם מסלולים.",
+      "גם בארץ ישראל נמצאו אבני דרך רומיות, שסימנו את המרחק בין עיר לעיר.",
+      "גם החוק הרומי השפיע מאוד על מערכות החוק של מדינות רבות. והאותיות שבהן אתם כותבים באנגלית, הן בעצם האותיות הלטיניות של רומא.",
+      "גם הלוח של החודשים, ינואר, פברואר ומרץ, הוא בעיקרו לוח רומי."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "שמות החודשים יולי ואוגוסט באנגלית באים משמותיהם של שני שליטים רומיים: יוליוס קיסר ואוגוסטוס."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "האימפריה שנפלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Ancient Roman ruins in a quiet field at sunset: broken columns lying in the grass, a crumbling arch covered with ivy, sheep grazing peacefully between the stones, a calm golden sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🐑🐑🪨",
+     "say": [
+      "אבל האימפריה עצמה? לפני יותר מאלף וחמש מאות שנה נפלה רומא בידי שבטים שפלשו אליה מצפון.",
+      "השפה שלה, לטינית, כבר אינה שפה שמדברים בה בבית. האלילים של יוון ורומא נשכחו, ואף אחד בעולם אינו עובד אותם עוד.",
+      "מה שנשאר מהן הוא מה שאנשים אחרים לקחו ושמרו: ידע, מילים וכלים.",
+      "המקדשים שלהם הם חורבות שמבקרים בהן תיירים. והצבאות האדירים? מהם נשארו רק פסלים במוזיאונים.",
+      "במשך הזמן כבשו עמים אחרים גם את יוון, וגם השלטון של רומא במזרח, בעיר קונסטנטינופול, נפל בסופו של דבר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הסוד של עם ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A writer of the 1890s in a light suit with a white mustache sitting at a desk by a window writing with a pen, an old map of the ancient world on the wall, soft lamp light in the evening.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "לפני יותר ממאה שנה כתב הסופר האמריקאי מרק טוויין דברים מפורסמים. אלה דבריו, בתרגום חופשי:",
+      "\"המצרי, הבבלי והפרסי קמו, מילאו את העולם ברעש ובהדר, ונעלמו. היווני והרומאי באו אחריהם, הקימו רעש גדול, ואינם עוד.",
+      "היהודי ראה את כולם, ונשאר כפי שהיה. כל הדברים חולפים, אבל היהודי נשאר. מה סוד הנצחיות שלו?\"",
+      "מרק טוויין לא היה יהודי, אבל הוא ראה את מה שכל אחד יכול לראות: עם ישראל הוא פלא של ההיסטוריה.",
+      "הנביא ירמיהו ענה על השאלה הזאת הרבה לפניו: כי אעשה כלה בכל הגויים, ואותך לא אעשה כלה.",
+      "הסוד הוא לא בכוח ולא במספרים. הוא בברית בין הקדוש ברוך הוא לעמו, ובתורה שהעם שומר עליה."
+     ],
+     "pasuk": {
+      "text": "כִּי אֶעֱשֶׂה כָלָה בְּכָל הַגּוֹיִם... וְאֹתְךָ לֹא אֶעֱשֶׂה כָלָה",
+      "ref": "ירמיהו ל, יא"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ילד ומשנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A boy of about twelve with a kippah sitting at a table in a modern Jerusalem home in the evening, learning from an open book of Mishnayot with his father, a Chanukah menorah with lit candles on the windowsill and the Old City walls outside.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👦",
+     "say": [
+      "ועכשיו הביטו בילד הזה. הוא יושב בירושלים, העיר שהרומאים חרשו, ולומד משנה עם אבא שלו.",
+      "המשנה הזאת היא בדיוק המשנה של תלמידי רבי עקיבא. בחלון דולקים נרות חנוכה, בדיוק כמו בימי החשמונאים.",
+      "יוון ורומא היו חזקות, חכמות ועשירות. אבל את מה שבנו, אפשר לראות היום רק בחורבות ובספרים.",
+      "עם ישראל, שהיה הקטן והחלש מכולם, עדיין חי, עדיין לומד, ועדיין מתפלל. וזה הנס הגדול מכולם.",
+      "ועכשיו התור שלכם: להמשיך את השרשרת הזאת, דף אחרי דף, דור אחרי דור.",
+      "ועכשיו התור שלכם: להמשיך את השרשרת הזאת, דף אחרי דף, דור אחרי דור."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-gre-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "מי נשאר? מה נשאר מיוון ורומא",
+   "ref_he": "יוון ורומא",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ארבע מלכויות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A dreamy night sky over a quiet sea with four huge dark shapes of ancient ruined monuments standing on four distant shores, one with columns, one with arches, and above them a soft light from the heavens.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🪨",
+     "say": [
+      "הנביא דניאל ראה בחזון ארבע חיות גדולות עולות מן הים. חז\"ל מסבירים שהן ארבע המלכויות ששלטו בעם ישראל: בבל, פרס, יוון ורומא.",
+      "חז\"ל מלמדים שגם הגלויות האלה נועדו לזמן מוגבל, ושבסופן תבוא הגאולה, כמו שראה דניאל בסוף חזונו.",
+      "כל אחת מהן הייתה הכוח הגדול בעולם בזמנה. כל אחת חשבה שהיא תשלוט לנצח.",
+      "בסרט האחרון בקורס נשאל שאלה פשוטה: מי מהן נשארה? ומה נשאר מהן?",
+      "וגם נשאל: איך עם קטן, בלי צבא ובלי מדינה, הצליח להאריך ימים יותר מכולן?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "רבי יהודה הנשיא כותב את המשנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A sage with a white beard and fine robe sitting in a beautiful study hall in the Galilee in morning light, many scholars around him, a scribe carefully writing on scrolls, green hills through the arched windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👨👨",
+     "say": [
+      "אחרי מרד בר כוכבא, מרכז התורה עבר לגליל. החכמים המשיכו ללמוד, בתנאים קשים מאוד.",
+      "כמה דורות אחר כך, רבי יהודה הנשיא חשש שבגלל הצרות והגלות, התורה שבעל פה תישכח.",
+      "הוא אסף את כל דברי החכמים, סידר אותם ונתן להם צורה קבועה. כך נולדה המשנה: שישה סדרים, שעליהם נבנה אחר כך התלמוד.",
+      "האימפריה הרומית עוד שלטה בעולם. אבל בגליל נכתב ספר שיחיה הרבה יותר ממנה.",
+      "רבי יהודה הנשיא נקרא בפי כולם פשוט \"רבי\", כי היה הרב של הדור כולו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הגמרא מספרת על ידידות בין רבי יהודה הנשיא לבין קיסר רומי בשם אנטונינוס, שהעריך מאוד את חכמתו."
+     }
+    },
+    {
+     "id": "s2b",
+     "title_he": "מהמשנה לתלמוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A large ancient study hall in Babylonia beside a river with palm trees, hundreds of sages and students in robes and head coverings sitting on mats around their teachers, debating with lively hand gestures, warm evening light.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴👨👨👦",
+     "say": [
+      "אחרי המשנה המשיכו החכמים, הנקראים אמוראים, לעיין ולשאול: מה פירוש כל משנה? מאיפה היא לומדת? ומה עושים במקרה חדש?",
+      "הם לימדו בארץ ישראל, וגם בבבל, שם חיה קהילה יהודית גדולה מחוץ לשלטון רומא.",
+      "מן הלימוד הזה נולד התלמוד: התלמוד הירושלמי, שנכתב בארץ ישראל, והתלמוד הבבלי, שנכתב בבבל.",
+      "שימו לב לכוח המיוחד של התורה: כשנסגר מקום אחד, היא עברה עם החכמים למקום אחר, והמשיכה לחיות.",
+      "ובזכות התלמוד, יהודי מתימן, יהודי מפולין ויהודי ממרוקו יכולים לשבת יחד וללמוד את אותו דף."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מה נשאר מיוון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: An ancient Greek scholar's workroom in sunlight: geometric diagrams drawn in sand on a table, a compass, a lever with a stone, scrolls and a simple model of the stars, a window looking out on the sea, no people.",
+     "move": "left",
+     "fx": "light",
+     "art": "⛵",
+     "say": [
+      "מה נשאר מיוון? הרבה ידע. הגאומטריה שאתם לומדים בבית הספר, עם המשולשים והמעגלים, מבוססת על ספר של חכם יווני בשם אוקלידס.",
+      "החכם ארכימדס הסביר איך פועל המנוף, ולמה ספינה צפה על המים. והרופא היפוקרטס נחשב לאבי הרפואה.",
+      "ארכימדס, לפי המסופר, אמר: תנו לי נקודת משען, ואזיז את העולם.",
+      "גם מילים רבות בעברית באו מיוונית: תיאטרון, גאוגרפיה, אסטרונומיה, ואפילו מילים בדברי חז\"ל, כמו \"סנהדרין\" ו\"פרוזדור\".",
+      "זו בדיוק \"חכמה בגויים\". אפשר ללמוד ממנה, ולהשתמש בה לטובה.",
+      "גם חכמי ישראל עסקו בחשבון ובאסטרונומיה, כדי לקבוע את לוח השנה העברי ואת מולד הלבנה."
+     ],
+     "pasuk": {
+      "text": "הָעוֹלָם הַזֶּה דּוֹמֶה לִפְרוֹזְדוֹר בִּפְנֵי הָעוֹלָם הַבָּא",
+      "ref": "אבות ד, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3b",
+     "title_he": "הרמב\"ם ואריסטו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A medieval study room in Egypt with arched windows and palm trees outside, a dignified rabbi with a dark beard and a wrapped head covering writing a book by lamplight, shelves of handwritten volumes around him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "כאלף שנה אחרי חורבן הבית חי במצרים הרמב\"ם, מגדולי חכמי ישראל בכל הדורות.",
+      "עליו אמרו: ממשה ועד משה, לא קם כמשה.",
+      "הרמב\"ם הכיר היטב את ספרי אריסטו והעריך את חכמתו. בספרו \"מורה נבוכים\" השתמש בכלים של הפילוסופיה כדי להסביר את יסודות האמונה.",
+      "אבל כשהפילוסופיה סתרה את התורה, למשל בשאלה אם העולם נברא או היה קיים תמיד, הרמב\"ם קבע בבירור: העולם נברא בידי הקדוש ברוך הוא, והתורה היא האמת.",
+      "כך נראה \"יופיו של יפת באהלי שם\": החכמה היוונית משרתת את התורה, ולא שולטת בה.",
+      "הרמב\"ם כתב גם את \"משנה תורה\", ספר הלכה ענק שמסדר את כל התורה כולה, ולומדים בו עד היום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הרמב\"ם היה גם רופא מפורסם, ושימש רופא בחצר השליט במצרים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "מה נשאר מרומא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The tall stone arches of an ancient Roman aqueduct running along a golden sandy beach beside the blue sea at Caesarea in Israel, gentle waves, a family in modest clothes walking along the sand in the afternoon sun.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨👩👦",
+     "say": [
+      "ומה נשאר מרומא? בחוף קיסריה תוכלו לראות עד היום את קשתות אמת המים שבנו הרומאים, כדי להביא מים לעיר ממרחק רב.",
+      "הרומאים סללו עשרות אלפי קילומטרים של דרכים מאבן. חלק מהדרכים המודרניות באירופה עוברות עד היום באותם מסלולים.",
+      "גם בארץ ישראל נמצאו אבני דרך רומיות, שסימנו את המרחק בין עיר לעיר.",
+      "גם החוק הרומי השפיע מאוד על מערכות החוק של מדינות רבות. והאותיות שבהן אתם כותבים באנגלית, הן בעצם האותיות הלטיניות של רומא.",
+      "גם הלוח של החודשים, ינואר, פברואר ומרץ, הוא בעיקרו לוח רומי."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "שמות החודשים יולי ואוגוסט באנגלית באים משמותיהם של שני שליטים רומיים: יוליוס קיסר ואוגוסטוס."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "האימפריה שנפלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Ancient Roman ruins in a quiet field at sunset: broken columns lying in the grass, a crumbling arch covered with ivy, sheep grazing peacefully between the stones, a calm golden sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🐑🐑🪨",
+     "say": [
+      "אבל האימפריה עצמה? לפני יותר מאלף וחמש מאות שנה נפלה רומא בידי שבטים שפלשו אליה מצפון.",
+      "השפה שלה, לטינית, כבר אינה שפה שמדברים בה בבית. האלילים של יוון ורומא נשכחו, ואף אחד בעולם אינו עובד אותם עוד.",
+      "מה שנשאר מהן הוא מה שאנשים אחרים לקחו ושמרו: ידע, מילים וכלים.",
+      "המקדשים שלהם הם חורבות שמבקרים בהן תיירים. והצבאות האדירים? מהם נשארו רק פסלים במוזיאונים.",
+      "במשך הזמן כבשו עמים אחרים גם את יוון, וגם השלטון של רומא במזרח, בעיר קונסטנטינופול, נפל בסופו של דבר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הסוד של עם ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A writer of the 1890s in a light suit with a white mustache sitting at a desk by a window writing with a pen, an old map of the ancient world on the wall, soft lamp light in the evening.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "לפני יותר ממאה שנה כתב הסופר האמריקאי מרק טוויין דברים מפורסמים. אלה דבריו, בתרגום חופשי:",
+      "\"המצרי, הבבלי והפרסי קמו, מילאו את העולם ברעש ובהדר, ונעלמו. היווני והרומאי באו אחריהם, הקימו רעש גדול, ואינם עוד.",
+      "היהודי ראה את כולם, ונשאר כפי שהיה. כל הדברים חולפים, אבל היהודי נשאר. מה סוד הנצחיות שלו?\"",
+      "מרק טוויין לא היה יהודי, אבל הוא ראה את מה שכל אחד יכול לראות: עם ישראל הוא פלא של ההיסטוריה.",
+      "הנביא ירמיהו ענה על השאלה הזאת הרבה לפניו: כי אעשה כלה בכל הגויים, ואותך לא אעשה כלה.",
+      "הסוד הוא לא בכוח ולא במספרים. הוא בברית בין הקדוש ברוך הוא לעמו, ובתורה שהעם שומר עליה."
+     ],
+     "pasuk": {
+      "text": "כִּי אֶעֱשֶׂה כָלָה בְּכָל הַגּוֹיִם... וְאֹתְךָ לֹא אֶעֱשֶׂה כָלָה",
+      "ref": "ירמיהו ל, יא"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ילד ומשנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A boy of about twelve with a kippah sitting at a table in a modern Jerusalem home in the evening, learning from an open book of Mishnayot with his father, a Chanukah menorah with lit candles on the windowsill and the Old City walls outside.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👦",
+     "say": [
+      "ועכשיו הביטו בילד הזה. הוא יושב בירושלים, העיר שהרומאים חרשו, ולומד משנה עם אבא שלו.",
+      "המשנה הזאת היא בדיוק המשנה של תלמידי רבי עקיבא. בחלון דולקים נרות חנוכה, בדיוק כמו בימי החשמונאים.",
+      "תזכרו את המסלול שעשינו: שמעון הצדיק מול אלכסנדר, החשמונאים מול אנטיוכוס, רבן יוחנן מול אספסיאנוס, ורבי עקיבא מול אדריאנוס. בכל פעם, הצד החזק היה האימפריה, והצד הנצחי היה התורה.",
+      "ובכל פעם, מה שהציל את העם לא היה צבא, אלא צדיקים, תפילה ולימוד תורה.",
+      "וגם היום, בארץ ישראל, נבנים בתי מדרש וישיבות ברחובות שבהם הלכו פעם חיילי רומא.",
+      "עם ישראל, שהיה הקטן והחלש מכולם, עדיין חי, עדיין לומד, ועדיין מתפלל. וזה הנס הגדול מכולם.",
+      "ועכשיו התור שלכם: להמשיך את השרשרת הזאת, דף אחרי דף, דור אחרי דור.",
+      "ועכשיו התור שלכם: להמשיך את השרשרת הזאת, דף אחרי דף, דור אחרי דור."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-gre-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהן ארבע המלכויות, לפי חז\"ל?",
+   "answer": "בבל, פרס, יוון ורומא",
+   "options": [
+    "בבל, פרס, יוון ורומא",
+    "מצרים, אשור, בבל ופרס",
+    "יוון, רומא, מצרים וסין",
+    "כנען, מואב, עמון ואדום"
+   ],
+   "explain_he": "חז\"ל מסבירים שארבע החיות בחזון דניאל הן בבל, פרס, יוון ורומא.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהן ארבע המלכויות, לפי חז\"ל?",
+   "answer": "בבל, פרס, יוון ורומא",
+   "options": [
+    "בבל, פרס, יוון ורומא",
+    "מצרים, אשור, בבל ופרס",
+    "יוון, רומא, מצרים וסין",
+    "כנען, מואב, עמון ואדום"
+   ],
+   "explain_he": "חז\"ל מסבירים שארבע החיות בחזון דניאל הן בבל, פרס, יוון ורומא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כתב רבי יהודה הנשיא את המשנה?",
+   "answer": "כי חשש שבגלל הצרות והגלות התורה שבעל פה תישכח",
+   "options": [
+    "כי חשש שבגלל הצרות והגלות התורה שבעל פה תישכח",
+    "כי הקיסר ביקש ממנו",
+    "כי רצה לכתוב ספר היסטוריה",
+    "כי לא היו אז חכמים אחרים"
+   ],
+   "explain_he": "רבי יהודה הנשיא אסף וסידר את דברי החכמים במשנה, כדי שהתורה שבעל פה לא תישכח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כתב רבי יהודה הנשיא את המשנה?",
+   "answer": "כי חשש שבגלל הצרות והגלות התורה שבעל פה תישכח",
+   "options": [
+    "כי חשש שבגלל הצרות והגלות התורה שבעל פה תישכח",
+    "כי הקיסר ביקש ממנו",
+    "כי רצה לכתוב ספר היסטוריה",
+    "כי לא היו אז חכמים אחרים"
+   ],
+   "explain_he": "רבי יהודה הנשיא אסף וסידר את דברי החכמים במשנה, כדי שהתורה שבעל פה לא תישכח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נולד מהלימוד של האמוראים בארץ ישראל ובבבל?",
+   "answer": "התלמוד הירושלמי והתלמוד הבבלי",
+   "options": [
+    "התלמוד הירושלמי והתלמוד הבבלי",
+    "המשנה",
+    "תרגום השבעים",
+    "מגילת תענית"
+   ],
+   "explain_he": "האמוראים עיינו בכל משנה ושאלו שאלות, ומהלימוד הזה נולדו שני התלמודים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נולד מהלימוד של האמוראים בארץ ישראל ובבבל?",
+   "answer": "התלמוד הירושלמי והתלמוד הבבלי",
+   "options": [
+    "התלמוד הירושלמי והתלמוד הבבלי",
+    "המשנה",
+    "תרגום השבעים",
+    "מגילת תענית"
+   ],
+   "explain_he": "האמוראים עיינו בכל משנה ושאלו שאלות, ומהלימוד הזה נולדו שני התלמודים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קבע הרמב\"ם כשהפילוסופיה של אריסטו סתרה את התורה?",
+   "answer": "שהתורה היא האמת, והעולם נברא בידי הקדוש ברוך הוא",
+   "options": [
+    "שהתורה היא האמת, והעולם נברא בידי הקדוש ברוך הוא",
+    "שאריסטו צדק תמיד",
+    "שאסור ללמוד שום חכמה",
+    "שאין צורך להחליט"
+   ],
+   "explain_he": "הרמב\"ם העריך את אריסטו, אבל קבע שהחכמה משרתת את התורה ולא שולטת בה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה תחום שלומדים היום בבית הספר מבוסס על ספר של אוקלידס היווני?",
+   "answer": "גאומטריה",
+   "options": [
+    "גאומטריה",
+    "היסטוריה",
+    "דקדוק",
+    "מוזיקה"
+   ],
+   "explain_he": "הגאומטריה, עם המשולשים והמעגלים, מבוססת על ספרו של אוקלידס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה תחום שלומדים היום בבית הספר מבוסס על ספר של אוקלידס היווני?",
+   "answer": "גאומטריה",
+   "options": [
+    "גאומטריה",
+    "היסטוריה",
+    "דקדוק",
+    "מוזיקה"
+   ],
+   "explain_he": "הגאומטריה, עם המשולשים והמעגלים, מבוססת על ספרו של אוקלידס.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אפשר לראות עד היום בחוף קיסריה?",
+   "answer": "קשתות של אמת מים רומית",
+   "options": [
+    "קשתות של אמת מים רומית",
+    "פירמידה",
+    "בית מקדש יווני",
+    "ארמון של שמעון הצדיק"
+   ],
+   "explain_he": "הרומאים בנו אמת מים להביא מים לקיסריה, וקשתותיה עומדות עד היום על החוף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אפשר לראות עד היום בחוף קיסריה?",
+   "answer": "קשתות של אמת מים רומית",
+   "options": [
+    "קשתות של אמת מים רומית",
+    "פירמידה",
+    "בית מקדש יווני",
+    "ארמון של שמעון הצדיק"
+   ],
+   "explain_he": "הרומאים בנו אמת מים להביא מים לקיסריה, וקשתותיה עומדות עד היום על החוף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לאימפריה הרומית?",
+   "answer": "היא נפלה לפני יותר מאלף וחמש מאות שנה",
+   "options": [
+    "היא נפלה לפני יותר מאלף וחמש מאות שנה",
+    "היא קיימת עד היום",
+    "היא עברה לגור בארץ ישראל",
+    "היא הפכה ליוון"
+   ],
+   "explain_he": "רומא נפלה בידי שבטים שפלשו מצפון, ושפתה הלטינית כבר אינה מדוברת בבית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שאל מרק טוויין על היהודי?",
+   "answer": "מה סוד הנצחיות שלו",
+   "options": [
+    "מה סוד הנצחיות שלו",
+    "למה הוא עשיר",
+    "איפה הוא גר",
+    "מה שמו של מלכו"
+   ],
+   "explain_he": "טוויין כתב שכל העמים הגדולים נעלמו, והיהודי נשאר, ושאל: מה סוד הנצחיות שלו?",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שאל מרק טוויין על היהודי?",
+   "answer": "מה סוד הנצחיות שלו",
+   "options": [
+    "מה סוד הנצחיות שלו",
+    "למה הוא עשיר",
+    "איפה הוא גר",
+    "מה שמו של מלכו"
+   ],
+   "explain_he": "טוויין כתב שכל העמים הגדולים נעלמו, והיהודי נשאר, ושאל: מה סוד הנצחיות שלו?",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f6e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה המשותף לשמעון הצדיק, לרבן יוחנן בן זכאי ולרבי עקיבא, לפי סיכום הקורס?",
+   "answer": "כולם עמדו מול אימפריה חזקה, ובכל פעם התורה התגלתה כנצחית",
+   "options": [
+    "כולם עמדו מול אימפריה חזקה, ובכל פעם התורה התגלתה כנצחית",
+    "כולם היו מלכים",
+    "כולם נלחמו בחרב",
+    "כולם גרו ביוון"
+   ],
+   "explain_he": "בכל פעם הצד החזק היה האימפריה, והצד הנצחי היה התורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f6e17"
+  }
+ ]
+}

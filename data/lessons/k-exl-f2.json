@@ -1,0 +1,580 @@
+{
+ "id": "k-exl-f2",
+ "unit_id": "k-exl-u1",
+ "course": "exile",
+ "title_he": "בבל והתלמוד",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "בבל והתלמוד",
+   "ref_he": "עם ישראל בגלות",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "rivers",
+     "title_he": "על נהרות בבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Dusk beside a wide slow river in ancient Babylon lined with tall palm trees and willows: Jewish exiles in modest robes sit quietly on the bank, harps hanging on the willow branches above them.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👴",
+     "say": [
+      "נחזור אחורה, לחורבן הבית הראשון. נבוכדנצר, מלך בבל, החריב את ירושלים והגלה את היהודים לבבל, שהיא עיראק של היום.",
+      "עוד לפני החורבן הוגלה לבבל המלך יהויכין, ואיתו \"החרש והמסגר\". חז\"ל מסבירים שאלה היו גדולי התורה של הדור.",
+      "כך, כשהגיע העם לבבל, כבר חיכו לו שם תלמידי חכמים. השם הכין את הרפואה עוד לפני המכה.",
+      "ישבו היהודים ליד נהרות בבל, תלו את הכינורות על העצים, ובכו. ואמרו: אם אשכחך ירושלים, תשכח ימיני."
+     ],
+     "pasuk": {
+      "text": "על נהרות בבל, שם ישבנו גם בכינו, בזכרנו את ציון",
+      "ref": "תהלים קלז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "stayed",
+     "title_he": "רבים נשארו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A thriving ancient Jewish town in Babylon beside canals and date palms: houses of sun-dried brick, a synagogue with a courtyard, merchants and farmers in modest robes, children walking to study with their fathers.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 👨 👦",
+     "say": [
+      "אחרי שבעים שנה, כורש מלך פרס נתן ליהודים לחזור לארץ ולבנות את בית המקדש השני. עזרא ונחמיה עלו עם רבים.",
+      "אבל יהודים רבים נשארו בבבל. הם בנו בה בתי כנסת, עסקו בחקלאות ובמסחר, ושמרו על התורה.",
+      "וכך, כשחרב הבית השני, כבר הייתה בבבל קהילה יהודית גדולה וחזקה, מוכנה לקבל את התורה של ארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rav",
+     "title_he": "רב ושמואל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A large ancient study hall in Sura with mud-brick walls and wooden pillars: a very tall dignified sage teaches hundreds of students sitting in rows, oil lamps hanging, the river visible through an archway.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "כשרבי סידר את המשנה בארץ ישראל, אחד מתלמידיו הגדולים היה רב, שנקרא גם אבא אריכא, כי היה גבוה מאוד. רב ירד לבבל, ופתח ישיבה בעיר סורא.",
+      "באותו זמן לימד בעיר נהרדעא חכם גדול נוסף: שמואל. הוא היה גם רופא ואסטרונום, ואמר שהוא מכיר את שבילי השמים כמו את רחובות עירו.",
+      "אחר כך קמה ישיבה גדולה גם בעיר פומבדיתא. בישיבות האלה למדו את המשנה לעומק: מה פירוש כל מילה? מה המקור בתורה? ומה עושים במקרה שהמשנה לא הזכירה?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kallah",
+     "title_he": "ירחי כלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Early spring in Babylon: crowds of ordinary Jewish men, farmers, craftsmen and merchants in simple robes, arrive on foot and on donkeys at a huge study hall, carrying small bundles, faces eager.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👨 👴 🚶",
+     "say": [
+      "בבבל היה מנהג מיוחד, שנקרא ירחי כלה. פעמיים בשנה, בחודש אדר ובחודש אלול, באו אלפי יהודים ללמוד חודש שלם בישיבה.",
+      "אלה לא היו רק רבנים. אלה היו חקלאים, סוחרים ובעלי מלאכה. כל השנה עבדו בשדה ובחנות, ולמדו בבית את המסכת שראש הישיבה הודיע עליה.",
+      "ובחודש הכלה ישבו כולם יחד, שמעו שיעורים, ונבחנו על מה שלמדו.",
+      "תארו לעצמכם אלפי יהודים פשוטים, שהחלום שלהם הוא ללמוד תורה. זה הסוד של בבל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "talmud",
+     "title_he": "חתימת התלמוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A wise elderly sage and his younger colleague sit at a long table piled with notebooks and scrolls in a lamp-lit Babylonian study hall, gathering pages into an orderly stack; a sense of completing a great work.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨",
+     "say": [
+      "במשך כשלוש מאות שנה דנו חכמי בבל, שנקראו אמוראים, בכל משנה ומשנה. הם שאלו, הקשו ותירצו.",
+      "בסוף התקופה, רב אשי, ואחריו רבינא, אספו וסידרו את כל הדיונים האלה. כך נחתם התלמוד הבבלי, לפני בערך אלף וחמש מאות שנה.",
+      "התלמוד בנוי כך: קודם המשנה, ואחריה הגמרא, הדיון של האמוראים. משנה וגמרא יחד נקראות תלמוד.",
+      "גם בארץ ישראל, בטבריה, סידרו החכמים תלמוד, שנקרא התלמוד הירושלמי. אבל את התלמוד הבבלי לומדים יותר מכל ספר אחר, אחרי התנ\"ך."
+     ],
+     "pasuk": {
+      "text": "רבינא ורב אשי סוף הוראה",
+      "ref": "בבא מציעא פו ע\"א"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בתלמוד הבבלי יש 2,711 דפים. מי שלומד דף אחד בכל יום, מסיים את כולו בערך בשבע שנים וחצי."
+     }
+    },
+    {
+     "id": "style",
+     "title_he": "תא שמע!",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Today in a busy study hall: pairs of boys and men in kippot sit facing each other over large open Gemaras, one raising a finger to ask, the other answering with a lively gesture; warm light and shelves of books.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦 👨 👨",
+     "say": [
+      "מה מיוחד בגמרא? היא כמו שיחה ארוכה בין חכמים. אחד שואל, השני עונה, השלישי מקשה.",
+      "\"תא שמע\", כלומר בוא ושמע ראיה. \"תיובתא\", כלומר זו קושיה שאין עליה תשובה. \"תיקו\", כלומר השאלה נשארת פתוחה.",
+      "הגמרא כתובה ברובה בארמית, השפה שדיברו בבבל. ולכן גם היום לומדים אותה בקול, בחברותא, שניים שניים, ומתווכחים כדי להבין.",
+      "יש בגמרא הלכות, וגם סיפורים, משלים ועצות לחיים. במשנה נאמר על התורה: הפוך בה והפוך בה, דכולא בה. כלומר, הכל נמצא בה."
+     ],
+     "pasuk": {
+      "text": "הפוך בה והפוך בה, דכולא בה",
+      "ref": "פרקי אבות ה, כב"
+     },
+     "note": null
+    },
+    {
+     "id": "geonim",
+     "title_he": "הגאונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A caravan of camels crossing a desert at sunset toward a distant Babylonian city, a rider holding a carefully sealed leather letter case; palm trees and a river on the horizon.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🐪 🐪 🚶",
+     "say": [
+      "אחרי חתימת התלמוד, ראשי הישיבות בבבל נקראו גאונים. במשך מאות שנים, יהודים מכל העולם, מספרד, מצפון אפריקה ומאיטליה, שלחו אליהם מכתבים עם שאלות.",
+      "מכתב כזה היה נוסע חודשים, בשיירות ובאוניות. והגאונים ענו בתשובות, שנקראות שאלות ותשובות. כך התלמוד הגיע לכל קהילות ישראל.",
+      "אחד הגאונים הגדולים היה רב סעדיה גאון. הוא נולד במצרים, ונעשה ראש ישיבת סורא. הוא תרגם את התורה לערבית, השפה של היהודים בארצות האלה, וכתב סידור תפילה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "move",
+     "title_he": "התורה עוברת הלאה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A wide map-like painted landscape seen from high above at dawn: a winding road from palm groves of Babylon westward across deserts and seas toward distant green hills and coastal cities, with tiny lights along the way.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "במשך יותר מאלף שנים הייתה בבל לב של עם ישראל. אבל עם הזמן, הקהילות בבבל נחלשו, והמרכז עבר למקומות אחרים.",
+      "וזה הלקח של בבל: תורה אפשר לקחת לכל מקום. כל עוד יש יהודים שלומדים, יש לעם ישראל בית.",
+      "בשיעור הבא נגיע לארץ רחוקה במערב, שבה יפרח עם ישראל פריחה גדולה: ספרד.",
+      "הגאון האחרון הגדול, רב האי גאון, כבר שלח תשובות לתלמידים בצפון אפריקה ובספרד. והם המשיכו את דרכו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "בבל והתלמוד",
+   "ref_he": "עם ישראל בגלות",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "rivers",
+     "title_he": "על נהרות בבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Dusk beside a wide slow river in ancient Babylon lined with tall palm trees and willows: Jewish exiles in modest robes sit quietly on the bank, harps hanging on the willow branches above them.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👴",
+     "say": [
+      "נחזור אחורה, לחורבן הבית הראשון. נבוכדנצר, מלך בבל, החריב את ירושלים והגלה את היהודים לבבל, שהיא עיראק של היום.",
+      "עוד לפני החורבן הוגלה לבבל המלך יהויכין, ואיתו \"החרש והמסגר\". חז\"ל מסבירים שאלה היו גדולי התורה של הדור.",
+      "כך, כשהגיע העם לבבל, כבר חיכו לו שם תלמידי חכמים. השם הכין את הרפואה עוד לפני המכה.",
+      "ישבו היהודים ליד נהרות בבל, תלו את הכינורות על העצים, ובכו. ואמרו: אם אשכחך ירושלים, תשכח ימיני.",
+      "בבבל ניבא יחזקאל הנביא, ושם עמדו דניאל, חנניה, מישאל ועזריה באמונתם. כבר בגלות הראשונה ראו היהודים שהשם איתם גם בארץ נכר."
+     ],
+     "pasuk": {
+      "text": "על נהרות בבל, שם ישבנו גם בכינו, בזכרנו את ציון",
+      "ref": "תהלים קלז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "stayed",
+     "title_he": "רבים נשארו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A thriving ancient Jewish town in Babylon beside canals and date palms: houses of sun-dried brick, a synagogue with a courtyard, merchants and farmers in modest robes, children walking to study with their fathers.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 👨 👦",
+     "say": [
+      "אחרי שבעים שנה, כורש מלך פרס נתן ליהודים לחזור לארץ ולבנות את בית המקדש השני. עזרא ונחמיה עלו עם רבים.",
+      "אבל יהודים רבים נשארו בבבל. הם בנו בה בתי כנסת, עסקו בחקלאות ובמסחר, ושמרו על התורה.",
+      "וכך, כשחרב הבית השני, כבר הייתה בבבל קהילה יהודית גדולה וחזקה, מוכנה לקבל את התורה של ארץ ישראל.",
+      "חז\"ל מספרים על בית כנסת עתיק בעיר נהרדעא, שנקרא \"שף ויתיב\". לפי המסורת, הגולים הראשונים בנו אותו מאבנים ומעפר שהביאו איתם מירושלים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rav",
+     "title_he": "רב ושמואל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A large ancient study hall in Sura with mud-brick walls and wooden pillars: a very tall dignified sage teaches hundreds of students sitting in rows, oil lamps hanging, the river visible through an archway.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "כשרבי סידר את המשנה בארץ ישראל, אחד מתלמידיו הגדולים היה רב, שנקרא גם אבא אריכא, כי היה גבוה מאוד. רב ירד לבבל, ופתח ישיבה בעיר סורא.",
+      "באותו זמן לימד בעיר נהרדעא חכם גדול נוסף: שמואל. הוא היה גם רופא ואסטרונום, ואמר שהוא מכיר את שבילי השמים כמו את רחובות עירו.",
+      "אחר כך קמה ישיבה גדולה גם בעיר פומבדיתא. בישיבות האלה למדו את המשנה לעומק: מה פירוש כל מילה? מה המקור בתורה? ומה עושים במקרה שהמשנה לא הזכירה?",
+      "רב ושמואל היו חברים גדולים. בגמרא יש מאות מחלוקות ביניהם, תמיד בכבוד ובאהבה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כשיש מחלוקת בין רב לשמואל, הכלל הוא: הלכה כרב באיסורים, וכשמואל בדיני ממונות."
+     }
+    },
+    {
+     "id": "kallah",
+     "title_he": "ירחי כלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Early spring in Babylon: crowds of ordinary Jewish men, farmers, craftsmen and merchants in simple robes, arrive on foot and on donkeys at a huge study hall, carrying small bundles, faces eager.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👨 👴 🚶",
+     "say": [
+      "בבבל היה מנהג מיוחד, שנקרא ירחי כלה. פעמיים בשנה, בחודש אדר ובחודש אלול, באו אלפי יהודים ללמוד חודש שלם בישיבה.",
+      "אלה לא היו רק רבנים. אלה היו חקלאים, סוחרים ובעלי מלאכה. כל השנה עבדו בשדה ובחנות, ולמדו בבית את המסכת שראש הישיבה הודיע עליה.",
+      "ובחודש הכלה ישבו כולם יחד, שמעו שיעורים, ונבחנו על מה שלמדו.",
+      "תארו לעצמכם אלפי יהודים פשוטים, שהחלום שלהם הוא ללמוד תורה. זה הסוד של בבל.",
+      "גם הגאונים, מאות שנים אחר כך, המשיכו את ירחי הכלה. ובחודשים האלה קראו בפני כולם את השאלות שהגיעו מכל העולם, וענו עליהן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "abaye",
+     "title_he": "אביי ורבא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A Babylonian study hall at night: two sages of middle age sit facing each other across a low table, deep in lively debate, students crowded around them listening, oil lamps flickering.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👨 👦 👦",
+     "say": [
+      "בדור אחר בבבל, היו שני חכמים שהוויכוחים ביניהם ממלאים את הגמרא: אביי ורבא.",
+      "אביי היה יתום. אביו נפטר לפני שנולד, ואמו נפטרה בלידתו. אישה טובה גידלה אותו, ובגמרא הוא מביא שוב ושוב עצות בשמה: \"אמרה לי אם\".",
+      "הדיונים שלהם נקראים \"הוויות דאביי ורבא\". חז\"ל אמרו שהם דוגמה ללימוד גמרא עמוק.",
+      "ויש כלל: בדרך כלל ההלכה כרבא, חוץ משש מחלוקות, שסימנן יע\"ל קג\"ם. בהן ההלכה כאביי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "talmud",
+     "title_he": "חתימת התלמוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A wise elderly sage and his younger colleague sit at a long table piled with notebooks and scrolls in a lamp-lit Babylonian study hall, gathering pages into an orderly stack; a sense of completing a great work.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨",
+     "say": [
+      "במשך כשלוש מאות שנה דנו חכמי בבל, שנקראו אמוראים, בכל משנה ומשנה. הם שאלו, הקשו ותירצו.",
+      "בסוף התקופה, רב אשי, ואחריו רבינא, אספו וסידרו את כל הדיונים האלה. כך נחתם התלמוד הבבלי, לפני בערך אלף וחמש מאות שנה.",
+      "התלמוד בנוי כך: קודם המשנה, ואחריה הגמרא, הדיון של האמוראים. משנה וגמרא יחד נקראות תלמוד.",
+      "גם בארץ ישראל, בטבריה, סידרו החכמים תלמוד, שנקרא התלמוד הירושלמי. אבל את התלמוד הבבלי לומדים יותר מכל ספר אחר, אחרי התנ\"ך.",
+      "הגמרא מקפידה לומר כל דבר בשם מי שאמר אותו. חז\"ל אמרו: כל האומר דבר בשם אומרו, מביא גאולה לעולם."
+     ],
+     "pasuk": {
+      "text": "רבינא ורב אשי סוף הוראה",
+      "ref": "בבא מציעא פו ע\"א"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בתלמוד הבבלי יש 2,711 דפים. מי שלומד דף אחד בכל יום, מסיים את כולו בערך בשבע שנים וחצי."
+     }
+    },
+    {
+     "id": "style",
+     "title_he": "תא שמע!",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Today in a busy study hall: pairs of boys and men in kippot sit facing each other over large open Gemaras, one raising a finger to ask, the other answering with a lively gesture; warm light and shelves of books.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦 👨 👨",
+     "say": [
+      "מה מיוחד בגמרא? היא כמו שיחה ארוכה בין חכמים. אחד שואל, השני עונה, השלישי מקשה.",
+      "\"תא שמע\", כלומר בוא ושמע ראיה. \"תיובתא\", כלומר זו קושיה שאין עליה תשובה. \"תיקו\", כלומר השאלה נשארת פתוחה.",
+      "הגמרא כתובה ברובה בארמית, השפה שדיברו בבבל. ולכן גם היום לומדים אותה בקול, בחברותא, שניים שניים, ומתווכחים כדי להבין.",
+      "יש בגמרא הלכות, וגם סיפורים, משלים ועצות לחיים. במשנה נאמר על התורה: הפוך בה והפוך בה, דכולא בה. כלומר, הכל נמצא בה.",
+      "יש מסורת שהמילה \"תיקו\" רומזת ל\"תשבי יתרץ קושיות ואבעיות\". כלומר, אליהו הנביא, כשיבוא, יפתור את כל השאלות שנשארו פתוחות."
+     ],
+     "pasuk": {
+      "text": "הפוך בה והפוך בה, דכולא בה",
+      "ref": "פרקי אבות ה, כב"
+     },
+     "note": null
+    },
+    {
+     "id": "geonim",
+     "title_he": "הגאונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A caravan of camels crossing a desert at sunset toward a distant Babylonian city, a rider holding a carefully sealed leather letter case; palm trees and a river on the horizon.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🐪 🐪 🚶",
+     "say": [
+      "אחרי חתימת התלמוד, ראשי הישיבות בבבל נקראו גאונים. במשך מאות שנים, יהודים מכל העולם, מספרד, מצפון אפריקה ומאיטליה, שלחו אליהם מכתבים עם שאלות.",
+      "מכתב כזה היה נוסע חודשים, בשיירות ובאוניות. והגאונים ענו בתשובות, שנקראות שאלות ותשובות. כך התלמוד הגיע לכל קהילות ישראל.",
+      "אחד הגאונים הגדולים היה רב סעדיה גאון. הוא נולד במצרים, ונעשה ראש ישיבת סורא. הוא תרגם את התורה לערבית, השפה של היהודים בארצות האלה, וכתב סידור תפילה.",
+      "ליהודי בבל היה גם מנהיג מיוחד: ראש הגולה. לפי המסורת, ראשי הגולה היו מצאצאי דוד המלך. כך, גם בגלות, נשמר זכר למלכות בית דוד.",
+      "רב סעדיה גאון גם הגן בכל כוחו על התורה שבעל פה, כנגד אלה שרצו להפריד בינה לבין התורה שבכתב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "התואר \"גאון\" בא מהשם \"ראש ישיבת גאון יעקב\", על פי הפסוק \"את גאון יעקב אשר אהב\" (תהלים מז, ה)."
+     }
+    },
+    {
+     "id": "move",
+     "title_he": "התורה עוברת הלאה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A wide map-like painted landscape seen from high above at dawn: a winding road from palm groves of Babylon westward across deserts and seas toward distant green hills and coastal cities, with tiny lights along the way.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "במשך יותר מאלף שנים הייתה בבל לב של עם ישראל. אבל עם הזמן, הקהילות בבבל נחלשו, והמרכז עבר למקומות אחרים.",
+      "וזה הלקח של בבל: תורה אפשר לקחת לכל מקום. כל עוד יש יהודים שלומדים, יש לעם ישראל בית.",
+      "בשיעור הבא נגיע לארץ רחוקה במערב, שבה יפרח עם ישראל פריחה גדולה: ספרד.",
+      "הגאון האחרון הגדול, רב האי גאון, כבר שלח תשובות לתלמידים בצפון אפריקה ובספרד. והם המשיכו את דרכו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו \"החרש והמסגר\" שהוגלו לבבל, לפי חז\"ל?",
+   "answer": "גדולי התורה של הדור",
+   "options": [
+    "גדולי התורה של הדור",
+    "בעלי מלאכה שבנו את בבל",
+    "חיילים של מלך יהודה"
+   ],
+   "explain_he": "כך, כשהעם הגיע לבבל, כבר חיכו לו שם תלמידי חכמים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו \"החרש והמסגר\" שהוגלו לבבל, לפי חז\"ל?",
+   "answer": "גדולי התורה של הדור",
+   "options": [
+    "גדולי התורה של הדור",
+    "בעלי מלאכה שבנו את בבל",
+    "חיילים של מלך יהודה"
+   ],
+   "explain_he": "כך, כשהעם הגיע לבבל, כבר חיכו לו שם תלמידי חכמים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ישיבה פתח רב כשירד לבבל?",
+   "answer": "ישיבת סורא",
+   "options": [
+    "ישיבת סורא",
+    "ישיבת יבנה",
+    "ישיבת וולוז'ין"
+   ],
+   "explain_he": "רב, תלמידו של רבי, פתח ישיבה בעיר סורא, ושמואל לימד בנהרדעא.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ישיבה פתח רב כשירד לבבל?",
+   "answer": "ישיבת סורא",
+   "options": [
+    "ישיבת סורא",
+    "ישיבת יבנה",
+    "ישיבת וולוז'ין"
+   ],
+   "explain_he": "רב, תלמידו של רבי, פתח ישיבה בעיר סורא, ושמואל לימד בנהרדעא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו \"ירחי כלה\"?",
+   "answer": "חודשים שבהם אלפי יהודים באו ללמוד בישיבה",
+   "options": [
+    "חודשים שבהם אלפי יהודים באו ללמוד בישיבה",
+    "חודשים של חתונות",
+    "חודשים של מסחר בשוק"
+   ],
+   "explain_he": "באדר ובאלול באו חקלאים, סוחרים ובעלי מלאכה ללמוד חודש שלם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו \"ירחי כלה\"?",
+   "answer": "חודשים שבהם אלפי יהודים באו ללמוד בישיבה",
+   "options": [
+    "חודשים שבהם אלפי יהודים באו ללמוד בישיבה",
+    "חודשים של חתונות",
+    "חודשים של מסחר בשוק"
+   ],
+   "explain_he": "באדר ובאלול באו חקלאים, סוחרים ובעלי מלאכה ללמוד חודש שלם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי סידרו את התלמוד הבבלי?",
+   "answer": "רב אשי ורבינא",
+   "options": [
+    "רב אשי ורבינא",
+    "רבי יהודה הנשיא",
+    "רבן יוחנן בן זכאי"
+   ],
+   "explain_he": "\"רבינא ורב אשי סוף הוראה\": הם אספו את דיוני האמוראים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי סידרו את התלמוד הבבלי?",
+   "answer": "רב אשי ורבינא",
+   "options": [
+    "רב אשי ורבינא",
+    "רבי יהודה הנשיא",
+    "רבן יוחנן בן זכאי"
+   ],
+   "explain_he": "\"רבינא ורב אשי סוף הוראה\": הם אספו את דיוני האמוראים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו שפה כתובה רוב הגמרא?",
+   "answer": "בארמית",
+   "options": [
+    "בארמית",
+    "ביוונית",
+    "בלטינית"
+   ],
+   "explain_he": "ארמית הייתה שפת הדיבור של היהודים בבבל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו שפה כתובה רוב הגמרא?",
+   "answer": "בארמית",
+   "options": [
+    "בארמית",
+    "ביוונית",
+    "בלטינית"
+   ],
+   "explain_he": "ארמית הייתה שפת הדיבור של היהודים בבבל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הגיע התלמוד לקהילות רחוקות?",
+   "answer": "הגאונים ענו במכתבים על שאלות מכל העולם",
+   "options": [
+    "הגאונים ענו במכתבים על שאלות מכל העולם",
+    "הרומאים הפיצו אותו",
+    "כל יהודי קיבל ספר מודפס"
+   ],
+   "explain_he": "מכתבי השאלות והתשובות נסעו חודשים בשיירות ובאוניות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הגיע התלמוד לקהילות רחוקות?",
+   "answer": "הגאונים ענו במכתבים על שאלות מכל העולם",
+   "options": [
+    "הגאונים ענו במכתבים על שאלות מכל העולם",
+    "הרומאים הפיצו אותו",
+    "כל יהודי קיבל ספר מודפס"
+   ],
+   "explain_he": "מכתבי השאלות והתשובות נסעו חודשים בשיירות ובאוניות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"תיקו\" בגמרא?",
+   "answer": "השאלה נשארת פתוחה",
+   "options": [
+    "השאלה נשארת פתוחה",
+    "ההלכה נפסקה",
+    "יש לכך ראיה מהמשנה"
+   ],
+   "explain_he": "לפי המסורת, אליהו הנביא יפתור את השאלות האלה כשיבוא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזו משפחה היו ראשי הגולה בבבל, לפי המסורת?",
+   "answer": "מצאצאי דוד המלך",
+   "options": [
+    "מצאצאי דוד המלך",
+    "מצאצאי משה רבנו",
+    "ממשפחת כורש"
+   ],
+   "explain_he": "כך, גם בגלות, נשמר זכר למלכות בית דוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ידוע על ילדותו של אביי?",
+   "answer": "הוא היה יתום, ואישה טובה גידלה אותו",
+   "options": [
+    "הוא היה יתום, ואישה טובה גידלה אותו",
+    "הוא גדל בארמון של ראש הגולה",
+    "הוא נולד בספרד"
+   ],
+   "explain_he": "אביי מביא בגמרא עצות רבות בשם האישה שגידלה אותו: \"אמרה לי אם\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f2e17"
+  }
+ ]
+}

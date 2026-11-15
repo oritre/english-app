@@ -1,0 +1,533 @@
+{
+ "id": "k-mik-f7",
+ "unit_id": "k-mik-u3",
+ "course": "mikdash",
+ "title_he": "תשעה באב והבית השלישי",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "תשעה באב והבית השלישי",
+   "ref_he": "בית המקדש",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "חורבן הבית השני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Mount Moriah at dusk after the destruction: a vast ruin of tumbled white stones, one great wall of huge stone blocks still standing, smoke thinning into a purple sky. No people.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 🪨",
+     "say": [
+      "הבית השני עמד מאות שנים. אבל אז באו הרומאים, ממלכה חזקה מאוד, ושוב נחרב הבית.",
+      "וגם הפעם, באותו יום – בתשעה באב.",
+      "למה זה קרה? חז\"ל אומרים: בגלל שנאת חינם.",
+      "אנשים שנאו זה את זה סתם, בלי סיבה. זה היה חטא גדול מאוד.",
+      "אז מה התיקון? אהבת חינם – לאהוב כל יהודי, גם בלי סיבה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הכותל המערבי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: The Western Wall at early morning: enormous ancient stone blocks with small plants growing between them, doves resting in the cracks, a soft light falling from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🪨 🕊️",
+     "say": [
+      "אבל לא הכול נהרס. נשאר קיר אחד, גדול וחזק: הכותל המערבי.",
+      "הכותל הוא חלק מהחומה שהקיפה את הר הבית.",
+      "חז\"ל אומרים: השכינה לא זזה אף פעם מהכותל המערבי.",
+      "ולכן יהודים מכל העולם באים לכותל, נוגעים באבנים, ומתפללים.",
+      "יש אנשים שכותבים פתק קטן עם תפילה, ומכניסים אותו בין האבנים של הכותל."
+     ],
+     "pasuk": {
+      "text": "לְעוֹלָם אֵין הַשְּׁכִינָה זָזָה מִכֹּתֶל הַמַּעֲרָבִי",
+      "ref": "מדרש רבה, שמות ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "תשעה באב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Inside a dim synagogue on the night of Tisha B'Av: men and boys with kippot sitting on the floor and on low benches, reading from small books by candlelight, the ark curtain removed, a quiet sad mood.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠 👨 👦",
+     "say": [
+      "בכל שנה, בתשעה באב, אנחנו זוכרים את החורבן.",
+      "צמים – לא אוכלים ולא שותים, מהערב ועד הלילה של מחרת.",
+      "יושבים על הרצפה או על כיסא נמוך, כמו אבלים, וקוראים את מגילת איכה.",
+      "ובכל זאת, יש בתשעה באב גם תקווה. נכון, אנחנו עצובים, אבל אנחנו מחכים לגאולה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המשנה מונה חמישה דברים עצובים שקרו בתשעה באב, וביניהם חורבן שני בתי המקדש."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "זכר לחורבן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A Jewish wedding under a chuppah in warm evening light: the groom in a white kippah, his foot about to break a glass wrapped in cloth, family members in modest festive clothes around them, Jerusalem stone walls behind.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨 👩 👴 👵",
+     "say": [
+      "ואנחנו זוכרים את ירושלים לא רק בתשעה באב, אלא כל השנה.",
+      "בבית יהודי משאירים לפעמים פינה קטנה בקיר בלי צבע – זכר לחורבן.",
+      "ובחתונה, אפילו בשמחה הכי גדולה, החתן שובר כוס ואומר \"אם אשכחך ירושלים\".",
+      "למה? כי השמחה שלנו לא שלמה, עד שירושלים תיבנה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "שבת נחמו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A synagogue on a bright summer Shabbat morning: sunlight streaming through tall windows, a boy with a kippah following in a book beside his father, the congregation listening with hopeful faces.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "ומה קורה אחרי תשעה באב? מגיעה שבת מיוחדת – שבת נחמו.",
+      "בבית הכנסת קוראים את דברי ישעיהו הנביא: \"נחמו, נחמו עמי\".",
+      "השם מבטיח: ירושלים תשמח שוב, והגלות תיגמר.",
+      "ובשבע השבתות שאחרי תשעה באב, קוראים בכל שבת נבואה של נחמה."
+     ],
+     "pasuk": {
+      "text": "נַחֲמוּ נַחֲמוּ עַמִּי",
+      "ref": "ישעיהו מ, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "רבי עקיבא צוחק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Rabbi Akiva: an old sage with a long white beard, a simple robe and head covering, a hopeful smile. Scene: Four elderly sages in robes standing on a hill overlooking the ruined Temple Mount at sunset, a small red fox trotting out among the fallen stones; three sages look sad, while Rabbi Akiva smiles with hope.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👴 👴 🦊",
+     "say": [
+      "יש סיפור מפורסם על רבי עקיבא. הוא וחבריו, חכמים גדולים, עלו לירושלים אחרי החורבן.",
+      "על הר הבית, במקום שבו היה המקדש, הם ראו שועל רץ בין האבנים.",
+      "החכמים בכו. אבל רבי עקיבא צחק! למה?",
+      "רבי עקיבא אמר: הנביאים אמרו שהמקום ייחרב, וזה קרה. אז גם הנבואה שירושלים תיבנה שוב – תתקיים! והחכמים אמרו: עקיבא, ניחמתנו."
+     ],
+     "pasuk": {
+      "text": "עֹד יֵשְׁבוּ זְקֵנִים וּזְקֵנוֹת בִּרְחֹבוֹת יְרוּשָׁלָםִ",
+      "ref": "זכריה ח, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "שלוש פעמים ביום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Jews praying in many places at once in a soft collage: a boy in a classroom, an old man in a small synagogue, a mother at home by a window, all facing the same direction, a warm light glowing far away over Jerusalem.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👴 👩",
+     "say": [
+      "ובכל יום, שלוש פעמים, אנחנו מתפללים על בית המקדש.",
+      "בתפילת עמידה אנחנו מבקשים: \"ולירושלים עירך ברחמים תשוב\".",
+      "ובסוף התפילה אנחנו אומרים: \"שייבנה בית המקדש במהרה בימינו\".",
+      "יהודים בכל העולם מתפללים כשהם פונים לכיוון ירושלים – כמו ששלמה המלך ביקש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הבית השלישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A glowing vision of Jerusalem at sunrise: the city rebuilt in golden stone, families in festive modest clothes streaming up the hills with baskets of fruit, children playing in the streets, a warm light from above. The Temple is a soft radiant shape on the mountain.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "אז בואו ניזכר בכל הדרך: המשכן במדבר, הבית הראשון של שלמה, הבית השני שחזרנו לבנות.",
+      "ועכשיו אנחנו מחכים לבית השלישי.",
+      "אנחנו מאמינים שיגיע יום שבו בית המקדש ייבנה שוב, ואז כל עם ישראל יעלה לירושלים, כמו פעם.",
+      "ושוב נראה את הכהנים בבגדים הלבנים, ונשמע את הלוויים שרים. הלוואי שזה יהיה מהר, בימינו!"
+     ],
+     "pasuk": {
+      "text": "כִּי מִצִּיּוֹן תֵּצֵא תוֹרָה, וּדְבַר ה' מִירוּשָׁלָםִ",
+      "ref": "ישעיהו ב, ג"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-mik-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "תשעה באב והבית השלישי",
+   "ref_he": "בית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "חורבן הבית השני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Mount Moriah at dusk after the destruction: a vast ruin of tumbled white stones, one great wall of huge stone blocks still standing, smoke thinning into a purple sky. No people.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 🪨",
+     "say": [
+      "לפני כמעט אלפיים שנה צרו הרומאים על ירושלים. ובתשעה באב, באותו יום שבו נחרב הבית הראשון, נשרף גם הבית השני.",
+      "חז\"ל שואלים: בבית שני עסקו בתורה, במצוות ובגמילות חסדים – למה הוא חרב? ועונים: \"מפני שהייתה בו שנאת חינם\".",
+      "הם מספרים על אדם שבייש את חברו בפני כולם בסעודה, והחכמים שישבו שם שתקו ולא מחו. ומשם התגלגלו הדברים, עד החורבן.",
+      "השיעור קשה, אבל ברור: מחלוקת ושנאה בין יהודים הורסות יותר מכל אויב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הכותל המערבי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: The Western Wall at early morning: enormous ancient stone blocks with small plants growing between them, doves resting in the cracks, a soft light falling from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🪨 🕊️",
+     "say": [
+      "מהבית עצמו לא נשאר דבר. אבל חלק מהחומה שהקיפה את הר הבית נשאר עומד – הכותל המערבי.",
+      "המדרש אומר: \"לעולם אין השכינה זזה מכותל המערבי\".",
+      "במשך כל הדורות באו יהודים להתפלל ליד האבנים הענקיות האלה. הם נשקו אותן, ושפכו את ליבם בתפילה.",
+      "הכותל הוא כמו סבא זקן שמחכה – הוא ראה את המקדש, והוא מחכה לראות אותו שוב."
+     ],
+     "pasuk": {
+      "text": "לְעוֹלָם אֵין הַשְּׁכִינָה זָזָה מִכֹּתֶל הַמַּעֲרָבִי",
+      "ref": "מדרש רבה, שמות ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "תשעה באב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Inside a dim synagogue on the night of Tisha B'Av: men and boys with kippot sitting on the floor and on low benches, reading from small books by candlelight, the ark curtain removed, a quiet sad mood.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠 👨 👦",
+     "say": [
+      "המשנה מונה חמישה דברים שקרו בתשעה באב: נגזר על אבותינו במדבר שלא ייכנסו לארץ, חרב הבית בראשונה ובשנייה, נכבשה העיר ביתר, ונחרשה העיר.",
+      "ביום הזה צמים, יושבים על הארץ, לא נועלים נעלי עור, קוראים את מגילת איכה ואומרים קינות.",
+      "בשלושת השבועות שלפני כן מתאבלים יותר ויותר, ובתשעת הימים שלפני הצום – עוד יותר.",
+      "ויש מסורת מופלאה: בתשעה באב, אחרי חצות היום, כבר קמים מהרצפה – כי חז\"ל אומרים שביום הזה גם תיוולד הנחמה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המשנה מונה חמישה דברים עצובים שקרו בתשעה באב, וביניהם חורבן שני בתי המקדש."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "זכר לחורבן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A Jewish wedding under a chuppah in warm evening light: the groom in a white kippah, his foot about to break a glass wrapped in cloth, family members in modest festive clothes around them, Jerusalem stone walls behind.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨 👩 👴 👵",
+     "say": [
+      "חז\"ל תיקנו לנו סימנים כדי לזכור את החורבן כל השנה: משאירים אמה על אמה בקיר הבית בלי טיח וסיד, \"זכר לחורבן\".",
+      "תחת החופה שוברים כוס, ואומרים \"אם אשכחך ירושלים\" – כדי להעלות את ירושלים \"על ראש שמחתנו\".",
+      "וגם בסעודה, בברכת המזון, אנחנו מבקשים: \"ובנה ירושלים עיר הקודש במהרה בימינו\".",
+      "חז\"ל אומרים: \"כל המתאבל על ירושלים – זוכה ורואה בשמחתה\". מי שזוכר וכואב, יזכה גם לשמוח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "שבת נחמו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A synagogue on a bright summer Shabbat morning: sunlight streaming through tall windows, a boy with a kippah following in a book beside his father, the congregation listening with hopeful faces.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "מיד אחרי תשעה באב מגיעה \"שבת נחמו\", ובה קוראים את ההפטרה מישעיהו: \"נחמו נחמו עמי... דברו על לב ירושלים\".",
+      "זו הראשונה מתוך \"שבע דנחמתא\" – שבע הפטרות של נחמה, שקוראים בשבתות עד ראש השנה.",
+      "הסדר מלמד אותנו: קודם אבל אמיתי, ואחריו נחמה אמיתית. עם ישראל לא שוכח, וגם לא מתייאש.",
+      "השבת הזאת מזכירה לנו: אחרי כל חושך, השם מביא אור."
+     ],
+     "pasuk": {
+      "text": "נַחֲמוּ נַחֲמוּ עַמִּי",
+      "ref": "ישעיהו מ, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "רבי עקיבא צוחק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Rabbi Akiva: an old sage with a long white beard, a simple robe and head covering, a hopeful smile. Scene: Four elderly sages in robes standing on a hill overlooking the ruined Temple Mount at sunset, a small red fox trotting out among the fallen stones; three sages look sad, while Rabbi Akiva smiles with hope.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👴 👴 🦊",
+     "say": [
+      "הגמרא מספרת: רבן גמליאל, רבי אלעזר בן עזריה, רבי יהושע ורבי עקיבא עלו לירושלים. כשהגיעו להר הבית, ראו שועל יוצא ממקום קודש הקודשים.",
+      "שלושת החכמים פרצו בבכי, ורבי עקיבא – צחק. \"מפני מה אתה צוחק?\" שאלו. ענה להם: \"מפני מה אתם בוכים?\"",
+      "רבי עקיבא הסביר: הנביא אוריה ניבא את החורבן, והנביא זכריה ניבא: \"עוד ישבו זקנים וזקנות ברחובות ירושלים\". עכשיו שראיתי שנבואת החורבן התקיימה – אני יודע שגם נבואת הנחמה תתקיים.",
+      "אמרו לו: \"עקיבא, ניחמתנו! עקיבא, ניחמתנו!\" זו האמונה: גם מתוך החורבן, אפשר לראות את הגאולה."
+     ],
+     "pasuk": {
+      "text": "עֹד יֵשְׁבוּ זְקֵנִים וּזְקֵנוֹת בִּרְחֹבוֹת יְרוּשָׁלָםִ",
+      "ref": "זכריה ח, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "שלוש פעמים ביום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Jews praying in many places at once in a soft collage: a boy in a classroom, an old man in a small synagogue, a mother at home by a window, all facing the same direction, a warm light glowing far away over Jerusalem.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👴 👩",
+     "say": [
+      "כמעט אלפיים שנה, בכל יום ובכל מקום, יהודים מבקשים בתפילה: \"ותחזינה עינינו בשובך לציון ברחמים\".",
+      "אנחנו אומרים \"ולירושלים עירך ברחמים תשוב\", ובסוף התפילה: \"יהי רצון מלפניך שייבנה בית המקדש במהרה בימינו\".",
+      "וכל יהודי, בכל ארץ, מתפלל כשפניו אל ירושלים, ובירושלים – אל מקום המקדש. כך התפללנו גם בבבל, וגם בכל הגלויות.",
+      "תפילה של עם שלם, יום אחרי יום, במשך דורות. זה לא סתם זיכרון – זו תקווה חיה.",
+      "חז\"ל אומרים: כל דור שלא נבנה בית המקדש בימיו – כאילו נחרב בימיו. לכן אנחנו לא רק מחכים, אלא מתקנים: אהבת חינם במקום שנאת חינם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הבית השלישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A glowing vision of Jerusalem at sunrise: the city rebuilt in golden stone, families in festive modest clothes streaming up the hills with baskets of fruit, children playing in the streets, a warm light from above. The Temple is a soft radiant shape on the mountain.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "סיפור המקדש שלנו ארוך: משכן נודד במדבר, בית ראשון מפואר, גלות, שיבה, בית שני – ועוד גלות ארוכה.",
+      "ובכל הדרך הזאת לא ויתרנו על התקווה. הנביאים הבטיחו שהבית ייבנה שוב, והאמונה בכך היא חלק מהאמונה היהודית.",
+      "ישעיהו ניבא שבאחרית הימים עמים רבים יאמרו: \"לכו ונעלה אל הר ה'... כי מציון תצא תורה ודבר ה' מירושלים\".",
+      "ועד אז – כל מעשה טוב, כל אהבת חינם וכל תפילה מקרבים את היום הזה. \"שייבנה בית המקדש במהרה בימינו, ותן חלקנו בתורתך\"."
+     ],
+     "pasuk": {
+      "text": "כִּי מִצִּיּוֹן תֵּצֵא תוֹרָה, וּדְבַר ה' מִירוּשָׁלָםִ",
+      "ref": "ישעיהו ב, ג"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-mik-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בגלל מה נחרב הבית השני, לפי חז\"ל?",
+   "answer": "בגלל שנאת חינם",
+   "options": [
+    "בגלל שנאת חינם",
+    "בגלל שלא היה להם מספיק כסף",
+    "בגלל רעידת אדמה"
+   ],
+   "explain_he": "חז\"ל אומרים שבית שני חרב מפני שנאת חינם – אנשים שנאו זה את זה בלי סיבה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בגלל מה נחרב הבית השני, לפי חז\"ל?",
+   "answer": "בגלל שנאת חינם",
+   "options": [
+    "בגלל שנאת חינם",
+    "בגלל שלא היה להם מספיק כסף",
+    "בגלל רעידת אדמה"
+   ],
+   "explain_he": "חז\"ל אומרים שבית שני חרב מפני שנאת חינם – אנשים שנאו זה את זה בלי סיבה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נשאר עומד אחרי החורבן?",
+   "answer": "הכותל המערבי",
+   "options": [
+    "הכותל המערבי",
+    "המנורה",
+    "ארמון שלמה"
+   ],
+   "explain_he": "נשאר חלק מהחומה שהקיפה את הר הבית – הכותל המערבי. השכינה לא זזה ממנו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נשאר עומד אחרי החורבן?",
+   "answer": "הכותל המערבי",
+   "options": [
+    "הכותל המערבי",
+    "המנורה",
+    "ארמון שלמה"
+   ],
+   "explain_he": "נשאר חלק מהחומה שהקיפה את הר הבית – הכותל המערבי. השכינה לא זזה ממנו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים בתשעה באב?",
+   "answer": "צמים, יושבים על הרצפה וקוראים את מגילת איכה",
+   "options": [
+    "צמים, יושבים על הרצפה וקוראים את מגילת איכה",
+    "אוכלים סעודה גדולה ושרים",
+    "מדליקים נרות חנוכה"
+   ],
+   "explain_he": "בתשעה באב צמים, יושבים כמו אבלים, וקוראים את מגילת איכה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה החתן שובר כוס בחתונה?",
+   "answer": "כדי לזכור את ירושלים גם בשמחה הכי גדולה",
+   "options": [
+    "כדי לזכור את ירושלים גם בשמחה הכי גדולה",
+    "כי הכוס הייתה ישנה",
+    "כדי להעיר את האורחים"
+   ],
+   "explain_he": "שוברים כוס ואומרים \"אם אשכחך ירושלים\" – כי השמחה לא שלמה עד שירושלים תיבנה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה החתן שובר כוס בחתונה?",
+   "answer": "כדי לזכור את ירושלים גם בשמחה הכי גדולה",
+   "options": [
+    "כדי לזכור את ירושלים גם בשמחה הכי גדולה",
+    "כי הכוס הייתה ישנה",
+    "כדי להעיר את האורחים"
+   ],
+   "explain_he": "שוברים כוס ואומרים \"אם אשכחך ירושלים\" – כי השמחה לא שלמה עד שירושלים תיבנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רבי עקיבא צחק כשראה שועל על הר הבית?",
+   "answer": "כי ראה שנבואת החורבן התקיימה, ולכן ידע שגם נבואת הבנייה תתקיים",
+   "options": [
+    "כי ראה שנבואת החורבן התקיימה, ולכן ידע שגם נבואת הבנייה תתקיים",
+    "כי השועל היה מצחיק",
+    "כי לא הבין מה המקום"
+   ],
+   "explain_he": "רבי עקיבא אמר: אם נבואת החורבן התקיימה – גם נבואת הנחמה תתקיים. והחכמים אמרו: \"עקיבא, ניחמתנו\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רבי עקיבא צחק כשראה שועל על הר הבית?",
+   "answer": "כי ראה שנבואת החורבן התקיימה, ולכן ידע שגם נבואת הבנייה תתקיים",
+   "options": [
+    "כי ראה שנבואת החורבן התקיימה, ולכן ידע שגם נבואת הבנייה תתקיים",
+    "כי השועל היה מצחיק",
+    "כי לא הבין מה המקום"
+   ],
+   "explain_he": "רבי עקיבא אמר: אם נבואת החורבן התקיימה – גם נבואת הנחמה תתקיים. והחכמים אמרו: \"עקיבא, ניחמתנו\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אנחנו אומרים בסוף התפילה על בית המקדש?",
+   "answer": "\"שייבנה בית המקדש במהרה בימינו\"",
+   "options": [
+    "\"שייבנה בית המקדש במהרה בימינו\"",
+    "\"שנשכח את ירושלים\"",
+    "\"שנישאר תמיד בגלות\""
+   ],
+   "explain_he": "בכל תפילה אנחנו מבקשים שבית המקדש ייבנה מהר, בימינו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים חז\"ל על מי שמתאבל על ירושלים?",
+   "answer": "שהוא יזכה לראות בשמחתה",
+   "options": [
+    "שהוא יזכה לראות בשמחתה",
+    "שאסור לו לשמוח לעולם",
+    "שהוא צריך לעבור לגור בה מיד"
+   ],
+   "explain_he": "\"כל המתאבל על ירושלים – זוכה ורואה בשמחתה\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה משאירים בקיר הבית \"זכר לחורבן\"?",
+   "answer": "אמה על אמה בלי טיח וסיד",
+   "options": [
+    "אמה על אמה בלי טיח וסיד",
+    "חלון שבור",
+    "דלת בלי ידית"
+   ],
+   "explain_he": "חז\"ל תיקנו להשאיר חלק קטן מהקיר בלי טיח, כדי לזכור את החורבן.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קמים מהרצפה בתשעה באב אחרי חצות היום?",
+   "answer": "כי חז\"ל אומרים שביום הזה גם תיוולד הנחמה",
+   "options": [
+    "כי חז\"ל אומרים שביום הזה גם תיוולד הנחמה",
+    "כי הצום נגמר בצהריים",
+    "כי הרצפה מתחממת"
+   ],
+   "explain_he": "תשעה באב הוא יום של אבל, אבל גם יום של תקווה – חז\"ל אומרים שבו תיוולד הנחמה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f7e15"
+  }
+ ]
+}

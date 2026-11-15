@@ -1,0 +1,492 @@
+{
+ "id": "k-lnf-f7",
+ "unit_id": "k-lnf-u3",
+ "course": "land",
+ "title_he": "ארץ שמחכה לגשם",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "ארץ שמחכה לגשם",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "לא כמו מצרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A side-by-side feeling in one wide landscape: on the left far away a flat green river valley with farmers carrying water buckets, on the right green hills of Eretz Yisrael under grey rain clouds with rain falling, a soft light breaking through the clouds.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌧️",
+     "say": [
+      "בסוף המסע, בואו נדבר על משהו חשוב מאוד: מים.",
+      "במצרים יש נהר גדול, הנילוס. משם לוקחים מים.",
+      "במצרים כמעט לא יורד גשם, אבל הנהר תמיד זורם.",
+      "בארץ ישראל אין נהר כזה.",
+      "אנחנו מחכים לגשם שיורד מהשמים.",
+      "התורה אומרת: העיניים של השם תמיד על הארץ הזאת."
+     ],
+     "pasuk": {
+      "text": "למטר השמים תשתה מים. ארץ אשר ה' אלקיך דרש אתה, תמיד עיני ה' אלקיך בה",
+      "ref": "דברים יא, יא-יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "גשם רק בחורף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: A rainy winter day in a Galilee village: children in raincoats and boots jump in puddles on the way to school, grey clouds, green fields, rain drops shining.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🌧️👦👧",
+     "say": [
+      "בארץ ישראל יורד גשם רק בחורף.",
+      "בקיץ השמים כחולים, ובכלל אין גשם.",
+      "בקיץ, החקלאים משקים את השדות במים שנאספו בחורף.",
+      "בצפון יורד הרבה גשם. בדרום יורד מעט מאוד.",
+      "לכן הצפון ירוק, והדרום הוא מדבר.",
+      "בחורף אנחנו שמחים על כל גשם, גם כשנרטבים בדרך לבית הספר!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בגליל העליון יורד בשנה פי עשרים ויותר גשם מאשר באילת!"
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "מתפללים לגשם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Inside a warm synagogue on a winter morning: boys in kippot and tallit-wearing men praying from siddurim, rain on the tall windows, a soft light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "📖",
+     "say": [
+      "כי אנחנו צריכים גשם, אנחנו מתפללים עליו.",
+      "בכל תפילה בחורף אנחנו אומרים: משיב הרוח ומוריד הגשם.",
+      "וגם מבקשים: ותן טל ומטר לברכה.",
+      "בחורף אנחנו מבקשים גשם, ובקיץ אנחנו מבקשים טל.",
+      "כי גם הטל של הבוקר עוזר לצמחים לגדול.",
+      "וכשיורד גשם, אנחנו שמחים ואומרים תודה להשם!"
+     ],
+     "pasuk": {
+      "text": "משיב הרוח ומוריד הגשם",
+      "ref": "תפילת שמונה עשרה"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הדרך של המים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A huge open water canal and large pipes running through green fields and toward the desert, a pumping station by the blue Kinneret in the distance, bright day.",
+     "move": "right",
+     "fx": null,
+     "art": "💧",
+     "say": [
+      "רוב הגשם יורד בצפון.",
+      "אבל הרבה אנשים ושדות נמצאים במרכז ובדרום.",
+      "לכן בנו צינורות ותעלות ענקיים, שמביאים מים מהכנרת עד הדרום.",
+      "וגם אנחנו שומרים על המים: סוגרים את הברז כשמסבנים ידיים.",
+      "כל טיפה חשובה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מים מהים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A large modern seawater desalination plant on the Mediterranean shore at sunrise, big white buildings and pipes leading to the sea, seagulls flying, calm waves.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🏭🌊",
+     "say": [
+      "יש עוד דרך מיוחדת להשיג מים.",
+      "לוקחים מים מלוחים מהים.",
+      "ובמפעל גדול מוציאים מהם את המלח.",
+      "וכך יש לנו עוד מים טובים לשתייה!",
+      "וגם את המים שכבר השתמשנו בהם בבית, מנקים, ומשקים בהם את השדות.",
+      "ואת השכל לבנות מפעל כזה, גם אותו נתן לנו השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "מצוות של הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A family orchard in Eretz Yisrael: young fruit trees, a father in a kippah and a boy setting aside a basket of fruit, a field resting with wild flowers next to a planted field, golden light.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌳👨👦",
+     "say": [
+      "בארץ ישראל יש מצוות מיוחדות, שאין במקום אחר.",
+      "אחת מהן היא שמיטה.",
+      "כל שבע שנים, החקלאים נותנים לאדמה לנוח.",
+      "זה כמו שבת, אבל לאדמה.",
+      "ועוד מצווה: מפרישים תרומות ומעשרות מהפירות.",
+      "ועל עץ צעיר, בשלוש השנים הראשונות, לא אוכלים מהפירות שלו.",
+      "כך האדמה מזכירה לנו שהיא של השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הארץ חוזרת לתת פרי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A sweeping view of modern Eretz Yisrael in spring: green fields, vineyards and orchards on hills that were once bare, a village with red roofs, fruit trees in bloom, a soft light from above.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌸",
+     "say": [
+      "במשך שנים רבות, כשעם ישראל היה בגלות, הארץ הייתה שוממה.",
+      "מטיילים שבאו לארץ סיפרו על הרים קירחים, בלי עצים ובלי שדות.",
+      "אבל הנביא אמר: הרי ישראל, תתנו פרי לעם ישראל.",
+      "והנה, עם ישראל חזר, והעצים חזרו לתת פרי!",
+      "חכמינו אמרו: זה סימן שהגאולה מתקרבת."
+     ],
+     "pasuk": {
+      "text": "ואתם הרי ישראל, ענפכם תתנו ופריכם תשאו לעמי ישראל, כי קרבו לבוא",
+      "ref": "יחזקאל לו, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "סוף המסע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Saba Shmuel and the two children sit on a hilltop at golden sunset, looking over the whole land with love, the boy gently touches a smooth stone, the girl holds a pomegranate.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴👦👧",
+     "say": [
+      "המסע שלנו נגמר. איזה מסע!",
+      "ראינו את הגבולות ואת שבעת המינים.",
+      "ראינו את החרמון, את הכנרת, את הים, ואת חברון.",
+      "ראינו את ירושלים, את ים המלח, את הנגב ואת אילת.",
+      "ראינו גם שהארץ צריכה גשם, ושאנחנו מתפללים עליו.",
+      "וראינו איך הארץ חוזרת לפרוח, כשעם ישראל חוזר אליה.",
+      "ארץ ישראל היא מתנה גדולה. בואו נאהב אותה, ונודה להשם עליה בכל יום."
+     ],
+     "pasuk": {
+      "text": "כי רצו עבדיך את אבניה, ואת עפרה יחננו",
+      "ref": "תהלים קב, טו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "ארץ שמחכה לגשם",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "לא כמו מצרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A side-by-side feeling in one wide landscape: on the left far away a flat green river valley with farmers carrying water buckets, on the right green hills of Eretz Yisrael under grey rain clouds with rain falling, a soft light breaking through the clouds.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌧️",
+     "say": [
+      "בסוף המסע נדבר על הדבר שהכי חשוב לכל ארץ: מים.",
+      "משה רבנו אמר לבני ישראל: הארץ שאתם באים אליה היא לא כמו מצרים. במצרים לוקחים מים מהנילוס, ומשקים את השדות ברגליים, כמו גינת ירק.",
+      "אבל ארץ ישראל שותה מים מגשם השמים. אין בה נהר ענק שתמיד זורם.",
+      "ולמה זה טוב? כי כך אנחנו תמיד מרגישים שאנחנו צריכים את השם. התורה אומרת: תמיד עיני השם בה, מתחילת השנה ועד סוף השנה.",
+      "ולכן, כשהגשם יורד בזמנו, זה סימן של ברכה. בקריאת שמע אנחנו אומרים: ונתתי מטר ארצכם בעתו, יורה ומלקוש."
+     ],
+     "pasuk": {
+      "text": "למטר השמים תשתה מים. ארץ אשר ה' אלקיך דרש אתה, תמיד עיני ה' אלקיך בה",
+      "ref": "דברים יא, יא-יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "גשם רק בחורף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: A rainy winter day in a Galilee village: children in raincoats and boots jump in puddles on the way to school, grey clouds, green fields, rain drops shining.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🌧️👦👧",
+     "say": [
+      "בארץ ישראל יש רק שתי עונות של מים: חורף גשום, וקיץ יבש לגמרי. כמעט כל הגשם יורד בין חודש חשוון לחודש ניסן.",
+      "הגשם לא מתחלק שווה. בצפון יורד הרבה, ובדרום מעט מאוד. ככל שנוסעים דרומה, יש פחות גשם.",
+      "בגליל העליון יורד בשנה פי עשרים ויותר גשם מאשר באילת. לכן הגליל ירוק, והנגב מדבר.",
+      "גם ההרים משנים: בצד המערבי של ההרים יורד הרבה גשם, ובצד המזרחי שלהם יש מדבר, כמו שראינו במדבר יהודה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בגליל העליון יורד בשנה פי עשרים ויותר גשם מאשר באילת!"
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "מתפללים לגשם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Inside a warm synagogue on a winter morning: boys in kippot and tallit-wearing men praying from siddurim, rain on the tall windows, a soft light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "📖",
+     "say": [
+      "מפני שהארץ תלויה בגשם, אנחנו מתפללים עליו כל החורף.",
+      "בכל שנה, בשמיני עצרת, אומרים תפילת גשם מיוחדת, ובפסח אומרים תפילת טל.",
+      "משמיני עצרת ועד פסח אומרים בתפילה: משיב הרוח ומוריד הגשם.",
+      "ובארץ ישראל, משבעה בחשוון, מבקשים בברכת השנים: ותן טל ומטר לברכה.",
+      "למה דווקא בשבעה בחשוון? חכמינו אמרו שבזמן בית המקדש חיכו עד שהעולים לרגל מסוכות יחזרו לבתיהם, ורק אז ביקשו גשם, כדי שהגשם לא יפריע להם בדרך.",
+      "וכשהגשם יורד בזמנו, אנחנו שמחים ומודים להשם על הברכה."
+     ],
+     "pasuk": {
+      "text": "משיב הרוח ומוריד הגשם",
+      "ref": "תפילת שמונה עשרה"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הדרך של המים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A huge open water canal and large pipes running through green fields and toward the desert, a pumping station by the blue Kinneret in the distance, bright day.",
+     "move": "right",
+     "fx": null,
+     "art": "💧",
+     "say": [
+      "רוב הגשם יורד בצפון, אבל הרבה אנשים ושדות נמצאים במרכז ובדרום. איך מביאים את המים לשם?",
+      "לפני יותר משישים שנה בנו בישראל את המוביל הארצי: צינורות ותעלות ענקיים, שהביאו מים מהכנרת עד הדרום.",
+      "המוביל הארצי עובר מהכנרת דרך עמקים, הרים ומנהרות, ומגיע עד צפון הנגב.",
+      "מים נאספים גם מתחת לאדמה, במאגרים שנקראים מי תהום. אנחנו שואבים אותם מבארות.",
+      "כל טיפה חשובה. לכן גם בבית סוגרים את הברז כשמסבנים ידיים, ולא משאירים אותו פתוח לחינם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מים מהים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A large modern seawater desalination plant on the Mediterranean shore at sunrise, big white buildings and pipes leading to the sea, seagulls flying, calm waves.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🏭🌊",
+     "say": [
+      "בשנים האחרונות ישראל מצאה עוד מקור מים: הים עצמו.",
+      "לאורך חוף הים התיכון נבנו מפעלי התפלה. הם לוקחים מי ים מלוחים ומוציאים מהם את המלח, וכך מקבלים מים מתוקים לשתייה.",
+      "והמים שכבר השתמשו בהם בבתים? מנקים אותם במתקנים מיוחדים, ומשקים בהם את השדות.",
+      "ובכל זאת, את כל השכל ואת כל המים, נותן לנו השם. ואנחנו ממשיכים להתפלל על הגשם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ישראל ממחזרת את רוב המים שכבר השתמשו בהם בבתים, ומנקה אותם כדי להשקות שדות. אין כמעט ארץ בעולם שממחזרת כל כך הרבה!"
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "מצוות של הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A family orchard in Eretz Yisrael: young fruit trees, a father in a kippah and a boy setting aside a basket of fruit, a field resting with wild flowers next to a planted field, golden light.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌳👨👦",
+     "say": [
+      "ארץ ישראל מיוחדת גם במצוות: יש מצוות שמקיימים רק כאן. קוראים להן \"מצוות התלויות בארץ\".",
+      "בשנת השמיטה, פעם בשבע שנים, לא חורשים ולא זורעים. האדמה נחה, כמו שבת לאדמה.",
+      "מכל פרי וירק שגדלו בארץ מפרישים תרומות ומעשרות. ועל עץ צעיר יש דין ערלה: בשלוש השנים הראשונות לא אוכלים מהפירות שלו.",
+      "המצוות האלה מלמדות את החקלאי ואת כולנו: האדמה שלך, אבל היא מתנה מהשם.",
+      "ובזמן בית המקדש, האיכרים הביאו גם ביכורים, כמו שראינו בתחילת המסע."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הארץ חוזרת לתת פרי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A sweeping view of modern Eretz Yisrael in spring: green fields, vineyards and orchards on hills that were once bare, a village with red roofs, fruit trees in bloom, a soft light from above.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌸",
+     "say": [
+      "במשך כל שנות הגלות, הארץ הייתה שוממה. מטיילים שעברו בה סיפרו על הרים חשופים וביצות.",
+      "אבל יחזקאל הנביא אמר: ואתם הרי ישראל, ענפכם תתנו ופריכם תשאו לעמי ישראל, כי קרבו לבוא.",
+      "חכמינו אמרו בגמרא: אין לך סימן ברור יותר לגאולה מזה, כשהארץ חוזרת לתת פרי בשפע.",
+      "והנה בדורות שלנו, עם ישראל חזר לארצו, והיא פורחת: פרדסים, כרמים, שדות ויערות.",
+      "וכשאנחנו אוכלים פרי מארץ ישראל, אנחנו טועמים את הנבואה הזאת מתקיימת."
+     ],
+     "pasuk": {
+      "text": "ואתם הרי ישראל, ענפכם תתנו ופריכם תשאו לעמי ישראל, כי קרבו לבוא",
+      "ref": "יחזקאל לו, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "סוף המסע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Saba Shmuel and the two children sit on a hilltop at golden sunset, looking over the whole land with love, the boy gently touches a smooth stone, the girl holds a pomegranate.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴👦👧",
+     "say": [
+      "והמסע שלנו מגיע לסופו. בואו ניזכר: התחלנו בגבולות שהתורה נתנה ובשבעת המינים.",
+      "עלינו לחרמון המושלג וירדנו לכנרת. ביקרנו בצפת, בחיפה, בעכו וביפו. הלכנו בעקבות האבות בשכם, בחברון ובבית לחם.",
+      "התפללנו בירושלים, צפנו בים המלח, ראינו את דוד בעין גדי ואת מצדה, וחצינו את הנגב עד אילת.",
+      "דוד המלך אמר: כי רצו עבדיך את אבניה. אוהבי הארץ אוהבים אפילו את האבנים ואת העפר שלה, כמו רבי אבא בעכו.",
+      "ארץ ישראל היא מתנה מהשם לעם ישראל. נשמור עליה, נקיים בה מצוות, ונודה עליה בכל יום."
+     ],
+     "pasuk": {
+      "text": "כי רצו עבדיך את אבניה, ואת עפרה יחננו",
+      "ref": "תהלים קב, טו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה מקבלת ארץ ישראל את המים שלה, לפי התורה?",
+   "answer": "מהגשם שיורד מהשמים",
+   "options": [
+    "מהגשם שיורד מהשמים",
+    "מנהר ענק כמו הנילוס",
+    "רק מהים"
+   ],
+   "explain_he": "התורה אומרת: למטר השמים תשתה מים. לכן אנחנו תמיד צריכים את השם ומתפללים על הגשם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה מקבלת ארץ ישראל את המים שלה, לפי התורה?",
+   "answer": "מהגשם שיורד מהשמים",
+   "options": [
+    "מהגשם שיורד מהשמים",
+    "מנהר ענק כמו הנילוס",
+    "רק מהים"
+   ],
+   "explain_he": "התורה אומרת: למטר השמים תשתה מים. לכן אנחנו תמיד צריכים את השם ומתפללים על הגשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי יורד גשם בארץ ישראל?",
+   "answer": "רק בחורף",
+   "options": [
+    "רק בחורף",
+    "רק בקיץ",
+    "כל השנה באותה כמות"
+   ],
+   "explain_he": "בארץ ישראל יש חורף גשום וקיץ יבש לגמרי.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי יורד גשם בארץ ישראל?",
+   "answer": "רק בחורף",
+   "options": [
+    "רק בחורף",
+    "רק בקיץ",
+    "כל השנה באותה כמות"
+   ],
+   "explain_he": "בארץ ישראל יש חורף גשום וקיץ יבש לגמרי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים בשנת השמיטה?",
+   "answer": "נותנים לאדמה לנוח, ולא זורעים",
+   "options": [
+    "נותנים לאדמה לנוח, ולא זורעים",
+    "זורעים פי שניים",
+    "עוקרים את כל העצים"
+   ],
+   "explain_he": "פעם בשבע שנים, בשנת השמיטה, לא חורשים ולא זורעים. זו כמו שבת לאדמה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים בשנת השמיטה?",
+   "answer": "נותנים לאדמה לנוח, ולא זורעים",
+   "options": [
+    "נותנים לאדמה לנוח, ולא זורעים",
+    "זורעים פי שניים",
+    "עוקרים את כל העצים"
+   ],
+   "explain_he": "פעם בשבע שנים, בשנת השמיטה, לא חורשים ולא זורעים. זו כמו שבת לאדמה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מקבלים מים לשתייה מהים?",
+   "answer": "מוציאים מהם את המלח במפעל גדול",
+   "options": [
+    "מוציאים מהם את המלח במפעל גדול",
+    "שותים אותם כמו שהם",
+    "מחכים שהמלח ייעלם לבד"
+   ],
+   "explain_he": "במפעלי התפלה מוציאים את המלח ממי הים, וכך מקבלים מים מתוקים לשתייה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה, לפי התורה, טוב שהארץ תלויה בגשם?",
+   "answer": "כי כך אנחנו תמיד מרגישים שאנחנו צריכים את השם",
+   "options": [
+    "כי כך אנחנו תמיד מרגישים שאנחנו צריכים את השם",
+    "כי גשם טעים יותר ממי נהר",
+    "כי כך אין צורך לעבוד בשדה"
+   ],
+   "explain_he": "בארץ ישראל עיני השם תמיד בה. התלות בגשם מזכירה לנו שהכל ממנו, ולכן אנחנו מתפללים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו חכמינו על הרי ישראל שחוזרים לתת פרי?",
+   "answer": "שזה סימן ברור שהגאולה מתקרבת",
+   "options": [
+    "שזה סימן ברור שהגאולה מתקרבת",
+    "שזה קורה בכל ארץ אחרת",
+    "שזה סימן שצריך לעזוב את הארץ"
+   ],
+   "explain_he": "על נבואת יחזקאל אמרו חכמינו: אין לך סימן ברור יותר לגאולה, כשהארץ חוזרת לתת פרי לעם ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f7e11"
+  }
+ ]
+}

@@ -1,0 +1,338 @@
+{
+ "id": "k-sho-f6",
+ "unit_id": "k-sho-u3",
+ "course": "holocaust",
+ "title_he": "ושבו בנים לגבולם: התקומה והזיכרון",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "ושבו בנים לגבולם: התקומה והזיכרון",
+   "ref_he": "השואה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שורדים מחפשים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A crowded wooden noticeboard in a displaced persons camp in 1945 covered with hundreds of small handwritten notes, a few survivors in simple coats reading them quietly, soft hopeful morning light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨👩",
+     "say": [
+      "כשהמלחמה נגמרה, השורדים יצאו מהמחנות, מהיערות וממקומות המסתור. הם היו בודדים מאוד.",
+      "רבים מהם הגיעו למחנות עקורים. שם תלו פתקים על לוחות: \"מחפש את אחי\", \"מי ראה את משפחת כהן מלודז׳?\"",
+      "לפעמים התרחש נס, ואחים מצאו זה את זה. לרוב, התשובה הייתה שאיש לא נשאר.",
+      "שורדים שניסו לחזור לבתיהם בפולין גילו לעיתים קרובות שאחרים כבר גרים בהם, ושאין להם עוד מקום שם.",
+      "הם הבינו שאירופה כבר לא תהיה הבית שלהם, ורבים נשאו את עיניהם אל ארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s1b",
+     "title_he": "להחזיר את הילדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A grey-bearded rabbi in a black coat and hat kneeling to speak gently with a group of children in plain coats in the courtyard of an old European building after the war, autumn trees, soft warm light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👦👧",
+     "say": [
+      "אחת המשימות הראשונות אחרי המלחמה הייתה למצוא את הילדים. אלפי ילדים יהודים הוסתרו במשפחות ובמוסדות של לא יהודים, ורבים מהם לא ידעו שהם יהודים.",
+      "הרב הראשי לארץ ישראל, הרב יצחק אייזיק הלוי הרצוג, נסע לאירופה כדי לחפש ילדים כאלה ולהחזיר אותם לעם ישראל.",
+      "מסופר שבמקום אחד, כשלא ידעו מי מהילדים יהודי, קרא הרב בקול \"שמע ישראל\". כמה ילדים פרצו בבכי וקראו \"אמא!\" הם זכרו את המילים מהלילות שבהם אמא השכיבה אותם לישון.",
+      "הרב מפוניבז׳ הקים בבני ברק את \"בתי אבות\", בית ליתומים כאלה, שגדלו בו בתורה ובאהבה.",
+      "כל ילד שחזר היה ניצחון קטן: עוד נשמה יהודית שחזרה הביתה."
+     ],
+     "pasuk": {
+      "text": "שְׁמַע יִשְׂרָאֵל ה' אֱלֹקֵינוּ ה' אֶחָד",
+      "ref": "דברים ו, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "חתונה במחנה העקורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A simple wedding canopy made of a tallit held on four wooden poles in a displaced persons camp yard, a young modest bride in a long white dress and veil and a groom in a dark suit and hat, survivors gathered around smiling.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨👩👴👵",
+     "say": [
+      "ואז קרה משהו מופלא. דווקא אנשים שאיבדו הכול החליטו להתחיל מחדש.",
+      "במחנות העקורים נערכו מאות חתונות. החופה הייתה לפעמים טלית על ארבעה מקלות, ושמלת הכלה עברה מכלה לכלה.",
+      "הנביא ירמיהו ניבא: עוד ישמע קול ששון וקול שמחה, קול חתן וקול כלה. השורדים קיימו את הנבואה הזאת בחייהם.",
+      "מהמשפחות האלה נולדו ילדים, ומהם נכדים ונינים. רבים מהם יושבים היום בכיתות שלנו.",
+      "השורדים קראו לילדים שנולדו על שם ההורים, האחים והסבים שנרצחו. כך נשא כל ילד כזה עולם שלם."
+     ],
+     "pasuk": {
+      "text": "עוֹד יִשָּׁמַע... קוֹל שָׂשׂוֹן וְקוֹל שִׂמְחָה, קוֹל חָתָן וְקוֹל כַּלָּה",
+      "ref": "ירמיהו לג, י-יא"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בדרך לארץ ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: An old crowded ship at sea in the early morning, survivors in coats standing on the deck looking toward a faint coastline with mountains in the distance, gulls flying, the first sunrays on the water.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "שורדים רבים רצו דבר אחד: להגיע לארץ ישראל. אבל הבריטים, ששלטו בארץ, הגבילו מאוד את העלייה.",
+      "השורדים עלו על אוניות רעועות, ספינות מעפילים, ושטו לחופי הארץ. רבות מהן נתפסו, והנוסעים נשלחו למחנות בקפריסין.",
+      "אבל הם לא ויתרו. וכשקמה מדינת ישראל בשנת תש\"ח, נפתחו השערים, ועשרות אלפי שורדים עלו לארץ.",
+      "הנביא ירמיהו אמר: ושבו בנים לגבולם. אחרי החורבן הנורא, הבנים חזרו הביתה.",
+      "רבים מהם הקימו כאן משפחות גדולות, בנו בתים ונטעו עצים בארץ שאבותיהם רק חלמו עליה.",
+      "חלק מהשורדים שעלו לארץ נלחמו מיד במלחמת העצמאות, כדי להגן על הבית החדש."
+     ],
+     "pasuk": {
+      "text": "וְשָׁבוּ בָנִים לִגְבוּלָם",
+      "ref": "ירמיהו לא, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הישיבות קמות מחדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A large new stone yeshiva building on a hill in Bnei Brak in the 1950s under a bright blue sky, many young men with kippot and books climbing the steps, an elderly rabbi with a white beard watching from the doorway.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴👦👦",
+     "say": [
+      "הרב יוסף שלמה כהנמן, הרב מפוניבז׳, איבד את רוב משפחתו ואת תלמידיו בליטא. עוד בזמן המלחמה התחיל לבנות את ישיבת פוניבז׳ בבני ברק.",
+      "ישיבת מיר, שניצלה בשנגחאי, המשיכה בירושלים ובאמריקה. ישיבות וחצרות חסידים רבות שנחרבו קמו מחדש בארץ ישראל ובעולם.",
+      "היום לומדים בישיבות יותר תלמידים מאשר בכל הישיבות של אירופה לפני המלחמה.",
+      "הנאצים רצו לעקור את התורה מן העולם. אבל התורה חזרה, גדולה יותר.",
+      "גם בתי ספר של \"בית יעקב\" ותלמודי תורה קמו מחדש, וכך החינוך שנגדע באירופה המשיך לצמוח.",
+      "מי שנכנס היום לבית מדרש גדול בירושלים או בבני ברק, שומע את אותו זמזום של לימוד שנשמע פעם בישיבות של ליטא ופולין."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ישיבת פוניבז׳ בבני ברק היא היום אחת הישיבות הגדולות בעולם."
+     }
+    },
+    {
+     "id": "s4b",
+     "title_he": "אב לאלפים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A rabbi with a dark beard and a black hat standing among wooden barracks in a displaced persons camp in 1946, speaking warmly to a group of thin young men in caps, a small study hut behind them, gentle morning light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨👦👦",
+     "say": [
+      "הרב מקלויזנבורג, רבי יקותיאל יהודה הלברשטאם, איבד בשואה את אשתו ואת אחד עשר ילדיו. הוא עצמו עבר מחנות קשים.",
+      "כשהשתחרר, הוא לא הסתגר בצערו. במחנה העקורים הלך בין השורדים ועודד אותם, הקים מקוואות, תלמודי תורה וישיבות, ודאג לאוכל כשר.",
+      "מאוחר יותר עלה לארץ, והקים בנתניה שכונה שלמה, קריית צאנז, ובה גם בית חולים בשם לניאדו.",
+      "אדם שאיבד את כל ילדיו, הפך לאב לאלפים. זה כוחה של אמונה.",
+      "בית החולים שהקים מתנהל לפי ההלכה, ומטפל בכל שנה ברבבות חולים מכל חלקי העם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "סבא מספר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead. Saba: an elderly survivor with a white beard, a kippah and a kind smile, in a white shirt and dark trousers. Scene: saba sitting in an armchair in a bright Israeli living room on Shabbat afternoon, telling a story to a group of grandchildren with kippot and modest dresses gathered around him on the carpet, sunlight through the window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👦👧",
+     "say": [
+      "שורדים רבים לא דיברו שנים על מה שעבר עליהם. הכאב היה גדול מדי.",
+      "אבל כשהזדקנו, רבים מהם הבינו שחייבים לספר. הם סיפרו לנכדים, לתלמידים, ולמוזיאונים, כדי שהעולם לא ישכח.",
+      "עדויות של שורדים נאספות היום בארכיונים, כדי שגם הדורות הבאים, שלא יפגשו אותם, יוכלו לשמוע את קולם.",
+      "בתורה כתוב: זכור את אשר עשה לך עמלק. מצווה לזכור את מי שרצה להשמיד את עם ישראל.",
+      "אם יש לכם סבא או סבתא, או שכן זקן, ששרדו את התקופה, שאלו אותם בעדינות. כל סיפור כזה הוא אוצר.",
+      "ותזכרו: הם לא מספרים כדי שנפחד. הם מספרים כדי שנדע מאיפה באנו, ונבין כמה יקר מה שיש לנו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ימי הזיכרון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A quiet synagogue in the evening: a row of memorial candles burning on a windowsill, an open book of Mishnayot on a lectern, men and boys with kippot learning quietly, rain on the window glass.",
+     "move": "in",
+     "fx": "light",
+     "art": "🕊️",
+     "say": [
+      "איך זוכרים? הרבנות הראשית לישראל קבעה את צום עשרה בטבת כ\"יום הקדיש הכללי\".",
+      "ביום הזה אומרים קדיש ומדליקים נר לזכר כל מי שלא נודע יום מותם, ולומדים משניות לעילוי נשמתם.",
+      "מדינת ישראל קבעה גם את כ\"ז בניסן כיום הזיכרון לשואה. בבוקר נשמעת צפירה בכל הארץ, ובבתי הספר מדליקים נרות.",
+      "ובירושלים עומד מוסד יד ושם, ששמו לקוח מדברי הנביא ישעיהו: ונתתי להם בביתי ובחומותי יד ושם.",
+      "ביד ושם נאספים שמות הנרצחים, אחד אחד. עד היום נאספו מיליוני שמות, וכל שם כזה הוא נשמה.",
+      "רבים אומרים גם בתשעה באב קינות שנכתבו על השואה, וכך מחברים אותה לכל החורבנות של עם ישראל.",
+      "ובבתי כנסת רבים מדליקים בימים האלה שישה נרות, לזכר שישה מיליון."
+     ],
+     "pasuk": {
+      "text": "וְנָתַתִּי לָהֶם בְּבֵיתִי וּבְחוֹמֹתַי יָד וָשֵׁם",
+      "ref": "ישעיהו נו, ה"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "נוהגים ללמוד משניות לעילוי נשמה, כי האותיות של \"משנה\" הן האותיות של \"נשמה\"."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "נצח ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A long table set for Shabbat in a Jerusalem home at night with many empty wooden chairs at one end, each with a small lit candle in front of it, and at the other end a big family with children singing, warm golden light.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👨👩👦👧",
+     "say": [
+      "בואו נסתכל על השולחן הזה. בקצה אחד, כיסאות ריקים: לזכרם של מי שאינם.",
+      "ובקצה השני, משפחה גדולה ששרה זמירות שבת, בדיוק כמו בעיירה שבה התחלנו את הסרט הראשון.",
+      "זה הסיפור של השואה ושל מה שאחריה: חורבן נורא, ומסירות נפש, וחסד, וגם תקומה.",
+      "יש לנו חוב כלפיהם: לזכור אותם, ללמוד תורה לעילוי נשמתם, ולבנות בתים יהודיים חמים, כמו אלה שנחרבו.",
+      "האויבים רצו שלא יישאר זכר לעם ישראל. אבל נצח ישראל לא ישקר. אנחנו כאן, ואנחנו ממשיכים את מה שהם התחילו: תורה, מצוות ומשפחה.",
+      "ובכל פעם שאתם מדליקים נר שבת, לומדים דף גמרא או עוזרים לחבר, אתם מוכיחים שהאור שלהם לא כבה."
+     ],
+     "pasuk": {
+      "text": "וְגַם נֵצַח יִשְׂרָאֵל לֹא יְשַׁקֵּר",
+      "ref": "שמואל א טו, כט"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-sho-f6e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו השורדים במחנות העקורים כדי למצוא קרובים?",
+   "answer": "תלו פתקים על לוחות",
+   "options": [
+    "תלו פתקים על לוחות",
+    "שלחו הודעות בטלפון",
+    "נסעו לכל העולם",
+    "חיכו שהנאצים יודיעו להם"
+   ],
+   "explain_he": "השורדים תלו פתקים כמו \"מחפש את אחי\", ולפעמים אחים מצאו זה את זה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו נבואה של ירמיהו קיימו השורדים כשהתחתנו?",
+   "answer": "עוד ישמע קול ששון וקול שמחה, קול חתן וקול כלה",
+   "options": [
+    "עוד ישמע קול ששון וקול שמחה, קול חתן וקול כלה",
+    "לא תעמוד על דם רעך",
+    "זכור את אשר עשה לך עמלק",
+    "אלולי תורתך שעשועי"
+   ],
+   "explain_he": "במחנות העקורים נערכו מאות חתונות, ובכך קיימו השורדים את דברי ירמיהו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נסע הרב הרצוג לאירופה אחרי המלחמה?",
+   "answer": "כדי למצוא ילדים יהודים שהוסתרו ולהחזיר אותם לעם ישראל",
+   "options": [
+    "כדי למצוא ילדים יהודים שהוסתרו ולהחזיר אותם לעם ישראל",
+    "כדי לבקר במוזיאון",
+    "כדי לסחור",
+    "כדי לבנות שם בית כנסת חדש"
+   ],
+   "explain_he": "אלפי ילדים יהודים הוסתרו אצל לא יהודים, והרב הרצוג נסע לחפש אותם ולהחזירם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרב מקלויזנבורג אחרי שאיבד את משפחתו?",
+   "answer": "עודד את השורדים, הקים ישיבות ומקוואות, ובארץ הקים את קריית צאנז",
+   "options": [
+    "עודד את השורדים, הקים ישיבות ומקוואות, ובארץ הקים את קריית צאנז",
+    "הסתגר בביתו",
+    "עבר לגור בגרמניה",
+    "הפסיק להתפלל"
+   ],
+   "explain_he": "הרב מקלויזנבורג הפך לאב לאלפים, והקים בנתניה את קריית צאנז ובית החולים לניאדו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי התחיל לבנות את ישיבת פוניבז׳ בבני ברק?",
+   "answer": "הרב יוסף שלמה כהנמן",
+   "options": [
+    "הרב יוסף שלמה כהנמן",
+    "הרב וייסמנדל",
+    "הרב מאיר שפירא",
+    "הרבי מבלוז׳וב"
+   ],
+   "explain_he": "הרב מפוניבז׳, הרב כהנמן, התחיל לבנות את הישיבה בבני ברק עוד בזמן המלחמה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה יום קבעה הרבנות הראשית כ\"יום הקדיש הכללי\"?",
+   "answer": "עשרה בטבת",
+   "options": [
+    "עשרה בטבת",
+    "תשעה באב",
+    "ט\"ו בשבט",
+    "ל\"ג בעומר"
+   ],
+   "explain_he": "בעשרה בטבת אומרים קדיש לזכר מי שלא נודע יום מותם, ולומדים משניות לעילוי נשמתם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לומדים דווקא משניות לעילוי נשמה?",
+   "answer": "כי האותיות של \"משנה\" הן האותיות של \"נשמה\"",
+   "options": [
+    "כי האותיות של \"משנה\" הן האותיות של \"נשמה\"",
+    "כי המשניות קצרות",
+    "כי כך ציוו הנאצים",
+    "כי אין ספרים אחרים"
+   ],
+   "explain_he": "משנה ונשמה הן אותן אותיות, ולכן נוהגים ללמוד משניות לזכר הנפטרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מסמל השולחן בסוף הסרט?",
+   "answer": "זיכרון למי שאינם, ובצידו משפחה שממשיכה את התורה והחיים",
+   "options": [
+    "זיכרון למי שאינם, ובצידו משפחה שממשיכה את התורה והחיים",
+    "שולחן של מסעדה",
+    "שאין צורך לזכור",
+    "שכולם עזבו את הבית"
+   ],
+   "explain_he": "הכיסאות הריקים מזכירים את מי שאינם, והמשפחה השרה מראה שעם ישראל ממשיך: נצח ישראל לא ישקר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f6e9"
+  }
+ ]
+}

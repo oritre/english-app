@@ -1,0 +1,558 @@
+{
+ "id": "k-cal-f2",
+ "unit_id": "k-cal-u1",
+ "course": "calendar",
+ "title_he": "הירח וראש חודש",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "הירח וראש חודש",
+   "ref_he": "לוח השנה העברי",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הירח משתנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Four small windows of the same night sky over Jerusalem rooftops, each showing the moon in a different shape: a thin crescent, a half moon, a full moon and a waning moon.",
+     "move": "right",
+     "fx": "night",
+     "art": "🌙",
+     "say": [
+      "הסתכלתם פעם על הירח, כמה לילות ברציפות? בואו ננסה.",
+      "יום אחד הוא דק, כמו ציפורן. אחרי כמה ימים, הוא חצי עיגול. ואחרי שבועיים, הוא עגול ומלא, ומאיר את כל הלילה.",
+      "ואז הוא קטן שוב, לאט לאט, עד שהוא נעלם לגמרי. ואחרי יום או יומיים, הוא חוזר, דק וחדש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "חודש מתחדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The children lie on a blanket on a hilltop at night pointing up at a thin new crescent moon low in the sky, stars all around.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👦👧🌙",
+     "say": [
+      "כל הסיבוב הזה, מירח חדש ועד ירח חדש, לוקח בערך עשרים ותשעה ימים וחצי. וזה החודש העברי!",
+      "המילה ״חודש״ באה מהמילה ״חדש״, כי הירח מתחדש.",
+      "וכשהירח מלא ועגול, אנחנו כבר באמצע החודש. לכן הרבה חגים, כמו פסח וסוכות, חלים בחמישה עשר בחודש, בלילה של ירח מלא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "המצווה הראשונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Ancient Egypt at night: Moshe and Aharon, elderly men with long beards in simple robes, stand outside looking up at the new moon, a soft light from above shining on them.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴👴🌙",
+     "say": [
+      "כשבני ישראל עוד היו במצרים, השם הראה למשה את הירח החדש, ואמר: ״החודש הזה לכם ראש חודשים״.",
+      "רש״י אומר: זו המצווה הראשונה שקיבלו בני ישראל, כעם. עוד לפני שיצאו ממצרים!",
+      "עבדים לא יכולים להחליט על הזמן שלהם. ועם חופשי, מקבל את הזמן שלו לידיים."
+     ],
+     "pasuk": {
+      "text": "הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים",
+      "ref": "שמות יב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "העדים בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: Ancient Jerusalem at dawn: two travelers in dusty robes and head coverings hurry through a stone gate into a courtyard where elderly sages sit in a half circle; one sage holds a small tablet showing moon shapes.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨👨👴",
+     "say": [
+      "פעם, בזמן הסנהדרין, לא היה לוח כתוב מראש. אנשים הסתכלו לשמים.",
+      "מי שראה את הירח החדש, הדק, הלך מהר לירושלים, ובא לפני בית הדין: ״ראינו את הירח!״",
+      "היה צריך שני עדים. ובירושלים קיבלו אותם בכבוד, ואפילו הכינו להם סעודות גדולות, כדי שירצו לבוא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "משואות על ההרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Night: a chain of small torch fires burning on distant mountaintops one after another across the dark land, a man on the nearest hill waving a long torch back and forth.",
+     "move": "left",
+     "fx": "night",
+     "art": "🔥",
+     "say": [
+      "ואיך ידעו כל היהודים, רחוק מירושלים, שהתחיל חודש? לא היו טלפונים, ולא רדיו.",
+      "הדליקו משואות: אש גדולה, על מוטות ארוכים, בראשי ההרים. הניפו אותן למעלה ולמטה, ימינה ושמאלה.",
+      "מי שראה מההר הבא, הדליק גם הוא. וכך, מהר להר, עד שכל הארץ ידעה, ואפילו היהודים בבבל."
+     ],
+     "pasuk": {
+      "text": "וּמַשִּׂיאִין מִשּׁוּאוֹת",
+      "ref": "משנה ראש השנה ב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "אשר תקראו אותם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: Ancient Jerusalem: an elderly sage with a walking staff and a small money pouch at his belt arrives at the courtyard of the head of the court, who stands up and greets him warmly, kissing his head; other sages watch in respect.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴👴",
+     "say": [
+      "והנה דבר מפליא: השם נתן לחכמי בית הדין לקבוע מתי יתחיל החודש.",
+      "בתורה כתוב על החגים: ״אשר תקראו אותם״, כלומר: אתם קובעים אותם.",
+      "וכשבית הדין קבע, כל עם ישראל הלך אחריו, וגם בשמים קיבלו את ההחלטה."
+     ],
+     "pasuk": {
+      "text": "אֵלֶּה מוֹעֲדֵי ה׳ מִקְרָאֵי קֹדֶשׁ אֲשֶׁר תִּקְרְאוּ אֹתָם בְּמוֹעֲדָם",
+      "ref": "ויקרא כג, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הלוח של הלל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: An ancient study hall lit by oil lamps: an elderly sage writes careful calculations on a scroll, a diagram of moon and sun on the table, students watching respectfully.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴📜",
+     "say": [
+      "היום אין סנהדרין, ואין עדים שרצים לירושלים. אז איך אנחנו יודעים מתי ראש חודש?",
+      "לפני יותר מאלף ושש מאות שנה, הלל הנשיא, מגדולי החכמים, סידר לנו לוח קבוע, לפי חשבון מדויק.",
+      "בזכותו אנחנו יודעים, כבר היום, מתי יהיה כל חג, גם בעוד שנים רבות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ראש חודש היום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Today: a synagogue on a weekday morning, a Torah scroll being lifted; then on Shabbat the cantor holds the Torah and announces the new month while the children listen.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨👦",
+     "say": [
+      "ראש חודש הוא יום קצת חגיגי. אומרים בתפילה ״יעלה ויבוא״, אומרים הלל, וקוראים בתורה.",
+      "ומוסיפים תפילת מוסף, זכר לקרבן המיוחד שהביאו בבית המקדש בראש חודש.",
+      "ובשבת שלפניו, בבית הכנסת, מכריזים מתי יהיה ראש החודש, ומברכים את החודש החדש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "ברכת הלבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Night: a group of men and boys in kippot stand outside a synagogue under a bright growing moon, holding siddurim, looking up with joy.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨👦🌙",
+     "say": [
+      "ובכל חודש, כשהירח הולך וגדל, יוצאים בלילה החוצה, ומברכים עליו: ״ברכת הלבנה״.",
+      "מסתכלים על הירח, אומרים את הברכה, ושרים ורוקדים.",
+      "עם ישראל דומה לירח: לפעמים הוא קטן, אבל תמיד חוזר, מתחדש ומאיר."
+     ],
+     "pasuk": {
+      "text": "וְלַלְּבָנָה אָמַר שֶׁתִּתְחַדֵּשׁ... שֶׁהֵם עֲתִידִים לְהִתְחַדֵּשׁ כְּמוֹתָהּ",
+      "ref": "ברכת הלבנה, סנהדרין מב, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-cal-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "הירח וראש חודש",
+   "ref_he": "לוח השנה העברי",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הירח משתנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Four small windows of the same night sky over Jerusalem rooftops, each showing the moon in a different shape: a thin crescent, a half moon, a full moon and a waning moon.",
+     "move": "right",
+     "fx": "night",
+     "art": "🌙",
+     "say": [
+      "הסתכלתם פעם על הירח, כמה לילות ברציפות? בואו ננסה.",
+      "יום אחד הוא דק, כמו ציפורן. אחרי כמה ימים, הוא חצי עיגול. ואחרי שבועיים, הוא עגול ומלא, ומאיר את כל הלילה.",
+      "ואז הוא קטן שוב, לאט לאט, עד שהוא נעלם לגמרי. ואחרי יום או יומיים, הוא חוזר, דק וחדש.",
+      "הירח לא באמת משנה את צורתו. אין לו אור משלו. השמש מאירה עליו, ואנחנו רואים בכל לילה חלק אחר מהצד המואר שלו.",
+      "כשהירח נמצא בין כדור הארץ לשמש, הצד המואר שלו פונה אל השמש, ואנחנו כמעט לא רואים אותו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "חודש מתחדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The children lie on a blanket on a hilltop at night pointing up at a thin new crescent moon low in the sky, stars all around.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👦👧🌙",
+     "say": [
+      "כל הסיבוב הזה, מירח חדש ועד ירח חדש, לוקח בערך עשרים ותשעה ימים וחצי. וזה החודש העברי!",
+      "המילה ״חודש״ באה מהמילה ״חדש״, כי הירח מתחדש.",
+      "וכשהירח מלא ועגול, אנחנו כבר באמצע החודש. לכן הרבה חגים, כמו פסח וסוכות, חלים בחמישה עשר בחודש, בלילה של ירח מלא.",
+      "ומה עושים עם חצי יום? אי אפשר לחלק יום לשניים. לכן יש חודשים של עשרים ותשעה ימים, ויש של שלושים.",
+      "חודש של עשרים ותשעה ימים נקרא ״חסר״, וחודש של שלושים נקרא ״מלא״. וכך, בממוצע, הם מתאימים לירח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "המצווה הראשונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Ancient Egypt at night: Moshe and Aharon, elderly men with long beards in simple robes, stand outside looking up at the new moon, a soft light from above shining on them.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴👴🌙",
+     "say": [
+      "כשבני ישראל עוד היו במצרים, השם הראה למשה את הירח החדש, ואמר: ״החודש הזה לכם ראש חודשים״.",
+      "רש״י אומר: זו המצווה הראשונה שקיבלו בני ישראל, כעם. עוד לפני שיצאו ממצרים!",
+      "עבדים לא יכולים להחליט על הזמן שלהם. ועם חופשי, מקבל את הזמן שלו לידיים.",
+      "המצרים עבדו לשמש. ועם ישראל קיבל מצווה הפוכה: לא לעבוד את הירח, אלא לספור לפיו את הזמן, את המועדים של השם.",
+      "כך כל חודש מתחיל מחדש, כמו תזכורת: גם אנחנו יכולים להתחדש."
+     ],
+     "pasuk": {
+      "text": "הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים",
+      "ref": "שמות יב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "העדים בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: Ancient Jerusalem at dawn: two travelers in dusty robes and head coverings hurry through a stone gate into a courtyard where elderly sages sit in a half circle; one sage holds a small tablet showing moon shapes.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨👨👴",
+     "say": [
+      "פעם, בזמן הסנהדרין, לא היה לוח כתוב מראש. אנשים הסתכלו לשמים.",
+      "מי שראה את הירח החדש, הדק, הלך מהר לירושלים, ובא לפני בית הדין: ״ראינו את הירח!״",
+      "היה צריך שני עדים. ובירושלים קיבלו אותם בכבוד, ואפילו הכינו להם סעודות גדולות, כדי שירצו לבוא.",
+      "הדיינים בדקו את העדים היטב: איפה ראיתם? כמה גבוה הוא היה? לאיזה צד הוא פנה?",
+      "ואם העדות הייתה נכונה, ראש בית הדין אמר: ״מקודש!״ וכל העם ענה אחריו: ״מקודש, מקודש!״"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לרבן גמליאל היו ציורים של צורות הירח על לוח. בעזרתם בדק את העדים: ״כזה ראיתם, או כזה?״"
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "משואות על ההרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Night: a chain of small torch fires burning on distant mountaintops one after another across the dark land, a man on the nearest hill waving a long torch back and forth.",
+     "move": "left",
+     "fx": "night",
+     "art": "🔥",
+     "say": [
+      "ואיך ידעו כל היהודים, רחוק מירושלים, שהתחיל חודש? לא היו טלפונים, ולא רדיו.",
+      "הדליקו משואות: אש גדולה, על מוטות ארוכים, בראשי ההרים. הניפו אותן למעלה ולמטה, ימינה ושמאלה.",
+      "מי שראה מההר הבא, הדליק גם הוא. וכך, מהר להר, עד שכל הארץ ידעה, ואפילו היהודים בבבל.",
+      "המשואה הראשונה הודלקה על הר הזיתים, מול ירושלים. מאוחר יותר, כשהיו מי שהפריעו והדליקו משואות בזמן הלא נכון, שלחו במקומן שליחים."
+     ],
+     "pasuk": {
+      "text": "וּמַשִּׂיאִין מִשּׁוּאוֹת",
+      "ref": "משנה ראש השנה ב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "אשר תקראו אותם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: Ancient Jerusalem: an elderly sage with a walking staff and a small money pouch at his belt arrives at the courtyard of the head of the court, who stands up and greets him warmly, kissing his head; other sages watch in respect.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴👴",
+     "say": [
+      "והנה דבר מפליא: השם נתן לחכמי בית הדין לקבוע מתי יתחיל החודש.",
+      "בתורה כתוב על החגים: ״אשר תקראו אותם״, כלומר: אתם קובעים אותם.",
+      "וכשבית הדין קבע, כל עם ישראל הלך אחריו, וגם בשמים קיבלו את ההחלטה.",
+      "המשנה מספרת: פעם רבי יהושע חשב שבית הדין טעה בחשבון. רבן גמליאל, הנשיא, ביקש ממנו לבוא אליו עם המקל והכסף שלו, ביום שלפי החשבון של רבי יהושע היה יום כיפור.",
+      "רבי יהושע בא. ורבן גמליאל קם, נשק לו על ראשו ואמר: ״בוא בשלום, רבי ותלמידי״.",
+      "כך שמרו על אחדות: לוח אחד, ועם אחד שחוגג יחד."
+     ],
+     "pasuk": {
+      "text": "אֵלֶּה מוֹעֲדֵי ה׳ מִקְרָאֵי קֹדֶשׁ אֲשֶׁר תִּקְרְאוּ אֹתָם בְּמוֹעֲדָם",
+      "ref": "ויקרא כג, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הלוח של הלל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: An ancient study hall lit by oil lamps: an elderly sage writes careful calculations on a scroll, a diagram of moon and sun on the table, students watching respectfully.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴📜",
+     "say": [
+      "היום אין סנהדרין, ואין עדים שרצים לירושלים. אז איך אנחנו יודעים מתי ראש חודש?",
+      "לפני יותר מאלף ושש מאות שנה, הלל הנשיא, מגדולי החכמים, סידר לנו לוח קבוע, לפי חשבון מדויק.",
+      "בזכותו אנחנו יודעים, כבר היום, מתי יהיה כל חג, גם בעוד שנים רבות.",
+      "הוא עשה זאת כי ראה שהגלות מתפזרת, והסנהדרין לא תוכל להמשיך לקדש את החודש. הלל דאג שעם ישראל לא יאבד את הזמנים שלו.",
+      "והחשבון שלו עובד עד היום. בכל בית כנסת בעולם חוגגים את החגים, לפי אותו לוח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ראש חודש היום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Today: a synagogue on a weekday morning, a Torah scroll being lifted; then on Shabbat the cantor holds the Torah and announces the new month while the children listen.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨👦",
+     "say": [
+      "ראש חודש הוא יום קצת חגיגי. אומרים בתפילה ״יעלה ויבוא״, אומרים הלל, וקוראים בתורה.",
+      "ומוסיפים תפילת מוסף, זכר לקרבן המיוחד שהביאו בבית המקדש בראש חודש.",
+      "ובשבת שלפניו, בבית הכנסת, מכריזים מתי יהיה ראש החודש, ומברכים את החודש החדש.",
+      "לפעמים ראש חודש הוא שני ימים. כשבחודש הקודם יש שלושים יום, גם היום השלושים שלו וגם היום הראשון של החודש החדש הם ראש חודש.",
+      "וכשבחודש הקודם יש רק עשרים ותשעה ימים, ראש חודש הוא יום אחד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "ברכת הלבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Night: a group of men and boys in kippot stand outside a synagogue under a bright growing moon, holding siddurim, looking up with joy.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨👦🌙",
+     "say": [
+      "ובכל חודש, כשהירח הולך וגדל, יוצאים בלילה החוצה, ומברכים עליו: ״ברכת הלבנה״.",
+      "מסתכלים על הירח, אומרים את הברכה, ושרים ורוקדים.",
+      "עם ישראל דומה לירח: לפעמים הוא קטן, אבל תמיד חוזר, מתחדש ומאיר.",
+      "כך כתוב בברכה עצמה: עם ישראל עתיד להתחדש, כמו הירח."
+     ],
+     "pasuk": {
+      "text": "וְלַלְּבָנָה אָמַר שֶׁתִּתְחַדֵּשׁ... שֶׁהֵם עֲתִידִים לְהִתְחַדֵּשׁ כְּמוֹתָהּ",
+      "ref": "ברכת הלבנה, סנהדרין מב, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-cal-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן לוקח לירח לחזור להיות ירח חדש?",
+   "answer": "בערך עשרים ותשעה ימים וחצי",
+   "options": [
+    "בערך עשרים ותשעה ימים וחצי",
+    "שבעה ימים",
+    "שנה שלמה"
+   ],
+   "explain_he": "זה החודש העברי: בערך 29 וחצי ימים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן לוקח לירח לחזור להיות ירח חדש?",
+   "answer": "בערך עשרים ותשעה ימים וחצי",
+   "options": [
+    "בערך עשרים ותשעה ימים וחצי",
+    "שבעה ימים",
+    "שנה שלמה"
+   ],
+   "explain_he": "זה החודש העברי: בערך 29 וחצי ימים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה באה המילה ״חודש״?",
+   "answer": "מהמילה ״חדש״, כי הירח מתחדש",
+   "options": [
+    "מהמילה ״חדש״, כי הירח מתחדש",
+    "מהמילה ״חד״",
+    "משם של מלך"
+   ],
+   "explain_he": "בכל חודש הירח מתחדש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה באה המילה ״חודש״?",
+   "answer": "מהמילה ״חדש״, כי הירח מתחדש",
+   "options": [
+    "מהמילה ״חדש״, כי הירח מתחדש",
+    "מהמילה ״חד״",
+    "משם של מלך"
+   ],
+   "explain_he": "בכל חודש הירח מתחדש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה מי שראה את הירח החדש, בזמן הסנהדרין?",
+   "answer": "הלך מהר לבית הדין בירושלים להעיד",
+   "options": [
+    "הלך מהר לבית הדין בירושלים להעיד",
+    "הדליק נרות שבת",
+    "כתב זאת בלוח בבית"
+   ],
+   "explain_he": "בית הדין שמע את העדים וקידש את החודש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה מי שראה את הירח החדש, בזמן הסנהדרין?",
+   "answer": "הלך מהר לבית הדין בירושלים להעיד",
+   "options": [
+    "הלך מהר לבית הדין בירושלים להעיד",
+    "הדליק נרות שבת",
+    "כתב זאת בלוח בבית"
+   ],
+   "explain_he": "בית הדין שמע את העדים וקידש את החודש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ידעו רחוק מירושלים שהתחיל חודש?",
+   "answer": "הדליקו משואות על ראשי ההרים",
+   "options": [
+    "הדליקו משואות על ראשי ההרים",
+    "שמעו ברדיו",
+    "ראו שלט גדול"
+   ],
+   "explain_he": "האש עברה מהר להר, עד שכל הארץ ידעה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ידעו רחוק מירושלים שהתחיל חודש?",
+   "answer": "הדליקו משואות על ראשי ההרים",
+   "options": [
+    "הדליקו משואות על ראשי ההרים",
+    "שמעו ברדיו",
+    "ראו שלט גדול"
+   ],
+   "explain_he": "האש עברה מהר להר, עד שכל הארץ ידעה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי סידר לנו לוח קבוע, לפי חשבון?",
+   "answer": "הלל הנשיא",
+   "options": [
+    "הלל הנשיא",
+    "משה רבנו",
+    "דוד המלך"
+   ],
+   "explain_he": "הלל הנשיא סידר את הלוח לפני יותר מ־1,600 שנה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי סידר לנו לוח קבוע, לפי חשבון?",
+   "answer": "הלל הנשיא",
+   "options": [
+    "הלל הנשיא",
+    "משה רבנו",
+    "דוד המלך"
+   ],
+   "explain_he": "הלל הנשיא סידר את הלוח לפני יותר מ־1,600 שנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר ראש בית הדין כשהעדות הייתה נכונה?",
+   "answer": "״מקודש!״",
+   "options": [
+    "״מקודש!״",
+    "״שבת שלום!״",
+    "״חג שמח!״"
+   ],
+   "explain_he": "וכל העם ענה אחריו: ״מקודש, מקודש!״",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הירח נראה כל לילה בצורה אחרת?",
+   "answer": "כי השמש מאירה עליו, ואנחנו רואים כל פעם חלק אחר מהצד המואר",
+   "options": [
+    "כי השמש מאירה עליו, ואנחנו רואים כל פעם חלק אחר מהצד המואר",
+    "כי הוא באמת גדל וקטן",
+    "כי העננים מסתירים אותו"
+   ],
+   "explain_he": "לירח אין אור משלו. הוא מחזיר את אור השמש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי ראש חודש נמשך שני ימים?",
+   "answer": "כשבחודש הקודם יש שלושים יום",
+   "options": [
+    "כשבחודש הקודם יש שלושים יום",
+    "כשיורד גשם",
+    "כשהחודש מתחיל בשבת"
+   ],
+   "explain_he": "אז היום השלושים והיום הראשון של החודש החדש הם ראש חודש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f2e15"
+  }
+ ]
+}

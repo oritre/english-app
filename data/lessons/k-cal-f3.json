@@ -1,0 +1,551 @@
+{
+ "id": "k-cal-f3",
+ "unit_id": "k-cal-u1",
+ "course": "calendar",
+ "title_he": "שנים עשר החודשים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "שנים עשר החודשים",
+   "ref_he": "לוח השנה העברי",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "גלגל החודשים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A large round wooden wheel painted with twelve sections, each showing a season scene: blossoms, wheat, grapes, olives, rain, snow on hills, almond blossoms; the children turn it with wonder.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "למדנו על הירח, ועל החודש. ועכשיו, נכיר את כל החודשים.",
+      "בשנה העברית יש שנים עשר חודשים. לכל אחד יש שם, וכל אחד מביא איתו משהו מיוחד: חג, עונה, או מנהג.",
+      "בואו נכיר אותם, אחד אחרי השני, כמו גלגל שמסתובב.",
+      "כמו שהשבוע מסתובב סביב השבת, כך השנה מסתובבת סביב החגים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "החודש הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Springtime in Israel: blooming fields, green barley and the children cleaning for Pesach, a basket of matzot on the table.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌸",
+     "say": [
+      "בתורה, לחודשים אין שמות. יש להם מספרים: החודש הראשון, החודש השני, החודש השביעי.",
+      "והחודש הראשון הוא ניסן: החודש שבו יצאנו ממצרים, באביב.",
+      "כך כתוב: ״ראשון הוא לכם, לחודשי השנה״. השם בחר את חודש החירות, להיות הראשון.",
+      "וניסן נקרא גם ״חודש האביב״, כי בו הכול פורח ומתחדש."
+     ],
+     "pasuk": {
+      "text": "רִאשׁוֹן הוּא לָכֶם לְחָדְשֵׁי הַשָּׁנָה",
+      "ref": "שמות יב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "מניסן עד אלול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A row of painted scenes from spring to late summer: Pesach seder, a field of wheat at Shavuot, a hot summer day with an old man sitting sadly near the Western Wall, and a shofar in the month of Elul.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌸☀️",
+     "say": [
+      "נתחיל: ניסן, באביב, עם חג הפסח. אחריו אייר, חודש של ספירת העומר. ואחריו סיוון, עם חג השבועות.",
+      "ואז הקיץ: תמוז ואב. בהם מתאבלים על חורבן בית המקדש.",
+      "ואלול: החודש האחרון לפני ראש השנה. בו מתכוננים לימים הנוראים, ותוקעים בשופר.",
+      "ובאייר יש גם את ל״ג בעומר, יום של שמחה ומדורות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מתשרי עד אדר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A row of painted scenes from autumn to late winter: a sukkah in Tishrei, rain clouds over plowed fields in Cheshvan, a menorah in Kislev, almond trees blossoming in Shevat, and a Purim scene with children in costumes in Adar.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🍂❄️",
+     "say": [
+      "ואז מגיע תשרי, עם ראש השנה, יום כיפור, סוכות ושמחת תורה. אחריו חשוון: חודש בלי חגים בכלל.",
+      "כסלו מביא את חנוכה. ואחריו טבת, ושבט, עם ט״ו בשבט, ראש השנה לאילנות.",
+      "ולבסוף, אדר: החודש השמח של פורים. חז״ל אומרים: ״משנכנס אדר, מרבים בשמחה״."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז״ל אומרים: ״משנכנס אדר, מרבים בשמחה״."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "כמה ראשי שנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: An ancient courtyard where an elderly sage teaches children seated on mats; behind them a young almond tree blossoms and a shofar rests on a stone.",
+     "move": "in",
+     "fx": null,
+     "art": "👴👦",
+     "say": [
+      "רגע! אם ניסן הוא החודש הראשון, למה ראש השנה הוא בתשרי, החודש השביעי?",
+      "כי יש כמה ״ראשי שנים״. ניסן הוא הראשון לחודשים.",
+      "ותשרי הוא תחילת השנה, כשסופרים את השנים. בו גם נברא האדם הראשון, ובו השם דן את כל העולם.",
+      "לכן בתפילות ראש השנה אומרים: ״היום הרת עולם״, כאילו העולם נולד מחדש."
+     ],
+     "pasuk": {
+      "text": "אַרְבָּעָה רָאשֵׁי שָׁנִים הֵם",
+      "ref": "משנה ראש השנה א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "לזכור את הסדר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The children sit in a circle in a cozy living room clapping and singing, twelve colorful paper circles laid in a ring on the carpet.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "איך זוכרים את הסדר? אפשר לשיר! בואו נשיר יחד:",
+      "ניסן, אייר, סיוון, תמוז, אב, אלול.",
+      "תשרי, חשוון, כסלו, טבת, שבט, אדר.",
+      "שנים עשר חודשים, כמו מספר שבטי ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "משחק החודשים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The children sit at a table with an open Chumash between them, counting on their fingers excitedly; on the wall a ring of twelve colorful paper circles, the seventh one glowing.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "בואו נשחק משחק. בתורה כתוב: ״בחודש השביעי, באחד לחודש״. איזה חודש זה? בואו נספור מניסן.",
+      "ניסן אחד, אייר שתיים, סיוון שלוש, תמוז ארבע, אב חמש, אלול שש, ו... תשרי, שבע!",
+      "אז ״באחד לחודש השביעי״ הוא א׳ בתשרי: ראש השנה. פתרתם!"
+     ],
+     "pasuk": {
+      "text": "בַּחֹדֶשׁ הַשְּׁבִיעִי בְּאֶחָד לַחֹדֶשׁ יִהְיֶה לָכֶם שַׁבָּתוֹן",
+      "ref": "ויקרא כג, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "שאלה לשיעור הבא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Split sky over the Judean hills: on one side the bright sun of day, on the other the moon and stars of night, meeting in the middle.",
+     "move": "up",
+     "fx": "stars",
+     "art": "☀️🌙",
+     "say": [
+      "כל חודש מגיע בזמן שלו: ניסן תמיד באביב, ותשרי תמיד בסתיו.",
+      "אבל יש כאן חידה. החודשים הולכים לפי הירח, והעונות הולכות לפי השמש. והירח והשמש, לא מסתדרים ביניהם!",
+      "אז איך זה עובד? את הסוד הזה נגלה בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "שנים עשר החודשים",
+   "ref_he": "לוח השנה העברי",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "גלגל החודשים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: A large round wooden wheel painted with twelve sections, each showing a season scene: blossoms, wheat, grapes, olives, rain, snow on hills, almond blossoms; the children turn it with wonder.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "למדנו על הירח, ועל החודש. ועכשיו, נכיר את כל החודשים.",
+      "בשנה העברית יש שנים עשר חודשים. לכל אחד יש שם, וכל אחד מביא איתו משהו מיוחד: חג, עונה, או מנהג.",
+      "בואו נכיר אותם, אחד אחרי השני, כמו גלגל שמסתובב.",
+      "כמו שהשבוע מסתובב סביב השבת, כך השנה מסתובבת סביב החגים.",
+      "ונגלה גם שאלה מעניינת: למה ראש השנה לא בחודש הראשון?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "החודש הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Springtime in Israel: blooming fields, green barley and the children cleaning for Pesach, a basket of matzot on the table.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌸",
+     "say": [
+      "בתורה, לחודשים אין שמות. יש להם מספרים: החודש הראשון, החודש השני, החודש השביעי.",
+      "והחודש הראשון הוא ניסן: החודש שבו יצאנו ממצרים, באביב.",
+      "כך כתוב: ״ראשון הוא לכם, לחודשי השנה״. השם בחר את חודש החירות, להיות הראשון.",
+      "וניסן נקרא גם ״חודש האביב״, כי בו הכול פורח ומתחדש.",
+      "הרמב״ן מסביר: כשסופרים מניסן, זוכרים כל פעם את יציאת מצרים.",
+      "כשהתורה אומרת ״החודש השלישי״, הכוונה: החודש השלישי מאז שיצאנו לחירות. כך, בכל פעם שמזכירים חודש, מזכירים את הנס."
+     ],
+     "pasuk": {
+      "text": "רִאשׁוֹן הוּא לָכֶם לְחָדְשֵׁי הַשָּׁנָה",
+      "ref": "שמות יב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שמות מבבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Ancient times: Jews in simple robes and head coverings walk with donkeys and bundles from the east toward the hills of Jerusalem, returning from the Babylonian exile at dawn.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🚶🚶",
+     "say": [
+      "ומאיפה השמות שאנחנו אומרים היום, כמו ניסן ותשרי? הם הגיעו איתנו מגלות בבל, כשחזרנו לארץ בימי שיבת ציון.",
+      "כך אומרים חז״ל בתלמוד הירושלמי: ״שמות החודשים עלו עמהם מבבל״.",
+      "ובאמת, בספרים שנכתבו באותה תקופה, כמו מגילת אסתר וספר נחמיה, כבר מופיעים השמות ניסן, אדר וכסלו.",
+      "הרמב״ן מוסיף: גם השמות האלה מזכירים לנו, שהשם הוציא אותנו מהגלות ההיא, והחזיר אותנו לארץ."
+     ],
+     "pasuk": {
+      "text": "שְׁמוֹת הֶחֳדָשִׁים עָלוּ עִמָּהֶם מִבָּבֶל",
+      "ref": "ירושלמי ראש השנה א, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "מניסן עד אלול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A row of painted scenes from spring to late summer: Pesach seder, a field of wheat at Shavuot, a hot summer day with an old man sitting sadly near the Western Wall, and a shofar in the month of Elul.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌸☀️",
+     "say": [
+      "נתחיל: ניסן, באביב, עם חג הפסח. אחריו אייר, חודש של ספירת העומר. ואחריו סיוון, עם חג השבועות.",
+      "ואז הקיץ: תמוז ואב. בהם מתאבלים על חורבן בית המקדש.",
+      "ואלול: החודש האחרון לפני ראש השנה. בו מתכוננים לימים הנוראים, ותוקעים בשופר.",
+      "ובאייר יש גם את ל״ג בעומר, יום של שמחה ומדורות.",
+      "בתמוז ובאב זוכרים את הצער, אבל מחכים גם לנחמה.",
+      "ויש אומרים שאלול הוא ראשי התיבות של הפסוק ״אני לדודי ודודי לי״: חודש שבו מתקרבים להשם באהבה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מתשרי עד אדר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A row of painted scenes from autumn to late winter: a sukkah in Tishrei, rain clouds over plowed fields in Cheshvan, a menorah in Kislev, almond trees blossoming in Shevat, and a Purim scene with children in costumes in Adar.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🍂❄️",
+     "say": [
+      "ואז מגיע תשרי, עם ראש השנה, יום כיפור, סוכות ושמחת תורה. אחריו חשוון: חודש בלי חגים בכלל.",
+      "כסלו מביא את חנוכה. ואחריו טבת, ושבט, עם ט״ו בשבט, ראש השנה לאילנות.",
+      "ולבסוף, אדר: החודש השמח של פורים. חז״ל אומרים: ״משנכנס אדר, מרבים בשמחה״.",
+      "בחשוון, בכסלו ובטבת יורדים הגשמים. בשבט פורחת השקדייה. כל חודש, וצבע משלו.",
+      "ולחשוון קוראים לפעמים ״מר חשוון״. יש אומרים: כי אין בו אף חג, ויש אומרים: בגלל ה״מר״, הגשם, שיורד בו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז״ל אומרים: ״משנכנס אדר, מרבים בשמחה״."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "כמה ראשי שנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: An ancient courtyard where an elderly sage teaches children seated on mats; behind them a young almond tree blossoms and a shofar rests on a stone.",
+     "move": "in",
+     "fx": null,
+     "art": "👴👦",
+     "say": [
+      "רגע! אם ניסן הוא החודש הראשון, למה ראש השנה הוא בתשרי, החודש השביעי?",
+      "כי יש כמה ״ראשי שנים״. ניסן הוא הראשון לחודשים.",
+      "ותשרי הוא תחילת השנה, כשסופרים את השנים. בו גם נברא האדם הראשון, ובו השם דן את כל העולם.",
+      "לכן בתפילות ראש השנה אומרים: ״היום הרת עולם״, כאילו העולם נולד מחדש.",
+      "המשנה מונה ארבעה ראשי שנים. אחד מהם הוא ט״ו בשבט, ראש השנה לאילנות.",
+      "ממנו סופרים את השנים של העצים, למשל למצוות ערלה ולמעשרות. בית הלל קבעו אותו בחמישה עשר בשבט."
+     ],
+     "pasuk": {
+      "text": "אַרְבָּעָה רָאשֵׁי שָׁנִים הֵם",
+      "ref": "משנה ראש השנה א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "לזכור את הסדר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The children sit in a circle in a cozy living room clapping and singing, twelve colorful paper circles laid in a ring on the carpet.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "איך זוכרים את הסדר? אפשר לשיר! בואו נשיר יחד:",
+      "ניסן, אייר, סיוון, תמוז, אב, אלול.",
+      "תשרי, חשוון, כסלו, טבת, שבט, אדר.",
+      "שנים עשר חודשים, כמו מספר שבטי ישראל.",
+      "נסו לשיר את זה פעמיים, ואחר כך גם מהסוף להתחלה! ונסו לומר: באיזה חודש נולדתם?",
+      "ושימו לב: אחרי אדר חוזרים לניסן, וחוזר חלילה. השנה היא מעגל, ולא קו ישר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "משחק החודשים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The children sit at a table with an open Chumash between them, counting on their fingers excitedly; on the wall a ring of twelve colorful paper circles, the seventh one glowing.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👦👧",
+     "say": [
+      "בואו נשחק משחק. בתורה כתוב: ״בחודש השביעי, באחד לחודש״. איזה חודש זה? בואו נספור מניסן.",
+      "ניסן אחד, אייר שתיים, סיוון שלוש, תמוז ארבע, אב חמש, אלול שש, ו... תשרי, שבע!",
+      "אז ״באחד לחודש השביעי״ הוא א׳ בתשרי: ראש השנה. פתרתם!",
+      "ועוד אחד: ״בעשור לחודש השביעי״. עשור פירושו עשרה. עשרה בתשרי: יום כיפור.",
+      "ו״בחמישה עשר יום לחודש השביעי״? זה ט״ו בתשרי: חג הסוכות. כך התורה מסמנת את החגים, לפי המספרים של החודשים."
+     ],
+     "pasuk": {
+      "text": "בַּחֹדֶשׁ הַשְּׁבִיעִי בְּאֶחָד לַחֹדֶשׁ יִהְיֶה לָכֶם שַׁבָּתוֹן",
+      "ref": "ויקרא כג, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "שאלה לשיעור הבא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Split sky over the Judean hills: on one side the bright sun of day, on the other the moon and stars of night, meeting in the middle.",
+     "move": "up",
+     "fx": "stars",
+     "art": "☀️🌙",
+     "say": [
+      "כל חודש מגיע בזמן שלו: ניסן תמיד באביב, ותשרי תמיד בסתיו.",
+      "אבל יש כאן חידה. החודשים הולכים לפי הירח, והעונות הולכות לפי השמש. והירח והשמש, לא מסתדרים ביניהם!",
+      "אז איך זה עובד? את הסוד הזה נגלה בשיעור הבא.",
+      "חודש של ירח הוא קצר, ושנה של שמש ארוכה יותר. מי ינצח? אף אחד! חכמי ישראל מצאו דרך לחבר את שניהם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה חודשים יש בשנה עברית רגילה?",
+   "answer": "שנים עשר",
+   "options": [
+    "שנים עשר",
+    "עשרה",
+    "שבעה"
+   ],
+   "explain_he": "בשנה רגילה יש שנים עשר חודשים, מניסן עד אדר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה חודשים יש בשנה עברית רגילה?",
+   "answer": "שנים עשר",
+   "options": [
+    "שנים עשר",
+    "עשרה",
+    "שבעה"
+   ],
+   "explain_he": "בשנה רגילה יש שנים עשר חודשים, מניסן עד אדר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חודש הוא הראשון, לפי התורה?",
+   "answer": "ניסן",
+   "options": [
+    "ניסן",
+    "תשרי",
+    "אדר"
+   ],
+   "explain_he": "ניסן הוא החודש שבו יצאנו ממצרים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חודש הוא הראשון, לפי התורה?",
+   "answer": "ניסן",
+   "options": [
+    "ניסן",
+    "תשרי",
+    "אדר"
+   ],
+   "explain_he": "ניסן הוא החודש שבו יצאנו ממצרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה חודש מתחיל חנוכה?",
+   "answer": "כסלו",
+   "options": [
+    "כסלו",
+    "טבת",
+    "ניסן"
+   ],
+   "explain_he": "כסלו מביא את חנוכה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה חודש מתחיל חנוכה?",
+   "answer": "כסלו",
+   "options": [
+    "כסלו",
+    "טבת",
+    "ניסן"
+   ],
+   "explain_he": "כסלו מביא את חנוכה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חודש אין בו חגים בכלל?",
+   "answer": "חשוון",
+   "options": [
+    "חשוון",
+    "תשרי",
+    "אדר"
+   ],
+   "explain_he": "אחרי תשרי, המלא בחגים, בא חשוון בלי חגים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חודש אין בו חגים בכלל?",
+   "answer": "חשוון",
+   "options": [
+    "חשוון",
+    "תשרי",
+    "אדר"
+   ],
+   "explain_he": "אחרי תשרי, המלא בחגים, בא חשוון בלי חגים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה חודש מתכוננים לימים הנוראים ותוקעים בשופר?",
+   "answer": "אלול",
+   "options": [
+    "אלול",
+    "ניסן",
+    "שבט"
+   ],
+   "explain_he": "אלול הוא החודש שלפני ראש השנה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה חודש מתכוננים לימים הנוראים ותוקעים בשופר?",
+   "answer": "אלול",
+   "options": [
+    "אלול",
+    "ניסן",
+    "שבט"
+   ],
+   "explain_he": "אלול הוא החודש שלפני ראש השנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה הגיעו השמות של החודשים?",
+   "answer": "מגלות בבל, בימי שיבת ציון",
+   "options": [
+    "מגלות בבל, בימי שיבת ציון",
+    "ממצרים",
+    "מיוון"
+   ],
+   "explain_he": "כך אומרים חז״ל: ״שמות החודשים עלו עמהם מבבל״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה התורה סופרת את החודשים מניסן?",
+   "answer": "כדי שנזכור את יציאת מצרים",
+   "options": [
+    "כדי שנזכור את יציאת מצרים",
+    "כי בו יורד הגשם הראשון",
+    "כי בו נברא העולם"
+   ],
+   "explain_he": "כך מסביר הרמב״ן: כל ספירה מזכירה את היציאה לחירות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראש השנה של ט״ו בשבט?",
+   "answer": "ראש השנה לאילנות",
+   "options": [
+    "ראש השנה לאילנות",
+    "ראש השנה לחודשים",
+    "ראש השנה לשנים"
+   ],
+   "explain_he": "ממנו סופרים את שנות העצים, למשל לערלה ולמעשרות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f3e15"
+  }
+ ]
+}

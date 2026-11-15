@@ -1,0 +1,469 @@
+{
+ "id": "k-lnf-f3",
+ "unit_id": "k-lnf-u1",
+ "course": "land",
+ "title_he": "מישור החוף",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "מישור החוף",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הים הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: A wide sandy beach on the Mediterranean in the morning, gentle turquoise waves, seashells on the sand, the two children in modest clothes walk barefoot at the edge of the water, Saba behind them.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌊",
+     "say": [
+      "שמעתם את הגלים? הגענו לים!",
+      "המים שלו מלוחים, והחוף שלו מלא בחול רך ובצדפים.",
+      "בתורה קוראים לים הזה \"הים הגדול\". היום קוראים לו הים התיכון.",
+      "לאורך הים יש רצועה של אדמה שטוחה.",
+      "קוראים לה מישור החוף. בואו נטייל בה מצפון לדרום.",
+      "הים הזה הוא הגבול המערבי של הארץ.",
+      "במישור החוף גרים היום הכי הרבה אנשים בארץ.",
+      "יש בו ערים גדולות, כבישים, ושדות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "חיפה והכרמל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The city of Haifa on the green slope of Mount Carmel above a large blue bay with ships and cranes in the port, late afternoon light.",
+     "move": "up",
+     "fx": null,
+     "art": "⛵",
+     "say": [
+      "זאת חיפה. היא בנויה על הר הכרמל.",
+      "למטה יש נמל גדול. אוניות מביאות לשם סחורות מכל העולם.",
+      "האוניות נכנסות, ומנופים גדולים מורידים מהן ארגזים ענקיים.",
+      "על הכרמל קרה נס גדול לאליהו הנביא.",
+      "אליהו עמד מול נביאי שקר, שעבדו לאליל ריק.",
+      "אליהו התפלל להשם, ואש ירדה מהשמים!",
+      "לאליל של נביאי השקר לא קרה כלום.",
+      "כל העם ראו את הנס, והבינו: רק השם הוא האל האמיתי!"
+     ],
+     "pasuk": {
+      "text": "ה' הוא האלקים, ה' הוא האלקים",
+      "ref": "מלכים א יח, לט"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "עכו העתיקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The old port city of Akko: thick ancient stone sea walls, small fishing boats in a little harbor, an old skyline of stone domes and arches, waves splashing on the walls at sunset.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🏰",
+     "say": [
+      "זאת עכו, עיר עתיקה מאוד על שפת הים.",
+      "במשך אלפי שנים נכנסו אוניות לנמל הקטן שלה.",
+      "יש לה חומות עבות של אבן, שהגלים מכים בהן.",
+      "מתחת לרחובות של העיר יש אולמות ענקיים מאבן, מימים עתיקים.",
+      "פעם הגיע לכאן חכם בשם רבי אבא.",
+      "הוא שמח כל כך להגיע לארץ ישראל, שנישק את האבנים של עכו!",
+      "גם אנחנו יכולים לאהוב כל אבן בארץ ישראל."
+     ],
+     "pasuk": {
+      "text": "רבי אבא מנשק כיפי דעכו",
+      "ref": "כתובות קיב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יפו, נמל עתיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient Jaffa port in Tanach times: wooden ships unloading huge cedar logs onto the shore, workers in modest tunics, a hill with stone houses above the harbor, bright sun.",
+     "move": "right",
+     "fx": null,
+     "art": "⛵",
+     "say": [
+      "עכשיו הגענו ליפו. היא נמל עתיק מאוד.",
+      "כבר בתנ\"ך מספרים עליה!",
+      "בזמן שלמה המלך, הביאו לכאן עצים גדולים בים.",
+      "משם סחבו אותם, בדרך הארוכה, עד ירושלים.",
+      "מהעצים האלה בנו את בית המקדש בירושלים.",
+      "גם יונה הנביא עלה כאן על אוניה.",
+      "ובדורות האחרונים, יהודים רבים שחזרו לארץ הגיעו באוניה לנמל יפו."
+     ],
+     "pasuk": {
+      "text": "וירד יפו, וימצא אניה באה תרשיש",
+      "ref": "יונה א, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "עצי הארז לבניית בית המקדש הגיעו מהלבנון באוניות דרך הים, אל נמל יפו."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "העיר שנבנתה על חול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Early 1900s on the sand dunes near Jaffa: a group of modestly dressed Jewish families in old-fashioned clothes stand together on the sand with seashells in their hands, the blue sea behind them, morning light.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🐚",
+     "say": [
+      "ליד יפו היו פעם רק גבעות של חול.",
+      "לפני יותר ממאה שנה, משפחות יהודיות החליטו לבנות שם עיר חדשה.",
+      "לא היו שם כבישים, לא היו בתים, ולא היו עצים. רק חול!",
+      "הן חילקו את המגרשים בהגרלה של צדפים מהים!",
+      "כך נולדה העיר תל אביב. היום גרים בה הרבה מאוד אנשים.",
+      "את השם \"תל אביב\" לקחו מספר יחזקאל שבתנ\"ך."
+     ],
+     "pasuk": {
+      "text": "ואבוא אל הגולה תל אביב",
+      "ref": "יחזקאל ג, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "פרדסים וביצות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: An orange grove in the Sharon plain with trees full of bright oranges, workers in hats and long sleeves picking fruit into wooden crates, a sunny winter day.",
+     "move": "right",
+     "fx": "light",
+     "art": "🍊",
+     "say": [
+      "פעם, במקומות רבים במישור החוף, היו ביצות.",
+      "בביצות היו יתושים, שהפיצו מחלות קשות.",
+      "החלוצים עבדו קשה מאוד, וייבשו את הביצות.",
+      "ובמקומן צמחו פרדסים של תפוזים מתוקים.",
+      "תפוזי יפו נשלחו לכל העולם!"
+     ],
+     "pasuk": {
+      "text": "אני חבצלת השרון, שושנת העמקים",
+      "ref": "שיר השירים ב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שקיעה על הים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Sunset over the Mediterranean seen from a hill above the coast, a golden path of light on the water, Saba and the children sit on a bench and watch quietly.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🌅",
+     "say": [
+      "השמש שוקעת בים. כמה יפה.",
+      "ראינו את הים, את חיפה, את עכו, את יפו ואת תל אביב.",
+      "מחר נעלה להרים שבלב הארץ.",
+      "שם הלכו אברהם, יצחק ויעקב."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "מישור החוף",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הים הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: A wide sandy beach on the Mediterranean in the morning, gentle turquoise waves, seashells on the sand, the two children in modest clothes walk barefoot at the edge of the water, Saba behind them.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌊",
+     "say": [
+      "שמעתם את הגלים? ירדנו מההרים אל הים הגדול, הוא הים התיכון. הוא הגבול המערבי של הארץ.",
+      "המים שלו מלוחים, והוא מגיע עד ארצות רחוקות, כמו איטליה ויוון.",
+      "לאורך הים משתרעת רצועה שטוחה של אדמה. קוראים לה מישור החוף.",
+      "היום גרים במישור החוף רוב תושבי המדינה, בערים גדולות ובמושבים.",
+      "נטייל בו מצפון לדרום: מחיפה שעל הכרמל, דרך עכו העתיקה, ועד יפו ותל אביב.",
+      "החוף רחב וחולי, ובקיץ באים אליו המוני אנשים. אבל במשך מאות שנים, חלקים ממנו היו ביצות, ועל זה נשמע עוד מעט."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "חיפה והכרמל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The city of Haifa on the green slope of Mount Carmel above a large blue bay with ships and cranes in the port, late afternoon light.",
+     "move": "up",
+     "fx": null,
+     "art": "⛵",
+     "say": [
+      "העיר חיפה עולה במדרון של הר הכרמל, מעל מפרץ כחול. למטה יש נמל גדול, ואוניות מביאות אליו סחורות מכל העולם.",
+      "על הכרמל קרה אחד המעמדים הגדולים בתנ\"ך. אליהו הנביא עמד מול נביאי השקר, שעבדו לאליל ריק בשם הבעל.",
+      "אליהו התפלל, ואש ירדה מהשמים על המזבח שלו. אלילי השקר לא ענו כלום.",
+      "כל העם נפלו על פניהם, וקראו בקול גדול את המשפט שבכרטיס: שרק השם הוא האל האמיתי. את המשפט הזה אנחנו אומרים שבע פעמים בסוף יום כיפור.",
+      "על ראש הכרמל יש מקום שנקרא \"המוחרקה\", ולפי המסורת שם קרה המעמד של אליהו.",
+      "ולנמל חיפה הגיעו, לפני קום המדינה ואחריה, אוניות רבות של עולים: יהודים שחזרו הביתה אחרי גלות ארוכה."
+     ],
+     "pasuk": {
+      "text": "ה' הוא האלקים, ה' הוא האלקים",
+      "ref": "מלכים א יח, לט"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "עכו העתיקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The old port city of Akko: thick ancient stone sea walls, small fishing boats in a little harbor, an old skyline of stone domes and arches, waves splashing on the walls at sunset.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🏰",
+     "say": [
+      "עכו היא אחת הערים העתיקות בארץ. אלפי שנים אוניות נכנסו לנמל הקטן שלה.",
+      "סביב העיר העתיקה יש חומות עבות של אבן, ומתחת לרחובות יש אולמות ענקיים מימים קדומים.",
+      "עכו נמצאת בנחלת שבט אשר, והיא מוזכרת כבר בספר שופטים.",
+      "הגמרא מספרת על רבי אבא, שכשהגיע אל עכו, נישק את האבנים שלה. כמה הוא אהב את ארץ ישראל!",
+      "עכו הייתה בשבילו השער של הארץ, ובכל אבן הוא ראה קדושה.",
+      "הגמרא מספרת גם על חכם אחר, רבי חייא בר גמדא, שהתגלגל בעפר של הארץ מרוב אהבה. כי כתוב: כי רצו עבדיך את אבניה, ואת עפרה יחוננו."
+     ],
+     "pasuk": {
+      "text": "רבי אבא מנשק כיפי דעכו",
+      "ref": "כתובות קיב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יפו, נמל עתיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient Jaffa port in Tanach times: wooden ships unloading huge cedar logs onto the shore, workers in modest tunics, a hill with stone houses above the harbor, bright sun.",
+     "move": "right",
+     "fx": null,
+     "art": "⛵",
+     "say": [
+      "יפו היא אחד הנמלים העתיקים בעולם, והיא מוזכרת כמה פעמים בתנ\"ך.",
+      "כששלמה המלך בנה את בית המקדש, עצי ארז ענקיים נשלחו מהלבנון באוניות, ונפרקו כאן ביפו. משם סחבו אותם עד ירושלים.",
+      "גם יונה הנביא ירד ליפו, ומצא כאן אוניה שהפליגה לתרשיש.",
+      "ובדורות האחרונים, יפו הייתה שער הכניסה של אלפי עולים שחזרו לארץ אחרי גלות ארוכה.",
+      "ביפו עומד עד היום מגדלור ישן, ויש בה סמטאות של אבן מעל הנמל הקטן. מהמקום הזה, אלפי שנים, יצאו ונכנסו אוניות."
+     ],
+     "pasuk": {
+      "text": "וירד יפו, וימצא אניה באה תרשיש",
+      "ref": "יונה א, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "עצי הארז לבניית בית המקדש הגיעו מהלבנון באוניות דרך הים, אל נמל יפו."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "העיר שנבנתה על חול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Early 1900s on the sand dunes near Jaffa: a group of modestly dressed Jewish families in old-fashioned clothes stand together on the sand with seashells in their hands, the blue sea behind them, morning light.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🐚",
+     "say": [
+      "ליד יפו היו פעם רק דיונות של חול. בשנת 1909 התאספו שם 66 משפחות יהודיות, כדי לבנות שכונה חדשה.",
+      "איך חילקו את המגרשים? בהגרלה של צדפים! על כל צדף נכתב מספר של מגרש.",
+      "השכונה גדלה ונהייתה העיר תל אביב. את השם לקחו מספר יחזקאל.",
+      "הבונים הראשונים עבדו בשמש החמה, וסחבו חול ואבנים בידיים. כל בית חדש היה שמחה גדולה.",
+      "סביב תל אביב צמחו עוד ערים רבות, וזה האזור הצפוף ביותר בארץ.",
+      "היום מישור החוף מלא בערים, בבתי חרושת ובכבישים. את כל זה בנו בעבודה קשה, על חול ועל ביצות."
+     ],
+     "pasuk": {
+      "text": "ואבוא אל הגולה תל אביב",
+      "ref": "יחזקאל ג, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "פרדסים וביצות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: An orange grove in the Sharon plain with trees full of bright oranges, workers in hats and long sleeves picking fruit into wooden crates, a sunny winter day.",
+     "move": "right",
+     "fx": "light",
+     "art": "🍊",
+     "say": [
+      "בחלק של מישור החוף שנקרא השרון, היו פעם ביצות מלאות יתושים שהפיצו מחלות.",
+      "חלוצים יהודים עבדו קשה מאוד כדי לייבש את הביצות. הם שתלו עצי אקליפטוס, חפרו תעלות, ורבים מהם חלו.",
+      "במקום הביצות צמחו פרדסים של תפוזים. תפוזי יפו התפרסמו בכל העולם.",
+      "השרון מוזכר כבר בשיר השירים: \"אני חבצלת השרון\". האדמה שחיכתה הרבה זמן, חזרה לתת פרי.",
+      "גם היום, בשרון ובמישור החוף, יש פרדסים, שדות ירקות ומשקים, לצד הערים הגדולות."
+     ],
+     "pasuk": {
+      "text": "אני חבצלת השרון, שושנת העמקים",
+      "ref": "שיר השירים ב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שקיעה על הים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Sunset over the Mediterranean seen from a hill above the coast, a golden path of light on the water, Saba and the children sit on a bench and watch quietly.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🌅",
+     "say": [
+      "השמש שוקעת אל הים הגדול, והשמים נצבעים בזהב.",
+      "היום ראינו את מישור החוף: חיפה והכרמל, עכו העתיקה, נמל יפו, ותל אביב שנבנתה על החול.",
+      "ראינו שעל החוף הזה נפגשים סיפורי התנ\"ך עם העבודה הקשה של הדורות האחרונים.",
+      "ראינו גם שהאדמה הזאת, שחיכתה דורות רבים, חוזרת לתת פרי.",
+      "מחר נעלה אל ההרים שבלב הארץ: השומרון ויהודה.",
+      "שם נלך בעקבות אברהם, יצחק ויעקב, במקומות שבהם התחיל הסיפור של עם ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על איזה הר בנויה העיר חיפה?",
+   "answer": "הר הכרמל",
+   "options": [
+    "הר הכרמל",
+    "החרמון",
+    "הר הזיתים"
+   ],
+   "explain_he": "חיפה בנויה על מדרון הר הכרמל, מעל מפרץ ונמל גדול.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על איזה הר בנויה העיר חיפה?",
+   "answer": "הר הכרמל",
+   "options": [
+    "הר הכרמל",
+    "החרמון",
+    "הר הזיתים"
+   ],
+   "explain_he": "חיפה בנויה על מדרון הר הכרמל, מעל מפרץ ונמל גדול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה רבי אבא כשהגיע לעכו?",
+   "answer": "נישק את האבנים שלה",
+   "options": [
+    "נישק את האבנים שלה",
+    "בנה בה נמל חדש",
+    "הפליג ממנה לחוץ לארץ"
+   ],
+   "explain_he": "רבי אבא אהב מאוד את ארץ ישראל, ונישק את האבנים של עכו כשהגיע אליה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה רבי אבא כשהגיע לעכו?",
+   "answer": "נישק את האבנים שלה",
+   "options": [
+    "נישק את האבנים שלה",
+    "בנה בה נמל חדש",
+    "הפליג ממנה לחוץ לארץ"
+   ],
+   "explain_he": "רבי אבא אהב מאוד את ארץ ישראל, ונישק את האבנים של עכו כשהגיע אליה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך חילקו את המגרשים בתל אביב הראשונה?",
+   "answer": "בהגרלה של צדפים",
+   "options": [
+    "בהגרלה של צדפים",
+    "במכירה פומבית",
+    "לפי הגיל של כל אחד"
+   ],
+   "explain_he": "המשפחות חילקו את המגרשים בהגרלה של צדפים שנאספו מהים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך חילקו את המגרשים בתל אביב הראשונה?",
+   "answer": "בהגרלה של צדפים",
+   "options": [
+    "בהגרלה של צדפים",
+    "במכירה פומבית",
+    "לפי הגיל של כל אחד"
+   ],
+   "explain_he": "המשפחות חילקו את המגרשים בהגרלה של צדפים שנאספו מהים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נביא עלה על אוניה ביפו?",
+   "answer": "יונה הנביא",
+   "options": [
+    "יונה הנביא",
+    "משה רבנו",
+    "שמואל הנביא"
+   ],
+   "explain_he": "הנביא יונה ירד ליפו, ומצא שם אוניה שהפליגה לתרשיש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הגיעו עצי הארז לבית המקדש דרך יפו?",
+   "answer": "כי הם נשלחו באוניות מהלבנון, ויפו הייתה הנמל",
+   "options": [
+    "כי הם נשלחו באוניות מהלבנון, ויפו הייתה הנמל",
+    "כי הם גדלו בתוך העיר יפו",
+    "כי בירושלים היה נמל קטן מדי"
+   ],
+   "explain_he": "עצי הארז נשלחו באוניות מהלבנון, נפרקו בנמל יפו, ומשם הביאו אותם לירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה בשרון לפני שהיו בו פרדסים?",
+   "answer": "ביצות מלאות יתושים",
+   "options": [
+    "ביצות מלאות יתושים",
+    "מדבר של חול",
+    "יער גדול של אלונים"
+   ],
+   "explain_he": "בשרון היו ביצות. החלוצים ייבשו אותן בעבודה קשה, ובמקומן צמחו פרדסי תפוזים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f3e11"
+  }
+ ]
+}

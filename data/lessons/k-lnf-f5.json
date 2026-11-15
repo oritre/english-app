@@ -1,0 +1,500 @@
+{
+ "id": "k-lnf-f5",
+ "unit_id": "k-lnf-u2",
+ "course": "land",
+ "title_he": "ירושלים וים המלח",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "ירושלים וים המלח",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Jerusalem in the morning seen from the Mount of Olives: the golden stone walls of the old city, the Western Wall plaza with people praying in modest dress, men and women in separate sections, soft light from above.",
+     "move": "in",
+     "fx": "light",
+     "art": "🕍",
+     "say": [
+      "הגענו לירושלים, העיר הכי קדושה בעולם.",
+      "על הר המוריה בירושלים, אברהם עקד את יצחק.",
+      "כאן עמד בית המקדש.",
+      "היום אנחנו מתפללים ליד הכותל המערבי.",
+      "ובכל מקום בעולם, יהודים מתפללים כשהפנים שלהם לירושלים.",
+      "ואנחנו מתפללים בכל יום שבית המקדש ייבנה שוב, במהרה."
+     ],
+     "pasuk": {
+      "text": "עמדות היו רגלינו בשעריך ירושלים",
+      "ref": "תהלים קכב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "יורדים למדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A road winding down through the bare golden hills of the Judean desert, deep dry valleys, an empty landscape, the blue line of the Dead Sea far below in the haze, hot light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🏜️",
+     "say": [
+      "יוצאים מירושלים מזרחה, ומתחילים לרדת.",
+      "יורדים ויורדים ויורדים.",
+      "מסביב אין עצים, רק גבעות צהובות.",
+      "זה מדבר יהודה. כמעט לא יורד כאן גשם.",
+      "למה? העננים מורידים את הגשם על ההרים של ירושלים,",
+      "ולצד השני כמעט לא נשאר גשם.",
+      "בירושלים יכול לרדת שלג, ותוך חצי שעה נסיעה מגיעים למדבר חם!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בירושלים יכול לרדת שלג, ורק בערך חצי שעה נסיעה משם, במדבר, חם ויבש!"
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "ים המלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: The Dead Sea: still turquoise water with white salt crystals along the shore, bare mountains around, the boy floating on his back reading a book on the water, wearing a modest long-sleeved swim shirt and long swim trousers, Saba laughing on the shore.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🧂",
+     "say": [
+      "הגענו לים המלח! זה המקום הכי נמוך ביבשה בכל העולם.",
+      "המים כאן מלוחים מאוד מאוד.",
+      "הירדן זורם לתוכו, אבל אין לו יציאה. השמש מייבשת את המים, והמלח נשאר.",
+      "אי אפשר לטבוע! כולם צפים כמו עץ.",
+      "אבל זהירות: אסור שהמים ייכנסו לעיניים. זה צורב!",
+      "בים המלח אין דגים, כי המים מלוחים מדי."
+     ],
+     "pasuk": {
+      "text": "כל אלה חברו אל עמק השדים, הוא ים המלח",
+      "ref": "בראשית יד, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "נבואה על ים המלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A vision-like painting: fishermen in modest robes standing on the shore of the Dead Sea casting nets into clear water full of fish, green trees growing along the bank, soft golden light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🐟",
+     "say": [
+      "אבל הנביא יחזקאל ראה נבואה מופלאה.",
+      "לעתיד לבוא, מים יצאו מבית המקדש, ויזרמו עד ים המלח.",
+      "המים יתרפאו, ויהיו בהם דגים רבים!",
+      "ודייגים יעמדו על החוף ויפרשו רשתות."
+     ],
+     "pasuk": {
+      "text": "והיה עמדו עליו דוגים, מעין גדי ועד עין עגלים",
+      "ref": "יחזקאל מז, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "עין גדי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The oasis of Ein Gedi: a waterfall falling into a clear pool between green reeds and trees in the middle of the golden desert cliffs, a family of ibex with long curved horns on the rocks.",
+     "move": "up",
+     "fx": "mist",
+     "art": "💧🐐",
+     "say": [
+      "פתאום, באמצע המדבר, יש מקום ירוק!",
+      "זאת עין גדי. יש בה מעיינות ומפלים.",
+      "על הסלעים מטפסים יעלים עם קרניים ארוכות.",
+      "המים קרירים ונעימים, ואפשר לטבול בהם את הרגליים.",
+      "במדבר, מעיין הוא כמו מתנה מהשמים.",
+      "גם דוד המלך הכיר את המקום הזה היטב. בואו נשמע למה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ליד המעיינות של עין גדי חיים יעלים, עם קרניים ארוכות ומעוקלות. הם מטפסים על צוקים תלולים בקלות!"
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "דוד במערה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Inside a large cave in the desert cliffs of Ein Gedi: young David in a simple tunic quietly holds a small cut corner of a royal robe, his men behind him in the shadows, sunlight at the cave entrance.",
+     "move": "in",
+     "fx": "night",
+     "art": "🪨",
+     "say": [
+      "במערות של עין גדי הסתתר דוד, כשהמלך שאול רדף אחריו.",
+      "יום אחד שאול נכנס לבד לאותה מערה.",
+      "דוד יכול היה לפגוע בו, אבל לא עשה זאת.",
+      "הוא רק חתך פינה קטנה מהבגד של שאול.",
+      "כי דוד כיבד את המלך שהשם בחר.",
+      "גם אנחנו יכולים ללמוד מדוד: לכבד, ולשלוט בכעס שלנו."
+     ],
+     "pasuk": {
+      "text": "חלילה לי מה' אם אעשה את הדבר הזה לאדני, למשיח ה'",
+      "ref": "שמואל א כד, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מצדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The flat-topped mountain fortress of Masada rising from the desert at dawn, ancient stone walls on top, the Dead Sea glowing in the distance, a winding snake path up the cliff, no people.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "⛰️",
+     "say": [
+      "זה ההר מצדה. ההר שטוח למעלה, כמו שולחן.",
+      "מסביב להר יש צוקים תלולים מאוד.",
+      "על ההר בנה המלך הורדוס ארמון גדול.",
+      "אחרי החורבן של בית המקדש השני, יהודים נשארו על ההר הזה.",
+      "זה היה המקום האחרון שבו עמדו מול הצבא הרומי.",
+      "היום אפשר לעלות להר בשביל מתפתל, שנקרא שביל הנחש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מה מצאו על ההר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: An ancient small synagogue room on Masada with stone benches along the walls, a mikveh with stone steps nearby, and a fragile old parchment scroll fragment resting on a stone, soft morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "📜",
+     "say": [
+      "על ההר מצאו דברים מרגשים.",
+      "מצאו בית כנסת עתיק, ומקווה.",
+      "ומצאו קטעים של ספרי תנ\"ך עתיקים.",
+      "גם במקום קשה כל כך, היהודים המשיכו להתפלל ולשמור מצוות.",
+      "ומצאו שם קטע מספר יחזקאל, על עצמות יבשות שקמות לתחייה.",
+      "זו נבואה שעם ישראל יחזור לחיים ולארצו. והנה, אנחנו כאן!"
+     ],
+     "pasuk": {
+      "text": "העצמות היבשות, שמעו דבר ה'",
+      "ref": "יחזקאל לז, ד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "ירושלים וים המלח",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Jerusalem in the morning seen from the Mount of Olives: the golden stone walls of the old city, the Western Wall plaza with people praying in modest dress, men and women in separate sections, soft light from above.",
+     "move": "in",
+     "fx": "light",
+     "art": "🕍",
+     "say": [
+      "הגענו לירושלים, העיר הכי קדושה בעולם. בה נמצא הר המוריה, שעליו עקד אברהם את יצחק.",
+      "שם בנה שלמה המלך את בית המקדש הראשון, ואחריו עמד שם בית המקדש השני.",
+      "היום נשאר הכותל המערבי, ויהודים מכל העולם באים להתפלל לידו.",
+      "בכל מקום בעולם, יהודי שמתפלל מפנה את פניו לירושלים. ואנחנו מתפללים שבית המקדש ייבנה במהרה.",
+      "ירושלים בנויה על הרים, ומסביב לה עוד הרים, כמו שכתוב בתהילים: ירושלים הרים סביב לה.",
+      "על ירושלים יש עוד הרבה מה לספר. עכשיו נרד ממנה מזרחה, אל המדבר."
+     ],
+     "pasuk": {
+      "text": "עמדות היו רגלינו בשעריך ירושלים",
+      "ref": "תהלים קכב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "יורדים למדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A road winding down through the bare golden hills of the Judean desert, deep dry valleys, an empty landscape, the blue line of the Dead Sea far below in the haze, hot light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🏜️",
+     "say": [
+      "יוצאים מירושלים מזרחה, והדרך יורדת ויורדת. תוך זמן קצר הכל משתנה.",
+      "ההרים הירוקים נעלמים, ובמקומם גבעות צהובות וחשופות. זה מדבר יהודה.",
+      "למה כאן כמעט אין גשם? כי העננים שמגיעים מהים מורידים את הגשם שלהם על הרי יהודה, ועד שהם עוברים לצד השני, הם כבר כמעט ריקים.",
+      "במדבר הזה הסתתר דוד המלך, וכאן כתב כמה מהמזמורים שלו בתהילים.",
+      "במדבר יהודה יש גם נחלים עמוקים, וצוקים עם מערות. במערות ליד ים המלח מצאו לפני כשמונים שנה מגילות עתיקות מאוד, ובהן ספרים של התנ\"ך.",
+      "אחת מהן היא מגילה שלמה של ספר ישעיהו, והיא כמעט זהה לספר ישעיהו שלנו היום. כך רואים כמה בדייקנות נשמר התנ\"ך."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בירושלים יכול לרדת שלג, ורק בערך חצי שעה נסיעה משם, במדבר, חם ויבש!"
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "ים המלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: The Dead Sea: still turquoise water with white salt crystals along the shore, bare mountains around, the boy floating on his back reading a book on the water, wearing a modest long-sleeved swim shirt and long swim trousers, Saba laughing on the shore.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🧂",
+     "say": [
+      "הגענו לים המלח, המקום הכי נמוך ביבשה בכל העולם, בערך 430 מטרים מתחת לגובה פני הים.",
+      "המים כאן מלוחים בערך פי עשרה מהים הרגיל. הירדן מביא אליו מים, אבל אין לו יציאה, והשמש החמה מאדה את המים. המלח נשאר.",
+      "בגלל המלח הרב, המים כבדים, וכל מי שנכנס בהם צף מעצמו. אפשר לשכב על הגב ולקרוא ספר!",
+      "כבר התורה קוראת לו בשם הזה: \"הוא ים המלח\". באזור הזה היו פעם סדום ועמורה.",
+      "אבל זהירות: המים צורבים בעיניים ובפצעים, ולכן לא משפריצים ולא טובלים את הראש."
+     ],
+     "pasuk": {
+      "text": "כל אלה חברו אל עמק השדים, הוא ים המלח",
+      "ref": "בראשית יד, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "נבואה על ים המלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A vision-like painting: fishermen in modest robes standing on the shore of the Dead Sea casting nets into clear water full of fish, green trees growing along the bank, soft golden light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🐟",
+     "say": [
+      "בים המלח אין דגים, ואין צמחים בתוכו. שום יצור לא יכול לחיות במים כל כך מלוחים.",
+      "אבל הנביא יחזקאל ראה נבואה מופלאה: לעתיד לבוא, מים יצאו מבית המקדש ויזרמו עד ים המלח.",
+      "המים של ים המלח יתרפאו, ויהיו בו דגים רבים מאוד. ודייגים יעמדו על החוף מעין גדי.",
+      "אנחנו מחכים לראות את זה בעיניים."
+     ],
+     "pasuk": {
+      "text": "והיה עמדו עליו דוגים, מעין גדי ועד עין עגלים",
+      "ref": "יחזקאל מז, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "עין גדי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The oasis of Ein Gedi: a waterfall falling into a clear pool between green reeds and trees in the middle of the golden desert cliffs, a family of ibex with long curved horns on the rocks.",
+     "move": "up",
+     "fx": "mist",
+     "art": "💧🐐",
+     "say": [
+      "פתאום, בין הצוקים היבשים, מופיע מקום ירוק ומלא חיים: נאת המדבר עין גדי.",
+      "כאן נובעים מעיינות מתוך ההר, ונופלים במפלים אל בריכות צלולות.",
+      "מסביב גדלים עצים וקנים, וחיים בעלי חיים: יעלים, שפנים וציפורים.",
+      "במדבר אפשר להבין כמה מים הם יקרים. כל מעיין הוא חסד גדול מהשם.",
+      "עין גדי מוזכרת גם בשיר השירים: \"בכרמי עין גדי\". כבר בימי קדם גידלו כאן צמחים ריחניים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ליד המעיינות של עין גדי חיים יעלים, עם קרניים ארוכות ומעוקלות. הם מטפסים על צוקים תלולים בקלות!"
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "דוד במערה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Inside a large cave in the desert cliffs of Ein Gedi: young David in a simple tunic quietly holds a small cut corner of a royal robe, his men behind him in the shadows, sunlight at the cave entrance.",
+     "move": "in",
+     "fx": "night",
+     "art": "🪨",
+     "say": [
+      "במערות של עין גדי הסתתר דוד, כשהמלך שאול רדף אחריו עם שלושת אלפים איש.",
+      "יום אחד נכנס שאול לבדו אל אותה מערה, בלי לדעת שדוד ואנשיו יושבים בעומק שלה.",
+      "האנשים של דוד לחשו: זו ההזדמנות שלך! אבל דוד סירב. הוא רק חתך בשקט את כנף המעיל של שאול.",
+      "דוד אמר: חלילה לי לפגוע במלך שהשם משח. אחר כך הראה לשאול את הכנף, ושאול בכה ואמר: צדיק אתה ממני.",
+      "במקום הזה דוד לימד אותנו מה זה כבוד, ומה זה שליטה עצמית."
+     ],
+     "pasuk": {
+      "text": "חלילה לי מה' אם אעשה את הדבר הזה לאדני, למשיח ה'",
+      "ref": "שמואל א כד, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מצדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The flat-topped mountain fortress of Masada rising from the desert at dawn, ancient stone walls on top, the Dead Sea glowing in the distance, a winding snake path up the cliff, no people.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "⛰️",
+     "say": [
+      "מעל ים המלח מתנשא הר שטוח עם צוקים תלולים: מצדה. המלך הורדוס בנה עליו מבצר וארמונות, עם מחסנים ובורות מים ענקיים.",
+      "אחרי חורבן בית המקדש השני, קבוצה של יהודים עלתה למצדה, וזה היה המקום האחרון שעמד מול הצבא הרומי.",
+      "הרומאים בנו סוללה ענקית של עפר כדי להגיע למעלה. ההיסטוריון יוסף בן מתתיהו כותב שהמגינים לא רצו ליפול בשבי ולהיות עבדים, וכך הסתיים שם הסיפור בעצב גדול.",
+      "היום אפשר לעלות להר ברגל בשביל הנחש, ולראות את השרידים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מה מצאו על ההר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: An ancient small synagogue room on Masada with stone benches along the walls, a mikveh with stone steps nearby, and a fragile old parchment scroll fragment resting on a stone, soft morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "📜",
+     "say": [
+      "כשחפרו על מצדה, מצאו דברים מרגשים: בית כנסת עתיק עם ספסלי אבן, ומקוואות טהרה.",
+      "גם במקום מבודד וקשה כל כך, היהודים המשיכו להתפלל, לטבול במקווה ולשמור מצוות.",
+      "ומתחת לרצפת בית הכנסת מצאו קטעים של ספר יחזקאל, בדיוק מהנבואה על העצמות היבשות שקמות לתחייה.",
+      "הנבואה מבטיחה שעם ישראל יחזור לחיים ולארצו. ואנחנו, שעומדים היום על ההר, רואים איך היא מתקיימת."
+     ],
+     "pasuk": {
+      "text": "העצמות היבשות, שמעו דבר ה'",
+      "ref": "יחזקאל לז, ד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בים המלח?",
+   "answer": "הוא המקום הכי נמוך ביבשה, ואפשר לצוף בו",
+   "options": [
+    "הוא המקום הכי נמוך ביבשה, ואפשר לצוף בו",
+    "הוא הים הכי קר בעולם",
+    "יש בו הכי הרבה דגים"
+   ],
+   "explain_he": "ים המלח הוא המקום הכי נמוך ביבשה בעולם, ובגלל המלח הרב כולם צפים בו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בים המלח?",
+   "answer": "הוא המקום הכי נמוך ביבשה, ואפשר לצוף בו",
+   "options": [
+    "הוא המקום הכי נמוך ביבשה, ואפשר לצוף בו",
+    "הוא הים הכי קר בעולם",
+    "יש בו הכי הרבה דגים"
+   ],
+   "explain_he": "ים המלח הוא המקום הכי נמוך ביבשה בעולם, ובגלל המלח הרב כולם צפים בו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד כששאול נכנס למערה בעין גדי?",
+   "answer": "חתך רק פינה מהבגד של שאול, ולא פגע בו",
+   "options": [
+    "חתך רק פינה מהבגד של שאול, ולא פגע בו",
+    "ברח מהמערה בלי שאול ראה אותו",
+    "קרא לשאול לבוא לשחק"
+   ],
+   "explain_he": "דוד לא פגע בשאול, כי כיבד את המלך שהשם בחר. הוא רק חתך את כנף המעיל שלו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד כששאול נכנס למערה בעין גדי?",
+   "answer": "חתך רק פינה מהבגד של שאול, ולא פגע בו",
+   "options": [
+    "חתך רק פינה מהבגד של שאול, ולא פגע בו",
+    "ברח מהמערה בלי שאול ראה אותו",
+    "קרא לשאול לבוא לשחק"
+   ],
+   "explain_he": "דוד לא פגע בשאול, כי כיבד את המלך שהשם בחר. הוא רק חתך את כנף המעיל שלו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מצאו על הר מצדה?",
+   "answer": "בית כנסת עתיק, מקווה וקטעים של ספרי תנ\"ך",
+   "options": [
+    "בית כנסת עתיק, מקווה וקטעים של ספרי תנ\"ך",
+    "ארמון של זהב",
+    "נמל לאוניות"
+   ],
+   "explain_he": "על מצדה מצאו בית כנסת, מקוואות וקטעי תנ\"ך. גם שם היהודים שמרו מצוות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מצאו על הר מצדה?",
+   "answer": "בית כנסת עתיק, מקווה וקטעים של ספרי תנ\"ך",
+   "options": [
+    "בית כנסת עתיק, מקווה וקטעים של ספרי תנ\"ך",
+    "ארמון של זהב",
+    "נמל לאוניות"
+   ],
+   "explain_he": "על מצדה מצאו בית כנסת, מקוואות וקטעי תנ\"ך. גם שם היהודים שמרו מצוות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "אילו בעלי חיים מטפסים על הסלעים בעין גדי?",
+   "answer": "יעלים",
+   "options": [
+    "יעלים",
+    "גמלים",
+    "דולפינים"
+   ],
+   "explain_he": "בעין גדי חיים יעלים עם קרניים ארוכות, שמטפסים על צוקים תלולים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה במדבר יהודה כמעט לא יורד גשם?",
+   "answer": "כי העננים מורידים את הגשם על ההרים, ועד שהם עוברים הם כמעט ריקים",
+   "options": [
+    "כי העננים מורידים את הגשם על ההרים, ועד שהם עוברים הם כמעט ריקים",
+    "כי אין שם רוח בכלל",
+    "כי המדבר נמצא ליד הים"
+   ],
+   "explain_he": "העננים מהים מורידים את הגשם שלהם על הרי יהודה, ולצד המזרחי של ההרים מגיע מעט מאוד גשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראה יחזקאל בנבואה על ים המלח?",
+   "answer": "שהמים שלו יתרפאו ויהיו בו דגים",
+   "options": [
+    "שהמים שלו יתרפאו ויהיו בו דגים",
+    "שהוא ייעלם לגמרי",
+    "שהוא יהפוך לקרח"
+   ],
+   "explain_he": "יחזקאל ראה שלעתיד לבוא מים מבית המקדש ירפאו את ים המלח, ודייגים יעמדו על חופו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f5e11"
+  }
+ ]
+}

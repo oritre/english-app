@@ -1,0 +1,324 @@
+{
+ "id": "k-war-f4",
+ "unit_id": "k-war-u2",
+ "course": "wars",
+ "title_he": "ששת הימים: הכותל וחברון",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🛡️ ידע כללי",
+   "title_he": "ששת הימים: הכותל וחברון",
+   "ref_he": "מלחמות ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שער האריות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood. Young Israeli paratroopers of 1967: olive uniforms and helmets, some with kippot, dusty and tired, rifles slung on their backs and pointed at no one. Scene: Early morning on June 7, 1967, the ancient Lions Gate in the eastern wall of Jerusalem, carved stone lions on both sides, young paratroopers walking in through the open gate, dust and soft golden light.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👨👨👨",
+     "say": [
+      "יום רביעי, כ״ח באייר תשכ״ז, 7 ביוני 1967. שעת בוקר.",
+      "לוחמי חטיבת הצנחנים עומדים מול שער האריות, בחומה המזרחית של העיר העתיקה.",
+      "על השער חקוקים בסלע זוג אריות עתיקים.",
+      "הלוחמים עייפים מאוד. הם לא ישנו כמעט שני לילות, ורבים מחבריהם נפלו בקרבות.",
+      "ובכל זאת, הלב שלהם דופק מהתרגשות. עוד רגע, אחרי תשע עשרה שנה, הם נכנסים לעיר העתיקה.",
+      "היום נספר על אחד הימים הגדולים בתולדות עם ישראל בדורות האחרונים.",
+      "ביום הראשון של המלחמה הפגיזה ירדן את ירושלים, ותושבי העיר ישבו במקלטים ואמרו תהילים.",
+      "אבל קודם, נחזור לילה אחד אחורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "גבעת התחמושת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A rocky hill in northern Jerusalem at dawn after the battle, old trenches and low stone walls, a few olive trees, a quiet memorial atmosphere, a single blue-and-white flag on a pole, no people.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🪨🌳",
+     "say": [
+      "כדי להגיע לעיר העתיקה, היה צריך לפרוץ קודם דרך מוצבים חזקים בצפון ירושלים.",
+      "אחד מהם היה גבעת התחמושת, מוצב ירדני מבוצר מאוד, עם תעלות עמוקות ובונקרים.",
+      "בלילה שבין 5 ל־6 ביוני תקפו אותו הצנחנים.",
+      "הקרב נמשך שעות, בתוך התעלות הצרות, וגבורה גדולה הייתה שם.",
+      "לוחמים רבים נפלו בקרב הזה. חבריהם המשיכו קדימה, כי ידעו שהדרך לעיר העתיקה עוברת שם.",
+      "עד היום, שירים וסיפורים מספרים על הלילה ההוא.",
+      "כשאנחנו שמחים בירושלים השלמה, אנחנו זוכרים את מי שנתנו את חייהם כדי שנוכל להגיע אליה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בגבעת התחמושת יש היום אתר הנצחה, ובו שמות כל הלוחמים שנפלו בקרבות על ירושלים במלחמה."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "הר הבית בידינו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A wide view of the Temple Mount plateau from the Mount of Olives in the morning, the ancient retaining walls and gates of the Old City glowing in the sun, a commander with binoculars standing on a rock seen from behind.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨🪨",
+     "say": [
+      "בבוקר, מהר הזיתים, השקיף מפקד הצנחנים, מוטה גור, על העיר העתיקה.",
+      "הוא נתן פקודה, והכוחות פרצו דרך שער האריות.",
+      "הם עברו בסמטאות, ועלו אל הר הבית, המקום שבו עמד בית המקדש.",
+      "ואז נשמעו ברשת הקשר שלוש מילים שעם ישראל לא ישכח לעולם: הר הבית בידינו.",
+      "כמעט אלפיים שנה, מאז החורבן, הר הבית לא היה בידי עם ישראל.",
+      "אנשים שישבו ליד מכשירי הרדיו, בכל הארץ ובכל העולם, בכו מהתרגשות.",
+      "אבל הלוחמים לא נעצרו. הם חיפשו את הדרך אל מקום אחד: אל הכותל המערבי."
+     ],
+     "pasuk": {
+      "text": "הר הבית בידינו",
+      "ref": "מוטה גור, מפקד הצנחנים, ברשת הקשר, כ״ח באייר תשכ״ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הכותל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood. Young Israeli paratroopers of 1967: olive uniforms and helmets, some with kippot, dusty and tired, rifles slung on their backs and pointed at no one. Rabbi Shlomo Goren: an army chaplain in his fifties with a dark beard turning gray, olive uniform, kippah, holding a shofar. Scene: Young paratroopers in dusty uniforms and helmets standing close to the huge ancient stones of the Western Wall, touching them with their hands, some with eyes closed and tears, an army chaplain lifting a shofar, warm sunlight.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👨👴",
+     "say": [
+      "הם הגיעו לסמטה צרה, ופתאום עמד מולם הכותל. אבנים ענקיות, עתיקות, שיחים קטנים בין החריצים.",
+      "החיילים, מלוכלכים ועייפים, ניגשו ונגעו באבנים.",
+      "רבים מהם בכו. גם כאלה שלא היו דתיים, וגם כאלה שמעולם לא ראו את הכותל.",
+      "רבים מהם הרגישו שהם עומדים במקום שאבותיהם התפללו עליו כל חייהם, ולא זכו להגיע אליו.",
+      "ואז הגיע הרב הראשי של צה״ל, הרב שלמה גורן, ובידו שופר וספר תורה.",
+      "הוא תקע בשופר ליד הכותל, והתפלל. קול השופר נשמע בין האבנים העתיקות.",
+      "הנביא ישעיהו אמר: כי עין בעין יראו בשוב ה׳ ציון. והחיילים ראו, עין בעין."
+     ],
+     "pasuk": {
+      "text": "כִּי עַיִן בְּעַיִן יִרְאוּ בְּשׁוּב ה׳ צִיּוֹן",
+      "ref": "ישעיהו נב, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שבועות בכותל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A huge crowd of Jewish families walking through the narrow alleys of the Old City toward the Western Wall on a bright summer morning, fathers with kippot carrying children on shoulders, women in long dresses, old men in tallitot.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👨👩👦👧",
+     "say": [
+      "שבוע אחד אחרי שחרור העיר, הגיע חג השבועות.",
+      "הכותל נפתח לציבור, וזה היה כמו עלייה לרגל של פעם.",
+      "מכל קצות הארץ באו יהודים, רבים מהם ברגל, כבר מהשעות של אחרי חצות.",
+      "זקנים שזכרו את הכותל מלפני תש״ח הגיעו ובכו. ילדים ראו אותו לראשונה בחייהם.",
+      "בערך מאתיים אלף איש עלו לכותל באותו יום.",
+      "בשבועות קיבלנו את התורה בהר סיני. ובאותו שבועות, אחרי אלפיים שנה, עם ישראל חזר להתפלל ליד מקום המקדש.",
+      "ומאז, כל יום, בכל שעה, יש יהודים שמתפללים בכותל.",
+      "ובכל תפילה שם מתקיימים דברי הנביא: עוד ישבו זקנים וזקנות ברחובות ירושלים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בחג השבועות, שבוע אחרי שחרור העיר, עלו לכותל בערך מאתיים אלף איש, כמו בימי העלייה לרגל."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "מערת המכפלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood. Rabbi Shlomo Goren: an army chaplain in his fifties with a dark beard turning gray, olive uniform, kippah, holding a shofar. Scene: The ancient stone building over the Cave of the Patriarchs in Hebron on a summer morning, a long stone staircase along its massive wall, an army chaplain in uniform with a shofar climbing the stairs past the lower steps, awe.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴🪨",
+     "say": [
+      "למחרת, ביום חמישי, הגיע הרב גורן לחברון, עיר האבות.",
+      "במערת המכפלה קבורים אברהם ושרה, יצחק ורבקה, יעקב ולאה.",
+      "אברהם אבינו קנה את המערה בכסף מלא, כמו שמסופר בפרשת חיי שרה.",
+      "אבל במשך כשבע מאות שנה, השליטים בעיר לא הרשו ליהודים להיכנס פנימה.",
+      "יהודים יכלו לעלות רק עד המדרגה השביעית שבחוץ, ושם התפללו, ליד הקיר.",
+      "עכשיו עלה הרב גורן במדרגות, עבר את המדרגה השביעית, ונכנס.",
+      "הוא תקע בשופר והתפלל. אחרי מאות שנים, יהודים שוב התפללו בתוך מקום קבורת האבות.",
+      "חז״ל אמרו שמערת המכפלה היא אחד משלושה מקומות שאומות העולם אינן יכולות לומר עליהם שגזולים הם בידי ישראל, כי נקנו בכסף מלא. השניים האחרים הם מקום המקדש וקבר יוסף בשכם."
+     ],
+     "pasuk": {
+      "text": "וְאַחֲרֵי כֵן קָבַר אַבְרָהָם אֶת שָׂרָה אִשְׁתּוֹ אֶל מְעָרַת שְׂדֵה הַמַּכְפֵּלָה",
+      "ref": "בראשית כג, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ארץ האבות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A sweeping landscape of the Land of Israel: the hills of Judea and Samaria with olive groves, a small domed building by a road near Bethlehem, the green Golan heights far to the north, the desert of Sinai to the south, morning haze.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🪨🌳🐑",
+     "say": [
+      "ובמקביל, בכל החזיתות, התקדם צה״ל.",
+      "בדרום, כוחות השריון הגיעו עד תעלת סואץ, ואחר כך עד שארם א־שייח.",
+      "במרכז, שוחררו יהודה ושומרון: בית לחם וקבר רחל, שכם וקבר יוסף, וגם יריחו.",
+      "אלה מקומות שמופיעים בתנ״ך שוב ושוב: כאן הלך אברהם, כאן חלם יעקב, כאן נקברה רחל.",
+      "ובשני הימים האחרונים עלו כוחות צה״ל לרמת הגולן, ושחררו את יישובי עמק החולה מההפגזות שסבלו מהן שנים.",
+      "ובמוצאי שבת, 10 ביוני, נכנסה לתוקף הפסקת האש, והמלחמה נגמרה.",
+      "שישה ימים, ולכן נקראת מלחמת ששת הימים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הנס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A night sky full of stars over the Judean hills, a soft light from above over the hills, a small village with lit windows below, a feeling of quiet wonder and gratitude.",
+     "move": "up",
+     "fx": "stars",
+     "art": "🕊️",
+     "say": [
+      "איך אפשר להסביר את מה שקרה?",
+      "מדינה קטנה, מוקפת מכל הצדדים, ניצחה בשישה ימים צבאות גדולים ממנה פי כמה.",
+      "רבים, דתיים וגם אנשים רחוקים מאמונה, אמרו שהם ראו נס.",
+      "מפקדים וחיילים סיפרו על רגעים שבהם האויב נסוג בלי סיבה ברורה, ועל דברים שהצליחו מעבר לכל תכנית.",
+      "שלושה שבועות לפני המלחמה, בערב יום העצמאות, אמר הרב צבי יהודה קוק, בנו של הרב קוק, בדרשה בישיבת מרכז הרב: איפה חברון שלנו? איפה שכם שלנו? ויריחו?",
+      "תלמידיו סיפרו שהמילים האלה נשמעו כמעט כמו נבואה, כשבתוך שבועות ספורים חזרו המקומות האלה לעם ישראל.",
+      "כמו שאומרים בתפילת על הניסים בחנוכה: מסרת גיבורים ביד חלשים, ורבים ביד מעטים.",
+      "כל אחד יכול להבין זאת בדרכו. אבל לכולנו יש סיבה להודות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "יום ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: The Western Wall plaza at dusk on Jerusalem Day, families with children in modest festive clothes, men in tallitot praying, memorial candles in a corner, the golden stones glowing, a sense of joy mixed with remembrance.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨👩👦👧",
+     "say": [
+      "במלחמת ששת הימים נפלו יותר משבע מאות חיילים. כל אחד מהם עולם ומלואו.",
+      "בקרבות על ירושלים לבדה נפלו לוחמים רבים. אנחנו זוכרים אותם בכל פעם שאנחנו מגיעים לכותל.",
+      "הרבנות הראשית קבעה את כ״ח באייר ליום הודיה, יום ירושלים.",
+      "בקהילות רבות אומרים בו הלל, ושמחים בירושלים המאוחדת.",
+      "והיה עוד דבר: הבנים של גוש עציון, שהסתכלו שנים על העץ הבודד, חזרו באותה שנה לבנות את ביתם.",
+      "אבל השמחה לא נמשכה בשקט לאורך זמן. שש שנים אחר כך, ביום הקדוש בשנה, הגיעה הפתעה קשה.",
+      "על כך נלמד בפרק הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-war-f4e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "דרך איזה שער נכנסו הצנחנים לעיר העתיקה?",
+   "answer": "שער האריות",
+   "options": [
+    "שער האריות",
+    "שער יפו",
+    "שער שכם"
+   ],
+   "explain_he": "הצנחנים נכנסו דרך שער האריות שבחומה המזרחית, בכ״ח באייר תשכ״ז.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו שלוש המילים שנשמעו ברשת הקשר?",
+   "answer": "\"הר הבית בידינו\"",
+   "options": [
+    "\"הר הבית בידינו\"",
+    "\"ירושלים של זהב\"",
+    "\"אנחנו בדרך הביתה\""
+   ],
+   "explain_he": "מוטה גור, מפקד הצנחנים, הודיע: הר הבית בידינו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרב שלמה גורן ליד הכותל?",
+   "answer": "תקע בשופר והתפלל",
+   "options": [
+    "תקע בשופר והתפלל",
+    "קרא את מגילת העצמאות",
+    "בנה בית כנסת חדש"
+   ],
+   "explain_he": "הרב גורן הגיע עם שופר וספר תורה, תקע בשופר והתפלל ליד הכותל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "עד איזו מדרגה הורשו יהודים לעלות במערת המכפלה במשך כשבע מאות שנה?",
+   "answer": "המדרגה השביעית",
+   "options": [
+    "המדרגה השביעית",
+    "המדרגה הראשונה",
+    "המדרגה העשרים"
+   ],
+   "explain_he": "השליטים לא הרשו ליהודים להיכנס, והם התפללו ליד המדרגה השביעית שבחוץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אנשים עלו לכותל בחג השבועות, שבוע אחרי השחרור?",
+   "answer": "בערך מאתיים אלף",
+   "options": [
+    "בערך מאתיים אלף",
+    "בערך אלפיים",
+    "בערך עשרים"
+   ],
+   "explain_he": "זה היה כמו עלייה לרגל של פעם, ורבים הגיעו ברגל מכל הארץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רבים אמרו שבמלחמת ששת הימים ראו נס?",
+   "answer": "כי מדינה קטנה ומוקפת ניצחה בשישה ימים צבאות גדולים ממנה פי כמה",
+   "options": [
+    "כי מדינה קטנה ומוקפת ניצחה בשישה ימים צבאות גדולים ממנה פי כמה",
+    "כי המלחמה נמשכה שנים רבות",
+    "כי אף צבא לא תקף את ישראל"
+   ],
+   "explain_he": "מהפחד הגדול של ימי ההמתנה לניצחון מהיר, ורבים ראו בזה יד של השגחה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה יום נקבע כיום הודיה על שחרור ירושלים?",
+   "answer": "כ״ח באייר, יום ירושלים",
+   "options": [
+    "כ״ח באייר, יום ירושלים",
+    "ה׳ באייר",
+    "ט׳ באב"
+   ],
+   "explain_he": "הרבנות הראשית קבעה את כ״ח באייר ליום הודיה, ובקהילות רבות אומרים בו הלל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f4e8"
+  }
+ ]
+}

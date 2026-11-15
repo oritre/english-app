@@ -1,0 +1,250 @@
+{
+ "id": "k-egf-f3",
+ "unit_id": "k-egf-u1",
+ "course": "egypt",
+ "title_he": "כתב החרטומים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🔺 ידע כללי",
+   "title_he": "כתב החרטומים",
+   "ref_he": "מצרים העתיקה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "כתב של ציורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A tall sandstone wall in ancient Egypt covered in neat rows of tiny carved picture-symbols of birds, eyes, reeds, feet and wavy water lines, painted in blue and red, warm sunlight.",
+     "move": "up",
+     "fx": "light",
+     "art": "🦅👁️",
+     "say": [
+      "תסתכלו על הקיר הזה. ציפורים, עיניים, רגליים, קני סוף וגלים של מים.",
+      "יש בו גם סימנים של אנשים, של ידיים, של לחם ושל נחשים. כל סימן מספר משהו.",
+      "זה לא ציור לקישוט. זה כתב! כתב של המצרים העתיקים.",
+      "קוראים לו הירוגליפים. בעברית קוראים לו גם \"כתב החרטומים\".",
+      "בתורה, החרטומים היו החכמים והמכשפים של פרעה, ואלה שידעו לכתוב ולקרוא את הכתב הסודי הזה.",
+      "הכתב הזה מופיע על קירות, על עמודים, על ארונות קבורה ועל דפים. במצרים כתבו המון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מאות סימנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A close view of carved Egyptian picture-symbols on stone: an owl, a lion, a hand, a loaf of bread and a snake, detailed and colorful, no readable letters.",
+     "move": "in",
+     "fx": null,
+     "art": "🦉",
+     "say": [
+      "כל סימן בכתב הזה יכול לסמן מילה שלמה, או צליל אחד, או רמז למשמעות.",
+      "את הכתב הזה אפשר היה לכתוב משמאל לימין, מימין לשמאל, ואפילו מלמעלה למטה!",
+      "היו מאות סימנים שונים. כדי ללמוד אותם, היה צריך ללמוד שנים רבות.",
+      "לכן רק מעטים במצרים ידעו לקרוא ולכתוב. הם נקראו סופרים, והם היו חשובים מאוד.",
+      "רוב העם, האיכרים והפועלים, לא ידעו לקרוא בכלל.",
+      "עם הזמן המצרים פיתחו גם כתב מהיר ופשוט יותר, כדי לכתוב בקלות על דפים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בכתב המצרי היו מאות סימנים שונים. בעברית יש רק 22 אותיות, ועם הן כותבים כל מילה!"
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "נייר מהנהר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Egyptian workers on the Nile bank cutting tall papyrus stalks, slicing them into thin strips, laying them crosswise and pressing them into sheets drying in the sun.",
+     "move": "right",
+     "fx": "light",
+     "art": "🌿",
+     "say": [
+      "על מה כתבו? על פפירוס! פפירוס הוא צמח גבוה שגדל בביצות של הנילוס.",
+      "חתכו את הגבעול לרצועות דקות, הניחו אותן שתי וערב, לחצו וייבשו בשמש. וכך יצא דף לכתיבה.",
+      "המילה האנגלית לנייר, \"פייפר\", באה מהמילה פפירוס.",
+      "את הדפים הדביקו זה לזה, ונהייתה מגילה ארוכה שגוללים אותה. כמו מגילת אסתר שלנו!",
+      "ויודעים מה? כשיוכבד שמה את משה התינוק בתיבה, התורה אומרת שזו הייתה \"תבת גמא\". רבים מזהים את הגומא עם צמח הפפירוס.",
+      "הפפירוס היה כל כך חשוב, שמצרים מכרה אותו לארצות רבות."
+     ],
+     "pasuk": {
+      "text": "ותקח לו תבת גמא... ותשם בסוף על שפת היאר",
+      "ref": "שמות ב, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הסופר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: An Egyptian scribe in a long white linen robe sits cross-legged with a papyrus scroll on his lap, dipping a reed pen into a small palette of black and red ink, a sunny courtyard.",
+     "move": "in",
+     "fx": null,
+     "art": "✍️",
+     "say": [
+      "הסופר המצרי ישב עם מגילת פפירוס על הברכיים, ועט עשוי מקנה סוף.",
+      "הדיו היה שחור ואדום, והסופר כתב בזהירות רבה.",
+      "כדי להיות סופר, נער מצרי למד שנים ארוכות בבית ספר מיוחד, והעתיק סימנים שוב ושוב.",
+      "הסופרים רשמו כמה תבואה נאספה, כמה מסים שילמו, ומה עשה פרעה.",
+      "הכתב המצרי החזיק מעמד הרבה מאוד שנים, אבל בסוף אנשים הפסיקו להשתמש בו, ושכחו לגמרי איך קוראים אותו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "סופר סת\"ם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A Jewish scribe with a beard and kippah carefully writing a Torah scroll with a feather quill on parchment at a wooden desk, an inkwell beside him, soft window light, no readable letters visible.",
+     "move": "in",
+     "fx": "light",
+     "art": "✍️",
+     "say": [
+      "גם בעם ישראל יש סופר, אבל מסוג אחר: סופר סת\"ם, שכותב ספרי תורה, תפילין ומזוזות.",
+      "הוא כותב בנוצה ובדיו שחור על קלף, בזהירות גדולה. אם חסרה אות אחת, ספר התורה פסול, וצריך לתקן אותו.",
+      "כך, מדור לדור, ספרי התורה נכתבים שוב ושוב, אות אחרי אות, בלי לשנות דבר.",
+      "את הכתב של המצרים שכחו, ואף אחד לא ידע לקרוא אותו יותר מאלף שנה. אבל את התורה, ילדים יהודים קראו בכל דור, בלי הפסקה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אבן רוזטה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A large dark grey stone slab with three bands of tiny carved script, found half buried in sand near a river delta, soldiers in old 18th-century uniforms without weapons raised kneel to examine it in the morning light.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🪨",
+     "say": [
+      "במשך יותר מאלף שנה, אף אחד בעולם לא ידע לקרוא את הכתב של המצרים.",
+      "ואז, בשנת 1799, חיילים צרפתים שחפרו במצרים מצאו אבן גדולה ושחורה ליד העיר רוזטה.",
+      "על האבן היה כתוב אותו טקסט עצמו בשלוש צורות: בהירוגליפים, בעוד כתב מצרי, וביוונית.",
+      "יוונית עתיקה חוקרים ידעו לקרוא. עכשיו היה להם מפתח!",
+      "איך פותחים קוד סודי, כשיש לך את אותו משפט בשפה שאתה מכיר? משווים, סימן אחרי סימן."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אבן רוזטה נמצאת היום במוזיאון בלונדון, ואנשים עומדים בתור כדי לראות אותה."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "הפענוח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A 19th-century study room lit by a candle at night, a young scholar in a dark coat bent over papers and a copy of carved symbols, books piled around, an excited expression.",
+     "move": "in",
+     "fx": "night",
+     "art": "🕯️",
+     "say": [
+      "חוקר צרפתי צעיר בשם ז'אן פרנסואה שאמפוליון עבד על האבן שנים רבות.",
+      "הוא השווה את המילים היווניות לסימנים המצריים, וחיפש שמות של מלכים, שהיו מוקפים בעיגול.",
+      "בשנת 1822 הוא הצליח: הוא הבין איך הכתב עובד.",
+      "מאז אפשר לקרוא את מה שכתוב על קירות מצרים, ולדעת הרבה על החיים שם.",
+      "זה לקח הרבה סבלנות. שאמפוליון למד הרבה שפות עתיקות, ובזכות הידע שלו הצליח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "אותיות לכל ילד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A warm cheder classroom in a Jewish town long ago: a kind teacher with a beard and kippah points to a small chalkboard while young boys with kippot sit with open books, morning light through a window.",
+     "move": "out",
+     "fx": "light",
+     "art": "📖👦",
+     "say": [
+      "ועכשיו נחשוב על ההבדל. במצרים, הכתב היה סוד של מעטים.",
+      "אצל עם ישראל, התורה נכתבה באותיות, ואפשר ללמוד אותן בקלות. רק 22 אותיות!",
+      "שימו לב: את האותיות שלנו כל ילד יכול ללמוד תוך זמן קצר, ואז לקרוא כל מילה בתורה.",
+      "התורה מצווה כל אבא: ושיננתם לבניך. כל ילד צריך ללמוד תורה.",
+      "חכמינו מספרים שיהושע בן גמלא תיקן שיהיו מלמדים בכל עיר ועיר, כדי שכל ילד ילמד, גם מי שאין לו אבא שילמד אותו.",
+      "וכך עם ישראל נהיה עם של ספר. גם אתם, כשאתם קוראים בסידור ובחומש, ממשיכים את המסורת הזאת."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-egf-f3e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הם הירוגליפים?",
+   "answer": "כתב של המצרים העתיקים, עשוי מסימנים כמו ציורים",
+   "options": [
+    "כתב של המצרים העתיקים, עשוי מסימנים כמו ציורים",
+    "ציורי קיר לקישוט בלבד",
+    "שפה של ציפורים"
+   ],
+   "explain_he": "הירוגליפים הם כתב המצרים העתיקים. כל סימן מסמן מילה, צליל או משמעות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רק מעטים במצרים ידעו לקרוא?",
+   "answer": "כי היו מאות סימנים, והיה צריך שנים רבות כדי ללמוד אותם",
+   "options": [
+    "כי היו מאות סימנים, והיה צריך שנים רבות כדי ללמוד אותם",
+    "כי היה אסור לקרוא בלילה",
+    "כי לא היו ספרים בכלל"
+   ],
+   "explain_he": "בכתב המצרי היו מאות סימנים. רק סופרים שלמדו שנים ידעו לקרוא ולכתוב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ממה עשו המצרים דפים לכתיבה?",
+   "answer": "מצמח הפפירוס שגדל ליד הנילוס",
+   "options": [
+    "מצמח הפפירוס שגדל ליד הנילוס",
+    "מעור של גמלים",
+    "מעצי ארז"
+   ],
+   "explain_he": "חתכו את הפפירוס לרצועות, הניחו אותן שתי וערב, לחצו וייבשו, וכך יצא דף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אבן רוזטה עזרה לפענח את הכתב?",
+   "answer": "כי היה עליה אותו טקסט גם ביוונית, שאותה ידעו לקרוא",
+   "options": [
+    "כי היה עליה אותו טקסט גם ביוונית, שאותה ידעו לקרוא",
+    "כי היה עליה ציור של מילון",
+    "כי שאמפוליון כתב אותה בעצמו"
+   ],
+   "explain_he": "על האבן היה אותו טקסט בשלוש צורות. בעזרת היוונית הבינו את הסימנים המצריים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ההבדל בין הכתב המצרי לבין הלימוד בעם ישראל?",
+   "answer": "במצרים הכתב היה למעטים, ובעם ישראל כל ילד לומד תורה",
+   "options": [
+    "במצרים הכתב היה למעטים, ובעם ישראל כל ילד לומד תורה",
+    "אין שום הבדל",
+    "בעם ישראל רק המלך ידע לקרוא"
+   ],
+   "explain_he": "בעברית יש רק 22 אותיות, והתורה מצווה ללמד כל ילד. יהושע בן גמלא תיקן מלמדים בכל עיר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f3e6"
+  }
+ ]
+}

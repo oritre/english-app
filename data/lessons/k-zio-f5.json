@@ -1,0 +1,567 @@
+{
+ "id": "k-zio-f5",
+ "unit_id": "k-zio-u2",
+ "course": "zionism",
+ "title_he": "בן־יהודה ותחיית העברית",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "בן־יהודה ותחיית העברית",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בנמל יפו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Eliezer Ben-Yehuda: a thin man with a short beard, small round glasses and a dark 1880s suit. Scene: The port of Jaffa in 1881 at morning, small rowing boats carrying passengers from a ship to the rocky shore, a thin young man with round glasses and his young wife in a long dress and head covering stepping onto the land.",
+     "move": "in",
+     "fx": "mist",
+     "art": "⛵👨👩",
+     "say": [
+      "נמל יפו, שנת 1881. סירה קטנה מתנדנדת על הגלים ומביאה נוסעים מהאונייה אל החוף.",
+      "בסירה יושב צעיר רזה עם משקפיים עגולים, ולידו אשתו הצעירה, דבורה.",
+      "לפי הסיפור, כשהגיעו לחוף, הוא אמר לה: מעכשיו, אנחנו מדברים רק עברית.",
+      "דבורה כמעט לא ידעה עברית. גם בירושלים כמעט אף אחד לא דיבר עברית בבית.",
+      "אבל הצעיר הזה היה עקשן מאוד, ומלא אמונה ברעיון שלו.",
+      "הוא חשב כך: לעם יש ארץ, ויש לו תורה. עכשיו הוא צריך גם שפה אחת, שבה ידברו כולם, מכל הגלויות.",
+      "שמו היה אליעזר בן־יהודה, והוא החליט להחזיר את העברית להיות שפה מדוברת של כל העם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "העברית לא מתה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A busy market alley in old Jerusalem in the 1880s, Jews of different lands: a Yemenite man with long side-locks, an Ashkenazi man in a long coat and a Sephardi merchant in a robe, bargaining together and smiling, baskets of fruit.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨👴👨",
+     "say": [
+      "רגע, אולי אתם שואלים: האם העברית הייתה שפה מתה? ממש לא.",
+      "במשך כל שנות הגלות, יהודים התפללו בעברית, למדו תורה ומשנה בלשון הקודש, וכתבו בה ספרים, שירים ומכתבים.",
+      "רבנים מארצות שונות כתבו זה לזה שאלות ותשובות בעברית.",
+      "ובתימן, בבבל, במרוקו ובפולין, ילדים קטנים למדו לקרוא עברית בחדר, מתוך החומש והסידור.",
+      "ובשוק של ירושלים, כשיהודי מתימן רצה לדבר עם יהודי מליטא, הם השתמשו בעברית של התפילה.",
+      "אבל בבית, עם אבא ואמא, דיברו יידיש, לדינו, ערבית או שפות אחרות.",
+      "העברית הייתה כמו אוצר יקר בארון: שמרו עליו בקדושה, אבל לא השתמשו בו בכל יום.",
+      "וחז״ל כבר אמרו בירושלמי שמי שגר בארץ ישראל ומדבר בלשון הקודש, מובטח לו שהוא בן העולם הבא."
+     ],
+     "pasuk": {
+      "text": "כָּל מִי שֶׁהוּא קָבוּעַ בְּאֶרֶץ יִשְׂרָאֵל... וּמְדַבֵּר בִּלְשׁוֹן הַקֹּדֶשׁ... מְבֻשָּׂר שֶׁהוּא בֶּן הָעוֹלָם הַבָּא",
+      "ref": "ירושלמי, שבת א, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מי היה בן־יהודה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A Lithuanian yeshiva study hall in the 1870s, a thin teenage boy with a kippah and small glasses reading a Hebrew book with wonder, older students learning Gemara around him, warm candle light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦👨",
+     "say": [
+      "אליעזר נולד בשנת 1858 בעיירה קטנה בליטא, ושמו אז היה אליעזר פרלמן.",
+      "כילד הוא למד בחדר ובישיבה, ושם התאהב בשפה העברית.",
+      "בבגרותו התרחק מאורח החיים של הישיבה, אבל את לשון הקודש הוא אהב כל חייו.",
+      "כשהיה סטודנט בפריז, הוא הגיע למסקנה: עם שחוזר לארצו צריך לחזור גם לשפתו.",
+      "הוא החליף את שם משפחתו לבן־יהודה, כלומר, בן לעם היהודי.",
+      "ואז, בגיל עשרים ושלוש, הוא עלה לארץ ישראל.",
+      "הוא היה חולה במחלת ריאות, והרופאים לא האמינו שיחיה זמן רב. אבל הוא חי ועבד בארץ עוד יותר מארבעים שנה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הילד העברי הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Eliezer Ben-Yehuda: a thin man with a short beard, small round glasses and a dark 1880s suit. Scene: A small simple room in Jerusalem in the 1880s, a mother in a long dress and head covering singing to a baby in a wooden cradle, the father with glasses standing near the window smiling, books on a shelf.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👩👶",
+     "say": [
+      "בשנת 1882 נולד לבני הזוג בן־יהודה בן, וקראו לו בן־ציון.",
+      "בן־יהודה החליט שהילד ישמע רק עברית. לא יידיש, לא רוסית ולא צרפתית.",
+      "זה היה קשה מאוד. לא היו מילים לדברים פשוטים של תינוקות: לבובה, לבקבוק, לגרביים.",
+      "האמא שרה לו שירי ערש בעברית, והאבא המציא מילים כשחסרו.",
+      "בן־ציון היה הילד הראשון מזה מאות שנים שהעברית הייתה שפת האם שלו.",
+      "אנשים באו לראות את הפלא: ילד קטן שמדבר בעברית כמו שמדברים בכל שפה.",
+      "אחריו גדלו עוד ילדים כאלה, במשפחה ובשכונה. מילה אחרי מילה, השפה נכנסה לבתים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בן־ציון בן־יהודה, שנודע אחר כך בשם איתמר בן־אב״י, היה הילד הראשון מזה מאות שנים שגדל רק בעברית."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "מילים חדשות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Eliezer Ben-Yehuda: a thin man with a short beard, small round glasses and a dark 1880s suit. Scene: A desk covered with stacks of old Hebrew books, Mishnah and Talmud volumes open, handwritten note cards, a man with round glasses writing late at night by an oil lamp, cozy and focused.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "איך ממציאים מילה בעברית? בן־יהודה לא המציא מהאוויר.",
+      "קודם הוא חיפש בתנ״ך, במשנה, בתלמוד ובספרים עתיקים, אולי כבר יש מילה מתאימה.",
+      "ואם לא מצא, הוא לקח שורש עברי עתיק ובנה ממנו מילה חדשה.",
+      "למשל, מהמילה עת הוא בנה עיתון, ומהמילה מילה הוא בנה מילון.",
+      "גם המילים גלידה ובובה מיוחסות לו. חלק מהמילים שהציע נקלטו, וחלק נשכחו, כי העם עצמו בחר באילו מילים להשתמש.",
+      "הוא הוציא לאור עיתונים בעברית, וכתב בהם על החדשות ועל המילים החדשות.",
+      "בשנת 1890 הוא ועוד חכמים הקימו את ועד הלשון, שהפך עם השנים לאקדמיה ללשון העברית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בבית הספר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A simple schoolroom in an early Jewish village around 1900, children with kippot and girls in long dresses sitting on wooden benches, a teacher pointing to a picture of a tree, the children raising hands eagerly.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦👧👦👧",
+     "say": [
+      "בבתי הספר של המושבות התחילו ללמד את כל המקצועות בעברית: חשבון, טבע, ואפילו התעמלות.",
+      "המורים נאלצו להמציא מילים תוך כדי השיעור.",
+      "הילדים, שלמדו מהר, דיברו עברית בהפסקות ובמשחקים, ואחר כך בבית.",
+      "ההורים, שדיברו שפות אחרות, למדו לפעמים עברית מהילדים שלהם.",
+      "תוך כשלושים או ארבעים שנה, נוצר דור שלם שהעברית הייתה שפתו הראשונה.",
+      "זה פלא שאין לו דוגמה: שפה של ספרים ותפילה חזרה לחיים בפי ילדים משחקים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אין בעולם עוד שפה עתיקה אחת שחזרה להיות שפת אם של מיליוני אנשים, כמו העברית."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "הנני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A bright modern classroom in Israel, children of today in modest school clothes reading from open Chumashim together with their teacher, a sunny window looking out on the hills of Jerusalem.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👦👧👨",
+     "say": [
+      "עכשיו תחשבו על עצמכם. אתם מדברים עברית כל יום, בבית, בבית הספר ובמשחק.",
+      "כשאברהם אבינו ענה לקדוש ברוך הוא, הוא אמר: הנני. ואתם מבינים את המילה הזאת בלי תרגום.",
+      "ילד בישראל פותח חומש, ומבין את דברי משה רבנו בשפה שלו.",
+      "זו מתנה גדולה, שאבות אבותינו בגלות לא זכו לה.",
+      "חז״ל אמרו שאחת הזכויות שבגללן נגאלו אבותינו ממצרים, הייתה שלא שינו את לשונם.",
+      "גם בגלות הארוכה שלנו, עם ישראל שמר על לשון הקודש. ועכשיו הוא זוכה לדבר בה שוב, בארצו.",
+      "הארץ חזרה, השפה חזרה, ועוד מעט נראה גם את התורה מאירה את הדרך, בדמותו של רב גדול."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-zio-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "בן־יהודה ותחיית העברית",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בנמל יפו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Eliezer Ben-Yehuda: a thin man with a short beard, small round glasses and a dark 1880s suit. Scene: The port of Jaffa in 1881 at morning, small rowing boats carrying passengers from a ship to the rocky shore, a thin young man with round glasses and his young wife in a long dress and head covering stepping onto the land.",
+     "move": "in",
+     "fx": "mist",
+     "art": "⛵👨👩",
+     "say": [
+      "נמל יפו, שנת 1881. סירה קטנה מתנדנדת על הגלים ומביאה נוסעים מהאונייה אל החוף.",
+      "בסירה יושב צעיר רזה עם משקפיים עגולים, ולידו אשתו הצעירה, דבורה.",
+      "לפי הסיפור, כשהגיעו לחוף, הוא אמר לה: מעכשיו, אנחנו מדברים רק עברית.",
+      "דבורה כמעט לא ידעה עברית. גם בירושלים כמעט אף אחד לא דיבר עברית בבית.",
+      "אבל הצעיר הזה היה עקשן מאוד, ומלא אמונה ברעיון שלו.",
+      "הוא חשב כך: לעם יש ארץ, ויש לו תורה. עכשיו הוא צריך גם שפה אחת, שבה ידברו כולם, מכל הגלויות.",
+      "שמו היה אליעזר בן־יהודה, והוא החליט להחזיר את העברית להיות שפה מדוברת של כל העם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "העברית לא מתה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A busy market alley in old Jerusalem in the 1880s, Jews of different lands: a Yemenite man with long side-locks, an Ashkenazi man in a long coat and a Sephardi merchant in a robe, bargaining together and smiling, baskets of fruit.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨👴👨",
+     "say": [
+      "רגע, אולי אתם שואלים: האם העברית הייתה שפה מתה? ממש לא.",
+      "במשך כל שנות הגלות, יהודים התפללו בעברית, למדו תורה ומשנה בלשון הקודש, וכתבו בה ספרים, שירים ומכתבים.",
+      "רבנים מארצות שונות כתבו זה לזה שאלות ותשובות בעברית.",
+      "ובתימן, בבבל, במרוקו ובפולין, ילדים קטנים למדו לקרוא עברית בחדר, מתוך החומש והסידור.",
+      "ובשוק של ירושלים, כשיהודי מתימן רצה לדבר עם יהודי מליטא, הם השתמשו בעברית של התפילה.",
+      "אבל בבית, עם אבא ואמא, דיברו יידיש, לדינו, ערבית או שפות אחרות.",
+      "העברית הייתה כמו אוצר יקר בארון: שמרו עליו בקדושה, אבל לא השתמשו בו בכל יום.",
+      "וחז״ל כבר אמרו בירושלמי שמי שגר בארץ ישראל ומדבר בלשון הקודש, מובטח לו שהוא בן העולם הבא."
+     ],
+     "pasuk": {
+      "text": "כָּל מִי שֶׁהוּא קָבוּעַ בְּאֶרֶץ יִשְׂרָאֵל... וּמְדַבֵּר בִּלְשׁוֹן הַקֹּדֶשׁ... מְבֻשָּׂר שֶׁהוּא בֶּן הָעוֹלָם הַבָּא",
+      "ref": "ירושלמי, שבת א, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מי היה בן־יהודה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A Lithuanian yeshiva study hall in the 1870s, a thin teenage boy with a kippah and small glasses reading a Hebrew book with wonder, older students learning Gemara around him, warm candle light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦👨",
+     "say": [
+      "אליעזר נולד בשנת 1858 בעיירה קטנה בליטא, ושמו אז היה אליעזר פרלמן.",
+      "כילד הוא למד בחדר ובישיבה, ושם התאהב בשפה העברית.",
+      "בבגרותו התרחק מאורח החיים של הישיבה, אבל את לשון הקודש הוא אהב כל חייו.",
+      "כשהיה סטודנט בפריז, הוא הגיע למסקנה: עם שחוזר לארצו צריך לחזור גם לשפתו.",
+      "הוא החליף את שם משפחתו לבן־יהודה, כלומר, בן לעם היהודי.",
+      "ואז, בגיל עשרים ושלוש, הוא עלה לארץ ישראל.",
+      "הוא היה חולה במחלת ריאות, והרופאים לא האמינו שיחיה זמן רב. אבל הוא חי ועבד בארץ עוד יותר מארבעים שנה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הילד העברי הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Eliezer Ben-Yehuda: a thin man with a short beard, small round glasses and a dark 1880s suit. Scene: A small simple room in Jerusalem in the 1880s, a mother in a long dress and head covering singing to a baby in a wooden cradle, the father with glasses standing near the window smiling, books on a shelf.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨👩👶",
+     "say": [
+      "בשנת 1882 נולד לבני הזוג בן־יהודה בן, וקראו לו בן־ציון.",
+      "בן־יהודה החליט שהילד ישמע רק עברית. לא יידיש, לא רוסית ולא צרפתית.",
+      "זה היה קשה מאוד. לא היו מילים לדברים פשוטים של תינוקות: לבובה, לבקבוק, לגרביים.",
+      "האמא שרה לו שירי ערש בעברית, והאבא המציא מילים כשחסרו.",
+      "בן־ציון היה הילד הראשון מזה מאות שנים שהעברית הייתה שפת האם שלו.",
+      "אנשים באו לראות את הפלא: ילד קטן שמדבר בעברית כמו שמדברים בכל שפה.",
+      "אחריו גדלו עוד ילדים כאלה, במשפחה ובשכונה. מילה אחרי מילה, השפה נכנסה לבתים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בן־ציון בן־יהודה, שנודע אחר כך בשם איתמר בן־אב״י, היה הילד הראשון מזה מאות שנים שגדל רק בעברית."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "מילים חדשות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Eliezer Ben-Yehuda: a thin man with a short beard, small round glasses and a dark 1880s suit. Scene: A desk covered with stacks of old Hebrew books, Mishnah and Talmud volumes open, handwritten note cards, a man with round glasses writing late at night by an oil lamp, cozy and focused.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "איך ממציאים מילה בעברית? בן־יהודה לא המציא מהאוויר.",
+      "קודם הוא חיפש בתנ״ך, במשנה, בתלמוד ובספרים עתיקים, אולי כבר יש מילה מתאימה.",
+      "ואם לא מצא, הוא לקח שורש עברי עתיק ובנה ממנו מילה חדשה.",
+      "למשל, מהמילה עת הוא בנה עיתון, ומהמילה מילה הוא בנה מילון.",
+      "גם המילים גלידה ובובה מיוחסות לו. חלק מהמילים שהציע נקלטו, וחלק נשכחו, כי העם עצמו בחר באילו מילים להשתמש.",
+      "הוא הוציא לאור עיתונים בעברית, וכתב בהם על החדשות ועל המילים החדשות.",
+      "בשנת 1890 הוא ועוד חכמים הקימו את ועד הלשון, שהפך עם השנים לאקדמיה ללשון העברית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "המילון הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Eliezer Ben-Yehuda: a thin man with a short beard, small round glasses and a dark 1880s suit. Scene: A room full of tall shelves and boxes of note cards, a gray-haired man with round glasses bent over a huge unfinished dictionary manuscript at dawn, his wife bringing him tea, soft morning light.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👩",
+     "say": [
+      "המפעל הגדול של חייו היה מילון, ובו כל המילים העבריות מכל הדורות, מהתנ״ך ועד ימיו.",
+      "לפי הסיפורים, הוא עבד עליו שעות רבות בכל יום, גם כשהיה חולה, ונחלש.",
+      "הוא נפטר בשנת 1922, והמילון עוד לא היה גמור. אשתו ובנו וחכמים אחרים המשיכו אותו.",
+      "רק שנים רבות אחרי מותו, המילון הגדול הושלם. יש בו כרכים רבים.",
+      "ליד כל מילה הוא הביא את המקומות שבהם היא מופיעה בספרים העתיקים, כדי להראות שהשפה החדשה יונקת מהישנה.",
+      "אבל חשוב לזכור: לא איש אחד החיה את השפה.",
+      "מורים במושבות, שהתחילו ללמד בעברית, וילדים שהביאו אותה הביתה, הם שהפכו אותה לשפת העם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בבית הספר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A simple schoolroom in an early Jewish village around 1900, children with kippot and girls in long dresses sitting on wooden benches, a teacher pointing to a picture of a tree, the children raising hands eagerly.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦👧👦👧",
+     "say": [
+      "בבתי הספר של המושבות התחילו ללמד את כל המקצועות בעברית: חשבון, טבע, ואפילו התעמלות.",
+      "המורים נאלצו להמציא מילים תוך כדי השיעור.",
+      "הילדים, שלמדו מהר, דיברו עברית בהפסקות ובמשחקים, ואחר כך בבית.",
+      "ההורים, שדיברו שפות אחרות, למדו לפעמים עברית מהילדים שלהם.",
+      "תוך כשלושים או ארבעים שנה, נוצר דור שלם שהעברית הייתה שפתו הראשונה.",
+      "זה פלא שאין לו דוגמה: שפה של ספרים ותפילה חזרה לחיים בפי ילדים משחקים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אין בעולם עוד שפה עתיקה אחת שחזרה להיות שפת אם של מיליוני אנשים, כמו העברית."
+     }
+    },
+    {
+     "id": "s9",
+     "title_he": "מלחמת השפות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A crowd of students and teachers in modest clothes of 1913 standing in front of a large new stone building on a hill above Haifa bay, some holding notebooks, earnest determined faces, the sea and Mount Carmel behind.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦👧👨👨",
+     "say": [
+      "בשנת 1913 נבנה בחיפה בית ספר גבוה לטכנולוגיה, הטכניון, בעזרת אגודה יהודית מגרמניה.",
+      "ראשי האגודה החליטו שהלימודים בו יהיו בגרמנית. הם חשבו שבעברית אי אפשר ללמד מדע.",
+      "המורים והתלמידים בארץ סירבו. הם עזבו את בתי הספר של האגודה והקימו בתי ספר עבריים חדשים.",
+      "המאבק הזה נקרא מלחמת השפות. ובסופו הוחלט: הלימודים בארץ ישראל יהיו בעברית.",
+      "כך התברר שהשפה העתיקה מסוגלת לדבר גם על מנועים, על חשמל ועל חשבון.",
+      "והמילים החדשות לא נלקחו משפה זרה, אלא נבנו מהשורשים של לשון התנ״ך.",
+      "הטכניון נפתח לבסוף בשנת 1924, והלימודים בו היו בעברית.",
+      "ומאז, בבתי הספר בארץ, לומדים בעברית כל מקצוע, מחשבון ועד רפואה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הנני",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A bright modern classroom in Israel, children of today in modest school clothes reading from open Chumashim together with their teacher, a sunny window looking out on the hills of Jerusalem.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👦👧👨",
+     "say": [
+      "עכשיו תחשבו על עצמכם. אתם מדברים עברית כל יום, בבית, בבית הספר ובמשחק.",
+      "כשאברהם אבינו ענה לקדוש ברוך הוא, הוא אמר: הנני. ואתם מבינים את המילה הזאת בלי תרגום.",
+      "ילד בישראל פותח חומש, ומבין את דברי משה רבנו בשפה שלו.",
+      "זו מתנה גדולה, שאבות אבותינו בגלות לא זכו לה.",
+      "חז״ל אמרו שאחת הזכויות שבגללן נגאלו אבותינו ממצרים, הייתה שלא שינו את לשונם.",
+      "גם בגלות הארוכה שלנו, עם ישראל שמר על לשון הקודש. ועכשיו הוא זוכה לדבר בה שוב, בארצו.",
+      "הארץ חזרה, השפה חזרה, ועוד מעט נראה גם את התורה מאירה את הדרך, בדמותו של רב גדול."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-zio-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה החליט בן־יהודה כשהגיע לארץ?",
+   "answer": "שהוא ואשתו ידברו מעכשיו רק עברית",
+   "options": [
+    "שהוא ואשתו ידברו מעכשיו רק עברית",
+    "שהוא יכתוב רק ביידיש",
+    "שילדיו ילמדו בצרפתית"
+   ],
+   "explain_he": "לפי הסיפור, בהגיעו לחוף אמר לאשתו דבורה: מעכשיו מדברים רק עברית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה החליט בן־יהודה כשהגיע לארץ?",
+   "answer": "שהוא ואשתו ידברו מעכשיו רק עברית",
+   "options": [
+    "שהוא ואשתו ידברו מעכשיו רק עברית",
+    "שהוא יכתוב רק ביידיש",
+    "שילדיו ילמדו בצרפתית"
+   ],
+   "explain_he": "לפי הסיפור, בהגיעו לחוף אמר לאשתו דבורה: מעכשיו מדברים רק עברית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "האם העברית הייתה שפה \"מתה\" לפני בן־יהודה?",
+   "answer": "לא. התפללו, למדו וכתבו בה, אבל כמעט לא דיברו בה בבית",
+   "options": [
+    "לא. התפללו, למדו וכתבו בה, אבל כמעט לא דיברו בה בבית",
+    "כן. איש לא ידע לקרוא עברית",
+    "כן. רק בכתבי יד עתיקים נשארה"
+   ],
+   "explain_he": "העברית חיה בתפילה, בתורה ובספרים, וגם בשוק בין יהודים מארצות שונות. רק בבית דיברו שפות אחרות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "האם העברית הייתה שפה \"מתה\" לפני בן־יהודה?",
+   "answer": "לא. התפללו, למדו וכתבו בה, אבל כמעט לא דיברו בה בבית",
+   "options": [
+    "לא. התפללו, למדו וכתבו בה, אבל כמעט לא דיברו בה בבית",
+    "כן. איש לא ידע לקרוא עברית",
+    "כן. רק בכתבי יד עתיקים נשארה"
+   ],
+   "explain_he": "העברית חיה בתפילה, בתורה ובספרים, וגם בשוק בין יהודים מארצות שונות. רק בבית דיברו שפות אחרות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה בן־ציון בן־יהודה?",
+   "answer": "הילד הראשון מזה מאות שנים שגדל רק בעברית",
+   "options": [
+    "הילד הראשון מזה מאות שנים שגדל רק בעברית",
+    "הרב הראשי הראשון",
+    "מייסד פתח תקווה"
+   ],
+   "explain_he": "בן־ציון, שנולד בשנת 1882, היה הילד הראשון שהעברית הייתה שפת האם שלו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה בן־ציון בן־יהודה?",
+   "answer": "הילד הראשון מזה מאות שנים שגדל רק בעברית",
+   "options": [
+    "הילד הראשון מזה מאות שנים שגדל רק בעברית",
+    "הרב הראשי הראשון",
+    "מייסד פתח תקווה"
+   ],
+   "explain_he": "בן־ציון, שנולד בשנת 1882, היה הילד הראשון שהעברית הייתה שפת האם שלו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חיפש בן־יהודה קודם כול מילים מתאימות?",
+   "answer": "בתנ״ך, במשנה, בתלמוד ובספרים עתיקים",
+   "options": [
+    "בתנ״ך, במשנה, בתלמוד ובספרים עתיקים",
+    "בעיתונים מאמריקה",
+    "במילון צרפתי"
+   ],
+   "explain_he": "רק כשלא מצא מילה מתאימה, בנה מילה חדשה משורש עברי עתיק.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חיפש בן־יהודה קודם כול מילים מתאימות?",
+   "answer": "בתנ״ך, במשנה, בתלמוד ובספרים עתיקים",
+   "options": [
+    "בתנ״ך, במשנה, בתלמוד ובספרים עתיקים",
+    "בעיתונים מאמריקה",
+    "במילון צרפתי"
+   ],
+   "explain_he": "רק כשלא מצא מילה מתאימה, בנה מילה חדשה משורש עברי עתיק.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזו מילה בנה בן־יהודה את המילה \"עיתון\"?",
+   "answer": "עת",
+   "options": [
+    "עת",
+    "עיט",
+    "תנור"
+   ],
+   "explain_he": "המילה עיתון באה מהמילה עת, זמן: דבר שיוצא בכל עת קבועה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזו מילה בנה בן־יהודה את המילה \"עיתון\"?",
+   "answer": "עת",
+   "options": [
+    "עת",
+    "עיט",
+    "תנור"
+   ],
+   "explain_he": "המילה עיתון באה מהמילה עת, זמן: דבר שיוצא בכל עת קבועה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה התפתח מוועד הלשון שהוקם בשנת 1890?",
+   "answer": "האקדמיה ללשון העברית",
+   "options": [
+    "האקדמיה ללשון העברית",
+    "הכנסת",
+    "האוניברסיטה העברית"
+   ],
+   "explain_he": "ועד הלשון הפך עם השנים לאקדמיה ללשון העברית, שקובעת מילים חדשות עד היום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה התפתח מוועד הלשון שהוקם בשנת 1890?",
+   "answer": "האקדמיה ללשון העברית",
+   "options": [
+    "האקדמיה ללשון העברית",
+    "הכנסת",
+    "האוניברסיטה העברית"
+   ],
+   "explain_he": "ועד הלשון הפך עם השנים לאקדמיה ללשון העברית, שקובעת מילים חדשות עד היום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אי אפשר לומר שאיש אחד לבדו החיה את העברית?",
+   "answer": "כי מורים במושבות וילדים שדיברו בה הפכו אותה לשפת העם",
+   "options": [
+    "כי מורים במושבות וילדים שדיברו בה הפכו אותה לשפת העם",
+    "כי בן־יהודה בכלל לא דיבר עברית",
+    "כי השפה חזרה רק אחרי קום המדינה"
+   ],
+   "explain_he": "בן־יהודה הוביל, אבל בתי הספר והילדים שהביאו את העברית הביתה הם שהחיו אותה באמת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f5e15"
+  }
+ ]
+}

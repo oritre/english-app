@@ -1,0 +1,545 @@
+{
+ "id": "k-zio-f6",
+ "unit_id": "k-zio-u2",
+ "course": "zionism",
+ "title_he": "הרב קוק",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "הרב קוק",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "רב חדש ביפו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: The old port town of Jaffa in 1904, stone houses by the sea, a rabbi with a full beard, black hat and long black coat arriving and being greeted warmly by local Jews in work clothes and festive clothes, morning sun.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👨👨",
+     "say": [
+      "יפו, שנת 1904. ספינה מגיעה לנמל, ועליה רב צעיר יחסית, עם זקן ועיניים טובות.",
+      "אנשי יפו יוצאים לקבל את פניו. ביניהם תלמידי חכמים, סוחרים, וגם פועלים צעירים שהגיעו מרוסיה.",
+      "הרב החדש מקשיב לכולם, מחייך לכולם, ומדבר עם כל אחד בכבוד.",
+      "הוא נבחר להיות רבה של יפו ושל המושבות שמסביב.",
+      "שמו הרב אברהם יצחק הכהן קוק. ובני ישראל יקראו לו עוד שנים רבות, באהבה, הרב.",
+      "היום נכיר אחד מגדולי התורה בדורות האחרונים, שהיה חלק חשוב מאוד בסיפור שיבת ציון.",
+      "נשמע על ילדותו, על אהבתו לכל יהודי, ועל רעיונותיו הגדולים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "עילוי מגריבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A large Lithuanian yeshiva hall of the 1880s full of young men learning in pairs, one young student with a dark beard standing out, deeply absorbed in a big Gemara, an old Rosh Yeshiva watching him kindly.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨👦👴",
+     "say": [
+      "הרב קוק נולד בשנת 1865 בעיירה גריבה שבלטביה, למשפחה של רבנים.",
+      "כבר כילד קראו לו עילוי, כלומר, בעל כישרון גדול מאוד בלימוד.",
+      "כשגדל, נסע ללמוד בישיבת וולוז׳ין, הגדולה בישיבות ליטא, אצל הנצי״ב.",
+      "הוא למד גמרא והלכה בהתמדה עצומה, וגם קבלה, מחשבה ושירה.",
+      "בגיל צעיר כבר שימש רב בעיירות בליטא, וכתב ספרים ומאמרים.",
+      "הוא היה ידוע גם כאיש של מידות טובות: צנוע, נדיב, ומקבל כל אדם בסבר פנים יפות.",
+      "אבל ליבו משך אותו אל ארץ ישראל. ובגיל שלושים ותשע, הוא עלה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "אהבת ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A dusty courtyard of a young farming village around 1907, a rabbi in a black coat talking warmly with young workers in work shirts and caps, one worker listening with surprise, an older farmer with a kippah nearby, golden afternoon.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴👨👨",
+     "say": [
+      "ביפו ובמושבות פגש הרב קוק יהודים רבים שלא שמרו תורה ומצוות. חלקם היו צעירים שעזבו את בית אביהם.",
+      "יש מי שהיה כועס עליהם, ויש מי שהיה מתרחק מהם. הרב קוק בחר דרך אחרת.",
+      "הוא הסתכל על הטוב שבהם: הם מוסרים את נפשם על בניין הארץ, עובדים קשה ואוהבים את עם ישראל.",
+      "הוא אהב אותם אהבה גדולה, ובאהבה הזאת ניסה לקרב אותם לתורה, לשבת ולכשרות.",
+      "הוא כתב משפט מפורסם: הצדיקים הטהורים אינם קובלים על הרשעה, אלא מוסיפים צדק.",
+      "כלומר, במקום רק להתלונן על מה שרע, צריך להוסיף טוב.",
+      "כך גם לימדו חז״ל: ישראל, אף על פי שחטא, ישראל הוא."
+     ],
+     "pasuk": {
+      "text": "הַצַּדִּיקִים הַטְּהוֹרִים אֵינָם קוֹבְלִים עַל הָרִשְׁעָה, אֶלָּא מוֹסִיפִים צֶדֶק",
+      "ref": "הרב קוק, ערפלי טוהר"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "תקוע באירופה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A rainy London street around 1917, an old synagogue with tall windows, a rabbi with a beard and black coat walking with a few congregants under umbrellas, gas lamps glowing.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👴👨",
+     "say": [
+      "בשנת 1914 נסע הרב קוק לאירופה, לכינוס של רבנים. ובדיוק אז פרצה מלחמת העולם הראשונה.",
+      "הדרכים נסגרו, והוא לא יכול היה לחזור לארץ.",
+      "במשך שנות המלחמה שימש רב בשווייץ, ואחר כך בבית כנסת בלונדון.",
+      "גם שם הוא לא נח. הוא דיבר וכתב על חשיבותה של ארץ ישראל, וחיזק את היהודים שפגש.",
+      "בלונדון הוא היה כשהממשלה הבריטית פרסמה את הצהרת בלפור, שנלמד עליה בפרק הבא.",
+      "ובשנת 1919, כשהמלחמה נגמרה, הוא חזר לארץ, והפעם לירושלים, להיות רבה של העיר.",
+      "אנשי ירושלים קיבלו אותו בשמחה גדולה. אחרי שנים של מלחמה ורעב, היה להם רב שמחזק ומעודד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הרב הראשי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A festive gathering in a Jerusalem hall in 1921, many rabbis and community leaders in long coats and hats, two respected rabbis seated at the head of the table, one Ashkenazi in a black hat and one Sephardi in a robe and turban.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴👴👨👨",
+     "say": [
+      "בשנת 1921 הוקמה הרבנות הראשית לארץ ישראל, והרב קוק נבחר להיות הרב הראשי האשכנזי הראשון.",
+      "לצידו נבחר הרב יעקב מאיר להיות הרב הראשי הספרדי.",
+      "לרב קוק היו שאלות רבות לענות עליהן: איך מקיימים שמיטה בשדות? איך שומרים שבת בנמל ובבתי החרושת? איך מסדרים כשרות לעיר שלמה?",
+      "בארץ הצעירה הכול היה חדש, והוא היה צריך לפסוק הלכה לעם שחוזר לחיות בארצו.",
+      "הוא נסע במושבות ובקיבוצים, נפגש עם חקלאים ועם פועלים, ודיבר אל ליבם.",
+      "רבים שלא הכירו תורה, למדו להעריך אותה בזכותו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יחד עם הרב קוק נבחר הרב יעקב מאיר להיות הרב הראשי הספרדי, שנקרא בתואר הראשון לציון."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "מרכז הרב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A modest stone building in Jerusalem in the 1920s, young yeshiva students in white shirts and dark trousers entering with books under their arms, the elderly rabbi standing at the door greeting them, late afternoon light.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴👦👨",
+     "say": [
+      "הרב קוק חלם על ישיבה שתגדל תלמידי חכמים של ארץ ישראל.",
+      "בשנת 1924 הוא ייסד בירושלים ישיבה, שנקראה אחר כך מרכז הרב.",
+      "בישיבה למדו גמרא והלכה, וגם את הרעיונות של הרב על ארץ ישראל ועל הגאולה.",
+      "מהישיבה הזאת יצאו לאורך השנים רבנים ומחנכים רבים.",
+      "הרב קוק כתב גם ספרים חשובים, כמו אורות ואורות התשובה, ופסקי הלכה רבים.",
+      "הוא היה איש של תורה, של תפילה ושל אהבה, ואנשים ראו בו צדיק גדול.",
+      "מספרים שהיה מתפלל בהתלהבות כזאת, שמי שעמד לידו הרגיש שהוא מדבר ממש עם בוראו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "לכתו של צדיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A quiet evening view of the Mount of Olives in Jerusalem, rows of ancient stone graves, soft candle light, a family in modest clothes standing in prayer, the golden walls of the Old City across the valley.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨👩👦",
+     "say": [
+      "בשנת 1935, בג׳ באלול, נפטר הרב קוק בירושלים.",
+      "עשרות אלפי אנשים הלכו בהלוויה: חסידים ופרושים, ספרדים ואשכנזים, רבנים ופועלים.",
+      "כולם הרגישו שאיבדו אב. הוא נקבר בהר הזיתים, מול הר הבית.",
+      "הרב קוק לימד אותנו לראות את היד של הקדוש ברוך הוא בתוך ההיסטוריה, ולאהוב כל יהודי.",
+      "ובזמן שהוא לימד תורה בירושלים, הפוליטיקה של העולם הגדול התחילה להשפיע על הארץ.",
+      "בפרק הבא נחזור אחורה מעט, לשנת 1917, ונראה איך מעצמה גדולה הבטיחה לעם ישראל בית לאומי."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-zio-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "הרב קוק",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "רב חדש ביפו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: The old port town of Jaffa in 1904, stone houses by the sea, a rabbi with a full beard, black hat and long black coat arriving and being greeted warmly by local Jews in work clothes and festive clothes, morning sun.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👨👨",
+     "say": [
+      "יפו, שנת 1904. ספינה מגיעה לנמל, ועליה רב צעיר יחסית, עם זקן ועיניים טובות.",
+      "אנשי יפו יוצאים לקבל את פניו. ביניהם תלמידי חכמים, סוחרים, וגם פועלים צעירים שהגיעו מרוסיה.",
+      "הרב החדש מקשיב לכולם, מחייך לכולם, ומדבר עם כל אחד בכבוד.",
+      "הוא נבחר להיות רבה של יפו ושל המושבות שמסביב.",
+      "שמו הרב אברהם יצחק הכהן קוק. ובני ישראל יקראו לו עוד שנים רבות, באהבה, הרב.",
+      "היום נכיר אחד מגדולי התורה בדורות האחרונים, שהיה חלק חשוב מאוד בסיפור שיבת ציון.",
+      "נשמע על ילדותו, על אהבתו לכל יהודי, ועל רעיונותיו הגדולים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "עילוי מגריבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A large Lithuanian yeshiva hall of the 1880s full of young men learning in pairs, one young student with a dark beard standing out, deeply absorbed in a big Gemara, an old Rosh Yeshiva watching him kindly.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨👦👴",
+     "say": [
+      "הרב קוק נולד בשנת 1865 בעיירה גריבה שבלטביה, למשפחה של רבנים.",
+      "כבר כילד קראו לו עילוי, כלומר, בעל כישרון גדול מאוד בלימוד.",
+      "כשגדל, נסע ללמוד בישיבת וולוז׳ין, הגדולה בישיבות ליטא, אצל הנצי״ב.",
+      "הוא למד גמרא והלכה בהתמדה עצומה, וגם קבלה, מחשבה ושירה.",
+      "בגיל צעיר כבר שימש רב בעיירות בליטא, וכתב ספרים ומאמרים.",
+      "הוא היה ידוע גם כאיש של מידות טובות: צנוע, נדיב, ומקבל כל אדם בסבר פנים יפות.",
+      "אבל ליבו משך אותו אל ארץ ישראל. ובגיל שלושים ותשע, הוא עלה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "אהבת ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A dusty courtyard of a young farming village around 1907, a rabbi in a black coat talking warmly with young workers in work shirts and caps, one worker listening with surprise, an older farmer with a kippah nearby, golden afternoon.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴👨👨",
+     "say": [
+      "ביפו ובמושבות פגש הרב קוק יהודים רבים שלא שמרו תורה ומצוות. חלקם היו צעירים שעזבו את בית אביהם.",
+      "יש מי שהיה כועס עליהם, ויש מי שהיה מתרחק מהם. הרב קוק בחר דרך אחרת.",
+      "הוא הסתכל על הטוב שבהם: הם מוסרים את נפשם על בניין הארץ, עובדים קשה ואוהבים את עם ישראל.",
+      "הוא אהב אותם אהבה גדולה, ובאהבה הזאת ניסה לקרב אותם לתורה, לשבת ולכשרות.",
+      "הוא כתב משפט מפורסם: הצדיקים הטהורים אינם קובלים על הרשעה, אלא מוסיפים צדק.",
+      "כלומר, במקום רק להתלונן על מה שרע, צריך להוסיף טוב.",
+      "כך גם לימדו חז״ל: ישראל, אף על פי שחטא, ישראל הוא."
+     ],
+     "pasuk": {
+      "text": "הַצַּדִּיקִים הַטְּהוֹרִים אֵינָם קוֹבְלִים עַל הָרִשְׁעָה, אֶלָּא מוֹסִיפִים צֶדֶק",
+      "ref": "הרב קוק, ערפלי טוהר"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "תקוע באירופה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A rainy London street around 1917, an old synagogue with tall windows, a rabbi with a beard and black coat walking with a few congregants under umbrellas, gas lamps glowing.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👴👨",
+     "say": [
+      "בשנת 1914 נסע הרב קוק לאירופה, לכינוס של רבנים. ובדיוק אז פרצה מלחמת העולם הראשונה.",
+      "הדרכים נסגרו, והוא לא יכול היה לחזור לארץ.",
+      "במשך שנות המלחמה שימש רב בשווייץ, ואחר כך בבית כנסת בלונדון.",
+      "גם שם הוא לא נח. הוא דיבר וכתב על חשיבותה של ארץ ישראל, וחיזק את היהודים שפגש.",
+      "בלונדון הוא היה כשהממשלה הבריטית פרסמה את הצהרת בלפור, שנלמד עליה בפרק הבא.",
+      "ובשנת 1919, כשהמלחמה נגמרה, הוא חזר לארץ, והפעם לירושלים, להיות רבה של העיר.",
+      "אנשי ירושלים קיבלו אותו בשמחה גדולה. אחרי שנים של מלחמה ורעב, היה להם רב שמחזק ומעודד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הרב הראשי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A festive gathering in a Jerusalem hall in 1921, many rabbis and community leaders in long coats and hats, two respected rabbis seated at the head of the table, one Ashkenazi in a black hat and one Sephardi in a robe and turban.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴👴👨👨",
+     "say": [
+      "בשנת 1921 הוקמה הרבנות הראשית לארץ ישראל, והרב קוק נבחר להיות הרב הראשי האשכנזי הראשון.",
+      "לצידו נבחר הרב יעקב מאיר להיות הרב הראשי הספרדי.",
+      "לרב קוק היו שאלות רבות לענות עליהן: איך מקיימים שמיטה בשדות? איך שומרים שבת בנמל ובבתי החרושת? איך מסדרים כשרות לעיר שלמה?",
+      "בארץ הצעירה הכול היה חדש, והוא היה צריך לפסוק הלכה לעם שחוזר לחיות בארצו.",
+      "הוא נסע במושבות ובקיבוצים, נפגש עם חקלאים ועם פועלים, ודיבר אל ליבם.",
+      "רבים שלא הכירו תורה, למדו להעריך אותה בזכותו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יחד עם הרב קוק נבחר הרב יעקב מאיר להיות הרב הראשי הספרדי, שנקרא בתואר הראשון לציון."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "מרכז הרב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A modest stone building in Jerusalem in the 1920s, young yeshiva students in white shirts and dark trousers entering with books under their arms, the elderly rabbi standing at the door greeting them, late afternoon light.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴👦👨",
+     "say": [
+      "הרב קוק חלם על ישיבה שתגדל תלמידי חכמים של ארץ ישראל.",
+      "בשנת 1924 הוא ייסד בירושלים ישיבה, שנקראה אחר כך מרכז הרב.",
+      "בישיבה למדו גמרא והלכה, וגם את הרעיונות של הרב על ארץ ישראל ועל הגאולה.",
+      "מהישיבה הזאת יצאו לאורך השנים רבנים ומחנכים רבים.",
+      "הרב קוק כתב גם ספרים חשובים, כמו אורות ואורות התשובה, ופסקי הלכה רבים.",
+      "הוא היה איש של תורה, של תפילה ושל אהבה, ואנשים ראו בו צדיק גדול.",
+      "מספרים שהיה מתפלל בהתלהבות כזאת, שמי שעמד לידו הרגיש שהוא מדבר ממש עם בוראו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "אורות התשובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: An old study in Jerusalem at night with a window open to the stars, a rabbi with a white beard writing in a notebook by candle light, piles of handwritten pages, a sense of quiet holiness.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "אחד הספרים האהובים של הרב קוק נקרא אורות התשובה.",
+      "בגמרא במסכת פסחים נאמר שהתשובה נבראה עוד לפני שנברא העולם.",
+      "הרב קוק הסביר: התשובה איננה רק כשאדם מצטער על חטא. היא רצון עמוק של כל הבריאה לחזור לטוב ולשלמות.",
+      "הוא כתב שגם עם שלם יכול לעשות תשובה, ולחזור אל עצמו ואל בוראו.",
+      "ולכן, הוא ראה בשיבה של עם ישראל לארצו חלק מתשובה גדולה. העם חוזר הביתה, ובסוף יחזור גם אל התורה במלואה.",
+      "רבים לומדים את הספר הזה בחודש אלול, לפני הימים הנוראים.",
+      "הוא כתב שם שהתשובה מביאה שמחה, ולא רק צער. כי מי שחוזר לטוב, חוזר אל עצמו האמיתי.",
+      "והוא לימד שבכל יהודי יש ניצוץ קדוש שלעולם אינו כבה, גם כשהוא מוסתר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "אתחלתא דגאולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood. Rav Kook: a rabbi of about sixty with a full white beard, kind eyes, a black rabbinic hat and a long black coat. Scene: A sunrise view from a Jerusalem hilltop over terraced green fields and young villages in the valleys, a rabbi in a black coat standing with his back to the viewer, looking out with hope, birds in the sky.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴🌳",
+     "say": [
+      "מה היה החידוש הגדול של הרב קוק?",
+      "הוא ראה בשיבה לארץ, בבניין המושבות ובתחיית השפה, את תחילת הגאולה שהבטיחו הנביאים, בלשון הגמרא אתחלתא דגאולה.",
+      "הוא לימד שארץ ישראל איננה רק מקום מקלט. היא חלק מהנשמה של עם ישראל.",
+      "ולכן, גם מי שבונה אותה בלי לדעת למה, משתתף בתהליך גדול שהקדוש ברוך הוא מוביל.",
+      "חז״ל בירושלמי, במסכת ברכות, השוו את גאולת ישראל לשחר: בהתחלה רואים רק מעט אור, ולאט לאט הוא מתגבר, עד שהשמש עולה במלואה.",
+      "אבל הרב גם לימד שהגאולה השלמה תבוא רק כשהעם יחזור לא רק לארצו, אלא גם לתורתו.",
+      "חשוב לדעת שלא כל גדולי ישראל ראו את הדברים כמותו. אבל את גדלותו בתורה ואת אהבת ישראל שלו העריכו רבים.",
+      "בנו, הרב צבי יהודה קוק, המשיך את דרכו ועמד שנים רבות בראש ישיבת מרכז הרב."
+     ],
+     "pasuk": {
+      "text": "אֶרֶץ יִשְׂרָאֵל אֵינֶנָּה דָּבָר חִיצוֹנִי, קִנְיָן חִיצוֹנִי לָאֻמָּה",
+      "ref": "הרב קוק, אורות, ארץ ישראל א"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "לכתו של צדיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A quiet evening view of the Mount of Olives in Jerusalem, rows of ancient stone graves, soft candle light, a family in modest clothes standing in prayer, the golden walls of the Old City across the valley.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨👩👦",
+     "say": [
+      "בשנת 1935, בג׳ באלול, נפטר הרב קוק בירושלים.",
+      "עשרות אלפי אנשים הלכו בהלוויה: חסידים ופרושים, ספרדים ואשכנזים, רבנים ופועלים.",
+      "כולם הרגישו שאיבדו אב. הוא נקבר בהר הזיתים, מול הר הבית.",
+      "הרב קוק לימד אותנו לראות את היד של הקדוש ברוך הוא בתוך ההיסטוריה, ולאהוב כל יהודי.",
+      "ובזמן שהוא לימד תורה בירושלים, הפוליטיקה של העולם הגדול התחילה להשפיע על הארץ.",
+      "בפרק הבא נחזור אחורה מעט, לשנת 1917, ונראה איך מעצמה גדולה הבטיחה לעם ישראל בית לאומי."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-zio-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזו עיר הגיע הרב קוק כשעלה בשנת 1904?",
+   "answer": "יפו",
+   "options": [
+    "יפו",
+    "חיפה",
+    "צפת"
+   ],
+   "explain_he": "הרב קוק נבחר להיות רבה של יפו ושל המושבות שמסביב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזו עיר הגיע הרב קוק כשעלה בשנת 1904?",
+   "answer": "יפו",
+   "options": [
+    "יפו",
+    "חיפה",
+    "צפת"
+   ],
+   "explain_he": "הרב קוק נבחר להיות רבה של יפו ושל המושבות שמסביב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך התייחס הרב קוק לצעירים שלא שמרו מצוות?",
+   "answer": "באהבה, ומתוך האהבה ניסה לקרב אותם לתורה",
+   "options": [
+    "באהבה, ומתוך האהבה ניסה לקרב אותם לתורה",
+    "התעלם מהם לגמרי",
+    "ביקש שיעזבו את הארץ"
+   ],
+   "explain_he": "הוא ראה את הטוב שבהם, את מסירותם לבניין הארץ, ואהב אותם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך התייחס הרב קוק לצעירים שלא שמרו מצוות?",
+   "answer": "באהבה, ומתוך האהבה ניסה לקרב אותם לתורה",
+   "options": [
+    "באהבה, ומתוך האהבה ניסה לקרב אותם לתורה",
+    "התעלם מהם לגמרי",
+    "ביקש שיעזבו את הארץ"
+   ],
+   "explain_he": "הוא ראה את הטוב שבהם, את מסירותם לבניין הארץ, ואהב אותם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה תפקיד קיבל הרב קוק בשנת 1921?",
+   "answer": "הרב הראשי האשכנזי הראשון לארץ ישראל",
+   "options": [
+    "הרב הראשי האשכנזי הראשון לארץ ישראל",
+    "ראש העיר ירושלים",
+    "נשיא הקונגרס הציוני"
+   ],
+   "explain_he": "בשנת 1921 הוקמה הרבנות הראשית, ולצד הרב קוק כיהן הרב יעקב מאיר כרב הראשי הספרדי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה תפקיד קיבל הרב קוק בשנת 1921?",
+   "answer": "הרב הראשי האשכנזי הראשון לארץ ישראל",
+   "options": [
+    "הרב הראשי האשכנזי הראשון לארץ ישראל",
+    "ראש העיר ירושלים",
+    "נשיא הקונגרס הציוני"
+   ],
+   "explain_he": "בשנת 1921 הוקמה הרבנות הראשית, ולצד הרב קוק כיהן הרב יעקב מאיר כרב הראשי הספרדי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ישיבה ייסד הרב קוק בירושלים?",
+   "answer": "מרכז הרב",
+   "options": [
+    "מרכז הרב",
+    "וולוז׳ין",
+    "מקווה ישראל"
+   ],
+   "explain_he": "בשנת 1924 ייסד הרב קוק את הישיבה שנקראה אחר כך מרכז הרב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ישיבה ייסד הרב קוק בירושלים?",
+   "answer": "מרכז הרב",
+   "options": [
+    "מרכז הרב",
+    "וולוז׳ין",
+    "מקווה ישראל"
+   ],
+   "explain_he": "בשנת 1924 ייסד הרב קוק את הישיבה שנקראה אחר כך מרכז הרב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי המשפט של הרב קוק, מה עושים הצדיקים הטהורים?",
+   "answer": "מוסיפים צדק, במקום להתלונן על הרע",
+   "options": [
+    "מוסיפים צדק, במקום להתלונן על הרע",
+    "מתלוננים כל היום על הרשעה",
+    "מתרחקים מכל האנשים"
+   ],
+   "explain_he": "במקום רק לקבול על מה שרע, הצדיקים מוסיפים טוב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי המשפט של הרב קוק, מה עושים הצדיקים הטהורים?",
+   "answer": "מוסיפים צדק, במקום להתלונן על הרע",
+   "options": [
+    "מוסיפים צדק, במקום להתלונן על הרע",
+    "מתלוננים כל היום על הרשעה",
+    "מתרחקים מכל האנשים"
+   ],
+   "explain_he": "במקום רק לקבול על מה שרע, הצדיקים מוסיפים טוב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא יכול היה הרב קוק לחזור לארץ בשנים 1914 עד 1919?",
+   "answer": "מלחמת העולם הראשונה פרצה כשהיה באירופה, והדרכים נסגרו",
+   "options": [
+    "מלחמת העולם הראשונה פרצה כשהיה באירופה, והדרכים נסגרו",
+    "הבריטים אסרו עליו לחזור",
+    "הוא העדיף להישאר בלונדון"
+   ],
+   "explain_he": "הוא נסע לכינוס רבנים, המלחמה פרצה, והוא שימש רב בשווייץ ובלונדון עד סופה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הרב קוק, מתי תבוא הגאולה השלמה?",
+   "answer": "כשהעם יחזור גם לארצו וגם לתורתו",
+   "options": [
+    "כשהעם יחזור גם לארצו וגם לתורתו",
+    "כשתהיה לעם שפה משותפת",
+    "רק כשכל המושבות יהיו עשירות"
+   ],
+   "explain_he": "הרב ראה בשיבה לארץ את תחילת הגאולה, ולימד שהשלמתה בחזרה לתורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f6e14"
+  }
+ ]
+}

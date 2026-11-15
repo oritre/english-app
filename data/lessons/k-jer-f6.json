@@ -1,0 +1,793 @@
+{
+ "id": "k-jer-f6",
+ "unit_id": "k-jer-u3",
+ "course": "jerusalem",
+ "title_he": "העיר במצור",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "העיר במצור",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הדרך לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: The winding road climbing to Jerusalem through steep forested hills at dawn in 1948, mist in the valley, the road empty and quiet.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🌳 🌳",
+     "say": [
+      "שנים עברו, וירושלים גדלה. גרו בה כבר בערך מאה אלף יהודים.",
+      "ואז, לפני שקמה מדינת ישראל, התחילה מלחמה קשה.",
+      "הדרך היחידה לירושלים עוברת בין הרים גבוהים. האויבים ישבו על ההרים, ולא נתנו לאף אחד לעבור.",
+      "ירושלים נשארה סגורה, מוקפת. זה נקרא \"מצור\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "השיירות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Today: rusted old armored trucks painted reddish-brown standing beside the modern road to Jerusalem among green pine trees, small Israeli flags and wild flowers beside them, a memorial mood.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌳 🌳",
+     "say": [
+      "איך מביאים אוכל לעיר סגורה? בשיירות!",
+      "שיירה היא הרבה משאיות שנוסעות יחד. הן היו מכוסות בפלדה, כדי להגן על הנהגים.",
+      "הנהגים והלוחמים היו אמיצים מאוד. הם ידעו שהדרך מסוכנת, ובכל זאת נסעו, כדי שלילדים בירושלים יהיה לחם.",
+      "וחלקם לא חזרו. עד היום, ליד הכביש, עומדות המשאיות הישנות, לזכור אותם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "עד היום עומדים לצד הכביש לירושלים \"השריונים\" – משאיות של שיירות תש\"ח, לזכר מי שפרצו את הדרך."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "מים במשורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A Jerusalem street in 1948: a horse-drawn water tank cart stopping by stone houses, women in long dresses and head scarves and children waiting in line with buckets and jugs, everyone patient and orderly.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👧 👦 🐴",
+     "say": [
+      "ועוד בעיה: צינור המים לירושלים נחתך. לא היו מים בברזים!",
+      "אבל אנשים חכמים התכוננו מראש. הם ספרו וסגרו את בורות המים שבבתים, ושמרו עליהם.",
+      "בכל יום עברה עגלה עם מים בשכונות. כל משפחה קיבלה רק מעט, דלי אחד בערך לכל אדם.",
+      "אז חסכו בכל טיפה: קודם התרחצו, אחר כך שטפו במים את הרצפה, ובסוף השתמשו בהם עוד פעם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "חוביזה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Children in modest 1948 clothes picking green mallow leaves in an open field at the edge of Jerusalem on a spring morning, a mother in a head scarf holding a basket, stone houses behind.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 👦 👩 🌳",
+     "say": [
+      "גם האוכל כמעט נגמר. כל אחד קיבל רק פרוסות לחם ספורות ביום.",
+      "ואז ילדים ואימהות יצאו לשדות, וקטפו צמח ירוק שגדל בכל מקום: חוביזה, או בשמה העברי – חלמית.",
+      "מהעלים בישלו קציצות ומרק. ברדיו אפילו נתנו מתכונים!",
+      "החוביזה הצילה הרבה אנשים מרעב. ועד היום, ותיקי ירושלים זוכרים אותה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "פיקוח נפש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Shabbat afternoon in besieged Jerusalem in 1948: young yeshiva students in white shirts and black kippot digging a protective trench with shovels at the edge of a neighborhood, an elderly rabbi with a long beard watching them with blessing.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "והנה סיפור מיוחד מימי המצור.",
+      "היה צריך לחפור תעלות, כדי להגן על השכונות. והיה צריך לעשות את זה מהר – גם בשבת.",
+      "הרבנים הגדולים של ירושלים אמרו: פיקוח נפש דוחה שבת! כשצריך להציל חיים – עושים זאת גם בשבת.",
+      "ובחורי הישיבות יצאו בשבת, עם האתים, וחפרו כדי להגן על העיר."
+     ],
+     "pasuk": {
+      "text": "וָחַי בָּהֶם – וְלֹא שֶׁיָּמוּת בָּהֶם",
+      "ref": "יומא פה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הרובע היהודי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: The Jewish Quarter of the Old City in late May 1948 after the battle: quiet narrow alleys with fallen stones, the great dome of the Hurva synagogue broken against an evening sky, no people. A sad, still mood.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨 🏠",
+     "say": [
+      "בתוך העיר העתיקה, ליד הכותל, גרו אז יהודים ברובע היהודי: משפחות, זקנים, ובחורי ישיבות.",
+      "הרובע היה מוקף מכל הצדדים. מעט מגינים אמיצים שמרו עליו זמן רב.",
+      "אבל בסוף הרובע נפל. התושבים נאלצו לצאת מבתיהם, והרבה בתי כנסת נהרסו, גם החורבה.",
+      "מאותו יום, תשע עשרה שנה, יהודים לא יכלו להגיע לכותל.",
+      "אבל הם לא שכחו. כל השנים הם חיכו לחזור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "דרך בורמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Night in the Judean hills in 1948: a narrow new dirt track winding steeply through rocks and pines, men carrying sacks of flour on their backs up the slope by the light of lanterns, a jeep waiting at the top.",
+     "move": "up",
+     "fx": "night",
+     "art": "👨 👨 👨 🌳",
+     "say": [
+      "אבל אז היה רעיון. אם הכביש סגור – נעשה דרך חדשה!",
+      "בלילות, בסוד, פרצו דרך עפר בין ההרים, רחוק מהאויבים.",
+      "במקומות שבהם היה תלול מדי, אנשים נשאו שקי קמח על הגב, בעלייה, כל הלילה.",
+      "קראו לה \"דרך בורמה\". והאוכל התחיל להגיע לירושלים שוב!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מבט מהר ציון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jews of 1950s Jerusalem standing on a rooftop on Mount Zion at sunset, looking toward the Old City walls and domes across a dividing line of barbed wire and empty land, an old man pointing, a boy beside him.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👨",
+     "say": [
+      "המלחמה נגמרה, ומדינת ישראל קמה! אבל ירושלים נשארה חצויה, עם גבול באמצע.",
+      "העיר העתיקה והכותל נשארו בצד השני. יהודים לא יכלו להגיע לשם.",
+      "אז מה עשו? עלו להר ציון, למקום הכי קרוב, והסתכלו משם על החומות.",
+      "שם התפללו, ובכו, וקיוו: אולי יום אחד נחזור לכותל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "העיר במצור",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הדרך לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: The winding road climbing to Jerusalem through steep forested hills at dawn in 1948, mist in the valley, the road empty and quiet.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🌳 🌳",
+     "say": [
+      "בסוף שנת 1947, בתחילת שנת תש\"ח, אחרי ההחלטה באומות המאוחדות על הקמת מדינה יהודית, פרצה מלחמה בארץ. בירושלים גרו אז בערך מאה אלף יהודים.",
+      "העיר נמצאת בלב ההרים, ויש אליה דרך עיקרית אחת מן החוף – דרך צרה ומתפתלת, שעוברת בשער הגיא.",
+      "הכוחות שנלחמו ביישוב ישבו על ההרים שמעל הדרך, והתקיפו כל מכונית שעלתה. ירושלים נותקה.",
+      "בעיר הלכו ונגמרו האוכל, הדלק והתרופות. המצור התחיל.",
+      "והמצור לא היה רק מבחוץ: גם בתוך העיר, בין שכונות יהודיות לשכונות אחרות, היו קווים של סכנה, ואנשים נזהרו בכל יציאה מהבית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "השיירות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Today: rusted old armored trucks painted reddish-brown standing beside the modern road to Jerusalem among green pine trees, small Israeli flags and wild flowers beside them, a memorial mood.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌳 🌳",
+     "say": [
+      "כדי להביא אוכל לירושלים יצאו שיירות: עשרות משאיות שנסעו יחד, מכוסות בלוחות פלדה, ואיתן לוחמים צעירים שליוו אותן.",
+      "רבות מהשיירות הותקפו בדרך. הנהגים והמלווים ידעו את הסכנה, ובכל זאת יצאו שוב ושוב, כדי שהעיר לא תיפול.",
+      "רבים מהם נפלו. ולזכרם, משאיות ושריונים חלודים עומדים עד היום לצד הכביש בשער הגיא, צבועים בצבע אדום־חום.",
+      "כשנוסעים לירושלים ורואים אותם – זה הזמן לזכור: הדרך הזאת נפתחה במסירות נפש."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "עד היום עומדים לצד הכביש לירושלים \"השריונים\" – משאיות של שיירות תש\"ח, לזכר מי שפרצו את הדרך."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "מים במשורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A Jerusalem street in 1948: a horse-drawn water tank cart stopping by stone houses, women in long dresses and head scarves and children waiting in line with buckets and jugs, everyone patient and orderly.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👧 👦 🐴",
+     "say": [
+      "צינור המים שהביא מים לירושלים מן החוף נפגע ונסגר. בלי מים, עיר לא יכולה להחזיק מעמד.",
+      "אבל כמה חודשים קודם, כשראו את הסכנה, ספרו אנשי היישוב בסוד את בורות המים שבחצרות הבתים, וסגרו אותם, כדי שיהיה מלאי לימי מצור.",
+      "בזמן המצור עברו עגלות מים ברחובות, וכל אדם קיבל מנה קטנה בכל יום – רק מה שצריך כדי לחיות.",
+      "המשפחות למדו לחסוך בכל טיפה: אותם מים שימשו לרחצה, אחר כך לכביסה, ובסוף לשטיפת הרצפה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "חוביזה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Children in modest 1948 clothes picking green mallow leaves in an open field at the edge of Jerusalem on a spring morning, a mother in a head scarf holding a basket, stone houses behind.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 👦 👩 🌳",
+     "say": [
+      "מלאי המזון בעיר הלך ונגמר. הלחם חולק במנות קטנות, וכמעט לא היה בשר, ביצים או חלב.",
+      "ואז גילו את החלמית, שנקראה בפי כולם \"חוביזה\" – צמח בר ירוק שגדל בשדות ובחצרות.",
+      "ילדים ונשים יצאו ללקט את העלים, ותחנת הרדיו של ירושלים שידרה מתכונים: קציצות חוביזה, מרק חוביזה.",
+      "ולמרות הרעב, החיים נמשכו: בתי ספר פעלו, לומדי התורה המשיכו ללמוד, ואנשים דאגו לשכנים זקנים וחולים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "פיקוח נפש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Shabbat afternoon in besieged Jerusalem in 1948: young yeshiva students in white shirts and black kippot digging a protective trench with shovels at the edge of a neighborhood, an elderly rabbi with a long beard watching them with blessing.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "ההגנה על ירושלים דרשה עבודה רבה: לחפור תעלות, להקים מחסות ולבצר את השכונות. והעבודה לא יכלה לחכות.",
+      "רבני ירושלים פסקו: זהו פיקוח נפש, ופיקוח נפש דוחה שבת. התורה אומרת \"וחי בהם\", וחז\"ל מסבירים – \"ולא שימות בהם\".",
+      "ובשבת יצאו גם בחורי ישיבות לחפור, יחד עם כל תושבי העיר. הם עשו זאת מתוך ההלכה עצמה – לא נגדה.",
+      "וכך ראו כולם: התורה היא תורת חיים, והיא שומרת על עם ישראל."
+     ],
+     "pasuk": {
+      "text": "וָחַי בָּהֶם – וְלֹא שֶׁיָּמוּת בָּהֶם",
+      "ref": "יומא פה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הרובע היהודי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: The Jewish Quarter of the Old City in late May 1948 after the battle: quiet narrow alleys with fallen stones, the great dome of the Hurva synagogue broken against an evening sky, no people. A sad, still mood.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨 🏠",
+     "say": [
+      "ברובע היהודי של העיר העתיקה גרו אז כאלפיים יהודים, רובם מן היישוב הישן: משפחות, זקנים, רבנים ובחורי ישיבות.",
+      "הרובע היה מנותק גם משאר ירושלים. קבוצה קטנה של מגינים, ואיתם תושבים, נערים ונערות, החזיקו מעמד שבועות רבים.",
+      "בסוף אייר תש\"ח, אחרי קרבות קשים, נכנע הרובע. התושבים יצאו, ורוב בתי הכנסת – וביניהם החורבה – נהרסו.",
+      "העיר העתיקה, ובתוכה הכותל, נשארה מעבר לגבול. תשע עשרה שנה לא יכלו יהודים להתפלל בו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "דרך בורמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Night in the Judean hills in 1948: a narrow new dirt track winding steeply through rocks and pines, men carrying sacks of flour on their backs up the slope by the light of lanterns, a jeep waiting at the top.",
+     "move": "up",
+     "fx": "night",
+     "art": "👨 👨 👨 🌳",
+     "say": [
+      "בחודש סיון תש\"ח, כשהכביש הראשי עדיין היה חסום, גילו שביל ישן בין ההרים, דרומית לכביש.",
+      "בלילות, בסתר, עבדו עליו בדחפורים ובידיים, והפכו אותו לדרך עפר. קראו לה \"דרך בורמה\", על שם דרך דומה במלחמת העולם.",
+      "בקטע התלול ביותר, שהמכוניות לא יכלו לעלות בו, נשאו מאות אנשים על גבם שקי קמח ומזון, בעלייה, לילה אחרי לילה.",
+      "ואחר כך הניחו לאורך הדרך גם צינור מים חדש. המצור נשבר, וירושלים ניצלה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מבט מהר ציון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jews of 1950s Jerusalem standing on a rooftop on Mount Zion at sunset, looking toward the Old City walls and domes across a dividing line of barbed wire and empty land, an old man pointing, a boy beside him.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👨",
+     "say": [
+      "בסוף המלחמה קמה מדינת ישראל, ומערב ירושלים הייתה בידיה. אבל העיר נחצתה: העיר העתיקה והכותל נשארו מעבר לקו.",
+      "במשך תשע עשרה שנה, יהודים לא יכלו להתפלל בכותל, אף שהובטח להם אחרת בהסכמים.",
+      "בחגים עלו אלפים להר ציון, הנקודה הקרובה ביותר, ומשם הביטו אל העיר העתיקה. הר ציון נעשה מקום של תפילה וגעגוע.",
+      "\"לשנה הבאה בירושלים\" קיבל משמעות חדשה: הם כבר היו בירושלים – אבל לא בלב שלה.",
+      "ובבתי הכנסת בכל העולם המשיכו לומר בכל יום \"ולירושלים עירך ברחמים תשוב\" – ועכשיו התפילה הזאת הרגישה קרובה מתמיד."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f6e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "העיר במצור",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הדרך לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: The winding road climbing to Jerusalem through steep forested hills at dawn in 1948, mist in the valley, the road empty and quiet.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🌳 🌳",
+     "say": [
+      "בסוף שנת 1947, בתחילת שנת תש\"ח, אחרי ההחלטה באומות המאוחדות על הקמת מדינה יהודית, פרצה מלחמה בארץ. בירושלים גרו אז בערך מאה אלף יהודים.",
+      "העיר נמצאת בלב ההרים, ויש אליה דרך עיקרית אחת מן החוף – דרך צרה ומתפתלת, שעוברת בשער הגיא.",
+      "הכוחות שנלחמו ביישוב ישבו על ההרים שמעל הדרך, והתקיפו כל מכונית שעלתה. ירושלים נותקה.",
+      "בעיר הלכו ונגמרו האוכל, הדלק והתרופות. המצור התחיל.",
+      "והמצור לא היה רק מבחוץ: גם בתוך העיר, בין שכונות יהודיות לשכונות אחרות, היו קווים של סכנה, ואנשים נזהרו בכל יציאה מהבית.",
+      "לירושלים לא הייתה עורף. היא הייתה כמו אי בתוך אזור עוין, ורק הדרך הזאת חיברה אותה אל שאר היישוב.",
+      "מי ששולט בדרך – שולט בגורל העיר. ולכן המאבק על הדרך היה מן הקשים במלחמת העצמאות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "השיירות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Today: rusted old armored trucks painted reddish-brown standing beside the modern road to Jerusalem among green pine trees, small Israeli flags and wild flowers beside them, a memorial mood.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌳 🌳",
+     "say": [
+      "כדי להביא אוכל לירושלים יצאו שיירות: עשרות משאיות שנסעו יחד, מכוסות בלוחות פלדה, ואיתן לוחמים צעירים שליוו אותן.",
+      "רבות מהשיירות הותקפו בדרך. הנהגים והמלווים ידעו את הסכנה, ובכל זאת יצאו שוב ושוב, כדי שהעיר לא תיפול.",
+      "רבים מהם נפלו. ולזכרם, משאיות ושריונים חלודים עומדים עד היום לצד הכביש בשער הגיא, צבועים בצבע אדום־חום.",
+      "כשנוסעים לירושלים ורואים אותם – זה הזמן לזכור: הדרך הזאת נפתחה במסירות נפש.",
+      "בחודש ניסן תש\"ח הצליח \"מבצע נחשון\" לפתוח את הדרך לכמה ימים, ושיירות גדולות הגיעו לעיר עם מזון. אבל הדרך נסגרה שוב.",
+      "בין הנופלים היו גם בני ישיבות ועולים חדשים שרק הגיעו לארץ. כולם נתנו את חייהם כדי שירושלים תחיה, ואנחנו חייבים לזכור אותם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "עד היום עומדים לצד הכביש לירושלים \"השריונים\" – משאיות של שיירות תש\"ח, לזכר מי שפרצו את הדרך."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "מים במשורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A Jerusalem street in 1948: a horse-drawn water tank cart stopping by stone houses, women in long dresses and head scarves and children waiting in line with buckets and jugs, everyone patient and orderly.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👧 👦 🐴",
+     "say": [
+      "צינור המים שהביא מים לירושלים מן החוף נפגע ונסגר. בלי מים, עיר לא יכולה להחזיק מעמד.",
+      "אבל כמה חודשים קודם, כשראו את הסכנה, ספרו אנשי היישוב בסוד את בורות המים שבחצרות הבתים, וסגרו אותם, כדי שיהיה מלאי לימי מצור.",
+      "בזמן המצור עברו עגלות מים ברחובות, וכל אדם קיבל מנה קטנה בכל יום – רק מה שצריך כדי לחיות.",
+      "המשפחות למדו לחסוך בכל טיפה: אותם מים שימשו לרחצה, אחר כך לכביסה, ובסוף לשטיפת הרצפה.",
+      "המצור לימד את ירושלים משמעת וערבות הדדית: כולם קיבלו אותה מנה, עשירים ועניים, ואנשים חלקו עם השכנים.",
+      "ויש בזה גם לימוד בהלכה ובמוסר: לחיות בצמצום בלי להתלונן, ולהודות על כל מה שיש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "חוביזה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Children in modest 1948 clothes picking green mallow leaves in an open field at the edge of Jerusalem on a spring morning, a mother in a head scarf holding a basket, stone houses behind.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 👦 👩 🌳",
+     "say": [
+      "מלאי המזון בעיר הלך ונגמר. הלחם חולק במנות קטנות, וכמעט לא היה בשר, ביצים או חלב.",
+      "ואז גילו את החלמית, שנקראה בפי כולם \"חוביזה\" – צמח בר ירוק שגדל בשדות ובחצרות.",
+      "ילדים ונשים יצאו ללקט את העלים, ותחנת הרדיו של ירושלים שידרה מתכונים: קציצות חוביזה, מרק חוביזה.",
+      "ולמרות הרעב, החיים נמשכו: בתי ספר פעלו, לומדי התורה המשיכו ללמוד, ואנשים דאגו לשכנים זקנים וחולים.",
+      "דוד המלך כתב: \"נער הייתי וגם זקנתי, ולא ראיתי צדיק נעזב\". תושבי ירושלים במצור הרגישו בדיוק את זה: גם בימי רעב, השם שלח להם עלים בשדה.",
+      "יש מי שראו בחוביזה מעין \"מן\" של המצור – לחם מן השדה, שבא בדיוק בזמן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "פיקוח נפש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Shabbat afternoon in besieged Jerusalem in 1948: young yeshiva students in white shirts and black kippot digging a protective trench with shovels at the edge of a neighborhood, an elderly rabbi with a long beard watching them with blessing.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "ההגנה על ירושלים דרשה עבודה רבה: לחפור תעלות, להקים מחסות ולבצר את השכונות. והעבודה לא יכלה לחכות.",
+      "רבני ירושלים פסקו: זהו פיקוח נפש, ופיקוח נפש דוחה שבת. התורה אומרת \"וחי בהם\", וחז\"ל מסבירים – \"ולא שימות בהם\".",
+      "ובשבת יצאו גם בחורי ישיבות לחפור, יחד עם כל תושבי העיר. הם עשו זאת מתוך ההלכה עצמה – לא נגדה.",
+      "וכך ראו כולם: התורה היא תורת חיים, והיא שומרת על עם ישראל.",
+      "חשוב להבין: אין כאן \"ויתור\" על השבת. ההלכה עצמה מצווה לחלל שבת כדי להציל נפש, והרמב\"ם כותב שעושים זאת דווקא גדולי ישראל וחכמיו – כדי להראות שמשפטי התורה הם \"רחמים וחסד ושלום בעולם\".",
+      "ובחורי הישיבות שחפרו בשבת הראו בדיוק את זה: אהבת ירושלים ושמירת התורה הולכות יחד."
+     ],
+     "pasuk": {
+      "text": "וָחַי בָּהֶם – וְלֹא שֶׁיָּמוּת בָּהֶם",
+      "ref": "יומא פה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הרובע היהודי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: The Jewish Quarter of the Old City in late May 1948 after the battle: quiet narrow alleys with fallen stones, the great dome of the Hurva synagogue broken against an evening sky, no people. A sad, still mood.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨 🏠",
+     "say": [
+      "ברובע היהודי של העיר העתיקה גרו אז כאלפיים יהודים, רובם מן היישוב הישן: משפחות, זקנים, רבנים ובחורי ישיבות.",
+      "הרובע היה מנותק גם משאר ירושלים. קבוצה קטנה של מגינים, ואיתם תושבים, נערים ונערות, החזיקו מעמד שבועות רבים.",
+      "בסוף אייר תש\"ח, אחרי קרבות קשים, נכנע הרובע. התושבים יצאו, ורוב בתי הכנסת – וביניהם החורבה – נהרסו.",
+      "העיר העתיקה, ובתוכה הכותל, נשארה מעבר לגבול. תשע עשרה שנה לא יכלו יהודים להתפלל בו.",
+      "מאות שנים של חיי תורה ברובע נקטעו ביום אחד. יותר מחמישים בתי כנסת ובתי מדרש נהרסו.",
+      "ובכל זאת, יושבי הרובע שיצאו לא שכחו: הם ספרו את השנים, ושמרו את הזיכרון לילדיהם – עד היום שבו שבו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "דרך בורמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Night in the Judean hills in 1948: a narrow new dirt track winding steeply through rocks and pines, men carrying sacks of flour on their backs up the slope by the light of lanterns, a jeep waiting at the top.",
+     "move": "up",
+     "fx": "night",
+     "art": "👨 👨 👨 🌳",
+     "say": [
+      "בחודש סיון תש\"ח, כשהכביש הראשי עדיין היה חסום, גילו שביל ישן בין ההרים, דרומית לכביש.",
+      "בלילות, בסתר, עבדו עליו בדחפורים ובידיים, והפכו אותו לדרך עפר. קראו לה \"דרך בורמה\", על שם דרך דומה במלחמת העולם.",
+      "בקטע התלול ביותר, שהמכוניות לא יכלו לעלות בו, נשאו מאות אנשים על גבם שקי קמח ומזון, בעלייה, לילה אחרי לילה.",
+      "ואחר כך הניחו לאורך הדרך גם צינור מים חדש. המצור נשבר, וירושלים ניצלה.",
+      "העבודה הזאת – בלילות, בשקט, בגב כפוף – הצילה את ירושלים לא פחות מקרב.",
+      "זה שיעור גדול: לפעמים הגבורה היא לא ברגע אחד מרשים, אלא בהתמדה שקטה, לילה אחרי לילה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מבט מהר ציון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jews of 1950s Jerusalem standing on a rooftop on Mount Zion at sunset, looking toward the Old City walls and domes across a dividing line of barbed wire and empty land, an old man pointing, a boy beside him.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👨",
+     "say": [
+      "בסוף המלחמה קמה מדינת ישראל, ומערב ירושלים הייתה בידיה. אבל העיר נחצתה: העיר העתיקה והכותל נשארו מעבר לקו.",
+      "במשך תשע עשרה שנה, יהודים לא יכלו להתפלל בכותל, אף שהובטח להם אחרת בהסכמים.",
+      "בחגים עלו אלפים להר ציון, הנקודה הקרובה ביותר, ומשם הביטו אל העיר העתיקה. הר ציון נעשה מקום של תפילה וגעגוע.",
+      "\"לשנה הבאה בירושלים\" קיבל משמעות חדשה: הם כבר היו בירושלים – אבל לא בלב שלה.",
+      "ובבתי הכנסת בכל העולם המשיכו לומר בכל יום \"ולירושלים עירך ברחמים תשוב\" – ועכשיו התפילה הזאת הרגישה קרובה מתמיד.",
+      "בתקופה ההיא נבנתה מערב ירושלים במהירות: שכונות, מוסדות, ישיבות, והכנסת, שעברה לירושלים כמה חודשים אחרי המלחמה. העיר גדלה מאוד.",
+      "אבל בלב רבים נשאר חלל: \"ירושלים\" בלי הכותל – כמו גוף בלי לב. וכך עברו תשע עשרה שנים של המתנה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זה מצור?",
+   "answer": "כשעיר סגורה מכל הצדדים, ולא נותנים להביא אליה דברים",
+   "options": [
+    "כשעיר סגורה מכל הצדדים, ולא נותנים להביא אליה דברים",
+    "כשיש שלג כבד בעיר",
+    "כשהעיר חוגגת חג"
+   ],
+   "explain_he": "ירושלים נותקה: הדרך אליה נחסמה, ולא יכלו להביא אליה אוכל, מים ותרופות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זה מצור?",
+   "answer": "כשעיר סגורה מכל הצדדים, ולא נותנים להביא אליה דברים",
+   "options": [
+    "כשעיר סגורה מכל הצדדים, ולא נותנים להביא אליה דברים",
+    "כשיש שלג כבד בעיר",
+    "כשהעיר חוגגת חג"
+   ],
+   "explain_he": "ירושלים נותקה: הדרך אליה נחסמה, ולא יכלו להביא אליה אוכל, מים ותרופות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זה מצור?",
+   "answer": "כשעיר סגורה מכל הצדדים, ולא נותנים להביא אליה דברים",
+   "options": [
+    "כשעיר סגורה מכל הצדדים, ולא נותנים להביא אליה דברים",
+    "כשיש שלג כבד בעיר",
+    "כשהעיר חוגגת חג"
+   ],
+   "explain_he": "ירושלים נותקה: הדרך אליה נחסמה, ולא יכלו להביא אליה אוכל, מים ותרופות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עומד עד היום ליד הכביש לירושלים?",
+   "answer": "משאיות ושריונים ישנים, לזכר אנשי השיירות",
+   "options": [
+    "משאיות ושריונים ישנים, לזכר אנשי השיירות",
+    "ארמון של מלך",
+    "טחנת רוח"
+   ],
+   "explain_he": "השריונים החלודים עומדים לצד הכביש כדי לזכור את מי שפרצו את הדרך לירושלים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עומד עד היום ליד הכביש לירושלים?",
+   "answer": "משאיות ושריונים ישנים, לזכר אנשי השיירות",
+   "options": [
+    "משאיות ושריונים ישנים, לזכר אנשי השיירות",
+    "ארמון של מלך",
+    "טחנת רוח"
+   ],
+   "explain_he": "השריונים החלודים עומדים לצד הכביש כדי לזכור את מי שפרצו את הדרך לירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עומד עד היום ליד הכביש לירושלים?",
+   "answer": "משאיות ושריונים ישנים, לזכר אנשי השיירות",
+   "options": [
+    "משאיות ושריונים ישנים, לזכר אנשי השיירות",
+    "ארמון של מלך",
+    "טחנת רוח"
+   ],
+   "explain_he": "השריונים החלודים עומדים לצד הכביש כדי לזכור את מי שפרצו את הדרך לירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היא \"חוביזה\"?",
+   "answer": "צמח ירוק מהשדות שאכלו בזמן המצור",
+   "options": [
+    "צמח ירוק מהשדות שאכלו בזמן המצור",
+    "סוג של לחם מתוק",
+    "שם של שיירה"
+   ],
+   "explain_he": "בזמן המצור ליקטו את עלי החלמית – החוביזה – ובישלו מהם קציצות ומרק.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היא \"חוביזה\"?",
+   "answer": "צמח ירוק מהשדות שאכלו בזמן המצור",
+   "options": [
+    "צמח ירוק מהשדות שאכלו בזמן המצור",
+    "סוג של לחם מתוק",
+    "שם של שיירה"
+   ],
+   "explain_he": "בזמן המצור ליקטו את עלי החלמית – החוביזה – ובישלו מהם קציצות ומרק.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היא \"חוביזה\"?",
+   "answer": "צמח ירוק מהשדות שאכלו בזמן המצור",
+   "options": [
+    "צמח ירוק מהשדות שאכלו בזמן המצור",
+    "סוג של לחם מתוק",
+    "שם של שיירה"
+   ],
+   "explain_he": "בזמן המצור ליקטו את עלי החלמית – החוביזה – ובישלו מהם קציצות ומרק.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך חסכו מים בזמן המצור?",
+   "answer": "השתמשו באותם מים כמה פעמים",
+   "options": [
+    "השתמשו באותם מים כמה פעמים",
+    "שתו רק מיץ",
+    "לא שתו בכלל"
+   ],
+   "explain_he": "קודם התרחצו, אחר כך שטפו את הרצפה, ובסוף השתמשו במים עוד פעם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו אנשים בדרך בורמה במקומות התלולים?",
+   "answer": "נשאו שקי קמח על הגב",
+   "options": [
+    "נשאו שקי קמח על הגב",
+    "עפו במטוס",
+    "גלגלו את השקים למטה"
+   ],
+   "explain_he": "במקומות שהמכוניות לא יכלו לעלות, אנשים נשאו את השקים על הגב, כל הלילה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן עלו יהודים כדי להסתכל על העיר העתיקה אחרי המלחמה?",
+   "answer": "להר ציון",
+   "options": [
+    "להר ציון",
+    "להר סיני",
+    "להר הכרמל"
+   ],
+   "explain_he": "הר ציון היה המקום הקרוב ביותר, ומשם הסתכלו על החומות והתפללו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך היו מים בירושלים כשהצינור נסגר?",
+   "answer": "אנשי היישוב ספרו וסגרו מראש את בורות המים שבבתים",
+   "options": [
+    "אנשי היישוב ספרו וסגרו מראש את בורות המים שבבתים",
+    "ירד גשם כל יום",
+    "הביאו מים מהים"
+   ],
+   "explain_he": "כמה חודשים קודם הם התכוננו בסוד, וסגרו את הבורות כדי שיהיה מלאי לימי מצור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f6e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך היו מים בירושלים כשהצינור נסגר?",
+   "answer": "אנשי היישוב ספרו וסגרו מראש את בורות המים שבבתים",
+   "options": [
+    "אנשי היישוב ספרו וסגרו מראש את בורות המים שבבתים",
+    "ירד גשם כל יום",
+    "הביאו מים מהים"
+   ],
+   "explain_he": "כמה חודשים קודם הם התכוננו בסוד, וסגרו את הבורות כדי שיהיה מלאי לימי מצור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f6e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן לא יכלו יהודים להתפלל בכותל אחרי תש\"ח?",
+   "answer": "תשע עשרה שנה",
+   "options": [
+    "תשע עשרה שנה",
+    "שנה אחת",
+    "מאה שנה"
+   ],
+   "explain_he": "מתש\"ח ועד מלחמת ששת הימים, תשע עשרה שנה, הכותל היה מעבר לגבול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f6e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן לא יכלו יהודים להתפלל בכותל אחרי תש\"ח?",
+   "answer": "תשע עשרה שנה",
+   "options": [
+    "תשע עשרה שנה",
+    "שנה אחת",
+    "מאה שנה"
+   ],
+   "explain_he": "מתש\"ח ועד מלחמת ששת הימים, תשע עשרה שנה, הכותל היה מעבר לגבול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f6e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לבית הכנסת החורבה בתש\"ח?",
+   "answer": "הוא נהרס יחד עם בתי כנסת רבים ברובע",
+   "options": [
+    "הוא נהרס יחד עם בתי כנסת רבים ברובע",
+    "הוא הועבר לתל אביב",
+    "הוא נשאר שלם"
+   ],
+   "explain_he": "כשנפל הרובע היהודי, רוב בתי הכנסת – וביניהם החורבה – נהרסו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f6e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לבית הכנסת החורבה בתש\"ח?",
+   "answer": "הוא נהרס יחד עם בתי כנסת רבים ברובע",
+   "options": [
+    "הוא נהרס יחד עם בתי כנסת רבים ברובע",
+    "הוא הועבר לתל אביב",
+    "הוא נשאר שלם"
+   ],
+   "explain_he": "כשנפל הרובע היהודי, רוב בתי הכנסת – וביניהם החורבה – נהרסו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f6e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה פסוק מתאים, לפי הסרט, לתחושת תושבי ירושלים בזמן הרעב?",
+   "answer": "\"נער הייתי וגם זקנתי, ולא ראיתי צדיק נעזב\"",
+   "options": [
+    "\"נער הייתי וגם זקנתי, ולא ראיתי צדיק נעזב\"",
+    "\"על נהרות בבל\"",
+    "\"נחמו נחמו עמי\""
+   ],
+   "explain_he": "גם בימי הרעב, השם שלח להם את עלי החוביזה בשדה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f6e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה שיעור לומדים מדרך בורמה?",
+   "answer": "שלפעמים הגבורה היא בהתמדה שקטה, לילה אחרי לילה",
+   "options": [
+    "שלפעמים הגבורה היא בהתמדה שקטה, לילה אחרי לילה",
+    "שתמיד צריך לנסוע בכביש הראשי",
+    "שאין טעם לעבוד בלילה"
+   ],
+   "explain_he": "העבודה השקטה, בגב כפוף, הצילה את ירושלים לא פחות מקרב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f6e23"
+  }
+ ]
+}

@@ -1,0 +1,802 @@
+{
+ "id": "k-jer-f1",
+ "unit_id": "k-jer-u1",
+ "course": "jerusalem",
+ "title_he": "הר המוריה והעקדה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "הר המוריה והעקדה",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר על ההרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Sunrise over the hills of Jerusalem today: golden stone houses, old city walls and domes, mist in the valleys, a soft warm light from the east.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🕊️",
+     "say": [
+      "בוקר טוב, ירושלים! תראו איך השמש צובעת את האבנים בצבע זהב.",
+      "ירושלים היא העיר הכי חשובה לעם ישראל. כבר אלפי שנים היא בלב של כל יהודי.",
+      "אבל איך זה התחיל? למה דווקא ההר הזה, והעיר הזאת?",
+      "בואו נחזור הרבה הרבה שנים אחורה, אל אברהם אבינו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אברהם יוצא לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: Before dawn outside a tent in the land of Canaan: Avraham saddling a donkey with his own hands, Yitzchak tying a bundle of firewood, two young servants waiting, stars fading.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 ⛺",
+     "say": [
+      "יום אחד, השם אמר לאברהם: קח את בנך יצחק, ולך אל ארץ המוריה.",
+      "שם, על אחד ההרים, תעלה אותו לעולה.",
+      "זה היה הניסיון הכי קשה של אברהם. הוא אהב את יצחק מאוד.",
+      "אבל אברהם קם מוקדם בבוקר, ויצא לדרך. הוא האמין בשם בכל ליבו.",
+      "רש\"י אומר: ארץ המוריה – זו ירושלים! כבר כאן, בתחילת הסיפור, אנחנו פוגשים את העיר."
+     ],
+     "pasuk": {
+      "text": "קַח נָא אֶת בִּנְךָ אֶת יְחִידְךָ אֲשֶׁר אָהַבְתָּ אֶת יִצְחָק, וְלֶךְ לְךָ אֶל אֶרֶץ הַמֹּרִיָּה",
+      "ref": "בראשית כב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "וילכו שניהם יחדיו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: Avraham and Yitzchak walking side by side up a rocky path on the third day, Yitzchak carrying the firewood, Avraham holding a small fire pot; far ahead a soft cloud rests on a mountain top.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👴 👨 🪨",
+     "say": [
+      "שלושה ימים הלכו אברהם ויצחק.",
+      "ביום השלישי, אברהם הרים את העיניים, וראה מרחוק את ההר.",
+      "יצחק נשא את העצים, ואברהם נשא את האש.",
+      "והתורה אומרת: \"וילכו שניהם יחדיו\" – שניהם הלכו יחד, באותה אמונה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "העקדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: The mountain top: a simple altar of stones with wood laid on it, Avraham standing and looking up toward a soft warm light from the sky, his hands open and empty, Yitzchak safe beside him. Peaceful, awe-filled.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 🪨",
+     "say": [
+      "על ההר בנה אברהם מזבח, וסידר עליו את העצים.",
+      "ואז, ברגע האחרון, קרא לו מלאך מן השמיים: אברהם, אברהם!",
+      "\"אל תשלח ידך אל הנער\" – אל תעשה לו שום דבר!",
+      "השם לא רצה שיצחק ייפגע. הוא רצה לראות שאברהם מוכן לעשות הכול בשבילו. ואברהם הראה.",
+      "\"עתה ידעתי\", אמר המלאך – עכשיו כולם יודעים כמה אברהם ירא את השם."
+     ],
+     "pasuk": {
+      "text": "אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר",
+      "ref": "בראשית כב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "האיל בסבך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Scene: Golden hour on the mountain top: a large ram with curled horns caught by its horns in a thorny thicket, Avraham turning toward it with wonder, Yitzchak behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "🐏 👴",
+     "say": [
+      "אברהם הסתובב, ומה הוא רואה? איל – כבש גדול עם קרניים.",
+      "הקרניים של האיל נתפסו בתוך שיח קוצני.",
+      "אברהם לקח את האיל, והקריב אותו במקום יצחק.",
+      "ומאז, בראש השנה, אנחנו תוקעים בשופר מקרן של איל – כדי שהשם יזכור את העקדה ויסלח לנו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בראש השנה תוקעים בשופר של איל, כדי שהשם יזכור לנו את עקדת יצחק."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "ה' יראה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: An ancient view of the mountain of Moriah and the hills around it at sunset, empty of buildings, a lone stone altar on the summit, birds circling, the future city only hinted by the shape of the hills.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 🕊️",
+     "say": [
+      "אברהם קרא למקום שם מיוחד: \"השם יראה\".",
+      "ועוד לפני כן, מלך צדיק שגר שם קרא למקום \"שלם\".",
+      "חז\"ל מספרים: השם חיבר את שני השמות. \"יראה\" ועוד \"שלם\" – וכך נולד השם ירושלים!",
+      "יפה, נכון? ירושלים היא עיר של יראת שמיים ושל שלמות ושלום.",
+      "ובתוך השם ירושלים מסתתרת גם המילה \"שלום\"."
+     ],
+     "pasuk": {
+      "text": "וַיִּקְרָא אַבְרָהָם שֵׁם הַמָּקוֹם הַהוּא ה' יִרְאֶה",
+      "ref": "בראשית כב, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מתחיל סיפור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A modern shofar resting on a white tablecloth beside an open prayer book on Rosh Hashana morning, sunlight from a window, the hills of Jerusalem seen softly through it.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "אז מה למדנו? ירושלים התחילה על הר אחד – הר המוריה.",
+      "שם אברהם הראה שהוא אוהב את השם יותר מהכול. ושם יצחק הראה שגם הוא מוכן.",
+      "ובגלל זה, ההר הזה נעשה קדוש. שם, שנים רבות אחר כך, ייבנה בית המקדש.",
+      "ובשיעור הבא נכיר מלך שבנה כאן עיר: דוד המלך!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "הר המוריה והעקדה",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר על ההרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Sunrise over the hills of Jerusalem today: golden stone houses, old city walls and domes, mist in the valleys, a soft warm light from the east.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🕊️",
+     "say": [
+      "כשהשמש עולה על ירושלים, האבנים שלה נצבעות בזהב. יש ערים גדולות ממנה, ויש ערים עשירות ממנה – אבל אין עיר שעם שלם אהב והתגעגע אליה כל כך, במשך כל כך הרבה דורות.",
+      "בכל יום, שלוש פעמים, יהודים בכל העולם מזכירים אותה בתפילה. בחתונות, בברכת המזון, בליל הסדר.",
+      "בסדרה הזאת נעבור יחד על כל הסיפור: מהר המוריה, דרך עיר דוד ובתי המקדש, הגלות הארוכה, היהודים שחזרו, ועד ירושלים של היום.",
+      "והסיפור מתחיל בהר אחד, ובאיש אחד שהאמין בשם בכל ליבו: אברהם אבינו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אברהם יוצא לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: Before dawn outside a tent in the land of Canaan: Avraham saddling a donkey with his own hands, Yitzchak tying a bundle of firewood, two young servants waiting, stars fading.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 ⛺",
+     "say": [
+      "הקדוש ברוך הוא אמר לאברהם: \"קח נא את בנך, את יחידך, אשר אהבת, את יצחק, ולך לך אל ארץ המוריה\".",
+      "רש\"י מסביר: \"ארץ המוריה\" – זו ירושלים. כבר כאן, בתחילת הסיפור, אנחנו פוגשים את המקום.",
+      "זה היה העשירי והקשה בניסיונות של אברהם. ואברהם לא התווכח ולא שאל שאלות. \"וישכם אברהם בבוקר\" – הוא קם מוקדם, בזריזות.",
+      "רש\"י מוסיף: אברהם חבש את החמור בעצמו, אף שהיו לו עבדים. כשאדם אוהב לעשות את רצון השם, הוא עושה בעצמו ובשמחה."
+     ],
+     "pasuk": {
+      "text": "קַח נָא אֶת בִּנְךָ אֶת יְחִידְךָ אֲשֶׁר אָהַבְתָּ אֶת יִצְחָק, וְלֶךְ לְךָ אֶל אֶרֶץ הַמֹּרִיָּה",
+      "ref": "בראשית כב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "וילכו שניהם יחדיו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: Avraham and Yitzchak walking side by side up a rocky path on the third day, Yitzchak carrying the firewood, Avraham holding a small fire pot; far ahead a soft cloud rests on a mountain top.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👴 👨 🪨",
+     "say": [
+      "שלושה ימים הלכו. \"ביום השלישי וישא אברהם את עיניו, וירא את המקום מרחוק\". רש\"י אומר: הוא ראה ענן קשור על ההר.",
+      "יצחק שאל: הנה האש והעצים, ואיפה השה? ואברהם ענה: השם יראה לו את השה, בני.",
+      "\"וילכו שניהם יחדיו\". רש\"י מסביר: אברהם ידע לאן הוא הולך, ויצחק עוד לא ידע – ובכל זאת הלכו באותה שמחה ובאותו לב.",
+      "ויצחק, כשהבין, לא ברח ולא התנגד. גם הוא מסר את עצמו לשם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "העקדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: The mountain top: a simple altar of stones with wood laid on it, Avraham standing and looking up toward a soft warm light from the sky, his hands open and empty, Yitzchak safe beside him. Peaceful, awe-filled.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 🪨",
+     "say": [
+      "על ההר בנה אברהם מזבח וערך את העצים. הוא היה מוכן לתת לשם את היקר לו מכל.",
+      "ואז קרא מלאך השם מן השמיים: \"אברהם, אברהם!\" – פעמיים, מרוב חיבה. \"אל תשלח ידך אל הנער, ואל תעש לו מאומה\".",
+      "השם מעולם לא רצה קורבן אדם. הניסיון היה לגלות את כוחו הפנימי של אברהם – את האמונה שלו, לכולם.",
+      "מאז, עם ישראל יודע: אנחנו בניו של אברהם, שהיה מוכן לתת הכול לשם. ובזכותו, השם שומר עלינו."
+     ],
+     "pasuk": {
+      "text": "אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר",
+      "ref": "בראשית כב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "האיל בסבך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Scene: Golden hour on the mountain top: a large ram with curled horns caught by its horns in a thorny thicket, Avraham turning toward it with wonder, Yitzchak behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "🐏 👴",
+     "say": [
+      "\"וישא אברהם את עיניו, וירא והנה איל, אחר נאחז בסבך בקרניו\". אברהם לקח את האיל והקריב אותו תחת בנו.",
+      "חז\"ל אומרים שהשם אמר: \"תקעו לפני בשופר של איל, כדי שאזכור לכם עקידת יצחק בן אברהם, ומעלה אני עליכם כאילו עקדתם את עצמכם לפני\".",
+      "כך, בכל ראש השנה, קול השופר מחזיר אותנו אל ההר ההוא בירושלים.",
+      "ובכל בוקר, בתחילת תפילת שחרית, רבים אומרים את \"פרשת העקדה\", ומבקשים: כמו שאברהם כבש את רחמיו לעשות רצונך – כך יכבשו רחמיך את כעסך עלינו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בראש השנה תוקעים בשופר של איל, כדי שהשם יזכור לנו את עקדת יצחק."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "ה' יראה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: An ancient view of the mountain of Moriah and the hills around it at sunset, empty of buildings, a lone stone altar on the summit, birds circling, the future city only hinted by the shape of the hills.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 🕊️",
+     "say": [
+      "אחרי העקדה קרא אברהם למקום \"ה' יראה\" – המקום שבו השם רואה, ושבו עם ישראל ייראה לפניו בעלייה לרגל.",
+      "אבל עוד לפני כן, בימי אברהם, מלך שם \"מלכי צדק, מלך שלם\". חז\"ל אומרים שהוא היה שם בן נח, ושהוא קרא למקום \"שלם\".",
+      "המדרש מספר: אמר הקדוש ברוך הוא – אם אקרא לו \"יראה\", שם צדיק יתרעם. ואם אקרא לו \"שלם\", אברהם יתרעם. לכן חיבר את שניהם: יראה ועוד שלם – ירושלים.",
+      "ושימו לב: יש בירושלים גם את המילה \"שלום\". זה החלום של העיר הזאת."
+     ],
+     "pasuk": {
+      "text": "וַיִּקְרָא אַבְרָהָם שֵׁם הַמָּקוֹם הַהוּא ה' יִרְאֶה",
+      "ref": "בראשית כב, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שער השמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Night on a stony hillside: Yaakov asleep with his head on a stone, above him a soft ladder of light rising into the starry sky with faint glowing figures of angels going up and down. Peaceful.",
+     "move": "up",
+     "fx": "stars",
+     "art": "😴 🪜",
+     "say": [
+      "גם יעקב אבינו פגש את המקום. בדרכו לחרן, נשכב לישון, וחלם על סולם שראשו מגיע השמימה.",
+      "כשהתעורר אמר: \"מה נורא המקום הזה... וזה שער השמים\".",
+      "רש\"י מסביר: \"שער השמים\" – מקום תפילה, שמשם התפילות עולות לשמיים.",
+      "כך, כל אחד מן האבות קשור למקום: אברהם בעקדה, יצחק שנעקד עליו, ויעקב שראה בו שער לשמיים."
+     ],
+     "pasuk": {
+      "text": "וְזֶה שַׁעַר הַשָּׁמָיִם",
+      "ref": "בראשית כח, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מתחיל סיפור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A modern shofar resting on a white tablecloth beside an open prayer book on Rosh Hashana morning, sunlight from a window, the hills of Jerusalem seen softly through it.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "הסיפור של ירושלים מתחיל לא במלכים ולא במלחמות, אלא במעשה של אמונה ומסירות נפש.",
+      "ההר שבו אברהם הניח את יצחק על המזבח – עליו ייבנה, בעוד מאות שנים, בית המקדש. ובדברי הימים כתוב במפורש: שלמה בנה את בית השם \"בהר המוריה\".",
+      "כשיהודי תוקע בשופר, כשהוא אומר בבוקר את פרשת העקדה – הוא מתחבר אל אותו הר.",
+      "ובשיעור הבא נראה איך ההר הזה נעשה עיר: עיר דוד, בירת ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f1e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "הר המוריה והעקדה",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר על ההרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Sunrise over the hills of Jerusalem today: golden stone houses, old city walls and domes, mist in the valleys, a soft warm light from the east.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🕊️",
+     "say": [
+      "כשהשמש עולה על ירושלים, האבנים שלה נצבעות בזהב. יש ערים גדולות ממנה, ויש ערים עשירות ממנה – אבל אין עיר שעם שלם אהב והתגעגע אליה כל כך, במשך כל כך הרבה דורות.",
+      "בכל יום, שלוש פעמים, יהודים בכל העולם מזכירים אותה בתפילה. בחתונות, בברכת המזון, בליל הסדר.",
+      "בסדרה הזאת נעבור יחד על כל הסיפור: מהר המוריה, דרך עיר דוד ובתי המקדש, הגלות הארוכה, היהודים שחזרו, ועד ירושלים של היום.",
+      "והסיפור מתחיל בהר אחד, ובאיש אחד שהאמין בשם בכל ליבו: אברהם אבינו.",
+      "חז\"ל אומרים: \"עשרה קבים יופי ירדו לעולם, תשעה נטלה ירושלים\". אבל היופי של ירושלים איננו רק באבנים – הוא בקדושה שלה, ובאהבה שעם ישראל אהב אותה.",
+      "נלמד את הסיפור מן המקורות: פסוקי התנ\"ך, דברי חז\"ל, ומכתבים ועדויות של יהודים שהלכו אליה לאורך הדורות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אברהם יוצא לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: Before dawn outside a tent in the land of Canaan: Avraham saddling a donkey with his own hands, Yitzchak tying a bundle of firewood, two young servants waiting, stars fading.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 ⛺",
+     "say": [
+      "הקדוש ברוך הוא אמר לאברהם: \"קח נא את בנך, את יחידך, אשר אהבת, את יצחק, ולך לך אל ארץ המוריה\".",
+      "רש\"י מסביר: \"ארץ המוריה\" – זו ירושלים. כבר כאן, בתחילת הסיפור, אנחנו פוגשים את המקום.",
+      "זה היה העשירי והקשה בניסיונות של אברהם. ואברהם לא התווכח ולא שאל שאלות. \"וישכם אברהם בבוקר\" – הוא קם מוקדם, בזריזות.",
+      "רש\"י מוסיף: אברהם חבש את החמור בעצמו, אף שהיו לו עבדים. כשאדם אוהב לעשות את רצון השם, הוא עושה בעצמו ובשמחה.",
+      "ולמה נקרא המקום \"מוריה\"? רש\"י מביא את דברי רבותינו: \"על שם שמשם הוראה יוצאת לישראל\" – משם, מן הסנהדרין שתשב שם, תצא תורה לכל העם.",
+      "ויש עוד פירוש, בבראשית רבה: על שם המור, הקטורת שתוקטר שם. כבר בשמו, ההר הזה מחכה למקדש."
+     ],
+     "pasuk": {
+      "text": "קַח נָא אֶת בִּנְךָ אֶת יְחִידְךָ אֲשֶׁר אָהַבְתָּ אֶת יִצְחָק, וְלֶךְ לְךָ אֶל אֶרֶץ הַמֹּרִיָּה",
+      "ref": "בראשית כב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "וילכו שניהם יחדיו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: Avraham and Yitzchak walking side by side up a rocky path on the third day, Yitzchak carrying the firewood, Avraham holding a small fire pot; far ahead a soft cloud rests on a mountain top.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👴 👨 🪨",
+     "say": [
+      "שלושה ימים הלכו. \"ביום השלישי וישא אברהם את עיניו, וירא את המקום מרחוק\". רש\"י אומר: הוא ראה ענן קשור על ההר.",
+      "יצחק שאל: הנה האש והעצים, ואיפה השה? ואברהם ענה: השם יראה לו את השה, בני.",
+      "\"וילכו שניהם יחדיו\". רש\"י מסביר: אברהם ידע לאן הוא הולך, ויצחק עוד לא ידע – ובכל זאת הלכו באותה שמחה ובאותו לב.",
+      "ויצחק, כשהבין, לא ברח ולא התנגד. גם הוא מסר את עצמו לשם.",
+      "יצחק לא היה ילד. לפי חז\"ל הוא היה בן שלושים ושבע, ויכול היה לסרב. ההסכמה שלו הפכה את העקדה לניסיון של שניהם.",
+      "ולכן בתפילות של ראש השנה אנחנו מזכירים לא רק את אברהם, אלא את \"עקדת יצחק לזרעו\" – הזכות של יצחק עומדת לבניו עד היום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לפי חז\"ל ורש\"י, יצחק היה בן שלושים ושבע בזמן העקדה, ואברהם היה בן מאה שלושים ושבע."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "העקדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Yitzchak: a grown young man with a short dark beard in a plain light robe, calm and trusting. Scene: The mountain top: a simple altar of stones with wood laid on it, Avraham standing and looking up toward a soft warm light from the sky, his hands open and empty, Yitzchak safe beside him. Peaceful, awe-filled.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 🪨",
+     "say": [
+      "על ההר בנה אברהם מזבח וערך את העצים. הוא היה מוכן לתת לשם את היקר לו מכל.",
+      "ואז קרא מלאך השם מן השמיים: \"אברהם, אברהם!\" – פעמיים, מרוב חיבה. \"אל תשלח ידך אל הנער, ואל תעש לו מאומה\".",
+      "השם מעולם לא רצה קורבן אדם. הניסיון היה לגלות את כוחו הפנימי של אברהם – את האמונה שלו, לכולם.",
+      "מאז, עם ישראל יודע: אנחנו בניו של אברהם, שהיה מוכן לתת הכול לשם. ובזכותו, השם שומר עלינו.",
+      "הרמב\"ן מסביר שהניסיון לא נועד בשביל השם – הוא יודע הכול – אלא כדי להוציא את האמונה של אברהם מן הכוח אל הפועל, ולתת לו שכר על מעשה, ולא רק על לב טוב.",
+      "ומכאן לימוד גדול: מסירות נפש איננה רק רגש. היא מעשה – לקום בבוקר, ללכת, ולעשות את רצון השם."
+     ],
+     "pasuk": {
+      "text": "אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר",
+      "ref": "בראשית כב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "האיל בסבך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Avraham Avinu: a very old man with a long white beard, a simple cream and brown robe, a head cloth. Scene: Golden hour on the mountain top: a large ram with curled horns caught by its horns in a thorny thicket, Avraham turning toward it with wonder, Yitzchak behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "🐏 👴",
+     "say": [
+      "\"וישא אברהם את עיניו, וירא והנה איל, אחר נאחז בסבך בקרניו\". אברהם לקח את האיל והקריב אותו תחת בנו.",
+      "חז\"ל אומרים שהשם אמר: \"תקעו לפני בשופר של איל, כדי שאזכור לכם עקידת יצחק בן אברהם, ומעלה אני עליכם כאילו עקדתם את עצמכם לפני\".",
+      "כך, בכל ראש השנה, קול השופר מחזיר אותנו אל ההר ההוא בירושלים.",
+      "ובכל בוקר, בתחילת תפילת שחרית, רבים אומרים את \"פרשת העקדה\", ומבקשים: כמו שאברהם כבש את רחמיו לעשות רצונך – כך יכבשו רחמיך את כעסך עלינו.",
+      "חז\"ל אומרים שהאיל הזה נברא כבר בערב שבת של בריאת העולם, בין השמשות – כאילו העולם כולו חיכה לרגע הזה.",
+      "ומהאיל, אומר המדרש, לא הלך שום דבר לאיבוד: מקרן אחת – שופר שנתקע בהר סיני, ומהשנייה – השופר שיתקע לגאולה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בראש השנה תוקעים בשופר של איל, כדי שהשם יזכור לנו את עקדת יצחק."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "ה' יראה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: An ancient view of the mountain of Moriah and the hills around it at sunset, empty of buildings, a lone stone altar on the summit, birds circling, the future city only hinted by the shape of the hills.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 🕊️",
+     "say": [
+      "אחרי העקדה קרא אברהם למקום \"ה' יראה\" – המקום שבו השם רואה, ושבו עם ישראל ייראה לפניו בעלייה לרגל.",
+      "אבל עוד לפני כן, בימי אברהם, מלך שם \"מלכי צדק, מלך שלם\". חז\"ל אומרים שהוא היה שם בן נח, ושהוא קרא למקום \"שלם\".",
+      "המדרש מספר: אמר הקדוש ברוך הוא – אם אקרא לו \"יראה\", שם צדיק יתרעם. ואם אקרא לו \"שלם\", אברהם יתרעם. לכן חיבר את שניהם: יראה ועוד שלם – ירושלים.",
+      "ושימו לב: יש בירושלים גם את המילה \"שלום\". זה החלום של העיר הזאת.",
+      "הכתיב בתנ\"ך הוא \"ירושלם\", בלי יו\"ד לפני המם הסופית, אבל קוראים \"ירושלַיִם\" – כאילו יש בה שני חלקים, שתי ירושלים. חז\"ל מדברים על \"ירושלים של מטה\" ו\"ירושלים של מעלה\", שמכוונות זו כנגד זו.",
+      "ובפסוק עצמו נאמר: \"אשר ייאמר היום, בהר ה' יראה\" – כבר אז ידעה התורה שבדורות הבאים יאמרו \"הר ה'\" על ההר הזה."
+     ],
+     "pasuk": {
+      "text": "וַיִּקְרָא אַבְרָהָם שֵׁם הַמָּקוֹם הַהוּא ה' יִרְאֶה",
+      "ref": "בראשית כב, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שער השמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Night on a stony hillside: Yaakov asleep with his head on a stone, above him a soft ladder of light rising into the starry sky with faint glowing figures of angels going up and down. Peaceful.",
+     "move": "up",
+     "fx": "stars",
+     "art": "😴 🪜",
+     "say": [
+      "גם יעקב אבינו פגש את המקום. בדרכו לחרן, נשכב לישון, וחלם על סולם שראשו מגיע השמימה.",
+      "כשהתעורר אמר: \"מה נורא המקום הזה... וזה שער השמים\".",
+      "רש\"י מסביר: \"שער השמים\" – מקום תפילה, שמשם התפילות עולות לשמיים.",
+      "כך, כל אחד מן האבות קשור למקום: אברהם בעקדה, יצחק שנעקד עליו, ויעקב שראה בו שער לשמיים.",
+      "רש\"י מביא את דברי חז\"ל שהמקום שבו חלם יעקב קשור להר המוריה עצמו. והגמרא אומרת: אברהם קרא למקום \"הר\", יצחק קרא לו \"שדה\", ויעקב קרא לו \"בית\".",
+      "ומכאן לימוד: ההר של אברהם נעשה \"בית\" של יעקב – בית המקדש, בית תפילה לדורות. ועל זה בשיעור הבא."
+     ],
+     "pasuk": {
+      "text": "וְזֶה שַׁעַר הַשָּׁמָיִם",
+      "ref": "בראשית כח, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מתחיל סיפור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A modern shofar resting on a white tablecloth beside an open prayer book on Rosh Hashana morning, sunlight from a window, the hills of Jerusalem seen softly through it.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "הסיפור של ירושלים מתחיל לא במלכים ולא במלחמות, אלא במעשה של אמונה ומסירות נפש.",
+      "ההר שבו אברהם הניח את יצחק על המזבח – עליו ייבנה, בעוד מאות שנים, בית המקדש. ובדברי הימים כתוב במפורש: שלמה בנה את בית השם \"בהר המוריה\".",
+      "כשיהודי תוקע בשופר, כשהוא אומר בבוקר את פרשת העקדה – הוא מתחבר אל אותו הר.",
+      "ובשיעור הבא נראה איך ההר הזה נעשה עיר: עיר דוד, בירת ישראל.",
+      "כך, ברצף אחד: אמונת האבות, מקדש, תפילה. ירושלים היא לא רק מקום בגאוגרפיה – היא המקום שבו עם ישראל פוגש את בוראו.",
+      "ושאלה למחשבה: למה דווקא מעשה של מסירות נפש הוא היסוד של העיר? אולי כי ירושלים תמיד תדרוש מאיתנו מסירות – לבנות אותה, להתפלל עליה, ולשמור עליה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן אמר השם לאברהם ללכת עם יצחק?",
+   "answer": "אל ארץ המוריה – ירושלים",
+   "options": [
+    "אל ארץ המוריה – ירושלים",
+    "אל מצרים",
+    "אל הר סיני"
+   ],
+   "explain_he": "השם אמר לאברהם: \"ולך לך אל ארץ המוריה\", ורש\"י מסביר שזו ירושלים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן אמר השם לאברהם ללכת עם יצחק?",
+   "answer": "אל ארץ המוריה – ירושלים",
+   "options": [
+    "אל ארץ המוריה – ירושלים",
+    "אל מצרים",
+    "אל הר סיני"
+   ],
+   "explain_he": "השם אמר לאברהם: \"ולך לך אל ארץ המוריה\", ורש\"י מסביר שזו ירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן אמר השם לאברהם ללכת עם יצחק?",
+   "answer": "אל ארץ המוריה – ירושלים",
+   "options": [
+    "אל ארץ המוריה – ירושלים",
+    "אל מצרים",
+    "אל הר סיני"
+   ],
+   "explain_he": "השם אמר לאברהם: \"ולך לך אל ארץ המוריה\", ורש\"י מסביר שזו ירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הקריב אברהם במקום יצחק?",
+   "answer": "איל שנתפס בקרניו בשיח",
+   "options": [
+    "איל שנתפס בקרניו בשיח",
+    "יונה לבנה",
+    "פרה אדומה"
+   ],
+   "explain_he": "אברהם ראה איל שנאחז בקרניו בסבך, והקריב אותו במקום בנו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הקריב אברהם במקום יצחק?",
+   "answer": "איל שנתפס בקרניו בשיח",
+   "options": [
+    "איל שנתפס בקרניו בשיח",
+    "יונה לבנה",
+    "פרה אדומה"
+   ],
+   "explain_he": "אברהם ראה איל שנאחז בקרניו בסבך, והקריב אותו במקום בנו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הקריב אברהם במקום יצחק?",
+   "answer": "איל שנתפס בקרניו בשיח",
+   "options": [
+    "איל שנתפס בקרניו בשיח",
+    "יונה לבנה",
+    "פרה אדומה"
+   ],
+   "explain_he": "אברהם ראה איל שנאחז בקרניו בסבך, והקריב אותו במקום בנו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה תוקעים בראש השנה בשופר של איל?",
+   "answer": "כדי שהשם יזכור לנו את עקדת יצחק",
+   "options": [
+    "כדי שהשם יזכור לנו את עקדת יצחק",
+    "כי קרן של איל היא הכי זולה",
+    "כדי להעיר את השכנים"
+   ],
+   "explain_he": "השופר של איל מזכיר את האיל שהוקרב במקום יצחק, ואת מסירות הנפש של אברהם ויצחק.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה תוקעים בראש השנה בשופר של איל?",
+   "answer": "כדי שהשם יזכור לנו את עקדת יצחק",
+   "options": [
+    "כדי שהשם יזכור לנו את עקדת יצחק",
+    "כי קרן של איל היא הכי זולה",
+    "כדי להעיר את השכנים"
+   ],
+   "explain_he": "השופר של איל מזכיר את האיל שהוקרב במקום יצחק, ואת מסירות הנפש של אברהם ויצחק.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה תוקעים בראש השנה בשופר של איל?",
+   "answer": "כדי שהשם יזכור לנו את עקדת יצחק",
+   "options": [
+    "כדי שהשם יזכור לנו את עקדת יצחק",
+    "כי קרן של איל היא הכי זולה",
+    "כדי להעיר את השכנים"
+   ],
+   "explain_he": "השופר של איל מזכיר את האיל שהוקרב במקום יצחק, ואת מסירות הנפש של אברהם ויצחק.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאילו שני שמות נולד השם ירושלים?",
+   "answer": "\"יראה\" ו\"שלם\"",
+   "options": [
+    "\"יראה\" ו\"שלם\"",
+    "\"ירדן\" ו\"שמים\"",
+    "\"יריחו\" ו\"שכם\""
+   ],
+   "explain_he": "אברהם קרא למקום \"יראה\", ומלך צדיק קרא לו \"שלם\". השם חיבר את שניהם: ירושלים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"וילכו שניהם יחדיו\"?",
+   "answer": "אברהם ויצחק הלכו יחד, באותה אמונה",
+   "options": [
+    "אברהם ויצחק הלכו יחד, באותה אמונה",
+    "הם הלכו כל אחד בדרך אחרת",
+    "הם רצו כי מיהרו"
+   ],
+   "explain_he": "אברהם ויצחק הלכו יחד, עם אותו לב ואותה אמונה בשם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f1e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדנו מכך שאברהם חבש את החמור בעצמו?",
+   "answer": "שמי שאוהב לעשות את רצון השם עושה בעצמו ובשמחה",
+   "options": [
+    "שמי שאוהב לעשות את רצון השם עושה בעצמו ובשמחה",
+    "שלא היו לו עבדים",
+    "שהחמור לא הקשיב לאחרים"
+   ],
+   "explain_he": "רש\"י אומר שאף שהיו לו עבדים, אברהם עשה בעצמו – מאהבה לעשות את רצון השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f1e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדנו מכך שאברהם חבש את החמור בעצמו?",
+   "answer": "שמי שאוהב לעשות את רצון השם עושה בעצמו ובשמחה",
+   "options": [
+    "שמי שאוהב לעשות את רצון השם עושה בעצמו ובשמחה",
+    "שלא היו לו עבדים",
+    "שהחמור לא הקשיב לאחרים"
+   ],
+   "explain_he": "רש\"י אומר שאף שהיו לו עבדים, אברהם עשה בעצמו – מאהבה לעשות את רצון השם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראה אברהם על ההר ביום השלישי, לפי רש\"י?",
+   "answer": "ענן קשור על ההר",
+   "options": [
+    "ענן קשור על ההר",
+    "קשת בענן",
+    "עיר גדולה עם חומות"
+   ],
+   "explain_he": "רש\"י אומר שאברהם ראה ענן קשור על ההר, וכך ידע שזה המקום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f1e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראה אברהם על ההר ביום השלישי, לפי רש\"י?",
+   "answer": "ענן קשור על ההר",
+   "options": [
+    "ענן קשור על ההר",
+    "קשת בענן",
+    "עיר גדולה עם חומות"
+   ],
+   "explain_he": "רש\"י אומר שאברהם ראה ענן קשור על ההר, וכך ידע שזה המקום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה \"מלכי צדק, מלך שלם\", לפי חז\"ל?",
+   "answer": "שם בן נח",
+   "options": [
+    "שם בן נח",
+    "פרעה",
+    "אליעזר עבד אברהם"
+   ],
+   "explain_he": "חז\"ל אומרים שמלכי צדק הוא שם בן נח, והוא קרא למקום \"שלם\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f1e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה \"מלכי צדק, מלך שלם\", לפי חז\"ל?",
+   "answer": "שם בן נח",
+   "options": [
+    "שם בן נח",
+    "פרעה",
+    "אליעזר עבד אברהם"
+   ],
+   "explain_he": "חז\"ל אומרים שמלכי צדק הוא שם בן נח, והוא קרא למקום \"שלם\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי רש\"י, למה נקרא ההר \"מוריה\"?",
+   "answer": "כי משם הוראה – תורה – יוצאת לישראל",
+   "options": [
+    "כי משם הוראה – תורה – יוצאת לישראל",
+    "כי היה עליו מורה דרך",
+    "כי הוא מר ויבש"
+   ],
+   "explain_he": "רש\"י מביא: \"על שם שמשם הוראה יוצאת לישראל\" – הסנהדרין תשב שם ותורה תצא לכל העם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הרמב\"ן, בשביל מה נועד הניסיון?",
+   "answer": "להוציא את אמונת אברהם מן הכוח אל הפועל",
+   "options": [
+    "להוציא את אמונת אברהם מן הכוח אל הפועל",
+    "כדי שהשם יידע מה אברהם יעשה",
+    "כדי להעניש את אברהם"
+   ],
+   "explain_he": "השם יודע הכול. הניסיון נועד להפוך את האמונה של אברהם למעשה, ולתת לו שכר על המעשה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים היה יצחק בזמן העקדה, לפי חז\"ל?",
+   "answer": "שלושים ושבע",
+   "options": [
+    "שלושים ושבע",
+    "שבע",
+    "שלוש עשרה"
+   ],
+   "explain_he": "לפי חז\"ל ורש\"י יצחק היה בן שלושים ושבע. הוא יכול היה לסרב, ובכל זאת הסכים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f1e23"
+  }
+ ]
+}

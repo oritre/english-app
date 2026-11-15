@@ -1,0 +1,537 @@
+{
+ "id": "k-gre-f1",
+ "unit_id": "k-gre-u1",
+ "course": "greece",
+ "title_he": "אלכסנדר מוקדון ושמעון הצדיק",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "אלכסנדר מוקדון ושמעון הצדיק",
+   "ref_he": "יוון ורומא",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך צעיר מן המערב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Scene: alexander on a white horse on a hilltop at sunrise, looking east over a vast plain, behind him far away a huge army with banners and long spears raised upright, dust rising in golden light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐎",
+     "say": [
+      "לפני בערך אלפיים שלוש מאות שנה, במקדוניה שבצפון יוון, עלה לשלטון מלך צעיר בן עשרים. שמו היה אלכסנדר.",
+      "בתוך שנים ספורות הוא יצא עם צבאו מזרחה, וכבש ממלכה אחרי ממלכה: את האימפריה הפרסית הענקית, את מצרים, ועד גבולות הודו.",
+      "עד אז שלטה בארץ ישראל ממלכת פרס, מאז ימי כורש, שהרשה ליהודים לשוב מבבל ולבנות את בית המקדש השני.",
+      "בדרכו הוא עבר גם בארץ ישראל. ועכשיו, השאלה הגדולה הייתה: מה יעשה הכובש החדש לירושלים ולבית המקדש?"
+     ],
+     "pasuk": {
+      "text": "וְהַצָּפִיר הַשָּׂעִיר מֶלֶךְ יָוָן",
+      "ref": "דניאל ח, כא"
+     },
+     "note": null
+    },
+    {
+     "id": "s1b",
+     "title_he": "תלמידו של אריסטו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A teenage prince in a long tunic sitting on a stone bench in a garden of olive trees in Macedonia, listening to an older bearded teacher in a cloak who holds a scroll, soft morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👦",
+     "say": [
+      "כשאלכסנדר היה נער, אביו, המלך פיליפוס, הביא לו מורה פרטי: אריסטו, אחד מגדולי החכמים של יוון.",
+      "אריסטו לימד אותו פילוסופיה, מדע ורפואה. אלכסנדר אהב מאוד את התרבות היוונית, ושאף להפיץ אותה בכל העולם.",
+      "בכל מקום שכבש, בנה ערים חדשות בסגנון יווני. רבות מהן נקראו על שמו: אלכסנדריה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שמעון הצדיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: shimon standing in the courtyard of the Second Temple in Jerusalem in soft morning light, kohanim in white around him, golden stone walls and a smoke column rising straight up from the altar into a clear sky.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "באותם ימים עמד בית המקדש השני בירושלים, ובראשו כיהן כהן גדול בשם שמעון הצדיק.",
+      "שמעון הצדיק היה משיירי אנשי כנסת הגדולה, החכמים שהנהיגו את העם מאז השיבה מבבל.",
+      "הגמרא מספרת שבכל השנים ששימש כהן גדול, היה סימן ברכה מיוחד במקדש: נר המערבי שבמנורה לא כבה מעולם.",
+      "במשנה, בפרקי אבות, אנחנו לומדים ממנו עד היום: על שלושה דברים העולם עומד, על התורה, על העבודה ועל גמילות חסדים.",
+      "ביום הכיפורים אנחנו מתארים בתפילה את מראה הכהן הגדול כשיצא בשלום מן הקודש: \"אמת, מה נהדר היה כהן גדול\"."
+     ],
+     "pasuk": {
+      "text": "עַל שְׁלֹשָׁה דְבָרִים הָעוֹלָם עוֹמֵד: עַל הַתּוֹרָה וְעַל הָעֲבוֹדָה וְעַל גְּמִילוּת חֲסָדִים",
+      "ref": "שמעון הצדיק, אבות א, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הלשנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Scene: alexander in a large army tent at evening, seated on a folding chair, a few men in dark robes bowing before him and pointing toward the distant hills of Jerusalem, lamps glowing, his face thoughtful.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨👨",
+     "say": [
+      "הגמרא במסכת יומא מספרת: הכותים, שכניהם של היהודים ואויביהם, באו אל אלכסנדר.",
+      "הכותים היו צאצאי העמים שהביא מלך אשור לשומרון, אחרי שהגלה את עשרת השבטים. הם בנו לעצמם מקדש על הר גריזים, ושנאו את המקדש שבירושלים.",
+      "הם ביקשו ממנו רשות להחריב את בית המקדש שבירושלים. ואלכסנדר הסכים.",
+      "הידיעה הגיעה לירושלים. מה עושים מול מלך שאף צבא בעולם לא הצליח לעצור?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "לילה של אבוקות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: A long procession at night walking on a road through the Judean hills: kohanim in white robes and elders of Israel carrying burning torches, shimon at the front in full priestly garments, the torchlight glowing on the stones.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴👨👨",
+     "say": [
+      "שמעון הצדיק לבש את בגדי הכהונה של הכהן הגדול. איתו יצאו נכבדי ירושלים, ובידיהם אבוקות של אש.",
+      "כל הלילה הלכו. מצד אחד צעדו היהודים עם האבוקות, ומן הצד השני התקרב צבאו של אלכסנדר.",
+      "דמיינו את המראה: שיירה ארוכה של אור, במדבר החשוך, הולכת לקראת המלך החזק בעולם.",
+      "שמעון הצדיק ידע שאין לו כוח להילחם. כל כוחו היה בתפילה, ובכבוד של בית המקדש, שאותו ייצגו בגדי הכהונה.",
+      "הכהנים והזקנים הלכו בשקט, והאש של האבוקות ריצדה על אבני הדרך. זה היה מסע של אמונה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "המלך יורד מן המרכבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: At dawn on a wide road, alexander stepping down from his chariot and bowing his head respectfully before shimon in his white and gold garments, soldiers standing still in surprise behind, the first golden sunlight between them.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨👴",
+     "say": [
+      "כשעלה עמוד השחר ראה אלכסנדר את שמעון הצדיק. ואז קרה דבר מדהים: המלך הגדול ירד ממרכבתו, והשתחווה לפני הכהן הגדול.",
+      "אנשיו שאלו בתדהמה: מלך גדול כמוך משתחווה ליהודי הזה?",
+      "ענה להם אלכסנדר: דמות פניו של זה רואה אני לפני בכל מלחמה, ואני מנצח.",
+      "שמעון הצדיק הסביר למלך שבבית המקדש מתפללים לשלומו ולשלום מלכותו. אלכסנדר ביטל את הגזירה, ובית המקדש ניצל.",
+      "ולמה הופיעה לו דמותו של שמעון הצדיק? הגמרא לא מסבירה. אבל היא מלמדת אותנו שהקדוש ברוך הוא מכין את ההצלה עוד לפני שהצרה מגיעה."
+     ],
+     "pasuk": {
+      "text": "דְּמוּת דְּיוֹקְנוֹ שֶׁל זֶה מְנַצַּחַת לְפָנַי בְּבֵית מִלְחַמְתִּי",
+      "ref": "יומא סט, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "בית הכנסת של אלכסנדריה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Inside an enormous ancient synagogue hall in Alexandria with double rows of tall columns, a great crowd of Jewish men in robes and head coverings, a man on a raised wooden platform in the center lifting a white cloth, golden chairs along the walls.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👨👨",
+     "say": [
+      "בעיר אלכסנדריה שבמצרים, שאלכסנדר ייסד, התיישבה קהילה יהודית גדולה מאוד.",
+      "הגמרא במסכת סוכה מספרת על בית הכנסת שלהם: הוא היה כל כך גדול, שעמדו בו שבעים ואחד כיסאות של זהב, כנגד שבעים ואחד חכמי הסנהדרין הגדולה.",
+      "ומכיוון שלא כולם שמעו את החזן, עמד חזן הכנסת על בימת עץ באמצע, ובידו סודר, כלומר מטפחת. כשהגיע הזמן לענות אמן, הוא נופף בה, וכל הקהל ענה: אמן!"
+     ],
+     "pasuk": {
+      "text": "מִי שֶׁלֹּא רָאָה דְּיוֹפְלוּסְטוֹן שֶׁל אֲלֶכְּסַנְדְּרִיָּא שֶׁל מִצְרַיִם, לֹא רָאָה בִּכְבוֹדָן שֶׁל יִשְׂרָאֵל",
+      "ref": "סוכה נא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הממלכה מתפרקת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A wide golden-hour view of the ancient Mediterranean coast: a great lighthouse in a busy harbor of a new city in Egypt on one side, desert hills on the other, and the hills of Eretz Yisrael in the middle under a dramatic sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "אלכסנדר מת צעיר מאוד, בגיל שלושים ושתיים בערך. הממלכה העצומה שלו התחלקה בין מצביאיו.",
+      "במצרים שלטה משפחת תלמי, מעיר הנמל החדשה אלכסנדריה. בסוריה שלטה משפחה אחרת, בית סלווקוס.",
+      "אלכסנדריה הפכה לאחת הערים החשובות בעולם, עם ספרייה ענקית ומגדלור גבוה בנמל.",
+      "וארץ ישראל? היא נמצאת בדיוק באמצע, בין שתי הממלכות. ובעיקר, היא נכנסה לתוך עולם חדש: עולם התרבות היוונית.",
+      "בסרט הבא נראה מה הייתה התרבות הזאת, ולמה היא הייתה, אולי, סכנה גדולה יותר מכל צבא.",
+      "בתחילה, תחת בית תלמי, חיו היהודים בשקט יחסי. אבל בית סלווקוס חיכה להזדמנות, ובסוף כבש את ארץ ישראל.",
+      "ושם, תחת שלטון בית סלווקוס, יתחיל הסיפור של חנוכה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-gre-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "אלכסנדר מוקדון ושמעון הצדיק",
+   "ref_he": "יוון ורומא",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך צעיר מן המערב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Scene: alexander on a white horse on a hilltop at sunrise, looking east over a vast plain, behind him far away a huge army with banners and long spears raised upright, dust rising in golden light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐎",
+     "say": [
+      "לפני בערך אלפיים שלוש מאות שנה, במקדוניה שבצפון יוון, עלה לשלטון מלך צעיר בן עשרים. שמו היה אלכסנדר, וההיסטוריה קוראת לו \"אלכסנדר הגדול\".",
+      "בתוך שנים ספורות הוא יצא עם צבאו מזרחה, וכבש ממלכה אחרי ממלכה: את האימפריה הפרסית הענקית, את מצרים, ועד גבולות הודו.",
+      "עד אז שלטה בארץ ישראל ממלכת פרס, מאז ימי כורש, שהרשה ליהודים לשוב מבבל ולבנות את בית המקדש השני.",
+      "הנביא דניאל ראה בחזון, שנים רבות לפני כן, תיש מהיר שבא מן המערב ושובר את האיל, ואמר במפורש: והצפיר השעיר, מלך יוון.",
+      "בדרכו עבר אלכסנדר גם בארץ ישראל. ועכשיו, השאלה הגדולה הייתה: מה יעשה הכובש החדש לירושלים ולבית המקדש?"
+     ],
+     "pasuk": {
+      "text": "וְהַצָּפִיר הַשָּׂעִיר מֶלֶךְ יָוָן",
+      "ref": "דניאל ח, כא"
+     },
+     "note": null
+    },
+    {
+     "id": "s1b",
+     "title_he": "תלמידו של אריסטו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A teenage prince in a long tunic sitting on a stone bench in a garden of olive trees in Macedonia, listening to an older bearded teacher in a cloak who holds a scroll, soft morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴👦",
+     "say": [
+      "כשאלכסנדר היה נער, אביו, המלך פיליפוס, הביא לו מורה פרטי: אריסטו, אחד מגדולי החכמים של יוון.",
+      "אריסטו לימד אותו פילוסופיה, מדע ורפואה. אלכסנדר אהב מאוד את התרבות היוונית, ושאף להפיץ אותה בכל העולם.",
+      "בכל מקום שכבש, בנה ערים חדשות בסגנון יווני. רבות מהן נקראו על שמו: אלכסנדריה.",
+      "כלומר, אלכסנדר לא רצה רק לשלוט. הוא רצה שכל העולם יחשוב, ידבר ויחיה כמו יווני. וכאן, כפי שנראה, ייפגש העולם היווני עם עם ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שמעון הצדיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: shimon standing in the courtyard of the Second Temple in Jerusalem in soft morning light, kohanim in white around him, golden stone walls and a smoke column rising straight up from the altar into a clear sky.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "באותם ימים עמד בית המקדש השני בירושלים, ובראשו כיהן כהן גדול בשם שמעון הצדיק.",
+      "שמעון הצדיק היה משיירי אנשי כנסת הגדולה, החכמים שהנהיגו את העם מאז השיבה מבבל, ושתיקנו לנו את נוסח התפילה והברכות.",
+      "הגמרא מספרת שבכל השנים ששימש כהן גדול, היה סימן ברכה מיוחד במקדש: נר המערבי שבמנורה לא כבה מעולם.",
+      "במשנה, בפרקי אבות, אנחנו לומדים ממנו עד היום: על שלושה דברים העולם עומד, על התורה, על העבודה ועל גמילות חסדים.",
+      "שימו לב: התורה, עבודת השם במקדש, וחסד בין אדם לחברו. שלושת העמודים האלה יעמדו מול העולם היווני שעמד להגיע.",
+      "ביום הכיפורים אנחנו מתארים בתפילה את מראה הכהן הגדול כשיצא בשלום מן הקודש: \"אמת, מה נהדר היה כהן גדול\"."
+     ],
+     "pasuk": {
+      "text": "עַל שְׁלֹשָׁה דְבָרִים הָעוֹלָם עוֹמֵד: עַל הַתּוֹרָה וְעַל הָעֲבוֹדָה וְעַל גְּמִילוּת חֲסָדִים",
+      "ref": "שמעון הצדיק, אבות א, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הלשנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Scene: alexander in a large army tent at evening, seated on a folding chair, a few men in dark robes bowing before him and pointing toward the distant hills of Jerusalem, lamps glowing, his face thoughtful.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨👨",
+     "say": [
+      "הגמרא במסכת יומא, דף ס\"ט, מספרת: הכותים, שכניהם של היהודים ואויביהם, באו אל אלכסנדר.",
+      "הכותים היו צאצאי העמים שהביא מלך אשור לשומרון, אחרי שהגלה את עשרת השבטים. הם בנו לעצמם מקדש על הר גריזים, ושנאו את המקדש שבירושלים.",
+      "הם ביקשו ממנו רשות להחריב את בית המקדש שבירושלים. ואלכסנדר הסכים.",
+      "הידיעה הגיעה לירושלים. מה עושים מול מלך שאף צבא בעולם לא הצליח לעצור? שמעון הצדיק לא אסף צבא. הוא בחר בדרך אחרת לגמרי.",
+      "הוא ידע שגם המלך הגדול ביותר הוא רק בשר ודם, ושליבו של מלך נתון ביד השם, כמו שכתוב: לב מלך ביד ה'."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "לילה של אבוקות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: A long procession at night walking on a road through the Judean hills: kohanim in white robes and elders of Israel carrying burning torches, shimon at the front in full priestly garments, the torchlight glowing on the stones.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴👨👨",
+     "say": [
+      "שמעון הצדיק לבש את בגדי הכהונה של הכהן הגדול. איתו יצאו נכבדי ירושלים, ובידיהם אבוקות של אש.",
+      "כל הלילה הלכו. מצד אחד צעדו היהודים עם האבוקות, ומן הצד השני התקרב צבאו של אלכסנדר.",
+      "דמיינו את המראה: שיירה ארוכה של אור, במדבר החשוך, הולכת לקראת המלך החזק בעולם.",
+      "שמעון הצדיק ידע שאין לו כוח להילחם. כל כוחו היה בתפילה, ובכבוד של בית המקדש, שאותו ייצגו בגדי הכהונה.",
+      "הכהנים והזקנים הלכו בשקט, והאש של האבוקות ריצדה על אבני הדרך. זה היה מסע של אמונה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "המלך יורד מן המרכבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: At dawn on a wide road, alexander stepping down from his chariot and bowing his head respectfully before shimon in his white and gold garments, soldiers standing still in surprise behind, the first golden sunlight between them.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨👴",
+     "say": [
+      "כשעלה עמוד השחר ראה אלכסנדר את שמעון הצדיק. ואז קרה דבר מדהים: המלך הגדול ירד ממרכבתו, והשתחווה לפני הכהן הגדול.",
+      "אנשיו שאלו בתדהמה: מלך גדול כמוך משתחווה ליהודי הזה?",
+      "ענה להם אלכסנדר: דמות פניו של זה רואה אני לפני בכל מלחמה, ואני מנצח.",
+      "שמעון הצדיק הסביר למלך שבבית המקדש מתפללים לשלומו ולשלום מלכותו. אלכסנדר ביטל את הגזירה, ובית המקדש ניצל.",
+      "ולמה הופיעה לו דמותו של שמעון הצדיק? הגמרא לא מסבירה. אבל היא מלמדת אותנו שהקדוש ברוך הוא מכין את ההצלה עוד לפני שהצרה מגיעה."
+     ],
+     "pasuk": {
+      "text": "דְּמוּת דְּיוֹקְנוֹ שֶׁל זֶה מְנַצַּחַת לְפָנַי בְּבֵית מִלְחַמְתִּי",
+      "ref": "יומא סט, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יום טוב בטבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Jerusalem on a clear winter day, people in robes and head coverings walking happily up toward the Temple, the golden stones bright in the sun, children running ahead.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👩👦",
+     "say": [
+      "חכמים קבעו את היום הזה, כ\"ה בטבת, כיום שמחה. הוא נכתב בספר קדום שנקרא \"מגילת תענית\", ובו רשימה של ימים טובים שבהם נעשו נסים לישראל.",
+      "שימו לב לעוצמה של הסיפור: לא חרבות ולא צבא הצילו את המקדש, אלא צדיק אחד ותפילה.",
+      "אלכסנדר כיבד את היהודים, ותחת שלטונו המשיכו לחיות לפי התורה.",
+      "ומה אנחנו לומדים מזה? שמול כוח עצום, הכלי של עם ישראל הוא קודם כול התפילה והקשר עם הקדוש ברוך הוא.",
+      "זה ילווה אותנו לאורך כל הקורס: האימפריות יבואו וילכו, והשאלה תמיד תהיה, מה שומר על עם ישראל.",
+      "ושימו לב: גם אלכסנדר עצמו, שכבש כמעט את כל העולם הידוע, כיבד את מקדש השם. כוח אמיתי יודע מתי להשתחוות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במגילת תענית נקבע כ\"ה בטבת כיום שמחה, \"יום הר גריזים\", לזכר ההצלה הזאת. אחרי החורבן התבטלו ימי השמחה של מגילת תענית."
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "בית הכנסת של אלכסנדריה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Inside an enormous ancient synagogue hall in Alexandria with double rows of tall columns, a great crowd of Jewish men in robes and head coverings, a man on a raised wooden platform in the center lifting a white cloth, golden chairs along the walls.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨👨👨",
+     "say": [
+      "בעיר אלכסנדריה שבמצרים, שאלכסנדר ייסד, התיישבה קהילה יהודית גדולה מאוד.",
+      "הגמרא במסכת סוכה מספרת על בית הכנסת שלהם: הוא היה כל כך גדול, שעמדו בו שבעים ואחד כיסאות של זהב, כנגד שבעים ואחד חכמי הסנהדרין הגדולה.",
+      "ומכיוון שלא כולם שמעו את החזן, עמד חזן הכנסת על בימת עץ באמצע, ובידו סודר, כלומר מטפחת. כשהגיע הזמן לענות אמן, הוא נופף בה, וכל הקהל ענה: אמן!",
+      "אבל שימו לב: היהודים באלכסנדריה דיברו יוונית, וחיו בתוך עיר יוונית. זה היה מקור של כבוד, אבל גם של סכנה, כפי שנראה בסרט הבא."
+     ],
+     "pasuk": {
+      "text": "מִי שֶׁלֹּא רָאָה דְּיוֹפְלוּסְטוֹן שֶׁל אֲלֶכְּסַנְדְּרִיָּא שֶׁל מִצְרַיִם, לֹא רָאָה בִּכְבוֹדָן שֶׁל יִשְׂרָאֵל",
+      "ref": "סוכה נא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הממלכה מתפרקת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A wide golden-hour view of the ancient Mediterranean coast: a great lighthouse in a busy harbor of a new city in Egypt on one side, desert hills on the other, and the hills of Eretz Yisrael in the middle under a dramatic sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "אלכסנדר מת צעיר מאוד, בגיל שלושים ושתיים בערך. הממלכה העצומה שלו התחלקה בין מצביאיו.",
+      "במצרים שלטה משפחת תלמי, מעיר הנמל החדשה אלכסנדריה. בסוריה שלטה משפחה אחרת, בית סלווקוס.",
+      "אלכסנדריה הפכה לאחת הערים החשובות בעולם, עם ספרייה ענקית ומגדלור גבוה בנמל.",
+      "וארץ ישראל? היא נמצאת בדיוק באמצע, בין שתי הממלכות. ובעיקר, היא נכנסה לתוך עולם חדש: עולם התרבות היוונית.",
+      "בסרט הבא נראה מה הייתה התרבות הזאת, ולמה היא הייתה, אולי, סכנה גדולה יותר מכל צבא.",
+      "בתחילה, תחת בית תלמי, חיו היהודים בשקט יחסי. אבל בית סלווקוס חיכה להזדמנות, ובסוף כבש את ארץ ישראל.",
+      "ושם, תחת שלטון בית סלווקוס, יתחיל הסיפור של חנוכה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-gre-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה בא אלכסנדר מוקדון?",
+   "answer": "ממקדוניה שבצפון יוון",
+   "options": [
+    "ממקדוניה שבצפון יוון",
+    "ממצרים",
+    "מבבל",
+    "מרומא"
+   ],
+   "explain_he": "אלכסנדר עלה לשלטון במקדוניה שבצפון יוון, וכבש משם את פרס, את מצרים ועד גבולות הודו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה בא אלכסנדר מוקדון?",
+   "answer": "ממקדוניה שבצפון יוון",
+   "options": [
+    "ממקדוניה שבצפון יוון",
+    "ממצרים",
+    "מבבל",
+    "מרומא"
+   ],
+   "explain_he": "אלכסנדר עלה לשלטון במקדוניה שבצפון יוון, וכבש משם את פרס, את מצרים ועד גבולות הודו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקשו הכותים מאלכסנדר?",
+   "answer": "רשות להחריב את בית המקדש",
+   "options": [
+    "רשות להחריב את בית המקדש",
+    "לבנות עיר חדשה",
+    "לפטור אותם ממסים",
+    "להתחתן עם בת המלך"
+   ],
+   "explain_he": "הגמרא ביומא מספרת שהכותים ביקשו להחריב את המקדש, ואלכסנדר הסכים בתחילה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקשו הכותים מאלכסנדר?",
+   "answer": "רשות להחריב את בית המקדש",
+   "options": [
+    "רשות להחריב את בית המקדש",
+    "לבנות עיר חדשה",
+    "לפטור אותם ממסים",
+    "להתחתן עם בת המלך"
+   ],
+   "explain_he": "הגמרא ביומא מספרת שהכותים ביקשו להחריב את המקדש, ואלכסנדר הסכים בתחילה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך יצא שמעון הצדיק לקראת אלכסנדר?",
+   "answer": "בבגדי כהונה, עם נכבדי ירושלים ואבוקות",
+   "options": [
+    "בבגדי כהונה, עם נכבדי ירושלים ואבוקות",
+    "עם צבא גדול",
+    "עם שק מלא זהב",
+    "בסתר, לבדו"
+   ],
+   "explain_he": "שמעון הצדיק לא אסף צבא. הוא לבש בגדי כהונה, ויצא עם נכבדי העיר ואבוקות כל הלילה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך יצא שמעון הצדיק לקראת אלכסנדר?",
+   "answer": "בבגדי כהונה, עם נכבדי ירושלים ואבוקות",
+   "options": [
+    "בבגדי כהונה, עם נכבדי ירושלים ואבוקות",
+    "עם צבא גדול",
+    "עם שק מלא זהב",
+    "בסתר, לבדו"
+   ],
+   "explain_he": "שמעון הצדיק לא אסף צבא. הוא לבש בגדי כהונה, ויצא עם נכבדי העיר ואבוקות כל הלילה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השתחווה אלכסנדר לשמעון הצדיק?",
+   "answer": "כי ראה את דמות פניו לפניו בכל מלחמה שבה ניצח",
+   "options": [
+    "כי ראה את דמות פניו לפניו בכל מלחמה שבה ניצח",
+    "כי פחד מהצבא היהודי",
+    "כי שמעון היה מלך",
+    "כי כך נהגו ביוון"
+   ],
+   "explain_he": "אלכסנדר אמר לאנשיו: דמות פניו של זה רואה אני לפני בכל מלחמה, ואני מנצח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השתחווה אלכסנדר לשמעון הצדיק?",
+   "answer": "כי ראה את דמות פניו לפניו בכל מלחמה שבה ניצח",
+   "options": [
+    "כי ראה את דמות פניו לפניו בכל מלחמה שבה ניצח",
+    "כי פחד מהצבא היהודי",
+    "כי שמעון היה מלך",
+    "כי כך נהגו ביוון"
+   ],
+   "explain_he": "אלכסנדר אמר לאנשיו: דמות פניו של זה רואה אני לפני בכל מלחמה, ואני מנצח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לממלכה של אלכסנדר אחרי מותו?",
+   "answer": "היא התחלקה בין מצביאיו",
+   "options": [
+    "היא התחלקה בין מצביאיו",
+    "היא עברה כולה ליהודים",
+    "היא גדלה עוד יותר",
+    "היא נשארה בידי בנו"
+   ],
+   "explain_he": "אלכסנדר מת צעיר, ומצביאיו חילקו את הממלכה: בית תלמי במצרים ובית סלווקוס בסוריה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מלמד הסיפור על הדרך שבה ניצל בית המקדש?",
+   "answer": "שהוא ניצל בזכות צדיק ותפילה, לא בכוח צבא",
+   "options": [
+    "שהוא ניצל בזכות צדיק ותפילה, לא בכוח צבא",
+    "שהוא ניצל בגלל מזל",
+    "שהיהודים ניצחו בקרב גדול",
+    "שהכותים התחרטו"
+   ],
+   "explain_he": "הסרט מדגיש: לא חרבות ולא צבא הצילו את המקדש, אלא צדיק אחד ותפילה. לכן קבעו את כ\"ה בטבת כיום שמחה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הם החכמים ששמעון הצדיק היה משייריהם?",
+   "answer": "אנשי כנסת הגדולה",
+   "options": [
+    "אנשי כנסת הגדולה",
+    "חכמי יוון",
+    "הנביאים הראשונים",
+    "הכותים"
+   ],
+   "explain_he": "שמעון הצדיק היה משיירי אנשי כנסת הגדולה, שהנהיגו את העם מאז השיבה מבבל ותיקנו את נוסח התפילה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f1e13"
+  }
+ ]
+}

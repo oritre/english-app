@@ -1,0 +1,819 @@
+{
+ "id": "k-jer-f5",
+ "unit_id": "k-jer-u2",
+ "course": "jerusalem",
+ "title_he": "יוצאים מן החומות",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "יוצאים מן החומות",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "השערים ננעלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Evening at a great stone gate of the Old City of Jerusalem in the 1850s: guards closing the heavy wooden doors, last travelers hurrying inside, the empty hills outside darkening.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 🚶",
+     "say": [
+      "לפני בערך מאה ושבעים שנה, כל היהודים בירושלים גרו בתוך החומות של העיר העתיקה.",
+      "בכל ערב, השומרים סגרו את השערים הכבדים, ואף אחד לא יכול היה להיכנס או לצאת.",
+      "בחוץ – רק הרים ריקים, ושודדים.",
+      "ובפנים – צפוף, צפוף מאוד. הבתים היו קטנים, ולא היה מספיק מקום לכולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "משה מונטיפיורי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Sir Moses Montefiore: a tall elderly Jewish gentleman of the 1850s with white side whiskers, a dark frock coat and a tall black hat. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Sir Moses Montefiore arriving by horse-drawn carriage on a dusty road near Jerusalem, Jewish residents of the Old City coming out to greet him warmly, the walls behind.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👴 👦",
+     "say": [
+      "הכירו את משה מונטיפיורי. הוא היה יהודי עשיר ומכובד מאנגליה.",
+      "הוא שמר שבת והתפלל בכל יום, ואהב מאוד את ארץ ישראל.",
+      "הוא נסע לארץ שבע פעמים, בדרך ארוכה וקשה, באונייה ובכרכרה.",
+      "ובכל פעם שאל: איך אפשר לעזור ליהודים של ירושלים?"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "משה מונטיפיורי ביקר בארץ ישראל שבע פעמים, והפעם האחרונה הייתה כשהיה בן תשעים ואחת."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "משכנות שאננים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: A long low row of stone houses with arched doorways and a tiled roof on an open hillside facing the Old City walls across a valley, around 1860, a few Jewish families standing outside on a bright day.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🏠 👨 👩",
+     "say": [
+      "יהודי עשיר מאמריקה, יהודה טורו, השאיר כסף בצוואה שלו, בשביל היהודים בארץ ישראל.",
+      "ומונטיפיורי קיבל את הכסף, וקנה שטח מחוץ לחומות, מול העיר העתיקה.",
+      "שם הוא בנה שכונה חדשה: בית ארוך עם דירות לעניים, והרבה מקום ואוויר.",
+      "קראו לה \"משכנות שאננים\" – בתים שגרים בהם בשקט ובביטחון.",
+      "השם \"משכנות שאננים\" לקוח מפסוק בספר ישעיהו."
+     ],
+     "pasuk": {
+      "text": "וְיָשַׁב עַמִּי בִּנְוֵה שָׁלוֹם, וּבְמִשְׁכְּנוֹת מִבְטַחִים, וּבִמְנוּחֹת שַׁאֲנַנּוֹת",
+      "ref": "ישעיהו לב, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "טחנת הרוח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A tall white stone windmill with large wooden sails on a hill outside Jerusalem's walls, a breezy blue sky, a worker carrying a sack of grain toward its door, the row of new houses below.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠 👨",
+     "say": [
+      "ליד השכונה בנה מונטיפיורי טחנת רוח גבוהה.",
+      "הרוח סובבה את הכנפיים הגדולות, והטחנה טחנה חיטה לקמח.",
+      "כך היהודים יכלו לעבוד, ולקנות קמח זול לאפות לחם.",
+      "הטחנה עומדת שם עד היום, ואפשר לבקר בה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מי יעז לגור בחוץ?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Night outside the city walls: the new row of houses with a few windows glowing with candle light, a father with a kippah locking the door, his family inside, stars over the empty hills.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠 👨",
+     "say": [
+      "אבל הייתה בעיה: אנשים פחדו לגור בשכונה החדשה!",
+      "בלילה, כשהשערים של העיר העתיקה נסגרו, הם היו לבד בחוץ.",
+      "בהתחלה, הרבה אנשים באו ביום, ובערב חזרו לישון בתוך החומות.",
+      "אבל לאט לאט התחזקו, ונשארו גם בלילה. וכך, באומץ, נולדה ירושלים החדשה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "נחלת שבעה ומאה שערים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Late nineteenth-century Jerusalem outside the walls: a new neighborhood of stone houses built around a large rectangular courtyard with a gate, men in long coats and hats walking to a synagogue, children playing.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 🏠 👨 👦",
+     "say": [
+      "אחרי משכנות שאננים, יהודים נוספים התחילו לבנות שכונות מחוץ לחומות.",
+      "שבע משפחות בנו יחד שכונה, וקראו לה \"נחלת שבעה\".",
+      "ואחר כך נבנתה שכונה גדולה: \"מאה שערים\". שם גרים עד היום יהודים רבים שלומדים תורה.",
+      "לאט לאט, מסביב לעיר העתיקה, גדלה עיר חדשה.",
+      "והשם \"מאה שערים\"? הוא לקוח מפסוק בפרשת תולדות, על יצחק אבינו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השם \"מאה שערים\" לקוח מפרשת תולדות: \"ויזרע יצחק בארץ ההיא, וימצא בשנה ההיא מאה שערים\"."
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "עלה בתמר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Yemenite Jewish families of the 1880s arriving in Jerusalem after a long journey: men with long side curls and head wraps, women in embroidered long dresses and head coverings, children, all tired and joyful, looking at the city walls.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "ויהודים הגיעו לירושלים גם מארצות רחוקות מאוד. למשל, מתימן!",
+      "לפני בערך מאה וארבעים שנה, משפחות מתימן קמו והלכו בדרך ארוכה וקשה, עד ירושלים.",
+      "הם קראו פסוק: \"אעלה בתמר\", והבינו ממנו – זו השנה לעלות!",
+      "בהתחלה הם היו עניים מאוד, אבל לאט לאט בנו להם בתים, ליד העיר העתיקה."
+     ],
+     "pasuk": {
+      "text": "אֶעֱלֶה בְתָמָר",
+      "ref": "שיר השירים ז, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "פרזות תשב ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A wide view of Jerusalem around the year 1900: the Old City walls in the center and many new neighborhoods of stone houses spreading out over the surrounding hills, roads with carts and walkers, golden late light.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 🏠 🚶 🚶",
+     "say": [
+      "בסוף המאה ההיא כבר היו מחוץ לחומות הרבה שכונות.",
+      "ירושלים גדלה וגדלה, על כל ההרים מסביב.",
+      "והנביא זכריה כבר אמר מזמן: ירושלים תהיה גדולה כל כך, שהיא תצא מהחומות שלה, כי יהיו בה הרבה אנשים.",
+      "והנבואה התחילה להתקיים, מול העיניים!"
+     ],
+     "pasuk": {
+      "text": "פְּרָזוֹת תֵּשֵׁב יְרוּשָׁלַםִ מֵרֹב אָדָם וּבְהֵמָה בְּתוֹכָהּ",
+      "ref": "זכריה ב, ח"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-jer-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "יוצאים מן החומות",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "השערים ננעלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Evening at a great stone gate of the Old City of Jerusalem in the 1850s: guards closing the heavy wooden doors, last travelers hurrying inside, the empty hills outside darkening.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 🚶",
+     "say": [
+      "באמצע המאה התשע עשרה, ירושלים כולה הייתה בתוך החומות שבנה הסולטן סולימאן כשלוש מאות שנה קודם לכן.",
+      "בכל ערב ננעלו השערים, ומחוץ לחומות היה מסוכן: שודדים, חיות, ושום שמירה.",
+      "בתוך החומות הייתה צפיפות נוראה. משפחות שלמות גרו בחדר אחד, והיה מחסור במים נקיים. מחלות התפשטו בקלות.",
+      "היה ברור שצריך לצאת. אבל מי יעז להיות הראשון?",
+      "אפילו לבית הכנסת או לבית המדרש היה צריך לחכות לתור. ילדים למדו בחדרים קטנים וחשוכים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "משה מונטיפיורי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Sir Moses Montefiore: a tall elderly Jewish gentleman of the 1850s with white side whiskers, a dark frock coat and a tall black hat. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Sir Moses Montefiore arriving by horse-drawn carriage on a dusty road near Jerusalem, Jewish residents of the Old City coming out to greet him warmly, the walls behind.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👴 👦",
+     "say": [
+      "סר משה מונטיפיורי היה מנהיג יהודי חשוב באנגליה. הוא היה עשיר מאוד, מכובד בחצר המלכה, ויהודי שומר תורה ומצוות.",
+      "הוא הקפיד על כשרות גם במסעות, ודאג לשבת בכל מקום. הוא נלחם בכל כוחו בשביל יהודים שנרדפו בארצות שונות.",
+      "שבע פעמים נסע לארץ ישראל, במסעות שנמשכו חודשים. הפעם האחרונה – כשהיה בן תשעים ואחת!",
+      "והוא רצה לעזור בדרך חדשה: לא רק לתת צדקה, אלא לעזור ליהודים לבנות, לעבוד ולפרנס את עצמם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "משה מונטיפיורי ביקר בארץ ישראל שבע פעמים, והפעם האחרונה הייתה כשהיה בן תשעים ואחת."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "משכנות שאננים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: A long low row of stone houses with arched doorways and a tiled roof on an open hillside facing the Old City walls across a valley, around 1860, a few Jewish families standing outside on a bright day.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🏠 👨 👩",
+     "say": [
+      "יהודה טורו, יהודי מניו אורלינס שבאמריקה, הוריש בצוואתו סכום גדול ליהודי ארץ ישראל, ומינה את מונטיפיורי לדאוג לו.",
+      "מונטיפיורי קנה שטח על הגבעה שמול הר ציון, מחוץ לחומות, ובשנת תר\"ך – לפני כמאה ושישים שנה – נגמרה שם הבנייה.",
+      "זה היה בניין ארוך, עם דירות לעניים. לראשונה, יהודים גרו בבתים מרווחים, עם אוויר ואור.",
+      "השם לקוח מישעיהו: \"וישב עמי בנווה שלום ובמשכנות מבטחים ובמנוחות שאננות\"."
+     ],
+     "pasuk": {
+      "text": "וְיָשַׁב עַמִּי בִּנְוֵה שָׁלוֹם, וּבְמִשְׁכְּנוֹת מִבְטַחִים, וּבִמְנוּחֹת שַׁאֲנַנּוֹת",
+      "ref": "ישעיהו לב, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "טחנת הרוח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A tall white stone windmill with large wooden sails on a hill outside Jerusalem's walls, a breezy blue sky, a worker carrying a sack of grain toward its door, the row of new houses below.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠 👨",
+     "say": [
+      "עוד לפני שהבתים נגמרו, בנה מונטיפיורי טחנת רוח, כדי שיהיה מקור פרנסה וקמח זול לתושבי העיר.",
+      "הטחנה עבדה כמה שנים, אבל הרוחות בירושלים לא היו מתאימות מספיק, והיא הפסיקה לטחון.",
+      "ובכל זאת היא נשארה עומדת, והפכה לסמל: הסמל של היציאה מן החומות ושל ירושלים החדשה.",
+      "גם מה שלא הצליח עד הסוף – פתח דרך. וזה לפעמים חשוב לא פחות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מי יעז לגור בחוץ?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Night outside the city walls: the new row of houses with a few windows glowing with candle light, a father with a kippah locking the door, his family inside, stars over the empty hills.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠 👨",
+     "say": [
+      "הדירות היו חינם, היו בהן אור ואוויר – ובכל זאת לא היה קל למלא אותן.",
+      "יהודי העיר העתיקה פחדו: מחוץ לחומות אין שמירה, ובלילה שודדים עלולים להגיע. רבים באו ביום וחזרו לישון בפנים.",
+      "רק לאט לאט, באומץ, נשארו משפחות גם בלילות. וכשראו שאפשר – הגיעו עוד.",
+      "האומץ של המשפחות הראשונות האלה פתח את הדרך לכל השכונות שבאו אחריהן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "נחלת שבעה ומאה שערים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Late nineteenth-century Jerusalem outside the walls: a new neighborhood of stone houses built around a large rectangular courtyard with a gate, men in long coats and hats walking to a synagogue, children playing.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 🏠 👨 👦",
+     "say": [
+      "בשנת תרכ\"ט קנו שבע משפחות מירושלים יחד שטח מחוץ לחומות, והקימו את \"נחלת שבעה\". הם עשו זאת בכוחות עצמם, בלי עשיר מבחוץ.",
+      "ובשנת תרל\"ד נוסדה \"מאה שערים\" – שכונה גדולה, בנויה סביב חצר, עם שערים שננעלו בלילה לביטחון, ובתי כנסת ובתי מדרש.",
+      "השם \"מאה שערים\" לקוח מפרשת תולדות, שאותה קראו בשבוע שבו הוחלט על השכונה: \"וימצא בשנה ההיא מאה שערים, ויברכהו ה'\".",
+      "ואחריהן קמו עוד ועוד: אבן ישראל, משכנות ישראל, זכרון משה, ועוד שכונות רבות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השם \"מאה שערים\" לקוח מפרשת תולדות: \"ויזרע יצחק בארץ ההיא, וימצא בשנה ההיא מאה שערים\"."
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "עלה בתמר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Yemenite Jewish families of the 1880s arriving in Jerusalem after a long journey: men with long side curls and head wraps, women in embroidered long dresses and head coverings, children, all tired and joyful, looking at the city walls.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בשנת תרמ\"ב, לפני כמאה וארבעים שנה, הגיעו לירושלים משפחות רבות של יהודי תימן, אחרי מסע ארוך וקשה.",
+      "הם ראו רמז בפסוק \"אעלה בתמר\" משיר השירים: האותיות של \"בתמר\" עולות בגימטריה לשנת תרמ\"ב. כך הבינו שהגיעה השעה.",
+      "בירושלים לא חיכה להם בית. בתחילה גרו בעוני גדול, ויש שגרו אפילו במערות. בעזרת יהודים טובים בנו להם בתים בכפר השילוח, מתחת לעיר העתיקה.",
+      "הם הביאו איתם מסורת עתיקה של תורה, תפילה ומנהגים, ונעשו חלק מירושלים."
+     ],
+     "pasuk": {
+      "text": "אֶעֱלֶה בְתָמָר",
+      "ref": "שיר השירים ז, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "פרזות תשב ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A wide view of Jerusalem around the year 1900: the Old City walls in the center and many new neighborhoods of stone houses spreading out over the surrounding hills, roads with carts and walkers, golden late light.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 🏠 🚶 🚶",
+     "say": [
+      "בתוך כמה עשרות שנים צמחה עיר חדשה סביב העיר העתיקה. בערך בסוף המאה התשע עשרה כבר גרו יותר יהודים מחוץ לחומות מאשר בתוכן.",
+      "זכריה הנביא אמר: \"פרזות תשב ירושלים, מרוב אדם ובהמה בתוכה\" – ירושלים תהיה כמו כפרים פתוחים, בלי חומות, כי לא תוכל להכיל את כל תושביה.",
+      "ומה שהתחיל בבניין אחד ארוך ובטחנת רוח – הפך לעיר.",
+      "אבל ירושלים עוד עמדה לעבור ימים קשים מאוד. על כך – בשיעור הבא."
+     ],
+     "pasuk": {
+      "text": "פְּרָזוֹת תֵּשֵׁב יְרוּשָׁלַםִ מֵרֹב אָדָם וּבְהֵמָה בְּתוֹכָהּ",
+      "ref": "זכריה ב, ח"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-jer-f5e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "יוצאים מן החומות",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "השערים ננעלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Evening at a great stone gate of the Old City of Jerusalem in the 1850s: guards closing the heavy wooden doors, last travelers hurrying inside, the empty hills outside darkening.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 🚶",
+     "say": [
+      "באמצע המאה התשע עשרה, ירושלים כולה הייתה בתוך החומות שבנה הסולטן סולימאן כשלוש מאות שנה קודם לכן.",
+      "בכל ערב ננעלו השערים, ומחוץ לחומות היה מסוכן: שודדים, חיות, ושום שמירה.",
+      "בתוך החומות הייתה צפיפות נוראה. משפחות שלמות גרו בחדר אחד, והיה מחסור במים נקיים. מחלות התפשטו בקלות.",
+      "היה ברור שצריך לצאת. אבל מי יעז להיות הראשון?",
+      "אפילו לבית הכנסת או לבית המדרש היה צריך לחכות לתור. ילדים למדו בחדרים קטנים וחשוכים.",
+      "הצפיפות גם עלתה כסף: בעלי בתים העלו את דמי השכירות, ומשפחות עניות לא עמדו בהם.",
+      "יציאה מן החומות דרשה שני דברים: כסף לבנייה, ואומץ לגור במקום שאין בו שמירה. שניהם הגיעו, כמעט במקביל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "משה מונטיפיורי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Sir Moses Montefiore: a tall elderly Jewish gentleman of the 1850s with white side whiskers, a dark frock coat and a tall black hat. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Sir Moses Montefiore arriving by horse-drawn carriage on a dusty road near Jerusalem, Jewish residents of the Old City coming out to greet him warmly, the walls behind.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👴 👦",
+     "say": [
+      "סר משה מונטיפיורי היה מנהיג יהודי חשוב באנגליה. הוא היה עשיר מאוד, מכובד בחצר המלכה, ויהודי שומר תורה ומצוות.",
+      "הוא הקפיד על כשרות גם במסעות, ודאג לשבת בכל מקום. הוא נלחם בכל כוחו בשביל יהודים שנרדפו בארצות שונות.",
+      "שבע פעמים נסע לארץ ישראל, במסעות שנמשכו חודשים. הפעם האחרונה – כשהיה בן תשעים ואחת!",
+      "והוא רצה לעזור בדרך חדשה: לא רק לתת צדקה, אלא לעזור ליהודים לבנות, לעבוד ולפרנס את עצמם.",
+      "מונטיפיורי סייע לבתי חולים, לבתי ספר ולבתי מלאכה. הוא חשב שעם חזק צריך גם תורה וגם פרנסה בכבוד.",
+      "ויש בזה עיקרון של הרמב\"ם: המעלה הגבוהה ביותר בצדקה היא לעזור לאדם להתפרנס בעצמו, עד שלא יצטרך לבריות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "משה מונטיפיורי ביקר בארץ ישראל שבע פעמים, והפעם האחרונה הייתה כשהיה בן תשעים ואחת."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "משכנות שאננים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: A long low row of stone houses with arched doorways and a tiled roof on an open hillside facing the Old City walls across a valley, around 1860, a few Jewish families standing outside on a bright day.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🏠 👨 👩",
+     "say": [
+      "יהודה טורו, יהודי מניו אורלינס שבאמריקה, הוריש בצוואתו סכום גדול ליהודי ארץ ישראל, ומינה את מונטיפיורי לדאוג לו.",
+      "מונטיפיורי קנה שטח על הגבעה שמול הר ציון, מחוץ לחומות, ובשנת תר\"ך – לפני כמאה ושישים שנה – נגמרה שם הבנייה.",
+      "זה היה בניין ארוך, עם דירות לעניים. לראשונה, יהודים גרו בבתים מרווחים, עם אוויר ואור.",
+      "השם לקוח מישעיהו: \"וישב עמי בנווה שלום ובמשכנות מבטחים ובמנוחות שאננות\".",
+      "הבחירה בשם לא הייתה מקרית: פסוק של נבואה, שמתאר את עם ישראל יושב בבטחה בארצו. הבנייה עצמה נתפסה כהתחלה קטנה של הנבואה.",
+      "ומעל השכונה, על גבעה, עמד בניין נוסף, שהפך לסמל של כל התקופה."
+     ],
+     "pasuk": {
+      "text": "וְיָשַׁב עַמִּי בִּנְוֵה שָׁלוֹם, וּבְמִשְׁכְּנוֹת מִבְטַחִים, וּבִמְנוּחֹת שַׁאֲנַנּוֹת",
+      "ref": "ישעיהו לב, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "טחנת הרוח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A tall white stone windmill with large wooden sails on a hill outside Jerusalem's walls, a breezy blue sky, a worker carrying a sack of grain toward its door, the row of new houses below.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠 👨",
+     "say": [
+      "עוד לפני שהבתים נגמרו, בנה מונטיפיורי טחנת רוח, כדי שיהיה מקור פרנסה וקמח זול לתושבי העיר.",
+      "הטחנה עבדה כמה שנים, אבל הרוחות בירושלים לא היו מתאימות מספיק, והיא הפסיקה לטחון.",
+      "ובכל זאת היא נשארה עומדת, והפכה לסמל: הסמל של היציאה מן החומות ושל ירושלים החדשה.",
+      "גם מה שלא הצליח עד הסוף – פתח דרך. וזה לפעמים חשוב לא פחות.",
+      "מונטיפיורי ניסה עוד דרכים לפרנסה, כמו פרדס ליד יפו. לא כולן הצליחו, אבל הן לימדו שהיישוב יכול להיות גם יצרני.",
+      "וההתמדה הזאת – לנסות שוב ושוב, למרות כישלונות – היא חלק מסיפור בניין הארץ."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מי יעז לגור בחוץ?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Night outside the city walls: the new row of houses with a few windows glowing with candle light, a father with a kippah locking the door, his family inside, stars over the empty hills.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠 👨",
+     "say": [
+      "הדירות היו חינם, היו בהן אור ואוויר – ובכל זאת לא היה קל למלא אותן.",
+      "יהודי העיר העתיקה פחדו: מחוץ לחומות אין שמירה, ובלילה שודדים עלולים להגיע. רבים באו ביום וחזרו לישון בפנים.",
+      "רק לאט לאט, באומץ, נשארו משפחות גם בלילות. וכשראו שאפשר – הגיעו עוד.",
+      "האומץ של המשפחות הראשונות האלה פתח את הדרך לכל השכונות שבאו אחריהן.",
+      "יש כאן לימוד עמוק: גם כשיש כסף, תוכנית ובניין – בסוף צריך אנשים פשוטים שיחליטו לגור במקום. ההתיישבות נבנית בידי משפחות.",
+      "וכך קרה בכל הדורות: כל שכונה וכל יישוב חדש התחילו בכמה משפחות שהיו מוכנות להיות הראשונות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "נחלת שבעה ומאה שערים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Late nineteenth-century Jerusalem outside the walls: a new neighborhood of stone houses built around a large rectangular courtyard with a gate, men in long coats and hats walking to a synagogue, children playing.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 🏠 👨 👦",
+     "say": [
+      "בשנת תרכ\"ט קנו שבע משפחות מירושלים יחד שטח מחוץ לחומות, והקימו את \"נחלת שבעה\". הם עשו זאת בכוחות עצמם, בלי עשיר מבחוץ.",
+      "ובשנת תרל\"ד נוסדה \"מאה שערים\" – שכונה גדולה, בנויה סביב חצר, עם שערים שננעלו בלילה לביטחון, ובתי כנסת ובתי מדרש.",
+      "השם \"מאה שערים\" לקוח מפרשת תולדות, שאותה קראו בשבוע שבו הוחלט על השכונה: \"וימצא בשנה ההיא מאה שערים, ויברכהו ה'\".",
+      "ואחריהן קמו עוד ועוד: אבן ישראל, משכנות ישראל, זכרון משה, ועוד שכונות רבות.",
+      "השכונות האלה נבנו בדרך כלל כחברות של שותפים: כל משפחה שילמה מעט בכל חודש, ובכל פעם נבנו כמה בתים, ונקבע בגורל מי יקבל אותם.",
+      "זו הייתה דרך של עזרה הדדית ושל סבלנות – וכך אנשים בלי הרבה כסף בנו עיר שלמה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השם \"מאה שערים\" לקוח מפרשת תולדות: \"ויזרע יצחק בארץ ההיא, וימצא בשנה ההיא מאה שערים\"."
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "עלה בתמר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Yemenite Jewish families of the 1880s arriving in Jerusalem after a long journey: men with long side curls and head wraps, women in embroidered long dresses and head coverings, children, all tired and joyful, looking at the city walls.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בשנת תרמ\"ב, לפני כמאה וארבעים שנה, הגיעו לירושלים משפחות רבות של יהודי תימן, אחרי מסע ארוך וקשה.",
+      "הם ראו רמז בפסוק \"אעלה בתמר\" משיר השירים: האותיות של \"בתמר\" עולות בגימטריה לשנת תרמ\"ב. כך הבינו שהגיעה השעה.",
+      "בירושלים לא חיכה להם בית. בתחילה גרו בעוני גדול, ויש שגרו אפילו במערות. בעזרת יהודים טובים בנו להם בתים בכפר השילוח, מתחת לעיר העתיקה.",
+      "הם הביאו איתם מסורת עתיקה של תורה, תפילה ומנהגים, ונעשו חלק מירושלים.",
+      "כך ירושלים של המאה התשע עשרה נעשתה פסיפס של כל הגלויות: אשכנזים וספרדים, יהודי תימן ובוכרה, המערב והמזרח.",
+      "וזה בדיוק \"כעיר שחוברה לה יחדיו\": עיר שמחברת את כל ישראל, מכל הארצות, לעם אחד."
+     ],
+     "pasuk": {
+      "text": "אֶעֱלֶה בְתָמָר",
+      "ref": "שיר השירים ז, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "פרזות תשב ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A wide view of Jerusalem around the year 1900: the Old City walls in the center and many new neighborhoods of stone houses spreading out over the surrounding hills, roads with carts and walkers, golden late light.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 🏠 🚶 🚶",
+     "say": [
+      "בתוך כמה עשרות שנים צמחה עיר חדשה סביב העיר העתיקה. בערך בסוף המאה התשע עשרה כבר גרו יותר יהודים מחוץ לחומות מאשר בתוכן.",
+      "זכריה הנביא אמר: \"פרזות תשב ירושלים, מרוב אדם ובהמה בתוכה\" – ירושלים תהיה כמו כפרים פתוחים, בלי חומות, כי לא תוכל להכיל את כל תושביה.",
+      "ומה שהתחיל בבניין אחד ארוך ובטחנת רוח – הפך לעיר.",
+      "אבל ירושלים עוד עמדה לעבור ימים קשים מאוד. על כך – בשיעור הבא.",
+      "והמשך הפסוק: \"ואני אהיה לה, נאום ה', חומת אש סביב\". עיר בלי חומות – ששמירתה באה מלמעלה.",
+      "ובאמת, הפסוק הזה ליווה את ירושלים גם בימים הקשים שבאו אחר כך: גם כשהיא הייתה מוקפת ומאוימת, היא נשמרה."
+     ],
+     "pasuk": {
+      "text": "פְּרָזוֹת תֵּשֵׁב יְרוּשָׁלַםִ מֵרֹב אָדָם וּבְהֵמָה בְּתוֹכָהּ",
+      "ref": "זכריה ב, ח"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-jer-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היה קשה לגור בתוך החומות של העיר העתיקה?",
+   "answer": "כי היה צפוף מאוד, ולא היה מקום לכולם",
+   "options": [
+    "כי היה צפוף מאוד, ולא היה מקום לכולם",
+    "כי לא היו שם בתי כנסת",
+    "כי היה קר מדי"
+   ],
+   "explain_he": "בתוך החומות היה צפוף מאוד – משפחות שלמות גרו בחדר אחד, ולא היה מספיק מקום.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היה קשה לגור בתוך החומות של העיר העתיקה?",
+   "answer": "כי היה צפוף מאוד, ולא היה מקום לכולם",
+   "options": [
+    "כי היה צפוף מאוד, ולא היה מקום לכולם",
+    "כי לא היו שם בתי כנסת",
+    "כי היה קר מדי"
+   ],
+   "explain_he": "בתוך החומות היה צפוף מאוד – משפחות שלמות גרו בחדר אחד, ולא היה מספיק מקום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היה קשה לגור בתוך החומות של העיר העתיקה?",
+   "answer": "כי היה צפוף מאוד, ולא היה מקום לכולם",
+   "options": [
+    "כי היה צפוף מאוד, ולא היה מקום לכולם",
+    "כי לא היו שם בתי כנסת",
+    "כי היה קר מדי"
+   ],
+   "explain_he": "בתוך החומות היה צפוף מאוד – משפחות שלמות גרו בחדר אחד, ולא היה מספיק מקום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי בנה את משכנות שאננים?",
+   "answer": "משה מונטיפיורי",
+   "options": [
+    "משה מונטיפיורי",
+    "הרמב\"ן",
+    "דוד המלך"
+   ],
+   "explain_he": "משה מונטיפיורי, בכסף שהשאיר יהודה טורו, בנה את משכנות שאננים מחוץ לחומות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי בנה את משכנות שאננים?",
+   "answer": "משה מונטיפיורי",
+   "options": [
+    "משה מונטיפיורי",
+    "הרמב\"ן",
+    "דוד המלך"
+   ],
+   "explain_he": "משה מונטיפיורי, בכסף שהשאיר יהודה טורו, בנה את משכנות שאננים מחוץ לחומות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי בנה את משכנות שאננים?",
+   "answer": "משה מונטיפיורי",
+   "options": [
+    "משה מונטיפיורי",
+    "הרמב\"ן",
+    "דוד המלך"
+   ],
+   "explain_he": "משה מונטיפיורי, בכסף שהשאיר יהודה טורו, בנה את משכנות שאננים מחוץ לחומות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשתה טחנת הרוח?",
+   "answer": "טחנה חיטה לקמח",
+   "options": [
+    "טחנה חיטה לקמח",
+    "שאבה מים מהבאר",
+    "הדליקה אור בלילה"
+   ],
+   "explain_he": "הרוח סובבה את הכנפיים, והטחנה טחנה חיטה לקמח, כדי שאנשים יעבדו ויקנו קמח זול.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו הרבה אנשים בהתחלה, כשפחדו לגור בשכונה החדשה?",
+   "answer": "באו ביום, ובערב חזרו לישון בתוך החומות",
+   "options": [
+    "באו ביום, ובערב חזרו לישון בתוך החומות",
+    "לא באו בכלל",
+    "גרו שם רק בחורף"
+   ],
+   "explain_he": "בהתחלה פחדו מהלילה בחוץ, אבל לאט לאט התחזקו ונשארו גם בלילה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה לקוח השם \"מאה שערים\"?",
+   "answer": "מפרשת תולדות – \"וימצא בשנה ההיא מאה שערים\"",
+   "options": [
+    "מפרשת תולדות – \"וימצא בשנה ההיא מאה שערים\"",
+    "מספר השערים בחומה",
+    "מאה האנשים שבנו אותה"
+   ],
+   "explain_he": "השם לקוח מהפסוק על יצחק אבינו, שקראו בשבוע שבו הוחלט על השכונה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה לקוח השם \"מאה שערים\"?",
+   "answer": "מפרשת תולדות – \"וימצא בשנה ההיא מאה שערים\"",
+   "options": [
+    "מפרשת תולדות – \"וימצא בשנה ההיא מאה שערים\"",
+    "מספר השערים בחומה",
+    "מאה האנשים שבנו אותה"
+   ],
+   "explain_he": "השם לקוח מהפסוק על יצחק אבינו, שקראו בשבוע שבו הוחלט על השכונה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה לקוח השם \"מאה שערים\"?",
+   "answer": "מפרשת תולדות – \"וימצא בשנה ההיא מאה שערים\"",
+   "options": [
+    "מפרשת תולדות – \"וימצא בשנה ההיא מאה שערים\"",
+    "מספר השערים בחומה",
+    "מאה האנשים שבנו אותה"
+   ],
+   "explain_he": "השם לקוח מהפסוק על יצחק אבינו, שקראו בשבוע שבו הוחלט על השכונה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו דרך חדשה לעזור רצה מונטיפיורי?",
+   "answer": "לעזור ליהודים לבנות, לעבוד ולפרנס את עצמם",
+   "options": [
+    "לעזור ליהודים לבנות, לעבוד ולפרנס את עצמם",
+    "רק לתת להם צדקה",
+    "להחזיר אותם לאירופה"
+   ],
+   "explain_he": "מונטיפיורי רצה לעזור לא רק בצדקה, אלא בפרנסה בכבוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f5e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו דרך חדשה לעזור רצה מונטיפיורי?",
+   "answer": "לעזור ליהודים לבנות, לעבוד ולפרנס את עצמם",
+   "options": [
+    "לעזור ליהודים לבנות, לעבוד ולפרנס את עצמם",
+    "רק לתת להם צדקה",
+    "להחזיר אותם לאירופה"
+   ],
+   "explain_he": "מונטיפיורי רצה לעזור לא רק בצדקה, אלא בפרנסה בכבוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בבניית \"נחלת שבעה\"?",
+   "answer": "שבע משפחות מירושלים בנו אותה בכוחות עצמן",
+   "options": [
+    "שבע משפחות מירושלים בנו אותה בכוחות עצמן",
+    "מלך זר בנה אותה",
+    "היא נבנתה בתוך החומות"
+   ],
+   "explain_he": "שבע משפחות קנו יחד שטח מחוץ לחומות ובנו בלי עשיר מבחוץ.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f5e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בבניית \"נחלת שבעה\"?",
+   "answer": "שבע משפחות מירושלים בנו אותה בכוחות עצמן",
+   "options": [
+    "שבע משפחות מירושלים בנו אותה בכוחות עצמן",
+    "מלך זר בנה אותה",
+    "היא נבנתה בתוך החומות"
+   ],
+   "explain_he": "שבע משפחות קנו יחד שטח מחוץ לחומות ובנו בלי עשיר מבחוץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"פרזות תשב ירושלים\"?",
+   "answer": "ירושלים תתרחב מחוץ לחומותיה מרוב תושבים",
+   "options": [
+    "ירושלים תתרחב מחוץ לחומותיה מרוב תושבים",
+    "ירושלים תהיה ריקה",
+    "ירושלים תוקף בחומה כפולה"
+   ],
+   "explain_he": "זכריה ניבא שירושלים תהיה כמו כפרים פתוחים, כי לא תוכל להכיל את כל תושביה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f5e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"פרזות תשב ירושלים\"?",
+   "answer": "ירושלים תתרחב מחוץ לחומותיה מרוב תושבים",
+   "options": [
+    "ירושלים תתרחב מחוץ לחומותיה מרוב תושבים",
+    "ירושלים תהיה ריקה",
+    "ירושלים תוקף בחומה כפולה"
+   ],
+   "explain_he": "זכריה ניבא שירושלים תהיה כמו כפרים פתוחים, כי לא תוכל להכיל את כל תושביה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהי המעלה הגבוהה ביותר בצדקה, לפי הרמב\"ם?",
+   "answer": "לעזור לאדם להתפרנס בעצמו",
+   "options": [
+    "לעזור לאדם להתפרנס בעצמו",
+    "לתת הרבה כסף בפעם אחת",
+    "לתת רק לקרובים"
+   ],
+   "explain_he": "הרמב\"ם כותב שהמעלה העליונה היא לעזור לאדם עד שלא יצטרך לבריות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך בנו את השכונות אנשים בלי הרבה כסף?",
+   "answer": "כחברות שותפים: כל משפחה שילמה מעט כל חודש, והבתים חולקו בגורל",
+   "options": [
+    "כחברות שותפים: כל משפחה שילמה מעט כל חודש, והבתים חולקו בגורל",
+    "קיבלו הכול מהשלטון",
+    "לקחו הלוואות מבנקים באמריקה"
+   ],
+   "explain_he": "זו הייתה דרך של עזרה הדדית וסבלנות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לומדים מכך שהטחנה הפסיקה לטחון ובכל זאת נשארה סמל?",
+   "answer": "שגם ניסיון שלא הצליח עד הסוף יכול לפתוח דרך",
+   "options": [
+    "שגם ניסיון שלא הצליח עד הסוף יכול לפתוח דרך",
+    "שאסור לנסות דברים חדשים",
+    "שטחנות רוח לא חשובות"
+   ],
+   "explain_he": "הטחנה לא הצליחה לאורך זמן, אבל היא סימלה את היציאה מן החומות ואת ההתמדה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f5e23"
+  }
+ ]
+}

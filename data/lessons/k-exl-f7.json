@@ -1,0 +1,550 @@
+{
+ "id": "k-exl-f7",
+ "unit_id": "k-exl-u3",
+ "course": "exile",
+ "title_he": "פולין, השטעטל והגעגועים לציון",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "פולין, השטעטל והגעגועים לציון",
+   "ref_he": "עם ישראל בגלות",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "polin",
+     "title_he": "פה לין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A dense old forest in Eastern Europe at twilight, a group of tired Jewish families with wagons resting in a clearing, soft golden light falling through the trees from above as if blessing them.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦 🌳",
+     "say": [
+      "מסורת יפה מספרת: כשהיהודים ברחו מגזירות אשכנז, והגיעו ליערות של מזרח אירופה, שמעו כאילו קול אומר להם: פה לין. כלומר, פה תנוחו.",
+      "ומכאן, לפי המסורת, השם \"פולין\". וזה מה שקרה: מלכי פולין קיבלו את היהודים, ונתנו להם זכויות לגור ולעבוד.",
+      "במשך מאות שנים, פולין וליטא היו המרכז הגדול ביותר של עם ישראל. מיליוני יהודים חיו שם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "vaad",
+     "title_he": "גדולי פולין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A 16th-century gathering at a market fair in a Polish town: dignified rabbis and community leaders in long coats and fur hats sit around a large table in a wooden hall, debating and writing decisions; winter light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👴 👨 👨",
+     "say": [
+      "לקהילות פולין היה גוף מיוחד, שנקרא \"ועד ארבע ארצות\". נציגי הקהילות היו נפגשים, וקובעים תקנות לכל היהודים בארץ.",
+      "בקראקא חי הרמ\"א, שכתב את המפה על השולחן ערוך. ואחריו קמו בפולין גדולי פוסקים, שספריהם מודפסים עד היום על דפי השולחן ערוך.",
+      "כמעט בכל עיירה היה רב, דיין ובית מדרש, ותורה נלמדה בכל מקום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "shtetl",
+     "title_he": "העיירה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A snowy Eastern European shtetl on a Friday afternoon: small wooden houses, a wooden synagogue with a sloping roof, a man carrying a wrapped cholent pot, children running with challot, smoke from chimneys, warm lights in the windows.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 👨 👦 👧",
+     "say": [
+      "רוב יהודי פולין גרו בעיירות קטנות, שביידיש נקראו \"שטעטל\". בתי עץ קטנים, שוק, בית כנסת, ובתי מדרש.",
+      "רוב האנשים היו עניים. הם היו חייטים, סנדלרים, נגרים וסוחרים קטנים. אבל ביום שישי אחר הצהריים, העיירה כולה השתנתה.",
+      "כולם רצו להכין לשבת: לאפות חלות, לבשל, לרחוץ. השמש קראה בקול: \"יידן, צו שבת!\", כלומר, יהודים, לשבת!",
+      "ובשבת, גם היהודי העני ביותר היה כמו מלך. נרות דולקים, שולחן לבן, זמירות, וחלה טעימה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "cheder",
+     "title_he": "החדר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A small warm wooden schoolroom in a shtetl: little boys in kippot sit around a table with an old melamed, one boy licking honey from a page of letters, all smiling; a stove glowing in the corner.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "כבר בגיל שלוש היו מביאים את הילד לחדר, בית הספר הקטן של העיירה. המלמד לימד אותו את האותיות.",
+      "ביום הראשון, היו שמים דבש על לוח האותיות, והילד ליקק את הדבש. כדי שידע שהתורה מתוקה מדבש.",
+      "הילדים למדו מהבוקר עד הערב. בחורף, כשהיה חשוך, הלכו הביתה עם פנסים קטנים ביד, ושרו בדרך."
+     ],
+     "pasuk": {
+      "text": "ומתוקים מדבש ונפת צופים",
+      "ref": "תהלים יט, יא"
+     },
+     "note": null
+    },
+    {
+     "id": "tach",
+     "title_he": "גזירות ת\"ח ות\"ט",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Wide empty steppe at dawn under a pale sky, with the outline of a small ruined wooden synagogue on a hill and a flock of birds rising; quiet, sad and dignified, no people.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🕊️",
+     "say": [
+      "גם בפולין היו ימים קשים מאוד. בשנים ת\"ח ות\"ט, 1648 ו-1649, קמו פורעים, ופגעו בקהילות רבות מאוד. רבבות יהודים נהרגו על קידוש השם.",
+      "ועד ארבע ארצות קבע את כ\"ף בסיוון כיום צום ותפילה לזכרם.",
+      "אבל גם אחרי השבר הזה, עם ישראל קם. ודווקא אחרי הימים האלה, קמו הבעל שם טוב והגאון מווילנה, שהאירו את הדור מחדש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "yeshivot",
+     "title_he": "הישיבות הגדולות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A large 19th-century yeshiva study hall in Lithuania at night: hundreds of young men learning in pairs at long wooden tables under hanging lamps, a sea of open Gemaras, steam on cold windows.",
+     "move": "up",
+     "fx": "night",
+     "art": "👦 👦 👨 👨",
+     "say": [
+      "במאה התשע עשרה קמו בליטא ובפולין הישיבות הגדולות: וולוז'ין, מיר, סלובודקה, טלז, ראדין של החפץ חיים, ופוניבז'.",
+      "בחורים צעירים באו מכל מקום, עזבו את בית הוריהם, ולמדו ביום ובלילה. הרבה פעמים היו עניים מאוד. משפחות בעיר נתנו להם לאכול, בכל יום בבית אחר. לזה קראו \"אכילת ימים\".",
+      "גם החסידות פרחה, והחצרות של האדמו\"רים מילאו את פולין בתפילה ובשמחה.",
+      "ורבי מאיר שפירא מלובלין ייסד את \"הדף היומי\": כל יהודי בעולם לומד באותו יום את אותו דף גמרא. עד היום, מאות אלפי יהודים לומדים כך."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "shoah",
+     "title_he": "החורבן והתקומה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A single tall memorial candle burns in a dark quiet room, and beyond the window a sunrise is breaking over the hills of Jerusalem; no people, solemn and hopeful.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "העולם הגדול הזה של פולין וליטא נחרב בשואה. הרשעים הנאצים רצחו שישה מיליון יהודים, ובהם רוב יהודי פולין, תלמידי הישיבות ורבותיהם.",
+      "זה החורבן הגדול ביותר בגלות. ואנחנו זוכרים ומתאבלים על כל אחד ואחת מהם.",
+      "אבל השארית הקטנה שניצלה לא התייאשה. ראשי ישיבות שניצלו בנו את הישיבות מחדש, בארץ ישראל ובמקומות נוספים. ישיבת פוניבז' נבנתה מחדש בבני ברק, וישיבת מיר בירושלים.",
+      "והיום יש בארץ ישראל יותר לומדי תורה, מאשר בכל הדורות האחרונים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "longing",
+     "title_he": "לשנה הבאה בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A seder night in an old Eastern European home: a family in festive modest clothes raises their cups, the grandfather with a white beard looking toward the east with longing; a map-like painting of Jerusalem hangs on the wall.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בכל הגלויות, בבבל ובספרד, באשכנז, בתימן ובפולין, היה דבר אחד משותף: הגעגועים לציון.",
+      "שלוש פעמים ביום התפללו יהודים: ותחזינה עינינו בשובך לציון ברחמים. ובליל הסדר ובסוף יום הכיפורים קראו בקול: לשנה הבאה בירושלים!",
+      "ולא רק התפללו. בכל דור היו שעלו: רבי יהודה הלוי, הרמב\"ן, תלמידי הגר\"א, תלמידי הבעל שם טוב, רבי חיים בן עטר, ויהודי תימן."
+     ],
+     "pasuk": {
+      "text": "ותחזינה עינינו בשובך לציון ברחמים",
+      "ref": "תפילת שמונה עשרה"
+     },
+     "note": null
+    },
+    {
+     "id": "return",
+     "title_he": "קיבוץ גלויות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Today at the Western Wall in Jerusalem in morning light: Jews of every community, Yemenite, Moroccan, Ashkenazi, Sephardi, men in tallitot and boys in kippot, pray together; doves fly above the ancient stones.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👦 🕊️",
+     "say": [
+      "והנה, בדורות האחרונים, אנחנו רואים בעינינו את מה שהנביאים הבטיחו. יהודים חוזרים לארץ ישראל מכל קצוות העולם.",
+      "צאצאי יהודי בבל, שהם יהודי עיראק, צאצאי מגורשי ספרד, יהודי אשכנז, צפון אפריקה, תימן ופולין, כולם מתפללים יחד ליד הכותל.",
+      "זה מה שהתורה אמרה: ושב וקבצך מכל העמים. וכמו שכתוב בתהלים: בשוב ה' את שיבת ציון, היינו כחולמים.",
+      "ואנחנו עדיין מתפללים לגאולה השלמה, לבניין בית המקדש, במהרה בימינו. כי הסוד ששמר עלינו בכל הגלויות, התורה והאמונה, ממשיך לשמור עלינו גם היום."
+     ],
+     "pasuk": {
+      "text": "ושב ה' אלקיך את שבותך ורחמך, ושב וקבצך מכל העמים",
+      "ref": "דברים ל, ג"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exl-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "פולין, השטעטל והגעגועים לציון",
+   "ref_he": "עם ישראל בגלות",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "polin",
+     "title_he": "פה לין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A dense old forest in Eastern Europe at twilight, a group of tired Jewish families with wagons resting in a clearing, soft golden light falling through the trees from above as if blessing them.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦 🌳",
+     "say": [
+      "מסורת יפה מספרת: כשהיהודים ברחו מגזירות אשכנז, והגיעו ליערות של מזרח אירופה, שמעו כאילו קול אומר להם: פה לין. כלומר, פה תנוחו.",
+      "ומכאן, לפי המסורת, השם \"פולין\". וזה מה שקרה: מלכי פולין קיבלו את היהודים, ונתנו להם זכויות לגור ולעבוד.",
+      "במשך מאות שנים, פולין וליטא היו המרכז הגדול ביותר של עם ישראל. מיליוני יהודים חיו שם.",
+      "כבר לפני יותר משבע מאות שנה נתן נסיך פולני ליהודים כתב זכויות, שהגן עליהם ועל בתי הכנסת שלהם. ומלכים אחריו חיזקו אותו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "vaad",
+     "title_he": "גדולי פולין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A 16th-century gathering at a market fair in a Polish town: dignified rabbis and community leaders in long coats and fur hats sit around a large table in a wooden hall, debating and writing decisions; winter light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👴 👨 👨",
+     "say": [
+      "לקהילות פולין היה גוף מיוחד, שנקרא \"ועד ארבע ארצות\". נציגי הקהילות היו נפגשים, וקובעים תקנות לכל היהודים בארץ.",
+      "בקראקא חי הרמ\"א, שכתב את המפה על השולחן ערוך. ואחריו קמו בפולין גדולי פוסקים, שספריהם מודפסים עד היום על דפי השולחן ערוך.",
+      "כמעט בכל עיירה היה רב, דיין ובית מדרש, ותורה נלמדה בכל מקום.",
+      "הש\"ך, הט\"ז, הב\"ח והמהרש\"א, כולם חיו בפולין. מי שלומד היום גמרא או שולחן ערוך, פוגש אותם כמעט בכל עמוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "shtetl",
+     "title_he": "העיירה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A snowy Eastern European shtetl on a Friday afternoon: small wooden houses, a wooden synagogue with a sloping roof, a man carrying a wrapped cholent pot, children running with challot, smoke from chimneys, warm lights in the windows.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 👨 👦 👧",
+     "say": [
+      "רוב יהודי פולין גרו בעיירות קטנות, שביידיש נקראו \"שטעטל\". בתי עץ קטנים, שוק, בית כנסת, ובתי מדרש.",
+      "רוב האנשים היו עניים. הם היו חייטים, סנדלרים, נגרים וסוחרים קטנים. אבל ביום שישי אחר הצהריים, העיירה כולה השתנתה.",
+      "כולם רצו להכין לשבת: לאפות חלות, לבשל, לרחוץ. השמש קראה בקול: \"יידן, צו שבת!\", כלומר, יהודים, לשבת!",
+      "ובשבת, גם היהודי העני ביותר היה כמו מלך. נרות דולקים, שולחן לבן, זמירות, וחלה טעימה.",
+      "ביידיש, השפה של העיירה, יש מילים רבות מלשון הקודש: שבת, תורה, מזל טוב, חתונה, צדקה. כך גם בדיבור של כל יום, התורה הייתה נוכחת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "cheder",
+     "title_he": "החדר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A small warm wooden schoolroom in a shtetl: little boys in kippot sit around a table with an old melamed, one boy licking honey from a page of letters, all smiling; a stove glowing in the corner.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "כבר בגיל שלוש היו מביאים את הילד לחדר, בית הספר הקטן של העיירה. המלמד לימד אותו את האותיות.",
+      "ביום הראשון, היו שמים דבש על לוח האותיות, והילד ליקק את הדבש. כדי שידע שהתורה מתוקה מדבש.",
+      "הילדים למדו מהבוקר עד הערב. בחורף, כשהיה חשוך, הלכו הביתה עם פנסים קטנים ביד, ושרו בדרך.",
+      "וכשהילד גדל, עבר לבית המדרש. שם למדו בחורים, וגם בעלי בתים שבאו ללמוד לפני העבודה ואחריה."
+     ],
+     "pasuk": {
+      "text": "ומתוקים מדבש ונפת צופים",
+      "ref": "תהלים יט, יא"
+     },
+     "note": null
+    },
+    {
+     "id": "tach",
+     "title_he": "גזירות ת\"ח ות\"ט",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Wide empty steppe at dawn under a pale sky, with the outline of a small ruined wooden synagogue on a hill and a flock of birds rising; quiet, sad and dignified, no people.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🕊️",
+     "say": [
+      "גם בפולין היו ימים קשים מאוד. בשנים ת\"ח ות\"ט, 1648 ו-1649, קמו פורעים, ופגעו בקהילות רבות מאוד. רבבות יהודים נהרגו על קידוש השם.",
+      "ועד ארבע ארצות קבע את כ\"ף בסיוון כיום צום ותפילה לזכרם.",
+      "אבל גם אחרי השבר הזה, עם ישראל קם. ודווקא אחרי הימים האלה, קמו הבעל שם טוב והגאון מווילנה, שהאירו את הדור מחדש.",
+      "הש\"ך, אחד מגדולי הפוסקים, חי בימים ההם, וכתב קינות וסליחות על החורבן. ספרו על השולחן ערוך נלמד עד היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "yeshivot",
+     "title_he": "הישיבות הגדולות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A large 19th-century yeshiva study hall in Lithuania at night: hundreds of young men learning in pairs at long wooden tables under hanging lamps, a sea of open Gemaras, steam on cold windows.",
+     "move": "up",
+     "fx": "night",
+     "art": "👦 👦 👨 👨",
+     "say": [
+      "במאה התשע עשרה קמו בליטא ובפולין הישיבות הגדולות: וולוז'ין, מיר, סלובודקה, טלז, ראדין של החפץ חיים, ופוניבז'.",
+      "בחורים צעירים באו מכל מקום, עזבו את בית הוריהם, ולמדו ביום ובלילה. הרבה פעמים היו עניים מאוד. משפחות בעיר נתנו להם לאכול, בכל יום בבית אחר. לזה קראו \"אכילת ימים\".",
+      "גם החסידות פרחה, והחצרות של האדמו\"רים מילאו את פולין בתפילה ובשמחה.",
+      "ורבי מאיר שפירא מלובלין ייסד את \"הדף היומי\": כל יהודי בעולם לומד באותו יום את אותו דף גמרא. עד היום, מאות אלפי יהודים לומדים כך.",
+      "בליטא קמה גם תנועת המוסר של רבי ישראל סלנטר. היא לימדה לעבוד על המידות: ענווה, יושר, וזהירות בכבוד של כל אדם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "shoah",
+     "title_he": "החורבן והתקומה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A single tall memorial candle burns in a dark quiet room, and beyond the window a sunrise is breaking over the hills of Jerusalem; no people, solemn and hopeful.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "העולם הגדול הזה של פולין וליטא נחרב בשואה. הרשעים הנאצים רצחו שישה מיליון יהודים, ובהם רוב יהודי פולין, תלמידי הישיבות ורבותיהם.",
+      "זה החורבן הגדול ביותר בגלות. ואנחנו זוכרים ומתאבלים על כל אחד ואחת מהם.",
+      "אבל השארית הקטנה שניצלה לא התייאשה. ראשי ישיבות שניצלו בנו את הישיבות מחדש, בארץ ישראל ובמקומות נוספים. ישיבת פוניבז' נבנתה מחדש בבני ברק, וישיבת מיר בירושלים.",
+      "והיום יש בארץ ישראל יותר לומדי תורה, מאשר בכל הדורות האחרונים.",
+      "רבים מהם הלכו באמונה, ושרו \"אני מאמין\". ורבים עשו מעשי חסד וגבורה גדולים, גם בתוך החושך הגדול ביותר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "longing",
+     "title_he": "לשנה הבאה בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A seder night in an old Eastern European home: a family in festive modest clothes raises their cups, the grandfather with a white beard looking toward the east with longing; a map-like painting of Jerusalem hangs on the wall.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בכל הגלויות, בבבל ובספרד, באשכנז, בתימן ובפולין, היה דבר אחד משותף: הגעגועים לציון.",
+      "שלוש פעמים ביום התפללו יהודים: ותחזינה עינינו בשובך לציון ברחמים. ובליל הסדר ובסוף יום הכיפורים קראו בקול: לשנה הבאה בירושלים!",
+      "ולא רק התפללו. בכל דור היו שעלו: רבי יהודה הלוי, הרמב\"ן, תלמידי הגר\"א, תלמידי הבעל שם טוב, רבי חיים בן עטר, ויהודי תימן.",
+      "יש מנהג עתיק לשים בקבר מעט עפר מארץ ישראל. גם מי שלא זכה לעלות בחייו, רצה שתהיה איתו אדמת הארץ.",
+      "והיו צדיקים שקמו בחצות הלילה, ישבו על הרצפה ובכו על החורבן. זה נקרא \"תיקון חצות\". הלב של עם ישראל אף פעם לא שכח."
+     ],
+     "pasuk": {
+      "text": "ותחזינה עינינו בשובך לציון ברחמים",
+      "ref": "תפילת שמונה עשרה"
+     },
+     "note": null
+    },
+    {
+     "id": "return",
+     "title_he": "קיבוץ גלויות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Today at the Western Wall in Jerusalem in morning light: Jews of every community, Yemenite, Moroccan, Ashkenazi, Sephardi, men in tallitot and boys in kippot, pray together; doves fly above the ancient stones.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👦 🕊️",
+     "say": [
+      "והנה, בדורות האחרונים, אנחנו רואים בעינינו את מה שהנביאים הבטיחו. יהודים חוזרים לארץ ישראל מכל קצוות העולם.",
+      "צאצאי יהודי בבל, שהם יהודי עיראק, צאצאי מגורשי ספרד, יהודי אשכנז, צפון אפריקה, תימן ופולין, כולם מתפללים יחד ליד הכותל.",
+      "זה מה שהתורה אמרה: ושב וקבצך מכל העמים. וכמו שכתוב בתהלים: בשוב ה' את שיבת ציון, היינו כחולמים.",
+      "ואנחנו עדיין מתפללים לגאולה השלמה, לבניין בית המקדש, במהרה בימינו. כי הסוד ששמר עלינו בכל הגלויות, התורה והאמונה, ממשיך לשמור עלינו גם היום.",
+      "הגמרא אומרת: כל המתאבל על ירושלים, זוכה ורואה בשמחתה. כל הדמעות של כל הגלויות לא הלכו לאיבוד."
+     ],
+     "pasuk": {
+      "text": "ושב ה' אלקיך את שבותך ורחמך, ושב וקבצך מכל העמים",
+      "ref": "דברים ל, ג"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exl-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מספרת המסורת על השם \"פולין\"?",
+   "answer": "שהיהודים שמעו קול שאמר \"פה לין\", פה תנוחו",
+   "options": [
+    "שהיהודים שמעו קול שאמר \"פה לין\", פה תנוחו",
+    "שזה שם של מלך יהודי",
+    "שזה פירוש של \"יער גדול\""
+   ],
+   "explain_he": "ואכן, מלכי פולין קיבלו את היהודים, ופולין נעשתה מרכז גדול של עם ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מספרת המסורת על השם \"פולין\"?",
+   "answer": "שהיהודים שמעו קול שאמר \"פה לין\", פה תנוחו",
+   "options": [
+    "שהיהודים שמעו קול שאמר \"פה לין\", פה תנוחו",
+    "שזה שם של מלך יהודי",
+    "שזה פירוש של \"יער גדול\""
+   ],
+   "explain_he": "ואכן, מלכי פולין קיבלו את היהודים, ופולין נעשתה מרכז גדול של עם ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שמו דבש על לוח האותיות ביום הראשון בחדר?",
+   "answer": "כדי שהילד ידע שהתורה מתוקה מדבש",
+   "options": [
+    "כדי שהילד ידע שהתורה מתוקה מדבש",
+    "כדי שהאותיות לא יימחקו",
+    "כי זה היה חג הדבש"
+   ],
+   "explain_he": "כמו שכתוב: ומתוקים מדבש ונפת צופים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שמו דבש על לוח האותיות ביום הראשון בחדר?",
+   "answer": "כדי שהילד ידע שהתורה מתוקה מדבש",
+   "options": [
+    "כדי שהילד ידע שהתורה מתוקה מדבש",
+    "כדי שהאותיות לא יימחקו",
+    "כי זה היה חג הדבש"
+   ],
+   "explain_he": "כמו שכתוב: ומתוקים מדבש ונפת צופים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה \"אכילת ימים\"?",
+   "answer": "בחורי ישיבה אכלו בכל יום אצל משפחה אחרת בעיר",
+   "options": [
+    "בחורי ישיבה אכלו בכל יום אצל משפחה אחרת בעיר",
+    "צום של כמה ימים",
+    "סעודה גדולה בחג"
+   ],
+   "explain_he": "הבחורים היו עניים, ומשפחות בעיר דאגו להם לאוכל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה \"אכילת ימים\"?",
+   "answer": "בחורי ישיבה אכלו בכל יום אצל משפחה אחרת בעיר",
+   "options": [
+    "בחורי ישיבה אכלו בכל יום אצל משפחה אחרת בעיר",
+    "צום של כמה ימים",
+    "סעודה גדולה בחג"
+   ],
+   "explain_he": "הבחורים היו עניים, ומשפחות בעיר דאגו להם לאוכל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ייסד רבי מאיר שפירא מלובלין?",
+   "answer": "את \"הדף היומי\"",
+   "options": [
+    "את \"הדף היומי\"",
+    "את ישיבת וולוז'ין",
+    "את ועד ארבע ארצות"
+   ],
+   "explain_he": "כל יהודי בעולם לומד באותו יום את אותו דף גמרא.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ייסד רבי מאיר שפירא מלובלין?",
+   "answer": "את \"הדף היומי\"",
+   "options": [
+    "את \"הדף היומי\"",
+    "את ישיבת וולוז'ין",
+    "את ועד ארבע ארצות"
+   ],
+   "explain_he": "כל יהודי בעולם לומד באותו יום את אותו דף גמרא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה משותף לכל הגלויות?",
+   "answer": "הגעגועים לציון והתפילה לשוב אליה",
+   "options": [
+    "הגעגועים לציון והתפילה לשוב אליה",
+    "שכולן היו בארצות קרות",
+    "שכולן דיברו יידיש"
+   ],
+   "explain_he": "שלוש פעמים ביום התפללו: ותחזינה עינינו בשובך לציון ברחמים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה משותף לכל הגלויות?",
+   "answer": "הגעגועים לציון והתפילה לשוב אליה",
+   "options": [
+    "הגעגועים לציון והתפילה לשוב אליה",
+    "שכולן היו בארצות קרות",
+    "שכולן דיברו יידיש"
+   ],
+   "explain_he": "שלוש פעמים ביום התפללו: ותחזינה עינינו בשובך לציון ברחמים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לישיבות אחרי השואה?",
+   "answer": "ראשי ישיבות שניצלו בנו אותן מחדש, גם בארץ ישראל",
+   "options": [
+    "ראשי ישיבות שניצלו בנו אותן מחדש, גם בארץ ישראל",
+    "הן נסגרו לתמיד",
+    "הן עברו כולן לבבל"
+   ],
+   "explain_he": "ישיבת פוניבז' נבנתה בבני ברק, וישיבת מיר בירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לישיבות אחרי השואה?",
+   "answer": "ראשי ישיבות שניצלו בנו אותן מחדש, גם בארץ ישראל",
+   "options": [
+    "ראשי ישיבות שניצלו בנו אותן מחדש, גם בארץ ישראל",
+    "הן נסגרו לתמיד",
+    "הן עברו כולן לבבל"
+   ],
+   "explain_he": "ישיבת פוניבז' נבנתה בבני ברק, וישיבת מיר בירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הוא \"תיקון חצות\"?",
+   "answer": "קימה בחצות הלילה לבכות על החורבן",
+   "options": [
+    "קימה בחצות הלילה לבכות על החורבן",
+    "תיקון של בית הכנסת",
+    "תפילה לגשם בקיץ"
+   ],
+   "explain_he": "צדיקים ישבו על הרצפה בחצות ובכו על ירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f7e15"
+  }
+ ]
+}
