@@ -12,6 +12,7 @@ import { renderTeach } from './teach.js';
 import { renderPick } from './pick.js';
 import { renderSpell } from './spell.js';
 import { renderStory, renderVideo } from './story.js';
+import { renderParashaFilm } from './parasha.js';
 import { renderMcq, renderNumber, renderBalance, renderFraction, renderNumberLine, renderOrder, renderRobot, renderBuckets, renderAngle, renderSim } from './think.js';
 
 export const RENDERERS = {
@@ -39,6 +40,7 @@ export const RENDERERS = {
   sim: renderSim,
   story: renderStory,
   video: renderVideo,
+  parasha_film: renderParashaFilm,
 };
 
 export function isSupported(ex) {

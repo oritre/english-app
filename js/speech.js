@@ -231,8 +231,19 @@ export function canSpeakLang(lang) {
 
 // Speaks several lines one after another (e.g. a word in English, then in Hebrew).
 export function speakSequence(parts) {
-  if (!canSpeak() && !player) return;
-  sayAll(parts, 0.9 * rateFactor());
+  if (!canSpeak() && !player) return Promise.resolve();
+  return sayAll(parts, 0.9 * rateFactor());
+}
+
+// The Pi's recording of one line, for a player with its own audio element
+// (the parasha film needs pause and progress). null: read it on the device.
+export async function piLineUrl(text, lang = 'he-IL') {
+  return piWanted(lang) ? piUrl(text, lang) : null;
+}
+
+// Reads one line on the device; resolves when it ends.
+export function deviceSay(text, lang = 'he-IL', rate = 0.95 * rateFactor()) {
+  return sayDevice(text, lang, rate);
 }
 
 export function speak(text, { slow = false, lang = 'en-US' } = {}) {

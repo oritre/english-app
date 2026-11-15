@@ -1,0 +1,45 @@
+{
+ "areas": [
+  [
+   "torah",
+   "📜",
+   "פרשת השבוע"
+  ]
+ ],
+ "courses": [
+  {
+   "id": "bereshit",
+   "area": "torah",
+   "icon": "📜",
+   "color": "#8b5e34",
+   "title_he": "ספר בראשית",
+   "about_he": "בריאת העולם, האבות והאימהות, ויוסף ואחיו",
+   "grades": [
+    1,
+    8
+   ],
+   "units": [
+    {
+     "id": "p-bereshit",
+     "title_he": "ספר בראשית",
+     "about_he": "בריאת העולם, האבות והאימהות, ויוסף ואחיו",
+     "lessons": [
+      "p-vayetze"
+     ]
+    }
+   ]
+  }
+ ],
+ "lesson_titles": {
+  "p-vayetze": "פרשת ויצא"
+ },
+ "weeks": [
+  {
+   "shabbat": "2026-11-21",
+   "lesson": "p-vayetze"
+  }
+ ],
+ "about": {
+  "p-vayetze": "החלום על הסולם, רחל ולאה, שבטי ישראל, והדרך חזרה הביתה"
+ }
+}

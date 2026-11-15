@@ -1,5 +1,5 @@
 import { mixed, el } from '../util.js';
-import { loadThink, loadKnow } from '../course.js';
+import { loadThink, loadKnow, loadParasha } from '../course.js';
 import { requiredLessons } from '../thinkLogic.js';
 
 // Confetti for the lesson-complete screen: a handful of coloured bits that fall once (CSS does the motion).
@@ -17,10 +17,11 @@ export async function renderComplete(root, nav, p) {
   let nextRow = null;
   if (p.course) {
     try {
-      const [thinkData, know, done, profile] = await Promise.all([loadThink(), loadKnow(), doneLessonIds(), getProfile()]);
+      const [thinkData, know, parasha, done, profile] = await Promise.all([loadThink(), loadKnow(), loadParasha(), doneLessonIds(), getProfile()]);
       // The lesson's course is in one of the two catalogs; general knowledge has no practice rounds.
-      const subject = (know.courses || []).some((c) => c.id === p.course) ? 'know' : 'think';
-      const think = subject === 'know' ? know : thinkData;
+      const subject = (know.courses || []).some((c) => c.id === p.course) ? 'know'
+        : (parasha.courses || []).some((c) => c.id === p.course) ? 'parasha' : 'think';
+      const think = subject === 'know' ? know : subject === 'parasha' ? parasha : thinkData;
       const course = (think.courses || []).find((c) => c.id === p.course);
       const ids = !course ? [] : subject === 'think' ? requiredLessons(course, profile) : course.units.flatMap((u) => u.lessons);
       const next = ids.find((id) => !done.includes(id));
@@ -34,7 +35,7 @@ export async function renderComplete(root, nav, p) {
               el('span', { class: 'next-icon' }, course.icon),
               el('span', { class: 'next-text' }, el('span', { class: 'next-kicker' }, 'השיעור הבא'), el('span', { class: 'next-title' }, ...mixed(titles[next] || ''))),
               el('span', { class: 'next-arrow' }, '←'))
-            : subject === 'know' ? el('div', { class: 'next-lesson done-course' },
+            : subject !== 'think' ? el('div', { class: 'next-lesson done-course' },
               el('span', { class: 'next-icon' }, '🏆'),
               el('span', { class: 'next-text' }, el('span', { class: 'next-kicker' }, `סיימת את "${course.title_he}"!`), el('span', { class: 'next-title' }, 'אפשר לבחור נושא חדש')))
             : el('button', { class: 'next-lesson', type: 'button', onclick: () => nav('lesson', { lessonId: `tp-${course.id}` }) },

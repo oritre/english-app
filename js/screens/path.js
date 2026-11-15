@@ -1,5 +1,7 @@
 import { el, en, mixed } from '../util.js';
-import { loadCourse, loadThink, loadKnow, lessonStates } from '../course.js';
+import { loadCourse, loadThink, loadKnow, loadParasha, lessonStates } from '../course.js';
+import { parashaOfWeek, hebrewShabbat } from '../parashaWeek.js';
+import { warmParasha } from '../parashaWarm.js';
 import { doneLessonIds, stats, getProfile, settleLeagues, setCurrentProfile, updateProfile } from '../progress.js';
 import { TIERS } from '../league.js';
 import { APP_VERSION } from '../version.js';
@@ -20,23 +22,24 @@ export function topBar(s, profile, nav) {
 
 export async function renderPath(root, nav) {
   await settleLeagues();
-  const [course, thinkData, know, done, s, profile] = await Promise.all([loadCourse(), loadThink(), loadKnow(), doneLessonIds(), stats(), getProfile()]);
+  const [course, thinkData, know, parasha, done, s, profile] = await Promise.all([loadCourse(), loadThink(), loadKnow(), loadParasha(), doneLessonIds(), stats(), getProfile()]);
   // Three subjects share the learner, the streak and the weekly coach: English,
   // the Brilliant-style courses ("think": math, logic, code, science...) and
   // BrainPOP-style general knowledge ("know": a narrated cartoon, then a quiz).
   // The two catalogs work the same way; each keeps its open course, last course
   // and weekly plan on the profile under its own prefix, so they sync.
-  const catalogs = { think: thinkData, know };
-  const subject = ['think', 'know'].includes(profile.subject) && catalogs[profile.subject].courses?.length ? profile.subject : 'english';
+  // The weekly parasha ("parasha") is a fourth catalog of the same shape.
+  const catalogs = { think: thinkData, know, parasha };
+  const subject = ['think', 'know', 'parasha'].includes(profile.subject) && catalogs[profile.subject].courses?.length ? profile.subject : 'english';
   const think = catalogs[subject] || thinkData;
   const courses = think.courses || [];
   const key = (k) => `${subject}_${k}`;
   const openCourse = subject !== 'english' ? courses.find((c) => c.id === profile[key('course')]) : null;
   const states = subject === 'english' ? lessonStates(course, done, { starter: !!profile.starter })
     : openCourse ? lessonStates(openCourse, done, { skipUnits: subject === 'think' ? skipUnits(openCourse, profile) : 0 }) : {};
-  const titles = { ...(course.lesson_titles || {}), ...(thinkData.lesson_titles || {}), ...(know.lesson_titles || {}) };
+  const titles = { ...(course.lesson_titles || {}), ...(thinkData.lesson_titles || {}), ...(know.lesson_titles || {}), ...(parasha.lesson_titles || {}) };
   const setProfile = async (patch) => { Object.assign(profile, patch); await updateProfile(profile); nav('path'); };
-  const subjects = [['english', '🔤', 'אנגלית'], ['think', '🧠', 'חשיבה ומדעים'], ['know', '🌍', 'ידע כללי']]
+  const subjects = [['english', '🔤', 'אנגלית'], ['think', '🧠', 'חשיבה ומדעים'], ['know', '🌍', 'ידע כללי'], ['parasha', '📜', 'פרשת שבוע']]
     .filter(([id]) => id === 'english' || catalogs[id].courses?.length);
   const switcher = subjects.length > 1 ? el('div', { class: 'subject-switch', role: 'tablist' },
     subjects.map(([id, icon, name]) => el('button', {
@@ -206,8 +209,22 @@ export async function renderPath(root, nav) {
     el('h3', { class: 'area-title' }, el('span', { class: 'area-icon' }, icon), title,
       el('span', { class: 'area-count' }, `${list.filter((c) => progressOf(c).n === lessonsOf(c).length).length}/${list.length}`)),
     el('div', { class: 'course-grid' }, list.map(courseCard)));
+  // The parasha tab opens on this week's parasha, when its film is ready.
+  const week = subject === 'parasha' ? parashaOfWeek(parasha) : null;
+  const weekCourse = week && courses.find((c) => c.units.some((u) => u.lessons.includes(week.lesson)));
+  if (weekCourse) warmParasha(week.lesson);
+  const weekHero = weekCourse ? el('section', { class: 'continue-card parasha-week', style: `--course: ${weekCourse.color}` },
+    el('div', { class: 'continue-kicker' }, `📜 פרשת השבוע · ${hebrewShabbat(week.shabbat)}`),
+    el('div', { class: 'continue-main' },
+      el('span', { class: 'continue-icon' }, done.includes(week.lesson) ? '✓' : '🎬'),
+      el('div', { class: 'continue-text' },
+        el('h2', {}, titles[week.lesson] || ''),
+        el('p', {}, parasha.about?.[week.lesson] || ''))),
+    el('div', { class: 'continue-actions' },
+      el('button', { class: 'btn continue-go', type: 'button', onclick: () => startLesson(weekCourse, week.lesson) }, done.includes(week.lesson) ? 'לצפות שוב' : '▶ לסרט ולשאלות'))) : null;
   const catalog = subject !== 'english' && !openCourse ? el('section', { class: 'catalog' },
-    hero,
+    weekHero,
+    weekHero ? null : hero,
     el('h2', { class: 'catalog-title' }, lastCourse ? 'או משהו אחר?' : 'מה בא לך ללמוד?'),
     recommended,
     recommended ? el('h2', { class: 'catalog-title' }, 'עוד נושאים') : null,
@@ -244,7 +261,7 @@ export async function renderPath(root, nav) {
   })() : null;
   const content = subject !== 'english' ? [coach, catalog, courseView]
     : [talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test];
-  screenEl = el('div', { class: `screen path subject-${subject}${subject === 'know' ? ' subject-think' : ''}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
+  screenEl = el('div', { class: `screen path subject-${subject}${subject === 'know' || subject === 'parasha' ? ' subject-think' : ''}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`));
   root.replaceChildren(screenEl);
   // The goals a parent set, with how far along they are.
