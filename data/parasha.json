@@ -26,7 +26,17 @@
      "lessons": [
       "p-vayetze",
       "p-vayetze-v2",
-      "p-vayetze-v3"
+      "p-vayetze-v3",
+      "p-vayishlach",
+      "p-vayishlach-v2",
+      "p-vayeshev",
+      "p-vayeshev-v2",
+      "p-miketz",
+      "p-miketz-v2",
+      "p-vayigash",
+      "p-vayigash-v2",
+      "p-vayechi",
+      "p-vayechi-v2"
      ]
     }
    ]
@@ -35,15 +45,50 @@
  "lesson_titles": {
   "p-vayetze": "פרשת ויצא",
   "p-vayetze-v2": "סיפור לשבת: הביטחון של יעקב",
-  "p-vayetze-v3": "ההפטרה של ויצא"
+  "p-vayetze-v3": "ההפטרה של ויצא",
+  "p-vayishlach": "פרשת וישלח",
+  "p-vayishlach-v2": "סיפור לשבת: רבי זושא והביטחון",
+  "p-vayeshev": "פרשת וישב",
+  "p-vayeshev-v2": "סיפור לשבת: הדרכון של רבי לוי יצחק",
+  "p-miketz": "פרשת מקץ",
+  "p-miketz-v2": "סיפור לשבת: מלמטה למעלה",
+  "p-vayigash": "פרשת ויגש",
+  "p-vayigash-v2": "סיפור לשבת: עין טובה",
+  "p-vayechi": "פרשת ויחי",
+  "p-vayechi-v2": "סיפור לשבת: ברכה לילד"
  },
  "weeks": [
   {
    "shabbat": "2026-11-21",
    "lesson": "p-vayetze"
+  },
+  {
+   "shabbat": "2026-11-28",
+   "lesson": "p-vayishlach"
+  },
+  {
+   "shabbat": "2026-12-05",
+   "lesson": "p-vayeshev"
+  },
+  {
+   "shabbat": "2026-12-12",
+   "lesson": "p-miketz"
+  },
+  {
+   "shabbat": "2026-12-19",
+   "lesson": "p-vayigash"
+  },
+  {
+   "shabbat": "2026-12-26",
+   "lesson": "p-vayechi"
   }
  ],
  "about": {
-  "p-vayetze": "החלום על הסולם, רחל ולאה, שבטי ישראל, והדרך חזרה הביתה"
+  "p-vayetze": "החלום על הסולם, רחל ולאה, שבטי ישראל, והדרך חזרה הביתה",
+  "p-vayishlach": "יעקב נפגש עם עשיו, המאבק עם המלאך, ושמו נקרא ישראל",
+  "p-vayeshev": "יוסף וחלומותיו, מכירת יוסף, ויוסף בבית פוטיפר",
+  "p-miketz": "חלומות פרעה, יוסף משנה למלך, והאחים יורדים למצרים",
+  "p-vayigash": "יהודה ניגש, יוסף מתוודע לאחיו, ויעקב יורד למצרים",
+  "p-vayechi": "ברכות יעקב לבניו ולנכדיו, ופטירתו"
  }
 }
