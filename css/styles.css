@@ -1169,3 +1169,58 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
 .goal-chip { background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .goal-chip b { font-weight: 700; }
 .goal-chip.met { background: var(--good-bg); border-color: var(--good); color: var(--good); }
+
+/* v56: meaningful learning */
+/* Shared warm-amber ink for "worth practising": readable on the amber tint in both themes. */
+:root { --weak-ink: color-mix(in srgb, var(--sun-deep) 72%, var(--fg)); --weak-bg: color-mix(in srgb, var(--sun) 14%, var(--surface)); --weak-line: color-mix(in srgb, var(--sun) 55%, var(--line)); }
+
+/* 1. Replaying a mastered lesson: a slim, calm notice under the progress bar. */
+.repeat-note { display: flex; align-items: center; gap: 8px; margin-block: -6px 8px; padding: 6px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: 13px; line-height: 1.35; text-wrap: pretty; }
+.repeat-note-icon { flex: none; font-size: 15px; line-height: 1; }
+
+/* 2. A lesson finished with a low score: done, but outlined in amber instead of filled, so it
+   reads apart from both the solid done stop and the solid yellow current stop. */
+.node.weak, .node.reading.weak, .subject-think .node.weak { background: var(--weak-bg); color: var(--weak-ink); border: 3px solid var(--sun); box-shadow: 0 6px 0 var(--weak-line); font-size: 30px; line-height: 1; }
+.subject-think .node.weak::after { border-color: var(--sun); border-style: dashed; inset: -8px; opacity: .6; }
+.node.weak:active:not(:disabled) { box-shadow: none; }
+.weak-chip { display: inline-block; margin-inline-start: 6px; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; line-height: 1.5; white-space: nowrap; vertical-align: 1px; color: var(--weak-ink); background: var(--weak-bg); border: 1px solid var(--weak-line); }
+.subject-think .node.weak + .node-label { color: var(--fg); }
+
+/* 3. Weekly practice on the non-English tabs: kicker and module buttons only. */
+.coach-card.compact { padding: 10px 12px 12px; border-width: 2px; box-shadow: 0 3px 0 var(--ink); }
+.coach-card.compact .coach-kicker { font-size: 13px; padding-inline: 2px; }
+.coach-card.compact .coach-modules { margin-top: 8px; gap: 6px; }
+.coach-card.compact .coach-module { padding: 7px 10px; gap: 10px; border-radius: 12px; box-shadow: 0 2px 0 var(--line); }
+.coach-card.compact .coach-module.done { box-shadow: 0 2px 0 var(--good); }
+.coach-card.compact .coach-mod-mark { width: 26px; height: 26px; font-size: 14px; }
+.coach-card.compact .coach-mod-title { font-size: 15px; line-height: 1.3; }
+.coach-card.compact .coach-mod-about { font-size: 13px; line-height: 1.3; }
+
+/* 4. Catalog folds (above / below the kid's grade): secondary, closed by default. */
+.course-fold { margin-block: 6px 4px; border: 2px dashed var(--line); border-radius: var(--radius); padding: 4px 12px; }
+.course-fold + .course-fold { margin-top: 4px; }
+.course-fold summary { display: flex; align-items: center; gap: 8px; min-height: 44px; cursor: pointer; list-style: none; font-size: 15px; font-weight: 700; color: var(--muted); letter-spacing: .02em; border-radius: 10px; -webkit-tap-highlight-color: transparent; }
+.course-fold summary::-webkit-details-marker { display: none; }
+.course-fold summary:focus-visible { outline: 3px solid var(--sun); outline-offset: 2px; }
+/* The chevron points down when closed and flips up when open. */
+.course-fold summary::after { content: ''; flex: none; width: 8px; height: 8px; margin-inline: 4px 4px; border: solid currentColor; border-width: 0 2.5px 2.5px 0; transform: translateY(-2px) rotate(45deg); transition: transform .2s ease; }
+.course-fold[open] summary::after { transform: translateY(2px) rotate(-135deg); }
+.course-fold[open] { border-style: solid; padding-bottom: 12px; }
+.course-fold[open] summary { color: var(--fg); }
+.course-fold .area-note { margin: 0 2px 10px; }
+@media (prefers-reduced-motion: reduce) { .course-fold summary::after { transition: none; } }
+
+/* 5. Lesson summary: repeat messages and the "try again" nudge after a low score. */
+.repeat-done, .repeat-better { margin: 0; max-width: 100%; padding: 8px 14px; border-radius: 14px; line-height: 1.4; text-wrap: balance; }
+.repeat-done { font-size: 15px; color: var(--muted); background: var(--surface); border: 1px solid var(--line); }
+.repeat-better { font-size: 18px; font-weight: 700; color: var(--good); background: var(--good-bg); animation: rise .5s ease-out .3s both; }
+/* (.retry-row is also the two-button row in the lesson footer, so this is scoped to the summary.) */
+.complete .retry-row { display: flex; flex-direction: column; align-items: stretch; gap: 10px; width: 100%; padding: 12px 14px; border-radius: var(--radius); text-align: start; background: var(--weak-bg); border: 2px solid var(--weak-line); }
+.complete .retry-row p { margin: 0; font-size: 15px; line-height: 1.45; text-wrap: pretty; }
+.complete .retry-row .btn { margin-top: 0; min-height: 46px; background: var(--sun); color: #2b1d00; box-shadow: 0 4px 0 var(--sun-deep); }
+.complete .retry-row .btn:active { box-shadow: none; }
+@media (prefers-reduced-motion: reduce) { .repeat-better { animation: none; } }
+
+/* 6. Video lesson: the watch rule is a readable line under the player, and gone when empty. */
+.story.video .video-note { align-self: center; max-width: 100%; padding: 8px 14px; border-radius: 12px; font-size: 15px; font-weight: 600; line-height: 1.4; text-wrap: balance; color: var(--fg); background: var(--surface); border: 1px solid var(--line); }
+.story.video .video-note:empty { display: none; }

@@ -52,6 +52,17 @@ export function runRobot(grid, program) {
 // until then it follows where the school grade sits in the course's grade band.
 export const LEVEL_NAMES = ['', 'בסיס', 'מתקדם', 'אתגר'];
 export function courseLevel(course, profile) {
+  const base = baseLevel(course, profile);
+  // The app moves the level by itself after three strong or three weak rounds
+  // (profile.think_auto, see learnRules.autoLevel), until the weekly review sets a new one.
+  const auto = profile?.think_auto?.[course.id];
+  if (auto && auto.base === base.level && auto.level >= 1 && auto.level <= 3 && auto.level !== base.level) {
+    return { level: auto.level, measured: true, auto: auto.level > base.level ? 'up' : 'down' };
+  }
+  return base;
+}
+
+function baseLevel(course, profile) {
   const set = Number(profile?.think_level?.[course.id]);
   if (set >= 1 && set <= 3) return { level: set, measured: true };
   const g = parseInt(profile?.grade, 10);
@@ -60,6 +71,19 @@ export function courseLevel(course, profile) {
   if (g > hi) return { level: 3, measured: false };
   const t = (g - lo) / Math.max(1, hi - lo);
   return { level: t < 1 / 3 ? 1 : t < 2 / 3 ? 2 : 3, measured: false };
+}
+
+// After a round in a think course: the new think_auto entry, or undefined when
+// nothing changes. `accs` are all the learner's accuracies in the course, oldest
+// first; only rounds since the last change count.
+export function nextAutoLevel(course, profile, accs, step) {
+  const base = baseLevel(course, profile).level;
+  const auto = profile?.think_auto?.[course.id];
+  const valid = auto && auto.base === base;
+  const cur = courseLevel(course, profile).level;
+  const next = step(cur, accs.slice(valid ? auto.n || 0 : 0));
+  if (next === cur) return undefined;
+  return { level: next, base, n: accs.length };
 }
 
 // How many leading units the learner may skip (they stay open as optional

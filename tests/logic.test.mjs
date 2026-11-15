@@ -524,3 +524,60 @@ test('goalStatus: met, open and missed; last period', () => {
   assert.equal(goalStatus(weekly, data, T).actual, 0);
   assert.equal(goalLabel(weekly), '3 שיעורים בשבוע בחשיבה ומדעים');
 });
+
+test('learnRules: repeats, XP, auto level, grade fit, watching', async () => {
+  const { repeatKind, roundXp, autoLevel, gradeFit, watchTracker } = await import('../js/learnRules.js');
+  const done = (best) => ({ status: 'done', best_accuracy: best, times_done: 1 });
+  assert.equal(repeatKind('s1l1', null), 'new');
+  assert.equal(repeatKind('s1l1', done(100)), 'mastered');
+  assert.equal(repeatKind('s1l1', done(45)), 'weak');
+  assert.equal(repeatKind('s1l1', done(75)), 'review');
+  assert.equal(repeatKind('tp-code', done(100)), 'new');
+  assert.equal(repeatKind('u1l1', { status: 'done', skipped: true, best_accuracy: 0, times_done: 0 }), 'new');
+  assert.equal(roundXp('mastered', 18, 100, 100), 0);
+  assert.equal(roundXp('weak', 15, 70, 40), 15);
+  assert.equal(roundXp('weak', 15, 30, 40), 8);
+  assert.equal(roundXp('new', 15, 50), 15);
+  assert.equal(autoLevel(1, [95, 100, 90]), 2);
+  assert.equal(autoLevel(3, [95, 100, 90]), 3);
+  assert.equal(autoLevel(2, [40, 20, 0]), 1);
+  assert.equal(autoLevel(2, [100, 40, 100]), 2);
+  assert.equal(autoLevel(2, [100, 100]), 2);
+  assert.equal(gradeFit({ grades: [5, 8] }, 1), 'above');
+  assert.equal(gradeFit({ grades: [1, 2] }, 6), 'below');
+  assert.equal(gradeFit({ grades: [1, 3] }, 3), 'fit');
+  assert.equal(gradeFit({ grades: [1, 3] }, 13), 'fit');
+  const w = watchTracker(100);
+  for (let t = 0.25; t <= 50; t += 0.25) w.tick(t);
+  w.tick(99); // a jump is a seek, not watching
+  assert.ok(w.watched() < 51 && w.furthest() === 50 && !w.enough());
+  w.seeked(50);
+  for (let t = 50.25; t <= 100; t += 0.25) w.tick(t);
+  assert.ok(w.enough());
+});
+
+test('think course level moves with the last three rounds', async () => {
+  const { courseLevel, nextAutoLevel } = await import('../js/thinkLogic.js');
+  const { autoLevel } = await import('../js/learnRules.js');
+  const course = { id: 'code', grades: [1, 6], units: [{ lessons: ['a'] }, { lessons: ['b'] }] };
+  const p = { grade: 1 };
+  assert.equal(courseLevel(course, p).level, 1);
+  const e = nextAutoLevel(course, p, [100, 95, 90], autoLevel);
+  assert.deepEqual(e, { level: 2, base: 1, n: 3 });
+  p.think_auto = { code: e };
+  assert.equal(courseLevel(course, p).level, 2);
+  assert.equal(courseLevel(course, p).auto, 'up');
+  // Only rounds after the change count.
+  assert.equal(nextAutoLevel(course, p, [100, 95, 90, 100], autoLevel), undefined);
+  // The weekly review's level replaces the automatic one.
+  p.think_level = { code: 3 };
+  assert.equal(courseLevel(course, p).level, 3);
+});
+
+test('coach modules go to their own tab', async () => {
+  const { moduleSubject } = await import('../js/coach.js');
+  assert.equal(moduleSubject({ exercises: [{ type: 'teach' }, { type: 'pick', answer: 'b' }] }), 'english');
+  assert.equal(moduleSubject({ exercises: [{ type: 'teach' }, { type: 'number' }, { type: 'mcq', answer: '⬇️' }] }), 'think');
+  assert.equal(moduleSubject({ exercises: [{ type: 'mcq', answer: 'He' }] }), 'english');
+  assert.equal(moduleSubject({ subject: 'know', exercises: [] }), 'know');
+});

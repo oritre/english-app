@@ -176,6 +176,13 @@ def summary(code, days):
             'know_plan': p.get('know_plan'), 'know_done': [i for i in done if i.startswith('k-')],
             # Practice rounds (tp-<course>) this week: a finished course still being practised.
             'think_level': p.get('think_level'),
+            # Levels the app moved by itself (3 rounds 90+ up, 3 under 50 down); a think_level you set replaces them.
+            'think_auto': p.get('think_auto'),
+            # Replays of lessons already mastered (90+): no XP, not counted as learning time (since v56).
+            'mastered_repeats_week': dict(collections.Counter(r['lesson_id'] for r in res if r.get('repeat') == 'mastered')),
+            # Lessons done before the low-score mark (under 60), worth a retry.
+            'weak_lessons': sorted(r['lesson_id'] for r in progress if r.get('profile_id') == pid and r.get('status') == 'done'
+                                   and not r.get('skipped') and (r.get('best_accuracy') or 0) < 60),
             'think_stats': think_stats(p, [r for r in results if r.get('profile_id') == pid], set(done),
                                        (datetime.date.today() - datetime.timedelta(days=28)).isoformat()),
             'think_practice_week': dict(collections.Counter(r['lesson_id'][3:] for r in res if str(r.get('lesson_id', '')).startswith('tp-'))),
@@ -217,7 +224,12 @@ def publish(code, pid, plan_path):
             exs.append(e)
         if not exs: sys.exit(f'module {mi + 1} has no exercises')
         # Firestore can't hold arrays inside arrays (match_pairs), so exercises travel as JSON text.
-        modules.append({'title_he': m['title_he'], 'about_he': m.get('about_he', ''), 'exercises_json': json.dumps(exs, ensure_ascii=False)})
+        mod = {'title_he': m['title_he'], 'about_he': m.get('about_he', ''), 'exercises_json': json.dumps(exs, ensure_ascii=False)}
+        # The app shows each module on one home tab: English by default, or 'think' / 'know'
+        # (it also guesses 'think' when every exercise is a think-track one).
+        if m.get('subject') in ('english', 'think', 'know'):
+            mod['subject'] = m['subject']
+        modules.append(mod)
     coach = {k: plan.get(k) for k in ('week', 'title_he', 'note_he', 'strengths', 'work_on')}
     coach['modules'] = modules
     coach['made_at'] = datetime.datetime.now(datetime.timezone.utc).isoformat()

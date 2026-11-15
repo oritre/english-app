@@ -3,6 +3,7 @@ import { canSpeakLang, utterance } from '../speech.js';
 import { rateFactor } from '../settings.js';
 import { parseArt, sceneMs } from '../storyLogic.js';
 import { videoUrl } from '../media.js';
+import { watchTracker } from '../learnRules.js';
 
 // General knowledge ("ידע כללי", after BrainPOP): every lesson opens with a
 // short cartoon, then a quiz. The cartoon is our own: scenes drawn from emoji
@@ -230,11 +231,11 @@ export function renderStory(root, ex, { setReady, track }) {
 // {type: 'video', youtube: id, duration, title_he, source_he}. The file comes
 // from our own server (see media.js), never from YouTube. When it ends the
 // player is taken away and the quiz opens.
-export function renderVideo(root, ex, { setReady, track }) {
+export function renderVideo(root, ex, { setReady, track, seen = false }) {
   let finished = false;
   const done = () => { if (!finished) { finished = true; setReady(true); } };
   const box = el('div', { class: 'video-box' });
-  const note = el('p', { class: 'muted small video-note' });
+  const note = el('p', { class: 'muted small video-note', role: 'status' });
   root.append(el('div', { class: 'story video' },
     el('h2', { class: 'ex-title' }, '🎬 ', ...mixed(ex.title_he || '')), box, note,
     ex.source_he ? el('p', { class: 'muted small story-source' }, ...mixed(ex.source_he)) : null));
@@ -248,15 +249,39 @@ export function renderVideo(root, ex, { setReady, track }) {
     const video = el('video', {
       src, controls: '', playsinline: '', preload: 'metadata', controlslist: 'nodownload', disablepictureinpicture: '',
     });
+    // The quiz is about the video, so on a first viewing it opens only after
+    // most of it really played, and the learner can't jump ahead past what they
+    // have seen (going back is fine). A video seen before can be skimmed.
+    const watch = watchTracker(ex.duration);
+    const length = () => (Number.isFinite(video.duration) && video.duration > 0 ? video.duration : ex.duration || 0);
     let started = false;
     video.addEventListener('play', () => { if (!started) { started = true; track?.('play', ''); } });
-    video.addEventListener('ended', () => { card('🎬', 'סוף! עכשיו חידון קצר'); done(); });
+    video.addEventListener('timeupdate', () => watch.tick(video.currentTime));
+    if (!seen) {
+      video.addEventListener('seeking', () => {
+        if (video.currentTime > watch.furthest() + 2) {
+          video.currentTime = watch.furthest();
+          note.textContent = 'בפעם הראשונה צופים בסרטון עד הסוף, בלי לדלג קדימה. אפשר לחזור אחורה.';
+        }
+      });
+      // Speeding up is fine up to one and a half.
+      video.addEventListener('ratechange', () => { if (video.playbackRate > 1.5) video.playbackRate = 1.5; });
+    }
+    video.addEventListener('seeked', () => watch.seeked(video.currentTime));
+    video.addEventListener('ended', () => {
+      if (seen || watch.enough(length())) { card('🎬', 'סוף! עכשיו חידון קצר'); done(); }
+      else note.textContent = 'החידון נפתח אחרי שצופים בסרטון.';
+    });
     video.addEventListener('error', () => fail('הסרטון לא נטען. אולי אין חיבור לשרת של הבית, או שהסרטון עוד יורד אליו. אפשר לנסות שוב אחר כך.'));
     box.append(video);
+    if (seen) { note.textContent = 'כבר צפית בסרטון הזה, אפשר לעבור לחידון מתי שרוצים.'; done(); }
     // Leaving the lesson stops the video.
-    const watch = setInterval(() => { if (!root.isConnected) { video.pause(); video.removeAttribute('src'); video.load(); clearInterval(watch); } }, 1000);
-    // If the end is somehow missed, the quiz opens a while after the video's length.
-    setTimeout(() => { if (!finished && root.isConnected) { note.textContent = 'סיימתם לצפות? אפשר לעבור לחידון.'; done(); } }, Math.max(30, (ex.duration || 0) + 20) * 1000);
+    const stop = setInterval(() => { if (!root.isConnected) { video.pause(); video.removeAttribute('src'); video.load(); clearInterval(stop); } }, 1000);
+    // If the end is somehow missed, the quiz opens once enough of the video has played.
+    const fallback = setInterval(() => {
+      if (!root.isConnected || finished) { clearInterval(fallback); return; }
+      if (watch.enough(length()) && (video.paused || video.ended)) { note.textContent = 'סיימתם לצפות? אפשר לעבור לחידון.'; done(); clearInterval(fallback); }
+    }, 5000);
   });
   return { getAnswer: () => null, info: true, gated: true, ready: () => finished, nextLabel: 'לחידון ←' };
 }

@@ -41,6 +41,25 @@ export async function doneLessonIds() {
   return rows.filter((r) => r.status === 'done').map((r) => r.lesson_id);
 }
 
+// The learner's progress record of one lesson (best accuracy, times done), or null.
+export async function lessonProgress(lessonId) {
+  return (await store.get('progress', `${currentId}:${lessonId}`)) || null;
+}
+
+// Best accuracy of every lesson the learner really did (not skipped by the placement test).
+export async function bestByLesson() {
+  const rows = await store.byIndex('progress', 'profile_id', currentId);
+  return Object.fromEntries(rows.filter((r) => r.status === 'done' && !r.skipped).map((r) => [r.lesson_id, Number(r.best_accuracy) || 0]));
+}
+
+// Accuracies of the learner's rounds in these lessons, oldest first.
+export async function accuraciesIn(lessonIds) {
+  const ids = new Set(lessonIds);
+  const rows = await store.byIndex('results', 'profile_id', currentId);
+  return rows.filter((r) => ids.has(r.lesson_id) && typeof r.accuracy === 'number')
+    .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : (a.at || a.updated_at || 0) - (b.at || b.updated_at || 0))).map((r) => r.accuracy);
+}
+
 // Marks lessons as passed by the placement test. Never un-does real progress,
 // so retaking the test and scoring lower keeps what was already learned.
 export async function markSkipped(lessonIds) {
@@ -67,14 +86,14 @@ export async function stats() {
 }
 
 // Saves a finished lesson. Returns { streakBefore, streakAfter, goalMetNow }.
-export async function saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes }) {
+export async function saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes, repeat = 'new' }) {
   const profile = await getProfile();
   const today = localISO();
   const before = await stats();
 
   await store.put('results', {
     id: newId(), profile_id: currentId, lesson_id: lessonId, date: today,
-    xp, accuracy, duration_s: durationS, mistakes,
+    xp, accuracy, duration_s: durationS, mistakes, repeat, at: Date.now(),
   });
 
   const key = `${currentId}:${lessonId}`;

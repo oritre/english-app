@@ -1,6 +1,7 @@
 import { mixed, el } from '../util.js';
 import { loadThink, loadKnow } from '../course.js';
 import { requiredLessons } from '../thinkLogic.js';
+import { WEAK } from '../learnRules.js';
 
 // Confetti for the lesson-complete screen: a handful of coloured bits that fall once (CSS does the motion).
 const confetti = (n = 24) => el('div', { class: 'confetti', 'aria-hidden': 'true' }, Array.from({ length: n }, (_, i) =>
@@ -51,8 +52,9 @@ export async function renderComplete(root, nav, p) {
     const a = (i / 8) * Math.PI * 2;
     return el('i', { style: `--dx: ${Math.round(Math.cos(a) * 90)}px; --dy: ${Math.round(Math.sin(a) * 70)}px; --d: ${i * 40}ms` }, '⭐');
   }));
+  // A replay of a mastered lesson goes straight to the summary: nothing to celebrate there.
   const beats = [
-    () => el('div', { class: 'screen complete beat' },
+    p.repeat === 'mastered' ? null : () => el('div', { class: 'screen complete beat' },
       el('div', { class: 'beat-big' }, p.accuracy === 100 ? '🏆' : '🎉'),
       el('h1', {}, p.accuracy === 100 ? 'שיעור מושלם!' : 'סיימתם את השיעור!'),
       el('div', { class: 'xp-fly', dir: 'ltr' }, `+${p.xp} XP`, stars()),
@@ -86,6 +88,13 @@ export async function renderComplete(root, nav, p) {
     league.myRow ? el('button', { class: 'league-note', type: 'button', onclick: () => nav('league') },
       `${league.tier.icon} מקום ${league.myRow.rank} בליגת ${league.tier.name}`) : null,
     p.goalMetNow ? el('p', { class: 'goal-met' }, 'עמדתם ביעד היומי ✔') : null,
+    // Repeats: a mastered lesson earns nothing, a better score on a known lesson is celebrated,
+    // and a low score is marked for another try.
+    p.repeat === 'mastered' ? el('p', { class: 'repeat-done' }, '🔁 כבר שלטת בשיעור הזה, אז החזרה לא נתנה XP. הנקודות מחכות בשיעור חדש!')
+      : p.repeat !== 'new' && p.repeat && p.accuracy > p.prevBest ? el('p', { class: 'repeat-better' }, `📈 שיפור! מ־${p.prevBest}% ל־${p.accuracy}%`) : null,
+    p.accuracy < WEAK && !String(p.lessonId).startsWith('tp-') && !String(p.lessonId).startsWith('coach') ? el('div', { class: 'retry-row' },
+      el('p', {}, '↻ השיעור הזה מסומן במסלול "לחזק". כשחוזרים עליו ומשתפרים, מקבלים שוב XP.'),
+      el('button', { class: 'btn', type: 'button', onclick: () => nav('lesson', { lessonId: p.lessonId }) }, 'לנסות שוב עכשיו')) : null,
     // Think lessons: a recap of the ideas the lesson taught (the concept cards' titles).
     p.concepts?.length ? el('div', { class: 'recap' },
       el('div', { class: 'recap-head' }, '📚 מה למדנו'),

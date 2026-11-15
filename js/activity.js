@@ -28,7 +28,7 @@ const mediaPlaying = () => [...document.querySelectorAll('video, audio')].some((
 let current = null;
 
 // Starts counting for a learning screen; ends whichever session was open.
-export function startSession(lessonId) {
+export function startSession(lessonId, { repeat = 'new' } = {}) {
   endSession();
   const profileId = currentProfileId();
   if (!profileId) return null;
@@ -39,6 +39,8 @@ export function startSession(lessonId) {
       id: newId(), profile_id: profileId, type: 'session', source: 'session', outcome: 'session',
       lesson_id: lessonId, exercise_id: `session-${lessonId}`, subject: subjectOf(lessonId),
       date: localISO(), at: now, hour: new Date().getHours(), end: now, active_s: 0, open_s: 0, finished: false,
+      // A replay of a mastered lesson isn't counted as learning time (insights.js).
+      ...(repeat === 'mastered' ? { repeat } : {}),
     },
     activeMs: 0, openMs: 0, last: now, savedAt: now, hold: 0,
   };
