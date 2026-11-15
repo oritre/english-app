@@ -96,3 +96,15 @@ VIDEOS = {
         }),
     ],
 }
+
+
+# The other parashot, by book (written from each video's captions).
+for _mod in ('parasha_videos_bereshit', 'parasha_videos_shemot', 'parasha_videos_vayikra',
+             'parasha_videos_bamidbar', 'parasha_videos_devarim'):
+    try:
+        _m = __import__(_mod)
+    except ModuleNotFoundError:
+        continue
+    for _pid, _vs in _m.VIDEOS.items():
+        assert _pid not in VIDEOS, _pid
+        VIDEOS[_pid] = _vs
