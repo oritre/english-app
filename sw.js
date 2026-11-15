@@ -30,7 +30,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(caches.keys()
     // Only old app shells; the speech model's caches survive app updates.
-    .then((names) => Promise.all(names.filter((n) => n.startsWith('english-app-v63') && n !== CACHE_NAME).map((n) => caches.delete(n))))
+    .then((names) => Promise.all(names.filter((n) => n.startsWith('english-app-v64') && n !== CACHE_NAME).map((n) => caches.delete(n))))
     .then(() => self.clients.claim()));
 });
 

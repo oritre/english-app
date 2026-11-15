@@ -250,23 +250,44 @@ class SpriteTest(unittest.TestCase):
     def test_paints_base_then_edits_it(self):
         store = tempfile.mkdtemp()
         calls = []
+        fail = []
         def request(prompt, options, ref=None):
-            calls.append((prompt, ref is not None))
+            if prompt == server.GREEN_EDIT and fail:
+                raise OSError('quota')
+            calls.append(('green' if prompt == server.GREEN_EDIT else prompt, ref is not None))
             return fake_png(), 'image/png'
         opts = {'vertex_api_key': 'x'}
         base = server.sprite_hash('Yaakov standing')
         with self.assertRaises(FileNotFoundError):
             server.sprite_file('mouth open', opts, store, base, request)
         a = server.sprite_file('Yaakov standing', opts, store, '', request)
-        self.assertTrue(a.endswith('.webp') and os.path.exists(server.sprite_paths(base, store)[0]))
-        server.sprite_file('mouth open', opts, store, base, request)
+        self.assertTrue(a.endswith('.v3.webp') and os.path.exists(server.sprite_paths(base, store)[0]))
         server.sprite_file('Yaakov standing', opts, store, '', request)
-        self.assertEqual(calls, [('Yaakov standing', False), ('mouth open', True)])
+        self.assertEqual(calls, [('Yaakov standing', False), ('green', True)])
         with open(a, 'rb') as f:
             self.assertEqual(f.read(12)[8:], b'WEBP')
-        os.remove(a)  # an older cut: made again from the kept original, without painting
+        os.remove(a)  # an older cut: keyed again from the kept green picture, nothing painted
         server.sprite_file('Yaakov standing', opts, store, '', request)
-        self.assertTrue(os.path.exists(a) and len(calls) == 2)
+        self.assertEqual(len(calls), 2)
+        fail.append(1)  # the green edit fails: the frame is cut from its grey original meanwhile
+        b = server.sprite_file('mouth open', opts, store, base, request)
+        self.assertTrue(b.endswith('.v2.webp'))
+        fail.clear()
+        c = server.sprite_file('mouth open', opts, store, base, request)
+        self.assertTrue(c.endswith('.v3.webp'))
+        self.assertEqual(calls[2:], [('mouth open', True), ('green', True)])
+
+    def test_green_key(self):
+        from PIL import Image, ImageDraw
+        im = Image.new('RGB', (300, 400), (20, 250, 30))
+        d = ImageDraw.Draw(im)
+        d.rectangle([100, 60, 200, 340], fill=(150, 90, 50))
+        d.rectangle([20, 60, 30, 340], fill=(110, 70, 40))
+        d.ellipse([90, 335, 210, 360], fill=(30, 110, 35))  # a green-tinted shadow
+        out = server.green_key(im)
+        a = out.getchannel('A')
+        self.assertEqual((a.getpixel((5, 5)), a.getpixel((60, 200)), a.getpixel((150, 352))), (0, 0, 0))
+        self.assertEqual((a.getpixel((150, 200)), a.getpixel((25, 200))), (255, 255))
 
     def test_cut_out_removes_a_grey_backdrop(self):
         from PIL import Image, ImageDraw
