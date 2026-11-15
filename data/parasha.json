@@ -40,6 +40,48 @@
      ]
     }
    ]
+  },
+  {
+   "id": "shemot",
+   "area": "torah",
+   "icon": "🔥",
+   "color": "#b45309",
+   "title_he": "ספר שמות",
+   "about_he": "שעבוד מצרים, יציאת מצרים, מתן תורה והמשכן",
+   "grades": [
+    1,
+    8
+   ],
+   "units": [
+    {
+     "id": "p-shemot",
+     "title_he": "ספר שמות",
+     "about_he": "שעבוד מצרים, יציאת מצרים, מתן תורה והמשכן",
+     "lessons": [
+      "p-shemot",
+      "p-shemot-v2",
+      "p-vaera",
+      "p-vaera-v2",
+      "p-bo",
+      "p-bo-v2",
+      "p-beshalach",
+      "p-beshalach-v2",
+      "p-yitro",
+      "p-yitro-v2",
+      "p-mishpatim",
+      "p-mishpatim-v2",
+      "p-terumah",
+      "p-terumah-v2",
+      "p-tetzaveh",
+      "p-tetzaveh-v2",
+      "p-ki-tisa",
+      "p-vayakhel",
+      "p-vayakhel-v2",
+      "p-pekudei",
+      "p-pekudei-v2"
+     ]
+    }
+   ]
   }
  ],
  "lesson_titles": {
@@ -55,7 +97,28 @@
   "p-vayigash": "פרשת ויגש",
   "p-vayigash-v2": "סיפור לשבת: עין טובה",
   "p-vayechi": "פרשת ויחי",
-  "p-vayechi-v2": "סיפור לשבת: ברכה לילד"
+  "p-vayechi-v2": "סיפור לשבת: ברכה לילד",
+  "p-shemot": "פרשת שמות",
+  "p-shemot-v2": "סיפור לשבת: התפילה הראשונה",
+  "p-vaera": "פרשת וארא",
+  "p-vaera-v2": "סיפור לשבת: יהודי בסיביר",
+  "p-bo": "פרשת בא",
+  "p-bo-v2": "סיפור לשבת: הכוס של אליהו",
+  "p-beshalach": "פרשת בשלח",
+  "p-beshalach-v2": "סיפור לשבת: ענני הכבוד",
+  "p-yitro": "פרשת יתרו",
+  "p-yitro-v2": "סיפור לשבת: הוראות היצרן",
+  "p-mishpatim": "פרשת משפטים",
+  "p-mishpatim-v2": "סיפור לשבת: סוד המשפטים",
+  "p-terumah": "פרשת תרומה",
+  "p-terumah-v2": "סיפור לשבת: בונים ביחד",
+  "p-tetzaveh": "פרשת תצוה",
+  "p-tetzaveh-v2": "סיפור לשבת: ספר התורה המהודר",
+  "p-ki-tisa": "פרשת כי תשא",
+  "p-vayakhel": "פרשת ויקהל",
+  "p-vayakhel-v2": "סיפור לשבת: הכוח של הביחד",
+  "p-pekudei": "פרשת פקודי",
+  "p-pekudei-v2": "סיפור לשבת: ענווה"
  },
  "weeks": [
   {
@@ -81,6 +144,50 @@
   {
    "shabbat": "2026-12-26",
    "lesson": "p-vayechi"
+  },
+  {
+   "shabbat": "2027-01-02",
+   "lesson": "p-shemot"
+  },
+  {
+   "shabbat": "2027-01-09",
+   "lesson": "p-vaera"
+  },
+  {
+   "shabbat": "2027-01-16",
+   "lesson": "p-bo"
+  },
+  {
+   "shabbat": "2027-01-23",
+   "lesson": "p-beshalach"
+  },
+  {
+   "shabbat": "2027-01-30",
+   "lesson": "p-yitro"
+  },
+  {
+   "shabbat": "2027-02-06",
+   "lesson": "p-mishpatim"
+  },
+  {
+   "shabbat": "2027-02-13",
+   "lesson": "p-terumah"
+  },
+  {
+   "shabbat": "2027-02-20",
+   "lesson": "p-tetzaveh"
+  },
+  {
+   "shabbat": "2027-02-27",
+   "lesson": "p-ki-tisa"
+  },
+  {
+   "shabbat": "2027-03-06",
+   "lesson": "p-vayakhel"
+  },
+  {
+   "shabbat": "2027-03-13",
+   "lesson": "p-pekudei"
   }
  ],
  "about": {
@@ -89,6 +196,17 @@
   "p-vayeshev": "יוסף וחלומותיו, מכירת יוסף, ויוסף בבית פוטיפר",
   "p-miketz": "חלומות פרעה, יוסף משנה למלך, והאחים יורדים למצרים",
   "p-vayigash": "יהודה ניגש, יוסף מתוודע לאחיו, ויעקב יורד למצרים",
-  "p-vayechi": "ברכות יעקב לבניו ולנכדיו, ופטירתו"
+  "p-vayechi": "ברכות יעקב לבניו ולנכדיו, ופטירתו",
+  "p-shemot": "שעבוד מצרים, לידת משה, והסנה הבוער",
+  "p-vaera": "משה ואהרן אצל פרעה, ושבע המכות הראשונות",
+  "p-bo": "המכות האחרונות, קורבן פסח ויציאת מצרים",
+  "p-beshalach": "קריעת ים סוף, שירת הים, המן ועמלק",
+  "p-yitro": "יתרו מצטרף, ומתן תורה בהר סיני",
+  "p-mishpatim": "דינים בין אדם לחברו, ו\"נעשה ונשמע\"",
+  "p-terumah": "בניית המשכן: הארון, השולחן והמנורה",
+  "p-tetzaveh": "שמן למאור, ובגדי הכהונה",
+  "p-ki-tisa": "מחצית השקל, חטא העגל, והלוחות השניים",
+  "p-vayakhel": "השבת, ונדבת העם למשכן",
+  "p-pekudei": "חשבון המשכן, והקמתו"
  }
 }
