@@ -343,10 +343,10 @@ def sprite_hash(prompt, ref=''):
 
 def sprite_paths(h, store=STORE):
     """(the painted original, the cut-out with a transparent background).
-    v3 = keyed from a green-backdrop edit of the original (<h>.green.jpg); v2 = cut_out of the original
+    v4 = keyed from a green-backdrop edit of the original (<h>.green.jpg); v2 = cut_out of the original
     (the fallback when the green edit can't be made)."""
     base = os.path.join(store, 'sprite', h)
-    return f'{base}.src.jpg', f'{base}.v3.webp'
+    return f'{base}.src.jpg', f'{base}.v4.webp'
 
 
 # Asked for a green backdrop when painting a character, the model paints a textured grey one anyway;
@@ -358,14 +358,20 @@ GREEN_EDIT = ('Edit this picture. Keep the character exactly the same: same face
 
 
 def green_key(im):
-    """Transparent where the picture is clearly green (the characters wear no green), soft at the edge,
-    and the green spill on the figure's rim taken out."""
+    """Transparent where the picture is as green as its backdrop (the characters wear no green), soft at
+    the edge, and the green spill on the figure's rim taken out. The model's "green" is often a muted,
+    textured one, so the threshold follows the green measured along the picture's border."""
     import numpy as np
     from PIL import Image, ImageFilter
     px = np.asarray(im.convert('RGB'), dtype=np.float32)
     r, g, b = px[..., 0], px[..., 1], px[..., 2]
     dom = g - np.maximum(r, b)
-    alpha = np.clip((70 - dom) / 50, 0, 1) * 255
+    edge = np.concatenate([dom[:8].ravel(), dom[-8:].ravel(), dom[:, :8].ravel(), dom[:, -8:].ravel()])
+    bg = float(np.median(edge))
+    if bg < 24:  # the backdrop is not green after all: cut it by colour steps instead
+        return cut_out(im)
+    hi, lo = min(70.0, max(14.0, 0.5 * bg)), min(20.0, max(5.0, 0.2 * bg))
+    alpha = np.clip((hi - dom) / (hi - lo), 0, 1) * 255
     a = Image.fromarray(alpha.astype(np.uint8)).filter(ImageFilter.MedianFilter(3))
     a = a.filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(0.8))
     px[..., 1] = np.where(dom > 0, np.maximum(r, b), g)  # despill

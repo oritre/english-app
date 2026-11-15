@@ -261,7 +261,7 @@ class SpriteTest(unittest.TestCase):
         with self.assertRaises(FileNotFoundError):
             server.sprite_file('mouth open', opts, store, base, request)
         a = server.sprite_file('Yaakov standing', opts, store, '', request)
-        self.assertTrue(a.endswith('.v3.webp') and os.path.exists(server.sprite_paths(base, store)[0]))
+        self.assertTrue(a.endswith('.v4.webp') and os.path.exists(server.sprite_paths(base, store)[0]))
         server.sprite_file('Yaakov standing', opts, store, '', request)
         self.assertEqual(calls, [('Yaakov standing', False), ('green', True)])
         with open(a, 'rb') as f:
@@ -274,7 +274,7 @@ class SpriteTest(unittest.TestCase):
         self.assertTrue(b.endswith('.v2.webp'))
         fail.clear()
         c = server.sprite_file('mouth open', opts, store, base, request)
-        self.assertTrue(c.endswith('.v3.webp'))
+        self.assertTrue(c.endswith('.v4.webp'))
         self.assertEqual(calls[2:], [('mouth open', True), ('green', True)])
 
     def test_green_key(self):
@@ -288,6 +288,20 @@ class SpriteTest(unittest.TestCase):
         a = out.getchannel('A')
         self.assertEqual((a.getpixel((5, 5)), a.getpixel((60, 200)), a.getpixel((150, 352))), (0, 0, 0))
         self.assertEqual((a.getpixel((150, 200)), a.getpixel((25, 200))), (255, 255))
+
+    def test_green_key_follows_a_muted_textured_green(self):
+        from PIL import Image, ImageDraw
+        im = Image.new('RGB', (300, 400), (70, 150, 75))
+        d = ImageDraw.Draw(im)
+        for x in range(0, 300, 5):  # painted texture
+            d.line([(x, 0), (x, 400)], fill=(80, 140, 82))
+        d.ellipse([60, 20, 240, 380], fill=(105, 160, 108))  # a lighter glow behind the figure
+        d.rectangle([100, 60, 200, 340], fill=(150, 90, 50))  # a robe
+        d.rectangle([120, 20, 180, 58], fill=(185, 186, 182))  # a grey beard
+        d.ellipse([90, 335, 210, 360], fill=(40, 90, 45))  # shadow
+        a = server.green_key(im).getchannel('A')
+        self.assertEqual((a.getpixel((5, 5)), a.getpixel((80, 200)), a.getpixel((150, 352))), (0, 0, 0))
+        self.assertEqual((a.getpixel((150, 200)), a.getpixel((150, 35))), (255, 255))
 
     def test_cut_out_removes_a_grey_backdrop(self):
         from PIL import Image, ImageDraw
