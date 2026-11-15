@@ -132,11 +132,19 @@ def load():
     """All film courses from tools/know_films_*.py, in file order."""
     here = os.path.dirname(__file__)
     out = []
+    strict = os.environ.get('KNOW_FILMS_STRICT') == '1'
     for path in sorted(glob.glob(os.path.join(here, 'know_films_*.py'))):
-        mod = importlib.import_module(os.path.basename(path)[:-3])
-        for c in mod.COURSES:
-            check(c)
-            out.append(c)
+        name = os.path.basename(path)[:-3]
+        try:
+            mod = importlib.import_module(name)
+            for c in mod.COURSES:
+                check(c)
+                out.append(c)
+        except Exception as e:  # a file still being written must not stop the others
+            if strict:
+                raise
+            import sys
+            print(f'WARNING: skipped {name}: {type(e).__name__}: {e}', file=sys.stderr)
     return out
 
 

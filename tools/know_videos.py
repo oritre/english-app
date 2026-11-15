@@ -1002,6 +1002,12 @@ _PARTS = [
     ]),
 ]
 
+# More batches (2026-11-15, from the full channel lists, captions read on the home Pi):
+# tools/know_videos_more_*.py, each with PARTS in the same shape.
+import glob as _glob, importlib as _importlib, os as _os
+for _path in sorted(_glob.glob(_os.path.join(_os.path.dirname(__file__), 'know_videos_more_*.py'))):
+    _PARTS += _importlib.import_module(_os.path.basename(_path)[:-3]).PARTS
+
 VIDEOS = {}
 for _course, _lessons in _PARTS:
     _have = VIDEOS.setdefault(_course, [])
