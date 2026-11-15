@@ -1,0 +1,160 @@
+{
+ "id": "p-chayei-sarah",
+ "unit_id": "p-bereshit",
+ "course": "bereshit",
+ "title_he": "פרשת חיי שרה",
+ "exercises": [
+  {
+   "type": "video",
+   "title_he": "בעקבות הפרשה: חיי שרה",
+   "youtube": "ATCjQhBCDZk",
+   "source_he": "סרטון: הידברות קידס",
+   "duration": 191,
+   "id": "p-chayei-sarahe1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בת כמה הייתה שרה כשנפטרה?",
+   "answer": "מאה עשרים ושבע",
+   "options": [
+    "מאה עשרים ושבע",
+    "שלושים",
+    "מאה"
+   ],
+   "explain_he": "אברהם הספיד אותה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "p-chayei-sarahe2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "את מי שלח אברהם למצוא כלה ליצחק?",
+   "answer": "את אליעזר",
+   "options": [
+    "את אליעזר",
+    "את לוט",
+    "את ישמעאל"
+   ],
+   "explain_he": "העבד של אברהם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "p-chayei-sarahe3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה התפלל אליעזר?",
+   "answer": "ליד הבאר",
+   "options": [
+    "ליד הבאר",
+    "בבית",
+    "על ההר"
+   ],
+   "explain_he": "הוא ביקש סימן.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "p-chayei-sarahe4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו מערה קנה אברהם?",
+   "answer": "מערת המכפלה",
+   "options": [
+    "מערת המכפלה",
+    "מערת אליהו",
+    "מערה בים"
+   ],
+   "explain_he": "כדי לקבור את שרה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "p-chayei-sarahe5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שילם אברהם לעפרון?",
+   "answer": "ארבע מאות שקל כסף",
+   "options": [
+    "ארבע מאות שקל כסף",
+    "כלום",
+    "עשרה"
+   ],
+   "explain_he": "בקנייה ברורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "p-chayei-sarahe6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה גמלים לקח אליעזר?",
+   "answer": "עשרה",
+   "options": [
+    "עשרה",
+    "שניים",
+    "מאה"
+   ],
+   "explain_he": "עם מתנות רבות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "p-chayei-sarahe7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה אסור היה לקחת כלה ליצחק?",
+   "answer": "מבנות כנען",
+   "options": [
+    "מבנות כנען",
+    "ממשפחת אברהם",
+    "מארם"
+   ],
+   "explain_he": "אברהם השביע את אליעזר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "p-chayei-sarahe8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הסימן שביקש אליעזר?",
+   "answer": "נערה שתשקה אותו ותציע להשקות את הגמלים",
+   "options": [
+    "נערה שתשקה אותו ותציע להשקות את הגמלים",
+    "נערה שתשיר",
+    "נערה עשירה"
+   ],
+   "explain_he": "סימן של חסד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "p-chayei-sarahe9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נס קרה לאליעזר בדרך?",
+   "answer": "קפיצת הדרך, הגיע באותו יום",
+   "options": [
+    "קפיצת הדרך, הגיע באותו יום",
+    "ים נקרע",
+    "ירד מן"
+   ],
+   "explain_he": "כך מספרים חז\"ל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "p-chayei-sarahe10"
+  }
+ ]
+}

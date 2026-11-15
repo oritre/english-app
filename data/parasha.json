@@ -24,6 +24,16 @@
      "title_he": "ספר בראשית",
      "about_he": "בריאת העולם, האבות והאימהות, ויוסף ואחיו",
      "lessons": [
+      "p-bereshit",
+      "p-noach",
+      "p-noach-v2",
+      "p-lech-lecha",
+      "p-vayera",
+      "p-vayera-v2",
+      "p-chayei-sarah",
+      "p-chayei-sarah-v2",
+      "p-toldot",
+      "p-toldot-v2",
       "p-vayetze",
       "p-vayetze-v2",
       "p-vayetze-v3",
@@ -115,9 +125,96 @@
      ]
     }
    ]
+  },
+  {
+   "id": "bamidbar",
+   "area": "torah",
+   "icon": "⛺",
+   "color": "#0f766e",
+   "title_he": "ספר במדבר",
+   "about_he": "המסעות במדבר, המרגלים, והדרך אל הארץ",
+   "grades": [
+    1,
+    8
+   ],
+   "units": [
+    {
+     "id": "p-bamidbar",
+     "title_he": "ספר במדבר",
+     "about_he": "המסעות במדבר, המרגלים, והדרך אל הארץ",
+     "lessons": [
+      "p-bamidbar",
+      "p-bamidbar-v2",
+      "p-naso",
+      "p-naso-v2",
+      "p-behaalotecha",
+      "p-behaalotecha-v2",
+      "p-shelach",
+      "p-shelach-v2",
+      "p-korach",
+      "p-chukat",
+      "p-chukat-v2",
+      "p-balak",
+      "p-balak-v2",
+      "p-pinchas",
+      "p-matot",
+      "p-matot-v2"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "devarim",
+   "area": "torah",
+   "icon": "📖",
+   "color": "#1d4ed8",
+   "title_he": "ספר דברים",
+   "about_he": "דברי משה לפני הכניסה לארץ",
+   "grades": [
+    1,
+    8
+   ],
+   "units": [
+    {
+     "id": "p-devarim",
+     "title_he": "ספר דברים",
+     "about_he": "דברי משה לפני הכניסה לארץ",
+     "lessons": [
+      "p-devarim",
+      "p-devarim-v2",
+      "p-vaetchanan",
+      "p-vaetchanan-v2",
+      "p-eikev",
+      "p-eikev-v2",
+      "p-reeh",
+      "p-reeh-v2",
+      "p-shoftim",
+      "p-shoftim-v2",
+      "p-ki-teitzei",
+      "p-ki-tavo",
+      "p-ki-tavo-v2",
+      "p-nitzavim",
+      "p-nitzavim-v2",
+      "p-nitzavim-v3",
+      "p-haazinu",
+      "p-haazinu-v2",
+      "p-vezot-haberacha"
+     ]
+    }
+   ]
   }
  ],
  "lesson_titles": {
+  "p-bereshit": "פרשת בראשית",
+  "p-noach": "פרשת נח",
+  "p-noach-v2": "סיפור לשבת: לא לגזול, לא לפגוע",
+  "p-lech-lecha": "פרשת לך לך",
+  "p-vayera": "פרשת וירא",
+  "p-vayera-v2": "סיפור לשבת: אברהם ושרה מחכים לילד",
+  "p-chayei-sarah": "פרשת חיי שרה",
+  "p-chayei-sarah-v2": "סיפור לשבת: החסד של רבי שמואל מקמינקא",
+  "p-toldot": "פרשת תולדות",
+  "p-toldot-v2": "סיפור לשבת: תפילה מעומק הלב",
   "p-vayetze": "פרשת ויצא",
   "p-vayetze-v2": "סיפור לשבת: הביטחון של יעקב",
   "p-vayetze-v3": "ההפטרה של ויצא",
@@ -163,7 +260,42 @@
   "p-emor": "פרשת אמור",
   "p-emor-v2": "סיפור לשבת: הכוח של ברכה",
   "p-behar": "פרשת בהר",
-  "p-bechukotai": "פרשת בחוקותי"
+  "p-bechukotai": "פרשת בחוקותי",
+  "p-bamidbar": "פרשת במדבר",
+  "p-bamidbar-v2": "סיפור לשבת: מה שאוהבים, סופרים",
+  "p-naso": "פרשת נשא",
+  "p-naso-v2": "סיפור לשבת: שמח בחלקו",
+  "p-behaalotecha": "פרשת בהעלותך",
+  "p-behaalotecha-v2": "סיפור לשבת: פסח שני ומסירות נפש",
+  "p-shelach": "פרשת שלח",
+  "p-shelach-v2": "סיפור לשבת: עין טובה",
+  "p-korach": "פרשת קרח",
+  "p-chukat": "פרשת חקת",
+  "p-chukat-v2": "סיפור לשבת: חיים החייט",
+  "p-balak": "פרשת בלק",
+  "p-balak-v2": "סיפור לשבת: היהודי שברכותיו מתקיימות",
+  "p-pinchas": "פרשת פינחס",
+  "p-matot": "פרשת מטות-מסעי",
+  "p-matot-v2": "סיפור לשבת: ערבות הדדית",
+  "p-devarim": "פרשת דברים",
+  "p-devarim-v2": "סיפור לשבת: העין הטובה של רבי דוד מלעלוב",
+  "p-vaetchanan": "פרשת ואתחנן",
+  "p-vaetchanan-v2": "סיפור לשבת: כוחה של תפילה",
+  "p-eikev": "פרשת עקב",
+  "p-eikev-v2": "סיפור לשבת: מעשה מביטחון",
+  "p-reeh": "פרשת ראה",
+  "p-reeh-v2": "סיפור לשבת: חוטב העצים והיהלום",
+  "p-shoftim": "פרשת שופטים",
+  "p-shoftim-v2": "סיפור לשבת: החלות של יעקבו",
+  "p-ki-teitzei": "פרשת כי תצא",
+  "p-ki-tavo": "פרשת כי תבוא",
+  "p-ki-tavo-v2": "סיפור לשבת: איך מביאים ביכורים",
+  "p-nitzavim": "פרשת ניצבים-וילך",
+  "p-nitzavim-v2": "בעקבות הפרשה: וילך",
+  "p-nitzavim-v3": "סיפור לשבת: חוטב העצים והבעל שם טוב",
+  "p-haazinu": "פרשת האזינו",
+  "p-haazinu-v2": "סיפור לשבת: הוראות היצרן",
+  "p-vezot-haberacha": "פרשת וזאת הברכה"
  },
  "weeks": [
   {
@@ -273,9 +405,111 @@
   {
    "shabbat": "2027-05-29",
    "lesson": "p-bechukotai"
+  },
+  {
+   "shabbat": "2027-06-05",
+   "lesson": "p-bamidbar"
+  },
+  {
+   "shabbat": "2027-06-12",
+   "lesson": "p-naso"
+  },
+  {
+   "shabbat": "2027-06-19",
+   "lesson": "p-behaalotecha"
+  },
+  {
+   "shabbat": "2027-06-26",
+   "lesson": "p-shelach"
+  },
+  {
+   "shabbat": "2027-07-03",
+   "lesson": "p-korach"
+  },
+  {
+   "shabbat": "2027-07-10",
+   "lesson": "p-chukat"
+  },
+  {
+   "shabbat": "2027-07-17",
+   "lesson": "p-balak"
+  },
+  {
+   "shabbat": "2027-07-24",
+   "lesson": "p-pinchas"
+  },
+  {
+   "shabbat": "2027-07-31",
+   "lesson": "p-matot"
+  },
+  {
+   "shabbat": "2027-08-07",
+   "lesson": "p-devarim"
+  },
+  {
+   "shabbat": "2027-08-14",
+   "lesson": "p-vaetchanan"
+  },
+  {
+   "shabbat": "2027-08-21",
+   "lesson": "p-eikev"
+  },
+  {
+   "shabbat": "2027-08-28",
+   "lesson": "p-reeh"
+  },
+  {
+   "shabbat": "2027-09-04",
+   "lesson": "p-shoftim"
+  },
+  {
+   "shabbat": "2027-09-11",
+   "lesson": "p-ki-teitzei"
+  },
+  {
+   "shabbat": "2027-09-18",
+   "lesson": "p-ki-tavo"
+  },
+  {
+   "shabbat": "2027-09-25",
+   "lesson": "p-nitzavim"
+  },
+  {
+   "shabbat": "2027-10-09",
+   "lesson": "p-haazinu"
+  },
+  {
+   "shabbat": "2027-10-30",
+   "lesson": "p-bereshit"
+  },
+  {
+   "shabbat": "2027-11-06",
+   "lesson": "p-noach"
+  },
+  {
+   "shabbat": "2027-11-13",
+   "lesson": "p-lech-lecha"
+  },
+  {
+   "shabbat": "2027-11-20",
+   "lesson": "p-vayera"
+  },
+  {
+   "shabbat": "2027-11-27",
+   "lesson": "p-chayei-sarah"
+  },
+  {
+   "shabbat": "2027-12-04",
+   "lesson": "p-toldot"
   }
  ],
  "about": {
+  "p-bereshit": "בריאת העולם, אדם וחווה בגן עדן, קין והבל",
+  "p-noach": "נח והתיבה, המבול, הקשת ומגדל בבל",
+  "p-lech-lecha": "אברהם הולך לארץ כנען, ברית בין הבתרים וברית מילה",
+  "p-vayera": "הכנסת אורחים, סדום, לידת יצחק ועקדת יצחק",
+  "p-chayei-sarah": "מערת המכפלה, ואליעזר מוצא אישה ליצחק",
+  "p-toldot": "יעקב ועשיו, הבכורה והברכות",
   "p-vayetze": "החלום על הסולם, רחל ולאה, שבטי ישראל, והדרך חזרה הביתה",
   "p-vayishlach": "יעקב נפגש עם עשיו, המאבק עם המלאך, ושמו נקרא ישראל",
   "p-vayeshev": "יוסף וחלומותיו, מכירת יוסף, ויוסף בבית פוטיפר",
@@ -302,6 +536,25 @@
   "p-kedoshim": "\"ואהבת לרעך כמוך\" ומצוות של קדושה",
   "p-emor": "קדושת הכהנים, ומועדי ישראל",
   "p-behar": "שמיטה ויובל, והברכה למי שהולך בדרך התורה",
-  "p-bechukotai": "\"אם בחוקותי תלכו\": ברכה למי ששומר את התורה"
+  "p-bechukotai": "\"אם בחוקותי תלכו\": ברכה למי ששומר את התורה",
+  "p-bamidbar": "מניין בני ישראל, והדגלים סביב המשכן",
+  "p-naso": "ברכת כהנים, הנזיר, וקורבנות הנשיאים",
+  "p-behaalotecha": "הדלקת המנורה, המסע במדבר, והשליו",
+  "p-shelach": "המרגלים, וכלב ויהושע",
+  "p-korach": "מחלוקת קרח ועדתו, ומטה אהרן שפרח",
+  "p-chukat": "פרה אדומה, מי מריבה, ופטירת מרים ואהרן",
+  "p-balak": "בלעם רוצה לקלל, והקללה נהפכת לברכה",
+  "p-pinchas": "קנאת פינחס, בנות צלפחד, ויהושע ממונה",
+  "p-matot": "נדרים, שבטי גד וראובן, ומסעות בני ישראל",
+  "p-devarim": "משה מזכיר לעם את מסעותיהם במדבר",
+  "p-vaetchanan": "תפילת משה, עשרת הדיברות ושמע ישראל",
+  "p-eikev": "ברכת המזון, ושכר שמירת המצוות",
+  "p-reeh": "הברכה והקללה, צדקה, והעלייה לרגל",
+  "p-shoftim": "שופטים, מלך ונביא, ויציאה למלחמה",
+  "p-ki-teitzei": "מצוות רבות: שילוח הקן, השבת אבדה, וזכירת עמלק",
+  "p-ki-tavo": "הבאת ביכורים, והברכות והקללות",
+  "p-nitzavim": "ברית בין ה' לעם, תשובה, ומשה נפרד",
+  "p-haazinu": "שירת משה",
+  "p-vezot-haberacha": "ברכת משה לשבטים, ופטירתו"
  }
 }
