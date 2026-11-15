@@ -50,7 +50,8 @@ export async function spriteUrl(prompt, ref = '') {
   if (!key || !p || !crypto.subtle) return null;
   const hash = await sha1hex(`sprite\n${ref}\n${p}`);
   const r = ref ? `&r=${ref}` : '';
-  return { hash, url: `${MEDIA_BASE}/sprite/${hash}.webp?k=${key}&p=${encodeURIComponent(p)}${r}` };
+  return { hash, // c = the cut-out version (bumped when the Pi cuts its sprites differently), so no device keeps an old one.
+  url: `${MEDIA_BASE}/sprite/${hash}.webp?c=2&k=${key}&p=${encodeURIComponent(p)}${r}` };
 }
 
 // A film line in a character's own voice (Gemini voice name + acting note),
