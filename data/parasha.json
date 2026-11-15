@@ -63,7 +63,6 @@
       "p-vaera",
       "p-vaera-v2",
       "p-bo",
-      "p-bo-v2",
       "p-beshalach",
       "p-beshalach-v2",
       "p-yitro",
@@ -77,8 +76,42 @@
       "p-ki-tisa",
       "p-vayakhel",
       "p-vayakhel-v2",
-      "p-pekudei",
-      "p-pekudei-v2"
+      "p-pekudei"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "vayikra",
+   "area": "torah",
+   "icon": "🕯️",
+   "color": "#7c3aed",
+   "title_he": "ספר ויקרא",
+   "about_he": "הקורבנות, הכהנים, הקדושה והמועדים",
+   "grades": [
+    1,
+    8
+   ],
+   "units": [
+    {
+     "id": "p-vayikra",
+     "title_he": "ספר ויקרא",
+     "about_he": "הקורבנות, הכהנים, הקדושה והמועדים",
+     "lessons": [
+      "p-vayikra",
+      "p-vayikra-v2",
+      "p-tzav",
+      "p-tzav-v2",
+      "p-shemini",
+      "p-shemini-v2",
+      "p-tazria",
+      "p-metzora",
+      "p-acharei-mot",
+      "p-kedoshim",
+      "p-emor",
+      "p-emor-v2",
+      "p-behar",
+      "p-bechukotai"
      ]
     }
    ]
@@ -103,7 +136,6 @@
   "p-vaera": "פרשת וארא",
   "p-vaera-v2": "סיפור לשבת: יהודי בסיביר",
   "p-bo": "פרשת בא",
-  "p-bo-v2": "סיפור לשבת: הכוס של אליהו",
   "p-beshalach": "פרשת בשלח",
   "p-beshalach-v2": "סיפור לשבת: ענני הכבוד",
   "p-yitro": "פרשת יתרו",
@@ -118,7 +150,20 @@
   "p-vayakhel": "פרשת ויקהל",
   "p-vayakhel-v2": "סיפור לשבת: הכוח של הביחד",
   "p-pekudei": "פרשת פקודי",
-  "p-pekudei-v2": "סיפור לשבת: ענווה"
+  "p-vayikra": "פרשת ויקרא",
+  "p-vayikra-v2": "סיפור לשבת: נס במלחמת המפרץ",
+  "p-tzav": "פרשת צו",
+  "p-tzav-v2": "סיפור לשבת: ליל הסדר של משה שואב המים",
+  "p-shemini": "פרשת שמיני",
+  "p-shemini-v2": "סיפור לשבת: הבעל שם טוב ומושל'ה",
+  "p-tazria": "פרשת תזריע",
+  "p-metzora": "פרשת מצורע",
+  "p-acharei-mot": "פרשת אחרי מות",
+  "p-kedoshim": "פרשת קדושים",
+  "p-emor": "פרשת אמור",
+  "p-emor-v2": "סיפור לשבת: הכוח של ברכה",
+  "p-behar": "פרשת בהר",
+  "p-bechukotai": "פרשת בחוקותי"
  },
  "weeks": [
   {
@@ -188,6 +233,46 @@
   {
    "shabbat": "2027-03-13",
    "lesson": "p-pekudei"
+  },
+  {
+   "shabbat": "2027-03-20",
+   "lesson": "p-vayikra"
+  },
+  {
+   "shabbat": "2027-03-27",
+   "lesson": "p-tzav"
+  },
+  {
+   "shabbat": "2027-04-03",
+   "lesson": "p-shemini"
+  },
+  {
+   "shabbat": "2027-04-10",
+   "lesson": "p-tazria"
+  },
+  {
+   "shabbat": "2027-04-17",
+   "lesson": "p-metzora"
+  },
+  {
+   "shabbat": "2027-05-01",
+   "lesson": "p-acharei-mot"
+  },
+  {
+   "shabbat": "2027-05-08",
+   "lesson": "p-kedoshim"
+  },
+  {
+   "shabbat": "2027-05-15",
+   "lesson": "p-emor"
+  },
+  {
+   "shabbat": "2027-05-22",
+   "lesson": "p-behar"
+  },
+  {
+   "shabbat": "2027-05-29",
+   "lesson": "p-bechukotai"
   }
  ],
  "about": {
@@ -207,6 +292,16 @@
   "p-tetzaveh": "שמן למאור, ובגדי הכהונה",
   "p-ki-tisa": "מחצית השקל, חטא העגל, והלוחות השניים",
   "p-vayakhel": "השבת, ונדבת העם למשכן",
-  "p-pekudei": "חשבון המשכן, והקמתו"
+  "p-pekudei": "חשבון המשכן, והקמתו",
+  "p-vayikra": "הקורבנות: עולה, מנחה ושלמים",
+  "p-tzav": "האש התמידה על המזבח, וחנוכת הכהנים",
+  "p-shemini": "היום השמיני למילואים, נדב ואביהוא, וכשרות",
+  "p-tazria": "נגעי צרעת, ולשון הרע",
+  "p-metzora": "טהרת המצורע, והזהירות בדיבור",
+  "p-acharei-mot": "עבודת יום הכיפורים, ו\"קדושים תהיו\"",
+  "p-kedoshim": "\"ואהבת לרעך כמוך\" ומצוות של קדושה",
+  "p-emor": "קדושת הכהנים, ומועדי ישראל",
+  "p-behar": "שמיטה ויובל, והברכה למי שהולך בדרך התורה",
+  "p-bechukotai": "\"אם בחוקותי תלכו\": ברכה למי ששומר את התורה"
  }
 }
