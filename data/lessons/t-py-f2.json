@@ -1,0 +1,170 @@
+{
+ "id": "t-py-f2",
+ "unit_id": "t-py-u3",
+ "course": "python",
+ "title_he": "תנאים מורכבים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "if, elif, else",
+   "body_he": [
+    "אפשר לבדוק כמה מקרים בזה אחר זה: if, ואם לא אז elif, ואם שום דבר לא התאים אז else.",
+    "פייתון עוצרת בתנאי הראשון שמתקיים, ומדלגת על כל השאר.",
+    "השוואה כותבים עם == (שווה), != (לא שווה), <, >, <=, >=."
+   ],
+   "say_he": "if, elif, else אפשר לבדוק כמה מקרים בזה אחר זה: if, ואם לא אז elif, ואם שום דבר לא התאים אז else. פייתון עוצרת בתנאי הראשון שמתקיים, ומדלגת על כל השאר. השוואה כותבים עם == (שווה), != (לא שווה), <, >, <=, >=.",
+   "id": "t-py-f2e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "B",
+   "options": [
+    "A",
+    "B",
+    "C",
+    "B ואז C"
+   ],
+   "explain_he": "85 לא גדול או שווה ל-90, אבל הוא גדול או שווה ל-80, אז מודפס B ופייתון מדלגת על else.",
+   "visual": "grade = 85\nif grade >= 90:\n    print(\"A\")\nelif grade >= 80:\n    print(\"B\")\nelse:\n    print(\"C\")",
+   "code": true,
+   "id": "t-py-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "pass",
+   "options": [
+    "pass",
+    "great",
+    "pass great",
+    "שום דבר"
+   ],
+   "explain_he": "התנאי הראשון כבר נכון (95 ≥ 50), ולכן פייתון לא בודקת את elif בכלל. הסדר חשוב!",
+   "hint_he": "פייתון עוצרת בתנאי הראשון שנכון",
+   "visual": "n = 95\nif n >= 50:\n    print(\"pass\")\nelif n >= 90:\n    print(\"great\")",
+   "code": true,
+   "id": "t-py-f2e3"
+  },
+  {
+   "type": "teach",
+   "title_he": "and, or, not",
+   "body_he": [
+    "and: נכון רק אם שני התנאים נכונים.",
+    "or: נכון אם לפחות אחד מהם נכון.",
+    "not: הופך נכון ללא נכון."
+   ],
+   "say_he": "and, or, not and: נכון רק אם שני התנאים נכונים. or: נכון אם לפחות אחד מהם נכון. not: הופך נכון ללא נכון.",
+   "id": "t-py-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "True",
+   "options": [
+    "True",
+    "False",
+    "13",
+    "שגיאה"
+   ],
+   "explain_he": "13 גדול מ-12 וגם קטן מ-18, אז שני התנאים נכונים: True.",
+   "visual": "age = 13\nprint(age > 12 and age < 18)",
+   "code": true,
+   "id": "t-py-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "True",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explain_he": "x לא גדול מ-10, אבל x זוגי. ב-or מספיק שאחד נכון: True.",
+   "visual": "x = 4\nprint(x > 10 or x % 2 == 0)",
+   "code": true,
+   "id": "t-py-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "False",
+   "options": [
+    "True",
+    "False",
+    "3"
+   ],
+   "explain_he": "3 == 3 נכון (True), ו-not הופך אותו ל-False.",
+   "visual": "print(not (3 == 3))",
+   "code": true,
+   "id": "t-py-f2e7"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "2",
+   "explain_he": "a שווה ל-b, אז a != b לא נכון. שניהם גדולים מ-5, אז מודפס 2.",
+   "visual": "a = 7\nb = 7\nif a != b:\n    print(1)\nelif a > 5 and b > 5:\n    print(2)\nelse:\n    print(3)",
+   "code": true,
+   "id": "t-py-f2e8"
+  },
+  {
+   "type": "buckets",
+   "prompt_he": "שנה מעוברת (בלי מקרי מאה): השנה מתחלקת ב-4. לאיזו קבוצה כל שנה שייכת?",
+   "buckets": [
+    {
+     "id": "yes",
+     "label": "year % 4 == 0 נכון"
+    },
+    {
+     "id": "no",
+     "label": "לא נכון"
+    }
+   ],
+   "items": [
+    {
+     "label": "2024",
+     "in": "yes"
+    },
+    {
+     "label": "2026",
+     "in": "no"
+    },
+    {
+     "label": "2028",
+     "in": "yes"
+    },
+    {
+     "label": "2031",
+     "in": "no"
+    },
+    {
+     "label": "2016",
+     "in": "yes"
+    },
+    {
+     "label": "2019",
+     "in": "no"
+    }
+   ],
+   "explain_he": "מספר מתחלק ב-4 כאשר שתי הספרות האחרונות שלו מתחלקות ב-4: 24, 28, 16 כן; 26, 31, 19 לא.",
+   "id": "t-py-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "warm",
+   "options": [
+    "hot",
+    "warm",
+    "nice",
+    "cold"
+   ],
+   "explain_he": "28 לא מעל 30, אבל מעל 20. בתוך ה-elif יש עוד תנאי: 28 > 25, אז מודפס warm.",
+   "hint_he": "עקבו אחרי ההזחה: תנאי בתוך תנאי",
+   "visual": "t = 28\nif t > 30:\n    print(\"hot\")\nelif t > 20:\n    if t > 25:\n        print(\"warm\")\n    else:\n        print(\"nice\")\nelse:\n    print(\"cold\")",
+   "code": true,
+   "id": "t-py-f2e10"
+  }
+ ]
+}

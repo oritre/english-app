@@ -62,7 +62,9 @@ export function insights(data, range, subject = 'all') {
   const answers = pick(data.attempts).filter((a) => a.outcome !== 'skipped');
   const results = pick(data.results);
 
-  const activeS = sessions.reduce((s, x) => s + (x.active_s || 0), 0);
+  // Replaying a lesson already mastered is kept apart: it isn't learning time for goals.
+  const repeatS = sessions.filter((x) => x.repeat === 'mastered').reduce((s, x) => s + (x.active_s || 0), 0);
+  const activeS = sessions.reduce((s, x) => s + (x.active_s || 0), 0) - repeatS;
   const openS = sessions.reduce((s, x) => s + (x.open_s || 0), 0);
   const quit = sessions.filter((x) => !x.finished && x.lesson_id !== 'talk' && (x.active_s || 0) >= 30).length;
 
@@ -90,7 +92,7 @@ export function insights(data, range, subject = 'all') {
   const lessonAcc = results.map((r) => r.accuracy).filter((x) => typeof x === 'number');
 
   const out = {
-    activeMin: activeS / 60, openMin: openS / 60,
+    activeMin: activeS / 60, repeatMin: repeatS / 60, openMin: openS / 60,
     focus: openS >= 60 ? activeS / openS : null,
     sittings: sessions.length, quit,
     answers: answers.length, items: items.length,
@@ -99,6 +101,7 @@ export function insights(data, range, subject = 'all') {
     guessShare: answers.length ? guesses / answers.length : null,
     newLessons: fresh.length, mastered: fresh.filter((r) => r.accuracy >= 80).length,
     repeats: results.length - fresh.length - practice.length, practice: practice.length,
+    masteredRepeats: results.filter((r) => r.repeat === 'mastered').length,
     lessonAccuracy: lessonAcc.length ? lessonAcc.reduce((s, x) => s + x, 0) / lessonAcc.length / 100 : null,
     days: new Set([...sessions, ...results].map((r) => r.date)).size,
   };

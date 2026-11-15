@@ -1,10 +1,34 @@
 import { mixed, el } from '../util.js';
 import { loadThink, loadKnow, loadParasha } from '../course.js';
 import { requiredLessons } from '../thinkLogic.js';
+import { WEAK, MASTERED } from '../learnRules.js';
+import { roundNow, isLocked } from '../rotation.js';
+import { roundCard } from './round.js';
+import { subjectOf } from '../insights.js';
 
 // Confetti for the lesson-complete screen: a handful of coloured bits that fall once (CSS does the motion).
 const confetti = (n = 24) => el('div', { class: 'confetti', 'aria-hidden': 'true' }, Array.from({ length: n }, (_, i) =>
   el('i', { style: `--l: ${Math.round((i / n) * 100 + Math.random() * 4)}%; --d: ${Math.round(Math.random() * 600)}ms; --h: ${Math.round(Math.random() * 360)}; --r: ${Math.round(Math.random() * 360)}deg` })));
+
+// The "what counted" card: XP, learning time and mastery for this round, each with its reason.
+function scoreCard(p) {
+  const rows = [];
+  const add = (tone, icon, text) => rows.push(el('li', { class: `score-row ${tone}` }, el('span', { class: 'score-icon', 'aria-hidden': 'true' }, icon), el('span', {}, text)));
+  if (p.repeat === 'mastered') add('neutral', '⭐', 'לא קיבלת XP: כבר שלטת בשיעור הזה, וחזרה עליו לא נותנת נקודות. נקודות מקבלים על שיעור חדש.');
+  else if (p.guessy) add('warn', '⭐', `קיבלת רק חצי XP (\u200E+${p.xp} במקום \u200E+${p.fullXp}), כי היו ${p.guesses} ניחושים.`);
+  else if (p.repeat && p.repeat !== 'new' && p.accuracy > p.prevBest) add('good', '📈', `שיפור! מ־${p.prevBest}% ל־${p.accuracy}%, ולכן קיבלת XP מלא.`);
+  else if (p.repeat && p.repeat !== 'new') add('neutral', '⭐', `חצי XP: חזרת על שיעור בלי לשפר את הציון (הכי טוב שלך: ${p.prevBest}%).`);
+  else if (p.xp != null) add('good', '⭐', `\u200E+${p.xp} XP על שיעור חדש.`);
+  if (p.repeat === 'mastered') add('neutral', '⏱️', 'הזמן הזה לא נספר כזמן למידה, כי זו חזרה על משהו שכבר יודעים.');
+  else if (p.activeMin >= 1) add('good', '⏱️', `${p.activeMin} דקות נספרו לך כזמן למידה.`);
+  if (p.guessy) add('warn', '🎲', 'בגלל הניחושים השיעור לא נחשב כידוע. כדאי לחזור עליו לאט, ואז הוא ייחשב.');
+  else if (p.guesses > 0) add('warn', '🎲', p.guesses === 1 ? 'היה ניחוש אחד. ניחוש לא מלמד, אז כדאי לקרוא כל שאלה עד הסוף.' : `היו ${p.guesses} ניחושים. ניחוש לא מלמד, אז כדאי לקרוא כל שאלה עד הסוף.`);
+  if (!p.guessy && p.repeat !== 'mastered') {
+    if (p.accuracy >= MASTERED) add('good', '✅', 'השיעור נחשב אצלך כשולט (90% ומעלה).');
+    else if (p.accuracy >= WEAK) add('neutral', '👍', `השיעור עבר (${p.accuracy}%). מ־90% ומעלה הוא נחשב שליטה.`);
+  }
+  return rows.length ? el('div', { class: 'score-card' }, el('div', { class: 'score-head' }, '📋 מה נחשב בשיעור הזה'), el('ul', { class: 'score-list' }, rows)) : null;
+}
 
 export async function renderComplete(root, nav, p) {
   const { leagueView, getProfile, updateProfile, doneLessonIds } = await import('../progress.js');
@@ -12,6 +36,16 @@ export async function renderComplete(root, nav, p) {
   const mins = Math.floor(p.durationS / 60);
   const secs = String(p.durationS % 60).padStart(2, '0');
   const streakUp = p.streakAfter > p.streakBefore;
+
+  // The round: if this lesson used up the subject's minutes, the way on is another subject.
+  let roundRow = null;
+  try {
+    const profile = await getProfile();
+    const round = await roundNow(profile);
+    if (isLocked(round, p.lessonId)) {
+      roundRow = roundCard(round, subjectOf(p.lessonId), async (id) => { const fresh = await getProfile(); fresh.subject = id; await updateProfile(fresh); nav('path'); });
+    }
+  } catch { roundRow = null; }
 
   // After a think lesson: straight on to the next lesson of the course, or to the catalog when the course is done.
   let nextRow = null;
@@ -52,10 +86,11 @@ export async function renderComplete(root, nav, p) {
     const a = (i / 8) * Math.PI * 2;
     return el('i', { style: `--dx: ${Math.round(Math.cos(a) * 90)}px; --dy: ${Math.round(Math.sin(a) * 70)}px; --d: ${i * 40}ms` }, '⭐');
   }));
+  // A replay of a mastered lesson goes straight to the summary: nothing to celebrate there.
   const beats = [
-    () => el('div', { class: 'screen complete beat' },
-      el('div', { class: 'beat-big' }, p.accuracy === 100 ? '🏆' : '🎉'),
-      el('h1', {}, p.accuracy === 100 ? 'שיעור מושלם!' : 'סיימתם את השיעור!'),
+    p.repeat === 'mastered' ? null : () => el('div', { class: 'screen complete beat' },
+      el('div', { class: 'beat-big' }, p.guessy ? '🤔' : p.accuracy === 100 ? '🏆' : '🎉'),
+      el('h1', {}, p.guessy ? 'סיימת, אבל היו ניחושים' : p.accuracy === 100 ? 'שיעור מושלם!' : 'סיימתם את השיעור!'),
       el('div', { class: 'xp-fly', dir: 'ltr' }, `+${p.xp} XP`, stars()),
       el('p', {}, ...mixed(p.lessonTitle))),
     streakUp ? () => el('div', { class: 'screen complete beat' },
@@ -87,11 +122,16 @@ export async function renderComplete(root, nav, p) {
     league.myRow ? el('button', { class: 'league-note', type: 'button', onclick: () => nav('league') },
       `${league.tier.icon} מקום ${league.myRow.rank} בליגת ${league.tier.name}`) : null,
     p.goalMetNow ? el('p', { class: 'goal-met' }, 'עמדתם ביעד היומי ✔') : null,
+    // What counted and what didn't, and why, so the kid understands the rules.
+    scoreCard(p),
+    !roundRow && p.accuracy < WEAK && !String(p.lessonId).startsWith('tp-') && !String(p.lessonId).startsWith('coach') ? el('div', { class: 'retry-row' },
+      el('p', {}, '↻ השיעור הזה מסומן במסלול "לחזק". כשחוזרים עליו ומשתפרים, מקבלים שוב XP.'),
+      el('button', { class: 'btn', type: 'button', onclick: () => nav('lesson', { lessonId: p.lessonId }) }, 'לנסות שוב עכשיו')) : null,
     // Think lessons: a recap of the ideas the lesson taught (the concept cards' titles).
     p.concepts?.length ? el('div', { class: 'recap' },
       el('div', { class: 'recap-head' }, '📚 מה למדנו'),
       el('ul', { class: 'recap-list' }, p.concepts.map((t) => el('li', {}, el('span', { class: 'recap-check' }, '✓'), ...mixed(t))))) : null,
-    nextRow,
-    el('button', { class: `btn ${nextRow ? '' : 'primary'} wide`, type: 'button', onclick: () => nav('path') }, nextRow ? 'חזרה למסלול' : 'המשך')));
+    roundRow || nextRow,
+    el('button', { class: `btn ${nextRow || roundRow ? '' : 'primary'} wide`, type: 'button', onclick: () => nav('path') }, nextRow ? 'חזרה למסלול' : 'המשך')));
   }
 }

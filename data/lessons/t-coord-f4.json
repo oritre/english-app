@@ -1,0 +1,93 @@
+{
+ "id": "t-coord-f4",
+ "unit_id": "t-coord-u2",
+ "course": "coordinates",
+ "title_he": "כלל, טבלה וגרף",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "כלל וטבלה",
+   "body_he": [
+    "הכלל y = 2x + 1: לכל x מחשבים y. כש-x = 3, y = 7.",
+    "מסמנים כל זוג (x, y) כנקודה, ומקבלים קו ישר."
+   ],
+   "say_he": "כלל וטבלה הכלל y = 2x + 1: לכל x מחשבים y. כש-x = 3, y = 7. מסמנים כל זוג (x, y) כנקודה, ומקבלים קו ישר.",
+   "id": "t-coord-f4e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "y = 2x + 1. מה y כש-x = 4?",
+   "answer": "9",
+   "explain_he": "2 × 4 + 1 = 9.",
+   "id": "t-coord-f4e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "⁦y = 3x − 2⁩. מה y כש-⁦x = −1⁩?",
+   "answer": "-5",
+   "explain_he": "3 × (−1) − 2 = −3 − 2 = −5.",
+   "negative": true,
+   "id": "t-coord-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו נקודה נמצאת על הקו y = x + 3?",
+   "answer": "(2, 5)",
+   "options": [
+    "(2, 5)",
+    "(5, 2)",
+    "(3, 0)",
+    "(1, 3)"
+   ],
+   "explain_he": "בודקים: 2 + 3 = 5. ✓",
+   "id": "t-coord-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הכלל? (1, 4), (2, 5), (3, 6)",
+   "answer": "y = x + 3",
+   "options": [
+    "y = x + 3",
+    "y = 4x",
+    "y = 3x + 1",
+    "y = x − 3"
+   ],
+   "explain_he": "כל y גדול ב-3 מה-x שלו.",
+   "id": "t-coord-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הכלל? (0, 1), (1, 3), (2, 5)",
+   "answer": "y = 2x + 1",
+   "options": [
+    "y = 2x + 1",
+    "y = x + 1",
+    "y = 3x",
+    "y = 2x"
+   ],
+   "explain_he": "כש-x עולה ב-1, y עולה ב-2, ובהתחלה (x = 0) y = 1.",
+   "id": "t-coord-f4e6"
+  },
+  {
+   "type": "number",
+   "prompt_he": "על הקו ⁦y = 5x − 10⁩, מה x כש-y = 0?",
+   "answer": "2",
+   "explain_he": "5x − 10 = 0, 5x = 10, x = 2.",
+   "id": "t-coord-f4e7"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מונית: 12 ₪ דמי פתיחה ועוד 3 ₪ לכל ק\"מ. כמה עולה נסיעה של 8 ק\"מ?",
+   "answer": "36",
+   "explain_he": "12 + 3 × 8 = 36 ₪.",
+   "id": "t-coord-f4e8"
+  },
+  {
+   "type": "number",
+   "prompt_he": "באותה מונית שילמו 45 ₪. כמה ק\"מ נסעו?",
+   "answer": "11",
+   "explain_he": "⁦45 − 12 = 33⁩, ו-33 : 3 = 11 ק\"מ.",
+   "id": "t-coord-f4e9"
+  }
+ ]
+}

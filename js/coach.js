@@ -23,3 +23,13 @@ export function coachLesson(profile, i = 0) {
 export const hasCoach = (profile) => coachModules(profile).some((m) => m.exercises?.length);
 
 export const lessonTitle = (titles, id) => titles[id] || (String(id).startsWith('coach') ? 'תרגול אישי' : id);
+
+// Which home tab a module belongs to: the review's `subject` tag, or 'think'
+// when every exercise in it is a think-track exercise (robot, fractions...),
+// else English. The weekly card shows each module only on its own tab.
+const THINK_ONLY = new Set(['number', 'balance', 'fraction', 'numberline', 'robot', 'buckets', 'angle', 'sim', 'plot', 'pyth', 'blitz']);
+export function moduleSubject(m) {
+  if (['english', 'think', 'know'].includes(m?.subject)) return m.subject;
+  const exs = (m?.exercises || []).filter((e) => e.type !== 'teach');
+  return exs.length && exs.every((e) => THINK_ONLY.has(e.type) || (e.type === 'mcq' && !/[A-Za-z]/.test(String(e.answer ?? '')))) ? 'think' : 'english';
+}

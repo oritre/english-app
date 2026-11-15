@@ -1,0 +1,111 @@
+{
+ "id": "t-neg-f5",
+ "unit_id": "t-neg-u2",
+ "course": "negatives",
+ "title_he": "משוואות עם שליליים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "פותרים כמו במאזניים",
+   "body_he": [
+    "עושים אותה פעולה בשני צדי המשוואה.",
+    "x + 8 = 3: מחסרים 8 משני הצדדים, ו-⁦x = −5⁩."
+   ],
+   "say_he": "פותרים כמו במאזניים עושים אותה פעולה בשני צדי המשוואה. x + 8 = 3: מחסרים 8 משני הצדדים, ו-x = −5.",
+   "id": "t-neg-f5e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "פתרו את המשוואה",
+   "answer": "-5",
+   "explain_he": "מחסרים ⁦8: x = 3 − 8 = −5⁩.",
+   "before": "x =",
+   "negative": true,
+   "visual": "x + 8 = 3",
+   "id": "t-neg-f5e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "פתרו את המשוואה",
+   "answer": "-6",
+   "explain_he": "מוסיפים ⁦4: x = −10 + 4 = −6⁩.",
+   "before": "x =",
+   "negative": true,
+   "visual": "x − 4 = −10",
+   "id": "t-neg-f5e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "פתרו את המשוואה",
+   "answer": "-7",
+   "explain_he": "מחלקים ב-⁦3: x = −7⁩.",
+   "before": "x =",
+   "negative": true,
+   "visual": "3x = −21",
+   "id": "t-neg-f5e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "פתרו את המשוואה",
+   "answer": "-7",
+   "explain_he": "מחלקים ב-⁦(−2): x = 14 : (−2) = −7⁩.",
+   "hint_he": "מחלקים במספר שלילי",
+   "before": "x =",
+   "negative": true,
+   "visual": "−2x = 14",
+   "id": "t-neg-f5e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "פתרו את המשוואה",
+   "answer": "-4",
+   "explain_he": "מחסרים ⁦9: 2x = −8⁩. מחלקים ב-⁦2: x = −4⁩.",
+   "before": "x =",
+   "negative": true,
+   "visual": "2x + 9 = 1",
+   "id": "t-neg-f5e6"
+  },
+  {
+   "type": "number",
+   "prompt_he": "פתרו את המשוואה",
+   "answer": "-7",
+   "explain_he": "מחסרים ⁦5: −x = 7⁩, אז ⁦x = −7⁩.",
+   "before": "x =",
+   "negative": true,
+   "visual": "−x + 5 = 12",
+   "id": "t-neg-f5e7"
+  },
+  {
+   "type": "number",
+   "prompt_he": "פתרו את המשוואה",
+   "answer": "-4",
+   "explain_he": "מחסרים ⁦2x: 3x − 3 = −15⁩. מוסיפים ⁦3: 3x = −12. x = −4⁩.",
+   "hint_he": "קודם אספו את ה-x לצד אחד",
+   "before": "x =",
+   "negative": true,
+   "visual": "5x − 3 = 2x − 15",
+   "id": "t-neg-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במעלית: התחלנו בקומה x, ירדנו 6 קומות, עלינו 2, והגענו לקומה ⁦−1⁩. מה x?",
+   "answer": "3",
+   "options": [
+    "3",
+    "−5",
+    "5",
+    "−3"
+   ],
+   "explain_he": "⁦x − 6 + 2 = −1⁩, כלומר ⁦x − 4 = −1⁩, אז x = 3. בדיקה: ⁦3 − 6 + 2 = −1⁩.",
+   "id": "t-neg-f5e9"
+  },
+  {
+   "type": "number",
+   "prompt_he": "סכום של שני מספרים הוא ⁦−10⁩. אחד מהם 7. מה השני?",
+   "answer": "-17",
+   "explain_he": "⁦7 + x = −10⁩, אז ⁦x = −10 − 7 = −17⁩.",
+   "negative": true,
+   "id": "t-neg-f5e10"
+  }
+ ]
+}

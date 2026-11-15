@@ -120,6 +120,7 @@ function kidCard(nav, p, data, today, range) {
   const flags = [
     x.guessShare >= 0.2 && x.answers >= 10 ? el('span', { class: 'flag warn' }, `🎲 ${pct(x.guessShare)} מהתשובות נראות כמו ניחוש`) : null,
     x.quit >= 2 ? el('span', { class: 'flag info' }, `🚪 ${x.quit} שיעורים נעזבו באמצע`) : null,
+    x.masteredRepeats >= 3 ? el('span', { class: 'flag warn' }, `🔁 ${x.masteredRepeats} חזרות על שיעורים שכבר ידע, בלי XP`) : null,
   ].filter(Boolean);
   return el('section', { class: `card kid-card${idle ? ' idle' : ''}` },
     el('div', { class: 'kid-head' },
@@ -129,7 +130,8 @@ function kidCard(nav, p, data, today, range) {
     idle ? el('p', { class: 'kid-idle muted' }, `עדיין אין פעילות ${PERIOD_WORD[period]}.`)
       : el('div', { class: 'kid-kpis' },
         el('div', { class: 'kk' }, el('span', { class: 'kk-v' }, mins(x.activeMin)), el('span', { class: 'kk-l' }, "דק' פעילות"),
-          x.openMin - x.activeMin >= 3 ? el('span', { class: 'kk-n' }, `+${mins(x.openMin - x.activeMin)} דק' מסך פתוח בלי פעילות`) : null),
+          x.repeatMin >= 1 ? el('span', { class: 'kk-n' }, `ועוד ${mins(x.repeatMin)} דק' חזרה על שיעורים שכבר ידע (לא נספר)`) : null,
+          x.openMin - x.activeMin - x.repeatMin >= 3 ? el('span', { class: 'kk-n' }, `+${mins(x.openMin - x.activeMin - x.repeatMin)} דק' מסך פתוח בלי פעילות`) : null),
         el('div', { class: 'kk' }, el('span', { class: 'kk-v' }, String(x.progress)), el('span', { class: 'kk-l' }, 'שיעורים'),
           x.mastered ? el('span', { class: 'kk-n' }, `${x.mastered} בשליטה (80%+)`) : null),
         el('div', { class: 'kk' }, el('span', { class: 'kk-v' }, pct(x.firstTry)), el('span', { class: 'kk-l' }, 'נכון בניסיון ראשון'),

@@ -10,10 +10,15 @@ import { speak, speakSequence, canSpeakLang, warmSpeech } from '../speech.js';
 import { spokenLines } from '../spoken.js';
 import { getSettings, setSetting, RATE_CHOICES } from '../settings.js';
 import { xpForLesson } from '../streak.js';
-import { saveLessonResult, logAttempt, getProfile } from '../progress.js';
+import { saveLessonResult, logAttempt, getProfile, lessonProgress, accuraciesIn, updateProfile } from '../progress.js';
+import { repeatKind, roundXp, autoLevel } from '../learnRules.js';
+import { nextAutoLevel } from '../thinkLogic.js';
 import { COACH_LESSON, coachLesson } from '../coach.js';
 import { THINK_TYPES, txt, setReadAloud, renderConcept } from '../exercises/think.js';
-import { startSession, markFinished } from '../activity.js';
+import { startSession, markFinished, endSession } from '../activity.js';
+import { roundNow, isLocked } from '../rotation.js';
+import { isGuess } from '../insights.js';
+import { guessyRound, GUESS_STOP } from '../learnRules.js';
 
 // Runs one lesson: every exercise once, wrong ones re-queued at the end until
 // answered right. Progress bar counts first-time-right plus fixed mistakes.
@@ -23,8 +28,14 @@ const answerIsHebrew = (ex) => ex.type === 'translate_en_he' || (ex.type === 'li
 export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   const profile = await getProfile();
   if (profile?.asr && getSettings().asr !== profile.asr) setSetting('asr', profile.asr);
+  // A subject that used its minutes in today's round opens again once the others had theirs.
+  if (isLocked(await roundNow(profile).catch(() => null), lessonId === COACH_LESSON ? 'coach' : lessonId)) { nav('path'); return; }
   const lesson = lessonId === COACH_LESSON ? coachLesson(profile, module) : await loadLesson(lessonId);
   if (lessonId === COACH_LESSON) lessonId = lesson.id;
+  // A lesson done before: a mastered one is only a repeat (no XP, not learning
+  // time), a weak one is worth redoing. See learnRules.js.
+  const prev = await lessonProgress(lessonId).catch(() => null);
+  const repeat = repeatKind(lessonId, prev);
   const exercises = withoutTyping(forGrade(lesson.exercises, profile?.grade), profile).filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
   // Young readers (grades 1-2) hear every question unless turned off in settings.
@@ -38,7 +49,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   let solved = 0;
   const started = Date.now();
   // Active time in this lesson, saved even if it is left halfway (see activity.js).
-  const session = startSession(lessonId);
+  const session = startSession(lessonId, { repeat });
 
   const bar = el('div', { class: 'progress-fill' });
   const quit = el('button', { class: 'icon-btn', type: 'button', 'aria-label': 'יציאה' }, '✕');
@@ -67,6 +78,9 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   const progress = el('div', { class: `progress ${lesson.course ? 'stepped' : ''}` }, bar);
   const screen = el('div', { class: `screen lesson ${lesson.course ? 'think-lesson' : ''}` },
     el('div', { class: 'lesson-top' }, quit, progress, speedBtn, homeBtn),
+    repeat === 'mastered' ? el('div', { class: 'repeat-note', role: 'note' },
+      el('span', { class: 'repeat-note-icon', 'aria-hidden': 'true' }, '🔁'),
+      el('span', {}, `כבר קיבלת ${prev.best_accuracy}% בשיעור הזה. חזרה עליו לא נותנת XP, ושיעור חדש כן.`)) : null,
     speedRow, body, footer, quitDialog);
   root.replaceChildren(screen);
   // A think lesson borrows its course's colour for the manipulatives and the progress bar, and its icon for the concept cards.
@@ -94,6 +108,28 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   const setProgress = () => { bar.style.width = `${Math.round((solved / total) * 100)}%`; progress.style.setProperty('--steps', total); };
   // Right answers in a row (first try), shown as a small "3 ברצף" chip on the think track.
   let combo = 0;
+  // Guessing: a wrong answer too fast to have been read, or 3+ choices tried.
+  // After GUESS_STOP guesses the lesson stops for a moment, shows the
+  // explanation again, and from then on every question waits a few seconds
+  // before it can be answered. A round full of guesses isn't counted as known.
+  let guesses = 0;
+  let slow = false;
+  const teachCard = exercises.find((e) => e.type === 'teach');
+  const SLOW = { type: '__slow' };
+  // The kid sees it too: a guessed answer says so on its feedback sheet.
+  let justGuessed = false;
+  const guessFlag = () => (justGuessed ? el('div', { class: 'guess-flag', role: 'note' },
+    '🎲 ', guesses >= GUESS_STOP ? 'עוד ניחוש. ' : '', 'ענית מהר מדי, וזה נראה כמו ניחוש. ניחוש לא נותן נקודות ולא נחשב. קרא את השאלה עד הסוף ותחשוב.') : null);
+  const noteGuess = (ex, outcome, ms) => {
+    if (!isGuess({ type: ex.type, outcome, ms, taps })) return;
+    justGuessed = true;
+    guesses++;
+    if (guesses === GUESS_STOP && !slow) {
+      slow = true;
+      if (teachCard) { queue.unshift({ ...teachCard, id: `${teachCard.id}-again` }); total++; }
+      queue.unshift(SLOW);
+    }
+  };
 
   function next() {
     setProgress();
@@ -105,7 +141,20 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       return finishLesson();
     }
     const ex = queue.shift();
+    justGuessed = false;
     body.replaceChildren();
+    if (ex === SLOW) {
+      body.append(el('div', { class: 'slow-card' },
+        el('div', { class: 'slow-card-icon', 'aria-hidden': 'true' }, '🤔'),
+        el('h2', {}, 'רגע, עוצרים לשנייה'),
+        el('p', {}, 'נראה שהתשובות האחרונות היו ניחוש. ניחוש לא מלמד, וגם לא נותן נקודות.'),
+        el('p', {}, teachCard ? 'נקרא שוב את ההסבר, ואז כל שאלה תחכה כמה שניות כדי שיהיה זמן לקרוא ולחשוב.' : 'מעכשיו כל שאלה תחכה כמה שניות כדי שיהיה זמן לקרוא ולחשוב.')));
+      footer.replaceChildren(checkBtn);
+      checkBtn.textContent = 'הבנתי, לאט ובזהירות';
+      checkBtn.disabled = false;
+      checkBtn.onclick = () => next();
+      return;
+    }
     checkBtn.textContent = 'בדיקה';
     checkBtn.disabled = true;
     let handled = false;
@@ -114,7 +163,12 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     shownCount++;
     taps = [];
     tapStart = shownAt;
-    const log = (outcome, given) => logAttempt({
+    let firstLogged = false;
+    const log = (outcome, given) => {
+      if (!firstLogged && outcome !== 'skipped') { firstLogged = true; noteGuess(ex, outcome, Date.now() - shownAt); }
+      return logRaw(outcome, given);
+    };
+    const logRaw = (outcome, given) => logAttempt({
       lessonId, exercise: ex, outcome, ms: Date.now() - shownAt,
       given: given == null ? null : String(given), expected: ex.answer ?? null,
       taps: taps.slice(), pos: shownCount, lessonSec: Math.round((shownAt - started) / 1000), sid: session?.rec.id,
@@ -127,6 +181,8 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       gloss: (text) => glossify(text, lesson.new_words),
       track: (k, v) => record(k, v),
       voiceTyping,
+      // A video seen before can be skimmed; on a first viewing it has to really play.
+      seen: repeat !== 'new',
       learnerId: profile?.id,
       setReady: (ok) => { checkBtn.disabled = !ok; },
       finish: (clean) => {
@@ -144,6 +200,12 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
         next();
       },
     });
+
+    // Slow mode: the question can't be answered in its first seconds.
+    if (slow && !api.info) {
+      body.classList.add('hold');
+      setTimeout(() => body.classList.remove('hold'), 3000);
+    }
 
     // Explanation cards: nothing to check, just move on.
     // A cartoon (story / video) holds the button until it has played to the end.
@@ -205,7 +267,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       el('div', { class: 'feedback-explain' }, ex.hint_he ? ['💡 ', ...mixed(ex.hint_he)] : 'אפשר לנסות שוב, או לראות את הפתרון.'));
     const tryBtn = el('button', { class: 'btn primary wide', type: 'button', onclick: again }, '🔁 נסו שוב');
     const showBtn = el('button', { class: 'btn wide', type: 'button', onclick: reveal }, '👀 הראו לי');
-    footer.replaceChildren(sheet, el('div', { class: 'retry-row' }, tryBtn, showBtn));
+    footer.replaceChildren(...[guessFlag(), sheet, el('div', { class: 'retry-row' }, tryBtn, showBtn)].filter(Boolean));
     footer.className = 'lesson-footer bad';
   }
 
@@ -273,7 +335,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
         : think && ex.explain_he ? why(ex.explain_he)
         : ex.explain_he && result !== 'correct' ? el('div', { class: 'feedback-explain grammar' }, '📘 ', ...mixed(ex.explain_he), readBtn(ex.explain_he))
           : ex.explain_he ? el('div', { class: 'feedback-explain' }, ...mixed(ex.explain_he), readBtn(ex.explain_he)) : null);
-    footer.replaceChildren(sheet, checkBtn);
+    footer.replaceChildren(...[guessFlag(), sheet, checkBtn].filter(Boolean));
     footer.className = `lesson-footer ${ok ? 'good' : 'bad'}`;
     checkBtn.disabled = false;
     checkBtn.textContent = 'המשך';
@@ -283,12 +345,31 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   async function finishLesson() {
     const durationS = Math.round((Date.now() - started) / 1000);
     const accuracy = Math.round(((total - mistakes.size) / total) * 100);
-    const xp = xpForLesson({ mistakes: mistakes.size, total });
+    const prevBest = Number(prev?.best_accuracy) || 0;
+    const guessy = guessyRound(guesses, total);
+    const fullXp = roundXp(repeat, xpForLesson({ mistakes: mistakes.size, total }), accuracy, prevBest);
+    const xp = guessy ? Math.floor(fullXp / 2) : fullXp;
+    const activeMin = session ? Math.round(session.activeMs / 60000) : null;
     markFinished();
-    const streakInfo = await saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes: [...mistakes] });
+    endSession(); // saves the lesson's time now, so the round sees it on the next screen
+    const streakInfo = await saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes: [...mistakes], repeat, guessy });
+    await updateThinkLevel(lesson, lessonId).catch(() => {});
     // The concept cards' titles make the "what we learned" recap on the complete screen.
     const concepts = lesson.course ? exercises.filter((ex) => ex.type === 'teach' && ex.title_he).map((ex) => ex.title_he) : [];
-    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null, concepts });
+    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null, concepts, repeat, prevBest, guessy, guesses, activeMin, fullXp });
+  }
+
+  // Think courses: three strong rounds in a row raise the course's level, three weak ones lower it.
+  async function updateThinkLevel(l, id) {
+    const think = await loadThink();
+    const course = (think.courses || []).find((c) => c.id === l.course || `tp-${c.id}` === id);
+    if (!course || !profile) return;
+    const accs = await accuraciesIn([...course.units.flatMap((u) => u.lessons), `tp-${course.id}`]);
+    const fresh = await getProfile();
+    const entry = nextAutoLevel(course, fresh, accs, autoLevel);
+    if (!entry) return;
+    fresh.think_auto = { ...(fresh.think_auto || {}), [course.id]: entry };
+    await updateProfile(fresh);
   }
 
   next();

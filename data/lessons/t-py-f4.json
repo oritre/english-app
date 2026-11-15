@@ -1,0 +1,121 @@
+{
+ "id": "t-py-f4",
+ "unit_id": "t-py-u4",
+ "course": "python",
+ "title_he": "range ו-while",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "range עם שלושה מספרים",
+   "body_he": [
+    "range(start, stop, step): מתחילים ב-start, מתקדמים בקפיצות step, ועוצרים לפני stop.",
+    "range(2, 11, 3) נותן 2, 5, 8.",
+    "לולאת while חוזרת כל עוד התנאי נכון. חשוב שמשהו ישתנה בתוכה, אחרת היא לא תיגמר!"
+   ],
+   "say_he": "range עם שלושה מספרים range(start, stop, step): מתחילים ב-start, מתקדמים בקפיצות step, ועוצרים לפני stop. range(2, 11, 3) נותן 2, 5, 8. לולאת while חוזרת כל עוד התנאי נכון. חשוב שמשהו ישתנה בתוכה, אחרת היא לא תיגמר!",
+   "id": "t-py-f4e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "2 5 8",
+   "options": [
+    "2 5 8",
+    "2 5 8 11",
+    "2 3 4 5 6 7 8 9 10",
+    "3 6 9"
+   ],
+   "explain_he": "מתחילים ב-2 וקופצים ב-3: 2, 5, 8. הבא היה 11, אבל stop לא נכלל. end=\" \" מדפיס רווח במקום שורה חדשה.",
+   "visual": "for i in range(2, 11, 3):\n    print(i, end=\" \")",
+   "code": true,
+   "id": "t-py-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "10 8 6 4 2",
+   "options": [
+    "10 8 6 4 2",
+    "10 8 6 4 2 0",
+    "0 2 4 6 8 10",
+    "8 6 4 2 0"
+   ],
+   "explain_he": "צעד שלילי סופר אחורה: 10, 8, 6, 4, 2. את 0 לא מגיעים כי stop לא נכלל.",
+   "visual": "for i in range(10, 0, -2):\n    print(i, end=\" \")",
+   "code": true,
+   "id": "t-py-f4e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה פעמים תרוץ הלולאה?",
+   "answer": "9",
+   "explain_he": "המספרים הם 5, 10, 15, ..., 45: תשעה מספרים. 50 לא נכלל.",
+   "hint_he": "רשמו את המספרים עד שמגיעים ל-50",
+   "visual": "for i in range(5, 50, 5):\n    print(i)",
+   "code": true,
+   "id": "t-py-f4e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "55",
+   "explain_he": "סכום 1 עד 10: 1+2+...+10 = 55. טריק: 10 זוגות שכל אחד מסתכם ל-11, חלקי 2.",
+   "visual": "total = 0\nfor i in range(1, 11):\n    total += i\nprint(total)",
+   "code": true,
+   "id": "t-py-f4e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "243",
+   "explain_he": "n עובר: 1, 3, 9, 27, 81, 243. כש-n = 243 התנאי n < 100 כבר לא נכון, והלולאה נעצרת.",
+   "hint_he": "רשמו את n אחרי כל סיבוב",
+   "visual": "n = 1\nwhile n < 100:\n    n = n * 3\nprint(n)",
+   "code": true,
+   "id": "t-py-f4e6"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה פעמים רצה הלולאה?",
+   "answer": "5",
+   "explain_he": "x עובר: 50, 25, 12, 6, 3, 1. חמש חלוקות עד שמגיעים ל-1.",
+   "visual": "x = 50\ncount = 0\nwhile x > 1:\n    x = x // 2\n    count += 1\nprint(count)",
+   "code": true,
+   "id": "t-py-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבעיה בקוד הזה?",
+   "answer": "הלולאה לא תיגמר לעולם",
+   "options": [
+    "הלולאה לא תיגמר לעולם",
+    "יודפס 0 פעם אחת",
+    "יש שגיאת כתיב",
+    "אין בעיה"
+   ],
+   "explain_he": "n לא משתנה בתוך הלולאה, אז n < 5 נשאר נכון תמיד: לולאה אינסופית. צריך להוסיף n += 1.",
+   "visual": "n = 0\nwhile n < 5:\n    print(n)",
+   "code": true,
+   "id": "t-py-f4e8"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "7",
+   "explain_he": "break עוצר את הלולאה מיד. המספר הראשון שמתחלק ב-7 הוא 7, הוא מודפס והלולאה נעצרת.",
+   "visual": "for i in range(1, 20):\n    if i % 7 == 0:\n        print(i)\n        break",
+   "code": true,
+   "id": "t-py-f4e9"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "16",
+   "explain_he": "continue מדלג לסיבוב הבא. מדלגים על הזוגיים, ומחברים רק אי-זוגיים: 1 + 3 + 5 + 7 = 16.",
+   "hint_he": "continue פירושו: דלג על שאר הסיבוב",
+   "visual": "s = 0\nfor i in range(1, 8):\n    if i % 2 == 0:\n        continue\n    s += i\nprint(s)",
+   "code": true,
+   "id": "t-py-f4e10"
+  }
+ ]
+}

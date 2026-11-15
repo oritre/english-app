@@ -1,0 +1,140 @@
+{
+ "id": "t-gates-f4",
+ "unit_id": "t-gates-u4",
+ "course": "gates",
+ "title_he": "ביטויים בוליאניים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מעגל כמו תרגיל",
+   "body_he": [
+    "אפשר לכתוב מעגל כמו תרגיל חשבון: (A AND B) OR C.",
+    "פותרים קודם את מה שבסוגריים, ואז ממשיכים החוצה."
+   ],
+   "say_he": "מעגל כמו תרגיל אפשר לכתוב מעגל כמו תרגיל חשבון: (A AND B) OR C. פותרים קודם את מה שבסוגריים, ואז ממשיכים החוצה.",
+   "id": "t-gates-f4e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "A = 1, B = 0, C = 1. מה יוצא?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "A AND B = 0. ואז 0 OR 1 = 1.",
+   "hint_he": "קודם הסוגריים",
+   "visual": "(A AND B) OR C",
+   "keep_order": true,
+   "id": "t-gates-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "A = 1, B = 1, C = 0. מה יוצא?",
+   "answer": "0",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "A AND B = 1, NOT הופך ל-0, ו-0 OR 0 = 0.",
+   "hint_he": "קודם הסוגריים, ואז NOT",
+   "visual": "NOT(A AND B) OR C",
+   "keep_order": true,
+   "id": "t-gates-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "A = 0, B = 1. מה יוצא?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "A OR B = 1, NOT A = 1, ו-1 AND 1 = 1.",
+   "hint_he": "חשבו כל סוגריים לבד",
+   "visual": "(A OR B) AND (NOT A)",
+   "keep_order": true,
+   "id": "t-gates-f4e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "בכמה מתוך 8 השורות יוצא 1?",
+   "answer": "5",
+   "explain_he": "כש-C = 1 תמיד יוצא 1: 4 שורות. כש-C = 0 צריך A = B = 1: עוד שורה. ביחד 5.",
+   "hint_he": "חלקו לפי C",
+   "visual": "(A AND B) OR C",
+   "id": "t-gates-f4e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "ובביטוי הזה?",
+   "answer": "3",
+   "explain_he": "צריך A = 1, ואז B או C: 101, 110, 111.",
+   "hint_he": "A חייב להיות 1",
+   "visual": "A AND (B OR C)",
+   "id": "t-gates-f4e6"
+  },
+  {
+   "type": "teach",
+   "title_he": "כללי דה-מורגן",
+   "body_he": [
+    "NOT(A AND B) שווה ל-(NOT A) OR (NOT B).",
+    "NOT(A OR B) שווה ל-(NOT A) AND (NOT B)."
+   ],
+   "say_he": "כללי דה-מורגן NOT(A AND B) שווה ל-(NOT A) OR (NOT B). NOT(A OR B) שווה ל-(NOT A) AND (NOT B).",
+   "id": "t-gates-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שווה NOT(A OR B)?",
+   "answer": "(NOT A) AND (NOT B)",
+   "options": [
+    "(NOT A) AND (NOT B)",
+    "(NOT A) OR (NOT B)",
+    "A AND B"
+   ],
+   "explain_he": "\"לא נכון שאחד מהם 1\" פירושו ששניהם 0.",
+   "hint_he": "\"לא אחד מהם\" פירושו \"אף אחד\"",
+   "id": "t-gates-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "אזעקה מצלצלת אם הדלת פתוחה (D) או החלון פתוח (W), אבל רק כשהמערכת מופעלת (M). איזה ביטוי?",
+   "answer": "(D OR W) AND M",
+   "options": [
+    "(D OR W) AND M",
+    "D OR (W AND M)",
+    "D AND W AND M"
+   ],
+   "explain_he": "די באחד הפתחים, ובתנאי שהמערכת פועלת.",
+   "hint_he": "קודם הדלת או החלון, ואז המערכת",
+   "id": "t-gates-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "A OR (NOT A) = ?",
+   "answer": "תמיד 1",
+   "options": [
+    "תמיד 1",
+    "תמיד 0",
+    "תלוי ב-A"
+   ],
+   "explain_he": "אחד מהם תמיד 1, אז OR תמיד נותן 1.",
+   "hint_he": "נסו A = 0 ו-A = 1",
+   "id": "t-gates-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "A AND (NOT A) = ?",
+   "answer": "תמיד 0",
+   "options": [
+    "תמיד 1",
+    "תמיד 0",
+    "תלוי ב-A"
+   ],
+   "explain_he": "אחד מהם תמיד 0, אז AND תמיד נותן 0.",
+   "hint_he": "נסו A = 0 ו-A = 1",
+   "id": "t-gates-f4e11"
+  }
+ ]
+}

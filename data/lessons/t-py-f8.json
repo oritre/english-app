@@ -1,0 +1,106 @@
+{
+ "id": "t-py-f8",
+ "unit_id": "t-py-u5",
+ "course": "python",
+ "title_he": "אלגוריתמים קטנים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מבעיה לקוד",
+   "body_he": [
+    "אלגוריתם טוב מתחיל במחשבה: מה אני שומר בכל שלב, ומה משתנה בכל סיבוב?",
+    "עקבו אחרי הקוד כמו המחשב: רשמו טבלה עם ערכי המשתנים אחרי כל סיבוב."
+   ],
+   "say_he": "מבעיה לקוד אלגוריתם טוב מתחיל במחשבה: מה אני שומר בכל שלב, ומה משתנה בכל סיבוב? עקבו אחרי הקוד כמו המחשב: רשמו טבלה עם ערכי המשתנים אחרי כל סיבוב.",
+   "id": "t-py-f8e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "סכום הספרות: מה יודפס?",
+   "answer": "18",
+   "explain_he": "n % 10 נותן את הספרה האחרונה, ו-n // 10 מוחק אותה. מחברים 5 + 2 + 7 + 4 = 18.",
+   "hint_he": "מה נותן n % 10?",
+   "visual": "n = 4725\ns = 0\nwhile n > 0:\n    s += n % 10\n    n = n // 10\nprint(s)",
+   "code": true,
+   "id": "t-py-f8e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "5274",
+   "explain_he": "בכל סיבוב לוקחים את הספרה האחרונה ומוסיפים אותה מימין ל-r: 5, 52, 527, 5274. התוכנית הופכת את המספר.",
+   "visual": "n = 4725\nr = 0\nwhile n > 0:\n    r = r * 10 + n % 10\n    n = n // 10\nprint(r)",
+   "code": true,
+   "id": "t-py-f8e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "8",
+   "explain_he": "הפונקציה בודקת אם יש מחלק בין 2 ל-n-1. הראשוניים עד 19: 2, 3, 5, 7, 11, 13, 17, 19, שמונה מספרים.",
+   "hint_he": "רשמו את הראשוניים הקטנים מ-20",
+   "visual": "def is_prime(n):\n    if n < 2:\n        return False\n    for d in range(2, n):\n        if n % d == 0:\n            return False\n    return True\n\ncount = 0\nfor k in range(1, 20):\n    if is_prime(k):\n        count += 1\nprint(count)",
+   "code": true,
+   "id": "t-py-f8e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "13",
+   "explain_he": "זו סדרת פיבונאצ׳י: כל מספר הוא סכום שני הקודמים. a עובר: 1, 1, 2, 3, 5, 8, 13.",
+   "hint_he": "a, b = b, a + b מחליף את שניהם בבת אחת",
+   "visual": "a, b = 0, 1\nfor i in range(7):\n    a, b = b, a + b\nprint(a)",
+   "code": true,
+   "id": "t-py-f8e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "3",
+   "explain_he": "הלולאה לא נעצרת כשמוצאים 7, אז pos מתעדכן בכל פעם: קודם 1, אחר כך 3. מודפס המקום האחרון של 7.",
+   "hint_he": "האם יש break?",
+   "visual": "nums = [3, 7, 2, 7, 5]\npos = -1\nfor i in range(len(nums)):\n    if nums[i] == 7:\n        pos = i\nprint(pos)",
+   "code": true,
+   "id": "t-py-f8e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "[1, 3, 6, 10]",
+   "options": [
+    "[1, 3, 6, 10]",
+    "[1, 3, 5, 7]",
+    "[3, 5, 7, 4]",
+    "[1, 2, 3, 4]"
+   ],
+   "explain_he": "כל איבר מקבל את עצמו ועוד האיבר הקודם (שכבר עודכן): 1, 1+2 = 3, 3+3 = 6, 6+4 = 10. אלה סכומים מצטברים.",
+   "visual": "nums = [1, 2, 3, 4]\nfor i in range(1, len(nums)):\n    nums[i] = nums[i] + nums[i - 1]\nprint(nums)",
+   "code": true,
+   "id": "t-py-f8e7"
+  },
+  {
+   "type": "order",
+   "prompt_he": "סדרו את השורות לפונקציה שמחזירה את סכום המספרים הזוגיים ברשימה",
+   "items": [
+    "def even_sum(nums):",
+    "    s = 0",
+    "    for n in nums:",
+    "        if n % 2 == 0:",
+    "            s += n",
+    "    return s"
+   ],
+   "explain_he": "קודם מגדירים, מאפסים את הסכום, עוברים על הרשימה, בודקים זוגיות, מוסיפים, ורק בסוף (מחוץ ללולאה) מחזירים.",
+   "id": "t-py-f8e8"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "6",
+   "explain_he": "זה האלגוריתם של אוקלידס למציאת מחלק משותף גדול: (48, 18) → (18, 12) → (12, 6) → (6, 0). התשובה 6.",
+   "hint_he": "רשמו את a ו-b אחרי כל סיבוב",
+   "visual": "a = 48\nb = 18\nwhile b != 0:\n    a, b = b, a % b\nprint(a)",
+   "code": true,
+   "id": "t-py-f8e9"
+  }
+ ]
+}

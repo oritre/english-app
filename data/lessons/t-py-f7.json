@@ -1,0 +1,114 @@
+{
+ "id": "t-py-f7",
+ "unit_id": "t-py-u5",
+ "course": "python",
+ "title_he": "מילונים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מילון: מפתח וערך",
+   "body_he": [
+    "מילון שומר זוגות: מפתח וערך. prices = {\"apple\": 3, \"bread\": 8}.",
+    "prices[\"bread\"] מחזיר 8. כך מוצאים ערך לפי שם, במקום לפי מקום.",
+    "אפשר להוסיף או לשנות: prices[\"milk\"] = 6. ו-\"apple\" in prices בודק אם המפתח קיים."
+   ],
+   "say_he": "מילון: מפתח וערך מילון שומר זוגות: מפתח וערך. prices = {\"apple\": 3, \"bread\": 8}. prices[\"bread\"] מחזיר 8. כך מוצאים ערך לפי שם, במקום לפי מקום. אפשר להוסיף או לשנות: prices[\"milk\"] = 6. ו-\"apple\" in prices בודק אם המפתח קיים.",
+   "id": "t-py-f7e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "8",
+   "explain_he": "המפתח \"bread\" מוביל לערך 8.",
+   "visual": "prices = {\"apple\": 3, \"bread\": 8, \"milk\": 6}\nprint(prices[\"bread\"])",
+   "code": true,
+   "id": "t-py-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "3 4",
+   "options": [
+    "3 4",
+    "4 4",
+    "3 3",
+    "4 3"
+   ],
+   "explain_he": "milk הוא מפתח חדש, אז יש 3 מפתחות. apple כבר קיים, אז הערך שלו מתעדכן ל-4.",
+   "visual": "prices = {\"apple\": 3, \"bread\": 8}\nprices[\"milk\"] = 6\nprices[\"apple\"] = 4\nprint(len(prices), prices[\"apple\"])",
+   "code": true,
+   "id": "t-py-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "False",
+   "options": [
+    "True",
+    "False",
+    "שגיאה",
+    "None"
+   ],
+   "explain_he": "אין מפתח בשם Noa במילון.",
+   "visual": "ages = {\"Dan\": 12, \"Yael\": 14}\nprint(\"Noa\" in ages)",
+   "code": true,
+   "id": "t-py-f7e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "17",
+   "explain_he": "לולאה על מילון עוברת על המפתחות. מחברים את הערכים: 3 + 8 + 6 = 17.",
+   "visual": "cart = {\"apple\": 3, \"bread\": 8, \"milk\": 6}\ntotal = 0\nfor item in cart:\n    total += cart[item]\nprint(total)",
+   "code": true,
+   "id": "t-py-f7e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "2",
+   "explain_he": "זה אלגוריתם ספירה קלאסי. get(ch, 0) מחזיר 0 אם האות עוד לא במילון. האות l מופיעה פעמיים.",
+   "hint_he": "get מחזיר ערך ברירת מחדל אם המפתח חסר",
+   "visual": "word = \"hello\"\ncount = {}\nfor ch in word:\n    count[ch] = count.get(ch, 0) + 1\nprint(count[\"l\"])",
+   "code": true,
+   "id": "t-py-f7e6"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "9",
+   "explain_he": "5 - 2 = 3, ואז 3 * 3 = 9.",
+   "visual": "stock = {\"pens\": 5}\nstock[\"pens\"] -= 2\nstock[\"pens\"] *= 3\nprint(stock[\"pens\"])",
+   "code": true,
+   "id": "t-py-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי קיבל את הציון הגבוה?",
+   "answer": "Shira",
+   "options": [
+    "Shira",
+    "Avi",
+    "Eli",
+    "93"
+   ],
+   "explain_he": "best מתחיל ריק ומקבל Avi. אחר כך 93 > 81, אז Shira. 88 לא גדול מ-93, אז נשארת Shira.",
+   "visual": "grades = {\"Avi\": 81, \"Shira\": 93, \"Eli\": 88}\nbest = \"\"\nfor name in grades:\n    if best == \"\" or grades[name] > grades[best]:\n        best = name\nprint(best)",
+   "code": true,
+   "id": "t-py-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה מבנה כדאי לשמור טלפון של כל חבר לפי השם שלו?",
+   "answer": "מילון",
+   "options": [
+    "מילון",
+    "רשימה של מספרים",
+    "מחרוזת אחת",
+    "משתנה אחד"
+   ],
+   "explain_he": "מילון מתאים בדיוק: המפתח הוא השם והערך הוא הטלפון, וכך מוצאים מספר לפי שם.",
+   "id": "t-py-f7e9"
+  }
+ ]
+}
