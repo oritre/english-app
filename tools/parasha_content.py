@@ -25,6 +25,8 @@ Run: python3 tools/parasha_content.py
 import json
 import os
 
+from parasha_videos import VIDEOS
+
 ROOT = os.path.join(os.path.dirname(__file__), '..', 'data')
 
 STYLE = ('Painterly storybook illustration for a Jewish children\'s Torah film: warm gouache and soft watercolor '
@@ -64,6 +66,8 @@ FRAME_EDITS = {
                         'earnestly. The mouth stays closed, the feet stay where they are.'),
     'gesture_talk': ('gesture', 'the mouth is open, as in the middle of speaking a word.'),
 }
+# A frame edit that lost something of one character's own (Yaakov's staff vanished from his first talk frame).
+FRAME_KEEP = {('yaakov', 'talk'): ' He still holds his wooden staff upright in his far hand, exactly as before.'}
 VOICES = {
     # who: (name_he, subtitle color, Gemini voice, style, figure height (share of the stage), pose for the base frame)
     'yaakov': ('יעקב', '#f0c27a', 'Iapetus', 'A gentle, sincere and thoughtful man in his prime, speaking Hebrew with '
@@ -89,7 +93,7 @@ def cast_for(who):
     base = f"{SPRITE_STYLE} {CAST[who]} Pose: {pose}"
     frames = {'base': {'p': base}}
     for frame, (ref, change) in FRAME_EDITS.items():
-        frames[frame] = {'p': SPRITE_EDIT + change, 'ref': ref}
+        frames[frame] = {'p': SPRITE_EDIT + change + FRAME_KEEP.get((who, frame), ''), 'ref': ref}
     return {'name_he': name_he, 'color': color, 'voice': voice, 'style': style, 'height': height, 'frames': frames}
 
 LEVEL_GRADES = {1: [1, 3], 2: [4, 6], 3: [7, 13]}
@@ -620,24 +624,38 @@ def check(p):
 
 
 def build():
-    os.makedirs(os.path.join(ROOT, 'lessons'), exist_ok=True)
-    courses, titles = [], {}
-    for bid, icon, color, title, about in BOOKS:
-        ps = [p for p in PARASHOT if p['book'] == bid]
-        if not ps:
-            continue
-        courses.append({'id': bid, 'area': 'torah', 'icon': icon, 'color': color, 'title_he': title, 'about_he': about,
-                        'grades': [1, 8], 'units': [{'id': f'p-{bid}', 'title_he': title, 'about_he': about,
-                                                     'lessons': [p['id'] for p in ps]}]})
-    for p in PARASHOT:
-        check(p)
-        titles[p['id']] = f"פרשת {p['name_he']}"
-        with open(os.path.join(ROOT, 'lessons', f"{p['id']}.json"), 'w', encoding='utf-8') as f:
-            json.dump(lesson(p), f, ensure_ascii=False, indent=1)
-    week = {p['shabbat']: p['id'] for p in PARASHOT}
+    """The tab shows only Hidabroot Kids videos with graded questions (ori, 2026-11-15: "בלי הסרטון שלנו").
+    The puppet film code above stays for now, but no lesson is built from it."""
+    lessons_dir = os.path.join(ROOT, 'lessons')
+    os.makedirs(lessons_dir, exist_ok=True)
+    for name in os.listdir(lessons_dir):  # start clean
+        if name.startswith('p-'):
+            os.remove(os.path.join(lessons_dir, name))
+    courses, titles, week, about = [], {}, {}, {}
+    for bid, icon, color, title, book_about in BOOKS:
+        ids = []
+        for p in (p for p in PARASHOT if p['book'] == bid):
+            vids = VIDEOS.get(p['id'], [])
+            if not vids:
+                continue
+            for n, (lesson_id, title_he, exercises) in enumerate(vids):
+                lesson_id = p['id'] if n == 0 else lesson_id  # the first video is the parasha's lesson of the week
+                for i, ex in enumerate(exercises, 1):
+                    ex['id'] = f'{lesson_id}e{i}'
+                    assert ex['type'] == 'video' or ex['answer'] in ex['options'], lesson_id
+                titles[lesson_id] = f"פרשת {p['name_he']}" if n == 0 else title_he
+                with open(os.path.join(lessons_dir, f'{lesson_id}.json'), 'w', encoding='utf-8') as f:
+                    json.dump({'id': lesson_id, 'unit_id': f'p-{bid}', 'course': bid, 'title_he': titles[lesson_id],
+                               'exercises': exercises}, f, ensure_ascii=False, indent=1)
+                ids.append(lesson_id)
+            week[p['shabbat']] = p['id']
+            about[p['id']] = p['about_he']
+        if ids:
+            courses.append({'id': bid, 'area': 'torah', 'icon': icon, 'color': color, 'title_he': title,
+                            'about_he': book_about, 'grades': [1, 8],
+                            'units': [{'id': f'p-{bid}', 'title_he': title, 'about_he': book_about, 'lessons': ids}]})
     data = {'areas': [['torah', '📜', 'פרשת השבוע']], 'courses': courses, 'lesson_titles': titles,
-            'weeks': [{'shabbat': d, 'lesson': week[d]} for d in sorted(week)],
-            'about': {p['id']: p['about_he'] for p in PARASHOT}}
+            'weeks': [{'shabbat': d, 'lesson': week[d]} for d in sorted(week)], 'about': about}
     with open(os.path.join(ROOT, 'parasha.json'), 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
     return data
@@ -645,10 +663,4 @@ def build():
 
 if __name__ == '__main__':
     d = build()
-    for p in PARASHOT:
-        for lv in (1, 2, 3):
-            f = film(p, lv)
-            words = sum(len(line_text(l if isinstance(l, str) else (l['who'], l['text'])).split())
-                        for s in f['scenes'] for l in s['say'])
-            print(p['id'], 'level', lv, len(f['scenes']), 'scenes', words, 'words', f'~{words / 120:.0f} min')
-        print(' questions per level:', {lv: sum(lv in q['levels'] for q in p['questions']) for lv in (1, 2, 3)})
+    print(len(d['lesson_titles']), 'parasha video lessons:', ', '.join(d['lesson_titles'].values()))

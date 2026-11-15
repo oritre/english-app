@@ -24,14 +24,18 @@
      "title_he": "ספר בראשית",
      "about_he": "בריאת העולם, האבות והאימהות, ויוסף ואחיו",
      "lessons": [
-      "p-vayetze"
+      "p-vayetze",
+      "p-vayetze-v2",
+      "p-vayetze-v3"
      ]
     }
    ]
   }
  ],
  "lesson_titles": {
-  "p-vayetze": "פרשת ויצא"
+  "p-vayetze": "פרשת ויצא",
+  "p-vayetze-v2": "סיפור לשבת: הביטחון של יעקב",
+  "p-vayetze-v3": "ההפטרה של ויצא"
  },
  "weeks": [
   {

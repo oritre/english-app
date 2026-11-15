@@ -549,15 +549,14 @@ test('parasha of the week: the coming Shabbat, up to six days ahead', async () =
   assert.equal(parashaOfWeek(data, '2026-11-01'), null);
 });
 
-test('parasha lessons: three film cuts by grade, quiz for each level', async () => {
+test('parasha lessons: the Hidabroot video first, then questions for the child\'s level', async () => {
   const { forGrade } = await import('../js/storyLogic.js');
   const lesson = JSON.parse(readFileSync(new URL('../data/lessons/p-vayetze.json', import.meta.url)));
-  for (const [grade, level] of [[1, 1], [3, 1], [6, 2], [8, 3], [13, 3]]) {
+  assert.equal(lesson.exercises[0].type, 'video');
+  for (const grade of [1, 3, 5, 8]) {
     const ex = forGrade(lesson.exercises, grade);
-    const films = ex.filter((e) => e.type === 'parasha_film');
-    assert.equal(films.length, 1);
-    assert.equal(films[0].level, level);
-    assert.ok(ex.filter((e) => e.type === 'mcq').length >= 6);
+    assert.equal(ex.filter((e) => e.type === 'video').length, 1);
+    assert.equal(ex.filter((e) => e.type === 'mcq').length, 3);
   }
 });
 
@@ -574,7 +573,7 @@ test('parasha film: gate, jumps, cues, subtitles and backdrop plan', async () =>
   assert.equal(L.lineMs('קצר'), 3200);
   assert.equal(L.lineMs('א'.repeat(100)), 7000);
 
-  const lesson = JSON.parse(readFileSync(new URL('../data/lessons/p-vayetze.json', import.meta.url)));
+  const lesson = JSON.parse(readFileSync(new URL('./fixtures/p-vayetze-film.json', import.meta.url)));
   const film = lesson.exercises.find((e) => e.type === 'parasha_film' && e.level === 3);
   const byId = Object.fromEntries(film.scenes.map((s) => [s.id, s]));
   // The verse comes with the line that quotes it, Rashi with the line that names him.
