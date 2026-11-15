@@ -1,8 +1,9 @@
 import { el } from '../util.js';
-import { imageUrl } from '../media.js';
+import { imageUrl, characterLineUrl } from '../media.js';
 import { piLineUrl, deviceSay, stopSpeech, canSpeakLang } from '../speech.js';
 import { rateFactor } from '../settings.js';
-import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt, mood, artPlan, seeded } from '../parashaLogic.js';
+import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt, mood, artPlan, seeded, sayLine, parseAct, levelAt } from '../parashaLogic.js';
+import { createPuppets, voiceTrack } from './parashaPuppets.js';
 
 // The parasha film ("פרשת שבוע"): a narrated storybook film, one painted
 // picture per scene with a slow camera move, light and particles over it, the
@@ -13,13 +14,20 @@ import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt,
 // piLineUrl). Until a picture arrives (or if it never does) the scene shows a
 // backdrop painted here: sky, hills and paper-cut figures, by the scene's light.
 //
-// The film is one exercise: {type: 'parasha_film', title_he, ref_he, scenes:
-// [{id, title_he, img, move, fx, art, say: [lines], pasuk, note}]}.
+// The characters themselves stand in the scene and speak in their own voices
+// (parashaPuppets.js): a line of a scene is the narrator's (a string) or a
+// character's ({who, text, tone, act}).
+//
+// The film is one exercise: {type: 'parasha_film', title_he, ref_he, cast,
+// scenes: [{id, title_he, img, move, fx, art, stage, say: [lines], pasuk, note}]}.
+// cast: {who: {name_he, color, voice, style, height, frames}}; stage: [{who, x,
+// face, enter, scale}]. A film with no cast plays as it always did.
 
 const SPEEDS = [1, 1.25, 0.85];
 const PREROLL = 2000; // the chapter title has the stage to itself before the narration starts
 const LINE_GAP = 380;
 const SCENE_GAP = 900;
+const ACT_WAIT = 7000; // a walk before a line never holds the film longer than this
 const START_WAIT = 4000; // a Pi recording that has not started by now is read by the device instead
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
 const now = () => performance.now();
@@ -135,7 +143,7 @@ function paint(scene) {
     } else if (it.kind === 'emoji') {
       for (let k = 0; k < Math.min(2, it.count); k++) spans.push(el('span', { class: 'pf-sil', style: `left:${((x + k * 190) / 16).toFixed(1)}%; top:${((near.y(x + k * 190) + 14) / 9).toFixed(1)}%; --k:${k ? 0.8 : 1}` }, it.e));
     } else if (FIG[it.kind]) {
-      figs += `<g transform="${at(0)}">${FIG[it.kind](c)}</g>`;
+      figs += `<g${PEOPLE.includes(it.kind) ? ' class="pf-fig-person"' : ''} transform="${at(0)}">${FIG[it.kind](c)}</g>`;
       if (it.kind === 'stone' && it.count > 1) figs += [[-96, 0.5], [84, 0.42], [-150, 0.3], [132, 0.3]].map(([dx, k]) => `<g transform="${at(dx, k)}">${FIG.stone(c)}</g>`).join('');
       if (it.kind === 'tent') figs += `<g transform="${at(170, 0.66)}">${FIG.tent(c)}</g>`;
       if (it.kind === 'child') figs += `<g transform="${at(-70, 0.8)}">${FIG.child(c)}</g><g transform="${at(64, 1.15)}">${FIG.child(c)}</g>`;
@@ -177,7 +185,12 @@ function saveSeen(key, rec) {
 }
 
 export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {}) {
-  const scenes = (ex.scenes || []).filter((s) => s && (s.say || []).length);
+  // Every scene gets its lines in one shape (lines), and their words alone (say).
+  const cast = ex.cast && typeof ex.cast === 'object' ? ex.cast : {};
+  const scenes = (ex.scenes || []).filter((s) => s && (s.say || []).length).map((s) => {
+    const lines = s.say.map(sayLine).filter((l) => l.text);
+    return { ...s, lines, say: lines.map((l) => l.text), talk: lines.some((l) => l.who && cast[l.who]) };
+  }).filter((s) => s.say.length);
   const total = scenes.length;
   const lesson = root.closest('.lesson');
   const key = `${learnerId ? `${learnerId}:` : ''}${ex.id || ex.title_he || 'film'}:${total}`;
@@ -232,6 +245,8 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   const shelf = el('div', { class: 'pf-shelf', 'aria-live': 'polite' });
   const film = el('div', { class: 'pf' }, frame, chips, shelf);
 
+  const puppets = createPuppets({ cast, scenes, stage, reduced: reducedMotion });
+
   const pasukCard = (p) => [el('span', { class: 'pf-pasuk-text' }, p.text), el('span', { class: 'pf-pasuk-ref' }, p.ref || '')];
   const noteCard = (n) => [el('span', { class: 'pf-note-who' }, el('span', { class: 'pf-note-ico', 'aria-hidden': 'true' }, '💡'), n.who || ''), el('span', { class: 'pf-note-text' }, n.text)];
 
@@ -263,22 +278,61 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   };
   const preload = (i) => { for (let k = i; k <= i + 2 && k < total; k++) if (k >= 0) loadPic(k); };
 
-  // Asks the Pi to prepare narration ahead, one line at a time.
+  // Where the Pi keeps the recording of a line: the narrator's voice, or the
+  // character's own. null: the device reads it.
+  const lineUrl = async (ln) => {
+    const url = await piLineUrl(ln.text, 'he-IL');
+    const ch = cast[ln.who];
+    if (!url || !ch) return url;
+    return characterLineUrl(ln.text, ch.voice, [ch.style, ln.tone].filter(Boolean).join(' '));
+  };
+  // A character's recording, fetched whole: to play (src) and as loudness over
+  // time for the mouth (env). {bad: status} when the Pi refuses; null when it
+  // can't be fetched this way (then the player asks for it directly).
+  const voices = new Map();
+  const dropVoice = (url) => { const v = voices.get(url); voices.delete(url); v?.then((r) => { if (r?.src) URL.revokeObjectURL(r.src); }); };
+  const voiceFor = (url) => {
+    if (voices.has(url)) return voices.get(url);
+    const job = (async () => {
+      const res = await fetch(url);
+      if (!res.ok) return { bad: res.status };
+      const buf = await res.arrayBuffer();
+      const src = URL.createObjectURL(new Blob([buf], { type: res.headers.get('content-type') || 'audio/mpeg' }));
+      const env = await voiceTrack(buf.slice(0)).catch(() => null);
+      return { src, env };
+    })().catch(() => null);
+    voices.set(url, job);
+    job.then((r) => { if (!r?.src && voices.get(url) === job) voices.delete(url); });
+    if (voices.size > 40) dropVoice(voices.keys().next().value);
+    return job;
+  };
+  // How loud the speaking character is right now (0..1); null: unknown, the mouth keeps the pace of speech.
+  const voiceLevel = () => {
+    if (cur.kind === 'audio') {
+      if (!cur.started || audio.paused) return 0;
+      return cur.env ? levelAt(cur.env, audio.currentTime + 0.04) : null;
+    }
+    return cur.kind === 'device' || cur.kind === 'timer' ? null : 0;
+  };
+
+  // Asks the Pi to prepare the voices ahead, one line at a time.
   const warmed = new Set();
   let warming = false;
   const warmQueue = [];
   const warm = (i) => {
     if (i < 0 || i >= total || warmed.has(i)) return;
     warmed.add(i);
-    warmQueue.push(...scenes[i].say);
+    warmQueue.push(...scenes[i].lines);
     if (warming) return;
     warming = true;
     (async () => {
       while (alive && warmQueue.length) {
-        const url = await piLineUrl(warmQueue.shift(), 'he-IL').catch(() => null);
+        const ln = warmQueue.shift();
+        const url = await lineUrl(ln).catch(() => null);
         if (!url) { warmQueue.length = 0; break; }
-        const res = await fetch(`${url}&warm=1`).catch(() => null);
-        if (!res || res.status === 404) { warmQueue.length = 0; break; }
+        // A character's line is fetched whole (it is measured for the mouth); the narrator's is only asked for.
+        const res = cast[ln.who] ? await voiceFor(url) : await fetch(`${url}&warm=1`).catch(() => null);
+        if (!res || (res.bad || res.status) === 404) { warmQueue.length = 0; break; }
       }
       warming = false;
     })();
@@ -288,8 +342,10 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   const buildScene = (i) => {
     const s = scenes[i];
     const ms = s.say.reduce((n, t) => n + lineMs(t) + LINE_GAP, PREROLL) / speed;
-    const node = el('div', { class: `pf-scene pf-move-${['in', 'out', 'left', 'right', 'up'].includes(s.move) ? s.move : 'in'}`, style: `--dur:${Math.round(Math.max(14000, ms))}ms` },
-      el('div', { class: 'pf-cam' }, paint(s)),
+    const figures = puppets.build(i);
+    // With figures on the stage the camera keeps to a slow, small move that leaves their feet on the ground.
+    const node = el('div', { class: `pf-scene pf-move-${['in', 'out', 'left', 'right', 'up'].includes(s.move) ? s.move : 'in'}${figures ? ' has-stage' : ''}`, style: `--dur:${Math.round(Math.max(14000, ms) * (s.talk ? 1.6 : 1))}ms` },
+      el('div', { class: 'pf-cam' }, paint(s), figures),
       reducedMotion() ? null : effects(s.fx, seeded(`${s.id}fx`)));
     return node;
   };
@@ -301,6 +357,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     sceneEls.set(i, node);
     sceneLayer.append(node);
     placePic(i);
+    puppets.show(i);
     if (pics[i].state === 'fail') loadPic(i);
     requestAnimationFrame(() => requestAnimationFrame(() => node.classList.add('in')));
   };
@@ -308,8 +365,10 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   // ---- subtitles ----
   let plan = [];
   let shown = { chunk: -1, word: -1 };
-  const setLine = (text) => {
-    plan = subtitlePlan(text, stage.clientWidth < 560 ? 54 : 76);
+  let speaker = null; // the character whose name stands before the subtitle
+  const setLine = (text, ch = null) => {
+    speaker = ch?.name_he ? ch : null;
+    plan = subtitlePlan(text, (stage.clientWidth < 560 ? 54 : 76) - (speaker ? speaker.name_he.length + 2 : 0));
     shown = { chunk: -1, word: -1 };
     paintSubs(0);
   };
@@ -317,7 +376,9 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     const { chunk, word } = subtitleAt(plan, frac);
     if (chunk < 0) { subs.replaceChildren(); return; }
     if (chunk !== shown.chunk) {
-      subs.replaceChildren(el('p', { class: 'pf-sub' }, ...plan[chunk].words.flatMap((x, k) => [k ? ' ' : null, el('span', { class: 'w' }, x.w)])));
+      const who = speaker ? el('span', { class: 'pf-sub-who' }, `${speaker.name_he}:`) : null;
+      if (who && speaker.color) who.style.color = speaker.color;
+      subs.replaceChildren(el('p', { class: 'pf-sub' }, who, who ? ' ' : null, ...plan[chunk].words.flatMap((x, k) => [k ? ' ' : null, el('span', { class: 'w' }, x.w)])));
       shown = { chunk, word: -1 };
     }
     if (word !== shown.word) {
@@ -389,24 +450,49 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     if (was === 'audio') { try { audio.pause(); } catch { /* not started */ } }
     if (was === 'device') stopSpeech();
   };
-  const armStart = () => { clearTimeout(startTimer); startTimer = setTimeout(() => { if (cur.kind === 'audio' && !cur.started && playing) toDevice(); }, START_WAIT); };
+  const armStart = () => { clearTimeout(startTimer); startTimer = setTimeout(() => { if ((cur.kind === 'fetch' || (cur.kind === 'audio' && !cur.started)) && playing) toDevice(); }, START_WAIT); };
 
+  let acted = ''; // the line whose turn was already made (a line may start again after a pause)
   const startLine = async () => {
     quiet();
     const g = gen;
     const s = scenes[at];
     if (!s) return;
     if (line >= s.say.length) { sceneDone(); return; }
-    const text = s.say[line];
-    setLine(text);
+    const ln = s.lines[line];
+    const text = ln.text;
+    const ch = cast[ln.who] || null;
     cardsAt(line);
     cur = { kind: 'loading' };
-    const url = await piLineUrl(text, 'he-IL').catch(() => null);
+    puppets.hush();
+    if (ch) {
+      // First what the character does (a walk, a turn), then the words.
+      const key = `${at}:${line}`;
+      const fresh = acted !== key;
+      acted = key;
+      await Promise.race([puppets.act(ln.who, ln.act, fresh), new Promise((r) => setTimeout(r, ACT_WAIT))]);
+      if (!alive || g !== gen || !playing) return;
+      puppets.speak(ln.who, parseAct(ln.act).gesture, voiceLevel);
+    }
+    setLine(text, ch);
+    const url = await lineUrl(ln).catch(() => null);
     if (!alive || g !== gen || !playing) return;
     if (!url) { playDevice(text); return; }
-    cur = { kind: 'audio', est: lineMs(text), text, started: false };
+    let src = url;
+    let env = null;
+    if (ch) {
+      // The character's recording comes whole, so the mouth can follow its sound.
+      cur = { kind: 'fetch', text };
+      frame.classList.add('waiting');
+      armStart();
+      const v = await voiceFor(url);
+      if (!alive || g !== gen || !playing) return;
+      if (v?.bad) { toDevice(); return; }
+      if (v?.src) { src = v.src; env = v.env; }
+    }
+    cur = { kind: 'audio', est: lineMs(text), text, started: false, env };
     frame.classList.add('waiting');
-    audio.src = url;
+    audio.src = src;
     audio.defaultPlaybackRate = speed;
     audio.playbackRate = speed;
     armStart();
@@ -435,6 +521,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   };
   const lineDone = () => {
     quiet();
+    puppets.hush();
     paintSubs(1);
     subs.querySelectorAll('.w').forEach((w) => { w.classList.add('said'); w.classList.remove('on'); });
     line += 1;
@@ -461,6 +548,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     playBtn.title = on ? 'השהיה' : 'ניגון';
     frame.classList.toggle('paused', !on);
     frame.classList.toggle('playing', on);
+    puppets.setPlaying(on);
     if (on) wake();
   };
   const paintNav = () => {
@@ -494,6 +582,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     if (i >= total) { end(); return; }
     at = Math.max(0, i);
     line = 0;
+    acted = '';
     if (!started) { started = true; track?.('play', ''); }
     furthest = Math.max(furthest, at);
     showScene(at);
@@ -586,6 +675,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     frame.classList.add('at-end');
     frame.classList.remove('pasuk-on', 'note-on');
     subs.replaceChildren();
+    puppets.hush();
     chapter.classList.remove('run');
     shelf.replaceChildren();
     cardLayer.replaceChildren(el('div', { class: 'pf-end' },
@@ -668,7 +758,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   showTitle();
   paintNav();
   if (total === 0) end();
-  else { preload(0); warm(0); if (ready) setReady?.(true); }
+  else { preload(0); warm(0); puppets.load(); if (ready) setReady?.(true); }
 
   // Leaving the film stops the voice, the timers and the listeners.
   const watch = setInterval(() => {
@@ -678,6 +768,8 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     stopSpeech();
     try { audio.pause(); audio.removeAttribute('src'); audio.load(); } catch { /* never loaded */ }
     clearInterval(watch); clearInterval(ticker); clearTimeout(idleTimer);
+    puppets.destroy();
+    for (const url of [...voices.keys()]) dropVoice(url);
     document.removeEventListener('keydown', onKey);
     document.removeEventListener('fullscreenchange', onFullChange);
     document.documentElement.classList.remove('pf-noscroll');

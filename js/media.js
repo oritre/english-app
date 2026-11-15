@@ -32,3 +32,35 @@ export async function imageUrl(prompt) {
   const h = Array.from(new Uint8Array(digest), (b) => b.toString(16).padStart(2, '0')).join('').slice(0, 16);
   return `${MEDIA_BASE}/img/${h}.jpg?k=${key}&p=${encodeURIComponent(p)}`;
 }
+
+async function sha1hex(text) {
+  const digest = await crypto.subtle.digest('SHA-1', new TextEncoder().encode(text));
+  return Array.from(new Uint8Array(digest), (b) => b.toString(16).padStart(2, '0')).join('').slice(0, 16);
+}
+
+// One frame of a film character, painted by the Pi on flat green and cut out
+// into a transparent webp: /sprite/<hash>.webp, hash = first 16 hex of
+// SHA-1("sprite\n" + ref + "\n" + prompt) (server.py sprite_hash). With ref (the
+// base frame's hash) the Pi edits the base picture, so the talking and blinking
+// frames line up with it exactly; the base must be painted first.
+// Resolves to { url, hash }, or null without a family code.
+export async function spriteUrl(prompt, ref = '') {
+  const key = await mediaKey();
+  const p = String(prompt || '').trim();
+  if (!key || !p || !crypto.subtle) return null;
+  const hash = await sha1hex(`sprite\n${ref}\n${p}`);
+  const r = ref ? `&r=${ref}` : '';
+  return { hash, url: `${MEDIA_BASE}/sprite/${hash}.webp?k=${key}&p=${encodeURIComponent(p)}${r}` };
+}
+
+// A film line in a character's own voice (Gemini voice name + acting note),
+// made once by the Pi: hash = SHA-1("he|<voice>|<style>\n<text>") (server.py tts_hash).
+export async function characterLineUrl(text, voice, style = '', lang = 'he') {
+  const key = await mediaKey();
+  const t = String(text || '').trim();
+  if (!key || !t || t.length > 600 || !crypto.subtle) return null;
+  const head = voice || style ? `${lang}|${voice || ''}|${style || ''}` : lang;
+  const h = await sha1hex(`${head}\n${t}`);
+  return `${MEDIA_BASE}/tts/${h}.mp3?k=${key}&l=${lang}&t=${encodeURIComponent(t)}`
+    + `&v=${encodeURIComponent(voice || '')}&s=${encodeURIComponent(style || '')}`;
+}

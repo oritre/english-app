@@ -1,7 +1,29 @@
 // Pure parts of the parasha film player (js/exercises/parasha.js), kept apart so the tests can load them.
 
-// Reading time of one narration line when no voice reads it.
-export const lineMs = (text) => Math.max(3200, String(text || '').length * 70);
+// A line of a scene is either a string (the narrator) or {who, text, tone, act}
+// (a character speaks). Always the same shape: who is '' for the narrator.
+export function sayLine(line) {
+  if (line && typeof line === 'object') {
+    return { who: String(line.who || ''), text: String(line.text || '').trim(), tone: String(line.tone || ''), act: String(line.act || '') };
+  }
+  return { who: '', text: String(line || '').trim(), tone: '', act: '' };
+}
+export const lineText = (line) => (line && typeof line === 'object' ? String(line.text || '') : String(line || ''));
+
+// What a character does with a line: 'gesture', 'walk:<x>' (0..1 across the stage), 'turn'. Anything else is ignored.
+export function parseAct(act) {
+  const out = { gesture: false, turn: false, walk: null };
+  for (const part of String(act || '').split(/[\s,;]+/).filter(Boolean)) {
+    const m = /^walk:(-?\d*\.?\d+)$/.exec(part);
+    if (part === 'gesture') out.gesture = true;
+    else if (part === 'turn') out.turn = true;
+    else if (m && Number.isFinite(Number(m[1]))) out.walk = Math.min(1.3, Math.max(-0.3, Number(m[1]))); // past 0 or 1: off the stage
+  }
+  return out;
+}
+
+// Reading time of one line when no voice reads it.
+export const lineMs = (line) => Math.max(3200, lineText(line).length * 70);
 
 // About how long the whole film runs, in minutes (for the title card).
 export function filmMinutes(scenes) {
@@ -30,14 +52,14 @@ export function cues(scene) {
     const words = new Set(bare(scene.pasuk.text));
     let best = 0;
     say.forEach((line, i) => {
-      const hits = bare(line).filter((w) => words.has(w)).length;
+      const hits = bare(lineText(line)).filter((w) => words.has(w)).length;
       if (hits >= 2 && hits > best) { best = hits; pasukLine = i; }
     });
     if (pasukLine < 0) pasukLine = Math.min(1, n - 1);
   }
   if (scene?.note && n) {
     const who = String(scene.note.who || '').replace(/["״']/g, '');
-    noteLine = say.findIndex((line) => who && line.replace(/["״']/g, '').includes(who));
+    noteLine = say.findIndex((line) => who && lineText(line).replace(/["״']/g, '').includes(who));
     if (noteLine < 0) noteLine = Math.min(n - 1, Math.ceil(n / 2));
     if (noteLine === pasukLine) {
       if (noteLine + 1 < n) noteLine += 1; else if (pasukLine > 0) pasukLine -= 1;
@@ -140,4 +162,103 @@ export function seeded(key) {
     t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
+}
+
+// ---- the puppets (js/exercises/parashaPuppets.js) ----
+
+// The frames of the cast in the order they must be painted: every base first,
+// then what is edited from the base (talk, blink, gesture), then gesture_talk
+// (edited from gesture). only: the characters to include (default: all).
+const FRAME_PASSES = [['base'], ['talk', 'blink', 'gesture'], ['gesture_talk']];
+export function framePlan(cast, only = null) {
+  const out = [];
+  const whos = Object.keys(cast || {}).filter((w) => !only || only.includes(w));
+  for (const pass of FRAME_PASSES) {
+    for (const who of whos) {
+      const frames = cast[who]?.frames || {};
+      for (const name of pass) {
+        const f = frames[name];
+        if (!f?.p) continue;
+        const ref = name === 'base' ? '' : String(f.ref || 'base');
+        if (ref && !frames[ref]?.p) continue;
+        out.push({ who, name, p: f.p, ref });
+      }
+    }
+  }
+  return out;
+}
+
+// How loud a recording is over time: one value 0..1 per window (25 ms), relative
+// to the loud parts of this recording, so a quiet voice opens the mouth as well.
+export function envelope(samples, sampleRate, win = 0.025) {
+  const step = Math.max(1, Math.round(sampleRate * win));
+  const n = Math.ceil(samples.length / step);
+  const env = new Float32Array(n);
+  for (let i = 0; i < n; i++) {
+    let sum = 0;
+    const end = Math.min(samples.length, (i + 1) * step);
+    for (let k = i * step; k < end; k++) sum += samples[k] * samples[k];
+    env[i] = Math.sqrt(sum / Math.max(1, end - i * step));
+  }
+  const sorted = Float32Array.from(env).sort();
+  const top = sorted[Math.min(n - 1, Math.floor(n * 0.92))] || 0;
+  if (top < 1e-4) return { env: env.fill(0), win };
+  for (let i = 0; i < n; i++) env[i] = Math.min(1, env[i] / top);
+  return { env, win };
+}
+export function levelAt(track, sec) {
+  if (!track || !track.env.length || !(sec >= 0)) return 0;
+  const i = Math.floor(sec / track.win);
+  return i < track.env.length ? track.env[i] : 0;
+}
+
+// The mouth from the loudness, without flicker: it opens above `on`, closes
+// below `off`, holds each state at least `hold` ms, and a long loud stretch is
+// broken by a short closing (a new syllable) so the mouth never just hangs open.
+// state: {open, since} (ms); returns the new state (the same object when unchanged).
+export const MOUTH = { on: 0.3, off: 0.16, hold: 85, maxOpen: 300, shut: 75 };
+export function mouthStep(state, level, tMs, o = MOUTH) {
+  const st = state || { open: false, since: -1e9 };
+  const held = tMs - st.since;
+  if (st.open) {
+    if (held < o.hold) return st;
+    if (level < o.off) return { open: false, since: tMs };
+    if (held >= o.maxOpen) return { open: false, since: tMs, forced: true };
+    return st;
+  }
+  if (held < (st.forced ? o.shut : o.hold)) return st;
+  if (level > o.on) return { open: true, since: tMs };
+  return st.forced ? { open: false, since: st.since } : st;
+}
+
+// With no recording to measure (the device's voice, or no voice): a loudness that
+// rises and falls at the pace of syllables, a little irregular, with short rests.
+export function flapLevel(tMs) {
+  const t = tMs / 1000;
+  const syl = Math.sin(t * 2 * Math.PI * 4.6) * 0.5 + 0.5;
+  const drift = Math.sin(t * 2 * Math.PI * 1.3 + 1.7) * 0.5 + 0.5;
+  const rest = Math.sin(t * 2 * Math.PI * 0.37 + 0.4) > 0.86 ? 0 : 1;
+  return rest * (0.12 + 0.88 * syl * (0.55 + 0.45 * drift));
+}
+
+// How the figures are tinted to sit in the scene's light.
+export function puppetGrade(scene) {
+  const fx = scene?.fx;
+  if (fx === 'sunset') return 'warm';
+  if (fx === 'stars') return 'night';
+  if (fx === 'night') return 'lamp';
+  if (fx === 'light') return 'glow';
+  const m = mood(scene);
+  return { night: 'night', lamp: 'lamp', sunset: 'warm', dawn: 'warm', mist: 'mist', gold: 'glow' }[m] || 'day';
+}
+
+// The figures of a scene, cleaned: only characters of the cast, x inside the stage.
+export function stagePlan(scene, cast) {
+  return (Array.isArray(scene?.stage) ? scene.stage : []).filter((it) => it && cast?.[it.who]?.frames?.base?.p).map((it) => ({
+    who: it.who,
+    x: Math.min(1, Math.max(0, Number.isFinite(Number(it.x)) ? Number(it.x) : 0.5)),
+    face: it.face === 'l' ? -1 : 1,
+    enter: it.enter === 'l' || it.enter === 'r' ? it.enter : '',
+    scale: Math.min(1.6, Math.max(0.4, Number(it.scale) || 1)),
+  }));
 }

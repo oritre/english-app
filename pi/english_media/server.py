@@ -147,9 +147,11 @@ def download(vid, quality, store=STORE):
     return True
 
 
-def tts_hash(lang, text):
-    """Matches js/speech.js: SHA-1 of "<lang>\n<text>", first 16 hex digits."""
-    return hashlib.sha1(f'{lang}\n{text.strip()}'.encode()).hexdigest()[:16]
+def tts_hash(lang, text, voice='', style=''):
+    """Matches js/speech.js: SHA-1 of "<lang>\n<text>", first 16 hex digits.
+    A line in a character's own voice (film dialogue) hashes "<lang>|<voice>|<style>\n<text>"."""
+    head = f'{lang}|{voice}|{style}' if voice or style else lang
+    return hashlib.sha1(f'{head}\n{text.strip()}'.encode()).hexdigest()[:16]
 
 
 def tts_path(h, store=STORE):
@@ -177,13 +179,15 @@ def find_audio(obj):
     return None
 
 
-def tts_request(text, options):
-    """Natural speech for one line, as (audio bytes, mime)."""
+def tts_request(text, options, voice='', style=''):
+    """Natural speech for one line, as (audio bytes, mime). voice/style give a film character its own voice."""
+    voice = voice or options.get('tts_voice') or 'Sulafat'
+    style = style or TTS_STYLE
     if backend(options) == 'vertex':
         body = {
-            'contents': [{'role': 'user', 'parts': [{'text': f'{TTS_STYLE}\n\n{text}'}]}],
+            'contents': [{'role': 'user', 'parts': [{'text': f'{style}\n\n{text}'}]}],
             'generationConfig': {'responseModalities': ['AUDIO'], 'speechConfig': {'voiceConfig': {
-                'prebuiltVoiceConfig': {'voiceName': options.get('tts_voice') or 'Sulafat'}}}},
+                'prebuiltVoiceConfig': {'voiceName': voice}}}},
         }
         found = find_audio(post_json(vertex_url(options, options.get('vertex_tts_model') or VERTEX_TTS_MODEL), body, timeout=60))
         if not found:
@@ -193,9 +197,9 @@ def tts_request(text, options):
         'model': options.get('tts_model') or 'gemini-3.8-flash-tts',
         'input': [{'type': 'user_input', 'content': [{
             'type': 'text', 'text': text,
-            'annotations': [{'type': 'speech_metadata', 'style': TTS_STYLE}]}]}],
+            'annotations': [{'type': 'speech_metadata', 'style': style}]}]}],
         'response_format': {'type': 'audio'},
-        'generation_config': {'speech_config': [{'voice': options.get('tts_voice') or 'Sulafat'}]},
+        'generation_config': {'speech_config': [{'voice': voice}]},
     }
     req = urllib.request.Request(TTS_URL, data=json.dumps(body).encode(), method='POST', headers={
         'Content-Type': 'application/json', 'x-goog-api-key': options.get('gemini_api_key') or ''})
@@ -218,10 +222,11 @@ def to_mp3(audio, mime, target):
     os.replace(tmp, target)
 
 
-def tts_file(text, lang, options, store=STORE, request=None):
+def tts_file(text, lang, options, store=STORE, request=None, voice='', style=''):
     """The mp3 for one line, made on first use. Raises when it cannot be made."""
     request = request or tts_request
-    h = tts_hash(lang, text)
+    extra = {'voice': voice, 'style': style} if voice or style else {}
+    h = tts_hash(lang, text, voice, style)
     target = tts_path(h, store)
     if os.path.exists(target):
         return target
@@ -233,7 +238,7 @@ def tts_file(text, lang, options, store=STORE, request=None):
         if not os.path.exists(target):
             os.makedirs(os.path.dirname(target), exist_ok=True)
             try:
-                audio, mime = request(text.strip(), options)
+                audio, mime = request(text.strip(), options, **extra)
                 to_mp3(audio, mime, target)
             except Exception as e:
                 status['tts_error'] = f'{time.strftime("%H:%M")} {str(e)[:200]}'
@@ -328,6 +333,93 @@ def img_file(prompt, options, store=STORE, request=None):
     return target
 
 
+SPRITE_MAX_CHARS = 2400
+
+
+def sprite_hash(prompt, ref=''):
+    """Matches js/media.js spriteUrl: SHA-1 of "sprite\n<ref>\n<prompt>", first 16 hex digits."""
+    return hashlib.sha1(f'sprite\n{ref}\n{prompt.strip()}'.encode()).hexdigest()[:16]
+
+
+def sprite_paths(h, store=STORE):
+    """(the painted original on green, the cut-out with a transparent background)."""
+    base = os.path.join(store, 'sprite', h)
+    return f'{base}.src.jpg', f'{base}.webp'
+
+
+def sprite_request(prompt, options, ref=None):
+    """One character on flat green, as (image bytes, mime). With ref (jpg bytes) the
+    model edits that picture, so a talking or blinking frame matches the base exactly."""
+    model = options.get('img_model') or IMG_MODEL
+    parts = [{'inlineData': {'mimeType': 'image/jpeg', 'data': base64.b64encode(ref).decode()}}] if ref else []
+    parts.append({'text': prompt})
+    body = {
+        'contents': [{'role': 'user', 'parts': parts}],
+        'generationConfig': {'responseModalities': ['TEXT', 'IMAGE'], 'imageConfig': {'aspectRatio': '3:4'}},
+    }
+    if backend(options) == 'vertex':
+        found = find_image(post_json(vertex_url(options, model), body))
+    else:
+        req = urllib.request.Request(IMG_URL.format(model=model), data=json.dumps(body).encode(), method='POST',
+                                     headers={'Content-Type': 'application/json',
+                                              'x-goog-api-key': options.get('gemini_api_key') or ''})
+        try:
+            with urllib.request.urlopen(req, timeout=120) as r:
+                found = find_image(json.load(r))
+        except urllib.error.HTTPError as e:
+            raise ValueError(f'HTTP {e.code}: {e.read()[:300].decode(errors="replace")}') from e
+    if not found:
+        raise ValueError('no image in the response')
+    return base64.b64decode(found[0]), found[1]
+
+
+def to_sprite(image, src, out):
+    """Keep the original (for later edits) and cut the green away into a transparent webp."""
+    tmp = f'{src}.part.jpg'
+    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', 'pipe:0', '-vf', 'scale=-2:1024', '-q:v', '3', tmp],
+                   input=image, check=True, timeout=60, capture_output=True)
+    os.replace(tmp, src)
+    tmp = f'{out}.part.webp'
+    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', src, '-vf',
+                    'scale=-2:900,colorkey=0x00FF00:0.32:0.08,despill=type=green,format=yuva420p',
+                    '-c:v', 'libwebp', '-quality', '85', tmp],
+                   check=True, timeout=60, capture_output=True)
+    os.replace(tmp, out)
+
+
+def sprite_file(prompt, options, store=STORE, ref='', request=None):
+    """The cut-out for one character frame, painted on first use. Raises when it cannot be made;
+    FileNotFoundError when the base frame (ref) has not been painted yet."""
+    request = request or sprite_request
+    h = sprite_hash(prompt, ref)
+    src, out = sprite_paths(h, store)
+    if os.path.exists(out):
+        return out
+    ref_bytes = None
+    if ref:
+        ref_src = sprite_paths(ref, store)[0]
+        if not os.path.exists(ref_src):
+            raise FileNotFoundError('the base frame is not painted yet')
+        with open(ref_src, 'rb') as f:
+            ref_bytes = f.read()
+    if not backend(options):
+        raise LookupError(NO_BACKEND)
+    with tts_locks_guard:
+        lock = tts_locks.setdefault(f'sprite:{h}', threading.Lock())
+    with lock, img_slots:
+        if not os.path.exists(out):
+            os.makedirs(os.path.dirname(out), exist_ok=True)
+            try:
+                image, _mime = request(prompt.strip(), options, ref_bytes)
+                to_sprite(image, src, out)
+            except Exception as e:
+                status['img_error'] = f'{time.strftime("%H:%M")} sprite {str(e)[:300]}'
+                raise
+            status['img_made'] += 1
+            status['img_error'] = None
+    return out
+
+
 def refresh(options):
     """Fetch the list and download what is missing. Files of videos no longer listed stay."""
     url = options.get('videos_url') or 'https://oritre.github.io/english-app/data/videos.json'
@@ -404,6 +496,10 @@ class Handler(BaseHTTPRequestHandler):
         if t:
             self.tts(t.group(1), params)
             return
+        sp = re.fullmatch(r'/sprite/([0-9a-f]{16})\.webp', path)
+        if sp:
+            self.sprite(sp.group(1), params)
+            return
         i = re.fullmatch(r'/img/([0-9a-f]{16})\.jpg', path)
         if i:
             self.img(i.group(1), params)
@@ -422,17 +518,20 @@ class Handler(BaseHTTPRequestHandler):
         self.send_file(file)
 
     def tts(self, h, params):
-        """/tts/<hash>.mp3?k=&l=en|he&t=<text>[&warm=1]: the line in a natural voice."""
+        """/tts/<hash>.mp3?k=&l=en|he&t=<text>[&v=<voice>&s=<style>][&warm=1]: the line in a natural voice."""
         if params.get('k') not in self.keys:
             self.plain(403, 'this device is not in the family')
             return
         lang = params.get('l', '')
         text = urllib.parse.unquote_plus(params.get('t', '')).strip()
-        if lang not in ('en', 'he') or not text or len(text) > TTS_MAX_CHARS or tts_hash(lang, text) != h:
+        voice = urllib.parse.unquote_plus(params.get('v', '')).strip()
+        style = urllib.parse.unquote_plus(params.get('s', '')).strip()
+        if (lang not in ('en', 'he') or not text or len(text) > TTS_MAX_CHARS or len(style) > 400
+                or (voice and not re.fullmatch(r'[A-Za-z]{2,24}', voice)) or tts_hash(lang, text, voice, style) != h):
             self.plain(400, 'bad line')
             return
         try:
-            file = tts_file(text, lang, self.options, self.store)
+            file = tts_file(text, lang, self.options, self.store, voice=voice, style=style)
         except LookupError as e:
             self.plain(404, str(e))
             return
@@ -465,6 +564,33 @@ class Handler(BaseHTTPRequestHandler):
             self.plain(200, 'ok')
             return
         self.send_file(file, 'image/jpeg', 'public, max-age=31536000, immutable')
+
+    def sprite(self, h, params):
+        """/sprite/<hash>.webp?k=&p=<prompt>[&r=<base hash>][&warm=1]: a character frame, cut out of its background."""
+        if params.get('k') not in self.keys:
+            self.plain(403, 'this device is not in the family')
+            return
+        prompt = urllib.parse.unquote_plus(params.get('p', '')).strip()
+        ref = params.get('r', '')
+        if (not prompt or len(prompt) > SPRITE_MAX_CHARS or (ref and not re.fullmatch(r'[0-9a-f]{16}', ref))
+                or sprite_hash(prompt, ref) != h):
+            self.plain(400, 'bad sprite')
+            return
+        try:
+            file = sprite_file(prompt, self.options, self.store, ref)
+        except FileNotFoundError as e:
+            self.plain(409, str(e))
+            return
+        except LookupError as e:
+            self.plain(404, str(e))
+            return
+        except Exception:  # the film plays on without that character's frame
+            self.plain(503, 'could not paint the character now')
+            return
+        if params.get('warm'):
+            self.plain(200, 'ok')
+            return
+        self.send_file(file, 'image/webp', 'public, max-age=31536000, immutable')
 
     def send_file(self, file, ctype='video/mp4', cache='private, max-age=86400'):
         size = os.path.getsize(file)
