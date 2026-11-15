@@ -1,0 +1,537 @@
+{
+ "id": "k-itc-f5",
+ "unit_id": "k-itc-u3",
+ "course": "israeltech",
+ "title_he": "ישראל בחלל",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "ישראל בחלל",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "moon",
+     "title_he": "מביטים בירח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A clear night on a Jerusalem rooftop: the two siblings look up at a bright full moon over the stone city, stars scattered across the deep blue sky.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👦 👧",
+     "say": [
+      "תסתכלו על הירח בלילה. במשך אלפי שנים, בני האדם הביטו בו, מדדו לפיו את החודשים, וחלמו להגיע אליו.",
+      "עם ישראל קשור לירח במיוחד: לפיו קובעים את ראשי החודשים ואת החגים, ומקדשים את הלבנה בברכה מיוחדת.",
+      "בשיעור הזה נכיר שני סיפורים ישראליים על החלל: האסטרונאוט הישראלי הראשון, וחללית ישראלית קטנה שיצאה אל הירח.",
+      "ובכל חודש, כשהירח מתחדש, חוגגים ראש חודש. חז״ל אומרים שהלבנה מזכירה לנו שגם עם ישראל עתיד להתחדש כמוה."
+     ],
+     "pasuk": {
+      "text": "כִּי אֶרְאֶה שָׁמֶיךָ מַעֲשֵׂה אֶצְבְּעֹתֶיךָ, יָרֵחַ וְכוֹכָבִים אֲשֶׁר כּוֹנָנְתָּה",
+      "ref": "תהלים ח, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "ramon",
+     "title_he": "האסטרונאוט הישראלי הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Ilan Ramon: an Israeli astronaut in his late forties with short dark hair and a warm smile, in a blue astronaut flight suit. Scene: A space shuttle on its launch pad at dawn in Florida, white and tall against a pink sky; in the foreground Ilan Ramon walks with other astronauts in flight suits, waving.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🚀",
+     "say": [
+      "אילן רמון היה טייס מצטיין בחיל האוויר. בשנת 2003 הוא טס לחלל כאסטרונאוט הישראלי הראשון, במעבורת החלל האמריקאית ״קולומביה״, עם שישה אסטרונאוטים נוספים.",
+      "רמון לא גדל בבית דתי. אבל הוא אמר שהוא מרגיש שליח של כל עם ישראל, ולכן רצה לקחת איתו לחלל דברים שמייצגים את כל העם.",
+      "הוא ביקש אוכל כשר, ושאל רבנים איך שומרים שבת בחלל, כשהמעבורת מקיפה את כדור הארץ, והשמש זורחת ושוקעת בערך כל תשעים דקות.",
+      "לפני הטיסה התאמן רמון כמה שנים בארצות הברית, עם צוות האסטרונאוטים. הוא למד לעבוד בלי כוח משיכה, לבצע ניסויים מדעיים, ולהתמודד עם מצבי חירום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לפי מה שסופר, הרבנים השיבו לאילן רמון שבחלל ישמור שבת לפי השעון של המקום שממנו שוגר, בפלורידה."
+     }
+    },
+    {
+     "id": "sefer",
+     "title_he": "ספר התורה מברגן־בלזן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Inside a dark wooden barrack of a camp in wartime, told gently: an elderly rabbi with a beard, in a worn coat, secretly hands a tiny Torah scroll to a thin thirteen-year-old boy by the light of a small candle; faces full of faith.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👦",
+     "say": [
+      "והנה הסיפור המרגש ביותר. רמון לקח איתו ספר תורה קטנטן, שיש לו סיפור מיוחד.",
+      "בזמן השואה, במחנה ברגן־בלזן, הכין רב בשם שמעון דסברג נער יהודי בשם יואכים יוסף לבר המצווה, בסתר. הרב נתן לנער ספר תורה קטן, וביקש ממנו: אם תשרוד, ספר לעולם מה קרה כאן.",
+      "הרב עצמו לא שרד. אבל הנער, יואכים יוסף, ניצל, עלה לארץ ישראל ונעשה מדען. שנים רבות אחר כך הוא נתן את הספר לאילן רמון.",
+      "וכך, ספר תורה שעבר את המקום החשוך ביותר, עלה אל השמיים, הרחק מעל כדור הארץ. איזה סמל: עם ישראל חי.",
+      "יואכים יוסף שמר על הספר הקטן שנים רבות, כמו על אוצר, וזכר תמיד את בקשתו של הרב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יואכים יוסף היה בעצמו חוקר חלל, ועבד יחד עם אילן רמון על ניסוי מדעי שנערך במעבורת."
+     }
+    },
+    {
+     "id": "shema",
+     "title_he": "שמע ישראל מהחלל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Ilan Ramon: an Israeli astronaut in his late forties with short dark hair and a warm smile, in a blue astronaut flight suit. Scene: Inside the shuttle cabin floating in weightlessness, Ilan Ramon gently holds up a tiny Torah scroll toward the window; through it, the blue Earth and the coast of Israel glow far below.",
+     "move": "in",
+     "fx": "stars",
+     "art": "🌍",
+     "say": [
+      "רמון לקח איתו גם גביע קידוש, כדי לקדש את השבת גם בחלל.",
+      "ובשידור מהחלל, כשהמעבורת חלפה מעל ירושלים, הוא הראה את ספר התורה הקטן ואמר: ״שמע ישראל, ה׳ אלוקינו, ה׳ אחד״.",
+      "תחשבו על זה: בתוך מעבורת חלל, הרחק מעל כדור הארץ, יהודי אומר את אותן מילים שאמרו אבותינו בכל הדורות, ושאנחנו אומרים כל ערב לפני השינה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "memory",
+     "title_he": "זכרו לברכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A quiet memorial scene at night: a single memorial candle burning on a stone ledge beneath a vast starry sky, seven small stars shining a little brighter above; calm and respectful.",
+     "move": "up",
+     "fx": "stars",
+     "art": "🕯️",
+     "say": [
+      "אחרי שישה עשר ימים בחלל, קולומביה יצאה לדרך חזרה. אבל דקות ספורות לפני הנחיתה, המעבורת התפרקה בשמיים. אילן רמון וששת חבריו נהרגו.",
+      "כל עם ישראל התאבל. ספר התורה וגביע הקידוש לא חזרו.",
+      "אבל דבר אחד מופלא נמצא: דפים מהיומן שכתב אילן רמון בחלל. באחד הדפים העתיק בכתב ידו את נוסח הקידוש.",
+      "אילן רמון זכור עד היום. בתי ספר ורחובות רבים בארץ נקראים על שמו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "beresheet",
+     "title_he": "החללית בראשית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A small four-legged spacecraft with gold foil and round fuel tanks floats in black space, the blue Earth glowing behind it; a tiny plaque with a flag shape on its side, no readable text.",
+     "move": "right",
+     "fx": "stars",
+     "art": "🚀",
+     "say": [
+      "שש עשרה שנה אחרי קולומביה, יצאה לחלל חללית ישראלית קטנה, בגודל של מכונת כביסה בערך. שמה היה ״בראשית״.",
+      "היא נבנתה בידי עמותה בשם ״ספייס־איי־אל״, יחד עם התעשייה האווירית. החלום: שישראל תהיה המדינה הרביעית בעולם שמנחיתה חללית על הירח, אחרי שלוש מעצמות ענק.",
+      "בראשית שוגרה בחורף 2019, וטסה כשבעה שבועות, בסיבובים הולכים וגדלים סביב כדור הארץ, עד שנכנסה למסלול סביב הירח.",
+      "בדרך היא שלחה תמונה מרגשת: החללית, ומאחוריה כדור הארץ, ועליה שלט קטן עם המילים ״עם ישראל חי״.",
+      "החללית נבנתה בתקציב קטן בהרבה מזה של חלליות המעצמות, ובעזרת מתנדבים ותורמים רבים. גם זה היה חלק מהחלום: להראות שגם מדינה קטנה יכולה להגיע רחוק."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בתוך בראשית הייתה ״קפסולת זמן״ קטנה, ובה גם ספר תנ״ך זעיר וציורים של ילדים."
+     }
+    },
+    {
+     "id": "fall",
+     "title_he": "שבע ייפול צדיק וקם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A control room at night: engineers in shirts, men with kippot and women in long skirts, stand watching large screens showing the grey surface of the Moon, their faces disappointed but determined, a hand on a friend's shoulder.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👩",
+     "say": [
+      "באחד עשר באפריל 2019 התחילה הנחיתה. כולם צפו בהתרגשות. אבל רגע לפני הנגיעה, תקלה עצרה את המנוע, והחללית התרסקה על הירח.",
+      "זו הייתה אכזבה גדולה. ובכל זאת, ישראל נעשתה המדינה השביעית שחללית שלה הקיפה את הירח, וחללית ישראלית הגיעה עד פני הירח עצמם.",
+      "ומה אמרו האנשים שבנו אותה? אם לא הצלחנו בפעם הראשונה, ננסה שוב. כמו שאמר שלמה המלך: ״כי שבע ייפול צדיק וקם״.",
+      "אחרי הכישלון התחילו להכין חללית חדשה, ״בראשית 2״. החלום ממשיך."
+     ],
+     "pasuk": {
+      "text": "כִּי שֶׁבַע יִפּוֹל צַדִּיק וָקָם",
+      "ref": "משלי כד, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "עם ישראל חי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The two siblings and their father with a kippah stand outside under the waxing moon reciting from small siddurim, the stone houses of a Jerusalem neighborhood around them.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👨 👦 👧",
+     "say": [
+      "אז מה למדנו? אילן רמון, האסטרונאוט הישראלי הראשון, לקח לחלל ספר תורה מברגן־בלזן וגביע קידוש, ואמר שם ״שמע ישראל״.",
+      "והחללית בראשית הגיעה עד הירח, עם השלט ״עם ישראל חי״. גם כשנכשלה, למדנו לקום ולנסות שוב.",
+      "בשיעור הבא והאחרון נראה איך התורה והמדע נפגשים בחיי היום יום שלנו: בזמני התפילה, בשבת ובשמיטה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "ישראל בחלל",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "moon",
+     "title_he": "מביטים בירח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A clear night on a Jerusalem rooftop: the two siblings look up at a bright full moon over the stone city, stars scattered across the deep blue sky.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👦 👧",
+     "say": [
+      "תסתכלו על הירח בלילה. במשך אלפי שנים, בני האדם הביטו בו, מדדו לפיו את החודשים, וחלמו להגיע אליו.",
+      "עם ישראל קשור לירח במיוחד: לפיו קובעים את ראשי החודשים ואת החגים, ומקדשים את הלבנה בברכה מיוחדת.",
+      "בשיעור הזה נכיר שני סיפורים ישראליים על החלל: האסטרונאוט הישראלי הראשון, וחללית ישראלית קטנה שיצאה אל הירח.",
+      "ובכל חודש, כשהירח מתחדש, חוגגים ראש חודש. חז״ל אומרים שהלבנה מזכירה לנו שגם עם ישראל עתיד להתחדש כמוה.",
+      "ועל ברכת הלבנה אמרו חז״ל במסכת סנהדרין: ״כל המברך על החודש בזמנו, כאילו מקבל פני שכינה״. לכן נוהגים לומר אותה בשמחה, בחוץ, תחת השמיים, ובדרך כלל במוצאי שבת."
+     ],
+     "pasuk": {
+      "text": "כִּי אֶרְאֶה שָׁמֶיךָ מַעֲשֵׂה אֶצְבְּעֹתֶיךָ, יָרֵחַ וְכוֹכָבִים אֲשֶׁר כּוֹנָנְתָּה",
+      "ref": "תהלים ח, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "ramon",
+     "title_he": "האסטרונאוט הישראלי הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Ilan Ramon: an Israeli astronaut in his late forties with short dark hair and a warm smile, in a blue astronaut flight suit. Scene: A space shuttle on its launch pad at dawn in Florida, white and tall against a pink sky; in the foreground Ilan Ramon walks with other astronauts in flight suits, waving.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🚀",
+     "say": [
+      "אילן רמון היה טייס מצטיין בחיל האוויר. בשנת 2003 הוא טס לחלל כאסטרונאוט הישראלי הראשון, במעבורת החלל האמריקאית ״קולומביה״, עם שישה אסטרונאוטים נוספים.",
+      "רמון לא גדל בבית דתי. אבל הוא אמר שהוא מרגיש שליח של כל עם ישראל, ולכן רצה לקחת איתו לחלל דברים שמייצגים את כל העם.",
+      "הוא ביקש אוכל כשר, ושאל רבנים איך שומרים שבת בחלל, כשהמעבורת מקיפה את כדור הארץ, והשמש זורחת ושוקעת בערך כל תשעים דקות.",
+      "לפני הטיסה התאמן רמון כמה שנים בארצות הברית, עם צוות האסטרונאוטים. הוא למד לעבוד בלי כוח משיכה, לבצע ניסויים מדעיים, ולהתמודד עם מצבי חירום.",
+      "רמון, שאמו ניצלה מהשואה, אמר שהוא רוצה להראות שהעם היהודי, שעבר את השואה, ממשיך לחיות, ומגיע אפילו עד השמיים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לפי מה שסופר, הרבנים השיבו לאילן רמון שבחלל ישמור שבת לפי השעון של המקום שממנו שוגר, בפלורידה."
+     }
+    },
+    {
+     "id": "sefer",
+     "title_he": "ספר התורה מברגן־בלזן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Inside a dark wooden barrack of a camp in wartime, told gently: an elderly rabbi with a beard, in a worn coat, secretly hands a tiny Torah scroll to a thin thirteen-year-old boy by the light of a small candle; faces full of faith.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👦",
+     "say": [
+      "והנה הסיפור המרגש ביותר. רמון לקח איתו ספר תורה קטנטן, שיש לו סיפור מיוחד.",
+      "בזמן השואה, במחנה ברגן־בלזן, הכין רב בשם שמעון דסברג נער יהודי בשם יואכים יוסף לבר המצווה, בסתר. הרב נתן לנער ספר תורה קטן, וביקש ממנו: אם תשרוד, ספר לעולם מה קרה כאן.",
+      "הרב עצמו לא שרד. אבל הנער, יואכים יוסף, ניצל, עלה לארץ ישראל ונעשה מדען. שנים רבות אחר כך הוא נתן את הספר לאילן רמון.",
+      "וכך, ספר תורה שעבר את המקום החשוך ביותר, עלה אל השמיים, הרחק מעל כדור הארץ. איזה סמל: עם ישראל חי.",
+      "הסיפור הזה מזכיר את דברי חז״ל על הלוחות: בארון הברית היו מונחים הלוחות השלמים, וגם שברי הלוחות הראשונים. גם הזיכרון של מה שנשבר נישא איתנו, יחד עם התקווה והבנייה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יואכים יוסף היה בעצמו חוקר חלל, ועבד יחד עם אילן רמון על ניסוי מדעי שנערך במעבורת."
+     }
+    },
+    {
+     "id": "shema",
+     "title_he": "שמע ישראל מהחלל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Ilan Ramon: an Israeli astronaut in his late forties with short dark hair and a warm smile, in a blue astronaut flight suit. Scene: Inside the shuttle cabin floating in weightlessness, Ilan Ramon gently holds up a tiny Torah scroll toward the window; through it, the blue Earth and the coast of Israel glow far below.",
+     "move": "in",
+     "fx": "stars",
+     "art": "🌍",
+     "say": [
+      "רמון לקח איתו גם גביע קידוש, כדי לקדש את השבת גם בחלל.",
+      "ובשידור מהחלל, כשהמעבורת חלפה מעל ירושלים, הוא הראה את ספר התורה הקטן ואמר: ״שמע ישראל, ה׳ אלוקינו, ה׳ אחד״.",
+      "תחשבו על זה: בתוך מעבורת חלל, הרחק מעל כדור הארץ, יהודי אומר את אותן מילים שאמרו אבותינו בכל הדורות, ושאנחנו אומרים כל ערב לפני השינה.",
+      "״שמע ישראל״ הוא הפסוק שיהודים אמרו בכל הדורות, ברגעי שמחה וברגעים קשים. רבי עקיבא אמר אותו כשמסר את נפשו על קידוש השם. ואילן רמון, מעל כדור הארץ, אמר אותו כשליח של עמו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "memory",
+     "title_he": "זכרו לברכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A quiet memorial scene at night: a single memorial candle burning on a stone ledge beneath a vast starry sky, seven small stars shining a little brighter above; calm and respectful.",
+     "move": "up",
+     "fx": "stars",
+     "art": "🕯️",
+     "say": [
+      "אחרי שישה עשר ימים בחלל, קולומביה יצאה לדרך חזרה. אבל דקות ספורות לפני הנחיתה, המעבורת התפרקה בשמיים. אילן רמון וששת חבריו נהרגו.",
+      "כל עם ישראל התאבל. ספר התורה וגביע הקידוש לא חזרו.",
+      "אבל דבר אחד מופלא נמצא: דפים מהיומן שכתב אילן רמון בחלל. באחד הדפים העתיק בכתב ידו את נוסח הקידוש.",
+      "אילן רמון זכור עד היום. בתי ספר ורחובות רבים בארץ נקראים על שמו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "beresheet",
+     "title_he": "החללית בראשית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A small four-legged spacecraft with gold foil and round fuel tanks floats in black space, the blue Earth glowing behind it; a tiny plaque with a flag shape on its side, no readable text.",
+     "move": "right",
+     "fx": "stars",
+     "art": "🚀",
+     "say": [
+      "שש עשרה שנה אחרי קולומביה, יצאה לחלל חללית ישראלית קטנה, בגודל של מכונת כביסה בערך. שמה היה ״בראשית״.",
+      "היא נבנתה בידי עמותה בשם ״ספייס־איי־אל״, יחד עם התעשייה האווירית. החלום: שישראל תהיה המדינה הרביעית בעולם שמנחיתה חללית על הירח, אחרי שלוש מעצמות ענק.",
+      "בראשית שוגרה בחורף 2019, וטסה כשבעה שבועות, בסיבובים הולכים וגדלים סביב כדור הארץ, עד שנכנסה למסלול סביב הירח.",
+      "בדרך היא שלחה תמונה מרגשת: החללית, ומאחוריה כדור הארץ, ועליה שלט קטן עם המילים ״עם ישראל חי״.",
+      "החללית נבנתה בתקציב קטן בהרבה מזה של חלליות המעצמות, ובעזרת מתנדבים ותורמים רבים. גם זה היה חלק מהחלום: להראות שגם מדינה קטנה יכולה להגיע רחוק."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בתוך בראשית הייתה ״קפסולת זמן״ קטנה, ובה גם ספר תנ״ך זעיר וציורים של ילדים."
+     }
+    },
+    {
+     "id": "fall",
+     "title_he": "שבע ייפול צדיק וקם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A control room at night: engineers in shirts, men with kippot and women in long skirts, stand watching large screens showing the grey surface of the Moon, their faces disappointed but determined, a hand on a friend's shoulder.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👩",
+     "say": [
+      "באחד עשר באפריל 2019 התחילה הנחיתה. כולם צפו בהתרגשות. אבל רגע לפני הנגיעה, תקלה עצרה את המנוע, והחללית התרסקה על הירח.",
+      "זו הייתה אכזבה גדולה. ובכל זאת, ישראל נעשתה המדינה השביעית שחללית שלה הקיפה את הירח, וחללית ישראלית הגיעה עד פני הירח עצמם.",
+      "ומה אמרו האנשים שבנו אותה? אם לא הצלחנו בפעם הראשונה, ננסה שוב. כמו שאמר שלמה המלך: ״כי שבע ייפול צדיק וקם״.",
+      "יש מפרשים שלמדו מהפסוק הזה שדווקא דרך הנפילות הצדיק נעשה צדיק: מי שקם אחרי כל נפילה, מתחזק. כך גם בלימוד: מי שלא מבין, ממשיך לשאול, עד שהוא מבין."
+     ],
+     "pasuk": {
+      "text": "כִּי שֶׁבַע יִפּוֹל צַדִּיק וָקָם",
+      "ref": "משלי כד, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "rambam",
+     "title_he": "מתבוננים ואוהבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Planet Earth seen from space as a beautiful blue and white sphere floating in endless darkness, the thin glowing edge of the atmosphere, the Moon small in the distance, soft light from above.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🌍",
+     "say": [
+      "הרמב״ם כותב בהלכות יסודי התורה: מהי הדרך לאהבת השם וליראתו? כשהאדם מתבונן במעשיו ובברואיו הנפלאים, ורואה מהם את חכמתו שאין לה סוף, מיד הוא אוהב ומשבח.",
+      "כך הרגישו גם אסטרונאוטים רבים. כשראו מהחלל את כדור הארץ, כדור כחול ויפה בתוך חושך אינסופי, הם הרגישו כמה העולם מופלא, וכמה האדם קטן.",
+      "ובכל חודש, כשהירח הולך ומתמלא, אנחנו יוצאים תחת כיפת השמיים ומקדשים את הלבנה: ״ברוך... אשר במאמרו ברא שחקים, וברוח פיו כל צבאם״.",
+      "המדע מגלה לנו עוד ועוד על השמיים, והתורה מלמדת אותנו מה לעשות עם הפליאה: להודות ולשבח.",
+      "דוד המלך אמר: ״מה רבו מעשיך ה׳״. וככל שהמדע מגלה עוד ועוד כוכבים, הפסוק הזה נעשה גדול יותר בעינינו."
+     ],
+     "pasuk": {
+      "text": "וְהֵיאַךְ הִיא הַדֶּרֶךְ לְאַהֲבָתוֹ וְיִרְאָתוֹ? בְּשָׁעָה שֶׁיִּתְבּוֹנֵן הָאָדָם בְּמַעֲשָׂיו וּבְרוּאָיו הַנִּפְלָאִים הַגְּדוֹלִים",
+      "ref": "רמב״ם, הלכות יסודי התורה ב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "עם ישראל חי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The two siblings and their father with a kippah stand outside under the waxing moon reciting from small siddurim, the stone houses of a Jerusalem neighborhood around them.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👨 👦 👧",
+     "say": [
+      "אז מה למדנו? אילן רמון, האסטרונאוט הישראלי הראשון, לקח לחלל ספר תורה מברגן־בלזן וגביע קידוש, ואמר שם ״שמע ישראל״.",
+      "והחללית בראשית הגיעה עד הירח, עם השלט ״עם ישראל חי״. גם כשנכשלה, למדנו לקום ולנסות שוב.",
+      "בשיעור הבא והאחרון נראה איך התורה והמדע נפגשים בחיי היום יום שלנו: בזמני התפילה, בשבת ובשמיטה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה שם המעבורת שבה טס אילן רמון?",
+   "answer": "קולומביה",
+   "options": [
+    "קולומביה",
+    "בראשית",
+    "אפולו"
+   ],
+   "explain_he": "אילן רמון טס בשנת 2003 במעבורת החלל האמריקאית ״קולומביה״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה שם המעבורת שבה טס אילן רמון?",
+   "answer": "קולומביה",
+   "options": [
+    "קולומביה",
+    "בראשית",
+    "אפולו"
+   ],
+   "explain_he": "אילן רמון טס בשנת 2003 במעבורת החלל האמריקאית ״קולומביה״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה הגיע ספר התורה הקטן שלקח רמון לחלל?",
+   "answer": "ממחנה ברגן־בלזן, מבר המצווה של יואכים יוסף",
+   "options": [
+    "ממחנה ברגן־בלזן, מבר המצווה של יואכים יוסף",
+    "מבית כנסת בטבריה",
+    "מחנות ספרים בניו יורק"
+   ],
+   "explain_he": "הרב שמעון דסברג נתן את הספר לנער יואכים יוסף, והוא נתן אותו לרמון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה הגיע ספר התורה הקטן שלקח רמון לחלל?",
+   "answer": "ממחנה ברגן־בלזן, מבר המצווה של יואכים יוסף",
+   "options": [
+    "ממחנה ברגן־בלזן, מבר המצווה של יואכים יוסף",
+    "מבית כנסת בטבריה",
+    "מחנות ספרים בניו יורק"
+   ],
+   "explain_he": "הרב שמעון דסברג נתן את הספר לנער יואכים יוסף, והוא נתן אותו לרמון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה כתוב על השלט בתמונה של בראשית?",
+   "answer": "״עם ישראל חי״",
+   "options": [
+    "״עם ישראל חי״",
+    "״שלום עולם״",
+    "״ירושלים של זהב״"
+   ],
+   "explain_he": "בתמונה מהחלל נראה שלט קטן עם המילים ״עם ישראל חי״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה כתוב על השלט בתמונה של בראשית?",
+   "answer": "״עם ישראל חי״",
+   "options": [
+    "״עם ישראל חי״",
+    "״שלום עולם״",
+    "״ירושלים של זהב״"
+   ],
+   "explain_he": "בתמונה מהחלל נראה שלט קטן עם המילים ״עם ישראל חי״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדנו מכישלון הנחיתה של בראשית?",
+   "answer": "לא מתייאשים: ״שבע ייפול צדיק וקם״",
+   "options": [
+    "לא מתייאשים: ״שבע ייפול צדיק וקם״",
+    "שאין טעם לנסות",
+    "שהירח רחוק מדי"
+   ],
+   "explain_he": "גם אחרי כישלון קמים ומנסים שוב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדנו מכישלון הנחיתה של בראשית?",
+   "answer": "לא מתייאשים: ״שבע ייפול צדיק וקם״",
+   "options": [
+    "לא מתייאשים: ״שבע ייפול צדיק וקם״",
+    "שאין טעם לנסות",
+    "שהירח רחוק מדי"
+   ],
+   "explain_he": "גם אחרי כישלון קמים ומנסים שוב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שאל אילן רמון את הרבנים?",
+   "answer": "איך שומרים שבת בחלל",
+   "options": [
+    "איך שומרים שבת בחלל",
+    "איך טסים מהר",
+    "מה לאכול על הירח"
+   ],
+   "explain_he": "בחלל השמש זורחת ושוקעת בערך כל תשעים דקות, ולכן שאל איך לשמור שבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שאל אילן רמון את הרבנים?",
+   "answer": "איך שומרים שבת בחלל",
+   "options": [
+    "איך שומרים שבת בחלל",
+    "איך טסים מהר",
+    "מה לאכול על הירח"
+   ],
+   "explain_he": "בחלל השמש זורחת ושוקעת בערך כל תשעים דקות, ולכן שאל איך לשמור שבת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הרמב״ם, מהי הדרך לאהבת השם?",
+   "answer": "להתבונן במעשיו ובברואיו הנפלאים",
+   "options": [
+    "להתבונן במעשיו ובברואיו הנפלאים",
+    "לטוס לחלל",
+    "להצליח בעבודה"
+   ],
+   "explain_he": "המתבונן בבריאה רואה את חכמת הבורא, ומיד אוהב ומשבח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נמצא מהיומן של רמון?",
+   "answer": "דפים, ובאחד מהם נוסח הקידוש בכתב ידו",
+   "options": [
+    "דפים, ובאחד מהם נוסח הקידוש בכתב ידו",
+    "ספר התורה השלם",
+    "גביע הקידוש"
+   ],
+   "explain_he": "ספר התורה והגביע לא חזרו, אבל דפים מהיומן נמצאו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f5e14"
+  }
+ ]
+}

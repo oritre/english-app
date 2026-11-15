@@ -1,0 +1,241 @@
+{
+ "id": "k-egf-f1",
+ "unit_id": "k-egf-u1",
+ "course": "egypt",
+ "title_he": "הנילוס, נהר החיים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🔺 ידע כללי",
+   "title_he": "הנילוס, נהר החיים",
+   "ref_he": "מצרים העתיקה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "נהר באמצע המדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A view from high above ancient Egypt: a long blue river winding through endless golden desert, with a narrow bright green strip of fields and palm trees on both banks, early morning light.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏜️",
+     "say": [
+      "דמיינו שאתם ציפור שעפה גבוה מעל מדבר ענק. חול צהוב לכל הכיוונים.",
+      "ופתאום, באמצע המדבר, פס כחול ארוך ארוך, ומשני הצדדים שלו רצועה ירוקה של שדות ועצי תמר.",
+      "הפס הכחול הוא הנילוס, והרצועה הירוקה היא מצרים העתיקה.",
+      "מצרים כמעט כולה מדבר. רק חלק קטן ממנה, בערך אחד מכל עשרים, ירוק ומיושב.",
+      "היום נצא למסע לארץ הזאת, ארץ שבני ישראל חיו בה מאות שנים. ונבין למה כל החיים בה היו תלויים בנהר אחד.",
+      "בשביל בני ישראל, מצרים היא לא סתם ארץ רחוקה. שם המשפחה של יעקב גדלה והייתה לעם, ומשם יצאנו לחירות.",
+      "אז בואו נכיר אותה טוב: את הנהר, את המלכים, את הכתב ואת החיים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הנהר הארוך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: The Nile flowing north through Egypt at midday: wide calm water, papyrus reeds along the banks, a wooden sailboat with a white sail, a heron standing in the shallows.",
+     "move": "right",
+     "fx": null,
+     "art": "⛵",
+     "say": [
+      "הנילוס הוא אחד הנהרות הארוכים בעולם, באורך של בערך 6,650 קילומטרים.",
+      "הוא מתחיל עמוק בתוך אפריקה, וזורם צפונה, דרך כל מצרים, עד שהוא נשפך לים התיכון.",
+      "בדרך הוא עובר בין סלעים ומפלים, ובתוך מצרים הוא נעשה רחב ושקט.",
+      "בתורה קוראים לנילוס \"היאור\". כשפרעה חלם את החלום המפורסם, הוא עמד על היאור.",
+      "על שפת הנהר צומחים קני סוף ופפירוס גבוהים, וחיים בו דגים רבים, ציפורי מים, וגם תנינים ובהמות יאור כבדות.",
+      "בתוך כל המדבר הזה, הנילוס הוא כמו עורק של חיים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הנילוס הוא אחד הנהרות הארוכים בעולם: בערך 6,650 קילומטרים! והוא זורם מדרום לצפון, אל הים התיכון."
+     }
+    },
+    {
+     "id": "s2b",
+     "title_he": "הדלתא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: The green Nile delta seen from a low hill: many river branches spreading like fingers through lush fields and pastures, flocks of sheep, reed marshes with birds, a distant sea on the horizon.",
+     "move": "out",
+     "fx": "light",
+     "art": "🐑",
+     "say": [
+      "ככל שהנילוס מתקרב לים, הוא מתפצל לזרועות רבות, כמו אצבעות של יד פתוחה. השטח הזה נקרא הדלתא.",
+      "למה דלתא? כי צורתו משולש, כמו האות היוונית דלתא. והוא האזור הכי ירוק ופורה במצרים.",
+      "התורה משבחת את מצרים כשהיא מתארת את כיכר הירדן לפני חורבן סדום: כגן השם, כארץ מצרים.",
+      "בצפון מצרים, באזור הזה, הייתה כנראה ארץ גושן, שבה גרו בני ישראל עם הצאן שלהם, כי היו בה שטחי מרעה ירוקים."
+     ],
+     "pasuk": {
+      "text": "כגן ה' כארץ מצרים",
+      "ref": "בראשית יג, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "ארץ בלי גשם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A dry Egyptian village under a cloudless blazing sky, cracked earth beyond the last field, a woman in a long linen dress and head covering filling a clay jar at the river bank.",
+     "move": "in",
+     "fx": "dust",
+     "art": "☀️",
+     "say": [
+      "במצרים כמעט אף פעם לא יורד גשם. השמים כחולים ושמש חזקה כל השנה.",
+      "אז מאיפה מים? רק מהנילוס. מי שגר רחוק מהנהר, גר במדבר.",
+      "לכן כמעט כל המצרים גרו קרוב מאוד לגדות הנהר.",
+      "ליד הנהר בנו את הערים והכפרים, ושם היו גם השדות. רק קצת רחוק משם, מתחיל המדבר.",
+      "משה רבנו הזכיר את זה לבני ישראל: במצרים לוקחים מים מהנהר ומשקים בעבודת הרגליים. אבל ארץ ישראל שותה מגשם השמים.",
+      "תחשבו על ההבדל: בארץ ישראל מחכים לגשם ומתפללים עליו. במצרים לא הסתכלו לשמים, אלא רק אל הנהר."
+     ],
+     "pasuk": {
+      "text": "כי הארץ אשר אתה בא שמה לרשתה לא כארץ מצרים הוא... והשקית ברגלך כגן הירק",
+      "ref": "דברים יא, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הגאות הגדולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: The yearly Nile flood: brown river water spreading gently over wide flat fields, villages on small raised mounds like islands, palm trees standing in the water, farmers watching from a hill.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🌊",
+     "say": [
+      "ובכל שנה, בקיץ, קרה דבר מופלא. הנילוס עלה מעל הגדות שלו, והציף את השדות.",
+      "למה? כי רחוק בדרום, בהרים של אפריקה, ירדו גשמים חזקים, והמים זרמו בנהר עד מצרים.",
+      "במשך כמה חודשים השדות היו מכוסים במים. ואז המים ירדו, והשאירו אחריהם בוץ שחור ופורה.",
+      "הבוץ הזה היה שחור, ולכן המצרים קראו לארצם בשם שפירושו \"הארץ השחורה\". והמדבר מסביב נקרא אצלם \"הארץ האדומה\".",
+      "על הבוץ הזה זרעו המצרים חיטה ושעורה, והתבואה צמחה יפה. בלי הגאות, מצרים הייתה מדבר.",
+      "כל שנה המצרים חיכו לגאות, כמו שאנחנו מחכים לגשם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מודדים את הנהר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Egyptian officials in long white robes standing by stone steps going down into the Nile, the steps carved with measuring lines, one of them points at the water level, a scribe writes on papyrus.",
+     "move": "up",
+     "fx": null,
+     "art": "📏",
+     "say": [
+      "המצרים בדקו בכל שנה כמה גבוה עלה הנהר. הם בנו מדרגות אבן לתוך המים, עם סימנים, כמו סרגל ענק.",
+      "אם הנהר עלה מעט מדי, השדות נשארו יבשים, והיה רעב.",
+      "ואם עלה יותר מדי, המים הרסו בתים וכפרים.",
+      "לכן כל מצרים חיכתה ודאגה: איך יהיה הנהר השנה? הכל היה תלוי בו.",
+      "ולכן, כשבא רעב גדול בימי יוסף, היה צריך לתכנן מראש ולאסוף אוכל. על זה נשמע בהמשך."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "היסטוריון יווני קדום בשם הרודוטוס כתב: \"מצרים היא מתנת הנילוס\"."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "הטעות של המצרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Evening on the Nile bank: the river glowing gold in the sunset, an Egyptian palace on the far bank, an empty royal boat moored at the shore, quiet and grand, no people bowing.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🌅",
+     "say": [
+      "ומה קרה בלב של המצרים? הם ראו שהנהר נותן להם חיים, ובמקום להודות לבורא העולם, הם התחילו לעבוד לנהר עצמו, כאילו הוא אל. זו הייתה טעות גדולה.",
+      "פרעה אפילו התגאה, ואמר על עצמו כאילו הוא ברא את הנהר. כך כותב הנביא יחזקאל: לי יאורי ואני עשיתני.",
+      "רש\"י מספר שפרעה רצה שכולם יחשבו שהוא אל, ושהוא לא צריך את הדברים שכל בן אדם צריך.",
+      "אבל הנהר הוא רק מים. את המים, את הגשם ואת השמש ברא השם.",
+      "בפרקים הבאים נראה איך השם הראה לכל מצרים שהנילוס הוא לא אל, ושפרעה הוא רק בן אדם.",
+      "וכך נלמד גם אנחנו: כשמשהו טוב קורה לנו, לא נשכח להודות להשם, שהוא נותן את הכל."
+     ],
+     "pasuk": {
+      "text": "לי יארי ואני עשיתני",
+      "ref": "יחזקאל כט, ג"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-egf-f1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כמעט כל המצרים גרו קרוב לנילוס?",
+   "answer": "כי במצרים כמעט אין גשם, והנהר הוא מקור המים היחיד",
+   "options": [
+    "כי במצרים כמעט אין גשם, והנהר הוא מקור המים היחיד",
+    "כי אהבו לשחות כל יום",
+    "כי המדבר היה קר מדי"
+   ],
+   "explain_he": "במצרים כמעט לא יורד גשם. רק ליד הנילוס יש מים, ולכן שם גרו וגידלו תבואה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה השאירה הגאות של הנילוס על השדות?",
+   "answer": "בוץ שחור ופורה",
+   "options": [
+    "בוץ שחור ופורה",
+    "חול לבן",
+    "מלח"
+   ],
+   "explain_he": "אחרי שהמים ירדו, נשאר על השדות בוץ שחור ופורה, ועליו זרעו חיטה ושעורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הנילוס עלה בכל קיץ?",
+   "answer": "בגלל גשמים חזקים שירדו רחוק בדרום, בהרים של אפריקה",
+   "options": [
+    "בגלל גשמים חזקים שירדו רחוק בדרום, בהרים של אפריקה",
+    "כי ירד הרבה גשם במצרים עצמה",
+    "כי הים התיכון נכנס לתוך הנהר"
+   ],
+   "explain_he": "הגשמים ירדו רחוק בדרום, והמים זרמו בנהר עד מצרים והציפו את השדות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון זורם הנילוס?",
+   "answer": "מדרום לצפון, אל הים התיכון",
+   "options": [
+    "מדרום לצפון, אל הים התיכון",
+    "מצפון לדרום",
+    "ממערב למזרח, אל ארץ ישראל"
+   ],
+   "explain_he": "הנילוס מתחיל בתוך אפריקה וזורם צפונה, עד שהוא נשפך לים התיכון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה הטעות הגדולה של המצרים לגבי הנילוס?",
+   "answer": "הם עבדו לנהר כאילו הוא אל, במקום להודות לבורא",
+   "options": [
+    "הם עבדו לנהר כאילו הוא אל, במקום להודות לבורא",
+    "הם לא שתו ממנו בכלל",
+    "הם ייבשו אותו"
+   ],
+   "explain_he": "הנהר נתן להם חיים, אבל הם עבדו לו כאל. האמת היא שאת המים ברא השם, והנהר הוא רק מים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f1e6"
+  }
+ ]
+}

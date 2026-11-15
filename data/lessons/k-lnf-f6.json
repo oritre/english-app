@@ -1,0 +1,501 @@
+{
+ "id": "k-lnf-f6",
+ "unit_id": "k-lnf-u3",
+ "course": "land",
+ "title_he": "הנגב ואילת",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "הנגב ואילת",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "המדבר הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: The wide Negev desert at sunrise: soft brown and pink hills, a lonely acacia tree, a camel resting, Saba and the children in sun hats with water bottles looking at the endless view.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🐪",
+     "say": [
+      "עכשיו אנחנו נוסעים דרומה, לנגב.",
+      "הנגב הוא מדבר גדול מאוד.",
+      "הוא יותר מחצי מהשטח של המדינה!",
+      "בנגב יש מדבר של חול, ויש גם מדבר של סלעים והרים.",
+      "במדבר צריך כובע, והרבה הרבה מים.",
+      "אבל הנגב לא ריק! יש בו ערים, יישובים, וחיות שיודעות לחיות בחום.",
+      "למשל הגמל, שיכול ללכת ימים רבים בלי לשתות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הנגב גדול מאוד: הוא יותר מחצי מהשטח של מדינת ישראל!"
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "באר שבע ואברהם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient Be'er Sheva: Avraham, an old man with a white beard in a wool robe, stands by a stone well beside a big shady tamarisk tree and an open tent, welcoming tired travelers with water and bread.",
+     "move": "in",
+     "fx": "light",
+     "art": "⛺ 👴",
+     "say": [
+      "זאת באר שבע, העיר הגדולה של הנגב.",
+      "גם כאן גר אברהם אבינו.",
+      "הוא חפר באר מים, ונטע עץ גדול שנותן צל.",
+      "באר היא בור עמוק באדמה, שבתחתית שלו יש מים.",
+      "למקום קראו באר שבע, בגלל שבועה שנשבעו על הבאר.",
+      "כל אורח שעבר במדבר, אברהם נתן לו לאכול ולשתות.",
+      "ואז אמר לו: תודה להשם, שנתן לנו את האוכל."
+     ],
+     "pasuk": {
+      "text": "ויטע אשל בבאר שבע, ויקרא שם בשם ה' אל עולם",
+      "ref": "בראשית כא, לג"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "הבארות של יצחק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The ancient Negev: Yitzchak, a bearded man in a wool robe, watches his servants dig a stone-lined well in the dry ground, sheep waiting nearby, wide desert hills, bright morning.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🐑",
+     "say": [
+      "גם יצחק אבינו גר בנגב.",
+      "הוא חפר בארות מים, אבל הרועים של גרר רבו איתו עליהן.",
+      "יצחק לא רב. הוא הלך וחפר באר חדשה.",
+      "לבאר האחרונה קרא \"רחובות\", ואמר: עכשיו השם הרחיב לנו!",
+      "במדבר, באר מים היא אוצר גדול."
+     ],
+     "pasuk": {
+      "text": "כי עתה הרחיב ה' לנו ופרינו בארץ",
+      "ref": "בראשית כו, כב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מכתש רמון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Makhtesh Ramon: a vast desert crater with colorful layered cliffs in red, yellow and purple, seen from the edge at sunset, a few ibex on the rim, a huge sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛰️",
+     "say": [
+      "תסתכלו למטה! זה מכתש רמון.",
+      "זה בור ענק באדמה, עם קירות של סלעים.",
+      "הוא ארוך מאוד: בערך ארבעים קילומטרים!",
+      "הסלעים בצבעים: אדום, צהוב, ואפילו סגול!",
+      "בלילה רואים שם המון כוכבים, כי אין אורות של עיר.",
+      "מה אומרים כשרואים נוף כל כך יפה? מה רבו מעשיך השם!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שיטפון במדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A winter day in the Negev: dark clouds over the desert and a muddy brown flash flood rushing down a dry riverbed, people watching safely from high ground far away.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🌧️",
+     "say": [
+      "במדבר כמעט לא יורד גשם.",
+      "אבל כשיורד, המים זורמים מהר מאוד בנחלים.",
+      "נחל יבש יכול להפוך פתאום לנהר סוער!",
+      "לכן ביום של גשם, אסור להיכנס לנחלים במדבר.",
+      "מסתכלים רק מרחוק, ושומרים על עצמנו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במדבר אסור להיכנס לנחל ביום גשום, גם אם בשמים מעליך לא רואים עננים. השיטפון יכול להגיע מגשם שירד רחוק!"
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "הערבה הירוקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The Arava valley: long greenhouses and rows of green vegetable plants with thin black drip-irrigation pipes in the middle of the golden desert, a farmer with a hat and long sleeves holding red peppers.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌶️",
+     "say": [
+      "מזרח הנגב נקרא הערבה. גם הוא מדבר חם.",
+      "אבל תראו: יש כאן חממות ירוקות!",
+      "באמצע המדבר, הכל ירוק!",
+      "החקלאים מגדלים פלפלים, עגבניות ותמרים.",
+      "הם משקים כל צמח בטפטוף קטן, כדי לא לבזבז מים.",
+      "הנביא ישעיהו אמר שהמדבר יפרח. והנה הוא פורח!"
+     ],
+     "pasuk": {
+      "text": "יששום מדבר וציה, ותגל ערבה ותפרח כחבצלת",
+      "ref": "ישעיהו לה, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "אילת ושלמה המלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient times on the shore of the Red Sea near Eilat: wooden ships with sails of King Shlomo loading in a bay, red mountains around, sailors in modest tunics, a bright blue sea.",
+     "move": "right",
+     "fx": null,
+     "art": "⛵",
+     "say": [
+      "הגענו לאילת, העיר הכי דרומית בארץ.",
+      "מסביב לעיר יש הרים אדומים, ובקיץ חם שם מאוד.",
+      "היא יושבת על שפת ים סוף.",
+      "כבר שלמה המלך בנה כאן אוניות.",
+      "האוניות שלו הפליגו רחוק, והביאו זהב.",
+      "גם היום אילת היא נמל, ומגיעות אליה אוניות."
+     ],
+     "pasuk": {
+      "text": "ואני עשה המלך שלמה בעציון גבר אשר את אילות, על שפת ים סוף",
+      "ref": "מלכים א ט, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "עולם מתחת למים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Underwater in the Red Sea at Eilat: a colorful coral reef with bright fish in orange, blue and yellow, sunbeams shining down through clear water.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🐠",
+     "say": [
+      "ועכשיו בואו נציץ מתחת למים.",
+      "וואו! יש כאן שונית אלמוגים בכל הצבעים.",
+      "דגים כתומים, כחולים וצהובים שוחים בין האלמוגים.",
+      "אבל זהירות: אסור לגעת באלמוגים, ואסור לשבור אותם.",
+      "כמה יופי השם ברא, גם במקום שבדרך כלל לא רואים!",
+      "מהשלג בחרמון ועד הדגים באילת: איזו ארץ מיוחדת!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השוניות באילת הן בעלי חיים קטנטנים שחיים יחד, ובונים לאט לאט בית גדול של אבן בתוך המים."
+     }
+    }
+   ],
+   "id": "k-lnf-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "הנגב ואילת",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "המדבר הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: The wide Negev desert at sunrise: soft brown and pink hills, a lonely acacia tree, a camel resting, Saba and the children in sun hats with water bottles looking at the endless view.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🐪",
+     "say": [
+      "שלב חדש במסע: הדרום. כאן נמצא הנגב, מדבר גדול שתופס יותר מחצי מהשטח של מדינת ישראל.",
+      "בנגב יורד מעט מאוד גשם, ובקיץ השמש חזקה מאוד. לכן תמיד יוצאים לטייל כאן עם כובע והרבה מים.",
+      "אבל הנגב לא ריק. יש בו ערים, יישובים, חוות, ובעלי חיים שיודעים לחיות בחום.",
+      "בנגב יש מדבר של חול, מדבר של סלעים והרים, ומדבר של גבעות רכות. כל חלק נראה אחרת.",
+      "והמקום הראשון שנבקר בו הוא עיר עתיקה מאוד, עם סיפור על בארות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הנגב גדול מאוד: הוא יותר מחצי מהשטח של מדינת ישראל!"
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "באר שבע ואברהם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient Be'er Sheva: Avraham, an old man with a white beard in a wool robe, stands by a stone well beside a big shady tamarisk tree and an open tent, welcoming tired travelers with water and bread.",
+     "move": "in",
+     "fx": "light",
+     "art": "⛺ 👴",
+     "say": [
+      "באר שבע היא העיר הגדולה של הנגב. השם שלה הגיע מאברהם אבינו.",
+      "אברהם חפר כאן באר, ואבימלך מלך גרר הבטיח בשבועה שהבאר שייכת לאברהם. לכן קראו למקום באר שבע.",
+      "אברהם נטע כאן \"אשל\". חכמינו מסבירים שזה היה מקום אירוח לאורחים: אוכל, שתייה ומקום לישון.",
+      "אחרי שהאורחים אכלו, אברהם לימד אותם לברך את השם שנתן להם הכל. כך, דרך הכנסת אורחים, הוא קירב אנשים להשם."
+     ],
+     "pasuk": {
+      "text": "ויטע אשל בבאר שבע, ויקרא שם בשם ה' אל עולם",
+      "ref": "בראשית כא, לג"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "הבארות של יצחק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The ancient Negev: Yitzchak, a bearded man in a wool robe, watches his servants dig a stone-lined well in the dry ground, sheep waiting nearby, wide desert hills, bright morning.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🐑",
+     "say": [
+      "גם יצחק אבינו גר בנגב, באזור גרר ובאר שבע. הוא חפר מחדש את הבארות של אביו אברהם, שהפלשתים סתמו.",
+      "רועי גרר רבו איתו ואמרו: לנו המים! יצחק לא נלחם. הוא קרא לבאר \"עשק\" והלך הלאה. גם על הבאר השנייה רבו, והוא קרא לה \"שטנה\".",
+      "את הבאר השלישית חפר, ולא רבו עליה. הוא קרא לה \"רחובות\", ואמר: כי עתה הרחיב השם לנו, ופרינו בארץ.",
+      "במדבר, באר מים היא הדבר הכי יקר. ויצחק לימד אותנו לוותר ולרדוף שלום, והשם בירך אותו."
+     ],
+     "pasuk": {
+      "text": "כי עתה הרחיב ה' לנו ופרינו בארץ",
+      "ref": "בראשית כו, כב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מכתש רמון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Makhtesh Ramon: a vast desert crater with colorful layered cliffs in red, yellow and purple, seen from the edge at sunset, a few ibex on the rim, a huge sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛰️",
+     "say": [
+      "עומדים על קצה הצוק, ולמטה נפתח עמק עצום: מכתש רמון. אורכו בערך 40 קילומטרים, ועומקו בערך 500 מטרים.",
+      "הקירות שלו תלולים מאוד, וכשמסתכלים למטה, השבילים והעצים נראים קטנטנים.",
+      "והם עשויים שכבות של סלעים בצבעים: אדום, צהוב, לבן וסגול. יש בו גם אבנים שחורות ומשונות.",
+      "מכתשים כאלה נדירים מאוד בעולם, ובנגב יש כמה מהם.",
+      "בתוך המכתש ובשוליו חיים יעלים, ובלילה השמים כאן מלאים בכוכבים, כי כמעט אין אורות של עיר.",
+      "מול נוף כזה, מרגישים קטנים, ונזכרים בפסוק: מה רבו מעשיך השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שיטפון במדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A winter day in the Negev: dark clouds over the desert and a muddy brown flash flood rushing down a dry riverbed, people watching safely from high ground far away.",
+     "move": "right",
+     "fx": "mist",
+     "art": "🌧️",
+     "say": [
+      "במדבר כמעט אין גשם. אבל כשכבר יורד, קורה משהו מפתיע.",
+      "האדמה הקשה לא מספיקה לבלוע את המים, והם זורמים בבת אחת אל הנחלים היבשים.",
+      "פתאום נחל יבש הופך לנהר סוער של מים חומים. זה נקרא שיטפון.",
+      "לכן בימים של גשם אסור להיכנס לנחלים במדבר. שומרים על הנפש, ומסתכלים רק מרחוק.",
+      "אחרי השיטפון, חלק מהמים נבלעים באדמה ונאספים בבורות. ולפעמים, אחרי הגשם, המדבר מתכסה בפרחים קטנים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במדבר אסור להיכנס לנחל ביום גשום, גם אם בשמים מעליך לא רואים עננים. השיטפון יכול להגיע מגשם שירד רחוק!"
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "הערבה הירוקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The Arava valley: long greenhouses and rows of green vegetable plants with thin black drip-irrigation pipes in the middle of the golden desert, a farmer with a hat and long sleeves holding red peppers.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌶️",
+     "say": [
+      "בעמק הערבה, בין ים המלח לאילת, יש מדבר חם במיוחד. ובכל זאת רואים כאן חממות ושדות ירוקים.",
+      "איך? בעזרת שיטה ישראלית: השקיה בטפטוף. צינורות דקים מביאים טיפה אחרי טיפה ישר לשורש של כל צמח.",
+      "כך לא מבזבזים מים, והמדבר מגדל פלפלים, עגבניות, מלונים ותמרים. השיטה הזאת הגיעה מישראל לכל העולם.",
+      "בערבה גדלים גם עצי תמר רבים. הדבש של שבעת המינים, דבש התמרים, גדל כאן בשפע.",
+      "ישעיהו הנביא אמר: יששום מדבר וציה, ותגל ערבה. בדורות שלנו רואים את המדבר פורח."
+     ],
+     "pasuk": {
+      "text": "יששום מדבר וציה, ותגל ערבה ותפרח כחבצלת",
+      "ref": "ישעיהו לה, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "אילת ושלמה המלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient times on the shore of the Red Sea near Eilat: wooden ships with sails of King Shlomo loading in a bay, red mountains around, sailors in modest tunics, a bright blue sea.",
+     "move": "right",
+     "fx": null,
+     "art": "⛵",
+     "say": [
+      "הגענו לאילת, העיר הכי דרומית בארץ, על שפת ים סוף, בין הרים אדומים.",
+      "אילת מוזכרת כבר בתנ\"ך: שלמה המלך בנה אוניות בעציון גבר, ליד אילות, על שפת ים סוף.",
+      "האוניות של שלמה הפליגו לארץ רחוקה בשם אופיר, וחזרו עמוסות בזהב.",
+      "שלמה המלך היה חכם מכל האדם, והמסחר שלו בים הביא עושר גדול לממלכה.",
+      "גם היום אילת היא נמל, והשער של ישראל לים שבדרום.",
+      "בקיץ החום באילת חזק מאוד, יותר מארבעים מעלות, אבל המים של הים נעימים כל השנה."
+     ],
+     "pasuk": {
+      "text": "ואני עשה המלך שלמה בעציון גבר אשר את אילות, על שפת ים סוף",
+      "ref": "מלכים א ט, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "עולם מתחת למים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Underwater in the Red Sea at Eilat: a colorful coral reef with bright fish in orange, blue and yellow, sunbeams shining down through clear water.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🐠",
+     "say": [
+      "בואו נשים משקפת וננשום דרך שנורקל. מתחת למים של אילת מסתתר עולם צבעוני.",
+      "שונית האלמוגים נראית כמו סלעים ופרחים, אבל היא בנויה מבעלי חיים קטנטנים שחיים יחד.",
+      "בין האלמוגים שוחים דגים בכל צבע שאפשר לדמיין. אסור לגעת בהם או לשבור אלמוגים, כדי לא להרוס את הבית שלהם.",
+      "מהשלג של החרמון ועד הדגים של אילת. איזו ארץ מגוונת!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השוניות באילת הן בעלי חיים קטנטנים שחיים יחד, ובונים לאט לאט בית גדול של אבן בתוך המים."
+     }
+    }
+   ],
+   "id": "k-lnf-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חלק מהמדינה תופס הנגב?",
+   "answer": "יותר מחצי מהשטח",
+   "options": [
+    "יותר מחצי מהשטח",
+    "רק חלק קטן מאוד",
+    "בדיוק רבע"
+   ],
+   "explain_he": "הנגב הוא מדבר גדול, שתופס יותר מחצי מהשטח של מדינת ישראל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חלק מהמדינה תופס הנגב?",
+   "answer": "יותר מחצי מהשטח",
+   "options": [
+    "יותר מחצי מהשטח",
+    "רק חלק קטן מאוד",
+    "בדיוק רבע"
+   ],
+   "explain_he": "הנגב הוא מדבר גדול, שתופס יותר מחצי מהשטח של מדינת ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה אברהם בבאר שבע לאורחים?",
+   "answer": "נתן להם לאכול ולשתות, ולימד אותם להודות להשם",
+   "options": [
+    "נתן להם לאכול ולשתות, ולימד אותם להודות להשם",
+    "ביקש מהם כסף על המים",
+    "שלח אותם להמשיך בלי לעצור"
+   ],
+   "explain_he": "אברהם נטע אשל והכניס אורחים. אחרי האוכל לימד אותם לברך את השם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה אברהם בבאר שבע לאורחים?",
+   "answer": "נתן להם לאכול ולשתות, ולימד אותם להודות להשם",
+   "options": [
+    "נתן להם לאכול ולשתות, ולימד אותם להודות להשם",
+    "ביקש מהם כסף על המים",
+    "שלח אותם להמשיך בלי לעצור"
+   ],
+   "explain_he": "אברהם נטע אשל והכניס אורחים. אחרי האוכל לימד אותם לברך את השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מגדלים ירקות במדבר הערבה בלי לבזבז מים?",
+   "answer": "בהשקיה בטפטוף, טיפה טיפה לכל שורש",
+   "options": [
+    "בהשקיה בטפטוף, טיפה טיפה לכל שורש",
+    "שופכים הרבה מים על כל השדה",
+    "מחכים לגשם שיורד כל יום"
+   ],
+   "explain_he": "צינורות טפטוף מביאים טיפה אחרי טיפה ישר לשורש של הצמח. כך לא מבזבזים מים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מגדלים ירקות במדבר הערבה בלי לבזבז מים?",
+   "answer": "בהשקיה בטפטוף, טיפה טיפה לכל שורש",
+   "options": [
+    "בהשקיה בטפטוף, טיפה טיפה לכל שורש",
+    "שופכים הרבה מים על כל השדה",
+    "מחכים לגשם שיורד כל יום"
+   ],
+   "explain_he": "צינורות טפטוף מביאים טיפה אחרי טיפה ישר לשורש של הצמח. כך לא מבזבזים מים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על שפת איזה ים נמצאת אילת?",
+   "answer": "ים סוף",
+   "options": [
+    "ים סוף",
+    "הים התיכון",
+    "ים המלח"
+   ],
+   "explain_he": "אילת היא העיר הכי דרומית בארץ, והיא נמצאת על שפת ים סוף.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אסור להיכנס לנחל במדבר ביום גשום?",
+   "answer": "כי יכול להגיע שיטפון פתאומי, גם מגשם שירד רחוק",
+   "options": [
+    "כי יכול להגיע שיטפון פתאומי, גם מגשם שירד רחוק",
+    "כי הנחל מתמלא בחול",
+    "כי בגשם יש הרבה נחשים"
+   ],
+   "explain_he": "האדמה לא בולעת את המים, והם זורמים בבת אחת לנחלים. שיטפון יכול להגיע פתאום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הביאו האוניות של שלמה המלך מאופיר?",
+   "answer": "זהב",
+   "options": [
+    "זהב",
+    "עצי ארז",
+    "מלח"
+   ],
+   "explain_he": "שלמה בנה אוניות בעציון גבר ליד אילת, והן חזרו מאופיר עמוסות בזהב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f6e11"
+  }
+ ]
+}

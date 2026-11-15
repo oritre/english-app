@@ -1,0 +1,766 @@
+{
+ "id": "k-inf-f3",
+ "unit_id": "k-inf-u1",
+ "course": "inventors",
+ "title_he": "המצפן והניווט",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "המצפן והניווט",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "sea",
+     "title_he": "באמצע הים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A wooden sailing ship alone on a vast dark sea at night under a sky full of stars, waves glinting in moonlight, a lantern on deck.",
+     "move": "in",
+     "fx": "stars",
+     "art": "⛵",
+     "say": [
+      "דמיינו שאתם על ספינה, באמצע הים הגדול. מסביב רק מים, מים ומים.",
+      "אין שלטים ואין כבישים. איך יודעים לאן לשוט?",
+      "היום נגלה איך ספנים מצאו את הדרך, ואת ההמצאה הקטנה שעזרה להם מאוד: המצפן.",
+      "ספינה שהולכת לאיבוד בים יכולה להסתובב ימים רבים, עד שנגמרים המים והאוכל. לכן חשוב מאוד לדעת את הדרך."
+     ],
+     "pasuk": {
+      "text": "יוֹרְדֵי הַיָּם בָּאֳנִיּוֹת, עֹשֵׂי מְלָאכָה בְּמַיִם רַבִּים. הֵמָּה רָאוּ מַעֲשֵׂי ה׳ וְנִפְלְאוֹתָיו בִּמְצוּלָה",
+      "ref": "תהלים קז, כג-כד"
+     },
+     "note": null
+    },
+    {
+     "id": "stars",
+     "title_he": "לקרוא את השמיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: On the deck of an old ship at night, a bearded sailor in a long coat points up at one bright star while a younger sailor looks along his arm; a glowing band of stars overhead.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨",
+     "say": [
+      "בהתחלה ספנים הסתכלו על השמיים.",
+      "ביום, השמש זורחת במזרח ושוקעת במערב.",
+      "ובלילה יש כוכב אחד שכמעט לא זז: כוכב הצפון. מי שמוצא אותו, יודע איפה צפון!",
+      "אבל מה עושים ביום עם עננים? או בלילה סוער, בלי כוכבים? אז הספנים לא ידעו לאן לשוט."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "needle",
+     "title_he": "המחט שמצביעה צפונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Close-up of a magnetized iron needle on a small floating leaf in a bowl of water, turning on its own; beside it a dark lodestone and an old brass compass with a round dial, warm lamplight.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🧭",
+     "say": [
+      "ואז גילו משהו מופלא: אבן מיוחדת שנקראת אבן שואבת, מגנט.",
+      "אם משפשפים בה מחט ושמים את המחט על מים, היא מסתובבת, ותמיד מצביעה לכיוון צפון!",
+      "ככה נולד המצפן. הוא עובד גם ביום מעונן וגם בלילה חשוך.",
+      "את הסוד הזה גילו בסין, לפני בערך אלף שנה.",
+      "אחר כך שמו את המחט בקופסה קטנה, וסימנו מסביב ארבעה כיוונים: צפון, דרום, מזרח ומערב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "magnet",
+     "title_he": "מגנט ענק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Planet Earth seen from space, with soft glowing curved lines arching from pole to pole around it like a gentle shield; a tiny compass needle in the foreground lines up with them.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "🌍",
+     "say": [
+      "למה המחט מצביעה צפונה? כי כדור הארץ כולו הוא כמו מגנט ענק!",
+      "המגנט הגדול מושך את המחט הקטנה, והיא מסתדרת לפיו.",
+      "הקדוש ברוך הוא ברא את העולם בחכמה, ובני האדם רק גילו את מה שהיה בו תמיד.",
+      "לכן אפשר להשתמש במצפן בכל מקום בעולם, ביבשה ובים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חוקרים גילו שגם ציפורים נודדות רבות נעזרות בכוח המגנטי של כדור הארץ כדי למצוא את הדרך. יש להן מעין מצפן קטן בגוף!"
+     }
+    },
+    {
+     "id": "voyages",
+     "title_he": "מסעות גדולים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Several tall sailing ships with white sails cross a wide blue ocean in bright daylight, dolphins leaping beside them, a far coastline on the horizon.",
+     "move": "right",
+     "fx": "light",
+     "art": "⛵",
+     "say": [
+      "עם המצפן, ספינות יצאו למסעות ארוכים מאוד.",
+      "הן חצו אוקיינוסים ענקיים, והגיעו לארצות רחוקות.",
+      "וכל מסע הוסיף עוד חלק למפות של העולם.",
+      "לפני בערך חמש מאות שנה, ספנים הגיעו בספינות עד אמריקה, ואפילו הקיפו את כל כדור הארץ!",
+      "כל מסע כזה לקח חודשים רבים, והספנים היו צריכים הרבה אומץ וסבלנות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sages",
+     "title_he": "חכמי ישראל והכוכבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A medieval Jewish sage with a beard, kippah and long robe stands on a rooftop at night holding a simple wooden cross-staff up to the stars, scrolls and tables of numbers on a table beside him.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "גם חכמים יהודים עזרו לספנים.",
+      "הרלב״ג, רבי לוי בן גרשון, תיאר מקל מיוחד שמודדים בו את גובה הכוכבים. קראו לו ״מטה יעקב״.",
+      "ורבי אברהם זכות הכין טבלאות של השמש והכוכבים, שעזרו לספנים לדעת איפה הם נמצאים בים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "gomel",
+     "title_he": "יורדי הים מודים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Morning in an old stone synagogue: a man who has just returned from a sea voyage stands by the bimah, the congregation in tallitot listening warmly; soft light from high windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👴",
+     "say": [
+      "ומי שחוזר בשלום מנסיעה בים, עומד בבית הכנסת ומברך ברכה מיוחדת: ברכת הגומל.",
+      "הוא מודה להשם ששמר עליו בדרך. כי גם עם מצפן, השמירה האמיתית היא מהקדוש ברוך הוא."
+     ],
+     "pasuk": {
+      "text": "אַרְבָּעָה צְרִיכִין לְהוֹדוֹת: יוֹרְדֵי הַיָּם, הוֹלְכֵי מִדְבָּרוֹת, וּמִי שֶׁהָיָה חוֹלֶה וְנִתְרַפֵּא, וּמִי שֶׁהָיָה חָבוּשׁ בְּבֵית הָאֲסוּרִים וְיָצָא",
+      "ref": "ברכות נד, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מצפן בטיול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children on a hiking trail in the Galilee hills, the boy holding an open compass and the sister holding a folded paper map, green valley below and blue sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "והיום? יש לנו מכשירי ניווט ולוויינים שעוזרים לנו למצוא את הדרך.",
+      "אבל גם היום, בטיול בטבע, טוב לדעת להשתמש במצפן ולמצוא את הצפון.",
+      "ואם הולכים לאיבוד בטיול? מחפשים את השמש: בבוקר היא במזרח, ובערב במערב.",
+      "ובשיעור הבא? נגלה סוד מבהיק: החשמל!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "המצפן והניווט",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "sea",
+     "title_he": "באמצע הים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A wooden sailing ship alone on a vast dark sea at night under a sky full of stars, waves glinting in moonlight, a lantern on deck.",
+     "move": "in",
+     "fx": "stars",
+     "art": "⛵",
+     "say": [
+      "דמיינו שאתם על ספינת עץ, באמצע הים הגדול. מכל הצדדים רק גלים, עד האופק. אין שלטים, אין דרכים ואין סימנים.",
+      "ספינה שטועה בדרך עלולה להסתובב שבועות בים, עד שנגמרים לה המים והאוכל.",
+      "איך מוצאים את הדרך? היום נגלה איך ניווטו פעם, ומהי ההמצאה הקטנה ששינתה את המסעות בים: המצפן."
+     ],
+     "pasuk": {
+      "text": "יוֹרְדֵי הַיָּם בָּאֳנִיּוֹת, עֹשֵׂי מְלָאכָה בְּמַיִם רַבִּים. הֵמָּה רָאוּ מַעֲשֵׂי ה׳ וְנִפְלְאוֹתָיו בִּמְצוּלָה",
+      "ref": "תהלים קז, כג-כד"
+     },
+     "note": null
+    },
+    {
+     "id": "stars",
+     "title_he": "לקרוא את השמיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: On the deck of an old ship at night, a bearded sailor in a long coat points up at one bright star while a younger sailor looks along his arm; a glowing band of stars overhead.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨",
+     "say": [
+      "הספנים הראשונים למדו לקרוא את השמיים. ביום, השמש זורחת במזרח ושוקעת במערב, ובצהריים היא נמצאת בצד הדרומי של השמיים, אצלנו בארץ ובארצות שמצפון לנו.",
+      "בלילה הם חיפשו כוכב מיוחד, כוכב הצפון. כל הכוכבים נראים כאילו הם מסתובבים בשמיים, אבל כוכב הצפון כמעט לא זז, והוא תמיד מעל הצפון.",
+      "אבל מה עושים ביום מעונן, או בלילה סוער שבו לא רואים אף כוכב? אז הספנים היו אבודים.",
+      "ודוד המלך אמר על הקדוש ברוך הוא: ״מונה מספר לכוכבים, לכולם שמות יקרא״. מי שמכיר את הכוכבים, רואה כמה סדר יש בבריאה.",
+      "ספנים ותיקים לימדו את הצעירים לזהות קבוצות כוכבים, כמו ״העגלה הגדולה״, שעוזרת למצוא את כוכב הצפון."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "שמואל, אחד מחכמי הגמרא, אמר: ״נהירין לי שבילי דשמיא כשבילי דנהרדעא״, כלומר: דרכי השמיים ברורות לי כמו רחובות העיר שלי."
+     }
+    },
+    {
+     "id": "needle",
+     "title_he": "המחט שמצביעה צפונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Close-up of a magnetized iron needle on a small floating leaf in a bowl of water, turning on its own; beside it a dark lodestone and an old brass compass with a round dial, warm lamplight.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🧭",
+     "say": [
+      "בסין גילו לפני בערך אלף שנה סוד מופלא. יש אבן מיוחדת, אבן שואבת, שמושכת אליה ברזל. אם משפשפים בה מחט ברזל, גם המחט נעשית מגנט.",
+      "מניחים את המחט על פיסת עץ קטנה שצפה בקערת מים, והיא מסתובבת לאט, עד שהיא מצביעה צפונה. תמיד צפונה!",
+      "מאוחר יותר הכניסו את המחט לקופסה קטנה, וסימנו סביבה את ארבע רוחות השמיים: צפון, דרום, מזרח ומערב. זה המצפן.",
+      "המצפן עובד גם ביום מעונן, גם בלילה חשוך וגם בסערה. הספנים יכלו סוף סוף לשוט בביטחון גם כשלא ראו שמש וכוכבים.",
+      "ההמצאה הגיעה מסין לארצות המערב, ותוך זמן לא רב כמעט כל ספינה נשאה איתה מצפן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "magnet",
+     "title_he": "מגנט ענק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Planet Earth seen from space, with soft glowing curved lines arching from pole to pole around it like a gentle shield; a tiny compass needle in the foreground lines up with them.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "🌍",
+     "say": [
+      "למה המחט מצביעה דווקא צפונה? בתוך כדור הארץ יש ברזל רב, וכדור הארץ כולו מתנהג כמו מגנט ענק.",
+      "המחט הקטנה מסתדרת לפי הכוח של המגנט הגדול, כמו חייל שעומד בשורה. כך היא מראה תמיד את אותו כיוון.",
+      "הקדוש ברוך הוא ברא את העולם בחכמה, ובני האדם רק גילו את מה שהיה בו מאז ומעולם.",
+      "יש מקומות על כדור הארץ, בעיקר ליד הקטבים, שבהם המחט נוטה קצת הצידה. ספנים טובים למדו לתקן את הסטייה הזאת בעזרת טבלאות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חוקרים גילו שגם ציפורים נודדות רבות נעזרות בכוח המגנטי של כדור הארץ כדי למצוא את הדרך. יש להן מעין מצפן קטן בגוף!"
+     }
+    },
+    {
+     "id": "voyages",
+     "title_he": "מסעות גדולים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Several tall sailing ships with white sails cross a wide blue ocean in bright daylight, dolphins leaping beside them, a far coastline on the horizon.",
+     "move": "right",
+     "fx": "light",
+     "art": "⛵",
+     "say": [
+      "עם המצפן, ספינות העזו לצאת רחוק מהחוף, אל לב האוקיינוסים.",
+      "לפני בערך חמש מאות שנה יצאו ספנים מספרד ומפורטוגל למסעות ענקיים. הם הגיעו לאמריקה, הקיפו את אפריקה בדרך להודו, ובסוף אפילו הקיפו את כל כדור הארץ.",
+      "כל מסע הוסיף עוד חלקים למפה. לאט לאט, בני האדם גילו איך נראה העולם שהקדוש ברוך הוא ברא.",
+      "המסעות האלה היו קשים מאוד. הספינות היו קטנות, המסע ארך חודשים, והמלחים סבלו ממחלות ומסערות. רק בזכות המצפן, המפות והטבלאות העזו לצאת אליהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sages",
+     "title_he": "חכמי ישראל והכוכבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A medieval Jewish sage with a beard, kippah and long robe stands on a rooftop at night holding a simple wooden cross-staff up to the stars, scrolls and tables of numbers on a table beside him.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "ויש בסיפור הזה גם חכמים יהודים.",
+      "הרלב״ג, רבי לוי בן גרשון, שהיה גם מפרש גדול של התנ״ך, תיאר כלי פשוט למדידת הגובה של הכוכבים מעל האופק. הכלי נקרא ״מטה יעקב״, וספנים השתמשו בו מאות שנים.",
+      "מאוחר יותר, רבי אברהם זכות, רב ותוכן גדול מספרד, הכין טבלאות מדויקות של מסלולי השמש והכוכבים. בעזרת טבלאות כאלה ידעו הספנים כמה רחוק הם נמצאים צפונה או דרומה.",
+      "חכמים אלה למדו תורה, ובמקביל חקרו את השמיים, כדי לראות בהם את גדולת הבורא."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רבי אברהם זכות כתב גם ספר היסטוריה חשוב, ״ספר יוחסין״, על שלשלת חכמי ישראל מימי משה רבנו ועד ימיו."
+     }
+    },
+    {
+     "id": "gomel",
+     "title_he": "יורדי הים מודים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Morning in an old stone synagogue: a man who has just returned from a sea voyage stands by the bimah, the congregation in tallitot listening warmly; soft light from high windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👴",
+     "say": [
+      "חז״ל מונים ארבעה שצריכים להודות, והראשונים ברשימה הם יורדי הים. לכן מי שחוזר משיט בים, או מטיסה מעל הים, מברך ברכת הגומל בבית הכנסת.",
+      "וכשיוצאים לדרך אומרים תפילת הדרך. גם עם המצפן הטוב ביותר, והיום גם עם לוויינים, השמירה האמיתית היא מהקדוש ברוך הוא."
+     ],
+     "pasuk": {
+      "text": "אַרְבָּעָה צְרִיכִין לְהוֹדוֹת: יוֹרְדֵי הַיָּם, הוֹלְכֵי מִדְבָּרוֹת, וּמִי שֶׁהָיָה חוֹלֶה וְנִתְרַפֵּא, וּמִי שֶׁהָיָה חָבוּשׁ בְּבֵית הָאֲסוּרִים וְיָצָא",
+      "ref": "ברכות נד, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מצפן בטיול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children on a hiking trail in the Galilee hills, the boy holding an open compass and the sister holding a folded paper map, green valley below and blue sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "והיום? לוויינים שמסתובבים סביב כדור הארץ שולחים אותות, ומכשיר קטן בטלפון או במכונית יודע בדיוק איפה אנחנו, עד כדי כמה מטרים.",
+      "ובכל זאת, ספינות ומטוסים עדיין נושאים מצפן, למקרה שהמכשירים יפסיקו לעבוד. ומטיילים טובים לומדים לנווט במפה ובמצפן.",
+      "וכמו שהמחט פונה תמיד צפונה, כך גם לנו יש כיוון קבוע בחיים: התורה. היא המצפן שלנו, שמראה לנו את הדרך הנכונה בכל מקום.",
+      "המחט הקטנה שגילו לפני אלף שנה ממשיכה להצביע צפונה, בדיוק כמו אז. בשיעור הבא נגלה כוח מסתורי אחר, שמאיר את הבתים שלנו: החשמל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f3e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "המצפן והניווט",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "sea",
+     "title_he": "באמצע הים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A wooden sailing ship alone on a vast dark sea at night under a sky full of stars, waves glinting in moonlight, a lantern on deck.",
+     "move": "in",
+     "fx": "stars",
+     "art": "⛵",
+     "say": [
+      "דמיינו שאתם על ספינת עץ, באמצע הים הגדול. מכל הצדדים רק גלים, עד האופק. אין שלטים, אין דרכים ואין סימנים.",
+      "ספינה שטועה בדרך עלולה להסתובב שבועות בים, עד שנגמרים לה המים והאוכל.",
+      "איך מוצאים את הדרך? היום נגלה איך ניווטו פעם, ומהי ההמצאה הקטנה ששינתה את המסעות בים: המצפן."
+     ],
+     "pasuk": {
+      "text": "יוֹרְדֵי הַיָּם בָּאֳנִיּוֹת, עֹשֵׂי מְלָאכָה בְּמַיִם רַבִּים. הֵמָּה רָאוּ מַעֲשֵׂי ה׳ וְנִפְלְאוֹתָיו בִּמְצוּלָה",
+      "ref": "תהלים קז, כג-כד"
+     },
+     "note": null
+    },
+    {
+     "id": "stars",
+     "title_he": "לקרוא את השמיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: On the deck of an old ship at night, a bearded sailor in a long coat points up at one bright star while a younger sailor looks along his arm; a glowing band of stars overhead.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨",
+     "say": [
+      "הספנים הראשונים למדו לקרוא את השמיים. ביום, השמש זורחת במזרח ושוקעת במערב, ובצהריים היא נמצאת בצד הדרומי של השמיים, אצלנו בארץ ובארצות שמצפון לנו.",
+      "בלילה הם חיפשו כוכב מיוחד, כוכב הצפון. כל הכוכבים נראים כאילו הם מסתובבים בשמיים, אבל כוכב הצפון כמעט לא זז, והוא תמיד מעל הצפון.",
+      "אבל מה עושים ביום מעונן, או בלילה סוער שבו לא רואים אף כוכב? אז הספנים היו אבודים.",
+      "ודוד המלך אמר על הקדוש ברוך הוא: ״מונה מספר לכוכבים, לכולם שמות יקרא״. מי שמכיר את הכוכבים, רואה כמה סדר יש בבריאה.",
+      "במשנה במסכת ראש השנה מסופר שלרבן גמליאל היו ציורים של צורות הלבנה על לוח ועל הקיר שבעלייתו, ובהם בדק את העדים שבאו לקדש את החודש. חכמי ישראל ידעו את מסלולי השמיים, כדי לקיים את המצוות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "שמואל, אחד מחכמי הגמרא, אמר: ״נהירין לי שבילי דשמיא כשבילי דנהרדעא״, כלומר: דרכי השמיים ברורות לי כמו רחובות העיר שלי."
+     }
+    },
+    {
+     "id": "needle",
+     "title_he": "המחט שמצביעה צפונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Close-up of a magnetized iron needle on a small floating leaf in a bowl of water, turning on its own; beside it a dark lodestone and an old brass compass with a round dial, warm lamplight.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🧭",
+     "say": [
+      "בסין גילו לפני בערך אלף שנה סוד מופלא. יש אבן מיוחדת, אבן שואבת, שמושכת אליה ברזל. אם משפשפים בה מחט ברזל, גם המחט נעשית מגנט.",
+      "מניחים את המחט על פיסת עץ קטנה שצפה בקערת מים, והיא מסתובבת לאט, עד שהיא מצביעה צפונה. תמיד צפונה!",
+      "מאוחר יותר הכניסו את המחט לקופסה קטנה, וסימנו סביבה את ארבע רוחות השמיים: צפון, דרום, מזרח ומערב. זה המצפן.",
+      "המצפן עובד גם ביום מעונן, גם בלילה חשוך וגם בסערה. הספנים יכלו סוף סוף לשוט בביטחון גם כשלא ראו שמש וכוכבים.",
+      "ההמצאה הגיעה מסין לארצות המערב, ותוך זמן לא רב כמעט כל ספינה נשאה איתה מצפן.",
+      "המצפן עשה גם מהפכה במסחר: סוחרים, ובהם סוחרים יהודים רבים, יכלו לשלוח סחורות בים בביטחון רב יותר. קהילות יהודיות בערי נמל, כמו ונציה, סלוניקי ואמסטרדם, שמרו על קשר זו עם זו במכתבים ששטו בספינות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "magnet",
+     "title_he": "מגנט ענק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Planet Earth seen from space, with soft glowing curved lines arching from pole to pole around it like a gentle shield; a tiny compass needle in the foreground lines up with them.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "🌍",
+     "say": [
+      "למה המחט מצביעה דווקא צפונה? בתוך כדור הארץ יש ברזל רב, וכדור הארץ כולו מתנהג כמו מגנט ענק.",
+      "המחט הקטנה מסתדרת לפי הכוח של המגנט הגדול, כמו חייל שעומד בשורה. כך היא מראה תמיד את אותו כיוון.",
+      "הקדוש ברוך הוא ברא את העולם בחכמה, ובני האדם רק גילו את מה שהיה בו מאז ומעולם.",
+      "יש מקומות על כדור הארץ, בעיקר ליד הקטבים, שבהם המחט נוטה קצת הצידה. ספנים טובים למדו לתקן את הסטייה הזאת בעזרת טבלאות.",
+      "ויש כאן גם רמז לנו: המחט לא רואה את הקוטב, ובכל זאת היא נמשכת אליו בכוח שאי אפשר לראות. כך גם נשמת היהודי נמשכת אל הקדוש ברוך הוא, גם כשהעיניים לא רואות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חוקרים גילו שגם ציפורים נודדות רבות נעזרות בכוח המגנטי של כדור הארץ כדי למצוא את הדרך. יש להן מעין מצפן קטן בגוף!"
+     }
+    },
+    {
+     "id": "voyages",
+     "title_he": "מסעות גדולים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Several tall sailing ships with white sails cross a wide blue ocean in bright daylight, dolphins leaping beside them, a far coastline on the horizon.",
+     "move": "right",
+     "fx": "light",
+     "art": "⛵",
+     "say": [
+      "עם המצפן, ספינות העזו לצאת רחוק מהחוף, אל לב האוקיינוסים.",
+      "לפני בערך חמש מאות שנה יצאו ספנים מספרד ומפורטוגל למסעות ענקיים. הם הגיעו לאמריקה, הקיפו את אפריקה בדרך להודו, ובסוף אפילו הקיפו את כל כדור הארץ.",
+      "כל מסע הוסיף עוד חלקים למפה. לאט לאט, בני האדם גילו איך נראה העולם שהקדוש ברוך הוא ברא.",
+      "המסעות האלה היו קשים מאוד. הספינות היו קטנות, המסע ארך חודשים, והמלחים סבלו ממחלות ומסערות. רק בזכות המצפן, המפות והטבלאות העזו לצאת אליהם.",
+      "בספר תהלים נאמר על יורדי הים: ״יעלו שמים, ירדו תהומות... ויצעקו אל ה׳ בצר להם, וממצוקותיהם יוציאם״. מי שהפליג בסערה הרגיש בעצמו כמה הוא תלוי בחסדי השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sages",
+     "title_he": "חכמי ישראל והכוכבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A medieval Jewish sage with a beard, kippah and long robe stands on a rooftop at night holding a simple wooden cross-staff up to the stars, scrolls and tables of numbers on a table beside him.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "ויש בסיפור הזה גם חכמים יהודים.",
+      "הרלב״ג, רבי לוי בן גרשון, שהיה גם מפרש גדול של התנ״ך, תיאר כלי פשוט למדידת הגובה של הכוכבים מעל האופק. הכלי נקרא ״מטה יעקב״, וספנים השתמשו בו מאות שנים.",
+      "מאוחר יותר, רבי אברהם זכות, רב ותוכן גדול מספרד, הכין טבלאות מדויקות של מסלולי השמש והכוכבים. בעזרת טבלאות כאלה ידעו הספנים כמה רחוק הם נמצאים צפונה או דרומה.",
+      "חכמים אלה למדו תורה, ובמקביל חקרו את השמיים, כדי לראות בהם את גדולת הבורא.",
+      "הרלב״ג כתב על הכלי הזה בספרו ״מלחמות השם״, ספר שעוסק בשאלות של אמונה ושל צבא השמיים. אצלו, חקר הכוכבים היה חלק מההתבוננות בגדולת הבורא.",
+      "ורבי אברהם זכות, כשגורשו היהודים מספרד ומפורטוגל, יצא לגלות עם בני עמו. הוא נדד לצפון אפריקה, ושם השלים את ״ספר יוחסין״."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רבי אברהם זכות כתב גם ספר היסטוריה חשוב, ״ספר יוחסין״, על שלשלת חכמי ישראל מימי משה רבנו ועד ימיו."
+     }
+    },
+    {
+     "id": "gomel",
+     "title_he": "יורדי הים מודים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Morning in an old stone synagogue: a man who has just returned from a sea voyage stands by the bimah, the congregation in tallitot listening warmly; soft light from high windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👴",
+     "say": [
+      "חז״ל לימדו אותנו שהים הוא מקום של סכנה, ומי שעובר אותו בשלום צריך להודות. במסכת ברכות הם מונים ארבעה שצריכים להודות, והראשונים ברשימה הם יורדי הים.",
+      "לכן מי שחוזר משיט בים, או מטיסה מעל הים, אומר ברכת הגומל בבית הכנסת. וכשיוצאים לדרך, אומרים תפילת הדרך.",
+      "יש כאן מסר עמוק: גם עם המצפן הטוב ביותר, והיום גם עם לוויינים ומחשבים, השמירה האמיתית היא מהקדוש ברוך הוא. הכלים עוזרים לנו, אבל אנחנו לא שוכחים מי מנהיג את העולם.",
+      "ונזכור את יונה הנביא, שניסה לברוח בספינה, ולמד שגם בלב הים אי אפשר לברוח מהקדוש ברוך הוא."
+     ],
+     "pasuk": {
+      "text": "אַרְבָּעָה צְרִיכִין לְהוֹדוֹת: יוֹרְדֵי הַיָּם, הוֹלְכֵי מִדְבָּרוֹת, וּמִי שֶׁהָיָה חוֹלֶה וְנִתְרַפֵּא, וּמִי שֶׁהָיָה חָבוּשׁ בְּבֵית הָאֲסוּרִים וְיָצָא",
+      "ref": "ברכות נד, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מצפן בטיול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children on a hiking trail in the Galilee hills, the boy holding an open compass and the sister holding a folded paper map, green valley below and blue sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "והיום? לוויינים שמסתובבים סביב כדור הארץ שולחים אותות, ומכשיר קטן בטלפון או במכונית יודע בדיוק איפה אנחנו, עד כדי כמה מטרים.",
+      "ובכל זאת, ספינות ומטוסים עדיין נושאים מצפן, למקרה שהמכשירים יפסיקו לעבוד. ומטיילים טובים לומדים לנווט במפה ובמצפן.",
+      "וכמו שהמחט פונה תמיד צפונה, כך גם לנו יש כיוון קבוע בחיים: התורה. היא המצפן שלנו, שמראה לנו את הדרך הנכונה בכל מקום.",
+      "דוד המלך אמר: ״נר לרגלי דברך, ואור לנתיבתי״. התורה היא גם המצפן וגם הפנס של הדרך.",
+      "המחט הקטנה שגילו לפני אלף שנה ממשיכה להצביע צפונה, בדיוק כמו אז. בשיעור הבא נגלה כוח מסתורי אחר, שמאיר את הבתים שלנו: החשמל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון מצביעה מחט המצפן?",
+   "answer": "צפון",
+   "options": [
+    "צפון",
+    "דרום",
+    "מזרח"
+   ],
+   "explain_he": "מחט המצפן מסתדרת לפי המגנט הגדול של כדור הארץ, ומצביעה תמיד צפונה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון מצביעה מחט המצפן?",
+   "answer": "צפון",
+   "options": [
+    "צפון",
+    "דרום",
+    "מזרח"
+   ],
+   "explain_he": "מחט המצפן מסתדרת לפי המגנט הגדול של כדור הארץ, ומצביעה תמיד צפונה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון מצביעה מחט המצפן?",
+   "answer": "צפון",
+   "options": [
+    "צפון",
+    "דרום",
+    "מזרח"
+   ],
+   "explain_he": "מחט המצפן מסתדרת לפי המגנט הגדול של כדור הארץ, ומצביעה תמיד צפונה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כוכב הצפון עזר לספנים?",
+   "answer": "כי הוא כמעט לא זז, והוא מראה איפה צפון",
+   "options": [
+    "כי הוא כמעט לא זז, והוא מראה איפה צפון",
+    "כי הוא הכוכב הכי גדול",
+    "כי הוא זורח רק מעל הים"
+   ],
+   "explain_he": "כל הכוכבים נראים זזים, אבל כוכב הצפון כמעט עומד במקום, תמיד מעל הצפון.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כוכב הצפון עזר לספנים?",
+   "answer": "כי הוא כמעט לא זז, והוא מראה איפה צפון",
+   "options": [
+    "כי הוא כמעט לא זז, והוא מראה איפה צפון",
+    "כי הוא הכוכב הכי גדול",
+    "כי הוא זורח רק מעל הים"
+   ],
+   "explain_he": "כל הכוכבים נראים זזים, אבל כוכב הצפון כמעט עומד במקום, תמיד מעל הצפון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כוכב הצפון עזר לספנים?",
+   "answer": "כי הוא כמעט לא זז, והוא מראה איפה צפון",
+   "options": [
+    "כי הוא כמעט לא זז, והוא מראה איפה צפון",
+    "כי הוא הכוכב הכי גדול",
+    "כי הוא זורח רק מעל הים"
+   ],
+   "explain_he": "כל הכוכבים נראים זזים, אבל כוכב הצפון כמעט עומד במקום, תמיד מעל הצפון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המצפן היה טוב יותר מהשמש והכוכבים?",
+   "answer": "כי הוא עובד גם ביום מעונן ובלילה חשוך",
+   "options": [
+    "כי הוא עובד גם ביום מעונן ובלילה חשוך",
+    "כי הוא מאיר בחושך",
+    "כי הוא מראה כמה מהר שטים"
+   ],
+   "explain_he": "כשלא רואים שמש וכוכבים, המחט עדיין מצביעה צפונה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המצפן היה טוב יותר מהשמש והכוכבים?",
+   "answer": "כי הוא עובד גם ביום מעונן ובלילה חשוך",
+   "options": [
+    "כי הוא עובד גם ביום מעונן ובלילה חשוך",
+    "כי הוא מאיר בחושך",
+    "כי הוא מראה כמה מהר שטים"
+   ],
+   "explain_he": "כשלא רואים שמש וכוכבים, המחט עדיין מצביעה צפונה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המצפן היה טוב יותר מהשמש והכוכבים?",
+   "answer": "כי הוא עובד גם ביום מעונן ובלילה חשוך",
+   "options": [
+    "כי הוא עובד גם ביום מעונן ובלילה חשוך",
+    "כי הוא מאיר בחושך",
+    "כי הוא מראה כמה מהר שטים"
+   ],
+   "explain_he": "כשלא רואים שמש וכוכבים, המחט עדיין מצביעה צפונה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המחט מסתדרת לכיוון צפון?",
+   "answer": "כי כדור הארץ כולו הוא כמו מגנט ענק",
+   "options": [
+    "כי כדור הארץ כולו הוא כמו מגנט ענק",
+    "כי הרוח דוחפת אותה",
+    "כי היא כבדה מצד אחד"
+   ],
+   "explain_he": "כדור הארץ מתנהג כמו מגנט ענק, והמחט הקטנה מסתדרת לפיו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המחט מסתדרת לכיוון צפון?",
+   "answer": "כי כדור הארץ כולו הוא כמו מגנט ענק",
+   "options": [
+    "כי כדור הארץ כולו הוא כמו מגנט ענק",
+    "כי הרוח דוחפת אותה",
+    "כי היא כבדה מצד אחד"
+   ],
+   "explain_he": "כדור הארץ מתנהג כמו מגנט ענק, והמחט הקטנה מסתדרת לפיו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המחט מסתדרת לכיוון צפון?",
+   "answer": "כי כדור הארץ כולו הוא כמו מגנט ענק",
+   "options": [
+    "כי כדור הארץ כולו הוא כמו מגנט ענק",
+    "כי הרוח דוחפת אותה",
+    "כי היא כבדה מצד אחד"
+   ],
+   "explain_he": "כדור הארץ מתנהג כמו מגנט ענק, והמחט הקטנה מסתדרת לפיו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה רבי אברהם זכות?",
+   "answer": "הכין טבלאות מדויקות של מסלולי השמש והכוכבים",
+   "options": [
+    "הכין טבלאות מדויקות של מסלולי השמש והכוכבים",
+    "בנה את הספינה הראשונה",
+    "גילה את האבן השואבת"
+   ],
+   "explain_he": "רבי אברהם זכות, רב ותוכן, הכין טבלאות שעזרו לספנים לדעת היכן הם נמצאים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה רבי אברהם זכות?",
+   "answer": "הכין טבלאות מדויקות של מסלולי השמש והכוכבים",
+   "options": [
+    "הכין טבלאות מדויקות של מסלולי השמש והכוכבים",
+    "בנה את הספינה הראשונה",
+    "גילה את האבן השואבת"
+   ],
+   "explain_he": "רבי אברהם זכות, רב ותוכן, הכין טבלאות שעזרו לספנים לדעת היכן הם נמצאים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f3e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה גילו את המצפן לפני בערך אלף שנה?",
+   "answer": "בסין",
+   "options": [
+    "בסין",
+    "בספרד",
+    "במצרים"
+   ],
+   "explain_he": "בסין גילו שמחט שמשפשפים באבן שואבת מצביעה צפונה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f3e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה גילו את המצפן לפני בערך אלף שנה?",
+   "answer": "בסין",
+   "options": [
+    "בסין",
+    "בספרד",
+    "במצרים"
+   ],
+   "explain_he": "בסין גילו שמחט שמשפשפים באבן שואבת מצביעה צפונה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f3e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומר מי שחזר בשלום מנסיעה בים?",
+   "answer": "ברכת הגומל",
+   "options": [
+    "ברכת הגומל",
+    "ברכת שהחיינו",
+    "ברכת המזון"
+   ],
+   "explain_he": "חז״ל מנו את יורדי הים בין הארבעה שצריכים להודות, ולכן מברכים ״הגומל״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f3e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה המסר של תפילת הדרך וברכת הגומל, גם בזמן של לוויינים?",
+   "answer": "שהשמירה האמיתית היא מהקדוש ברוך הוא",
+   "options": [
+    "שהשמירה האמיתית היא מהקדוש ברוך הוא",
+    "שאין צורך במכשירים",
+    "שאסור לשוט בים"
+   ],
+   "explain_he": "הכלים עוזרים, אבל אנחנו זוכרים מי מנהיג את העולם ושומר עלינו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f3e21"
+  }
+ ]
+}

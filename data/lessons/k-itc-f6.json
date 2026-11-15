@@ -1,0 +1,497 @@
+{
+ "id": "k-itc-f6",
+ "unit_id": "k-itc-u3",
+ "course": "israeltech",
+ "title_he": "תורה ומדע",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "תורה ומדע",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "elevator",
+     "title_he": "מעלית שעוצרת לבד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A hotel lobby on Shabbat: an elevator with open doors waiting, a grandfather with a white beard, black hat and cane and a family in Shabbat clothes stepping in, no one touching the buttons.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "נכנסתם פעם למלון בשבת, וראיתם מעלית שעוצרת בכל קומה בלי שאף אחד לוחץ על כפתור?",
+      "זו מעלית שבת. היא דוגמה אחת לכך שעם ישראל משתמש בחכמה ובטכנולוגיה כדי לשמור את התורה טוב יותר.",
+      "בשיעור האחרון שלנו נראה איך התורה והמדע נפגשים: בזמני היום, בלוח העברי, בשבת ובשמיטה.",
+      "במלון, בבית חולים ובבניין גבוה, מעלית שבת היא עזרה גדולה לזקנים ולחולים, ולמשפחות שגרות בקומות גבוהות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "zmanim",
+     "title_he": "זמני היום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Sunrise over the Jerusalem hills seen from a synagogue window, men in tallit and tefillin praying, the first rays of the sun touching the stone walls.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👨 👴",
+     "say": [
+      "נתחיל בזמנים. עד מתי קוראים קריאת שמע של שחרית? עד מתי אפשר להתפלל? מתי נכנסת השבת ומתי היא יוצאת?",
+      "כל הזמנים האלה תלויים בשמש: בזריחה, בשקיעה ובצאת הכוכבים. והם משתנים מיום ליום ומעיר לעיר. בחורף השקיעה מוקדמת, ובקיץ מאוחרת.",
+      "פעם חכמים חישבו את הזמנים בעמל רב, בעזרת טבלאות ושעונים. היום תוכנות מחשב מחשבות את מסלול השמש לכל מקום בעולם, וכל אחד יכול לדעת מתי ״סוף זמן קריאת שמע״ בעיר שלו.",
+      "אבל ההגדרות עצמן, מהי ״שעה זמנית״ ומתי ״צאת הכוכבים״, באות מהגמרא ומהפוסקים. המחשב רק עוזר לחשב.",
+      "ויש שאלות מסובכות במיוחד: מה עושים בארצות בצפון הרחוק, שבהן בקיץ השמש כמעט לא שוקעת? או מתי מתחילה השבת למי שחוצה את קו התאריך? בשאלות כאלה הכריעו גדולי הפוסקים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "״שעה זמנית״ היא חלק אחד משתים עשרה של היום. בקיץ היא ארוכה משעה רגילה, ובחורף קצרה ממנה."
+     }
+    },
+    {
+     "id": "calendar",
+     "title_he": "חכמתכם ובינתכם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: An ancient sage with a beard and a tallit studies the night sky beside a stone courtyard, a crescent new moon low in the west, scrolls with circles and lines spread on a table by an oil lamp.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "גם הלוח העברי הוא חכמה מופלאה. החודשים שלנו נקבעים לפי הירח, והשנים לפי השמש. כדי שפסח יחול תמיד באביב, מוסיפים בחלק מהשנים חודש נוסף, אדר ב׳.",
+      "בזמן שהיה בית דין בארץ ישראל, הוא קידש כל חודש על פי עדים שראו את הירח החדש. אחר כך קבע הלל הנשיא לוח קבוע, מחושב מראש, ואנחנו משתמשים בו עד היום.",
+      "חז״ל אומרים במסכת שבת שהפסוק ״כי היא חכמתכם ובינתכם לעיני העמים״ מדבר על החכמה הזאת: חישוב תקופות ומזלות, כלומר חישוב מסלולי השמש והירח.",
+      "הלל הנשיא קבע את הלוח כשבית הדין בארץ ישראל כבר לא יכול היה לקדש את החודש כמו קודם, בגלל הצרות והגזירות. כך דאג שעם ישראל בכל מקום יחוג את החגים יחד, באותו יום."
+     ],
+     "pasuk": {
+      "text": "כִּי הִוא חָכְמַתְכֶם וּבִינַתְכֶם לְעֵינֵי הָעַמִּים",
+      "ref": "דברים ד, ו"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "הלוח הקבוע שבו אנחנו משתמשים מחושב מראש, והוא ממשיך לפעול כבר יותר מאלף ושש מאות שנה."
+     }
+    },
+    {
+     "id": "shabbat",
+     "title_he": "מעלית שבת ופלטה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A Shabbat morning kitchen: covered pots of cholent and kugel resting on a flat electric hotplate with no knobs, a challah board nearby, sunlight through lace curtains.",
+     "move": "left",
+     "fx": "light",
+     "art": "🍲",
+     "say": [
+      "ועכשיו לשבת. בשבת אסור להדליק ולכבות חשמל, ולכן אסור ללחוץ על כפתור של מעלית רגילה.",
+      "הפתרון: מעלית שבת. מכוונים אותה מערב שבת שתעצור לבד בכל קומה, או בקומות מסוימות, בלי שאיש ילחץ על כפתור. כך זקנים, חולים ומשפחות עם ילדים קטנים יכולים לעלות לביתם בשבת. ובפרטי ההלכה, מתי ואיך משתמשים בה, שומעים לרבנים.",
+      "והפלטה: משטח חשמלי חם שמדליקים לפני שבת. אין בו כפתורים לשינוי החום, ומניחים עליו את האוכל המבושל לפי ההלכה, כדי שיהיה חם בסעודת השבת.",
+      "ויש עוד פתרונות: מיחם מים חמים לשבת, שעון שבת למזגן, ומנורות שאפשר לכסות ולגלות בלי לכבות אותן. בכל אחד מהם, הרבנים בודקים שהשימוש מתאים להלכה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יש מכונים שכל עבודתם היא פיתוח פתרונות טכנולוגיים לשבת לפי ההלכה, בהתייעצות עם גדולי הפוסקים. אחד המוכרים שבהם הוא ״מכון צומת״."
+     }
+    },
+    {
+     "id": "shmita",
+     "title_he": "שמיטה בחממה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Inside a clean greenhouse: rows of fresh green lettuce growing in raised troughs on stands above a plastic-covered floor, thin drip tubes feeding each plant, a farmer with a kippah inspecting a leaf.",
+     "move": "in",
+     "fx": "light",
+     "art": "🥬",
+     "say": [
+      "ועכשיו לשמיטה. אחת לשבע שנים, בארץ ישראל, האדמה ״שובתת״: לא זורעים, לא חורשים ולא קוצרים כרגיל. זו מצווה גדולה, שמזכירה לנו שהארץ שייכת להקדוש ברוך הוא.",
+      "אבל מה יאכלו בשנת השמיטה? חקלאים יראי שמיים מצאו כמה דרכים, בהדרכת רבנים. אחת מהן: לגדל ירקות בחממות, על מצע מנותק מהאדמה.",
+      "הצמחים גדלים בתוך מיכלים או מרזבים, מעל משטח שמפריד בינם לבין האדמה, בתוך חממה מקורה, ושורשיהם מקבלים מים ומזון בטפטוף. כך הם אינם יונקים מאדמת הארץ, ויש פוסקים שהתירו לגדל כך בשמיטה.",
+      "כך, גם בשנת השמיטה, אפשר לקנות חסה ירוקה ונקייה, ולשמור על המצווה.",
+      "ויש עוד דרכים שמשתמשים בהן בשמיטה, כמו ״אוצר בית דין״, שבו בית הדין אחראי על איסוף הפירות ועל חלוקתם לפי ההלכה. וכל ציבור נוהג לפי הוראת רבותיו."
+     ],
+     "pasuk": {
+      "text": "וּבַשָּׁנָה הַשְּׁבִיעִת שַׁבַּת שַׁבָּתוֹן יִהְיֶה לָאָרֶץ, שַׁבָּת לַה׳",
+      "ref": "ויקרא כה, ד"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "ירקות עלים שגדלים בחממות סגורות ומיוחדות נקיים הרבה יותר מחרקים. זה עוזר מאוד בכשרות, כי התורה אוסרת לאכול חרקים."
+     }
+    },
+    {
+     "id": "end",
+     "title_he": "בונים את הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A wide sunset view of Eretz Yisrael: green fields and greenhouses in the south, a desalination plant on the coast, Jerusalem in the hills with a synagogue dome, the two siblings looking out with their father.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👦 👧",
+     "say": [
+      "וכך הגענו לסוף הקורס. התחלנו במים: המוביל הארצי, הטפטפות וההתפלה. ראינו את המדבר פורח, הכרנו מצילי חיים והמצאות ישראליות, ועלינו עד החלל והירח.",
+      "ובסוף ראינו את החשוב מכול: החכמה והטכנולוגיה לא באות במקום התורה, אלא עוזרות לנו לקיים אותה טוב יותר.",
+      "וזכרו: כשיש לכם שאלה בהלכה, שואלים את הרב. הוא יודע לחבר בין התורה לבין המציאות החדשה.",
+      "הקדוש ברוך הוא החזיר אותנו לארצנו, ונתן לנו כוח לבנות אותה. התפקיד שלנו הוא להשתמש בכוח הזה בחכמה, בענווה ובתודה, כדי שהארץ תהיה מקום של תורה, חסד וברכה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "תורה ומדע",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "elevator",
+     "title_he": "מעלית שעוצרת לבד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A hotel lobby on Shabbat: an elevator with open doors waiting, a grandfather with a white beard, black hat and cane and a family in Shabbat clothes stepping in, no one touching the buttons.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "נכנסתם פעם למלון בשבת, וראיתם מעלית שעוצרת בכל קומה בלי שאף אחד לוחץ על כפתור?",
+      "זו מעלית שבת. היא דוגמה אחת לכך שעם ישראל משתמש בחכמה ובטכנולוגיה כדי לשמור את התורה טוב יותר.",
+      "בשיעור האחרון שלנו נראה איך התורה והמדע נפגשים: בזמני היום, בלוח העברי, בשבת ובשמיטה.",
+      "במלון, בבית חולים ובבניין גבוה, מעלית שבת היא עזרה גדולה לזקנים ולחולים, ולמשפחות שגרות בקומות גבוהות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "zmanim",
+     "title_he": "זמני היום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Sunrise over the Jerusalem hills seen from a synagogue window, men in tallit and tefillin praying, the first rays of the sun touching the stone walls.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👨 👴",
+     "say": [
+      "נתחיל בזמנים. עד מתי קוראים קריאת שמע של שחרית? עד מתי אפשר להתפלל? מתי נכנסת השבת ומתי היא יוצאת?",
+      "כל הזמנים האלה תלויים בשמש: בזריחה, בשקיעה ובצאת הכוכבים. והם משתנים מיום ליום ומעיר לעיר. בחורף השקיעה מוקדמת, ובקיץ מאוחרת.",
+      "פעם חכמים חישבו את הזמנים בעמל רב, בעזרת טבלאות ושעונים. היום תוכנות מחשב מחשבות את מסלול השמש לכל מקום בעולם, וכל אחד יכול לדעת מתי ״סוף זמן קריאת שמע״ בעיר שלו.",
+      "אבל ההגדרות עצמן, מהי ״שעה זמנית״ ומתי ״צאת הכוכבים״, באות מהגמרא ומהפוסקים. המחשב רק עוזר לחשב.",
+      "ויש שאלות מסובכות במיוחד: מה עושים בארצות בצפון הרחוק, שבהן בקיץ השמש כמעט לא שוקעת? או מתי מתחילה השבת למי שחוצה את קו התאריך? בשאלות כאלה הכריעו גדולי הפוסקים.",
+      "כבר בגמרא חישבו חכמים את מהלך השמש, ונחלקו, למשל, מתי בדיוק נגמר היום ומתחיל הלילה. מחלוקות כאלה הן הסיבה שבלוחות הזמנים מופיעים לפעמים שני זמנים, לפי שיטות שונות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "״שעה זמנית״ היא חלק אחד משתים עשרה של היום. בקיץ היא ארוכה משעה רגילה, ובחורף קצרה ממנה."
+     }
+    },
+    {
+     "id": "calendar",
+     "title_he": "חכמתכם ובינתכם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: An ancient sage with a beard and a tallit studies the night sky beside a stone courtyard, a crescent new moon low in the west, scrolls with circles and lines spread on a table by an oil lamp.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "גם הלוח העברי הוא חכמה מופלאה. החודשים שלנו נקבעים לפי הירח, והשנים לפי השמש. כדי שפסח יחול תמיד באביב, מוסיפים בחלק מהשנים חודש נוסף, אדר ב׳.",
+      "בזמן שהיה בית דין בארץ ישראל, הוא קידש כל חודש על פי עדים שראו את הירח החדש. אחר כך קבע הלל הנשיא לוח קבוע, מחושב מראש, ואנחנו משתמשים בו עד היום.",
+      "חז״ל אומרים במסכת שבת שהפסוק ״כי היא חכמתכם ובינתכם לעיני העמים״ מדבר על החכמה הזאת: חישוב תקופות ומזלות, כלומר חישוב מסלולי השמש והירח.",
+      "הלל הנשיא קבע את הלוח כשבית הדין בארץ ישראל כבר לא יכול היה לקדש את החודש כמו קודם, בגלל הצרות והגזירות. כך דאג שעם ישראל בכל מקום יחוג את החגים יחד, באותו יום.",
+      "והרמב״ם כתב חלק שלם בספרו ״משנה תורה״, ״הלכות קידוש החודש״, ובו הסביר בפירוט רב את חשבונות מסלולי השמש והירח, כדי שכל לומד יוכל להבין את הלוח."
+     ],
+     "pasuk": {
+      "text": "כִּי הִוא חָכְמַתְכֶם וּבִינַתְכֶם לְעֵינֵי הָעַמִּים",
+      "ref": "דברים ד, ו"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "הלוח הקבוע שבו אנחנו משתמשים מחושב מראש, והוא ממשיך לפעול כבר יותר מאלף ושש מאות שנה."
+     }
+    },
+    {
+     "id": "shabbat",
+     "title_he": "מעלית שבת ופלטה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A Shabbat morning kitchen: covered pots of cholent and kugel resting on a flat electric hotplate with no knobs, a challah board nearby, sunlight through lace curtains.",
+     "move": "left",
+     "fx": "light",
+     "art": "🍲",
+     "say": [
+      "ועכשיו לשבת. בשבת אסור להדליק ולכבות חשמל, ולכן אסור ללחוץ על כפתור של מעלית רגילה.",
+      "הפתרון: מעלית שבת. מכוונים אותה מערב שבת שתעצור לבד בכל קומה, או בקומות מסוימות, בלי שאיש ילחץ על כפתור. כך זקנים, חולים ומשפחות עם ילדים קטנים יכולים לעלות לביתם בשבת. ובפרטי ההלכה, מתי ואיך משתמשים בה, שומעים לרבנים.",
+      "והפלטה: משטח חשמלי חם שמדליקים לפני שבת. אין בו כפתורים לשינוי החום, ומניחים עליו את האוכל המבושל לפי ההלכה, כדי שיהיה חם בסעודת השבת.",
+      "ויש עוד פתרונות: מיחם מים חמים לשבת, שעון שבת למזגן, ומנורות שאפשר לכסות ולגלות בלי לכבות אותן. בכל אחד מהם, הרבנים בודקים שהשימוש מתאים להלכה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יש מכונים שכל עבודתם היא פיתוח פתרונות טכנולוגיים לשבת לפי ההלכה, בהתייעצות עם גדולי הפוסקים. אחד המוכרים שבהם הוא ״מכון צומת״."
+     }
+    },
+    {
+     "id": "grama",
+     "title_he": "טלפון שבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A hospital corridor on Shabbat: a doctor with a kippah and a nurse in a long skirt and head covering use a special wall phone with large plain buttons, Shabbat candles glimpsed in a side room.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩",
+     "say": [
+      "בבתי חולים, בצבא ובמשטרה יש עבודות שחייבים לעשות גם בשבת, כדי להציל חיים או לשמור על הביטחון.",
+      "מכונים כמו צומת פיתחו, בהדרכת פוסקים, מכשירים מיוחדים, כמו טלפון שבת ומתגים שפועלים ב״גרמא״, כלומר בדרך עקיפה. כך אפשר לעשות את הדרוש ולצמצם חילול שבת ככל האפשר.",
+      "חשוב לדעת: מתי מותר להשתמש בכל פתרון כזה, זו שאלה לרב. לא כל מה שאפשר לבנות, מותר לנו להשתמש בו. ההלכה קובעת, והטכנולוגיה משרתת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "shmita",
+     "title_he": "שמיטה בחממה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Inside a clean greenhouse: rows of fresh green lettuce growing in raised troughs on stands above a plastic-covered floor, thin drip tubes feeding each plant, a farmer with a kippah inspecting a leaf.",
+     "move": "in",
+     "fx": "light",
+     "art": "🥬",
+     "say": [
+      "ועכשיו לשמיטה. אחת לשבע שנים, בארץ ישראל, האדמה ״שובתת״: לא זורעים, לא חורשים ולא קוצרים כרגיל. זו מצווה גדולה, שמזכירה לנו שהארץ שייכת להקדוש ברוך הוא.",
+      "אבל מה יאכלו בשנת השמיטה? חקלאים יראי שמיים מצאו כמה דרכים, בהדרכת רבנים. אחת מהן: לגדל ירקות בחממות, על מצע מנותק מהאדמה.",
+      "הצמחים גדלים בתוך מיכלים או מרזבים, מעל משטח שמפריד בינם לבין האדמה, בתוך חממה מקורה, ושורשיהם מקבלים מים ומזון בטפטוף. כך הם אינם יונקים מאדמת הארץ, ויש פוסקים שהתירו לגדל כך בשמיטה.",
+      "כך, גם בשנת השמיטה, אפשר לקנות חסה ירוקה ונקייה, ולשמור על המצווה.",
+      "ויש עוד דרכים שמשתמשים בהן בשמיטה, כמו ״אוצר בית דין״, שבו בית הדין אחראי על איסוף הפירות ועל חלוקתם לפי ההלכה. וכל ציבור נוהג לפי הוראת רבותיו.",
+      "והתורה מבטיחה: ״וציויתי את ברכתי לכם בשנה השישית, ועשת את התבואה לשלוש השנים״. השמיטה היא גם מבחן של אמונה."
+     ],
+     "pasuk": {
+      "text": "וּבַשָּׁנָה הַשְּׁבִיעִת שַׁבַּת שַׁבָּתוֹן יִהְיֶה לָאָרֶץ, שַׁבָּת לַה׳",
+      "ref": "ויקרא כה, ד"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "ירקות עלים שגדלים בחממות סגורות ומיוחדות נקיים הרבה יותר מחרקים. זה עוזר מאוד בכשרות, כי התורה אוסרת לאכול חרקים."
+     }
+    },
+    {
+     "id": "chochma",
+     "title_he": "חכמה ותורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A study hall with tall windows: an elderly Torah scholar with a white beard sits with an open Gemara beside a brass astrolabe and an old geometry book, a soft light falling on the pages.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "איך מתייחסת התורה למדע? חז״ל אמרו במדרש איכה רבה: ״חכמה בגויים תאמין, תורה בגויים אל תאמין״. כלומר, בחכמות העולם, כמו חשבון, רפואה וטבע, אפשר ללמוד גם מחכמי העמים.",
+      "אבל לתורה יש מקור אחר: היא ניתנה מן השמיים, והיא הקובעת מה מותר ומה אסור, מה טוב ומה רע. המדע מלמד איך העולם פועל. התורה מלמדת לשם מה הוא נברא, ואיך לחיות בו.",
+      "חכמי ישראל לאורך הדורות, כמו הרמב״ם, ידעו את חכמות העולם, והשתמשו בהן כדי לקיים את התורה כראוי: לחשב את הלוח, למדוד שיעורים, ולקיים מצוות בדיוק.",
+      "וזה מה שראינו בכל השיעור: הטכנולוגיה היא משרתת נאמנה. כשהיא בידיים נכונות, היא עוזרת לשמור שבת, לקיים שמיטה, ולהתפלל בזמן."
+     ],
+     "pasuk": {
+      "text": "חָכְמָה בַּגּוֹיִם תַּאֲמִין, תּוֹרָה בַּגּוֹיִם אַל תַּאֲמִין",
+      "ref": "איכה רבה ב, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "בונים את הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A wide sunset view of Eretz Yisrael: green fields and greenhouses in the south, a desalination plant on the coast, Jerusalem in the hills with a synagogue dome, the two siblings looking out with their father.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👦 👧",
+     "say": [
+      "וכך הגענו לסוף הקורס. התחלנו במים: המוביל הארצי, הטפטפות וההתפלה. ראינו את המדבר פורח, הכרנו מצילי חיים והמצאות ישראליות, ועלינו עד החלל והירח.",
+      "ובסוף ראינו את החשוב מכול: החכמה והטכנולוגיה לא באות במקום התורה, אלא עוזרות לנו לקיים אותה טוב יותר.",
+      "וזכרו: כשיש לכם שאלה בהלכה, שואלים את הרב. הוא יודע לחבר בין התורה לבין המציאות החדשה.",
+      "הקדוש ברוך הוא החזיר אותנו לארצנו, ונתן לנו כוח לבנות אותה. התפקיד שלנו הוא להשתמש בכוח הזה בחכמה, בענווה ובתודה, כדי שהארץ תהיה מקום של תורה, חסד וברכה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה זמני התפילה משתנים מיום ליום ומעיר לעיר?",
+   "answer": "כי הם תלויים בזריחה ובשקיעה של השמש",
+   "options": [
+    "כי הם תלויים בזריחה ובשקיעה של השמש",
+    "כי כל בית כנסת מחליט לבד",
+    "כי השעונים לא מדויקים"
+   ],
+   "explain_he": "הזמנים נקבעים לפי השמש, ולכן הם שונים בכל יום ובכל מקום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה זמני התפילה משתנים מיום ליום ומעיר לעיר?",
+   "answer": "כי הם תלויים בזריחה ובשקיעה של השמש",
+   "options": [
+    "כי הם תלויים בזריחה ובשקיעה של השמש",
+    "כי כל בית כנסת מחליט לבד",
+    "כי השעונים לא מדויקים"
+   ],
+   "explain_he": "הזמנים נקבעים לפי השמש, ולכן הם שונים בכל יום ובכל מקום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד במעלית שבת?",
+   "answer": "היא עוצרת לבד בקומות, בלי שלוחצים על כפתור",
+   "options": [
+    "היא עוצרת לבד בקומות, בלי שלוחצים על כפתור",
+    "היא נוסעת מהר יותר",
+    "היא עובדת בלי חשמל"
+   ],
+   "explain_he": "מכוונים אותה מערב שבת, וכך אין צורך ללחוץ על כפתורים בשבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד במעלית שבת?",
+   "answer": "היא עוצרת לבד בקומות, בלי שלוחצים על כפתור",
+   "options": [
+    "היא עוצרת לבד בקומות, בלי שלוחצים על כפתור",
+    "היא נוסעת מהר יותר",
+    "היא עובדת בלי חשמל"
+   ],
+   "explain_he": "מכוונים אותה מערב שבת, וכך אין צורך ללחוץ על כפתורים בשבת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מגדלים ירקות בשמיטה על מצע מנותק?",
+   "answer": "בחממה, במיכלים מנותקים מהאדמה, עם מים ומזון בטפטוף",
+   "options": [
+    "בחממה, במיכלים מנותקים מהאדמה, עם מים ומזון בטפטוף",
+    "בשדה פתוח כרגיל",
+    "מתחת לאדמה"
+   ],
+   "explain_he": "הצמחים אינם יונקים מאדמת הארץ, ויש פוסקים שהתירו לגדל כך בשמיטה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מגדלים ירקות בשמיטה על מצע מנותק?",
+   "answer": "בחממה, במיכלים מנותקים מהאדמה, עם מים ומזון בטפטוף",
+   "options": [
+    "בחממה, במיכלים מנותקים מהאדמה, עם מים ומזון בטפטוף",
+    "בשדה פתוח כרגיל",
+    "מתחת לאדמה"
+   ],
+   "explain_he": "הצמחים אינם יונקים מאדמת הארץ, ויש פוסקים שהתירו לגדל כך בשמיטה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מוסיפים בחלק מהשנים חודש אדר ב׳?",
+   "answer": "כדי שפסח יחול תמיד באביב",
+   "options": [
+    "כדי שפסח יחול תמיד באביב",
+    "כדי שיהיה עוד פורים",
+    "כי הירח מתעכב"
+   ],
+   "explain_he": "החודשים לפי הירח והשנים לפי השמש, ואדר ב׳ מתאם ביניהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מוסיפים בחלק מהשנים חודש אדר ב׳?",
+   "answer": "כדי שפסח יחול תמיד באביב",
+   "options": [
+    "כדי שפסח יחול תמיד באביב",
+    "כדי שיהיה עוד פורים",
+    "כי הירח מתעכב"
+   ],
+   "explain_he": "החודשים לפי הירח והשנים לפי השמש, ואדר ב׳ מתאם ביניהם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהי פלטה?",
+   "answer": "משטח חם שמדליקים לפני שבת, בלי כפתורים לשינוי החום",
+   "options": [
+    "משטח חם שמדליקים לפני שבת, בלי כפתורים לשינוי החום",
+    "תנור שמבשלים בו בשבת",
+    "מנורה מיוחדת לשבת"
+   ],
+   "explain_he": "על הפלטה מניחים אוכל מבושל לפי ההלכה, כדי שיהיה חם בסעודת השבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהי פלטה?",
+   "answer": "משטח חם שמדליקים לפני שבת, בלי כפתורים לשינוי החום",
+   "options": [
+    "משטח חם שמדליקים לפני שבת, בלי כפתורים לשינוי החום",
+    "תנור שמבשלים בו בשבת",
+    "מנורה מיוחדת לשבת"
+   ],
+   "explain_he": "על הפלטה מניחים אוכל מבושל לפי ההלכה, כדי שיהיה חם בסעודת השבת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז״ל, על מה נאמר ״כי היא חכמתכם ובינתכם לעיני העמים״?",
+   "answer": "על חישוב תקופות ומזלות",
+   "options": [
+    "על חישוב תקופות ומזלות",
+    "על בניית בית המקדש",
+    "על כיבוש הארץ"
+   ],
+   "explain_he": "חז״ל במסכת שבת אומרים שזה חישוב מסלולי השמש והירח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש ״חכמה בגויים תאמין, תורה בגויים אל תאמין״?",
+   "answer": "בחכמות העולם אפשר ללמוד מכל אדם, אבל התורה באה מהשמיים",
+   "options": [
+    "בחכמות העולם אפשר ללמוד מכל אדם, אבל התורה באה מהשמיים",
+    "שאין ללמוד שום חכמה",
+    "שכל החכמות שוות לתורה"
+   ],
+   "explain_he": "המדע מלמד איך העולם פועל, והתורה קובעת מה טוב ומה אסור, ולשם מה נברא העולם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f6e14"
+  }
+ ]
+}

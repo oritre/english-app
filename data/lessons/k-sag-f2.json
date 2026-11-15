@@ -1,0 +1,556 @@
+{
+ "id": "k-sag-f2",
+ "unit_id": "k-sag-u1",
+ "course": "sages",
+ "title_he": "רבי עקיבא",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "רבי עקיבא",
+   "ref_he": "גדולי ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "stone",
+     "title_he": "האבן שבבאר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: Afternoon by an old stone well in the hills of the Land of Israel: a young shepherd in a plain tunic kneels and touches a stone with a hole worn smooth by dripping water, his sheep grazing nearby.",
+     "move": "in",
+     "fx": "light",
+     "art": "🐑 👨",
+     "say": [
+      "רועה צאן אחד, בן ארבעים, עומד ליד באר. הוא לא יודע לקרוא אפילו את האות אלף. קוראים לו עקיבא.",
+      "פתאום הוא רואה אבן ובה חור עמוק. מי חפר את החור הזה? הוא מבין: טיפות מים קטנות, שנפלו שנים רבות בלי הפסקה.",
+      "ועקיבא אומר לעצמו: אם מים רכים חקקו אבן קשה, דברי תורה, שהם חזקים כברזל, ודאי יוכלו להיכנס לליבי.",
+      "וביום ההוא החליט: אני הולך ללמוד תורה."
+     ],
+     "pasuk": {
+      "text": "אבנים שחקו מים",
+      "ref": "איוב יד, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "aleph",
+     "title_he": "מתחילים מאלף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: A simple village schoolroom in Roman-era Land of Israel: a grown man with a young beard sits humbly on a mat beside a small boy, both looking at a wooden writing tablet held by an old teacher; morning light through a doorway.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👦 👴",
+     "say": [
+      "עקיבא התחיל מההתחלה. הוא ישב ליד בנו הקטן אצל מלמד של ילדים, ולמד איתו אלף, בית.",
+      "הוא לא התבייש. אחר כך למד חומש, ואחר כך משנה, אצל גדולי החכמים: רבי אליעזר ורבי יהושע.",
+      "אשתו, רחל, עודדה אותו ללכת ללמוד. היא נשארה בבית במשך שנים רבות בעוני גדול, כדי שבעלה יוכל לגדול בתורה.",
+      "אחרי עשרים וארבע שנים חזר רבי עקיבא לעירו, ועשרים וארבעה אלף תלמידים הלכו אחריו.",
+      "כשראה את אשתו, אמר לתלמידיו: שלי ושלכם, שלה הוא. כלומר, כל התורה שלי ושלכם, בזכותה.",
+      "בהתחלה הם היו עניים כל כך, שישנו על קש. אבל רחל לא ביקשה עושר. היא ביקשה דבר אחד: שבעלה ילך ללמוד תורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רבי עקיבא התחיל ללמוד בגיל ארבעים, ונעשה אחד מגדולי החכמים בכל הדורות."
+     }
+    },
+    {
+     "id": "good",
+     "title_he": "הכל לטובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: Night in an open field outside a sleeping ancient village: a sage sits beside a small extinguished oil lamp, a donkey's saddle on the ground and an empty rooster perch, gazing calmly at the starry sky.",
+     "move": "left",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "רבי עקיבא היה אומר תמיד: כל מה שהשם עושה, לטובה הוא עושה. והגמרא מספרת סיפור מיוחד.",
+      "פעם היה רבי עקיבא בדרך, והגיע לעיר אחת. ביקש מקום ללון, ואף אחד לא הסכים. מה אמר? הכל לטובה. והלך לישון בשדה.",
+      "היו איתו שלושה דברים: נר כדי ללמוד, תרנגול כדי להעיר אותו, וחמור לרכוב עליו. רוח באה וכיבתה את הנר. חתול לקח את התרנגול. ואריה לקח את החמור. ושוב אמר: הכל לטובה.",
+      "באותו לילה באו חיילים של אויב ושבו את כל העיר. אבל את רבי עקיבא, בשדה החשוך והשקט, לא מצאו.",
+      "אמר רבי עקיבא: לא אמרתי לכם? אילו דלק הנר, או קרא התרנגול, או נער החמור, היו מוצאים אותי. כל מה שהשם עושה, לטובה."
+     ],
+     "pasuk": {
+      "text": "כל מה דעביד רחמנא לטב עביד",
+      "ref": "ברכות ס ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "students",
+     "title_he": "בין פסח לשבועות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: Spring in the southern Land of Israel: an old sage sits under a large tree teaching five attentive disciples of different ages, wheat fields turning golden behind them, soft clouds.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "לרבי עקיבא היו עשרים וארבעה אלף תלמידים. אבל חז\"ל מספרים שבימים שבין פסח לשבועות כולם מתו, מפני שלא נהגו כבוד זה בזה.",
+      "בגלל זה אנחנו נוהגים מנהגי אבלות בימי ספירת העומר. אלה ימים שבהם משתדלים במיוחד לכבד כל אדם.",
+      "העולם היה שומם מתורה. אבל רבי עקיבא לא התייאש. הוא הלך לדרום, ולימד חמישה תלמידים חדשים: רבי מאיר, רבי יהודה, רבי יוסי, רבי שמעון ורבי אלעזר בן שמוע.",
+      "חמשת התלמידים האלה העמידו את התורה מחדש. ואת רוב המשנה שאנחנו לומדים היום, אנחנו לומדים בזכותם.",
+      "ואולי זה לא מקרה שדווקא רבי עקיבא לימד: ואהבת לרעך כמוך, זה כלל גדול בתורה."
+     ],
+     "pasuk": {
+      "text": "\"ואהבת לרעך כמוך\", רבי עקיבא אומר: זה כלל גדול בתורה",
+      "ref": "ספרא, קדושים"
+     },
+     "note": null
+    },
+    {
+     "id": "fox",
+     "title_he": "השועל בהר הבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: Ruins on the Temple Mount after the destruction, seen at dusk: four elderly sages in mantles stand among fallen stones; three look down in sorrow, one smiles with hope; a small fox slips between the stones in the distance.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👴 👴 👴",
+     "say": [
+      "אחרי חורבן בית המקדש, עלו רבי עקיבא וחבריו לירושלים. כשהגיעו להר הבית, ראו שועל יוצא מהמקום שבו עמד קודש הקדשים.",
+      "החכמים בכו. ורבי עקיבא... צחק. שאלו אותו: למה אתה צוחק?",
+      "ענה רבי עקיבא: הנביאים אמרו שהר הבית יהיה שומם, והנה זה התקיים. אז בוודאי תתקיים גם הנבואה של זכריה: עוד ישבו זקנים וזקנות ברחובות ירושלים.",
+      "אמרו לו החכמים: עקיבא, ניחמתנו. עקיבא, ניחמתנו."
+     ],
+     "pasuk": {
+      "text": "עוד ישבו זקנים וזקנות ברחובות ירושלים",
+      "ref": "זכריה ח, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "fish",
+     "title_he": "דגים בתוך המים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A calm river in early morning mist: a fox stands on the bank looking at small fish swimming together in the clear water, which stay safely in the stream; reeds and soft light.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🐟",
+     "say": [
+      "אחרי שנים, הרומאים גזרו גזרה קשה: אסור ללמוד תורה. ורבי עקיבא המשיך ללמד ברבים.",
+      "אדם בשם פפוס שאל אותו: עקיבא, אינך מפחד מהמלכות? ענה לו רבי עקיבא במשל.",
+      "שועל הלך על שפת הנהר, וראה דגים בורחים. אמר להם: בואו לגור איתי ביבשה, ואגן עליכם. אמרו לו הדגים: אם במים, המקום שבו אנחנו חיים, אנחנו מפחדים, ביבשה על אחת כמה וכמה.",
+      "וכך אנחנו, אמר רבי עקיבא. התורה היא החיים שלנו, כמו שכתוב: כי הוא חייך ואורך ימיך. בלי תורה, יהודי הוא כמו דג בלי מים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "echad",
+     "title_he": "שמע ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A shaft of soft golden light falls through a small high window into a bare stone room; an old sage's white mantle and a small scroll rest on a wooden bench; peaceful and holy, no people shown.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕊️",
+     "say": [
+      "בסוף תפסו הרומאים את רבי עקיבא, והוא נהרג על קידוש השם. הוא היה זקן מאוד, ולא פחד.",
+      "ברגעיו האחרונים הגיע זמן קריאת שמע, והוא קרא שמע ישראל בשמחה. תלמידיו שאלו: רבנו, עד כאן?",
+      "אמר להם: כל ימיי הצטערתי על הפסוק \"בכל נפשך\", גם כשנוטל את נפשך. אמרתי: מתי תבוא לידי ואקיים אותו? ועכשיו שבאה, לא אקיים?",
+      "הוא האריך במילה \"אחד\", ונשמתו יצאה באחד. רבי עקיבא הוא אחד מעשרה הרוגי מלכות, שאנחנו מזכירים ביום הכיפורים ובתשעה באב."
+     ],
+     "pasuk": {
+      "text": "שמע ישראל, ה' אלקינו, ה' אחד",
+      "ref": "דברים ו, ד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-sag-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "רבי עקיבא",
+   "ref_he": "גדולי ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "stone",
+     "title_he": "האבן שבבאר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: Afternoon by an old stone well in the hills of the Land of Israel: a young shepherd in a plain tunic kneels and touches a stone with a hole worn smooth by dripping water, his sheep grazing nearby.",
+     "move": "in",
+     "fx": "light",
+     "art": "🐑 👨",
+     "say": [
+      "רועה צאן אחד, בן ארבעים, עומד ליד באר. הוא לא יודע לקרוא אפילו את האות אלף. קוראים לו עקיבא.",
+      "פתאום הוא רואה אבן ובה חור עמוק. מי חפר את החור הזה? הוא מבין: טיפות מים קטנות, שנפלו שנים רבות בלי הפסקה.",
+      "ועקיבא אומר לעצמו: אם מים רכים חקקו אבן קשה, דברי תורה, שהם חזקים כברזל, ודאי יוכלו להיכנס לליבי.",
+      "וביום ההוא החליט: אני הולך ללמוד תורה.",
+      "את הסיפור הזה מביאים \"אבות דרבי נתן\". הוא מלמד שאף פעם לא מאוחר מדי, וששום מאמץ קטן אינו הולך לאיבוד. טיפה ועוד טיפה, עד שהאבן נפתחת."
+     ],
+     "pasuk": {
+      "text": "אבנים שחקו מים",
+      "ref": "איוב יד, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "aleph",
+     "title_he": "מתחילים מאלף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: A simple village schoolroom in Roman-era Land of Israel: a grown man with a young beard sits humbly on a mat beside a small boy, both looking at a wooden writing tablet held by an old teacher; morning light through a doorway.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👦 👴",
+     "say": [
+      "עקיבא התחיל מההתחלה. הוא ישב ליד בנו הקטן אצל מלמד של ילדים, ולמד איתו אלף, בית.",
+      "הוא לא התבייש. אחר כך למד חומש, ואחר כך משנה, אצל גדולי החכמים: רבי אליעזר ורבי יהושע.",
+      "אשתו, רחל, עודדה אותו ללכת ללמוד. היא נשארה בבית במשך שנים רבות בעוני גדול, כדי שבעלה יוכל לגדול בתורה.",
+      "אחרי עשרים וארבע שנים חזר רבי עקיבא לעירו, ועשרים וארבעה אלף תלמידים הלכו אחריו.",
+      "כשראה את אשתו, אמר לתלמידיו: שלי ושלכם, שלה הוא. כלומר, כל התורה שלי ושלכם, בזכותה.",
+      "בהתחלה הם היו עניים כל כך, שישנו על קש. אבל רחל לא ביקשה עושר. היא ביקשה דבר אחד: שבעלה ילך ללמוד תורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רבי עקיבא התחיל ללמוד בגיל ארבעים, ונעשה אחד מגדולי החכמים בכל הדורות."
+     }
+    },
+    {
+     "id": "good",
+     "title_he": "הכל לטובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: Night in an open field outside a sleeping ancient village: a sage sits beside a small extinguished oil lamp, a donkey's saddle on the ground and an empty rooster perch, gazing calmly at the starry sky.",
+     "move": "left",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "רבי עקיבא היה אומר תמיד: כל מה שהשם עושה, לטובה הוא עושה. והגמרא מספרת סיפור מיוחד.",
+      "פעם היה רבי עקיבא בדרך, והגיע לעיר אחת. ביקש מקום ללון, ואף אחד לא הסכים. מה אמר? הכל לטובה. והלך לישון בשדה.",
+      "היו איתו שלושה דברים: נר כדי ללמוד, תרנגול כדי להעיר אותו, וחמור לרכוב עליו. רוח באה וכיבתה את הנר. חתול לקח את התרנגול. ואריה לקח את החמור. ושוב אמר: הכל לטובה.",
+      "באותו לילה באו חיילים של אויב ושבו את כל העיר. אבל את רבי עקיבא, בשדה החשוך והשקט, לא מצאו.",
+      "אמר רבי עקיבא: לא אמרתי לכם? אילו דלק הנר, או קרא התרנגול, או נער החמור, היו מוצאים אותי. כל מה שהשם עושה, לטובה."
+     ],
+     "pasuk": {
+      "text": "כל מה דעביד רחמנא לטב עביד",
+      "ref": "ברכות ס ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "students",
+     "title_he": "בין פסח לשבועות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: Spring in the southern Land of Israel: an old sage sits under a large tree teaching five attentive disciples of different ages, wheat fields turning golden behind them, soft clouds.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "לרבי עקיבא היו עשרים וארבעה אלף תלמידים. אבל חז\"ל מספרים שבימים שבין פסח לשבועות כולם מתו, מפני שלא נהגו כבוד זה בזה.",
+      "בגלל זה אנחנו נוהגים מנהגי אבלות בימי ספירת העומר. אלה ימים שבהם משתדלים במיוחד לכבד כל אדם.",
+      "העולם היה שומם מתורה. אבל רבי עקיבא לא התייאש. הוא הלך לדרום, ולימד חמישה תלמידים חדשים: רבי מאיר, רבי יהודה, רבי יוסי, רבי שמעון ורבי אלעזר בן שמוע.",
+      "חמשת התלמידים האלה העמידו את התורה מחדש. ואת רוב המשנה שאנחנו לומדים היום, אנחנו לומדים בזכותם.",
+      "ואולי זה לא מקרה שדווקא רבי עקיבא לימד: ואהבת לרעך כמוך, זה כלל גדול בתורה.",
+      "לפי המסורת, ביום ל\"ג בעומר פסקו התלמידים למות, ולכן זה יום של שמחה. ובאותו יום, לפי המסורת, נפטר רבי שמעון בר יוחאי, תלמידו של רבי עקיבא."
+     ],
+     "pasuk": {
+      "text": "\"ואהבת לרעך כמוך\", רבי עקיבא אומר: זה כלל גדול בתורה",
+      "ref": "ספרא, קדושים"
+     },
+     "note": null
+    },
+    {
+     "id": "fox",
+     "title_he": "השועל בהר הבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: Ruins on the Temple Mount after the destruction, seen at dusk: four elderly sages in mantles stand among fallen stones; three look down in sorrow, one smiles with hope; a small fox slips between the stones in the distance.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👴 👴 👴",
+     "say": [
+      "אחרי חורבן בית המקדש, עלו רבי עקיבא וחבריו לירושלים. כשהגיעו להר הבית, ראו שועל יוצא מהמקום שבו עמד קודש הקדשים.",
+      "החכמים בכו. ורבי עקיבא... צחק. שאלו אותו: למה אתה צוחק?",
+      "ענה רבי עקיבא: הנביאים אמרו שהר הבית יהיה שומם, והנה זה התקיים. אז בוודאי תתקיים גם הנבואה של זכריה: עוד ישבו זקנים וזקנות ברחובות ירושלים.",
+      "אמרו לו החכמים: עקיבא, ניחמתנו. עקיבא, ניחמתנו.",
+      "זה המבט של רבי עקיבא: מי שמאמין שהשם מקיים את דבריו, רואה גם בחורבן את ההבטחה לבניין. והיום, כשאנחנו רואים ילדים משחקים ברחובות ירושלים, אנחנו רואים את הנבואה הזאת מתקיימת."
+     ],
+     "pasuk": {
+      "text": "עוד ישבו זקנים וזקנות ברחובות ירושלים",
+      "ref": "זכריה ח, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "fish",
+     "title_he": "דגים בתוך המים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A calm river in early morning mist: a fox stands on the bank looking at small fish swimming together in the clear water, which stay safely in the stream; reeds and soft light.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🐟",
+     "say": [
+      "אחרי שנים, הרומאים גזרו גזרה קשה: אסור ללמוד תורה. ורבי עקיבא המשיך ללמד ברבים.",
+      "אדם בשם פפוס שאל אותו: עקיבא, אינך מפחד מהמלכות? ענה לו רבי עקיבא במשל.",
+      "שועל הלך על שפת הנהר, וראה דגים בורחים. אמר להם: בואו לגור איתי ביבשה, ואגן עליכם. אמרו לו הדגים: אם במים, המקום שבו אנחנו חיים, אנחנו מפחדים, ביבשה על אחת כמה וכמה.",
+      "וכך אנחנו, אמר רבי עקיבא. התורה היא החיים שלנו, כמו שכתוב: כי הוא חייך ואורך ימיך. בלי תורה, יהודי הוא כמו דג בלי מים.",
+      "אחר כך גם פפוס עצמו נתפס ונאסר, באותו בית סוהר. ואמר: אשריך רבי עקיבא, שנתפסת על דברי תורה. אוי לפפוס, שנתפס על דברים בטלים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את המשל הזה מביאה הגמרא במסכת ברכות, דף סא."
+     }
+    },
+    {
+     "id": "echad",
+     "title_he": "שמע ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A shaft of soft golden light falls through a small high window into a bare stone room; an old sage's white mantle and a small scroll rest on a wooden bench; peaceful and holy, no people shown.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕊️",
+     "say": [
+      "בסוף תפסו הרומאים את רבי עקיבא, והוא נהרג על קידוש השם. הוא היה זקן מאוד, ולא פחד.",
+      "ברגעיו האחרונים הגיע זמן קריאת שמע, והוא קרא שמע ישראל בשמחה. תלמידיו שאלו: רבנו, עד כאן?",
+      "אמר להם: כל ימיי הצטערתי על הפסוק \"בכל נפשך\", גם כשנוטל את נפשך. אמרתי: מתי תבוא לידי ואקיים אותו? ועכשיו שבאה, לא אקיים?",
+      "הוא האריך במילה \"אחד\", ונשמתו יצאה באחד. רבי עקיבא הוא אחד מעשרה הרוגי מלכות, שאנחנו מזכירים ביום הכיפורים ובתשעה באב.",
+      "הגמרא מספרת שבאותו רגע יצא קול מן השמים ואמר: אשריך רבי עקיבא, שיצאה נשמתך באחד.",
+      "רבי עקיבא לימד אותנו שאהבת השם אינה רק מילים. היא נכונות לתת הכל, ואפילו את החיים, בשביל התורה."
+     ],
+     "pasuk": {
+      "text": "שמע ישראל, ה' אלקינו, ה' אחד",
+      "ref": "דברים ו, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "moshe",
+     "title_he": "משה רבנו בשיעור של רבי עקיבא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Akiva: a strong warm-faced man of the Roman-era Land of Israel; as a young shepherd in a plain tunic, as an old sage with a long grey beard and a white mantle. Scene: A bright, heavenly-feeling study hall bathed in soft light: rows of students listen to an old sage with a grey beard, and an awe-filled elderly figure with a long white beard sits quietly in the last row, seen from behind.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👴 👦 👦",
+     "say": [
+      "הגמרא במסכת מנחות מספרת סיפור מופלא. כשעלה משה רבנו למרום, ראה את הקדוש ברוך הוא קושר כתרים לאותיות התורה.",
+      "אמר לו: עתיד אדם אחד, עקיבא בן יוסף שמו, לדרוש על כל קוץ וקוץ תילי תילים של הלכות. ומשה ביקש לראות אותו.",
+      "משה ישב בשורה האחרונה בשיעור של רבי עקיבא, ולא הבין את מה שאמרו. עד שתלמיד שאל: רבי, מניין לך? ורבי עקיבא ענה: הלכה למשה מסיני. ונתיישבה דעתו של משה.",
+      "זה סוד התורה שבעל פה: היא מתחדשת בכל דור, ובכל זאת כולה ניתנה למשה בסיני."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אמרו שהמשנה, הספרא, הספרי והתוספתא, כולם בנויים על פי שיטתו של רבי עקיבא."
+     }
+    }
+   ],
+   "id": "k-sag-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גרם לרבי עקיבא להחליט ללמוד תורה?",
+   "answer": "אבן שמים חקקו בה חור",
+   "options": [
+    "אבן שמים חקקו בה חור",
+    "חלום שחלם בלילה",
+    "ספר שמצא בשדה"
+   ],
+   "explain_he": "הוא אמר: אם מים רכים חוקקים אבן, דברי תורה ודאי יכולים להיכנס לליבי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גרם לרבי עקיבא להחליט ללמוד תורה?",
+   "answer": "אבן שמים חקקו בה חור",
+   "options": [
+    "אבן שמים חקקו בה חור",
+    "חלום שחלם בלילה",
+    "ספר שמצא בשדה"
+   ],
+   "explain_he": "הוא אמר: אם מים רכים חוקקים אבן, דברי תורה ודאי יכולים להיכנס לליבי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בן כמה היה עקיבא כשהתחיל ללמוד?",
+   "answer": "בן ארבעים",
+   "options": [
+    "בן ארבעים",
+    "בן שלוש עשרה",
+    "בן עשרים"
+   ],
+   "explain_he": "עקיבא היה רועה צאן בן ארבעים, ולמד אלף בית יחד עם בנו הקטן.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בן כמה היה עקיבא כשהתחיל ללמוד?",
+   "answer": "בן ארבעים",
+   "options": [
+    "בן ארבעים",
+    "בן שלוש עשרה",
+    "בן עשרים"
+   ],
+   "explain_he": "עקיבא היה רועה צאן בן ארבעים, ולמד אלף בית יחד עם בנו הקטן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אמר רבי עקיבא \"הכל לטובה\" כשכבה הנר שלו בשדה?",
+   "answer": "כי בזכות החושך האויבים לא מצאו אותו",
+   "options": [
+    "כי בזכות החושך האויבים לא מצאו אותו",
+    "כי הוא רצה לישון מוקדם",
+    "כי הנר היה ישן ושבור"
+   ],
+   "explain_he": "באותו לילה אויבים שבו את העיר. אילו דלק הנר, היו רואים אותו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אמר רבי עקיבא \"הכל לטובה\" כשכבה הנר שלו בשדה?",
+   "answer": "כי בזכות החושך האויבים לא מצאו אותו",
+   "options": [
+    "כי בזכות החושך האויבים לא מצאו אותו",
+    "כי הוא רצה לישון מוקדם",
+    "כי הנר היה ישן ושבור"
+   ],
+   "explain_he": "באותו לילה אויבים שבו את העיר. אילו דלק הנר, היו רואים אותו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה צחק רבי עקיבא כשראה שועל בהר הבית?",
+   "answer": "כי הבין שאם נבואת החורבן התקיימה, גם נבואת הבניין תתקיים",
+   "options": [
+    "כי הבין שאם נבואת החורבן התקיימה, גם נבואת הבניין תתקיים",
+    "כי השועל נראה מצחיק",
+    "כי לא ידע שזה המקום של המקדש"
+   ],
+   "explain_he": "רבי עקיבא ראה בחורבן הוכחה שדברי הנביאים מתקיימים, ולכן גם \"עוד ישבו זקנים וזקנות ברחובות ירושלים\" יתקיים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה צחק רבי עקיבא כשראה שועל בהר הבית?",
+   "answer": "כי הבין שאם נבואת החורבן התקיימה, גם נבואת הבניין תתקיים",
+   "options": [
+    "כי הבין שאם נבואת החורבן התקיימה, גם נבואת הבניין תתקיים",
+    "כי השועל נראה מצחיק",
+    "כי לא ידע שזה המקום של המקדש"
+   ],
+   "explain_he": "רבי עקיבא ראה בחורבן הוכחה שדברי הנביאים מתקיימים, ולכן גם \"עוד ישבו זקנים וזקנות ברחובות ירושלים\" יתקיים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לימד המשל של השועל והדגים?",
+   "answer": "שהתורה היא החיים של עם ישראל, כמו מים לדגים",
+   "options": [
+    "שהתורה היא החיים של עם ישראל, כמו מים לדגים",
+    "שצריך להיזהר משועלים",
+    "שהיבשה בטוחה יותר מהמים"
+   ],
+   "explain_he": "גם כשהלימוד מסוכן, בלי תורה יהודי הוא כמו דג בלי מים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לימד המשל של השועל והדגים?",
+   "answer": "שהתורה היא החיים של עם ישראל, כמו מים לדגים",
+   "options": [
+    "שהתורה היא החיים של עם ישראל, כמו מים לדגים",
+    "שצריך להיזהר משועלים",
+    "שהיבשה בטוחה יותר מהמים"
+   ],
+   "explain_he": "גם כשהלימוד מסוכן, בלי תורה יהודי הוא כמו דג בלי מים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מתו התלמידים של רבי עקיבא, לפי חז\"ל?",
+   "answer": "כי לא נהגו כבוד זה בזה",
+   "options": [
+    "כי לא נהגו כבוד זה בזה",
+    "כי הפסיקו ללמוד",
+    "כי עזבו את ארץ ישראל"
+   ],
+   "explain_he": "לכן בימי ספירת העומר משתדלים במיוחד לכבד כל אדם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מתו התלמידים של רבי עקיבא, לפי חז\"ל?",
+   "answer": "כי לא נהגו כבוד זה בזה",
+   "options": [
+    "כי לא נהגו כבוד זה בזה",
+    "כי הפסיקו ללמוד",
+    "כי עזבו את ארץ ישראל"
+   ],
+   "explain_he": "לכן בימי ספירת העומר משתדלים במיוחד לכבד כל אדם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה רבי עקיבא לתלמידיו שאלו \"עד כאן?\"",
+   "answer": "כל ימיו חיכה לקיים \"בכל נפשך\"",
+   "options": [
+    "כל ימיו חיכה לקיים \"בכל נפשך\"",
+    "שהוא לא מפחד מכאב",
+    "שהם צריכים לברוח"
+   ],
+   "explain_he": "רבי עקיבא ראה בקידוש השם קיום של הפסוק שחיכה לו כל חייו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f2e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה רבי עקיבא כשתלמיד שאל \"מניין לך\"?",
+   "answer": "הלכה למשה מסיני",
+   "options": [
+    "הלכה למשה מסיני",
+    "כך חשבתי לבד",
+    "כך כתוב בספר הרומאים"
+   ],
+   "explain_he": "התשובה הרגיעה את משה רבנו: גם מה שמתחדש בבית המדרש, מקורו בתורה שניתנה בסיני.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f2e16"
+  }
+ ]
+}

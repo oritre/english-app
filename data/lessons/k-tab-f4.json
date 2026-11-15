@@ -1,0 +1,254 @@
+{
+ "id": "k-tab-f4",
+ "unit_id": "k-tab-u2",
+ "course": "table",
+ "title_he": "הזית: שמן לאור",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌾 ידע כללי",
+   "title_he": "הזית: שמן לאור",
+   "ref_he": "מהשדה לשולחן",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עץ הזית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: An ancient olive tree with a thick twisted trunk and silvery-green leaves stands in a grove on a terraced hillside, soft morning light.",
+     "move": "up",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "הכירו את עץ הזית. העלים שלו קטנים, ירוקים מלמעלה וכסופים מלמטה. והם נשארים על העץ כל השנה, גם בחורף הקר.",
+      "עץ הזית חזק מאוד. הוא לא צריך הרבה מים, והוא גדל גם על הרים סלעיים.",
+      "יש בארץ ישראל עצי זית שחיים מאות שנים! הגזע שלהם עבה ומפותל, כמו סבא זקן וחכם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "המסיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Autumn olive harvest: the family spreads a large cloth under an olive tree; Saba shakes a branch, the children gather green and black olives into buckets.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👦 👧 🌳",
+     "say": [
+      "בסתיו הזיתים מבשילים. בהתחלה הם ירוקים, ואחר כך הם נעשים סגולים ושחורים.",
+      "כל המשפחה יוצאת למסיק, כך קוראים לקטיף הזיתים.",
+      "פורשים יריעה גדולה מתחת לעץ, ומנערים את הענפים, או מסרקים אותם במסרק מיוחד. הזיתים נופלים כמו גשם קטן.",
+      "הילדים אוספים אותם לדליים. זו עבודה ארוכה, אבל שמחה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "זית מר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Close-up: the boy makes a funny bitter face after tasting an olive straight from the tree, while his sister laughs; beside them glass jars of olives soaking in salty water.",
+     "move": "in",
+     "fx": null,
+     "art": "👦 👧",
+     "say": [
+      "אבל רגע, אל תאכלו זית ישר מהעץ! הוא מר מאוד. אוי, איזה פרצוף!",
+      "כדי שיהיה טעים, משרים אותו הרבה זמן, שבועות שלמים, במים ומלח. רק אז הזית נעשה טעים.",
+      "ועל זית מברכים ״בורא פרי העץ״, כי הוא גדל על עץ."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "זית שאוכלים בפעם הראשונה בשנה, אחרי ״בורא פרי העץ״ מברכים גם ״שהחיינו״."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "בית הבד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: An ancient olive press of stone: a large round stone wheel rolls over olives in a stone basin, turned by a donkey; golden oil drips into clay jars below.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🫒",
+     "say": [
+      "ואת רוב הזיתים לא אוכלים. לוקחים אותם לבית הבד, כדי לעשות מהם שמן.",
+      "פעם, אבן גדולה ועגולה התגלגלה בתוך אגן של אבן, וריסקה את הזיתים. חמור הלך במעגל, וסובב אותה.",
+      "אחר כך לחצו את הזיתים המרוסקים עם קורה כבדה, ונזל מהם שמן זהוב, לתוך כדים.",
+      "היום עושות את זה מכונות, אבל השמן זהוב ונוצץ בדיוק כמו אז."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "המנורה במקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: Inside the Holy Temple in Jerusalem, a tall golden seven-branched menorah glows with small flames of pure olive oil; a Kohen in white linen garments pours oil carefully.",
+     "move": "in",
+     "fx": "light",
+     "art": "🕎",
+     "say": [
+      "בבית המקדש עמדה מנורה גדולה של זהב, עם שבעה קנים. בכל ערב, הכהן הדליק אותה.",
+      "ובמה הדליקו אותה? בשמן זית טהור. כך ציוותה התורה: ״שמן זית זך, כתית, למאור״.",
+      "רש״י מסביר: למנורה לקחו רק את הטיפה הראשונה, הכי נקייה, מהזיתים הכתושים."
+     ],
+     "pasuk": {
+      "text": "שֶׁמֶן זַיִת זָךְ כָּתִית לַמָּאוֹר",
+      "ref": "שמות כז, כ"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "פך השמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: A dim corner of the Temple: a Kohen in white kneels and lifts a small clay jug of oil sealed with a seal, his face full of joy, soft light around the jug.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🏺",
+     "say": [
+      "לפני יותר מאלפיים שנה, היוונים נכנסו לבית המקדש, וטימאו את כל השמן.",
+      "החשמונאים חזרו למקדש, ורצו להדליק את המנורה. הם חיפשו וחיפשו, ומצאו רק פך קטן אחד, עם חותם של הכהן הגדול.",
+      "היה בו שמן ליום אחד בלבד. אבל השם עשה נס, והשמן דלק שמונה ימים!",
+      "בדיוק עד שהספיקו להכין שמן חדש וטהור."
+     ],
+     "pasuk": {
+      "text": "וְלֹא מָצְאוּ אֶלָּא פַּךְ אֶחָד שֶׁל שֶׁמֶן שֶׁהָיָה מֻנָּח בְּחוֹתָמוֹ שֶׁל כֹּהֵן גָּדוֹל",
+      "ref": "שבת כא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "חנוכה בבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A winter evening: a silver menorah with small olive-oil cups burns in a window facing the street; on the table a plate of sufganiyot and latkes, the children watching the flames.",
+     "move": "out",
+     "fx": "night",
+     "art": "👦 👧 🕎",
+     "say": [
+      "לכן בחנוכה אנחנו מדליקים נרות, שמונה ימים. ומניחים את החנוכייה ליד החלון או בפתח, כדי שכולם יראו את הנס.",
+      "הרבה משפחות מדליקות דווקא בשמן זית, כמו במקדש.",
+      "ואוכלים לביבות וסופגניות, שמטוגנות בשמן, וזוכרים את נס פך השמן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "כשתילי זיתים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A family Shabbat table outdoors under an olive tree at sunset; young olive saplings grow around the tree, and the children sit happily around the table.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👧 🌳",
+     "say": [
+      "דוד המלך כתב בתהלים: ״בניך כשתילי זיתים, סביב לשולחנך״.",
+      "מסביב לעץ זית זקן, צומחים שתילים קטנים. הם יגדלו, ויהיו עצים חזקים כמוהו.",
+      "כך הילדים סביב השולחן: חזקים, ירוקים תמיד, וממשיכים את הדרך של ההורים והסבים.",
+      "כמוכם, ילדים יקרים! גם אתם יכולים להביא אור לעולם, כמו שמן הזית במנורה."
+     ],
+     "pasuk": {
+      "text": "בָּנֶיךָ כִּשְׁתִלֵי זֵיתִים סָבִיב לְשֻׁלְחָנֶךָ",
+      "ref": "תהלים קכח, ג"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-tab-f4e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי קוטפים את הזיתים?",
+   "answer": "בסתיו",
+   "options": [
+    "בסתיו",
+    "באביב",
+    "באמצע הקיץ"
+   ],
+   "explain_he": "בסתיו הזיתים מבשילים, וכל המשפחה יוצאת למסיק.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא אוכלים זית ישר מהעץ?",
+   "answer": "כי הוא מר מאוד",
+   "options": [
+    "כי הוא מר מאוד",
+    "כי הוא חם מדי",
+    "כי הוא קשה כמו אבן"
+   ],
+   "explain_he": "הזית מר, ולכן משרים אותו במים ומלח.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים על זית?",
+   "answer": "בורא פרי העץ",
+   "options": [
+    "בורא פרי העץ",
+    "בורא פרי האדמה",
+    "שהכל נהיה בדברו"
+   ],
+   "explain_he": "הזית גדל על עץ, ולכן מברכים ״בורא פרי העץ״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה הדליקו את המנורה בבית המקדש?",
+   "answer": "בשמן זית טהור",
+   "options": [
+    "בשמן זית טהור",
+    "בנרות שעווה",
+    "בעצים יבשים"
+   ],
+   "explain_he": "התורה אומרת: ״שמן זית זך כתית למאור״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מצאו החשמונאים בבית המקדש?",
+   "answer": "פך שמן קטן אחד, עם חותם הכהן הגדול",
+   "options": [
+    "פך שמן קטן אחד, עם חותם הכהן הגדול",
+    "הרבה כדים מלאים שמן",
+    "עץ זית חדש בחצר"
+   ],
+   "explain_he": "השמן בפך הספיק ליום אחד, ובנס דלק שמונה ימים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מניחים את החנוכייה ליד החלון?",
+   "answer": "כדי שכולם יראו את הנס",
+   "options": [
+    "כדי שכולם יראו את הנס",
+    "כדי שיהיה קר לנרות",
+    "כדי שהשמן לא יישפך"
+   ],
+   "explain_he": "החנוכייה מפרסמת את הנס לכל מי שעובר ברחוב.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f4e7"
+  }
+ ]
+}

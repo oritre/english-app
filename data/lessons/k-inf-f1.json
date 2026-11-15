@@ -1,0 +1,845 @@
+{
+ "id": "k-inf-f1",
+ "unit_id": "k-inf-u1",
+ "course": "inventors",
+ "title_he": "הגלגל והכתב",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "הגלגל והכתב",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "wheels",
+     "title_he": "כמה גלגלים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A sunny Israeli street with cars, bicycles, a baby stroller and a rolling suitcase; the two children count the wheels with their fingers, smiling.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "שלום, ילדים! בואו נשחק משחק קטן. כמה גלגלים אתם רואים סביבכם?",
+      "יש גלגלים במכונית, באופניים, בעגלה של התינוק ואפילו במזוודה.",
+      "אבל פעם, לפני אלפי שנים, לא היו גלגלים בכלל. היום נגלה שתי המצאות עתיקות ששינו את העולם: הגלגל והכתב.",
+      "תדמיינו עולם בלי ספרים ובלי מכתבים. קשה, נכון?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "drag",
+     "title_he": "לפני הגלגל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Ancient times: men in simple tunics push a huge building stone resting on round wooden logs across dusty ground, a donkey carrying sacks nearby, hills in the background.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🚶 🪨",
+     "say": [
+      "לפני שהיה גלגל, אנשים סחבו משאות כבדים על הגב.",
+      "בעלי חיים כמו חמורים ושוורים עזרו להם לסחוב.",
+      "ולפעמים גלגלו אבן גדולה על בולי עץ עגולים. העץ התגלגל, והאבן זזה קדימה.",
+      "זה היה קשה מאוד, והעבודה הייתה איטית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wheel",
+     "title_he": "נולד הגלגל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An ancient wooden cart with solid round wooden wheels on an axle, pulled by an ox along a dirt road past wheat fields; nearby a potter shapes a clay jar on a turning wheel.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🐂",
+     "say": [
+      "וכך נולד הגלגל: עיגול של עץ, עם מוט באמצע שנקרא סרן.",
+      "מחברים שני גלגלים לעגלה, והעגלה נוסעת! שור אחד יכול למשוך עליה משא גדול.",
+      "הגלגלים הראשונים היו כבדים, עשויים מעץ מלא.",
+      "עם הגלגל, חקלאי יכול להביא את כל התבואה מהשדה בבת אחת.",
+      "ואחר כך המציאו גלגל עם חישורים, כמו קרני שמש. הוא היה קל ומהיר יותר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כנראה שאחד השימושים הראשונים בגלגל לא היה בכלל לנסיעה, אלא אצל הקדר: גלגל מסתובב שעליו יוצרים כדים מחימר."
+     }
+    },
+    {
+     "id": "agalot",
+     "title_he": "העגלות של יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Ancient Canaan at golden hour: a line of wooden wagons arrives at the tents of an elderly patriarch with a long white beard and robe, whose face lights up with joy; his sons stand around him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 ⛺",
+     "say": [
+      "גם בתורה יש עגלות! כשיוסף היה משנה למלך במצרים, הוא שלח עגלות לאבא שלו, יעקב.",
+      "יעקב ראה את העגלות ושמח מאוד. הוא הבין שיוסף, הבן האהוב שלו, עדיין חי.",
+      "למה דווקא עגלות? רש״י מסביר שיוסף רמז לאבא שלו על הדבר האחרון שלמדו יחד בתורה, לפני שנפרדו. יעקב הבין: יוסף לא שכח את התורה!"
+     ],
+     "pasuk": {
+      "text": "וַיַּרְא אֶת הָעֲגָלוֹת אֲשֶׁר שָׁלַח יוֹסֵף לָשֵׂאת אֹתוֹ, וַתְּחִי רוּחַ יַעֲקֹב אֲבִיהֶם",
+      "ref": "בראשית מה, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "pictures",
+     "title_he": "כתב של ציורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An ancient scribe in a simple robe presses a sharp reed into a soft clay tablet, making small wedge marks; beside him a carved stone wall full of little pictures of birds, eyes and reeds.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨",
+     "say": [
+      "עכשיו נעבור להמצאה השנייה: הכתב.",
+      "פעם, כדי לזכור משהו, היו צריכים לשנן אותו בעל פה.",
+      "הכתב הראשון היה עשוי מציורים קטנים. ציור של ציפור אמר ציפור, וציור של עין אמר עין.",
+      "אבל היו אלפי ציורים כאלה! היה קשה מאוד ללמוד את כולם.",
+      "ולכן רק מעט אנשים ידעו לקרוא ולכתוב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "alefbet",
+     "title_he": "האותיות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A warm classroom of long ago: a teacher with a beard and kippah points at large painted Hebrew-style letter shapes on a wooden board while young boys with kippot follow eagerly; soft morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦",
+     "say": [
+      "ואז הגיע רעיון מבריק: אותיות!",
+      "במקום אלפי ציורים, מספיקות כמה אותיות. בעברית יש עשרים ושתיים אותיות, ומהן אפשר לכתוב כל מילה.",
+      "אלף, בית, גימל... ילד בכיתה א׳ יכול ללמוד את כולן!",
+      "וחז״ל אומרים שהכתב הוא מתנה מיוחדת, שהקדוש ברוך הוא הכין כבר בזמן בריאת העולם."
+     ],
+     "pasuk": {
+      "text": "עֲשָׂרָה דְבָרִים נִבְרְאוּ בְּעֶרֶב שַׁבָּת בֵּין הַשְּׁמָשׁוֹת... וְהַכְּתָב וְהַמִּכְתָּב וְהַלּוּחוֹת",
+      "ref": "משנה, אבות ה, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "sofer",
+     "title_he": "הסופר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. A Jewish scribe: an older man with a grey beard, black kippah and white shirt, writing with a feather quill on parchment. Scene: A quiet room lit by a window: the scribe writes carefully on a long parchment scroll with a feather quill and an inkwell, a wooden rack of finished parchment sheets behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "והנה סופר סת״ם, שכותב ספר תורה.",
+      "הוא כותב ביד, בנוצה ובדיו, על קלף.",
+      "כל אות צריכה להיות מדויקת. אם חסרה אות אחת, הספר פסול! ולכן הסופר כותב לאט, בזהירות ובשמחה.",
+      "בזכות הכתב, התורה שקיבלנו בהר סיני נשמרה בדיוק, מאבא לבן, כבר אלפי שנים."
+     ],
+     "pasuk": {
+      "text": "וְעַתָּה כִּתְבוּ לָכֶם אֶת הַשִּׁירָה הַזֹּאת",
+      "ref": "דברים לא, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מתנות גדולות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children sit in a toy wagon with wooden wheels in a sunny garden, an open book on their laps, laughing.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו היום? הגלגל עזר לנו לנסוע ולהעביר משאות, והכתב עזר לנו לזכור ולכתוב את התורה.",
+      "תחשבו: כל ספר בבית שלכם, כל מכתב וכל שלט, התחיל מהרעיון הגדול של האותיות.",
+      "בפעם הבאה שאתם רואים גלגל, או פותחים ספר, תזכרו: אלה מתנות גדולות. ובשיעור הבא נגלה איך התחילו להדפיס ספרים!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "הגלגל והכתב",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "wheels",
+     "title_he": "כמה גלגלים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A sunny Israeli street with cars, bicycles, a baby stroller and a rolling suitcase; the two children count the wheels with their fingers, smiling.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "שלום, ילדים! תסתכלו רגע מסביב ותנסו לספור: כמה גלגלים יש ברחוב שלכם?",
+      "גלגלים במכוניות ובאוטובוסים, באופניים ובעגלות תינוק, ואפילו בתוך השעון ובתוך הטחנה שטוחנת את הקמח.",
+      "קשה לדמיין עולם בלי גלגל, וקשה עוד יותר לדמיין עולם בלי כתב. בלי כתב לא היו ספרים, לא היו מכתבים, ולא היה ספר תורה.",
+      "היום נצא למסע אחורה בזמן, אל שתי ההמצאות העתיקות האלה, ונבין איך הן שינו את חיי בני האדם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "drag",
+     "title_he": "לפני הגלגל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Ancient times: men in simple tunics push a huge building stone resting on round wooden logs across dusty ground, a donkey carrying sacks nearby, hills in the background.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🚶 🪨",
+     "say": [
+      "לפני שהיה גלגל, אנשים נשאו משאות על הגב, או העמיסו אותם על חמורים, גמלים ושוורים.",
+      "משא כבד במיוחד, כמו אבן ענקית לבניין, גררו על מזחלת עץ. זה היה קשה מאוד, כי המזחלת התחככה באדמה.",
+      "אנשים שמו לב שאם מניחים מתחת למשא בולי עץ עגולים, הוא זז הרבה יותר בקלות. בולי העץ מתגלגלים, ובמקום לגרור, דוחפים.",
+      "אבל היה קושי: כל פעם שבול עץ יצא מאחור, היה צריך להעביר אותו מקדימה. ואז מישהו חכם חשב: אולי אפשר לחבר את העיגול אל המשא עצמו?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wheel",
+     "title_he": "נולד הגלגל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An ancient wooden cart with solid round wooden wheels on an axle, pulled by an ox along a dirt road past wheat fields; nearby a potter shapes a clay jar on a turning wheel.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🐂",
+     "say": [
+      "וכך נולד הגלגל. הסוד הגדול איננו רק העיגול, אלא המוט שעובר באמצעו, הסרן. הגלגל מסתובב סביב הסרן, והעגלה נוסעת.",
+      "הגלגלים הראשונים היו עשויים מלוחות עץ מלאים, והם היו כבדים מאוד.",
+      "במשך הזמן המציאו בעלי מלאכה גלגל עם חישורים, כמו קרני שמש, שהיה קל ומהיר הרבה יותר.",
+      "עם הגלגל אפשר היה להעביר תבואה מהשדה, מים מהבאר ואבנים לבנייה. שור אחד עם עגלה עשה עבודה של הרבה אנשים.",
+      "ויש גלגלים שלא נוסעים בכלל: גלגל של טחנת קמח, שמסתובב בכוח המים או בכוח בהמה, וטוחן את החיטה לקמח.",
+      "ומאוחר יותר הגלגל נכנס כמעט לכל מכונה: לשעונים, למכונות תפירה ולמכונות שבבתי החרושת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כנראה שאחד השימושים הראשונים בגלגל לא היה בכלל לנסיעה, אלא אצל הקדר: גלגל מסתובב שעליו יוצרים כדים מחימר."
+     }
+    },
+    {
+     "id": "agalot",
+     "title_he": "העגלות של יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Ancient Canaan at golden hour: a line of wooden wagons arrives at the tents of an elderly patriarch with a long white beard and robe, whose face lights up with joy; his sons stand around him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 ⛺",
+     "say": [
+      "גם בתורה אנחנו פוגשים עגלות. כשיוסף התגלה לאחיו במצרים, הוא שלח עגלות לאביו יעקב, כדי להביא אותו ואת כל המשפחה למצרים.",
+      "בהתחלה יעקב לא האמין שיוסף חי. אבל כשראה את העגלות, רוחו חזרה אליו והוא שמח."
+     ],
+     "pasuk": {
+      "text": "וַיַּרְא אֶת הָעֲגָלוֹת אֲשֶׁר שָׁלַח יוֹסֵף לָשֵׂאת אֹתוֹ, וַתְּחִי רוּחַ יַעֲקֹב אֲבִיהֶם",
+      "ref": "בראשית מה, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "pictures",
+     "title_he": "כתב של ציורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An ancient scribe in a simple robe presses a sharp reed into a soft clay tablet, making small wedge marks; beside him a carved stone wall full of little pictures of birds, eyes and reeds.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨",
+     "say": [
+      "עכשיו נעבור להמצאה השנייה, ואולי החשובה ביותר: הכתב.",
+      "בלי כתב, כל מה שאדם רצה לזכור היה צריך להישמר בראש: חשבונות, הסכמים, סיפורים ושמות.",
+      "בארצות קדומות כמו מצרים ובבל כתבו בהתחלה בציורים קטנים. במצרים חרטו על אבנים ציורים של ציפורים, עיניים ונחשים, ובבבל לחצו קנה חד על לוחות טין רך ועשו בהם סימנים קטנים כמו יתדות.",
+      "אבל היו אלפי ציורים וסימנים. רק מעט אנשים, שלמדו שנים רבות, ידעו לקרוא ולכתוב.",
+      "כתב עתיק אחר, שמצאו חרוט על אבנים במצרים, נשאר תעלומה מאות שנים. רק לפני כמאתיים שנה הצליח חוקר לפענח אותו, בעזרת אבן שהיה חרוט עליה אותו נוסח בשלושה כתבים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לוחות הטין של בבל היו מתייבשים בשמש ונעשים קשים כמו אבן. לכן הרבה מהם נשמרו עד היום, אחרי אלפי שנים."
+     }
+    },
+    {
+     "id": "alefbet",
+     "title_he": "האותיות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A warm classroom of long ago: a teacher with a beard and kippah points at large painted Hebrew-style letter shapes on a wooden board while young boys with kippot follow eagerly; soft morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦",
+     "say": [
+      "ואז הגיע רעיון מבריק: אותיות. כל אות מסמנת צליל, ומחברים אותיות למילים.",
+      "בעברית יש עשרים ושתיים אותיות בלבד, ובהן אפשר לכתוב כל מילה שקיימת. ככה גם ילד בכיתה א׳ יכול ללמוד לקרוא.",
+      "ולעם ישראל יש קשר מיוחד לאותיות. חז״ל אומרים במסכת אבות שהכתב היה בין עשרה דברים מיוחדים שנבראו בערב שבת של בריאת העולם, בין השמשות.",
+      "ובאותיות אפשר לכתוב גם כל מילה חדשה, שעוד לא נאמרה מעולם. זה כוחו של אלף־בית: מעט סימנים, ואינסוף מילים."
+     ],
+     "pasuk": {
+      "text": "עֲשָׂרָה דְבָרִים נִבְרְאוּ בְּעֶרֶב שַׁבָּת בֵּין הַשְּׁמָשׁוֹת... וְהַכְּתָב וְהַמִּכְתָּב וְהַלּוּחוֹת",
+      "ref": "משנה, אבות ה, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "sofer",
+     "title_he": "הסופר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. A Jewish scribe: an older man with a grey beard, black kippah and white shirt, writing with a feather quill on parchment. Scene: A quiet room lit by a window: the scribe writes carefully on a long parchment scroll with a feather quill and an inkwell, a wooden rack of finished parchment sheets behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "בזכות הכתב, התורה שקיבלנו בהר סיני נשמרה בדיוק, דור אחרי דור.",
+      "סופר סת״ם כותב ספר תורה ביד, בנוצה ובדיו מיוחד, על קלף. בספר תורה יש מאות אלפי אותיות, וכל אחת מהן צריכה להיות שלמה ומדויקת.",
+      "אם חסרה אפילו אות אחת, הספר פסול. לכן הסופר עובד לאט ובזהירות, לפעמים שנה שלמה ויותר, על ספר תורה אחד.",
+      "ויש עוד דבר מיוחד: לפני שהסופר כותב את שם השם, הוא אומר בפיו שהוא כותב לשם קדושת השם. כל אות נכתבת ביראה ובאהבה."
+     ],
+     "pasuk": {
+      "text": "וְעַתָּה כִּתְבוּ לָכֶם אֶת הַשִּׁירָה הַזֹּאת",
+      "ref": "דברים לא, יט"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בספר תורה יש בערך 304,800 אותיות. מצווה על כל יהודי לכתוב לעצמו ספר תורה, או לפחות לעזור בכתיבתו."
+     }
+    },
+    {
+     "id": "end",
+     "title_he": "מתנות גדולות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children sit in a toy wagon with wooden wheels in a sunny garden, an open book on their laps, laughing.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? הגלגל הפך את העבודה הקשה לקלה יותר, ועזר לבני האדם לנסוע ולהעביר משאות למרחקים.",
+      "והכתב עשה משהו עמוק עוד יותר: הוא איפשר לזכור, ללמוד מהדורות הקודמים, ולשמור על התורה בדיוק כפי שניתנה.",
+      "הגלגל והכתב נראים לנו היום פשוטים, אבל בלעדיהם לא היו כל ההמצאות שנלמד בקורס הזה.",
+      "אבל עדיין נשארה בעיה: כל ספר נכתב ביד, וזה לקח הרבה זמן. ספרים היו יקרים ונדירים. בשיעור הבא נגלה את ההמצאה שפתרה את הבעיה הזו: הדפוס."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f1e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "הגלגל והכתב",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "wheels",
+     "title_he": "כמה גלגלים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A sunny Israeli street with cars, bicycles, a baby stroller and a rolling suitcase; the two children count the wheels with their fingers, smiling.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "שלום, ילדים! תסתכלו רגע מסביב ותנסו לספור: כמה גלגלים יש ברחוב שלכם?",
+      "גלגלים במכוניות ובאוטובוסים, באופניים ובעגלות תינוק, ואפילו בתוך השעון ובתוך הטחנה שטוחנת את הקמח.",
+      "קשה לדמיין עולם בלי גלגל, וקשה עוד יותר לדמיין עולם בלי כתב. בלי כתב לא היו ספרים, לא היו מכתבים, ולא היה ספר תורה.",
+      "היום נצא למסע אחורה בזמן, אל שתי ההמצאות העתיקות האלה, ונבין איך הן שינו את חיי בני האדם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "drag",
+     "title_he": "לפני הגלגל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Ancient times: men in simple tunics push a huge building stone resting on round wooden logs across dusty ground, a donkey carrying sacks nearby, hills in the background.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🚶 🪨",
+     "say": [
+      "לפני שהיה גלגל, אנשים נשאו משאות על הגב, או העמיסו אותם על חמורים, גמלים ושוורים.",
+      "משא כבד במיוחד, כמו אבן ענקית לבניין, גררו על מזחלת עץ. זה היה קשה מאוד, כי המזחלת התחככה באדמה.",
+      "אנשים שמו לב שאם מניחים מתחת למשא בולי עץ עגולים, הוא זז הרבה יותר בקלות. בולי העץ מתגלגלים, ובמקום לגרור, דוחפים.",
+      "אבל היה קושי: כל פעם שבול עץ יצא מאחור, היה צריך להעביר אותו מקדימה. ואז מישהו חכם חשב: אולי אפשר לחבר את העיגול אל המשא עצמו?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wheel",
+     "title_he": "נולד הגלגל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An ancient wooden cart with solid round wooden wheels on an axle, pulled by an ox along a dirt road past wheat fields; nearby a potter shapes a clay jar on a turning wheel.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🐂",
+     "say": [
+      "וכך נולד הגלגל. הסוד הגדול איננו רק העיגול, אלא המוט שעובר באמצעו, הסרן. הגלגל מסתובב סביב הסרן, והעגלה נוסעת.",
+      "הגלגלים הראשונים היו עשויים מלוחות עץ מלאים, והם היו כבדים מאוד.",
+      "במשך הזמן המציאו בעלי מלאכה גלגל עם חישורים, כמו קרני שמש, שהיה קל ומהיר הרבה יותר.",
+      "עם הגלגל אפשר היה להעביר תבואה מהשדה, מים מהבאר ואבנים לבנייה. שור אחד עם עגלה עשה עבודה של הרבה אנשים.",
+      "ויש גלגלים שלא נוסעים בכלל: גלגל של טחנת קמח, שמסתובב בכוח המים או בכוח בהמה, וטוחן את החיטה לקמח.",
+      "ומאוחר יותר הגלגל נכנס כמעט לכל מכונה: לשעונים, למכונות תפירה ולמכונות שבבתי החרושת.",
+      "גם במשכן היו עגלות. הנשיאים הביאו שש עגלות מכוסות ושנים עשר בקר, ובהן נשאו הלויים את קרשי המשכן ויריעותיו.",
+      "אבל את ארון הברית ואת כלי הקודש לא נשאו בעגלה. התורה אומרת על בני קהת: ״כי עבודת הקודש עליהם, בכתף ישאו״.",
+      "ושנים רבות אחר כך, כשדוד המלך העלה את הארון לירושלים בעגלה חדשה, קרה אסון. דוד הבין את הטעות, ובפעם השנייה נשאו הלויים את הארון על כתפיהם, בשמחה גדולה. מכאן לומדים: לא כל דבר נוח מתאים לקודש."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כנראה שאחד השימושים הראשונים בגלגל לא היה בכלל לנסיעה, אלא אצל הקדר: גלגל מסתובב שעליו יוצרים כדים מחימר."
+     }
+    },
+    {
+     "id": "agalot",
+     "title_he": "העגלות של יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Ancient Canaan at golden hour: a line of wooden wagons arrives at the tents of an elderly patriarch with a long white beard and robe, whose face lights up with joy; his sons stand around him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 ⛺",
+     "say": [
+      "גם בתורה אנחנו פוגשים עגלות. כשיוסף התגלה לאחיו במצרים, הוא שלח עגלות לאביו יעקב, כדי להביא אותו ואת כל המשפחה למצרים.",
+      "בהתחלה יעקב לא האמין שיוסף חי. אבל כשראה את העגלות, רוחו חזרה אליו והוא שמח.",
+      "רש״י מביא את דברי חז״ל: יוסף רמז לאביו בעגלות על הנושא האחרון שלמדו יחד לפני שנפרדו, פרשת עגלה ערופה. עגלה ועגלה, אותה מילה.",
+      "כך ידע יעקב שיוסף לא שכח את התורה שלמד בבית אבא, גם במצרים הרחוקה, גם אחרי עשרים ושתיים שנה."
+     ],
+     "pasuk": {
+      "text": "וַיַּרְא אֶת הָעֲגָלוֹת אֲשֶׁר שָׁלַח יוֹסֵף לָשֵׂאת אֹתוֹ, וַתְּחִי רוּחַ יַעֲקֹב אֲבִיהֶם",
+      "ref": "בראשית מה, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "pictures",
+     "title_he": "כתב של ציורים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An ancient scribe in a simple robe presses a sharp reed into a soft clay tablet, making small wedge marks; beside him a carved stone wall full of little pictures of birds, eyes and reeds.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨",
+     "say": [
+      "עכשיו נעבור להמצאה השנייה, ואולי החשובה ביותר: הכתב.",
+      "בלי כתב, כל מה שאדם רצה לזכור היה צריך להישמר בראש: חשבונות, הסכמים, סיפורים ושמות.",
+      "בארצות קדומות כמו מצרים ובבל כתבו בהתחלה בציורים קטנים. במצרים חרטו על אבנים ציורים של ציפורים, עיניים ונחשים, ובבבל לחצו קנה חד על לוחות טין רך ועשו בהם סימנים קטנים כמו יתדות.",
+      "אבל היו אלפי ציורים וסימנים. רק מעט אנשים, שלמדו שנים רבות, ידעו לקרוא ולכתוב.",
+      "כתב עתיק אחר, שמצאו חרוט על אבנים במצרים, נשאר תעלומה מאות שנים. רק לפני כמאתיים שנה הצליח חוקר לפענח אותו, בעזרת אבן שהיה חרוט עליה אותו נוסח בשלושה כתבים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לוחות הטין של בבל היו מתייבשים בשמש ונעשים קשים כמו אבן. לכן הרבה מהם נשמרו עד היום, אחרי אלפי שנים."
+     }
+    },
+    {
+     "id": "alefbet",
+     "title_he": "האותיות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A warm classroom of long ago: a teacher with a beard and kippah points at large painted Hebrew-style letter shapes on a wooden board while young boys with kippot follow eagerly; soft morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦",
+     "say": [
+      "ואז הגיע רעיון מבריק: אותיות. כל אות מסמנת צליל, ומחברים אותיות למילים.",
+      "בעברית יש עשרים ושתיים אותיות בלבד, ובהן אפשר לכתוב כל מילה שקיימת. ככה גם ילד בכיתה א׳ יכול ללמוד לקרוא.",
+      "ולעם ישראל יש קשר מיוחד לאותיות. חז״ל אומרים במסכת אבות שהכתב היה בין עשרה דברים מיוחדים שנבראו בערב שבת של בריאת העולם, בין השמשות.",
+      "מכאן אנחנו לומדים כמה חשוב הכתב: הוא לא רק המצאה של בני אדם, אלא מתנה שהקדוש ברוך הוא הכין לעולם מראש, כדי שבו תיכתב התורה.",
+      "ובאותיות אפשר לכתוב גם כל מילה חדשה, שעוד לא נאמרה מעולם. זה כוחו של אלף־בית: מעט סימנים, ואינסוף מילים."
+     ],
+     "pasuk": {
+      "text": "עֲשָׂרָה דְבָרִים נִבְרְאוּ בְּעֶרֶב שַׁבָּת בֵּין הַשְּׁמָשׁוֹת... וְהַכְּתָב וְהַמִּכְתָּב וְהַלּוּחוֹת",
+      "ref": "משנה, אבות ה, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "sofer",
+     "title_he": "הסופר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. A Jewish scribe: an older man with a grey beard, black kippah and white shirt, writing with a feather quill on parchment. Scene: A quiet room lit by a window: the scribe writes carefully on a long parchment scroll with a feather quill and an inkwell, a wooden rack of finished parchment sheets behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "בזכות הכתב, התורה שקיבלנו בהר סיני נשמרה בדיוק, דור אחרי דור.",
+      "סופר סת״ם כותב ספר תורה ביד, בנוצה ובדיו מיוחד, על קלף. בספר תורה יש מאות אלפי אותיות, וכל אחת מהן צריכה להיות שלמה ומדויקת.",
+      "אם חסרה אפילו אות אחת, הספר פסול. לכן הסופר עובד לאט ובזהירות, לפעמים שנה שלמה ויותר, על ספר תורה אחד.",
+      "ויש עוד דבר מיוחד: לפני שהסופר כותב את שם השם, הוא אומר בפיו שהוא כותב לשם קדושת השם. כל אות נכתבת ביראה ובאהבה."
+     ],
+     "pasuk": {
+      "text": "וְעַתָּה כִּתְבוּ לָכֶם אֶת הַשִּׁירָה הַזֹּאת",
+      "ref": "דברים לא, יט"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בספר תורה יש בערך 304,800 אותיות. מצווה על כל יהודי לכתוב לעצמו ספר תורה, או לפחות לעזור בכתיבתו."
+     }
+    },
+    {
+     "id": "mishna",
+     "title_he": "התורה שבעל פה נכתבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Ancient Galilee: an elderly sage with a white beard and a tallit sits among his students in a stone study hall, a student writes on a scroll as the sage speaks; olive trees outside.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "הכתב עזר לעם ישראל גם בתקופות קשות. התורה שבעל פה נמסרה במשך דורות מפה לאוזן, מרב לתלמיד.",
+      "אבל אחרי חורבן הבית השני, כשהעם התפזר והצרות גברו, רבי יהודה הנשיא חשש שהתורה תשתכח. הוא סידר את המשנה, וכך נשמרו עיקרי התורה שבעל פה בכתב.",
+      "חז״ל אומרים במסכת גיטין שעל כך נאמר: ״עת לעשות לה׳ הפרו תורתך״. כלומר, לפעמים כדי לשמור על התורה צריך לעשות צעד חדש ונועז.",
+      "גם אחר כך, רבנים מארצות רחוקות כתבו זה לזה שאלות בהלכה ותשובות עליהן. הכתב חיבר את קהילות ישראל לעם אחד, גם כשהיו רחוקות זו מזו."
+     ],
+     "pasuk": {
+      "text": "עֵת לַעֲשׂוֹת לַה׳ הֵפֵרוּ תּוֹרָתֶךָ",
+      "ref": "תהלים קיט, קכו"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מתנות גדולות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children sit in a toy wagon with wooden wheels in a sunny garden, an open book on their laps, laughing.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? הגלגל הפך את העבודה הקשה לקלה יותר, ועזר לבני האדם לנסוע ולהעביר משאות למרחקים.",
+      "והכתב עשה משהו עמוק עוד יותר: הוא איפשר לזכור, ללמוד מהדורות הקודמים, ולשמור על התורה בדיוק כפי שניתנה.",
+      "הגלגל והכתב נראים לנו היום פשוטים, אבל בלעדיהם לא היו כל ההמצאות שנלמד בקורס הזה.",
+      "אבל עדיין נשארה בעיה: כל ספר נכתב ביד, וזה לקח הרבה זמן. ספרים היו יקרים ונדירים. בשיעור הבא נגלה את ההמצאה שפתרה את הבעיה הזו: הדפוס."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עוזר לגלגל להסתובב מתחת לעגלה?",
+   "answer": "מוט באמצע הגלגל, שנקרא סרן",
+   "options": [
+    "מוט באמצע הגלגל, שנקרא סרן",
+    "חבל שקושרים לגלגל",
+    "אבן כבדה שמניחים על הגלגל"
+   ],
+   "explain_he": "הגלגל מסתובב סביב מוט שעובר באמצעו, הסרן. זה הסוד שמאפשר לעגלה לנסוע.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עוזר לגלגל להסתובב מתחת לעגלה?",
+   "answer": "מוט באמצע הגלגל, שנקרא סרן",
+   "options": [
+    "מוט באמצע הגלגל, שנקרא סרן",
+    "חבל שקושרים לגלגל",
+    "אבן כבדה שמניחים על הגלגל"
+   ],
+   "explain_he": "הגלגל מסתובב סביב מוט שעובר באמצעו, הסרן. זה הסוד שמאפשר לעגלה לנסוע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עוזר לגלגל להסתובב מתחת לעגלה?",
+   "answer": "מוט באמצע הגלגל, שנקרא סרן",
+   "options": [
+    "מוט באמצע הגלגל, שנקרא סרן",
+    "חבל שקושרים לגלגל",
+    "אבן כבדה שמניחים על הגלגל"
+   ],
+   "explain_he": "הגלגל מסתובב סביב מוט שעובר באמצעו, הסרן. זה הסוד שמאפשר לעגלה לנסוע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שלח יוסף ליעקב אביו?",
+   "answer": "עגלות",
+   "options": [
+    "עגלות",
+    "גמלים",
+    "ספינות"
+   ],
+   "explain_he": "יוסף שלח עגלות להביא את יעקב למצרים, וכשיעקב ראה אותן, רוחו חזרה אליו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שלח יוסף ליעקב אביו?",
+   "answer": "עגלות",
+   "options": [
+    "עגלות",
+    "גמלים",
+    "ספינות"
+   ],
+   "explain_he": "יוסף שלח עגלות להביא את יעקב למצרים, וכשיעקב ראה אותן, רוחו חזרה אליו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שלח יוסף ליעקב אביו?",
+   "answer": "עגלות",
+   "options": [
+    "עגלות",
+    "גמלים",
+    "ספינות"
+   ],
+   "explain_he": "יוסף שלח עגלות להביא את יעקב למצרים, וכשיעקב ראה אותן, רוחו חזרה אליו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אותיות יש באלף־בית העברי?",
+   "answer": "עשרים ושתיים",
+   "options": [
+    "עשרים ושתיים",
+    "עשר",
+    "מאה"
+   ],
+   "explain_he": "בעברית יש עשרים ושתיים אותיות, ובהן אפשר לכתוב כל מילה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אותיות יש באלף־בית העברי?",
+   "answer": "עשרים ושתיים",
+   "options": [
+    "עשרים ושתיים",
+    "עשר",
+    "מאה"
+   ],
+   "explain_he": "בעברית יש עשרים ושתיים אותיות, ובהן אפשר לכתוב כל מילה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אותיות יש באלף־בית העברי?",
+   "answer": "עשרים ושתיים",
+   "options": [
+    "עשרים ושתיים",
+    "עשר",
+    "מאה"
+   ],
+   "explain_he": "בעברית יש עשרים ושתיים אותיות, ובהן אפשר לכתוב כל מילה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה סופר סת״ם כותב לאט ובזהירות?",
+   "answer": "כי אם חסרה אות אחת, הספר פסול",
+   "options": [
+    "כי אם חסרה אות אחת, הספר פסול",
+    "כי הנוצה שלו נשברת מהר",
+    "כי הדיו נגמר מהר"
+   ],
+   "explain_he": "כל אות בספר תורה צריכה להיות שלמה ומדויקת. חסרה אות אחת, והספר פסול.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה סופר סת״ם כותב לאט ובזהירות?",
+   "answer": "כי אם חסרה אות אחת, הספר פסול",
+   "options": [
+    "כי אם חסרה אות אחת, הספר פסול",
+    "כי הנוצה שלו נשברת מהר",
+    "כי הדיו נגמר מהר"
+   ],
+   "explain_he": "כל אות בספר תורה צריכה להיות שלמה ומדויקת. חסרה אות אחת, והספר פסול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f1e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה סופר סת״ם כותב לאט ובזהירות?",
+   "answer": "כי אם חסרה אות אחת, הספר פסול",
+   "options": [
+    "כי אם חסרה אות אחת, הספר פסול",
+    "כי הנוצה שלו נשברת מהר",
+    "כי הדיו נגמר מהר"
+   ],
+   "explain_he": "כל אות בספר תורה צריכה להיות שלמה ומדויקת. חסרה אות אחת, והספר פסול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראה הכתב הראשון?",
+   "answer": "ציורים קטנים",
+   "options": [
+    "ציורים קטנים",
+    "מספרים",
+    "אותיות כמו שלנו"
+   ],
+   "explain_he": "הכתב הראשון היה עשוי מציורים קטנים, למשל ציור של ציפור או של עין.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f1e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראה הכתב הראשון?",
+   "answer": "ציורים קטנים",
+   "options": [
+    "ציורים קטנים",
+    "מספרים",
+    "אותיות כמו שלנו"
+   ],
+   "explain_he": "הכתב הראשון היה עשוי מציורים קטנים, למשל ציור של ציפור או של עין.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f1e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראה הכתב הראשון?",
+   "answer": "ציורים קטנים",
+   "options": [
+    "ציורים קטנים",
+    "מספרים",
+    "אותיות כמו שלנו"
+   ],
+   "explain_he": "הכתב הראשון היה עשוי מציורים קטנים, למשל ציור של ציפור או של עין.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רק מעט אנשים ידעו לקרוא את הכתב של מצרים ובבל?",
+   "answer": "כי היו בו אלפי ציורים וסימנים",
+   "options": [
+    "כי היו בו אלפי ציורים וסימנים",
+    "כי היה אסור ללמוד אותו",
+    "כי כתבו אותו רק בלילה"
+   ],
+   "explain_he": "היו אלפי ציורים וסימנים, ורק מי שלמד שנים רבות ידע אותם. האותיות פתרו את זה: מעט אותיות לכל המילים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f1e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רק מעט אנשים ידעו לקרוא את הכתב של מצרים ובבל?",
+   "answer": "כי היו בו אלפי ציורים וסימנים",
+   "options": [
+    "כי היו בו אלפי ציורים וסימנים",
+    "כי היה אסור ללמוד אותו",
+    "כי כתבו אותו רק בלילה"
+   ],
+   "explain_he": "היו אלפי ציורים וסימנים, ורק מי שלמד שנים רבות ידע אותם. האותיות פתרו את זה: מעט אותיות לכל המילים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הקושי עם בולי העץ שמתחת למשא?",
+   "answer": "היה צריך כל הזמן להעביר את הבול שיצא מאחור אל מקדימה",
+   "options": [
+    "היה צריך כל הזמן להעביר את הבול שיצא מאחור אל מקדימה",
+    "הם נשברו מיד",
+    "הם שקעו במים"
+   ],
+   "explain_he": "בולי העץ עזרו, אבל כל בול שיצא מאחור היה צריך להעביר קדימה. הגלגל, שמחובר לעגלה, פתר את זה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f1e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הקושי עם בולי העץ שמתחת למשא?",
+   "answer": "היה צריך כל הזמן להעביר את הבול שיצא מאחור אל מקדימה",
+   "options": [
+    "היה צריך כל הזמן להעביר את הבול שיצא מאחור אל מקדימה",
+    "הם נשברו מיד",
+    "הם שקעו במים"
+   ],
+   "explain_he": "בולי העץ עזרו, אבל כל בול שיצא מאחור היה צריך להעביר קדימה. הגלגל, שמחובר לעגלה, פתר את זה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי רש״י, במה רמז יוסף לאביו כששלח עגלות?",
+   "answer": "בפרשת עגלה ערופה שלמדו יחד",
+   "options": [
+    "בפרשת עגלה ערופה שלמדו יחד",
+    "בחלום על האלומות",
+    "בכתונת הפסים"
+   ],
+   "explain_he": "עגלה ועגלה: יוסף רמז לנושא האחרון שלמד עם אביו, וכך הראה שלא שכח את התורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e23"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רבי יהודה הנשיא סידר את המשנה בכתב?",
+   "answer": "כי חשש שהתורה שבעל פה תשתכח בגלל הצרות והפיזור",
+   "options": [
+    "כי חשש שהתורה שבעל פה תשתכח בגלל הצרות והפיזור",
+    "כי לא היו לו תלמידים",
+    "כי ביקשו ממנו מלכים זרים"
+   ],
+   "explain_he": "אחרי החורבן העם התפזר והצרות גברו, ולכן סידר את המשנה, כדי שהתורה לא תשתכח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f1e24"
+  }
+ ]
+}

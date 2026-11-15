@@ -1,0 +1,316 @@
+{
+ "id": "k-sho-f3",
+ "unit_id": "k-sho-u2",
+ "course": "holocaust",
+ "title_he": "הגטו: תורה וחסד בתוך הצרה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "הגטו: תורה וחסד בתוך הצרה",
+   "ref_he": "השואה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "החומה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A tall dark brick wall cutting across an old city street in winter, on the near side crowded old buildings with laundry on lines and a few people in heavy coats walking, a thin light of dawn in the grey sky.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🏠 🏠",
+     "say": [
+      "אחרי כיבוש פולין, הנאצים ריכזו את היהודים ברובעים סגורים בתוך הערים. לרובעים האלה קראו \"גטו\".",
+      "בגטו ורשה, הגדול שבהם, נדחסו בערך ארבע מאות אלף יהודים בשטח קטן מאוד, מוקף חומה גבוהה.",
+      "בדירה אחת גרו כמה משפחות. האוכל שקיבלו היה מעט מאוד, ובחורף לא היה במה להסיק.",
+      "הנאצים קראו לזה \"רובע מגורים\". אבל בפועל, הגטו היה בית כלא ענק, ומי שיצא ממנו בלי רשות סיכן את חייו.",
+      "רבים חלו ומתו מרעב וממחלות. ובכל זאת, דווקא שם, בתוך החומות, התגלו כוחות נפש שקשה להאמין להם.",
+      "בגטו לודז׳, השני בגודלו, היו היהודים סגורים כמעט לגמרי מן העולם. הם עבדו במפעלים, בתקווה שאם יהיו \"מועילים\", יניחו להם לחיות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "לומדים בסתר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A small attic room at night lit by one candle: a few thin boys with kippot and a bearded teacher in a worn coat bent over one shared old Gemara, a blanket over the window to hide the light.",
+     "move": "in",
+     "fx": "night",
+     "art": "👦 👦 👴",
+     "say": [
+      "הנאצים אסרו על היהודים ללמוד תורה, להתפלל בציבור ולפתוח בתי ספר. מי שנתפס, סיכן את חייו.",
+      "ובכל זאת, בעליות גג, במרתפים ובחדרים צדדיים, המשיכו ללמוד. ילדים ישבו סביב גמרא אחת, ומלמד לימד אותם לאור נר.",
+      "דוד המלך כתב בתהלים: אלולי תורתך שעשועי, אז אבדתי בעניי. אילו לא הייתה לי התורה, הייתי אובד בצרה שלי.",
+      "כך הרגישו רבים בגטו. התורה לא הייתה רק לימוד. היא הייתה האוויר שאפשר להם לנשום.",
+      "בחורים שישיבותיהם נסגרו המשיכו ללמוד בחבורות קטנות, ולפעמים בעל פה, כשלא היו ספרים."
+     ],
+     "pasuk": {
+      "text": "אִלּוּלֵי תוֹרָתְךָ שַׁעֲשֻׁעָי, אָז אָבַדְתִּי בְעָנְיִי",
+      "ref": "תהלים קיט, צב"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "הילדים של הגטו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Thin children in oversized coats and caps in a narrow ghetto lane in winter, a small boy passing a little bundle of potatoes through a low gap in a brick wall, his older sister watching anxiously, grey snowy light.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👦 👧",
+     "say": [
+      "הגיבורים הקטנים של הגטו היו לפעמים ילדים. הם היו קטנים ורזים מספיק כדי לזחול דרך חורים בחומה.",
+      "הם יצאו בסתר לצד השני, קנו או ביקשו מעט אוכל, וחזרו להאכיל את משפחותיהם. זו הייתה סכנה גדולה מאוד.",
+      "בתוך הגטו פעלו גם חדרים ובתי ספר סודיים. ילדים למדו קרוא וכתוב, חומש ומשנה, כדי לא לאבד את הזמן ואת התקווה.",
+      "המורים לימדו אותם: אם מישהו זר נכנס, הסתירו מהר את הספרים, ועשו כאילו אתם משחקים.",
+      "היו ילדים שכתבו יומנים ושירים, וציירו ציורים. חלק מהם נשתמרו, ומהם אנחנו יודעים איך ראה ילד את הגטו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "אש קודש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A humble room in the Warsaw ghetto: a Chassidic rebbe with a grey beard and a black hat writing by candlelight on loose sheets of paper, seen from the side, his face calm and serious, a small window with snow outside.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "בגטו ורשה חי האדמו\"ר מפיאסצנה, הרבי רבי קלונימוס קלמן שפירא. בימים הראשונים של המלחמה נהרג בנו היחיד בהפצצה על ורשה.",
+      "למרות הכאב, המשיך לחזק את חסידיו. בכל שבת אמר דברי תורה, וכתב אותם על דפים.",
+      "לפני שגורש מהגטו, הטמין את כתביו באדמה. אחרי המלחמה הם נמצאו, ונדפסו בספר שנקרא \"אש קודש\".",
+      "בספר אפשר לקרוא איך יהודי מדבר עם הקדוש ברוך הוא מתוך הצרה הגדולה ביותר: בכאב, בשאלות, אבל בלי לעזוב את האמונה.",
+      "באחת הדרשות הוא מביא את דברי חז\"ל על הפסוק \"במסתרים תבכה נפשי\": הקדוש ברוך הוא כביכול בוכה בחדרים פנימיים על צרת ישראל. היהודי אינו לבד בצערו.",
+      "הרבי עצמו נרצח בשנת 1943. אבל ספריו ממשיכים לחזק יהודים עד היום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "עוד לפני המלחמה כתב האדמו\"ר מפיאסצנה ספר על חינוך בחורים, \"חובת התלמידים\", שלומדים בו עד היום."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "השאלות של רב צעיר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead. Rabbi Ephraim Oshry: a young rabbi in his twenties with a short dark beard, a cap and a worn dark coat. Scene: oshry sitting at a rough wooden table in a cramped room in the Kovno ghetto, writing small notes on torn brown paper from a cement sack, an old tin can beside him to hide them, a single candle.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "בגטו קובנה שבליטא היה רב צעיר בשם הרב אפרים אשרי. יהודים באו אליו עם שאלות בהלכה, שאלות שאף אחד לא שאל לפני כן.",
+      "למשל, אסיר שאל אותו: איך אוכל לברך בבוקר \"שלא עשני עבד\", כשאני עבד בכפייה אצל הנאצים?",
+      "והרב פסק: חייבים לברך. כי הברכה הזאת היא על החירות של הנשמה, והנשמה שלנו נשארת חופשית לעבוד את השם.",
+      "הרב אשרי רשם את השאלות על פיסות נייר משקי מלט, והטמין אותן בפחיות. הוא שרד, ואחרי המלחמה הדפיס אותן בספר \"ממעמקים\".",
+      "הספר הזה הוא עדות מדהימה: גם במקום שבו החיים היו בסכנה בכל רגע, יהודים שאלו קודם כול מה רצון השם.",
+      "הרב אשרי היה מהשרידים הבודדים מרבני ליטא. אחרי המלחמה כיהן כרב בניו יורק, ושם המשיך ללמד ולפסוק."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "חסד בגטו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A narrow ghetto courtyard in winter: an old woman in a headscarf ladling soup from a large pot into tin bowls held by children in coats, a man quietly handing half a loaf of bread to a neighbor, steam rising.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👵 👧 👦",
+     "say": [
+      "הרעב בגטו היה נורא. ובכל זאת, יהודים דאגו זה לזה.",
+      "הוקמו מטבחים שחילקו מרק לרעבים. אנשים חלקו את פרוסת הלחם האחרונה עם שכן חולה, ואימצו יתומים שאיבדו את הוריהם.",
+      "ארגוני חסד דאגו לילדים, לזקנים ולפליטים שהגיעו מעיירות אחרות.",
+      "הנאצים רצו להפוך את היהודים לאנשים שכל אחד דואג רק לעצמו. אבל רבים נשארו בני אדם עד הסוף, ואפילו בני אדם גדולים.",
+      "בתורה כתוב: ואהבת לרעך כמוך. בגטו עמדה המצווה הזאת במבחן הקשה ביותר, ויהודים רבים עמדו בו.",
+      "היו רופאים יהודים שטיפלו בחולים כמעט בלי תרופות, ומורים שהמשיכו ללמד גם כשהם עצמם היו רעבים."
+     ],
+     "pasuk": {
+      "text": "עוֹלָם חֶסֶד יִבָּנֶה",
+      "ref": "תהלים פט, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "ארכיון עונג שבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Several old metal boxes and large milk cans being carefully lowered into a hole dug in a cellar floor at night by two men in coats and caps with a lantern, bundles of papers and notebooks visible inside one open box.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👨",
+     "say": [
+      "בגטו ורשה פעלה קבוצה סודית של אנשים שהחליטו: העולם חייב לדעת מה קרה כאן. בראשה עמד היסטוריון בשם עמנואל רינגלבלום.",
+      "הם נפגשו בשבתות, ולכן קראו לקבוצה בשם \"עונג שבת\".",
+      "הם אספו יומנים, מכתבים, הודעות וציורים של ילדים. כשהבינו שהסוף קרוב, הטמינו את הכול בתיבות מתכת ובכדי חלב, מתחת לאדמה.",
+      "בזכותם אנחנו יודעים היום, כמעט יום אחרי יום, איך חיו ונאבקו היהודים בגטו.",
+      "רינגלבלום עצמו לא שרד. אבל העבודה שלו מדברת בשמו עד היום."
+     ],
+     "pasuk": {
+      "text": "זְכֹר יְמוֹת עוֹלָם, בִּינוּ שְׁנוֹת דֹּר וָדֹר",
+      "ref": "דברים לב, ז"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "אחרי המלחמה נמצאו באדמת ורשה חלק מכדי החלב ומתיבות המתכת. בין הכתבים נמצאו גם דרשותיו של האדמו\"ר מפיאסצנה."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "שבת וחג בגטו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A dark ghetto room on a Friday night: a mother in a head covering lighting two tiny candles stuck in potato halves on a bare wooden table, children watching quietly, a warm small glow in the darkness.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👧 👦",
+     "say": [
+      "גם בגטו, כשהגיע ליל שבת, אמהות הדליקו נרות. לפעמים היה זה רק פתיל קטן בתוך חצי תפוח אדמה.",
+      "אנשים שמרו שבת גם כשזה היה כמעט בלתי אפשרי. בפסח אפו מצות בסתר. ביום כיפור צמו, אף שהיו רעבים כל השנה.",
+      "מסופר על יהודים שוויתרו על מנת הלחם שלהם, כדי לקנות מעט שמן לנרות חנוכה או מעט יין לקידוש.",
+      "הנרות האלה היו קטנים מאוד. אבל הם אמרו משהו גדול: אנחנו עדיין עם ישראל, ואנחנו עדיין עובדים את השם.",
+      "דווקא כשהיה מעט כל כך, היו שהקפידו לברך על כל פירור לחם, ולהודות לקדוש ברוך הוא על המעט."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בגטאות היו יהודים שהדליקו נרות שבת בתוך תפוחי אדמה חצויים, ואפו מצות בסתר לפסח."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "מה נשאר מהגטו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: An empty quiet ghetto street at dawn after everyone has gone: an open doorway, a single child's shoe and an old siddur on a doorstep, soft pale light breaking through the clouds.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🏠",
+     "say": [
+      "רוב הגטאות לא נועדו להישאר. בשנים 1942 ו־1943 החלו הנאצים לגרש את היהודים מהגטאות ברכבות, למחנות.",
+      "מעטים מאוד מיושבי הגטאות שרדו. אבל מה שהם עשו שם נשאר: הספרים, השאלות, הסיפורים על חסד ועל לימוד.",
+      "הם לימדו אותנו שאפשר לקחת מאדם כמעט הכול. אבל אי אפשר לקחת ממנו את הבחירה להיות טוב ולהישאר נאמן.",
+      "באביב 1943, כשנשארו בגטו ורשה אחרוני היהודים, קמו צעירים ומרדו בנאצים. גם הם רצו להראות שהיהודים אינם מוותרים על כבודם.",
+      "הכוח הזה, הכוח לא להישבר, עבר מהם אלינו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sho-f3e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קראו לקבוצה של רינגלבלום \"עונג שבת\"?",
+   "answer": "כי חבריה נפגשו בשבתות",
+   "options": [
+    "כי חבריה נפגשו בשבתות",
+    "כי אכלו יחד סעודת שבת",
+    "כי כתבו רק על שבת",
+    "כי כך קראו לרחוב שלהם"
+   ],
+   "explain_he": "הקבוצה נפגשה בשבתות, אספה כתבים ועדויות, והטמינה אותם באדמה כדי שהעולם יידע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הגטו?",
+   "answer": "רובע סגור בתוך עיר, שבו ריכזו הנאצים את היהודים",
+   "options": [
+    "רובע סגור בתוך עיר, שבו ריכזו הנאצים את היהודים",
+    "מחנה צבאי ביער",
+    "שם של עיר גדולה בפולין",
+    "בית כנסת גדול"
+   ],
+   "explain_he": "הנאצים ריכזו את היהודים ברובעים סגורים, מוקפים חומה, בצפיפות וברעב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בערך כמה יהודים נדחסו בגטו ורשה?",
+   "answer": "בערך ארבע מאות אלף",
+   "options": [
+    "בערך ארבע מאות אלף",
+    "בערך אלף",
+    "בערך עשרת אלפים",
+    "בערך עשרה מיליון"
+   ],
+   "explain_he": "בגטו ורשה, הגדול שבגטאות, נדחסו בערך ארבע מאות אלף יהודים בשטח קטן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הגיעו אלינו דרשותיו של האדמו\"ר מפיאסצנה?",
+   "answer": "הוא הטמין אותן באדמה, והן נמצאו אחרי המלחמה",
+   "options": [
+    "הוא הטמין אותן באדמה, והן נמצאו אחרי המלחמה",
+    "הוא שלח אותן באונייה לאמריקה",
+    "הוא אמר אותן ברדיו",
+    "תלמידיו זכרו אותן בעל פה"
+   ],
+   "explain_he": "לפני שגורש, הטמין הרבי את כתביו באדמה. אחרי המלחמה הם נמצאו ונדפסו בספר \"אש קודש\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה פסק הרב אשרי שאסיר צריך לברך \"שלא עשני עבד\"?",
+   "answer": "כי הברכה היא על חירות הנשמה, והנשמה נשארת חופשית",
+   "options": [
+    "כי הברכה היא על חירות הנשמה, והנשמה נשארת חופשית",
+    "כי הנאצים הכריחו לברך",
+    "כי מותר לשנות ברכות רק בשבת",
+    "כי הוא חשב שהמלחמה כבר נגמרה"
+   ],
+   "explain_he": "הגוף היה בעבדות, אבל הנשמה נשארה חופשית לעבוד את השם, ועל זה מברכים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה כתב הרב אשרי את השאלות בגטו קובנה?",
+   "answer": "על פיסות נייר משקי מלט",
+   "options": [
+    "על פיסות נייר משקי מלט",
+    "על קירות הבית",
+    "במחברת חדשה",
+    "על קלף של ספר תורה"
+   ],
+   "explain_he": "הוא רשם אותן על פיסות נייר משקי מלט והטמין אותן בפחיות. אחר כך הדפיס אותן בספר \"ממעמקים\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה רצו הנאצים לעשות לאופי של היהודים, ומה קרה בפועל?",
+   "answer": "רצו שכל אחד ידאג רק לעצמו, אבל רבים המשיכו לעשות חסד",
+   "options": [
+    "רצו שכל אחד ידאג רק לעצמו, אבל רבים המשיכו לעשות חסד",
+    "רצו שיהיו שמחים, והם היו עצובים",
+    "רצו שילמדו, והם לא רצו",
+    "לא היה להם עניין בזה"
+   ],
+   "explain_he": "בגטו הוקמו מטבחים, חילקו לחם ואימצו יתומים. רבים נשארו בני אדם עד הסוף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f3e8"
+  }
+ ]
+}

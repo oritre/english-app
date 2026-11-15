@@ -1,0 +1,560 @@
+{
+ "id": "k-cal-f6",
+ "unit_id": "k-cal-u3",
+ "course": "calendar",
+ "title_he": "ספירת העומר",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "ספירת העומר",
+   "ref_he": "לוח השנה העברי",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "לספור ימים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The boy marks a box on a homemade counting chart on the fridge with a crayon, his sister cheering, evening light in the kitchen.",
+     "move": "in",
+     "fx": null,
+     "art": "👦 👧",
+     "say": [
+      "ספרתם פעם ימים עד יום הולדת, או עד טיול שנתי? ״עוד חמישה ימים... עוד ארבעה...״",
+      "כשמחכים למשהו טוב, סופרים. ובדיוק ככה, יש בתורה מצווה לספור ימים!",
+      "מפסח ועד שבועות סופרים ארבעים ותשעה ימים. זו ״ספירת העומר״.",
+      "כל ערב, עוד צעד, מיציאת מצרים ועד הר סיני."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שבע שבתות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Seven rows of seven small glowing lamps arranged like a staircase going up toward a mountain under a soft light from above.",
+     "move": "up",
+     "fx": "stars",
+     "art": "🕯️",
+     "say": [
+      "התורה אומרת: ״וספרתם לכם... שבע שבתות תמימות תהיינה״.",
+      "כאן ״שבתות״ פירושו שבועות. כלומר: שבעה שבועות, של שבעה ימים כל אחד. ומה יוצא? ארבעים ותשעה!",
+      "כמו סולם של ארבעים ותשע מדרגות, שעולים בו לאט, מדרגה אחרי מדרגה."
+     ],
+     "pasuk": {
+      "text": "וּסְפַרְתֶּם לָכֶם... שֶׁבַע שַׁבָּתוֹת תְּמִימֹת תִּהְיֶינָה",
+      "ref": "ויקרא כג, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מה זה עומר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: The Holy Temple courtyard in spring: a Kohen in white linen garments holds up a vessel of fresh barley flour, sheaves of golden barley stacked nearby, morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌾",
+     "say": [
+      "ומה זה ״עומר״? זו מידה של שעורה, בערך כמו כד גדול.",
+      "בבית המקדש, ביום השני של פסח, הביאו מנחה מן השעורה החדשה, הראשונה של השנה. הכהן הניף אותה, לכל הכיוונים.",
+      "רק אחרי זה, מותר היה לאכול מהתבואה החדשה. קודם נותנים להשם, ואחר כך אוכלים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "איך סופרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Evening in the synagogue after the stars come out: men and boys stand holding siddurim, counting together, a small counting chart on the wall.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👨 👦",
+     "say": [
+      "בכל ערב, אחרי צאת הכוכבים, עומדים ומברכים ״על ספירת העומר״.",
+      "ואז אומרים: ״היום יום אחד לעומר״. למחרת: ״היום שני ימים לעומר״. וכך הלאה, כל ערב, עוד יום.",
+      "הרבה סופרים בבית הכנסת, אחרי תפילת ערבית, כולם יחד.",
+      "וגם ילדים קטנים יכולים לספור, ולהתרגל למצווה היפה הזאת."
+     ],
+     "pasuk": {
+      "text": "בָּרוּךְ אַתָּה ה׳ אֱלֹקֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל סְפִירַת הָעֹמֶר",
+      "ref": "ברכת ספירת העומר"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ואם שכחנו?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The girl wakes in the morning and suddenly remembers, hand on her forehead; on the fridge the counting chart with a sticky note reminder.",
+     "move": "right",
+     "fx": null,
+     "art": "👧",
+     "say": [
+      "ומה אם שכחנו לספור בערב? אם נזכרים למחרת, עוד לפני השקיעה, סופרים בלי ברכה. ובערב ממשיכים כרגיל, עם ברכה.",
+      "ואם שכחנו יום שלם, ולא ספרנו בכלל? ממשיכים לספור בכל ערב, אבל בלי ברכה.",
+      "לכן כדאי לתלות לוח ספירה על המקרר, ולסמן בו כל ערב!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "למה סופרים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: The Israelites in the desert, families in simple robes and head coverings, walking toward a great mountain in the distance under a soft light from above, children looking ahead with excitement.",
+     "move": "out",
+     "fx": "light",
+     "art": "🚶 🚶 ⛰️",
+     "say": [
+      "למה סופרים? ביציאת מצרים יצאנו לחירות. אבל זה היה רק ההתחלה.",
+      "המטרה הגדולה הייתה לקבל את התורה, בהר סיני.",
+      "כמו ילד שמחכה ליום גדול, אנחנו סופרים בשמחה, יום אחרי יום, עד מתן תורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ספר החינוך מסביר: סופרים כמו מי שמחכה ליום שהוא אוהב מאוד, וסופר כל יום עד שיגיע."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "רבי עקיבא ול״ג בעומר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Lag BaOmer evening: families sit around a bonfire in a field, children singing, sparks rising into the starry sky.",
+     "move": "up",
+     "fx": "night",
+     "art": "🔥 👦 👧",
+     "say": [
+      "בימי העומר אנחנו גם זוכרים את תלמידי רבי עקיבא, שנפטרו בימים האלה.",
+      "לכן לא עורכים חתונות ולא מסתפרים, כל קהילה לפי המנהג שלה.",
+      "ובל״ג בעומר, היום השלושים ושלושה, שמחים ומדליקים מדורות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "מהשעורה אל החיטה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Two fields at the end of spring: a harvested barley field on one side and a golden wheat field ready for harvest on the other; in the Temple courtyard above, a Kohen holds up two loaves of bread.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🌾",
+     "say": [
+      "ומה קורה בשדות בזמן הספירה? בפסח, הביאו עומר של שעורה, שמבשילה ראשונה.",
+      "ובשבועות, בסוף הספירה, הביאו לבית המקדש שתי כיכרות לחם, מהחיטה החדשה. הן נקראות ״שתי הלחם״.",
+      "כך הספירה הולכת מהשעורה אל החיטה, בדיוק כמו בשדה: קודם מבשילה השעורה, ואחר כך החיטה."
+     ],
+     "pasuk": {
+      "text": "מִמּוֹשְׁבֹתֵיכֶם תָּבִיאוּ לֶחֶם תְּנוּפָה שְׁתַּיִם",
+      "ref": "ויקרא כג, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "היום החמישים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Shavuot morning: a synagogue decorated with greenery and flowers, a Torah scroll being read, the children in white festive clothes.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👦 👧 🌿",
+     "say": [
+      "וכשמגיעים לערב היום החמישים, אין עוד מה לספור: חג השבועות!",
+      "לכן לשבועות אין תאריך כתוב בתורה. הוא פשוט היום שאחרי הספירה.",
+      "קישטנו את בית הכנסת בירק ובפרחים, ושומעים את עשרת הדברות. הגענו!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "ספירת העומר",
+   "ref_he": "לוח השנה העברי",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "לספור ימים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The boy marks a box on a homemade counting chart on the fridge with a crayon, his sister cheering, evening light in the kitchen.",
+     "move": "in",
+     "fx": null,
+     "art": "👦 👧",
+     "say": [
+      "ספרתם פעם ימים עד יום הולדת, או עד טיול שנתי? ״עוד חמישה ימים... עוד ארבעה...״",
+      "כשמחכים למשהו טוב, סופרים. ובדיוק ככה, יש בתורה מצווה לספור ימים!",
+      "מפסח ועד שבועות סופרים ארבעים ותשעה ימים. זו ״ספירת העומר״.",
+      "כל ערב, עוד צעד, מיציאת מצרים ועד הר סיני.",
+      "זו אחת המצוות המעטות שעושים כל ערב, במשך שבעה שבועות רצופים.",
+      "והיא מצווה של כל אחד: כל יהודי סופר בעצמו, ולא רק החזן בבית הכנסת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שבע שבתות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Seven rows of seven small glowing lamps arranged like a staircase going up toward a mountain under a soft light from above.",
+     "move": "up",
+     "fx": "stars",
+     "art": "🕯️",
+     "say": [
+      "התורה אומרת: ״וספרתם לכם... שבע שבתות תמימות תהיינה״.",
+      "כאן ״שבתות״ פירושו שבועות. כלומר: שבעה שבועות, של שבעה ימים כל אחד. ומה יוצא? ארבעים ותשעה!",
+      "כמו סולם של ארבעים ותשע מדרגות, שעולים בו לאט, מדרגה אחרי מדרגה.",
+      "שבע כפול שבע, ארבעים ותשע. וביום החמישים, חג השבועות.",
+      "ולכן קוראים לו ״שבועות״: על שם שבעת השבועות שסופרים לפניו."
+     ],
+     "pasuk": {
+      "text": "וּסְפַרְתֶּם לָכֶם... שֶׁבַע שַׁבָּתוֹת תְּמִימֹת תִּהְיֶינָה",
+      "ref": "ויקרא כג, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מה זה עומר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: The Holy Temple courtyard in spring: a Kohen in white linen garments holds up a vessel of fresh barley flour, sheaves of golden barley stacked nearby, morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌾",
+     "say": [
+      "ומה זה ״עומר״? זו מידה של שעורה, בערך כמו כד גדול.",
+      "בבית המקדש, ביום השני של פסח, הביאו מנחה מן השעורה החדשה, הראשונה של השנה. הכהן הניף אותה, לכל הכיוונים.",
+      "רק אחרי זה, מותר היה לאכול מהתבואה החדשה. קודם נותנים להשם, ואחר כך אוכלים.",
+      "בתורה כתוב לספור ״ממחרת השבת״. וחז״ל מסבירים: ״השבת״ כאן היא היום הראשון של פסח, שגם הוא יום מנוחה.",
+      "לכן מתחילים לספור בליל ט״ז בניסן, בלילה השני של פסח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "איך סופרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Evening in the synagogue after the stars come out: men and boys stand holding siddurim, counting together, a small counting chart on the wall.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👨 👦",
+     "say": [
+      "בכל ערב, אחרי צאת הכוכבים, עומדים ומברכים ״על ספירת העומר״.",
+      "ואז אומרים: ״היום יום אחד לעומר״. למחרת: ״היום שני ימים לעומר״. וכך הלאה, כל ערב, עוד יום.",
+      "הרבה סופרים בבית הכנסת, אחרי תפילת ערבית, כולם יחד.",
+      "וגם ילדים קטנים יכולים לספור, ולהתרגל למצווה היפה הזאת.",
+      "מהיום השביעי, סופרים גם שבועות: ״היום שבעה ימים, שהם שבוע אחד לעומר״.",
+      "ולמחרת: ״היום שמונה ימים, שהם שבוע אחד ויום אחד, לעומר״."
+     ],
+     "pasuk": {
+      "text": "בָּרוּךְ אַתָּה ה׳ אֱלֹקֵינוּ מֶלֶךְ הָעוֹלָם, אֲשֶׁר קִדְּשָׁנוּ בְּמִצְוֹתָיו וְצִוָּנוּ עַל סְפִירַת הָעֹמֶר",
+      "ref": "ברכת ספירת העומר"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ואם שכחנו?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: The girl wakes in the morning and suddenly remembers, hand on her forehead; on the fridge the counting chart with a sticky note reminder.",
+     "move": "right",
+     "fx": null,
+     "art": "👧",
+     "say": [
+      "ומה אם שכחנו לספור בערב? אם נזכרים למחרת, עוד לפני השקיעה, סופרים בלי ברכה. ובערב ממשיכים כרגיל, עם ברכה.",
+      "ואם שכחנו יום שלם, ולא ספרנו בכלל? ממשיכים לספור בכל ערב, אבל בלי ברכה.",
+      "לכן כדאי לתלות לוח ספירה על המקרר, ולסמן בו כל ערב!",
+      "ולמה בלי ברכה? כי התורה אומרת ״שבע שבתות תמימות״, כלומר: שלמות. מי שדילג על יום שלם, הספירה שלו כבר לא שלמה.",
+      "יש חכמים שאמרו שבכל זאת מברכים, ולכן, כדי לא לברך לשווא, ממשיכים לספור בלי ברכה. וכדאי לשמוע את הברכה מהחזן, ולענות ״אמן״."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "למה סופרים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: The Israelites in the desert, families in simple robes and head coverings, walking toward a great mountain in the distance under a soft light from above, children looking ahead with excitement.",
+     "move": "out",
+     "fx": "light",
+     "art": "🚶 🚶 ⛰️",
+     "say": [
+      "למה סופרים? ביציאת מצרים יצאנו לחירות. אבל זה היה רק ההתחלה.",
+      "המטרה הגדולה הייתה לקבל את התורה, בהר סיני.",
+      "כמו ילד שמחכה ליום גדול, אנחנו סופרים בשמחה, יום אחרי יום, עד מתן תורה.",
+      "ספר החינוך מסביר: כל העניין של יציאת מצרים היה כדי לקבל את התורה. לכן הספירה מחברת בין פסח לשבועות, כמו גשר.",
+      "ויש נוהגים, בכל יום מימי הספירה, לתקן מידה טובה אחת, כדי להיות מוכנים לקבל את התורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ספר החינוך מסביר: סופרים כמו מי שמחכה ליום שהוא אוהב מאוד, וסופר כל יום עד שיגיע."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "רבי עקיבא ול״ג בעומר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Lag BaOmer evening: families sit around a bonfire in a field, children singing, sparks rising into the starry sky.",
+     "move": "up",
+     "fx": "night",
+     "art": "🔥 👦 👧",
+     "say": [
+      "בימי העומר אנחנו גם זוכרים את תלמידי רבי עקיבא, שנפטרו בימים האלה.",
+      "לכן לא עורכים חתונות ולא מסתפרים, כל קהילה לפי המנהג שלה.",
+      "ובל״ג בעומר, היום השלושים ושלושה, שמחים ומדליקים מדורות.",
+      "חז״ל אומרים שהתלמידים לא נהגו כבוד זה בזה. ומכאן הלקח לכולנו: לכבד כל אחד, גם מי שחושב אחרת ממני בלימוד.",
+      "ובל״ג בעומר זוכרים גם את רבי שמעון בר יוחאי, תלמידו של רבי עקיבא, ויש העולים להדליק מדורה במירון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "מהשעורה אל החיטה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Two fields at the end of spring: a harvested barley field on one side and a golden wheat field ready for harvest on the other; in the Temple courtyard above, a Kohen holds up two loaves of bread.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🌾",
+     "say": [
+      "ומה קורה בשדות בזמן הספירה? בפסח, הביאו עומר של שעורה, שמבשילה ראשונה.",
+      "ובשבועות, בסוף הספירה, הביאו לבית המקדש שתי כיכרות לחם, מהחיטה החדשה. הן נקראות ״שתי הלחם״.",
+      "כך הספירה הולכת מהשעורה אל החיטה, בדיוק כמו בשדה: קודם מבשילה השעורה, ואחר כך החיטה.",
+      "ורק אחרי שתי הלחם, מותר היה להביא לבית המקדש מנחות מהחיטה החדשה.",
+      "כך כל שלב בשדה קיבל תודה מיוחדת להשם: השעורה בפסח, והחיטה בשבועות."
+     ],
+     "pasuk": {
+      "text": "מִמּוֹשְׁבֹתֵיכֶם תָּבִיאוּ לֶחֶם תְּנוּפָה שְׁתַּיִם",
+      "ref": "ויקרא כג, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "היום החמישים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Shavuot morning: a synagogue decorated with greenery and flowers, a Torah scroll being read, the children in white festive clothes.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👦 👧 🌿",
+     "say": [
+      "וכשמגיעים לערב היום החמישים, אין עוד מה לספור: חג השבועות!",
+      "לכן לשבועות אין תאריך כתוב בתורה. הוא פשוט היום שאחרי הספירה.",
+      "קישטנו את בית הכנסת בירק ובפרחים, ושומעים את עשרת הדברות. הגענו!",
+      "והיום, כשהלוח קבוע, שבועות יוצא תמיד בשישה בסיוון.",
+      "ובזמן מתן תורה, חז״ל אומרים שעם ישראל חנה מול ההר ״כאיש אחד, בלב אחד״. גם אנחנו, אחרי שבעה שבועות של הכנה, באים לקבל את התורה יחד."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה ימים סופרים בספירת העומר?",
+   "answer": "ארבעים ותשעה",
+   "options": [
+    "ארבעים ותשעה",
+    "חמישים ואחד",
+    "שלושים ושלושה"
+   ],
+   "explain_he": "שבעה שבועות של שבעה ימים: 49.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה ימים סופרים בספירת העומר?",
+   "answer": "ארבעים ותשעה",
+   "options": [
+    "ארבעים ותשעה",
+    "חמישים ואחד",
+    "שלושים ושלושה"
+   ],
+   "explain_he": "שבעה שבועות של שבעה ימים: 49.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזה חג ועד איזה חג סופרים?",
+   "answer": "מפסח ועד שבועות",
+   "options": [
+    "מפסח ועד שבועות",
+    "מראש השנה ועד סוכות",
+    "מחנוכה ועד פורים"
+   ],
+   "explain_he": "ביום החמישים מגיע חג השבועות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזה חג ועד איזה חג סופרים?",
+   "answer": "מפסח ועד שבועות",
+   "options": [
+    "מפסח ועד שבועות",
+    "מראש השנה ועד סוכות",
+    "מחנוכה ועד פורים"
+   ],
+   "explain_he": "ביום החמישים מגיע חג השבועות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הביאו לבית המקדש ביום השני של פסח?",
+   "answer": "מנחה מן השעורה החדשה",
+   "options": [
+    "מנחה מן השעורה החדשה",
+    "כד שמן זית",
+    "שתי חלות"
+   ],
+   "explain_he": "זה ״העומר״: השעורה הראשונה של השנה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הביאו לבית המקדש ביום השני של פסח?",
+   "answer": "מנחה מן השעורה החדשה",
+   "options": [
+    "מנחה מן השעורה החדשה",
+    "כד שמן זית",
+    "שתי חלות"
+   ],
+   "explain_he": "זה ״העומר״: השעורה הראשונה של השנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים אם שכחו לספור יום שלם?",
+   "answer": "ממשיכים לספור בלי ברכה",
+   "options": [
+    "ממשיכים לספור בלי ברכה",
+    "מפסיקים לספור לגמרי",
+    "מתחילים מחדש מיום אחד"
+   ],
+   "explain_he": "ממשיכים לספור, אבל בלי ברכה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים אם שכחו לספור יום שלם?",
+   "answer": "ממשיכים לספור בלי ברכה",
+   "options": [
+    "ממשיכים לספור בלי ברכה",
+    "מפסיקים לספור לגמרי",
+    "מתחילים מחדש מיום אחד"
+   ],
+   "explain_he": "ממשיכים לספור, אבל בלי ברכה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה סופרים את הימים?",
+   "answer": "כי מחכים בשמחה לקבלת התורה",
+   "options": [
+    "כי מחכים בשמחה לקבלת התורה",
+    "כדי לדעת מתי יורד גשם",
+    "כדי לזכור את חנוכה"
+   ],
+   "explain_he": "כמו ילד שמחכה ליום גדול, סופרים עד מתן תורה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה סופרים את הימים?",
+   "answer": "כי מחכים בשמחה לקבלת התורה",
+   "options": [
+    "כי מחכים בשמחה לקבלת התורה",
+    "כדי לדעת מתי יורד גשם",
+    "כדי לזכור את חנוכה"
+   ],
+   "explain_he": "כמו ילד שמחכה ליום גדול, סופרים עד מתן תורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי מתחילים לספור את העומר?",
+   "answer": "בליל ט״ז בניסן, הלילה השני של פסח",
+   "options": [
+    "בליל ט״ז בניסן, הלילה השני של פסח",
+    "בראש חודש ניסן",
+    "ביום הראשון של שבועות"
+   ],
+   "explain_he": "חז״ל מסבירים ש״ממחרת השבת״ פירושו ממחרת יום טוב הראשון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה לקח למדנו מתלמידי רבי עקיבא?",
+   "answer": "לכבד כל אחד",
+   "options": [
+    "לכבד כל אחד",
+    "לספור מהר יותר",
+    "להדליק מדורות גדולות"
+   ],
+   "explain_he": "חז״ל אומרים שהם לא נהגו כבוד זה בזה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה סופרים מהיום השביעי, מלבד הימים?",
+   "answer": "גם את השבועות",
+   "options": [
+    "גם את השבועות",
+    "גם את החודשים",
+    "גם את השנים"
+   ],
+   "explain_he": "למשל: ״שמונה ימים, שהם שבוע אחד ויום אחד״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f6e15"
+  }
+ ]
+}

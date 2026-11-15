@@ -1,0 +1,671 @@
+{
+ "id": "k-gre-f3",
+ "unit_id": "k-gre-u1",
+ "course": "greece",
+ "title_he": "נס חנוכה והחשמונאים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "נס חנוכה והחשמונאים",
+   "ref_he": "יוון ורומא",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הגזירות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The inner courtyard of the Second Temple at dusk standing deserted and neglected: the great golden menorah dark and unlit, dry leaves blowing across the stone floor, the gates half open, a heavy grey sky.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🏠",
+     "say": [
+      "עברו בערך מאה וחמישים שנה מימי אלכסנדר. בסוריה מלך עכשיו מלך יווני בשם אנטיוכוס.",
+      "אנטיוכוס החליט שכל העמים בממלכתו יהיו יוונים. אבל היהודים סירבו. ואז הגיעו הגזירות.",
+      "לפי המסורת, הוא גזר על שלוש מצוות בעיקר: שבת, ראש חודש וברית מילה. מי שנתפס מקיים אותן, נענש קשות.",
+      "היוונים נכנסו לבית המקדש, טימאו אותו, והעמידו בו פסל של אליל. המנורה כבתה.",
+      "זה היה הרגע החשוך ביותר: נראה היה שהאור של עם ישראל עומד לכבות.",
+      "זה היה הרגע החשוך ביותר: נראה היה שהאור של עם ישראל עומד לכבות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מתתיהו במודיעין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Mattityahu: an elderly kohen with a long white beard, white robe and white head covering. Scene: mattityahu standing firm in the square of the village of Modiin among green hills, arm raised and calling out, his five grown sons in robes gathering beside him, villagers looking on, a Greek officer far in the background.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "בכפר הקטן מודיעין חי כהן זקן בשם מתתיהו בן יוחנן, ממשפחת החשמונאים, עם חמשת בניו.",
+      "קצין יווני הגיע לכפר ודרש מהיהודים לעבוד עבודה זרה. מתתיהו סירב בתוקף: אני ובני נלך בברית אבותינו.",
+      "לפי המסורת, הוא קרא בקול את מה שקרא משה רבנו בשעתו: מי לה' אלי!",
+      "ומי שהיה נאמן להשם הצטרף אליו. הם עזבו את בתיהם, ועלו להסתתר בהרים.",
+      "בהרים התאספו סביבם עוד ועוד יהודים נאמנים: כהנים, איכרים ורועים, שהיו מוכנים למסור את נפשם על התורה."
+     ],
+     "pasuk": {
+      "text": "מִי לַה' אֵלָי",
+      "ref": "שמות לב, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "שבת במערות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A dark cave in the cliffs of the Judean desert: Jewish families in robes and head coverings sitting quietly inside on Shabbat, two small oil lamps burning, an elder reading from a scroll, the bright desert visible through the cave mouth.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👩 👧",
+     "say": [
+      "לא כולם הצטרפו ללוחמים. משפחות רבות ברחו למערות במדבר, כדי לשמור שם שבת ומצוות בסתר.",
+      "הספרים העתיקים מספרים שפעם אחת גילו חיילי המלך קבוצה כזאת ביום שבת. היהודים לא רצו לחלל את השבת ולא התגוננו, ורבים מהם נהרגו.",
+      "מתתיהו וחבריו הצטערו מאוד, והחליטו: אם יבואו עלינו להילחם בשבת, נתגונן. וכך גם קובעת ההלכה: פיקוח נפש דוחה שבת.",
+      "כי התורה ניתנה כדי לחיות בה, כמו שכתוב: וחי בהם. ולא כדי שעם ישראל יימחה מן העולם.",
+      "מכאן אנחנו לומדים שמסירות נפש היא דבר גדול, אבל ההלכה היא שקובעת מתי ואיך."
+     ],
+     "pasuk": {
+      "text": "\"וָחַי בָּהֶם\" - וְלֹא שֶׁיָּמוּת בָּהֶם",
+      "ref": "יומא פה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מעטים מול רבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A small group of Jewish men in simple robes and head coverings kneeling in prayer on a rocky Judean hilltop at dawn, a young strong leader at the front looking toward a valley where a huge distant army camp lies in mist.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 👨 👨",
+     "say": [
+      "מתתיהו הזקן נפטר, ובנו יהודה עמד בראש הלוחמים. כינו אותו \"יהודה המכבי\".",
+      "מצד אחד עמד צבא יווני גדול, מאומן, עם פילים ומרכבות. מצד שני, קבוצה קטנה של יהודים שהכירו כל שביל בהרי יהודה.",
+      "לפני כל קרב הם התפללו וצמו. והקדוש ברוך הוא עשה להם נס, והם ניצחו פעם אחרי פעם.",
+      "בתפילת על הנסים אנחנו אומרים: מסרת גבורים ביד חלשים, ורבים ביד מעטים.",
+      "אבל הניצחון לא היה רק במלחמה. הוא היה ניצחון של אמונה על פחד, ושל מעטים שידעו בשביל מה הם נלחמים."
+     ],
+     "pasuk": {
+      "text": "מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים",
+      "ref": "תפילת על הנסים"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "יש אומרים שהשם \"מכבי\" הוא ראשי התיבות של \"מי כמכה באלים ה'\"."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "מטהרים את המקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Jewish kohanim in white robes cleaning the stone courtyard of the Temple with water and brooms in bright morning light, building a new altar of fresh uncut white stones, sunlight streaming through the gates.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👨 👦",
+     "say": [
+      "החשמונאים הגיעו לירושלים. הם עלו להר הבית ומצאו את המקדש עזוב ומטומא.",
+      "הם הוציאו משם את כל סימני העבודה הזרה, ובנו מזבח חדש מאבנים שלמות.",
+      "ובכ\"ה בכסלו חנכו מחדש את בית המקדש. מכאן גם השם \"חנוכה\": חנוכת המקדש.",
+      "ובכל זאת, המלחמה עוד לא נגמרה. עברו עוד שנים של קרבות, עד שהיוונים יצאו מן הארץ לגמרי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "פך השמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Close view in a dim chamber of the Temple: a kohen in white kneeling and lifting a small sealed clay jug of oil found behind fallen jars, a warm light glowing around it, the great golden menorah waiting in the background.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "עכשיו רצו להדליק את המנורה. אבל כל השמן שבמקדש היה טמא.",
+      "הגמרא במסכת שבת מספרת: בדקו ולא מצאו אלא פך אחד של שמן, שהיה מונח בחותמו של כהן גדול. היה בו שמן רק ליום אחד.",
+      "ונעשה נס: הדליקו ממנו שמונה ימים, עד שהספיקו להכין שמן טהור חדש.",
+      "לשנה הבאה קבעו חכמים את הימים האלה כימים של הלל והודאה. וכך אנחנו מדליקים נרות חנוכה עד היום, אחרי יותר מאלפיים שנה.",
+      "שימו לב: הנס של השמן לא היה הכרחי כדי לנצח. הוא היה סימן של אהבה מן השמיים, כאילו נאמר לעם: אני איתכם."
+     ],
+     "pasuk": {
+      "text": "בָּדְקוּ וְלֹא מָצְאוּ אֶלָּא פַּךְ אֶחָד שֶׁל שֶׁמֶן שֶׁהָיָה מוּנָּח בְּחוֹתָמוֹ שֶׁל כֹּהֵן גָּדוֹל",
+      "ref": "שבת כא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "נר איש וביתו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A row of stone houses in Jerusalem at nightfall, beside each doorway on the left a small glass box holding a row of burning oil lamps, boys with kippot and girls in long dresses watching happily from the steps.",
+     "move": "right",
+     "fx": "night",
+     "art": "👦 👧 🏠",
+     "say": [
+      "איך מקיימים את המצווה? הגמרא אומרת: מצוות חנוכה, נר איש וביתו. כלומר, מעיקר הדין מספיק נר אחד לכל בית בכל לילה.",
+      "אבל עם ישראל אוהב את המצווה הזאת, ולכן כולנו מהדרים: מוסיפים נר בכל לילה, ובבתים רבים כל אחד מבני הבית מדליק בעצמו.",
+      "מניחים את החנוכייה בפתח הבית או בחלון, כדי שכל העוברים ברחוב יראו. קוראים לזה \"פרסומי ניסא\": לפרסם את הנס.",
+      "ולפי ההלכה, מניחים אותה בפתח משמאל, מול המזוזה שמימין. כך, מי שנכנס, מוקף במצוות."
+     ],
+     "pasuk": {
+      "text": "מִצְוַת חֲנֻכָּה נֵר אִישׁ וּבֵיתוֹ",
+      "ref": "שבת כא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ממלכת החשמונאים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Jerusalem in its glory under a blue sky: the walls rebuilt, a royal palace and the Temple, people bringing first fruits in baskets up the road, a calm and proud mood.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👦",
+     "say": [
+      "אחרי הנס, החשמונאים המשיכו להילחם, ובסופו של דבר השיגו עצמאות מלאה. במשך עשרות שנים הייתה ממלכה יהודית בארץ ישראל.",
+      "אבל גם לסיפור הזה יש המשך עצוב. חלק ממלכי החשמונאים המאוחרים התרחקו מדרכם של חכמים.",
+      "ובסוף, שני אחים מבית החשמונאים רבו על הכתר. כל אחד מהם פנה לעזרה אל מעצמה חדשה וחזקה במערב: רומא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-gre-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "נס חנוכה והחשמונאים",
+   "ref_he": "יוון ורומא",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הגזירות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The inner courtyard of the Second Temple at dusk standing deserted and neglected: the great golden menorah dark and unlit, dry leaves blowing across the stone floor, the gates half open, a heavy grey sky.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🏠",
+     "say": [
+      "עברו בערך מאה וחמישים שנה מימי אלכסנדר. בסוריה מלך עכשיו מלך יווני בשם אנטיוכוס הרביעי.",
+      "אנטיוכוס החליט שכל העמים בממלכתו יהיו יוונים. אבל היהודים סירבו. ואז הגיעו הגזירות.",
+      "לפי המסורת, הוא גזר על שלוש מצוות בעיקר: שבת, ראש חודש וברית מילה. ולמה דווקא הן? כי הן המצוות שמקדשות את הזמן ואת הגוף, ומראות שיש לעם ישראל ברית מיוחדת עם הקדוש ברוך הוא.",
+      "חז\"ל אומרים שהיוונים דרשו מישראל: כתבו על קרן השור שאין לכם חלק באלוקי ישראל. ובבית המקדש הם העמידו פסל של אליל, והמנורה כבתה.",
+      "זה היה הרגע החשוך ביותר: נראה היה שהאור של עם ישראל עומד לכבות.",
+      "זה היה הרגע החשוך ביותר: נראה היה שהאור של עם ישראל עומד לכבות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מתתיהו במודיעין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Mattityahu: an elderly kohen with a long white beard, white robe and white head covering. Scene: mattityahu standing firm in the square of the village of Modiin among green hills, arm raised and calling out, his five grown sons in robes gathering beside him, villagers looking on, a Greek officer far in the background.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "בכפר הקטן מודיעין חי כהן זקן בשם מתתיהו בן יוחנן, ממשפחת החשמונאים, עם חמשת בניו.",
+      "קצין יווני הגיע לכפר ודרש מהיהודים לעבוד עבודה זרה. מתתיהו סירב בתוקף: אני ובני נלך בברית אבותינו.",
+      "לפי המסורת, הוא קרא בקול את מה שקרא משה רבנו בשעתו: מי לה' אלי!",
+      "ומי שהיה נאמן להשם הצטרף אליו. הם עזבו את בתיהם, ועלו להסתתר בהרים.",
+      "בהרים התאספו סביבם עוד ועוד יהודים נאמנים: כהנים, איכרים ורועים, שהיו מוכנים למסור את נפשם על התורה."
+     ],
+     "pasuk": {
+      "text": "מִי לַה' אֵלָי",
+      "ref": "שמות לב, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "שבת במערות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A dark cave in the cliffs of the Judean desert: Jewish families in robes and head coverings sitting quietly inside on Shabbat, two small oil lamps burning, an elder reading from a scroll, the bright desert visible through the cave mouth.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👩 👧",
+     "say": [
+      "לא כולם הצטרפו ללוחמים. משפחות רבות ברחו למערות במדבר, כדי לשמור שם שבת ומצוות בסתר.",
+      "הספרים העתיקים מספרים שפעם אחת גילו חיילי המלך קבוצה כזאת ביום שבת. היהודים לא רצו לחלל את השבת ולא התגוננו, ורבים מהם נהרגו.",
+      "מתתיהו וחבריו הצטערו מאוד, והחליטו: אם יבואו עלינו להילחם בשבת, נתגונן. וכך גם קובעת ההלכה: פיקוח נפש דוחה שבת.",
+      "כי התורה ניתנה כדי לחיות בה, כמו שכתוב: וחי בהם. ולא כדי שעם ישראל יימחה מן העולם.",
+      "מכאן אנחנו לומדים שמסירות נפש היא דבר גדול, אבל ההלכה היא שקובעת מתי ואיך."
+     ],
+     "pasuk": {
+      "text": "\"וָחַי בָּהֶם\" - וְלֹא שֶׁיָּמוּת בָּהֶם",
+      "ref": "יומא פה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מעטים מול רבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A small group of Jewish men in simple robes and head coverings kneeling in prayer on a rocky Judean hilltop at dawn, a young strong leader at the front looking toward a valley where a huge distant army camp lies in mist.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 👨 👨",
+     "say": [
+      "מתתיהו הזקן נפטר, ובנו יהודה עמד בראש הלוחמים. כינו אותו \"יהודה המכבי\".",
+      "מצד אחד עמד צבא יווני גדול, מאומן, עם פילים ומרכבות. מצד שני, קבוצה קטנה של יהודים שהכירו כל שביל בהרי יהודה.",
+      "לפני כל קרב הם התפללו וצמו. והקדוש ברוך הוא עשה להם נס, והם ניצחו פעם אחרי פעם.",
+      "בתפילת על הנסים אנחנו אומרים: מסרת גבורים ביד חלשים, ורבים ביד מעטים.",
+      "אבל הניצחון לא היה רק במלחמה. הוא היה ניצחון של אמונה על פחד, ושל מעטים שידעו בשביל מה הם נלחמים."
+     ],
+     "pasuk": {
+      "text": "מָסַרְתָּ גִבּוֹרִים בְּיַד חַלָּשִׁים, וְרַבִּים בְּיַד מְעַטִּים",
+      "ref": "תפילת על הנסים"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "יש אומרים שהשם \"מכבי\" הוא ראשי התיבות של \"מי כמכה באלים ה'\"."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "מטהרים את המקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Jewish kohanim in white robes cleaning the stone courtyard of the Temple with water and brooms in bright morning light, building a new altar of fresh uncut white stones, sunlight streaming through the gates.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👨 👦",
+     "say": [
+      "החשמונאים הגיעו לירושלים. הם עלו להר הבית ומצאו את המקדש עזוב ומטומא.",
+      "הם הוציאו משם את כל סימני העבודה הזרה. את אבני המזבח הישן, שהיוונים טימאו, גנזו, ובנו מזבח חדש מאבנים שלמות.",
+      "ובכ\"ה בכסלו חנכו מחדש את בית המקדש. מכאן השם \"חנוכה\": חנוכת המקדש. ויש מוסיפים רמז: \"חנו כ\"ה\", ביום העשרים וחמישה נחו מן המלחמה.",
+      "ובכל זאת, המלחמה עוד לא נגמרה. עברו עוד שנים של קרבות, עד שהיוונים יצאו מן הארץ לגמרי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "פך השמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Close view in a dim chamber of the Temple: a kohen in white kneeling and lifting a small sealed clay jug of oil found behind fallen jars, a warm light glowing around it, the great golden menorah waiting in the background.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "עכשיו רצו להדליק את המנורה. אבל כל השמן שבמקדש היה טמא.",
+      "הגמרא במסכת שבת מספרת: בדקו ולא מצאו אלא פך אחד של שמן, שהיה מונח בחותמו של כהן גדול. היה בו שמן רק ליום אחד.",
+      "ונעשה נס: הדליקו ממנו שמונה ימים, עד שהספיקו להכין שמן טהור חדש.",
+      "לשנה הבאה קבעו חכמים את הימים האלה כימים של הלל והודאה. וכך אנחנו מדליקים נרות חנוכה עד היום, אחרי יותר מאלפיים שנה.",
+      "שימו לב: הנס של השמן לא היה הכרחי כדי לנצח. הוא היה סימן של אהבה מן השמיים, כאילו נאמר לעם: אני איתכם."
+     ],
+     "pasuk": {
+      "text": "בָּדְקוּ וְלֹא מָצְאוּ אֶלָּא פַּךְ אֶחָד שֶׁל שֶׁמֶן שֶׁהָיָה מוּנָּח בְּחוֹתָמוֹ שֶׁל כֹּהֵן גָּדוֹל",
+      "ref": "שבת כא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "נר איש וביתו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A row of stone houses in Jerusalem at nightfall, beside each doorway on the left a small glass box holding a row of burning oil lamps, boys with kippot and girls in long dresses watching happily from the steps.",
+     "move": "right",
+     "fx": "night",
+     "art": "👦 👧 🏠",
+     "say": [
+      "איך מקיימים את המצווה? הגמרא אומרת: מצוות חנוכה, נר איש וביתו. כלומר, מעיקר הדין מספיק נר אחד לכל בית בכל לילה.",
+      "אבל עם ישראל אוהב את המצווה הזאת, ולכן כולנו מהדרים: מוסיפים נר בכל לילה, ובבתים רבים כל אחד מבני הבית מדליק בעצמו.",
+      "מניחים את החנוכייה בפתח הבית או בחלון, כדי שכל העוברים ברחוב יראו. קוראים לזה \"פרסומי ניסא\": לפרסם את הנס.",
+      "ולפי ההלכה, מניחים אותה בפתח משמאל, מול המזוזה שמימין. כך, מי שנכנס, מוקף במצוות."
+     ],
+     "pasuk": {
+      "text": "מִצְוַת חֲנֻכָּה נֵר אִישׁ וּבֵיתוֹ",
+      "ref": "שבת כא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5c",
+     "title_he": "מוסיף והולך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Two groups of sages in robes and head coverings sitting facing each other in a stone study hall at night, debating calmly and respectfully with raised hands, a single clay oil lamp glowing on the low table between them.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👴 👨 👨",
+     "say": [
+      "בגמרא יש מחלוקת מעניינת על סדר ההדלקה. בית שמאי אומרים: ביום הראשון מדליקים שמונה נרות, ומכאן והלאה פוחתים והולכים.",
+      "ובית הלל אומרים: ביום הראשון מדליקים נר אחד, ומכאן והלאה מוסיפים והולכים.",
+      "אחד הטעמים של בית הלל הוא: מעלין בקודש ואין מורידין. בדברים שבקדושה, תמיד עולים למעלה ולא יורדים.",
+      "וכך נפסקה ההלכה. בכל ערב של חנוכה האור גדל, כמו שאדם צריך להוסיף בכל יום עוד קצת אור, עוד קצת תורה ועוד קצת טוב.",
+      "ויש בגמרא טעם נוסף: לפי בית הלל, מספר הנרות מראה כמה ימים של החג כבר עברו, ולפי בית שמאי, כמה ימים נשארו."
+     ],
+     "pasuk": {
+      "text": "מַעֲלִין בַּקֹּדֶשׁ וְאֵין מוֹרִידִין",
+      "ref": "שבת כא, ב"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "כמעט בכל המחלוקות בין בית שמאי ובית הלל, ההלכה נפסקה כבית הלל."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "ממלכת החשמונאים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Jerusalem in its glory under a blue sky: the walls rebuilt, a royal palace and the Temple, people bringing first fruits in baskets up the road, a calm and proud mood.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👦",
+     "say": [
+      "אחרי הנס, החשמונאים המשיכו להילחם, ובסופו של דבר השיגו עצמאות מלאה. במשך עשרות שנים הייתה ממלכה יהודית בארץ ישראל.",
+      "אבל גם לסיפור הזה יש המשך עצוב. הרמב\"ן כותב בפירושו לתורה שהחשמונאים היו חסידים גדולים, אבל נענשו משום שלקחו לעצמם את המלוכה, אף שהם כהנים משבט לוי, והמלוכה שייכת לשבט יהודה, לבית דוד.",
+      "חלק ממלכי החשמונאים המאוחרים אף התרחקו מדרכם של חכמים ורדפו אותם.",
+      "הגמרא מספרת על המלך ינאי, שרב עם חכמי ישראל, ורבים מהם נאלצו לברוח. רק שמעון בן שטח, אחיה של המלכה שלומציון, הצליח להחזיר את התורה למקומה.",
+      "ובסוף, שני אחים מבית החשמונאים רבו על הכתר. כל אחד מהם פנה לעזרה אל מעצמה חדשה וחזקה במערב: רומא. וזה היה תחילתו של פרק חדש.",
+      "הסיפור של החשמונאים מלמד אותנו: גם אחרי נס גדול, צריך לשמור על הדרך הנכונה, אחרת הכול עלול ללכת לאיבוד.",
+      "ובכל זאת, זכותם של החשמונאים עומדת לנו לעד: בכל שנה אנחנו מזכירים בתפילה את \"מתתיהו בן יוחנן כהן גדול, חשמונאי ובניו\"."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-gre-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על אילו מצוות גזר אנטיוכוס בעיקר, לפי המסורת?",
+   "answer": "שבת, ראש חודש וברית מילה",
+   "options": [
+    "שבת, ראש חודש וברית מילה",
+    "תפילין, ציצית ומזוזה",
+    "סוכה, לולב ושופר",
+    "פסח, שבועות וסוכות"
+   ],
+   "explain_he": "לפי המסורת, הגזירות היו בעיקר על שבת, ראש חודש וברית מילה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על אילו מצוות גזר אנטיוכוס בעיקר, לפי המסורת?",
+   "answer": "שבת, ראש חודש וברית מילה",
+   "options": [
+    "שבת, ראש חודש וברית מילה",
+    "תפילין, ציצית ומזוזה",
+    "סוכה, לולב ושופר",
+    "פסח, שבועות וסוכות"
+   ],
+   "explain_he": "לפי המסורת, הגזירות היו בעיקר על שבת, ראש חודש וברית מילה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה מתתיהו?",
+   "answer": "כהן זקן ממודיעין, ממשפחת החשמונאים",
+   "options": [
+    "כהן זקן ממודיעין, ממשפחת החשמונאים",
+    "מלך יוון",
+    "הכהן הגדול בימי אלכסנדר",
+    "מצביא רומי"
+   ],
+   "explain_he": "מתתיהו בן יוחנן היה כהן ממודיעין, שסירב לעבוד עבודה זרה ועלה עם בניו להרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה מתתיהו?",
+   "answer": "כהן זקן ממודיעין, ממשפחת החשמונאים",
+   "options": [
+    "כהן זקן ממודיעין, ממשפחת החשמונאים",
+    "מלך יוון",
+    "הכהן הגדול בימי אלכסנדר",
+    "מצביא רומי"
+   ],
+   "explain_he": "מתתיהו בן יוחנן היה כהן ממודיעין, שסירב לעבוד עבודה זרה ועלה עם בניו להרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אנחנו אומרים בתפילת \"על הנסים\" על המלחמה?",
+   "answer": "מסרת גבורים ביד חלשים, ורבים ביד מעטים",
+   "options": [
+    "מסרת גבורים ביד חלשים, ורבים ביד מעטים",
+    "מי כמוך באלים",
+    "זכור את אשר עשה לך עמלק",
+    "על שלושה דברים העולם עומד"
+   ],
+   "explain_he": "הצבא היווני היה גדול ומאומן, והיהודים מעטים. הניצחון היה נס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אנחנו אומרים בתפילת \"על הנסים\" על המלחמה?",
+   "answer": "מסרת גבורים ביד חלשים, ורבים ביד מעטים",
+   "options": [
+    "מסרת גבורים ביד חלשים, ורבים ביד מעטים",
+    "מי כמוך באלים",
+    "זכור את אשר עשה לך עמלק",
+    "על שלושה דברים העולם עומד"
+   ],
+   "explain_he": "הצבא היווני היה גדול ומאומן, והיהודים מעטים. הניצחון היה נס.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה החליטו מתתיהו וחבריו להתגונן גם בשבת?",
+   "answer": "כי פיקוח נפש דוחה שבת, והתורה ניתנה כדי לחיות בה",
+   "options": [
+    "כי פיקוח נפש דוחה שבת, והתורה ניתנה כדי לחיות בה",
+    "כי לא ידעו שהיום שבת",
+    "כי היוונים הרשו להם",
+    "כי השבת התבטלה בזמן מלחמה לגמרי"
+   ],
+   "explain_he": "אחרי שיהודים במערות לא התגוננו בשבת ונהרגו, החליטו מתתיהו וחבריו להתגונן, כפי שקובעת ההלכה: וחי בהם, ולא שימות בהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה החליטו מתתיהו וחבריו להתגונן גם בשבת?",
+   "answer": "כי פיקוח נפש דוחה שבת, והתורה ניתנה כדי לחיות בה",
+   "options": [
+    "כי פיקוח נפש דוחה שבת, והתורה ניתנה כדי לחיות בה",
+    "כי לא ידעו שהיום שבת",
+    "כי היוונים הרשו להם",
+    "כי השבת התבטלה בזמן מלחמה לגמרי"
+   ],
+   "explain_he": "אחרי שיהודים במערות לא התגוננו בשבת ונהרגו, החליטו מתתיהו וחבריו להתגונן, כפי שקובעת ההלכה: וחי בהם, ולא שימות בהם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מניחים את החנוכייה בפתח או בחלון?",
+   "answer": "כדי לפרסם את הנס לכל העוברים ברחוב",
+   "options": [
+    "כדי לפרסם את הנס לכל העוברים ברחוב",
+    "כדי שהבית יהיה חם",
+    "כדי שהנרות לא ייכבו",
+    "כי אסור להדליק בתוך הבית"
+   ],
+   "explain_he": "קוראים לזה \"פרסומי ניסא\". ולפי ההלכה מניחים אותה משמאל, מול המזוזה שמימין.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מניחים את החנוכייה בפתח או בחלון?",
+   "answer": "כדי לפרסם את הנס לכל העוברים ברחוב",
+   "options": [
+    "כדי לפרסם את הנס לכל העוברים ברחוב",
+    "כדי שהבית יהיה חם",
+    "כדי שהנרות לא ייכבו",
+    "כי אסור להדליק בתוך הבית"
+   ],
+   "explain_he": "קוראים לזה \"פרסומי ניסא\". ולפי ההלכה מניחים אותה משמאל, מול המזוזה שמימין.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הטעם של בית הלל להוסיף נר בכל לילה?",
+   "answer": "מעלין בקודש ואין מורידין",
+   "options": [
+    "מעלין בקודש ואין מורידין",
+    "כי כך נשאר יותר שמן",
+    "כי הלילות מתארכים",
+    "כי כך עשו היוונים"
+   ],
+   "explain_he": "בית שמאי אמרו לפחות מנר לנר, ובית הלל אמרו להוסיף, כי בקדושה תמיד עולים. וכך נפסקה ההלכה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה מיוחד בפך השמן שנמצא?",
+   "answer": "הוא היה חתום בחותמו של כהן גדול, ולכן טהור",
+   "options": [
+    "הוא היה חתום בחותמו של כהן גדול, ולכן טהור",
+    "הוא היה עשוי זהב",
+    "הוא היה גדול מאוד",
+    "הוא הגיע מיוון"
+   ],
+   "explain_he": "כל השמן היה טמא, ורק פך אחד היה חתום בחותם הכהן הגדול. היה בו שמן ליום אחד, והדליקו ממנו שמונה ימים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה מיוחד בפך השמן שנמצא?",
+   "answer": "הוא היה חתום בחותמו של כהן גדול, ולכן טהור",
+   "options": [
+    "הוא היה חתום בחותמו של כהן גדול, ולכן טהור",
+    "הוא היה עשוי זהב",
+    "הוא היה גדול מאוד",
+    "הוא הגיע מיוון"
+   ],
+   "explain_he": "כל השמן היה טמא, ורק פך אחד היה חתום בחותם הכהן הגדול. היה בו שמן ליום אחד, והדליקו ממנו שמונה ימים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה בא השם \"חנוכה\"?",
+   "answer": "מחנוכת בית המקדש מחדש",
+   "options": [
+    "מחנוכת בית המקדש מחדש",
+    "משמו של מלך יווני",
+    "מהמילה \"חנות\"",
+    "משמו של אחד מבני מתתיהו"
+   ],
+   "explain_he": "בכ\"ה בכסלו חנכו החשמונאים מחדש את המקדש, ומכאן השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה בא השם \"חנוכה\"?",
+   "answer": "מחנוכת בית המקדש מחדש",
+   "options": [
+    "מחנוכת בית המקדש מחדש",
+    "משמו של מלך יווני",
+    "מהמילה \"חנות\"",
+    "משמו של אחד מבני מתתיהו"
+   ],
+   "explain_he": "בכ\"ה בכסלו חנכו החשמונאים מחדש את המקדש, ומכאן השם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הגיעה רומא לארץ ישראל, לפי הסרט?",
+   "answer": "שני אחים חשמונאים שרבו על הכתר פנו אליה לעזרה",
+   "options": [
+    "שני אחים חשמונאים שרבו על הכתר פנו אליה לעזרה",
+    "אלכסנדר הזמין אותה",
+    "היא באה לסחור בשמן",
+    "היא באה לעזור למתתיהו"
+   ],
+   "explain_he": "המריבה בין האחים על המלוכה הביאה את רומא אל הארץ.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f3e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה, לפי הרמב\"ן, נענשו החשמונאים?",
+   "answer": "כי לקחו את המלוכה, אף שהיא שייכת לשבט יהודה",
+   "options": [
+    "כי לקחו את המלוכה, אף שהיא שייכת לשבט יהודה",
+    "כי לא הדליקו נרות",
+    "כי לא נלחמו ביוונים",
+    "כי עזבו את ירושלים"
+   ],
+   "explain_he": "החשמונאים היו כהנים משבט לוי, והמלוכה שייכת לבית דוד משבט יהודה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה גזרו היוונים דווקא על שבת, ראש חודש ומילה, לפי הסרט?",
+   "answer": "כי הן מראות את הברית המיוחדת של ישראל עם הקדוש ברוך הוא",
+   "options": [
+    "כי הן מראות את הברית המיוחדת של ישראל עם הקדוש ברוך הוא",
+    "כי הן המצוות הקלות ביותר",
+    "כי היוונים לא ידעו על מצוות אחרות",
+    "כי הן עולות כסף"
+   ],
+   "explain_he": "המצוות האלה מקדשות את הזמן ואת הגוף, ומראות את הברית של ישראל עם השם. את זה רצו היוונים לעקור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f3e20"
+  }
+ ]
+}

@@ -1,0 +1,530 @@
+{
+ "id": "k-mik-f3",
+ "unit_id": "k-mik-u1",
+ "course": "mikdash",
+ "title_he": "כלי המקדש",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "כלי המקדש",
+   "ref_he": "בית המקדש",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מה יש בפנים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: The Temple building seen from its courtyard at dawn: tall doors stand open to the outer sanctuary, a warm golden glow inside, kohanim in white walking up the steps.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "בואו ניכנס יחד, בזהירות, אל תוך בית המקדש. אבל לא לכל מקום!",
+      "יש מקומות שרק כהנים נכנסים אליהם, ויש מקום אחד שרק הכהן הגדול נכנס אליו.",
+      "אז נשתמש בדמיון, ונכיר את הכלים הקדושים, אחד אחד.",
+      "כל כלי הוא אוצר, וכל כלי מלמד אותנו משהו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ארון הברית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Betzalel: a very young craftsman with a light beard, a cloth cap, a leather apron over a tan robe. Scene: Betzalel's workshop in the desert: a rectangular ark of acacia wood covered in gold inside and out, two golden winged figures facing each other on its lid, craftsmen standing back in awe.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🏠",
+     "say": [
+      "הכלי הראשון הוא ארון הברית. הוא עשוי מעץ, ומצופה בזהב מבחוץ וגם מבפנים.",
+      "למה גם מבפנים? הרי אף אחד לא רואה את הפנים!",
+      "חז\"ל אומרים: כך צריך להיות אדם טוב. מבפנים כמו מבחוץ – ישר ואמיתי.",
+      "ועל הארון היו שני כרובים מזהב, עם כנפיים פרושות.",
+      "וכשנשאו את הארון במדבר, חז\"ל אומרים שקרה נס: הארון בעצמו נשא את מי שנשא אותו!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: תלמיד חכם צריך להיות \"תוכו כברו\" – מבפנים כמו מבחוץ, כמו הארון."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "הלוחות בתוך הארון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Two rounded stone tablets resting gently in soft light on a simple cloth, beside them carefully gathered broken pieces of stone. Quiet, reverent mood, nothing written on them.",
+     "move": "in",
+     "fx": "light",
+     "art": "🪨 🪨",
+     "say": [
+      "ומה היה בתוך הארון? לוחות הברית, שמשה הוריד מהר סיני.",
+      "ויש גם סוד יפה: בתוך הארון היו גם שברי הלוחות הראשונים, שנשברו.",
+      "שמו אותם בכבוד, ליד הלוחות השלמים.",
+      "חז\"ל לומדים מכאן: צריך לכבד גם סבא זקן ששכח את מה שלמד. גם השברים קדושים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "המנורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: A seven-branched golden menorah glowing in the dim sanctuary, decorated with cups, knobs and flowers, a kohen in white gently pouring olive oil into its lamps at evening.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🏠",
+     "say": [
+      "זו המנורה! שבעה קנים, וכולה מזהב טהור.",
+      "והיא לא חוברה מחלקים. עשו אותה מחתיכת זהב אחת גדולה, והכו בה בפטיש עד שקיבלה צורה.",
+      "בכל ערב הכהן הדליק את הנרות בשמן זית טהור, והמנורה האירה בקודש.",
+      "וזוכרים את נס חנוכה? הוא קרה בדיוק במנורה הזאת, בבית המקדש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "השולחן ולחם הפנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: A golden table in the sanctuary holding twelve flat loaves of bread arranged in two neat stacks, warm steam rising gently from them, two kohanim in white placing new loaves on Shabbat.",
+     "move": "right",
+     "fx": null,
+     "art": "🏠",
+     "say": [
+      "מול המנורה עמד שולחן מזהב. ועליו שנים עשר לחמים.",
+      "בכל שבת הכהנים הוציאו את הלחמים של השבוע שעבר, והניחו לחמים חדשים.",
+      "והנה נס: חז\"ל מספרים שהלחם נשאר חם וטרי כל השבוע, כאילו יצא עכשיו מהתנור!",
+      "השולחן מזכיר לנו שכל האוכל והפרנסה באים מהשם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "מזבח הקטורת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: A small golden altar in front of the closed embroidered curtain, a kohen in white burning incense on it, fragrant smoke curling upward in soft light; through a far window, goats on a green hillside near Jericho.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🐐",
+     "say": [
+      "בין המנורה לשולחן עמד מזבח קטן מזהב. עליו הקטירו קטורת – בשמים בעלי ריח נפלא.",
+      "פעמיים ביום, בבוקר ובערב, הכהן הקטיר את הקטורת, וענן ריחני עלה למעלה.",
+      "והריח היה כל כך חזק, שהגיע עד העיר יריחו, רחוק מירושלים.",
+      "חז\"ל מספרים שאפילו העיזים ביריחו התעטשו מהריח!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במשנה כתוב שהעיזים ביריחו התעטשו מריח הקטורת שהגיע מירושלים!"
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "האש שלא כבתה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: The great stone altar in the Temple courtyard under a light rain, its fire burning strongly, a straight column of smoke rising to grey clouds, kohanim in white walking up its sloping ramp.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🪨 👨",
+     "say": [
+      "ועכשיו נצא החוצה, לחצר. שם עמד המזבח הגדול.",
+      "על המזבח בערה אש כל הזמן, ביום ובלילה. אסור היה לתת לה לכבות.",
+      "וחז\"ל מספרים על נסים: הגשם אף פעם לא כיבה את האש של המזבח.",
+      "והעשן? גם כשנשבה רוח חזקה, הוא עלה ישר למעלה, כמו עמוד!"
+     ],
+     "pasuk": {
+      "text": "אֵשׁ תָּמִיד תּוּקַד עַל הַמִּזְבֵּחַ, לֹא תִכְבֶּה",
+      "ref": "ויקרא ו, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "השולחן שלנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A warm Jewish family home on Friday night: a table set with two covered challot, candles, wine cup and a pot of soup, a father with a kippah, a mother with a head covering and children sitting around smiling.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "היום אין לנו בית מקדש. אבל משהו ממנו נשאר אצלנו בבית!",
+      "חז\"ל אומרים שהשולחן בבית שלנו הוא כמו מזבח קטן. במיוחד כשמזמינים אורחים ונותנים להם לאכול.",
+      "וגם המנורה ממשיכה: בכל חנוכה אנחנו מדליקים נרות, וזוכרים את האור של המקדש.",
+      "וכל הכלים מחכים לחזור. אנחנו מתפללים שנראה אותם שוב, בבית המקדש השלישי."
+     ],
+     "pasuk": {
+      "text": "עַכְשָׁיו שֶׁאֵין בֵּית הַמִּקְדָּשׁ קַיָּים – שֻׁלְחָנוֹ שֶׁל אָדָם מְכַפֵּר עָלָיו",
+      "ref": "ברכות נה, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-mik-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "כלי המקדש",
+   "ref_he": "בית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מה יש בפנים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: The Temple building seen from its courtyard at dawn: tall doors stand open to the outer sanctuary, a warm golden glow inside, kohanim in white walking up the steps.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "בבית המקדש היו כלים מיוחדים, שנעשו בדיוק כמו שהשם ציווה למשה במדבר.",
+      "לא כל אחד יכול היה לראות אותם. לחלק מהם נכנסו רק הכהנים, ואל קודש הקודשים – רק הכהן הגדול.",
+      "אז נכיר אותם כמו שחז\"ל ורש\"י מתארים אותם, ונגלה שכל כלי מלמד גם אותנו, היום, איך לחיות.",
+      "נתחיל מהכלי החשוב מכולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ארון הברית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Betzalel: a very young craftsman with a light beard, a cloth cap, a leather apron over a tan robe. Scene: Betzalel's workshop in the desert: a rectangular ark of acacia wood covered in gold inside and out, two golden winged figures facing each other on its lid, craftsmen standing back in awe.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🏠",
+     "say": [
+      "ארון הברית נעשה מעצי שיטים, וצופה זהב מבפנים ומבחוץ. בעצם אלה היו שלוש תיבות, אחת בתוך השנייה.",
+      "חז\"ל למדו מכאן: \"כל תלמיד חכם שאין תוכו כברו – אינו תלמיד חכם\". אדם צריך להיות אותו אדם מבפנים ומבחוץ – בלי העמדת פנים.",
+      "מעל הארון הייתה הכפורת, מכסה של זהב טהור, ועליה שני כרובים. רש\"י אומר שהיו להם פני תינוק.",
+      "הארון עמד בקודש הקודשים, ולשם לא נכנסים. לכן ראינו אותו כאן, בבית המלאכה של בצלאל.",
+      "וחז\"ל אומרים עוד: \"הארון נושא את נושאיו\". הלוויים חשבו שהם נושאים את הארון – ובאמת הוא נשא אותם. כך גם התורה: מי ששומר עליה – היא שומרת עליו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: תלמיד חכם צריך להיות \"תוכו כברו\" – מבפנים כמו מבחוץ, כמו הארון."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "הלוחות בתוך הארון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: Two rounded stone tablets resting gently in soft light on a simple cloth, beside them carefully gathered broken pieces of stone. Quiet, reverent mood, nothing written on them.",
+     "move": "in",
+     "fx": "light",
+     "art": "🪨 🪨",
+     "say": [
+      "בתוך הארון הונחו לוחות הברית. ולצידם, אומרים חז\"ל, הונחו גם שברי הלוחות הראשונים שמשה שבר.",
+      "למה לשמור שברים? חז\"ל אומרים: \"לוחות ושברי לוחות מונחים בארון\".",
+      "ומכאן לימוד חשוב: זקן שלמד תורה ושכח את תלמודו מחמת זקנה – נוהגים בו כבוד, כמו בשברי הלוחות.",
+      "התורה היא לב בית המקדש. הכול נבנה סביב הארון ששומר על הלוחות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "המנורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: A seven-branched golden menorah glowing in the dim sanctuary, decorated with cups, knobs and flowers, a kohen in white gently pouring olive oil into its lamps at evening.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🏠",
+     "say": [
+      "המנורה נעשתה \"מקשה\": מכיכר זהב אחת, שהכו בה עד שיצאו ממנה שבעת הקנים, הגביעים, הכפתורים והפרחים.",
+      "רש\"י מספר שמעשה המנורה היה קשה מאוד, ומשה התקשה להבין איך עושים אותה – עד שהשם הראה לו.",
+      "בכל ערב הדליק הכהן את נרותיה בשמן זית זך, מהטיפות הראשונות של הזית. האור דלק כל הלילה.",
+      "וכשהיוונים טימאו את המקדש, החשמונאים מצאו פך שמן אחד טהור, והמנורה דלקה שמונה ימים. משם הגיע אלינו חג החנוכה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מספרים שהנר המערבי במנורה דלק בנס זמן רב יותר משאר הנרות."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "השולחן ולחם הפנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: A golden table in the sanctuary holding twelve flat loaves of bread arranged in two neat stacks, warm steam rising gently from them, two kohanim in white placing new loaves on Shabbat.",
+     "move": "right",
+     "fx": null,
+     "art": "🏠",
+     "say": [
+      "בצד הצפוני של הקודש עמד השולחן, ועליו שנים עשר לחמים – \"לחם הפנים\", בשתי מערכות של שש.",
+      "בכל שבת החליפו הכהנים את הלחם: הניחו לחם חדש, ואת הישן אכלו הכהנים.",
+      "חז\"ל מספרים על נס: כשהוציאו את הלחם, הוא היה חם כמו ביום שהניחו אותו, כאילו לא עבר שבוע שלם.",
+      "השולחן הוא סימן לברכה ולפרנסה, שבאות מהשם. ועוד נחזור אל השולחן בסוף השיעור.",
+      "ומה עשו בלחם? הכהנים חילקו אותו ביניהם בשבת, וכל אחד קיבל רק חתיכה קטנה. חז\"ל מספרים שבימי שמעון הצדיק, אפילו חתיכה כזו השביעה – הייתה בה ברכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "מזבח הקטורת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: A small golden altar in front of the closed embroidered curtain, a kohen in white burning incense on it, fragrant smoke curling upward in soft light; through a far window, goats on a green hillside near Jericho.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🐐",
+     "say": [
+      "מזבח הזהב עמד מול הפרוכת, ועליו הקטירו קטורת בבוקר ובערב. הקטורת עשויה מאחד עשר סוגי בשמים.",
+      "היא הייתה כל כך יקרה וקדושה, שאסור היה לעשות כמוה לשום דבר אחר.",
+      "המשנה מספרת שמיריחו הריחו את ריח הקטורת, והעיזים שם התעטשו. ונשים ביריחו לא היו צריכות להתבשם.",
+      "עד היום אנחנו אומרים בתפילה את \"פיטום הקטורת\", כדי לזכור את העבודה היפה הזאת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במשנה כתוב שהעיזים ביריחו התעטשו מריח הקטורת שהגיע מירושלים!"
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "האש שלא כבתה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. Kohanim: bearded priests in long white linen robes, woven sashes and white linen caps, barefoot. Scene: The great stone altar in the Temple courtyard under a light rain, its fire burning strongly, a straight column of smoke rising to grey clouds, kohanim in white walking up its sloping ramp.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🪨 👨",
+     "say": [
+      "בחוץ, בעזרה, עמד המזבח הגדול. עלו אליו בכבש – מעין גשר משופע, בלי מדרגות.",
+      "התורה מצווה: \"אש תמיד תוקד על המזבח, לא תכבה\". הכהנים שמרו עליה ביום ובלילה.",
+      "ובפרקי אבות מונים נסים: \"לא כיבו גשמים אש של עצי המערכה, ולא נצחה הרוח את עמוד העשן\".",
+      "האש התמידית מלמדת אותנו: גם האהבה לתורה ולמצוות צריכה לבעור בנו כל הזמן, ולא רק בחגים."
+     ],
+     "pasuk": {
+      "text": "אֵשׁ תָּמִיד תּוּקַד עַל הַמִּזְבֵּחַ, לֹא תִכְבֶּה",
+      "ref": "ויקרא ו, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "השולחן שלנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A warm Jewish family home on Friday night: a table set with two covered challot, candles, wine cup and a pot of soup, a father with a kippah, a mother with a head covering and children sitting around smiling.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "היום אין לנו מקדש, אבל חז\"ל לימדו: \"עכשיו שאין בית המקדש קיים, שולחנו של אדם מכפר עליו\" – במיוחד כשמכניסים אורחים.",
+      "מנורת המקדש ממשיכה לדלוק בנרות החנוכה שלנו. והקטורת? אנחנו מזכירים אותה בתפילה בכל יום.",
+      "והארון? חז\"ל אומרים שהוא נגנז, הוסתר, ולא אבד. התורה שבו לא זזה מאיתנו, ואנחנו לומדים אותה בכל יום.",
+      "כל כלי לימד משהו: הארון – להיות אמיתי, המנורה – להאיר, השולחן – לתת. וכולנו מחכים ליום שהכלים יחזרו למקומם."
+     ],
+     "pasuk": {
+      "text": "עַכְשָׁיו שֶׁאֵין בֵּית הַמִּקְדָּשׁ קַיָּים – שֻׁלְחָנוֹ שֶׁל אָדָם מְכַפֵּר עָלָיו",
+      "ref": "ברכות נה, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-mik-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה צופה ארון הברית בזהב גם מבפנים?",
+   "answer": "כדי ללמד שאדם צריך להיות טוב ואמיתי גם בפנים, כמו מבחוץ",
+   "options": [
+    "כדי ללמד שאדם צריך להיות טוב ואמיתי גם בפנים, כמו מבחוץ",
+    "כי היה להם הרבה זהב",
+    "כדי שהארון יהיה כבד יותר"
+   ],
+   "explain_he": "חז\"ל לומדים מהארון: אדם צריך להיות \"תוכו כברו\" – מבפנים כמו מבחוץ.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה צופה ארון הברית בזהב גם מבפנים?",
+   "answer": "כדי ללמד שאדם צריך להיות טוב ואמיתי גם בפנים, כמו מבחוץ",
+   "options": [
+    "כדי ללמד שאדם צריך להיות טוב ואמיתי גם בפנים, כמו מבחוץ",
+    "כי היה להם הרבה זהב",
+    "כדי שהארון יהיה כבד יותר"
+   ],
+   "explain_he": "חז\"ל לומדים מהארון: אדם צריך להיות \"תוכו כברו\" – מבפנים כמו מבחוץ.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה בתוך הארון חוץ מהלוחות השלמים?",
+   "answer": "שברי הלוחות הראשונים",
+   "options": [
+    "שברי הלוחות הראשונים",
+    "כתר של מלך",
+    "שבעה נרות"
+   ],
+   "explain_he": "גם שברי הלוחות הונחו בכבוד בארון. מכאן למדנו לכבד זקן ששכח את תלמודו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה בתוך הארון חוץ מהלוחות השלמים?",
+   "answer": "שברי הלוחות הראשונים",
+   "options": [
+    "שברי הלוחות הראשונים",
+    "כתר של מלך",
+    "שבעה נרות"
+   ],
+   "explain_he": "גם שברי הלוחות הונחו בכבוד בארון. מכאן למדנו לכבד זקן ששכח את תלמודו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ממה עשו את המנורה?",
+   "answer": "מחתיכת זהב אחת גדולה",
+   "options": [
+    "מחתיכת זהב אחת גדולה",
+    "מעץ צבוע",
+    "מהרבה חלקים מחוברים"
+   ],
+   "explain_he": "המנורה נעשתה מחתיכת זהב אחת, שהכו בה עד שקיבלה צורה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הנס שקרה ללחם הפנים?",
+   "answer": "הוא נשאר חם וטרי כל השבוע",
+   "options": [
+    "הוא נשאר חם וטרי כל השבוע",
+    "הוא נעשה מתוק כמו דבש",
+    "הוא גדל כל יום"
+   ],
+   "explain_he": "חז\"ל מספרים שהלחם היה חם כמו ביום שהניחו אותו, אף שעבר שבוע שלם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הנס שקרה ללחם הפנים?",
+   "answer": "הוא נשאר חם וטרי כל השבוע",
+   "options": [
+    "הוא נשאר חם וטרי כל השבוע",
+    "הוא נעשה מתוק כמו דבש",
+    "הוא גדל כל יום"
+   ],
+   "explain_he": "חז\"ל מספרים שהלחם היה חם כמו ביום שהניחו אותו, אף שעבר שבוע שלם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "עד לאן הגיע ריח הקטורת?",
+   "answer": "עד יריחו",
+   "options": [
+    "עד יריחו",
+    "עד מצרים",
+    "רק עד שער המקדש"
+   ],
+   "explain_he": "המשנה מספרת שביריחו הריחו את הקטורת, ואפילו העיזים התעטשו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "עד לאן הגיע ריח הקטורת?",
+   "answer": "עד יריחו",
+   "options": [
+    "עד יריחו",
+    "עד מצרים",
+    "רק עד שער המקדש"
+   ],
+   "explain_he": "המשנה מספרת שביריחו הריחו את הקטורת, ואפילו העיזים התעטשו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בבית שלנו הוא כמו מזבח קטן?",
+   "answer": "השולחן, במיוחד כשנותנים לאורחים לאכול",
+   "options": [
+    "השולחן, במיוחד כשנותנים לאורחים לאכול",
+    "המיטה",
+    "הדלת"
+   ],
+   "explain_he": "חז\"ל אומרים שהיום שולחנו של אדם מכפר עליו, במיוחד כשמכניסים אורחים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"מקשה\" במנורה?",
+   "answer": "שהמנורה נעשתה מכיכר זהב אחת, שהכו בה עד שקיבלה צורה",
+   "options": [
+    "שהמנורה נעשתה מכיכר זהב אחת, שהכו בה עד שקיבלה צורה",
+    "שהיא הייתה קשה להרים",
+    "שהיא נעשתה מאבן קשה"
+   ],
+   "explain_he": "כל המנורה – הקנים, הגביעים, הכפתורים והפרחים – יצאה מחתיכת זהב אחת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים חז\"ל שקרה לארון הברית?",
+   "answer": "הוא נגנז – הוסתר, ולא אבד",
+   "options": [
+    "הוא נגנז – הוסתר, ולא אבד",
+    "הוא נשרף",
+    "הוא נמכר למלך אחר"
+   ],
+   "explain_he": "חז\"ל אומרים שהארון נגנז. הוא מוסתר, ומחכה ליום שיחזור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזה שמן הדליקו את המנורה?",
+   "answer": "שמן זית זך, מהטיפות הראשונות של הזית",
+   "options": [
+    "שמן זית זך, מהטיפות הראשונות של הזית",
+    "שמן של אגוזים",
+    "כל שמן שהיה בבית"
+   ],
+   "explain_he": "את נרות המנורה הדליקו בשמן זית זך, מהטיפות הראשונות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f3e15"
+  }
+ ]
+}

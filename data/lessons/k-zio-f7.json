@@ -1,0 +1,580 @@
+{
+ "id": "k-zio-f7",
+ "unit_id": "k-zio-u3",
+ "course": "zionism",
+ "title_he": "הצהרת בלפור והמנדט",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "הצהרת בלפור והמנדט",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מכתב מלונדון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A grand old office in London in November 1917, a tall gray-haired British statesman in a dark suit signing a letter at a wooden desk, rain on the tall window, a lamp glowing, a serious historic mood.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨",
+     "say": [
+      "לונדון, נובמבר 1917. מלחמת העולם הראשונה עדיין משתוללת באירופה.",
+      "במשרד גדול יושב שר החוץ של בריטניה, ארתור בלפור, וחותם על מכתב קצר.",
+      "המכתב מופנה ללורד רוטשילד, ממנהיגי יהודי אנגליה.",
+      "ובו כתוב שממשלת בריטניה רואה בעין יפה הקמת בית לאומי לעם היהודי בארץ ישראל.",
+      "זה היה רק מכתב של כמה שורות. אבל זו הייתה הפעם הראשונה שמעצמה גדולה בעולם הבטיחה לעזור לעם ישראל לחזור לארצו.",
+      "כשהידיעה הגיעה לקהילות היהודיות, היו שרקדו ברחובות והודו לקדוש ברוך הוא.",
+      "המכתב הזה נקרא מאז הצהרת בלפור. בואו נבין איך הוא נולד, ומה קרה אחריו."
+     ],
+     "pasuk": {
+      "text": "ממשלת הוד מלכותו רואה בעין יפה הקמת בית לאומי לעם היהודי בארץ ישראל, ותשתדל כמיטב יכולתה להקל על השגת מטרה זו",
+      "ref": "הצהרת בלפור, 2 בנובמבר 1917"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "סוף ארבע מאות שנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: An old chemistry laboratory in Manchester around 1916, glass flasks and tubes on wooden tables, a balding scientist with a small beard in a long coat studying a flask by the window light, papers and books around.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "במשך בערך ארבע מאות שנה, מאז 1517, שלטה בארץ ישראל האימפריה העות׳מאנית, הטורקים.",
+      "במלחמת העולם הראשונה עמדו הטורקים לצד גרמניה, נגד בריטניה וצרפת.",
+      "הבריטים רצו לכבוש מהם את המזרח התיכון, וגם את ארץ ישראל.",
+      "באותם ימים חי באנגליה מדען יהודי בשם חיים ויצמן, כימאי מוכשר שעזר לבריטים במחקר שלו בזמן המלחמה.",
+      "ויצמן ניצל כל פגישה עם המנהיגים הבריטים כדי להסביר להם את הקשר של עם ישראל לארצו.",
+      "גם מנהיגים בריטים רבים גדלו על התנ״ך, והכירו את הבטחות הנביאים.",
+      "כך, אחרי מאמצים רבים, נכתבה ההצהרה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בחנוכה לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: December 1917, the Jaffa Gate of Jerusalem on a cool clear day, a British general in a khaki uniform walking in on foot through the gate with a few officers, local people in long robes and Jews in long coats watching from the walls.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👴 🚶",
+     "say": [
+      "באותו חודש, דצמבר 1917, כבש הצבא הבריטי את ירושלים מידי הטורקים.",
+      "המצביא הבריטי, הגנרל אלנבי, הגיע אל שער יפו.",
+      "שם הוא ירד מהסוס ונכנס לעיר ברגל, מתוך כבוד לעיר הקודש.",
+      "וזה קרה בימי חנוכה. יהודי ירושלים, שסבלו בשנות המלחמה מרעב וממחלות, הדליקו נרות בהתרגשות.",
+      "בחנוכה אנחנו זוכרים את החשמונאים, שטיהרו את המקדש וחידשו את עבודת השם.",
+      "ועכשיו, אחרי מאות שנים, נראה היה שעידן חדש מתחיל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הגנרל אלנבי נכנס לירושלים ברגל, ולא רכוב על סוס, מתוך כבוד לעיר הקודש. זה קרה בימי חנוכה, בשנת תרע״ח."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "בונים את הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A busy hopeful scene of the 1920s and 1930s: new white houses rising on sand dunes by the sea, a yeshiva building in the Judean hills with students in white shirts, farmers plowing fields with mules, a water tower, bright sun.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 🏠 🌳",
+     "say": [
+      "בשנת 1922 החליט חבר הלאומים, הארגון של מדינות העולם באותם ימים, לתת לבריטניה לשלוט בארץ ישראל.",
+      "השלטון הזה נקרא המנדט הבריטי. ובכתב המנדט נאמר שעל בריטניה לעזור להקים בארץ בית לאומי ליהודים.",
+      "ואז התחילו לעלות יהודים בגלים: מרוסיה, מפולין, מתימן, מגרמניה ומארצות נוספות.",
+      "נבנו שכונות בירושלים, ותל אביב הקטנה הפכה לעיר. קמו מושבים וקיבוצים, ובהם גם יישובים דתיים.",
+      "גם ישיבות גדולות עלו לארץ. בשנת 1924 עברה ישיבת סלובודקה מליטא לחברון, ונקראה ישיבת חברון.",
+      "בשנת 1925 נחנכה על הר הצופים האוניברסיטה העברית, ובבתי החולים, בבתי הספר ובבתי המשפט דיברו עברית.",
+      "בתוך פחות מעשרים שנה, מספר היהודים בארץ גדל בערך פי חמישה.",
+      "הארץ, שחיכתה שוממה מאות שנים, התחילה לפרוח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "השערים נסגרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A closed iron harbor gate at dusk under a heavy gray sky, an empty pier and a single lamp, a feeling of a door shut at the worst time, distant dark clouds over the sea.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "בשנת 1939 פרסמה בריטניה מסמך שנקרא הספר הלבן.",
+      "בספר הלבן נקבע שבחמש השנים הבאות יוכלו לעלות לארץ רק שבעים וחמישה אלף יהודים, ואחר כך אולי לא אחד.",
+      "וזה קרה בדיוק כשהיהודים באירופה היו בסכנה הגדולה ביותר בתולדותיהם.",
+      "באותה שנה פרצה מלחמת העולם השנייה. הנאצים, ימח שמם, רצחו בשנות השואה שישה מיליון יהודים.",
+      "מיליוני יהודים חיפשו מקום מקלט, והשערים של ארץ ישראל היו כמעט סגורים.",
+      "זה כאב גדול שקשה לתאר. מי שהיה יכול להינצל אילו השערים היו פתוחים, לא יכול היה להגיע.",
+      "אבל עם ישראל לא השלים עם השערים הסגורים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ההעפלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A crowded old ship approaching a dark coastline at night, families with children wrapped in blankets on the deck looking toward the faint lights of Mount Carmel, small boats waiting near the shore, stars above.",
+     "move": "in",
+     "fx": "night",
+     "art": "⛵ 👨 👩 👧",
+     "say": [
+      "מה עושים כשהשער סגור? מוצאים דרך אחרת.",
+      "יהודים מהארץ ומהגולה התחילו להביא עולים בסתר, בספינות ישנות וצפופות, למרות האיסור הבריטי.",
+      "העלייה הזאת נקראה העפלה, והעולים נקראו מעפילים.",
+      "הבריטים שלחו ספינות מלחמה כדי לתפוס אותם, ולכן הכול נעשה בחשאי ובחושך.",
+      "הספינות הגיעו בלילה לחוף, וצעירים מהארץ חיכו להם בסירות, נשאו את הילדים והזקנים על הכתפיים והובילו אותם ליישובים.",
+      "רבים מהמעפילים היו ניצולי השואה, שאיבדו את כל משפחתם.",
+      "כשדרכו על החוף, רבים מהם כרעו ונישקו את החול. כמו שמסופר בגמרא על רבי אבא, שהיה מנשק את אבני עכו מאהבת הארץ.",
+      "בסך הכול הגיעו כך יותר ממאה אלף מעפילים."
+     ],
+     "pasuk": {
+      "text": "רַבִּי אַבָּא מְנַשֵּׁק כֵּיפֵי דְעַכּוֹ",
+      "ref": "כתובות קיב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "הביאי בני מרחוק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Sunrise over the coast of the Land of Israel, a small boat landing on a sandy beach, an old man with a beard and a young girl in a long dress stepping onto the sand hand in hand, golden light on the hills behind.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👧",
+     "say": [
+      "הנביא ישעיהו ניבא: אומר לצפון תני, ולתימן אל תכלאי. הביאי בני מרחוק, ובנותי מקצה הארץ.",
+      "כאילו הקדוש ברוך הוא אומר לכל הארצות: תנו לילדים שלי לחזור הביתה.",
+      "בשנות המנדט, בריטניה פתחה את השער בהתחלה, ואחר כך סגרה אותו.",
+      "אבל שום שער לא עצר את הגעגועים של אלפיים שנה.",
+      "עולים הגיעו בספינות, ברגל, בסתר ובגלוי, ובנו את הארץ במסירות נפש.",
+      "עכשיו נשארה שאלה אחת גדולה: מתי תקום סוף סוף מדינה?",
+      "על כך נלמד בפרק האחרון."
+     ],
+     "pasuk": {
+      "text": "אֹמַר לַצָּפוֹן תֵּנִי וּלְתֵימָן אַל תִּכְלָאִי, הָבִיאִי בָנַי מֵרָחוֹק וּבְנוֹתַי מִקְצֵה הָאָרֶץ",
+      "ref": "ישעיהו מג, ו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-zio-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "הצהרת בלפור והמנדט",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מכתב מלונדון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A grand old office in London in November 1917, a tall gray-haired British statesman in a dark suit signing a letter at a wooden desk, rain on the tall window, a lamp glowing, a serious historic mood.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨",
+     "say": [
+      "לונדון, נובמבר 1917. מלחמת העולם הראשונה עדיין משתוללת באירופה.",
+      "במשרד גדול יושב שר החוץ של בריטניה, ארתור בלפור, וחותם על מכתב קצר.",
+      "המכתב מופנה ללורד רוטשילד, ממנהיגי יהודי אנגליה.",
+      "ובו כתוב שממשלת בריטניה רואה בעין יפה הקמת בית לאומי לעם היהודי בארץ ישראל.",
+      "זה היה רק מכתב של כמה שורות. אבל זו הייתה הפעם הראשונה שמעצמה גדולה בעולם הבטיחה לעזור לעם ישראל לחזור לארצו.",
+      "כשהידיעה הגיעה לקהילות היהודיות, היו שרקדו ברחובות והודו לקדוש ברוך הוא.",
+      "המכתב הזה נקרא מאז הצהרת בלפור. בואו נבין איך הוא נולד, ומה קרה אחריו."
+     ],
+     "pasuk": {
+      "text": "ממשלת הוד מלכותו רואה בעין יפה הקמת בית לאומי לעם היהודי בארץ ישראל, ותשתדל כמיטב יכולתה להקל על השגת מטרה זו",
+      "ref": "הצהרת בלפור, 2 בנובמבר 1917"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "סוף ארבע מאות שנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: An old chemistry laboratory in Manchester around 1916, glass flasks and tubes on wooden tables, a balding scientist with a small beard in a long coat studying a flask by the window light, papers and books around.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "במשך בערך ארבע מאות שנה, מאז 1517, שלטה בארץ ישראל האימפריה העות׳מאנית, הטורקים.",
+      "במלחמת העולם הראשונה עמדו הטורקים לצד גרמניה, נגד בריטניה וצרפת.",
+      "הבריטים רצו לכבוש מהם את המזרח התיכון, וגם את ארץ ישראל.",
+      "באותם ימים חי באנגליה מדען יהודי בשם חיים ויצמן, כימאי מוכשר שעזר לבריטים במחקר שלו בזמן המלחמה.",
+      "ויצמן ניצל כל פגישה עם המנהיגים הבריטים כדי להסביר להם את הקשר של עם ישראל לארצו.",
+      "גם מנהיגים בריטים רבים גדלו על התנ״ך, והכירו את הבטחות הנביאים.",
+      "כך, אחרי מאמצים רבים, נכתבה ההצהרה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בחנוכה לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: December 1917, the Jaffa Gate of Jerusalem on a cool clear day, a British general in a khaki uniform walking in on foot through the gate with a few officers, local people in long robes and Jews in long coats watching from the walls.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👴 🚶",
+     "say": [
+      "באותו חודש, דצמבר 1917, כבש הצבא הבריטי את ירושלים מידי הטורקים.",
+      "המצביא הבריטי, הגנרל אלנבי, הגיע אל שער יפו.",
+      "שם הוא ירד מהסוס ונכנס לעיר ברגל, מתוך כבוד לעיר הקודש.",
+      "וזה קרה בימי חנוכה. יהודי ירושלים, שסבלו בשנות המלחמה מרעב וממחלות, הדליקו נרות בהתרגשות.",
+      "בחנוכה אנחנו זוכרים את החשמונאים, שטיהרו את המקדש וחידשו את עבודת השם.",
+      "ועכשיו, אחרי מאות שנים, נראה היה שעידן חדש מתחיל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הגנרל אלנבי נכנס לירושלים ברגל, ולא רכוב על סוס, מתוך כבוד לעיר הקודש. זה קרה בימי חנוכה, בשנת תרע״ח."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "בונים את הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A busy hopeful scene of the 1920s and 1930s: new white houses rising on sand dunes by the sea, a yeshiva building in the Judean hills with students in white shirts, farmers plowing fields with mules, a water tower, bright sun.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 🏠 🌳",
+     "say": [
+      "בשנת 1922 החליט חבר הלאומים, הארגון של מדינות העולם באותם ימים, לתת לבריטניה לשלוט בארץ ישראל.",
+      "השלטון הזה נקרא המנדט הבריטי. ובכתב המנדט נאמר שעל בריטניה לעזור להקים בארץ בית לאומי ליהודים.",
+      "ואז התחילו לעלות יהודים בגלים: מרוסיה, מפולין, מתימן, מגרמניה ומארצות נוספות.",
+      "נבנו שכונות בירושלים, ותל אביב הקטנה הפכה לעיר. קמו מושבים וקיבוצים, ובהם גם יישובים דתיים.",
+      "גם ישיבות גדולות עלו לארץ. בשנת 1924 עברה ישיבת סלובודקה מליטא לחברון, ונקראה ישיבת חברון.",
+      "בשנת 1925 נחנכה על הר הצופים האוניברסיטה העברית, ובבתי החולים, בבתי הספר ובבתי המשפט דיברו עברית.",
+      "בתוך פחות מעשרים שנה, מספר היהודים בארץ גדל בערך פי חמישה.",
+      "הארץ, שחיכתה שוממה מאות שנים, התחילה לפרוח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ימים קשים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: The old stone houses of Hebron in the quiet aftermath, an empty narrow alley with closed wooden doors, a single olive tree, gray sky, a feeling of sorrow and memory, no people visible.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🪨 🌳",
+     "say": [
+      "אבל לא הכול היה פשוט. רבים מהערבים בארץ התנגדו לעלייה, ומנהיגיהם הסיתו נגד היהודים.",
+      "בשנת 1929 פרצו פרעות קשות. בחברון התנפלו פורעים על הקהילה היהודית העתיקה, ורבים, ביניהם תלמידי ישיבה, נרצחו.",
+      "הקהילה שחיה בחברון מאות שנים, ליד מערת המכפלה, נעקרה מהעיר.",
+      "גם בצפת, בירושלים ובמקומות נוספים היו פרעות.",
+      "במקום להגן על היהודים כראוי, הבריטים התחילו לצמצם את העלייה, כדי לרצות את הצד השני.",
+      "בשנת 1936 פרצו שוב מאורעות, שנמשכו כשלוש שנים.",
+      "ודווקא אז קמו עשרות יישובים חדשים בשיטה שנקראה חומה ומגדל: בתוך יום אחד הקימו גדר, צריפים ומגדל שמירה.",
+      "היישוב היהודי לא נשבר. הוא בנה, למד להגן על עצמו, והמשיך לקלוט עולים.",
+      "ובחברון עצמה חזרו יהודים לגור רק שנים רבות אחר כך."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "השערים נסגרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A closed iron harbor gate at dusk under a heavy gray sky, an empty pier and a single lamp, a feeling of a door shut at the worst time, distant dark clouds over the sea.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "בשנת 1939 פרסמה בריטניה מסמך שנקרא הספר הלבן.",
+      "בספר הלבן נקבע שבחמש השנים הבאות יוכלו לעלות לארץ רק שבעים וחמישה אלף יהודים, ואחר כך אולי לא אחד.",
+      "וזה קרה בדיוק כשהיהודים באירופה היו בסכנה הגדולה ביותר בתולדותיהם.",
+      "באותה שנה פרצה מלחמת העולם השנייה. הנאצים, ימח שמם, רצחו בשנות השואה שישה מיליון יהודים.",
+      "מיליוני יהודים חיפשו מקום מקלט, והשערים של ארץ ישראל היו כמעט סגורים.",
+      "זה כאב גדול שקשה לתאר. מי שהיה יכול להינצל אילו השערים היו פתוחים, לא יכול היה להגיע.",
+      "אבל עם ישראל לא השלים עם השערים הסגורים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ההעפלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A crowded old ship approaching a dark coastline at night, families with children wrapped in blankets on the deck looking toward the faint lights of Mount Carmel, small boats waiting near the shore, stars above.",
+     "move": "in",
+     "fx": "night",
+     "art": "⛵ 👨 👩 👧",
+     "say": [
+      "מה עושים כשהשער סגור? מוצאים דרך אחרת.",
+      "יהודים מהארץ ומהגולה התחילו להביא עולים בסתר, בספינות ישנות וצפופות, למרות האיסור הבריטי.",
+      "העלייה הזאת נקראה העפלה, והעולים נקראו מעפילים.",
+      "הבריטים שלחו ספינות מלחמה כדי לתפוס אותם, ולכן הכול נעשה בחשאי ובחושך.",
+      "הספינות הגיעו בלילה לחוף, וצעירים מהארץ חיכו להם בסירות, נשאו את הילדים והזקנים על הכתפיים והובילו אותם ליישובים.",
+      "רבים מהמעפילים היו ניצולי השואה, שאיבדו את כל משפחתם.",
+      "כשדרכו על החוף, רבים מהם כרעו ונישקו את החול. כמו שמסופר בגמרא על רבי אבא, שהיה מנשק את אבני עכו מאהבת הארץ.",
+      "בסך הכול הגיעו כך יותר ממאה אלף מעפילים."
+     ],
+     "pasuk": {
+      "text": "רַבִּי אַבָּא מְנַשֵּׁק כֵּיפֵי דְעַכּוֹ",
+      "ref": "כתובות קיב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "אקסודוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A large old passenger ship in a summer harbor in 1947 seen from far away, crowded with people on every deck, gray naval ships around it, the passengers standing together and holding up their heads proudly.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "⛵ 👨 👩 👧",
+     "say": [
+      "הסיפור המפורסם ביותר של ההעפלה הוא סיפור האונייה אקסודוס, בעברית יציאת אירופה תש״ז.",
+      "בקיץ 1947 היו עליה בערך ארבעת אלפים וחמש מאות ניצולי שואה, ביניהם ילדים רבים.",
+      "הבריטים השתלטו על האונייה ליד חופי הארץ, והחזירו את הנוסעים לאירופה, ובסוף אפילו לגרמניה.",
+      "העולם כולו ראה את התמונות ונדהם: ניצולי שואה מוחזרים לארץ שבה נרצחו משפחותיהם.",
+      "הסיפור הזה עזר לשכנע אומות רבות שהגיע הזמן להקים מדינה יהודית.",
+      "ובמחנות קפריסין, שבהם הוחזקו עשרות אלפי מעפילים, נולדו תינוקות, נערכו חתונות, ולמדו עברית ותורה, עד שהשערים נפתחו.",
+      "ורוב נוסעי האקסודוס הגיעו בסוף לארץ, בשנים שאחר כך.",
+      "והבריטים עצמם, עייפים מהמאבק בארץ, החליטו באותה שנה להעביר את שאלת ארץ ישראל להחלטת האומות המאוחדות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רבים מהמעפילים שנתפסו נשלחו למחנות בקפריסין. גם שם הקימו בתי ספר, התפללו וחיכו ליום העלייה."
+     }
+    },
+    {
+     "id": "s9",
+     "title_he": "הביאי בני מרחוק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Sunrise over the coast of the Land of Israel, a small boat landing on a sandy beach, an old man with a beard and a young girl in a long dress stepping onto the sand hand in hand, golden light on the hills behind.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👧",
+     "say": [
+      "הנביא ישעיהו ניבא: אומר לצפון תני, ולתימן אל תכלאי. הביאי בני מרחוק, ובנותי מקצה הארץ.",
+      "כאילו הקדוש ברוך הוא אומר לכל הארצות: תנו לילדים שלי לחזור הביתה.",
+      "בשנות המנדט, בריטניה פתחה את השער בהתחלה, ואחר כך סגרה אותו.",
+      "אבל שום שער לא עצר את הגעגועים של אלפיים שנה.",
+      "עולים הגיעו בספינות, ברגל, בסתר ובגלוי, ובנו את הארץ במסירות נפש.",
+      "עכשיו נשארה שאלה אחת גדולה: מתי תקום סוף סוף מדינה?",
+      "על כך נלמד בפרק האחרון."
+     ],
+     "pasuk": {
+      "text": "אֹמַר לַצָּפוֹן תֵּנִי וּלְתֵימָן אַל תִּכְלָאִי, הָבִיאִי בָנַי מֵרָחוֹק וּבְנוֹתַי מִקְצֵה הָאָרֶץ",
+      "ref": "ישעיהו מג, ו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-zio-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי חתם על ההצהרה בשנת 1917?",
+   "answer": "ארתור בלפור, שר החוץ הבריטי",
+   "options": [
+    "ארתור בלפור, שר החוץ הבריטי",
+    "תאודור הרצל",
+    "הגנרל אלנבי"
+   ],
+   "explain_he": "בלפור חתם על מכתב ללורד רוטשילד, שנקרא מאז הצהרת בלפור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי חתם על ההצהרה בשנת 1917?",
+   "answer": "ארתור בלפור, שר החוץ הבריטי",
+   "options": [
+    "ארתור בלפור, שר החוץ הבריטי",
+    "תאודור הרצל",
+    "הגנרל אלנבי"
+   ],
+   "explain_he": "בלפור חתם על מכתב ללורד רוטשילד, שנקרא מאז הצהרת בלפור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבטיחה הצהרת בלפור?",
+   "answer": "שבריטניה תעזור להקים בית לאומי לעם היהודי בארץ ישראל",
+   "options": [
+    "שבריטניה תעזור להקים בית לאומי לעם היהודי בארץ ישראל",
+    "שכל היהודים יקבלו אזרחות בריטית",
+    "שירושלים תהיה בירת בריטניה"
+   ],
+   "explain_he": "ההצהרה אמרה שממשלת בריטניה רואה בעין יפה הקמת בית לאומי לעם היהודי ותשתדל לעזור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבטיחה הצהרת בלפור?",
+   "answer": "שבריטניה תעזור להקים בית לאומי לעם היהודי בארץ ישראל",
+   "options": [
+    "שבריטניה תעזור להקים בית לאומי לעם היהודי בארץ ישראל",
+    "שכל היהודים יקבלו אזרחות בריטית",
+    "שירושלים תהיה בירת בריטניה"
+   ],
+   "explain_he": "ההצהרה אמרה שממשלת בריטניה רואה בעין יפה הקמת בית לאומי לעם היהודי ותשתדל לעזור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באילו ימים נכנס הגנרל אלנבי לירושלים?",
+   "answer": "בימי חנוכה",
+   "options": [
+    "בימי חנוכה",
+    "בימי פסח",
+    "בימי סוכות"
+   ],
+   "explain_he": "אלנבי נכנס לירושלים בדצמבר 1917, בימי חנוכה, וברגל, מתוך כבוד לעיר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באילו ימים נכנס הגנרל אלנבי לירושלים?",
+   "answer": "בימי חנוכה",
+   "options": [
+    "בימי חנוכה",
+    "בימי פסח",
+    "בימי סוכות"
+   ],
+   "explain_he": "אלנבי נכנס לירושלים בדצמבר 1917, בימי חנוכה, וברגל, מתוך כבוד לעיר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קבע \"הספר הלבן\" של שנת 1939?",
+   "answer": "שרק מעט יהודים יוכלו לעלות לארץ",
+   "options": [
+    "שרק מעט יהודים יוכלו לעלות לארץ",
+    "שכל יהודי יוכל לעלות",
+    "שתקום מדינה יהודית"
+   ],
+   "explain_he": "הספר הלבן הגביל את העלייה לשבעים וחמישה אלף בחמש שנים, בדיוק כשיהודי אירופה היו בסכנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קבע \"הספר הלבן\" של שנת 1939?",
+   "answer": "שרק מעט יהודים יוכלו לעלות לארץ",
+   "options": [
+    "שרק מעט יהודים יוכלו לעלות לארץ",
+    "שכל יהודי יוכל לעלות",
+    "שתקום מדינה יהודית"
+   ],
+   "explain_he": "הספר הלבן הגביל את העלייה לשבעים וחמישה אלף בחמש שנים, בדיוק כשיהודי אירופה היו בסכנה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה ההעפלה?",
+   "answer": "עלייה בסתר בספינות, למרות האיסור הבריטי",
+   "options": [
+    "עלייה בסתר בספינות, למרות האיסור הבריטי",
+    "טיסות באישור הבריטים",
+    "נסיעה ברכבת מאירופה"
+   ],
+   "explain_he": "המעפילים הגיעו בלילה בספינות צפופות, וצעירים מהארץ עזרו להם לרדת לחוף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה ההעפלה?",
+   "answer": "עלייה בסתר בספינות, למרות האיסור הבריטי",
+   "options": [
+    "עלייה בסתר בספינות, למרות האיסור הבריטי",
+    "טיסות באישור הבריטים",
+    "נסיעה ברכבת מאירופה"
+   ],
+   "explain_he": "המעפילים הגיעו בלילה בספינות צפופות, וצעירים מהארץ עזרו להם לרדת לחוף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הזכירו את רבי אבא שמנשק את אבני עכו?",
+   "answer": "כי גם המעפילים נישקו את אדמת הארץ מאהבה",
+   "options": [
+    "כי גם המעפילים נישקו את אדמת הארץ מאהבה",
+    "כי הספינות הגיעו רק לעכו",
+    "כי רבי אבא היה מהמעפילים"
+   ],
+   "explain_he": "הגמרא מספרת שרבי אבא נישק את אבני עכו מאהבת הארץ. כך עשו גם מעפילים רבים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הזכירו את רבי אבא שמנשק את אבני עכו?",
+   "answer": "כי גם המעפילים נישקו את אדמת הארץ מאהבה",
+   "options": [
+    "כי גם המעפילים נישקו את אדמת הארץ מאהבה",
+    "כי הספינות הגיעו רק לעכו",
+    "כי רבי אבא היה מהמעפילים"
+   ],
+   "explain_he": "הגמרא מספרת שרבי אבא נישק את אבני עכו מאהבת הארץ. כך עשו גם מעפילים רבים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לנוסעי האונייה אקסודוס?",
+   "answer": "הבריטים החזירו אותם לאירופה, ובסוף לגרמניה",
+   "options": [
+    "הבריטים החזירו אותם לאירופה, ובסוף לגרמניה",
+    "הם הגיעו מיד לתל אביב",
+    "הם המשיכו לאמריקה"
+   ],
+   "explain_he": "התמונות של ניצולי שואה שמוחזרים לגרמניה זעזעו את העולם, ועזרו לשכנע אומות בצורך במדינה יהודית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f7e15"
+  }
+ ]
+}

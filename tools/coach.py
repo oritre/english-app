@@ -34,6 +34,13 @@ grade's place in the course band. think_stats in the summary shows, per course
 touched in the last 4 weeks, accuracy and the current level. To set levels:
   python3 tools/coach.py set CODE PROFILE_ID 'think_level={"times": 3, "fractions": 1}'
 
+Nothing above the learner's school grade opens (v61): a course whose band starts
+above the grade stays closed unless it is in the subject's plan or listed in
+unlock_courses ('subject:course'). Open one when the data shows the kid is ready:
+  python3 tools/coach.py set CODE PROFILE_ID 'unlock_courses=["think:fractions"]'
+To lower a level, set think_level. A mastered lesson (90+) can be repeated once
+without XP, then it closes.
+
 General knowledge ("ידע כללי", data/know.json, lessons k-*) works the same way:
 a narrated cartoon, then a short quiz; know_plan has the same shape as think_plan.
 """
@@ -177,6 +184,7 @@ def summary(code, days):
             'parasha_done': [i for i in done if i.startswith('p-')],
             # Practice rounds (tp-<course>) this week: a finished course still being practised.
             'think_level': p.get('think_level'),
+            'unlock_courses': p.get('unlock_courses'),  # 'subject:course' above the grade that you opened
             # Levels the app moved by itself (3 rounds 90+ up, 3 under 50 down); a think_level you set replaces them.
             'think_auto': p.get('think_auto'),
             # Replays of lessons already mastered (90+): no XP, not counted as learning time (since v56).

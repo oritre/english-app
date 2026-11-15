@@ -1,0 +1,591 @@
+{
+ "id": "k-zio-f3",
+ "unit_id": "k-zio-u1",
+ "course": "zionism",
+ "title_he": "מבשרי הגאולה והמושבות הראשונות",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "מבשרי הגאולה והמושבות הראשונות",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שני רבנים, רעיון אחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A split scene: on the left a rabbi in a Sephardi-style robe and head covering writing in a sunny Balkan study, on the right a rabbi in a dark European coat writing in a snowy Prussian town, both by windows, the same warm light.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👴",
+     "say": [
+      "לפני בערך מאה וחמישים שנה חיו שני רבנים, רחוק מאוד זה מזה.",
+      "אחד חי ליד העיר בלגרד, בבלקן. השני חי בעיר טורון, בפרוסיה, היום בפולין.",
+      "הם לא גדלו יחד ולא למדו יחד, אבל שניהם הגיעו לאותו רעיון.",
+      "הגאולה, הם כתבו, לא חייבת להתחיל בבת אחת בניסים גדולים.",
+      "היא יכולה להתחיל לאט לאט, כשיהודים עולים לארץ, קונים אדמה ועובדים אותה.",
+      "זה היה רעיון חדש ומפתיע. רבים חשבו שאין מה לעשות אלא להתפלל ולחכות.",
+      "שני הרבנים האמינו בביאת המשיח בכל ליבם. אבל הם לימדו שמצווה לעשות צעדים ראשונים בעצמנו, כמו שעשו העולים בימי עזרא ונחמיה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הרב יהודה אלקלעי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A Sephardi rabbi with a gray beard in a long dark robe and round hat teaching a small group in a stone synagogue by the Danube river town, sunlight on the floor.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴 👨 👦",
+     "say": [
+      "הרב יהודה אלקלעי נולד בסרייבו בשנת 1798, והיה רב בעיר זמון, ליד בלגרד.",
+      "בשנת 1840 שמע על עלילת דמשק, עלילת שקר נוראה נגד יהודים, והבין שהגלות מסוכנת.",
+      "בספריו הוא קרא ליהודים: הגיע הזמן לחזור לארץ, להתיישב בה ולקנות בה אדמות.",
+      "הוא כתב שהמילה תשובה פירושה גם לשוב אל השם, וגם לשוב אל הארץ.",
+      "הוא אף הציע שנכבדי העם יתאספו יחד, ויקימו קרן לקניית אדמות בארץ ישראל.",
+      "הוא נסע לארצות רבות כדי לשכנע אנשים, ולא תמיד הקשיבו לו.",
+      "אבל הוא עשה בעצמו את מה שדרש: בזקנתו עלה לירושלים, ושם נקבר, על הר הזיתים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הרב צבי הירש קלישר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A European rabbi with a long gray beard and dark coat at his desk covered with letters and a book, looking at a painted map of the Land of Israel on the wall, an oil lamp and a window with snow.",
+     "move": "left",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "הרב צבי הירש קלישר היה רב בטורון, וכתב ספר בשם דרישת ציון, בשנת 1862.",
+      "הוא הזכיר את דברי הנביא ישעיהו: ואתם תלוקטו לאחד אחד, בני ישראל.",
+      "לאחד אחד, כלומר, לא כולם בבת אחת. הגאולה באה בהדרגה, איש אחרי איש.",
+      "הרב קלישר כתב שיהודים צריכים ללמוד חקלאות, לעבוד את האדמה ולקיים את המצוות התלויות בארץ.",
+      "הוא כתב מכתבים לעשירים ולמנהיגים, וביקש מהם לעזור.",
+      "הוא רצה שבארץ יקיימו שוב מצוות כמו שמיטה, תרומות ומעשרות, שהן חלק מקדושת הארץ.",
+      "הרב קלישר לא זכה לעלות לארץ בעצמו. אבל הרעיונות שלו עלו לפניו, וחיזקו רבים."
+     ],
+     "pasuk": {
+      "text": "וְאַתֶּם תְּלֻקְּטוּ לְאַחַד אֶחָד בְּנֵי יִשְׂרָאֵל",
+      "ref": "ישעיהו כז, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "מקווה ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: An agricultural school near Jaffa in the 1870s: a stone building, rows of young trees, Jewish boys in work shirts and caps or kippot learning to plow with a teacher, sandy hills and the sea far away.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👨 🌳",
+     "say": [
+      "הקריאה של הרב קלישר הגיעה לאוזניים קשובות.",
+      "בשנת 1870 נוסד ליד יפו בית ספר לחקלאות, ושמו מקווה ישראל.",
+      "שם למדו נערים יהודים לחרוש, לזרוע, לנטוע עצים ולטפל בבהמות.",
+      "במשך דורות רבים יהודים כמעט לא עבדו את האדמה, כי בארצות רבות אסרו עליהם להחזיק קרקע.",
+      "ועכשיו, בארץ ישראל, הם למדו מחדש את מה שאבותינו עשו בימי התנ״ך.",
+      "היו מי שצחקו: יהודים חקלאים? זה לא יצליח! אבל התלמידים התמידו, והעצים שנטעו גדלו.",
+      "ומקווה ישראל קיימת עד היום, יותר ממאה וחמישים שנה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בשנת 1870 נוסד ליד יפו בית הספר החקלאי \"מקווה ישראל\", גם בעידוד קריאתו של הרב קלישר."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "אם המושבות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A swampy plain with reeds near a river in 1878, a few Jewish men from Jerusalem in long coats and hats measuring the land with ropes, a small tent and a mule, mosquitoes like tiny dots, hopeful faces.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨 👨 ⛺",
+     "say": [
+      "בשנת 1878 יצאה מירושלים קבוצה של יהודים יראי שמיים, ביניהם יואל משה סלומון, יהושע שטמפפר ודוד גוטמן.",
+      "הם קנו אדמה ליד נהר הירקון, והקימו את המושבה הראשונה. לשם קראו מפסוק בהושע: ואת עמק עכור לפתח תקוה.",
+      "אבל המקום היה מלא ביצות, ומחלת הקדחת, המלריה, פגעה בהם קשה.",
+      "הם נאלצו לעזוב לזמן מה, אבל לא ויתרו, וחזרו.",
+      "המייסדים היו אנשי ירושלים, בעלי משפחות ולומדי תורה. הם לא היו חקלאים, אבל הייתה להם אמונה גדולה.",
+      "כשחזרו, ייבשו לאט לאט את הביצות, נטעו עצים וחפרו בארות. והמושבה הקטנה הפכה עם השנים לעיר גדולה.",
+      "פתח תקווה נקראת עד היום אם המושבות, כי היא הייתה הראשונה."
+     ],
+     "pasuk": {
+      "text": "וְאֶת עֵמֶק עָכוֹר לְפֶתַח תִּקְוָה",
+      "ref": "הושע ב, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "שנות השמונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A crowded port of Jaffa in 1882, small boats carrying Jewish families from a ship to the shore, young men with bundles and tools, women holding children, orange groves and sandy hills behind.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "⛵ 👨 👩 👧",
+     "say": [
+      "בשנת 1881 פרצו ברוסיה פרעות קשות ביהודים, שנקראו סופות בנגב.",
+      "אלפי יהודים הבינו שאין להם עתיד שם. רבים נסעו לאמריקה, אבל חלק בחרו בארץ ישראל.",
+      "כך התחילה בשנת 1882 העלייה הראשונה. קמו אגודות של חובבי ציון, ובהן גם רבנים חשובים.",
+      "באותה שנה נוסדו ראשון לציון, זכרון יעקב וראש פינה, ואחריהן מושבות נוספות.",
+      "הברון אדמונד דה רוטשילד, שכינו אותו הנדיב הידוע, תמך במושבות בכסף רב ושלח מומחים לעזור.",
+      "הוא עצמו ביקש שלא יזכירו את שמו, ולכן נקרא הנדיב הידוע: כולם ידעו מי הוא, אבל הוא לא ביקש כבוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "קץ מגולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Green orchards and vineyards of an early Jewish village in the morning, a father with a kippah and his son picking ripe grapes and oranges, a red-roofed house behind, blue sky.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦 🌳",
+     "say": [
+      "הנביא יחזקאל ניבא: ואתם הרי ישראל, ענפכם תתנו ופריכם תשאו לעמי ישראל, כי קרבו לבוא.",
+      "והגמרא במסכת סנהדרין אומרת על הפסוק הזה: אין לך קץ מגולה מזה.",
+      "כלומר, כשהארץ מתחילה לתת שוב את פירותיה לעם ישראל, זה סימן ברור שהגאולה מתקרבת.",
+      "זה בדיוק מה שהתחיל לקרות במושבות הראשונות.",
+      "שימו לב לסדר: קודם הגעגועים והתפילות, אחר כך גדולי התורה שעלו, ואז הרבנים שקראו לבנות, והחקלאים שבנו.",
+      "כל דור הוסיף אבן משלו.",
+      "ובפרק הבא נכיר אדם שהפך את הרעיון לתנועה גדולה בכל העולם."
+     ],
+     "pasuk": {
+      "text": "וְאַתֶּם הָרֵי יִשְׂרָאֵל עַנְפְּכֶם תִּתֵּנוּ וּפֶרְיְכֶם תִּשְׂאוּ לְעַמִּי יִשְׂרָאֵל כִּי קֵרְבוּ לָבוֹא",
+      "ref": "יחזקאל לו, ח"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-zio-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "מבשרי הגאולה והמושבות הראשונות",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שני רבנים, רעיון אחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A split scene: on the left a rabbi in a Sephardi-style robe and head covering writing in a sunny Balkan study, on the right a rabbi in a dark European coat writing in a snowy Prussian town, both by windows, the same warm light.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👴",
+     "say": [
+      "לפני בערך מאה וחמישים שנה חיו שני רבנים, רחוק מאוד זה מזה.",
+      "אחד חי ליד העיר בלגרד, בבלקן. השני חי בעיר טורון, בפרוסיה, היום בפולין.",
+      "הם לא גדלו יחד ולא למדו יחד, אבל שניהם הגיעו לאותו רעיון.",
+      "הגאולה, הם כתבו, לא חייבת להתחיל בבת אחת בניסים גדולים.",
+      "היא יכולה להתחיל לאט לאט, כשיהודים עולים לארץ, קונים אדמה ועובדים אותה.",
+      "זה היה רעיון חדש ומפתיע. רבים חשבו שאין מה לעשות אלא להתפלל ולחכות.",
+      "שני הרבנים האמינו בביאת המשיח בכל ליבם. אבל הם לימדו שמצווה לעשות צעדים ראשונים בעצמנו, כמו שעשו העולים בימי עזרא ונחמיה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הרב יהודה אלקלעי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A Sephardi rabbi with a gray beard in a long dark robe and round hat teaching a small group in a stone synagogue by the Danube river town, sunlight on the floor.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴 👨 👦",
+     "say": [
+      "הרב יהודה אלקלעי נולד בסרייבו בשנת 1798, והיה רב בעיר זמון, ליד בלגרד.",
+      "בשנת 1840 שמע על עלילת דמשק, עלילת שקר נוראה נגד יהודים, והבין שהגלות מסוכנת.",
+      "בספריו הוא קרא ליהודים: הגיע הזמן לחזור לארץ, להתיישב בה ולקנות בה אדמות.",
+      "הוא כתב שהמילה תשובה פירושה גם לשוב אל השם, וגם לשוב אל הארץ.",
+      "הוא אף הציע שנכבדי העם יתאספו יחד, ויקימו קרן לקניית אדמות בארץ ישראל.",
+      "הוא נסע לארצות רבות כדי לשכנע אנשים, ולא תמיד הקשיבו לו.",
+      "אבל הוא עשה בעצמו את מה שדרש: בזקנתו עלה לירושלים, ושם נקבר, על הר הזיתים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הרב צבי הירש קלישר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A European rabbi with a long gray beard and dark coat at his desk covered with letters and a book, looking at a painted map of the Land of Israel on the wall, an oil lamp and a window with snow.",
+     "move": "left",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "הרב צבי הירש קלישר היה רב בטורון, וכתב ספר בשם דרישת ציון, בשנת 1862.",
+      "הוא הזכיר את דברי הנביא ישעיהו: ואתם תלוקטו לאחד אחד, בני ישראל.",
+      "לאחד אחד, כלומר, לא כולם בבת אחת. הגאולה באה בהדרגה, איש אחרי איש.",
+      "הרב קלישר כתב שיהודים צריכים ללמוד חקלאות, לעבוד את האדמה ולקיים את המצוות התלויות בארץ.",
+      "הוא כתב מכתבים לעשירים ולמנהיגים, וביקש מהם לעזור.",
+      "הוא רצה שבארץ יקיימו שוב מצוות כמו שמיטה, תרומות ומעשרות, שהן חלק מקדושת הארץ.",
+      "הרב קלישר לא זכה לעלות לארץ בעצמו. אבל הרעיונות שלו עלו לפניו, וחיזקו רבים."
+     ],
+     "pasuk": {
+      "text": "וְאַתֶּם תְּלֻקְּטוּ לְאַחַד אֶחָד בְּנֵי יִשְׂרָאֵל",
+      "ref": "ישעיהו כז, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "מקווה ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: An agricultural school near Jaffa in the 1870s: a stone building, rows of young trees, Jewish boys in work shirts and caps or kippot learning to plow with a teacher, sandy hills and the sea far away.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👨 🌳",
+     "say": [
+      "הקריאה של הרב קלישר הגיעה לאוזניים קשובות.",
+      "בשנת 1870 נוסד ליד יפו בית ספר לחקלאות, ושמו מקווה ישראל.",
+      "שם למדו נערים יהודים לחרוש, לזרוע, לנטוע עצים ולטפל בבהמות.",
+      "במשך דורות רבים יהודים כמעט לא עבדו את האדמה, כי בארצות רבות אסרו עליהם להחזיק קרקע.",
+      "ועכשיו, בארץ ישראל, הם למדו מחדש את מה שאבותינו עשו בימי התנ״ך.",
+      "היו מי שצחקו: יהודים חקלאים? זה לא יצליח! אבל התלמידים התמידו, והעצים שנטעו גדלו.",
+      "ומקווה ישראל קיימת עד היום, יותר ממאה וחמישים שנה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בשנת 1870 נוסד ליד יפו בית הספר החקלאי \"מקווה ישראל\", גם בעידוד קריאתו של הרב קלישר."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "אם המושבות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A swampy plain with reeds near a river in 1878, a few Jewish men from Jerusalem in long coats and hats measuring the land with ropes, a small tent and a mule, mosquitoes like tiny dots, hopeful faces.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨 👨 ⛺",
+     "say": [
+      "בשנת 1878 יצאה מירושלים קבוצה של יהודים יראי שמיים, ביניהם יואל משה סלומון, יהושע שטמפפר ודוד גוטמן.",
+      "הם קנו אדמה ליד נהר הירקון, והקימו את המושבה הראשונה. לשם קראו מפסוק בהושע: ואת עמק עכור לפתח תקוה.",
+      "אבל המקום היה מלא ביצות, ומחלת הקדחת, המלריה, פגעה בהם קשה.",
+      "הם נאלצו לעזוב לזמן מה, אבל לא ויתרו, וחזרו.",
+      "המייסדים היו אנשי ירושלים, בעלי משפחות ולומדי תורה. הם לא היו חקלאים, אבל הייתה להם אמונה גדולה.",
+      "כשחזרו, ייבשו לאט לאט את הביצות, נטעו עצים וחפרו בארות. והמושבה הקטנה הפכה עם השנים לעיר גדולה.",
+      "פתח תקווה נקראת עד היום אם המושבות, כי היא הייתה הראשונה."
+     ],
+     "pasuk": {
+      "text": "וְאֶת עֵמֶק עָכוֹר לְפֶתַח תִּקְוָה",
+      "ref": "הושע ב, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "שנות השמונים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A crowded port of Jaffa in 1882, small boats carrying Jewish families from a ship to the shore, young men with bundles and tools, women holding children, orange groves and sandy hills behind.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "⛵ 👨 👩 👧",
+     "say": [
+      "בשנת 1881 פרצו ברוסיה פרעות קשות ביהודים, שנקראו סופות בנגב.",
+      "אלפי יהודים הבינו שאין להם עתיד שם. רבים נסעו לאמריקה, אבל חלק בחרו בארץ ישראל.",
+      "כך התחילה בשנת 1882 העלייה הראשונה. קמו אגודות של חובבי ציון, ובהן גם רבנים חשובים.",
+      "באותה שנה נוסדו ראשון לציון, זכרון יעקב וראש פינה, ואחריהן מושבות נוספות.",
+      "הברון אדמונד דה רוטשילד, שכינו אותו הנדיב הידוע, תמך במושבות בכסף רב ושלח מומחים לעזור.",
+      "הוא עצמו ביקש שלא יזכירו את שמו, ולכן נקרא הנדיב הידוע: כולם ידעו מי הוא, אבל הוא לא ביקש כבוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "בית יעקב לכו ונלכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A group of young Jewish pioneers in work shirts and caps walking with hoes and bundles along a dusty road between low hills toward a small new village, an older man in a kippah waving to them, bright morning.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👨 🚶",
+     "say": [
+      "בין העולים של שנת 1882 הייתה קבוצה קטנה של סטודנטים צעירים מרוסיה.",
+      "הם קראו לעצמם ביל״ו, ראשי התיבות של הפסוק בישעיהו: בית יעקב לכו ונלכה.",
+      "השם הזה מראה עד כמה עמוק היה שורש התנ״ך בלב של הצעירים האלה.",
+      "הם היו מעטים, ורובם לא היו רגילים לעבודה קשה. אבל הם עבדו במושבות כפועלים, ובשנת 1884 ייסדו את גדרה.",
+      "בגדרה גרו בהתחלה רק כמה צעירים בצריף אחד, על גבעה חשופה. היו ימים שלא היה להם מה לאכול, והם המשיכו לעבוד.",
+      "העלייה הראשונה הביאה לארץ בערך עשרים וחמשה אלף יהודים. כולם ביחד, ותיקים וחדשים, רבנים וחקלאים, התחילו לבנות."
+     ],
+     "pasuk": {
+      "text": "בֵּית יַעֲקֹב לְכוּ וְנֵלְכָה בְּאוֹר ה׳",
+      "ref": "ישעיהו ב, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מצאנו מים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Farmers in work shirts and hats or kippot cheering around a deep stone well as water rises in a bucket, a dry sandy field with young vines around them, bright midday light.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👨 👨 👦",
+     "say": [
+      "החיים במושבות היו קשים. החקלאים לא היו רגילים לעבודת אדמה, הקרקע הייתה יבשה, והמחלות היו רבות.",
+      "בראשון לציון חפרו באר עמוקה, יום אחרי יום, ולא מצאו מים.",
+      "ובסוף, כשהמים פרצו, קראו בשמחה את המילים מספר בראשית, שנאמרו על הבארות של יצחק אבינו: מצאנו מים.",
+      "יצחק אבינו חפר בארות באותה ארץ, ועכשיו, אלפי שנים אחר כך, בניו חופרים שוב, ומוצאים.",
+      "בזכרון יעקב נטעו כרמים גדולים, ובראש פינה, על הרי הגליל ליד צפת, למדו החקלאים לגדל עצי תות ולהפוך את ההרים הסלעיים לשדות.",
+      "לאט לאט צמחו כרמים, פרדסים ושדות. במקומות שהיו שוממים מאות שנים חזרו לגדול פירות.",
+      "והחקלאים היראים ביקשו לדעת מהרבנים איך לקיים בשדותיהם את מצוות התרומות והמעשרות, כמו שכתוב בתורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בראשון לציון חפרו זמן רב עד שמצאו מים. הסמל של העיר הוא עד היום המילים \"מצאנו מים\", מספר בראשית."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "קץ מגולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Green orchards and vineyards of an early Jewish village in the morning, a father with a kippah and his son picking ripe grapes and oranges, a red-roofed house behind, blue sky.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦 🌳",
+     "say": [
+      "הנביא יחזקאל ניבא: ואתם הרי ישראל, ענפכם תתנו ופריכם תשאו לעמי ישראל, כי קרבו לבוא.",
+      "והגמרא במסכת סנהדרין אומרת על הפסוק הזה: אין לך קץ מגולה מזה.",
+      "כלומר, כשהארץ מתחילה לתת שוב את פירותיה לעם ישראל, זה סימן ברור שהגאולה מתקרבת.",
+      "זה בדיוק מה שהתחיל לקרות במושבות הראשונות.",
+      "שימו לב לסדר: קודם הגעגועים והתפילות, אחר כך גדולי התורה שעלו, ואז הרבנים שקראו לבנות, והחקלאים שבנו.",
+      "כל דור הוסיף אבן משלו.",
+      "ובפרק הבא נכיר אדם שהפך את הרעיון לתנועה גדולה בכל העולם."
+     ],
+     "pasuk": {
+      "text": "וְאַתֶּם הָרֵי יִשְׂרָאֵל עַנְפְּכֶם תִּתֵּנוּ וּפֶרְיְכֶם תִּשְׂאוּ לְעַמִּי יִשְׂרָאֵל כִּי קֵרְבוּ לָבוֹא",
+      "ref": "יחזקאל לו, ח"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-zio-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הרעיון המשותף לרב אלקלעי ולרב קלישר?",
+   "answer": "להתחיל לחזור לארץ כבר עכשיו, ולבנות אותה בעבודה",
+   "options": [
+    "להתחיל לחזור לארץ כבר עכשיו, ולבנות אותה בעבודה",
+    "לחכות בשקט ולא לעשות שום דבר",
+    "לבנות מקום חדש ליהודים באמריקה"
+   ],
+   "explain_he": "שניהם כתבו שהגאולה יכולה להתחיל בהדרגה: עלייה, קניית אדמה ועבודתה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הרעיון המשותף לרב אלקלעי ולרב קלישר?",
+   "answer": "להתחיל לחזור לארץ כבר עכשיו, ולבנות אותה בעבודה",
+   "options": [
+    "להתחיל לחזור לארץ כבר עכשיו, ולבנות אותה בעבודה",
+    "לחכות בשקט ולא לעשות שום דבר",
+    "לבנות מקום חדש ליהודים באמריקה"
+   ],
+   "explain_he": "שניהם כתבו שהגאולה יכולה להתחיל בהדרגה: עלייה, קניית אדמה ועבודתה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזה פסוק נלקח השם \"פתח תקווה\"?",
+   "answer": "\"ואת עמק עכור לפתח תקוה\" מספר הושע",
+   "options": [
+    "\"ואת עמק עכור לפתח תקוה\" מספר הושע",
+    "\"בשוב ה׳ את שיבת ציון\" מתהילים",
+    "\"לך לך מארצך\" מספר בראשית"
+   ],
+   "explain_he": "מייסדי המושבה לקחו את השם מדברי הנביא הושע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזה פסוק נלקח השם \"פתח תקווה\"?",
+   "answer": "\"ואת עמק עכור לפתח תקוה\" מספר הושע",
+   "options": [
+    "\"ואת עמק עכור לפתח תקוה\" מספר הושע",
+    "\"בשוב ה׳ את שיבת ציון\" מתהילים",
+    "\"לך לך מארצך\" מספר בראשית"
+   ],
+   "explain_he": "מייסדי המושבה לקחו את השם מדברי הנביא הושע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה \"מקווה ישראל\"?",
+   "answer": "בית ספר לחקלאות ליד יפו",
+   "options": [
+    "בית ספר לחקלאות ליד יפו",
+    "ספינה שהביאה עולים לארץ",
+    "בית כנסת גדול בירושלים"
+   ],
+   "explain_he": "מקווה ישראל נוסדה בשנת 1870, ושם למדו נערים יהודים לעבוד את האדמה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה \"מקווה ישראל\"?",
+   "answer": "בית ספר לחקלאות ליד יפו",
+   "options": [
+    "בית ספר לחקלאות ליד יפו",
+    "ספינה שהביאה עולים לארץ",
+    "בית כנסת גדול בירושלים"
+   ],
+   "explain_he": "מקווה ישראל נוסדה בשנת 1870, ושם למדו נערים יהודים לעבוד את האדמה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו מחלה הקשתה מאוד על מתיישבי פתח תקווה?",
+   "answer": "הקדחת, המלריה",
+   "options": [
+    "הקדחת, המלריה",
+    "השפעת",
+    "אבעבועות רוח"
+   ],
+   "explain_he": "המקום היה מלא ביצות, והקדחת פגעה במתיישבים. הם עזבו לזמן מה, אבל חזרו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו מחלה הקשתה מאוד על מתיישבי פתח תקווה?",
+   "answer": "הקדחת, המלריה",
+   "options": [
+    "הקדחת, המלריה",
+    "השפעת",
+    "אבעבועות רוח"
+   ],
+   "explain_he": "המקום היה מלא ביצות, והקדחת פגעה במתיישבים. הם עזבו לזמן מה, אבל חזרו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אמרו חז״ל שאין \"קץ מגולה\" יותר מהפסוק \"ענפכם תתנו\"?",
+   "answer": "כי כשהארץ נותנת שוב פרי לעם ישראל, הגאולה מתקרבת",
+   "options": [
+    "כי כשהארץ נותנת שוב פרי לעם ישראל, הגאולה מתקרבת",
+    "כי הפסוק מספר בדיוק כמה שנים תימשך הגלות",
+    "כי הפסוק מדבר על גשם בחורף"
+   ],
+   "explain_he": "הארץ שהייתה שוממה חוזרת לתת פרי לבניה, וזה סימן שהגאולה קרובה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אמרו חז״ל שאין \"קץ מגולה\" יותר מהפסוק \"ענפכם תתנו\"?",
+   "answer": "כי כשהארץ נותנת שוב פרי לעם ישראל, הגאולה מתקרבת",
+   "options": [
+    "כי כשהארץ נותנת שוב פרי לעם ישראל, הגאולה מתקרבת",
+    "כי הפסוק מספר בדיוק כמה שנים תימשך הגלות",
+    "כי הפסוק מדבר על גשם בחורף"
+   ],
+   "explain_he": "הארץ שהייתה שוממה חוזרת לתת פרי לבניה, וזה סימן שהגאולה קרובה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך פירש הרב קלישר את המילים \"לאחד אחד\"?",
+   "answer": "שהגאולה באה בהדרגה, איש אחרי איש",
+   "options": [
+    "שהגאולה באה בהדרגה, איש אחרי איש",
+    "שרק אדם אחד יחזור לארץ",
+    "שכל היהודים יחזרו ביום אחד"
+   ],
+   "explain_he": "לאחד אחד פירושו לא כולם בבת אחת, אלא לאט לאט.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך פירש הרב קלישר את המילים \"לאחד אחד\"?",
+   "answer": "שהגאולה באה בהדרגה, איש אחרי איש",
+   "options": [
+    "שהגאולה באה בהדרגה, איש אחרי איש",
+    "שרק אדם אחד יחזור לארץ",
+    "שכל היהודים יחזרו ביום אחד"
+   ],
+   "explain_he": "לאחד אחד פירושו לא כולם בבת אחת, אלא לאט לאט.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה \"הנדיב הידוע\"?",
+   "answer": "הברון אדמונד דה רוטשילד",
+   "options": [
+    "הברון אדמונד דה רוטשילד",
+    "הרב צבי הירש קלישר",
+    "יואל משה סלומון"
+   ],
+   "explain_he": "הברון רוטשילד תמך במושבות בכסף רב ושלח מומחים לעזור לחקלאים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה \"הנדיב הידוע\"?",
+   "answer": "הברון אדמונד דה רוטשילד",
+   "options": [
+    "הברון אדמונד דה רוטשילד",
+    "הרב צבי הירש קלישר",
+    "יואל משה סלומון"
+   ],
+   "explain_he": "הברון רוטשילד תמך במושבות בכסף רב ושלח מומחים לעזור לחקלאים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f3e16"
+  }
+ ]
+}

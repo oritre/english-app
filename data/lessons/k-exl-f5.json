@@ -1,0 +1,573 @@
+{
+ "id": "k-exl-f5",
+ "unit_id": "k-exl-u2",
+ "course": "exile",
+ "title_he": "קהילות אשכנז",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "קהילות אשכנז",
+   "ref_he": "עם ישראל בגלות",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "rhine",
+     "title_he": "שלוש ערים על הריין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Morning mist over the wide Rhine river with green hills and three medieval towns with steep roofs along its banks, a small Jewish quarter with a stone synagogue visible near the water; boats on the river.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🏠 ⛵",
+     "say": [
+      "לפני יותר מאלף שנה, לאורך נהר הריין שבגרמניה, קמו קהילות יהודיות חשובות. שלוש מהן היו הגדולות ביותר: שפירא, וורמייזא ומגנצא.",
+      "האותיות הראשונות שלהן יוצרות את המילה שו\"ם. וקהילות שו\"ם היו האם של כל יהדות אשכנז.",
+      "לפי המסורת, משפחה של חכמים, משפחת קלונימוס, באה מאיטליה למגנצא, והביאה איתה תורה ומסורת. מכאן התחילה אשכנז לגדול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kehilla",
+     "title_he": "קהילה קדושה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Inside the courtyard of a medieval Rhineland Jewish community: a stone synagogue, a small house for guests, a well, men carrying a charity box and bread to a poor family, women with head coverings and children; warm community life.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👦 🏠",
+     "say": [
+      "כל קהילה באשכנז נקראה \"קהילה קדושה\", ובקיצור ק\"ק. בכל קהילה היו בית כנסת, בית מדרש, מקווה, בית עלמין ובית דין.",
+      "היו בה גם חברות של חסד: מי שדאג לחולים, מי שדאג לעניים, מי שהכניס אורחים, וחברה קדישא שדאגה לכבוד המתים.",
+      "אף יהודי לא היה לבד. אם אדם נפל, הקהילה הרימה אותו. זה היה הסוד שלה: ערבות הדדית, כל ישראל ערבים זה לזה."
+     ],
+     "pasuk": {
+      "text": "כל ישראל ערבים זה בזה",
+      "ref": "שבועות לט ע\"א"
+     },
+     "note": null
+    },
+    {
+     "id": "gershom",
+     "title_he": "רבנו גרשום מאור הגולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval study hall in Mainz at evening: an elderly sage with a white beard and dark robe carefully copies a manuscript by candlelight, students around him reading from handwritten books.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👦 👦",
+     "say": [
+      "במגנצא חי רבנו גרשום, שנקרא \"מאור הגולה\", כי האיר בתורתו את כל הגולה. הוא עמד בראש ישיבה גדולה, ורבים מתלמידיו היו רבותיו של רש\"י.",
+      "רבנו גרשום תיקן תקנות, שחלות על כל יהדות אשכנז עד היום. אחת מהן: אסור לקרוא מכתב של אדם אחר בלי רשותו.",
+      "ועוד תקנה: אסור לבייש יהודי שהוכרח לעזוב את דתו, וחזר בתשובה. צריך לקבל אותו באהבה.",
+      "הוא גם העתיק בעצמו ספרים בדייקנות, כדי שלא ייפלו בהם טעויות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "chassidim",
+     "title_he": "חסידי אשכנז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A modest medieval Jewish market stall in a Rhineland town: a merchant in a plain robe and cap carefully weighs goods on an honest scale for a customer, a small open book beside him; morning light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩",
+     "say": [
+      "באשכנז קמה גם תנועה של צדיקים, שנקראו \"חסידי אשכנז\". בראשם עמד רבי יהודה החסיד, שכתב את \"ספר חסידים\".",
+      "הם לימדו להקפיד מאוד על יושר במסחר, על ענווה, על תפילה בכוונה ועל אהבת הבריות.",
+      "בספר חסידים יש הדרכות פשוטות לחיים: איך לדבר בעדינות, איך לעזור לחלש, ואיך להיזהר לא לגרום צער לבעלי חיים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "1096",
+     "title_he": "תתנ\"ו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval Rhineland town at dusk seen from across the river under a heavy grey sky, smoke rising faintly in the distance, and in the foreground a single memorial candle burning on a stone wall; no people.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🪨",
+     "say": [
+      "בשנת ד'תתנ\"ו, היא שנת 1096, יצאו צבאות גדולים של נוצרים מאירופה, במסעי הצלב, בדרך לכבוש את ירושלים.",
+      "בדרכם עברו בקהילות שו\"ם. הם הציעו ליהודים בחירה נוראה: להתנצר, או למות.",
+      "רבים מאוד מהיהודים בחרו לקדש את שם השם. קהילות שלמות נחרבו, ואלפי יהודים מסרו את נפשם על אמונתם.",
+      "גם בשעה הקשה ביותר, הם אמרו \"שמע ישראל\" ונשארו נאמנים. מסירות הנפש של קהילות אשכנז נחקקה בזיכרון של עם ישראל לנצח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "remember",
+     "title_he": "אב הרחמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Shabbat morning in an old synagogue: the congregation stands quietly with heads bowed as the cantor recites a prayer before returning the Torah, sunlight through high windows on the open ark; solemn and loving.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "אחרי הגזירות, הניצולים לא התייאשו. הם בנו מחדש את בתי הכנסת ואת הישיבות, והמשיכו ללמוד.",
+      "ובאותם ימים נכתבה התפילה \"אב הרחמים\", שאומרים בשבת לפני החזרת ספר התורה. בה אנחנו מזכירים את הקהילות הקדושות שמסרו נפשן על קדושת השם.",
+      "בתשעה באב אומרים קינות על החורבן של קהילות אשכנז. כך הזיכרון שלהם נשמר, ובכל דור מתפללים לעילוי נשמתם."
+     ],
+     "pasuk": {
+      "text": "אב הרחמים... יפקוד ברחמים החסידים והישרים והתמימים, קהלות הקדש שמסרו נפשם על קדושת השם",
+      "ref": "תפילת אב הרחמים"
+     },
+     "note": null
+    },
+    {
+     "id": "maharam",
+     "title_he": "המהר\"ם מרוטנבורג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A small barred window high in a thick stone tower, through which a soft beam of sunlight falls onto an open book on a wooden table; peaceful, dignified, no figure shown.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "כמאתיים שנה אחר כך, חי באשכנז גדול הדור: רבי מאיר מרוטנבורג, המהר\"ם. השלטונות אסרו אותו בכלא, ודרשו מהיהודים כופר עצום כדי לשחרר אותו.",
+      "הקהילות רצו לשלם. אבל המהר\"ם סירב. למה? הוא ידע שאם ישלמו עליו סכום כזה, השליטים ימשיכו לאסור רבנים כדי לקבל עוד כסף.",
+      "כך נשאר בכלא עד יום מותו, כדי להגן על הקהילות. וגם בכלא המשיך לכתוב תשובות ולענות על שאלות בהלכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "prague",
+     "title_he": "המהר\"ל מפראג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval stone synagogue in Prague with a steep brick gable roof on a cobbled street at dusk, warm light in its narrow windows, an old sage with a white beard and dark robe walking toward it with students.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👦 👦 🏠",
+     "say": [
+      "בעיר פראג, בבוהמיה, חי לפני יותר מארבע מאות שנה רבי יהודה ליווא, המהר\"ל מפראג. הוא היה מגדולי ההוגים של עם ישראל.",
+      "המהר\"ל כתב ספרים עמוקים על התורה, על גלות ועל גאולה. בספר \"נצח ישראל\" הוא הסביר שהגלות לא יכולה להימשך לעולם, כי עם ישראל קשור להשם לנצח.",
+      "הוא גם דרש ללמד את הילדים לפי הסדר של המשנה: בן חמש למקרא, בן עשר למשנה. כלומר, לבנות את הלימוד צעד אחרי צעד, לפי גיל הילד.",
+      "בפראג עומד עד היום בית כנסת עתיק מאוד, \"אלטנוי שול\", שמתפללים בו כבר כשבע מאות שנה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "east",
+     "title_he": "לכיוון מזרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A long road through forests and fields heading east at sunrise, a few covered wagons of Jewish families travelling with their belongings, a wide open land ahead.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👩 👦 🐴",
+     "say": [
+      "במשך הדורות גורשו היהודים מכמה ארצות באירופה: מאנגליה, מצרפת ומאזורים רבים בגרמניה.",
+      "רבים מהם נדדו מזרחה, לארץ רחבה ופתוחה, שבה המלכים קיבלו אותם: פולין.",
+      "הם לקחו איתם את התורה של אשכנז, את המנהגים, ואת השפה שלהם, יידיש, שנוצרה מגרמנית עם הרבה מילים בעברית. ושם, בפולין, יקום המרכז הגדול הבא של עם ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "קהילות אשכנז",
+   "ref_he": "עם ישראל בגלות",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "rhine",
+     "title_he": "שלוש ערים על הריין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Morning mist over the wide Rhine river with green hills and three medieval towns with steep roofs along its banks, a small Jewish quarter with a stone synagogue visible near the water; boats on the river.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🏠 ⛵",
+     "say": [
+      "לפני יותר מאלף שנה, לאורך נהר הריין שבגרמניה, קמו קהילות יהודיות חשובות. שלוש מהן היו הגדולות ביותר: שפירא, וורמייזא ומגנצא.",
+      "האותיות הראשונות שלהן יוצרות את המילה שו\"ם. וקהילות שו\"ם היו האם של כל יהדות אשכנז.",
+      "לפי המסורת, משפחה של חכמים, משפחת קלונימוס, באה מאיטליה למגנצא, והביאה איתה תורה ומסורת. מכאן התחילה אשכנז לגדול.",
+      "בישיבות של שו\"ם למדו בעיון רב, ושאלו שאלות על כל מילה בגמרא. מכאן יצאו אחר כך רש\"י ובעלי התוספות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kehilla",
+     "title_he": "קהילה קדושה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Inside the courtyard of a medieval Rhineland Jewish community: a stone synagogue, a small house for guests, a well, men carrying a charity box and bread to a poor family, women with head coverings and children; warm community life.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👦 🏠",
+     "say": [
+      "כל קהילה באשכנז נקראה \"קהילה קדושה\", ובקיצור ק\"ק. בכל קהילה היו בית כנסת, בית מדרש, מקווה, בית עלמין ובית דין.",
+      "היו בה גם חברות של חסד: מי שדאג לחולים, מי שדאג לעניים, מי שהכניס אורחים, וחברה קדישא שדאגה לכבוד המתים.",
+      "אף יהודי לא היה לבד. אם אדם נפל, הקהילה הרימה אותו. זה היה הסוד שלה: ערבות הדדית, כל ישראל ערבים זה לזה.",
+      "בכל קהילה היו \"פרנסים\", אנשים נבחרים שניהלו אותה, ו\"תקנות הקהל\" שקבעו את סדרי החיים. למשל, מי חייב לתת לקופת הצדקה, וכמה."
+     ],
+     "pasuk": {
+      "text": "כל ישראל ערבים זה בזה",
+      "ref": "שבועות לט ע\"א"
+     },
+     "note": null
+    },
+    {
+     "id": "gershom",
+     "title_he": "רבנו גרשום מאור הגולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval study hall in Mainz at evening: an elderly sage with a white beard and dark robe carefully copies a manuscript by candlelight, students around him reading from handwritten books.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👦 👦",
+     "say": [
+      "במגנצא חי רבנו גרשום, שנקרא \"מאור הגולה\", כי האיר בתורתו את כל הגולה. הוא עמד בראש ישיבה גדולה, ורבים מתלמידיו היו רבותיו של רש\"י.",
+      "רבנו גרשום תיקן תקנות, שחלות על כל יהדות אשכנז עד היום. אחת מהן: אסור לקרוא מכתב של אדם אחר בלי רשותו.",
+      "ועוד תקנה: אסור לבייש יהודי שהוכרח לעזוב את דתו, וחזר בתשובה. צריך לקבל אותו באהבה.",
+      "הוא גם העתיק בעצמו ספרים בדייקנות, כדי שלא ייפלו בהם טעויות.",
+      "התקנות של רבנו גרשום נקראות \"חרם דרבנו גרשום\". כלומר, מי שעובר עליהן כאילו מנודה מן הקהילה. כך עשו הקהילות סדר והגנו על כבוד כל אדם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "chassidim",
+     "title_he": "חסידי אשכנז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A modest medieval Jewish market stall in a Rhineland town: a merchant in a plain robe and cap carefully weighs goods on an honest scale for a customer, a small open book beside him; morning light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩",
+     "say": [
+      "באשכנז קמה גם תנועה של צדיקים, שנקראו \"חסידי אשכנז\". בראשם עמד רבי יהודה החסיד, שכתב את \"ספר חסידים\".",
+      "הם לימדו להקפיד מאוד על יושר במסחר, על ענווה, על תפילה בכוונה ועל אהבת הבריות.",
+      "בספר חסידים יש הדרכות פשוטות לחיים: איך לדבר בעדינות, איך לעזור לחלש, ואיך להיזהר לא לגרום צער לבעלי חיים.",
+      "רבי יהודה החסיד כתב גם צוואה, ובה הנהגות ומנהגים שרבים נוהגים בהם עד היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "1096",
+     "title_he": "תתנ\"ו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval Rhineland town at dusk seen from across the river under a heavy grey sky, smoke rising faintly in the distance, and in the foreground a single memorial candle burning on a stone wall; no people.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🪨",
+     "say": [
+      "בשנת ד'תתנ\"ו, היא שנת 1096, יצאו צבאות גדולים של נוצרים מאירופה, במסעי הצלב, בדרך לכבוש את ירושלים.",
+      "בדרכם עברו בקהילות שו\"ם. הם הציעו ליהודים בחירה נוראה: להתנצר, או למות.",
+      "רבים מאוד מהיהודים בחרו לקדש את שם השם. קהילות שלמות נחרבו, ואלפי יהודים מסרו את נפשם על אמונתם.",
+      "גם בשעה הקשה ביותר, הם אמרו \"שמע ישראל\" ונשארו נאמנים. מסירות הנפש של קהילות אשכנז נחקקה בזיכרון של עם ישראל לנצח.",
+      "מסעי הצלב עברו, והצבאות נעלמו. אבל השרידים הקטנים של הקהילות, הם שהמשיכו את ההיסטוריה. קהילות אשכנז קמו מחדש, והתורה המשיכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "remember",
+     "title_he": "אב הרחמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Shabbat morning in an old synagogue: the congregation stands quietly with heads bowed as the cantor recites a prayer before returning the Torah, sunlight through high windows on the open ark; solemn and loving.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "אחרי הגזירות, הניצולים לא התייאשו. הם בנו מחדש את בתי הכנסת ואת הישיבות, והמשיכו ללמוד.",
+      "ובאותם ימים נכתבה התפילה \"אב הרחמים\", שאומרים בשבת לפני החזרת ספר התורה. בה אנחנו מזכירים את הקהילות הקדושות שמסרו נפשן על קדושת השם.",
+      "בתשעה באב אומרים קינות על החורבן של קהילות אשכנז. כך הזיכרון שלהם נשמר, ובכל דור מתפללים לעילוי נשמתם.",
+      "בקהילות אשכנז כתבו גם \"ממורבוך\", ספר זיכרון שבו נרשמו שמות הקדושים. ומכאן התחזק מנהג תפילת \"יזכור\", שבה זוכרים את מי שהלכו לעולמם."
+     ],
+     "pasuk": {
+      "text": "אב הרחמים... יפקוד ברחמים החסידים והישרים והתמימים, קהלות הקדש שמסרו נפשם על קדושת השם",
+      "ref": "תפילת אב הרחמים"
+     },
+     "note": null
+    },
+    {
+     "id": "maharam",
+     "title_he": "המהר\"ם מרוטנבורג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A small barred window high in a thick stone tower, through which a soft beam of sunlight falls onto an open book on a wooden table; peaceful, dignified, no figure shown.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "כמאתיים שנה אחר כך, חי באשכנז גדול הדור: רבי מאיר מרוטנבורג, המהר\"ם. השלטונות אסרו אותו בכלא, ודרשו מהיהודים כופר עצום כדי לשחרר אותו.",
+      "הקהילות רצו לשלם. אבל המהר\"ם סירב. למה? הוא ידע שאם ישלמו עליו סכום כזה, השליטים ימשיכו לאסור רבנים כדי לקבל עוד כסף.",
+      "כך נשאר בכלא עד יום מותו, כדי להגן על הקהילות. וגם בכלא המשיך לכתוב תשובות ולענות על שאלות בהלכה.",
+      "גם אחרי מותו לא נתנו לקבור אותו. רק אחרי ארבע עשרה שנה, יהודי בשם אלכסנדר בן שלמה זיסקינד פדה את גופו בכל כספו, וביקש רק דבר אחד: להיקבר לידו. וכך היה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "prague",
+     "title_he": "המהר\"ל מפראג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval stone synagogue in Prague with a steep brick gable roof on a cobbled street at dusk, warm light in its narrow windows, an old sage with a white beard and dark robe walking toward it with students.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👦 👦 🏠",
+     "say": [
+      "בעיר פראג, בבוהמיה, חי לפני יותר מארבע מאות שנה רבי יהודה ליווא, המהר\"ל מפראג. הוא היה מגדולי ההוגים של עם ישראל.",
+      "המהר\"ל כתב ספרים עמוקים על התורה, על גלות ועל גאולה. בספר \"נצח ישראל\" הוא הסביר שהגלות לא יכולה להימשך לעולם, כי עם ישראל קשור להשם לנצח.",
+      "הוא גם דרש ללמד את הילדים לפי הסדר של המשנה: בן חמש למקרא, בן עשר למשנה. כלומר, לבנות את הלימוד צעד אחרי צעד, לפי גיל הילד.",
+      "בפראג עומד עד היום בית כנסת עתיק מאוד, \"אלטנוי שול\", שמתפללים בו כבר כשבע מאות שנה.",
+      "המהר\"ל לימד שעם ישראל מפוזר בגלות כמו זרעים באדמה. זרע נראה כאילו נרקב בתוך האדמה, אבל דווקא משם הוא צומח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "east",
+     "title_he": "לכיוון מזרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A long road through forests and fields heading east at sunrise, a few covered wagons of Jewish families travelling with their belongings, a wide open land ahead.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👩 👦 🐴",
+     "say": [
+      "במשך הדורות גורשו היהודים מכמה ארצות באירופה: מאנגליה, מצרפת ומאזורים רבים בגרמניה.",
+      "רבים מהם נדדו מזרחה, לארץ רחבה ופתוחה, שבה המלכים קיבלו אותם: פולין.",
+      "הם לקחו איתם את התורה של אשכנז, את המנהגים, ואת השפה שלהם, יידיש, שנוצרה מגרמנית עם הרבה מילים בעברית. ושם, בפולין, יקום המרכז הגדול הבא של עם ישראל.",
+      "הגירוש מאנגליה היה בשנת 1290, ובצרפת היו כמה גירושים, החל משנת 1306. ליהודים לא הותר לחזור לאנגליה במשך יותר משלוש מאות וחמישים שנה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש המילה שו\"ם?",
+   "answer": "ראשי התיבות של שפירא, וורמייזא ומגנצא",
+   "options": [
+    "ראשי התיבות של שפירא, וורמייזא ומגנצא",
+    "שם של נהר בגרמניה",
+    "שם של חכם גדול"
+   ],
+   "explain_he": "שלוש הקהילות האלה, על נהר הריין, היו האם של יהדות אשכנז.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש המילה שו\"ם?",
+   "answer": "ראשי התיבות של שפירא, וורמייזא ומגנצא",
+   "options": [
+    "ראשי התיבות של שפירא, וורמייזא ומגנצא",
+    "שם של נהר בגרמניה",
+    "שם של חכם גדול"
+   ],
+   "explain_he": "שלוש הקהילות האלה, על נהר הריין, היו האם של יהדות אשכנז.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הסוד של הקהילה באשכנז?",
+   "answer": "ערבות הדדית: אף יהודי לא נשאר לבד",
+   "options": [
+    "ערבות הדדית: אף יהודי לא נשאר לבד",
+    "עושר גדול של כל החברים",
+    "שלא היו בה עניים בכלל"
+   ],
+   "explain_he": "כל ישראל ערבים זה בזה: הקהילה דאגה לחולים, לעניים ולאורחים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הסוד של הקהילה באשכנז?",
+   "answer": "ערבות הדדית: אף יהודי לא נשאר לבד",
+   "options": [
+    "ערבות הדדית: אף יהודי לא נשאר לבד",
+    "עושר גדול של כל החברים",
+    "שלא היו בה עניים בכלל"
+   ],
+   "explain_he": "כל ישראל ערבים זה בזה: הקהילה דאגה לחולים, לעניים ולאורחים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו תקנה תיקן רבנו גרשום?",
+   "answer": "אסור לקרוא מכתב של אדם אחר בלי רשותו",
+   "options": [
+    "אסור לקרוא מכתב של אדם אחר בלי רשותו",
+    "אסור לצאת מהעיר בשבת",
+    "צריך ללמוד רק בלילה"
+   ],
+   "explain_he": "רבנו גרשום תיקן תקנות שחלות על יהדות אשכנז עד היום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו תקנה תיקן רבנו גרשום?",
+   "answer": "אסור לקרוא מכתב של אדם אחר בלי רשותו",
+   "options": [
+    "אסור לקרוא מכתב של אדם אחר בלי רשותו",
+    "אסור לצאת מהעיר בשבת",
+    "צריך ללמוד רק בלילה"
+   ],
+   "explain_he": "רבנו גרשום תיקן תקנות שחלות על יהדות אשכנז עד היום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו רבים מיהודי שו\"ם בגזירות תתנ\"ו?",
+   "answer": "מסרו את נפשם על קידוש השם",
+   "options": [
+    "מסרו את נפשם על קידוש השם",
+    "ברחו כולם לספרד",
+    "התנצרו כולם"
+   ],
+   "explain_he": "גם בשעה הקשה ביותר, הם אמרו \"שמע ישראל\" ונשארו נאמנים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו רבים מיהודי שו\"ם בגזירות תתנ\"ו?",
+   "answer": "מסרו את נפשם על קידוש השם",
+   "options": [
+    "מסרו את נפשם על קידוש השם",
+    "ברחו כולם לספרד",
+    "התנצרו כולם"
+   ],
+   "explain_he": "גם בשעה הקשה ביותר, הם אמרו \"שמע ישראל\" ונשארו נאמנים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה סירב המהר\"ם שישלמו עליו כופר?",
+   "answer": "כדי שהשליטים לא ימשיכו לאסור רבנים בשביל כסף",
+   "options": [
+    "כדי שהשליטים לא ימשיכו לאסור רבנים בשביל כסף",
+    "כי לא אהב את הקהילות",
+    "כי רצה להישאר בכלא כדי לנוח"
+   ],
+   "explain_he": "המהר\"ם מסר את חירותו כדי להגן על כל הקהילות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה סירב המהר\"ם שישלמו עליו כופר?",
+   "answer": "כדי שהשליטים לא ימשיכו לאסור רבנים בשביל כסף",
+   "options": [
+    "כדי שהשליטים לא ימשיכו לאסור רבנים בשביל כסף",
+    "כי לא אהב את הקהילות",
+    "כי רצה להישאר בכלא כדי לנוח"
+   ],
+   "explain_he": "המהר\"ם מסר את חירותו כדי להגן על כל הקהילות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי אומרים את התפילה \"אב הרחמים\"?",
+   "answer": "בשבת, לפני החזרת ספר התורה",
+   "options": [
+    "בשבת, לפני החזרת ספר התורה",
+    "בליל הסדר",
+    "בכל בוקר לפני מודה אני"
+   ],
+   "explain_he": "בתפילה הזאת זוכרים את הקהילות שמסרו נפשן על קדושת השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי אומרים את התפילה \"אב הרחמים\"?",
+   "answer": "בשבת, לפני החזרת ספר התורה",
+   "options": [
+    "בשבת, לפני החזרת ספר התורה",
+    "בליל הסדר",
+    "בכל בוקר לפני מודה אני"
+   ],
+   "explain_he": "בתפילה הזאת זוכרים את הקהילות שמסרו נפשן על קדושת השם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש אלכסנדר בן שלמה, שפדה את גופו של המהר\"ם?",
+   "answer": "להיקבר לידו",
+   "options": [
+    "להיקבר לידו",
+    "שיכתבו את שמו בספר",
+    "שיחזירו לו את הכסף"
+   ],
+   "explain_he": "הוא נתן את כל כספו, וביקש רק להיקבר ליד הצדיק.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f5e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הסביר המהר\"ל בספר \"נצח ישראל\"?",
+   "answer": "שהגלות לא תימשך לעולם, כי עם ישראל קשור להשם לנצח",
+   "options": [
+    "שהגלות לא תימשך לעולם, כי עם ישראל קשור להשם לנצח",
+    "שצריך להישאר בפראג",
+    "שהגלות היא דבר טוב לתמיד"
+   ],
+   "explain_he": "המהר\"ל לימד שהגלות היא כמו זרע באדמה, שממנו צומחת הגאולה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f5e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הסביר המהר\"ל בספר \"נצח ישראל\"?",
+   "answer": "שהגלות לא תימשך לעולם, כי עם ישראל קשור להשם לנצח",
+   "options": [
+    "שהגלות לא תימשך לעולם, כי עם ישראל קשור להשם לנצח",
+    "שצריך להישאר בפראג",
+    "שהגלות היא דבר טוב לתמיד"
+   ],
+   "explain_he": "המהר\"ל לימד שהגלות היא כמו זרע באדמה, שממנו צומחת הגאולה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f5e17"
+  }
+ ]
+}

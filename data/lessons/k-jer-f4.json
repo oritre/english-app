@@ -1,0 +1,798 @@
+{
+ "id": "k-jer-f4",
+ "unit_id": "k-jer-u2",
+ "course": "jerusalem",
+ "title_he": "שבים לירושלים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "שבים לירושלים",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר שוממה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem in the thirteenth century: broken city walls, half-ruined stone houses, a few figures in long robes on empty streets, wild grass between stones, a pale evening sky.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🪨 🏠",
+     "say": [
+      "עברו מאות שנים. ירושלים הייתה בידי עמים אחרים, ושוב ושוב נלחמו עליה.",
+      "בכל פעם נהרסו בה עוד בתים, והעיר נעשתה קטנה ושוממה.",
+      "כמעט לא נשארו בה יהודים.",
+      "ואז, לפני כמעט שמונה מאות שנה, הגיע אליה רב גדול מספרד.",
+      "אבל גם אז, יהודים לא שכחו את העיר, ותמיד חלמו לחזור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הרמב\"ן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: An elderly Sephardi sage of the thirteenth century standing on the deck of a small sailing ship, holding a bound book to his chest, looking ahead toward a coastline at dawn.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 ⛵",
+     "say": [
+      "הרב הזה היה הרמב\"ן – רבי משה בן נחמן.",
+      "הוא כתב פירוש חשוב מאוד על התורה, שלומדים בו עד היום.",
+      "בספרד הוא נאלץ לעזוב את ביתו, והחליט: אני נוסע לארץ ישראל!",
+      "והוא היה כבר זקן, בערך בן שבעים. ובכל זאת הפליג בים, אל הארץ."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "המכתב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: The Ramban writing a letter by lamplight in a simple stone room in Jerusalem, a quill in hand, through the window a view of ruined walls under the moon.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 🏠",
+     "say": [
+      "כשהגיע לירושלים, הרמב\"ן כתב מכתב לבן שלו, שנשאר בספרד.",
+      "הוא כתב: העיר חרבה מאוד, יותר מכל מקום אחר.",
+      "ומצאתי בה רק שני יהודים – שני אחים, צובעי בדים.",
+      "אבל אז כתב משפט מיוחד: עם כל החורבן – היא טובה מאוד!"
+     ],
+     "pasuk": {
+      "text": "וִירוּשָׁלַיִם יוֹתֵר חֲרֵבָה מִן הַכֹּל... וְעִם כָּל הַחֻרְבָּן הַזֶּה, הִיא טוֹבָה מְאֹד",
+      "ref": "מכתב הרמב\"ן לבנו"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "בית כנסת מתוך חורבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: Inside a ruined domed stone building with marble columns, a small group of bearded Jewish men in medieval robes cleaning it and setting up a simple wooden ark, one of them gently carrying in a Torah scroll. Soft light.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "הרמב\"ן לא רק התגעגע. הוא עשה מעשה.",
+      "הוא מצא בית הרוס, עם עמודים יפים מאבן, וכיפה.",
+      "עם עוד כמה יהודים, הם ניקו את הבית, ועשו ממנו בית כנסת.",
+      "הביאו ספרי תורה מעיר אחרת, והתחילו להתפלל בירושלים! ועד היום יש בירושלים בית כנסת על שמו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "החורבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A large group of Jewish families in long robes and head coverings arriving at the gates of Jerusalem in the year 1700 after a long journey, tired but joyful, carrying bundles, an old rabbi at their head.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "ועוד יהודים באו, בכל הדורות. רבנים, משפחות, זקנים וילדים.",
+      "לפני בערך שלוש מאות שנה, באה קבוצה גדולה מאוד, עם רב בשם רבי יהודה החסיד.",
+      "הם בנו בית כנסת גדול. אבל לא היה להם מספיק כסף, ובסוף שרפו אותו.",
+      "המקום נשאר חרב, ולכן קראו לו \"החורבה\". אבל הוא לא נשאר חרב לתמיד!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תלמידי הגר\"א",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Nineteenth-century Jerusalem: bearded scholars in long dark coats rebuilding a great synagogue with a tall dome among the stone houses, children watching, workers raising stones.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👦 🏠",
+     "say": [
+      "לפני מאתיים שנה הגיעו לארץ תלמידים של רב גדול מאוד – הגאון מווילנה.",
+      "הם הגיעו לירושלים, ורצו לבנות מחדש את בית הכנסת של החורבה.",
+      "וזה הצליח! הם בנו בית כנסת גדול ויפה, עם כיפה גבוהה.",
+      "ובכל זאת, כולם המשיכו לקרוא לו \"החורבה\". כדי לזכור שמתוך החורבן – בונים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בית הכנסת \"החורבה\" נבנה שוב, נהרס, ונבנה שוב – והוא עומד היום ברובע היהודי."
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "יום אחד בירושלים של פעם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Early morning in an Old City courtyard in the 1850s: a boy of nine with peyot and a kippah drawing water from a stone cistern with a bucket, his mother in a long dress and head scarf handing him bread, a small cheder room with a teacher visible through an arched doorway.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👩 👴 🏠",
+     "say": [
+      "בואו נדמיין ילד שגר בירושלים לפני מאה ושבעים שנה.",
+      "בבוקר הוא שואב מים מהבור בחצר, ואוכל פרוסת לחם.",
+      "אחר כך הוא רץ ל\"חדר\" – בית ספר קטן – ולומד תורה עם המלמד, כל היום.",
+      "וביום שישי, לפני שבת, הוא הולך עם אבא שלו להתפלל בכותל. איזו זכות!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "היישוב הישן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: A narrow stone alley of the Old City in the 1850s: Jewish men in long coats walking to prayer with tallit bags, boys running to cheder, women in long dresses and head scarves at a doorway with a bread basket.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👩 🏠",
+     "say": [
+      "היהודים שגרו אז בירושלים נקראים \"היישוב הישן\".",
+      "הם היו עניים מאוד. לרובם לא היה הרבה אוכל, והבתים היו קטנים וצפופים.",
+      "אבל הם למדו תורה, התפללו בכותל, ושמרו על העיר בשביל כל עם ישראל.",
+      "ויהודים בכל העולם שלחו להם כסף, כדי לעזור להם להישאר בירושלים.",
+      "הם היו כמו שומרים של העיר, עד שיבואו עוד הרבה יהודים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "שבים לירושלים",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר שוממה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem in the thirteenth century: broken city walls, half-ruined stone houses, a few figures in long robes on empty streets, wild grass between stones, a pale evening sky.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🪨 🏠",
+     "say": [
+      "בתקופה ארוכה עברה ירושלים מיד ליד: רומאים, ביזנטים, ערבים, צלבנים וממלוכים. בכל כיבוש נהרסה עוד.",
+      "הצלבנים, כשכבשו את העיר, פגעו קשה ביהודיה. ואחרי כן היא נכבשה שוב ושוב, ונעשתה עיר קטנה ועזובה.",
+      "הייתה תקופה שבה כמעט לא נשאר בה אף יהודי.",
+      "ובשנת חמשת אלפים עשרים ושבע, לפני כשמונה מאות שנה, הגיע אליה זקן אחד, מגדולי ישראל בכל הדורות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הרמב\"ן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: An elderly Sephardi sage of the thirteenth century standing on the deck of a small sailing ship, holding a bound book to his chest, looking ahead toward a coastline at dawn.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 ⛵",
+     "say": [
+      "הרמב\"ן, רבי משה בן נחמן, היה רב, מקובל ורופא בעיר גירונה שבספרד. פירושו על התורה נלמד עד היום בכל בית מדרש.",
+      "מלך ספרד הכריח אותו להתווכח בפומבי מול חכמי דת אחרת, והרמב\"ן הגן באומץ על התורה. אחרי זה נאלץ לעזוב את ארצו.",
+      "הוא היה כבן שבעים ושתיים, ויכול היה לבחור בכל ארץ. והוא בחר בארץ ישראל.",
+      "כי הרמב\"ן כתב שיישוב ארץ ישראל הוא מצווה מן התורה: \"וירשתם את הארץ וישבתם בה\".",
+      "בדרכו עבר הרמב\"ן בים הגדול, הגיע לעכו, ומשם עלה ברגל ובחמור לירושלים, בחודש אלול."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הרמב\"ן כתב שמצוות יישוב ארץ ישראל היא מצווה מן התורה, שנוהגת בכל הדורות."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "המכתב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: The Ramban writing a letter by lamplight in a simple stone room in Jerusalem, a quill in hand, through the window a view of ruined walls under the moon.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 🏠",
+     "say": [
+      "המכתב ששלח הרמב\"ן לבנו שמור בידינו עד היום. הוא מתאר את מה שראה, בכנות.",
+      "\"רבה העזובה וגדול השממון. וכללו של דבר – כל המקודש מחברו, חרב יותר מחברו. ירושלים יותר חרבה מן הכל\".",
+      "ובעיר כולה, הוא כתב, לא היה כמעט אף יהודי – רק שני אחים צבעים, שקנו את הצבע מן המושל, ואליהם נאספו למניין בשבתות.",
+      "ואז שורה מופלאה: \"ועם כל החורבן הזה – היא טובה מאוד\". הרמב\"ן ראה אבנים שבורות, ואהב."
+     ],
+     "pasuk": {
+      "text": "וִירוּשָׁלַיִם יוֹתֵר חֲרֵבָה מִן הַכֹּל... וְעִם כָּל הַחֻרְבָּן הַזֶּה, הִיא טוֹבָה מְאֹד",
+      "ref": "מכתב הרמב\"ן לבנו"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "בית כנסת מתוך חורבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: Inside a ruined domed stone building with marble columns, a small group of bearded Jewish men in medieval robes cleaning it and setting up a simple wooden ark, one of them gently carrying in a Torah scroll. Soft light.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "הרמב\"ן ואנשיו מצאו בית חרב, \"בנוי בעמודי שיש וכיפה נאה\", ולקחו אותו לבית כנסת.",
+      "\"וכבר התחילו ובונים\", הוא כותב, ושלחו לעיר שכם להביא משם ספרי תורה.",
+      "בעקבותיו באו יהודים נוספים, וכך התחדש היישוב היהודי בירושלים, וכמעט לא פסק מאז.",
+      "גם היום, ברובע היהודי בעיר העתיקה, יש בית כנסת שנקרא על שמו – \"בית הכנסת הרמב\"ן\" – ומתפללים בו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "החורבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A large group of Jewish families in long robes and head coverings arriving at the gates of Jerusalem in the year 1700 after a long journey, tired but joyful, carrying bundles, an old rabbi at their head.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "במשך הדורות באו עוד ועוד: רבי עובדיה מברטנורא, מפרש המשנה, הגיע לירושלים לפני יותר מחמש מאות שנה ודאג לקהילה העניה.",
+      "יהודים ספרדים ישבו בעיר דורות רבים, ובנו את ארבעת בתי הכנסת הספרדיים – בנויים נמוך, מתחת לגובה הרחוב, כי השליטים לא הרשו לבנות בית כנסת גבוה.",
+      "ובשנת ה'ת\"ס, בערך, הגיעה קבוצה גדולה של מאות יהודים מאירופה עם רבי יהודה החסיד. הוא נפטר ימים ספורים אחרי שהגיעו.",
+      "חבריו בנו בית כנסת, אבל נקלעו לחובות כבדים. הנושים שרפו את המקום, והוא נשאר חרב שנים רבות – ומכאן שמו: \"החורבה\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תלמידי הגר\"א",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Nineteenth-century Jerusalem: bearded scholars in long dark coats rebuilding a great synagogue with a tall dome among the stone houses, children watching, workers raising stones.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👦 🏠",
+     "say": [
+      "לפני יותר ממאתיים שנה עלו לארץ תלמידי הגאון מווילנה, הגר\"א, שנקראו \"הפרושים\". אחרי שנים בצפת, רבים מהם עלו לירושלים.",
+      "הם ראו בעלייה ובבניין ירושלים חלק מעבודת השם, והתאמצו שנים רבות כדי לקבל רשות לבנות על חורבות בית הכנסת של רבי יהודה החסיד.",
+      "לבסוף הוקם שם בית כנסת מפואר, עם כיפה גבוהה שנראתה מכל העיר. השם הרשמי שלו היה \"בית יעקב\", אבל כולם המשיכו לקרוא לו \"החורבה\".",
+      "ובאותן שנים חיו בירושלים גם חסידים וספרדים – כל אחד עם מנהגיו, וכולם בעיר אחת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בית הכנסת \"החורבה\" נבנה שוב, נהרס, ונבנה שוב – והוא עומד היום ברובע היהודי."
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "יום אחד בירושלים של פעם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Early morning in an Old City courtyard in the 1850s: a boy of nine with peyot and a kippah drawing water from a stone cistern with a bucket, his mother in a long dress and head scarf handing him bread, a small cheder room with a teacher visible through an arched doorway.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👩 👴 🏠",
+     "say": [
+      "איך נראו החיים בירושלים של היישוב הישן? בואו נדמיין ילד בן תשע, לפני כמאה ושבעים שנה.",
+      "הבוקר מתחיל מוקדם: שואבים מים מהבור שבחצר – מי גשמים שנאספו בחורף – ואוכלים לחם פשוט. בשר אוכלים, אם בכלל, רק בשבת.",
+      "את רוב היום הוא מבלה ב\"חדר\", חדר קטן שבו יושבים הילדים סביב המלמד, ולומדים חומש, רש\"י ומשנה.",
+      "ובערב שבת, כמו יהודים רבים בעיר, הולכים בסמטאות הצרות אל הכותל המערבי, להתפלל מול האבנים העתיקות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "היישוב הישן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: A narrow stone alley of the Old City in the 1850s: Jewish men in long coats walking to prayer with tallit bags, boys running to cheder, women in long dresses and head scarves at a doorway with a bread basket.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👩 🏠",
+     "say": [
+      "היהודים האלה – אשכנזים וספרדים, פרושים וחסידים – נקראים היום \"היישוב הישן\". חייהם היו קשים: עוני, צפיפות, מחלות, ושלטון זר שלא תמיד היטיב איתם.",
+      "את רוב זמנם הקדישו לתורה ולתפילה. יהודים בכל הגולה שלחו להם כספי תמיכה, שנקראו \"החלוקה\" – כך הם הרגישו שותפים בירושלים.",
+      "ובכל זאת היישוב גדל. במאה התשע עשרה כבר היו היהודים הקבוצה הגדולה ביותר בירושלים.",
+      "הם החזיקו את העיר בשביל כל העם, בתפילה וביראת שמיים, עד שיבואו עוד ועוד."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f4e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "שבים לירושלים",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר שוממה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem in the thirteenth century: broken city walls, half-ruined stone houses, a few figures in long robes on empty streets, wild grass between stones, a pale evening sky.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🪨 🏠",
+     "say": [
+      "בתקופה ארוכה עברה ירושלים מיד ליד: רומאים, ביזנטים, ערבים, צלבנים וממלוכים. בכל כיבוש נהרסה עוד.",
+      "הצלבנים, כשכבשו את העיר, פגעו קשה ביהודיה. ואחרי כן היא נכבשה שוב ושוב, ונעשתה עיר קטנה ועזובה.",
+      "הייתה תקופה שבה כמעט לא נשאר בה אף יהודי.",
+      "ובשנת חמשת אלפים עשרים ושבע, לפני כשמונה מאות שנה, הגיע אליה זקן אחד, מגדולי ישראל בכל הדורות.",
+      "ועם כל זה – כמעט בכל תקופה היו יהודים שניסו לחזור, להתפלל בירושלים, או לפחות להגיע אליה לתשעה באב ולקרוע עליה קריעה.",
+      "הגעגועים לא נשארו רק במילים. הם הפכו, שוב ושוב, למסעות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הרמב\"ן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: An elderly Sephardi sage of the thirteenth century standing on the deck of a small sailing ship, holding a bound book to his chest, looking ahead toward a coastline at dawn.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 ⛵",
+     "say": [
+      "הרמב\"ן, רבי משה בן נחמן, היה רב, מקובל ורופא בעיר גירונה שבספרד. פירושו על התורה נלמד עד היום בכל בית מדרש.",
+      "מלך ספרד הכריח אותו להתווכח בפומבי מול חכמי דת אחרת, והרמב\"ן הגן באומץ על התורה. אחרי זה נאלץ לעזוב את ארצו.",
+      "הוא היה כבן שבעים ושתיים, ויכול היה לבחור בכל ארץ. והוא בחר בארץ ישראל.",
+      "כי הרמב\"ן כתב שיישוב ארץ ישראל הוא מצווה מן התורה: \"וירשתם את הארץ וישבתם בה\".",
+      "בדרכו עבר הרמב\"ן בים הגדול, הגיע לעכו, ומשם עלה ברגל ובחמור לירושלים, בחודש אלול.",
+      "בפירושו לתורה כותב הרמב\"ן שהארץ איננה מקבלת עליה זרים – שבכל השנים שעם ישראל לא היה בה, היא נשארה שוממה, ולא שגשגה בידי אחרים.",
+      "\"וזו בשורה טובה\", הוא כותב: הארץ מחכה לבניה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הרמב\"ן כתב שמצוות יישוב ארץ ישראל היא מצווה מן התורה, שנוהגת בכל הדורות."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "המכתב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: The Ramban writing a letter by lamplight in a simple stone room in Jerusalem, a quill in hand, through the window a view of ruined walls under the moon.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 🏠",
+     "say": [
+      "המכתב ששלח הרמב\"ן לבנו שמור בידינו עד היום. הוא מתאר את מה שראה, בכנות.",
+      "\"רבה העזובה וגדול השממון. וכללו של דבר – כל המקודש מחברו, חרב יותר מחברו. ירושלים יותר חרבה מן הכל\".",
+      "ובעיר כולה, הוא כתב, לא היה כמעט אף יהודי – רק שני אחים צבעים, שקנו את הצבע מן המושל, ואליהם נאספו למניין בשבתות.",
+      "ואז שורה מופלאה: \"ועם כל החורבן הזה – היא טובה מאוד\". הרמב\"ן ראה אבנים שבורות, ואהב.",
+      "שימו לב לעיקרון שהוא מגלה: \"כל המקודש מחברו – חרב יותר מחברו\". דווקא המקומות הקדושים ביותר סבלו את ההרס הגדול ביותר, כמו שאמרו הנביאים.",
+      "ובאותו מכתב הוא מוסיף שאנשים רבים, מדמשק ומכל גלילות הארץ, באים תמיד לירושלים לראות את מקום המקדש ולבכות עליו. החורבן לא כיבה את האהבה."
+     ],
+     "pasuk": {
+      "text": "וִירוּשָׁלַיִם יוֹתֵר חֲרֵבָה מִן הַכֹּל... וְעִם כָּל הַחֻרְבָּן הַזֶּה, הִיא טוֹבָה מְאֹד",
+      "ref": "מכתב הרמב\"ן לבנו"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "בית כנסת מתוך חורבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. The Ramban: an elderly Sephardi sage of the thirteenth century with a long grey beard, a dark robe and a rounded scholar's cap. Scene: Inside a ruined domed stone building with marble columns, a small group of bearded Jewish men in medieval robes cleaning it and setting up a simple wooden ark, one of them gently carrying in a Torah scroll. Soft light.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "הרמב\"ן ואנשיו מצאו בית חרב, \"בנוי בעמודי שיש וכיפה נאה\", ולקחו אותו לבית כנסת.",
+      "\"וכבר התחילו ובונים\", הוא כותב, ושלחו לעיר שכם להביא משם ספרי תורה.",
+      "בעקבותיו באו יהודים נוספים, וכך התחדש היישוב היהודי בירושלים, וכמעט לא פסק מאז.",
+      "גם היום, ברובע היהודי בעיר העתיקה, יש בית כנסת שנקרא על שמו – \"בית הכנסת הרמב\"ן\" – ומתפללים בו.",
+      "הרמב\"ן לא נשאר הרבה שנים בירושלים. הוא עבר לעכו, שם לימד ופעל עד יום מותו.",
+      "אבל המעשה שלו – להקים מניין, בית כנסת ולימוד תורה בעיר החרבה – הוא דוגמה: בניין ירושלים מתחיל במעשים קטנים של יחידים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "החורבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A large group of Jewish families in long robes and head coverings arriving at the gates of Jerusalem in the year 1700 after a long journey, tired but joyful, carrying bundles, an old rabbi at their head.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "במשך הדורות באו עוד ועוד: רבי עובדיה מברטנורא, מפרש המשנה, הגיע לירושלים לפני יותר מחמש מאות שנה ודאג לקהילה העניה.",
+      "יהודים ספרדים ישבו בעיר דורות רבים, ובנו את ארבעת בתי הכנסת הספרדיים – בנויים נמוך, מתחת לגובה הרחוב, כי השליטים לא הרשו לבנות בית כנסת גבוה.",
+      "ובשנת ה'ת\"ס, בערך, הגיעה קבוצה גדולה של מאות יהודים מאירופה עם רבי יהודה החסיד. הוא נפטר ימים ספורים אחרי שהגיעו.",
+      "חבריו בנו בית כנסת, אבל נקלעו לחובות כבדים. הנושים שרפו את המקום, והוא נשאר חרב שנים רבות – ומכאן שמו: \"החורבה\".",
+      "ובכל זאת – העולים לא נעלמו. עוד ועוד יחידים וקבוצות הגיעו, בדרך כלל כדי לחיות חיי תורה וקדושה בעיר הקודש, ולהיקבר בה.",
+      "רבים מהם לא באו כדי להתעשר, אלא דווקא מתוך ויתור: הם השאירו חיים נוחים יותר בגולה, כדי לקיים את מצוות ישיבת הארץ."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תלמידי הגר\"א",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Nineteenth-century Jerusalem: bearded scholars in long dark coats rebuilding a great synagogue with a tall dome among the stone houses, children watching, workers raising stones.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👦 🏠",
+     "say": [
+      "לפני יותר ממאתיים שנה עלו לארץ תלמידי הגאון מווילנה, הגר\"א, שנקראו \"הפרושים\". אחרי שנים בצפת, רבים מהם עלו לירושלים.",
+      "הם ראו בעלייה ובבניין ירושלים חלק מעבודת השם, והתאמצו שנים רבות כדי לקבל רשות לבנות על חורבות בית הכנסת של רבי יהודה החסיד.",
+      "לבסוף הוקם שם בית כנסת מפואר, עם כיפה גבוהה שנראתה מכל העיר. השם הרשמי שלו היה \"בית יעקב\", אבל כולם המשיכו לקרוא לו \"החורבה\".",
+      "ובאותן שנים חיו בירושלים גם חסידים וספרדים – כל אחד עם מנהגיו, וכולם בעיר אחת.",
+      "\"החורבה\" נעשתה מרכז של היישוב היהודי בעיר: תפילה, לימוד ושמחות. כאן התאספו הקהילות ברגעים חשובים, והתפללו לשלום העיר.",
+      "את סופו העצוב, ואת בנייתו מחדש בימינו, עוד נפגוש בהמשך הסדרה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בית הכנסת \"החורבה\" נבנה שוב, נהרס, ונבנה שוב – והוא עומד היום ברובע היהודי."
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "יום אחד בירושלים של פעם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: Early morning in an Old City courtyard in the 1850s: a boy of nine with peyot and a kippah drawing water from a stone cistern with a bucket, his mother in a long dress and head scarf handing him bread, a small cheder room with a teacher visible through an arched doorway.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👩 👴 🏠",
+     "say": [
+      "איך נראו החיים בירושלים של היישוב הישן? בואו נדמיין ילד בן תשע, לפני כמאה ושבעים שנה.",
+      "הבוקר מתחיל מוקדם: שואבים מים מהבור שבחצר – מי גשמים שנאספו בחורף – ואוכלים לחם פשוט. בשר אוכלים, אם בכלל, רק בשבת.",
+      "את רוב היום הוא מבלה ב\"חדר\", חדר קטן שבו יושבים הילדים סביב המלמד, ולומדים חומש, רש\"י ומשנה.",
+      "ובערב שבת, כמו יהודים רבים בעיר, הולכים בסמטאות הצרות אל הכותל המערבי, להתפלל מול האבנים העתיקות.",
+      "לעיתים קרובות היו מגפות ורעב, ומשפחות רבות איבדו ילדים. החיים היו קשים בהרבה מן החיים שלנו.",
+      "ובכל זאת, אנשי היישוב הישן ראו בכל יום בירושלים זכות. הם קראו לעצמם שומרי העיר, ובתפילתם ביקשו לא רק על עצמם, אלא על כל עם ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "היישוב הישן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. Old Yishuv Jews of nineteenth-century Jerusalem: bearded men in long dark coats and wide hats, women in long dresses and head scarves, boys with peyot. Scene: A narrow stone alley of the Old City in the 1850s: Jewish men in long coats walking to prayer with tallit bags, boys running to cheder, women in long dresses and head scarves at a doorway with a bread basket.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👩 🏠",
+     "say": [
+      "היהודים האלה – אשכנזים וספרדים, פרושים וחסידים – נקראים היום \"היישוב הישן\". חייהם היו קשים: עוני, צפיפות, מחלות, ושלטון זר שלא תמיד היטיב איתם.",
+      "את רוב זמנם הקדישו לתורה ולתפילה. יהודים בכל הגולה שלחו להם כספי תמיכה, שנקראו \"החלוקה\" – כך הם הרגישו שותפים בירושלים.",
+      "ובכל זאת היישוב גדל. במאה התשע עשרה כבר היו היהודים הקבוצה הגדולה ביותר בירושלים.",
+      "הם החזיקו את העיר בשביל כל העם, בתפילה וביראת שמיים, עד שיבואו עוד ועוד.",
+      "\"היישוב הישן\" שמר על דבר יקר: שרשרת שלא נקטעה של חיי תורה בירושלים. רבים מגדולי התורה של הדורות האחרונים צמחו ממנו.",
+      "אבל העיר שבתוך החומות נעשתה צפופה מדי. ומה עושים כשאין מקום? יוצאים החוצה. על כך – בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרמב\"ן לבנו על ירושלים?",
+   "answer": "שהיא חרבה מאוד, ועם כל זה – היא טובה מאוד",
+   "options": [
+    "שהיא חרבה מאוד, ועם כל זה – היא טובה מאוד",
+    "שהיא עיר גדולה ועשירה",
+    "שלא כדאי לבוא אליה"
+   ],
+   "explain_he": "הרמב\"ן תיאר את החורבן בכנות, וכתב: \"ועם כל החורבן הזה – היא טובה מאוד\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרמב\"ן לבנו על ירושלים?",
+   "answer": "שהיא חרבה מאוד, ועם כל זה – היא טובה מאוד",
+   "options": [
+    "שהיא חרבה מאוד, ועם כל זה – היא טובה מאוד",
+    "שהיא עיר גדולה ועשירה",
+    "שלא כדאי לבוא אליה"
+   ],
+   "explain_he": "הרמב\"ן תיאר את החורבן בכנות, וכתב: \"ועם כל החורבן הזה – היא טובה מאוד\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרמב\"ן לבנו על ירושלים?",
+   "answer": "שהיא חרבה מאוד, ועם כל זה – היא טובה מאוד",
+   "options": [
+    "שהיא חרבה מאוד, ועם כל זה – היא טובה מאוד",
+    "שהיא עיר גדולה ועשירה",
+    "שלא כדאי לבוא אליה"
+   ],
+   "explain_he": "הרמב\"ן תיאר את החורבן בכנות, וכתב: \"ועם כל החורבן הזה – היא טובה מאוד\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרמב\"ן עם הבית ההרוס שמצא?",
+   "answer": "הפך אותו לבית כנסת",
+   "options": [
+    "הפך אותו לבית כנסת",
+    "מכר אותו",
+    "גר בו לבדו"
+   ],
+   "explain_he": "הרמב\"ן ואנשיו מצאו בית חרב עם עמודי שיש, הפכו אותו לבית כנסת והביאו ספרי תורה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרמב\"ן עם הבית ההרוס שמצא?",
+   "answer": "הפך אותו לבית כנסת",
+   "options": [
+    "הפך אותו לבית כנסת",
+    "מכר אותו",
+    "גר בו לבדו"
+   ],
+   "explain_he": "הרמב\"ן ואנשיו מצאו בית חרב עם עמודי שיש, הפכו אותו לבית כנסת והביאו ספרי תורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרמב\"ן עם הבית ההרוס שמצא?",
+   "answer": "הפך אותו לבית כנסת",
+   "options": [
+    "הפך אותו לבית כנסת",
+    "מכר אותו",
+    "גר בו לבדו"
+   ],
+   "explain_he": "הרמב\"ן ואנשיו מצאו בית חרב עם עמודי שיש, הפכו אותו לבית כנסת והביאו ספרי תורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה יהודים מצא הרמב\"ן בירושלים?",
+   "answer": "רק שניים – שני אחים צובעי בדים",
+   "options": [
+    "רק שניים – שני אחים צובעי בדים",
+    "אלפי יהודים",
+    "אף לא אחד"
+   ],
+   "explain_he": "הרמב\"ן כתב שמצא בעיר רק שני אחים, צבעים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא בית הכנסת \"החורבה\"?",
+   "answer": "כי אחרי שנשרף, המקום נשאר חרב שנים רבות",
+   "options": [
+    "כי אחרי שנשרף, המקום נשאר חרב שנים רבות",
+    "כי היה עשוי מחרבות",
+    "כי היה ליד חורשה"
+   ],
+   "explain_he": "בית הכנסת של חבורת רבי יהודה החסיד נשרף ונשאר חרב, ולכן קראו לו החורבה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא בית הכנסת \"החורבה\"?",
+   "answer": "כי אחרי שנשרף, המקום נשאר חרב שנים רבות",
+   "options": [
+    "כי אחרי שנשרף, המקום נשאר חרב שנים רבות",
+    "כי היה עשוי מחרבות",
+    "כי היה ליד חורשה"
+   ],
+   "explain_he": "בית הכנסת של חבורת רבי יהודה החסיד נשרף ונשאר חרב, ולכן קראו לו החורבה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא בית הכנסת \"החורבה\"?",
+   "answer": "כי אחרי שנשרף, המקום נשאר חרב שנים רבות",
+   "options": [
+    "כי אחרי שנשרף, המקום נשאר חרב שנים רבות",
+    "כי היה עשוי מחרבות",
+    "כי היה ליד חורשה"
+   ],
+   "explain_he": "בית הכנסת של חבורת רבי יהודה החסיד נשרף ונשאר חרב, ולכן קראו לו החורבה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קראו ליהודים שגרו אז בירושלים?",
+   "answer": "\"היישוב הישן\"",
+   "options": [
+    "\"היישוב הישן\"",
+    "\"המתיישבים החדשים\"",
+    "\"החלוצים\""
+   ],
+   "explain_he": "היהודים שגרו בירושלים לפני הדורות האחרונים נקראים \"היישוב הישן\". הם למדו תורה ושמרו על העיר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נבנו בתי הכנסת הספרדיים נמוך, מתחת לגובה הרחוב?",
+   "answer": "כי השליטים לא הרשו לבנות בית כנסת גבוה",
+   "options": [
+    "כי השליטים לא הרשו לבנות בית כנסת גבוה",
+    "כדי שיהיה קריר בקיץ",
+    "כי לא היו להם אבנים"
+   ],
+   "explain_he": "השלטון הזר לא הרשה לבנות בתי כנסת גבוהים, ולכן בנו אותם נמוך.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נבנו בתי הכנסת הספרדיים נמוך, מתחת לגובה הרחוב?",
+   "answer": "כי השליטים לא הרשו לבנות בית כנסת גבוה",
+   "options": [
+    "כי השליטים לא הרשו לבנות בית כנסת גבוה",
+    "כדי שיהיה קריר בקיץ",
+    "כי לא היו להם אבנים"
+   ],
+   "explain_he": "השלטון הזר לא הרשה לבנות בתי כנסת גבוהים, ולכן בנו אותם נמוך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו כספי \"החלוקה\"?",
+   "answer": "כסף שיהודי הגולה שלחו לתמוך ביושבי ירושלים",
+   "options": [
+    "כסף שיהודי הגולה שלחו לתמוך ביושבי ירושלים",
+    "מס ששילמו לשלטון",
+    "כסף שחילקו לחיילים"
+   ],
+   "explain_he": "יהודים בכל הגולה תמכו ביושבי ירושלים, וכך הרגישו שותפים בעיר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f4e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו כספי \"החלוקה\"?",
+   "answer": "כסף שיהודי הגולה שלחו לתמוך ביושבי ירושלים",
+   "options": [
+    "כסף שיהודי הגולה שלחו לתמוך ביושבי ירושלים",
+    "מס ששילמו לשלטון",
+    "כסף שחילקו לחיילים"
+   ],
+   "explain_he": "יהודים בכל הגולה תמכו ביושבי ירושלים, וכך הרגישו שותפים בעיר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו \"הפרושים\"?",
+   "answer": "תלמידי הגאון מווילנה שעלו לארץ",
+   "options": [
+    "תלמידי הגאון מווילנה שעלו לארץ",
+    "חיילים רומאים",
+    "סוחרים מספרד"
+   ],
+   "explain_he": "תלמידי הגר\"א עלו לארץ לפני יותר ממאתיים שנה, ובנו מחדש את החורבה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f4e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו \"הפרושים\"?",
+   "answer": "תלמידי הגאון מווילנה שעלו לארץ",
+   "options": [
+    "תלמידי הגאון מווילנה שעלו לארץ",
+    "חיילים רומאים",
+    "סוחרים מספרד"
+   ],
+   "explain_he": "תלמידי הגר\"א עלו לארץ לפני יותר ממאתיים שנה, ובנו מחדש את החורבה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"כל המקודש מחברו – חרב יותר מחברו\"?",
+   "answer": "שהמקומות הקדושים ביותר נהרסו יותר מכל",
+   "options": [
+    "שהמקומות הקדושים ביותר נהרסו יותר מכל",
+    "שמקומות קדושים לא נהרסים",
+    "שצריך לבנות קודם את המקומות הפשוטים"
+   ],
+   "explain_he": "הרמב\"ן ראה שדווקא המקומות הקדושים ביותר, ובראשם ירושלים, היו החרבים ביותר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרמב\"ן בפירושו לתורה על הארץ בזמן שעם ישראל לא היה בה?",
+   "answer": "שהיא נשארה שוממה ומחכה לבניה",
+   "options": [
+    "שהיא נשארה שוממה ומחכה לבניה",
+    "שהיא פרחה בידי אחרים",
+    "שהיא נעלמה"
+   ],
+   "explain_he": "הרמב\"ן כתב שהארץ איננה מקבלת זרים, ושזו \"בשורה טובה\" – היא מחכה לבניה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאן עבר הרמב\"ן אחרי ירושלים?",
+   "answer": "לעכו, שם לימד עד יום מותו",
+   "options": [
+    "לעכו, שם לימד עד יום מותו",
+    "חזר לספרד",
+    "למצרים"
+   ],
+   "explain_he": "הרמב\"ן לא נשאר הרבה שנים בירושלים. הוא עבר לעכו, ושם לימד ופעל עד יום מותו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f4e23"
+  }
+ ]
+}

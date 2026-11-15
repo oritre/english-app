@@ -1,0 +1,809 @@
+{
+ "id": "k-inf-f4",
+ "unit_id": "k-inf-u2",
+ "course": "inventors",
+ "title_he": "החשמל והנורה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "החשמל והנורה",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "candle",
+     "title_he": "אור של נר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A small old stone house at night lit only by a flickering oil lamp and a candle; a father with a beard and kippah learns from a book at the table while his son reads beside him.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👦",
+     "say": [
+      "מה עושים כשיורד החושך? לוחצים על המתג, והאור נדלק!",
+      "אבל פעם לא היה חשמל. בלילה הדליקו נרות או מנורות שמן קטנות.",
+      "האור היה חלש, והיה צריך להיזהר מאש. היום נגלה איך הגיע אלינו החשמל."
+     ],
+     "pasuk": {
+      "text": "כִּי נֵר מִצְוָה וְתוֹרָה אוֹר",
+      "ref": "משלי ו, כג"
+     },
+     "note": null
+    },
+    {
+     "id": "lightning",
+     "title_he": "הברק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A dramatic but gentle winter storm over the Jerusalem hills at dusk: a bright lightning bolt between dark clouds and the far hills, a lit window of a house in the foreground.",
+     "move": "up",
+     "fx": "night",
+     "art": "🌩️",
+     "say": [
+      "חשמל יש גם בטבע. ראיתם פעם ברק בחורף?",
+      "הברק הוא חשמל חזק מאוד, שקופץ מהעננים.",
+      "כשרואים ברק, מברכים ברכה מיוחדת: ״עושה מעשה בראשית״.",
+      "חוקר בשם בנג׳מין פרנקלין הוכיח שהברק הוא חשמל. אבל זה היה מסוכן מאוד, ואסור לנסות!",
+      "הוא המציא מוט מתכת לגג הבית, שמוביל את הברק בבטחה אל האדמה. קוראים לו כליא ברק."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כשרואים ברק מברכים ״עושה מעשה בראשית״, וכששומעים רעם מברכים ״שכוחו וגבורתו מלא עולם״."
+     }
+    },
+    {
+     "id": "battery",
+     "title_he": "הסוללה והגנרטור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An early 19th-century laboratory: a scientist in a long coat builds a tall stack of metal discs on a wooden table; nearby a copper wire coil and a magnet, glass jars and candles.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "אחר כך, חכמים המציאו את הסוללה, קופסה קטנה שיש בה חשמל.",
+      "ועוד חכם גילה איך מכונה שמסתובבת יכולה לייצר חשמל. מכונה כזאת נקראת גנרטור.",
+      "על שם החכם שבנה את הסוללה הראשונה, וולטה, נקראת המילה ״וולט״. אולי ראיתם אותה כתובה על סוללה.",
+      "ועל הרעיון של הגנרטור בנויות כל תחנות הכוח עד היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "edison",
+     "title_he": "אלפי ניסיונות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A late 19th-century workshop at night: a determined inventor in a vest and rolled sleeves leans over a glowing glass bulb on a workbench, shelves crowded with jars and failed bulbs, assistants watching.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "ועכשיו, הנורה! איש בשם תומאס אדיסון רצה לבנות נורה שתאיר הרבה שעות.",
+      "הוא ניסה ונכשל, ניסה ונכשל, שוב ושוב. אלפי ניסיונות!",
+      "ובסוף זה הצליח: חוט דק בתוך כדור זכוכית האיר באור יפה. אדיסון לא התייאש, וזה סוד ההצלחה.",
+      "החוט שבתוך הנורות הראשונות נשרף מהר מאוד. אדיסון ועובדיו ניסו חוטים מכותנה, מנייר ומעץ, עד שמצאו חוט שמאיר הרבה שעות."
+     ],
+     "pasuk": {
+      "text": "לְפוּם צַעֲרָא אַגְרָא",
+      "ref": "משנה, אבות פרק ה"
+     },
+     "note": null
+    },
+    {
+     "id": "power",
+     "title_he": "חשמל בארץ ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Around a century ago in the Jordan Valley: a power station building of stone beside a flowing river among green fields, workers in caps and long trousers, tall poles carrying wires toward distant villages.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 🏠",
+     "say": [
+      "כדי שכל בית יקבל חשמל, בנו תחנות כוח גדולות.",
+      "מהן יוצאים חוטים ארוכים, על עמודים גבוהים, עד הבית שלכם.",
+      "בארץ ישראל, איש בשם פנחס רוטנברג הקים את תחנות החשמל הראשונות, לפני בערך מאה שנה.",
+      "אחת התחנות הראשונות שלו עבדה בכוח המים של הירדן והירמוך.",
+      "החשמל עזר לבנות את הארץ: הוא הפעיל משאבות שהביאו מים לשדות, ובתי מלאכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "shabbat",
+     "title_he": "חשמל ושבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A Friday-night table set with white cloth, challot under a cover and Shabbat candles burning; the room softly lit by a ceiling lamp, a small timer device on the wall switch box.",
+     "move": "in",
+     "fx": "light",
+     "art": "🕯️",
+     "say": [
+      "ומה עם חשמל בשבת? בשבת לא מדליקים ולא מכבים חשמל.",
+      "אבל יש פתרון חכם: שעון שבת! מכוונים אותו לפני שבת, והוא מדליק ומכבה את האור לבד, בזמן הנכון.",
+      "וזה מראה לנו דבר חשוב: הטכנולוגיה עוזרת לנו, אבל התורה היא שקובעת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ganuz",
+     "title_he": "האור הגנוז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A soft golden light streaming down from above over a quiet landscape at dawn, a small oil lamp glowing on a stone ledge in the foreground; peaceful and holy, no figures.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕯️",
+     "say": [
+      "חז״ל מספרים על אור מיוחד מאוד, שנברא ביום הראשון. הקדוש ברוך הוא גנז אותו, ושמר אותו לצדיקים.",
+      "ושלמה המלך אמר: ״כי נר מצוה ותורה אור״. כל מצווה שאנחנו עושים מוסיפה אור בעולם!"
+     ],
+     "pasuk": {
+      "text": "נֵר ה׳ נִשְׁמַת אָדָם",
+      "ref": "משלי כ, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "תודה על האור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: Evening in a modern Israeli home: the two children switch on a warm lamp next to a glowing refrigerator and a bookshelf, the city lights twinkling through the window.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "היום חשמל מפעיל כמעט הכול: אור, מקרר, מזגן, ואפילו מכשירים בבית החולים.",
+      "אז בפעם הבאה שאתם מדליקים אור, תזכרו את הנרות של פעם, ותגידו תודה להשם על החכמה שנתן לבני האדם.",
+      "ובשיעור הבא: מכוניות ומטוסים!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "החשמל והנורה",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "candle",
+     "title_he": "אור של נר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A small old stone house at night lit only by a flickering oil lamp and a candle; a father with a beard and kippah learns from a book at the table while his son reads beside him.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👦",
+     "say": [
+      "מה עושים כשיורד החושך? לוחצים על מתג, והבית מואר. נוח, נכון?",
+      "אבל במשך אלפי שנים, בני האדם האירו את הלילה בנרות, במנורות שמן ובלפידים. האור היה חלש ומהבהב, העשן השחיר את התקרה, ונר שנפל יכול היה לגרום לשריפה.",
+      "בבתי המדרש למדו בלילות לאור נר, וחכמים רבים כתבו את ספריהם בחדרים כמעט חשוכים.",
+      "היום נגלה את סיפורו של כוח מסתורי שהיה בעולם מאז ומעולם, אבל רק בדורות האחרונים בני האדם למדו לרתום אותו: החשמל."
+     ],
+     "pasuk": {
+      "text": "כִּי נֵר מִצְוָה וְתוֹרָה אוֹר",
+      "ref": "משלי ו, כג"
+     },
+     "note": null
+    },
+    {
+     "id": "lightning",
+     "title_he": "הברק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A dramatic but gentle winter storm over the Jerusalem hills at dusk: a bright lightning bolt between dark clouds and the far hills, a lit window of a house in the foreground.",
+     "move": "up",
+     "fx": "night",
+     "art": "🌩️",
+     "say": [
+      "חשמל קיים בטבע. הברק שמבזיק בסערה הוא בעצם ניצוץ חשמלי ענק, שקופץ בין העננים לאדמה.",
+      "לפני בערך מאתיים ושבעים שנה, חוקר אמריקאי בשם בנג׳מין פרנקלין רצה להוכיח שהברק הוא חשמל. לפי המסופר, הוא העיף עפיפון בסערה, ומפתח מתכת שקשר לחוט הוציא ניצוצות.",
+      "זה היה ניסוי מסוכן מאוד, ואסור לנסות אותו! אבל בעקבותיו המציא פרנקלין את כליא הברק: מוט מתכת על גג הבית, שמוליך את הברק בבטחה אל האדמה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כשרואים ברק מברכים ״עושה מעשה בראשית״, וכששומעים רעם מברכים ״שכוחו וגבורתו מלא עולם״."
+     }
+    },
+    {
+     "id": "battery",
+     "title_he": "הסוללה והגנרטור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An early 19th-century laboratory: a scientist in a long coat builds a tall stack of metal discs on a wooden table; nearby a copper wire coil and a magnet, glass jars and candles.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "השלב הבא היה לייצר חשמל בעצמנו. לפני בערך מאתיים עשרים וחמש שנה, מדען איטלקי בשם אלסנדרו וולטה בנה את הסוללה הראשונה: ערימה של דסקיות מתכת וקרטון ספוג במי מלח.",
+      "מאוחר יותר, מדען אנגלי בשם מייקל פאראדיי גילה שאם מזיזים מגנט בתוך סליל של חוט נחושת, נוצר בחוט זרם חשמלי. על הרעיון הזה בנויות תחנות הכוח עד היום.",
+      "ועל שמו של וולטה נקרא ״וולט״, היחידה שבה מודדים מתח חשמלי. תמצאו את המילה הזאת כתובה על כל סוללה.",
+      "וגם בתוך הגוף שלנו יש חשמל: המוח שולח לשרירים אותות חשמליים זעירים, וכך אנחנו זזים. הקדוש ברוך הוא שם חשמל אפילו בתוכנו!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "edison",
+     "title_he": "אלפי ניסיונות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A late 19th-century workshop at night: a determined inventor in a vest and rolled sleeves leans over a glowing glass bulb on a workbench, shelves crowded with jars and failed bulbs, assistants watching.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "חשמל כבר היה, אבל איך הופכים אותו לאור נעים בבית? ממציאים רבים ניסו לבנות נורה. הבעיה הייתה שהחוט שבתוך הנורה נשרף אחרי זמן קצר.",
+      "האמריקאי תומאס אדיסון ועובדיו לא ויתרו. הם ניסו אלפי חומרים שונים לחוט: חוטי כותנה, עץ, נייר ועוד ועוד.",
+      "לפני בערך מאה וחמישים שנה הם הצליחו: חוט דק בתוך כדור זכוכית, שהוציאו ממנו את האוויר, האיר שעות רבות. מאוחר יותר השתמשו בחוט עשוי במבוק, שהאיר מאות שעות.",
+      "אדיסון לא ראה בניסיונות שנכשלו כישלון. כל ניסיון לימד אותו עוד דבר. עבודה קשה והתמדה, זה הסוד. וכמו שאמרו חז״ל: ״לפום צערא אגרא״, לפי הטרחה, השכר."
+     ],
+     "pasuk": {
+      "text": "לְפוּם צַעֲרָא אַגְרָא",
+      "ref": "משנה, אבות פרק ה"
+     },
+     "note": null
+    },
+    {
+     "id": "power",
+     "title_he": "חשמל בארץ ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Around a century ago in the Jordan Valley: a power station building of stone beside a flowing river among green fields, workers in caps and long trousers, tall poles carrying wires toward distant villages.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 🏠",
+     "say": [
+      "כדי שכל בית יקבל חשמל, צריך לייצר הרבה ממנו. לכן בנו תחנות כוח, ומהן מתוחים כבלים ארוכים על עמודים גבוהים, עד העיר, עד הרחוב ועד השקע שבקיר.",
+      "בארץ ישראל, לפני בערך מאה שנה, הקים פנחס רוטנברג את חברת החשמל. אחת התחנות הראשונות שלו נבנתה בנהריים, במקום שבו נהר הירמוך נפגש עם הירדן, והשתמשה בכוח המים.",
+      "עם החשמל הגיעו לארץ משאבות שהעלו מים לשדות, בתי מלאכה ורחובות מוארים. החשמל עזר מאוד לבניין הארץ."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "תחנת הכוח בנהריים פעלה בכוח זרימת המים, בלי לשרוף נפט או פחם."
+     }
+    },
+    {
+     "id": "shabbat",
+     "title_he": "חשמל ושבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A Friday-night table set with white cloth, challot under a cover and Shabbat candles burning; the room softly lit by a ceiling lamp, a small timer device on the wall switch box.",
+     "move": "in",
+     "fx": "light",
+     "art": "🕯️",
+     "say": [
+      "חשמל ושבת: כאן נכנסת ההלכה. גדולי הפוסקים קבעו שבשבת אסור להדליק ולכבות מכשירי חשמל.",
+      "אבל יש דרך לשמור שבת ובכל זאת ליהנות מאור: שעון שבת. מכוונים אותו לפני כניסת השבת, והוא מדליק ומכבה את האור לבד, בשעות שקבענו מראש.",
+      "כך הטכנולוגיה משרתת את התורה, ולא להפך.",
+      "ושימו לב: גם כשיש חשמל בכל הבית, בערב שבת מדליקים נרות שבת, כמו בכל הדורות. נר שבת הוא מצווה, ולא רק אור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ganuz",
+     "title_he": "האור הגנוז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A soft golden light streaming down from above over a quiet landscape at dawn, a small oil lamp glowing on a stone ledge in the foreground; peaceful and holy, no figures.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕯️",
+     "say": [
+      "חז״ל מספרים במסכת חגיגה על אור מיוחד שנברא ביום הראשון של בריאת העולם, אור שבו יכול היה אדם לראות מסוף העולם ועד סופו. הקדוש ברוך הוא גנז את האור הזה לצדיקים לעתיד לבוא.",
+      "כל המנורות שבעולם הן רק ניצוץ קטן לעומתו. ושלמה המלך מלמד שיש אור שאין לו תחליף: ״כי נר מצוה ותורה אור״. כל מצווה שאנחנו עושים מוסיפה אור בעולם."
+     ],
+     "pasuk": {
+      "text": "נֵר ה׳ נִשְׁמַת אָדָם",
+      "ref": "משלי כ, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "תודה על האור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: Evening in a modern Israeli home: the two children switch on a warm lamp next to a glowing refrigerator and a bookshelf, the city lights twinkling through the window.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "היום החשמל מפעיל כמעט כל דבר: מקררים ששומרים על האוכל, מכונות בבתי החולים שמצילות חיים, משאבות מים, ומחשבים.",
+      "כל זה התחיל מסקרנות לגבי ברק, מדסקיות המתכת של וולטה, ומאלפי הניסיונות של אדיסון.",
+      "בפעם הבאה שאתם מדליקים אור, חשבו על הנרות של פעם, ותגידו תודה להשם על החכמה שנתן לבני האדם. ובשיעור הבא נעלה על הכביש ואל השמיים: מכוניות ומטוסים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f4e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "החשמל והנורה",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "candle",
+     "title_he": "אור של נר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A small old stone house at night lit only by a flickering oil lamp and a candle; a father with a beard and kippah learns from a book at the table while his son reads beside him.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👦",
+     "say": [
+      "מה עושים כשיורד החושך? לוחצים על מתג, והבית מואר. נוח, נכון?",
+      "אבל במשך אלפי שנים, בני האדם האירו את הלילה בנרות, במנורות שמן ובלפידים. האור היה חלש ומהבהב, העשן השחיר את התקרה, ונר שנפל יכול היה לגרום לשריפה.",
+      "בבתי המדרש למדו בלילות לאור נר, וחכמים רבים כתבו את ספריהם בחדרים כמעט חשוכים.",
+      "היום נגלה את סיפורו של כוח מסתורי שהיה בעולם מאז ומעולם, אבל רק בדורות האחרונים בני האדם למדו לרתום אותו: החשמל.",
+      "ובכל זאת, דווקא לאור נר כתבו גדולי ישראל ספרים שמאירים את העולם עד היום. האור שבחוץ היה חלש, אבל האור הפנימי של התורה היה חזק מאוד."
+     ],
+     "pasuk": {
+      "text": "כִּי נֵר מִצְוָה וְתוֹרָה אוֹר",
+      "ref": "משלי ו, כג"
+     },
+     "note": null
+    },
+    {
+     "id": "lightning",
+     "title_he": "הברק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A dramatic but gentle winter storm over the Jerusalem hills at dusk: a bright lightning bolt between dark clouds and the far hills, a lit window of a house in the foreground.",
+     "move": "up",
+     "fx": "night",
+     "art": "🌩️",
+     "say": [
+      "חשמל קיים בטבע. הברק שמבזיק בסערה הוא בעצם ניצוץ חשמלי ענק, שקופץ בין העננים לאדמה.",
+      "לפני בערך מאתיים ושבעים שנה, חוקר אמריקאי בשם בנג׳מין פרנקלין רצה להוכיח שהברק הוא חשמל. לפי המסופר, הוא העיף עפיפון בסערה, ומפתח מתכת שקשר לחוט הוציא ניצוצות.",
+      "זה היה ניסוי מסוכן מאוד, ואסור לנסות אותו! אבל בעקבותיו המציא פרנקלין את כליא הברק: מוט מתכת על גג הבית, שמוליך את הברק בבטחה אל האדמה.",
+      "ובגמרא במסכת ברכות נאמר: ״לא נבראו רעמים אלא לפשוט עקמומיות שבלב״. כלומר, הרעם והברק נועדו לעורר את האדם, להזכיר לו את גדולת הבורא, ולעזור לו לתקן את דרכיו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כשרואים ברק מברכים ״עושה מעשה בראשית״, וכששומעים רעם מברכים ״שכוחו וגבורתו מלא עולם״."
+     }
+    },
+    {
+     "id": "battery",
+     "title_he": "הסוללה והגנרטור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An early 19th-century laboratory: a scientist in a long coat builds a tall stack of metal discs on a wooden table; nearby a copper wire coil and a magnet, glass jars and candles.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "השלב הבא היה לייצר חשמל בעצמנו. לפני בערך מאתיים עשרים וחמש שנה, מדען איטלקי בשם אלסנדרו וולטה בנה את הסוללה הראשונה: ערימה של דסקיות מתכת וקרטון ספוג במי מלח.",
+      "מאוחר יותר, מדען אנגלי בשם מייקל פאראדיי גילה שאם מזיזים מגנט בתוך סליל של חוט נחושת, נוצר בחוט זרם חשמלי. על הרעיון הזה בנויות תחנות הכוח עד היום.",
+      "ועל שמו של וולטה נקרא ״וולט״, היחידה שבה מודדים מתח חשמלי. תמצאו את המילה הזאת כתובה על כל סוללה.",
+      "וגם בתוך הגוף שלנו יש חשמל: המוח שולח לשרירים אותות חשמליים זעירים, וכך אנחנו זזים. הקדוש ברוך הוא שם חשמל אפילו בתוכנו!",
+      "פאראדיי עצמו לא למד באוניברסיטה. הוא גדל במשפחה ענייה, עבד בצעירותו בכריכת ספרים, וקרא את הספרים שכרך. בזכות סקרנות ועבודה קשה נעשה לאחד המדענים הגדולים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "edison",
+     "title_he": "אלפי ניסיונות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A late 19th-century workshop at night: a determined inventor in a vest and rolled sleeves leans over a glowing glass bulb on a workbench, shelves crowded with jars and failed bulbs, assistants watching.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "חשמל כבר היה, אבל איך הופכים אותו לאור נעים בבית? ממציאים רבים ניסו לבנות נורה. הבעיה הייתה שהחוט שבתוך הנורה נשרף אחרי זמן קצר.",
+      "האמריקאי תומאס אדיסון ועובדיו לא ויתרו. הם ניסו אלפי חומרים שונים לחוט: חוטי כותנה, עץ, נייר ועוד ועוד.",
+      "לפני בערך מאה וחמישים שנה הם הצליחו: חוט דק בתוך כדור זכוכית, שהוציאו ממנו את האוויר, האיר שעות רבות. מאוחר יותר השתמשו בחוט עשוי במבוק, שהאיר מאות שעות.",
+      "אדיסון לא ראה בניסיונות שנכשלו כישלון. כל ניסיון לימד אותו עוד דבר. עבודה קשה והתמדה, זה הסוד. וכמו שאמרו חז״ל: ״לפום צערא אגרא״, לפי הטרחה, השכר.",
+      "ראוי להוסיף שאדיסון לא עבד לבד. במעבדה שלו עבדו עשרות עובדים, ורבים מהם לא זכורים בשמם. רוב ההמצאות הגדולות הן פרי עבודה משותפת של הרבה אנשים חרוצים.",
+      "ועוד דבר: ממציאים אחרים, באנגליה ובארצות נוספות, עבדו באותן שנים על נורות דומות. כשרעיון ״מתבשל״ בעולם, כמה אנשים מגיעים אליו כמעט יחד."
+     ],
+     "pasuk": {
+      "text": "לְפוּם צַעֲרָא אַגְרָא",
+      "ref": "משנה, אבות פרק ה"
+     },
+     "note": null
+    },
+    {
+     "id": "power",
+     "title_he": "חשמל בארץ ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Around a century ago in the Jordan Valley: a power station building of stone beside a flowing river among green fields, workers in caps and long trousers, tall poles carrying wires toward distant villages.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 🏠",
+     "say": [
+      "כדי שכל בית יקבל חשמל, צריך לייצר הרבה ממנו. לכן בנו תחנות כוח, ומהן מתוחים כבלים ארוכים על עמודים גבוהים, עד העיר, עד הרחוב ועד השקע שבקיר.",
+      "בארץ ישראל, לפני בערך מאה שנה, הקים פנחס רוטנברג את חברת החשמל. אחת התחנות הראשונות שלו נבנתה בנהריים, במקום שבו נהר הירמוך נפגש עם הירדן, והשתמשה בכוח המים.",
+      "עם החשמל הגיעו לארץ משאבות שהעלו מים לשדות, בתי מלאכה ורחובות מוארים. החשמל עזר מאוד לבניין הארץ.",
+      "רוטנברג התמודד עם קשיים רבים: היה צריך לגייס כסף, לקבל רשיון מהשלטון הבריטי, ולבנות בתנאים קשים. אבל הוא האמין שבלי חשמל אי אפשר לבנות את הארץ ולקלוט בה עוד ועוד עולים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "תחנת הכוח בנהריים פעלה בכוח זרימת המים, בלי לשרוף נפט או פחם."
+     }
+    },
+    {
+     "id": "shabbat",
+     "title_he": "חשמל ושבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A Friday-night table set with white cloth, challot under a cover and Shabbat candles burning; the room softly lit by a ceiling lamp, a small timer device on the wall switch box.",
+     "move": "in",
+     "fx": "light",
+     "art": "🕯️",
+     "say": [
+      "חשמל ושבת: כאן נכנסת ההלכה. גדולי הפוסקים קבעו שבשבת אסור להדליק ולכבות מכשירי חשמל.",
+      "אבל יש דרך לשמור שבת ובכל זאת ליהנות מאור: שעון שבת. מכוונים אותו לפני כניסת השבת, והוא מדליק ומכבה את האור לבד, בשעות שקבענו מראש.",
+      "כך הטכנולוגיה משרתת את התורה, ולא להפך.",
+      "ושימו לב: גם כשיש חשמל בכל הבית, בערב שבת מדליקים נרות שבת, כמו בכל הדורות. נר שבת הוא מצווה, ולא רק אור.",
+      "ובהלכה יש דיונים עמוקים: מהו בדיוק האיסור בהפעלת חשמל בשבת? יש פוסקים שראו בזה איסור הבערה, ויש שראו בזה ״בונה״ או ״מוליד״. גדולי הפוסקים, כמו החזון איש, האריכו בשאלות האלה, ולמעשה גדולי הפוסקים כולם אסרו להפעיל חשמל בשבת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ganuz",
+     "title_he": "האור הגנוז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A soft golden light streaming down from above over a quiet landscape at dawn, a small oil lamp glowing on a stone ledge in the foreground; peaceful and holy, no figures.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕯️",
+     "say": [
+      "חז״ל מספרים במסכת חגיגה על אור מיוחד שנברא ביום הראשון של בריאת העולם. באור הזה יכול היה אדם לראות מסוף העולם ועד סופו.",
+      "הקדוש ברוך הוא גנז את האור הזה, ושמר אותו לצדיקים לעתיד לבוא. לכן הוא נקרא ״האור הגנוז״.",
+      "כל המנורות שבעולם, גם החזקות ביותר, הן רק ניצוץ קטן לעומת האור הזה. ושלמה המלך מלמד אותנו שיש אור שאין לו תחליף: ״כי נר מצוה ותורה אור״. כל מצווה שאנחנו עושים מוסיפה אור בעולם.",
+      "ובספר משלי נאמר עוד: ״נר ה׳ נשמת אדם״. הנשמה שבתוכנו היא כמו נר, שהקדוש ברוך הוא הדליק בתוכנו."
+     ],
+     "pasuk": {
+      "text": "נֵר ה׳ נִשְׁמַת אָדָם",
+      "ref": "משלי כ, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "תודה על האור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: Evening in a modern Israeli home: the two children switch on a warm lamp next to a glowing refrigerator and a bookshelf, the city lights twinkling through the window.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "היום החשמל מפעיל כמעט כל דבר: מקררים ששומרים על האוכל, מכונות בבתי החולים שמצילות חיים, משאבות מים, ומחשבים.",
+      "כל זה התחיל מסקרנות לגבי ברק, מדסקיות המתכת של וולטה, ומאלפי הניסיונות של אדיסון.",
+      "וחז״ל אמרו: ״נר לאחד, נר למאה״. נר שהודלק בשביל אחד מאיר לכולם. כך גם מעשה טוב של אדם אחד מאיר לרבים.",
+      "בפעם הבאה שאתם מדליקים אור, חשבו על הנרות של פעם, ותגידו תודה להשם על החכמה שנתן לבני האדם. ובשיעור הבא נעלה על הכביש ואל השמיים: מכוניות ומטוסים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים כשרואים ברק?",
+   "answer": "עושה מעשה בראשית",
+   "options": [
+    "עושה מעשה בראשית",
+    "שהחיינו",
+    "בורא פרי העץ"
+   ],
+   "explain_he": "על ברק מברכים ״עושה מעשה בראשית״, ועל רעם ״שכוחו וגבורתו מלא עולם״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים כשרואים ברק?",
+   "answer": "עושה מעשה בראשית",
+   "options": [
+    "עושה מעשה בראשית",
+    "שהחיינו",
+    "בורא פרי העץ"
+   ],
+   "explain_he": "על ברק מברכים ״עושה מעשה בראשית״, ועל רעם ״שכוחו וגבורתו מלא עולם״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים כשרואים ברק?",
+   "answer": "עושה מעשה בראשית",
+   "options": [
+    "עושה מעשה בראשית",
+    "שהחיינו",
+    "בורא פרי העץ"
+   ],
+   "explain_he": "על ברק מברכים ״עושה מעשה בראשית״, ועל רעם ״שכוחו וגבורתו מלא עולם״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה אדיסון כשהניסיונות שלו נכשלו?",
+   "answer": "המשיך לנסות שוב ושוב",
+   "options": [
+    "המשיך לנסות שוב ושוב",
+    "ויתר ועבר לעבודה אחרת",
+    "ביקש ממישהו אחר להמציא"
+   ],
+   "explain_he": "אדיסון ועובדיו ניסו אלפי פעמים עד שהנורה הצליחה. התמדה היא סוד ההצלחה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה אדיסון כשהניסיונות שלו נכשלו?",
+   "answer": "המשיך לנסות שוב ושוב",
+   "options": [
+    "המשיך לנסות שוב ושוב",
+    "ויתר ועבר לעבודה אחרת",
+    "ביקש ממישהו אחר להמציא"
+   ],
+   "explain_he": "אדיסון ועובדיו ניסו אלפי פעמים עד שהנורה הצליחה. התמדה היא סוד ההצלחה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה אדיסון כשהניסיונות שלו נכשלו?",
+   "answer": "המשיך לנסות שוב ושוב",
+   "options": [
+    "המשיך לנסות שוב ושוב",
+    "ויתר ועבר לעבודה אחרת",
+    "ביקש ממישהו אחר להמציא"
+   ],
+   "explain_he": "אדיסון ועובדיו ניסו אלפי פעמים עד שהנורה הצליחה. התמדה היא סוד ההצלחה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך יכול להיות אור בבית בשבת בלי להדליק חשמל?",
+   "answer": "בעזרת שעון שבת שמכוונים לפני שבת",
+   "options": [
+    "בעזרת שעון שבת שמכוונים לפני שבת",
+    "לוחצים על המתג בזהירות",
+    "מדליקים רק מנורה קטנה"
+   ],
+   "explain_he": "שעון שבת מכוונים מראש, והוא מדליק ומכבה את האור לבד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך יכול להיות אור בבית בשבת בלי להדליק חשמל?",
+   "answer": "בעזרת שעון שבת שמכוונים לפני שבת",
+   "options": [
+    "בעזרת שעון שבת שמכוונים לפני שבת",
+    "לוחצים על המתג בזהירות",
+    "מדליקים רק מנורה קטנה"
+   ],
+   "explain_he": "שעון שבת מכוונים מראש, והוא מדליק ומכבה את האור לבד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך יכול להיות אור בבית בשבת בלי להדליק חשמל?",
+   "answer": "בעזרת שעון שבת שמכוונים לפני שבת",
+   "options": [
+    "בעזרת שעון שבת שמכוונים לפני שבת",
+    "לוחצים על המתג בזהירות",
+    "מדליקים רק מנורה קטנה"
+   ],
+   "explain_he": "שעון שבת מכוונים מראש, והוא מדליק ומכבה את האור לבד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הקים את תחנות החשמל הראשונות בארץ ישראל?",
+   "answer": "פנחס רוטנברג",
+   "options": [
+    "פנחס רוטנברג",
+    "תומאס אדיסון",
+    "בנג׳מין פרנקלין"
+   ],
+   "explain_he": "פנחס רוטנברג הקים את חברת החשמל בארץ ישראל לפני בערך מאה שנה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הקים את תחנות החשמל הראשונות בארץ ישראל?",
+   "answer": "פנחס רוטנברג",
+   "options": [
+    "פנחס רוטנברג",
+    "תומאס אדיסון",
+    "בנג׳מין פרנקלין"
+   ],
+   "explain_he": "פנחס רוטנברג הקים את חברת החשמל בארץ ישראל לפני בערך מאה שנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הקים את תחנות החשמל הראשונות בארץ ישראל?",
+   "answer": "פנחס רוטנברג",
+   "options": [
+    "פנחס רוטנברג",
+    "תומאס אדיסון",
+    "בנג׳מין פרנקלין"
+   ],
+   "explain_he": "פנחס רוטנברג הקים את חברת החשמל בארץ ישראל לפני בערך מאה שנה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה האירו את הבתים לפני החשמל?",
+   "answer": "בנרות ובמנורות שמן",
+   "options": [
+    "בנרות ובמנורות שמן",
+    "בפנסים על סוללות",
+    "במנורות ניאון"
+   ],
+   "explain_he": "במשך אלפי שנים האירו בנרות ובמנורות שמן, והאור היה חלש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה האירו את הבתים לפני החשמל?",
+   "answer": "בנרות ובמנורות שמן",
+   "options": [
+    "בנרות ובמנורות שמן",
+    "בפנסים על סוללות",
+    "במנורות ניאון"
+   ],
+   "explain_he": "במשך אלפי שנים האירו בנרות ובמנורות שמן, והאור היה חלש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f4e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה האירו את הבתים לפני החשמל?",
+   "answer": "בנרות ובמנורות שמן",
+   "options": [
+    "בנרות ובמנורות שמן",
+    "בפנסים על סוללות",
+    "במנורות ניאון"
+   ],
+   "explain_he": "במשך אלפי שנים האירו בנרות ובמנורות שמן, והאור היה חלש.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בנה אלסנדרו וולטה?",
+   "answer": "את הסוללה הראשונה",
+   "options": [
+    "את הסוללה הראשונה",
+    "את הנורה",
+    "את כליא הברק"
+   ],
+   "explain_he": "וולטה בנה ערימה של דסקיות מתכת וקרטון במי מלח, הסוללה הראשונה. על שמו נקרא ״וולט״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f4e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בנה אלסנדרו וולטה?",
+   "answer": "את הסוללה הראשונה",
+   "options": [
+    "את הסוללה הראשונה",
+    "את הנורה",
+    "את כליא הברק"
+   ],
+   "explain_he": "וולטה בנה ערימה של דסקיות מתכת וקרטון במי מלח, הסוללה הראשונה. על שמו נקרא ״וולט״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה הבעיה בנורות הראשונות?",
+   "answer": "החוט שבתוכן נשרף אחרי זמן קצר",
+   "options": [
+    "החוט שבתוכן נשרף אחרי זמן קצר",
+    "הן היו כבדות מדי",
+    "הן האירו רק ביום"
+   ],
+   "explain_he": "לכן אדיסון ניסה אלפי חומרים, עד שמצא חוט שהאיר שעות רבות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f4e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה הבעיה בנורות הראשונות?",
+   "answer": "החוט שבתוכן נשרף אחרי זמן קצר",
+   "options": [
+    "החוט שבתוכן נשרף אחרי זמן קצר",
+    "הן היו כבדות מדי",
+    "הן האירו רק ביום"
+   ],
+   "explain_he": "לכן אדיסון ניסה אלפי חומרים, עד שמצא חוט שהאיר שעות רבות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז״ל, מה עשה הקדוש ברוך הוא עם האור שנברא ביום הראשון?",
+   "answer": "גנז אותו לצדיקים לעתיד לבוא",
+   "options": [
+    "גנז אותו לצדיקים לעתיד לבוא",
+    "נתן אותו לשמש",
+    "פיזר אותו בכוכבים"
+   ],
+   "explain_he": "זה ״האור הגנוז״, שנשמר לצדיקים לעתיד לבוא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e23"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הפסוק ״נר ה׳ נשמת אדם״, למה דומה הנשמה?",
+   "answer": "לנר שהקדוש ברוך הוא הדליק בתוכנו",
+   "options": [
+    "לנר שהקדוש ברוך הוא הדליק בתוכנו",
+    "לברק בסערה",
+    "לסוללה שנגמרת"
+   ],
+   "explain_he": "הנשמה היא כמו נר, ומצוות ותורה מוסיפות אור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f4e24"
+  }
+ ]
+}

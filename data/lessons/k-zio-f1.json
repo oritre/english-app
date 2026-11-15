@@ -1,0 +1,563 @@
+{
+ "id": "k-zio-f1",
+ "unit_id": "k-zio-u1",
+ "course": "zionism",
+ "title_he": "לשנה הבאה בירושלים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "לשנה הבאה בירושלים",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שיר בסוף הסדר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A Jewish family around a Seder table late at night in an old European home, candles burning low, matza and wine cups, the grandfather lifting his hands as everyone sings with shining eyes.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👩 👧",
+     "say": [
+      "שימו לב לרגע מיוחד. ליל הסדר כמעט נגמר, הנרות כבר נמוכים, והילדים עייפים.",
+      "ופתאום כולם קמים ושרים בקול גדול: לשנה הבאה בירושלים!",
+      "כך שרו יהודים בפולין ובמרוקו, בתימן ובגרמניה, בכל דור ודור.",
+      "רובם מעולם לא ראו את ירושלים. הם חיו רחוק מאוד, לפעמים בעוני ובפחד.",
+      "הם לא ידעו איך נראים ההרים של ירושלים, איך מריח האוויר שלה ואיך זורחת בה השמש.",
+      "הם הכירו אותה רק מהתנ״ך, מהגמרא ומהסיפורים של סבא וסבתא.",
+      "ובכל זאת, כל שנה הם שרו את אותן מילים, באמונה שלמה.",
+      "היום נצא למסע: איך הגעגועים האלה, שנמשכו כמעט אלפיים שנה, הפכו בסוף לחזרה אמיתית לארץ.",
+      "איך עם שלם שומר על חלום אחד במשך כל כך הרבה שנים, בלי לשכוח ובלי לוותר?",
+      "זה סיפור של אמונה, של סבלנות ושל הבטחה אחת גדולה. בואו נתחיל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "החורבן והגלות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: The hills of Jerusalem at dusk after the destruction, smoke fading in the distance, a line of exiles in simple robes walking away down a dirt road, one old man turning back to look at the city.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚶 👴 🚶",
+     "say": [
+      "לפני בערך אלפיים שנה, הרומאים החריבו את בית המקדש השני.",
+      "עם ישראל יצא לגלות ארוכה. יהודים התפזרו לארצות רבות, מקצה העולם ועד קצהו.",
+      "אבל כבר בתורה, משה רבנו הבטיח לנו הבטחה גדולה.",
+      "הקדוש ברוך הוא יאסוף את עמו מכל העמים ויחזיר אותו לארצו.",
+      "ההבטחה הזאת הייתה כמו אור קטן בחושך. היא ליוותה את היהודים בכל מקום.",
+      "עם אחר, שהיה מגורש מארצו זמן כה ארוך, היה נעלם ונשכח. כך קרה לעמים גדולים וחזקים.",
+      "אבל עם ישראל לא נעלם. הוא שמר על התורה, על השבת ועל הזיכרון של ציון.",
+      "והנביאים חזרו על ההבטחה שוב ושוב: ישעיהו, ירמיהו, יחזקאל ועמוס. כולם ניבאו שיבוא יום, והבנים ישובו לגבולם."
+     ],
+     "pasuk": {
+      "text": "וְשָׁב ה׳ אֱלֹקֶיךָ אֶת שְׁבוּתְךָ וְרִחֲמֶךָ, וְשָׁב וְקִבֶּצְךָ מִכָּל הָעַמִּים",
+      "ref": "דברים ל, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שלוש פעמים ביום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Inside an old wooden synagogue in a snowy village, men in tallitot standing in prayer, all facing the same eastern wall with a carved Aron Kodesh, soft morning light through small windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👴 👦",
+     "say": [
+      "איך שומרים על געגועים במשך אלפיים שנה? בתפילה.",
+      "שלוש פעמים בכל יום, יהודי עומד בשמונה עשרה ומבקש: תקע בשופר גדול לחירותנו, וקבצנו יחד מארבע כנפות הארץ.",
+      "ועוד הוא מבקש: ולירושלים עירך ברחמים תשוב.",
+      "ובסוף התפילה: ותחזינה עינינו בשובך לציון ברחמים.",
+      "וגם כשהוא מתפלל, יהודי עומד עם הפנים לכיוון ירושלים. הגוף בגלות, אבל הלב בציון.",
+      "ובברכת המזון, אחרי כל ארוחה עם לחם, מבקשים: ובנה ירושלים עיר הקודש במהרה בימינו.",
+      "תחשבו כמה פעמים ביום, בכל יום, במשך אלפיים שנה, עלו המילים האלה מפיהם של יהודים בכל העולם.",
+      "מיליוני תפילות, כמו אבנים קטנות שנאספות אחת על השנייה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בתי כנסת בכל העולם נבנים כך שהמתפללים יפנו לכיוון ירושלים. ובירושלים עצמה פונים אל מקום המקדש."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "זוכרים גם בשמחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A joyful Jewish wedding under a chuppah in a courtyard of an old town at evening, the groom in a white kittel about to step on a wrapped glass, guests in modest festive clothes watching with emotion.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👨 👩 👴 👵",
+     "say": [
+      "הזיכרון של ירושלים לא נשאר רק בבית הכנסת. הוא נכנס לכל החיים.",
+      "בחתונה, ברגע הכי שמח, החתן שובר כוס. למה? כדי לזכור את ירושלים גם בשמחה הגדולה ביותר.",
+      "ולפני השבירה רבים אומרים את הפסוק: אם אשכחך ירושלים, תשכח ימיני.",
+      "חז״ל גם לימדו להשאיר בבית פינה קטנה בלי סיד, אמה על אמה, זכר לחורבן.",
+      "ובתשעה באב יושבים על הארץ ובוכים על המקדש. הבכי הזה הוא בעצם תקווה: אנחנו לא מוותרים.",
+      "וגם כשמנחמים אבלים אומרים: המקום ינחם אתכם בתוך שאר אבלי ציון וירושלים.",
+      "כלומר, אפילו בצער הפרטי של משפחה אחת, זוכרים את הצער של כל העם, ומחכים לנחמה."
+     ],
+     "pasuk": {
+      "text": "אִם אֶשְׁכָּחֵךְ יְרוּשָׁלָםִ תִּשְׁכַּח יְמִינִי",
+      "ref": "תהילים קלז, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הארץ מחכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A wide empty landscape of the Land of Israel long ago: bare rocky hills, a dry riverbed, a few scattered olive trees and ruins of old terraces, a lonely shepherd far away, quiet afternoon light.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🪨 🐐",
+     "say": [
+      "ומה קרה לארץ עצמה בכל השנים האלה? היא חיכתה.",
+      "שליטים רבים כבשו אותה, אחד אחרי השני, אבל הם לא הצליחו להפריח אותה באמת.",
+      "בתורה כתוב: ושממו עליה אויביכם. האויבים יישבו בה, והיא תישאר שוממה.",
+      "רש״י אומר שזו מידה טובה לישראל: האויבים לא ימצאו בה נחת, והארץ תחכה לבנים שיחזרו.",
+      "נוסעים שביקרו בארץ לפני כמאתיים שנה תיארו הרים חשופים, ביצות ועיירות קטנות ועניות.",
+      "כאילו הארץ אמרה: אני לא שייכת לאף אחד אחר. אני מחכה לעם ישראל.",
+      "ובכל הדורות, קבוצות קטנות של יהודים עלו וגרו בה, בירושלים, בצפת, בחברון ובטבריה. האש לא כבתה אף פעם."
+     ],
+     "pasuk": {
+      "text": "וַהֲשִׁמֹּתִי אֲנִי אֶת הָאָרֶץ, וְשָׁמְמוּ עָלֶיהָ אֹיְבֵיכֶם",
+      "ref": "ויקרא כו, לב"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "רש״י מסביר שהשממה היא בעצם בשורה טובה: הארץ לא תצמיח בשביל אויבים, ותחכה לבניה."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "היינו כחולמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Dawn over the hills of Jerusalem, first golden rays touching old stone walls, a flock of white doves rising into the sky, a feeling of a long night ending.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕊️",
+     "say": [
+      "אז מה ראינו? עם שלם שמתפלל שלוש פעמים ביום על ארץ שרובו מעולם לא ראה.",
+      "עם שזוכר את ירושלים בחתונה, בבית ובתשעה באב.",
+      "ובשבת, לפני ברכת המזון, אנחנו שרים: בשוב ה׳ את שיבת ציון, היינו כחולמים.",
+      "היהודים לא הפסיקו לשיר, גם כשהיה קשה מאוד. הם ידעו שהקדוש ברוך הוא מקיים את הבטחותיו, גם אם זה לוקח זמן רב.",
+      "כמעט אלפיים שנה זה נשמע כמו חלום רחוק. אבל לפני בערך מאתיים וחמישים שנה, משהו התחיל לזוז.",
+      "בפרקים הבאים נראה איך התפילות האלה התחילו להתגשם, צעד אחר צעד, כמו שהבטיחו הנביאים."
+     ],
+     "pasuk": {
+      "text": "בְּשׁוּב ה׳ אֶת שִׁיבַת צִיּוֹן הָיִינוּ כְּחֹלְמִים",
+      "ref": "תהילים קכו, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-zio-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🇮🇱 ידע כללי",
+   "title_he": "לשנה הבאה בירושלים",
+   "ref_he": "הציונות והקמת המדינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שיר בסוף הסדר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A Jewish family around a Seder table late at night in an old European home, candles burning low, matza and wine cups, the grandfather lifting his hands as everyone sings with shining eyes.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👩 👧",
+     "say": [
+      "שימו לב לרגע מיוחד. ליל הסדר כמעט נגמר, הנרות כבר נמוכים, והילדים עייפים.",
+      "ופתאום כולם קמים ושרים בקול גדול: לשנה הבאה בירושלים!",
+      "כך שרו יהודים בפולין ובמרוקו, בתימן ובגרמניה, בכל דור ודור.",
+      "רובם מעולם לא ראו את ירושלים. הם חיו רחוק מאוד, לפעמים בעוני ובפחד.",
+      "הם לא ידעו איך נראים ההרים של ירושלים, איך מריח האוויר שלה ואיך זורחת בה השמש.",
+      "הם הכירו אותה רק מהתנ״ך, מהגמרא ומהסיפורים של סבא וסבתא.",
+      "ובכל זאת, כל שנה הם שרו את אותן מילים, באמונה שלמה.",
+      "היום נצא למסע: איך הגעגועים האלה, שנמשכו כמעט אלפיים שנה, הפכו בסוף לחזרה אמיתית לארץ.",
+      "איך עם שלם שומר על חלום אחד במשך כל כך הרבה שנים, בלי לשכוח ובלי לוותר?",
+      "זה סיפור של אמונה, של סבלנות ושל הבטחה אחת גדולה. בואו נתחיל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "החורבן והגלות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: The hills of Jerusalem at dusk after the destruction, smoke fading in the distance, a line of exiles in simple robes walking away down a dirt road, one old man turning back to look at the city.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚶 👴 🚶",
+     "say": [
+      "לפני בערך אלפיים שנה, הרומאים החריבו את בית המקדש השני.",
+      "עם ישראל יצא לגלות ארוכה. יהודים התפזרו לארצות רבות, מקצה העולם ועד קצהו.",
+      "אבל כבר בתורה, משה רבנו הבטיח לנו הבטחה גדולה.",
+      "הקדוש ברוך הוא יאסוף את עמו מכל העמים ויחזיר אותו לארצו.",
+      "ההבטחה הזאת הייתה כמו אור קטן בחושך. היא ליוותה את היהודים בכל מקום.",
+      "עם אחר, שהיה מגורש מארצו זמן כה ארוך, היה נעלם ונשכח. כך קרה לעמים גדולים וחזקים.",
+      "אבל עם ישראל לא נעלם. הוא שמר על התורה, על השבת ועל הזיכרון של ציון.",
+      "והנביאים חזרו על ההבטחה שוב ושוב: ישעיהו, ירמיהו, יחזקאל ועמוס. כולם ניבאו שיבוא יום, והבנים ישובו לגבולם."
+     ],
+     "pasuk": {
+      "text": "וְשָׁב ה׳ אֱלֹקֶיךָ אֶת שְׁבוּתְךָ וְרִחֲמֶךָ, וְשָׁב וְקִבֶּצְךָ מִכָּל הָעַמִּים",
+      "ref": "דברים ל, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שלוש פעמים ביום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Inside an old wooden synagogue in a snowy village, men in tallitot standing in prayer, all facing the same eastern wall with a carved Aron Kodesh, soft morning light through small windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👴 👦",
+     "say": [
+      "איך שומרים על געגועים במשך אלפיים שנה? בתפילה.",
+      "שלוש פעמים בכל יום, יהודי עומד בשמונה עשרה ומבקש: תקע בשופר גדול לחירותנו, וקבצנו יחד מארבע כנפות הארץ.",
+      "ועוד הוא מבקש: ולירושלים עירך ברחמים תשוב.",
+      "ובסוף התפילה: ותחזינה עינינו בשובך לציון ברחמים.",
+      "וגם כשהוא מתפלל, יהודי עומד עם הפנים לכיוון ירושלים. הגוף בגלות, אבל הלב בציון.",
+      "ובברכת המזון, אחרי כל ארוחה עם לחם, מבקשים: ובנה ירושלים עיר הקודש במהרה בימינו.",
+      "תחשבו כמה פעמים ביום, בכל יום, במשך אלפיים שנה, עלו המילים האלה מפיהם של יהודים בכל העולם.",
+      "מיליוני תפילות, כמו אבנים קטנות שנאספות אחת על השנייה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בתי כנסת בכל העולם נבנים כך שהמתפללים יפנו לכיוון ירושלים. ובירושלים עצמה פונים אל מקום המקדש."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "זוכרים גם בשמחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A joyful Jewish wedding under a chuppah in a courtyard of an old town at evening, the groom in a white kittel about to step on a wrapped glass, guests in modest festive clothes watching with emotion.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👨 👩 👴 👵",
+     "say": [
+      "הזיכרון של ירושלים לא נשאר רק בבית הכנסת. הוא נכנס לכל החיים.",
+      "בחתונה, ברגע הכי שמח, החתן שובר כוס. למה? כדי לזכור את ירושלים גם בשמחה הגדולה ביותר.",
+      "ולפני השבירה רבים אומרים את הפסוק: אם אשכחך ירושלים, תשכח ימיני.",
+      "חז״ל גם לימדו להשאיר בבית פינה קטנה בלי סיד, אמה על אמה, זכר לחורבן.",
+      "ובתשעה באב יושבים על הארץ ובוכים על המקדש. הבכי הזה הוא בעצם תקווה: אנחנו לא מוותרים.",
+      "וגם כשמנחמים אבלים אומרים: המקום ינחם אתכם בתוך שאר אבלי ציון וירושלים.",
+      "כלומר, אפילו בצער הפרטי של משפחה אחת, זוכרים את הצער של כל העם, ומחכים לנחמה."
+     ],
+     "pasuk": {
+      "text": "אִם אֶשְׁכָּחֵךְ יְרוּשָׁלָםִ תִּשְׁכַּח יְמִינִי",
+      "ref": "תהילים קלז, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ליבי במזרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A medieval Spanish courtyard with arches at night, a poet in a turban-like head covering and long robe writing by an oil lamp, gazing east toward a rising moon.",
+     "move": "right",
+     "fx": "stars",
+     "art": "👴",
+     "say": [
+      "היו גם יהודים שלא הסתפקו בגעגועים, ויצאו לדרך.",
+      "רבי יהודה הלוי, המשורר והפילוסוף הגדול של ספרד, בעל ספר הכוזרי, חי בשפע ובכבוד.",
+      "אבל הוא כתב: ליבי במזרח ואנכי בסוף מערב. כלומר, הגוף שלי בספרד, במערב, והלב שלי בארץ ישראל.",
+      "בערך בשנת 1140, כשהיה כבר אדם מבוגר, הוא עזב את ביתו ויצא למסע הארוך והמסוכן אל הארץ.",
+      "השירים שכתב על ציון, הנקראים שירי ציון, נאמרים עד היום בבתי הכנסת בתשעה באב.",
+      "הוא לימד דור שלם שהגעגועים צריכים להוביל למעשה."
+     ],
+     "pasuk": {
+      "text": "לִבִּי בְמִזְרָח וְאָנֹכִי בְּסוֹף מַעֲרָב",
+      "ref": "רבי יהודה הלוי"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הרמב״ן בירושלים החרבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Jerusalem in the year 1267, a quiet half-ruined city of stone under a pale sky, an elderly rabbi with a white beard and long robe standing among broken arches with a few Jews gathering around him.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴 👨",
+     "say": [
+      "בשנת 1267 הגיע לירושלים הרמב״ן, רבי משה בן נחמן, מגדולי הפרשנים של התורה.",
+      "במכתב לבנו הוא תיאר מה ראה: עיר חרבה ושוממה, ובה רק יהודים מעטים מאוד.",
+      "הרמב״ן לא התייאש. הוא אסף את היהודים, הקים בית כנסת וחידש את התפילה בציבור.",
+      "הרמב״ן גם כתב שיישוב ארץ ישראל הוא מצווה מן התורה, ושאסור להשאיר את הארץ שוממה.",
+      "בית הכנסת הקרוי על שמו עומד ברובע היהודי בירושלים עד היום.",
+      "ומאז ימיו, כמעט ולא היה דור שבו לא חיו יהודים בירושלים."
+     ],
+     "pasuk": {
+      "text": "שֶׁנִּצְטַוֵּינוּ לָרֶשֶׁת אֶת הָאָרֶץ... וְלֹא נַעַזְבֶנָּה בְּיַד זוּלָתֵנוּ מִן הָאֻמּוֹת אוֹ לִשְׁמָמָה",
+      "ref": "רמב״ן, השגות לספר המצוות, מצוות עשה ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "רבנים ומקובלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: The mountain town of Safed in the 1500s at dusk, stone houses and small synagogues with lit windows, scholars in long robes and turbans walking with books toward a synagogue, the hills of the Galilee in soft purple light.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👨",
+     "say": [
+      "והיו עוד רבים שעלו. לפי המסורת, בשנת 1211 בערך עלו לארץ כשלוש מאות רבנים מצרפת ומאנגליה.",
+      "בשנת 1488 הגיע לירושלים רבי עובדיה מברטנורא, שפירושו על המשנה נלמד עד היום, וחיזק את הקהילה הענייה.",
+      "ואחרי גירוש ספרד, בשנת 1492, הגיעו לארץ חכמים רבים מבין המגורשים.",
+      "במאה השש עשרה הפכה צפת לעיר של תורה. שם חיו רבי יוסף קארו, בעל השולחן ערוך, והאר״י הקדוש, גדול המקובלים.",
+      "בצפת חיבר רבי שלמה אלקבץ את הפיוט לכה דודי, ששרים בכל קבלת שבת. ובפיוט הזה מבקשים: מקדש מלך עיר מלוכה, קומי צאי מתוך ההפכה.",
+      "כך, דור אחרי דור, שמרו גדולי התורה על גחלת קטנה של יישוב יהודי בארץ."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רבי יוסף קארו כתב את השולחן ערוך בצפת. עד היום, יהודים בכל העולם פוסקים הלכה לפיו."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "הארץ מחכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: A wide empty landscape of the Land of Israel long ago: bare rocky hills, a dry riverbed, a few scattered olive trees and ruins of old terraces, a lonely shepherd far away, quiet afternoon light.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🪨 🐐",
+     "say": [
+      "ומה קרה לארץ עצמה בכל השנים האלה? היא חיכתה.",
+      "שליטים רבים כבשו אותה, אחד אחרי השני, אבל הם לא הצליחו להפריח אותה באמת.",
+      "בתורה כתוב: ושממו עליה אויביכם. האויבים יישבו בה, והיא תישאר שוממה.",
+      "רש״י אומר שזו מידה טובה לישראל: האויבים לא ימצאו בה נחת, והארץ תחכה לבנים שיחזרו.",
+      "נוסעים שביקרו בארץ לפני כמאתיים שנה תיארו הרים חשופים, ביצות ועיירות קטנות ועניות.",
+      "כאילו הארץ אמרה: אני לא שייכת לאף אחד אחר. אני מחכה לעם ישראל.",
+      "ובכל הדורות, קבוצות קטנות של יהודים עלו וגרו בה, בירושלים, בצפת, בחברון ובטבריה. האש לא כבתה אף פעם."
+     ],
+     "pasuk": {
+      "text": "וַהֲשִׁמֹּתִי אֲנִי אֶת הָאָרֶץ, וְשָׁמְמוּ עָלֶיהָ אֹיְבֵיכֶם",
+      "ref": "ויקרא כו, לב"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "רש״י מסביר שהשממה היא בעצם בשורה טובה: הארץ לא תצמיח בשביל אויבים, ותחכה לבניה."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "היינו כחולמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Jewish return to the Land of Israel, from the long exile to 1948: Jewish communities in Europe and the East, sailing ships, the hills of Jerusalem and the Galilee, early farming villages, period-accurate clothing of each era. Warm golden light, hopeful and dignified mood.  Scene: Dawn over the hills of Jerusalem, first golden rays touching old stone walls, a flock of white doves rising into the sky, a feeling of a long night ending.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕊️",
+     "say": [
+      "אז מה ראינו? עם שלם שמתפלל שלוש פעמים ביום על ארץ שרובו מעולם לא ראה.",
+      "עם שזוכר את ירושלים בחתונה, בבית ובתשעה באב.",
+      "ובשבת, לפני ברכת המזון, אנחנו שרים: בשוב ה׳ את שיבת ציון, היינו כחולמים.",
+      "היהודים לא הפסיקו לשיר, גם כשהיה קשה מאוד. הם ידעו שהקדוש ברוך הוא מקיים את הבטחותיו, גם אם זה לוקח זמן רב.",
+      "כמעט אלפיים שנה זה נשמע כמו חלום רחוק. אבל לפני בערך מאתיים וחמישים שנה, משהו התחיל לזוז.",
+      "בפרקים הבאים נראה איך התפילות האלה התחילו להתגשם, צעד אחר צעד, כמו שהבטיחו הנביאים."
+     ],
+     "pasuk": {
+      "text": "בְּשׁוּב ה׳ אֶת שִׁיבַת צִיּוֹן הָיִינוּ כְּחֹלְמִים",
+      "ref": "תהילים קכו, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-zio-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שרים בסוף ליל הסדר?",
+   "answer": "לשנה הבאה בירושלים",
+   "options": [
+    "לשנה הבאה בירושלים",
+    "שנה טובה ומתוקה",
+    "חג שמח לכל המשפחה"
+   ],
+   "explain_he": "בסוף הסדר שרים \"לשנה הבאה בירושלים\". יהודים בכל הארצות שרו כך בכל דור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שרים בסוף ליל הסדר?",
+   "answer": "לשנה הבאה בירושלים",
+   "options": [
+    "לשנה הבאה בירושלים",
+    "שנה טובה ומתוקה",
+    "חג שמח לכל המשפחה"
+   ],
+   "explain_he": "בסוף הסדר שרים \"לשנה הבאה בירושלים\". יהודים בכל הארצות שרו כך בכל דור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון עומדים יהודים בתפילה?",
+   "answer": "לכיוון ירושלים",
+   "options": [
+    "לכיוון ירושלים",
+    "לכיוון השמש השוקעת",
+    "לכיוון הים הקרוב"
+   ],
+   "explain_he": "בכל העולם עומדים בתפילה מול ירושלים. הגוף בגלות, אבל הלב בציון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון עומדים יהודים בתפילה?",
+   "answer": "לכיוון ירושלים",
+   "options": [
+    "לכיוון ירושלים",
+    "לכיוון השמש השוקעת",
+    "לכיוון הים הקרוב"
+   ],
+   "explain_he": "בכל העולם עומדים בתפילה מול ירושלים. הגוף בגלות, אבל הלב בציון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה החתן שובר כוס בחתונה?",
+   "answer": "כדי לזכור את ירושלים גם ברגע השמח ביותר",
+   "options": [
+    "כדי לזכור את ירושלים גם ברגע השמח ביותר",
+    "כדי לסמן לאורחים שאפשר להתחיל לאכול",
+    "כדי להביא מזל טוב לבית החדש"
+   ],
+   "explain_he": "שוברים כוס זכר לחורבן, ורבים אומרים לפני כן \"אם אשכחך ירושלים\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה החתן שובר כוס בחתונה?",
+   "answer": "כדי לזכור את ירושלים גם ברגע השמח ביותר",
+   "options": [
+    "כדי לזכור את ירושלים גם ברגע השמח ביותר",
+    "כדי לסמן לאורחים שאפשר להתחיל לאכול",
+    "כדי להביא מזל טוב לבית החדש"
+   ],
+   "explain_he": "שוברים כוס זכר לחורבן, ורבים אומרים לפני כן \"אם אשכחך ירושלים\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מסביר רש״י על הפסוק \"ושממו עליה אויביכם\"?",
+   "answer": "שהארץ לא תצמיח בשביל אויבים ותחכה לבניה",
+   "options": [
+    "שהארץ לא תצמיח בשביל אויבים ותחכה לבניה",
+    "שהארץ תהיה מלאה ערים גדולות ויפות",
+    "שהיהודים לא יחזרו אליה לעולם"
+   ],
+   "explain_he": "רש״י אומר שזו מידה טובה לישראל: הארץ נשארת שוממה עד שבניה חוזרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מסביר רש״י על הפסוק \"ושממו עליה אויביכם\"?",
+   "answer": "שהארץ לא תצמיח בשביל אויבים ותחכה לבניה",
+   "options": [
+    "שהארץ לא תצמיח בשביל אויבים ותחכה לבניה",
+    "שהארץ תהיה מלאה ערים גדולות ויפות",
+    "שהיהודים לא יחזרו אליה לעולם"
+   ],
+   "explain_he": "רש״י אומר שזו מידה טובה לישראל: הארץ נשארת שוממה עד שבניה חוזרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקשו היהודים בתפילת שמונה עשרה?",
+   "answer": "שהקדוש ברוך הוא יקבץ אותם מארבע כנפות הארץ",
+   "options": [
+    "שהקדוש ברוך הוא יקבץ אותם מארבע כנפות הארץ",
+    "שיוכלו להישאר בגלות בשקט",
+    "שיקבלו אדמה בארץ אחרת"
+   ],
+   "explain_he": "בברכת \"תקע בשופר גדול\" מבקשים: וקבצנו יחד מארבע כנפות הארץ.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-zio-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקשו היהודים בתפילת שמונה עשרה?",
+   "answer": "שהקדוש ברוך הוא יקבץ אותם מארבע כנפות הארץ",
+   "options": [
+    "שהקדוש ברוך הוא יקבץ אותם מארבע כנפות הארץ",
+    "שיוכלו להישאר בגלות בשקט",
+    "שיקבלו אדמה בארץ אחרת"
+   ],
+   "explain_he": "בברכת \"תקע בשופר גדול\" מבקשים: וקבצנו יחד מארבע כנפות הארץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מצא הרמב״ן כשהגיע לירושלים בשנת 1267?",
+   "answer": "עיר חרבה ובה יהודים מעטים מאוד",
+   "options": [
+    "עיר חרבה ובה יהודים מעטים מאוד",
+    "עיר מלאה ישיבות גדולות",
+    "קהילה של אלפי יהודים"
+   ],
+   "explain_he": "הרמב״ן כתב לבנו שירושלים חרבה. הוא אסף את היהודים המעטים והקים בית כנסת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש המשפט \"ליבי במזרח ואנכי בסוף מערב\"?",
+   "answer": "הגוף שלי בספרד, אבל הלב שלי בארץ ישראל",
+   "options": [
+    "הגוף שלי בספרד, אבל הלב שלי בארץ ישראל",
+    "אני אוהב לראות את הזריחה",
+    "אני רוצה לנסוע לארצות המערב"
+   ],
+   "explain_he": "רבי יהודה הלוי חי בספרד, במערב, וליבו היה בארץ ישראל, במזרח. ובסוף יצא לדרך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-zio-f1e14"
+  }
+ ]
+}

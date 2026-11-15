@@ -1,0 +1,260 @@
+{
+ "id": "k-tab-f2",
+ "unit_id": "k-tab-u1",
+ "course": "table",
+ "title_he": "הלחם והחלה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌾 ידע כללי",
+   "title_he": "הלחם והחלה",
+   "ref_he": "מהשדה לשולחן",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "במאפייה בלילה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The baker: a cheerful man in his forties with a black kippah, a white apron over a white shirt, flour on his sleeves. Scene: A small village bakery before dawn, warm yellow light in the window while the street outside is still dark blue; the baker stands at a big wooden table covered with flour.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 🏠",
+     "say": [
+      "בשיעור הקודם הגענו עם החיטה עד הקמח. עכשיו בואו נלך למאפייה.",
+      "עוד לפני שאנחנו מתעוררים, במאפייה כבר ערים. בחוץ חושך, והרחוב שקט. רק בחלון של המאפייה דולק אור.",
+      "האופה מתחיל לעבוד באמצע הלילה. למה? כדי שבבוקר, כשנבוא, יחכה לנו לחם טרי וחם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "לשים בצק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The baker: a cheerful man in his forties with a black kippah, a white apron over a white shirt, flour on his sleeves. Scene: Close view of the baker kneading a large ball of dough with strong hands on a floured table, bowls of water and salt nearby, then the dough rising under a cloth.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨",
+     "say": [
+      "האופה לוקח קמח, מים, מעט מלח ושמרים. הוא מערבב, ולש את הבצק בידיים חזקות: לוחץ, מקפל, ושוב לוחץ.",
+      "אחר כך מכסים את הבצק במגבת, ומחכים.",
+      "השמרים הם יצורים קטנטנים, שאי אפשר לראות בעיניים. הם עושים בבצק בועות קטנות של אוויר.",
+      "והבצק תופח: גדל ומתנפח, כמו בלון. בגלל הבועות האלה, הלחם יוצא רך ואוורירי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בתנור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The baker: a cheerful man in his forties with a black kippah, a white apron over a white shirt, flour on his sleeves. Scene: The baker pulls golden-brown loaves out of a glowing brick oven with a long wooden paddle; steam and a warm glow fill the bakery.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "עכשיו האופה מחלק את הבצק לכיכרות, ושם אותן בתנור חם מאוד.",
+      "ריח טוב ממלא את המאפייה, ויוצא לכל הרחוב. השכנים מתעוררים ומריחים: יש לחם!",
+      "אחרי זמן קצר, האופה מוציא את הלחם במרדה, כף ארוכה מעץ. הלחם חום וזהוב מבחוץ, ורך מבפנים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "המוציא לחם מן הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A family table at lunch: the boy pours water over his hands from a two-handled washing cup at a small sink, and a fresh loaf waits on the table under a cloth.",
+     "move": "left",
+     "fx": null,
+     "art": "👦 👧 🏠",
+     "say": [
+      "הלחם הגיע הביתה. לפני שאוכלים לחם, נוטלים ידיים: שופכים מים מכוס של נטילה, על יד ימין ועל יד שמאל.",
+      "ומברכים ״על נטילת ידיים״.",
+      "ואז, מברכים על הלחם: ״המוציא לחם מן הארץ״. כלומר: השם הוא שמוציא לנו לחם מהאדמה.",
+      "הלחם חשוב כל כך, שיש לו ברכה מיוחדת משלו. ועל עוגה ועוגיות מקמח, מברכים ״בורא מיני מזונות״."
+     ],
+     "pasuk": {
+      "text": "בָּרוּךְ אַתָּה ה׳ אֱלֹקֵינוּ מֶלֶךְ הָעוֹלָם הַמּוֹצִיא לֶחֶם מִן הָאָרֶץ",
+      "ref": "ברכת המוציא"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "על עוגה ועל עוגיות שעשויות מקמח מברכים ״בורא מיני מזונות״."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "ברכת המזון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: After the meal, the children sit at the table with small prayer booklets open, the plates pushed aside, soft afternoon light through the window.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "ומה עושים אחרי שאכלנו לחם ושבענו? מודים להשם בברכת המזון.",
+      "כך מצווה התורה: ״ואכלת ושבעת וברכת״. קודם אוכלים עד ששבעים, ואחר כך אומרים תודה.",
+      "בברכת המזון אנחנו מודים על האוכל, על ארץ ישראל הטובה, ועל ירושלים. זו ברכה ארוכה וחשובה, ושרים אותה בשמחה."
+     ],
+     "pasuk": {
+      "text": "וְאָכַלְתָּ וְשָׂבָעְתָּ וּבֵרַכְתָּ",
+      "ref": "דברים ח, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "שתי חלות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Friday evening: a Shabbat table with a white tablecloth, two lit Shabbat candles and two braided challot under an embroidered cover; the family stands around it in festive clothes.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ביום שישי, כל הבית מריח מחלות. החלה היא לחם מיוחד, קלוע כמו צמה, לכבוד שבת.",
+      "ובשבת שמים על השולחן שתי חלות. למה שתיים?",
+      "כי במדבר, ארבעים שנה, ירד לבני ישראל מן מהשמים. בכל יום, מנה אחת. וביום שישי ירדה מנה כפולה, גם בשביל שבת.",
+      "לכן גם לנו יש בשבת ״לחם משנה״: שתי חלות שלמות. ומכסים אותן במפה יפה, עד הקידוש."
+     ],
+     "pasuk": {
+      "text": "לָקְטוּ לֶחֶם מִשְׁנֶה",
+      "ref": "שמות טז, כב"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "מכסים את החלות במפה, כמו שהמן במדבר היה מכוסה בטל, מלמעלה ומלמטה."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "הפרשת חלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A home kitchen on Friday morning: a large bowl of soft dough; a mother in a long dress and headscarf lifts a small piece of dough with care, the children watching respectfully.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👩 👦 👧",
+     "say": [
+      "וכשמכינים הרבה בצק, יש מצווה מיוחדת: ״הפרשת חלה״.",
+      "מורידים מהבצק חתיכה קטנה, ומברכים. בבית, ובמאפייה גדולה, עושים את זה בכבוד.",
+      "בזמן בית המקדש נתנו את החתיכה הזאת לכהן, והוא אכל אותה. היום לא אוכלים אותה, אלא שורפים אותה.",
+      "כך אנחנו זוכרים: כל מה שיש לנו, בא מהשם. ואת החלק הראשון, אנחנו נותנים לו."
+     ],
+     "pasuk": {
+      "text": "רֵאשִׁית עֲרִסֹתֵכֶם חַלָּה תָּרִימוּ תְרוּמָה",
+      "ref": "במדבר טו, כ"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "תודה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Morning again: the children at the breakfast table each hold a slice of bread, smiling, while through the window wheat fields shine in the distance.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧 🌾",
+     "say": [
+      "בפעם הבאה שאתם מברכים ״המוציא״, חשבו על כל הדרך: הזריעה בסתיו, הגשם בחורף, הקציר, הטחנה והמאפייה.",
+      "ותגידו תודה להשם, וגם לכל מי שעבד קשה בשבילנו: החקלאי, הטוחן והאופה.",
+      "ואולי, כשתגדלו, גם אתם תאפו חלה לשבת, ותפרישו חלה, בדיוק כמו שלמדנו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-tab-f2e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גורם לבצק לתפוח ולגדול?",
+   "answer": "השמרים",
+   "options": [
+    "השמרים",
+    "המלח",
+    "המים הקרים"
+   ],
+   "explain_he": "השמרים עושים בבצק בועות קטנות של אוויר, והוא מתנפח.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים לפני שאוכלים לחם?",
+   "answer": "נוטלים ידיים ומברכים ״המוציא״",
+   "options": [
+    "נוטלים ידיים ומברכים ״המוציא״",
+    "מברכים ״בורא פרי העץ״",
+    "שותים כוס מים"
+   ],
+   "explain_he": "נוטלים ידיים, ואז מברכים ״המוציא לחם מן הארץ״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה האופה מתחיל לעבוד בלילה?",
+   "answer": "כדי שבבוקר יהיה לחם טרי",
+   "options": [
+    "כדי שבבוקר יהיה לחם טרי",
+    "כי בלילה התנור חם יותר",
+    "כי ביום המאפייה סגורה"
+   ],
+   "explain_he": "עובדים בלילה כדי שבבוקר יחכה לנו לחם טרי וחם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שמים בשבת שתי חלות?",
+   "answer": "זכר למן, שירד כפול ביום שישי",
+   "options": [
+    "זכר למן, שירד כפול ביום שישי",
+    "כי חלה אחת קטנה מדי",
+    "כי יש שני אורחים"
+   ],
+   "explain_he": "ביום שישי ירד במדבר ״לחם משנה״, מנה כפולה גם לשבת.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זו הפרשת חלה?",
+   "answer": "מורידים מהבצק חתיכה קטנה ומברכים",
+   "options": [
+    "מורידים מהבצק חתיכה קטנה ומברכים",
+    "אופים חלה מיוחדת לכל ילד",
+    "מחלקים חלות לשכנים"
+   ],
+   "explain_he": "בזמן המקדש החתיכה ניתנה לכהן, והיום שורפים אותה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים אחרי שאכלנו לחם ושבענו?",
+   "answer": "ברכת המזון",
+   "options": [
+    "ברכת המזון",
+    "המוציא לחם מן הארץ",
+    "בורא מיני מזונות"
+   ],
+   "explain_he": "התורה אומרת: ״ואכלת ושבעת וברכת״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f2e7"
+  }
+ ]
+}

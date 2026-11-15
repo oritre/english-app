@@ -96,3 +96,29 @@ export const GUESS_STOP = 2; // guesses in a lesson before it stops to explain a
 // It earns half the XP, never counts as mastered, and pulls the course level down.
 export const guessyRound = (guesses, total) => guesses >= 3 || (guesses >= 2 && guesses / Math.max(1, total) >= 0.25);
 export const GUESSY_CAP = WEAK - 1;
+
+// ---- what a learner may open (ori, 2026-11-15) ----
+// Nothing above the learner's school grade: a course that starts above the
+// grade stays closed unless the weekly review opened it for this learner (it is
+// in the subject's plan, or listed in profile.unlock_courses as 'subject:id').
+export function aboveGrade(course, grade) {
+  const g = parseInt(grade, 10);
+  if (!g || g >= 13 || !course?.grades) return false;
+  return course.grades[0] > g;
+}
+export function courseOpen(course, profile, subject) {
+  if (!aboveGrade(course, profile?.grade)) return true;
+  const plan = profile?.[`${subject}_plan`]?.courses || [];
+  const unlocked = profile?.unlock_courses || [];
+  return plan.includes(course.id) || unlocked.includes(`${subject}:${course.id}`);
+}
+export const subjectOfLesson = (id) => (/^tp?-/.test(id) ? 'think' : id.startsWith('k-') ? 'know' : id.startsWith('p-') ? 'parasha' : 'english');
+
+// A mastered lesson may be repeated once (without XP), then it closes: the next
+// lesson is waiting. Records from before this rule count 3+ rounds as that one repeat.
+export function masteredRepeats(prev) {
+  if (!prev) return 0;
+  if (prev.mastered_repeats != null) return prev.mastered_repeats;
+  return (prev.times_done || 0) >= 3 ? 1 : 0;
+}
+export const repeatClosed = (lessonId, prev) => repeatKind(lessonId, prev) === 'mastered' && masteredRepeats(prev) >= 1;

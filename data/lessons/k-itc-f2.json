@@ -1,0 +1,515 @@
+{
+ "id": "k-itc-f2",
+ "unit_id": "k-itc-u1",
+ "course": "israeltech",
+ "title_he": "המדבר פורח",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "המדבר פורח",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "desert",
+     "title_he": "האם אפשר לגדל במדבר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The Arava desert: on one side bare golden sand and rocky mountains under a fierce sun; on the other side, rows of white greenhouses and green date palms, the two siblings standing between them.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👦 👧 🌴",
+     "say": [
+      "תארו לכם מדבר: חול, אבנים, שמש לוהטת, וכמעט בלי גשם. האם אפשר לגדל בו פירות וירקות?",
+      "לפני מאה שנה רוב האנשים היו אומרים: אין סיכוי! הנגב והערבה נראו כמו ארץ שוממה.",
+      "אבל הנביאים הבטיחו שהמדבר עוד יפרח: ״ישושום מדבר וציה, ותגל ערבה ותפרח כחבצלת״. היום, מי שנוסע בערבה רואה חממות, מטעי תמרים ושדות ירוקים באמצע המדבר. בואו נגלה איך זה קרה.",
+      "חז״ל מספרים שבזמן שעם ישראל ישב בארצו, הארץ הייתה מלאה ברכה. בגמרא מתוארים אשכולות ענבים גדולים ופירות מתוקים כדבש.",
+      "והנביא ישעיהו הבטיח עוד: ״אשים מדבר לאגם מים, וארץ ציה למוצאי מים״."
+     ],
+     "pasuk": {
+      "text": "יְשֻׂשׂוּם מִדְבָּר וְצִיָּה, וְתָגֵל עֲרָבָה וְתִפְרַח כַּחֲבַצָּלֶת",
+      "ref": "ישעיהו לה, א"
+     },
+     "note": null
+    },
+    {
+     "id": "points",
+     "title_he": "אחת עשרה הנקודות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Night in the northern Negev, 1946: pioneers in work shirts, long trousers and caps, and women in long skirts and head scarves, unload wooden huts and a water tank from trucks by lantern light under a starry sky.",
+     "move": "right",
+     "fx": "stars",
+     "art": "👨 👩 ⛺",
+     "say": [
+      "במוצאי יום הכיפורים של שנת תש״ז, 1946, עלו על הקרקע בלילה אחד אחת עשרה נקודות יישוב חדשות בנגב. הן נקראו ״אחת עשרה הנקודות״.",
+      "המתיישבים התמודדו עם חום כבד, מעט מים ואדמה קשה. הם הביאו מים בצינורות דקים ממרחק, ועבדו מבוקר עד ערב.",
+      "דוד בן־גוריון, ראש הממשלה הראשון, האמין שעתיד המדינה תלוי ביישוב הנגב. בזקנתו הוא אף עבר לגור בשדה בוקר, בלב המדבר.",
+      "כדי לא למשוך תשומת לב, המתיישבים יצאו בלילה, בשיירות של משאיות, עם צריפים מוכנים, ציוד ומים. עד הבוקר כבר עמדו במקום אחת עשרה נקודות יישוב.",
+      "היישובים הצעירים האלה עמדו אחר כך במבחנים קשים, ושמרו על הנגב בשביל עם ישראל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את אחת עשרה הנקודות הקימו בלילה אחד, בחשאי, כדי שעד הבוקר כבר יעמדו היישובים על הקרקע."
+     }
+    },
+    {
+     "id": "arava",
+     "title_he": "ירקות בחורף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Inside a bright Arava greenhouse in winter: rows of red and yellow pepper plants on black drip lines, a farmer with a kippah and a sun hat picking peppers into a crate, mountains visible through the plastic walls.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "דרומה יותר, בערבה, בין ים המלח לאילת, החום קשה עוד יותר. אבל דווקא לחום יש יתרון: בחורף, כשבאירופה קר ומושלג, בערבה חמים ושמשי.",
+      "החקלאים בערבה מגדלים בחורף פלפלים, עגבניות, מלונים ופרחים, ושולחים אותם לארצות רחוקות.",
+      "חוקרים גילו שבעומק האדמה בנגב יש מים מליחים, מים שיש בהם קצת מלח. יש צמחים, כמו עגבניות מסוימות, שנעשים אפילו מתוקים יותר כשמשקים אותם במים כאלה.",
+      "ובכל השדות משקים, כמובן, בטפטוף, כדי שאף טיפה לא תלך לאיבוד.",
+      "החיים בערבה אינם קלים: בקיץ החום מגיע לארבעים מעלות ויותר, והמים מעטים. אבל משפחות רבות בחרו לגור שם, לעבוד את האדמה ולגדל ילדים בלב המדבר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בנגב ובערבה מגדלים גם דגים בבריכות, באמצע המדבר, בעזרת מים מליחים מעומק האדמה."
+     }
+    },
+    {
+     "id": "tech",
+     "title_he": "מחשב בחממה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A modern farm in the Negev: shade nets stretched over long rows of plants, a small weather station and soil sensors among them, a young farmer in a work shirt checking a tablet.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 🌱",
+     "say": [
+      "כדי להגן על הצמחים מהשמש החזקה ומהרוח, מגדלים אותם בחממות ומתחת לרשתות. הרשת מסננת חלק מהשמש, ושומרת על הצמחים מחרקים.",
+      "מחשבים קטנים בודקים את הלחות באדמה, ושולחים לטפטפות בדיוק את כמות המים והדשן שהצמח צריך.",
+      "ומדענים בישראל פיתחו זנים חדשים של צמחים, שמתאימים לחום וליובש. כך, לאט לאט, הופך המדבר לגן.",
+      "יש גם חממות שבהן מגדלים צמחים בלי אדמה בכלל, במצע של סיבי קוקוס או חומרים אחרים, והמים והמזון מגיעים אליהם בטפטוף.",
+      "ובתחנות המחקר בנגב ובערבה בודקים חוקרים כל צמח: כמה מים הוא שותה, כמה חום הוא סובל, ואיך אפשר לגדל ממנו יותר, במים פחות.",
+      "וגם דבורים עוזרות: בחממות רבות מכניסים כוורות קטנות, והדבורים מאביקות את הפרחים, כדי שיהיו פירות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "dates",
+     "title_he": "דבש תמרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A tall date palm grove in the Jordan Valley at golden hour, heavy golden clusters of dates hanging under the leaves, a farmer with a kippah on a tall ladder harvesting into a basket.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🌴",
+     "say": [
+      "והנה עץ אהוב במיוחד: הדקל, עץ התמר. בבקעת הירדן ובערבה גדלים מטעים ענקיים של תמרים.",
+      "התמר הוא אחד משבעת המינים שהשתבחה בהם ארץ ישראל. כשהתורה אומרת ״ארץ זית שמן ודבש״, חז״ל מסבירים שהדבש הוא דבש תמרים.",
+      "תמרים מישראל נשלחים היום לארצות רבות, והם נחשבים מהטובים בעולם.",
+      "ומלבד התמרים מגדלים בנגב גם זיתים, ענבים ורימונים, חלק משבעת המינים. בנגב יש היום כרמים, במקום שלפני מאה שנה היה רק חול."
+     ],
+     "pasuk": {
+      "text": "אֶרֶץ חִטָּה וּשְׂעֹרָה וְגֶפֶן וּתְאֵנָה וְרִמּוֹן, אֶרֶץ זֵית שֶׁמֶן וּדְבָשׁ",
+      "ref": "דברים ח, ח"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "במצדה מצאו גרעיני תמר עתיקים, מלפני כאלפיים שנה. חוקרים שתלו אחד מהם, והוא נבט וגדל לעץ! קראו לו ״מתושלח״."
+     }
+    },
+    {
+     "id": "mitzvot",
+     "title_he": "מצוות התלויות בארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: In a packing house in the Arava, a farmer with a kippah and a rabbi with a beard stand beside crates of peppers, the rabbi explaining something kindly while the farmer listens.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "לחקלאות בארץ ישראל יש גם צד של קדושה. יש מצוות שמקיימים רק בארץ: תרומות ומעשרות, ערלה ושמיטה.",
+      "חקלאי יהודי בערבה, שמגדל פלפלים בחממה, מקפיד שיפרישו מהם תרומות ומעשרות, ושואל את הרב כשיש לו שאלה.",
+      "כך כל פלפל וכל תמר נעשים חלק מקיום התורה בארץ ישראל.",
+      "ובשנת השמיטה, חקלאי הנגב והערבה, כמו כל חקלאי הארץ, שואלים את הרבנים איך לשמור את המצווה. על כך נלמד עוד בשיעור האחרון של הקורס."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "פלפל מהערבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A family Shabbat-eve kitchen: the two siblings help arrange a bowl of bright Israeli peppers, dates and tomatoes on the table, a window showing the evening sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה ראינו? מדבר שנראה שומם הפך לשדות, חממות ומטעים, בזכות מים, מחקר ועבודה קשה מאוד של חקלאים.",
+      "וגם בזכות ברכת השם, שהבטיח לנו בפי הנביאים שהארץ תפרח כשבניה ישובו אליה.",
+      "וכשאנחנו אוכלים פרי משבעת המינים, אנחנו מברכים אחר כך ברכה מעין שלוש, ומודים על ״ארץ חמדה טובה ורחבה״.",
+      "בפעם הבאה שאתם אוכלים פלפל או תמר מהערבה, ברכו עליו בכוונה. בשיעור הבא נכיר את האנשים שמצילים חיים: חובשים, מתנדבים וממציאים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "המדבר פורח",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "desert",
+     "title_he": "האם אפשר לגדל במדבר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The Arava desert: on one side bare golden sand and rocky mountains under a fierce sun; on the other side, rows of white greenhouses and green date palms, the two siblings standing between them.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👦 👧 🌴",
+     "say": [
+      "תארו לכם מדבר: חול, אבנים, שמש לוהטת, וכמעט בלי גשם. האם אפשר לגדל בו פירות וירקות?",
+      "לפני מאה שנה רוב האנשים היו אומרים: אין סיכוי! הנגב והערבה נראו כמו ארץ שוממה.",
+      "אבל הנביאים הבטיחו שהמדבר עוד יפרח: ״ישושום מדבר וציה, ותגל ערבה ותפרח כחבצלת״. היום, מי שנוסע בערבה רואה חממות, מטעי תמרים ושדות ירוקים באמצע המדבר. בואו נגלה איך זה קרה.",
+      "חז״ל מספרים שבזמן שעם ישראל ישב בארצו, הארץ הייתה מלאה ברכה. בגמרא מתוארים אשכולות ענבים גדולים ופירות מתוקים כדבש."
+     ],
+     "pasuk": {
+      "text": "יְשֻׂשׂוּם מִדְבָּר וְצִיָּה, וְתָגֵל עֲרָבָה וְתִפְרַח כַּחֲבַצָּלֶת",
+      "ref": "ישעיהו לה, א"
+     },
+     "note": null
+    },
+    {
+     "id": "points",
+     "title_he": "אחת עשרה הנקודות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Night in the northern Negev, 1946: pioneers in work shirts, long trousers and caps, and women in long skirts and head scarves, unload wooden huts and a water tank from trucks by lantern light under a starry sky.",
+     "move": "right",
+     "fx": "stars",
+     "art": "👨 👩 ⛺",
+     "say": [
+      "במוצאי יום הכיפורים של שנת תש״ז, 1946, עלו על הקרקע בלילה אחד אחת עשרה נקודות יישוב חדשות בנגב. הן נקראו ״אחת עשרה הנקודות״.",
+      "המתיישבים התמודדו עם חום כבד, מעט מים ואדמה קשה. הם הביאו מים בצינורות דקים ממרחק, ועבדו מבוקר עד ערב.",
+      "דוד בן־גוריון, ראש הממשלה הראשון, האמין שעתיד המדינה תלוי ביישוב הנגב. בזקנתו הוא אף עבר לגור בשדה בוקר, בלב המדבר.",
+      "כדי לא למשוך תשומת לב, המתיישבים יצאו בלילה, בשיירות של משאיות, עם צריפים מוכנים, ציוד ומים. עד הבוקר כבר עמדו במקום אחת עשרה נקודות יישוב.",
+      "היישובים הצעירים האלה עמדו אחר כך במבחנים קשים, ושמרו על הנגב בשביל עם ישראל.",
+      "ובתנ״ך הנגב איננו ארץ ריקה: בבאר שבע חפר אברהם אבינו באר, ושם נטע אשל. ויצחק אבינו חפר בארות בגרר, והפלשתים סתמו אותן, והוא חזר וחפר. כבר אבותינו טרחו למצוא מים בנגב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את אחת עשרה הנקודות הקימו בלילה אחד, בחשאי, כדי שעד הבוקר כבר יעמדו היישובים על הקרקע."
+     }
+    },
+    {
+     "id": "arava",
+     "title_he": "ירקות בחורף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Inside a bright Arava greenhouse in winter: rows of red and yellow pepper plants on black drip lines, a farmer with a kippah and a sun hat picking peppers into a crate, mountains visible through the plastic walls.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "דרומה יותר, בערבה, בין ים המלח לאילת, החום קשה עוד יותר. אבל דווקא לחום יש יתרון: בחורף, כשבאירופה קר ומושלג, בערבה חמים ושמשי.",
+      "החקלאים בערבה מגדלים בחורף פלפלים, עגבניות, מלונים ופרחים, ושולחים אותם לארצות רחוקות.",
+      "חוקרים גילו שבעומק האדמה בנגב יש מים מליחים, מים שיש בהם קצת מלח. יש צמחים, כמו עגבניות מסוימות, שנעשים אפילו מתוקים יותר כשמשקים אותם במים כאלה.",
+      "ובכל השדות משקים, כמובן, בטפטוף, כדי שאף טיפה לא תלך לאיבוד.",
+      "החיים בערבה אינם קלים: בקיץ החום מגיע לארבעים מעלות ויותר, והמים מעטים. אבל משפחות רבות בחרו לגור שם, לעבוד את האדמה ולגדל ילדים בלב המדבר.",
+      "הערבה מוזכרת בתורה: בני ישראל עברו בה במסעותיהם במדבר, בדרך לארץ. ושלמה המלך בנה צי אוניות בעציון גבר, ליד אילת, על שפת ים סוף."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בנגב ובערבה מגדלים גם דגים בבריכות, באמצע המדבר, בעזרת מים מליחים מעומק האדמה."
+     }
+    },
+    {
+     "id": "tech",
+     "title_he": "מחשב בחממה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A modern farm in the Negev: shade nets stretched over long rows of plants, a small weather station and soil sensors among them, a young farmer in a work shirt checking a tablet.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 🌱",
+     "say": [
+      "כדי להגן על הצמחים מהשמש החזקה ומהרוח, מגדלים אותם בחממות ומתחת לרשתות. הרשת מסננת חלק מהשמש, ושומרת על הצמחים מחרקים.",
+      "מחשבים קטנים בודקים את הלחות באדמה, ושולחים לטפטפות בדיוק את כמות המים והדשן שהצמח צריך.",
+      "ומדענים בישראל פיתחו זנים חדשים של צמחים, שמתאימים לחום וליובש. כך, לאט לאט, הופך המדבר לגן.",
+      "יש גם חממות שבהן מגדלים צמחים בלי אדמה בכלל, במצע של סיבי קוקוס או חומרים אחרים, והמים והמזון מגיעים אליהם בטפטוף.",
+      "ובתחנות המחקר בנגב ובערבה בודקים חוקרים כל צמח: כמה מים הוא שותה, כמה חום הוא סובל, ואיך אפשר לגדל ממנו יותר, במים פחות.",
+      "בזוהר נאמר: ״אסתכל באורייתא וברא עלמא״, הקדוש ברוך הוא הביט בתורה וברא את העולם. כל חוק טבע שמגלים הוא חלק מהחכמה שהשם הטביע בבריאה. מי שמגלה איך לגדל צמח במדבר, מגלה עוד טיפה מחכמת הבורא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "dates",
+     "title_he": "דבש תמרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A tall date palm grove in the Jordan Valley at golden hour, heavy golden clusters of dates hanging under the leaves, a farmer with a kippah on a tall ladder harvesting into a basket.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🌴",
+     "say": [
+      "והנה עץ אהוב במיוחד: הדקל, עץ התמר. בבקעת הירדן ובערבה גדלים מטעים ענקיים של תמרים.",
+      "התמר הוא אחד משבעת המינים שהשתבחה בהם ארץ ישראל. כשהתורה אומרת ״ארץ זית שמן ודבש״, חז״ל מסבירים שהדבש הוא דבש תמרים.",
+      "תמרים מישראל נשלחים היום לארצות רבות, והם נחשבים מהטובים בעולם.",
+      "ומלבד התמרים מגדלים בנגב גם זיתים, ענבים ורימונים, חלק משבעת המינים. בנגב יש היום כרמים, במקום שלפני מאה שנה היה רק חול.",
+      "דוד המלך אמר: ״צדיק כתמר יפרח״. חז״ל במדרש מסבירים: בתמר אין פסולת. את פירותיו אוכלים, בלולב מברכים בסוכות, ובענפיו מסככים. כך הצדיק: כל מה שבו מועיל לעולם."
+     ],
+     "pasuk": {
+      "text": "אֶרֶץ חִטָּה וּשְׂעֹרָה וְגֶפֶן וּתְאֵנָה וְרִמּוֹן, אֶרֶץ זֵית שֶׁמֶן וּדְבָשׁ",
+      "ref": "דברים ח, ח"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "במצדה מצאו גרעיני תמר עתיקים, מלפני כאלפיים שנה. חוקרים שתלו אחד מהם, והוא נבט וגדל לעץ! קראו לו ״מתושלח״."
+     }
+    },
+    {
+     "id": "mitzvot",
+     "title_he": "מצוות התלויות בארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: In a packing house in the Arava, a farmer with a kippah and a rabbi with a beard stand beside crates of peppers, the rabbi explaining something kindly while the farmer listens.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "לחקלאות בארץ ישראל יש גם צד של קדושה. יש מצוות שמקיימים רק בארץ: תרומות ומעשרות, ערלה ושמיטה.",
+      "חקלאי יהודי בערבה, שמגדל פלפלים בחממה, מקפיד שיפרישו מהם תרומות ומעשרות, ושואל את הרב כשיש לו שאלה.",
+      "כך כל פלפל וכל תמר נעשים חלק מקיום התורה בארץ ישראל.",
+      "ובשנת השמיטה, חקלאי הנגב והערבה, כמו כל חקלאי הארץ, שואלים את הרבנים איך לשמור את המצווה. על כך נלמד עוד בשיעור האחרון של הקורס.",
+      "והרמב״ן מונה את יישוב ארץ ישראל כמצווה מן התורה, מהפסוק ״והורשתם את הארץ וישבתם בה״."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ketz",
+     "title_he": "הקץ המגולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: The mountains of Israel in early spring: terraced hillsides covered with blossoming almond trees, vineyards and olive groves, a village with red roofs, soft light from above.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "חז״ל במסכת סנהדרין אומרים דבר מדהים: ״אין לך קץ מגולה מזה, שנאמר: ואתם הרי ישראל ענפכם תתנו ופריכם תשאו לעמי ישראל, כי קרבו לבוא״.",
+      "רש״י מסביר: כשארץ ישראל נותנת את פירותיה בעין יפה, בשפע, זה סימן ברור שהגאולה קרובה.",
+      "הרמב״ן כתב בפירושו לתורה, על הפסוק ״ושממו עליה אויביכם״, שיש כאן בשורה טובה: ארץ ישראל לא נתנה את פירותיה בשפע לאחרים, ונשארה שוממה במשך הגלות הארוכה, כאילו היא מחכה לבניה.",
+      "ולכן, כשנוסעים היום בנגב ובגליל ורואים שדות ומטעים במקום שממה, רואים בעיניים נבואה שמתקיימת.",
+      "ובאמת, מי שקורא תיאורים של ארץ ישראל מלפני מאה וחמישים שנה, מוצא בהם הרבה שממה, ביצות ואדמה עזובה. מה שרואים היום, שדות ומטעים, הוא שינוי עצום."
+     ],
+     "pasuk": {
+      "text": "וְאַתֶּם הָרֵי יִשְׂרָאֵל עַנְפְּכֶם תִּתֵּנוּ וּפֶרְיְכֶם תִּשְׂאוּ לְעַמִּי יִשְׂרָאֵל, כִּי קֵרְבוּ לָבוֹא",
+      "ref": "יחזקאל לו, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "פלפל מהערבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A family Shabbat-eve kitchen: the two siblings help arrange a bowl of bright Israeli peppers, dates and tomatoes on the table, a window showing the evening sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה ראינו? מדבר שנראה שומם הפך לשדות, חממות ומטעים, בזכות מים, מחקר ועבודה קשה מאוד של חקלאים.",
+      "וגם בזכות ברכת השם, שהבטיח לנו בפי הנביאים שהארץ תפרח כשבניה ישובו אליה.",
+      "וכשאנחנו אוכלים פרי משבעת המינים, אנחנו מברכים אחר כך ברכה מעין שלוש, ומודים על ״ארץ חמדה טובה ורחבה״.",
+      "בפעם הבאה שאתם אוכלים פלפל או תמר מהערבה, ברכו עליו בכוונה. בשיעור הבא נכיר את האנשים שמצילים חיים: חובשים, מתנדבים וממציאים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו ״אחת עשרה הנקודות״?",
+   "answer": "יישובים שהוקמו בנגב בלילה אחד",
+   "options": [
+    "יישובים שהוקמו בנגב בלילה אחד",
+    "אחת עשרה בארות במדבר",
+    "אחת עשרה חממות בערבה"
+   ],
+   "explain_he": "במוצאי יום הכיפורים תש״ז הוקמו אחת עשרה נקודות יישוב בנגב, בלילה אחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו ״אחת עשרה הנקודות״?",
+   "answer": "יישובים שהוקמו בנגב בלילה אחד",
+   "options": [
+    "יישובים שהוקמו בנגב בלילה אחד",
+    "אחת עשרה בארות במדבר",
+    "אחת עשרה חממות בערבה"
+   ],
+   "explain_he": "במוצאי יום הכיפורים תש״ז הוקמו אחת עשרה נקודות יישוב בנגב, בלילה אחד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היתרון של הערבה בחורף?",
+   "answer": "חמים ושמשי, ולכן אפשר לגדל ירקות כשבאירופה קר",
+   "options": [
+    "חמים ושמשי, ולכן אפשר לגדל ירקות כשבאירופה קר",
+    "יורד בה הרבה גשם",
+    "יש בה שלג שנמס"
+   ],
+   "explain_he": "החום של הערבה מאפשר לגדל פלפלים ועגבניות בחורף ולשלוח אותם לארצות קרות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היתרון של הערבה בחורף?",
+   "answer": "חמים ושמשי, ולכן אפשר לגדל ירקות כשבאירופה קר",
+   "options": [
+    "חמים ושמשי, ולכן אפשר לגדל ירקות כשבאירופה קר",
+    "יורד בה הרבה גשם",
+    "יש בה שלג שנמס"
+   ],
+   "explain_he": "החום של הערבה מאפשר לגדל פלפלים ועגבניות בחורף ולשלוח אותם לארצות קרות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז״ל, מהו ״דבש״ בפסוק ״ארץ זית שמן ודבש״?",
+   "answer": "דבש תמרים",
+   "options": [
+    "דבש תמרים",
+    "דבש דבורים",
+    "סוכר"
+   ],
+   "explain_he": "התמר הוא אחד משבעת המינים, וה״דבש״ שבפסוק הוא דבש תמרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז״ל, מהו ״דבש״ בפסוק ״ארץ זית שמן ודבש״?",
+   "answer": "דבש תמרים",
+   "options": [
+    "דבש תמרים",
+    "דבש דבורים",
+    "סוכר"
+   ],
+   "explain_he": "התמר הוא אחד משבעת המינים, וה״דבש״ שבפסוק הוא דבש תמרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לגרעין התמר העתיק ממצדה?",
+   "answer": "שתלו אותו, והוא נבט וגדל לעץ",
+   "options": [
+    "שתלו אותו, והוא נבט וגדל לעץ",
+    "שמו אותו במוזיאון בלבד",
+    "הכינו ממנו ריבה"
+   ],
+   "explain_he": "הגרעין בן כאלפיים השנים נבט, והעץ נקרא ״מתושלח״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לגרעין התמר העתיק ממצדה?",
+   "answer": "שתלו אותו, והוא נבט וגדל לעץ",
+   "options": [
+    "שתלו אותו, והוא נבט וגדל לעץ",
+    "שמו אותו במוזיאון בלבד",
+    "הכינו ממנו ריבה"
+   ],
+   "explain_he": "הגרעין בן כאלפיים השנים נבט, והעץ נקרא ״מתושלח״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך עוזרים מחשבים קטנים לחקלאי?",
+   "answer": "בודקים את הלחות ושולחים לטפטפות בדיוק את המים שהצמח צריך",
+   "options": [
+    "בודקים את הלחות ושולחים לטפטפות בדיוק את המים שהצמח צריך",
+    "קוטפים את הפירות",
+    "מגרשים ציפורים"
+   ],
+   "explain_he": "החיישנים מודדים את האדמה, והמחשב מכוון את הטפטוף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך עוזרים מחשבים קטנים לחקלאי?",
+   "answer": "בודקים את הלחות ושולחים לטפטפות בדיוק את המים שהצמח צריך",
+   "options": [
+    "בודקים את הלחות ושולחים לטפטפות בדיוק את המים שהצמח צריך",
+    "קוטפים את הפירות",
+    "מגרשים ציפורים"
+   ],
+   "explain_he": "החיישנים מודדים את האדמה, והמחשב מכוון את הטפטוף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז״ל במסכת סנהדרין, מהו ״הקץ המגולה״?",
+   "answer": "כשארץ ישראל נותנת את פירותיה בשפע",
+   "options": [
+    "כשארץ ישראל נותנת את פירותיה בשפע",
+    "כשיורד שלג בירושלים",
+    "כשבונים עיר חדשה"
+   ],
+   "explain_he": "רש״י מסביר: כשהארץ נותנת פריה בעין יפה, הגאולה קרובה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרמב״ן על ״ושממו עליה אויביכם״?",
+   "answer": "שזו בשורה טובה: הארץ נשארת שוממה עד שבניה ישובו",
+   "options": [
+    "שזו בשורה טובה: הארץ נשארת שוממה עד שבניה ישובו",
+    "שהארץ לא תצמיח לעולם",
+    "שצריך לעזוב את הארץ"
+   ],
+   "explain_he": "הארץ לא נתנה פירותיה בשפע לאחרים, כאילו חיכתה לבניה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f2e14"
+  }
+ ]
+}

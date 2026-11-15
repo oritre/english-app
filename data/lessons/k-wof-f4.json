@@ -1,0 +1,488 @@
+{
+ "id": "k-wof-f4",
+ "unit_id": "k-wof-u2",
+ "course": "world",
+ "title_he": "הנהרות הגדולים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "הנהרות הגדולים",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "river",
+     "title_he": "דרך של מים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A river born from snowy mountains winds down through forests, fields and a riverside town toward a distant sea; the two children paddle a small canoe in the foreground, morning light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "נהר הוא כמו דרך של מים. הוא מתחיל בהרים, וזורם עד הים.",
+      "ליד נהרות תמיד גרו אנשים: יש בהם מים לשתייה, לשדות ולדגים.",
+      "היום נשוט על הנהרות הגדולים של העולם.",
+      "נהר מתחיל לפעמים ממעיין קטן, או משלג שנמס על ההרים. בדרך מצטרפים אליו עוד ועוד פלגים, והוא נעשה רחב.",
+      "וגם היום, רוב הערים הגדולות בעולם נמצאות ליד נהר או ליד ים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "nile",
+     "title_he": "היאור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: The Nile at dawn: tall papyrus reeds at the water's edge, a small woven basket floating gently among them, an older girl in a long dress and head scarf watching from behind the reeds; palm trees and distant fields.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👧",
+     "say": [
+      "הנילוס הוא אחד הנהרות הארוכים בעולם. הוא זורם באפריקה, דרך מצרים.",
+      "בתורה הנילוס נקרא ״היאור״. שם הניחה יוכבד את משה התינוק בתיבה קטנה, ובת פרעה מצאה אותו.",
+      "במצרים כמעט לא יורד גשם. כל השדות שותים מהנילוס.",
+      "פעם בשנה הנילוס היה עולה על גדותיו, ומשקה את השדות.",
+      "ובמכת דם, המכה הראשונה, למדו המצרים שגם הנהר הגדול שלהם נמצא בידי הקדוש ברוך הוא."
+     ],
+     "pasuk": {
+      "text": "וַתָּשֶׂם בָּהּ אֶת הַיֶּלֶד, וַתָּשֶׂם בַּסּוּף עַל שְׂפַת הַיְאֹר",
+      "ref": "שמות ב, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "רש״י מסביר שמשה לא היכה את היאור במכת דם, כי היאור הגן עליו כשהיה תינוק. הכרת הטוב, אפילו כלפי מים!"
+     }
+    },
+    {
+     "id": "prat",
+     "title_he": "הפרת והחידקל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Two wide rivers flowing across a flat green plain in ancient Mesopotamia under a big sky, reed boats on the water, a young man in a simple robe with a walking staff setting out westward with sheep and a tent behind him.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚶 🐑",
+     "say": [
+      "בארץ שנקראת היום עיראק זורמים שני נהרות גדולים: הפרת והחידקל.",
+      "התורה מספרת שהם יוצאים מהנהר שיצא מגן עדן!",
+      "ואברהם אבינו גדל לא רחוק מנהר הפרת. משם הוא יצא, לפי ציווי השם, אל ארץ כנען.",
+      "ובין הפרת לחידקל נמצאת בבל.",
+      "ולכן, לפי רש״י, נקרא אברהם ״העברי״: הוא בא מעבר הנהר."
+     ],
+     "pasuk": {
+      "text": "וְהַנָּהָר הָרְבִיעִי הוּא פְרָת",
+      "ref": "בראשית ב, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "bavel",
+     "title_he": "על נהרות בבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Evening by a wide river in Babylon long ago: Jewish exiles in simple robes and head coverings sit sadly on the bank looking west toward a faint sunset, harps hanging on the branches of willow trees above them.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👵",
+     "say": [
+      "אחרי חורבן בית המקדש הראשון, יהודים רבים הוגלו לבבל, ליד הנהרות האלה.",
+      "שם הם ישבו ובכו, כי התגעגעו לירושלים. ועד היום אנחנו זוכרים את ירושלים.",
+      "אבל גם שם, ליד הנהרות, הם המשיכו ללמוד תורה. בבבל קמו ישיבות גדולות, ושם נכתב התלמוד הבבלי."
+     ],
+     "pasuk": {
+      "text": "עַל נַהֲרוֹת בָּבֶל שָׁם יָשַׁבְנוּ גַּם בָּכִינוּ, בְּזָכְרֵנוּ אֶת צִיּוֹן",
+      "ref": "תהלים קלז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "amazon",
+     "title_he": "נהרות ענק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: An enormous brown river winding through endless green rainforest seen from high above, so wide the far bank is hazy, a small river boat on its surface.",
+     "move": "out",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "והנהר שיש בו הכי הרבה מים בעולם? האמזונס, באמריקה הדרומית!",
+      "הוא כל כך רחב, שבמקומות מסוימים כמעט אי אפשר לראות את הגדה השנייה.",
+      "בסין יש נהר ארוך מאוד, היאנגצה. ובאמריקה הצפונית זורם המיסיסיפי.",
+      "ובאירופה זורם נהר הריין. בערים שלידו גרו יהודים רבים, ושם למד רש״י תורה.",
+      "האמזונס כל כך רחב ועמוק, שספינות גדולות שטות בו הרחק לתוך היבשת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "האמזונס שופך לאוקיינוס כל כך הרבה מים, שגם רחוק מהחוף, בתוך הים, המים עדיין פחות מלוחים."
+     }
+    },
+    {
+     "id": "jordan",
+     "title_he": "הירדן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: The Jordan River in ancient times: priests in white garments carry a covered golden ark on poles into the river, the waters upstream standing up like a wall, the people of Israel crossing on dry ground with joy.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👴 👦",
+     "say": [
+      "ועכשיו לנהר שלנו: הירדן. הוא קטן בהרבה מהנילוס ומהאמזונס.",
+      "אבל הוא נהר קדוש ומיוחד! בני ישראל עברו אותו ביבשה, כשנכנסו לארץ ישראל עם יהושע. המים עמדו כמו חומה!",
+      "הירדן יוצא ממעיינות שליד החרמון, זורם אל הכנרת, וממנה ממשיך עד ים המלח.",
+      "וגם אליהו הנביא ואלישע עברו את הירדן בנס."
+     ],
+     "pasuk": {
+      "text": "וַיַּעַמְדוּ הַמַּיִם הַיֹּרְדִים מִלְמַעְלָה, קָמוּ נֵד אֶחָד",
+      "ref": "יהושע ג, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מים של חיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children dip their feet in the clear Jordan River among green trees and reeds in the Galilee, smiling, sunlight sparkling on the water.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? הנילוס במצרים, הפרת והחידקל בבבל, האמזונס הענק, והירדן הקטן והקדוש שלנו.",
+      "נהרות נותנים מים לאנשים, לשדות ולבעלי החיים.",
+      "נהר קטן או גדול, כל טיפת מים היא מתנה מהשם.",
+      "בשיעור הבא והאחרון נגלה איפה גרו יהודים בכל העולם, לאורך הדורות."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "הנהרות הגדולים",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "river",
+     "title_he": "דרך של מים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A river born from snowy mountains winds down through forests, fields and a riverside town toward a distant sea; the two children paddle a small canoe in the foreground, morning light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "כל נהר מתחיל במקום גבוה, מגשם, משלג שנמס או ממעיין, וזורם בירידה, לפעמים אלפי קילומטרים, עד שהוא נשפך לים או לאגם.",
+      "מאז ומעולם, בני אדם בנו את ביתם ליד נהרות: יש בהם מים לשתייה ולהשקיה, דגים לאכול, ודרך נוחה להשיט סירות עם סחורה.",
+      "היום נשוט לאורך כמה מהנהרות הגדולים בעולם, ונגלה שהם מופיעים גם בתורה ובסיפורי עם ישראל.",
+      "נהר גם מעצב את הארץ: במשך זמן רב הוא חוצב עמקים, ובמקום שבו הוא נשפך לים הוא מניח בוץ וחול, ויוצר שטח פורה שנקרא דלתה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "nile",
+     "title_he": "היאור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: The Nile at dawn: tall papyrus reeds at the water's edge, a small woven basket floating gently among them, an older girl in a long dress and head scarf watching from behind the reeds; palm trees and distant fields.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👧",
+     "say": [
+      "הנילוס, באפריקה, נחשב בדרך כלל לנהר הארוך בעולם, באורך של בערך שישה אלפים ושש מאות קילומטרים. הוא זורם צפונה, דרך מצרים, עד הים התיכון.",
+      "במצרים כמעט לא יורד גשם. כל החיים בה תלויים בנילוס: פעם בשנה הוא היה עולה על גדותיו, משקה את השדות ומשאיר עליהם בוץ פורה.",
+      "בתורה הנילוס נקרא ״היאור״. ביאור הניחה יוכבד את משה התינוק בתיבה, ובו התחילה המכה הראשונה, מכת דם.",
+      "ודבר מרגש: את מכת דם לא עשה משה, אלא אהרן. רש״י מסביר: היאור הגן על משה כשהיה תינוק, ולכן לא ראוי שמשה יכה אותו. מכאן לומדים הכרת הטוב, אפילו כלפי נהר!",
+      "ומכת דם לימדה את המצרים, שהחשיבו את הנילוס כמקור חייהם, שגם הנהר הגדול ביותר נמצא בידי הקדוש ברוך הוא."
+     ],
+     "pasuk": {
+      "text": "וַתָּשֶׂם בָּהּ אֶת הַיֶּלֶד, וַתָּשֶׂם בַּסּוּף עַל שְׂפַת הַיְאֹר",
+      "ref": "שמות ב, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "prat",
+     "title_he": "הפרת והחידקל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Two wide rivers flowing across a flat green plain in ancient Mesopotamia under a big sky, reed boats on the water, a young man in a simple robe with a walking staff setting out westward with sheep and a tent behind him.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚶 🐑",
+     "say": [
+      "ממזרח לנו, בארץ שנקראת היום עיראק, זורמים שני נהרות גדולים: הפרת והחידקל. ביניהם נמצאת בבל.",
+      "התורה מספרת שמגן עדן יצא נהר, ונחלק לארבעה ראשים. שניים מהם הם החידקל והפרת.",
+      "אברהם אבינו גדל בעבר הנהר, ליד הפרת. משם ציווה עליו הקדוש ברוך הוא ״לך לך מארצך״, והוא הלך אל ארץ כנען. ולכן, לפי פירוש רש״י, נקרא ״העברי״: הוא בא מעבר הנהר.",
+      "והתורה מבטיחה שגבולה הגדול של ארץ ישראל יגיע עד ״הנהר הגדול, נהר פרת״."
+     ],
+     "pasuk": {
+      "text": "וְהַנָּהָר הָרְבִיעִי הוּא פְרָת",
+      "ref": "בראשית ב, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "bavel",
+     "title_he": "על נהרות בבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Evening by a wide river in Babylon long ago: Jewish exiles in simple robes and head coverings sit sadly on the bank looking west toward a faint sunset, harps hanging on the branches of willow trees above them.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👵",
+     "say": [
+      "ואחרי חורבן בית המקדש הראשון, הוגלו רבים מבני ישראל לבבל, אל הארץ שבין הפרת לחידקל.",
+      "בתהלים נאמר על הגולים: ״על נהרות בבל, שם ישבנו גם בכינו, בזכרנו את ציון״. הם תלו את הכינורות על העצים, ולא רצו לשיר בארץ נכרייה.",
+      "ובכל זאת, בבל נעשתה מרכז תורה ענק. לאורך הנהרות האלה קמו ישיבות גדולות, ושם נכתב התלמוד הבבלי, שאנחנו לומדים עד היום.",
+      "בגמרא מוזכרים נהרות רבים של בבל. חכמי התלמוד ישבו בערים שעל גדותיהם, כמו נהרדעא ופומבדיתא, ולמדו שם תורה במשך מאות שנים."
+     ],
+     "pasuk": {
+      "text": "עַל נַהֲרוֹת בָּבֶל שָׁם יָשַׁבְנוּ גַּם בָּכִינוּ, בְּזָכְרֵנוּ אֶת צִיּוֹן",
+      "ref": "תהלים קלז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "amazon",
+     "title_he": "נהרות ענק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: An enormous brown river winding through endless green rainforest seen from high above, so wide the far bank is hazy, a small river boat on its surface.",
+     "move": "out",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "בצד השני של העולם, באמריקה הדרומית, זורם האמזונס. יש בו יותר מים מבכל נהר אחר בעולם. הוא זורם דרך היער הגשום שעליו למדנו.",
+      "בסין זורם היאנגצה, הנהר הארוך באסיה, ובצפון אמריקה המיסיסיפי, שספינות גדולות שטות עליו ומובילות תבואה.",
+      "ובאירופה זורם הריין. בערים שלאורכו, כמו מגנצא ווורמייזא, היו קהילות יהודיות עתיקות וחשובות. בהן למד רש״י תורה מפי רבותיו, לפני בערך אלף שנה.",
+      "וגם לנהרות אחרים באירופה יש קשר לתולדות עמנו: לאורך הדנובה, הוויסלה והניימן קמו קהילות יהודיות גדולות, עם ישיבות ובתי כנסת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "האמזונס שופך לאוקיינוס כל כך הרבה מים, שגם רחוק מהחוף, בתוך הים, המים עדיין פחות מלוחים."
+     }
+    },
+    {
+     "id": "jordan",
+     "title_he": "הירדן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: The Jordan River in ancient times: priests in white garments carry a covered golden ark on poles into the river, the waters upstream standing up like a wall, the people of Israel crossing on dry ground with joy.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👴 👦",
+     "say": [
+      "ועכשיו לנהר שלנו: הירדן. לעומת הנילוס והאמזונס, הוא נהר קטן וצר. הוא יוצא ממעיינות שלמרגלות החרמון, זורם אל הכנרת, וממנה דרומה, עד ים המלח.",
+      "אבל הירדן מופיע בתנ״ך פעמים רבות. כשבני ישראל נכנסו לארץ עם יהושע, הכוהנים נשאו את ארון הברית ונכנסו למים. המים שמלמעלה נעצרו ועמדו כמו חומה, וכל העם עבר בחרבה.",
+      "גם אליהו ואלישע חצו את הירדן בנס. גודלו של נהר לא נמדד רק בקילומטרים, אלא גם במה שקרה לידו.",
+      "הירדן הוא גם גבול: התורה מספרת ששבט ראובן, שבט גד וחצי שבט המנשה קיבלו את נחלתם בעבר הירדן המזרחי, ושאר השבטים ממערב לו."
+     ],
+     "pasuk": {
+      "text": "וַיַּעַמְדוּ הַמַּיִם הַיֹּרְדִים מִלְמַעְלָה, קָמוּ נֵד אֶחָד",
+      "ref": "יהושע ג, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מים של חיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children dip their feet in the clear Jordan River among green trees and reeds in the Galilee, smiling, sunlight sparkling on the water.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? הנילוס, שעליו נשענה כל מצרים; הפרת והחידקל, שביניהם נכתב התלמוד הבבלי; האמזונס, הנהר העשיר במים; הריין, שלאורכו למד רש״י; והירדן, הנהר הקטן שבו קרו ניסים גדולים.",
+      "ובכל פעם שאנחנו שותים מים, אנחנו מברכים ״שהכל נהיה בדברו״, ומודים להשם על המים.",
+      "וליד רבים מהנהרות האלה גרו יהודים. בשיעור הבא והאחרון נצא למסע בעקבות הקהילות היהודיות בעולם, ונראה איך עם אחד שמר על התורה בכל מקום."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקרא הנילוס בתורה?",
+   "answer": "היאור",
+   "options": [
+    "היאור",
+    "הירדן",
+    "הפרת"
+   ],
+   "explain_he": "ביאור הניחה יוכבד את משה בתיבה, ובו התחילה מכת דם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקרא הנילוס בתורה?",
+   "answer": "היאור",
+   "options": [
+    "היאור",
+    "הירדן",
+    "הפרת"
+   ],
+   "explain_he": "ביאור הניחה יוכבד את משה בתיבה, ובו התחילה מכת דם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נהר עברו בני ישראל ביבשה עם יהושע?",
+   "answer": "הירדן",
+   "options": [
+    "הירדן",
+    "הנילוס",
+    "האמזונס"
+   ],
+   "explain_he": "הכוהנים נכנסו למים עם ארון הברית, והמים עמדו כמו חומה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נהר עברו בני ישראל ביבשה עם יהושע?",
+   "answer": "הירדן",
+   "options": [
+    "הירדן",
+    "הנילוס",
+    "האמזונס"
+   ],
+   "explain_he": "הכוהנים נכנסו למים עם ארון הברית, והמים עמדו כמו חומה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה נהר יש הכי הרבה מים בעולם?",
+   "answer": "האמזונס",
+   "options": [
+    "האמזונס",
+    "הירדן",
+    "הנילוס"
+   ],
+   "explain_he": "האמזונס, באמריקה הדרומית, רחב ועשיר במים יותר מכל נהר אחר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה נהר יש הכי הרבה מים בעולם?",
+   "answer": "האמזונס",
+   "options": [
+    "האמזונס",
+    "הירדן",
+    "הנילוס"
+   ],
+   "explain_he": "האמזונס, באמריקה הדרומית, רחב ועשיר במים יותר מכל נהר אחר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו הגולים ״על נהרות בבל״?",
+   "answer": "ישבו ובכו כשנזכרו בציון",
+   "options": [
+    "ישבו ובכו כשנזכרו בציון",
+    "רקדו ושמחו",
+    "בנו ספינות"
+   ],
+   "explain_he": "״על נהרות בבל, שם ישבנו גם בכינו, בזכרנו את ציון״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו הגולים ״על נהרות בבל״?",
+   "answer": "ישבו ובכו כשנזכרו בציון",
+   "options": [
+    "ישבו ובכו כשנזכרו בציון",
+    "רקדו ושמחו",
+    "בנו ספינות"
+   ],
+   "explain_he": "״על נהרות בבל, שם ישבנו גם בכינו, בזכרנו את ציון״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה משה לא היכה את היאור?",
+   "answer": "כי היאור הגן עליו כשהיה תינוק",
+   "options": [
+    "כי היאור הגן עליו כשהיה תינוק",
+    "כי הוא פחד מהמים",
+    "כי היאור היה רחוק"
+   ],
+   "explain_he": "רש״י מלמד אותנו הכרת הטוב: אהרן היכה את היאור, ולא משה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה משה לא היכה את היאור?",
+   "answer": "כי היאור הגן עליו כשהיה תינוק",
+   "options": [
+    "כי היאור הגן עליו כשהיה תינוק",
+    "כי הוא פחד מהמים",
+    "כי היאור היה רחוק"
+   ],
+   "explain_he": "רש״י מלמד אותנו הכרת הטוב: אהרן היכה את היאור, ולא משה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נכתב בבבל, בין הפרת לחידקל?",
+   "answer": "התלמוד הבבלי",
+   "options": [
+    "התלמוד הבבלי",
+    "ספר התהלים",
+    "התורה"
+   ],
+   "explain_he": "בבל נעשתה מרכז תורה גדול, ושם נכתב התלמוד הבבלי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא אברהם ״העברי״, לפי רש״י?",
+   "answer": "כי בא מעבר הנהר",
+   "options": [
+    "כי בא מעבר הנהר",
+    "כי דיבר עברית",
+    "כי עבר במדבר"
+   ],
+   "explain_he": "אברהם גדל בעבר נהר הפרת, ומשם הלך לארץ כנען.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f4e14"
+  }
+ ]
+}

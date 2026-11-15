@@ -1,0 +1,317 @@
+{
+ "id": "k-sho-f1",
+ "unit_id": "k-sho-u1",
+ "course": "holocaust",
+ "title_he": "עולם שהיה: יהודי אירופה לפני השואה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "עולם שהיה: יהודי אירופה לפני השואה",
+   "ref_he": "השואה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיירה ביום שישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A small Jewish town in Poland on a Friday afternoon in autumn: wooden houses, a muddy street, a man in a long coat hurrying home with a challah under his arm, a woman in a headscarf sweeping the doorstep, smoke from chimneys and a low golden sun.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 👨 👩",
+     "say": [
+      "בואו נדמיין רגע עיירה קטנה בפולין, לפני כמאה שנה. יום שישי אחר הצהריים, והשמש כבר נמוכה.",
+      "ברחוב הבוצי ממהר יהודי הביתה עם חלה חמה תחת זרועו. אמא מטאטאת את המפתן, ומהארובות עולה עשן של תבשילי שבת.",
+      "עוד מעט יעבור השַּׁמָּשׁ של בית הכנסת ברחובות ויקרא בקול: \"יידן, צו שבת!\", כלומר: יהודים, לשבת! והחנויות ייסגרו אחת אחרי השנייה.",
+      "בבתים מבריקים את הפמוטים, ומכינים את הטשולנט שיתבשל בתנור כל הלילה. אפילו העני ביותר חוסך כל השבוע, כדי שיהיה לו דג לכבוד שבת.",
+      "העולם הזה כבר איננו. אבל אם אנחנו רוצים להבין את השואה, אנחנו חייבים להתחיל דווקא כאן: במה שהיה לפניה, בחיים עצמם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מיליוני יהודים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A wide map-like landscape of Eastern Europe at dusk seen from a hilltop: rivers, forests and many small towns with the warm lights of windows twinkling, each town with a small wooden synagogue.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🏠 🏠 🏠",
+     "say": [
+      "לפני המלחמה חיו באירופה בערך תשעה מיליון יהודים. בפולין לבדה חיו יותר משלושה מיליון.",
+      "הם חיו בערים גדולות כמו ורשה, וילנה ובודפשט, ובאלפי עיירות קטנות. בכל מקום כזה היו בית כנסת, בית מדרש, מקווה ובית קברות.",
+      "הייתה להם שפה משלהם, יידיש, וכל בית הכיר את המנהגים, את הניגונים ואת הלוח היהודי.",
+      "לא כולם היו עשירים. רבים היו עניים מאוד: סנדלרים, חייטים, רוכלים. אבל היה בהם עושר אחר, עושר של תורה ושל קהילה.",
+      "וגם במערב אירופה, בגרמניה, בצרפת ובהולנד, חיו קהילות יהודיות ותיקות. חלקן היו שם כבר יותר מאלף שנה.",
+      "בכל קהילה היה רב, שפסק הלכה, דאג לעניים ולימד את הציבור. ולצידו ראשי הקהל, שניהלו את צורכי הקהילה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בפולין לבדה חיו לפני המלחמה יותר משלושה מיליון יהודים. בעיר וילנה היו כל כך הרבה תלמידי חכמים, עד שקראו לה \"ירושלים דליטא\"."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "הישיבות הגדולות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Inside a large old yeshiva hall in Lithuania at night: long wooden tables, hundreds of young men with kippot learning in pairs over open volumes, oil lamps glowing, steam on the windows from the cold outside.",
+     "move": "left",
+     "fx": "light",
+     "art": "👦 👦 👨",
+     "say": [
+      "הלב של היהדות באירופה היה הישיבות. בליטא ובפולין פעלו ישיבות מפורסמות כמו מיר, ראדין, סלבודקה, פוניבז׳ וחכמי לובלין.",
+      "בחורים צעירים הגיעו אליהן מכל העולם. הם ישנו לפעמים על ספסלי בית המדרש, אכלו מעט, ולמדו מבוקר ועד לילה.",
+      "בכל ישיבה עמד ראש ישיבה גדול, ולצידו משגיח שדאג שהבחורים יגדלו לא רק בידיעת התורה, אלא גם במידות טובות וביראת שמיים.",
+      "כשנכנסים לבית מדרש כזה בלילה, שומעים זמזום אחד גדול: מאות קולות שלומדים גמרא. זה היה הקול של עם ישראל.",
+      "בחורים עניים אכלו לעיתים \"ימים\": בכל יום בשבוע אכלו אצל משפחה אחרת בעיירה, שהתכבדה להאכיל לומד תורה."
+     ],
+     "pasuk": {
+      "text": "הֲפֹךְ בָּהּ וַהֲפֹךְ בָּהּ, דְּכֹלָּא בָהּ",
+      "ref": "פרקי אבות, פרק ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s3b",
+     "title_he": "החפץ חיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: An elderly rabbi with a long white beard and a simple cap sitting by the window of a small modest wooden house in the town of Radin, writing in a book, a tiny grocery counter with a scale visible in the next room, soft afternoon light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "בואו נכיר את אחד האנשים המיוחדים של אותו דור: הרב ישראל מאיר הכהן מראדין. הוא נקרא על שם ספרו הראשון, \"חפץ חיים\", על הלכות שמירת הלשון.",
+      "שם הספר לקוח מן הפסוק בתהלים: מי האיש החפץ חיים... נצור לשונך מרע.",
+      "מסופר שאשתו ניהלה חנות מכולת קטנה, והוא הקפיד מאוד על משקל מדויק. לפעמים אף סגר את החנות מוקדם, כדי שגם לחנויות של השכנים תהיה פרנסה.",
+      "הוא כתב גם את ה\"משנה ברורה\", ספר הלכה על חלק \"אורח חיים\" של השולחן ערוך, שלומדים בו עד היום בכל בית מדרש.",
+      "יהודים מכל אירופה באו לראדין כדי לקבל ממנו ברכה ועצה. הוא היה כמו אבא לכל הדור.",
+      "גם בזקנותו המופלגת המשיך ללמוד וללמד, והזכיר לכולם לצפות בכל יום לביאת המשיח."
+     ],
+     "pasuk": {
+      "text": "מִי הָאִישׁ הֶחָפֵץ חַיִּים... נְצֹר לְשׁוֹנְךָ מֵרָע",
+      "ref": "תהלים לד, יג-יד"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "החפץ חיים נפטר בשנת 1933, בגיל תשעים וחמש בערך, באותה שנה שבה עלו הנאצים לשלטון בגרמניה."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "הדף היומי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A grand hall in Vienna in the 1920s filled with rabbis in black hats and coats seated in rows, one younger rabbi with a black beard standing at a podium speaking with energy, warm light from tall windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👴",
+     "say": [
+      "בשנת תרפ\"ג, לפני יותר ממאה שנה, נאספו גדולי ישראל לכנס גדול בווינה.",
+      "שם קם רב צעיר, הרב מאיר שפירא מלובלין, והציע רעיון פשוט ומופלא: שכל יהודי בעולם ילמד בכל יום אותו דף גמרא.",
+      "כך, אמר, יהודי שנוסע ממקום למקום ימצא בכל עיר יהודים שלומדים בדיוק את הדף שלו. כל עם ישראל יהיה כמו בית מדרש אחד.",
+      "הרב שפירא גם הקים את ישיבת חכמי לובלין, בניין גדול ומפואר לתורה. הרעיון שלו, הדף היומי, חי עד היום.",
+      "כשנחנך בניין הישיבה בלובלין, באו המוני יהודים מכל פולין לשמוח בשמחת התורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כשמסיימים את כל הש\"ס בדף היומי עוברות בערך שבע שנים וחצי. היום מסיימים אותו מאות אלפי יהודים בכל העולם."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "גם הבנות לומדות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A bright modest classroom in Krakow in the 1920s: girls in long dark dresses with sleeves and braided hair sitting at wooden desks with open siddurim, a teacher in a long dress and head covering at the front.",
+     "move": "right",
+     "fx": null,
+     "art": "👧 👧 👩",
+     "say": [
+      "גם החינוך של הבנות התחזק בתקופה הזאת. בקרקוב הקימה שרה שנירר בית ספר קטן לבנות, וקראה לו \"בית יעקב\".",
+      "גדולי ישראל, ובהם החפץ חיים, תמכו ביוזמה. בתוך שנים ספורות קמו מאות בתי ספר כאלה, והבנות למדו בהם תורה, דינים ויראת שמיים.",
+      "כך גדל דור של אמהות יהודיות שהכירו את התורה לעומק, והעבירו אותה לילדיהן.",
+      "בבתים רבים, האמא היא שסיפרה לילדים את סיפורי התורה, ושרה להם שירי אמונה לפני השינה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "קהילה של חסד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A small wooden cheder room in a Polish town in the morning: little boys of about three with kippot sitting around a kind bearded teacher, one boy smiling as he tastes a drop of honey from a small slate, warm light through a small window.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👦 👦",
+     "say": [
+      "גם הילדים הקטנים קיבלו את התורה באהבה. בגיל שלוש בערך הובא הילד אל ה\"חדר\", ושם לימד אותו המלמד את האותיות.",
+      "במקומות רבים נהגו לטפטף טיפת דבש על לוח האותיות, כדי שהילד ירגיש שהתורה מתוקה.",
+      "והקהילה כולה דאגה זו לזו. היו \"חברות\" לכל דבר: הכנסת אורחים, ביקור חולים, הכנסת כלה, וגמ\"ח שהלווה כסף בלי ריבית.",
+      "כשמישהו נפטר, החברה קדישא טיפלה בו בכבוד. כשנולד תינוק, השכנות הביאו אוכל. כמעט איש לא היה לבד.",
+      "בפורים שלחו משלוח מנות ומתנות לאביונים, ובערב פסח אספו \"מעות חיטים\", כדי שגם לעני ביותר יהיו מצות ויין."
+     ],
+     "pasuk": {
+      "text": "וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ",
+      "ref": "ויקרא יט, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "שבת בבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A simple wooden home on Friday night: a white tablecloth, two candles glowing, two challot under a cover, a father in a black hat holding a silver kiddush cup, a mother in a head covering and children around the table.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "והנה ליל שבת. גם בבית הכי עני יש מפה לבנה, שני נרות ושתי חלות.",
+      "ובשבת בבוקר, כל העיירה הולכת לבית הכנסת. אחרי הסעודה, האבות לומדים עם הבנים פרשת השבוע או פרקי אבות.",
+      "האבא חוזר מבית הכנסת, מברך את הילדים ומקדש על היין. אחר כך שרים זמירות, ואולי מגיע גם אורח עני שהוזמן מבית הכנסת.",
+      "בשבת הזאת אין עוני ואין דאגות. יש משפחה, יש תורה, ויש קשר עם הקדוש ברוך הוא.",
+      "בליל שבת שרו \"שלום עליכם\" ו\"אשת חיל\", ובסעודה שלישית, בין הערביים, נשמעו מבתי הכנסת ניגונים שקטים של געגועים.",
+      "כך חיו יהודים באירופה מאות שנים, דור אחרי דור. איש מהם לא ידע מה מחכה בפתח."
+     ],
+     "pasuk": {
+      "text": "וְשָׁמְרוּ בְנֵי יִשְׂרָאֵל אֶת הַשַּׁבָּת לַעֲשׂוֹת אֶת הַשַּׁבָּת לְדֹרֹתָם",
+      "ref": "שמות לא, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "למה זוכרים את מה שהיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A quiet modern living room in Israel in the evening: an old framed sepia photograph of a large Jewish family on a shelf beside a single lit candle, and an old worn siddur lying open next to it.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👴",
+     "say": [
+      "כשמדברים על השואה, קל לחשוב רק על המוות. אבל לפני שנלמד מה קרה, חשוב לזכור מי היו האנשים האלה.",
+      "הם היו סבים וסבתות, הורים וילדים, רבנים ותלמידים, אנשים שחיו חיים מלאים של תורה ומצוות.",
+      "הם לא היו מספרים. לכל אחד מהם היה שם, היו לו משפחה, תפילה וחלומות.",
+      "כשאנחנו לומדים על העולם הזה, אנחנו מחזירים להם, במעט, את השמות ואת הפנים.",
+      "בסרטים הבאים נלמד מה קרה להם. ונראה שגם בתוך החושך הגדול ביותר, האור שלהם לא כבה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sho-f1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה כתב החפץ חיים את ספרו הראשון?",
+   "answer": "על הלכות שמירת הלשון",
+   "options": [
+    "על הלכות שמירת הלשון",
+    "על הלכות שבת",
+    "על חכמת החשבון",
+    "על תולדות פולין"
+   ],
+   "explain_he": "הספר \"חפץ חיים\" עוסק בשמירת הלשון, ושמו לקוח מהפסוק: מי האיש החפץ חיים... נצור לשונך מרע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה טפטפו דבש על לוח האותיות של ילד קטן?",
+   "answer": "כדי שירגיש שהתורה מתוקה",
+   "options": [
+    "כדי שירגיש שהתורה מתוקה",
+    "כדי שהלוח לא יישבר",
+    "כי לא היה אוכל אחר",
+    "כדי שהמלמד יזכור את שמו"
+   ],
+   "explain_he": "בגיל שלוש בערך התחיל הילד ללמוד בחדר, וטיפת הדבש לימדה אותו שהתורה מתוקה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בערך כמה יהודים חיו באירופה לפני המלחמה?",
+   "answer": "בערך תשעה מיליון",
+   "options": [
+    "בערך תשעה מיליון",
+    "בערך מיליון",
+    "בערך שלושים מיליון",
+    "בערך מאה אלף"
+   ],
+   "explain_he": "לפני המלחמה חיו באירופה בערך תשעה מיליון יהודים, ויותר משלושה מיליון מהם בפולין לבדה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הציע ללמוד את הדף היומי?",
+   "answer": "הרב מאיר שפירא מלובלין",
+   "options": [
+    "הרב מאיר שפירא מלובלין",
+    "החפץ חיים",
+    "שרה שנירר",
+    "הרב מישאל בער וייסמנדל"
+   ],
+   "explain_he": "הרב מאיר שפירא הציע בכנס בווינה שכל יהודי ילמד בכל יום אותו דף גמרא. הוא גם הקים את ישיבת חכמי לובלין.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה, לפי הרב שפירא, טוב שכולם לומדים אותו דף?",
+   "answer": "כדי שכל עם ישראל יהיה כמו בית מדרש אחד",
+   "options": [
+    "כדי שכל עם ישראל יהיה כמו בית מדרש אחד",
+    "כדי שהלימוד יהיה קצר יותר",
+    "כדי שלא יצטרכו ספרים",
+    "כדי שהישיבות ייסגרו"
+   ],
+   "explain_he": "הרעיון היה שיהודי שנוסע ממקום למקום ימצא בכל עיר יהודים שלומדים בדיוק את הדף שלו, וכך כל העם מאוחד בלימוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הקימה שרה שנירר בקרקוב?",
+   "answer": "את \"בית יעקב\", בית ספר לבנות",
+   "options": [
+    "את \"בית יעקב\", בית ספר לבנות",
+    "ישיבה לבחורים",
+    "בית חולים",
+    "עיתון ביידיש"
+   ],
+   "explain_he": "שרה שנירר הקימה את \"בית יעקב\", וגדולי ישראל ובהם החפץ חיים תמכו בה. תוך שנים קמו מאות בתי ספר כאלה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חשוב ללמוד על החיים לפני השואה?",
+   "answer": "כדי לזכור שהיו אלה אנשים עם שמות, משפחות ותורה, לא מספרים",
+   "options": [
+    "כדי לזכור שהיו אלה אנשים עם שמות, משפחות ותורה, לא מספרים",
+    "כי אז לא היו בעיות בכלל",
+    "כדי לדעת איך בנו בתים מעץ",
+    "כי אין מה ללמוד על השואה עצמה"
+   ],
+   "explain_he": "הסרט מסביר שהיהודים באירופה חיו חיים מלאים של תורה ומצוות. לכל אחד מהם היה שם ומשפחה, ולכן זוכרים קודם את החיים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f1e8"
+  }
+ ]
+}

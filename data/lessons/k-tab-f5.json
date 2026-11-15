@@ -1,0 +1,271 @@
+{
+ "id": "k-tab-f5",
+ "unit_id": "k-tab-u2",
+ "course": "table",
+ "title_he": "ענבים, מיץ וקידוש",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌾 ידע כללי",
+   "title_he": "ענבים, מיץ וקידוש",
+   "ref_he": "מהשדה לשולחן",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בכרם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A summer vineyard on a hillside: long rows of vines with heavy clusters of green and purple grapes, the children walking between the rows in hats.",
+     "move": "left",
+     "fx": "light",
+     "art": "🍇",
+     "say": [
+      "בקיץ החם, בכרם, תלויים אשכולות של ענבים. יש ענבים ירוקים, ויש סגולים.",
+      "הצמח שעליו גדלים הענבים נקרא ״גפן״. הגפן מטפסת, ומתפתלת, ונאחזת בחוטים ובעמודים.",
+      "הענבים מתוקים ומלאים במיץ. בואו נגלה מה עושים איתם, ואיך הם מגיעים עד לשולחן השבת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "האשכול של המרגלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: Biblical times: in a valley, several men in simple robes and head coverings carry one enormous cluster of grapes hanging from a long wooden pole on their shoulders, a pomegranate and figs in a basket nearby.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🍇",
+     "say": [
+      "כבר בתורה אנחנו פוגשים ענבים של ארץ ישראל. כשמשה רבנו שלח את המרגלים לארץ, הם הביאו משם אשכול ענבים ענק.",
+      "הוא היה כבד כל כך, שנשאו אותו על מוט. רש״י אומר שהיו צריכים שמונה אנשים כדי לשאת אותו!",
+      "הם הביאו גם רימונים ותאנים. כמה טובה ופורייה הארץ שלנו!"
+     ],
+     "pasuk": {
+      "text": "וַיִּשָּׂאֻהוּ בַמּוֹט בִּשְׁנָיִם",
+      "ref": "במדבר יג, כג"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הבציר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Late summer grape harvest: Saba and the children cut clusters with small shears and lay them in crates, a tractor with a wagon full of grapes waiting.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👦 👧 🍇",
+     "say": [
+      "בסוף הקיץ מגיע הבציר, כך קוראים לקטיף הענבים.",
+      "הבוצרים קמים מוקדם, לפני החום. הם חותכים את האשכולות במזמרה קטנה, ומניחים אותם בזהירות בארגזים.",
+      "ועל ענב שאוכלים, מברכים ״בורא פרי העץ״, כי הגפן היא עץ. היא נשארת בכרם שנה אחרי שנה, ונותנת ענבים חדשים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "בגת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: An ancient stone winepress carved in the rock: barefoot men in rolled-up trousers tread grapes in the upper basin, and purple juice flows through a channel into a lower pit.",
+     "move": "up",
+     "fx": null,
+     "art": "🍇",
+     "say": [
+      "ומה עושים עם ארגזים מלאים בענבים? סוחטים אותם!",
+      "פעם, דרכו על הענבים ברגליים, בתוך ״גת״: בור רחב שחצבו בסלע. המיץ זרם בתעלה קטנה, לבור שלמטה.",
+      "בארץ ישראל מצאו הרבה גתות עתיקות כאלה, חצובות בסלע.",
+      "היום עושות את זה מכונות. ומהמיץ הזה שותים מיץ ענבים, וממנו גם עושים יין."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "בורא פרי הגפן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: Glass bottles of purple grape juice and a silver kiddush cup stand on a wooden table next to a bowl of fresh grapes and an orange.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🍇",
+     "say": [
+      "ועל מיץ ענבים ויין יש ברכה מיוחדת: ״בורא פרי הגפן״.",
+      "על מיץ של פרי אחר, כמו מיץ תפוזים או מיץ תפוחים, מברכים ״שהכל״.",
+      "רק לגפן יש ברכה מיוחדת כזאת. איזה כבוד!",
+      "ולמה? כי היין ומיץ הענבים משמחים, ובעזרתם מקדשים את השבת והחגים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "על מיץ של כל פרי אחר, כמו מיץ תפוזים, מברכים ״שהכל נהיה בדברו״."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "קידוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Friday night: a father with a beard and kippah stands at the Shabbat table holding a silver kiddush cup, the candles glowing, the family standing and listening.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "בליל שבת, אחרי התפילה, כל המשפחה סביב השולחן. אבא עומד, מחזיק כוס מלאה, ועושה קידוש.",
+      "כולם מקשיבים, ועונים ״אמן״. ואחר כך כל אחד טועם מהכוס.",
+      "בקידוש אנחנו אומרים: השבת היא יום קדוש, זכר לבריאת העולם וליציאת מצרים.",
+      "וגם במוצאי שבת, בהבדלה, מברכים על כוס, ונפרדים מהשבת."
+     ],
+     "pasuk": {
+      "text": "זָכוֹר אֶת יוֹם הַשַּׁבָּת לְקַדְּשׁוֹ",
+      "ref": "שמות כ, ח"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "חז״ל למדו מהמילה ״זכור״: ״זכרהו על היין״. לכן מקדשים על כוס."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "ארבע כוסות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Seder night: a table set with matzot and a seder plate; each child has a small cup of grape juice, and the family leans to the left on pillows.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "ובליל הסדר שותים ארבע כוסות! הגדולים שותים יין, והילדים שותים מיץ ענבים. ושותים בהסבה, נשענים על צד שמאל, כמו מלכים.",
+      "כך הגפן מביאה לנו שמחה בשבתות ובחגים.",
+      "בתהלים כתוב: ״ויין ישמח לבב אנוש״. כלומר: הגפן היא מתנה של שמחה."
+     ],
+     "pasuk": {
+      "text": "וְיַיִן יְשַׂמַּח לְבַב אֱנוֹשׁ",
+      "ref": "תהלים קד, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "יין על המזבח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise.  Scene: The Holy Temple courtyard in morning light: a Kohen in white linen garments pours wine from a golden vessel at the corner of the great stone altar, while Levites in white stand on the steps singing with harps and lyres.",
+     "move": "up",
+     "fx": "light",
+     "art": "🍇",
+     "say": [
+      "גם בבית המקדש היה לענבים מקום של כבוד. יחד עם הקרבנות, הכהן שפך יין על המזבח. זה נקרא ״ניסוך היין״.",
+      "ובדיוק ברגע הזה, הלויים עמדו על המדרגות, וניגנו בכינורות ובנבלים, ושרו שירה לפני השם.",
+      "חז״ל אומרים: את השירה במקדש שרו על היין, כי היין הוא סימן לשמחה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מהכרם לכוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Sunset over the vineyard; Saba hands each child a small cluster of grapes, the hills of Israel glowing behind them.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👧 🍇",
+     "say": [
+      "איזה מסע עשה הענב: מהכרם, דרך הבציר והגת, ועד הכוס של הקידוש.",
+      "בפעם הבאה שאתם מחזיקים כוס של מיץ ענבים, היזכרו בכרם, ובבוצרים שקמו מוקדם.",
+      "ובכל פעם שאנחנו מברכים ״בורא פרי הגפן״, אנחנו אומרים תודה להשם על הכרמים של ארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-tab-f5e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הביאו המרגלים מארץ ישראל?",
+   "answer": "אשכול ענבים ענק",
+   "options": [
+    "אשכול ענבים ענק",
+    "כד מלא שמן",
+    "שק של חיטה"
+   ],
+   "explain_he": "האשכול היה כבד כל כך, שנשאו אותו על מוט.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים על ענבים?",
+   "answer": "בורא פרי העץ",
+   "options": [
+    "בורא פרי העץ",
+    "בורא פרי הגפן",
+    "בורא פרי האדמה"
+   ],
+   "explain_he": "הגפן היא עץ, ולכן על הענב עצמו מברכים ״בורא פרי העץ״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים על מיץ ענבים?",
+   "answer": "בורא פרי הגפן",
+   "options": [
+    "בורא פרי הגפן",
+    "שהכל נהיה בדברו",
+    "בורא פרי העץ"
+   ],
+   "explain_he": "למיץ ענבים ויין יש ברכה מיוחדת: ״בורא פרי הגפן״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים על מיץ תפוזים?",
+   "answer": "שהכל נהיה בדברו",
+   "options": [
+    "שהכל נהיה בדברו",
+    "בורא פרי הגפן",
+    "בורא פרי העץ"
+   ],
+   "explain_he": "רק לגפן יש ברכה מיוחדת. על מיץ של פרי אחר מברכים ״שהכל״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי עושים קידוש על הכוס?",
+   "answer": "בליל שבת",
+   "options": [
+    "בליל שבת",
+    "ביום ראשון בבוקר",
+    "רק בחנוכה"
+   ],
+   "explain_he": "בליל שבת מקדשים על הכוס, ואומרים שהשבת היא יום קדוש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה כוסות שותים בליל הסדר?",
+   "answer": "ארבע",
+   "options": [
+    "ארבע",
+    "שתיים",
+    "שבע"
+   ],
+   "explain_he": "בליל הסדר שותים ארבע כוסות, והילדים שותים מיץ ענבים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-tab-f5e7"
+  }
+ ]
+}

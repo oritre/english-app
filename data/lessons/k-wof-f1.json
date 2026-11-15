@@ -1,0 +1,488 @@
+{
+ "id": "k-wof-f1",
+ "unit_id": "k-wof-u1",
+ "course": "world",
+ "title_he": "יבשות ואוקיינוסים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "יבשות ואוקיינוסים",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "space",
+     "title_he": "כדור כחול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The whole planet Earth seen from space, mostly deep blue oceans with green and brown continents and white clouds, the two children floating happily in a small glass bubble in the foreground.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🌍",
+     "say": [
+      "שלום, ילדים! היום אנחנו יוצאים למסע גדול, מסע סביב כל העולם.",
+      "דמיינו שאתם עפים גבוה, גבוה, מעל העננים, עד שרואים את כדור הארץ כולו.",
+      "מה רואים? הרבה כחול, ועוד קצת ירוק, חום ולבן. הכחול הוא מים, והשאר הוא יבשה.",
+      "מכל כוכבי הלכת, רק על כדור הארץ יש ימים מלאים במים, ועצים, וחיות, ואנשים. הקדוש ברוך הוא ברא אותו במיוחד בשבילנו."
+     ],
+     "pasuk": {
+      "text": "לַיַּבָּשָׁה אֶרֶץ, וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים",
+      "ref": "מתוך בראשית א, י"
+     },
+     "note": null
+    },
+    {
+     "id": "day3",
+     "title_he": "היום השלישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Dawn of creation, gentle and majestic: vast waters drawing back to reveal fresh green land and hills, a soft golden light streaming down from above, no figures.",
+     "move": "up",
+     "fx": "light",
+     "art": "🌊",
+     "say": [
+      "בתורה כתוב שביום השלישי של הבריאה, הקדוש ברוך הוא אסף את המים למקום אחד, ונראתה היבשה.",
+      "את היבשה קרא ״ארץ״, ואת המים קרא ״ימים״.",
+      "ובאותו יום הוציאה הארץ עשב, עצים ופרחים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "continents",
+     "title_he": "שבע היבשות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A colorful painted world map seen from above like a bird's view: each continent in a different soft color with tiny landmarks and animals, a kangaroo in Australia, a camel in Africa, a penguin on Antarctica; no text or labels.",
+     "move": "right",
+     "fx": "light",
+     "art": "🌍",
+     "say": [
+      "היבשה מחולקת לשבעה חלקים ענקיים. קוראים להם יבשות.",
+      "אסיה, אפריקה, אירופה, אמריקה הצפונית, אמריקה הדרומית, אוסטרליה, ואנטארקטיקה הקפואה.",
+      "אסיה היא היבשת הכי גדולה, ואוסטרליה היא הכי קטנה.",
+      "באפריקה יש מדבר ענק, הסהרה, ונהר ארוך, הנילוס.",
+      "אירופה קטנה יחסית, אבל יש בה ארצות רבות.",
+      "ובאנטארקטיקה קר כל כך, שאף אחד לא גר שם כל הזמן. רק חוקרים מגיעים לשם לזמן קצר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "באוסטרליה חיות חיות שאין בשום מקום אחר בעולם, כמו הקנגורו, שנושא את הגור שלו בכיס שעל בטנו."
+     }
+    },
+    {
+     "id": "israel",
+     "title_he": "באמצע העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A painted view from high above the eastern Mediterranean: the land of Israel glowing softly in warm light where Asia, Africa and Europe meet, Jerusalem a tiny golden point in the hills; no text.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "ואיפה אנחנו? ארץ ישראל נמצאת ביבשת אסיה, ממש בקצה שלה.",
+      "קרוב אלינו נמצאות גם אפריקה ואירופה. ארץ ישראל נמצאת כמו באמצע העולם!",
+      "וחז״ל אמרו: ארץ ישראל יושבת באמצעיתו של העולם.",
+      "ובכל מקום בעולם, יהודים מתפללים לכיוון ירושלים.",
+      "פעם, סוחרים עם גמלים עברו בארץ ישראל, בדרך מארץ לארץ."
+     ],
+     "pasuk": {
+      "text": "אֶרֶץ יִשְׂרָאֵל יוֹשֶׁבֶת בְּאֶמְצָעִיתוֹ שֶׁל עוֹלָם, וִירוּשָׁלַיִם בְּאֶמְצָעִיתָהּ שֶׁל אֶרֶץ יִשְׂרָאֵל",
+      "ref": "מדרש תנחומא, קדושים י"
+     },
+     "note": null
+    },
+    {
+     "id": "oceans",
+     "title_he": "האוקיינוסים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A vast deep-blue ocean stretching to the horizon under a bright sky, huge rolling waves, a single small sailboat far away to show the scale.",
+     "move": "left",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "ועכשיו, המים. המים הגדולים והעמוקים נקראים אוקיינוסים.",
+      "הגדול מכולם הוא האוקיינוס השקט. הוא כל כך גדול, שכל היבשות יחד היו נכנסות בתוכו!",
+      "יש גם את האוקיינוס האטלנטי, את ההודי, ואת האוקיינוסים הקפואים שבצפון ובדרום.",
+      "באוקיינוס השקט יש אלפי איים קטנים, ועל חלק מהם גרים אנשים.",
+      "והים התיכון, הים שליד תל אביב וחיפה, מחובר לאוקיינוס האטלנטי דרך מעבר צר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במקום העמוק ביותר באוקיינוס השקט, העומק הוא בערך אחד עשר קילומטרים. אם היו מכניסים לשם את ההר הגבוה בעולם, הפסגה שלו עדיין הייתה מתחת למים!"
+     }
+    },
+    {
+     "id": "sealife",
+     "title_he": "זה הים גדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Underwater in a bright coral reef: colorful fish, a sea turtle, playful dolphins above, and in the blue distance the huge gentle shape of a blue whale.",
+     "move": "right",
+     "fx": "light",
+     "art": "🐋",
+     "say": [
+      "באוקיינוסים חיים דגים מכל הצבעים, דולפינים, וגם הלווייתן הכחול, החיה הגדולה ביותר בעולם.",
+      "ומי שרואה את הים התיכון, שנקרא ״הים הגדול״, מברך ברכה מיוחדת: ״ברוך... שעשה את הים הגדול״.",
+      "בעומק הים חשוך מאוד. חיים שם דגים מוזרים, שמאירים בעצמם כמו פנס!",
+      "ודוד המלך אמר: ״זה הים גדול ורחב ידיים, שם רמש ואין מספר״. כלומר, אי אפשר לספור את כל היצורים שבים."
+     ],
+     "pasuk": {
+      "text": "זֶה הַיָּם גָּדוֹל וּרְחַב יָדָיִם, שָׁם רֶמֶשׂ וְאֵין מִסְפָּר",
+      "ref": "תהלים קד, כה"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סוף התחנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children sit on the beach in Tel Aviv at sunset, spinning a small globe between them, waves rolling in.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? בעולם יש שבע יבשות וכמה אוקיינוסים גדולים.",
+      "וארץ ישראל שלנו נמצאת באמצע העולם, במקום שבו נפגשות היבשות.",
+      "זוכרים? רוב כדור הארץ מכוסה במים. יותר מיבשה!",
+      "בשיעור הבא נלמד איך מציירים את כל העולם על דף אחד: מפות וגלובוס!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "יבשות ואוקיינוסים",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "space",
+     "title_he": "כדור כחול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The whole planet Earth seen from space, mostly deep blue oceans with green and brown continents and white clouds, the two children floating happily in a small glass bubble in the foreground.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🌍",
+     "say": [
+      "שלום, ילדים! היום אנחנו מתחילים מסע מסביב לעולם: יבשות, אוקיינוסים, מדבריות, יערות ונהרות, וגם קהילות יהודיות בכל קצוות תבל.",
+      "דמיינו שאתם עולים גבוה מעל העננים, עד שכדור הארץ כולו נראה כמו כדור כחול שתלוי בחלל.",
+      "הכחול הוא מים. הם מכסים בערך שבעים אחוז מכדור הארץ, יותר משני שלישים! והחלקים הירוקים, החומים והלבנים הם יבשה.",
+      "מכל כוכבי הלכת שאנחנו מכירים, רק על כדור הארץ יש ימים של מים, אוויר לנשימה, צמחים ובעלי חיים. הוא נברא בשבילנו, כמו שאמר הנביא: ״לא תוהו בראה, לשבת יצרה״."
+     ],
+     "pasuk": {
+      "text": "לַיַּבָּשָׁה אֶרֶץ, וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים",
+      "ref": "מתוך בראשית א, י"
+     },
+     "note": null
+    },
+    {
+     "id": "day3",
+     "title_he": "היום השלישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Dawn of creation, gentle and majestic: vast waters drawing back to reveal fresh green land and hills, a soft golden light streaming down from above, no figures.",
+     "move": "up",
+     "fx": "light",
+     "art": "🌊",
+     "say": [
+      "בתורה מסופר שביום השלישי לבריאה ציווה הקדוש ברוך הוא: ״יקוו המים מתחת השמים אל מקום אחד, ותראה היבשה״.",
+      "כך נפרדו המים מהיבשה. את היבשה קרא ״ארץ״, ואת המים ״ימים״. היום אנחנו מחלקים את היבשה לחלקים גדולים מאוד, וקוראים להם יבשות.",
+      "ובאותו יום שלישי, מיד אחרי שנראתה היבשה, הוציאה הארץ דשא, עשב ועצי פרי, כמו שנאמר: ״תדשא הארץ דשא״."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "continents",
+     "title_he": "שבע היבשות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A colorful painted world map seen from above like a bird's view: each continent in a different soft color with tiny landmarks and animals, a kangaroo in Australia, a camel in Africa, a penguin on Antarctica; no text or labels.",
+     "move": "right",
+     "fx": "light",
+     "art": "🌍",
+     "say": [
+      "על פי החלוקה המקובלת, יש בעולם שבע יבשות: אסיה, אפריקה, אירופה, אמריקה הצפונית, אמריקה הדרומית, אוסטרליה ואנטארקטיקה.",
+      "אסיה היא היבשת הגדולה ביותר, וגם גרים בה הכי הרבה אנשים, בערך שישים אחוז מכל בני האדם. בה נמצאות סין והודו, וגם ההר הגבוה בעולם.",
+      "אפריקה היא השנייה בגודלה. יש בה המדבר החם הגדול בעולם, הסהרה, ונהר הנילוס.",
+      "אוסטרליה היא הקטנה ביותר, והיא כולה מדינה אחת. ואנטארקטיקה, בדרום הרחוק, מכוסה כולה קרח, ואין בה תושבים קבועים, רק חוקרים שמגיעים לזמן מה.",
+      "אירופה קטנה יחסית, אבל יש בה ארצות רבות. ושתי היבשות של אמריקה, הצפונית והדרומית, מחוברות ברצועת אדמה צרה.",
+      "בכל יבשת יש נופים שונים: הרים, מישורים, מדבריות ויערות. בשיעורים הבאים נבקר בחלק מהם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "באוסטרליה חיות חיות שאין בשום מקום אחר בעולם, כמו הקנגורו, שנושא את הגור שלו בכיס שעל בטנו."
+     }
+    },
+    {
+     "id": "israel",
+     "title_he": "באמצע העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A painted view from high above the eastern Mediterranean: the land of Israel glowing softly in warm light where Asia, Africa and Europe meet, Jerusalem a tiny golden point in the hills; no text.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "ואיפה אנחנו? ארץ ישראל נמצאת בקצה המערבי של אסיה, במקום שבו נפגשות שלוש יבשות: אסיה, אפריקה ואירופה.",
+      "בגלל זה, כבר בימי קדם עברו בארץ ישראל דרכים חשובות בין הארצות. סוחרים ושיירות עברו בה, מצפון לדרום וממזרח למערב.",
+      "חז״ל אמרו במדרש: ״ארץ ישראל יושבת באמצעיתו של עולם, וירושלים באמצעיתה של ארץ ישראל״. ובכל מקום בעולם, יהודים פונים בתפילה לירושלים.",
+      "ארץ ישראל קטנה מאוד על מפת העולם. אבל בה ניתנה הנבואה, בה עמד בית המקדש, ואליה מכוונות התפילות מכל העולם."
+     ],
+     "pasuk": {
+      "text": "אֶרֶץ יִשְׂרָאֵל יוֹשֶׁבֶת בְּאֶמְצָעִיתוֹ שֶׁל עוֹלָם, וִירוּשָׁלַיִם בְּאֶמְצָעִיתָהּ שֶׁל אֶרֶץ יִשְׂרָאֵל",
+      "ref": "מדרש תנחומא, קדושים י"
+     },
+     "note": null
+    },
+    {
+     "id": "oceans",
+     "title_he": "האוקיינוסים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A vast deep-blue ocean stretching to the horizon under a bright sky, huge rolling waves, a single small sailboat far away to show the scale.",
+     "move": "left",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "ועכשיו לאוקיינוסים, המים הגדולים והעמוקים שמקיפים את היבשות. על פי החלוקה המקובלת היום יש חמישה: השקט, האטלנטי, ההודי, הדרומי, והאוקיינוס הארקטי שבצפון.",
+      "האוקיינוס השקט הוא הגדול והעמוק ביותר. הוא גדול כל כך, שאפשר היה להכניס לתוכו את כל היבשות יחד, ועוד יישאר מקום.",
+      "האוקיינוס האטלנטי מפריד בין אירופה ואפריקה לבין אמריקה. בו הפליגו ספינות רבות בדרכן ליבשת אמריקה.",
+      "והים התיכון, הים שלנו, בחופי תל אביב וחיפה, מתחבר לאוקיינוס האטלנטי דרך מעבר צר שנקרא מצר גיברלטר.",
+      "האוקיינוס ההודי נמצא בין אפריקה, אסיה ואוסטרליה, והוא החם מכל האוקיינוסים. והאוקיינוס הארקטי, בצפון, הוא הקטן והקר שבהם, ובחורף רובו מכוסה קרח."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במקום העמוק ביותר באוקיינוס השקט, העומק הוא בערך אחד עשר קילומטרים. אם היו מכניסים לשם את ההר הגבוה בעולם, הפסגה שלו עדיין הייתה מתחת למים!"
+     }
+    },
+    {
+     "id": "sealife",
+     "title_he": "זה הים גדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Underwater in a bright coral reef: colorful fish, a sea turtle, playful dolphins above, and in the blue distance the huge gentle shape of a blue whale.",
+     "move": "right",
+     "fx": "light",
+     "art": "🐋",
+     "say": [
+      "באוקיינוסים יש עולם שלם: דגים צבעוניים בשוניות האלמוגים, דולפינים, תמנונים, והלווייתן הכחול, החיה הגדולה ביותר בעולם, ארוך יותר משני אוטובוסים.",
+      "בעומק הגדול, שאליו לא מגיע אור השמש, חיים יצורים מוזרים שמאירים בעצמם.",
+      "ומי שרואה את הים התיכון, ״הים הגדול״, אחרי שלא ראה אותו זמן רב, מברך: ״ברוך... שעשה את הים הגדול״. ודוד המלך אמר: ״זה הים גדול ורחב ידיים, שם רמש ואין מספר״.",
+      "שוניות האלמוגים נראות כמו גנים צבעוניים מתחת למים. אבל האלמוגים הם בעלי חיים זעירים, שבונים לעצמם בתים מאבן גיר, אחד ליד השני.",
+      "והלווייתן הכחול, הגדול שבבעלי החיים, ניזון דווקא מיצורים זעירים שנקראים קריל. הוא בולע כמויות עצומות מהם בכל יום."
+     ],
+     "pasuk": {
+      "text": "זֶה הַיָּם גָּדוֹל וּרְחַב יָדָיִם, שָׁם רֶמֶשׂ וְאֵין מִסְפָּר",
+      "ref": "תהלים קד, כה"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סוף התחנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children sit on the beach in Tel Aviv at sunset, spinning a small globe between them, waves rolling in.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? שבע יבשות, חמישה אוקיינוסים, והמון מים: בערך שבעים אחוז מכדור הארץ.",
+      "אסיה היא הגדולה ביותר, האוקיינוס השקט הוא העצום מכולם, וארץ ישראל נמצאת בצומת שבו נפגשות שלוש יבשות.",
+      "וזכרו את הפסוק: ״מה רבו מעשיך ה׳״. ככל שמכירים יותר את העולם, רואים יותר את חכמת הבורא.",
+      "בשיעור הבא נלמד איך מציירים את כל זה על דף נייר אחד, ואיך לא הולכים לאיבוד: מפות, גלובוס וכיוונים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה יבשות יש בעולם, לפי החלוקה המקובלת?",
+   "answer": "שבע",
+   "options": [
+    "שבע",
+    "שלוש",
+    "עשר"
+   ],
+   "explain_he": "אסיה, אפריקה, אירופה, אמריקה הצפונית, אמריקה הדרומית, אוסטרליה ואנטארקטיקה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה יבשות יש בעולם, לפי החלוקה המקובלת?",
+   "answer": "שבע",
+   "options": [
+    "שבע",
+    "שלוש",
+    "עשר"
+   ],
+   "explain_he": "אסיה, אפריקה, אירופה, אמריקה הצפונית, אמריקה הדרומית, אוסטרליה ואנטארקטיקה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהי היבשת הגדולה ביותר?",
+   "answer": "אסיה",
+   "options": [
+    "אסיה",
+    "אוסטרליה",
+    "אירופה"
+   ],
+   "explain_he": "אסיה היא הגדולה ביותר, ואוסטרליה היא הקטנה ביותר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהי היבשת הגדולה ביותר?",
+   "answer": "אסיה",
+   "options": [
+    "אסיה",
+    "אוסטרליה",
+    "אירופה"
+   ],
+   "explain_he": "אסיה היא הגדולה ביותר, ואוסטרליה היא הקטנה ביותר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו האוקיינוס הגדול ביותר?",
+   "answer": "האוקיינוס השקט",
+   "options": [
+    "האוקיינוס השקט",
+    "האוקיינוס ההודי",
+    "הים התיכון"
+   ],
+   "explain_he": "האוקיינוס השקט עצום כל כך, שכל היבשות יחד היו נכנסות בתוכו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו האוקיינוס הגדול ביותר?",
+   "answer": "האוקיינוס השקט",
+   "options": [
+    "האוקיינוס השקט",
+    "האוקיינוס ההודי",
+    "הים התיכון"
+   ],
+   "explain_he": "האוקיינוס השקט עצום כל כך, שכל היבשות יחד היו נכנסות בתוכו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז״ל, איפה יושבת ארץ ישראל?",
+   "answer": "באמצעיתו של העולם",
+   "options": [
+    "באמצעיתו של העולם",
+    "בקצה העולם",
+    "באמצע האוקיינוס"
+   ],
+   "explain_he": "ארץ ישראל נמצאת במקום שבו נפגשות אסיה, אפריקה ואירופה, וחז״ל אמרו שהיא באמצע העולם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז״ל, איפה יושבת ארץ ישראל?",
+   "answer": "באמצעיתו של העולם",
+   "options": [
+    "באמצעיתו של העולם",
+    "בקצה העולם",
+    "באמצע האוקיינוס"
+   ],
+   "explain_he": "ארץ ישראל נמצאת במקום שבו נפגשות אסיה, אפריקה ואירופה, וחז״ל אמרו שהיא באמצע העולם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו יבשת מכוסה כולה קרח?",
+   "answer": "אנטארקטיקה",
+   "options": [
+    "אנטארקטיקה",
+    "אפריקה",
+    "אסיה"
+   ],
+   "explain_he": "אנטארקטיקה, בדרום הרחוק, קפואה כולה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו יבשת מכוסה כולה קרח?",
+   "answer": "אנטארקטיקה",
+   "options": [
+    "אנטארקטיקה",
+    "אפריקה",
+    "אסיה"
+   ],
+   "explain_he": "אנטארקטיקה, בדרום הרחוק, קפואה כולה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "אילו שלוש יבשות נפגשות ליד ארץ ישראל?",
+   "answer": "אסיה, אפריקה ואירופה",
+   "options": [
+    "אסיה, אפריקה ואירופה",
+    "אמריקה, אוסטרליה ואנטארקטיקה",
+    "אסיה, אמריקה ואוסטרליה"
+   ],
+   "explain_he": "בגלל המקום הזה עברו בארץ ישראל דרכים חשובות כבר בימי קדם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מתחבר הים התיכון לאוקיינוס האטלנטי?",
+   "answer": "דרך מעבר צר שנקרא מצר גיברלטר",
+   "options": [
+    "דרך מעבר צר שנקרא מצר גיברלטר",
+    "דרך נהר הנילוס",
+    "הוא לא מחובר לשום ים"
+   ],
+   "explain_he": "מצר גיברלטר הוא מעבר ים צר בין אירופה לאפריקה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f1e14"
+  }
+ ]
+}

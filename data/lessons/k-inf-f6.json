@@ -1,0 +1,799 @@
+{
+ "id": "k-inf-f6",
+ "unit_id": "k-inf-u3",
+ "course": "inventors",
+ "title_he": "מהטלפון ועד האינטרנט",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "מהטלפון ועד האינטרנט",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "letter",
+     "title_he": "מכתב שמחכים לו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A grandmother in a long dress and head scarf sits by a window in an old stone house, holding a sealed letter to her heart; outside, a postman on a horse rides away down the road.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👵",
+     "say": [
+      "פעם, כדי לספר לסבתא משהו, היו כותבים לה מכתב.",
+      "המכתב נסע בעגלה, ברכבת או בספינה, ולפעמים הגיע אחרי שבועות!",
+      "היום? מרימים טלפון ומדברים מיד. בואו נגלה איך זה קרה.",
+      "גם רבנים כתבו מכתבים לרבנים בערים אחרות, ושאלו שאלות בהלכה. התשובה הגיעה אחרי הרבה זמן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "bell",
+     "title_he": "הטלפון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 19th-century study room: a bearded inventor in a dark suit speaks into a wooden box-shaped early telephone connected by a wire running through the wall, papers and tools on his desk.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "איש בשם אלכסנדר גרהם בל עבד כמורה לילדים חירשים. הוא אהב לחקור את הקול.",
+      "הוא בנה מכשיר שהופך את הקול לחשמל, שעובר בחוט, ובצד השני חוזר להיות קול.",
+      "לפי המסופר, המילים הראשונות בטלפון היו קריאה לעוזר שלו: ״מר ווטסון, בוא הנה, אני רוצה לראות אותך!״",
+      "תוך כמה שנים, חוטי טלפון חיברו בתים, ערים ומדינות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "radio",
+     "title_he": "קול באוויר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A family of long ago gathers around a big wooden radio set in their living room, the father with a kippah, the mother in a head covering and long dress, children listening wide-eyed; soft lamp light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦",
+     "say": [
+      "אחר כך המציאו משהו עוד יותר מפליא: רדיו. קול שעובר באוויר, בלי שום חוט!",
+      "גלים בלתי נראים נוסעים באוויר, והרדיו קולט אותם כמעט בכל מקום.",
+      "איש בשם מרקוני היה מהראשונים שבנו רדיו. הוא שלח אות רדיו מעבר לכל האוקיינוס!",
+      "ובזכות הרדיו, ספינה בלב הים יכלה לבקש עזרה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "computer",
+     "title_he": "המחשב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A vast room of the 1940s filled wall to wall with tall grey cabinets of glowing glass tubes, cables and switches; engineers in shirts and ties and long-sleeved modest dresses work at the panels.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨 👩",
+     "say": [
+      "ואז הגיע המחשב. המחשבים הראשונים היו ענקיים, בגודל של חדר שלם!",
+      "עם השנים הם נעשו קטנים יותר ויותר. היום מחשב חזק יותר מהם נכנס בכיס.",
+      "בתוך המחשבים הראשונים היו אלפי מנורות זכוכית, שהתחממו ונשרפו כל הזמן.",
+      "והמחשב יודע לחשב מהר מאוד, מיליוני תרגילים בשנייה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "internet",
+     "title_he": "רשת שמקיפה את העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Planet Earth at night seen from space, with thin glowing threads of light connecting the cities of every continent like a gentle web.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🌍",
+     "say": [
+      "ואז חיברו את המחשבים זה לזה, בכל העולם. החיבור הזה נקרא אינטרנט.",
+      "באינטרנט אפשר לשלוח מכתב בשנייה, לחפש מידע, וגם ללמוד.",
+      "יש אפילו תוכנות שבהן אפשר לחפש מילה בכל התנ״ך תוך רגע!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rules",
+     "title_he": "כלי חזק בידיים אחראיות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The boy sits at a family computer in the living room and turns to ask his mother, in a head covering and long-sleeved dress, who leans in kindly; a clock on the wall, a Chumash on the desk, and a ball by the door.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👦",
+     "say": [
+      "אבל צריך לזכור: מחשב וטלפון הם כלים. כמו אש, אפשר להשתמש בהם לטובה, וצריך להיזהר.",
+      "לפני שנכנסים לאתר או מורידים משהו, שואלים את אבא ואמא.",
+      "שומרים על העיניים, ומסתכלים רק על דברים טהורים וצנועים.",
+      "ושומרים על הזמן: לא יושבים מול המסך שעות, כי יש לימוד, משחק בחוץ, ומשפחה.",
+      "וכשמשהו לא מתאים קופץ על המסך, סוגרים מיד ומספרים לאבא ואמא."
+     ],
+     "pasuk": {
+      "text": "וְלֹא תָתֻרוּ אַחֲרֵי לְבַבְכֶם וְאַחֲרֵי עֵינֵיכֶם",
+      "ref": "במדבר טו, לט"
+     },
+     "note": null
+    },
+    {
+     "id": "sadigura",
+     "title_he": "מה לומדים מהטלפון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A Chassidic rebbe of long ago with a long white beard and fur hat sits at the head of a table, speaking warmly to attentive students in black coats; a steam train is glimpsed through the window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "מסופר על רבי חסידי גדול שאמר: גם מהטלפון אפשר ללמוד משהו.",
+      "מה לומדים? שמה שאומרים כאן, שומעים שם. כל מילה שלנו נשמעת למעלה, ולכן מדברים יפה ונקי."
+     ],
+     "pasuk": {
+      "text": "דַּע מַה לְּמַעְלָה מִמְּךָ: עַיִן רוֹאָה וְאֹזֶן שׁוֹמַעַת, וְכָל מַעֲשֶׂיךָ בַּסֵּפֶר נִכְתָּבִים",
+      "ref": "משנה, אבות ב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מילים שעוברות את העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children speak on a video call with their smiling grandparents, the grandfather with a white beard and kippah, the grandmother in a head covering; a vase of flowers on the table.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧 👴 👵",
+     "say": [
+      "אז מה למדנו? טלפון, רדיו ומחשב עוזרים לנו לדבר עם אנשים רחוקים וללמוד דברים חדשים.",
+      "וכשמשתמשים בהם נכון, עם רשות של ההורים, לזמן קצר ובצניעות, הם כלים טובים.",
+      "ואם רוצים לדבר עם סבא וסבתא? טלפון קטן, רגע אחד, ושומעים את הקול שלהם!",
+      "בשיעור הבא והאחרון, נגלה את ההמצאות שעוזרות לרופאים לרפא חולים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "מהטלפון ועד האינטרנט",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "letter",
+     "title_he": "מכתב שמחכים לו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A grandmother in a long dress and head scarf sits by a window in an old stone house, holding a sealed letter to her heart; outside, a postman on a horse rides away down the road.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👵",
+     "say": [
+      "לפני מאתיים שנה, משפחה שבנה נסע לארץ רחוקה חיכתה חודשים למכתב ממנו. המכתב עבר מיד ליד, בעגלות ובספינות, ולפעמים אבד בדרך.",
+      "גם רבנים שרצו לשאול שאלה בהלכה את גדול הדור שבעיר אחרת, שלחו מכתב וחיכו שבועות לתשובה.",
+      "היום אפשר לדבר עם מישהו בצד השני של העולם, ברגע. בשיעור הזה נלך בעקבות הקול: מהטלפון, דרך הרדיו, ועד המחשב והאינטרנט. ונלמד גם איך להשתמש בהם נכון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "bell",
+     "title_he": "הטלפון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 19th-century study room: a bearded inventor in a dark suit speaks into a wooden box-shaped early telephone connected by a wire running through the wall, papers and tools on his desk.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "לפני בערך מאה וחמישים שנה, אלכסנדר גרהם בל, מורה לחירשים שחקר את הקול והשמיעה, בנה מכשיר מופלא.",
+      "כשמדברים, הקול מרעיד דף דק בתוך המכשיר. הרעידות הופכות לזרם חשמלי שזורם בחוט, ובצד השני הזרם מרעיד דף אחר, וחוזר להיות קול.",
+      "המשפט הראשון בטלפון, לפי המסופר, היה קריאה לעוזר שלו שישב בחדר הסמוך: ״מר ווטסון, בוא הנה, אני רוצה לראות אותך״.",
+      "תוך שנים ספורות נמתחו חוטי טלפון בין בתים, ערים ומדינות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בטלפונים הראשונים לא חייגו מספר לבד. מרימים שפופרת, ועובד במרכזייה מחבר את השיחה בחוט ביד."
+     }
+    },
+    {
+     "id": "radio",
+     "title_he": "קול באוויר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A family of long ago gathers around a big wooden radio set in their living room, the father with a kippah, the mother in a head covering and long dress, children listening wide-eyed; soft lamp light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦",
+     "say": [
+      "השלב הבא היה מפתיע עוד יותר: לשלוח קול בלי חוטים בכלל. גלים בלתי נראים, גלי רדיו, עוברים באוויר במהירות האור.",
+      "המהנדס האיטלקי גוליילמו מרקוני היה מהראשונים שבנו מכשירים ששולחים וקולטים אותות כאלה. לפני בערך מאה עשרים וחמש שנה הוא שלח אות רדיו מעבר לאוקיינוס האטלנטי כולו.",
+      "בזכות הרדיו, ספינות בלב הים יכלו לבקש עזרה, ובכל בית יכלו לשמוע חדשות ושיעורי תורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בה׳ באייר תש״ח שודר ברדיו טקס הכרזת מדינת ישראל, ויהודים בארץ ובעולם הקשיבו בהתרגשות."
+     }
+    },
+    {
+     "id": "computer",
+     "title_he": "המחשב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A vast room of the 1940s filled wall to wall with tall grey cabinets of glowing glass tubes, cables and switches; engineers in shirts and ties and long-sleeved modest dresses work at the panels.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨 👩",
+     "say": [
+      "ואז הגיע המחשב, מכונה שמחשבת. המחשבים הראשונים, לפני בערך שמונים שנה, היו ענקיים. אחד המפורסמים שבהם מילא חדר שלם ושקל עשרות טונות.",
+      "בתוכם היו אלפי מנורות זכוכית שהתחממו ונשרפו כל הזמן, וצוות שלם עבד רק בהחלפתן.",
+      "אחר כך הומצאו רכיבים זעירים, ובסוף שבבים קטנטנים, שבכל אחד מהם יש מיליוני חלקים. המחשבים התכווצו והתחזקו, והיום מחשב קטן שנכנס בכיס חזק פי מיליונים מהמחשב הענק ההוא.",
+      "והיום מחשבים נמצאים כמעט בכל מקום: במכונית, במכונת הכביסה, בבית החולים, ואפילו בשעון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "internet",
+     "title_he": "רשת שמקיפה את העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Planet Earth at night seen from space, with thin glowing threads of light connecting the cities of every continent like a gentle web.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🌍",
+     "say": [
+      "השלב הבא היה לחבר מחשבים זה לזה. בהתחלה חוברו כמה מחשבים באוניברסיטאות, ואחר כך עוד ועוד, עד שנוצרה רשת ענקית שמקיפה את כל העולם: האינטרנט.",
+      "לפני בערך שלושים וחמש שנה נוספה דרך פשוטה לפתוח דפים באינטרנט ולעבור מדף לדף, ומאז הרשת נכנסה כמעט לכל מקום.",
+      "היום אפשר לשלוח מכתב בשנייה, לחפש מידע, וגם ללמוד: יש מאגרים שבהם אפשר לחפש מילה בכל התנ״ך והגמרא תוך רגע, עבודה שפעם לקחה שנים.",
+      "אבל באינטרנט יש גם הרבה דברים לא נכונים ולא טובים. לא כל מה שכתוב שם הוא אמת, ולכן בודקים, ושואלים מבוגרים שמבינים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rules",
+     "title_he": "כלי חזק בידיים אחראיות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The boy sits at a family computer in the living room and turns to ask his mother, in a head covering and long-sleeved dress, who leans in kindly; a clock on the wall, a Chumash on the desk, and a ball by the door.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👦",
+     "say": [
+      "כאן מגיע החלק החשוב ביותר בשיעור. מחשב, טלפון ואינטרנט הם כלים חזקים מאוד. כמו אש, הם יכולים לחמם ולהאיר, וגם לשרוף. הכול תלוי איך משתמשים בהם.",
+      "כלל ראשון: שואלים את ההורים. לפני שנכנסים לאתר, מורידים משחק או מדברים עם מישהו, שואלים את אבא ואמא. הם מכירים את הסכנות, ורוצים בטובתכם.",
+      "כלל שני: שמירת העיניים. התורה מצווה ״ולא תתורו אחרי לבבכם ואחרי עיניכם״. מסתכלים רק על דברים טהורים וצנועים, וכשמשהו לא מתאים קופץ על המסך, סוגרים מיד ומספרים להורים.",
+      "כלל שלישי: שמירת הזמן. הזמן הוא מתנה יקרה. מסך יכול לבלוע שעות בלי שנרגיש, ולכן קובעים זמן קצר ומוגדר, ומשאירים מקום ללימוד תורה, לחברים, למשחק בחוץ ולמשפחה.",
+      "ועוד כלל: לא מוסרים פרטים אישיים, כמו כתובת או תמונות, לאנשים שאיננו מכירים. ובשבת וביום טוב, כל המסכים כבויים, ונחים באמת."
+     ],
+     "pasuk": {
+      "text": "וְלֹא תָתֻרוּ אַחֲרֵי לְבַבְכֶם וְאַחֲרֵי עֵינֵיכֶם",
+      "ref": "במדבר טו, לט"
+     },
+     "note": null
+    },
+    {
+     "id": "sadigura",
+     "title_he": "מה לומדים מהטלפון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A Chassidic rebbe of long ago with a long white beard and fur hat sits at the head of a table, speaking warmly to attentive students in black coats; a steam train is glimpsed through the window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "מסופר על אחד מגדולי החסידות, הרבי מסדיגורה, שאמר לחסידיו: מכל דבר בעולם אפשר ללמוד עבודת השם.",
+      "מהרכבת לומדים שבגלל רגע אחד אפשר להחמיץ הכול. מהטלגרף, שבו משלמים על כל מילה, לומדים שכל מילה נספרת. ומהטלפון לומדים שמה שאומרים כאן, שומעים שם."
+     ],
+     "pasuk": {
+      "text": "דַּע מַה לְּמַעְלָה מִמְּךָ: עַיִן רוֹאָה וְאֹזֶן שׁוֹמַעַת, וְכָל מַעֲשֶׂיךָ בַּסֵּפֶר נִכְתָּבִים",
+      "ref": "משנה, אבות ב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מילים שעוברות את העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children speak on a video call with their smiling grandparents, the grandfather with a white beard and kippah, the grandmother in a head covering; a vase of flowers on the table.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧 👴 👵",
+     "say": [
+      "מהמכתב שחיכו לו חודשים, דרך חוט הטלפון וגלי הרדיו, ועד רשת שמחברת את כל העולם: בני האדם למדו להעביר מילים ממקום למקום במהירות מדהימה.",
+      "בזכות זה, רופא יכול להתייעץ עם רופא בארץ אחרת, ורב יכול לענות לשאלה של יהודי בקצה העולם באותו יום.",
+      "אבל כמו כל כלי חזק, צריך ידיים אחראיות: לשאול את ההורים, לשמור על העיניים ולשמור על הזמן. בשיעור הבא והאחרון נגלה את ההמצאות שהצילו את חייהם של מיליוני אנשים: הרפואה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f6e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "מהטלפון ועד האינטרנט",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "letter",
+     "title_he": "מכתב שמחכים לו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A grandmother in a long dress and head scarf sits by a window in an old stone house, holding a sealed letter to her heart; outside, a postman on a horse rides away down the road.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👵",
+     "say": [
+      "לפני מאתיים שנה, משפחה שבנה נסע לארץ רחוקה חיכתה חודשים למכתב ממנו. המכתב עבר מיד ליד, בעגלות ובספינות, ולפעמים אבד בדרך.",
+      "גם רבנים שרצו לשאול שאלה בהלכה את גדול הדור שבעיר אחרת, שלחו מכתב וחיכו שבועות לתשובה.",
+      "היום אפשר לדבר עם מישהו בצד השני של העולם, ברגע. בשיעור הזה נלך בעקבות הקול: מהטלפון, דרך הרדיו, ועד המחשב והאינטרנט. ונלמד גם איך להשתמש בהם נכון.",
+      "ספרי שאלות ותשובות של גדולי ישראל, כמו תשובות הרשב״א או החתם סופר, נכתבו בדרך הזאת: שאלה שנשלחה בכתב, ותשובה שחזרה אחרי שבועות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "bell",
+     "title_he": "הטלפון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 19th-century study room: a bearded inventor in a dark suit speaks into a wooden box-shaped early telephone connected by a wire running through the wall, papers and tools on his desk.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "לפני בערך מאה וחמישים שנה, אלכסנדר גרהם בל, מורה לחירשים שחקר את הקול והשמיעה, בנה מכשיר מופלא.",
+      "כשמדברים, הקול מרעיד דף דק בתוך המכשיר. הרעידות הופכות לזרם חשמלי שזורם בחוט, ובצד השני הזרם מרעיד דף אחר, וחוזר להיות קול.",
+      "המשפט הראשון בטלפון, לפי המסופר, היה קריאה לעוזר שלו שישב בחדר הסמוך: ״מר ווטסון, בוא הנה, אני רוצה לראות אותך״.",
+      "תוך שנים ספורות נמתחו חוטי טלפון בין בתים, ערים ומדינות.",
+      "והטלפון הביא שאלות חדשות בהלכה: האם אפשר לשמוע מגילה או קריאת שמע בטלפון? רבים מגדולי הפוסקים כתבו שהקול שעובר בטלפון איננו קולו של האדם עצמו, אלא קול שנוצר מחדש במכשיר, ולכן לא יוצאים בו ידי חובה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בטלפונים הראשונים לא חייגו מספר לבד. מרימים שפופרת, ועובד במרכזייה מחבר את השיחה בחוט ביד."
+     }
+    },
+    {
+     "id": "radio",
+     "title_he": "קול באוויר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A family of long ago gathers around a big wooden radio set in their living room, the father with a kippah, the mother in a head covering and long dress, children listening wide-eyed; soft lamp light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦",
+     "say": [
+      "השלב הבא היה מפתיע עוד יותר: לשלוח קול בלי חוטים בכלל. גלים בלתי נראים, גלי רדיו, עוברים באוויר במהירות האור.",
+      "המהנדס האיטלקי גוליילמו מרקוני היה מהראשונים שבנו מכשירים ששולחים וקולטים אותות כאלה. לפני בערך מאה עשרים וחמש שנה הוא שלח אות רדיו מעבר לאוקיינוס האטלנטי כולו.",
+      "בזכות הרדיו, ספינות בלב הים יכלו לבקש עזרה, ובכל בית יכלו לשמוע חדשות ושיעורי תורה.",
+      "גם הרדיו שימש להפצת תורה: שיעורים בגמרא ובהלכה שודרו לבתים רבים, ויהודים במקומות רחוקים, שלא היה לידם רב, יכלו לשמוע דברי תורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בה׳ באייר תש״ח שודר ברדיו טקס הכרזת מדינת ישראל, ויהודים בארץ ובעולם הקשיבו בהתרגשות."
+     }
+    },
+    {
+     "id": "computer",
+     "title_he": "המחשב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A vast room of the 1940s filled wall to wall with tall grey cabinets of glowing glass tubes, cables and switches; engineers in shirts and ties and long-sleeved modest dresses work at the panels.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨 👩",
+     "say": [
+      "ואז הגיע המחשב, מכונה שמחשבת. המחשבים הראשונים, לפני בערך שמונים שנה, היו ענקיים. אחד המפורסמים שבהם מילא חדר שלם ושקל עשרות טונות.",
+      "בתוכם היו אלפי מנורות זכוכית שהתחממו ונשרפו כל הזמן, וצוות שלם עבד רק בהחלפתן.",
+      "אחר כך הומצאו רכיבים זעירים, ובסוף שבבים קטנטנים, שבכל אחד מהם יש מיליוני חלקים. המחשבים התכווצו והתחזקו, והיום מחשב קטן שנכנס בכיס חזק פי מיליונים מהמחשב הענק ההוא.",
+      "והיום מחשבים נמצאים כמעט בכל מקום: במכונית, במכונת הכביסה, בבית החולים, ואפילו בשעון.",
+      "ובישראל פותחו חלקים חשובים של מחשבים: מעבדים ושבבים רבים שנמצאים במחשבים בכל העולם תוכננו בחיפה, בירושלים ובערים אחרות בארץ."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "internet",
+     "title_he": "רשת שמקיפה את העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Planet Earth at night seen from space, with thin glowing threads of light connecting the cities of every continent like a gentle web.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🌍",
+     "say": [
+      "השלב הבא היה לחבר מחשבים זה לזה. בהתחלה חוברו כמה מחשבים באוניברסיטאות, ואחר כך עוד ועוד, עד שנוצרה רשת ענקית שמקיפה את כל העולם: האינטרנט.",
+      "לפני בערך שלושים וחמש שנה נוספה דרך פשוטה לפתוח דפים באינטרנט ולעבור מדף לדף, ומאז הרשת נכנסה כמעט לכל מקום.",
+      "היום אפשר לשלוח מכתב בשנייה, לחפש מידע, וגם ללמוד: יש מאגרים שבהם אפשר לחפש מילה בכל התנ״ך והגמרא תוך רגע, עבודה שפעם לקחה שנים.",
+      "אבל באינטרנט יש גם הרבה דברים לא נכונים ולא טובים. לא כל מה שכתוב שם הוא אמת, ולכן בודקים, ושואלים מבוגרים שמבינים.",
+      "במאגרי התורה שבמחשב יש אלפים רבים של תשובות הלכה מכל הדורות, ותלמידי חכמים נעזרים בהם כדי למצוא מקורות.",
+      "אבל חכמים מזהירים: חיפוש במחשב לא מחליף לימוד. מי שרק מחפש מילים, ולא לומד את הסוגיה מתחילתה ועד סופה, איננו יודע אותה באמת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rules",
+     "title_he": "כלי חזק בידיים אחראיות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The boy sits at a family computer in the living room and turns to ask his mother, in a head covering and long-sleeved dress, who leans in kindly; a clock on the wall, a Chumash on the desk, and a ball by the door.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👦",
+     "say": [
+      "כאן מגיע החלק החשוב ביותר בשיעור. מחשב, טלפון ואינטרנט הם כלים חזקים מאוד. כמו אש, הם יכולים לחמם ולהאיר, וגם לשרוף. הכול תלוי איך משתמשים בהם.",
+      "כלל ראשון: שואלים את ההורים. לפני שנכנסים לאתר, מורידים משחק או מדברים עם מישהו, שואלים את אבא ואמא. הם מכירים את הסכנות, ורוצים בטובתכם.",
+      "כלל שני: שמירת העיניים. התורה מצווה ״ולא תתורו אחרי לבבכם ואחרי עיניכם״. מסתכלים רק על דברים טהורים וצנועים, וכשמשהו לא מתאים קופץ על המסך, סוגרים מיד ומספרים להורים.",
+      "כלל שלישי: שמירת הזמן. הזמן הוא מתנה יקרה. מסך יכול לבלוע שעות בלי שנרגיש, ולכן קובעים זמן קצר ומוגדר, ומשאירים מקום ללימוד תורה, לחברים, למשחק בחוץ ולמשפחה.",
+      "ועוד כלל: לא מוסרים פרטים אישיים, כמו כתובת או תמונות, לאנשים שאיננו מכירים. ובשבת וביום טוב, כל המסכים כבויים, ונחים באמת.",
+      "ולשמירת הזמן יש מקור: חז״ל למדו מהמילים ״ודברת בם״, ולא בדברים בטלים. הזמן שלנו יקר, וכל שעה שלא בוזבזה אפשר למלא בתורה, בחסד ובשמחה."
+     ],
+     "pasuk": {
+      "text": "וְלֹא תָתֻרוּ אַחֲרֵי לְבַבְכֶם וְאַחֲרֵי עֵינֵיכֶם",
+      "ref": "במדבר טו, לט"
+     },
+     "note": null
+    },
+    {
+     "id": "sadigura",
+     "title_he": "מה לומדים מהטלפון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A Chassidic rebbe of long ago with a long white beard and fur hat sits at the head of a table, speaking warmly to attentive students in black coats; a steam train is glimpsed through the window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "מסופר על אחד מגדולי החסידות, הרבי מסדיגורה, שאמר לחסידיו: מכל דבר בעולם אפשר ללמוד עבודת השם.",
+      "מהרכבת לומדים שבגלל רגע אחד אפשר להחמיץ הכול. מהטלגרף, שבו משלמים על כל מילה, לומדים שכל מילה נספרת. ומהטלפון לומדים שמה שאומרים כאן, שומעים שם.",
+      "ובמשנה במסכת אבות נאמר: ״דע מה למעלה ממך: עין רואה ואוזן שומעת, וכל מעשיך בספר נכתבים״. פעם היה קשה לדמיין איך הכול נרשם. היום, כשכל לחיצה במחשב נשמרת ונרשמת, קל יותר להבין את דברי חז״ל.",
+      "ומכאן לקח פשוט וחשוב: מה שלא היינו אומרים בפני אבא ואמא, או בפני הרב, לא כותבים גם בהודעה. ומה שלא היינו מסתכלים עליו בפניהם, לא מסתכלים עליו גם לבד."
+     ],
+     "pasuk": {
+      "text": "דַּע מַה לְּמַעְלָה מִמְּךָ: עַיִן רוֹאָה וְאֹזֶן שׁוֹמַעַת, וְכָל מַעֲשֶׂיךָ בַּסֵּפֶר נִכְתָּבִים",
+      "ref": "משנה, אבות ב, א"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "מילים שעוברות את העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children speak on a video call with their smiling grandparents, the grandfather with a white beard and kippah, the grandmother in a head covering; a vase of flowers on the table.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧 👴 👵",
+     "say": [
+      "מהמכתב שחיכו לו חודשים, דרך חוט הטלפון וגלי הרדיו, ועד רשת שמחברת את כל העולם: בני האדם למדו להעביר מילים ממקום למקום במהירות מדהימה.",
+      "בזכות זה, רופא יכול להתייעץ עם רופא בארץ אחרת, ורב יכול לענות לשאלה של יהודי בקצה העולם באותו יום.",
+      "אבל כמו כל כלי חזק, צריך ידיים אחראיות: לשאול את ההורים, לשמור על העיניים ולשמור על הזמן. בשיעור הבא והאחרון נגלה את ההמצאות שהצילו את חייהם של מיליוני אנשים: הרפואה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו המילים הראשונות בטלפון, לפי המסופר?",
+   "answer": "״מר ווטסון, בוא הנה״",
+   "options": [
+    "״מר ווטסון, בוא הנה״",
+    "״שלום לכולם״",
+    "״שומעים אותי?״"
+   ],
+   "explain_he": "אלכסנדר גרהם בל קרא לעוזר שלו מהחדר הסמוך: ״מר ווטסון, בוא הנה, אני רוצה לראות אותך״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו המילים הראשונות בטלפון, לפי המסופר?",
+   "answer": "״מר ווטסון, בוא הנה״",
+   "options": [
+    "״מר ווטסון, בוא הנה״",
+    "״שלום לכולם״",
+    "״שומעים אותי?״"
+   ],
+   "explain_he": "אלכסנדר גרהם בל קרא לעוזר שלו מהחדר הסמוך: ״מר ווטסון, בוא הנה, אני רוצה לראות אותך״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו המילים הראשונות בטלפון, לפי המסופר?",
+   "answer": "״מר ווטסון, בוא הנה״",
+   "options": [
+    "״מר ווטסון, בוא הנה״",
+    "״שלום לכולם״",
+    "״שומעים אותי?״"
+   ],
+   "explain_he": "אלכסנדר גרהם בל קרא לעוזר שלו מהחדר הסמוך: ״מר ווטסון, בוא הנה, אני רוצה לראות אותך״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד ברדיו לעומת הטלפון הראשון?",
+   "answer": "הקול עובר באוויר בלי חוטים",
+   "options": [
+    "הקול עובר באוויר בלי חוטים",
+    "הוא עובד רק בלילה",
+    "אפשר לראות בו תמונות"
+   ],
+   "explain_he": "ברדיו, גלים בלתי נראים נושאים את הקול באוויר, בלי חוט.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד ברדיו לעומת הטלפון הראשון?",
+   "answer": "הקול עובר באוויר בלי חוטים",
+   "options": [
+    "הקול עובר באוויר בלי חוטים",
+    "הוא עובד רק בלילה",
+    "אפשר לראות בו תמונות"
+   ],
+   "explain_he": "ברדיו, גלים בלתי נראים נושאים את הקול באוויר, בלי חוט.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד ברדיו לעומת הטלפון הראשון?",
+   "answer": "הקול עובר באוויר בלי חוטים",
+   "options": [
+    "הקול עובר באוויר בלי חוטים",
+    "הוא עובד רק בלילה",
+    "אפשר לראות בו תמונות"
+   ],
+   "explain_he": "ברדיו, גלים בלתי נראים נושאים את הקול באוויר, בלי חוט.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראו המחשבים הראשונים?",
+   "answer": "ענקיים, בגודל של חדר שלם",
+   "options": [
+    "ענקיים, בגודל של חדר שלם",
+    "קטנים כמו שעון",
+    "שטוחים כמו דף"
+   ],
+   "explain_he": "המחשבים הראשונים מילאו חדר שלם. היום מחשב חזק מהם נכנס בכיס.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראו המחשבים הראשונים?",
+   "answer": "ענקיים, בגודל של חדר שלם",
+   "options": [
+    "ענקיים, בגודל של חדר שלם",
+    "קטנים כמו שעון",
+    "שטוחים כמו דף"
+   ],
+   "explain_he": "המחשבים הראשונים מילאו חדר שלם. היום מחשב חזק מהם נכנס בכיס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראו המחשבים הראשונים?",
+   "answer": "ענקיים, בגודל של חדר שלם",
+   "options": [
+    "ענקיים, בגודל של חדר שלם",
+    "קטנים כמו שעון",
+    "שטוחים כמו דף"
+   ],
+   "explain_he": "המחשבים הראשונים מילאו חדר שלם. היום מחשב חזק מהם נכנס בכיס.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים לפני שנכנסים לאתר חדש או מורידים משחק?",
+   "answer": "שואלים את אבא ואמא",
+   "options": [
+    "שואלים את אבא ואמא",
+    "שואלים חבר מהכיתה",
+    "פשוט לוחצים, כי זה מהיר"
+   ],
+   "explain_he": "ההורים מכירים את הסכנות ורוצים בטובתנו, ולכן שואלים אותם קודם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים לפני שנכנסים לאתר חדש או מורידים משחק?",
+   "answer": "שואלים את אבא ואמא",
+   "options": [
+    "שואלים את אבא ואמא",
+    "שואלים חבר מהכיתה",
+    "פשוט לוחצים, כי זה מהיר"
+   ],
+   "explain_he": "ההורים מכירים את הסכנות ורוצים בטובתנו, ולכן שואלים אותם קודם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים לפני שנכנסים לאתר חדש או מורידים משחק?",
+   "answer": "שואלים את אבא ואמא",
+   "options": [
+    "שואלים את אבא ואמא",
+    "שואלים חבר מהכיתה",
+    "פשוט לוחצים, כי זה מהיר"
+   ],
+   "explain_he": "ההורים מכירים את הסכנות ורוצים בטובתנו, ולכן שואלים אותם קודם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חשוב לשמור על הזמן מול המסך?",
+   "answer": "כי המסך יכול לבלוע שעות, וצריך זמן ללימוד, למשחק ולמשפחה",
+   "options": [
+    "כי המסך יכול לבלוע שעות, וצריך זמן ללימוד, למשחק ולמשפחה",
+    "כי המסך מתקלקל אם משתמשים בו",
+    "כי המחשב מתעייף"
+   ],
+   "explain_he": "הזמן הוא מתנה יקרה. קובעים זמן קצר, ומשאירים מקום לתורה, לחברים ולמשפחה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f6e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חשוב לשמור על הזמן מול המסך?",
+   "answer": "כי המסך יכול לבלוע שעות, וצריך זמן ללימוד, למשחק ולמשפחה",
+   "options": [
+    "כי המסך יכול לבלוע שעות, וצריך זמן ללימוד, למשחק ולמשפחה",
+    "כי המסך מתקלקל אם משתמשים בו",
+    "כי המחשב מתעייף"
+   ],
+   "explain_he": "הזמן הוא מתנה יקרה. קובעים זמן קצר, ומשאירים מקום לתורה, לחברים ולמשפחה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f6e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חשוב לשמור על הזמן מול המסך?",
+   "answer": "כי המסך יכול לבלוע שעות, וצריך זמן ללימוד, למשחק ולמשפחה",
+   "options": [
+    "כי המסך יכול לבלוע שעות, וצריך זמן ללימוד, למשחק ולמשפחה",
+    "כי המסך מתקלקל אם משתמשים בו",
+    "כי המחשב מתעייף"
+   ],
+   "explain_he": "הזמן הוא מתנה יקרה. קובעים זמן קצר, ומשאירים מקום לתורה, לחברים ולמשפחה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשקופץ על המסך משהו לא מתאים?",
+   "answer": "סוגרים מיד ומספרים להורים",
+   "options": [
+    "סוגרים מיד ומספרים להורים",
+    "ממשיכים להסתכל רק רגע",
+    "שולחים לחבר"
+   ],
+   "explain_he": "שמירת העיניים: ״ולא תתורו אחרי לבבכם ואחרי עיניכם״. סוגרים מיד ומספרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f6e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשקופץ על המסך משהו לא מתאים?",
+   "answer": "סוגרים מיד ומספרים להורים",
+   "options": [
+    "סוגרים מיד ומספרים להורים",
+    "ממשיכים להסתכל רק רגע",
+    "שולחים לחבר"
+   ],
+   "explain_he": "שמירת העיניים: ״ולא תתורו אחרי לבבכם ואחרי עיניכם״. סוגרים מיד ומספרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך עזר הרדיו לספינות בלב הים?",
+   "answer": "הן יכלו לבקש עזרה ממרחק",
+   "options": [
+    "הן יכלו לבקש עזרה ממרחק",
+    "הן שטו מהר יותר",
+    "הן מצאו דגים"
+   ],
+   "explain_he": "בזכות גלי הרדיו, ספינה במצוקה יכלה לקרוא לעזרה גם רחוק מהחוף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f6e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך עזר הרדיו לספינות בלב הים?",
+   "answer": "הן יכלו לבקש עזרה ממרחק",
+   "options": [
+    "הן יכלו לבקש עזרה ממרחק",
+    "הן שטו מהר יותר",
+    "הן מצאו דגים"
+   ],
+   "explain_he": "בזכות גלי הרדיו, ספינה במצוקה יכלה לקרוא לעזרה גם רחוק מהחוף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לומדים מהטלפון, לפי הרבי מסדיגורה?",
+   "answer": "שמה שאומרים כאן, שומעים שם",
+   "options": [
+    "שמה שאומרים כאן, שומעים שם",
+    "שבגלל רגע אחד אפשר להחמיץ הכול",
+    "שצריך לדבר בקול רם"
+   ],
+   "explain_he": "מהרכבת לומדים על רגע אחד, מהטלגרף שכל מילה נספרת, ומהטלפון שמה שאומרים כאן שומעים שם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e23"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך המחשב עוזר להבין את המשנה ״וכל מעשיך בספר נכתבים״?",
+   "answer": "כי רואים איך כל לחיצה נרשמת ונשמרת",
+   "options": [
+    "כי רואים איך כל לחיצה נרשמת ונשמרת",
+    "כי במחשב אפשר למחוק הכול",
+    "כי המחשב כותב ספרים לבד"
+   ],
+   "explain_he": "אם במחשב של בני אדם הכול נרשם, קל להבין שלפני הקדוש ברוך הוא כל מעשה נכתב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f6e24"
+  }
+ ]
+}

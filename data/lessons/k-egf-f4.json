@@ -1,0 +1,257 @@
+{
+ "id": "k-egf-f4",
+ "unit_id": "k-egf-u1",
+ "course": "egypt",
+ "title_he": "החיים במצרים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🔺 ידע כללי",
+   "title_he": "החיים במצרים",
+   "ref_he": "מצרים העתיקה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "כפר על שפת הנילוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: An ancient Egyptian village at sunrise: flat-roofed mud-brick houses, palm trees, a woman in a long linen dress and head covering baking flat bread in a clay oven, children feeding geese, the Nile behind.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 🌴",
+     "say": [
+      "בוקר בכפר מצרי עתיק. השמש עולה מעל הנילוס, והתרנגולות והאווזים כבר צועקים.",
+      "הבתים בנויים מלבנים של בוץ, עם גג שטוח. בלילות החמים של הקיץ, משפחות ישנו על הגג.",
+      "בבית היו מעט רהיטים: מחצלות, כמה שרפרפים, וכלי חרס למים ולאוכל.",
+      "רוב המצרים לא היו מלכים או סופרים. הם היו איכרים פשוטים, שעבדו קשה מהבוקר עד הערב.",
+      "בערב, כשהשמש שוקעת, המשפחות אכלו יחד לחם, דגים וירקות.",
+      "הילדים עזרו להורים: האכילו את האווזים, שמרו על הצאן, והביאו מים מהנהר.",
+      "בואו נראה איך נראה יום שלהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שלוש עונות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Three moments in one long Egyptian landscape from left to right: flooded fields with water, then farmers sowing seeds behind oxen in black mud, then golden wheat being harvested with sickles.",
+     "move": "right",
+     "fx": "light",
+     "art": "🌾",
+     "say": [
+      "השנה של האיכר המצרי לא התחלקה לארבע עונות כמו אצלנו, אלא לשלוש, לפי הנהר.",
+      "כל השנה הייתה תלויה בשאלה אחת: מתי יעלה הנהר, ומתי ירד.",
+      "עונה ראשונה: הגאות. השדות מוצפים במים, ואי אפשר לעבוד בהם.",
+      "עונה שנייה: המים יורדים. האיכרים חורשים במחרשת עץ ששוורים מושכים, וזורעים בבוץ השחור.",
+      "עונה שלישית: הקציר. קוצרים במגל את החיטה ואת השעורה, ואוספים את התבואה למחסנים.",
+      "ובזמן הגאות, כשאי אפשר היה לעבוד בשדות, איכרים רבים נשלחו לעבוד בשביל פרעה, בבנייה ובחפירת תעלות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מעלים מים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: An Egyptian farmer in a linen tunic using a shaduf, a long wooden pole with a bucket on one end and a heavy stone on the other, lifting water from the Nile into a small channel that flows to green beds.",
+     "move": "in",
+     "fx": null,
+     "art": "🪣",
+     "say": [
+      "ומה עושים כשהשדה רחוק מהמים? האיכרים חפרו תעלות קטנות מהנהר אל השדות.",
+      "אחרי כל גאות היו צריכים לנקות ולתקן את התעלות.",
+      "כדי להעלות מים מהנהר לתעלה, השתמשו בשאדוף: מוט ארוך, עם דלי בצד אחד ואבן כבדה בצד השני.",
+      "האבן עוזרת להרים את הדלי המלא בקלות. מורידים, ממלאים, מרימים, ושופכים לתעלה.",
+      "זה בדיוק מה שהתורה מתארת: במצרים \"והשקית ברגלך\". עבודה קשה, כל יום, כדי להביא מים לשדה.",
+      "כך, תעלה אחרי תעלה, הפכו המצרים חלק מהמדבר לשדות ירוקים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השאדוף הוא כלי פשוט: מוט ארוך עם דלי בצד אחד ואבן כבדה בצד השני. בכפרים במצרים השתמשו בו עוד במאה השנים האחרונות!"
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "פשתן ושעורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A field in Egypt in early spring: tall flax plants with blue flowers next to a field of ripening barley, women in long dresses and head coverings spinning flax thread in the shade.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌾",
+     "say": [
+      "המצרים גידלו חיטה ושעורה ללחם. הם גידלו גם פשתן, ומהסיבים שלו טוו חוטים, ומהם תפרו בגדי פשתן לבנים וקלילים.",
+      "התורה עצמה מספרת לנו על החקלאות במצרים! במכת הברד, הפשתן והשעורה נשברו, כי הם כבר היו גבוהים.",
+      "אבל החיטה והכוסמת לא נפגעו, כי הן עוד היו רכות ונמוכות.",
+      "כך התורה מלמדת אותנו גם מתי צומח כל צמח במצרים.",
+      "ובגדי הפשתן הלבנים התאימו לחום של מצרים, כי הם קלים ומאווררים."
+     ],
+     "pasuk": {
+      "text": "והפשתה והשערה נכתה, כי השערה אביב והפשתה גבעל. והחטה והכסמת לא נכו",
+      "ref": "שמות ט, לא-לב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "לבנים מבוץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Egyptian workers in linen tunics mixing Nile mud with chopped straw, pressing it into wooden molds, and setting long rows of bricks to dry in the hot sun beside the river.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🧱",
+     "say": [
+      "ומאיזה חומר בנו את הבתים? מבוץ של הנילוס.",
+      "ערבבו את הבוץ עם תבן, שהוא קש קצוץ, ועם מים, ודרכו עליו ברגליים עד שנעשה דביק.",
+      "את הבוץ שמו בתבנית עץ, הוציאו לבנה מרובעת, והשאירו אותה להתייבש בשמש. במצרים החמה זה לא לקח הרבה זמן.",
+      "זכרו את הלבנים האלה. בסיפור השעבוד, התורה מספרת שבני ישראל עבדו בחומר ובלבנים, ופרעה אפילו הפסיק לתת להם תבן."
+     ],
+     "pasuk": {
+      "text": "לא תאספון לתת תבן לעם ללבן הלבנים",
+      "ref": "שמות ה, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מה אכלו?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: An Egyptian market by the river: baskets full of fresh fish, cucumbers, watermelons, leeks, onions and garlic, round flat breads, people in long linen robes buying and selling.",
+     "move": "right",
+     "fx": null,
+     "art": "🐟 🍉",
+     "say": [
+      "מה אכלו במצרים? הרבה לחם, כי חיטה ושעורה היו בשפע.",
+      "ומהנהר דגו דגים בשפע, ברשתות ובחכות.",
+      "האיכרים גידלו גם עדשים, פולים ותאנים, ואכלו תמרים מהעצים שעל שפת הנהר.",
+      "כשבני ישראל היו במדבר, חלק מהם התגעגעו לאוכל של מצרים. הם אמרו: זכרנו את הדגים, את הקישואים ואת האבטיחים, את החציר, את הבצלים ואת השומים.",
+      "החציר כאן הוא ירק שנקרא כרשה. כל אלה גדלו ליד הנילוס. התורה מדייקת גם בפרטים הקטנים."
+     ],
+     "pasuk": {
+      "text": "זכרנו את הדגה אשר נאכל במצרים חנם, את הקשאים ואת האבטחים ואת החציר ואת הבצלים ואת השומים",
+      "ref": "במדבר יא, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "סירות על הנהר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Wooden sailboats on the Nile: one boat with a big white sail going south with the wind, another with the sail folded floating north with the current, rowers, palm trees on the banks, blue sky.",
+     "move": "right",
+     "fx": "light",
+     "art": "⛵",
+     "say": [
+      "בנילוס שטו סירות קטנות מקני פפירוס, וגם אוניות גדולות מעץ.",
+      "הנילוס היה גם הכביש הראשי של מצרים. סירות הובילו אנשים, תבואה ואבנים.",
+      "והיה כאן טריק חכם: הנהר זורם צפונה, והרוח במצרים נושבת בדרך כלל מצפון.",
+      "כדי לשוט דרומה, פרשו מפרש, והרוח דחפה את הסירה נגד הזרם.",
+      "וכדי לשוט צפונה, קיפלו את המפרש, והזרם סחב את הסירה מעצמו.",
+      "בזכות הנהר, אפשר היה לנסוע מקצה אחד של מצרים לקצה השני, בלי כבישים בכלל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "עבודה קשה ושפע גדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Huge mud-brick grain storehouses in ancient Egypt, workers in linen tunics pouring golden grain from baskets into tall round silos, a scribe counting on papyrus, golden afternoon light.",
+     "move": "up",
+     "fx": "dust",
+     "art": "🌾",
+     "say": [
+      "בזכות הנילוס והעבודה הקשה, מצרים גידלה הרבה תבואה, יותר ממה שהמצרים עצמם צריכים.",
+      "את התבואה אספו למחסנים ענקיים, שמרו אותה, וגם מכרו לארצות אחרות.",
+      "והפקידים של פרעה ספרו כל שק, ורשמו הכל על פפירוס.",
+      "לכן, כשהיה רעב גדול בכל העולם, כל הארצות באו לקנות אוכל במצרים.",
+      "ומי עמד בראש כל המחסנים האלה? יהודי צעיר, בן של יעקב אבינו. על זה נלמד בפרק הבא."
+     ],
+     "pasuk": {
+      "text": "וכל הארץ באו מצרימה לשבר אל יוסף",
+      "ref": "בראשית מא, נז"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-egf-f4e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לכמה עונות התחלקה השנה של האיכר המצרי?",
+   "answer": "לשלוש: גאות, זריעה וקציר",
+   "options": [
+    "לשלוש: גאות, זריעה וקציר",
+    "לארבע, כמו אצלנו",
+    "לשתיים: חורף וקיץ"
+   ],
+   "explain_he": "השנה התחלקה לפי הנהר: עונת הגאות, עונת הזריעה בבוץ, ועונת הקציר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השתמשו בשאדוף?",
+   "answer": "כדי להעלות מים מהנהר אל תעלות השדה",
+   "options": [
+    "כדי להעלות מים מהנהר אל תעלות השדה",
+    "כדי לדוג דגים",
+    "כדי לטחון חיטה"
+   ],
+   "explain_he": "השאדוף הוא מוט עם דלי ואבן כבדה, שבעזרתו העלו מים מהנהר אל התעלות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה במכת הברד החיטה לא נפגעה?",
+   "answer": "כי היא עוד הייתה רכה ונמוכה",
+   "options": [
+    "כי היא עוד הייתה רכה ונמוכה",
+    "כי היא גדלה בתוך הבית",
+    "כי המצרים כיסו אותה"
+   ],
+   "explain_he": "הפשתן והשעורה כבר היו גבוהים ונשברו, אבל החיטה והכוסמת עוד היו רכות ונמוכות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "אילו מאכלים זכרו בני ישראל ממצרים?",
+   "answer": "דגים, קישואים, אבטיחים, בצלים ושומים",
+   "options": [
+    "דגים, קישואים, אבטיחים, בצלים ושומים",
+    "תפוחים ותפוזים",
+    "בשר צבי ודבש"
+   ],
+   "explain_he": "בני ישראל אמרו במדבר: זכרנו את הדגה, את הקישואים ואת האבטיחים, את החציר, את הבצלים ואת השומים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך שטו סירות דרומה, נגד הזרם?",
+   "answer": "פרשו מפרש, והרוח מצפון דחפה אותן",
+   "options": [
+    "פרשו מפרש, והרוח מצפון דחפה אותן",
+    "משכו אותן בחבלים מהחוף כל הדרך",
+    "אי אפשר היה לשוט דרומה"
+   ],
+   "explain_he": "הרוח במצרים נושבת בדרך כלל מצפון, ולכן מפרש פרוש דחף את הסירה דרומה, נגד הזרם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f4e6"
+  }
+ ]
+}

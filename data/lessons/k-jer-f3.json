@@ -1,0 +1,802 @@
+{
+ "id": "k-jer-f3",
+ "unit_id": "k-jer-u1",
+ "course": "jerusalem",
+ "title_he": "גלות ותפילה לירושלים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "גלות ותפילה לירושלים",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "העיר החרבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem long after the destruction: a quiet hill of ruins and wild plants, a few olive trees, the great old wall still standing, a grey morning sky. No people.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🪨 🌳",
+     "say": [
+      "הבית השני נחרב בתשעה באב, לפני כמעט אלפיים שנה. את זה עשו הרומאים.",
+      "הרבה יהודים נלקחו מהארץ, והתפזרו בכל העולם.",
+      "ובמשך שנים רבות, הרומאים אפילו אסרו על יהודים לגור בירושלים.",
+      "העם רחוק, העיר חרבה. האם ישכחו אותה? בואו נראה.",
+      "אבל הם לא שכחו! והנה איך."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "תן לי יבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A modest study hall in the town of Yavneh: an old sage with a long white beard teaching a circle of attentive students around open scrolls by the light of oil lamps.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👨 👦",
+     "say": [
+      "עוד לפני החורבן, חכם גדול בשם רבן יוחנן בן זכאי יצא מירושלים.",
+      "הוא ביקש מהמפקד הרומאי בקשה אחת: תן לי עיר קטנה, יבנה, עם החכמים שלה.",
+      "ושם, ביבנה, המשיכו ללמוד תורה.",
+      "כי כל עוד לומדים תורה – עם ישראל חי, והקשר לירושלים לא נקרע."
+     ],
+     "pasuk": {
+      "text": "תֶּן לִי יַבְנֶה וַחֲכָמֶיהָ",
+      "ref": "גיטין נו, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "כולם פונים למקום אחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A painted map-like view of the old world at dusk: small synagogues in distant lands – a snowy village, a desert town, a port city – with tiny figures inside all facing the same way, toward a warm light over Jerusalem.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🏠 🏠 👨",
+     "say": [
+      "והנה דבר מיוחד: יהודים בכל העולם – בתימן, במרוקו, בפולין ובכל מקום – מתפללים כשהם פונים לירושלים.",
+      "מי שגר בצפון – פונה לדרום. מי שגר במערב – פונה למזרח.",
+      "ובכל בית כנסת, ארון הקודש נמצא בצד של ירושלים.",
+      "כך, בכל תפילה, כל עם ישראל מסתכל לאותו מקום."
+     ],
+     "pasuk": {
+      "text": "נִמְצְאוּ כָּל יִשְׂרָאֵל מְכַוְּנִים אֶת לִבָּם לְמָקוֹם אֶחָד",
+      "ref": "ברכות ל, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "לשנה הבאה בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A family Seder table at night in an old European home: candles, matzot, wine cups, a grandfather in a white kittel raising his cup, children in modest clothes smiling, a window showing snow outside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בליל הסדר, בסוף ההגדה, כל המשפחה קוראת יחד: \"לשנה הבאה בירושלים!\"",
+      "וכך גם בסוף יום הכיפורים, אחרי התקיעה בשופר.",
+      "בברכת המזון אנחנו מבקשים: \"ובנה ירושלים עיר הקודש במהרה בימינו\".",
+      "ובכל חתונה החתן שובר כוס, ואומר \"אם אשכחך ירושלים\". גם בשמחה – לא שוכחים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ליבי במזרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A Jewish poet-sage of medieval Spain in a long robe and turban-like head covering, standing at the edge of a harbor at sunset beside a sailing ship, looking east across the sea with longing.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 ⛵",
+     "say": [
+      "לפני כמעט תשע מאות שנה, בספרד, חי רב ומשורר גדול: רבי יהודה הלוי.",
+      "הוא כתב שירים יפים מאוד על ירושלים ועל ציון.",
+      "באחד מהם הוא כתב: \"ליבי במזרח, ואנוכי בסוף מערב\" – הגוף שלי כאן בספרד, אבל הלב שלי בירושלים.",
+      "ובסוף הוא לא הסתפק בשירים. הוא יצא לדרך הארוכה והמסוכנת, אל ארץ ישראל."
+     ],
+     "pasuk": {
+      "text": "לִבִּי בְמִזְרָח וְאָנֹכִי בְּסוֹף מַעֲרָב",
+      "ref": "רבי יהודה הלוי"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "קורעים על ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Medieval Jewish travelers in long robes on a hill road at sunset seeing the walls of Jerusalem in the distance for the first time, one old man tearing the edge of his garment, others weeping and raising their hands.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👨 👨",
+     "say": [
+      "ומה קרה כשיהודי סוף סוף הגיע לירושלים, אחרי דרך ארוכה?",
+      "כשראה את העיר מרחוק – הוא קרע את הבגד שלו, כמו אבל.",
+      "וכשהגיע לכותל, הוא בכה, נגע באבנים, והתפלל.",
+      "עד היום יש יהודים שקורעים קצת מהבגד כשהם רואים את הכותל בפעם הראשונה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תיקון חצות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Midnight in a small old house: an elderly Jewish man with a long beard sitting on the floor by a single candle, a little ash on his forehead, reading from a book with tears, the window dark.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "יש יהודים שקמים באמצע הלילה, בחצות, ויושבים על הרצפה ליד נר.",
+      "הם בוכים על החורבן, ומתפללים שירושלים תיבנה.",
+      "זה נקרא \"תיקון חצות\".",
+      "הם עושים את זה בכל לילה – לא רק בתשעה באב! עד כדי כך אהבו את ירושלים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הקשר שלא נקרע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A long line of travelers through the centuries walking toward the far hills of Jerusalem on the horizon: a medieval sage on a donkey, a family with bundles, an old man with a staff, all lit by a warm sunrise ahead.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "אז מה למדנו? אלפיים שנה, יהודים היו רחוקים מירושלים.",
+      "אבל הם פנו אליה בכל תפילה, ואמרו \"לשנה הבאה בירושלים\".",
+      "והיו גם אנשים אמיצים שבאמת הלכו אליה, דור אחרי דור.",
+      "מי היו? נכיר אותם בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "גלות ותפילה לירושלים",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "העיר החרבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem long after the destruction: a quiet hill of ruins and wild plants, a few olive trees, the great old wall still standing, a grey morning sky. No people.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🪨 🌳",
+     "say": [
+      "אחרי חורבן הבית השני, ואחרי מרד בר כוכבא ונפילת ביתר, גירשו הרומאים יהודים רבים מהארץ.",
+      "על ירושלים עצמה גזרו גזירה קשה: יהודים לא יגורו בה. העיר קיבלה שם חדש, נכרי, ועל הר הבית נשארו חורבות.",
+      "המשנה אומרת שבתשעה באב גם \"נחרשה העיר\" – עברו עליה במחרשה, כאילו לא הייתה.",
+      "עם שנפרד מארצו ומעירו – בדרך כלל, אחרי כמה דורות, שוכח אותן. אבל עם ישראל לא היה כזה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "תן לי יבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A modest study hall in the town of Yavneh: an old sage with a long white beard teaching a circle of attentive students around open scrolls by the light of oil lamps.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👨 👦",
+     "say": [
+      "בימי המצור על ירושלים יצא ממנה רבן יוחנן בן זכאי, ונפגש עם המצביא הרומאי אספסיאנוס.",
+      "הגמרא מספרת שהוא ביקש: \"תן לי יבנה וחכמיה\". הוא ידע שהבית עלול ליפול, ודאג למה שישמור על העם – התורה.",
+      "ביבנה ישבו החכמים, וקבעו תקנות כדי שיהודים יוכלו לחיות כיהודים גם בלי מקדש.",
+      "הרבה מהן הן \"זכר למקדש\": למשל, נטילת לולב בכל שבעת ימי סוכות, כמו שעשו במקדש."
+     ],
+     "pasuk": {
+      "text": "תֶּן לִי יַבְנֶה וַחֲכָמֶיהָ",
+      "ref": "גיטין נו, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "כולם פונים למקום אחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A painted map-like view of the old world at dusk: small synagogues in distant lands – a snowy village, a desert town, a port city – with tiny figures inside all facing the same way, toward a warm light over Jerusalem.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🏠 🏠 👨",
+     "say": [
+      "הגמרא אומרת: מי שעומד בחוץ לארץ – יכוון את ליבו כנגד ארץ ישראל. מי שבארץ – כנגד ירושלים. מי שבירושלים – כנגד המקדש.",
+      "\"נמצאו כל ישראל מכוונים את ליבם למקום אחד\". בכל קהילה בעולם בנו את בתי הכנסת כך שארון הקודש יהיה בכיוון ירושלים.",
+      "בפולין ובגרמניה – לכיוון מזרח. בתימן – לכיוון צפון. במרוקו – לכיוון מזרח.",
+      "חשבו על זה: מיליוני יהודים, בכל העולם, שלוש פעמים ביום – כולם פונים לאותה נקודה.",
+      "ואפילו בתוך הבית: יש מי שתולים על הקיר הפונה לירושלים תמונה או קישוט, כדי לזכור לאן פונים בתפילה."
+     ],
+     "pasuk": {
+      "text": "נִמְצְאוּ כָּל יִשְׂרָאֵל מְכַוְּנִים אֶת לִבָּם לְמָקוֹם אֶחָד",
+      "ref": "ברכות ל, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "לשנה הבאה בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A family Seder table at night in an old European home: candles, matzot, wine cups, a grandfather in a white kittel raising his cup, children in modest clothes smiling, a window showing snow outside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בכל רגע חשוב בחיים היהודיים – ירושלים נמצאת שם.",
+      "בליל הסדר: \"לשנה הבאה בירושלים הבנויה\". במוצאי יום הכיפורים, אחרי השופר – שוב: \"לשנה הבאה בירושלים\".",
+      "בכל סעודה, בברכת המזון: \"ובנה ירושלים עיר הקודש במהרה בימינו\". בחתונה, תחת החופה: שבירת הכוס ו\"אם אשכחך\".",
+      "ואפילו כשמנחמים אבלים, אומרים: \"המקום ינחם אתכם בתוך שאר אבלי ציון וירושלים\". כל צער פרטי מתחבר לצער הגדול על ירושלים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ליבי במזרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A Jewish poet-sage of medieval Spain in a long robe and turban-like head covering, standing at the edge of a harbor at sunset beside a sailing ship, looking east across the sea with longing.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 ⛵",
+     "say": [
+      "רבי יהודה הלוי חי בספרד לפני כמעט תשע מאות שנה. הוא היה רופא, משורר ופילוסוף, ומחבר הספר \"הכוזרי\".",
+      "בשיריו, \"שירי ציון\", הוא כתב: \"ליבי במזרח ואנוכי בסוף מערב, איך אטעמה את אשר אוכל ואיך יערב?\"",
+      "בספר הכוזרי הוא כתב שהתפילה \"והשב שכינתו לציון\" צריכה לצאת מהלב – ולא להיות רק מילים, \"כדיבור הזרזיר\".",
+      "ולעת זקנתו עזב את ביתו, את משפחתו ואת כבודו, ויצא למסע הקשה בים, אל ארץ ישראל."
+     ],
+     "pasuk": {
+      "text": "לִבִּי בְמִזְרָח וְאָנֹכִי בְּסוֹף מַעֲרָב",
+      "ref": "רבי יהודה הלוי"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "קורעים על ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Medieval Jewish travelers in long robes on a hill road at sunset seeing the walls of Jerusalem in the distance for the first time, one old man tearing the edge of his garment, others weeping and raising their hands.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👨 👨",
+     "say": [
+      "במשך כל הדורות, יהודים שהגיעו לירושלים נהגו מנהג מיוחד: כשראו את ערי יהודה בחורבנן, ובמיוחד את ירושלים ואת מקום המקדש – קרעו את בגדיהם.",
+      "הגמרא אומרת שמי שרואה את ירושלים בחורבנה אומר \"ציון מדבר הייתה, ירושלים שממה\", ומי שרואה את מקום המקדש אומר \"בית קדשנו ותפארתנו... היה לשריפת אש\", וקורע.",
+      "ואחרי הקריעה – תפילה. העולים הלכו אל הכותל המערבי, שעליו אמרו חז\"ל שהשכינה לא זזה ממנו, ושפכו שם את ליבם.",
+      "עד היום יש מי שנוהגים לקרוע קריעה קטנה כשהם רואים את הכותל בפעם הראשונה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תיקון חצות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Midnight in a small old house: an elderly Jewish man with a long beard sitting on the floor by a single candle, a little ash on his forehead, reading from a book with tears, the window dark.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "במשך הדורות נהגו צדיקים ואנשי מעשה לקום בכל לילה בחצות, לשבת על הארץ, ולומר \"תיקון חצות\" – קינות ותפילות על החורבן.",
+      "דוד המלך כתב: \"חצות לילה אקום להודות לך\". והמקובלים בצפת, בימי האר\"י, קבעו את סדר התיקון.",
+      "יש שנהגו לשים מעט אפר על המצח, במקום שמניחים תפילין, זכר לחורבן.",
+      "ובכל זאת, זה לא רק עצב: התיקון נגמר במזמורי נחמה ובתקווה לגאולה.",
+      "ויש קהילות שבהן בתשעה באב יושבים בבית הכנסת בחושך, רק לאור נרות קטנים, ואומרים קינות עד הלילה – ולמחרת כבר מתחילים לחכות לנחמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הקשר שלא נקרע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A long line of travelers through the centuries walking toward the far hills of Jerusalem on the horizon: a medieval sage on a donkey, a family with bundles, an old man with a staff, all lit by a warm sunrise ahead.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "אלפיים שנות גלות – והקשר לא נקרע. לא בגלל צבא ולא בגלל מדינה, אלא בגלל תפילה, תורה ומנהגים קטנים שחזרו על עצמם בכל יום.",
+      "זה מה שהיה בלב של כל יהודי, בתימן ובפולין, במרוקו ובעיראק.",
+      "ובכל דור היו כאלה שלא הסתפקו בגעגועים. הם קמו ועלו לירושלים, גם כשהדרך הייתה ארוכה, יקרה ומסוכנת.",
+      "בשיעור הבא נפגוש כמה מהם, ונקרא מכתב מופלא שנכתב לפני כשמונה מאות שנה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f3e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "גלות ותפילה לירושלים",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "העיר החרבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem long after the destruction: a quiet hill of ruins and wild plants, a few olive trees, the great old wall still standing, a grey morning sky. No people.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🪨 🌳",
+     "say": [
+      "אחרי חורבן הבית השני, ואחרי מרד בר כוכבא ונפילת ביתר, גירשו הרומאים יהודים רבים מהארץ.",
+      "על ירושלים עצמה גזרו גזירה קשה: יהודים לא יגורו בה. העיר קיבלה שם חדש, נכרי, ועל הר הבית נשארו חורבות.",
+      "המשנה אומרת שבתשעה באב גם \"נחרשה העיר\" – עברו עליה במחרשה, כאילו לא הייתה.",
+      "עם שנפרד מארצו ומעירו – בדרך כלל, אחרי כמה דורות, שוכח אותן. אבל עם ישראל לא היה כזה.",
+      "ההיסטוריה מכירה עמים רבים שהוגלו, ונבלעו בין העמים. ואילו עם ישראל נשאר עם, אלפיים שנה, בלי ארץ ובלי מקדש.",
+      "מה החזיק אותו? התורה, והתקווה. ובלב התקווה – ירושלים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "תן לי יבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A modest study hall in the town of Yavneh: an old sage with a long white beard teaching a circle of attentive students around open scrolls by the light of oil lamps.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👨 👦",
+     "say": [
+      "בימי המצור על ירושלים יצא ממנה רבן יוחנן בן זכאי, ונפגש עם המצביא הרומאי אספסיאנוס.",
+      "הגמרא מספרת שהוא ביקש: \"תן לי יבנה וחכמיה\". הוא ידע שהבית עלול ליפול, ודאג למה שישמור על העם – התורה.",
+      "ביבנה ישבו החכמים, וקבעו תקנות כדי שיהודים יוכלו לחיות כיהודים גם בלי מקדש.",
+      "הרבה מהן הן \"זכר למקדש\": למשל, נטילת לולב בכל שבעת ימי סוכות, כמו שעשו במקדש.",
+      "ומניין שצריך לעשות \"זכר למקדש\"? הגמרא לומדת זאת מן הפסוק: \"ציון היא, דורש אין לה\" – מכלל שצריכה דרישה. כלומר: עלינו לדרוש בשלום ציון ולזכור אותה כל הזמן.",
+      "כך נעשתה התורה כמו ארץ שעם ישראל נושא איתו: בכל מקום שהגיע, לקח איתו את ירושלים בתוך הלימוד והמצוות."
+     ],
+     "pasuk": {
+      "text": "תֶּן לִי יַבְנֶה וַחֲכָמֶיהָ",
+      "ref": "גיטין נו, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "כולם פונים למקום אחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A painted map-like view of the old world at dusk: small synagogues in distant lands – a snowy village, a desert town, a port city – with tiny figures inside all facing the same way, toward a warm light over Jerusalem.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🏠 🏠 👨",
+     "say": [
+      "הגמרא אומרת: מי שעומד בחוץ לארץ – יכוון את ליבו כנגד ארץ ישראל. מי שבארץ – כנגד ירושלים. מי שבירושלים – כנגד המקדש.",
+      "\"נמצאו כל ישראל מכוונים את ליבם למקום אחד\". בכל קהילה בעולם בנו את בתי הכנסת כך שארון הקודש יהיה בכיוון ירושלים.",
+      "בפולין ובגרמניה – לכיוון מזרח. בתימן – לכיוון צפון. במרוקו – לכיוון מזרח.",
+      "חשבו על זה: מיליוני יהודים, בכל העולם, שלוש פעמים ביום – כולם פונים לאותה נקודה.",
+      "ואפילו בתוך הבית: יש מי שתולים על הקיר הפונה לירושלים תמונה או קישוט, כדי לזכור לאן פונים בתפילה.",
+      "זה יסוד שנמשך מתפילת שלמה בחנוכת הבית: \"והתפללו אליך דרך ארצם... העיר אשר בחרת, והבית אשר בניתי לשמך\". שלמה ידע שיבוא יום והעם יתפלל מרחוק.",
+      "ודניאל, בגלות בבל, פתח את חלונות עלייתו \"נגד ירושלים\", והתפלל שלוש פעמים ביום – אפילו כשזה היה מסוכן לו."
+     ],
+     "pasuk": {
+      "text": "נִמְצְאוּ כָּל יִשְׂרָאֵל מְכַוְּנִים אֶת לִבָּם לְמָקוֹם אֶחָד",
+      "ref": "ברכות ל, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "לשנה הבאה בירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A family Seder table at night in an old European home: candles, matzot, wine cups, a grandfather in a white kittel raising his cup, children in modest clothes smiling, a window showing snow outside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "בכל רגע חשוב בחיים היהודיים – ירושלים נמצאת שם.",
+      "בליל הסדר: \"לשנה הבאה בירושלים הבנויה\". במוצאי יום הכיפורים, אחרי השופר – שוב: \"לשנה הבאה בירושלים\".",
+      "בכל סעודה, בברכת המזון: \"ובנה ירושלים עיר הקודש במהרה בימינו\". בחתונה, תחת החופה: שבירת הכוס ו\"אם אשכחך\".",
+      "ואפילו כשמנחמים אבלים, אומרים: \"המקום ינחם אתכם בתוך שאר אבלי ציון וירושלים\". כל צער פרטי מתחבר לצער הגדול על ירושלים.",
+      "שימו לב לנוסח: לא \"לשנה הבאה בארץ רחוקה טובה יותר\", אלא דווקא \"בירושלים\". הגלות לא הייתה בית, אלא תחנה בדרך.",
+      "ההיסטוריונים מתפלאים על כך: עם שלם שבמשך דורות זוכר עיר שלא ראה מעולם – בכל ארוחה, בכל שמחה ובכל אבל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ליבי במזרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A Jewish poet-sage of medieval Spain in a long robe and turban-like head covering, standing at the edge of a harbor at sunset beside a sailing ship, looking east across the sea with longing.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 ⛵",
+     "say": [
+      "רבי יהודה הלוי חי בספרד לפני כמעט תשע מאות שנה. הוא היה רופא, משורר ופילוסוף, ומחבר הספר \"הכוזרי\".",
+      "בשיריו, \"שירי ציון\", הוא כתב: \"ליבי במזרח ואנוכי בסוף מערב, איך אטעמה את אשר אוכל ואיך יערב?\"",
+      "בספר הכוזרי הוא כתב שהתפילה \"והשב שכינתו לציון\" צריכה לצאת מהלב – ולא להיות רק מילים, \"כדיבור הזרזיר\".",
+      "ולעת זקנתו עזב את ביתו, את משפחתו ואת כבודו, ויצא למסע הקשה בים, אל ארץ ישראל.",
+      "בשירו הגדול \"ציון הלא תשאלי לשלום אסירייך\" הוא פונה לירושלים כמו לאדם אהוב, ושואל בשלומה. את הקינה הזאת אומרים עד היום בתשעה באב.",
+      "אנחנו יודעים ממכתבים שנמצאו שהוא הגיע למצרים, בדרכו לארץ. ואת סוף מסעו איננו יודעים בוודאות. אבל הדרך שלו נעשתה דוגמה לדורות."
+     ],
+     "pasuk": {
+      "text": "לִבִּי בְמִזְרָח וְאָנֹכִי בְּסוֹף מַעֲרָב",
+      "ref": "רבי יהודה הלוי"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "קורעים על ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Medieval Jewish travelers in long robes on a hill road at sunset seeing the walls of Jerusalem in the distance for the first time, one old man tearing the edge of his garment, others weeping and raising their hands.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👨 👨",
+     "say": [
+      "במשך כל הדורות, יהודים שהגיעו לירושלים נהגו מנהג מיוחד: כשראו את ערי יהודה בחורבנן, ובמיוחד את ירושלים ואת מקום המקדש – קרעו את בגדיהם.",
+      "הגמרא אומרת שמי שרואה את ירושלים בחורבנה אומר \"ציון מדבר הייתה, ירושלים שממה\", ומי שרואה את מקום המקדש אומר \"בית קדשנו ותפארתנו... היה לשריפת אש\", וקורע.",
+      "ואחרי הקריעה – תפילה. העולים הלכו אל הכותל המערבי, שעליו אמרו חז\"ל שהשכינה לא זזה ממנו, ושפכו שם את ליבם.",
+      "עד היום יש מי שנוהגים לקרוע קריעה קטנה כשהם רואים את הכותל בפעם הראשונה.",
+      "השולחן ערוך מביא את דיני הקריעה האלה להלכה. הם מלמדים שהגעה לירושלים איננה כמו טיול רגיל: יש בה שמחה – וגם צער על מה שעוד חסר.",
+      "ובאותה הלכה מסתתרת גם אמונה: קורעים כמו על אבל, אבל אבל שיודע שהוא יסתיים בנחמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תיקון חצות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Midnight in a small old house: an elderly Jewish man with a long beard sitting on the floor by a single candle, a little ash on his forehead, reading from a book with tears, the window dark.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "במשך הדורות נהגו צדיקים ואנשי מעשה לקום בכל לילה בחצות, לשבת על הארץ, ולומר \"תיקון חצות\" – קינות ותפילות על החורבן.",
+      "דוד המלך כתב: \"חצות לילה אקום להודות לך\". והמקובלים בצפת, בימי האר\"י, קבעו את סדר התיקון.",
+      "יש שנהגו לשים מעט אפר על המצח, במקום שמניחים תפילין, זכר לחורבן.",
+      "ובכל זאת, זה לא רק עצב: התיקון נגמר במזמורי נחמה ובתקווה לגאולה.",
+      "ויש קהילות שבהן בתשעה באב יושבים בבית הכנסת בחושך, רק לאור נרות קטנים, ואומרים קינות עד הלילה – ולמחרת כבר מתחילים לחכות לנחמה.",
+      "כבר בסימן הראשון של השולחן ערוך כתוב: \"ראוי לכל ירא שמיים שיהא מיצר ודואג על חורבן בית המקדש\".",
+      "כלומר, הצער על ירושלים נמצא כבר בשורה הראשונה של היום היהודי – מיד כשקמים בבוקר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הקשר שלא נקרע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: A long line of travelers through the centuries walking toward the far hills of Jerusalem on the horizon: a medieval sage on a donkey, a family with bundles, an old man with a staff, all lit by a warm sunrise ahead.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "אלפיים שנות גלות – והקשר לא נקרע. לא בגלל צבא ולא בגלל מדינה, אלא בגלל תפילה, תורה ומנהגים קטנים שחזרו על עצמם בכל יום.",
+      "זה מה שהיה בלב של כל יהודי, בתימן ובפולין, במרוקו ובעיראק.",
+      "ובכל דור היו כאלה שלא הסתפקו בגעגועים. הם קמו ועלו לירושלים, גם כשהדרך הייתה ארוכה, יקרה ומסוכנת.",
+      "בשיעור הבא נפגוש כמה מהם, ונקרא מכתב מופלא שנכתב לפני כשמונה מאות שנה.",
+      "המילה \"ציונות\" באה מ\"ציון\" – והרגש הזה עתיק הרבה יותר מכל תנועה מודרנית. הוא מתחיל בפסוקי התנ\"ך ובתפילות שנאמרו אלפיים שנה.",
+      "ושאלה למחשבה: מה אצלנו היום, בבית ובבית הכנסת, שומר על הקשר הזה? ואיך אפשר לחזק אותו?"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש רבן יוחנן בן זכאי מהמפקד הרומאי?",
+   "answer": "\"תן לי יבנה וחכמיה\" – מקום ללמוד בו תורה",
+   "options": [
+    "\"תן לי יבנה וחכמיה\" – מקום ללמוד בו תורה",
+    "זהב וכסף",
+    "ספינה כדי לברוח"
+   ],
+   "explain_he": "רבן יוחנן בן זכאי דאג למה שישמור על העם: התורה. ביבנה המשיכו ללמוד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש רבן יוחנן בן זכאי מהמפקד הרומאי?",
+   "answer": "\"תן לי יבנה וחכמיה\" – מקום ללמוד בו תורה",
+   "options": [
+    "\"תן לי יבנה וחכמיה\" – מקום ללמוד בו תורה",
+    "זהב וכסף",
+    "ספינה כדי לברוח"
+   ],
+   "explain_he": "רבן יוחנן בן זכאי דאג למה שישמור על העם: התורה. ביבנה המשיכו ללמוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש רבן יוחנן בן זכאי מהמפקד הרומאי?",
+   "answer": "\"תן לי יבנה וחכמיה\" – מקום ללמוד בו תורה",
+   "options": [
+    "\"תן לי יבנה וחכמיה\" – מקום ללמוד בו תורה",
+    "זהב וכסף",
+    "ספינה כדי לברוח"
+   ],
+   "explain_he": "רבן יוחנן בן זכאי דאג למה שישמור על העם: התורה. ביבנה המשיכו ללמוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון מתפללים יהודים בכל העולם?",
+   "answer": "לכיוון ירושלים",
+   "options": [
+    "לכיוון ירושלים",
+    "לכיוון השמש השוקעת",
+    "לכל כיוון שרוצים"
+   ],
+   "explain_he": "בכל העולם מתפללים לכיוון ירושלים, ובבתי הכנסת ארון הקודש נמצא בכיוון שלה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון מתפללים יהודים בכל העולם?",
+   "answer": "לכיוון ירושלים",
+   "options": [
+    "לכיוון ירושלים",
+    "לכיוון השמש השוקעת",
+    "לכל כיוון שרוצים"
+   ],
+   "explain_he": "בכל העולם מתפללים לכיוון ירושלים, ובבתי הכנסת ארון הקודש נמצא בכיוון שלה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה כיוון מתפללים יהודים בכל העולם?",
+   "answer": "לכיוון ירושלים",
+   "options": [
+    "לכיוון ירושלים",
+    "לכיוון השמש השוקעת",
+    "לכל כיוון שרוצים"
+   ],
+   "explain_he": "בכל העולם מתפללים לכיוון ירושלים, ובבתי הכנסת ארון הקודש נמצא בכיוון שלה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים בסוף ליל הסדר?",
+   "answer": "\"לשנה הבאה בירושלים!\"",
+   "options": [
+    "\"לשנה הבאה בירושלים!\"",
+    "\"שבת שלום!\"",
+    "\"חג שמח וכשר!\""
+   ],
+   "explain_he": "בסוף ההגדה כל המשפחה קוראת יחד \"לשנה הבאה בירושלים\", וכך גם במוצאי יום הכיפורים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים ב\"תיקון חצות\"?",
+   "answer": "קמים בחצות הלילה ומתפללים על ירושלים",
+   "options": [
+    "קמים בחצות הלילה ומתפללים על ירושלים",
+    "מתקנים את הבית בחצות",
+    "אוכלים ארוחה מאוחרת"
+   ],
+   "explain_he": "בתיקון חצות קמים באמצע הלילה, יושבים על הרצפה, בוכים על החורבן ומתפללים לבניין ירושלים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"ליבי במזרח ואנוכי בסוף מערב\"?",
+   "answer": "הגוף שלי רחוק, בספרד, אבל הלב שלי בירושלים",
+   "options": [
+    "הגוף שלי רחוק, בספרד, אבל הלב שלי בירושלים",
+    "אני אוהב את הזריחה ואת השקיעה",
+    "אני גר גם בספרד וגם בירושלים"
+   ],
+   "explain_he": "רבי יהודה הלוי היה בספרד, במערב, אבל ליבו היה בירושלים, במזרח.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"ליבי במזרח ואנוכי בסוף מערב\"?",
+   "answer": "הגוף שלי רחוק, בספרד, אבל הלב שלי בירושלים",
+   "options": [
+    "הגוף שלי רחוק, בספרד, אבל הלב שלי בירושלים",
+    "אני אוהב את הזריחה ואת השקיעה",
+    "אני גר גם בספרד וגם בירושלים"
+   ],
+   "explain_he": "רבי יהודה הלוי היה בספרד, במערב, אבל ליבו היה בירושלים, במזרח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"ליבי במזרח ואנוכי בסוף מערב\"?",
+   "answer": "הגוף שלי רחוק, בספרד, אבל הלב שלי בירושלים",
+   "options": [
+    "הגוף שלי רחוק, בספרד, אבל הלב שלי בירושלים",
+    "אני אוהב את הזריחה ואת השקיעה",
+    "אני גר גם בספרד וגם בירושלים"
+   ],
+   "explain_he": "רבי יהודה הלוי היה בספרד, במערב, אבל ליבו היה בירושלים, במזרח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך בנו את בתי הכנסת בתימן?",
+   "answer": "עם ארון הקודש בכיוון צפון – לכיוון ירושלים",
+   "options": [
+    "עם ארון הקודש בכיוון צפון – לכיוון ירושלים",
+    "עם ארון הקודש לכיוון הים",
+    "בלי ארון קודש"
+   ],
+   "explain_he": "תימן נמצאת דרומית לירושלים, ולכן שם מתפללים לכיוון צפון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך בנו את בתי הכנסת בתימן?",
+   "answer": "עם ארון הקודש בכיוון צפון – לכיוון ירושלים",
+   "options": [
+    "עם ארון הקודש בכיוון צפון – לכיוון ירושלים",
+    "עם ארון הקודש לכיוון הים",
+    "בלי ארון קודש"
+   ],
+   "explain_he": "תימן נמצאת דרומית לירושלים, ולכן שם מתפללים לכיוון צפון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה רבי יהודה הלוי לעת זקנתו?",
+   "answer": "עזב הכול ויצא למסע הקשה לארץ ישראל",
+   "options": [
+    "עזב הכול ויצא למסע הקשה לארץ ישראל",
+    "נשאר בספרד וכתב עוד שירים",
+    "עבר לגור באירופה"
+   ],
+   "explain_he": "הוא לא הסתפק בגעגועים, ויצא בדרך הים לארץ ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f3e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה רבי יהודה הלוי לעת זקנתו?",
+   "answer": "עזב הכול ויצא למסע הקשה לארץ ישראל",
+   "options": [
+    "עזב הכול ויצא למסע הקשה לארץ ישראל",
+    "נשאר בספרד וכתב עוד שירים",
+    "עבר לגור באירופה"
+   ],
+   "explain_he": "הוא לא הסתפק בגעגועים, ויצא בדרך הים לארץ ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים למנחמים אבלים?",
+   "answer": "\"המקום ינחם אתכם בתוך שאר אבלי ציון וירושלים\"",
+   "options": [
+    "\"המקום ינחם אתכם בתוך שאר אבלי ציון וירושלים\"",
+    "\"לשנה הבאה בירושלים\"",
+    "\"מזל טוב\""
+   ],
+   "explain_he": "גם בצער פרטי, אנחנו מתחברים לצער על ירושלים, ולתקווה לנחמתה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f3e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים למנחמים אבלים?",
+   "answer": "\"המקום ינחם אתכם בתוך שאר אבלי ציון וירושלים\"",
+   "options": [
+    "\"המקום ינחם אתכם בתוך שאר אבלי ציון וירושלים\"",
+    "\"לשנה הבאה בירושלים\"",
+    "\"מזל טוב\""
+   ],
+   "explain_he": "גם בצער פרטי, אנחנו מתחברים לצער על ירושלים, ולתקווה לנחמתה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזה פסוק לומדת הגמרא שצריך לעשות \"זכר למקדש\"?",
+   "answer": "\"ציון היא, דורש אין לה\"",
+   "options": [
+    "\"ציון היא, דורש אין לה\"",
+    "\"ירושלים הבנויה\"",
+    "\"נחמו נחמו עמי\""
+   ],
+   "explain_he": "\"ציון היא, דורש אין לה\" – מכאן שעלינו לדרוש בשלומה ולזכור אותה תמיד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתוב כבר בסימן הראשון של השולחן ערוך?",
+   "answer": "שכל ירא שמיים ראוי שיצטער על חורבן בית המקדש",
+   "options": [
+    "שכל ירא שמיים ראוי שיצטער על חורבן בית המקדש",
+    "שאסור להתפלל בבוקר",
+    "שצריך לגור רק בירושלים"
+   ],
+   "explain_he": "כבר בשורה הראשונה של היום היהודי מופיע הצער על החורבן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דניאל בגלות בבל, לפי הסרט?",
+   "answer": "פתח את חלונותיו נגד ירושלים והתפלל שלוש פעמים ביום",
+   "options": [
+    "פתח את חלונותיו נגד ירושלים והתפלל שלוש פעמים ביום",
+    "בנה מקדש בבבל",
+    "הפסיק להתפלל כדי לא להסתכן"
+   ],
+   "explain_he": "דניאל התפלל כשפניו לירושלים, אפילו כשזה היה מסוכן לו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f3e23"
+  }
+ ]
+}

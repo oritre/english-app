@@ -1,0 +1,243 @@
+{
+ "id": "k-egf-f5",
+ "unit_id": "k-egf-u2",
+ "course": "egypt",
+ "title_he": "יוסף במצרים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🔺 ידע כללי",
+   "title_he": "יוסף במצרים",
+   "ref_he": "מצרים העתיקה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "נער שנמכר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Yosef: a handsome young Hebrew man with a short dark beard, in a long white linen robe with sleeves, a gold chain and a ring, modest and dignified. Scene: A caravan of camels loaded with spices crossing the desert toward Egypt, a sad young man of seventeen in a simple tunic walking among the traders, looking back toward the hills of Eretz Yisrael.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐪 🚶",
+     "say": [
+      "הסיפור שלנו מתחיל בארץ ישראל, אצל יעקב אבינו ושנים עשר בניו.",
+      "יוסף, בן שבע עשרה, היה הבן האהוב על יעקב. האחים קינאו בו, ומכרו אותו לשיירה שירדה למצרים.",
+      "האחים לקחו את כתונת הפסים שלו וטבלו אותה בדם של שעיר, כדי שיעקב יחשוב שחיה רעה טרפה אותו. יעקב התאבל עליו ימים רבים.",
+      "במצרים קראו לו \"נער עברי\". זה היה השם של המשפחה של אברהם, שבא מעבר הנהר.",
+      "כך הגיע יוסף, נער לבד, לארץ זרה, עם שפה אחרת ואמונות שקר.",
+      "אבל יוסף לא היה לבד באמת. השם היה איתו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "בבית פוטיפר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Yosef: a handsome young Hebrew man with a short dark beard, in a long white linen robe with sleeves, a gold chain and a ring, modest and dignified. Scene: A rich Egyptian house with a courtyard and garden: young Yosef in a simple linen tunic directing servants and checking storerooms, everything orderly and blooming, a soft light upon him.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "יוסף נמכר לעבד בבית של פוטיפר, שר גדול של פרעה.",
+      "כל מה שיוסף עשה, הצליח. פוטיפר ראה שהשם איתו, ומינה אותו על כל הבית.",
+      "גם כשיוסף היה עבד, הוא נשאר נאמן להשם ושמר על עצמו מחטא.",
+      "חכמינו אומרים שבשעה הקשה, יוסף ראה לפניו את דמות אביו יעקב, ונזכר מי הוא ומאיזו משפחה הוא בא.",
+      "בגלל עלילת שקר הוא נזרק לבית הסוהר. אבל גם שם השם היה איתו, ושר בית הסוהר מינה אותו על כל האסירים.",
+      "בבית הסוהר יוסף פתר חלומות של שני שרים של פרעה: שר המשקים ושר האופים. והפתרונות התקיימו בדיוק."
+     ],
+     "pasuk": {
+      "text": "ויהי ה' את יוסף, ויהי איש מצליח",
+      "ref": "בראשית לט, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "החלומות של פרעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Pharaoh: a proud Egyptian king in a long white and gold robe with sleeves and a striped royal headdress, on a stone throne. Yosef: a handsome young Hebrew man with a short dark beard, in a long white linen robe with sleeves, a gold chain and a ring, modest and dignified. Scene: Pharaoh's grand hall at morning: Pharaoh on his throne looking worried, the young Yosef standing before him calm and humble, on an open terrace overlooking the Nile with fat and thin cows grazing by the river bank in the distance.",
+     "move": "in",
+     "fx": "light",
+     "art": "👑 🐄",
+     "say": [
+      "שנתיים אחר כך, פרעה חלם חלום מוזר. הוא עמד על היאור, והנה עלו מהנהר שבע פרות שמנות ויפות.",
+      "ואחריהן עלו שבע פרות רזות ומכוערות, ואכלו את השמנות. שימו לב: הפרות עלו מהנילוס, כי כל השפע של מצרים תלוי בו.",
+      "אף אחד מהחרטומים לא ידע לפתור את החלום. אז הוציאו את יוסף מבית הסוהר.",
+      "ויוסף לא התגאה. הוא אמר לפרעה: לא אני. השם הוא שיענה לפרעה.",
+      "יוסף פתר: שבע הפרות הטובות הן שבע שנים של שובע, ושבע הרעות הן שבע שנים של רעב. ופרעה חלם גם על שבע שיבולים, וגם זה אותו חלום עצמו."
+     ],
+     "pasuk": {
+      "text": "ופרעה חלם, והנה עמד על היאר",
+      "ref": "בראשית מא, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שבע שנים טובות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Yosef: a handsome young Hebrew man with a short dark beard, in a long white linen robe with sleeves, a gold chain and a ring, modest and dignified. Scene: Yosef in fine Egyptian viceroy robes with a gold chain stands on the steps of enormous grain storehouses, overseeing workers filling them with golden grain, Egyptian officials bowing their heads to him with respect.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🌾",
+     "say": [
+      "ויוסף גם נתן לפרעה עצה: למנות איש חכם, שיאסוף אוכל בשנים הטובות וישמור אותו לשנות הרעב.",
+      "פרעה ראה שיוסף חכם, ומינה אותו למשנה למלך. הוא נתן לו טבעת, שרשרת זהב ובגדי פשתן, וקרא לו צפנת פענח.",
+      "בשבע השנים הטובות יוסף אסף תבואה בכל ערי מצרים, כל כך הרבה שהפסיקו לספור.",
+      "וכשבא הרעב, מצרים הייתה מוכנה. כל הארצות באו לקנות אוכל אצל יוסף.",
+      "ויוסף לא שכח מי הוא. גם כשהיה שליט גדול במצרים, הוא נשאר צדיק, ונתן לבניו שמות עבריים: מנשה ואפרים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יוסף היה בן שלושים כשעמד לפני פרעה. בתוך יום אחד הוא הפך מאסיר למשנה למלך!"
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "האחים מגיעים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Yosef: a handsome young Hebrew man with a short dark beard, in a long white linen robe with sleeves, a gold chain and a ring, modest and dignified. Scene: Inside Yosef's hall: ten bearded Hebrew brothers in travel-worn wool robes and head cloths bowing humbly before Yosef in Egyptian robes, who looks at them with hidden tears, sacks of grain by the door.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👨 👨",
+     "say": [
+      "הרעב הגיע גם לארץ כנען, ויעקב שלח את בניו למצרים לקנות אוכל.",
+      "האחים השתחוו לפני המשנה למלך, ולא זיהו שזה יוסף, אחיהם. יוסף זיהה אותם מיד.",
+      "ויוסף נזכר בחלומות שחלם כנער, על האלומות של האחים שהשתחוו לאלומה שלו.",
+      "יוסף בחן אותם, כדי לראות אם השתנו. וכשיהודה מסר את נפשו בשביל בנימין, יוסף ראה שהם עשו תשובה.",
+      "אז הוא כבר לא יכול היה להתאפק, ואמר: אני יוסף! העוד אבי חי?",
+      "ויוסף לא כעס. הוא אמר להם: אל תיעצבו. השם שלח אותי לפניכם, כדי להציל חיים."
+     ],
+     "pasuk": {
+      "text": "אני יוסף, העוד אבי חי?",
+      "ref": "בראשית מה, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יעקב יורד למצרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Yaakov: a very old patriarch with a long white beard, in a brown wool robe and a striped head cloth, with a staff. Scene: A long family caravan with wagons, donkeys, sheep and children leaving the hills of Eretz Yisrael toward the south, the old Yaakov riding on a wagon, women in long dresses and head coverings, morning light.",
+     "move": "left",
+     "fx": "light",
+     "art": "🐑 👴 👶",
+     "say": [
+      "כשיעקב שמע שיוסף חי, רוחו חזרה אליו. אבל לרדת למצרים? לעזוב את ארץ ישראל?",
+      "בדרך, בבאר שבע, יעקב הקריב קרבנות להשם, לפני שיצא מהארץ.",
+      "השם אמר לו בלילה: אל תירא מרדה מצרימה. אני ארד עמך, ואני אעלך גם עלה.",
+      "וכך ירדה כל המשפחה, שבעים נפש, עם העגלות והצאן.",
+      "יעקב שלח את יהודה לפניו, ורש\"י מסביר: כדי להכין בית תלמוד, מקום ללמוד בו תורה. עוד לפני שהגיעו, דאג יעקב לתורה.",
+      "יעקב ידע שהירידה למצרים היא חלק ממה שהשם אמר לאברהם בברית בין הבתרים: גר יהיה זרעך בארץ לא להם, ואחרי כן יצאו ברכוש גדול."
+     ],
+     "pasuk": {
+      "text": "כל הנפש לבית יעקב הבאה מצרימה שבעים",
+      "ref": "בראשית מו, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בארץ גושן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Yaakov: a very old patriarch with a long white beard, in a brown wool robe and a striped head cloth, with a staff. Scene: Green pasture land in the eastern Nile delta: Hebrew families' tents and houses, flocks of sheep, Yaakov blessing his grandchildren, two young boys, with his hands on their heads, peaceful evening.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "⛺ 🐑",
+     "say": [
+      "יוסף נתן למשפחה שלו את ארץ גושן, אזור ירוק ועשיר במרעה בצפון מצרים, כי הם היו רועי צאן.",
+      "שם הם גרו בנפרד מהמצרים, ושמרו על המנהגים ועל האמונה שלהם.",
+      "יעקב חי במצרים עוד שבע עשרה שנה. לפני מותו בירך את בניו ואת נכדיו, אפרים ומנשה.",
+      "והוא ביקש: אל תקברו אותי במצרים. וכך עשו. בניו העלו אותו לארץ ישראל, וקברו אותו במערת המכפלה בחברון.",
+      "משפחה קטנה של שבעים נפש התחילה לגדול במצרים, להיות לעם גדול."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י מספר שכאשר יעקב בירך את פרעה, הוא בירך אותו שהנילוס יעלה לקראתו. שוב הנילוס!"
+     }
+    }
+   ],
+   "id": "k-egf-f5e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כל מה שיוסף עשה הצליח?",
+   "answer": "כי השם היה איתו",
+   "options": [
+    "כי השם היה איתו",
+    "כי היה לו הרבה כסף",
+    "כי פרעה עזר לו מהיום הראשון"
+   ],
+   "explain_he": "התורה אומרת: ויהי השם את יוסף, ויהי איש מצליח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה עלו הפרות בחלום של פרעה?",
+   "answer": "מהיאור, מהנילוס",
+   "options": [
+    "מהיאור, מהנילוס",
+    "מהמדבר",
+    "מהים התיכון"
+   ],
+   "explain_he": "הפרות עלו מהנילוס, כי כל השפע של מצרים היה תלוי בנהר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר יוסף לפרעה לפני שפתר את החלום?",
+   "answer": "לא אני, השם הוא שיענה לפרעה",
+   "options": [
+    "לא אני, השם הוא שיענה לפרעה",
+    "אני החכם מכל החרטומים",
+    "אני צריך זהב כדי לפתור"
+   ],
+   "explain_he": "יוסף לא התגאה, ואמר שהפתרון בא מהשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה נפשות ממשפחת יעקב ירדו למצרים?",
+   "answer": "שבעים",
+   "options": [
+    "שבעים",
+    "שתים עשרה",
+    "שש מאות אלף"
+   ],
+   "explain_he": "התורה אומרת: כל הנפש לבית יעקב הבאה מצרימה שבעים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שלח יעקב את יהודה לפניו לגושן, לפי רש\"י?",
+   "answer": "כדי להכין בית תלמוד ללמוד בו תורה",
+   "options": [
+    "כדי להכין בית תלמוד ללמוד בו תורה",
+    "כדי לקנות שם צאן",
+    "כדי לבנות לו ארמון"
+   ],
+   "explain_he": "רש\"י מסביר שיהודה הלך להכין בית תלמוד, כך שעוד לפני שהגיעו, היה מקום ללמוד תורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-egf-f5e6"
+  }
+ ]
+}

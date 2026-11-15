@@ -1,0 +1,807 @@
+{
+ "id": "k-inf-f5",
+ "unit_id": "k-inf-u2",
+ "course": "inventors",
+ "title_he": "מכוניות ומטוסים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "מכוניות ומטוסים",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "horse",
+     "title_he": "בסוס ובעגלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Two hundred years ago: a horse-drawn carriage on a long dusty country road between fields, a traveler in a long coat and hat, a village far in the distance, slow afternoon light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐎",
+     "say": [
+      "פעם, כדי לנסוע לעיר אחרת, היו צריכים סוס ועגלה.",
+      "נסיעה קצרה לקחה יום שלם, ונסיעה ארוכה לקחה שבועות!",
+      "היום נגלה איך הגיעו המכוניות, ואיך בני האדם למדו לעוף כמו ציפורים.",
+      "ומי שרצה לעלות לארץ ישראל, הפליג בספינה שבועות ארוכים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "train",
+     "title_he": "רכבת הקיטור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A black steam locomotive puffing white steam pulls old wooden carriages up through the rocky Judean hills toward Jerusalem, passengers in period clothes looking out the windows.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🚂",
+     "say": [
+      "ההמצאה הגדולה הראשונה הייתה הרכבת.",
+      "מנוע קיטור, מים רותחים שיוצאים מהם הרבה אדים, דחף את הגלגלים, והרכבת נסעה על פסים מהר יותר מכל סוס.",
+      "גם בארץ ישראל הייתה רכבת, מיפו עד ירושלים. היא נחנכה לפני יותר ממאה ושלושים שנה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "car",
+     "title_he": "המכונית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A late 19th-century German street: an early three-wheeled motor car with large thin spoked wheels and a small bench seat, its driver in a long coat and cap, curious townspeople watching.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🚗",
+     "say": [
+      "אחר כך הגיעה המכונית. במקום סוס, יש בה מנוע קטן שעובד בדלק.",
+      "איש בשם קרל בנץ בנה את אחת המכוניות הראשונות. היו לה רק שלושה גלגלים!",
+      "בהתחלה מכוניות היו יקרות מאוד. אחר כך מצאו דרך לבנות הרבה מכוניות מהר, וגם משפחות רגילות יכלו לקנות מכונית.",
+      "והיום יש בעולם יותר ממיליארד מכוניות!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wright",
+     "title_he": "הטיסה הראשונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A cold windy morning on sand dunes by the sea, 1903: a fragile biplane of wood and white cloth lifts a few feet above the sand, one man lying on the wing, another in a suit and cap running beside it.",
+     "move": "up",
+     "fx": "light",
+     "art": "✈️",
+     "say": [
+      "ועכשיו, החלום הגדול: לעוף!",
+      "שני אחים, וילבר ואורוויל רייט, עבדו בחנות אופניים. הם בנו מטוס קטן מעץ ובד.",
+      "ביום חורף אחד, המטוס שלהם המריא! הטיסה הראשונה ארכה רק שתים עשרה שניות. אבל זו הייתה התחלה של משהו גדול.",
+      "הם עבדו בסבלנות רבה: חקרו איך ציפורים עפות, ובדקו מאות צורות של כנפיים.",
+      "באותו יום הם טסו ארבע פעמים, והטיסה הארוכה ביותר ארכה כמעט דקה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "jets",
+     "title_he": "מטוסי ענק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A huge modern passenger jet climbing over the Mediterranean coast of Israel at sunrise, the white city and beach far below, soft clouds.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "✈️",
+     "say": [
+      "מאז, המטוסים נעשו גדולים ומהירים יותר ויותר.",
+      "היום מטוס אחד יכול לשאת מאות נוסעים, ולטוס לצד השני של העולם ביום אחד!",
+      "מה שלקח פעם שבועות בספינה, לוקח היום כמה שעות בלבד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "nesharim",
+     "title_he": "על כנפי נשרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: 1949: Yemenite Jewish families, men with long side curls and kippot holding Torah scrolls wrapped in cloth, women in long embroidered dresses and head coverings with children, climb the steps into a propeller airplane, faces full of joy.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👵 👦",
+     "say": [
+      "ולמטוסים יש תפקיד מיוחד בסיפור של עם ישראל.",
+      "לפני בערך שבעים וחמש שנה, יהודי תימן חלמו לעלות לארץ ישראל. מטוסים הביאו אותם, אלפי משפחות!",
+      "היהודים בתימן אמרו: הנה מתקיים הפסוק, ״ואשא אתכם על כנפי נשרים״.",
+      "רבים מהם לא ראו מטוס מעולם, אבל הם לא פחדו. הם שמחו שהם עולים לארץ ישראל!",
+      "ושנים אחר כך הגיעו במטוסים גם יהודים רבים מאתיופיה, ביום וחצי בלבד."
+     ],
+     "pasuk": {
+      "text": "וָאֶשָּׂא אֶתְכֶם עַל כַּנְפֵי נְשָׁרִים וָאָבִא אֶתְכֶם אֵלָי",
+      "ref": "שמות יט, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "doves",
+     "title_he": "כיונים אל ארובותיהם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A flock of white doves flying home at sunset over the hills of Jerusalem, a distant airplane high in the golden sky among them; peaceful and hopeful.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🕊️",
+     "say": [
+      "הנביא ישעיהו ראה מראה: ״מי אלה כעב תעופינה, וכיונים אל ארובותיהם?״ אנשים שעפים כמו ענן, כמו יונים שחוזרות הביתה.",
+      "רבים ראו בזה את המטוסים שמביאים יהודים לארץ ישראל."
+     ],
+     "pasuk": {
+      "text": "מִי אֵלֶּה כָּעָב תְּעוּפֶינָה, וְכַיּוֹנִים אֶל אֲרֻבֹּתֵיהֶם",
+      "ref": "ישעיהו ס, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "חגורת בטיחות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children buckle their seat belts in the back seat of a family car, their father with a kippah at the wheel, the road winding toward Jerusalem in morning light.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "היום אנחנו נוסעים במכונית לבית הספר, לסבא ולסבתא, ולטיולים.",
+      "וזכרו: במכונית תמיד חוגרים חגורת בטיחות! התורה אומרת לנו לשמור על עצמנו.",
+      "ולפני כל נסיעה ארוכה, אומרים תפילת הדרך.",
+      "בשיעור הבא נגלה איך אנשים מדברים זה עם זה ממרחק: הטלפון, הרדיו והמחשב."
+     ],
+     "pasuk": {
+      "text": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם",
+      "ref": "דברים ד, טו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-inf-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "מכוניות ומטוסים",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "horse",
+     "title_he": "בסוס ובעגלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Two hundred years ago: a horse-drawn carriage on a long dusty country road between fields, a traveler in a long coat and hat, a village far in the distance, slow afternoon light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐎",
+     "say": [
+      "לפני מאתיים שנה, אדם שרצה לנסוע מעיר לעיר רכב על סוס, או ישב בכרכרה רתומה לסוסים. נסיעה של מאה קילומטרים לקחה יום שלם ויותר.",
+      "ומי שרצה לעלות לארץ ישראל מאירופה הפליג בספינה שבועות ארוכים, ואחר כך המשיך ברגל או על גבי חמור.",
+      "היום נגלה איך מכונות חדשות קיצרו את הדרכים, ואיך החלום העתיק לעוף כמו ציפור הפך למציאות.",
+      "הדרכים היו מלאות אבנים ובוץ, ובחורף היו מקומות שאי אפשר היה לעבור בהם בכלל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "train",
+     "title_he": "רכבת הקיטור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A black steam locomotive puffing white steam pulls old wooden carriages up through the rocky Judean hills toward Jerusalem, passengers in period clothes looking out the windows.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🚂",
+     "say": [
+      "השלב הראשון היה הקיטור. כשמרתיחים מים, נוצרים אדים בעלי כוח רב. ממציאים בנו מנוע שבו הקיטור דוחף בוכנה, והבוכנה מסובבת את הגלגלים.",
+      "לפני בערך מאתיים שנה נסעו באנגליה הרכבות הראשונות על פסי ברזל, מהר יותר מכל סוס.",
+      "גם בארץ ישראל נחנכה רכבת בין יפו לירושלים, לפני יותר ממאה ושלושים שנה. הנסיעה ארכה כמה שעות, אבל זה היה מהיר בהרבה מהליכה ברגל במעלה ההרים.",
+      "הרכבת עזרה גם לעולים: מנמל יפו אפשר היה לעלות ברכבת לירושלים, במקום מסע ארוך ומסוכן בדרכי ההרים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הרכבת מיפו לירושלים נחנכה בשנת 1892. היא הייתה הרכבת הראשונה בארץ ישראל."
+     }
+    },
+    {
+     "id": "car",
+     "title_he": "המכונית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A late 19th-century German street: an early three-wheeled motor car with large thin spoked wheels and a small bench seat, its driver in a long coat and cap, curious townspeople watching.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🚗",
+     "say": [
+      "השלב הבא היה מנוע קטן יותר, ששורף דלק בתוכו. לפני בערך מאה וארבעים שנה בנה המהנדס הגרמני קרל בנץ את אחת המכוניות המעשיות הראשונות. היו לה שלושה גלגלים, והיא נסעה במהירות של אופניים.",
+      "בהתחלה מכוניות היו יקרות מאוד, ורק עשירים יכלו לקנות אותן. בארצות הברית מצאו פתרון: פס ייצור.",
+      "במקום שכמה פועלים יבנו מכונית שלמה, המכונית זזה לאורך פס, וכל פועל מוסיף לה חלק אחד. כך בנו מכוניות מהר וזול, ומשפחות רבות יכלו לקנות מכונית.",
+      "המכונית שינתה את הערים: נסללו כבישים, נבנו גשרים ותחנות דלק, ואנשים יכלו לגור רחוק מהעבודה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wright",
+     "title_he": "הטיסה הראשונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A cold windy morning on sand dunes by the sea, 1903: a fragile biplane of wood and white cloth lifts a few feet above the sand, one man lying on the wing, another in a suit and cap running beside it.",
+     "move": "up",
+     "fx": "light",
+     "art": "✈️",
+     "say": [
+      "במשך אלפי שנים בני האדם הביטו בציפורים וחלמו לעוף. רבים ניסו לבנות כנפיים, ורובם נכשלו.",
+      "שני אחים אמריקאים, וילבר ואורוויל רייט, ניהלו חנות לאופניים. הם חקרו בסבלנות איך ציפורים מטות את כנפיהן, בנו מנהרת רוח קטנה ובדקו מאות צורות של כנפיים.",
+      "בשבעה עשר בדצמבר 1903, על גבעות חול ליד הים, המריא המטוס שלהם, עם מנוע ופרופלרים. אורוויל טס בו שתים עשרה שניות, למרחק של בערך שלושים ושישה מטרים.",
+      "זה פחות מאורכו של מטוס נוסעים גדול של היום! אבל זה היה צעד ראשון: האדם טס במכונה כבדה מהאוויר, שהוא שולט בה.",
+      "האחים רייט לא היו מדענים מפורסמים ולא עשירים. הם היו אנשים חרוצים וסבלניים, שרשמו כל ניסוי, למדו מכל טעות, ולא ויתרו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "באותו יום טסו האחים רייט ארבע פעמים, והטיסה הארוכה ביותר ארכה כמעט דקה שלמה."
+     }
+    },
+    {
+     "id": "jets",
+     "title_he": "מטוסי ענק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A huge modern passenger jet climbing over the Mediterranean coast of Israel at sunrise, the white city and beach far below, soft clouds.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "✈️",
+     "say": [
+      "מאז, המטוסים התפתחו במהירות מדהימה. פחות משבעים שנה אחרי הטיסה הראשונה, כבר טסו מטוסי סילון ענקיים עם מאות נוסעים.",
+      "מה שלקח פעם שבועות ארוכים בספינה, לוקח היום כמה שעות. אפשר לצאת מאירופה בבוקר, ולהגיע לירושלים לפני הצהריים.",
+      "בכל רגע טסים בשמי העולם אלפי מטוסים. ובכל מטוס יש טייסים שהתאמנו שנים, ומכשירים רבים שעוזרים לשמור על הבטיחות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "nesharim",
+     "title_he": "על כנפי נשרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: 1949: Yemenite Jewish families, men with long side curls and kippot holding Torah scrolls wrapped in cloth, women in long embroidered dresses and head coverings with children, climb the steps into a propeller airplane, faces full of joy.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👵 👦",
+     "say": [
+      "ולמטוסים יש מקום מיוחד בסיפור של עם ישראל. אחרי הקמת המדינה, יהודי תימן ייחלו לעלות לארץ. הדרך ברגל ובספינה הייתה ארוכה ומסוכנת.",
+      "במבצע שנקרא ״על כנפי נשרים״ הטיסו מטוסים כמעט חמישים אלף יהודים מתימן לארץ ישראל. רבים מהם מעולם לא ראו מטוס, אבל הם לא פחדו. הם אמרו: התורה הבטיחה שהקדוש ברוך הוא יישא אותנו על כנפיים!",
+      "שנים רבות אחר כך, במבצע שלמה, הוטסו לארץ בתוך יום וחצי בערך יותר מארבעה עשר אלף יהודים מאתיופיה. במטוס אחד ישבו יותר מאלף איש, צפופים ושמחים."
+     ],
+     "pasuk": {
+      "text": "וָאֶשָּׂא אֶתְכֶם עַל כַּנְפֵי נְשָׁרִים וָאָבִא אֶתְכֶם אֵלָי",
+      "ref": "שמות יט, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "doves",
+     "title_he": "כיונים אל ארובותיהם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A flock of white doves flying home at sunset over the hills of Jerusalem, a distant airplane high in the golden sky among them; peaceful and hopeful.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🕊️",
+     "say": [
+      "הנביא ישעיהו, כשתיאר את קיבוץ הגלויות, שאל: ״מי אלה כעב תעופינה, וכיונים אל ארובותיהם?״ כלומר: מי הם אלה שעפים כמו ענן, כמו יונים שחוזרות אל הקן?",
+      "רבים ראו במטוסים שהביאו את העולים התגשמות מוחשית של הנבואה. וגם במטוס, כמו במכונית, אומרים תפילת הדרך ומבקשים שהקדוש ברוך הוא יוליכנו לשלום."
+     ],
+     "pasuk": {
+      "text": "מִי אֵלֶּה כָּעָב תְּעוּפֶינָה, וְכַיּוֹנִים אֶל אֲרֻבֹּתֵיהֶם",
+      "ref": "ישעיהו ס, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "חגורת בטיחות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children buckle their seat belts in the back seat of a family car, their father with a kippah at the wheel, the road winding toward Jerusalem in morning light.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "היום מכוניות, רכבות ומטוסים הם חלק מהחיים. הם מביאים אותנו לבית הספר, לסבא וסבתא, לכותל המערבי ולכל פינה בארץ ובעולם.",
+      "אבל עם המהירות באה אחריות. התורה מצווה: ״ונשמרתם מאוד לנפשותיכם״. לכן תמיד חוגרים חגורת בטיחות, ונהגים טובים נוסעים בזהירות ושומרים על החוק.",
+      "בשיעור הבא נגלה איך בני אדם למדו לדבר זה עם זה ממרחק: הטלפון, הרדיו, ובסוף גם המחשב והאינטרנט."
+     ],
+     "pasuk": {
+      "text": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם",
+      "ref": "דברים ד, טו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-inf-f5e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "מכוניות ומטוסים",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "horse",
+     "title_he": "בסוס ובעגלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Two hundred years ago: a horse-drawn carriage on a long dusty country road between fields, a traveler in a long coat and hat, a village far in the distance, slow afternoon light.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐎",
+     "say": [
+      "לפני מאתיים שנה, אדם שרצה לנסוע מעיר לעיר רכב על סוס, או ישב בכרכרה רתומה לסוסים. נסיעה של מאה קילומטרים לקחה יום שלם ויותר.",
+      "ומי שרצה לעלות לארץ ישראל מאירופה הפליג בספינה שבועות ארוכים, ואחר כך המשיך ברגל או על גבי חמור.",
+      "היום נגלה איך מכונות חדשות קיצרו את הדרכים, ואיך החלום העתיק לעוף כמו ציפור הפך למציאות.",
+      "הדרכים היו מלאות אבנים ובוץ, ובחורף היו מקומות שאי אפשר היה לעבור בהם בכלל.",
+      "וגם בזמן בית המקדש הדרך לירושלים הייתה ארוכה. ובכל זאת, עם ישראל עלה לירושלים שלוש פעמים בשנה, ברגל, בשמחה גדולה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "train",
+     "title_he": "רכבת הקיטור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A black steam locomotive puffing white steam pulls old wooden carriages up through the rocky Judean hills toward Jerusalem, passengers in period clothes looking out the windows.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🚂",
+     "say": [
+      "השלב הראשון היה הקיטור. כשמרתיחים מים, נוצרים אדים בעלי כוח רב. ממציאים בנו מנוע שבו הקיטור דוחף בוכנה, והבוכנה מסובבת את הגלגלים.",
+      "לפני בערך מאתיים שנה נסעו באנגליה הרכבות הראשונות על פסי ברזל, מהר יותר מכל סוס.",
+      "גם בארץ ישראל נחנכה רכבת בין יפו לירושלים, לפני יותר ממאה ושלושים שנה. הנסיעה ארכה כמה שעות, אבל זה היה מהיר בהרבה מהליכה ברגל במעלה ההרים.",
+      "הרכבת לירושלים נבנתה בימי השלטון העות׳מאני, ואחד היוזמים שלה היה יהודי מירושלים, יוסף נבון. כשנחנכה, ראו בה רבים סימן שהעיר הקדושה, שהייתה רחוקה וקשה להגעה, מתחברת לעולם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הרכבת מיפו לירושלים נחנכה בשנת 1892. היא הייתה הרכבת הראשונה בארץ ישראל."
+     }
+    },
+    {
+     "id": "car",
+     "title_he": "המכונית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A late 19th-century German street: an early three-wheeled motor car with large thin spoked wheels and a small bench seat, its driver in a long coat and cap, curious townspeople watching.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🚗",
+     "say": [
+      "השלב הבא היה מנוע קטן יותר, ששורף דלק בתוכו. לפני בערך מאה וארבעים שנה בנה המהנדס הגרמני קרל בנץ את אחת המכוניות המעשיות הראשונות. היו לה שלושה גלגלים, והיא נסעה במהירות של אופניים.",
+      "בהתחלה מכוניות היו יקרות מאוד, ורק עשירים יכלו לקנות אותן. בארצות הברית מצאו פתרון: פס ייצור.",
+      "במקום שכמה פועלים יבנו מכונית שלמה, המכונית זזה לאורך פס, וכל פועל מוסיף לה חלק אחד. כך בנו מכוניות מהר וזול, ומשפחות רבות יכלו לקנות מכונית.",
+      "המכונית שינתה את הערים: נסללו כבישים, נבנו גשרים ותחנות דלק, ואנשים יכלו לגור רחוק מהעבודה.",
+      "ועם המכונית באה אחריות. כבר בתורה נאמר: ״כי תבנה בית חדש ועשית מעקה לגגך, ולא תשים דמים בביתך״. חז״ל למדו מכאן שאדם חייב להרחיק כל דבר מסוכן מרשותו. נהג זהיר, ומכונית שמתוחזקת היטב, הם קיום של אותו עיקרון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wright",
+     "title_he": "הטיסה הראשונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A cold windy morning on sand dunes by the sea, 1903: a fragile biplane of wood and white cloth lifts a few feet above the sand, one man lying on the wing, another in a suit and cap running beside it.",
+     "move": "up",
+     "fx": "light",
+     "art": "✈️",
+     "say": [
+      "במשך אלפי שנים בני האדם הביטו בציפורים וחלמו לעוף. רבים ניסו לבנות כנפיים, ורובם נכשלו.",
+      "שני אחים אמריקאים, וילבר ואורוויל רייט, ניהלו חנות לאופניים. הם חקרו בסבלנות איך ציפורים מטות את כנפיהן, בנו מנהרת רוח קטנה ובדקו מאות צורות של כנפיים.",
+      "בשבעה עשר בדצמבר 1903, על גבעות חול ליד הים, המריא המטוס שלהם, עם מנוע ופרופלרים. אורוויל טס בו שתים עשרה שניות, למרחק של בערך שלושים ושישה מטרים.",
+      "זה פחות מאורכו של מטוס נוסעים גדול של היום! אבל זה היה צעד ראשון: האדם טס במכונה כבדה מהאוויר, שהוא שולט בה.",
+      "האחים רייט לא היו מדענים מפורסמים ולא עשירים. הם היו אנשים חרוצים וסבלניים, שרשמו כל ניסוי, למדו מכל טעות, ולא ויתרו.",
+      "לפני האחים רייט ניסו רבים לטוס, ורבים נכשלו. ההבדל הגדול היה שהאחים רייט הבינו שהבעיה הקשה איננה רק להמריא, אלא לשלוט במטוס באוויר, להטות אותו ולייצב אותו, כמו שציפור עושה בכנפיה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "באותו יום טסו האחים רייט ארבע פעמים, והטיסה הארוכה ביותר ארכה כמעט דקה שלמה."
+     }
+    },
+    {
+     "id": "jets",
+     "title_he": "מטוסי ענק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A huge modern passenger jet climbing over the Mediterranean coast of Israel at sunrise, the white city and beach far below, soft clouds.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "✈️",
+     "say": [
+      "מאז, המטוסים התפתחו במהירות מדהימה. פחות משבעים שנה אחרי הטיסה הראשונה, כבר טסו מטוסי סילון ענקיים עם מאות נוסעים.",
+      "מה שלקח פעם שבועות ארוכים בספינה, לוקח היום כמה שעות. אפשר לצאת מאירופה בבוקר, ולהגיע לירושלים לפני הצהריים.",
+      "בכל רגע טסים בשמי העולם אלפי מטוסים. ובכל מטוס יש טייסים שהתאמנו שנים, ומכשירים רבים שעוזרים לשמור על הבטיחות.",
+      "המטוסים הביאו גם שאלות חדשות בהלכה: מתי מתפללים ומתי קוראים קריאת שמע כשטסים, והזמנים של הזריחה והשקיעה משתנים מהר? גדולי הפוסקים דנו בשאלות האלה, וכתבו עליהן תשובות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "nesharim",
+     "title_he": "על כנפי נשרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: 1949: Yemenite Jewish families, men with long side curls and kippot holding Torah scrolls wrapped in cloth, women in long embroidered dresses and head coverings with children, climb the steps into a propeller airplane, faces full of joy.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👵 👦",
+     "say": [
+      "ולמטוסים יש מקום מיוחד בסיפור של עם ישראל. אחרי הקמת המדינה, יהודי תימן ייחלו לעלות לארץ. הדרך ברגל ובספינה הייתה ארוכה ומסוכנת.",
+      "במבצע שנקרא ״על כנפי נשרים״ הטיסו מטוסים כמעט חמישים אלף יהודים מתימן לארץ ישראל. רבים מהם מעולם לא ראו מטוס, אבל הם לא פחדו. הם אמרו: התורה הבטיחה שהקדוש ברוך הוא יישא אותנו על כנפיים!",
+      "שנים רבות אחר כך, במבצע שלמה, הוטסו לארץ בתוך יום וחצי בערך יותר מארבעה עשר אלף יהודים מאתיופיה. במטוס אחד ישבו יותר מאלף איש, צפופים ושמחים.",
+      "רש״י מסביר על ״ואשא אתכם על כנפי נשרים״: הנשר נושא את גוזליו על כנפיו, ולא ברגליו כמו שאר העופות. הוא אומר: מוטב שהחץ ייכנס בי, ולא בבני. כך שמר הקדוש ברוך הוא על ישראל, כמו נשר על גוזליו."
+     ],
+     "pasuk": {
+      "text": "וָאֶשָּׂא אֶתְכֶם עַל כַּנְפֵי נְשָׁרִים וָאָבִא אֶתְכֶם אֵלָי",
+      "ref": "שמות יט, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "doves",
+     "title_he": "כיונים אל ארובותיהם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A flock of white doves flying home at sunset over the hills of Jerusalem, a distant airplane high in the golden sky among them; peaceful and hopeful.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🕊️",
+     "say": [
+      "הנביא ישעיהו, כשתיאר את קיבוץ הגלויות, שאל: ״מי אלה כעב תעופינה, וכיונים אל ארובותיהם?״ כלומר: מי הם אלה שעפים כמו ענן, כמו יונים שחוזרות אל הקן?",
+      "הנביא מתאר את בני ישראל שחוזרים אל ארצם מהר ובשמחה, כמו יונים שעפות הביתה. רבים ראו במטוסים שהביאו את העולים התגשמות מוחשית של הנבואה.",
+      "ועוד דבר: כל המכונות האלה לא שינו את מה שחשוב באמת. גם במכונית וגם במטוס אומרים תפילת הדרך, ומבקשים מהקדוש ברוך הוא שיוליכנו לשלום ויחזירנו לשלום.",
+      "הנסיעה מהירה יותר, אבל הלב שמתפלל נשאר אותו לב."
+     ],
+     "pasuk": {
+      "text": "מִי אֵלֶּה כָּעָב תְּעוּפֶינָה, וְכַיּוֹנִים אֶל אֲרֻבֹּתֵיהֶם",
+      "ref": "ישעיהו ס, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "חגורת בטיחות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children buckle their seat belts in the back seat of a family car, their father with a kippah at the wheel, the road winding toward Jerusalem in morning light.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "היום מכוניות, רכבות ומטוסים הם חלק מהחיים. הם מביאים אותנו לבית הספר, לסבא וסבתא, לכותל המערבי ולכל פינה בארץ ובעולם.",
+      "אבל עם המהירות באה אחריות. התורה מצווה: ״ונשמרתם מאוד לנפשותיכם״. לכן תמיד חוגרים חגורת בטיחות, ונהגים טובים נוסעים בזהירות ושומרים על החוק.",
+      "חז״ל אמרו ש״כל הדרכים בחזקת סכנה״. לכן תפילת הדרך איננה מנהג קטן, אלא בקשה אמיתית מהקדוש ברוך הוא.",
+      "בשיעור הבא נגלה איך בני אדם למדו לדבר זה עם זה ממרחק: הטלפון, הרדיו, ובסוף גם המחשב והאינטרנט."
+     ],
+     "pasuk": {
+      "text": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם",
+      "ref": "דברים ד, טו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-inf-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה עבדו האחים רייט?",
+   "answer": "בחנות לאופניים",
+   "options": [
+    "בחנות לאופניים",
+    "בתחנת רכבת",
+    "בבית חרושת למכוניות"
+   ],
+   "explain_he": "האחים רייט ניהלו חנות אופניים, ושם בנו ובדקו את המטוס שלהם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה עבדו האחים רייט?",
+   "answer": "בחנות לאופניים",
+   "options": [
+    "בחנות לאופניים",
+    "בתחנת רכבת",
+    "בבית חרושת למכוניות"
+   ],
+   "explain_he": "האחים רייט ניהלו חנות אופניים, ושם בנו ובדקו את המטוס שלהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה עבדו האחים רייט?",
+   "answer": "בחנות לאופניים",
+   "options": [
+    "בחנות לאופניים",
+    "בתחנת רכבת",
+    "בבית חרושת למכוניות"
+   ],
+   "explain_he": "האחים רייט ניהלו חנות אופניים, ושם בנו ובדקו את המטוס שלהם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן ארכה הטיסה הראשונה של האחים רייט?",
+   "answer": "שתים עשרה שניות",
+   "options": [
+    "שתים עשרה שניות",
+    "שעה שלמה",
+    "יום שלם"
+   ],
+   "explain_he": "הטיסה הראשונה הייתה קצרה מאוד, שתים עשרה שניות, אבל זו הייתה התחלה של משהו גדול.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן ארכה הטיסה הראשונה של האחים רייט?",
+   "answer": "שתים עשרה שניות",
+   "options": [
+    "שתים עשרה שניות",
+    "שעה שלמה",
+    "יום שלם"
+   ],
+   "explain_he": "הטיסה הראשונה הייתה קצרה מאוד, שתים עשרה שניות, אבל זו הייתה התחלה של משהו גדול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן ארכה הטיסה הראשונה של האחים רייט?",
+   "answer": "שתים עשרה שניות",
+   "options": [
+    "שתים עשרה שניות",
+    "שעה שלמה",
+    "יום שלם"
+   ],
+   "explain_he": "הטיסה הראשונה הייתה קצרה מאוד, שתים עשרה שניות, אבל זו הייתה התחלה של משהו גדול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזו ארץ הביאו המטוסים במבצע ״על כנפי נשרים״?",
+   "answer": "מתימן",
+   "options": [
+    "מתימן",
+    "מאמריקה",
+    "מסין"
+   ],
+   "explain_he": "יהודי תימן הוטסו לארץ, וראו בזה את הפסוק ״ואשא אתכם על כנפי נשרים״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזו ארץ הביאו המטוסים במבצע ״על כנפי נשרים״?",
+   "answer": "מתימן",
+   "options": [
+    "מתימן",
+    "מאמריקה",
+    "מסין"
+   ],
+   "explain_he": "יהודי תימן הוטסו לארץ, וראו בזה את הפסוק ״ואשא אתכם על כנפי נשרים״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזו ארץ הביאו המטוסים במבצע ״על כנפי נשרים״?",
+   "answer": "מתימן",
+   "options": [
+    "מתימן",
+    "מאמריקה",
+    "מסין"
+   ],
+   "explain_he": "יהודי תימן הוטסו לארץ, וראו בזה את הפסוק ״ואשא אתכם על כנפי נשרים״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חוגרים חגורת בטיחות במכונית?",
+   "answer": "כי התורה מצווה לשמור על עצמנו",
+   "options": [
+    "כי התורה מצווה לשמור על עצמנו",
+    "כי זה יפה",
+    "כדי שהמכונית תיסע מהר יותר"
+   ],
+   "explain_he": "״ונשמרתם מאוד לנפשותיכם״: שמירה על החיים היא מצווה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חוגרים חגורת בטיחות במכונית?",
+   "answer": "כי התורה מצווה לשמור על עצמנו",
+   "options": [
+    "כי התורה מצווה לשמור על עצמנו",
+    "כי זה יפה",
+    "כדי שהמכונית תיסע מהר יותר"
+   ],
+   "explain_he": "״ונשמרתם מאוד לנפשותיכם״: שמירה על החיים היא מצווה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חוגרים חגורת בטיחות במכונית?",
+   "answer": "כי התורה מצווה לשמור על עצמנו",
+   "options": [
+    "כי התורה מצווה לשמור על עצמנו",
+    "כי זה יפה",
+    "כדי שהמכונית תיסע מהר יותר"
+   ],
+   "explain_he": "״ונשמרתם מאוד לנפשותיכם״: שמירה על החיים היא מצווה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נסעו מעיר לעיר לפני שהיו מכוניות?",
+   "answer": "על סוס או בעגלה רתומה לסוסים",
+   "options": [
+    "על סוס או בעגלה רתומה לסוסים",
+    "באופנוע",
+    "באוטובוס"
+   ],
+   "explain_he": "פעם נסעו בסוס ובעגלה, ונסיעה ארוכה לקחה ימים ושבועות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f5e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נסעו מעיר לעיר לפני שהיו מכוניות?",
+   "answer": "על סוס או בעגלה רתומה לסוסים",
+   "options": [
+    "על סוס או בעגלה רתומה לסוסים",
+    "באופנוע",
+    "באוטובוס"
+   ],
+   "explain_he": "פעם נסעו בסוס ובעגלה, ונסיעה ארוכה לקחה ימים ושבועות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f5e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נסעו מעיר לעיר לפני שהיו מכוניות?",
+   "answer": "על סוס או בעגלה רתומה לסוסים",
+   "options": [
+    "על סוס או בעגלה רתומה לסוסים",
+    "באופנוע",
+    "באוטובוס"
+   ],
+   "explain_he": "פעם נסעו בסוס ובעגלה, ונסיעה ארוכה לקחה ימים ושבועות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הרעיון של פס הייצור?",
+   "answer": "כל פועל מוסיף חלק אחד, וכך בונים מהר וזול",
+   "options": [
+    "כל פועל מוסיף חלק אחד, וכך בונים מהר וזול",
+    "רובוטים בונים את כל המכונית",
+    "כל פועל בונה מכונית שלמה לבד"
+   ],
+   "explain_he": "המכונית זזה לאורך הפס וכל פועל מוסיף חלק, ולכן משפחות רבות יכלו לקנות מכונית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f5e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הרעיון של פס הייצור?",
+   "answer": "כל פועל מוסיף חלק אחד, וכך בונים מהר וזול",
+   "options": [
+    "כל פועל מוסיף חלק אחד, וכך בונים מהר וזול",
+    "רובוטים בונים את כל המכונית",
+    "כל פועל בונה מכונית שלמה לבד"
+   ],
+   "explain_he": "המכונית זזה לאורך הפס וכל פועל מוסיף חלק, ולכן משפחות רבות יכלו לקנות מכונית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך התכוננו האחים רייט לטיסה?",
+   "answer": "חקרו כנפי ציפורים ובדקו מאות צורות של כנפיים",
+   "options": [
+    "חקרו כנפי ציפורים ובדקו מאות צורות של כנפיים",
+    "קפצו מגג גבוה",
+    "קנו מטוס מוכן"
+   ],
+   "explain_he": "הם עבדו בסבלנות, בנו מנהרת רוח ובדקו מאות כנפיים לפני שהצליחו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f5e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך התכוננו האחים רייט לטיסה?",
+   "answer": "חקרו כנפי ציפורים ובדקו מאות צורות של כנפיים",
+   "options": [
+    "חקרו כנפי ציפורים ובדקו מאות צורות של כנפיים",
+    "קפצו מגג גבוה",
+    "קנו מטוס מוכן"
+   ],
+   "explain_he": "הם עבדו בסבלנות, בנו מנהרת רוח ובדקו מאות כנפיים לפני שהצליחו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה ראו רבים התגשמות של הפסוק ״מי אלה כעב תעופינה״?",
+   "answer": "במטוסים שהביאו עולים לארץ",
+   "options": [
+    "במטוסים שהביאו עולים לארץ",
+    "בציפורים נודדות",
+    "בעננים של החורף"
+   ],
+   "explain_he": "הנביא תיאר את ישראל חוזרים הביתה כיונים, ורבים ראו בזה את מטוסי העולים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e23"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לא השתנה למרות כל ההמצאות?",
+   "answer": "גם במכונית ובמטוס אומרים תפילת הדרך",
+   "options": [
+    "גם במכונית ובמטוס אומרים תפילת הדרך",
+    "שנוסעים רק ביום",
+    "שכל מסע לוקח שבועות"
+   ],
+   "explain_he": "הנסיעה מהירה יותר, אבל אנחנו עדיין מבקשים מהקדוש ברוך הוא שיוליכנו לשלום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f5e24"
+  }
+ ]
+}

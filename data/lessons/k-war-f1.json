@@ -1,0 +1,303 @@
+{
+ "id": "k-war-f1",
+ "unit_id": "k-war-u1",
+ "course": "wars",
+ "title_he": "גוש עציון",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🛡️ ידע כללי",
+   "title_he": "גוש עציון",
+   "ref_he": "מלחמות ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "האלון הבודד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A single ancient oak tree on a rocky hilltop in the Hebron hills at sunset, terraced slopes below, a distant view toward Jerusalem, a lonely, memorial-like quiet.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🌳",
+     "say": [
+      "על גבעה סלעית בהרי חברון, בין ירושלים לחברון, עומד עץ אלון עתיק אחד.",
+      "יש לו שם: העץ הבודד. במשך תשע עשרה שנה, ילדים שגדלו בירושלים היו מסתכלים עליו מרחוק, ובוכים.",
+      "למה? כי ליד העץ הזה היה פעם הבית שלהם.",
+      "היום נתחיל לספר על מלחמות ישראל. נספר בזהירות, בלי תיאורים קשים.",
+      "נדבר על אומץ, על אמונה ועל מסירות נפש, ונזכור את אלה שנתנו את חייהם כדי שנוכל לחיות כאן.",
+      "ונתחיל מהסיפור של גוש עציון, בימים שלפני הקמת המדינה.",
+      "זה סיפור עצוב, אבל גם סיפור של חזרה ותקווה. בסוף הפרק נגלה מה קרה לעץ ולילדים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אחרי ההצבעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A winding mountain road between rocky hills in winter 1947, an old armored bus with metal plates driving slowly, dark clouds above, a sense of danger and determination, no people fighting visible.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🪨 🪨",
+     "say": [
+      "בכ״ט בנובמבר 1947 החליט האו״ם על הקמת מדינה יהודית. היהודים רקדו ברחובות.",
+      "אבל מנהיגי הערבים בארץ ובמדינות השכנות דחו את ההחלטה, והכריזו שימנעו את הקמת המדינה בכוח.",
+      "כבר למחרת התחילו התקפות על יהודים בדרכים, בשכונות וביישובים.",
+      "בארץ חיו אז רק כשש מאות וחמישים אלף יהודים. הם היו מעטים, ונשקם היה מעט.",
+      "ולכל יישוב מבודד היה קשה במיוחד, כי הדרכים אליו עברו בין כפרים עוינים.",
+      "השיירות נסעו במכוניות משוריינות, שעליהן ריתכו לוחות ברזל. כל נסיעה הייתה מבצע של אומץ.",
+      "הנהגים והמלווים ידעו שהם מסכנים את חייהם, ובכל זאת יצאו שוב ושוב.",
+      "התורה מלמדת: אל ירך לבבכם, אל תיראו. כך הרגישו הלוחמים: הם פחדו, ובכל זאת עמדו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "שלושה ניסיונות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A small group of religious pioneers in the 1940s with kippot and work clothes building a stone house on a rocky hill, an older man planting a young tree, piles of stones and simple tools, clear morning air.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👨 🌳 🪨",
+     "say": [
+      "הסיפור של גוש עציון התחיל עוד לפני כן.",
+      "כבר בשנת 1927 בערך ניסו יהודים להתיישב בהרים האלה, ליד בית לחם. היישוב הזה ננטש בפרעות 1929.",
+      "כעבור כמה שנים היה ניסיון נוסף, שגם הוא לא החזיק מעמד בגלל המאורעות.",
+      "ובשנת 1943 הגיעה קבוצה של חלוצים דתיים, והקימה את כפר עציון. אחר כך קמו לידו עוד שלושה יישובים.",
+      "הם עבדו קשה מאוד: פינו אבנים, בנו טרסות, נטעו עצים, והקימו בית ספר ובית כנסת.",
+      "בשבתות, מבית הכנסת הקטן, נשמעו תפילות ושירים על פני ההרים השקטים.",
+      "הם ידעו שהמקום מסוכן ומבודד. אבל הם האמינו שעל ההרים האלה הלכו האבות, ושלשם צריך לחזור."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השם עציון נקרא על שם שמואל הולצמן, שקנה שם אדמות. בגרמנית, הולץ פירושו עץ."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "ארבעה יישובים בהר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Four small Jewish villages on green and rocky hills seen from above in 1947: stone houses, a small synagogue, a water tower, terraced fields and orchards, religious farmers with kippot working the land, peaceful morning.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🏠 🏠 🏠",
+     "say": [
+      "גוש עציון היה קבוצה של ארבעה יישובים: כפר עציון, משואות יצחק, עין צורים ורבדים.",
+      "שלושה מהם היו יישובים דתיים, של אנשי תורה ועבודה. הם התפללו, למדו ועבדו את אדמת הרי יהודה.",
+      "הרעיון היה לחזור ולהתיישב בהרים שבין ירושלים לחברון, ארץ האבות.",
+      "כשהתחילה המלחמה, הגוש היה מוקף מכל הצדדים, רחוק מכל יישוב יהודי אחר.",
+      "בינואר 1948 פונו הנשים והילדים לירושלים, בעזרת הבריטים. רק הלוחמים נשארו.",
+      "הילדים נפרדו מאבותיהם ולא ידעו אם יראו אותם שוב.",
+      "הפסוק ששמר עליהם היה דברי יואב: חזק ונתחזק בעד עמנו ובעד ערי אלקינו."
+     ],
+     "pasuk": {
+      "text": "חֲזַק וְנִתְחַזַּק בְּעַד עַמֵּנוּ וּבְעַד עָרֵי אֱלֹקֵינוּ",
+      "ref": "שמואל ב י, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הל״ה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A dark winter night in the Judean hills, a narrow rocky path winding up a slope under stars, the silhouettes of a distant line of young men walking far away carrying packs, no faces visible, a deep quiet.",
+     "move": "right",
+     "fx": "night",
+     "art": "🚶 🚶 🚶",
+     "say": [
+      "הגוש היה במצור, והיה צריך להביא אליו תגבורת, תרופות ותחמושת.",
+      "באמצע ינואר 1948 יצאו מירושלים שלושים וחמישה לוחמים צעירים, רובם סטודנטים.",
+      "כדי לא להתגלות, הם הלכו ברגל, בלילה, בדרך ארוכה בהרים, ונשאו על גבם את הציוד.",
+      "השחר עלה עליהם לפני שהגיעו. הם התגלו, ונלחמו בגבורה עד האחרון שבהם.",
+      "אף אחד מהם לא חזר. הם נקראים עד היום הל״ה, כמניין שלושים וחמש באותיות.",
+      "אחרי המלחמה הם נקברו יחד, זה לצד זה, בהר הרצל בירושלים.",
+      "הם יצאו לא כדי להציל את עצמם, אלא כדי להציל את אחיהם. זו מסירות נפש.",
+      "אנחנו זוכרים את שמותיהם, ומבקשים: יהי זכרם ברוך."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "קיבוץ נתיב הל״ה, ליד הדרך שבה הלכו, נקרא על שם שלושים וחמשה הלוחמים."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "ד׳ באייר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: The ruins of a stone building on a hilltop at dawn after the battle, a broken water tower, smoke long gone, a single torn blue-and-white flag on a pole, wild flowers among the stones, silent and solemn.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🪨 🌳",
+     "say": [
+      "במשך חודשים החזיקו לוחמי הגוש מעמד, ועיכבו כוחות אויב גדולים.",
+      "גם במצור הם המשיכו להתפלל במניין, לשמור שבת ככל שאפשר, ולעודד זה את זה.",
+      "באמצע מאי 1948, לפני שהבריטים עזבו, תקפו את הגוש צבא הלגיון הירדני ולוחמים רבים נוספים.",
+      "ביום ד׳ באייר תש״ח, יום אחד לפני הכרזת המדינה, נפל כפר עציון. רוב מגיניו נפלו בקרב.",
+      "למחרת נכנעו שלושת היישובים האחרים, ומגיניהם נלקחו בשבי לירדן. כעבור כשנה חזרו הביתה.",
+      "בקרבות על גוש עציון נפלו יותר ממאתיים לוחמים.",
+      "יום הזיכרון לחללי מערכות ישראל חל בכל שנה בד׳ באייר, אותו יום בחודש שבו נפל כפר עציון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "למה זה היה חשוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A wide view from the hills toward Jerusalem at evening, the road from the south winding between the mountains, the distant lights of the city beginning to glow, a sense of something protected.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🪨 🏠",
+     "say": [
+      "אפשר לשאול: אם הגוש נפל, האם הקרב היה לשווא?",
+      "ממש לא. הלוחמים עיכבו כוחות גדולים, שהיו יכולים להגיע לירושלים ולפגוע בה קשות.",
+      "בזכותם הרוויחה ירושלים זמן יקר, כדי להתארגן ולהתבצר.",
+      "והכרזת המדינה, למחרת, התקיימה כשהגוש עוד עומד בחלקו.",
+      "חז״ל אמרו: כל המקיים נפש אחת מישראל, כאילו קיים עולם מלא.",
+      "לוחמי גוש עציון הצילו, בעמידתם, נפשות רבות שאינם מכירים בכלל.",
+      "ומפקדים רבים אמרו אחר כך: בלי גוש עציון, אולי ירושלים לא הייתה עומדת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ושבו בנים לגבולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Autumn 1967, a group of young men and women in modest clothes, some with kippot, walking up the rocky hill toward the lone oak tree, smiling with tears, carrying tools and a Torah scroll in a velvet cover, golden light.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 🌳",
+     "say": [
+      "הילדים שפונו מהגוש גדלו בירושלים. מגבעה ליד העיר הם היו מסתכלים לעבר העץ הבודד, ומתגעגעים.",
+      "עברו תשע עשרה שנה. ואחרי מלחמת ששת הימים, בשנת 1967, נפתחה שוב הדרך להרי חברון.",
+      "באותו קיץ, הבנים, שהיו כבר אנשים צעירים, חזרו ובנו מחדש את כפר עציון.",
+      "הם הביאו איתם ספר תורה, ובירכו שהחיינו.",
+      "אחד מהם, חנן פורת, היה ילד כשפונה מהגוש, ועכשיו חזר כצעיר, ולחם בעצמו בקרבות על ירושלים, כצנחן.",
+      "הנביא ירמיהו אמר לרחל אמנו, שקבורה לא רחוק משם: ויש תקוה לאחריתך, ושבו בנים לגבולם.",
+      "גוש עציון נבנה מחדש וגדל, והעץ הבודד עומד שם עד היום."
+     ],
+     "pasuk": {
+      "text": "וְיֵשׁ תִּקְוָה לְאַחֲרִיתֵךְ נְאֻם ה׳, וְשָׁבוּ בָנִים לִגְבוּלָם",
+      "ref": "ירמיהו לא, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "זוכרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A memorial hill in Gush Etzion at dusk with a simple stone monument, a few memorial candles burning, a father and teenage son with kippot standing in silence, the lone oak tree visible in the distance.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨 👦 🌳",
+     "say": [
+      "מה נלמד מגוש עציון?",
+      "שלפעמים מעטים, עם אמונה ואחריות, יכולים לשנות את מהלך הדברים.",
+      "שמסירות נפש איננה רק במלחמה. היא גם להתיישב במקום קשה, ולהחזיק בו.",
+      "ושהבטחת הנביאים, ושבו בנים לגבולם, מתקיימת, גם אם זה לוקח זמן.",
+      "בפרק הבא נעבור לירושלים הנצורה, שבזכות לוחמי גוש עציון הרוויחה זמן יקר.",
+      "וגם שאפשר לבכות על מה שנחרב, ובאותו זמן לבנות מחדש. כך עשה עם ישראל אחרי כל חורבן.",
+      "ועכשיו, רגע של שקט. לזכר מגיני גוש עציון ולוחמי הל״ה. יהי זכרם ברוך."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-war-f1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה יישובים היו בגוש עציון בתש״ח?",
+   "answer": "ארבעה",
+   "options": [
+    "ארבעה",
+    "שניים",
+    "עשרה"
+   ],
+   "explain_he": "כפר עציון, משואות יצחק, עין צורים ורבדים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ניסו לעשות לוחמי הל״ה?",
+   "answer": "להגיע ברגל בלילה לגוש הנצור ולהביא עזרה",
+   "options": [
+    "להגיע ברגל בלילה לגוש הנצור ולהביא עזרה",
+    "לפנות את ירושלים",
+    "לכבוש את חברון"
+   ],
+   "explain_he": "שלושים וחמישה לוחמים יצאו בלילה מירושלים כדי לתגבר את הגוש, ונפלו כולם בדרך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי נפל כפר עציון?",
+   "answer": "בד׳ באייר תש״ח, יום לפני הכרזת המדינה",
+   "options": [
+    "בד׳ באייר תש״ח, יום לפני הכרזת המדינה",
+    "בכ״ט בנובמבר 1947",
+    "אחרי מלחמת ששת הימים"
+   ],
+   "explain_he": "כפר עציון נפל בד׳ באייר, ולמחרת, בה׳ באייר, הוכרזה המדינה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הקרב על גוש עציון לא היה לשווא?",
+   "answer": "הלוחמים עיכבו כוחות אויב גדולים בדרכם לירושלים",
+   "options": [
+    "הלוחמים עיכבו כוחות אויב גדולים בדרכם לירושלים",
+    "כי האויב נסוג מיד מכל ההרים",
+    "כי הבריטים החליטו בגללו להישאר"
+   ],
+   "explain_he": "העמידה של הגוש נתנה לירושלים זמן יקר להתארגן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה העץ הבודד לילדי הגוש?",
+   "answer": "סמל לבית שאליו התגעגעו במשך תשע עשרה שנה",
+   "options": [
+    "סמל לבית שאליו התגעגעו במשך תשע עשרה שנה",
+    "מקום מסתור בזמן הקרבות",
+    "עץ שנטעו כשנולדה המדינה"
+   ],
+   "explain_he": "הילדים שפונו הסתכלו על העץ מרחוק, ואחרי 1967 חזרו ובנו את כפר עציון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה פסוק של ירמיהו מתאים לחזרה לגוש עציון?",
+   "answer": "\"ושבו בנים לגבולם\"",
+   "options": [
+    "\"ושבו בנים לגבולם\"",
+    "\"לך לך מארצך\"",
+    "\"היינו כחולמים\""
+   ],
+   "explain_he": "ירמיהו ניחם את רחל אמנו: ויש תקוה לאחריתך, ושבו בנים לגבולם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f1e7"
+  }
+ ]
+}

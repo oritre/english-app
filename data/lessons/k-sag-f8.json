@@ -1,0 +1,567 @@
+{
+ "id": "k-sag-f8",
+ "unit_id": "k-sag-u3",
+ "course": "sages",
+ "title_he": "החפץ חיים, ושרשרת הדורות",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "החפץ חיים, ושרשרת הדורות",
+   "ref_he": "גדולי ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "shop",
+     "title_he": "החנות הקטנה בראדין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Chafetz Chaim: a small humble very old sage with a short white beard, a simple dark coat and a dark cap, kind gentle eyes, early 20th-century Poland. Scene: A small wooden grocery shop in a Polish village around 1900: sacks of flour and jars on shelves, honest brass scales on the counter, a modest woman with a head covering serving a customer, and a small elderly man with a cap reading at the back.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👵 👴",
+     "say": [
+      "בעיירה ראדין שבפולין הייתה חנות מכולת קטנה. אשת הרב עמדה בה ומכרה, והרב עצמו דאג שהמשקלות יהיו מדויקים לגמרי.",
+      "מסופר שכאשר הרוויחו מספיק לאותו יום, הרב ביקש לסגור את החנות. למה? כדי שגם החנויות האחרות בעיירה יוכלו להתפרנס.",
+      "מי היה הרב הזה? רבי ישראל מאיר הכהן, שנולד בשנת 1838. אבל כולם קראו לו בשם אחר: החפץ חיים.",
+      "הוא היה עניו כל כך, שמי שלא הכיר אותו לא היה מנחש שהוא אחד מגדולי הדור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "book",
+     "title_he": "מי האיש החפץ חיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Chafetz Chaim: a small humble very old sage with a short white beard, a simple dark coat and a dark cap, kind gentle eyes, early 20th-century Poland. Scene: An old printing workshop: a stack of freshly printed small books on a wooden table, a printer in an apron and a small elderly rabbi carefully checking a page; light through a dusty window.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👴",
+     "say": [
+      "הרב כתב ספר על הלכות לשון הרע: מה מותר לומר על אחרים, ומה אסור. וקרא לו \"חפץ חיים\", על שם הפסוק בתהלים.",
+      "מי האיש החפץ חיים? נצור לשונך מרע. כלומר, מי שרוצה חיים טובים, ישמור על הפה שלו.",
+      "הספר נדפס בלי שם המחבר, מרוב ענווה. אבל כולם ידעו מי כתב אותו, ומאז קראו לרב בשם הספר.",
+      "מה למדנו ממנו? שגם דבר שהוא אמת, אסור לספר אם הוא מבזה אדם אחר. ושהמילים שלנו יכולות לבנות, או להרוס.",
+      "החפץ חיים לא כתב רק מה אסור. הוא כתב גם כמה גדול השכר של מי ששומר על פיו: שלום בבית, אהבה בין חברים, ותפילות שמתקבלות."
+     ],
+     "pasuk": {
+      "text": "מי האיש החפץ חיים... נצור לשונך מרע",
+      "ref": "תהלים לד, יג-יד"
+     },
+     "note": null
+    },
+    {
+     "id": "how",
+     "title_he": "איך שומרים על הלשון?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A schoolyard in a modern Israeli religious school at recess: two boys in white shirts and kippot stand together, one about to speak and then thoughtfully covering his mouth with his hand, the other smiling; trees and morning sun.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "מה אפשר ללמוד מהחפץ חיים כבר היום? בספר שלו יש הלכות ברורות.",
+      "אסור לספר דבר רע על יהודי, גם אם הוא אמת. ואסור גם לשמוע ולקבל לשון הרע, כי מי ששומע מעודד את המדבר.",
+      "ומה אם צריך באמת לספר, כדי להציל מישהו מנזק? לזה יש הלכות מיוחדות, ולפעמים זה אפילו מצווה. אבל צריך לדעת אותן היטב, ולשאול רב.",
+      "חז\"ל אמרו: לשון הרע הורגת שלושה. את המספר, את מי ששומע, ואת מי שמדברים עליו.",
+      "החפץ חיים הציע ללמוד בכל יום קצת מהלכות שמירת הלשון. והיום יש ילדים ומבוגרים רבים שלומדים כך, לפי לוח לימוד יומי."
+     ],
+     "pasuk": {
+      "text": "לשון הרע הורגת שלשה: המספר, והמקבל, והנאמר עליו",
+      "ref": "ערכין טו ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "mb",
+     "title_he": "משנה ברורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Chafetz Chaim: a small humble very old sage with a short white beard, a simple dark coat and a dark cap, kind gentle eyes, early 20th-century Poland. Scene: A sage writes late at night by a kerosene lamp in a small wooden house, a large open volume of the Shulchan Aruch beside his notes, snow on the windowpane outside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "זוכרים את השולחן ערוך של רבי יוסף קארו? החפץ חיים כתב פירוש על החלק הראשון שלו, \"אורח חיים\", ההלכות של כל יום.",
+      "הפירוש נקרא \"משנה ברורה\". הוא עבד עליו בערך עשרים וחמש שנה, וכתב שישה כרכים.",
+      "היום, יהודים רבים מאוד בכל העולם פותחים משנה ברורה כשהם רוצים לדעת איך להתפלל, לברך ולשמור שבת.",
+      "הוא כתב אותו בשפה פשוטה, כדי שגם אדם עובד, שלומד קצת בכל יום, יוכל להבין."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כך נקשרת השרשרת: המשנה של רבי, הגמרא, הרמב\"ם, השולחן ערוך, וכעת המשנה ברורה. כל דור בונה על הדור שלפניו."
+     }
+    },
+    {
+     "id": "yeshiva",
+     "title_he": "הישיבה בראדין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A wooden yeshiva building in a snowy Polish village, its tall windows glowing yellow at evening, young men in dark coats and caps hurrying inside with books under their arms.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "בראדין ייסד החפץ חיים ישיבה, ותלמידים באו אליה מכל המקומות. רבים מהם נעשו אחר כך רבנים וראשי ישיבות.",
+      "הוא אהב כל יהודי. כשנערים יהודים נלקחו לצבא הרוסי, הוא כתב בשבילם ספר מיוחד, \"מחנה ישראל\", כדי שידעו איך לשמור מצוות גם שם.",
+      "הוא עצמו נסע ממקום למקום ומכר את ספריו. והקפיד שכל ספר יהיה שלם ובלי טעויות, כדי שאף קונה לא ירומה.",
+      "הוא עודד את כל היהודים לתת צדקה ללומדי תורה, ולחזק את הישיבות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "בן תשעים וחמש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A quiet village cemetery in early spring with simple stone markers among birch trees, a small group of men in dark coats standing respectfully, gentle morning mist and birdsong mood.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🌳",
+     "say": [
+      "החפץ חיים חי יותר מתשעים שנה, עד שנת 1933. כל חייו היה עניו, חי בבית קטן ופשוט, ושמח בחלקו.",
+      "מסופר שכאשר שאלו אותו פעם איך זה שביתו ריק מרהיטים, ענה: אני רק אורח כאן בעולם הזה. ובמלון לא מביאים רהיטים.",
+      "רבנים מכל העולם באו להתייעץ איתו. וכשנפטר, התאבלו עליו יהודים בכל מקום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "links",
+     "title_he": "שרשרת הדורות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A long line of glowing oil lamps passed from hand to hand across the generations, from ancient robed sages to medieval scholars to a modern boy in a white shirt and kippah who holds the newest lamp, against a soft dark background with light from above.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👴 👨 👦",
+     "say": [
+      "והנה הגענו לסוף המסע. בואו נסתכל אחורה על כל השרשרת.",
+      "הלל ושמאי, שלימדו ענווה ואהבת האמת. רבי עקיבא, שהתחיל בגיל ארבעים ומסר נפשו על התורה. רבי, שסידר את המשנה.",
+      "רש\"י, המורה של כולנו. רבי יהודה הלוי, שליבו במזרח. הרמב\"ם, שסידר את כל ההלכה. רבי יוסף קארו בצפת, והשולחן ערוך.",
+      "הגר\"א והבעל שם טוב, שני מאורות. והחפץ חיים, ששמר על כל מילה.",
+      "כל אחד מהם היה חוליה בשרשרת אחת, שמתחילה במשה רבנו בהר סיני. ועכשיו, כשאתם לומדים, אתם החוליה הבאה.",
+      "וכל אחד מהם האמין בגאולה, והתגעגע לציון ולירושלים."
+     ],
+     "pasuk": {
+      "text": "משה קיבל תורה מסיני ומסרה ליהושע",
+      "ref": "פרקי אבות א, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-sag-f8e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "החפץ חיים, ושרשרת הדורות",
+   "ref_he": "גדולי ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "shop",
+     "title_he": "החנות הקטנה בראדין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Chafetz Chaim: a small humble very old sage with a short white beard, a simple dark coat and a dark cap, kind gentle eyes, early 20th-century Poland. Scene: A small wooden grocery shop in a Polish village around 1900: sacks of flour and jars on shelves, honest brass scales on the counter, a modest woman with a head covering serving a customer, and a small elderly man with a cap reading at the back.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👵 👴",
+     "say": [
+      "בעיירה ראדין שבפולין הייתה חנות מכולת קטנה. אשת הרב עמדה בה ומכרה, והרב עצמו דאג שהמשקלות יהיו מדויקים לגמרי.",
+      "מסופר שכאשר הרוויחו מספיק לאותו יום, הרב ביקש לסגור את החנות. למה? כדי שגם החנויות האחרות בעיירה יוכלו להתפרנס.",
+      "מי היה הרב הזה? רבי ישראל מאיר הכהן, שנולד בשנת 1838. אבל כולם קראו לו בשם אחר: החפץ חיים.",
+      "הוא היה עניו כל כך, שמי שלא הכיר אותו לא היה מנחש שהוא אחד מגדולי הדור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "book",
+     "title_he": "מי האיש החפץ חיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Chafetz Chaim: a small humble very old sage with a short white beard, a simple dark coat and a dark cap, kind gentle eyes, early 20th-century Poland. Scene: An old printing workshop: a stack of freshly printed small books on a wooden table, a printer in an apron and a small elderly rabbi carefully checking a page; light through a dusty window.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👴",
+     "say": [
+      "הרב כתב ספר על הלכות לשון הרע: מה מותר לומר על אחרים, ומה אסור. וקרא לו \"חפץ חיים\", על שם הפסוק בתהלים.",
+      "מי האיש החפץ חיים? נצור לשונך מרע. כלומר, מי שרוצה חיים טובים, ישמור על הפה שלו.",
+      "הספר נדפס בלי שם המחבר, מרוב ענווה. אבל כולם ידעו מי כתב אותו, ומאז קראו לרב בשם הספר.",
+      "מה למדנו ממנו? שגם דבר שהוא אמת, אסור לספר אם הוא מבזה אדם אחר. ושהמילים שלנו יכולות לבנות, או להרוס.",
+      "החפץ חיים לא כתב רק מה אסור. הוא כתב גם כמה גדול השכר של מי ששומר על פיו: שלום בבית, אהבה בין חברים, ותפילות שמתקבלות.",
+      "החפץ חיים כתב גם ספר שני, \"שמירת הלשון\". בו הוא מסביר כמה גדול השכר של מי ששומר על פיו, וכמה אהבה ושלום זה מביא לעם ישראל."
+     ],
+     "pasuk": {
+      "text": "מי האיש החפץ חיים... נצור לשונך מרע",
+      "ref": "תהלים לד, יג-יד"
+     },
+     "note": null
+    },
+    {
+     "id": "how",
+     "title_he": "איך שומרים על הלשון?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A schoolyard in a modern Israeli religious school at recess: two boys in white shirts and kippot stand together, one about to speak and then thoughtfully covering his mouth with his hand, the other smiling; trees and morning sun.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "מה אפשר ללמוד מהחפץ חיים כבר היום? בספר שלו יש הלכות ברורות.",
+      "אסור לספר דבר רע על יהודי, גם אם הוא אמת. ואסור גם לשמוע ולקבל לשון הרע, כי מי ששומע מעודד את המדבר.",
+      "ומה אם צריך באמת לספר, כדי להציל מישהו מנזק? לזה יש הלכות מיוחדות, ולפעמים זה אפילו מצווה. אבל צריך לדעת אותן היטב, ולשאול רב.",
+      "חז\"ל אמרו: לשון הרע הורגת שלושה. את המספר, את מי ששומע, ואת מי שמדברים עליו.",
+      "החפץ חיים הציע ללמוד בכל יום קצת מהלכות שמירת הלשון. והיום יש ילדים ומבוגרים רבים שלומדים כך, לפי לוח לימוד יומי.",
+      "החפץ חיים כתב שהפה הוא כמו כלי קודש. באותו פה שאנחנו מתפללים ולומדים תורה, צריך להיזהר שלא לדבר רע."
+     ],
+     "pasuk": {
+      "text": "לשון הרע הורגת שלשה: המספר, והמקבל, והנאמר עליו",
+      "ref": "ערכין טו ע\"ב"
+     },
+     "note": null
+    },
+    {
+     "id": "mb",
+     "title_he": "משנה ברורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Chafetz Chaim: a small humble very old sage with a short white beard, a simple dark coat and a dark cap, kind gentle eyes, early 20th-century Poland. Scene: A sage writes late at night by a kerosene lamp in a small wooden house, a large open volume of the Shulchan Aruch beside his notes, snow on the windowpane outside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "זוכרים את השולחן ערוך של רבי יוסף קארו? החפץ חיים כתב פירוש על החלק הראשון שלו, \"אורח חיים\", ההלכות של כל יום.",
+      "הפירוש נקרא \"משנה ברורה\". הוא עבד עליו בערך עשרים וחמש שנה, וכתב שישה כרכים.",
+      "היום, יהודים רבים מאוד בכל העולם פותחים משנה ברורה כשהם רוצים לדעת איך להתפלל, לברך ולשמור שבת.",
+      "הוא כתב אותו בשפה פשוטה, כדי שגם אדם עובד, שלומד קצת בכל יום, יוכל להבין.",
+      "במשנה ברורה אסף החפץ חיים את דברי הפוסקים שבאו אחרי השולחן ערוך, והכריע ביניהם בלשון פשוטה. לצידה כתב \"ביאור הלכה\" לעיון עמוק יותר, ו\"שער הציון\" עם המקורות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כך נקשרת השרשרת: המשנה של רבי, הגמרא, הרמב\"ם, השולחן ערוך, וכעת המשנה ברורה. כל דור בונה על הדור שלפניו."
+     }
+    },
+    {
+     "id": "yeshiva",
+     "title_he": "הישיבה בראדין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A wooden yeshiva building in a snowy Polish village, its tall windows glowing yellow at evening, young men in dark coats and caps hurrying inside with books under their arms.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "בראדין ייסד החפץ חיים ישיבה, ותלמידים באו אליה מכל המקומות. רבים מהם נעשו אחר כך רבנים וראשי ישיבות.",
+      "הוא אהב כל יהודי. כשנערים יהודים נלקחו לצבא הרוסי, הוא כתב בשבילם ספר מיוחד, \"מחנה ישראל\", כדי שידעו איך לשמור מצוות גם שם.",
+      "הוא עצמו נסע ממקום למקום ומכר את ספריו. והקפיד שכל ספר יהיה שלם ובלי טעויות, כדי שאף קונה לא ירומה.",
+      "הוא עודד את כל היהודים לתת צדקה ללומדי תורה, ולחזק את הישיבות.",
+      "הוא כתב גם ספר בשם \"אהבת חסד\", על מצוות החסד: להלוות כסף בלי ריבית, לעזור לעניים, ולהכניס אורחים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wander",
+     "title_he": "בנדודים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A long line of yeshiva students in dark coats walking on a muddy country road under grey skies, carrying bundles of books, with a very old small rabbi in a wagon at the front, faces determined.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👦 👦 👦 👴",
+     "say": [
+      "בימי מלחמת העולם הראשונה, הקרבות הגיעו קרוב לראדין. הישיבה נאלצה לברוח, והחפץ חיים, שכבר היה זקן מאוד, נדד יחד עם תלמידיו.",
+      "גם בדרכים, בתנאים קשים, הלימוד לא הפסיק. ואחרי המלחמה חזרו לראדין, ובנו את הישיבה מחדש.",
+      "החפץ חיים לימד שגם בצרות, לא מוותרים על התורה. ודווקא בזמנים קשים, היא זו ששומרת עלינו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kohen",
+     "title_he": "מוכן לבית המקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Chafetz Chaim: a small humble very old sage with a short white beard, a simple dark coat and a dark cap, kind gentle eyes, early 20th-century Poland. Scene: Dawn light on a small wooden house in a Polish village; through the window an elderly rabbi studies from an open volume, a soft golden glow from the east falling on the page.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "החפץ חיים היה כהן. והוא האמין באמונה שלמה שהמשיח יכול לבוא בכל יום.",
+      "לכן עודד ללמוד את סדר קדשים, הלכות הקורבנות ובית המקדש. הוא אמר: כשייבנה בית המקדש, צריך שיהיו כהנים שיודעים את העבודה.",
+      "הוא אף כתב ספר על הלכות הקורבנות, כדי שהלומדים יהיו מוכנים.",
+      "זו אמונה מעשית: לא רק לחכות לגאולה, אלא להתכונן אליה בלימוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "בן תשעים וחמש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A quiet village cemetery in early spring with simple stone markers among birch trees, a small group of men in dark coats standing respectfully, gentle morning mist and birdsong mood.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🌳",
+     "say": [
+      "החפץ חיים חי יותר מתשעים שנה, עד שנת 1933. כל חייו היה עניו, חי בבית קטן ופשוט, ושמח בחלקו.",
+      "מסופר שכאשר שאלו אותו פעם איך זה שביתו ריק מרהיטים, ענה: אני רק אורח כאן בעולם הזה. ובמלון לא מביאים רהיטים.",
+      "רבנים מכל העולם באו להתייעץ איתו. וכשנפטר, התאבלו עליו יהודים בכל מקום.",
+      "החפץ חיים התגעגע לארץ ישראל, ואף תכנן לעלות אליה. אבל בגלל זקנתו ומצבו, לא זכה לכך."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "links",
+     "title_he": "שרשרת הדורות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A long line of glowing oil lamps passed from hand to hand across the generations, from ancient robed sages to medieval scholars to a modern boy in a white shirt and kippah who holds the newest lamp, against a soft dark background with light from above.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👴 👨 👦",
+     "say": [
+      "והנה הגענו לסוף המסע. בואו נסתכל אחורה על כל השרשרת.",
+      "הלל ושמאי, שלימדו ענווה ואהבת האמת. רבי עקיבא, שהתחיל בגיל ארבעים ומסר נפשו על התורה. רבי, שסידר את המשנה.",
+      "רש\"י, המורה של כולנו. רבי יהודה הלוי, שליבו במזרח. הרמב\"ם, שסידר את כל ההלכה. רבי יוסף קארו בצפת, והשולחן ערוך.",
+      "הגר\"א והבעל שם טוב, שני מאורות. והחפץ חיים, ששמר על כל מילה.",
+      "כל אחד מהם היה חוליה בשרשרת אחת, שמתחילה במשה רבנו בהר סיני. ועכשיו, כשאתם לומדים, אתם החוליה הבאה.",
+      "וכל אחד מהם האמין בגאולה, והתגעגע לציון ולירושלים.",
+      "שימו לב: אף אחד מהם לא הפך לגדול בזכות כישרון לבד. כולם עמלו בתורה, היו ענווים, אהבו את עם ישראל ומסרו את נפשם. זו הדרך גם בשבילנו."
+     ],
+     "pasuk": {
+      "text": "משה קיבל תורה מסיני ומסרה ליהושע",
+      "ref": "פרקי אבות א, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-sag-f8e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ביקש החפץ חיים לסגור את החנות כשהרוויחו מספיק לאותו יום?",
+   "answer": "כדי שגם החנויות האחרות יוכלו להתפרנס",
+   "options": [
+    "כדי שגם החנויות האחרות יוכלו להתפרנס",
+    "כי היה עייף מאוד",
+    "כי נגמרה הסחורה"
+   ],
+   "explain_he": "החפץ חיים דאג לפרנסה של אחרים, לא רק לעצמו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f8e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ביקש החפץ חיים לסגור את החנות כשהרוויחו מספיק לאותו יום?",
+   "answer": "כדי שגם החנויות האחרות יוכלו להתפרנס",
+   "options": [
+    "כדי שגם החנויות האחרות יוכלו להתפרנס",
+    "כי היה עייף מאוד",
+    "כי נגמרה הסחורה"
+   ],
+   "explain_he": "החפץ חיים דאג לפרנסה של אחרים, לא רק לעצמו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f8e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה כתוב בספר \"חפץ חיים\"?",
+   "answer": "על הלכות לשון הרע ושמירת הלשון",
+   "options": [
+    "על הלכות לשון הרע ושמירת הלשון",
+    "על הלכות שבת",
+    "על חיי הכוזרים"
+   ],
+   "explain_he": "שם הספר בא מהפסוק: מי האיש החפץ חיים... נצור לשונך מרע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f8e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה כתוב בספר \"חפץ חיים\"?",
+   "answer": "על הלכות לשון הרע ושמירת הלשון",
+   "options": [
+    "על הלכות לשון הרע ושמירת הלשון",
+    "על הלכות שבת",
+    "על חיי הכוזרים"
+   ],
+   "explain_he": "שם הספר בא מהפסוק: מי האיש החפץ חיים... נצור לשונך מרע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f8e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על איזה ספר כתב החפץ חיים את ה\"משנה ברורה\"?",
+   "answer": "על חלק אורח חיים של השולחן ערוך",
+   "options": [
+    "על חלק אורח חיים של השולחן ערוך",
+    "על ספר הכוזרי",
+    "על פירוש רש\"י"
+   ],
+   "explain_he": "המשנה ברורה מבארת את ההלכות של כל יום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f8e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על איזה ספר כתב החפץ חיים את ה\"משנה ברורה\"?",
+   "answer": "על חלק אורח חיים של השולחן ערוך",
+   "options": [
+    "על חלק אורח חיים של השולחן ערוך",
+    "על ספר הכוזרי",
+    "על פירוש רש\"י"
+   ],
+   "explain_he": "המשנה ברורה מבארת את ההלכות של כל יום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f8e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כתב החפץ חיים את הספר \"מחנה ישראל\"?",
+   "answer": "כדי לעזור לחיילים יהודים לשמור מצוות בצבא",
+   "options": [
+    "כדי לעזור לחיילים יהודים לשמור מצוות בצבא",
+    "כדי ללמד איך בונים מחנה",
+    "כדי לספר על מלחמות התנ\"ך"
+   ],
+   "explain_he": "החפץ חיים אהב כל יהודי, ודאג גם לנערים שנלקחו לצבא הרוסי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f8e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כתב החפץ חיים את הספר \"מחנה ישראל\"?",
+   "answer": "כדי לעזור לחיילים יהודים לשמור מצוות בצבא",
+   "options": [
+    "כדי לעזור לחיילים יהודים לשמור מצוות בצבא",
+    "כדי ללמד איך בונים מחנה",
+    "כדי לספר על מלחמות התנ\"ך"
+   ],
+   "explain_he": "החפץ חיים אהב כל יהודי, ודאג גם לנערים שנלקחו לצבא הרוסי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f8e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה החפץ חיים כששאלו למה ביתו ריק מרהיטים?",
+   "answer": "שהוא רק אורח בעולם הזה",
+   "options": [
+    "שהוא רק אורח בעולם הזה",
+    "שאין לו כסף בכלל",
+    "שהוא עומד לעבור דירה"
+   ],
+   "explain_he": "הוא ראה את העולם הזה כמו מלון, והעולם הבא הוא הבית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f8e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה החפץ חיים כששאלו למה ביתו ריק מרהיטים?",
+   "answer": "שהוא רק אורח בעולם הזה",
+   "options": [
+    "שהוא רק אורח בעולם הזה",
+    "שאין לו כסף בכלל",
+    "שהוא עומד לעבור דירה"
+   ],
+   "explain_he": "הוא ראה את העולם הזה כמו מלון, והעולם הבא הוא הבית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f8e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי סוף השיעור, מי החוליה הבאה בשרשרת הדורות?",
+   "answer": "אנחנו, כשאנחנו לומדים תורה",
+   "options": [
+    "אנחנו, כשאנחנו לומדים תורה",
+    "רק הרבנים הגדולים",
+    "אף אחד, השרשרת נגמרה"
+   ],
+   "explain_he": "כל מי שלומד ומוסר את התורה הלאה ממשיך את השרשרת שהתחילה בסיני.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f8e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי סוף השיעור, מי החוליה הבאה בשרשרת הדורות?",
+   "answer": "אנחנו, כשאנחנו לומדים תורה",
+   "options": [
+    "אנחנו, כשאנחנו לומדים תורה",
+    "רק הרבנים הגדולים",
+    "אף אחד, השרשרת נגמרה"
+   ],
+   "explain_he": "כל מי שלומד ומוסר את התורה הלאה ממשיך את השרשרת שהתחילה בסיני.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f8e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה עודד החפץ חיים ללמוד את סדר קדשים?",
+   "answer": "כדי שיהיו כהנים מוכנים לעבודה כשייבנה בית המקדש",
+   "options": [
+    "כדי שיהיו כהנים מוכנים לעבודה כשייבנה בית המקדש",
+    "כי זה הסדר הקצר ביותר",
+    "כי לא היו ספרים על נושאים אחרים"
+   ],
+   "explain_he": "הוא האמין שהמשיח יכול לבוא בכל יום, ורצה להתכונן אליו בלימוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f8e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "האם מותר לספר דבר רע על יהודי אם הוא אמת?",
+   "answer": "לא, גם דבר אמת אסור לספר אם הוא לשון הרע",
+   "options": [
+    "לא, גם דבר אמת אסור לספר אם הוא לשון הרע",
+    "כן, אם הוא אמת אין בעיה",
+    "רק אם מספרים בשקט"
+   ],
+   "explain_he": "החפץ חיים מלמד שלשון הרע אסורה גם כשהיא אמת, וגם לשמוע ולקבל אותה אסור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f8e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "האם מותר לספר דבר רע על יהודי אם הוא אמת?",
+   "answer": "לא, גם דבר אמת אסור לספר אם הוא לשון הרע",
+   "options": [
+    "לא, גם דבר אמת אסור לספר אם הוא לשון הרע",
+    "כן, אם הוא אמת אין בעיה",
+    "רק אם מספרים בשקט"
+   ],
+   "explain_he": "החפץ חיים מלמד שלשון הרע אסורה גם כשהיא אמת, וגם לשמוע ולקבל אותה אסור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f8e17"
+  }
+ ]
+}

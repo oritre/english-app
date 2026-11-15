@@ -1,0 +1,563 @@
+{
+ "id": "k-exl-f3",
+ "unit_id": "k-exl-u2",
+ "course": "exile",
+ "title_he": "תור הזהב בספרד",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "תור הזהב בספרד",
+   "ref_he": "עם ישראל בגלות",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "captives",
+     "title_he": "ארבעת השבויים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval study hall in Cordoba with horseshoe arches and lamps: a humble stranger in worn clothes sits at the back answering a question, while the learned men in fine robes turn around in amazement.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "לפני יותר מאלף שנה יצאו ארבעה חכמים מבבל לאסוף כסף לישיבות. בים תפסו אותם שודדים, ומכרו אותם לעבדים בערים שונות.",
+      "יהודי כל עיר פדו את השבוי שהגיע אליהם, כי פדיון שבויים היא מצווה גדולה. אחד מהם, רבי משה, נפדה בעיר קורדובה שבספרד.",
+      "רבי משה נכנס לבית המדרש של קורדובה בבגדים פשוטים, וישב בפינה. הדיין של הקהילה שאל שאלה קשה, ואיש לא ידע לענות. ואז רבי משה ענה, והסביר הכל.",
+      "קם הדיין ואמר: מעכשיו הוא הדיין שלכם, ואני תלמידו! מאז, ספרד נעשתה מרכז של תורה בפני עצמו.",
+      "גם שאר השבויים נפדו בערים אחרות, ולפי המסורת, גם הם הקימו מרכזי תורה, בצפון אפריקה ובמצרים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sefarad",
+     "title_he": "יהודי ספרד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A sunlit courtyard of a medieval Spanish Jewish home with orange trees, a fountain, colorful tiles and arches; a father in a robe and cap teaches his sons from a book while the mother with a head covering sets the table.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👦 👩",
+     "say": [
+      "יהודים חיו בספרד מימים קדומים. הנביא עובדיה מזכיר את \"גלות ירושלים אשר בספרד\", ומכאן נקראו יהודי ספרד \"ספרדים\".",
+      "בזמן שספרד הייתה תחת שלטון מוסלמי, בעיר קורדובה, יהודים רבים זכו לעושר ולכבוד. היו רופאים, סוחרים, ואפילו שרים בחצר המלך.",
+      "אחד מהם היה רבי חסדאי אבן שפרוט, רופא ושר בחצר הח'ליף. הוא השתמש בכבוד שלו כדי לעזור ליהודים, ותמך בחכמים ובישיבות.",
+      "מסופר שרבי חסדאי שמע על ממלכה יהודית רחוקה, ממלכת הכוזרים, ושלח מכתב למלך שלה. זוכרים את ספר הכוזרי? כן, זו אותה ממלכה."
+     ],
+     "pasuk": {
+      "text": "וגלות ירושלים אשר בספרד",
+      "ref": "עובדיה א, כ"
+     },
+     "note": null
+    },
+    {
+     "id": "nagid",
+     "title_he": "רבי שמואל הנגיד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval palace hall in Granada with carved arches: a Jewish statesman and scholar in a dark robe and wrapped head covering writes at a desk, a pile of books he is sending to poor students beside him.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "בעיר גרנדה חי רבי שמואל הנגיד. הוא היה השר הגדול של המלך, וגם גדול בתורה ומשורר.",
+      "הוא כתב ספר שמסביר איך לומדים תלמוד, וקנה ספרים לתלמידים עניים, בספרד ובארצות אחרות.",
+      "למרות כל הכבוד והתפקיד הגבוה, הוא לא שכח מי הוא. הוא נקרא \"הנגיד\", כלומר המנהיג של היהודים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "poets",
+     "title_he": "משוררים ופרשנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Evening in a medieval Spanish garden: several Jewish poets and scholars in robes sit on carpets under a lantern-lit arbor, one reading a poem from a page while others listen with closed eyes; jasmine and cypress trees.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨 👨 👴",
+     "say": [
+      "בספרד פרחה שירה עברית נפלאה. המשוררים כתבו שירי קודש, שירים לשבת ולחגים, ותפילות שאנחנו אומרים עד היום.",
+      "הזמר \"דרור יקרא\", ששרים בשבת, נכתב בידי דונש בן לברט, שחי בספרד. ורבי שלמה אבן גבירול כתב את \"כתר מלכות\", שספרדים רבים אומרים בליל יום הכיפורים.",
+      "כאן חי גם רבי יהודה הלוי, שליבו היה במזרח. וכאן חי רבי אברהם אבן עזרא, שכתב פירוש נפלא על התורה. את הפירוש שלו אפשר למצוא היום ב\"מקראות גדולות\", ליד רש\"י."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בזמר \"דרור יקרא\" האותיות הראשונות של הבתים יוצרות את השם \"דונש\"."
+     }
+    },
+    {
+     "id": "rif",
+     "title_he": "הרי\"ף והרמב\"ם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval town in southern Spain at sunrise, white walls among olive groves: an elderly sage with a long white beard arrives on a mule, welcomed by a crowd of students in robes at the gate of a study hall.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👦",
+     "say": [
+      "לספרד הגיע גם רבי יצחק אלפסי, הרי\"ף. הוא נולד בצפון אפריקה, וגר בעיר פאס, ולכן נקרא אלפסי. כבר זקן, עבר לעיר לוסנה שבספרד, ופתח בה ישיבה גדולה.",
+      "הרי\"ף כתב ספר שמביא מתוך התלמוד את ההלכה למעשה. עד היום הוא מודפס בסוף מסכתות הגמרא.",
+      "ובקורדובה, כמה עשרות שנים אחר כך, נולד הרמב\"ם. כך ספרד נתנה לעם ישראל כמה מגדולי החכמים בכל הדורות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "heart",
+     "title_he": "חובות הלבבות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A quiet medieval Spanish study at dawn: a sage in a long robe sits by an arched window writing in a book, a cup of water and a small loaf of bread beside him, the sky turning pink over the rooftops.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴",
+     "say": [
+      "בספרד חי גם רבנו בחיי אבן פקודה, שכתב ספר בשם \"חובות הלבבות\". הוא שם לב לדבר חשוב: יש מצוות של הגוף, כמו להניח תפילין ולשמור שבת. ויש מצוות של הלב.",
+      "מה הן מצוות הלב? לבטוח בהשם, להודות לו על כל הטוב, להיות עניו, ולאהוב את השם באמת.",
+      "למשל, בשער הביטחון הוא מלמד: אדם צריך להשתדל ולעבוד, אבל לדעת שהפרנסה באה מהשם. מי שבוטח בהשם, הלב שלו רגוע.",
+      "עד היום לומדים את חובות הלבבות בישיבות ובבתים, והוא נחשב לאחד מספרי המוסר החשובים ביותר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ramban",
+     "title_he": "הרמב\"ן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A grand medieval royal hall in Barcelona: a dignified Jewish sage with a grey beard stands calmly and speaks with confidence before a seated king, courtiers in rich robes listening; sunlight through tall windows.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "עם הזמן, הנוצרים כבשו את רוב ספרד. גם שם המשיכה התורה לפרוח. בעיר גירונה חי רבי משה בן נחמן, הרמב\"ן, שכתב פירוש גדול על התורה.",
+      "פעם הכריח המלך את הרמב\"ן להתווכח בפומבי על האמונה. הרמב\"ן עמד בגבורה, והגן על התורה ועל עם ישראל בחכמה רבה.",
+      "אחרי הוויכוח הוא נאלץ לעזוב את ספרד. בגיל שבעים ושתיים עלה לארץ ישראל, ומצא את ירושלים חרבה. הוא כתב לבנו שמצא בה מעט מאוד יהודים.",
+      "הרמב\"ן אסף את היהודים, ובנה בית כנסת בירושלים. בית כנסת על שמו עומד ברובע היהודי עד היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "cracks",
+     "title_he": "סדקים בתור הזהב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Twilight over a medieval Spanish city with a beautiful synagogue of white arches, dark storm clouds slowly gathering on the horizon, a single lamp still burning in a window.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🏠",
+     "say": [
+      "תור הזהב בספרד נמשך מאות שנים. היו בו תורה, שירה, חכמה וכבוד. אבל העושר והנוחות היו גם סכנה.",
+      "רבי יהודה הלוי הזהיר: ספרד אינה הבית האמיתי שלנו. הבית שלנו הוא ארץ ישראל. ויהודים רבים לא הקשיבו.",
+      "בשנים שאחר כך, המצב של היהודים בספרד הנוצרית החמיר. עננים שחורים הלכו והתקרבו. על כך נלמד בשיעור הבא.",
+      "היו שנים שבהן המלכים הנוצרים הגנו על היהודים, והיו שנים שבהן הפקירו אותם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "תור הזהב בספרד",
+   "ref_he": "עם ישראל בגלות",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "captives",
+     "title_he": "ארבעת השבויים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval study hall in Cordoba with horseshoe arches and lamps: a humble stranger in worn clothes sits at the back answering a question, while the learned men in fine robes turn around in amazement.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "לפני יותר מאלף שנה יצאו ארבעה חכמים מבבל לאסוף כסף לישיבות. בים תפסו אותם שודדים, ומכרו אותם לעבדים בערים שונות.",
+      "יהודי כל עיר פדו את השבוי שהגיע אליהם, כי פדיון שבויים היא מצווה גדולה. אחד מהם, רבי משה, נפדה בעיר קורדובה שבספרד.",
+      "רבי משה נכנס לבית המדרש של קורדובה בבגדים פשוטים, וישב בפינה. הדיין של הקהילה שאל שאלה קשה, ואיש לא ידע לענות. ואז רבי משה ענה, והסביר הכל.",
+      "קם הדיין ואמר: מעכשיו הוא הדיין שלכם, ואני תלמידו! מאז, ספרד נעשתה מרכז של תורה בפני עצמו.",
+      "גם שאר השבויים נפדו בערים אחרות, ולפי המסורת, גם הם הקימו מרכזי תורה, בצפון אפריקה ובמצרים.",
+      "את הסיפור כתב רבי אברהם אבן דאוד, בספרו \"ספר הקבלה\". הוא רצה להראות שהשם דאג שהתורה לא תיפסק: כשבבל נחלשה, קמו מרכזי תורה חדשים במערב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sefarad",
+     "title_he": "יהודי ספרד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A sunlit courtyard of a medieval Spanish Jewish home with orange trees, a fountain, colorful tiles and arches; a father in a robe and cap teaches his sons from a book while the mother with a head covering sets the table.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👦 👩",
+     "say": [
+      "יהודים חיו בספרד מימים קדומים. הנביא עובדיה מזכיר את \"גלות ירושלים אשר בספרד\", ומכאן נקראו יהודי ספרד \"ספרדים\".",
+      "בזמן שספרד הייתה תחת שלטון מוסלמי, בעיר קורדובה, יהודים רבים זכו לעושר ולכבוד. היו רופאים, סוחרים, ואפילו שרים בחצר המלך.",
+      "אחד מהם היה רבי חסדאי אבן שפרוט, רופא ושר בחצר הח'ליף. הוא השתמש בכבוד שלו כדי לעזור ליהודים, ותמך בחכמים ובישיבות.",
+      "מסופר שרבי חסדאי שמע על ממלכה יהודית רחוקה, ממלכת הכוזרים, ושלח מכתב למלך שלה. זוכרים את ספר הכוזרי? כן, זו אותה ממלכה.",
+      "רבי חסדאי תמך בישיבה של רבי משה ובנו רבי חנוך בקורדובה. כך יהודי ספרד כבר לא היו צריכים לשלוח כל שאלה לבבל."
+     ],
+     "pasuk": {
+      "text": "וגלות ירושלים אשר בספרד",
+      "ref": "עובדיה א, כ"
+     },
+     "note": null
+    },
+    {
+     "id": "nagid",
+     "title_he": "רבי שמואל הנגיד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval palace hall in Granada with carved arches: a Jewish statesman and scholar in a dark robe and wrapped head covering writes at a desk, a pile of books he is sending to poor students beside him.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "בעיר גרנדה חי רבי שמואל הנגיד. הוא היה השר הגדול של המלך, וגם גדול בתורה ומשורר.",
+      "הוא כתב ספר שמסביר איך לומדים תלמוד, וקנה ספרים לתלמידים עניים, בספרד ובארצות אחרות.",
+      "למרות כל הכבוד והתפקיד הגבוה, הוא לא שכח מי הוא. הוא נקרא \"הנגיד\", כלומר המנהיג של היהודים.",
+      "מסופר שפעם קילל אותו אדם בפני המלך, והמלך ציווה להעניש אותו. אבל רבי שמואל דווקא נתן לאיש מתנה, וכך הפך את האויב לחבר. כך קיים: מענה רך ישיב חמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "poets",
+     "title_he": "משוררים ופרשנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Evening in a medieval Spanish garden: several Jewish poets and scholars in robes sit on carpets under a lantern-lit arbor, one reading a poem from a page while others listen with closed eyes; jasmine and cypress trees.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨 👨 👴",
+     "say": [
+      "בספרד פרחה שירה עברית נפלאה. המשוררים כתבו שירי קודש, שירים לשבת ולחגים, ותפילות שאנחנו אומרים עד היום.",
+      "הזמר \"דרור יקרא\", ששרים בשבת, נכתב בידי דונש בן לברט, שחי בספרד. ורבי שלמה אבן גבירול כתב את \"כתר מלכות\", שספרדים רבים אומרים בליל יום הכיפורים.",
+      "כאן חי גם רבי יהודה הלוי, שליבו היה במזרח. וכאן חי רבי אברהם אבן עזרא, שכתב פירוש נפלא על התורה. את הפירוש שלו אפשר למצוא היום ב\"מקראות גדולות\", ליד רש\"י.",
+      "המשוררים לקחו את לשון התנ\"ך, וכתבו בה שירים חדשים, במשקל ובחרוזים מדויקים. כך לשון הקודש נשמעה שוב יפה ועשירה, גם בגלות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בזמר \"דרור יקרא\" האותיות הראשונות של הבתים יוצרות את השם \"דונש\"."
+     }
+    },
+    {
+     "id": "rif",
+     "title_he": "הרי\"ף והרמב\"ם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A medieval town in southern Spain at sunrise, white walls among olive groves: an elderly sage with a long white beard arrives on a mule, welcomed by a crowd of students in robes at the gate of a study hall.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👦",
+     "say": [
+      "לספרד הגיע גם רבי יצחק אלפסי, הרי\"ף. הוא נולד בצפון אפריקה, וגר בעיר פאס, ולכן נקרא אלפסי. כבר זקן, עבר לעיר לוסנה שבספרד, ופתח בה ישיבה גדולה.",
+      "הרי\"ף כתב ספר שמביא מתוך התלמוד את ההלכה למעשה. עד היום הוא מודפס בסוף מסכתות הגמרא.",
+      "ובקורדובה, כמה עשרות שנים אחר כך, נולד הרמב\"ם. כך ספרד נתנה לעם ישראל כמה מגדולי החכמים בכל הדורות.",
+      "זוכרים את שלושת עמודי ההוראה של רבי יוסף קארו? הרי\"ף, הרמב\"ם והרא\"ש. ושלושתם קשורים לספרד: הרא\"ש עבר מאשכנז לעיר טולדו, ושם עמד בראש הישיבה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "heart",
+     "title_he": "חובות הלבבות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A quiet medieval Spanish study at dawn: a sage in a long robe sits by an arched window writing in a book, a cup of water and a small loaf of bread beside him, the sky turning pink over the rooftops.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴",
+     "say": [
+      "בספרד חי גם רבנו בחיי אבן פקודה, שכתב ספר בשם \"חובות הלבבות\". הוא שם לב לדבר חשוב: יש מצוות של הגוף, כמו להניח תפילין ולשמור שבת. ויש מצוות של הלב.",
+      "מה הן מצוות הלב? לבטוח בהשם, להודות לו על כל הטוב, להיות עניו, ולאהוב את השם באמת.",
+      "למשל, בשער הביטחון הוא מלמד: אדם צריך להשתדל ולעבוד, אבל לדעת שהפרנסה באה מהשם. מי שבוטח בהשם, הלב שלו רגוע.",
+      "עד היום לומדים את חובות הלבבות בישיבות ובבתים, והוא נחשב לאחד מספרי המוסר החשובים ביותר.",
+      "הספר נכתב בערבית, ותורגם לעברית בידי רבי יהודה אבן תיבון. כך יכלו גם יהודים בארצות אחרות ללמוד אותו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ramban",
+     "title_he": "הרמב\"ן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A grand medieval royal hall in Barcelona: a dignified Jewish sage with a grey beard stands calmly and speaks with confidence before a seated king, courtiers in rich robes listening; sunlight through tall windows.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "עם הזמן, הנוצרים כבשו את רוב ספרד. גם שם המשיכה התורה לפרוח. בעיר גירונה חי רבי משה בן נחמן, הרמב\"ן, שכתב פירוש גדול על התורה.",
+      "פעם הכריח המלך את הרמב\"ן להתווכח בפומבי על האמונה. הרמב\"ן עמד בגבורה, והגן על התורה ועל עם ישראל בחכמה רבה.",
+      "אחרי הוויכוח הוא נאלץ לעזוב את ספרד. בגיל שבעים ושתיים עלה לארץ ישראל, ומצא את ירושלים חרבה. הוא כתב לבנו שמצא בה מעט מאוד יהודים.",
+      "הרמב\"ן אסף את היהודים, ובנה בית כנסת בירושלים. בית כנסת על שמו עומד ברובע היהודי עד היום.",
+      "הרמב\"ן כתב שמצוות יישוב ארץ ישראל היא מצווה מן התורה, מהפסוק: והורשתם את הארץ וישבתם בה. וכך הוא נהג: עזב הכל, ועלה.",
+      "בברצלונה חי גם תלמיד תלמידו, הרשב\"א. אלפי תשובות שלו נשלחו לקהילות בכל העולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "cracks",
+     "title_he": "סדקים בתור הזהב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Twilight over a medieval Spanish city with a beautiful synagogue of white arches, dark storm clouds slowly gathering on the horizon, a single lamp still burning in a window.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🏠",
+     "say": [
+      "תור הזהב בספרד נמשך מאות שנים. היו בו תורה, שירה, חכמה וכבוד. אבל העושר והנוחות היו גם סכנה.",
+      "רבי יהודה הלוי הזהיר: ספרד אינה הבית האמיתי שלנו. הבית שלנו הוא ארץ ישראל. ויהודים רבים לא הקשיבו.",
+      "בשנים שאחר כך, המצב של היהודים בספרד הנוצרית החמיר. עננים שחורים הלכו והתקרבו. על כך נלמד בשיעור הבא.",
+      "היו שנים שבהן המלכים הנוצרים הגנו על היהודים, והיו שנים שבהן הפקירו אותם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "lesson3",
+     "title_he": "מה למדנו מספרד?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: An old leather-bound volume lies open on a table beside a brass oil lamp and a sprig of jasmine, warm evening light from a Spanish arched window; no people.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "מה מיוחד בתור הזהב? יהודי ספרד ידעו לחבר בין תורה גדולה לבין חכמה, רפואה, דקדוק ושירה. אבל אצל הגדולים שבהם, התורה תמיד הייתה במרכז.",
+      "הרמב\"ם, הרמב\"ן ורבי יהודה הלוי, כולם השתמשו בחכמה כדי לשרת את התורה, ולא להפך.",
+      "ועוד לקח: גם כשטוב לנו בגלות, אסור לשכוח שאנחנו בגלות. ההיסטוריה של ספרד מלמדת כמה מהר יכול המצב להשתנות."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הגיע רבי משה לקורדובה?",
+   "answer": "הוא נשבה בים, ויהודי קורדובה פדו אותו",
+   "options": [
+    "הוא נשבה בים, ויהודי קורדובה פדו אותו",
+    "הוא נשלח להיות רב העיר",
+    "הוא בא כסוחר"
+   ],
+   "explain_he": "פדיון שבויים היא מצווה גדולה, ובזכותה ספרד זכתה לחכם גדול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הגיע רבי משה לקורדובה?",
+   "answer": "הוא נשבה בים, ויהודי קורדובה פדו אותו",
+   "options": [
+    "הוא נשבה בים, ויהודי קורדובה פדו אותו",
+    "הוא נשלח להיות רב העיר",
+    "הוא בא כסוחר"
+   ],
+   "explain_he": "פדיון שבויים היא מצווה גדולה, ובזכותה ספרד זכתה לחכם גדול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה בא השם \"ספרדים\"?",
+   "answer": "מהפסוק בעובדיה \"וגלות ירושלים אשר בספרד\"",
+   "options": [
+    "מהפסוק בעובדיה \"וגלות ירושלים אשר בספרד\"",
+    "משם של מלך ספרדי",
+    "מהמילה ספר"
+   ],
+   "explain_he": "הנביא עובדיה מזכיר את גלות ירושלים אשר בספרד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה בא השם \"ספרדים\"?",
+   "answer": "מהפסוק בעובדיה \"וגלות ירושלים אשר בספרד\"",
+   "options": [
+    "מהפסוק בעובדיה \"וגלות ירושלים אשר בספרד\"",
+    "משם של מלך ספרדי",
+    "מהמילה ספר"
+   ],
+   "explain_he": "הנביא עובדיה מזכיר את גלות ירושלים אשר בספרד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי כתב את הזמר \"דרור יקרא\"?",
+   "answer": "דונש בן לברט",
+   "options": [
+    "דונש בן לברט",
+    "רבי שמואל הנגיד",
+    "הרמב\"ן"
+   ],
+   "explain_he": "דונש חתם את שמו בראשי הבתים של הזמר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי כתב את הזמר \"דרור יקרא\"?",
+   "answer": "דונש בן לברט",
+   "options": [
+    "דונש בן לברט",
+    "רבי שמואל הנגיד",
+    "הרמב\"ן"
+   ],
+   "explain_he": "דונש חתם את שמו בראשי הבתים של הזמר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרמב\"ן כשהגיע לירושלים?",
+   "answer": "אסף את היהודים ובנה בית כנסת",
+   "options": [
+    "אסף את היהודים ובנה בית כנסת",
+    "חזר מיד לספרד",
+    "פתח חנות"
+   ],
+   "explain_he": "בית כנסת על שם הרמב\"ן עומד ברובע היהודי עד היום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרמב\"ן כשהגיע לירושלים?",
+   "answer": "אסף את היהודים ובנה בית כנסת",
+   "options": [
+    "אסף את היהודים ובנה בית כנסת",
+    "חזר מיד לספרד",
+    "פתח חנות"
+   ],
+   "explain_he": "בית כנסת על שם הרמב\"ן עומד ברובע היהודי עד היום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היו העושר והנוחות בספרד גם סכנה?",
+   "answer": "כי יהודים רבים שכחו שספרד אינה הבית האמיתי",
+   "options": [
+    "כי יהודים רבים שכחו שספרד אינה הבית האמיתי",
+    "כי הם עלו כסף רב",
+    "כי הם גרמו למחלות"
+   ],
+   "explain_he": "רבי יהודה הלוי הזהיר שהבית שלנו הוא ארץ ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היו העושר והנוחות בספרד גם סכנה?",
+   "answer": "כי יהודים רבים שכחו שספרד אינה הבית האמיתי",
+   "options": [
+    "כי יהודים רבים שכחו שספרד אינה הבית האמיתי",
+    "כי הם עלו כסף רב",
+    "כי הם גרמו למחלות"
+   ],
+   "explain_he": "רבי יהודה הלוי הזהיר שהבית שלנו הוא ארץ ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נולד הרי\"ף?",
+   "answer": "בצפון אפריקה",
+   "options": [
+    "בצפון אפריקה",
+    "בבבל",
+    "בצרפת"
+   ],
+   "explain_he": "הרי\"ף גר בפאס, ולכן נקרא אלפסי, ובזקנתו עבר לספרד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נולד הרי\"ף?",
+   "answer": "בצפון אפריקה",
+   "options": [
+    "בצפון אפריקה",
+    "בבבל",
+    "בצרפת"
+   ],
+   "explain_he": "הרי\"ף גר בפאס, ולכן נקרא אלפסי, ובזקנתו עבר לספרד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הרמב\"ן, מאיזה פסוק לומדים את מצוות יישוב ארץ ישראל?",
+   "answer": "\"והורשתם את הארץ וישבתם בה\"",
+   "options": [
+    "\"והורשתם את הארץ וישבתם בה\"",
+    "\"לך לך מארצך\"",
+    "\"אם אשכחך ירושלים\""
+   ],
+   "explain_he": "הרמב\"ן כתב שזו מצווה מן התורה, ובעצמו עלה לארץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה כתב רבנו בחיי בספר \"חובות הלבבות\"?",
+   "answer": "על מצוות הלב, כמו ביטחון בהשם והכרת הטוב",
+   "options": [
+    "על מצוות הלב, כמו ביטחון בהשם והכרת הטוב",
+    "על הלכות מסחר בים",
+    "על שירה ודקדוק"
+   ],
+   "explain_he": "יש מצוות של הגוף, ויש מצוות של הלב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה כתב רבנו בחיי בספר \"חובות הלבבות\"?",
+   "answer": "על מצוות הלב, כמו ביטחון בהשם והכרת הטוב",
+   "options": [
+    "על מצוות הלב, כמו ביטחון בהשם והכרת הטוב",
+    "על הלכות מסחר בים",
+    "על שירה ודקדוק"
+   ],
+   "explain_he": "יש מצוות של הגוף, ויש מצוות של הלב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f3e17"
+  }
+ ]
+}

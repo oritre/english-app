@@ -1,0 +1,485 @@
+{
+ "id": "k-lnf-f4",
+ "unit_id": "k-lnf-u2",
+ "course": "land",
+ "title_he": "בעקבות האבות",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "בעקבות האבות",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ההרים שבלב הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The terraced hills of the Shomron in spring: olive groves on stone terraces, a winding mountain road, a shepherd with sheep, morning mist in the valleys.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🐑",
+     "say": [
+      "בוקר טוב! היום אנחנו בהרים שבאמצע הארץ.",
+      "בצפון יש את הרי השומרון, ובדרום את הרי יהודה.",
+      "יש כאן הרבה עצי זית ומדרגות של אבן.",
+      "בהרים האלה הלכו אבותינו: אברהם, יצחק ויעקב.",
+      "אנחנו הולכים ממש באותם מקומות שבהם הם הלכו.",
+      "תחשבו: אולי אברהם עמד ממש על הסלע הזה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שכם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A green valley between two mountains, one rocky and one greener, in ancient times: Avraham, an old man with a white beard in a wool robe, stands with his flocks and family tents, looking up at a soft light from the sky.",
+     "move": "in",
+     "fx": "light",
+     "art": "⛺ 🐑",
+     "say": [
+      "כשאברהם הגיע לארץ, המקום הראשון שהתורה מזכירה הוא שכם.",
+      "שם השם אמר לו: לילדים שלך אתן את הארץ הזאת.",
+      "שכם נמצאת בעמק, בין שני הרים גבוהים.",
+      "ואחרי הרבה שנים, קברו בשכם את יוסף הצדיק.",
+      "בני ישראל נשאו את העצמות שלו כל הדרך ממצרים!",
+      "ולא רחוק משם נמצאת שילה. שם עמד המשכן הרבה שנים."
+     ],
+     "pasuk": {
+      "text": "ויעבר אברם בארץ עד מקום שכם... ויאמר לזרעך אתן את הארץ הזאת",
+      "ref": "בראשית יב, ו-ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "בית אל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Night on a rocky hilltop: young Yaakov in a wool robe asleep with his head on a stone, a tall ladder of soft glowing light rising from the ground to the starry sky, angels shown only as small gentle shimmering lights going up and down it.",
+     "move": "up",
+     "fx": "stars",
+     "art": "🪨",
+     "say": [
+      "בין שכם לירושלים יש מקום שנקרא בית אל.",
+      "שם יעקב אבינו ישן בלילה, עם הראש על אבן.",
+      "הוא חלם חלום: סולם גבוה, מהאדמה ועד השמים.",
+      "ומלאכים עולים ויורדים בו.",
+      "השם הבטיח לו: הארץ הזאת תהיה שלך ושל ילדיך.",
+      "כשיעקב התעורר, הוא אמר: השם נמצא במקום הזה!"
+     ],
+     "pasuk": {
+      "text": "אכן יש ה' במקום הזה, ואנכי לא ידעתי",
+      "ref": "בראשית כח, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "חברון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The city of Chevron in the Judean hills at golden hour: stone houses on the hills, vineyards, and in the center a huge ancient building of enormous smooth stone blocks.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🏛️",
+     "say": [
+      "עכשיו הגענו לחברון. היא אחת הערים העתיקות בעולם.",
+      "דוד המלך מלך בחברון שבע שנים, ורק אחר כך עבר לירושלים.",
+      "באמצע העיר יש בניין גדול מאוד, מאבנים ענקיות.",
+      "בתוך הבניין יש מערה. קוראים לה מערת המכפלה.",
+      "בואו נשמע את הסיפור שלה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חברון היא אחת מארבע ערי הקודש. דוד המלך מלך בה שבע שנים, לפני שעבר לירושלים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "מערת המכפלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient times: Avraham, an old man with a white beard in a wool robe, carefully weighs silver coins on a scale before the people of the city at the city gate, near a field with a cave in a rocky hill.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 🪨",
+     "say": [
+      "כששרה אמנו נפטרה, אברהם רצה לקבור אותה במקום מיוחד.",
+      "הוא לא לקח את המקום בחינם.",
+      "הוא קנה את המערה, ושילם הרבה כסף: 400 שקל כסף.",
+      "שם קבורים אברהם ושרה, יצחק ורבקה, יעקב ולאה.",
+      "לכן קוראים לחברון גם \"קרית ארבע\": ארבעה זוגות קבורים בה, כי גם אדם וחוה קבורים שם.",
+      "עד היום אנשים באים מכל העולם להתפלל במערת המכפלה."
+     ],
+     "pasuk": {
+      "text": "ויקם השדה והמערה אשר בו לאברהם לאחזת קבר",
+      "ref": "בראשית כג, כ"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "בית לחם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient Beit Lechem in the harvest season: golden wheat fields on terraced hills around a small stone town, reapers in modest robes and head cloths, a young shepherd boy with sheep on a hill.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌾 🐑",
+     "say": [
+      "עוד קצת צפונה, ליד ירושלים, נמצאת בית לחם.",
+      "כאן נולד דוד המלך.",
+      "כשהיה ילד, הוא רעה כאן את הצאן של אבא שלו.",
+      "וכאן גם קרה הסיפור של רות ובועז, בשדות החיטה.",
+      "רות הייתה אישה טובה, שעשתה הרבה חסד.",
+      "ומרות ובועז, אחרי כמה דורות, נולד דוד המלך."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "קבר רחל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient times at dusk on a road near Beit Lechem: Yaakov, an old man in a wool robe, sets a single tall stone as a monument beside the road, his sheep and family tents behind him, a soft light from above.",
+     "move": "in",
+     "fx": "night",
+     "art": "🪨",
+     "say": [
+      "על הדרך ליד בית לחם, נפטרה רחל אמנו.",
+      "זה קרה כשנולד בנה הקטן, בנימין.",
+      "יעקב קבר אותה ממש ליד הדרך, ולא במערת המכפלה.",
+      "למה? רש\"י מסביר:",
+      "יום אחד עם ישראל ילך בדרך הזאת לגלות, ורחל תתפלל עליהם.",
+      "והשם הבטיח לה: הילדים שלך יחזרו לארץ. והנה, חזרנו!"
+     ],
+     "pasuk": {
+      "text": "רחל מבכה על בניה... ושבו בנים לגבולם",
+      "ref": "ירמיהו לא, יד-טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הדרך לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Saba and the two children walk on a hilltop path among olive trees at sunset, far ahead the golden walls of the old city of Jerusalem glow on the hills.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👦 👧",
+     "say": [
+      "ראינו את שכם, את חברון, את בית לחם ואת קבר רחל.",
+      "בכל מקום הרגשנו את אבותינו ואמותינו.",
+      "ובכל מקום ראינו: התנ\"ך קרה ממש כאן, באותם הרים ובאותן אבנים.",
+      "ועכשיו, הדרך מובילה אותנו לעיר הכי קדושה: ירושלים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "בעקבות האבות",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ההרים שבלב הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The terraced hills of the Shomron in spring: olive groves on stone terraces, a winding mountain road, a shepherd with sheep, morning mist in the valleys.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🐑",
+     "say": [
+      "בוקר טוב! היום אנחנו בלב הארץ, בשרשרת ההרים שעוברת באמצע, מצפון לדרום.",
+      "בחלק הצפוני נמצאים הרי השומרון, ובחלק הדרומי הרי יהודה.",
+      "על המדרונות בנו איכרים מדרגות של אבן, כדי שהאדמה לא תיסחף בגשם. על המדרגות גדלים זיתים וגפנים.",
+      "כאן, בהרים האלה, הלכו האבות. רוב סיפורי ספר בראשית קרו בדיוק במקומות שנבקר היום.",
+      "בתנ\"ך קוראים לאזורים האלה \"הר אפרים\" ו\"הר יהודה\". בהרים האלה ישבו רוב שבטי ישראל, וכאן היו הערים החשובות שלהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שכם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A green valley between two mountains, one rocky and one greener, in ancient times: Avraham, an old man with a white beard in a wool robe, stands with his flocks and family tents, looking up at a soft light from the sky.",
+     "move": "in",
+     "fx": "light",
+     "art": "⛺ 🐑",
+     "say": [
+      "כשאברהם הגיע לארץ כנען, המקום הראשון שהתורה מזכירה הוא שכם. שם השם נראה אליו ואמר: לזרעך אתן את הארץ הזאת.",
+      "שכם נמצאת בעמק בין שני הרים: הר גריזים והר עיבל. כשבני ישראל נכנסו לארץ, הם עמדו על שני ההרים האלה ושמעו את הברכות.",
+      "ובשכם קבור יוסף הצדיק. בני ישראל נשאו את עצמותיו כל הדרך ממצרים, ארבעים שנה במדבר, וקברו אותו כאן.",
+      "לא רחוק משכם נמצאת שילה, שבה עמד המשכן מאות שנים, לפני שנבנה בית המקדש.",
+      "חכמינו אומרים שהמשכן עמד בשילה 369 שנים. לשם עלתה חנה להתפלל, ושם גדל שמואל הנביא אצל עלי הכהן."
+     ],
+     "pasuk": {
+      "text": "ויעבר אברם בארץ עד מקום שכם... ויאמר לזרעך אתן את הארץ הזאת",
+      "ref": "בראשית יב, ו-ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "בית אל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Night on a rocky hilltop: young Yaakov in a wool robe asleep with his head on a stone, a tall ladder of soft glowing light rising from the ground to the starry sky, angels shown only as small gentle shimmering lights going up and down it.",
+     "move": "up",
+     "fx": "stars",
+     "art": "🪨",
+     "say": [
+      "בין שכם לירושלים, בהרי בנימין, נמצאת בית אל. לשם הגיע יעקב אבינו כשברח מעשו אחיו, בדרך לחרן.",
+      "השמש שקעה, ויעקב לקח מאבני המקום, שם אותן סביב ראשו, ושכב לישון.",
+      "בחלום הוא ראה סולם מוצב ארצה, וראשו מגיע השמימה, ומלאכים עולים ויורדים בו.",
+      "השם הבטיח לו: הארץ אשר אתה שוכב עליה, לך אתננה ולזרעך, ופרצת ימה וקדמה וצפונה ונגבה.",
+      "כשיעקב התעורר, אמר: אכן יש השם במקום הזה, ואנכי לא ידעתי. והוא קרא למקום בית אל, הבית של השם."
+     ],
+     "pasuk": {
+      "text": "אכן יש ה' במקום הזה, ואנכי לא ידעתי",
+      "ref": "בראשית כח, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "חברון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: The city of Chevron in the Judean hills at golden hour: stone houses on the hills, vineyards, and in the center a huge ancient building of enormous smooth stone blocks.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🏛️",
+     "say": [
+      "דרומה, בהרי יהודה, נמצאת חברון. היא אחת הערים העתיקות בעולם, ואחת מארבע ערי הקודש.",
+      "דוד המלך מלך בחברון שבע שנים, לפני שעבר לירושלים.",
+      "סביב חברון יש כרמים, והענבים שלה מפורסמים. התורה מספרת שליד חברון כרתו המרגלים אשכול ענבים כל כך גדול, שנשאו אותו שניים במוט.",
+      "באמצע העיר עומד בניין ענק, עם חומות מאבנים גדולות במיוחד. הוא נבנה לפני כאלפיים שנה.",
+      "והבניין הזה שומר על המקום החשוב ביותר בחברון: מערת המכפלה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חברון היא אחת מארבע ערי הקודש. דוד המלך מלך בה שבע שנים, לפני שעבר לירושלים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "מערת המכפלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient times: Avraham, an old man with a white beard in a wool robe, carefully weighs silver coins on a scale before the people of the city at the city gate, near a field with a cave in a rocky hill.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 🪨",
+     "say": [
+      "כששרה אמנו נפטרה, אברהם רצה לקנות לה מקום קבורה. הוא לא לקח אותו בחינם, אלא שילם לעפרון החתי ארבע מאות שקל כסף, סכום גדול מאוד.",
+      "במערה קבורים האבות והאמהות: אברהם ושרה, יצחק ורבקה, יעקב ולאה. חכמינו אומרים שגם אדם וחוה קבורים שם.",
+      "לכן העיר נקראת גם \"קרית ארבע\": העיר של ארבעת הזוגות.",
+      "חכמינו אומרים: יש שלושה מקומות בארץ שאף אחד לא יוכל לומר שגנבנו אותם, כי קנינו אותם בכסף מלא: מערת המכפלה, הר הבית, וקבר יוסף בשכם."
+     ],
+     "pasuk": {
+      "text": "ויקם השדה והמערה אשר בו לאברהם לאחזת קבר",
+      "ref": "בראשית כג, כ"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "בית לחם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient Beit Lechem in the harvest season: golden wheat fields on terraced hills around a small stone town, reapers in modest robes and head cloths, a young shepherd boy with sheep on a hill.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌾 🐑",
+     "say": [
+      "קצת צפונה מחברון, בדרך לירושלים, נמצאת בית לחם. השם שלה בא מ\"לחם\", כי סביבה היו שדות חיטה ושעורה.",
+      "בשדות האלה קרה הסיפור של מגילת רות: רות ליקטה שיבולים בשדה של בועז, ובזכות החסד שלה נולד ממנה דוד המלך.",
+      "דוד נולד בבית לחם, וכשהיה נער הוא רעה כאן את הצאן של אביו ישי, וניגן בכינור בשדות.",
+      "משם קרא לו שמואל הנביא, ומשח אותו למלך על ישראל.",
+      "וליד בית לחם, על אם הדרך, נמצא מקום שכל עם ישראל אוהב. על זה נשמע עכשיו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "קבר רחל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: Ancient times at dusk on a road near Beit Lechem: Yaakov, an old man in a wool robe, sets a single tall stone as a monument beside the road, his sheep and family tents behind him, a soft light from above.",
+     "move": "in",
+     "fx": "night",
+     "art": "🪨",
+     "say": [
+      "רחל אמנו נפטרה בדרך, כשנולד בנה בנימין. יעקב קבר אותה ליד הדרך לבית לחם, והציב מצבה על קברה.",
+      "למה לא הביא אותה למערת המכפלה? רש\"י מסביר: יעקב ידע שיום אחד בני ישראל יגלו מהארץ, ויעברו בדרך הזאת.",
+      "רחל תצא מקברה, תבכה ותתפלל עליהם. כך כתב הנביא ירמיהו: רחל מבכה על בניה.",
+      "והשם ענה לה: מנעי קולך מבכי, ויש תקווה לאחריתך, ושבו בנים לגבולם.",
+      "עד היום באים אנשים לקבר רחל להתפלל. ואנחנו, הבנים שחזרו לארץ, הם התשובה לתפילה שלה."
+     ],
+     "pasuk": {
+      "text": "רחל מבכה על בניה... ושבו בנים לגבולם",
+      "ref": "ירמיהו לא, יד-טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הדרך לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Saba and the two children walk on a hilltop path among olive trees at sunset, far ahead the golden walls of the old city of Jerusalem glow on the hills.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👦 👧",
+     "say": [
+      "היום הלכנו בעקבות האבות: בשכם, שבה השם הבטיח את הארץ לאברהם; בחברון, שבה קבורים האבות; בבית לחם, עירו של דוד; ובקבר רחל.",
+      "ראינו גם את בית אל, שבה חלם יעקב על הסולם, וקיבל הבטחה על הארץ.",
+      "כשהולכים בהרים האלה, מבינים: התנ\"ך הוא לא סיפור רחוק. הוא קרה ממש כאן, על האבנים האלה.",
+      "ומכאן הדרך מובילה לעיר הכי קדושה בעולם: ירושלים. ומשם נרד אל המקום הכי נמוך בעולם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה כסף שילם אברהם על מערת המכפלה?",
+   "answer": "400 שקל כסף",
+   "options": [
+    "400 שקל כסף",
+    "הוא קיבל אותה בחינם",
+    "10 שקלים"
+   ],
+   "explain_he": "אברהם שילם לעפרון ארבע מאות שקל כסף, סכום גדול, כדי שהמערה תהיה שלו לגמרי.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה כסף שילם אברהם על מערת המכפלה?",
+   "answer": "400 שקל כסף",
+   "options": [
+    "400 שקל כסף",
+    "הוא קיבל אותה בחינם",
+    "10 שקלים"
+   ],
+   "explain_he": "אברהם שילם לעפרון ארבע מאות שקל כסף, סכום גדול, כדי שהמערה תהיה שלו לגמרי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי קבורים במערת המכפלה?",
+   "answer": "האבות והאמהות: אברהם ושרה, יצחק ורבקה, יעקב ולאה",
+   "options": [
+    "האבות והאמהות: אברהם ושרה, יצחק ורבקה, יעקב ולאה",
+    "משה ואהרן",
+    "דוד ושלמה"
+   ],
+   "explain_he": "במערת המכפלה קבורים האבות והאמהות, וחכמינו אומרים שגם אדם וחוה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי קבורים במערת המכפלה?",
+   "answer": "האבות והאמהות: אברהם ושרה, יצחק ורבקה, יעקב ולאה",
+   "options": [
+    "האבות והאמהות: אברהם ושרה, יצחק ורבקה, יעקב ולאה",
+    "משה ואהרן",
+    "דוד ושלמה"
+   ],
+   "explain_he": "במערת המכפלה קבורים האבות והאמהות, וחכמינו אומרים שגם אדם וחוה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מלך נולד בבית לחם?",
+   "answer": "דוד המלך",
+   "options": [
+    "דוד המלך",
+    "שאול המלך",
+    "שלמה המלך"
+   ],
+   "explain_he": "דוד המלך נולד בבית לחם, ורעה שם את הצאן של אביו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מלך נולד בבית לחם?",
+   "answer": "דוד המלך",
+   "options": [
+    "דוד המלך",
+    "שאול המלך",
+    "שלמה המלך"
+   ],
+   "explain_he": "דוד המלך נולד בבית לחם, ורעה שם את הצאן של אביו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קבר יעקב את רחל ליד הדרך?",
+   "answer": "כדי שתתפלל על ילדיה כשיעברו שם לגלות",
+   "options": [
+    "כדי שתתפלל על ילדיה כשיעברו שם לגלות",
+    "כי הדרך הייתה קצרה יותר",
+    "כי לא היה לו כסף"
+   ],
+   "explain_he": "רש\"י מסביר שיעקב קבר את רחל ליד הדרך, כדי שתתפלל על בניה כשיגלו. והשם הבטיח: ושבו בנים לגבולם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קוראים לחברון \"קרית ארבע\"?",
+   "answer": "כי קבורים בה ארבעה זוגות",
+   "options": [
+    "כי קבורים בה ארבעה זוגות",
+    "כי יש בה ארבעה הרים",
+    "כי נבנתה בארבעה ימים"
+   ],
+   "explain_he": "חכמינו אומרים שבמערת המכפלה קבורים ארבעה זוגות: אדם וחוה, ושלושת האבות עם האמהות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו חכמינו על מערת המכפלה, הר הבית וקבר יוסף?",
+   "answer": "שאף אחד לא יוכל לומר שגנבנו אותם, כי קנינו אותם בכסף מלא",
+   "options": [
+    "שאף אחד לא יוכל לומר שגנבנו אותם, כי קנינו אותם בכסף מלא",
+    "שהם המקומות הכי גבוהים בארץ",
+    "שנבנו כולם ביום אחד"
+   ],
+   "explain_he": "שלושת המקומות האלה נקנו בכסף מלא, ולכן אף אחד לא יוכל לומר שהם לא שלנו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f4e11"
+  }
+ ]
+}

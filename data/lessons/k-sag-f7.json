@@ -1,0 +1,575 @@
+{
+ "id": "k-sag-f7",
+ "unit_id": "k-sag-u3",
+ "course": "sages",
+ "title_he": "הגאון מווילנה והבעל שם טוב",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "הגאון מווילנה והבעל שם טוב",
+   "ref_he": "גדולי ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "two",
+     "title_he": "שני מאורות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A wide snowy Eastern European landscape at twilight, with two distant small towns on either side of a frozen river, each with one warmly lit window; a starry sky above.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🏠 🏠",
+     "say": [
+      "לפני בערך מאתיים ושמונים שנה, במזרח אירופה, חיו שני גדולים. כל אחד מהם האיר לעם ישראל אור גדול.",
+      "האחד, הבעל שם טוב, חי באוקראינה של היום. השני, הגאון מווילנה, חי בליטא. הם לא נפגשו אף פעם. ובכל זאת, הדרכים שלהם משפיעות עלינו עד היום.",
+      "בואו נכיר את שניהם, בכבוד הראוי לשניהם.",
+      "אחד מהם ידוע בעיקר בגאונות ובהתמדה בלימוד, והשני בעיקר באהבת ישראל ובשמחה. ושניהם היו גדולים מאוד בתורה וביראת שמים."
+     ],
+     "pasuk": {
+      "text": "כי נר מצוה ותורה אור",
+      "ref": "משלי ו, כג"
+     },
+     "note": null
+    },
+    {
+     "id": "besht",
+     "title_he": "ילד יתום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Baal Shem Tov: an 18th-century sage of Podolia with a full dark-grey beard, a simple long dark coat and a fur hat, warm loving eyes. Scene: Early morning in a small 18th-century village in Podolia: a young man in a simple coat walks along a forest path, leading a line of small boys with kippot to the village cheder, all singing; birches and soft light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👦 👦",
+     "say": [
+      "רבי ישראל בן אליעזר נולד לפני בערך שלוש מאות ועשרים שנה. הוא התייתם כשהיה ילד קטן.",
+      "מסופר שלפני מותו אמר לו אביו: ישראל, אל תפחד משום דבר, רק מהשם לבדו.",
+      "כשגדל, עבד כעוזר של מלמד. בכל בוקר הוביל את הילדים הקטנים לחדר, ושר איתם בדרך שירים ותפילות.",
+      "במשך שנים היה צדיק נסתר. הוא למד תורה בסתר ביערות ובהרים, עד שהתגלה, והתחילו לקרוא לו: הבעל שם טוב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "joy",
+     "title_he": "עבדו את השם בשמחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Baal Shem Tov: an 18th-century sage of Podolia with a full dark-grey beard, a simple long dark coat and a fur hat, warm loving eyes. Scene: A simple wooden synagogue in an 18th-century village: simple Jewish farmers and craftsmen in coats and caps pray with joy and devotion, one holding a small book of Tehillim, an old sage looking at them with love.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴 👨 👨",
+     "say": [
+      "הבעל שם טוב לימד שכל יהודי יקר מאוד להשם, גם היהודי הפשוט, שלא יודע ללמוד הרבה.",
+      "הוא אהב לשמוע את החקלאי שאומר תהלים בתמימות, ואת הסוחר שמברך בכוונה. הוא לימד: השם רוצה את הלב.",
+      "עוד לימד: לעבוד את השם בשמחה, ולהאמין שכל דבר בעולם בא בהשגחה פרטית. אפילו עלה שהרוח מעיפה, נופל במקום שהשם קבע לו.",
+      "תלמידיו, ובראשם המגיד ממזריטש, הפיצו את תורתו, וכך נולדה תנועת החסידות."
+     ],
+     "pasuk": {
+      "text": "עבדו את ה' בשמחה",
+      "ref": "תהלים ק, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "baruch",
+     "title_he": "ברוך השם!",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Baal Shem Tov: an 18th-century sage of Podolia with a full dark-grey beard, a simple long dark coat and a fur hat, warm loving eyes. Scene: A busy market square of an 18th-century Eastern European town: an elderly sage in a long coat and fur hat talks warmly with a simple Jewish wagon driver beside his horse, who smiles and lifts his eyes upward; stalls of vegetables and morning light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "מסופר שהבעל שם טוב היה הולך בשווקים ובכפרים, ושואל יהודים פשוטים: מה שלומך? איך הפרנסה? למה שאל?",
+      "כי היהודי היה עונה: ברוך השם! תודה להשם על הכל. והבעל שם טוב אמר: כל \"ברוך השם\" כזה, שיוצא מהלב, הוא כמו תפילה יקרה.",
+      "גם ליהודי שעובד קשה כל היום, ואין לו זמן ללמוד הרבה, יש דרך לעבוד את השם: להודות לו, ולזכור אותו בכל רגע.",
+      "והוא לימד לאהוב כל יהודי, גם את מי שעדיין רחוק, כמו שאב אוהב כל אחד מבניו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "gra",
+     "title_he": "ילד גאון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Inside the great old synagogue of Vilna in the 18th century: a small boy with a kippah stands on the raised bimah speaking with confidence, while a crowd of bearded scholars listens in astonishment; chandeliers and tall windows.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 👴 👴",
+     "say": [
+      "רבי אליהו, הגאון מווילנה, נולד בשנת 1720. כבר בגיל שש וחצי הוא נשא דרשה בבית הכנסת הגדול של וילנה, ואנשים התפלאו.",
+      "כל חייו למד ביום ובלילה. מסופר שסגר את התריסים גם ביום, כדי שלא יפריע לו דבר, ולמד לאור נר.",
+      "הוא כמעט לא ישן, ושמר על כל רגע. הוא לא רצה לקבל שום משרה של רב, כדי שיוכל ללמוד בלי הפסקה.",
+      "בניו סיפרו שבכל ערב שבת היה עושה חשבון: האם היו השבוע דקות שלא למד בהן? ואם היו, היה מתחרט ומשתדל לתקן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "gratorah",
+     "title_he": "כל התורה כולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Vilna Gaon: an 18th-century Lithuanian sage with a long white beard, a tallit over a dark coat and a dark kippah, intense quiet focus. Scene: A sage with a long white beard and a tallit sits at a desk covered with open books of Tanakh, Mishna and Talmud and sheets of notes, a single candle burning in a darkened room with closed wooden shutters.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "הגר\"א כתב ביאורים כמעט על כל התורה כולה: על התנ\"ך, על המשנה, על הגמרא, על הזוהר ועל השולחן ערוך.",
+      "הוא בדק בכל ספר מה הנוסח המדויק. ולפעמים, בתיקון של מילה אחת, נפתרה שאלה שהקשתה על חכמים במשך דורות.",
+      "הוא גם למד חשבון, הנדסה ודקדוק. הוא אמר שהידיעות האלה עוזרות להבין את התורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "students",
+     "title_he": "התלמידים: ישיבות ועלייה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A wagon caravan of Jewish families in modest dress travelling south across a wide plain toward distant hills under a bright sky, an elderly scholar walking beside the first wagon with a book under his arm.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "תלמידו הגדול של הגר\"א היה רבי חיים מוולוז'ין. הוא ייסד בעיירה וולוז'ין ישיבה גדולה, והיא נקראה \"אם הישיבות\".",
+      "כמעט כל הישיבות הליטאיות שקמו אחריה, והישיבות של היום, הולכות בדרכה.",
+      "ועוד דבר: הגר\"א התגעגע מאוד לארץ ישראל. תלמידיו עלו לארץ בשיירות, חיו בצפת ובירושלים בתנאים קשים, ובנו בה קהילות של תורה.",
+      "בישיבת וולוז'ין למדו ביום ובלילה, במשמרות, כך שלא היה רגע שבו לא נשמע בה קול תורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "machloket",
+     "title_he": "מחלוקת לשם שמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Today in a bright Jerusalem study hall: two boys, one in a chassidic-style long coat and one in a white shirt, sit together over one open Gemara, smiling as they argue, sunlight through high windows.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "בין החסידים לבין חכמי ליטא, שנקראו \"מתנגדים\", היו בזמנם ויכוחים קשים. הגר\"א חשש משינויים בדרכי העבודה, והחסידים ראו בדרכם התחדשות של אמונה ושמחה.",
+      "אבל שני הצדדים רצו את אותו הדבר: לעבוד את השם באמת. זו הייתה מחלוקת לשם שמים, כמו של בית הלל ובית שמאי.",
+      "והיום? בני ישיבות וחסידים לומדים יחד, ולוקחים אלה מאלה. הלימוד של הגר\"א והאהבה והשמחה של הבעל שם טוב, שניהם אוצרות של כל עם ישראל."
+     ],
+     "pasuk": {
+      "text": "כל מחלוקת שהיא לשם שמים, סופה להתקיים",
+      "ref": "פרקי אבות ה, יז"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-sag-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "הגאון מווילנה והבעל שם טוב",
+   "ref_he": "גדולי ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "two",
+     "title_he": "שני מאורות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A wide snowy Eastern European landscape at twilight, with two distant small towns on either side of a frozen river, each with one warmly lit window; a starry sky above.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🏠 🏠",
+     "say": [
+      "לפני בערך מאתיים ושמונים שנה, במזרח אירופה, חיו שני גדולים. כל אחד מהם האיר לעם ישראל אור גדול.",
+      "האחד, הבעל שם טוב, חי באוקראינה של היום. השני, הגאון מווילנה, חי בליטא. הם לא נפגשו אף פעם. ובכל זאת, הדרכים שלהם משפיעות עלינו עד היום.",
+      "בואו נכיר את שניהם, בכבוד הראוי לשניהם.",
+      "אחד מהם ידוע בעיקר בגאונות ובהתמדה בלימוד, והשני בעיקר באהבת ישראל ובשמחה. ושניהם היו גדולים מאוד בתורה וביראת שמים.",
+      "הבעל שם טוב נפטר בשנת 1760, והגר\"א בשנת 1797. אבל הדרכים שלהם חיות עד היום, בבתי המדרש ובקהילות בכל העולם."
+     ],
+     "pasuk": {
+      "text": "כי נר מצוה ותורה אור",
+      "ref": "משלי ו, כג"
+     },
+     "note": null
+    },
+    {
+     "id": "besht",
+     "title_he": "ילד יתום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Baal Shem Tov: an 18th-century sage of Podolia with a full dark-grey beard, a simple long dark coat and a fur hat, warm loving eyes. Scene: Early morning in a small 18th-century village in Podolia: a young man in a simple coat walks along a forest path, leading a line of small boys with kippot to the village cheder, all singing; birches and soft light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👦 👦",
+     "say": [
+      "רבי ישראל בן אליעזר נולד לפני בערך שלוש מאות ועשרים שנה. הוא התייתם כשהיה ילד קטן.",
+      "מסופר שלפני מותו אמר לו אביו: ישראל, אל תפחד משום דבר, רק מהשם לבדו.",
+      "כשגדל, עבד כעוזר של מלמד. בכל בוקר הוביל את הילדים הקטנים לחדר, ושר איתם בדרך שירים ותפילות.",
+      "במשך שנים היה צדיק נסתר. הוא למד תורה בסתר ביערות ובהרים, עד שהתגלה, והתחילו לקרוא לו: הבעל שם טוב.",
+      "מסופר שבשנים ההן היה מתבודד ומתפלל בהרים וביערות, והתפרנס מעבודות פשוטות וקשות. איש לא ידע על גדולתו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "joy",
+     "title_he": "עבדו את השם בשמחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Baal Shem Tov: an 18th-century sage of Podolia with a full dark-grey beard, a simple long dark coat and a fur hat, warm loving eyes. Scene: A simple wooden synagogue in an 18th-century village: simple Jewish farmers and craftsmen in coats and caps pray with joy and devotion, one holding a small book of Tehillim, an old sage looking at them with love.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👴 👨 👨",
+     "say": [
+      "הבעל שם טוב לימד שכל יהודי יקר מאוד להשם, גם היהודי הפשוט, שלא יודע ללמוד הרבה.",
+      "הוא אהב לשמוע את החקלאי שאומר תהלים בתמימות, ואת הסוחר שמברך בכוונה. הוא לימד: השם רוצה את הלב.",
+      "עוד לימד: לעבוד את השם בשמחה, ולהאמין שכל דבר בעולם בא בהשגחה פרטית. אפילו עלה שהרוח מעיפה, נופל במקום שהשם קבע לו.",
+      "תלמידיו, ובראשם המגיד ממזריטש, הפיצו את תורתו, וכך נולדה תנועת החסידות.",
+      "הבעל שם טוב לימד שהתפילה אינה רק מילים. היא דיבור של הלב עם השם, בדבקות ובכוונה."
+     ],
+     "pasuk": {
+      "text": "עבדו את ה' בשמחה",
+      "ref": "תהלים ק, ב"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "השם \"בעל שם טוב\" מתאים לפסוק בקהלת: טוב שם משמן טוב."
+     }
+    },
+    {
+     "id": "baruch",
+     "title_he": "ברוך השם!",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Baal Shem Tov: an 18th-century sage of Podolia with a full dark-grey beard, a simple long dark coat and a fur hat, warm loving eyes. Scene: A busy market square of an 18th-century Eastern European town: an elderly sage in a long coat and fur hat talks warmly with a simple Jewish wagon driver beside his horse, who smiles and lifts his eyes upward; stalls of vegetables and morning light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "מסופר שהבעל שם טוב היה הולך בשווקים ובכפרים, ושואל יהודים פשוטים: מה שלומך? איך הפרנסה? למה שאל?",
+      "כי היהודי היה עונה: ברוך השם! תודה להשם על הכל. והבעל שם טוב אמר: כל \"ברוך השם\" כזה, שיוצא מהלב, הוא כמו תפילה יקרה.",
+      "גם ליהודי שעובד קשה כל היום, ואין לו זמן ללמוד הרבה, יש דרך לעבוד את השם: להודות לו, ולזכור אותו בכל רגע.",
+      "והוא לימד לאהוב כל יהודי, גם את מי שעדיין רחוק, כמו שאב אוהב כל אחד מבניו.",
+      "התורה של הבעל שם טוב נמסרה בעיקר בעל פה. את דבריו כתבו תלמידיו, ובזכותם אנחנו מכירים אותם היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "gra",
+     "title_he": "ילד גאון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Inside the great old synagogue of Vilna in the 18th century: a small boy with a kippah stands on the raised bimah speaking with confidence, while a crowd of bearded scholars listens in astonishment; chandeliers and tall windows.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 👴 👴",
+     "say": [
+      "רבי אליהו, הגאון מווילנה, נולד בשנת 1720. כבר בגיל שש וחצי הוא נשא דרשה בבית הכנסת הגדול של וילנה, ואנשים התפלאו.",
+      "כל חייו למד ביום ובלילה. מסופר שסגר את התריסים גם ביום, כדי שלא יפריע לו דבר, ולמד לאור נר.",
+      "הוא כמעט לא ישן, ושמר על כל רגע. הוא לא רצה לקבל שום משרה של רב, כדי שיוכל ללמוד בלי הפסקה.",
+      "בניו סיפרו שבכל ערב שבת היה עושה חשבון: האם היו השבוע דקות שלא למד בהן? ואם היו, היה מתחרט ומשתדל לתקן.",
+      "הגר\"א אמר שהתורה היא כמו גשם: הגשם מצמיח כל צמח לפי מה שנזרע בו. כך התורה מגדלת באדם את מה שבליבו. לכן צריך לתקן גם את המידות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "gratorah",
+     "title_he": "כל התורה כולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Vilna Gaon: an 18th-century Lithuanian sage with a long white beard, a tallit over a dark coat and a dark kippah, intense quiet focus. Scene: A sage with a long white beard and a tallit sits at a desk covered with open books of Tanakh, Mishna and Talmud and sheets of notes, a single candle burning in a darkened room with closed wooden shutters.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "הגר\"א כתב ביאורים כמעט על כל התורה כולה: על התנ\"ך, על המשנה, על הגמרא, על הזוהר ועל השולחן ערוך.",
+      "הוא בדק בכל ספר מה הנוסח המדויק. ולפעמים, בתיקון של מילה אחת, נפתרה שאלה שהקשתה על חכמים במשך דורות.",
+      "הוא גם למד חשבון, הנדסה ודקדוק. הוא אמר שהידיעות האלה עוזרות להבין את התורה.",
+      "מסופר שלא התעייף ולא התייאש לעולם. מבחינתו, כל רגע שלא לומדים בו תורה הוא רגע שהולך לאיבוד, ואי אפשר להחזירו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "students",
+     "title_he": "התלמידים: ישיבות ועלייה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A wagon caravan of Jewish families in modest dress travelling south across a wide plain toward distant hills under a bright sky, an elderly scholar walking beside the first wagon with a book under his arm.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "תלמידו הגדול של הגר\"א היה רבי חיים מוולוז'ין. הוא ייסד בעיירה וולוז'ין ישיבה גדולה, והיא נקראה \"אם הישיבות\".",
+      "כמעט כל הישיבות הליטאיות שקמו אחריה, והישיבות של היום, הולכות בדרכה.",
+      "ועוד דבר: הגר\"א התגעגע מאוד לארץ ישראל. תלמידיו עלו לארץ בשיירות, חיו בצפת ובירושלים בתנאים קשים, ובנו בה קהילות של תורה.",
+      "בישיבת וולוז'ין למדו ביום ובלילה, במשמרות, כך שלא היה רגע שבו לא נשמע בה קול תורה.",
+      "לפי המסורת, גם הבעל שם טוב יצא פעם בדרך לארץ ישראל וחזר. ותלמידי תלמידיו, חסידים רבים עם רבי מנחם מנדל מוויטבסק, עלו לארץ והתיישבו בגליל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "תלמידי הגר\"א שעלו לארץ נקראו \"פרושים\", והם בנו מחדש את בית הכנסת \"החורבה\" שבירושלים."
+     }
+    },
+    {
+     "id": "heirs",
+     "title_he": "התלמידים ממשיכים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Two old study halls in 19th-century Eastern Europe side by side at evening: in one, rows of young men learning Gemara intensely; in the other, chassidim singing a melody around a long table; both windows glowing warmly in the snow.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 🏠",
+     "say": [
+      "אחרי הבעל שם טוב, הנהיג את החסידים המגיד ממזריטש. תלמידיו היו גדולי עולם, כמו בעל התניא, ורבי לוי יצחק מברדיטשוב, שנקרא \"סנגורם של ישראל\", כי תמיד לימד זכות על כל יהודי.",
+      "אחרי הגר\"א, כתב תלמידו רבי חיים מוולוז'ין את הספר \"נפש החיים\". בספר הוא מסביר כמה גדול כוחו של לימוד התורה, שהוא מקיים את כל העולם.",
+      "כך שתי הדרכים המשיכו לגדול. ובזכות שתיהן, חזרו רבבות יהודים לתורה ולמצוות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "machloket",
+     "title_he": "מחלוקת לשם שמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Today in a bright Jerusalem study hall: two boys, one in a chassidic-style long coat and one in a white shirt, sit together over one open Gemara, smiling as they argue, sunlight through high windows.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "בין החסידים לבין חכמי ליטא, שנקראו \"מתנגדים\", היו בזמנם ויכוחים קשים. הגר\"א חשש משינויים בדרכי העבודה, והחסידים ראו בדרכם התחדשות של אמונה ושמחה.",
+      "אבל שני הצדדים רצו את אותו הדבר: לעבוד את השם באמת. זו הייתה מחלוקת לשם שמים, כמו של בית הלל ובית שמאי.",
+      "והיום? בני ישיבות וחסידים לומדים יחד, ולוקחים אלה מאלה. הלימוד של הגר\"א והאהבה והשמחה של הבעל שם טוב, שניהם אוצרות של כל עם ישראל.",
+      "הנביא זכריה אמר: והאמת והשלום אהבו. צריך לאהוב גם את האמת, וגם את השלום. וזה מה שאנחנו לומדים משני המאורות האלה."
+     ],
+     "pasuk": {
+      "text": "כל מחלוקת שהיא לשם שמים, סופה להתקיים",
+      "ref": "פרקי אבות ה, יז"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-sag-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר לבעל שם טוב אביו, לפי המסורת?",
+   "answer": "אל תפחד משום דבר, רק מהשם לבדו",
+   "options": [
+    "אל תפחד משום דבר, רק מהשם לבדו",
+    "לך ותהיה סוחר עשיר",
+    "תלמד רק בלילה"
+   ],
+   "explain_he": "כך מסופר בספרי החסידות על אביו של הבעל שם טוב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר לבעל שם טוב אביו, לפי המסורת?",
+   "answer": "אל תפחד משום דבר, רק מהשם לבדו",
+   "options": [
+    "אל תפחד משום דבר, רק מהשם לבדו",
+    "לך ותהיה סוחר עשיר",
+    "תלמד רק בלילה"
+   ],
+   "explain_he": "כך מסופר בספרי החסידות על אביו של הבעל שם טוב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לימד הבעל שם טוב על היהודי הפשוט?",
+   "answer": "שגם הוא יקר מאוד להשם, והשם רוצה את הלב",
+   "options": [
+    "שגם הוא יקר מאוד להשם, והשם רוצה את הלב",
+    "שאין לו מקום בבית הכנסת",
+    "שעליו להפסיק לעבוד וללמוד כל היום"
+   ],
+   "explain_he": "הבעל שם טוב אהב את התפילה התמימה של כל יהודי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לימד הבעל שם טוב על היהודי הפשוט?",
+   "answer": "שגם הוא יקר מאוד להשם, והשם רוצה את הלב",
+   "options": [
+    "שגם הוא יקר מאוד להשם, והשם רוצה את הלב",
+    "שאין לו מקום בבית הכנסת",
+    "שעליו להפסיק לעבוד וללמוד כל היום"
+   ],
+   "explain_he": "הבעל שם טוב אהב את התפילה התמימה של כל יהודי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הגר\"א כבר בגיל שש וחצי?",
+   "answer": "נשא דרשה בבית הכנסת הגדול של וילנה",
+   "options": [
+    "נשא דרשה בבית הכנסת הגדול של וילנה",
+    "נעשה רב העיר",
+    "כתב את השולחן ערוך"
+   ],
+   "explain_he": "אנשים התפלאו לשמוע ילד קטן דורש בתורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הגר\"א כבר בגיל שש וחצי?",
+   "answer": "נשא דרשה בבית הכנסת הגדול של וילנה",
+   "options": [
+    "נשא דרשה בבית הכנסת הגדול של וילנה",
+    "נעשה רב העיר",
+    "כתב את השולחן ערוך"
+   ],
+   "explain_he": "אנשים התפלאו לשמוע ילד קטן דורש בתורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא רצה הגר\"א לקבל משרה של רב?",
+   "answer": "כדי שיוכל ללמוד בלי הפסקה",
+   "options": [
+    "כדי שיוכל ללמוד בלי הפסקה",
+    "כי לא הכיר את ההלכה",
+    "כי רצה לגור בכפר"
+   ],
+   "explain_he": "הגר\"א שמר על כל רגע ללימוד התורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא רצה הגר\"א לקבל משרה של רב?",
+   "answer": "כדי שיוכל ללמוד בלי הפסקה",
+   "options": [
+    "כדי שיוכל ללמוד בלי הפסקה",
+    "כי לא הכיר את ההלכה",
+    "כי רצה לגור בכפר"
+   ],
+   "explain_he": "הגר\"א שמר על כל רגע ללימוד התורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ישיבה ייסד רבי חיים, תלמיד הגר\"א?",
+   "answer": "ישיבת וולוז'ין, \"אם הישיבות\"",
+   "options": [
+    "ישיבת וולוז'ין, \"אם הישיבות\"",
+    "ישיבה בטרויש",
+    "ישיבה בפאס"
+   ],
+   "explain_he": "הישיבות הליטאיות של היום הולכות בדרכה של ישיבת וולוז'ין.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ישיבה ייסד רבי חיים, תלמיד הגר\"א?",
+   "answer": "ישיבת וולוז'ין, \"אם הישיבות\"",
+   "options": [
+    "ישיבת וולוז'ין, \"אם הישיבות\"",
+    "ישיבה בטרויש",
+    "ישיבה בפאס"
+   ],
+   "explain_he": "הישיבות הליטאיות של היום הולכות בדרכה של ישיבת וולוז'ין.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה משותף לגר\"א ולבעל שם טוב?",
+   "answer": "שניהם רצו לעבוד את השם באמת",
+   "options": [
+    "שניהם רצו לעבוד את השם באמת",
+    "שניהם גרו בווילנה",
+    "שניהם היו רופאים"
+   ],
+   "explain_he": "זו הייתה מחלוקת לשם שמים, כמו של בית הלל ובית שמאי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה משותף לגר\"א ולבעל שם טוב?",
+   "answer": "שניהם רצו לעבוד את השם באמת",
+   "options": [
+    "שניהם רצו לעבוד את השם באמת",
+    "שניהם גרו בווילנה",
+    "שניהם היו רופאים"
+   ],
+   "explain_he": "זו הייתה מחלוקת לשם שמים, כמו של בית הלל ובית שמאי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקראו תלמידי הגר\"א שעלו לארץ ישראל?",
+   "answer": "פרושים",
+   "options": [
+    "פרושים",
+    "חסידים",
+    "תנאים"
+   ],
+   "explain_he": "הפרושים חיו בצפת ובירושלים ובנו בה קהילות של תורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f7e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שאל הבעל שם טוב יהודים פשוטים \"מה שלומך?\"",
+   "answer": "כדי שיענו \"ברוך השם\" ויודו להשם מהלב",
+   "options": [
+    "כדי שיענו \"ברוך השם\" ויודו להשם מהלב",
+    "כדי לדעת מי צריך הלוואה",
+    "כדי לבדוק אם הם יודעים ללמוד"
+   ],
+   "explain_he": "הבעל שם טוב אמר שכל \"ברוך השם\" שיוצא מהלב הוא כמו תפילה יקרה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f7e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שאל הבעל שם טוב יהודים פשוטים \"מה שלומך?\"",
+   "answer": "כדי שיענו \"ברוך השם\" ויודו להשם מהלב",
+   "options": [
+    "כדי שיענו \"ברוך השם\" ויודו להשם מהלב",
+    "כדי לדעת מי צריך הלוואה",
+    "כדי לבדוק אם הם יודעים ללמוד"
+   ],
+   "explain_he": "הבעל שם טוב אמר שכל \"ברוך השם\" שיוצא מהלב הוא כמו תפילה יקרה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f7e17"
+  }
+ ]
+}

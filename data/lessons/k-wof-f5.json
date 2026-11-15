@@ -1,0 +1,512 @@
+{
+ "id": "k-wof-f5",
+ "unit_id": "k-wof-u3",
+ "course": "world",
+ "title_he": "קהילות ישראל בעולם",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "קהילות ישראל בעולם",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "where",
+     "title_he": "איפה גרו יהודים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A painted world map like an old parchment, with small warm glowing lights scattered across many lands, each light a tiny synagogue silhouette, the two children leaning over it with a magnifying glass; no text.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦 👧",
+     "say": [
+      "אחרי שטיילנו בכל העולם, נשאל שאלה: איפה גרו יהודים?",
+      "התשובה מפתיעה: כמעט בכל מקום! בארצות חמות וקרות, ליד נהרות ובערים גדולות.",
+      "בואו נצא למסע בעקבות הקהילות היהודיות."
+     ],
+     "pasuk": {
+      "text": "וֶהֱפִיצְךָ ה׳ בְּכָל הָעַמִּים, מִקְצֵה הָאָרֶץ וְעַד קְצֵה הָאָרֶץ",
+      "ref": "דברים כח, סד"
+     },
+     "note": null
+    },
+    {
+     "id": "bavel",
+     "title_he": "בבל ופרס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A great yeshiva of ancient Babylon: hundreds of students in robes and head coverings sit in rows before a revered sage, oil lamps and palm trees, the river glinting beyond the courtyard.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "התחנה הראשונה: בבל. שם גרו יהודים כבר מאז חורבן בית המקדש הראשון.",
+      "שם היו ישיבות גדולות, ושם נכתב התלמוד הבבלי.",
+      "ובפרס, שליד בבל, קרה נס פורים, בימי מרדכי ואסתר!",
+      "ובבבל פעלו חכמי הגמרא, כמו רב ושמואל, ואחריהם הגאונים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "teiman",
+     "title_he": "תימן וצפון אפריקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A Yemenite Jewish home of long ago: several boys with long side curls sit on a carpet in a circle around one open book, reading it from all sides, an elderly teacher with a white beard smiling; whitewashed walls and a small window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦 👦",
+     "say": [
+      "התחנה השנייה: תימן, בדרום. יהודי תימן אהבו מאוד את התורה.",
+      "לא היו להם מספיק ספרים, ולכן ילדים ישבו סביב ספר אחד ולמדו ממנו מכל הצדדים!",
+      "וגם בצפון אפריקה, במרוקו, בתוניסיה ובלוב, היו קהילות גדולות עם רבנים וחכמים.",
+      "ויהודי תימן שרו שירי געגועים לארץ ישראל, שכתב משורר גדול בשם רבי שלום שבזי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sfarad",
+     "title_he": "ספרד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A sunlit courtyard in medieval Spain with arches and an orange tree: a Jewish sage with a dark beard and long robe writes at a desk while students listen; in the distance, a ship waits at a harbor at sunset.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👨",
+     "say": [
+      "התחנה השלישית: ספרד. שם חיו חכמים גדולים, כמו הרמב״ם, שנולד בעיר קורדובה.",
+      "ושם חי רבי יהודה הלוי, שכתב: ״ליבי במזרח, ואנוכי בסוף מערב״. כלומר: אני גר רחוק, אבל הלב שלי בארץ ישראל.",
+      "לפני יותר מחמש מאות שנה גירשו את היהודים מספרד. הם עזבו הכול, אבל שמרו על אמונתם.",
+      "המגורשים הגיעו לארצות רבות, וגם לארץ ישראל. בצפת קם מרכז תורה גדול."
+     ],
+     "pasuk": {
+      "text": "לִבִּי בְמִזְרָח וְאָנֹכִי בְּסוֹף מַעֲרָב",
+      "ref": "רבי יהודה הלוי"
+     },
+     "note": null
+    },
+    {
+     "id": "ashkenaz",
+     "title_he": "אשכנז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A snowy Eastern European shtetl of long ago: wooden houses, a large wooden synagogue, boys in kippot and warm coats hurrying to cheder with their books, a father with a beard walking them, smoke rising from chimneys.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👨 👦 👦",
+     "say": [
+      "התחנה הרביעית: אשכנז, ארצות אירופה. בצרפת חי רש״י, שכתב פירוש על התורה ועל הגמרא.",
+      "אחר כך גרו יהודים רבים בפולין ובליטא. היו שם עיירות מלאות בתי כנסת, ישיבות וחדרים, שבהם ילדים קטנים למדו אלף־בית.",
+      "מאירופה באו גדולי ישראל רבים, כמו הגאון מווילנא והבעל שם טוב.",
+      "בשואה נחרבו רוב הקהילות באירופה. אבל הניצולים בנו מחדש ישיבות וקהילות, ובמיוחד בארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כמעט בכל חומש בעולם מודפס פירוש רש״י. ילד ממרוקו וילד מפולין למדו מאותו פירוש!"
+     }
+    },
+    {
+     "id": "america",
+     "title_he": "קהילות בכל העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A collage of synagogues across the world blending into one scene: a stone synagogue in a big American city, a small white synagogue by a sunny Australian shore, and a synagogue in a South African town, families in modest clothes entering each.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 👨 👩",
+     "say": [
+      "ובדורות האחרונים גרו יהודים רבים גם באמריקה, ובמקומות רחוקים כמו אוסטרליה ודרום אפריקה.",
+      "בכל מקום הם בנו בית כנסת, תלמוד תורה לילדים ומקווה.",
+      "השפות היו שונות והמאכלים שונים, אבל כולם שמרו שבת, ולמדו אותה תורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כמעט בכל בית כנסת בעולם, מיפן ועד ארגנטינה, ארון הקודש פונה לכיוון ירושלים."
+     }
+    },
+    {
+     "id": "kibbutz",
+     "title_he": "קיבוץ גלויות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Jews from many lands arrive joyfully at the Western Wall: a Yemenite grandfather, a Moroccan family, an Ethiopian mother and children, a Polish-born elder in a black hat, all in modest dress, embracing and smiling in golden light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👵 👦 👧",
+     "say": [
+      "ועכשיו, הסוף הכי שמח של הסיפור: יהודים מכל הארצות חוזרים לארץ ישראל!",
+      "מתימן וממרוקו, מפולין ומעיראק, מאתיופיה ומאמריקה. והם ממשיכים להגיע.",
+      "התורה הבטיחה שהקדוש ברוך הוא יקבץ אותנו מכל קצות העולם, וזה קורה בימינו!",
+      "בבית כנסת אחד בירושלים יכולים להתפלל יחד יהודי שסבא שלו בא מתימן, ויהודי שסבתא שלו באה מפולין!"
+     ],
+     "pasuk": {
+      "text": "אִם יִהְיֶה נִדַּחֲךָ בִּקְצֵה הַשָּׁמָיִם, מִשָּׁם יְקַבֶּצְךָ ה׳ אֱלֹקֶיךָ וּמִשָּׁם יִקָּחֶךָ",
+      "ref": "דברים ל, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "הבית שלנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children stand on a Jerusalem hilltop at sunset looking at the Old City walls glowing gold, a globe tucked under the boy's arm.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "וכך הגענו לסוף המסע שלנו סביב העולם: יבשות ואוקיינוסים, מפות, מדבריות והרים, נהרות, וקהילות יהודיות בכל מקום.",
+      "העולם גדול ויפה, והקדוש ברוך הוא ברא אותו בחכמה.",
+      "ומכל המקומות בעולם, יש מקום אחד שהוא הבית שלנו: ארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "קהילות ישראל בעולם",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "where",
+     "title_he": "איפה גרו יהודים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A painted world map like an old parchment, with small warm glowing lights scattered across many lands, each light a tiny synagogue silhouette, the two children leaning over it with a magnifying glass; no text.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦 👧",
+     "say": [
+      "טיילנו ביבשות, באוקיינוסים, במדבריות ובנהרות. עכשיו נשאל: איפה בעולם גרו יהודים?",
+      "התשובה: כמעט בכל מקום. במשך שנות הגלות הארוכות, יהודים גרו בבבל ובתימן, בספרד ובמרוקו, בגרמניה ובפולין, ובסוף גם באמריקה ובאוסטרליה.",
+      "התורה ניבאה זאת מראש: ״והפיצך ה׳ בכל העמים, מקצה הארץ ועד קצה הארץ״. אבל היא גם הבטיחה שנחזור. בואו נצא למסע."
+     ],
+     "pasuk": {
+      "text": "וֶהֱפִיצְךָ ה׳ בְּכָל הָעַמִּים, מִקְצֵה הָאָרֶץ וְעַד קְצֵה הָאָרֶץ",
+      "ref": "דברים כח, סד"
+     },
+     "note": null
+    },
+    {
+     "id": "bavel",
+     "title_he": "בבל ופרס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A great yeshiva of ancient Babylon: hundreds of students in robes and head coverings sit in rows before a revered sage, oil lamps and palm trees, the river glinting beyond the courtyard.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨 👨",
+     "say": [
+      "התחנה הראשונה: בבל, היא עיראק של היום. יהודים גרו בה מאז חורבן בית המקדש הראשון, יותר מאלפיים וארבע מאות שנה.",
+      "בבבל פעלו ישיבות גדולות, בסורא ובפומבדיתא. שם נכתב התלמוד הבבלי, ומשם שלחו הגאונים תשובות לשאלות של יהודים בכל העולם.",
+      "ובפרס השכנה, בימי מרדכי ואסתר, קרה נס פורים. בארצות האלה גרו יהודים עד הדורות האחרונים, ורובם עלו לארץ ישראל אחרי קום המדינה.",
+      "והגאונים, ראשי הישיבות בבבל, כתבו גם את סדר התפילה השלם הראשון שהגיע אלינו, סידור רב עמרם גאון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "teiman",
+     "title_he": "תימן וצפון אפריקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A Yemenite Jewish home of long ago: several boys with long side curls sit on a carpet in a circle around one open book, reading it from all sides, an elderly teacher with a white beard smiling; whitewashed walls and a small window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦 👦",
+     "say": [
+      "התחנה השנייה: תימן, בקצה הדרומי של חצי האי ערב. הקהילה היהודית בתימן עתיקה מאוד, והיא שמרה בקפדנות על המסורת ועל הגייה מדויקת של לשון הקודש.",
+      "כיוון שהיו מעט ספרים, נהגו ילדים בתימן לשבת מסביב לספר אחד וללמוד ממנו מכל הכיוונים: אחד קורא מלמטה, ואחד מהצד. כך רבים מהם ידעו לקרוא גם ספר הפוך!",
+      "גדול משוררי תימן, רבי שלום שבזי, כתב שירים מלאי געגועים לארץ ישראל, ששרים אותם עד היום.",
+      "ובצפון אפריקה, במרוקו, באלג׳יריה, בתוניסיה ובלוב, היו קהילות גדולות, עם רבנים וחכמים גדולים ובתי כנסת מלאים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במבצע ״על כנפי נשרים״ הגיעו לארץ במטוסים כמעט חמישים אלף יהודים מתימן. הם ראו בזה התגשמות של הפסוק ״ואשא אתכם על כנפי נשרים״."
+     }
+    },
+    {
+     "id": "sfarad",
+     "title_he": "ספרד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A sunlit courtyard in medieval Spain with arches and an orange tree: a Jewish sage with a dark beard and long robe writes at a desk while students listen; in the distance, a ship waits at a harbor at sunset.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👨",
+     "say": [
+      "התחנה השלישית: ספרד. במשך מאות שנים פרחה בה קהילה יהודית גדולה, עם חכמים, משוררים ורופאים.",
+      "בעיר קורדובה נולד הרמב״ם, שכתב את ספר ״משנה תורה״. ובספרד חי גם רבי יהודה הלוי, שכתב את ספר הכוזרי ושירי געגועים לציון: ״ליבי במזרח, ואנוכי בסוף מערב״. בסוף ימיו הוא יצא בעצמו לדרך אל ארץ ישראל.",
+      "בשנת רנ״ב, 1492, גזרו מלכי ספרד שכל היהודים חייבים לעזוב. רבים בחרו לצאת לגלות ולא לעזוב את אמונתם. הם יצאו בעוני, אבל עם התורה בלב.",
+      "המגורשים התפזרו לצפון אפריקה, לארצות הבלקן ולארץ ישראל. בצפת הם הקימו מרכז תורה גדול, ושם חיבר רבי יוסף קארו את השולחן ערוך."
+     ],
+     "pasuk": {
+      "text": "לִבִּי בְמִזְרָח וְאָנֹכִי בְּסוֹף מַעֲרָב",
+      "ref": "רבי יהודה הלוי"
+     },
+     "note": null
+    },
+    {
+     "id": "ashkenaz",
+     "title_he": "אשכנז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A snowy Eastern European shtetl of long ago: wooden houses, a large wooden synagogue, boys in kippot and warm coats hurrying to cheder with their books, a father with a beard walking them, smoke rising from chimneys.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👨 👦 👦",
+     "say": [
+      "התחנה הרביעית: אשכנז, ארצות אירופה. בצרפת, בעיר טרויש, חי רש״י, שפירושו על התורה ועל התלמוד מלווה כל לומד עד היום.",
+      "מאות שנים אחר כך עברו רוב יהודי אשכנז מזרחה, לפולין, לליטא ולרוסיה. שם קמו עיירות שלמות של יהודים, עם בתי כנסת, חדרים לילדים וישיבות גדולות.",
+      "באירופה פעלו גדולי ישראל כמו הגאון מווילנא, הבעל שם טוב ותלמידיהם, ובדורות האחרונים החפץ חיים.",
+      "בשואה נחרבו רוב הקהילות האלה. אבל הניצולים ותלמידיהם הקימו מחדש ישיבות וקהילות, ובמיוחד בארץ ישראל, וכך התורה ממשיכה.",
+      "גם בתוך הצרות והגזירות של הדורות, שמרו הקהילות באשכנז על התורה במסירות נפש, והקימו תלמוד תורה לכל ילד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כמעט בכל חומש בעולם מודפס פירוש רש״י. ילד ממרוקו וילד מפולין למדו מאותו פירוש!"
+     }
+    },
+    {
+     "id": "america",
+     "title_he": "קהילות בכל העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A collage of synagogues across the world blending into one scene: a stone synagogue in a big American city, a small white synagogue by a sunny Australian shore, and a synagogue in a South African town, families in modest clothes entering each.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 👨 👩",
+     "say": [
+      "בדורות האחרונים קמו קהילות גם באמריקה, באוסטרליה ובדרום אפריקה. בניו יורק, למשל, גרים היום מאות אלפי יהודים, ורבים מהם שומרים תורה ומצוות.",
+      "ובכל מקום שאליו הגיעו, בנו יהודים קודם כול בית כנסת, תלמוד תורה לילדים ומקווה.",
+      "השפות היו שונות, המאכלים שונים, וגם המנגינות. אבל התורה, השבת, והתפילה לכיוון ירושלים היו אותן בכל מקום.",
+      "ויש קהילות קטנות במקומות רחוקים מאוד, כמו באיים באוקיינוס או בערים בדרום אמריקה. בכל אחת מהן, השבת מחברת אותן לכל עם ישראל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כמעט בכל בית כנסת בעולם, מיפן ועד ארגנטינה, ארון הקודש פונה לכיוון ירושלים."
+     }
+    },
+    {
+     "id": "kibbutz",
+     "title_he": "קיבוץ גלויות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Jews from many lands arrive joyfully at the Western Wall: a Yemenite grandfather, a Moroccan family, an Ethiopian mother and children, a Polish-born elder in a black hat, all in modest dress, embracing and smiling in golden light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👵 👦 👧",
+     "say": [
+      "ועכשיו לחלק המרגש ביותר במסע. בדורות האחרונים, יהודים מכל קצוות תבל חוזרים לארץ ישראל: מתימן ומעיראק, ממרוקו ומפרס, מפולין ומרוסיה, מאתיופיה ומאמריקה.",
+      "בבית כנסת אחד בירושלים אפשר לפגוש היום יהודי שסבו בא מתימן, ולידו יהודי שסבתו נולדה בפולין, והם מתפללים יחד אותה תפילה.",
+      "התורה הבטיחה: ״אם יהיה נדחך בקצה השמים, משם יקבצך ה׳ אלוקיך, ומשם יקחך״. ואנחנו זוכים לראות את ההבטחה הזאת מתקיימת לנגד עינינו."
+     ],
+     "pasuk": {
+      "text": "אִם יִהְיֶה נִדַּחֲךָ בִּקְצֵה הַשָּׁמָיִם, מִשָּׁם יְקַבֶּצְךָ ה׳ אֱלֹקֶיךָ וּמִשָּׁם יִקָּחֶךָ",
+      "ref": "דברים ל, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "הבית שלנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children stand on a Jerusalem hilltop at sunset looking at the Old City walls glowing gold, a globe tucked under the boy's arm.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "וכך הגענו לסוף המסע סביב העולם. ראינו שבע יבשות וחמישה אוקיינוסים, למדנו לקרוא מפה, ביקרנו במדבר, ביער, בקרח ובהרים, ושטנו על הנהרות הגדולים.",
+      "ובכל מקום כמעט מצאנו יהודים, ששמרו על התורה ועל הגעגועים לירושלים במשך שנים רבות כל כך, בכל שפה ובכל אקלים.",
+      "העולם גדול ומופלא, ״מה רבו מעשיך ה׳״. אבל מכל המקומות שבו, יש מקום אחד שהוא הבית שלנו, שאליו פנינו תמיד, ושאליו חזרנו: ארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נכתב התלמוד הבבלי?",
+   "answer": "בבבל",
+   "options": [
+    "בבבל",
+    "בספרד",
+    "בתימן"
+   ],
+   "explain_he": "בבבל פעלו ישיבות גדולות, ושם נכתב התלמוד הבבלי.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נכתב התלמוד הבבלי?",
+   "answer": "בבבל",
+   "options": [
+    "בבבל",
+    "בספרד",
+    "בתימן"
+   ],
+   "explain_he": "בבבל פעלו ישיבות גדולות, ושם נכתב התלמוד הבבלי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב רבי יהודה הלוי?",
+   "answer": "״ליבי במזרח, ואנוכי בסוף מערב״",
+   "options": [
+    "״ליבי במזרח, ואנוכי בסוף מערב״",
+    "״לך לך מארצך״",
+    "״על נהרות בבל״"
+   ],
+   "explain_he": "הוא גר בספרד, במערב, אבל ליבו היה בארץ ישראל, במזרח.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב רבי יהודה הלוי?",
+   "answer": "״ליבי במזרח, ואנוכי בסוף מערב״",
+   "options": [
+    "״ליבי במזרח, ואנוכי בסוף מערב״",
+    "״לך לך מארצך״",
+    "״על נהרות בבל״"
+   ],
+   "explain_he": "הוא גר בספרד, במערב, אבל ליבו היה בארץ ישראל, במזרח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נולד הרמב״ם?",
+   "answer": "בעיר קורדובה שבספרד",
+   "options": [
+    "בעיר קורדובה שבספרד",
+    "בווילנא",
+    "בצרפת"
+   ],
+   "explain_he": "הרמב״ם נולד בקורדובה, וכתב את ספר ״משנה תורה״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נולד הרמב״ם?",
+   "answer": "בעיר קורדובה שבספרד",
+   "options": [
+    "בעיר קורדובה שבספרד",
+    "בווילנא",
+    "בצרפת"
+   ],
+   "explain_he": "הרמב״ם נולד בקורדובה, וכתב את ספר ״משנה תורה״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בנו יהודים בכל מקום שהגיעו אליו?",
+   "answer": "בית כנסת, תלמוד תורה לילדים ומקווה",
+   "options": [
+    "בית כנסת, תלמוד תורה לילדים ומקווה",
+    "ארמון למלך",
+    "מגדל גבוה"
+   ],
+   "explain_he": "בכל שפה ובכל ארץ, אלה היו הדברים הראשונים שבנו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה בנו יהודים בכל מקום שהגיעו אליו?",
+   "answer": "בית כנסת, תלמוד תורה לילדים ומקווה",
+   "options": [
+    "בית כנסת, תלמוד תורה לילדים ומקווה",
+    "ארמון למלך",
+    "מגדל גבוה"
+   ],
+   "explain_he": "בכל שפה ובכל ארץ, אלה היו הדברים הראשונים שבנו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך למדו ילדים בתימן כשהיו מעט ספרים?",
+   "answer": "ישבו מסביב לספר אחד ולמדו ממנו מכל הכיוונים",
+   "options": [
+    "ישבו מסביב לספר אחד ולמדו ממנו מכל הכיוונים",
+    "לא למדו בכלל",
+    "כל ילד קנה ספר"
+   ],
+   "explain_he": "כך רבים מהם ידעו לקרוא אפילו ספר הפוך!",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך למדו ילדים בתימן כשהיו מעט ספרים?",
+   "answer": "ישבו מסביב לספר אחד ולמדו ממנו מכל הכיוונים",
+   "options": [
+    "ישבו מסביב לספר אחד ולמדו ממנו מכל הכיוונים",
+    "לא למדו בכלל",
+    "כל ילד קנה ספר"
+   ],
+   "explain_he": "כך רבים מהם ידעו לקרוא אפילו ספר הפוך!",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חיבר רבי יוסף קארו את השולחן ערוך?",
+   "answer": "בצפת",
+   "options": [
+    "בצפת",
+    "בבבל",
+    "בקורדובה"
+   ],
+   "explain_he": "מגורשי ספרד הקימו בצפת מרכז תורה גדול, ושם נכתב השולחן ערוך.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה זהה בכל הקהילות, למרות השפות והמאכלים השונים?",
+   "answer": "התורה, השבת והתפילה לכיוון ירושלים",
+   "options": [
+    "התורה, השבת והתפילה לכיוון ירושלים",
+    "הבגדים",
+    "המנגינות"
+   ],
+   "explain_he": "השפות, המאכלים והמנגינות היו שונים, אבל התורה והשבת היו אותן בכל מקום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f5e14"
+  }
+ ]
+}

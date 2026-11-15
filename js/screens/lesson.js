@@ -11,7 +11,7 @@ import { spokenLines } from '../spoken.js';
 import { getSettings, setSetting, RATE_CHOICES } from '../settings.js';
 import { xpForLesson } from '../streak.js';
 import { saveLessonResult, logAttempt, getProfile, lessonProgress, accuraciesIn, updateProfile } from '../progress.js';
-import { repeatKind, roundXp, autoLevel } from '../learnRules.js';
+import { repeatKind, roundXp, autoLevel, repeatClosed, courseOpen, subjectOfLesson } from '../learnRules.js';
 import { nextAutoLevel } from '../thinkLogic.js';
 import { COACH_LESSON, coachLesson } from '../coach.js';
 import { THINK_TYPES, txt, setReadAloud, renderConcept } from '../exercises/think.js';
@@ -36,6 +36,15 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   // time), a weak one is worth redoing. See learnRules.js.
   const prev = await lessonProgress(lessonId).catch(() => null);
   const repeat = repeatKind(lessonId, prev);
+  // A mastered lesson opens for one repeat only, and nothing above the learner's
+  // grade opens unless the weekly review opened it (learnRules.js).
+  if (repeatClosed(lessonId, prev)) { nav('path'); return; }
+  const subj = subjectOfLesson(lessonId);
+  if (lesson.course && subj !== 'english') {
+    const data = await (subj === 'know' ? loadKnow() : subj === 'parasha' ? loadParasha() : loadThink()).catch(() => null);
+    const c = data?.courses?.find((x) => x.id === lesson.course);
+    if (c && !courseOpen(c, profile, subj)) { nav('path'); return; }
+  }
   const exercises = withoutTyping(forGrade(lesson.exercises, profile?.grade), profile).filter(isSupported);
   const voiceTyping = !!profile?.voice_typing;
   // Young readers (grades 1-2) hear every question unless turned off in settings.

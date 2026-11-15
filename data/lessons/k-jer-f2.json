@@ -1,0 +1,790 @@
+{
+ "id": "k-jer-f2",
+ "unit_id": "k-jer-u1",
+ "course": "jerusalem",
+ "title_he": "עיר דוד ובתי המקדש",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "עיר דוד ובתי המקדש",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר היבוסי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: An ancient walled town on a narrow hill ridge above a deep valley, its stone walls and towers in afternoon light, a spring at the foot of the hill, terraced fields around.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 🪨",
+     "say": [
+      "עברו הרבה שנים מאז אברהם. עם ישראל יצא ממצרים, קיבל את התורה, ונכנס לארץ.",
+      "אבל עיר אחת עוד לא הייתה בידי ישראל: העיר יבוס, על ההר.",
+      "אנשי יבוס ישבו בתוך חומות חזקות. הם חשבו: אף אחד לא יוכל לכבוש אותנו!",
+      "וכך עברו מאות שנים.",
+      "למטה, ליד ההר, היה מעיין של מים, ולכן אנשי העיר לא פחדו ממצור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "דוד בא לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: Dawn on the walls of the conquered city: King David standing on the wall with his men, gazing over the hills, banners in the wind, the people below cheering; no fighting, a calm new day.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👨 👨 👨",
+     "say": [
+      "דוד היה מלך בחברון שבע שנים. ואז כל השבטים באו והמליכו אותו על כל ישראל.",
+      "הדבר הראשון שדוד רצה: לכבוש את ירושלים.",
+      "גיבורי דוד עלו בדרך סודית, דרך תעלת המים, והעיר נכבשה.",
+      "ודוד קרא לה \"עיר דוד\". מאז, ירושלים היא הבירה של עם ישראל."
+     ],
+     "pasuk": {
+      "text": "וַיִּלְכֹּד דָּוִד אֵת מְצֻדַת צִיּוֹן, הִיא עִיר דָּוִד",
+      "ref": "שמואל ב ה, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "דוד מכרכר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: A joyful procession climbing toward the city: Leviim carrying a covered ark on poles on their shoulders, King David dancing before it in a simple white linen garment, people blowing shofars, crowds cheering.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨 👨 👨 👨",
+     "say": [
+      "אבל ירושלים הייתה צריכה עוד דבר: את ארון הברית.",
+      "דוד הביא את הארון לירושלים בשמחה עצומה. כולם תקעו בשופרות ושרו.",
+      "ודוד המלך עצמו רקד לפני הארון בכל הכוח!",
+      "מלך שרוקד בשמחה לפני השם, כמו כולם. כמה אהב דוד את השם!"
+     ],
+     "pasuk": {
+      "text": "וְדָוִד מְכַרְכֵּר בְּכָל עֹז לִפְנֵי ה'",
+      "ref": "שמואל ב ו, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ירושלים הבנויה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: King David sitting on a stone balcony at evening, playing a harp and gazing over Jerusalem, oil lamps lit in windows across the hills, a feeling of peace and unity.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 🏠",
+     "say": [
+      "דוד כתב הרבה שירים בספר תהילים, וכמה מהם על ירושלים.",
+      "באחד השירים הוא כותב: \"ירושלים הבנויה, כעיר שחוברה לה יחדיו\".",
+      "ירושלים היא עיר שמחברת את כולם. כשבאים אליה, כל עם ישראל מרגיש כמו משפחה אחת.",
+      "ועוד אומרים חז\"ל: יש בעולם עשרה חלקים של יופי. תשעה מהם – בירושלים!"
+     ],
+     "pasuk": {
+      "text": "יְרוּשָׁלַםִ הַבְּנוּיָה, כְּעִיר שֶׁחֻבְּרָה לָּהּ יַחְדָּו",
+      "ref": "תהילים קכב, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: \"עשרה קבים יופי ירדו לעולם – תשעה נטלה ירושלים\"."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "הבית הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem in the days of King Shlomo seen from the Mount of Olives: the city on its hills, and on the mountain above it the First Temple shining white and gold in the morning sun, crowds of pilgrims on the roads.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🚶 🚶",
+     "say": [
+      "אחרי דוד מלך בנו, שלמה. ושלמה בנה את בית המקדש – על הר המוריה, ההר של העקדה!",
+      "עכשיו ירושלים הייתה העיר המפוארת בעולם.",
+      "מכל הארץ באו אליה שלוש פעמים בשנה, בחגים.",
+      "ואפילו מלכים מארצות רחוקות באו לשמוע את החכמה של שלמה.",
+      "ההר שבו אברהם עקד את יצחק – נעשה מקום של תפילה לכל עם ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "חורבן ושיבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Two moments side by side: on the left, ruins of Jerusalem under a dark red sky with exiles walking away; on the right, returning families rebuilding the walls on a bright morning.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚶 🚶 🪨",
+     "say": [
+      "אבל עם ישראל עזב את דרך התורה, ובא מלך בבל ושרף את המקדש.",
+      "היהודים נלקחו לבבל, ובכו שם על ירושלים.",
+      "אחרי שבעים שנה הם חזרו, ובנו את בית המקדש השני.",
+      "ושוב ירושלים הייתה מלאה אנשים, תורה ותפילה.",
+      "ומהבית השני נשאר לנו קיר אחד גדול, שעומד עד היום: הכותל המערבי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "העיר של כולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Pilgrims from every tribe arriving at the gates of Second Temple Jerusalem at festival time, families with baskets and lambs, the city walls and the Temple above them in golden afternoon light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👧 🐑",
+     "say": [
+      "אז ירושלים נעשתה העיר של כל עם ישראל.",
+      "אברהם הביא אליה את האמונה, דוד עשה אותה לבירה, ושלמה בנה בה את בית המקדש.",
+      "בחגים כולם עלו אליה, מכל קצות הארץ.",
+      "אבל אז קרה דבר עצוב מאוד. על זה – בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "עיר דוד ובתי המקדש",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר היבוסי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: An ancient walled town on a narrow hill ridge above a deep valley, its stone walls and towers in afternoon light, a spring at the foot of the hill, terraced fields around.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 🪨",
+     "say": [
+      "יהושע הביא את בני ישראל לארץ, והשבטים קיבלו את נחלותיהם. אבל העיר על ההר נשארה בידי היבוסים.",
+      "ספר שופטים מספר: \"ואת היבוסי יושב ירושלים לא הורישו בני בנימין\". מאות שנים ישבו היבוסים בתוך חומות חזקות, על רכס צר מעל עמק עמוק.",
+      "בתחתית ההר נבע מעיין – מעיין הגיחון. מים, חומות וגבעה תלולה: עיר שקשה מאוד לכבוש.",
+      "ואז קם מלך שחלם על ירושלים: דוד בן ישי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "דוד בא לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: Dawn on the walls of the conquered city: King David standing on the wall with his men, gazing over the hills, banners in the wind, the people below cheering; no fighting, a calm new day.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👨 👨 👨",
+     "say": [
+      "שבע שנים ומחצה מלך דוד בחברון, על שבט יהודה. ואז באו כל שבטי ישראל אל חברון והמליכו אותו על כל העם.",
+      "דוד יצא מיד לירושלים. היבוסים לעגו לו מעל החומה: לא תוכל להיכנס הנה! אבל אנשי דוד עלו בצינור – תעלת המים של העיר – ויואב בן צרויה עלה ראשון.",
+      "\"וילכוד דוד את מצודת ציון, היא עיר דוד\". מאז, ציון וירושלים הם שמות של אהבה לעיר.",
+      "שלושים ושלוש שנה מלך דוד בירושלים. הוא בנה בה ארמון, ועשה אותה למרכז של כל ישראל."
+     ],
+     "pasuk": {
+      "text": "וַיִּלְכֹּד דָּוִד אֵת מְצֻדַת צִיּוֹן, הִיא עִיר דָּוִד",
+      "ref": "שמואל ב ה, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "דוד מכרכר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: A joyful procession climbing toward the city: Leviim carrying a covered ark on poles on their shoulders, King David dancing before it in a simple white linen garment, people blowing shofars, crowds cheering.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨 👨 👨 👨",
+     "say": [
+      "בירה של עם ישראל צריכה להיות קודם כול עיר של קדושה. לכן דוד העלה לירושלים את ארון הברית.",
+      "\"ודוד וכל בית ישראל מעלים את ארון ה' בתרועה ובקול שופר\". והמלך עצמו לא עמד מהצד: \"ודוד מכרכר בכל עוז לפני ה'\".",
+      "מיכל, בת שאול, חשבה שזה לא מכובד למלך לרקוד כך לפני העם. אבל דוד ענה: לפני השם אני שמח, ואני מוכן להיות שפל בעיני עצמי.",
+      "את הארון הניח באוהל שהכין לו בעיר דוד. ירושלים נעשתה עיר המלכות – ועיר השכינה."
+     ],
+     "pasuk": {
+      "text": "וְדָוִד מְכַרְכֵּר בְּכָל עֹז לִפְנֵי ה'",
+      "ref": "שמואל ב ו, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ירושלים הבנויה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: King David sitting on a stone balcony at evening, playing a harp and gazing over Jerusalem, oil lamps lit in windows across the hills, a feeling of peace and unity.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 🏠",
+     "say": [
+      "דוד, \"נעים זמירות ישראל\", כתב על ירושלים שירים שאנחנו שרים עד היום: \"שאלו שלום ירושלים, ישליו אוהבייך\".",
+      "ובמזמור קכב: \"ירושלים הבנויה, כעיר שחוברה לה יחדיו\". חז\"ל בירושלמי מסבירים: עיר שעושה את כל ישראל לחברים.",
+      "שבטים שונים, אזורים שונים, מנהגים שונים – וכשמגיעים לירושלים, כולם אחד.",
+      "ובירושלים היו גם בתי דין, חכמים ותורה. העיר הייתה לב של עם שלם."
+     ],
+     "pasuk": {
+      "text": "יְרוּשָׁלַםִ הַבְּנוּיָה, כְּעִיר שֶׁחֻבְּרָה לָּהּ יַחְדָּו",
+      "ref": "תהילים קכב, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: \"עשרה קבים יופי ירדו לעולם – תשעה נטלה ירושלים\"."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "הבית הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem in the days of King Shlomo seen from the Mount of Olives: the city on its hills, and on the mountain above it the First Temple shining white and gold in the morning sun, crowds of pilgrims on the roads.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🚶 🚶",
+     "say": [
+      "שלמה בנה את בית המקדש על הר המוריה, בדיוק במקום שהכין דוד אביו. ההר של העקדה נעשה בית לשכינה.",
+      "בימי שלמה היה בירושלים שלום ועושר. \"וישב יהודה וישראל לבטח, איש תחת גפנו ותחת תאנתו\".",
+      "ומלכת שבא באה מארץ רחוקה לבחון את שלמה בחידות, ויצאה נדהמת מחכמתו ומיופי הבית.",
+      "הבית הראשון עמד, לפי חז\"ל, ארבע מאות ועשר שנים. ירושלים הייתה בירת ממלכת בית דוד ומרכז התורה והעבודה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "חורבן ושיבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Two moments side by side: on the left, ruins of Jerusalem under a dark red sky with exiles walking away; on the right, returning families rebuilding the walls on a bright morning.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚶 🚶 🪨",
+     "say": [
+      "בתשעה באב שרפו הבבלים את הבית הראשון. העם גלה לבבל, ושם נשבע: \"אם אשכחך ירושלים, תשכח ימיני\".",
+      "כעבור שבעים שנה, כמו שניבא ירמיהו, נתן כורש מלך פרס רשות לשוב. היהודים בנו את הבית השני, ונחמיה בנה מחדש את החומות.",
+      "הבית השני עמד, לפי חז\"ל, ארבע מאות ועשרים שנה. בימיו קרה נס חנוכה, ובימיו חיו חכמים גדולים כמו הלל ושמאי.",
+      "בסוף ימי הבית שיפץ אותו המלך הורדוס, ועשה אותו מפואר מאוד. חלק מהחומה שבנה סביב הר הבית עומד עד היום – הכותל המערבי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "עשר קדושות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: An aerial painted view of the Land of Israel narrowing to Jerusalem, then to its walls, then to the Temple mountain glowing softly, like rings of light one inside another.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "המשנה מלמדת שיש בעולם \"עשר קדושות\", אחת בתוך השנייה.",
+      "ארץ ישראל מקודשת מכל הארצות. בתוכה – העיירות המוקפות חומה. ובתוכן – ירושלים. ובתוך ירושלים – הר הבית, העזרה, ההיכל, ועד קודש הקודשים.",
+      "כמו מעגלים של אור, שהולכים ונעשים קדושים יותר ככל שמתקרבים למרכז.",
+      "וירושלים בלב כולם: העיר שבה אכלו קודשים קלים ומעשר שני, ושממנה יצאה הוראה לכל ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "העיר של כולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Pilgrims from every tribe arriving at the gates of Second Temple Jerusalem at festival time, families with baskets and lambs, the city walls and the Temple above them in golden afternoon light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👧 🐑",
+     "say": [
+      "כמעט אלף שנים – משלמה ועד החורבן השני – הייתה ירושלים מרכז החיים של עם ישראל: מקדש, מלכות, סנהדרין, ועלייה לרגל.",
+      "חז\"ל מספרים שבחגים התמלאה העיר מאות אלפי עולים, ובכל זאת \"לא אמר אדם לחברו: צר לי המקום שאלין בירושלים\".",
+      "אבל העיר הזאת עמדה לעבור את הניסיון הקשה ביותר שלה: חורבן, ואלפיים שנות גלות.",
+      "איך שומרים על אהבה לעיר, כשאי אפשר לגור בה? על זה – בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f2e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏰 ידע כללי",
+   "title_he": "עיר דוד ובתי המקדש",
+   "ref_he": "ירושלים לדורותיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עיר היבוסי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: An ancient walled town on a narrow hill ridge above a deep valley, its stone walls and towers in afternoon light, a spring at the foot of the hill, terraced fields around.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 🪨",
+     "say": [
+      "יהושע הביא את בני ישראל לארץ, והשבטים קיבלו את נחלותיהם. אבל העיר על ההר נשארה בידי היבוסים.",
+      "ספר שופטים מספר: \"ואת היבוסי יושב ירושלים לא הורישו בני בנימין\". מאות שנים ישבו היבוסים בתוך חומות חזקות, על רכס צר מעל עמק עמוק.",
+      "בתחתית ההר נבע מעיין – מעיין הגיחון. מים, חומות וגבעה תלולה: עיר שקשה מאוד לכבוש.",
+      "ואז קם מלך שחלם על ירושלים: דוד בן ישי.",
+      "ירושלים ישבה על הגבול בין נחלת יהודה לנחלת בנימין. חז\"ל אומרים שהר הבית היה בחלקו של בנימין, ושלא נחלקה ירושלים לשבטים – היא שייכת לכל ישראל.",
+      "כך העיר שנבחרה להיות מרכז העם לא הייתה \"של\" שבט אחד. היא הייתה של כולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "דוד בא לירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: Dawn on the walls of the conquered city: King David standing on the wall with his men, gazing over the hills, banners in the wind, the people below cheering; no fighting, a calm new day.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👨 👨 👨",
+     "say": [
+      "שבע שנים ומחצה מלך דוד בחברון, על שבט יהודה. ואז באו כל שבטי ישראל אל חברון והמליכו אותו על כל העם.",
+      "דוד יצא מיד לירושלים. היבוסים לעגו לו מעל החומה: לא תוכל להיכנס הנה! אבל אנשי דוד עלו בצינור – תעלת המים של העיר – ויואב בן צרויה עלה ראשון.",
+      "\"וילכוד דוד את מצודת ציון, היא עיר דוד\". מאז, ציון וירושלים הם שמות של אהבה לעיר.",
+      "שלושים ושלוש שנה מלך דוד בירושלים. הוא בנה בה ארמון, ועשה אותה למרכז של כל ישראל.",
+      "למה דווקא ירושלים? דוד ידע את מסורת האבות על הר המוריה, ובחר מקום שלא שייך לשבט אחד, כך שתהיה בירה שמאחדת את כולם.",
+      "והתנ\"ך קורא לירושלים \"העיר אשר בחר ה'\" – ההחלטה של דוד הייתה המשך של בחירה קדומה."
+     ],
+     "pasuk": {
+      "text": "וַיִּלְכֹּד דָּוִד אֵת מְצֻדַת צִיּוֹן, הִיא עִיר דָּוִד",
+      "ref": "שמואל ב ה, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "דוד מכרכר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: A joyful procession climbing toward the city: Leviim carrying a covered ark on poles on their shoulders, King David dancing before it in a simple white linen garment, people blowing shofars, crowds cheering.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨 👨 👨 👨",
+     "say": [
+      "בירה של עם ישראל צריכה להיות קודם כול עיר של קדושה. לכן דוד העלה לירושלים את ארון הברית.",
+      "\"ודוד וכל בית ישראל מעלים את ארון ה' בתרועה ובקול שופר\". והמלך עצמו לא עמד מהצד: \"ודוד מכרכר בכל עוז לפני ה'\".",
+      "מיכל, בת שאול, חשבה שזה לא מכובד למלך לרקוד כך לפני העם. אבל דוד ענה: לפני השם אני שמח, ואני מוכן להיות שפל בעיני עצמי.",
+      "את הארון הניח באוהל שהכין לו בעיר דוד. ירושלים נעשתה עיר המלכות – ועיר השכינה.",
+      "דוד לימד את כל הדורות: הכבוד האמיתי הוא לשמוח במצווה בלי גאווה. הרמב\"ם כותב שהשמחה שאדם שמח בעשיית המצווה ובאהבת השם היא עבודה גדולה, ומביא בדיוק את דוד כדוגמה.",
+      "ולירושלים יש מאז שני כתרים: כתר המלכות של בית דוד, וכתר הקדושה של המקדש."
+     ],
+     "pasuk": {
+      "text": "וְדָוִד מְכַרְכֵּר בְּכָל עֹז לִפְנֵי ה'",
+      "ref": "שמואל ב ו, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ירושלים הבנויה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: King David sitting on a stone balcony at evening, playing a harp and gazing over Jerusalem, oil lamps lit in windows across the hills, a feeling of peace and unity.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 🏠",
+     "say": [
+      "דוד, \"נעים זמירות ישראל\", כתב על ירושלים שירים שאנחנו שרים עד היום: \"שאלו שלום ירושלים, ישליו אוהבייך\".",
+      "ובמזמור קכב: \"ירושלים הבנויה, כעיר שחוברה לה יחדיו\". חז\"ל בירושלמי מסבירים: עיר שעושה את כל ישראל לחברים.",
+      "שבטים שונים, אזורים שונים, מנהגים שונים – וכשמגיעים לירושלים, כולם אחד.",
+      "ובירושלים היו גם בתי דין, חכמים ותורה. העיר הייתה לב של עם שלם.",
+      "ויש עוד פירוש, בגמרא: ירושלים של מטה מכוונת כנגד ירושלים של מעלה. \"כעיר שחוברה לה\" – העיר שלמטה מחוברת לעיר שלמעלה.",
+      "לכן אהבת ירושלים היא גם אהבת ישראל וגם קרבת השם: אי אפשר לבנות אותה באמת בלי אחדות."
+     ],
+     "pasuk": {
+      "text": "יְרוּשָׁלַםִ הַבְּנוּיָה, כְּעִיר שֶׁחֻבְּרָה לָּהּ יַחְדָּו",
+      "ref": "תהילים קכב, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הבית הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Jerusalem in the days of King Shlomo seen from the Mount of Olives: the city on its hills, and on the mountain above it the First Temple shining white and gold in the morning sun, crowds of pilgrims on the roads.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 🚶 🚶",
+     "say": [
+      "שלמה בנה את בית המקדש על הר המוריה, בדיוק במקום שהכין דוד אביו. ההר של העקדה נעשה בית לשכינה.",
+      "בימי שלמה היה בירושלים שלום ועושר. \"וישב יהודה וישראל לבטח, איש תחת גפנו ותחת תאנתו\".",
+      "ומלכת שבא באה מארץ רחוקה לבחון את שלמה בחידות, ויצאה נדהמת מחכמתו ומיופי הבית.",
+      "הבית הראשון עמד, לפי חז\"ל, ארבע מאות ועשר שנים. ירושלים הייתה בירת ממלכת בית דוד ומרכז התורה והעבודה.",
+      "אחרי שלמה נחלקה הממלכה: עשרת השבטים בצפון, ויהודה ובנימין בדרום. ירבעם, מלך הצפון, הציב עגלי זהב בבית אל ובדן, כדי שעמו לא יעלה לירושלים.",
+      "זו הייתה טעות נוראה: מי שמנתק את העם מירושלים, מנתק אותו מהשורש. ועשרת השבטים, בסופו של דבר, הוגלו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "חורבן ושיבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Two moments side by side: on the left, ruins of Jerusalem under a dark red sky with exiles walking away; on the right, returning families rebuilding the walls on a bright morning.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚶 🚶 🪨",
+     "say": [
+      "בתשעה באב שרפו הבבלים את הבית הראשון. העם גלה לבבל, ושם נשבע: \"אם אשכחך ירושלים, תשכח ימיני\".",
+      "כעבור שבעים שנה, כמו שניבא ירמיהו, נתן כורש מלך פרס רשות לשוב. היהודים בנו את הבית השני, ונחמיה בנה מחדש את החומות.",
+      "הבית השני עמד, לפי חז\"ל, ארבע מאות ועשרים שנה. בימיו קרה נס חנוכה, ובימיו חיו חכמים גדולים כמו הלל ושמאי.",
+      "בסוף ימי הבית שיפץ אותו המלך הורדוס, ועשה אותו מפואר מאוד. חלק מהחומה שבנה סביב הר הבית עומד עד היום – הכותל המערבי.",
+      "הגמרא אומרת: \"מי שלא ראה בניין הורדוס – לא ראה בניין נאה מימיו\". אבנים ענקיות, שחלקן שוקלות עשרות טונות, ואפשר לראות אותן עד היום ליד הכותל.",
+      "אבל חז\"ל מזכירים שהיופי לא שמר על הבית: הבית השני חרב בגלל שנאת חינם. האבנים חזקות – הלבבות היו צריכים להיות חזקים יותר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "עשר קדושות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: An aerial painted view of the Land of Israel narrowing to Jerusalem, then to its walls, then to the Temple mountain glowing softly, like rings of light one inside another.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "המשנה מלמדת שיש בעולם \"עשר קדושות\", אחת בתוך השנייה.",
+      "ארץ ישראל מקודשת מכל הארצות. בתוכה – העיירות המוקפות חומה. ובתוכן – ירושלים. ובתוך ירושלים – הר הבית, העזרה, ההיכל, ועד קודש הקודשים.",
+      "כמו מעגלים של אור, שהולכים ונעשים קדושים יותר ככל שמתקרבים למרכז.",
+      "וירושלים בלב כולם: העיר שבה אכלו קודשים קלים ומעשר שני, ושממנה יצאה הוראה לכל ישראל.",
+      "הלכה זו לא נשארה רק בספרים. גם היום יש דינים מיוחדים לירושלים, ולמקום המקדש יש קדושה שלא בטלה, ולכן יש הלכות מיוחדות של כבוד וזהירות לגבי הר הבית.",
+      "ומכאן מבינים למה שאלת ירושלים היא לא רק עניין של היסטוריה: זה המרכז של עולם הקדושה בתורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "העיר של כולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jerusalem across the ages, always golden Jerusalem limestone on green and brown hills, the same landscape in different eras, with clothes and buildings true to each era. The place of the Temple is shown as a mountain or a distant shining shape, never from inside.  Scene: Pilgrims from every tribe arriving at the gates of Second Temple Jerusalem at festival time, families with baskets and lambs, the city walls and the Temple above them in golden afternoon light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👧 🐑",
+     "say": [
+      "כמעט אלף שנים – משלמה ועד החורבן השני – הייתה ירושלים מרכז החיים של עם ישראל: מקדש, מלכות, סנהדרין, ועלייה לרגל.",
+      "חז\"ל מספרים שבחגים התמלאה העיר מאות אלפי עולים, ובכל זאת \"לא אמר אדם לחברו: צר לי המקום שאלין בירושלים\".",
+      "אבל העיר הזאת עמדה לעבור את הניסיון הקשה ביותר שלה: חורבן, ואלפיים שנות גלות.",
+      "איך שומרים על אהבה לעיר, כשאי אפשר לגור בה? על זה – בשיעור הבא.",
+      "נסכם את שלושת השלבים: הר – בימי אברהם, עיר – בימי דוד, בית – בימי שלמה. כל שלב נבנה על הקודם.",
+      "ובשיעור הבא נראה שגם בלי בית, ובלי עיר בידינו – הקשר נשאר: עם שלם הפך את ירושלים לכיוון התפילה שלו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-jer-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קרא דוד לירושלים אחרי שכבש אותה?",
+   "answer": "עיר דוד",
+   "options": [
+    "עיר דוד",
+    "עיר הנמלים",
+    "עיר יבוס החדשה"
+   ],
+   "explain_he": "אחרי שכבש את מצודת ציון, קרא לה דוד \"עיר דוד\", ומאז היא בירת ישראל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קרא דוד לירושלים אחרי שכבש אותה?",
+   "answer": "עיר דוד",
+   "options": [
+    "עיר דוד",
+    "עיר הנמלים",
+    "עיר יבוס החדשה"
+   ],
+   "explain_he": "אחרי שכבש את מצודת ציון, קרא לה דוד \"עיר דוד\", ומאז היא בירת ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קרא דוד לירושלים אחרי שכבש אותה?",
+   "answer": "עיר דוד",
+   "options": [
+    "עיר דוד",
+    "עיר הנמלים",
+    "עיר יבוס החדשה"
+   ],
+   "explain_he": "אחרי שכבש את מצודת ציון, קרא לה דוד \"עיר דוד\", ומאז היא בירת ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד כשהעלה את ארון הברית לירושלים?",
+   "answer": "רקד לפני הארון בכל כוחו",
+   "options": [
+    "רקד לפני הארון בכל כוחו",
+    "ישב בארמון והסתכל מרחוק",
+    "שלח את הארון לחברון"
+   ],
+   "explain_he": "\"ודוד מכרכר בכל עוז לפני ה'\" – המלך שמח ורקד לפני הארון יחד עם כל העם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד כשהעלה את ארון הברית לירושלים?",
+   "answer": "רקד לפני הארון בכל כוחו",
+   "options": [
+    "רקד לפני הארון בכל כוחו",
+    "ישב בארמון והסתכל מרחוק",
+    "שלח את הארון לחברון"
+   ],
+   "explain_he": "\"ודוד מכרכר בכל עוז לפני ה'\" – המלך שמח ורקד לפני הארון יחד עם כל העם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד כשהעלה את ארון הברית לירושלים?",
+   "answer": "רקד לפני הארון בכל כוחו",
+   "options": [
+    "רקד לפני הארון בכל כוחו",
+    "ישב בארמון והסתכל מרחוק",
+    "שלח את הארון לחברון"
+   ],
+   "explain_he": "\"ודוד מכרכר בכל עוז לפני ה'\" – המלך שמח ורקד לפני הארון יחד עם כל העם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים חז\"ל על היופי של ירושלים?",
+   "answer": "מעשרה חלקי יופי בעולם, תשעה בירושלים",
+   "options": [
+    "מעשרה חלקי יופי בעולם, תשעה בירושלים",
+    "שהיא העיר הכי גדולה בעולם",
+    "שאין בה עצים בכלל"
+   ],
+   "explain_he": "\"עשרה קבים יופי ירדו לעולם – תשעה נטלה ירושלים\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה בנה שלמה את בית המקדש?",
+   "answer": "על הר המוריה, ההר של העקדה",
+   "options": [
+    "על הר המוריה, ההר של העקדה",
+    "ליד הים",
+    "בחברון"
+   ],
+   "explain_he": "שלמה בנה את המקדש על הר המוריה – אותו הר שבו אברהם עקד את יצחק.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה \"ירושלים הבנויה כעיר שחוברה לה יחדיו\"?",
+   "answer": "כי היא מחברת את כל עם ישראל להיות כמו משפחה אחת",
+   "options": [
+    "כי היא מחברת את כל עם ישראל להיות כמו משפחה אחת",
+    "כי הבתים בה דבוקים זה לזה",
+    "כי יש בה הרבה גשרים"
+   ],
+   "explain_he": "חז\"ל מסבירים: ירושלים היא עיר שעושה את כל ישראל לחברים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-jer-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה \"ירושלים הבנויה כעיר שחוברה לה יחדיו\"?",
+   "answer": "כי היא מחברת את כל עם ישראל להיות כמו משפחה אחת",
+   "options": [
+    "כי היא מחברת את כל עם ישראל להיות כמו משפחה אחת",
+    "כי הבתים בה דבוקים זה לזה",
+    "כי יש בה הרבה גשרים"
+   ],
+   "explain_he": "חז\"ל מסבירים: ירושלים היא עיר שעושה את כל ישראל לחברים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה \"ירושלים הבנויה כעיר שחוברה לה יחדיו\"?",
+   "answer": "כי היא מחברת את כל עם ישראל להיות כמו משפחה אחת",
+   "options": [
+    "כי היא מחברת את כל עם ישראל להיות כמו משפחה אחת",
+    "כי הבתים בה דבוקים זה לזה",
+    "כי יש בה הרבה גשרים"
+   ],
+   "explain_he": "חז\"ל מסבירים: ירושלים היא עיר שעושה את כל ישראל לחברים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נכנסו אנשי דוד לעיר היבוסית?",
+   "answer": "עלו בצינור – תעלת המים של העיר",
+   "options": [
+    "עלו בצינור – תעלת המים של העיר",
+    "פתחו את השער במפתח",
+    "עפו מעל החומה"
+   ],
+   "explain_he": "אנשי דוד עלו בתעלת המים, ויואב בן צרויה עלה ראשון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f2e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נכנסו אנשי דוד לעיר היבוסית?",
+   "answer": "עלו בצינור – תעלת המים של העיר",
+   "options": [
+    "עלו בצינור – תעלת המים של העיר",
+    "פתחו את השער במפתח",
+    "עפו מעל החומה"
+   ],
+   "explain_he": "אנשי דוד עלו בתעלת המים, ויואב בן צרויה עלה ראשון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חלק מהבית השני עומד עד היום?",
+   "answer": "חלק מהחומה סביב הר הבית – הכותל המערבי",
+   "options": [
+    "חלק מהחומה סביב הר הבית – הכותל המערבי",
+    "המזבח",
+    "שער ההיכל"
+   ],
+   "explain_he": "הורדוס בנה חומה ענקית סביב הר הבית, וחלק ממנה – הכותל המערבי – עומד עד היום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f2e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה חלק מהבית השני עומד עד היום?",
+   "answer": "חלק מהחומה סביב הר הבית – הכותל המערבי",
+   "options": [
+    "חלק מהחומה סביב הר הבית – הכותל המערבי",
+    "המזבח",
+    "שער ההיכל"
+   ],
+   "explain_he": "הורדוס בנה חומה ענקית סביב הר הבית, וחלק ממנה – הכותל המערבי – עומד עד היום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהן \"עשר הקדושות\" שבמשנה?",
+   "answer": "מעגלים של קדושה, מארץ ישראל ועד קודש הקודשים",
+   "options": [
+    "מעגלים של קדושה, מארץ ישראל ועד קודש הקודשים",
+    "עשרת הדיברות",
+    "עשרה שערים של ירושלים"
+   ],
+   "explain_he": "המשנה מונה עשר דרגות של קדושה, זו בתוך זו: ארץ ישראל, ירושלים, הר הבית, ועד קודש הקודשים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-jer-f2e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהן \"עשר הקדושות\" שבמשנה?",
+   "answer": "מעגלים של קדושה, מארץ ישראל ועד קודש הקודשים",
+   "options": [
+    "מעגלים של קדושה, מארץ ישראל ועד קודש הקודשים",
+    "עשרת הדיברות",
+    "עשרה שערים של ירושלים"
+   ],
+   "explain_he": "המשנה מונה עשר דרגות של קדושה, זו בתוך זו: ארץ ישראל, ירושלים, הר הבית, ועד קודש הקודשים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הציב ירבעם עגלי זהב בבית אל ובדן?",
+   "answer": "כדי שעמו לא יעלה לירושלים",
+   "options": [
+    "כדי שעמו לא יעלה לירושלים",
+    "כדי לקשט את הערים",
+    "כי דוד ביקש ממנו"
+   ],
+   "explain_he": "ירבעם רצה לנתק את עשרת השבטים מירושלים. זו הייתה טעות נוראה, והשבטים לבסוף הוגלו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדנו מכך שהבית השני היה יפה מאוד ובכל זאת חרב?",
+   "answer": "שהיופי לא שומר על הבית – צריך אחדות ואהבת חינם",
+   "options": [
+    "שהיופי לא שומר על הבית – צריך אחדות ואהבת חינם",
+    "שאבנים גדולות הן חלשות",
+    "שהורדוס בנה לא נכון"
+   ],
+   "explain_he": "הבית השני היה מפואר, אבל חרב בגלל שנאת חינם. הלבבות צריכים להיות חזקים יותר מהאבנים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דוד בחר דווקא בירושלים, לפי הסרט?",
+   "answer": "בגלל מסורת הר המוריה, וכי היא לא שייכת לשבט אחד ומאחדת את כולם",
+   "options": [
+    "בגלל מסורת הר המוריה, וכי היא לא שייכת לשבט אחד ומאחדת את כולם",
+    "כי שם נולד",
+    "כי היא הייתה העיר הכי גדולה בארץ"
+   ],
+   "explain_he": "ירושלים קשורה להר המוריה, ולא נחלקה לשבטים – היא בירה שמאחדת את כל ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-jer-f2e23"
+  }
+ ]
+}

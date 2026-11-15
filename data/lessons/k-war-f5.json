@@ -1,0 +1,323 @@
+{
+ "id": "k-war-f5",
+ "unit_id": "k-war-u3",
+ "course": "wars",
+ "title_he": "מלחמת יום הכיפורים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🛡️ ידע כללי",
+   "title_he": "מלחמת יום הכיפורים",
+   "ref_he": "מלחמות ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "צפירה ביום הקדוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A full synagogue on Yom Kippur afternoon in 1973, men in white kittels and tallitot standing in prayer, boys beside their fathers, sunlight through tall windows, several men turning their heads toward the door in surprise.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👴 👦",
+     "say": [
+      "יום הכיפורים, י׳ בתשרי תשל״ד, 6 באוקטובר 1973.",
+      "בכל הארץ שקט. אין מכוניות בכבישים, אין רדיו, אין טלוויזיה.",
+      "בתי הכנסת מלאים. אנשים עומדים בקיטל לבן, צמים, ומתפללים על השנה החדשה.",
+      "ובשעה שתיים בצהריים, באמצע היום הקדוש ביותר בשנה, נשמעת צפירה.",
+      "בהתחלה אנשים לא מבינים. צפירה? ביום כיפור?",
+      "ואז מתברר: מצרים וסוריה פתחו במלחמה, יחד, ובהפתעה.",
+      "היום נספר על המלחמה הקשה הזאת: על ההפתעה, על הגבורה, ועל המהפך הגדול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ההפתעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A wide desert landscape by a canal at afternoon, seen from far away, a long line of dust and smoke rising on the far bank, a small lonely Israeli fortification of sandbags on the near side, tense orange light.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🪨 🪨",
+     "say": [
+      "בדרום, על גדות תעלת סואץ, החלו כוחות מצריים גדולים לחצות את התעלה בסירות ובגשרים.",
+      "בצפון, ברמת הגולן, התקדמו מאות טנקים סוריים לעבר הגבול.",
+      "ומול כל אלה עמדו כוחות ישראליים קטנים מאוד. רוב אנשי המילואים היו בבית, או בבית הכנסת.",
+      "היו סימנים שמלחמה מתקרבת, אבל לא הבינו אותם בזמן. ולכן ההפתעה הייתה קשה כל כך.",
+      "בימים הראשונים המצב היה מסוכן מאוד, והיו רגעים שבהם נראה שהקווים עלולים להישבר.",
+      "זו הייתה אחת השעות הקשות בתולדות המדינה.",
+      "אבל דווקא אז, התגלו גבורה ומסירות נפש שקשה לתאר.",
+      "חיילים צעירים, שמעולם לא היו במלחמה, עמדו מול כוחות גדולים מהם פי כמה, ולא זזו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מבית הכנסת לחזית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A street outside a synagogue on Yom Kippur 1973, young and middle-aged men in white shirts hurrying out with their tallit bags under their arms toward waiting trucks, women and children watching from the steps with worry.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👨 👩 👦",
+     "say": [
+      "ואז התחיל גיוס המילואים.",
+      "שליחים נכנסו לבתי הכנסת עם רשימות, וקראו בשמות. אנשים הורידו את הטלית, נפרדו מהמשפחה, ויצאו.",
+      "הרבנים פסקו: זה פיקוח נפש. מותר וצריך לנסוע ולהילחם, גם ביום הכיפורים.",
+      "ודווקא בגלל יום כיפור, הכבישים היו ריקים, והגיוס התנהל מהר מאוד. כולם היו בבית או בבית הכנסת, וקל היה למצוא אותם.",
+      "רבים יצאו לחזית כשהם עוד צמים, ולקחו איתם את הטלית ואת הסידור.",
+      "התורה אומרת לחיילים לפני המלחמה: שמע ישראל, אל ירך לבבכם, כי ה׳ אלקיכם ההולך עמכם.",
+      "שמע ישראל, אותן מילים שאמרו כמה דקות קודם בתפילה, ליוו אותם עכשיו בדרך.",
+      "ומי שנשאר בבית הכנסת, המשיך להתפלל, עכשיו בכוונה גדולה עוד יותר, על החיילים."
+     ],
+     "pasuk": {
+      "text": "שְׁמַע יִשְׂרָאֵל אַתֶּם קְרֵבִים הַיּוֹם לַמִּלְחָמָה עַל אֹיְבֵיכֶם, אַל יֵרַךְ לְבַבְכֶם... כִּי ה׳ אֱלֹקֵיכֶם הַהֹלֵךְ עִמָּכֶם",
+      "ref": "דברים כ, ג־ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "צביקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Night on the Golan Heights in 1973, a single Israeli tank standing on a dark volcanic hill under stars, its crew resting beside it, faint glow of fires far away on the horizon, a feeling of lonely determination.",
+     "move": "in",
+     "fx": "night",
+     "art": "🪨",
+     "say": [
+      "ברמת הגולן, בלילה הראשון, מצא את עצמו קצין צעיר בשם צבי גרינגולד, צביקה, כמעט לבד.",
+      "היו לו טנק אחד או שניים, ומולו כוחות גדולים.",
+      "במשך כמעט יממה הוא נלחם, עבר מטנק לטנק כשטנק שלו נפגע, וזז ממקום למקום.",
+      "הסורים חשבו שמולם עומד כוח גדול, ולא תמיד העזו להתקדם. הכוח הזה נקרא אחר כך כוח צביקה.",
+      "ובצפון הגולן, בעמק שנקרא אחר כך עמק הבכא, החזיקו לוחמי חטיבה אחת מעמד מול מאות טנקים, כמה ימים בלי שינה.",
+      "הם היו עייפים עד מוות, אבל ידעו שמאחוריהם נמצאים יישובי הגליל.",
+      "בזכות לוחמים כאלה, הקו לא נשבר עד שהמילואים הגיעו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בעמק בצפון הגולן, שנקרא אחר כך עמק הבכא, עצרה חטיבה ישראלית אחת מאות טנקים סוריים במשך כמה ימים."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "המעוזים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A small sand-bagged fortification on the bank of a canal at dawn after a long night, a few tired soldiers sitting together, one with a kippah reading from a small book of Tehillim, the water calm and gray.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👨 👨",
+     "say": [
+      "בדרום, לאורך התעלה, עמדו מעוזים קטנים. בכל אחד מהם היו רק חיילים מעטים.",
+      "מול כוחות ענקיים, הם החזיקו מעמד שעות וימים.",
+      "אחד המעוזים, בצפון התעלה, החזיק מעמד לאורך כל המלחמה, ולא נפל.",
+      "אחרים נאלצו לסגת, ולוחמים רבים נפלו בהם או נלקחו בשבי.",
+      "החיילים במעוזים סיפרו אחר כך על רגעים של פחד, אבל גם על אחווה גדולה.",
+      "הם חלקו את המים האחרונים, דאגו לפצועים, ואמרו יחד תהילים.",
+      "כל שעה שבה החזיקו, נתנה לכוחות המילואים זמן להגיע.",
+      "ובבית, בכל הארץ, נשים, ילדים וזקנים המשיכו את החיים: עבדו במקום הגברים, התנדבו בבתי החולים, וכתבו מכתבים לחיילים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "המהפך בצפון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: The snowy peak of Mount Hermon at sunrise towering over the Golan Heights, a line of tired Israeli soldiers in helmets climbing a rocky path toward the summit, a blue-and-white flag held by one of them, clear cold air.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👨 🪨",
+     "say": [
+      "ואז, לאט לאט, הגיעו המילואים. ובתוך כמה ימים, התחיל המהפך.",
+      "בגולן, הכוחות הישראליים הדפו את הסורים אל מעבר לקו הגבול, והתקדמו לעבר דמשק.",
+      "הם הגיעו למרחק של בערך ארבעים קילומטרים מדמשק, בירת סוריה.",
+      "בסוף המלחמה, בקרב קשה מאוד, כבשו לוחמי גולני והצנחנים את הר החרמון.",
+      "הלוחמים קראו לחרמון העיניים של המדינה, כי משם אפשר לראות רחוק מאוד.",
+      "החרמון, שהוזכר בתנ״ך פעמים רבות, חזר לידי ישראל.",
+      "דוד המלך כתב: כטל חרמון שיורד על הררי ציון. ועכשיו החרמון וציון היו שוב יחד.",
+      "ובחזית הסורית, חיילים רבים סיפרו שהתפללו לפני כל קרב, וביקשו לחזור הביתה בשלום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "צליחת התעלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Night by a canal in October 1973, a long military bridge stretching across calm dark water, engineering vehicles on the near bank, the far bank faintly lit by the moon, seen from far away, no fighting visible.",
+     "move": "right",
+     "fx": "night",
+     "art": "🪨",
+     "say": [
+      "בדרום, אחרי ימים קשים, הגיעה שעת המהפך.",
+      "בלילה שבין 15 ל־16 באוקטובר חצו כוחות ישראליים את תעלת סואץ, אל הצד המצרי.",
+      "הם הקימו גשרים, ובעזרתם עברו טנקים רבים אל מעבר לתעלה.",
+      "בתוך כמה ימים, הכוחות הישראליים כיתרו צבא מצרי שלם, והגיעו למרחק של כמאה קילומטר מקהיר.",
+      "מי שהיה בתחילת המלחמה בסכנה גדולה, עמד עכשיו בפתח עיר הבירה של האויב.",
+      "החיילים היו עייפים מאוד אחרי שבועות של קרבות, אבל ידעו שהצילו את המדינה.",
+      "ב־24 באוקטובר בערך נכנסה לתוקף הפסקת אש.",
+      "המלחמה, שהתחילה בהפתעה נוראה, הסתיימה כשצה״ל עומד עמוק בשטח האויב בשתי החזיתות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "סוכה בחזית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A simple sukkah built from army tarp and palm branches beside a desert army camp in 1973, tired soldiers with kippot sitting inside eating together, one holding a lulav and etrog, warm evening light.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨 👨 👦 ⛺",
+     "say": [
+      "המלחמה התחילה ביום כיפור, ונמשכה גם בחג הסוכות.",
+      "החיילים, בין קרב לקרב, בנו סוכות קטנות מברזנטים ומענפי דקל.",
+      "רבנים צבאיים ומתנדבים הביאו לחזית ארבעה מינים, וחיילים רבים, גם כאלה שלא היו רגילים לכך, ברכו על הלולב.",
+      "בחג שבו יוצאים מהבית אל סוכה פשוטה, כדי לזכור שה׳ שומר עלינו, הם הרגישו את זה בכל הגוף.",
+      "במלחמה נפלו יותר מאלפיים ושש מאות חיילים. כמעט כל משפחה בישראל הכירה מישהו.",
+      "הכאב היה עמוק מאוד, והוא ליווה את העם עוד שנים רבות.",
+      "אבל עם ישראל קם, התחזק, והמשיך לבנות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המלחמה נמשכה גם בחג הסוכות. חיילים רבים בנו סוכות בחזית, ונטלו ארבעה מינים שהביאו להם מהעורף."
+     }
+    },
+    {
+     "id": "s9",
+     "title_he": "מה למדנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Dawn over the Golan Heights after the war, a quiet volcanic landscape with yellow autumn grass, a small memorial stone with a few pebbles on it, a father and teenage son with kippot standing in silence, soft light from above.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦 🪨",
+     "say": [
+      "מלחמת יום הכיפורים לימדה את עם ישראל כמה דברים חשובים.",
+      "אחרי ששת הימים, רבים הרגישו חזקים מאוד, ואולי בטוחים מדי.",
+      "ההפתעה הזכירה שאסור להתגאות, ושצריך תמיד להיות ערניים.",
+      "הנביא זכריה אמר: לא בחיל ולא בכח, כי אם ברוחי. הכוח הוא חשוב, אבל הישועה באה מהקדוש ברוך הוא.",
+      "ולמרות הכול, הגבורה של לוחמים פשוטים הפכה את התבוסה שאיימה, לניצחון.",
+      "רבים ראו בזה ישועה גדולה, שבאה דווקא אחרי ימים של סכנה.",
+      "נזכור את מי שנפלו, ונתפלל שלא נצטרך עוד מלחמות.",
+      "ובפרק האחרון נראה מבצע אחד, שלוש שנים אחר כך, שבו גבורה, תכנון ואמונה התחברו יחד בצורה מופלאה."
+     ],
+     "pasuk": {
+      "text": "לֹא בְחַיִל וְלֹא בְכֹחַ כִּי אִם בְּרוּחִי, אָמַר ה׳ צְבָאוֹת",
+      "ref": "זכריה ד, ו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-war-f5e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה יום פרצה מלחמת יום הכיפורים?",
+   "answer": "ביום הכיפורים, י׳ בתשרי תשל״ד",
+   "options": [
+    "ביום הכיפורים, י׳ בתשרי תשל״ד",
+    "בחג הפסח",
+    "בכ״ח באייר"
+   ],
+   "explain_he": "מצרים וסוריה תקפו יחד, בהפתעה, בשעה שתיים בצהריים של יום הכיפורים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הגיוס של המילואים התנהל מהר מאוד?",
+   "answer": "כי ביום כיפור הכבישים היו ריקים וכולם היו בבית או בבית הכנסת",
+   "options": [
+    "כי ביום כיפור הכבישים היו ריקים וכולם היו בבית או בבית הכנסת",
+    "כי החיילים כבר חיכו בבסיסים",
+    "כי המלחמה התחילה בלילה"
+   ],
+   "explain_he": "שליחים נכנסו לבתי הכנסת וקראו בשמות, והכבישים הריקים אפשרו נסיעה מהירה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה צביקה גרינגולד בלילה הראשון?",
+   "answer": "נלחם כמעט יממה עם טנקים מעטים, כך שהסורים חשבו שמולם כוח גדול",
+   "options": [
+    "נלחם כמעט יממה עם טנקים מעטים, כך שהסורים חשבו שמולם כוח גדול",
+    "פיקד על צליחת התעלה",
+    "כבש את הר החרמון לבדו"
+   ],
+   "explain_he": "הכוח הקטן שלו נקרא כוח צביקה, ועזר לעצור את הסורים עד שהגיעו המילואים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קראו הלוחמים לחרמון \"העיניים של המדינה\"?",
+   "answer": "כי מראשו אפשר לראות רחוק מאוד",
+   "options": [
+    "כי מראשו אפשר לראות רחוק מאוד",
+    "כי יש בו שני אגמים",
+    "כי הוא מכוסה שלג"
+   ],
+   "explain_he": "מהחרמון רואים מרחקים גדולים, ולכן הוא חשוב כל כך לשמירה על הארץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה המהפך בדרום?",
+   "answer": "צה״ל צלח את תעלת סואץ, כיתר צבא מצרי והגיע קרוב לקהיר",
+   "options": [
+    "צה״ל צלח את תעלת סואץ, כיתר צבא מצרי והגיע קרוב לקהיר",
+    "צה״ל נסוג מכל סיני",
+    "המצרים נכנסו לתל אביב"
+   ],
+   "explain_he": "בלילה שבין 15 ל־16 באוקטובר חצו כוחות ישראליים את התעלה, והמצב התהפך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו חיילים רבים בחג הסוכות שבזמן המלחמה?",
+   "answer": "בנו סוכות בחזית ובירכו על ארבעה מינים",
+   "options": [
+    "בנו סוכות בחזית ובירכו על ארבעה מינים",
+    "חזרו כולם הביתה לחג",
+    "לא ידעו שיש חג"
+   ],
+   "explain_he": "המלחמה נמשכה בסוכות, והחיילים בנו סוכות מברזנטים ומענפי דקל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מלמד הפסוק \"לא בחיל ולא בכח כי אם ברוחי\"?",
+   "answer": "שהכוח חשוב, אבל הישועה באה מהקדוש ברוך הוא",
+   "options": [
+    "שהכוח חשוב, אבל הישועה באה מהקדוש ברוך הוא",
+    "שאין צורך בצבא",
+    "שרק כוח הצבא מנצח"
+   ],
+   "explain_he": "אחרי ההפתעה הקשה הבינו רבים שאסור להתגאות, וצריך גם ערנות וגם אמונה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f5e8"
+  }
+ ]
+}

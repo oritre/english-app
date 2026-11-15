@@ -1,0 +1,573 @@
+{
+ "id": "k-exl-f6",
+ "unit_id": "k-exl-u3",
+ "course": "exile",
+ "title_he": "יהודי צפון אפריקה ותימן",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "יהודי צפון אפריקה ותימן",
+   "ref_he": "עם ישראל בגלות",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "maghreb",
+     "title_he": "יהודים בצפון אפריקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A whitewashed North African town on a hill above the sea at golden afternoon: narrow lanes, a synagogue with arched windows, Jewish men in djellabas and kippot, women in long dresses and head scarves, children carrying bread home for Shabbat.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "נעבור עכשיו דרומה, לצפון אפריקה: מרוקו, אלג'יריה, תוניסיה ולוב. יהודים חיו שם מימים קדומים מאוד, עוד לפני שהגיעו לשם הערבים.",
+      "באי ג'רבה שבתוניסיה יש בית כנסת עתיק, ולפי המסורת של יהודי המקום, אבותיהם הגיעו לשם כבר בזמן בית המקדש.",
+      "בעיר פאס שבמרוקו חיו הרי\"ף, וגם הרמב\"ם בצעירותו. ואחרי גירוש ספרד, הגיעו רבבות מגורשים, והתחברו לקהילות הוותיקות.",
+      "בקהילות צפון אפריקה היו גדולי תורה רבים, ומשפחות של רבנים, כמו משפחת אבוחצירא, שנתנו לעם ישראל צדיקים במשך דורות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "mellah",
+     "title_he": "המלאח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A Shabbat winter night inside a Moroccan Jewish home in the mellah: men and boys in kippot sit on cushions around a low table singing piyyutim, a grandmother with a head scarf smiling, brass lamps and colorful carpets.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👦 👵",
+     "say": [
+      "בערים רבות במרוקו גרו היהודים ברובע מיוחד, שנקרא מלאח. החיים בו לא היו קלים, אבל הם היו מלאים בתורה ובקדושה.",
+      "הרבנים והצדיקים היו מכובדים מאוד. משפחות שלמות היו באות להתברך מהם, ולהתפלל על קברי הצדיקים.",
+      "בלילות שבת של החורף, היו יהודי מרוקו קמים באמצע הלילה ושרים \"בקשות\", פיוטים יפים של אהבת השם, עד הבוקר.",
+      "היה בקהילות כבוד גדול להורים ולזקנים, שולחן שבת מלא אורחים, ואמונה פשוטה וחמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "algiers",
+     "title_he": "חכמי ספרד באלג'יר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A white coastal city of North Africa with a busy harbor at morning: two venerable Sephardi sages in robes and turbans step off a ship and are greeted warmly by the leaders of the local Jewish community.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👴 👨 ⛵",
+     "say": [
+      "אחרי הפרעות של שנת 1391 בספרד, ברחו רבים מחכמי ספרד לצפון אפריקה. שניים מהם הגיעו לעיר אלג'יר.",
+      "האחד, רבי יצחק בר ששת, הריב\"ש, והשני, רבי שמעון בן צמח דוראן, הרשב\"ץ. שניהם היו מגדולי הדור.",
+      "הם עמדו בראש הקהילה, תיקנו תקנות, וענו על שאלות שהגיעו מכל העולם. ספרי התשובות שלהם נלמדים עד היום.",
+      "כך, כמו בבבל ובספרד, השם שלח את הרפואה לפני המכה: כשהגיעו המגורשים של 1492, כבר חיכו להם בצפון אפריקה קהילות חזקות ובהן תורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ohr",
+     "title_he": "אור החיים הקדוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A ship at sea at dawn sailing east from the North African coast, a sage with a white beard and turban standing on deck among a group of students, looking toward the rising sun.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "⛵ 👴 👦",
+     "say": [
+      "במרוקו נולד אחד מגדולי המפרשים של התורה: רבי חיים בן עטר. ספרו על התורה נקרא \"אור החיים\", ולכן קוראים לו \"האור החיים הקדוש\".",
+      "כמו רבים לפניו, הוא התגעגע לארץ ישראל. הוא יצא עם קבוצה של תלמידים, ובשנת 1742 בערך הגיע לירושלים, ופתח בה ישיבה.",
+      "הוא זכה לחיות בירושלים רק זמן קצר, ונקבר בהר הזיתים. אבל הפירוש שלו נלמד עד היום בכל עם ישראל, ספרדים ואשכנזים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "yemen",
+     "title_he": "בהרי תימן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A Yemenite mountain village of tall mud-brick tower houses at morning: in a courtyard four small boys in kippot sit around one large book on the ground, each reading from a different side, an old teacher with long side locks watching proudly.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👦 👦 👴",
+     "say": [
+      "רחוק יותר, בדרום חצי האי ערב, נמצאת תימן. יהודי תימן חיו שם בהרים ובכפרים, רחוק מאוד משאר קהילות ישראל.",
+      "לפי המסורת שלהם, אבותיהם הגיעו לתימן עוד לפני חורבן הבית השני. וכיוון שחיו מבודדים, שמרו מסורות עתיקות בדייקנות מופלאה.",
+      "למשל, עד היום בבית הכנסת התימני, אחרי כל פסוק בקריאת התורה, מישהו קורא את התרגום בארמית, כמו שעשו בימי חז\"ל.",
+      "וספרים היו יקרים מאוד. מסופר שכמה ילדים ישבו סביב ספר אחד, וכל אחד קרא מהצד שלו. לכן ילדי תימן ידעו לקרוא גם כשהספר הפוך!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המשורר הגדול של יהודי תימן, רבי שלום שבזי, כתב שירים רבים על הגעגועים לציון, ושרים אותם עד היום."
+     }
+    },
+    {
+     "id": "iggeret",
+     "title_he": "אגרת תימן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A messenger in a desert robe hands a folded letter to an elderly Yemenite rabbi with long side locks at the door of a stone house, villagers gathering around eagerly; dry mountains behind.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 🚶 👨",
+     "say": [
+      "לפני בערך שמונה מאות וחמישים שנה, עברה על יהודי תימן תקופה קשה מאוד. השלטון לחץ עליהם לעזוב את דתם, ורבים היו מבולבלים ומיואשים.",
+      "הם כתבו מכתב לרמב\"ם, במצרים. והרמב\"ם ענה להם במכתב ארוך, שנקרא \"אגרת תימן\".",
+      "הוא כתב להם: אחינו, חזקו ואמצו. השם הבטיח שלא יעזוב את עמו. הוא הזכיר להם את מעמד הר סיני, שלא יישכח לעולם.",
+      "יהודי תימן אהבו את הרמב\"ם אהבה עצומה. הם פוסקים לפי ספרו \"משנה תורה\", ולפי המסורת אף הזכירו את שמו בתפילת הקדיש."
+     ],
+     "pasuk": {
+      "text": "אחינו... חזקו ואמצו",
+      "ref": "הרמב\"ם, אגרת תימן"
+     },
+     "note": null
+    },
+    {
+     "id": "tamar",
+     "title_he": "אעלה בתמר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Late 19th century: a small group of Yemenite Jewish families in traditional modest dress, carrying bundles and a Torah scroll, arrive at the stone walls of Jerusalem at sunset, their faces full of joy and tears.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "יהודי תימן התגעגעו מאוד לציון. בשנת 1882, שהיא בלוח העברי שנת תרמ\"ב, יצאה קבוצה של משפחות תימניות בדרך לארץ ישראל.",
+      "למה דווקא אז? הם מצאו רמז בפסוק: אמרתי אעלה בתמר. המילה \"בתמר\" יכולה להיקרא כמו שנת תרמ\"ב. והם אמרו: זה הזמן לעלות!",
+      "הם הגיעו לירושלים אחרי מסע קשה, בלי כסף ובלי ידיעת המקום. רבים מהם התיישבו ליד עיר דוד, בכפר השילוח, ועבדו בעבודה קשה כדי לחיות בארץ."
+     ],
+     "pasuk": {
+      "text": "אמרתי אעלה בתמר",
+      "ref": "שיר השירים ז, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "eagles",
+     "title_he": "על כנפי נשרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: An airfield at the edge of a desert in 1949: Yemenite Jewish families in traditional dress, elders carrying Torah scrolls wrapped in cloth, walk with wonder toward a large propeller airplane under a bright sky.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "אחרי קום המדינה, בשנים 1949 ו-1950, עלו כמעט כל יהודי תימן לארץ ישראל. רבים מהם הלכו שבועות ברגל במדבר, עד לעיר עדן.",
+      "שם חיכו להם מטוסים. רובם לא ראו מטוס מעולם. אבל כשראו אותם, אמרו: הנה מתקיים הפסוק, ואשא אתכם על כנפי נשרים!",
+      "וכך, בערך ארבעים ותשעה אלף יהודים טסו לארץ ישראל. למבצע הזה קראו \"על כנפי נשרים\".",
+      "ובאותן שנים, וגם אחריהן, עלו לארץ גם רוב יהודי מרוקו, תוניסיה, לוב ואלג'יריה, והביאו איתם את התורה, הפיוטים והאמונה החמה."
+     ],
+     "pasuk": {
+      "text": "ואשא אתכם על כנפי נשרים ואבא אתכם אלי",
+      "ref": "שמות יט, ד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exl-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "יהודי צפון אפריקה ותימן",
+   "ref_he": "עם ישראל בגלות",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "maghreb",
+     "title_he": "יהודים בצפון אפריקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A whitewashed North African town on a hill above the sea at golden afternoon: narrow lanes, a synagogue with arched windows, Jewish men in djellabas and kippot, women in long dresses and head scarves, children carrying bread home for Shabbat.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "נעבור עכשיו דרומה, לצפון אפריקה: מרוקו, אלג'יריה, תוניסיה ולוב. יהודים חיו שם מימים קדומים מאוד, עוד לפני שהגיעו לשם הערבים.",
+      "באי ג'רבה שבתוניסיה יש בית כנסת עתיק, ולפי המסורת של יהודי המקום, אבותיהם הגיעו לשם כבר בזמן בית המקדש.",
+      "בעיר פאס שבמרוקו חיו הרי\"ף, וגם הרמב\"ם בצעירותו. ואחרי גירוש ספרד, הגיעו רבבות מגורשים, והתחברו לקהילות הוותיקות.",
+      "בקהילות צפון אפריקה היו גדולי תורה רבים, ומשפחות של רבנים, כמו משפחת אבוחצירא, שנתנו לעם ישראל צדיקים במשך דורות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "mellah",
+     "title_he": "המלאח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A Shabbat winter night inside a Moroccan Jewish home in the mellah: men and boys in kippot sit on cushions around a low table singing piyyutim, a grandmother with a head scarf smiling, brass lamps and colorful carpets.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👦 👵",
+     "say": [
+      "בערים רבות במרוקו גרו היהודים ברובע מיוחד, שנקרא מלאח. החיים בו לא היו קלים, אבל הם היו מלאים בתורה ובקדושה.",
+      "הרבנים והצדיקים היו מכובדים מאוד. משפחות שלמות היו באות להתברך מהם, ולהתפלל על קברי הצדיקים.",
+      "בלילות שבת של החורף, היו יהודי מרוקו קמים באמצע הלילה ושרים \"בקשות\", פיוטים יפים של אהבת השם, עד הבוקר.",
+      "היה בקהילות כבוד גדול להורים ולזקנים, שולחן שבת מלא אורחים, ואמונה פשוטה וחמה.",
+      "בסוף חג הפסח חוגגים יהודי מרוקו את המימונה. פותחים את הבית לשכנים ולחברים, מגישים מופלטה וממתקים, ומברכים זה את זה בברכה ובהצלחה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "algiers",
+     "title_he": "חכמי ספרד באלג'יר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A white coastal city of North Africa with a busy harbor at morning: two venerable Sephardi sages in robes and turbans step off a ship and are greeted warmly by the leaders of the local Jewish community.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👴 👨 ⛵",
+     "say": [
+      "אחרי הפרעות של שנת 1391 בספרד, ברחו רבים מחכמי ספרד לצפון אפריקה. שניים מהם הגיעו לעיר אלג'יר.",
+      "האחד, רבי יצחק בר ששת, הריב\"ש, והשני, רבי שמעון בן צמח דוראן, הרשב\"ץ. שניהם היו מגדולי הדור.",
+      "הם עמדו בראש הקהילה, תיקנו תקנות, וענו על שאלות שהגיעו מכל העולם. ספרי התשובות שלהם נלמדים עד היום.",
+      "כך, כמו בבבל ובספרד, השם שלח את הרפואה לפני המכה: כשהגיעו המגורשים של 1492, כבר חיכו להם בצפון אפריקה קהילות חזקות ובהן תורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ohr",
+     "title_he": "אור החיים הקדוש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A ship at sea at dawn sailing east from the North African coast, a sage with a white beard and turban standing on deck among a group of students, looking toward the rising sun.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "⛵ 👴 👦",
+     "say": [
+      "במרוקו נולד אחד מגדולי המפרשים של התורה: רבי חיים בן עטר. ספרו על התורה נקרא \"אור החיים\", ולכן קוראים לו \"האור החיים הקדוש\".",
+      "כמו רבים לפניו, הוא התגעגע לארץ ישראל. הוא יצא עם קבוצה של תלמידים, ובשנת 1742 בערך הגיע לירושלים, ופתח בה ישיבה.",
+      "הוא זכה לחיות בירושלים רק זמן קצר, ונקבר בהר הזיתים. אבל הפירוש שלו נלמד עד היום בכל עם ישראל, ספרדים ואשכנזים.",
+      "בדרכו לארץ ישראל עצר באיטליה, ושם עזרו לו קהילות יהודיות להדפיס את ספרו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "yemen",
+     "title_he": "בהרי תימן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A Yemenite mountain village of tall mud-brick tower houses at morning: in a courtyard four small boys in kippot sit around one large book on the ground, each reading from a different side, an old teacher with long side locks watching proudly.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👦 👦 👴",
+     "say": [
+      "רחוק יותר, בדרום חצי האי ערב, נמצאת תימן. יהודי תימן חיו שם בהרים ובכפרים, רחוק מאוד משאר קהילות ישראל.",
+      "לפי המסורת שלהם, אבותיהם הגיעו לתימן עוד לפני חורבן הבית השני. וכיוון שחיו מבודדים, שמרו מסורות עתיקות בדייקנות מופלאה.",
+      "למשל, עד היום בבית הכנסת התימני, אחרי כל פסוק בקריאת התורה, מישהו קורא את התרגום בארמית, כמו שעשו בימי חז\"ל.",
+      "וספרים היו יקרים מאוד. מסופר שכמה ילדים ישבו סביב ספר אחד, וכל אחד קרא מהצד שלו. לכן ילדי תימן ידעו לקרוא גם כשהספר הפוך!",
+      "יהודי תימן שמרו גם על הגייה מיוחדת של העברית, שמבדילה בין אותיות שאחרים הוגים אותן אותו דבר. יש חכמים שאומרים שזו אחת ההגיות העתיקות ביותר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המשורר הגדול של יהודי תימן, רבי שלום שבזי, כתב שירים רבים על הגעגועים לציון, ושרים אותם עד היום."
+     }
+    },
+    {
+     "id": "iggeret",
+     "title_he": "אגרת תימן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A messenger in a desert robe hands a folded letter to an elderly Yemenite rabbi with long side locks at the door of a stone house, villagers gathering around eagerly; dry mountains behind.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 🚶 👨",
+     "say": [
+      "לפני בערך שמונה מאות וחמישים שנה, עברה על יהודי תימן תקופה קשה מאוד. השלטון לחץ עליהם לעזוב את דתם, ורבים היו מבולבלים ומיואשים.",
+      "הם כתבו מכתב לרמב\"ם, במצרים. והרמב\"ם ענה להם במכתב ארוך, שנקרא \"אגרת תימן\".",
+      "הוא כתב להם: אחינו, חזקו ואמצו. השם הבטיח שלא יעזוב את עמו. הוא הזכיר להם את מעמד הר סיני, שלא יישכח לעולם.",
+      "יהודי תימן אהבו את הרמב\"ם אהבה עצומה. הם פוסקים לפי ספרו \"משנה תורה\", ולפי המסורת אף הזכירו את שמו בתפילת הקדיש.",
+      "הרמב\"ם גם הזהיר אותם מאדם שקם בתימן ואמר שהוא המשיח. הוא הסביר להם מה הם הסימנים האמיתיים של המשיח, וחיזק אותם לחכות לגאולה האמיתית."
+     ],
+     "pasuk": {
+      "text": "אחינו... חזקו ואמצו",
+      "ref": "הרמב\"ם, אגרת תימן"
+     },
+     "note": null
+    },
+    {
+     "id": "tamar",
+     "title_he": "אעלה בתמר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: Late 19th century: a small group of Yemenite Jewish families in traditional modest dress, carrying bundles and a Torah scroll, arrive at the stone walls of Jerusalem at sunset, their faces full of joy and tears.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "יהודי תימן התגעגעו מאוד לציון. בשנת 1882, שהיא בלוח העברי שנת תרמ\"ב, יצאה קבוצה של משפחות תימניות בדרך לארץ ישראל.",
+      "למה דווקא אז? הם מצאו רמז בפסוק: אמרתי אעלה בתמר. המילה \"בתמר\" יכולה להיקרא כמו שנת תרמ\"ב. והם אמרו: זה הזמן לעלות!",
+      "הם הגיעו לירושלים אחרי מסע קשה, בלי כסף ובלי ידיעת המקום. רבים מהם התיישבו ליד עיר דוד, בכפר השילוח, ועבדו בעבודה קשה כדי לחיות בארץ.",
+      "בשנים שאחר כך עלו עוד יהודים מתימן, בקבוצות קטנות, ברגל ובאוניות. חלקם הגיעו למושבות, ועבדו שם בחקלאות."
+     ],
+     "pasuk": {
+      "text": "אמרתי אעלה בתמר",
+      "ref": "שיר השירים ז, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "eagles",
+     "title_he": "על כנפי נשרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: An airfield at the edge of a desert in 1949: Yemenite Jewish families in traditional dress, elders carrying Torah scrolls wrapped in cloth, walk with wonder toward a large propeller airplane under a bright sky.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "אחרי קום המדינה, בשנים 1949 ו-1950, עלו כמעט כל יהודי תימן לארץ ישראל. רבים מהם הלכו שבועות ברגל במדבר, עד לעיר עדן.",
+      "שם חיכו להם מטוסים. רובם לא ראו מטוס מעולם. אבל כשראו אותם, אמרו: הנה מתקיים הפסוק, ואשא אתכם על כנפי נשרים!",
+      "וכך, בערך ארבעים ותשעה אלף יהודים טסו לארץ ישראל. למבצע הזה קראו \"על כנפי נשרים\".",
+      "ובאותן שנים, וגם אחריהן, עלו לארץ גם רוב יהודי מרוקו, תוניסיה, לוב ואלג'יריה, והביאו איתם את התורה, הפיוטים והאמונה החמה.",
+      "מסופר שבמטוסים, יהודים זקנים ביקשו להדליק אש כדי לבשל, כמו שעשו כל חייהם בדרכים. הם לא ידעו מה זה מטוס, אבל ידעו מה זה ארץ ישראל."
+     ],
+     "pasuk": {
+      "text": "ואשא אתכם על כנפי נשרים ואבא אתכם אלי",
+      "ref": "שמות יט, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "gift",
+     "title_he": "מה הביאו איתם?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Jewish life in the exile across the ages: ancient Babylon with rivers and palm trees, medieval Spain with courtyards and arches, Rhineland towns with steep roofs, North African mellahs, Yemenite villages of mud-brick towers, Eastern European shtetls with wooden synagogues. Dignified, warm and hopeful; hardship shown through landscapes, symbols and faces, never violence.  Scene: A Shabbat table today in Israel with three generations of a family of North African and Yemenite heritage singing together, grandfather with a white beard leading, candles and challah, all in modest dress.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "קהילות צפון אפריקה ותימן הביאו לעם ישראל אוצרות גדולים: נאמנות למסורת, כבוד לחכמים, שירה ופיוט, ושמחה בקיום מצוות.",
+      "הם לימדו אותנו שאפשר להיות רחוקים מכל מרכז גדול, ובכל זאת לשמור על התורה בכל פרט.",
+      "והם לימדו אותנו מה זו אמונה פשוטה: לשמוע פסוק, ולקום וללכת לארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exl-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקרא הרובע היהודי בערים רבות במרוקו?",
+   "answer": "מלאח",
+   "options": [
+    "מלאח",
+    "שטעטל",
+    "גטו של ספרד"
+   ],
+   "explain_he": "במלאח היו החיים לא קלים, אבל מלאים בתורה ובקדושה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקרא הרובע היהודי בערים רבות במרוקו?",
+   "answer": "מלאח",
+   "options": [
+    "מלאח",
+    "שטעטל",
+    "גטו של ספרד"
+   ],
+   "explain_he": "במלאח היו החיים לא קלים, אבל מלאים בתורה ובקדושה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הן \"בקשות\" של יהודי מרוקו?",
+   "answer": "פיוטים ששרים בלילות שבת של החורף",
+   "options": [
+    "פיוטים ששרים בלילות שבת של החורף",
+    "בקשות כסף מהמלך",
+    "מכתבים לרמב\"ם"
+   ],
+   "explain_he": "יהודי מרוקו היו קמים באמצע הלילה ושרים פיוטים עד הבוקר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הן \"בקשות\" של יהודי מרוקו?",
+   "answer": "פיוטים ששרים בלילות שבת של החורף",
+   "options": [
+    "פיוטים ששרים בלילות שבת של החורף",
+    "בקשות כסף מהמלך",
+    "מכתבים לרמב\"ם"
+   ],
+   "explain_he": "יהודי מרוקו היו קמים באמצע הלילה ושרים פיוטים עד הבוקר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה ה\"אור החיים הקדוש\" בירושלים?",
+   "answer": "פתח ישיבה",
+   "options": [
+    "פתח ישיבה",
+    "בנה נמל",
+    "כתב את התלמוד"
+   ],
+   "explain_he": "רבי חיים בן עטר עלה ממרוקו עם תלמידים, ופתח ישיבה בירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה ה\"אור החיים הקדוש\" בירושלים?",
+   "answer": "פתח ישיבה",
+   "options": [
+    "פתח ישיבה",
+    "בנה נמל",
+    "כתב את התלמוד"
+   ],
+   "explain_he": "רבי חיים בן עטר עלה ממרוקו עם תלמידים, ופתח ישיבה בירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ידעו ילדי תימן לקרוא גם כשהספר הפוך?",
+   "answer": "כי כמה ילדים למדו סביב ספר אחד, כל אחד מהצד שלו",
+   "options": [
+    "כי כמה ילדים למדו סביב ספר אחד, כל אחד מהצד שלו",
+    "כי כך כתבו בתימן",
+    "כי זה היה משחק"
+   ],
+   "explain_he": "ספרים היו יקרים מאוד, ולכן ישבו כמה ילדים סביב ספר אחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ידעו ילדי תימן לקרוא גם כשהספר הפוך?",
+   "answer": "כי כמה ילדים למדו סביב ספר אחד, כל אחד מהצד שלו",
+   "options": [
+    "כי כמה ילדים למדו סביב ספר אחד, כל אחד מהצד שלו",
+    "כי כך כתבו בתימן",
+    "כי זה היה משחק"
+   ],
+   "explain_he": "ספרים היו יקרים מאוד, ולכן ישבו כמה ילדים סביב ספר אחד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרמב\"ם ליהודי תימן באגרת תימן?",
+   "answer": "חזקו ואמצו, השם לא יעזוב את עמו",
+   "options": [
+    "חזקו ואמצו, השם לא יעזוב את עמו",
+    "עזבו את תימן מיד",
+    "אל תלמדו תורה בזמן קשה"
+   ],
+   "explain_he": "הרמב\"ם חיזק אותם בשעה קשה, ויהודי תימן אהבו אותו מאוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרמב\"ם ליהודי תימן באגרת תימן?",
+   "answer": "חזקו ואמצו, השם לא יעזוב את עמו",
+   "options": [
+    "חזקו ואמצו, השם לא יעזוב את עמו",
+    "עזבו את תימן מיד",
+    "אל תלמדו תורה בזמן קשה"
+   ],
+   "explain_he": "הרמב\"ם חיזק אותם בשעה קשה, ויהודי תימן אהבו אותו מאוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה פסוק נתן את השם למבצע העלייה מתימן?",
+   "answer": "\"ואשא אתכם על כנפי נשרים\"",
+   "options": [
+    "\"ואשא אתכם על כנפי נשרים\"",
+    "\"אמרתי אעלה בתמר\"",
+    "\"על נהרות בבל\""
+   ],
+   "explain_he": "כשראו יהודי תימן את המטוסים, אמרו שהפסוק מתקיים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה פסוק נתן את השם למבצע העלייה מתימן?",
+   "answer": "\"ואשא אתכם על כנפי נשרים\"",
+   "options": [
+    "\"ואשא אתכם על כנפי נשרים\"",
+    "\"אמרתי אעלה בתמר\"",
+    "\"על נהרות בבל\""
+   ],
+   "explain_he": "כשראו יהודי תימן את המטוסים, אמרו שהפסוק מתקיים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה יצאו יהודי תימן לארץ דווקא בשנת תרמ\"ב?",
+   "answer": "מצאו רמז בפסוק \"אמרתי אעלה בתמר\"",
+   "options": [
+    "מצאו רמז בפסוק \"אמרתי אעלה בתמר\"",
+    "כי המלך גירש אותם",
+    "כי הרמב\"ם הורה להם"
+   ],
+   "explain_he": "המילה \"בתמר\" יכולה להיקרא כמו שנת תרמ\"ב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו הריב\"ש והרשב\"ץ?",
+   "answer": "חכמי ספרד שברחו לאלג'יר ועמדו בראש הקהילה",
+   "options": [
+    "חכמי ספרד שברחו לאלג'יר ועמדו בראש הקהילה",
+    "מלכים של צפון אפריקה",
+    "משוררים מתימן"
+   ],
+   "explain_he": "כשהגיעו מגורשי 1492, כבר חיכו להם בצפון אפריקה קהילות חזקות ובהן תורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exl-f6e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו הריב\"ש והרשב\"ץ?",
+   "answer": "חכמי ספרד שברחו לאלג'יר ועמדו בראש הקהילה",
+   "options": [
+    "חכמי ספרד שברחו לאלג'יר ועמדו בראש הקהילה",
+    "מלכים של צפון אפריקה",
+    "משוררים מתימן"
+   ],
+   "explain_he": "כשהגיעו מגורשי 1492, כבר חיכו להם בצפון אפריקה קהילות חזקות ובהן תורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-exl-f6e17"
+  }
+ ]
+}

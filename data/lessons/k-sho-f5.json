@@ -1,0 +1,309 @@
+{
+ "id": "k-sho-f5",
+ "unit_id": "k-sho-u3",
+ "course": "holocaust",
+ "title_he": "המצילים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕯️ ידע כללי",
+   "title_he": "המצילים",
+   "ref_he": "השואה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "נפש אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A quiet hillside garden of trees in Jerusalem in soft morning light, small stone plaques at the foot of young carob trees, Jerusalem stone buildings in the distance.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "המשנה אומרת: כל המקיים נפש אחת מישראל, כאילו קיים עולם מלא.",
+      "בתוך החושך של השואה היו אנשים שבחרו להציל. חלקם היו יהודים, שסיכנו את עצמם למען אחיהם. וחלקם היו לא יהודים, שעשו את מה שרוב העולם לא עשה.",
+      "הסרט הזה מוקדש להם. ונתחיל דווקא במי שלא היו חייבים לעזור, ובכל זאת עזרו.",
+      "בכל סיפור כזה מסתתרת בחירה של אדם אחד: לפתוח את הדלת, או לסגור אותה.",
+      "וגם בתוך עם ישראל, בגטאות ובמחנות, היו אינספור מעשי הצלה קטנים: פרוסת לחם, מקום מסתור, מילה טובה."
+     ],
+     "pasuk": {
+      "text": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת מִיִּשְׂרָאֵל, מַעֲלֶה עָלָיו הַכָּתוּב כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
+      "ref": "משנה, סנהדרין ד, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "חסידי אומות העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A simple farmhouse in the European countryside at night: a farmer and his wife in plain clothes holding a lantern, opening a hidden trapdoor in the barn floor under the hay, a warm glow from below.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠 👨 👩",
+     "say": [
+      "בכל ארצות אירופה היו לא יהודים שהסתירו יהודים: במרתפים, בעליות גג, ברפתות ומתחת לרצפה.",
+      "הם ידעו שאם ייתפסו, ייענשו קשות, הם וכל משפחתם. ובכל זאת חלקו את האוכל המעט שהיה להם, במשך חודשים ואפילו שנים.",
+      "במדינת ישראל, במוסד יד ושם, נותנים לאנשים כאלה תואר של כבוד: \"חסידי אומות העולם\". על שמם נטועים עצים בגן שבירושלים.",
+      "הם היו מעטים מאוד לעומת מיליוני אנשים שעמדו מהצד, או אפילו עזרו לרוצחים. ודווקא לכן הזיכרון שלהם יקר כל כך.",
+      "כשנשאלו מאוחר יותר למה עשו זאת, רבים מהם ענו בפשטות: לא יכולנו לעשות אחרת. זה מה שאדם צריך לעשות.",
+      "ביניהם היו איכרים פשוטים ורופאים, אנשי דת ושוטרים, עשירים ועניים. לא היה להם שום דבר משותף, מלבד הלב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יד ושם הכיר עד היום ביותר מעשרים אלף מצילים כאלה, והעניק להם את התואר \"חסיד אומות העולם\"."
+     }
+    },
+    {
+     "id": "s2b",
+     "title_he": "ילדים מוסתרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A cozy farmhouse kitchen in Holland in the 1940s, a farmer's wife in an apron and long dress setting a bowl of soup before a small dark-haired boy with sad eyes, her own children at the table, snow outside the window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👦 👧",
+     "say": [
+      "היו משפחות שקיבלו לביתן ילד יהודי, והציגו אותו לשכנים כאחד מילדיהן או כקרוב משפחה. הילד קיבל שם חדש, ולמד לא לספר לאיש מי הוא.",
+      "תחשבו כמה קשה זה היה: ילד קטן, בלי אבא ואמא, שצריך לשמור סוד גדול כל יום.",
+      "היו גם ילדים שהוסתרו במנזרים ובבתי יתומים של נוצרים. שם לימדו אותם לפעמים דת אחרת, והם שכחו את \"שמע ישראל\".",
+      "אחרי המלחמה, חלק מהילדים האלה כבר לא זכרו שהם יהודים. רבנים ושליחים יצאו לחפש אותם, כדי להחזיר אותם לעמם. על כך נלמד בסרט הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "סירות הדייגים של דנמרק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A calm dark sea at night with a full moon, several small wooden fishing boats sailing quietly away from a rocky Danish shore toward a far coastline with a few lights, families in coats sitting close in the boats.",
+     "move": "right",
+     "fx": "night",
+     "art": "⛵",
+     "say": [
+      "בדנמרק, בסתיו 1943, נודע שהנאצים מתכננים לגרש את היהודים. תוך ימים ספורים התגייסו הדנים.",
+      "הם הסתירו את היהודים בבתיהם, ובלילה העבירו אותם בסירות דייגים קטנות אל שוודיה, שלא הייתה במלחמה.",
+      "כך ניצלו כמעט כל יהודי דנמרק, בערך שבעת אלפים איש. זה אחד מסיפורי ההצלה המופלאים של התקופה.",
+      "וכשחזרו יהודי דנמרק לבתיהם אחרי המלחמה, רבים מהם מצאו אותם שמורים בידי שכניהם.",
+      "הדייגים סיכנו את סירותיהם ואת חייהם, ולילה אחרי לילה חצו את הים הקר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הקונסול והישיבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A quiet consulate office in Kovno in summer 1940: a Japanese diplomat in a dark suit writing visas by hand at a desk piled with papers, a long line of Jewish yeshiva students in hats and coats waiting patiently outside the window.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👦 👦",
+     "say": [
+      "בקיץ 1940, בעיר קובנה שבליטא, ישב קונסול יפני בשם צ׳יאונה סוגיהרה. אלפי יהודים עמדו מול חלונו, וביקשו אשרות מעבר.",
+      "ממשלתו לא אישרה לו. אבל סוגיהרה החליט להקשיב למצפונו. במשך שבועות כתב אשרות ביד, יום ולילה, ואפילו מתוך חלון הרכבת כשעזב.",
+      "גם קונסול הולנדי בשם יאן צוורטנדייק עזר: הוא כתב לפליטים אישור שהם נוסעים לאי הרחוק קוראסאו, וכך יכלו לקבל אשרת מעבר דרך יפן.",
+      "בזכות האשרות האלה יצאו אלפי יהודים, ובהם כמעט כל ישיבת מיר: רבנים ותלמידים.",
+      "הם נסעו ברכבת דרך כל רוסיה, הגיעו ליפן, ומשם לשנגחאי שבסין. שם, בבית כנסת אחד, המשיכו ללמוד כל שנות המלחמה.",
+      "תארו לעצמכם: בתוך מלחמת העולם, בעיר זרה בקצה השני של העולם, נשמע כל יום קול הגמרא של ישיבת מיר, כמו בליטא.",
+      "סוגיהרה שילם על כך מחיר: אחרי המלחמה פוטר ממשרד החוץ של יפן. רק בזקנותו זכה להכרה, וגם הוא הוכר כחסיד אומות העולם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ישיבת מיר הייתה הישיבה הגדולה היחידה מאירופה שניצלה כמעט בשלמותה, עם רבניה ותלמידיה."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "הרב מישאל בער וייסמנדל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead. Rabbi Michoel Ber Weissmandl: a rabbi in his thirties with a dark beard, round glasses, black hat and long dark coat. Scene: weissmandl sitting late at night in a small room in Bratislava, writing a long letter by lamplight, a hand-drawn map of railway lines spread on the table, his face tired and determined.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "בסלובקיה פעל אחד מגיבורי ההצלה הגדולים: הרב מישאל בער וייסמנדל, מגדולי התורה של ישיבת ניטרה.",
+      "הוא וחבריו הקימו קבוצה סודית שניסתה בכל דרך לעצור את הגירושים: במשא ומתן, בכסף, בשוחד, ובשליחת מכתבים לעולם החופשי.",
+      "בזכות המאמצים האלה, ובעוד סיבות, נעצרו הגירושים מסלובקיה במשך כשנתיים, ויהודים רבים קיבלו עוד זמן לחיות.",
+      "כשהחלו לגרש את יהודי הונגריה, בשנת 1944, הוא כתב מכתבים בוערים למנהיגים בעולם. הוא צירף מפות, ופירט את קווי הרכבת המובילים לאושוויץ.",
+      "הוא התחנן: הפציצו את מסילות הרכבת! עצרו את הרכבות! כל יום עולה בחייהם של אלפי יהודים.",
+      "הוא כתב להם בערך כך: איך אתם יכולים לאכול, לישון ולחיות, כשבכל יום נלקחים אלפים?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "זעקה שלא נענתה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: Railway tracks crossing an empty green valley in Slovakia in summer, a wooden station far away, heavy grey clouds over the mountains, a single bird flying above.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🌲",
+     "say": [
+      "העולם לא הקשיב. המסילות לא הופצצו, והרכבות המשיכו לנסוע.",
+      "בסוף גם הרב וייסמנדל ומשפחתו נשלחו ברכבת. הוא הצליח לקפוץ מהרכבת ולהסתתר, אבל אשתו וילדיו לא שרדו.",
+      "הזעקה שלו נשארה כשאלה חמורה לעולם כולו: למה לא עשו יותר? התורה אומרת: לא תעמוד על דם רעך. אסור לעמוד מהצד כשאחיך בסכנה.",
+      "את סיפור המאמצים האלה ואת כאבו כתב הרב וייסמנדל בספר שנקרא \"מן המיצר\".",
+      "ובכל זאת, הוא לא הפסיק להאמין, ולא הפסיק לפעול, עד הרגע האחרון."
+     ],
+     "pasuk": {
+      "text": "לֹא תַעֲמֹד עַל דַּם רֵעֶךָ",
+      "ref": "ויקרא יט, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "יהודים מצילים יהודים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead.  Scene: A small apartment in a Swiss town by a lake in 1944: a religious Jewish couple, the man with a beard and hat and the woman in a head covering and long dress, sorting letters and packages at a table, snowy mountains outside the window.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩",
+     "say": [
+      "את המכתבים של הרב וייסמנדל קיבלו בשווייץ זוג יהודים שומרי מצוות, יצחק ורחה שטרנבוך. הם העבירו אותם הלאה, לשגרירים ולארגונים.",
+      "בארצות הברית הקימו רבנים ארגון בשם \"ועד ההצלה\". הם אספו כסף, שלחו חבילות מזון ואשרות, ודאגו במיוחד לתלמידי הישיבות שהגיעו לשנגחאי.",
+      "מסופר שהם עבדו יום ולילה, ואפילו בשבת, כי ההלכה קובעת שפיקוח נפש דוחה שבת.",
+      "הם לא תמיד הצליחו. אבל כל יהודי שניצל בזכותם היה עולם מלא.",
+      "גם בארץ ישראל ניסו לעזור: נשלחו כספים ושליחים, ובבתי הכנסת נאמרו תהלים ותפילות להצלת היהודים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ישיבה חדשה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish Europe in the 1920s-1940s and Eretz Yisrael after it. Muted, respectful palette of browns, greys and deep blues with warm candlelight as the only bright color. Quiet and dignified, never frightening: no soldiers in close-up, no uniforms with insignia, no flags or symbols of the Nazis, no bodies, no suffering faces; show places, objects and light instead. Rabbi Michoel Ber Weissmandl: a rabbi in his thirties with a dark beard, round glasses, black hat and long dark coat. Scene: weissmandl a few years later, older and greyer, standing at the doorway of a new yeshiva building among green trees in America, young students with kippot and books walking in, soft hopeful morning light.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👦 👦",
+     "say": [
+      "אחרי המלחמה הגיע הרב וייסמנדל לאמריקה. אדם אחר היה אולי נשבר. אבל הוא בחר לבנות.",
+      "הוא הקים מחדש את ישיבת ניטרה, ובנה סביבה קהילה של בני תורה. כך המשיכה הישיבה שנחרבה באירופה לחיות בארץ אחרת.",
+      "הוא נפטר צעיר יחסית, בשנת 1957. אבל הישיבה שהקים פועלת עד היום, ותלמידיה ממשיכים את דרכו.",
+      "מכל המצילים אנחנו לומדים דבר אחד: גם כשנדמה שאי אפשר לעשות כלום, אדם אחד יכול להציל עולם מלא.",
+      "ואולי השאלה החשובה ביותר שהם משאירים לנו היא: מה אני הייתי עושה? והתשובה מתחילה כבר היום, בכל פעם שאנחנו עוזרים למי שזקוק לנו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sho-f5e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה \"ועד ההצלה\" שהקימו רבנים באמריקה?",
+   "answer": "אסף כסף ושלח מזון ואשרות, ודאג לתלמידי הישיבות בשנגחאי",
+   "options": [
+    "אסף כסף ושלח מזון ואשרות, ודאג לתלמידי הישיבות בשנגחאי",
+    "בנה אוניות מלחמה",
+    "כתב ספרי היסטוריה",
+    "הקים בתי ספר בגרמניה"
+   ],
+   "explain_he": "ועד ההצלה עבד יום ולילה כדי להציל יהודים, ודאג במיוחד לישיבות שהגיעו לשנגחאי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרת המשנה על המקיים נפש אחת מישראל?",
+   "answer": "שכאילו קיים עולם מלא",
+   "options": [
+    "שכאילו קיים עולם מלא",
+    "שהוא יקבל פרס כספי",
+    "שהוא יהיה מלך",
+    "שהוא צריך לצום"
+   ],
+   "explain_he": "המשנה בסנהדרין אומרת: כל המקיים נפש אחת מישראל, כאילו קיים עולם מלא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הם \"חסידי אומות העולם\"?",
+   "answer": "לא יהודים שסיכנו את חייהם כדי להציל יהודים",
+   "options": [
+    "לא יהודים שסיכנו את חייהם כדי להציל יהודים",
+    "יהודים שעלו לארץ",
+    "חיילים שלחמו בנאצים",
+    "רבנים מאירופה"
+   ],
+   "explain_he": "יד ושם מעניק את התואר ללא יהודים שהסתירו והצילו יהודים, למרות הסכנה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ניצלו כמעט כל יהודי דנמרק?",
+   "answer": "הדנים העבירו אותם בלילה בסירות דייגים לשוודיה",
+   "options": [
+    "הדנים העבירו אותם בלילה בסירות דייגים לשוודיה",
+    "הם טסו במטוסים לאמריקה",
+    "הם הסתתרו ביער שנים רבות",
+    "הם קיבלו אשרות מיפן"
+   ],
+   "explain_he": "בסתיו 1943 הסתירו הדנים את היהודים והעבירו אותם בסירות לשוודיה. ניצלו בערך שבעת אלפים איש.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בזכות מי ניצלה ישיבת מיר?",
+   "answer": "בזכות האשרות של הקונסול היפני סוגיהרה",
+   "options": [
+    "בזכות האשרות של הקונסול היפני סוגיהרה",
+    "בזכות הצבא הבריטי",
+    "בזכות ספינה מארץ ישראל",
+    "בזכות דייגים מדנמרק"
+   ],
+   "explain_he": "סוגיהרה כתב אשרות ביד, נגד הוראות ממשלתו, ובזכותן יצאה ישיבת מיר דרך רוסיה ויפן לשנגחאי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש הרב וייסמנדל מהעולם החופשי בשנת 1944?",
+   "answer": "להפציץ את מסילות הרכבת לאושוויץ",
+   "options": [
+    "להפציץ את מסילות הרכבת לאושוויץ",
+    "לשלוח לו ספרים",
+    "לבנות לו ישיבה",
+    "להכריז על חג חדש"
+   ],
+   "explain_he": "הוא כתב מכתבים עם מפות של קווי הרכבת והתחנן להפציץ אותם ולעצור את הרכבות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרב וייסמנדל אחרי המלחמה, אף שאיבד את משפחתו?",
+   "answer": "הקים מחדש את ישיבת ניטרה באמריקה",
+   "options": [
+    "הקים מחדש את ישיבת ניטרה באמריקה",
+    "הפסיק ללמד",
+    "נעשה סוחר",
+    "חזר לגור בסלובקיה ולא עשה דבר"
+   ],
+   "explain_he": "הוא בחר לבנות, והקים מחדש את ישיבת ניטרה וקהילה של בני תורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sho-f5e8"
+  }
+ ]
+}

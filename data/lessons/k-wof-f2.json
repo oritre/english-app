@@ -1,0 +1,504 @@
+{
+ "id": "k-wof-f2",
+ "unit_id": "k-wof-u1",
+ "course": "world",
+ "title_he": "מפות וגלובוס",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "מפות וגלובוס",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "treasure",
+     "title_he": "מפת אוצר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children kneel on a rug unrolling a hand-drawn treasure map with little drawn hills, trees and a dotted path, a toy compass beside them; warm afternoon light, no letters.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "תארו לכם שאתם מחפשים אוצר. מה הדבר הכי חשוב שצריך? מפה!",
+      "מפה היא ציור של מקום, כאילו מסתכלים עליו מלמעלה, כמו ציפור.",
+      "היום נלמד לקרוא מפות, ונכיר את הגלובוס.",
+      "במפה טובה אפשר לראות איפה הדרך, איפה ההר, ואיפה הנהר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "globe",
+     "title_he": "הגלובוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A beautiful old-fashioned globe on a wooden stand in a sunlit study, a child's hand gently spinning it, oceans blue and continents in soft colors.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌍",
+     "say": [
+      "כדור הארץ עגול, כמו כדור.",
+      "לכן הדרך הכי טובה להראות אותו היא גלובוס: כדור קטן שמצוירות עליו כל היבשות והימים.",
+      "אפשר לסובב את הגלובוס ולחפש את ארץ ישראל!",
+      "כדור הארץ גם מסתובב, כמו סביבון, פעם אחת ביום ובלילה.",
+      "הצד שפונה אל השמש נמצא ביום, והצד השני נמצא בלילה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בתלמוד הירושלמי מסופר שאלכסנדר מוקדון עלה למעלה, ״עד שראה את העולם ככדור״."
+     }
+    },
+    {
+     "id": "flat",
+     "title_he": "מפה שטוחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: On a kitchen table an orange peel is spread flat with its edges splitting apart, beside a flat paper world map with continents in soft colors; a curious child looks from one to the other.",
+     "move": "left",
+     "fx": "light",
+     "art": "🍊",
+     "say": [
+      "אבל גלובוס אי אפשר לקפל ולשים בכיס. לכן מציירים גם מפות שטוחות, על נייר.",
+      "במפה הכול קטן: עיר שלמה נראית כמו נקודה, ונהר גדול נראה כמו קו כחול דק.",
+      "זה כמו קליפה של תפוז: אם מנסים לשטח אותה על השולחן, היא נקרעת קצת. ככה גם מפה של העולם יוצאת קצת עקומה.",
+      "ובכל מפה כתוב בכמה הקטינו את המקום. זה נקרא קנה מידה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "directions",
+     "title_he": "צפון, דרום, מזרח ומערב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: Early morning on a hill near Jerusalem: the sun rising in the east over the hills, the two children standing with arms stretched out to the sides, a large decorative compass rose painted on the ground stones beside them.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "במפה, הצפון נמצא בדרך כלל למעלה, והדרום למטה.",
+      "המזרח בצד ימין, והמערב בצד שמאל.",
+      "השמש זורחת במזרח ושוקעת במערב. ובכל העולם, יהודים מתפללים לכיוון ירושלים.",
+      "בפינת המפה יש בדרך כלל סימן קטן שמראה את הכיוונים. קוראים לו שושנת רוחות.",
+      "יהודים שגרים באירופה, ממערב לארץ ישראל, מתפללים לכיוון מזרח."
+     ],
+     "pasuk": {
+      "text": "וְהִתְפַּלְלוּ אֵלֶיךָ דֶּרֶךְ אַרְצָם... וְהַבַּיִת אֲשֶׁר בָּנִיתִי לִשְׁמֶךָ",
+      "ref": "מלכים א ח, מח"
+     },
+     "note": null
+    },
+    {
+     "id": "legend",
+     "title_he": "הצבעים של המפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A large colorful relief map spread on a classroom table: blue seas and rivers, green lowlands, brown and dark brown mountains, tiny black dots for towns, a teacher with a kippah pointing as children lean in.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "למפות יש צבעים, ולכל צבע יש משמעות.",
+      "כחול הוא מים: ים, אגם ונהר. ירוק הוא שטח נמוך, וחום הוא הרים.",
+      "ככה, במבט אחד, אפשר לדעת איפה ההרים ואיפה הים!",
+      "ויש במפה גם סימנים: נקודה היא עיר, וקו אדום הוא כביש.",
+      "ולכל מפה יש ״מקרא״, שמסביר מה מסמן כל צבע."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "equator",
+     "title_he": "קו המשווה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A globe in soft light with a thin glowing golden line circling its middle and faint lines of a grid around it, warm tropical colors near the line and white ice at the top and bottom.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🌍",
+     "say": [
+      "על הגלובוס מצויר קו שמקיף את כדור הארץ בדיוק באמצע. קוראים לו קו המשווה.",
+      "ליד קו המשווה חם כל השנה. וככל שמתרחקים ממנו, נעשה קר יותר, עד הקרח שבקטבים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "yehoshua",
+     "title_he": "לכו וכתבו את הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Ancient Eretz Yisrael: three men in simple robes and head cloths walk across green hills and valleys with walking staffs, one writing on a scroll, a walled town on a distant hill.",
+     "move": "right",
+     "fx": "light",
+     "art": "🚶 🚶 🚶",
+     "say": [
+      "ואתם יודעים שגם בתנ״ך יש סיפור על מפה?",
+      "יהושע שלח אנשים ללכת בכל הארץ ולכתוב איך היא נראית. כך חילקו את ארץ ישראל לשבטים.",
+      "הם כתבו בספר את כל הערים, בשבעה חלקים.",
+      "ובעיר עתיקה בשם מידבא מצאו רצפה עשויה מאבנים קטנות, ועליה ציור של ארץ ישראל, עם ירושלים באמצע!"
+     ],
+     "pasuk": {
+      "text": "לְכוּ וְהִתְהַלְּכוּ בָאָרֶץ וְכִתְבוּ אוֹתָהּ",
+      "ref": "יהושע יח, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "לא הולכים לאיבוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children walk a forest trail in the Galilee, the sister reading a folded map and the boy holding a compass, pointing confidently ahead toward a sunny clearing.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? כדור הארץ עגול, והגלובוס מראה אותו בדיוק. מפה היא ציור של מקום מלמעלה.",
+      "צפון למעלה, דרום למטה, והשמש זורחת במזרח.",
+      "ועכשיו תורכם: ציירו מפה של החדר שלכם, כאילו אתם ציפור שמסתכלת מלמעלה!",
+      "בשיעור הבא נטייל במקומות הכי מיוחדים בעולם: מדבריות, יערות, קטבים והרים!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "מפות וגלובוס",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "treasure",
+     "title_he": "מפת אוצר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children kneel on a rug unrolling a hand-drawn treasure map with little drawn hills, trees and a dotted path, a toy compass beside them; warm afternoon light, no letters.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "תארו לכם שאתם מטיילים בעיר זרה, בלי לדעת לאן ללכת. מה הייתם רוצים לקבל? מפה!",
+      "מפה היא ציור של מקום כפי שהוא נראה מלמעלה, כמו בעיני ציפור. היא מקטינה עיר שלמה, ארץ שלמה ואפילו עולם שלם, עד שהם נכנסים על דף אחד.",
+      "היום נלמד איך קוראים מפה, מה זה גלובוס, ואיך יודעים לאן פונים.",
+      "יש מפות מסוגים רבים: מפות של רחובות, מפות של דרכים, מפות של הרים, ומפות של כל העולם. לכל אחת תפקיד משלה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "globe",
+     "title_he": "הגלובוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A beautiful old-fashioned globe on a wooden stand in a sunlit study, a child's hand gently spinning it, oceans blue and continents in soft colors.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌍",
+     "say": [
+      "כדור הארץ, כמו ששמו אומר, עגול כמו כדור. לכן הדגם המדויק ביותר שלו הוא גלובוס, כדור קטן שמצוירות עליו כל היבשות והאוקיינוסים בצורתם האמיתית.",
+      "חכמי ישראל ידעו כבר בימי קדם שהעולם עגול, ככדור.",
+      "הגלובוס מסתובב סביב מוט, בדיוק כמו שכדור הארץ מסתובב סביב עצמו פעם אחת בכל יממה. הסיבוב הזה יוצר את היום והלילה.",
+      "ותוך כדי שהוא מסתובב סביב עצמו, כדור הארץ גם מקיף את השמש, פעם אחת בשנה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בתלמוד הירושלמי מסופר שאלכסנדר מוקדון עלה למעלה, ״עד שראה את העולם ככדור״."
+     }
+    },
+    {
+     "id": "flat",
+     "title_he": "מפה שטוחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: On a kitchen table an orange peel is spread flat with its edges splitting apart, beside a flat paper world map with continents in soft colors; a curious child looks from one to the other.",
+     "move": "left",
+     "fx": "light",
+     "art": "🍊",
+     "say": [
+      "אבל גלובוס אי אפשר לקפל לכיס, ואי אפשר לראות עליו את הרחוב שלכם. לכן מציירים מפות שטוחות.",
+      "כשמעבירים כדור לדף שטוח, משהו תמיד מתעוות קצת, כמו קליפת תפוז שמנסים לשטח על השולחן. לכן במפות עולם רבות, ארצות שקרובות לקטבים נראות גדולות יותר ממה שהן באמת.",
+      "לכל מפה יש קנה מידה: הוא מספר בכמה הקטינו את המציאות. למשל, סנטימטר אחד על המפה יכול להיות קילומטר שלם במציאות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במפות עולם רבות גרינלנד נראית גדולה כמו אפריקה, אבל באמת אפריקה גדולה ממנה בערך פי ארבעה עשר!"
+     }
+    },
+    {
+     "id": "directions",
+     "title_he": "צפון, דרום, מזרח ומערב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: Early morning on a hill near Jerusalem: the sun rising in the east over the hills, the two children standing with arms stretched out to the sides, a large decorative compass rose painted on the ground stones beside them.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "ברוב המפות, הצפון נמצא למעלה, הדרום למטה, המזרח מימין והמערב משמאל. בפינת המפה מצוירת בדרך כלל ״שושנת רוחות״, סימן שמראה את הכיוונים.",
+      "השמש זורחת במזרח ושוקעת במערב. ומכאן גם המילה ״מזרח״: המקום שבו השמש ״זורחת״.",
+      "ולכיוונים יש אצלנו משמעות מיוחדת: יהודים בכל העולם מתפללים לכיוון ירושלים. מי שגר באירופה, מערבית לארץ ישראל, פונה מזרחה. ומי שגר בארץ ישראל פונה לעבר ירושלים ובית המקדש.",
+      "ובלשון התנ״ך יש לכיוונים גם שמות אחרים: הדרום נקרא ״נגב״ או ״תימן״, המזרח ״קדמה״, והמערב נקרא ״ים״, כי בארץ ישראל הים נמצא במערב."
+     ],
+     "pasuk": {
+      "text": "וְהִתְפַּלְלוּ אֵלֶיךָ דֶּרֶךְ אַרְצָם... וְהַבַּיִת אֲשֶׁר בָּנִיתִי לִשְׁמֶךָ",
+      "ref": "מלכים א ח, מח"
+     },
+     "note": null
+    },
+    {
+     "id": "legend",
+     "title_he": "הצבעים של המפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A large colorful relief map spread on a classroom table: blue seas and rivers, green lowlands, brown and dark brown mountains, tiny black dots for towns, a teacher with a kippah pointing as children lean in.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "למפה יש שפה משלה: צבעים וסימנים. בפינת המפה יש ״מקרא״, רשימה קטנה שמסבירה מה מסמן כל צבע וכל סימן.",
+      "במפות רבות, כחול הוא מים, ירוק הוא שטח נמוך, וחום כהה הוא הרים גבוהים. קו אדום יכול להיות כביש, ונקודה שחורה עיר.",
+      "מי שלומד לקרוא מפה יודע, בלי לצאת מהבית, איפה הדרך עולה ואיפה היא יורדת, איפה יש מעיין ואיפה יש כפר.",
+      "ויש מפות שמראות גם את הגובה: קווים דקים, שנקראים קווי גובה, מחברים את כל המקומות שנמצאים באותו גובה. היכן שהקווים צפופים, ההר תלול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "equator",
+     "title_he": "קו המשווה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: A globe in soft light with a thin glowing golden line circling its middle and faint lines of a grid around it, warm tropical colors near the line and white ice at the top and bottom.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🌍",
+     "say": [
+      "על הגלובוס מציירים גם קווים דמיוניים. החשוב שבהם הוא קו המשווה: קו שמקיף את כדור הארץ בדיוק באמצע, בין הקוטב הצפוני לקוטב הדרומי.",
+      "ליד קו המשווה חם כל השנה. ככל שמתרחקים ממנו לכיוון הקטבים, נעשה קר יותר.",
+      "ויש עוד קווים, קווי רוחב וקווי אורך, שיוצרים רשת על כל כדור הארץ. בעזרתם אפשר לתאר כל מקום בעולם במספרים, כמו כתובת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "yehoshua",
+     "title_he": "לכו וכתבו את הארץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Ancient Eretz Yisrael: three men in simple robes and head cloths walk across green hills and valleys with walking staffs, one writing on a scroll, a walled town on a distant hill.",
+     "move": "right",
+     "fx": "light",
+     "art": "🚶 🚶 🚶",
+     "say": [
+      "גם בתנ״ך יש סיפור על מיפוי. כשבני ישראל נכנסו לארץ, שלח יהושע שלושה אנשים מכל שבט, וציווה עליהם: ״לכו והתהלכו בארץ וכתבו אותה״.",
+      "הם עברו בכל הארץ, וכתבו בספר את הערים והגבולות, בשבעה חלקים. לפי זה חילק יהושע את הארץ לשבטים, בגורל.",
+      "ובעיר מידבא, מעבר לירדן, נמצאה רצפת פסיפס עתיקה, מלפני בערך אלף וחמש מאות שנה, ובה מפה של ארץ ישראל. במרכזה מצוירת ירושלים, עם חומותיה ושעריה.",
+      "וגם בתורה, בפרשת מסעי, מתוארים גבולות הארץ מכל צד: פאת נגב, פאת צפון, גבול ים וגבול קדמה. זו כמו מפה במילים."
+     ],
+     "pasuk": {
+      "text": "לְכוּ וְהִתְהַלְּכוּ בָאָרֶץ וְכִתְבוּ אוֹתָהּ",
+      "ref": "יהושע יח, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "לא הולכים לאיבוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children walk a forest trail in the Galilee, the sister reading a folded map and the boy holding a compass, pointing confidently ahead toward a sunny clearing.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? גלובוס הוא הדגם המדויק של כדור הארץ, ומפה שטוחה נוחה יותר, אבל מעוותת קצת. לכל מפה יש קנה מידה, מקרא ושושנת רוחות.",
+      "קו המשווה מחלק את כדור הארץ לשני חצאים, ויהודים בכל מקום פונים בתפילה לירושלים.",
+      "והיום יש גם מפות במחשב ובטלפון, שמראות איפה אנחנו נמצאים. אבל מי שיודע לקרוא מפה רגילה, לא הולך לאיבוד גם כשהמכשיר כבה.",
+      "בשיעור הבא נצא אל המקומות הקיצוניים בעולם: המדבר הלוהט, היער הגשום, הקרח שבקטבים, וההרים הגבוהים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהי מפה?",
+   "answer": "ציור של מקום כפי שהוא נראה מלמעלה",
+   "options": [
+    "ציור של מקום כפי שהוא נראה מלמעלה",
+    "תמונה של אדם",
+    "ספר סיפורים"
+   ],
+   "explain_he": "מפה מראה מקום כאילו מסתכלים עליו מלמעלה, כמו ציפור.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהי מפה?",
+   "answer": "ציור של מקום כפי שהוא נראה מלמעלה",
+   "options": [
+    "ציור של מקום כפי שהוא נראה מלמעלה",
+    "תמונה של אדם",
+    "ספר סיפורים"
+   ],
+   "explain_he": "מפה מראה מקום כאילו מסתכלים עליו מלמעלה, כמו ציפור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו גלובוס?",
+   "answer": "כדור קטן שמצוירות עליו היבשות והימים",
+   "options": [
+    "כדור קטן שמצוירות עליו היבשות והימים",
+    "מכשיר שמראה את השעה",
+    "מפה של עיר אחת"
+   ],
+   "explain_he": "כדור הארץ עגול, ולכן הגלובוס, שהוא כדור, מראה אותו בדיוק.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו גלובוס?",
+   "answer": "כדור קטן שמצוירות עליו היבשות והימים",
+   "options": [
+    "כדור קטן שמצוירות עליו היבשות והימים",
+    "מכשיר שמראה את השעה",
+    "מפה של עיר אחת"
+   ],
+   "explain_he": "כדור הארץ עגול, ולכן הגלובוס, שהוא כדור, מראה אותו בדיוק.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נמצא הצפון ברוב המפות?",
+   "answer": "למעלה",
+   "options": [
+    "למעלה",
+    "למטה",
+    "בצד ימין"
+   ],
+   "explain_he": "ברוב המפות הצפון למעלה, הדרום למטה, המזרח מימין והמערב משמאל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נמצא הצפון ברוב המפות?",
+   "answer": "למעלה",
+   "options": [
+    "למעלה",
+    "למטה",
+    "בצד ימין"
+   ],
+   "explain_he": "ברוב המפות הצפון למעלה, הדרום למטה, המזרח מימין והמערב משמאל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שלח יהושע את האנשים לעשות?",
+   "answer": "ללכת בכל הארץ ולכתוב איך היא נראית",
+   "options": [
+    "ללכת בכל הארץ ולכתוב איך היא נראית",
+    "לבנות חומה",
+    "לחפור בארות"
+   ],
+   "explain_he": "״לכו והתהלכו בארץ וכתבו אותה״, ולפי זה חילק יהושע את הארץ לשבטים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה שלח יהושע את האנשים לעשות?",
+   "answer": "ללכת בכל הארץ ולכתוב איך היא נראית",
+   "options": [
+    "ללכת בכל הארץ ולכתוב איך היא נראית",
+    "לבנות חומה",
+    "לחפור בארות"
+   ],
+   "explain_he": "״לכו והתהלכו בארץ וכתבו אותה״, ולפי זה חילק יהושע את הארץ לשבטים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מסמן הצבע הכחול במפה?",
+   "answer": "מים",
+   "options": [
+    "מים",
+    "הרים",
+    "כבישים"
+   ],
+   "explain_he": "כחול הוא ים, אגם ונהר. ירוק שטח נמוך, וחום הרים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מסמן הצבע הכחול במפה?",
+   "answer": "מים",
+   "options": [
+    "מים",
+    "הרים",
+    "כבישים"
+   ],
+   "explain_he": "כחול הוא ים, אגם ונהר. ירוק שטח נמוך, וחום הרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו קו המשווה?",
+   "answer": "קו דמיוני שמקיף את כדור הארץ באמצע, בין הקטבים",
+   "options": [
+    "קו דמיוני שמקיף את כדור הארץ באמצע, בין הקטבים",
+    "גבול בין שתי מדינות",
+    "נהר ארוך באפריקה"
+   ],
+   "explain_he": "ליד קו המשווה חם כל השנה, ומתרחקים ממנו לכיוון הקטבים הקרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה במפה שטוחה ארצות מסוימות נראות גדולות מדי?",
+   "answer": "כי כשמעבירים כדור לדף שטוח, משהו מתעוות",
+   "options": [
+    "כי כשמעבירים כדור לדף שטוח, משהו מתעוות",
+    "כי הצייר טעה",
+    "כי הן גדלות בכל שנה"
+   ],
+   "explain_he": "כמו קליפת תפוז שמנסים לשטח, אי אפשר להעביר כדור לדף בלי עיוות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f2e14"
+  }
+ ]
+}

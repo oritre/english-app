@@ -1,0 +1,627 @@
+{
+ "id": "k-gre-f4",
+ "unit_id": "k-gre-u2",
+ "course": "greece",
+ "title_he": "רומא וחורבן הבית השני",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "רומא וחורבן הבית השני",
+   "ref_he": "יוון ורומא",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מעצמה חדשה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Ancient Rome on its hills at golden hour: large stone buildings with columns and arches, a long straight paved road leading out of the city, a line of marching soldiers far away on it, a river with boats.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👨",
+     "say": [
+      "רומא התחילה כעיר קטנה באיטליה. אבל במשך מאות שנים היא גדלה, עד שהפכה לאימפריה הגדולה בעולם.",
+      "היו לה צבא מסודר, חוקים מפורטים, ודרכים סלולות שחיברו את כל חלקי הממלכה.",
+      "בתחילה רומא נראתה כמו ידידה. כבר בימי יהודה המכבי נכרתה ברית בין היהודים לרומאים.",
+      "חז\"ל ראו ברומא את המשך של עשיו, ולכן קראו לה \"אדום\". היא לא באה כמו יוון עם רעיונות, אלא בעיקר עם כוח.",
+      "וכשהגיעה לארץ ישראל, לפי ההזמנה של האחים החשמונאים שרבו ביניהם, היא כבר לא יצאה ממנה.",
+      "המצביא הרומי פומפיוס נכנס לירושלים, ומאותו יום היו היהודים כפופים לרומא, גם כשישב עליהם מלך יהודי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "בניין הורדוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The magnificent Second Temple after Herod's rebuilding seen from the Mount of Olives in morning sun: huge white and gold stones, vast courtyards and colonnades, crowds of pilgrims in robes going up, no statues.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "הרומאים מינו מלך על יהודה, אדם בשם הורדוס. הוא היה מלך אכזרי, ורדף את חכמי ישראל.",
+      "אבל הורדוס גם בנה מחדש ובהרחבה גדולה את בית המקדש, ועשה אותו מפואר להפליא.",
+      "חז\"ל אמרו: מי שלא ראה בניין הורדוס, לא ראה בניין נאה מימיו.",
+      "בחגים עלו לירושלים מאות אלפי יהודים, מכל הארץ ומכל העולם. המקדש היה מלא חיים.",
+      "בפסח הביאה כל משפחה קורבן פסח, וירושלים כולה התמלאה בשירת הלל."
+     ],
+     "pasuk": {
+      "text": "מִי שֶׁלֹּא רָאָה בִּנְיַן הוֹרְדוֹס, לֹא רָאָה בִּנְיָן נָאֶה מִיָּמָיו",
+      "ref": "בבא בתרא ד, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "עולים לרגל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A road winding up to Jerusalem through green hills in spring, crowds of Jewish families in robes and head coverings walking with baskets of fruit on their shoulders, a man playing a flute at the front, an ox with gilded horns and an olive wreath leading.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👦 🐂",
+     "say": [
+      "שלוש פעמים בשנה, בפסח, בשבועות ובסוכות, עלו יהודים מכל הארץ לירושלים, כפי שמצווה התורה.",
+      "המשנה במסכת ביכורים מתארת את העלייה עם הביכורים: השור הולך לפניהם, קרניו מצופות זהב ועטרה של זית בראשו, והחליל מכה לפניהם.",
+      "כשהגיעו לירושלים, יצאו בעלי המלאכה לקראתם ושאלו בשלומם: אחינו, אנשי מקום פלוני, באתם לשלום!",
+      "דמיינו את השמחה: עם שלם עולה אל בית השם, יחד.",
+      "ומי שלא יכול היה לעלות, התפלל בכל יום כשפניו לעבר ירושלים, כמו שאנחנו עושים עד היום."
+     ],
+     "pasuk": {
+      "text": "שָׁלוֹשׁ פְּעָמִים בַּשָּׁנָה יֵרָאֶה כָל זְכוּרְךָ אֶת פְּנֵי ה' אֱלֹקֶיךָ",
+      "ref": "דברים טז, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "קמצא ובר קמצא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A grand banquet hall in a Jerusalem mansion in the evening, lamps hanging, long tables, one man in a fine robe being led toward the door by a servant while respected guests sit and look away silently.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 👨 👨",
+     "say": [
+      "אבל משהו לא היה בסדר בעם. הגמרא במסכת יומא אומרת: המקדש השני, שהיו בו תורה, מצוות וגמילות חסדים, חרב מפני שנאת חינם.",
+      "הגמרא מביאה סיפור: אדם עשיר ערך סעודה, ושלח את משרתו להזמין את חברו קמצא. בטעות הוזמן דווקא שונאו, בר קמצא.",
+      "בעל הבית ביזה את בר קמצא וגירש אותו לעיני כולם, וחכמים שישבו שם לא מחו.",
+      "בר קמצא הנעלב הלך והלשין על היהודים אצל הקיסר. כך, מתוך שנאה אחת קטנה, התגלגל החורבן.",
+      "חז\"ל מלמדים שהשנאה הזאת שקולה כנגד שלוש העבירות החמורות ביותר יחד: עבודה זרה, גילוי עריות ושפיכות דמים."
+     ],
+     "pasuk": {
+      "text": "מִקְדָּשׁ שֵׁנִי... מִפְּנֵי מָה חָרַב? מִפְּנֵי שֶׁהָיְתָה בּוֹ שִׂנְאַת חִנָּם",
+      "ref": "יומא ט, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "רבן יוחנן בן זכאי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Night at the gate of besieged Jerusalem: two young sages in robes carefully carrying a closed wooden coffin out through the gate toward the distant Roman camp fires, the walls of the city high behind them.",
+     "move": "right",
+     "fx": "night",
+     "art": "👨 👨",
+     "say": [
+      "הרומאים צרו על ירושלים. בעיר היה רעב כבד, והקנאים, שרצו להילחם בכל מחיר, אף שרפו את מחסני המזון.",
+      "רבן יוחנן בן זכאי, גדול החכמים, הבין שהעיר עומדת ליפול. הוא שאל את עצמו: איך נציל את מה שהכי חשוב?",
+      "הוא ביקש מתלמידיו, רבי אליעזר ורבי יהושע, להוציא אותו מן העיר בתוך ארון מתים, כאילו מת.",
+      "כך יצא מן העיר, והגיע אל מחנה המצביא הרומי, אספסיאנוס.",
+      "רבי אליעזר ורבי יהושע, שנשאו את הארון, נעשו לימים מגדולי החכמים של הדור.",
+      "זו הייתה החלטה אמיצה וקשה: לצאת מן העיר אל האויב, כדי להציל את העתיד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "תן לי יבנה וחכמיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabban Yochanan ben Zakkai: a very old sage with a long white beard and a simple grey robe and head covering. Scene: ryz standing calmly before a Roman general in a red cloak inside a large army tent lit by oil lamps, a messenger hurrying in through the tent opening behind them, maps on a table.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "רבן יוחנן אמר לאספסיאנוס: שלום עליך, המלך. ובדיוק אז הגיע שליח מרומא, ובישר שאספסיאנוס נבחר לקיסר.",
+      "הקיסר החדש אמר לרבן יוחנן: בקש ממני משהו, ואתן לך.",
+      "ורבן יוחנן ביקש: תן לי יבנה וחכמיה. כלומר, תן לי עיר קטנה אחת, שבה יוכלו החכמים להמשיך ללמוד תורה.",
+      "זו הייתה בקשה קטנה. אבל היא הצילה את עם ישראל.",
+      "הוא ביקש גם להציל את משפחת רבן גמליאל, משפחת הנשיאים מבית דוד, ורופאים שירפאו את רבי צדוק, שצם ארבעים שנה כדי שירושלים לא תיחרב."
+     ],
+     "pasuk": {
+      "text": "תֵּן לִי יַבְנֶה וַחֲכָמֶיהָ",
+      "ref": "גיטין נו, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תשעה באב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Seen from far away on a hill at sunset: the city of Jerusalem with a column of smoke rising slowly from the Temple Mount into a red sky, a single Jewish man in a robe sitting on the ground in the foreground looking toward it.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "בתשעה באב, באותו יום שבו נחרב הבית הראשון, נשרף גם הבית השני. המצביא הרומי שהחריב אותו היה טיטוס, בנו של אספסיאנוס.",
+      "מכל המקדש המפואר, נשאר רק חלק מן החומה שסביב הר הבית: הכותל המערבי.",
+      "מאז, כבר קרוב לאלפיים שנה, יהודים יושבים על הארץ בתשעה באב, קוראים איכה, ומתפללים שבית המקדש ייבנה מחדש.",
+      "גם בכל שמחה אנחנו זוכרים את החורבן: שוברים כוס בחתונה, ומשאירים בבית מקום קטן שאינו מסויד, \"זכר לחורבן\".",
+      "ובכל תפילה אנחנו מבקשים: ותחזינה עינינו בשובך לציון ברחמים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ברומא עומדת עד היום \"קשת טיטוס\", ועליה חרוטים חיילים רומיים הנושאים את מנורת המקדש. יש יהודים שנמנעו לעבור תחתיה."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "הלב החדש של העם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabban Yochanan ben Zakkai: a very old sage with a long white beard and a simple grey robe and head covering. Scene: A modest study hall in the small town of Yavneh among vineyards in soft evening light, ryz teaching rows of sages and students sitting on low benches, a calm feeling of hope.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "בזמן שירושלים בערה, ביבנה כבר ישבו חכמים ולמדו. שם התחיל הלב החדש של עם ישראל.",
+      "במקום קורבנות, התפללו. במקום לעלות לרגל, למדו. בית המדרש הפך לבית המקדש הקטן של כל יהודי.",
+      "האימפריה הרומית ניצחה בקרב. אבל רבן יוחנן בן זכאי ניצח במשהו גדול יותר: הוא הבטיח שהתורה תמשיך.",
+      "מיבנה יצאו התקנות, התפילות והפסקים, שבזכותם עם ישראל יכול לחיות כעם של תורה גם בלי בית מקדש, בכל מקום בעולם.",
+      "מיבנה יצאו התקנות, התפילות והפסקים, שבזכותם עם ישראל יכול לחיות כעם של תורה גם בלי בית מקדש, בכל מקום בעולם."
+     ],
+     "pasuk": {
+      "text": "כִּי חֶסֶד חָפַצְתִּי וְלֹא זָבַח",
+      "ref": "הושע ו, ו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-gre-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "רומא וחורבן הבית השני",
+   "ref_he": "יוון ורומא",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מעצמה חדשה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Ancient Rome on its hills at golden hour: large stone buildings with columns and arches, a long straight paved road leading out of the city, a line of marching soldiers far away on it, a river with boats.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👨",
+     "say": [
+      "רומא התחילה כעיר קטנה באיטליה. אבל במשך מאות שנים היא גדלה, עד שהפכה לאימפריה הגדולה בעולם.",
+      "היו לה צבא מסודר, חוקים מפורטים, ודרכים סלולות שחיברו את כל חלקי הממלכה.",
+      "בתחילה רומא נראתה כמו ידידה. כבר בימי יהודה המכבי נכרתה ברית בין היהודים לרומאים.",
+      "חז\"ל ראו ברומא את המשך של עשיו, ולכן קראו לה \"אדום\". היא לא באה כמו יוון עם רעיונות, אלא בעיקר עם כוח.",
+      "וכשהגיעה לארץ ישראל, לפי ההזמנה של האחים החשמונאים שרבו ביניהם, היא כבר לא יצאה ממנה.",
+      "המצביא הרומי פומפיוס נכנס לירושלים, ומאותו יום היו היהודים כפופים לרומא, גם כשישב עליהם מלך יהודי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "בניין הורדוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The magnificent Second Temple after Herod's rebuilding seen from the Mount of Olives in morning sun: huge white and gold stones, vast courtyards and colonnades, crowds of pilgrims in robes going up, no statues.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "הרומאים מינו מלך על יהודה, אדם בשם הורדוס. הוא היה מלך אכזרי, ורדף את חכמי ישראל.",
+      "אבל הורדוס גם בנה מחדש ובהרחבה גדולה את בית המקדש, ועשה אותו מפואר להפליא.",
+      "חז\"ל אמרו: מי שלא ראה בניין הורדוס, לא ראה בניין נאה מימיו.",
+      "בחגים עלו לירושלים מאות אלפי יהודים, מכל הארץ ומכל העולם. המקדש היה מלא חיים.",
+      "בפסח הביאה כל משפחה קורבן פסח, וירושלים כולה התמלאה בשירת הלל."
+     ],
+     "pasuk": {
+      "text": "מִי שֶׁלֹּא רָאָה בִּנְיַן הוֹרְדוֹס, לֹא רָאָה בִּנְיָן נָאֶה מִיָּמָיו",
+      "ref": "בבא בתרא ד, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s2b",
+     "title_he": "עולים לרגל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A road winding up to Jerusalem through green hills in spring, crowds of Jewish families in robes and head coverings walking with baskets of fruit on their shoulders, a man playing a flute at the front, an ox with gilded horns and an olive wreath leading.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👦 🐂",
+     "say": [
+      "שלוש פעמים בשנה, בפסח, בשבועות ובסוכות, עלו יהודים מכל הארץ לירושלים, כפי שמצווה התורה.",
+      "המשנה במסכת ביכורים מתארת את העלייה עם הביכורים: השור הולך לפניהם, קרניו מצופות זהב ועטרה של זית בראשו, והחליל מכה לפניהם.",
+      "כשהגיעו לירושלים, יצאו בעלי המלאכה לקראתם ושאלו בשלומם: אחינו, אנשי מקום פלוני, באתם לשלום!",
+      "דמיינו את השמחה: עם שלם עולה אל בית השם, יחד.",
+      "ומי שלא יכול היה לעלות, התפלל בכל יום כשפניו לעבר ירושלים, כמו שאנחנו עושים עד היום."
+     ],
+     "pasuk": {
+      "text": "שָׁלוֹשׁ פְּעָמִים בַּשָּׁנָה יֵרָאֶה כָל זְכוּרְךָ אֶת פְּנֵי ה' אֱלֹקֶיךָ",
+      "ref": "דברים טז, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "קמצא ובר קמצא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A grand banquet hall in a Jerusalem mansion in the evening, lamps hanging, long tables, one man in a fine robe being led toward the door by a servant while respected guests sit and look away silently.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 👨 👨",
+     "say": [
+      "אבל משהו לא היה בסדר בעם. הגמרא במסכת יומא אומרת: המקדש השני, שהיו בו תורה, מצוות וגמילות חסדים, חרב מפני שנאת חינם.",
+      "הגמרא מביאה סיפור: אדם עשיר ערך סעודה, ושלח את משרתו להזמין את חברו קמצא. בטעות הוזמן דווקא שונאו, בר קמצא.",
+      "בעל הבית ביזה את בר קמצא וגירש אותו לעיני כולם, וחכמים שישבו שם לא מחו.",
+      "בר קמצא הנעלב הלך והלשין על היהודים אצל הקיסר. כך, מתוך שנאה אחת קטנה, התגלגל החורבן.",
+      "חז\"ל מלמדים שהשנאה הזאת שקולה כנגד שלוש העבירות החמורות ביותר יחד: עבודה זרה, גילוי עריות ושפיכות דמים."
+     ],
+     "pasuk": {
+      "text": "מִקְדָּשׁ שֵׁנִי... מִפְּנֵי מָה חָרַב? מִפְּנֵי שֶׁהָיְתָה בּוֹ שִׂנְאַת חִנָּם",
+      "ref": "יומא ט, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "רבן יוחנן בן זכאי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Night at the gate of besieged Jerusalem: two young sages in robes carefully carrying a closed wooden coffin out through the gate toward the distant Roman camp fires, the walls of the city high behind them.",
+     "move": "right",
+     "fx": "night",
+     "art": "👨 👨",
+     "say": [
+      "הרומאים צרו על ירושלים. בעיר היה רעב כבד, והקנאים, שרצו להילחם בכל מחיר, אף שרפו את מחסני המזון.",
+      "רבן יוחנן בן זכאי, גדול החכמים, הבין שהעיר עומדת ליפול. הוא שאל את עצמו: איך נציל את מה שהכי חשוב?",
+      "הוא ביקש מתלמידיו, רבי אליעזר ורבי יהושע, להוציא אותו מן העיר בתוך ארון מתים, כאילו מת.",
+      "כך יצא מן העיר, והגיע אל מחנה המצביא הרומי, אספסיאנוס.",
+      "רבי אליעזר ורבי יהושע, שנשאו את הארון, נעשו לימים מגדולי החכמים של הדור.",
+      "זו הייתה החלטה אמיצה וקשה: לצאת מן העיר אל האויב, כדי להציל את העתיד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "תן לי יבנה וחכמיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabban Yochanan ben Zakkai: a very old sage with a long white beard and a simple grey robe and head covering. Scene: ryz standing calmly before a Roman general in a red cloak inside a large army tent lit by oil lamps, a messenger hurrying in through the tent opening behind them, maps on a table.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "רבן יוחנן אמר לאספסיאנוס: שלום עליך, המלך. ובדיוק אז הגיע שליח מרומא, ובישר שאספסיאנוס נבחר לקיסר.",
+      "הקיסר החדש אמר לרבן יוחנן: בקש ממני משהו, ואתן לך.",
+      "ורבן יוחנן ביקש: תן לי יבנה וחכמיה. כלומר, תן לי עיר קטנה אחת, שבה יוכלו החכמים להמשיך ללמוד תורה.",
+      "זו הייתה בקשה קטנה. אבל היא הצילה את עם ישראל.",
+      "הוא ביקש גם להציל את משפחת רבן גמליאל, משפחת הנשיאים מבית דוד, ורופאים שירפאו את רבי צדוק, שצם ארבעים שנה כדי שירושלים לא תיחרב."
+     ],
+     "pasuk": {
+      "text": "תֵּן לִי יַבְנֶה וַחֲכָמֶיהָ",
+      "ref": "גיטין נו, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "האם ביקש מעט מדי?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabban Yochanan ben Zakkai: a very old sage with a long white beard and a simple grey robe and head covering. Scene: ryz sitting alone at night in a small room in Yavneh, deep in thought beside a single oil lamp, a window showing a faint red glow on the far horizon toward Jerusalem.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴",
+     "say": [
+      "הגמרא עצמה שואלת שאלה קשה: למה לא ביקש רבן יוחנן מאספסיאנוס לוותר הפעם על ירושלים, ולהשאיר את המקדש?",
+      "יש מי שקרא עליו את הפסוק: משיב חכמים אחור ודעתם יסכל. כלומר, שבאותו רגע נלקחה ממנו החכמה לבקש יותר.",
+      "אבל הגמרא מביאה גם את חשבונו של רבן יוחנן: הוא חשש שאם יבקש דבר גדול מדי, הקיסר יסרב לגמרי, ולא תהיה אפילו הצלה קטנה.",
+      "ואכן, ההצלה הקטנה הזאת התגלתה כגדולה מאוד: היא שמרה על עם ישראל במשך אלפיים שנות גלות.",
+      "זו הדרך שבה הגמרא לומדת: היא לא מסתירה שאלות קשות, גם על גדולי החכמים. היא שוקלת כל צד באמת ובכבוד.",
+      "ומה שבטוח: בזכות יבנה, עם ישראל קיים ולומד עד היום."
+     ],
+     "pasuk": {
+      "text": "מֵשִׁיב חֲכָמִים אָחוֹר וְדַעְתָּם יְסַכֵּל",
+      "ref": "ישעיהו מד, כה"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תשעה באב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Seen from far away on a hill at sunset: the city of Jerusalem with a column of smoke rising slowly from the Temple Mount into a red sky, a single Jewish man in a robe sitting on the ground in the foreground looking toward it.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "בתשעה באב, באותו יום שבו נחרב הבית הראשון, נשרף גם הבית השני. המצביא הרומי שהחריב אותו היה טיטוס, בנו של אספסיאנוס.",
+      "מכל המקדש המפואר, נשאר רק חלק מן החומה שסביב הר הבית: הכותל המערבי.",
+      "מאז, כבר קרוב לאלפיים שנה, יהודים יושבים על הארץ בתשעה באב, קוראים איכה, ומתפללים שבית המקדש ייבנה מחדש.",
+      "גם בכל שמחה אנחנו זוכרים את החורבן: שוברים כוס בחתונה, ומשאירים בבית מקום קטן שאינו מסויד, \"זכר לחורבן\".",
+      "ובכל תפילה אנחנו מבקשים: ותחזינה עינינו בשובך לציון ברחמים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ברומא עומדת עד היום \"קשת טיטוס\", ועליה חרוטים חיילים רומיים הנושאים את מנורת המקדש. יש יהודים שנמנעו לעבור תחתיה."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "הלב החדש של העם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabban Yochanan ben Zakkai: a very old sage with a long white beard and a simple grey robe and head covering. Scene: A modest study hall in the small town of Yavneh among vineyards in soft evening light, ryz teaching rows of sages and students sitting on low benches, a calm feeling of hope.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "בזמן שירושלים בערה, ביבנה כבר ישבו חכמים ולמדו. שם התחיל הלב החדש של עם ישראל.",
+      "במקום קורבנות, התפללו. במקום לעלות לרגל, למדו. בית המדרש הפך לבית המקדש הקטן של כל יהודי.",
+      "מסופר שרבי יהושע ראה את חורבות המקדש ובכה: אוי לנו, המקום שבו התכפרו עוונותינו חרב! ענה לו רבן יוחנן: בני, יש לנו כפרה שהיא כמותה, גמילות חסדים. שנאמר: כי חסד חפצתי ולא זבח.",
+      "כלומר, גם בלי מקדש, כל מעשה חסד שיהודי עושה הוא כמו קורבן על המזבח.",
+      "ותזכרו: החורבן בא בגלל שנאת חינם. והתיקון שלו מתחיל באהבת חינם ובגמילות חסדים.",
+      "האימפריה הרומית ניצחה בקרב. אבל רבן יוחנן בן זכאי ניצח במשהו גדול יותר: הוא הבטיח שהתורה תמשיך.",
+      "מיבנה יצאו התקנות, התפילות והפסקים, שבזכותם עם ישראל יכול לחיות כעם של תורה גם בלי בית מקדש, בכל מקום בעולם.",
+      "מיבנה יצאו התקנות, התפילות והפסקים, שבזכותם עם ישראל יכול לחיות כעם של תורה גם בלי בית מקדש, בכל מקום בעולם."
+     ],
+     "pasuk": {
+      "text": "כִּי חֶסֶד חָפַצְתִּי וְלֹא זָבַח",
+      "ref": "הושע ו, ו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-gre-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באילו חגים עלו לרגל לירושלים?",
+   "answer": "פסח, שבועות וסוכות",
+   "options": [
+    "פסח, שבועות וסוכות",
+    "ראש השנה, יום כיפור וסוכות",
+    "חנוכה, פורים ופסח",
+    "רק ביום כיפור"
+   ],
+   "explain_he": "שלוש פעמים בשנה, בפסח, בשבועות ובסוכות, עלו יהודים מכל הארץ לירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באילו חגים עלו לרגל לירושלים?",
+   "answer": "פסח, שבועות וסוכות",
+   "options": [
+    "פסח, שבועות וסוכות",
+    "ראש השנה, יום כיפור וסוכות",
+    "חנוכה, פורים ופסח",
+    "רק ביום כיפור"
+   ],
+   "explain_he": "שלוש פעמים בשנה, בפסח, בשבועות ובסוכות, עלו יהודים מכל הארץ לירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה, לפי חשבונו, לא ביקש רבן יוחנן להציל את ירושלים כולה?",
+   "answer": "חשש שהקיסר יסרב לגמרי ולא תהיה אפילו הצלה קטנה",
+   "options": [
+    "חשש שהקיסר יסרב לגמרי ולא תהיה אפילו הצלה קטנה",
+    "כי לא אהב את ירושלים",
+    "כי לא ידע שהיא בסכנה",
+    "כי הקיסר אסר עליו לדבר"
+   ],
+   "explain_he": "הגמרא מביאה את שני הצדדים: יש שאמרו \"משיב חכמים אחור\", ורבן יוחנן חשב שבקשה גדולה מדי תידחה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קראו חז\"ל לרומא?",
+   "answer": "אדום",
+   "options": [
+    "אדום",
+    "יוון",
+    "בבל",
+    "כנען"
+   ],
+   "explain_he": "חז\"ל ראו ברומא את המשך של עשיו, ולכן קראו לה אדום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קראו חז\"ל לרומא?",
+   "answer": "אדום",
+   "options": [
+    "אדום",
+    "יוון",
+    "בבל",
+    "כנען"
+   ],
+   "explain_he": "חז\"ל ראו ברומא את המשך של עשיו, ולכן קראו לה אדום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו חז\"ל על בניין הורדוס?",
+   "answer": "מי שלא ראה אותו, לא ראה בניין נאה מימיו",
+   "options": [
+    "מי שלא ראה אותו, לא ראה בניין נאה מימיו",
+    "שהוא היה קטן מדי",
+    "שאסור היה להיכנס אליו",
+    "שהוא נבנה ביום אחד"
+   ],
+   "explain_he": "הורדוס בנה מחדש את המקדש בפאר רב, וחז\"ל אמרו: מי שלא ראה בניין הורדוס, לא ראה בניין נאה מימיו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו חז\"ל על בניין הורדוס?",
+   "answer": "מי שלא ראה אותו, לא ראה בניין נאה מימיו",
+   "options": [
+    "מי שלא ראה אותו, לא ראה בניין נאה מימיו",
+    "שהוא היה קטן מדי",
+    "שאסור היה להיכנס אליו",
+    "שהוא נבנה ביום אחד"
+   ],
+   "explain_he": "הורדוס בנה מחדש את המקדש בפאר רב, וחז\"ל אמרו: מי שלא ראה בניין הורדוס, לא ראה בניין נאה מימיו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הגמרא, למה חרב המקדש השני?",
+   "answer": "מפני שנאת חינם",
+   "options": [
+    "מפני שנאת חינם",
+    "מפני שלא למדו תורה",
+    "מפני שלא היה כסף",
+    "מפני שהמקדש היה ישן"
+   ],
+   "explain_he": "בבית השני היו תורה, מצוות וחסד, אבל הוא חרב מפני שנאת חינם, כמו בסיפור קמצא ובר קמצא.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הגמרא, למה חרב המקדש השני?",
+   "answer": "מפני שנאת חינם",
+   "options": [
+    "מפני שנאת חינם",
+    "מפני שלא למדו תורה",
+    "מפני שלא היה כסף",
+    "מפני שהמקדש היה ישן"
+   ],
+   "explain_he": "בבית השני היו תורה, מצוות וחסד, אבל הוא חרב מפני שנאת חינם, כמו בסיפור קמצא ובר קמצא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך יצא רבן יוחנן בן זכאי מירושלים הנצורה?",
+   "answer": "תלמידיו הוציאו אותו בתוך ארון",
+   "options": [
+    "תלמידיו הוציאו אותו בתוך ארון",
+    "הוא טיפס על החומה בחבל",
+    "הוא חפר מנהרה",
+    "הרומאים הזמינו אותו"
+   ],
+   "explain_he": "רבי אליעזר ורבי יהושע הוציאו אותו בארון, כאילו מת, והוא הגיע אל אספסיאנוס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך יצא רבן יוחנן בן זכאי מירושלים הנצורה?",
+   "answer": "תלמידיו הוציאו אותו בתוך ארון",
+   "options": [
+    "תלמידיו הוציאו אותו בתוך ארון",
+    "הוא טיפס על החומה בחבל",
+    "הוא חפר מנהרה",
+    "הרומאים הזמינו אותו"
+   ],
+   "explain_he": "רבי אליעזר ורבי יהושע הוציאו אותו בארון, כאילו מת, והוא הגיע אל אספסיאנוס.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הבקשה \"תן לי יבנה וחכמיה\" הייתה כל כך חשובה?",
+   "answer": "כי בזכותה המשיכו ללמוד תורה, והעם ניצל",
+   "options": [
+    "כי בזכותה המשיכו ללמוד תורה, והעם ניצל",
+    "כי ביבנה היה הרבה זהב",
+    "כי יבנה הייתה עיר גדולה",
+    "כי שם נבנה מקדש חדש"
+   ],
+   "explain_he": "רבן יוחנן ביקש מקום שבו החכמים ימשיכו ללמוד, וכך הבטיח שהתורה תמשיך.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הבקשה \"תן לי יבנה וחכמיה\" הייתה כל כך חשובה?",
+   "answer": "כי בזכותה המשיכו ללמוד תורה, והעם ניצל",
+   "options": [
+    "כי בזכותה המשיכו ללמוד תורה, והעם ניצל",
+    "כי ביבנה היה הרבה זהב",
+    "כי יבנה הייתה עיר גדולה",
+    "כי שם נבנה מקדש חדש"
+   ],
+   "explain_he": "רבן יוחנן ביקש מקום שבו החכמים ימשיכו ללמוד, וכך הבטיח שהתורה תמשיך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נשאר מבית המקדש השני?",
+   "answer": "חלק מהחומה שסביב הר הבית, הכותל המערבי",
+   "options": [
+    "חלק מהחומה שסביב הר הבית, הכותל המערבי",
+    "המזבח כולו",
+    "המנורה, בירושלים",
+    "שום דבר לא נשאר"
+   ],
+   "explain_he": "מכל המקדש נשאר רק חלק מהחומה סביב הר הבית: הכותל המערבי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה רבן יוחנן לרבי יהושע שבכה על החורבן?",
+   "answer": "יש לנו כפרה שהיא כמו הקורבנות: גמילות חסדים",
+   "options": [
+    "יש לנו כפרה שהיא כמו הקורבנות: גמילות חסדים",
+    "אין מה לעשות יותר",
+    "צריך לבנות מקדש ביבנה",
+    "נחכה עד שהרומאים ילכו"
+   ],
+   "explain_he": "רבן יוחנן לימד: כי חסד חפצתי ולא זבח. גמילות חסדים מכפרת כמו הקורבנות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f4e17"
+  }
+ ]
+}

@@ -1,0 +1,550 @@
+{
+ "id": "k-mik-f2",
+ "unit_id": "k-mik-u1",
+ "course": "mikdash",
+ "title_he": "דוד ושלמה בונים את הבית",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "דוד ושלמה בונים את הבית",
+   "ref_he": "בית המקדש",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "דוד רוצה לבנות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. The prophet Natan: an older man with a grey beard in a plain dark robe, serious and kind. Scene: King David in a palace hall of cedar wood in Jerusalem, speaking with the prophet Natan; through a window a simple tent can be seen on the hill. Warm afternoon light.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👴",
+     "say": [
+      "דוד המלך גר בירושלים, בארמון יפה מעצי ארז.",
+      "יום אחד הוא אמר לנתן הנביא: אני גר בארמון, וארון השם נמצא רק באוהל? אני רוצה לבנות לו בית!",
+      "אבל השם שלח את נתן לומר לדוד: לא אתה תבנה את הבית. הבן שלך יבנה אותו.",
+      "האם דוד כעס? לא! הוא אמר: אם בני יבנה – אני אכין לו הכול."
+     ],
+     "pasuk": {
+      "text": "הוּא יִבְנֶה בַּיִת לִשְׁמִי",
+      "ref": "שמואל ב ז, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "המקום – הר המוריה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: A rocky hilltop threshing floor above Jerusalem at sunrise: oxen, sheaves of wheat, a farmer bowing, and King David handing him a pouch of silver; a simple stone altar beside them.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🪨 🐂",
+     "say": [
+      "איפה יעמוד הבית? על הר בירושלים, ששמו הר המוריה.",
+      "על ההר היה גורן – מקום שבו דשים חיטה. הוא היה שייך לאיש בשם ארוונה.",
+      "ארוונה רצה לתת את המקום לדוד במתנה. אבל דוד אמר: לא, אני אקנה אותו בכסף מלא.",
+      "ודוד בנה שם מזבח. זה היה המקום שבו יעמוד בית המקדש."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הר המוריה הוא אותו הר שעליו אברהם אבינו עקד את יצחק."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "דוד מכין הכול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, calm wise face. Scene: An old King David in a palace courtyard handing a rolled scroll of building plans to his young son Shlomo; behind them piles of cut stones, cedar logs, bronze and gold.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👦",
+     "say": [
+      "דוד התחיל להכין. הוא אסף אבנים גדולות, עצי ארז, נחושת, כסף והרבה זהב.",
+      "הוא הכין תוכנית: איך ייראה הבית, איפה יעמדו הכלים.",
+      "וכשדוד היה זקן, הוא קרא לבנו שלמה ונתן לו את התוכנית.",
+      "הוא אמר לו: חזק ואמץ, בני. אל תפחד, השם איתך."
+     ],
+     "pasuk": {
+      "text": "הַכֹּל בִּכְתָב מִיַּד ה' עָלַי הִשְׂכִּיל",
+      "ref": "דברי הימים א כח, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שלמה מתחיל לבנות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, calm wise face. Scene: A great building site on Mount Moriah: workers in tunics raising huge pale stones with ropes and wooden beams, cedar logs arriving on ox carts, young King Shlomo watching from a rise. Morning haze.",
+     "move": "out",
+     "fx": "dust",
+     "art": "🪨 👨",
+     "say": [
+      "דוד נפטר, ושלמה בנו נעשה מלך. ושלמה התחיל לבנות את בית המקדש.",
+      "אלפי פועלים עבדו בבנייה. הם הרימו אבנים גדולות מאוד, אחת על השנייה.",
+      "מהרי הלבנון, מצפון, הביאו עצי ארז ריחניים.",
+      "זה היה לפני כמעט שלושת אלפים שנה.",
+      "שלמה היה המלך הכי חכם. כשהשם שאל אותו בחלום מה הוא רוצה, הוא לא ביקש כסף. הוא ביקש חכמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "בלי קול של ברזל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A distant stone quarry where craftsmen shape large blocks, and on the mountain other workers quietly lowering a finished stone into place with ropes, no hammers in sight. Peaceful, careful work.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🪨 🪨",
+     "say": [
+      "והנה דבר מפליא: על ההר לא שמעו בכלל קול של פטיש או גרזן!",
+      "את האבנים חתכו והכינו רחוק, במקום אחר. ועל ההר רק הניחו אותן, בשקט.",
+      "למה? כי בית המקדש הוא בית של שלום.",
+      "ומכלי ברזל עושים גם חרבות, לכן לא רצו שקול הברזל יישמע בבית של שלום."
+     ],
+     "pasuk": {
+      "text": "וּמַקָּבוֹת וְהַגַּרְזֶן כָּל כְּלִי בַרְזֶל לֹא נִשְׁמַע בַּבַּיִת בְּהִבָּנֹתוֹ",
+      "ref": "מלכים א ו, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הבית המפואר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: The finished First Temple on Mount Moriah in golden morning light: a tall building of white stone, two great bronze pillars at its entrance, a wide courtyard with a large altar, Jerusalem below.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "שבע שנים בנו, ובסוף הבית היה מוכן.",
+      "כמה יפה הוא היה! אבנים לבנות, עצי ארז, וזהב בכל מקום בפנים.",
+      "בכניסה עמדו שני עמודים גדולים של נחושת.",
+      "ומכל ירושלים אפשר היה לראות אותו, גבוה על ההר.",
+      "ובפנים, בחדר הכי קדוש, הניחו את ארון הברית – אותו ארון שבנה בצלאל במדבר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שבית המקדש הראשון עמד 410 שנים."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "שלמה מתפלל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, calm wise face. Scene: King Shlomo kneeling on a bronze platform in the Temple courtyard with his hands spread toward the sky, a vast crowd standing quietly around, a soft beam of warm light descending onto the altar.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👨 👩",
+     "say": [
+      "ואז הגיע יום החנוכה של הבית. כל עם ישראל בא לירושלים.",
+      "שלמה כרע על ברכיו ופרש ידיים לשמיים. הוא ביקש: כל מי שיתפלל במקום הזה – שמע את תפילתו.",
+      "וכשסיים להתפלל, ירדה אש מהשמיים על המזבח!",
+      "כל העם השתחוו ואמרו: \"כי טוב, כי לעולם חסדו\". ועד היום, כשאנחנו מתפללים, אנחנו פונים לכיוון ירושלים."
+     ],
+     "pasuk": {
+      "text": "וּכְכַלּוֹת שְׁלֹמֹה לְהִתְפַּלֵּל, וְהָאֵשׁ יָרְדָה מֵהַשָּׁמַיִם",
+      "ref": "דברי הימים ב ז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "שמחים וטובי לב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Scene: Families in modest festive clothes walking home from Jerusalem along a hillside road at sunset, singing, children riding donkeys, the Temple shining on the mountain behind them.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "אחרי חנוכת הבית עשו חג גדול: שבעה ימים, ועוד שבעה ימים.",
+      "כל העם אכלו יחד, שמחו והודו לשם.",
+      "וכשחזרו הביתה, התנ\"ך אומר שהם היו \"שמחים וטובי לב\".",
+      "סוף סוף יש לעם ישראל בית לשם, בירושלים. ובשיעור הבא נכיר את הכלים הקדושים שבתוכו."
+     ],
+     "pasuk": {
+      "text": "וַיֵּלְכוּ לְאָהֳלֵיהֶם שְׂמֵחִים וְטוֹבֵי לֵב",
+      "ref": "מלכים א ח, סו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-mik-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🕍 ידע כללי",
+   "title_he": "דוד ושלמה בונים את הבית",
+   "ref_he": "בית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "דוד רוצה לבנות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. The prophet Natan: an older man with a grey beard in a plain dark robe, serious and kind. Scene: King David in a palace hall of cedar wood in Jerusalem, speaking with the prophet Natan; through a window a simple tent can be seen on the hill. Warm afternoon light.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👴",
+     "say": [
+      "דוד המלך כבש את ירושלים ועשה אותה לבירת ישראל. הוא גר שם בארמון של ארזים, ואת ארון השם הביא לאוהל בעיר דוד.",
+      "יום אחד אמר דוד לנתן הנביא: אני יושב בבית של ארזים, וארון השם יושב בתוך יריעה, באוהל! הוא רצה לבנות בית לשם.",
+      "אבל בלילה ההוא נאמר לנתן בנבואה: לא דוד יבנה את הבית, אלא בנו. \"הוא יבנה בית לשמי\".",
+      "ודוד לא התאכזב. הוא הודה לשם על הבטחה גדולה – שמלכות בית דוד תעמוד לעד – והתחיל להכין הכול בשביל בנו."
+     ],
+     "pasuk": {
+      "text": "הוּא יִבְנֶה בַּיִת לִשְׁמִי",
+      "ref": "שמואל ב ז, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "המקום – הר המוריה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. Scene: A rocky hilltop threshing floor above Jerusalem at sunrise: oxen, sheaves of wheat, a farmer bowing, and King David handing him a pouch of silver; a simple stone altar beside them.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🪨 🐂",
+     "say": [
+      "המקום נבחר על הר המוריה, ההר שבו אברהם אבינו עקד את יצחק, מעל עיר דוד.",
+      "על ההר היה גורן של ארוונה היבוסי. ארוונה רצה לתת לדוד את המקום ואת השוורים במתנה.",
+      "אבל דוד ענה: \"קנו אקנה מאותך במחיר\" – אני לא אקריב לשם קורבן שלא שילמתי עליו.",
+      "שם בנה דוד מזבח והקריב קורבנות. ובמקום הזה, שנים אחר כך, בנה שלמה את בית המקדש.",
+      "ובדברי הימים כתוב במפורש: שלמה בנה את הבית \"בהר המוריה\", במקום שהכין דוד אביו, בגורן של היבוסי."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הר המוריה הוא אותו הר שעליו אברהם אבינו עקד את יצחק."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "דוד מכין הכול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, calm wise face. Scene: An old King David in a palace courtyard handing a rolled scroll of building plans to his young son Shlomo; behind them piles of cut stones, cedar logs, bronze and gold.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👦",
+     "say": [
+      "כל ימיו האחרונים הקדיש דוד להכנות: אבנים חצובות, ארזים לרוב, נחושת, ברזל, כסף וזהב.",
+      "הוא גם חילק את הכהנים והלוויים למשמרות, כדי שכל אחד יידע מתי תורו לעבוד, וכתב שירים שהלוויים ישירו.",
+      "ולפני מותו נתן לשלמה את התבנית של הבית. התבנית לא הייתה המצאה של דוד: \"הכל בכתב מיד ה' עלי השכיל\".",
+      "ודוד אמר לשלמה מול כל העם: \"חזק ואמץ ועשה, אל תירא ואל תחת\"."
+     ],
+     "pasuk": {
+      "text": "הַכֹּל בִּכְתָב מִיַּד ה' עָלַי הִשְׂכִּיל",
+      "ref": "דברי הימים א כח, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שלמה מתחיל לבנות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, calm wise face. Scene: A great building site on Mount Moriah: workers in tunics raising huge pale stones with ropes and wooden beams, cedar logs arriving on ox carts, young King Shlomo watching from a rise. Morning haze.",
+     "move": "out",
+     "fx": "dust",
+     "art": "🪨 👨",
+     "say": [
+      "שלמה המלך התחיל לבנות בשנה הרביעית למלכותו, ארבע מאות ושמונים שנה אחרי יציאת מצרים.",
+      "חירם מלך צור, שכן וידיד, שלח לו עצי ארז וברוש מהרי הלבנון. את העצים קשרו לרפסודות והשיטו אותם בים.",
+      "עשרות אלפי פועלים חצבו אבנים בהרים, וסבלים נשאו אותן אל ההר.",
+      "זה היה לפני כמעט שלושת אלפים שנה, ועד היום אנחנו זוכרים את הבנייה הזאת.",
+      "ושלמה היה חכם מכל אדם. כשנגלה אליו השם בחלום ואמר \"שאל מה אתן לך\", הוא לא ביקש עושר, אלא לב מבין לשפוט את העם. והשם נתן לו חכמה – וגם עושר וכבוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "בלי קול של ברזל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: A distant stone quarry where craftsmen shape large blocks, and on the mountain other workers quietly lowering a finished stone into place with ropes, no hammers in sight. Peaceful, careful work.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🪨 🪨",
+     "say": [
+      "פרט מופלא מסופר בספר מלכים: כל כלי ברזל \"לא נשמע בבית בהבנותו\".",
+      "את האבנים סיתתו והתאימו במחצבה, ועל ההר רק הניחו אותן, אבן על אבן, בשקט.",
+      "רש\"י מסביר את הרעיון: מהברזל עושים חרבות, שמקצרות את חיי האדם, והמזבח נועד להאריך חיים ולהביא שלום.",
+      "בית המקדש הוא בית שמקרב בין האדם לשם, ובין אדם לחברו. אין בו מקום לכלי מלחמה."
+     ],
+     "pasuk": {
+      "text": "וּמַקָּבוֹת וְהַגַּרְזֶן כָּל כְּלִי בַרְזֶל לֹא נִשְׁמַע בַּבַּיִת בְּהִבָּנֹתוֹ",
+      "ref": "מלכים א ו, ז"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מספרים על השמיר – יצור קטנטן שהיה יכול לבקע אבנים, ושלמה נעזר בו בבניין המקדש."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "הבית המפואר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain.  Scene: The finished First Temple on Mount Moriah in golden morning light: a tall building of white stone, two great bronze pillars at its entrance, a wide courtyard with a large altar, Jerusalem below.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "שבע שנים נמשכה הבנייה, ובסופה עמד על ההר בית מפואר: אבנים גדולות, קורות ארז, ובפנים הכול מצופה זהב.",
+      "בכניסה עמדו שני עמודי נחושת ענקיים, ולהם שמות: יכין ובועז.",
+      "בחצר עמד מזבח גדול, ושלמה עשה גם \"ים\" – כיור ענק של נחושת, שעמד על שנים עשר שוורים מנחושת.",
+      "ובמקום הכי פנימי – קודש הקודשים, שבו הונח ארון הברית, אותו ארון שבנה בצלאל במדבר.",
+      "ושלמה הוסיף עשר מנורות ועשרה שולחנות של זהב. אבל ארון הברית נשאר אחד – הארון מהמדבר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שבית המקדש הראשון עמד 410 שנים."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "שלמה מתפלל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, calm wise face. Scene: King Shlomo kneeling on a bronze platform in the Temple courtyard with his hands spread toward the sky, a vast crowd standing quietly around, a soft beam of warm light descending onto the altar.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👨 👩",
+     "say": [
+      "הכהנים הכניסו את ארון הברית אל קודש הקודשים, והענן מילא את הבית – כמו במשכן במדבר.",
+      "שלמה עמד מול כל העם ופרש כפיו השמיימה. הוא ביקש שהשם ישמע כל תפילה שתתפלל במקום הזה, ואפילו מי שיתפלל מארץ רחוקה, כשפניו אל הבית.",
+      "וכשכילה שלמה להתפלל, ירדה אש מן השמיים ואכלה את הקורבנות. כל העם כרעו ואמרו: \"כי טוב, כי לעולם חסדו\".",
+      "בגלל התפילה הזאת, יהודים בכל העולם מתפללים עד היום כשפניהם אל ירושלים, אל מקום המקדש."
+     ],
+     "pasuk": {
+      "text": "וּכְכַלּוֹת שְׁלֹמֹה לְהִתְפַּלֵּל, וְהָאֵשׁ יָרְדָה מֵהַשָּׁמַיִם",
+      "ref": "דברי הימים ב ז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "שמחים וטובי לב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in Tanach times: the Israelite desert camp, then Jerusalem on its hills of golden limestone, the Holy Temple as a majestic building of white stone and gold within wide courtyards. Rich blue, purple and scarlet fabrics, warm golden light. The Holy of Holies is only ever seen from outside, behind a closed embroidered curtain. A pilgrim family: a bearded father with a kippah, a mother in a long dress and headscarf, a boy of eight and a girl of six in modest clothes. Scene: Families in modest festive clothes walking home from Jerusalem along a hillside road at sunset, singing, children riding donkeys, the Temple shining on the mountain behind them.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👧 👦",
+     "say": [
+      "שלמה וכל ישראל חגגו את חנוכת הבית שבעה ימים, ואחריהם עוד שבעה ימים – חג הסוכות.",
+      "אנשים באו מכל קצות הארץ, מלבוא חמת בצפון ועד נחל מצרים בדרום. \"קהל גדול מאוד\", אומר הפסוק.",
+      "ובסוף החג בירך העם את המלך, \"וילכו לאהליהם שמחים וטובי לב\", על כל הטובה שעשה השם לדוד עבדו ולישראל עמו.",
+      "החלום של דוד התגשם בידי בנו. בשיעור הבא ניכנס פנימה ונכיר את הכלים הקדושים."
+     ],
+     "pasuk": {
+      "text": "וַיֵּלְכוּ לְאָהֳלֵיהֶם שְׂמֵחִים וְטוֹבֵי לֵב",
+      "ref": "מלכים א ח, סו"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-mik-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר נתן הנביא לדוד בשם השם?",
+   "answer": "שהבן שלו יבנה את בית המקדש",
+   "options": [
+    "שהבן שלו יבנה את בית המקדש",
+    "שאסור לבנות בית לשם לעולם",
+    "שיבנה את הבית במדבר"
+   ],
+   "explain_he": "השם אמר לדוד, דרך נתן הנביא, שבנו – שלמה – יבנה את הבית. ודוד הכין לו הכול.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר נתן הנביא לדוד בשם השם?",
+   "answer": "שהבן שלו יבנה את בית המקדש",
+   "options": [
+    "שהבן שלו יבנה את בית המקדש",
+    "שאסור לבנות בית לשם לעולם",
+    "שיבנה את הבית במדבר"
+   ],
+   "explain_he": "השם אמר לדוד, דרך נתן הנביא, שבנו – שלמה – יבנה את הבית. ודוד הכין לו הכול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דוד לא קיבל את המקום מארוונה במתנה?",
+   "answer": "כי רצה לקנות אותו בכסף מלא, ולא לתת לשם מתנה שלא שילם עליה",
+   "options": [
+    "כי רצה לקנות אותו בכסף מלא, ולא לתת לשם מתנה שלא שילם עליה",
+    "כי המקום לא מצא חן בעיניו",
+    "כי ארוונה ביקש ממנו לעזוב"
+   ],
+   "explain_he": "דוד אמר שהוא יקנה את המקום במחיר מלא, ולא יקריב לשם קורבן שלא שילם עליו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דוד לא קיבל את המקום מארוונה במתנה?",
+   "answer": "כי רצה לקנות אותו בכסף מלא, ולא לתת לשם מתנה שלא שילם עליה",
+   "options": [
+    "כי רצה לקנות אותו בכסף מלא, ולא לתת לשם מתנה שלא שילם עליה",
+    "כי המקום לא מצא חן בעיניו",
+    "כי ארוונה ביקש ממנו לעזוב"
+   ],
+   "explain_he": "דוד אמר שהוא יקנה את המקום במחיר מלא, ולא יקריב לשם קורבן שלא שילם עליו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על איזה הר נבנה בית המקדש?",
+   "answer": "הר המוריה",
+   "options": [
+    "הר המוריה",
+    "הר סיני",
+    "הר הכרמל"
+   ],
+   "explain_he": "בית המקדש נבנה על הר המוריה בירושלים – ההר שבו אברהם עקד את יצחק.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על איזה הר נבנה בית המקדש?",
+   "answer": "הר המוריה",
+   "options": [
+    "הר המוריה",
+    "הר סיני",
+    "הר הכרמל"
+   ],
+   "explain_he": "בית המקדש נבנה על הר המוריה בירושלים – ההר שבו אברהם עקד את יצחק.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים בנו את בית המקדש הראשון?",
+   "answer": "שבע שנים",
+   "options": [
+    "שבע שנים",
+    "שנה אחת",
+    "ארבעים שנה"
+   ],
+   "explain_he": "שלמה בנה את בית המקדש שבע שנים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא שמעו קול של ברזל בזמן הבנייה?",
+   "answer": "כי מברזל עושים חרבות, והמקדש הוא בית של שלום",
+   "options": [
+    "כי מברזל עושים חרבות, והמקדש הוא בית של שלום",
+    "כי לא היה להם ברזל בכלל",
+    "כי המלך ישן בזמן הבנייה"
+   ],
+   "explain_he": "את האבנים הכינו במקום אחר. מברזל עושים כלי מלחמה, ובית המקדש בא להביא שלום.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא שמעו קול של ברזל בזמן הבנייה?",
+   "answer": "כי מברזל עושים חרבות, והמקדש הוא בית של שלום",
+   "options": [
+    "כי מברזל עושים חרבות, והמקדש הוא בית של שלום",
+    "כי לא היה להם ברזל בכלל",
+    "כי המלך ישן בזמן הבנייה"
+   ],
+   "explain_he": "את האבנים הכינו במקום אחר. מברזל עושים כלי מלחמה, ובית המקדש בא להביא שלום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה כששלמה סיים להתפלל?",
+   "answer": "ירדה אש מהשמיים על המזבח",
+   "options": [
+    "ירדה אש מהשמיים על המזבח",
+    "ירד גשם חזק",
+    "נשבה רוח וכיבתה את האש"
+   ],
+   "explain_he": "כששלמה סיים להתפלל ירדה אש מן השמיים, וכל העם השתחוו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-mik-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי שלח לשלמה עצי ארז מהלבנון?",
+   "answer": "חירם מלך צור",
+   "options": [
+    "חירם מלך צור",
+    "פרעה מלך מצרים",
+    "נתן הנביא"
+   ],
+   "explain_he": "חירם מלך צור, ידידו של שלמה, שלח לו עצי ארז וברוש מהרי הלבנון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו \"יכין\" ו\"בועז\"?",
+   "answer": "שני עמודי נחושת בכניסה למקדש",
+   "options": [
+    "שני עמודי נחושת בכניסה למקדש",
+    "שני כהנים גדולים",
+    "שני שערים של העיר"
+   ],
+   "explain_he": "בכניסה לבית המקדש עמדו שני עמודי נחושת ענקיים, ושמותיהם יכין ובועז.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה יהודים מתפללים עד היום כשפניהם לירושלים?",
+   "answer": "כי שלמה ביקש שהשם ישמע כל תפילה שתהיה לכיוון המקדש",
+   "options": [
+    "כי שלמה ביקש שהשם ישמע כל תפילה שתהיה לכיוון המקדש",
+    "כי שם השמש זורחת",
+    "כי כך נוח יותר לעמוד"
+   ],
+   "explain_he": "בתפילת חנוכת הבית ביקש שלמה שהשם ישמע גם את מי שיתפלל מרחוק, כשפניו אל הבית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-mik-f2e15"
+  }
+ ]
+}

@@ -370,8 +370,21 @@ test('general knowledge: every lesson is a real video, then a quiz for the learn
     assert.ok(ids.length > 0, `${c.id}: a topic shows only with videos`);
     for (const id of ids) {
       const lesson = JSON.parse(readFileSync(new URL(`../data/lessons/${id}.json`, import.meta.url)));
-      const [first, ...quiz] = lesson.exercises;
-      assert.ok(first.type === 'video' && know.lesson_titles[id], id);
+      const [first, ...rest] = lesson.exercises;
+      assert.ok(know.lesson_titles[id], id);
+      if (first.type === 'parasha_film') {
+        // An animated film made here: one cut per level, then graded questions.
+        const films = lesson.exercises.filter((e) => e.type === 'parasha_film');
+        for (const f of films) assert.ok(f.scenes.length >= 4 && f.scenes.every((s) => s.img && s.say.length), `${id}: film level ${f.level}`);
+        for (let g = c.grades[0]; g <= c.grades[1]; g++) {
+          const mine = forGrade(lesson.exercises, g);
+          assert.equal(mine.filter((e) => e.type === 'parasha_film').length, 1, `${id}: grade ${g} gets one film`);
+          assert.ok(mine.filter((e) => e.type === 'mcq').length >= 3, `${id}: grade ${g} questions`);
+        }
+        continue;
+      }
+      const quiz = rest;
+      assert.ok(first.type === 'video', id);
       assert.match(first.youtube, /^[\w-]{11}$/, id);
       assert.ok(videos.some((v) => v.youtube === first.youtube && v.lesson === id), `${id}: listed for the Pi`);
       for (const q of quiz) {
@@ -682,6 +695,26 @@ test('20-minute round: a subject closes after its minutes until the others had t
   r = rotation([s('english', 21, 1), s('think', 20, 2)], S, 20, ['know']);
   assert.equal(r.rounds, 1);
   assert.ok(guessyRound(3, 20) && guessyRound(2, 6) && !guessyRound(2, 12) && !guessyRound(1, 2));
+});
+
+test('nothing above the grade unless opened, and one repeat of a mastered lesson', async () => {
+  const L = await import('../js/learnRules.js');
+  const c = { id: 'fractions', grades: [3, 5] };
+  assert.equal(L.courseOpen(c, { grade: 1 }, 'think'), false);
+  assert.equal(L.courseOpen(c, { grade: 2 }, 'think'), false);
+  assert.equal(L.courseOpen(c, { grade: 3 }, 'think'), true);
+  assert.equal(L.courseOpen(c, { grade: 1, unlock_courses: ['think:fractions'] }, 'think'), true);
+  assert.equal(L.courseOpen(c, { grade: 1, unlock_courses: ['know:fractions'] }, 'think'), false);
+  assert.equal(L.courseOpen(c, { grade: 1, think_plan: { courses: ['fractions'] } }, 'think'), true);
+  assert.equal(L.courseOpen(c, { grade: 13 }, 'think'), true);
+  const done = (best, times, mr) => ({ status: 'done', best_accuracy: best, times_done: times, ...(mr != null ? { mastered_repeats: mr } : {}) });
+  assert.equal(L.repeatClosed('s1l1', done(100, 1)), false);
+  assert.equal(L.repeatClosed('s1l1', done(100, 2, 1)), true);
+  assert.equal(L.repeatClosed('s1l1', done(100, 18)), true);
+  assert.equal(L.repeatClosed('s1l1', done(50, 18)), false);
+  assert.equal(L.repeatClosed('tp-times', done(100, 9, 5)), false);
+  assert.equal(L.subjectOfLesson('k-ani-v1'), 'know');
+  assert.equal(L.subjectOfLesson('tp-times'), 'think');
 });
 
 test('parasha puppets: lines, acts, frame order, mouth from loudness', async () => {

@@ -1,0 +1,491 @@
+{
+ "id": "k-wof-f3",
+ "unit_id": "k-wof-u2",
+ "course": "world",
+ "title_he": "מדבריות, יערות, קטבים והרים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "מדבריות, יערות, קטבים והרים",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "four",
+     "title_he": "ארבע תחנות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A painted panorama in four parts flowing into each other: golden desert dunes, a lush green rainforest, white polar ice under a blue sky, and snowy mountain peaks; the two children in explorer hats at the center.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "היום אנחנו יוצאים לארבעה מקומות מיוחדים מאוד בעולם.",
+      "מקום חם מאוד, מקום רטוב מאוד, מקום קר מאוד, ומקום גבוה מאוד. מוכנים? יוצאים!",
+      "בכל מקום נגלה מי חי שם, ואיך הוא מסתדר. קחו כובע ובקבוק מים, ובואו!"
+     ],
+     "pasuk": {
+      "text": "מָה רַבּוּ מַעֲשֶׂיךָ ה׳, כֻּלָּם בְּחָכְמָה עָשִׂיתָ, מָלְאָה הָאָרֶץ קִנְיָנֶךָ",
+      "ref": "תהלים קד, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "sahara",
+     "title_he": "הסהרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Endless golden Sahara dunes under a blazing sun, a caravan of camels led by robed travelers in head cloths, and in the distance a small oasis with palm trees around a spring.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🐪",
+     "say": [
+      "התחנה הראשונה: המדבר. במדבר יש מעט מאוד גשם.",
+      "המדבר הגדול ביותר נקרא סהרה, והוא נמצא באפריקה. יש בו גבעות חול ענקיות.",
+      "הגמל הוא חבר טוב במדבר: הוא יכול ללכת ימים רבים בלי לשתות!",
+      "ביום במדבר חם מאוד, ובלילה, דווקא, קר!",
+      "הגמל גם יודע לסגור את הנחיריים שלו, כדי שהחול לא ייכנס!",
+      "ולפעמים מוצאים במדבר נווה מדבר: מעיין מים, ועצי תמר ירוקים סביבו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הגמל לא שומר מים בדבשת! בדבשת יש שומן, והגוף שלו משתמש בו כמזון כשאין אוכל."
+     }
+    },
+    {
+     "id": "midbar",
+     "title_he": "המדבר שלנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: The Judean desert at sunrise: golden cliffs and canyons descending to the turquoise Dead Sea, an ibex standing on a rock ledge, the Jordan hills hazy in the distance.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🐐",
+     "say": [
+      "גם לנו יש מדבר: הנגב ומדבר יהודה.",
+      "ובני ישראל הלכו במדבר ארבעים שנה! הקדוש ברוך הוא נתן להם מן מהשמיים, ומים מבאר שהלכה איתם.",
+      "ליד מדבר יהודה נמצא ים המלח, המקום הנמוך ביותר על היבשה בכל העולם.",
+      "ואת התורה קיבלנו דווקא במדבר, בהר סיני."
+     ],
+     "pasuk": {
+      "text": "וּמִמִּדְבָּר מַתָּנָה",
+      "ref": "במדבר כא, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "amazon",
+     "title_he": "היער הגשום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Deep inside the Amazon rainforest: giant trees with hanging vines, misty green light filtering down, colorful parrots, a monkey on a branch, a slow sloth, and a tiny bright blue frog on a leaf.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🦜",
+     "say": [
+      "התחנה השנייה: היער הגשום. כאן יורד גשם כמעט כל יום!",
+      "העצים גבוהים מאוד, ויש המון צמחים, פרחים וחיות: קופים, תוכים צבעוניים וצפרדעים קטנות.",
+      "היער הגשום הגדול ביותר נמצא באמריקה הדרומית, וקוראים לו אמזונס.",
+      "העצים כל כך גבוהים וצפופים, שמתחתם כמעט חשוך, גם בצהריים.",
+      "ויש שם עצלן, חיה שזזה לאט לאט, וישנה רוב היום על העץ.",
+      "ויש שם גם נחש ענק, האנקונדה, שחי במים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "poles",
+     "title_he": "הקטבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Split polar view: on one side a polar bear walks across floating Arctic sea ice under a pale sky; on the other side a colony of penguins stands on the white Antarctic shore by icy blue water.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🐧",
+     "say": [
+      "התחנה השלישית: הקטבים, הקצוות הקפואים של כדור הארץ.",
+      "בצפון, ליד הקוטב הצפוני, חי דוב הקוטב הלבן.",
+      "ובדרום, באנטארקטיקה, חיים פינגווינים. הם לא יודעים לעוף, אבל שוחים נהדר!",
+      "לדוב הקוטב יש פרווה לבנה ושכבת שומן עבה, שמחממת אותו בקור.",
+      "ובקטבים, בקיץ, השמש לא שוקעת במשך שבועות! ובחורף היא לא זורחת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דובי הקוטב חיים בצפון, והפינגווינים כמעט כולם בדרום. בטבע הם לא נפגשים לעולם!"
+     }
+    },
+    {
+     "id": "mountains",
+     "title_he": "ההרים הגבוהים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: The snowy Himalaya peaks with the tallest mountain rising above the clouds at dawn, a line of tiny climbers roped together on a ridge; in a small inset-like corner of the scene, snowy Mount Hermon above green Galilee.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏔️",
+     "say": [
+      "התחנה הרביעית: ההרים הגבוהים. ההר הגבוה בעולם נקרא אוורסט, והוא נמצא באסיה.",
+      "הוא כל כך גבוה, שבפסגה שלו קר מאוד, ויש מעט אוויר לנשימה.",
+      "ההר הגבוה בארץ ישראל הוא החרמון. בחורף יש עליו שלג!",
+      "המטפסים על האוורסט לוקחים איתם בלוני חמצן, ועולים לאט ובזהירות.",
+      "אבל ההר הכי חשוב בעולם הוא הר הבית בירושלים, שבו עמד בית המקדש!",
+      "וכשרואים הר גבוה במיוחד, מברכים: ״עושה מעשה בראשית״."
+     ],
+     "pasuk": {
+      "text": "אֶשָּׂא עֵינַי אֶל הֶהָרִים, מֵאַיִן יָבֹא עֶזְרִי",
+      "ref": "תהלים קכא, א"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "כולם בחכמה עשית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children sit by a campfire under the stars in the Negev, a camel resting nearby, a picture book open showing a penguin, a parrot and a polar bear.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👦 👧 🐪",
+     "say": [
+      "איזה מסע! ביקרנו במדבר החם, ביער הגשום, בקטבים הקפואים ובהרים הגבוהים.",
+      "ובכל מקום, הקדוש ברוך הוא ברא בעלי חיים שמתאימים בדיוק למקום: גמל למדבר, דוב לקור, ופינגווין לים הקפוא.",
+      "״מה רבו מעשיך ה׳, כולם בחכמה עשית״!",
+      "בשיעור הבא נשוט על הנהרות הגדולים בעולם!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌍 ידע כללי",
+   "title_he": "מדבריות, יערות, קטבים והרים",
+   "ref_he": "יבשות ואוקיינוסים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "four",
+     "title_he": "ארבע תחנות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A painted panorama in four parts flowing into each other: golden desert dunes, a lush green rainforest, white polar ice under a blue sky, and snowy mountain peaks; the two children in explorer hats at the center.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "הקדוש ברוך הוא ברא עולם מגוון להפליא. יש מקומות שבהם השמש קופחת וכמעט אין גשם, ויש מקומות שבהם יורד גשם כמעט כל יום. יש מקומות מכוסים קרח כל השנה, ויש הרים שפסגתם נוגעת בעננים.",
+      "היום נבקר בארבעה מקומות קיצוניים: המדבר, היער הגשום, הקטבים וההרים הגבוהים. בכל אחד מהם נגלה מי חי שם, ואיך הוא מסתדר."
+     ],
+     "pasuk": {
+      "text": "מָה רַבּוּ מַעֲשֶׂיךָ ה׳, כֻּלָּם בְּחָכְמָה עָשִׂיתָ, מָלְאָה הָאָרֶץ קִנְיָנֶךָ",
+      "ref": "תהלים קד, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "sahara",
+     "title_he": "הסהרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Endless golden Sahara dunes under a blazing sun, a caravan of camels led by robed travelers in head cloths, and in the distance a small oasis with palm trees around a spring.",
+     "move": "left",
+     "fx": "dust",
+     "art": "🐪",
+     "say": [
+      "התחנה הראשונה: המדבר. מדבר הוא מקום שבו יורד מעט מאוד גשם. ביום יכול להיות חם מאוד, ובלילה, דווקא, קר.",
+      "המדבר החם הגדול בעולם הוא הסהרה, בצפון אפריקה. הוא גדול כמעט כמו ארצות הברית כולה, ויש בו דיונות חול גבוהות כמו בניינים.",
+      "הגמל מותאם בדיוק לחיים כאלה: הוא יכול ללכת ימים רבים בלי לשתות, יש לו ריסים ארוכים שמגינים מהחול, ורגליים רחבות שלא שוקעות בו.",
+      "ובמקומות מעטים במדבר יש נווה מדבר: מעיין מים, ועצי תמר ירוקים סביבו.",
+      "אנשי המדבר, שנודדים בו עם הגמלים, לובשים בגדים ארוכים ורחבים ומכסים את הראש, כדי להתגונן מהשמש ומהחול."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הגמל לא שומר מים בדבשת! בדבשת יש שומן, והגוף שלו משתמש בו כמזון כשאין אוכל."
+     }
+    },
+    {
+     "id": "midbar",
+     "title_he": "המדבר שלנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: The Judean desert at sunrise: golden cliffs and canyons descending to the turquoise Dead Sea, an ibex standing on a rock ledge, the Jordan hills hazy in the distance.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🐐",
+     "say": [
+      "גם בארץ ישראל יש מדבריות: הנגב בדרום, ומדבר יהודה, שיורד מהרי ירושלים אל ים המלח. ים המלח הוא המקום הנמוך ביותר על היבשה בכל העולם, בערך ארבע מאות שלושים מטרים מתחת לפני הים.",
+      "ובני ישראל הלכו במדבר ארבעים שנה אחרי יציאת מצרים. במדבר שאין בו לחם ומים, נתן להם הקדוש ברוך הוא מן מהשמיים, ובזכות מרים הלכה איתם באר מים.",
+      "ואת התורה קיבלנו דווקא במדבר. חז״ל אומרים שמי שרוצה לזכות בתורה צריך לעשות את עצמו כמו מדבר: פתוח וענו, מוכן לקבל."
+     ],
+     "pasuk": {
+      "text": "וּמִמִּדְבָּר מַתָּנָה",
+      "ref": "במדבר כא, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "amazon",
+     "title_he": "היער הגשום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Deep inside the Amazon rainforest: giant trees with hanging vines, misty green light filtering down, colorful parrots, a monkey on a branch, a slow sloth, and a tiny bright blue frog on a leaf.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🦜",
+     "say": [
+      "התחנה השנייה: היער הגשום. הוא נמצא ליד קו המשווה, שם חם ולח כל השנה, ויורד גשם כמעט כל יום.",
+      "העצים גבוהים כל כך, שצמרותיהם יוצרות מעין גג ירוק. מתחתיו, על הקרקע, כמעט חשוך, גם בצהריים.",
+      "היער הגשום הגדול בעולם הוא יער האמזונס, באמריקה הדרומית. חיים בו יותר סוגים של צמחים ובעלי חיים מאשר כמעט בכל מקום אחר: קופים, תוכים צבעוניים, עצלנים שזזים לאט לאט, ונמלים מכל הסוגים.",
+      "יש בו גם צפרדעים זעירות בצבעים זוהרים. הצבע הבוהק שלהן אומר לטורפים: אל תאכלו אותי, אני רעילה!",
+      "ובנהר האמזונס, שזורם דרך היער, חיים דגים מיוחדים, נחשי מים ענקיים, ואפילו דולפין ורוד!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "העצלן זז לאט כל כך, שעל הפרווה שלו גדלות אצות קטנות, והיא נראית קצת ירקרקה."
+     }
+    },
+    {
+     "id": "poles",
+     "title_he": "הקטבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: Split polar view: on one side a polar bear walks across floating Arctic sea ice under a pale sky; on the other side a colony of penguins stands on the white Antarctic shore by icy blue water.",
+     "move": "left",
+     "fx": "mist",
+     "art": "🐧",
+     "say": [
+      "התחנה השלישית: הקטבים, הקצוות של כדור הארץ. שם קר מאוד כל השנה, והכול מכוסה קרח ושלג.",
+      "בצפון, סביב הקוטב הצפוני, יש בעיקר אוקיינוס קפוא. שם חי דוב הקוטב, עם פרווה לבנה ושכבת שומן עבה שמחממת אותו.",
+      "בדרום נמצאת אנטארקטיקה, יבשת שלמה מכוסה קרח, ובמקומות מסוימים עובי הקרח יותר משלושה קילומטרים. שם חיים הפינגווינים, ציפורים שלא עפות, אבל שוחות מהר מאוד.",
+      "ובקטבים יש פלא מיוחד: בקיץ השמש לא שוקעת במשך שבועות, ובחורף היא לא זורחת. תחשבו כמה זה מוזר: יום שלם שנמשך שבועות!",
+      "ויש כאן שאלות הלכה מעניינות: איך שומרים שבת ומתפללים במקום שבו השמש לא שוקעת שבועות? הפוסקים דנו בשאלות כאלה, למשל עבור יהודים שגרים בצפון הרחוק."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דובי הקוטב חיים בצפון, והפינגווינים כמעט כולם בדרום. בטבע הם לא נפגשים לעולם!"
+     }
+    },
+    {
+     "id": "mountains",
+     "title_he": "ההרים הגבוהים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife.  Scene: The snowy Himalaya peaks with the tallest mountain rising above the clouds at dawn, a line of tiny climbers roped together on a ridge; in a small inset-like corner of the scene, snowy Mount Hermon above green Galilee.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏔️",
+     "say": [
+      "התחנה הרביעית: ההרים הגבוהים. ההר הגבוה בעולם הוא האוורסט, ברכס ההימלאיה שבאסיה. גובהו בערך שמונה קילומטרים ושמונה מאות וחמישים מטרים.",
+      "ככל שעולים גבוה יותר, נעשה קר יותר והאוויר דליל יותר. המטפסים על האוורסט לוקחים איתם בלוני חמצן, ועולים לאט ובזהירות, במשך שבועות.",
+      "בארץ ישראל, ההר הגבוה הוא החרמון, בצפון, שבחורף מכוסה בשלג. אבל ההר החשוב ביותר בארץ הוא הר המוריה, הר הבית, שבו עמד בית המקדש. הוא לא הגבוה ביותר, אבל הוא הקדוש ביותר.",
+      "ומי שרואה הרים גבוהים במיוחד, או מדבר גדול, מברך: ״ברוך... עושה מעשה בראשית״.",
+      "ובתורה, ההר המיוחד הראשון שאנחנו פוגשים הוא הר סיני. הוא לא היה ההר הגבוה ביותר, וחז״ל אומרים שדווקא בגלל ענוותו נבחר לנתינת התורה."
+     ],
+     "pasuk": {
+      "text": "אֶשָּׂא עֵינַי אֶל הֶהָרִים, מֵאַיִן יָבֹא עֶזְרִי",
+      "ref": "תהלים קכא, א"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "כולם בחכמה עשית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey around the globe: sweeping landscapes of every continent, oceans and coastlines, deserts, rainforests, polar ice and high mountains, great rivers, and historic Jewish communities in their own eras. Bright adventurous colors, clear accurate geography, friendly wildlife. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children sit by a campfire under the stars in the Negev, a camel resting nearby, a picture book open showing a penguin, a parrot and a polar bear.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👦 👧 🐪",
+     "say": [
+      "איזה מסע! במדבר ראינו את הגמל ואת נווה המדבר, ביער הגשום ראינו גג ירוק של עצים, בקטבים פגשנו דובים ופינגווינים, ועל ההרים למדנו שהקדוש ביותר הוא דווקא הר הבית.",
+      "וראינו דבר מופלא: לכל מקום יש בעלי חיים שמתאימים לו בדיוק, כאילו נתפרו בשבילו. ״מה רבו מעשיך ה׳, כולם בחכמה עשית״.",
+      "בשיעור הבא נשוט לאורך הנהרות הגדולים של העולם, ונגלה איך ערים שלמות קמו על גדותיהם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-wof-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו המדבר החם הגדול בעולם?",
+   "answer": "הסהרה",
+   "options": [
+    "הסהרה",
+    "הנגב",
+    "האמזונס"
+   ],
+   "explain_he": "הסהרה, בצפון אפריקה, הוא המדבר החם הגדול ביותר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו המדבר החם הגדול בעולם?",
+   "answer": "הסהרה",
+   "options": [
+    "הסהרה",
+    "הנגב",
+    "האמזונס"
+   ],
+   "explain_he": "הסהרה, בצפון אפריקה, הוא המדבר החם הגדול ביותר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חיים הפינגווינים?",
+   "answer": "בדרום, באנטארקטיקה",
+   "options": [
+    "בדרום, באנטארקטיקה",
+    "בצפון, ליד דוב הקוטב",
+    "במדבר הסהרה"
+   ],
+   "explain_he": "דובי הקוטב בצפון, והפינגווינים בדרום. הם לא נפגשים בטבע.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חיים הפינגווינים?",
+   "answer": "בדרום, באנטארקטיקה",
+   "options": [
+    "בדרום, באנטארקטיקה",
+    "בצפון, ליד דוב הקוטב",
+    "במדבר הסהרה"
+   ],
+   "explain_he": "דובי הקוטב בצפון, והפינגווינים בדרום. הם לא נפגשים בטבע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו ההר הגבוה בעולם?",
+   "answer": "האוורסט",
+   "options": [
+    "האוורסט",
+    "החרמון",
+    "הר סיני"
+   ],
+   "explain_he": "האוורסט, ברכס ההימלאיה שבאסיה, הוא ההר הגבוה בעולם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהו ההר הגבוה בעולם?",
+   "answer": "האוורסט",
+   "options": [
+    "האוורסט",
+    "החרמון",
+    "הר סיני"
+   ],
+   "explain_he": "האוורסט, ברכס ההימלאיה שבאסיה, הוא ההר הגבוה בעולם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נתן הקדוש ברוך הוא לבני ישראל לאכול במדבר?",
+   "answer": "מן מהשמיים",
+   "options": [
+    "מן מהשמיים",
+    "תמרים מנווה מדבר",
+    "דגים מהים"
+   ],
+   "explain_he": "ארבעים שנה אכלו בני ישראל מן, ושתו מהבאר שהלכה איתם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נתן הקדוש ברוך הוא לבני ישראל לאכול במדבר?",
+   "answer": "מן מהשמיים",
+   "options": [
+    "מן מהשמיים",
+    "תמרים מנווה מדבר",
+    "דגים מהים"
+   ],
+   "explain_he": "ארבעים שנה אכלו בני ישראל מן, ושתו מהבאר שהלכה איתם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקרא היער הגשום הגדול בעולם?",
+   "answer": "אמזונס",
+   "options": [
+    "אמזונס",
+    "סהרה",
+    "אוורסט"
+   ],
+   "explain_he": "יער האמזונס נמצא באמריקה הדרומית, ויורד בו גשם כמעט כל יום.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-wof-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נקרא היער הגשום הגדול בעולם?",
+   "answer": "אמזונס",
+   "options": [
+    "אמזונס",
+    "סהרה",
+    "אוורסט"
+   ],
+   "explain_he": "יער האמזונס נמצא באמריקה הדרומית, ויורד בו גשם כמעט כל יום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים כשרואים הר גבוה במיוחד?",
+   "answer": "״עושה מעשה בראשית״",
+   "options": [
+    "״עושה מעשה בראשית״",
+    "״שעשה את הים הגדול״",
+    "״שהחיינו״"
+   ],
+   "explain_he": "על הרים גבוהים ומדבר גדול מברכים ״עושה מעשה בראשית״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לצפרדעים ביער הגשום יש צבעים זוהרים?",
+   "answer": "כדי להזהיר טורפים שהן רעילות",
+   "options": [
+    "כדי להזהיר טורפים שהן רעילות",
+    "כדי להאיר בחושך",
+    "כדי להתחמם בשמש"
+   ],
+   "explain_he": "הצבע הבוהק אומר לטורפים: אל תאכלו אותי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-wof-f3e14"
+  }
+ ]
+}

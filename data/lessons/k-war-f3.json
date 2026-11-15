@@ -1,0 +1,304 @@
+{
+ "id": "k-war-f3",
+ "unit_id": "k-war-u2",
+ "course": "wars",
+ "title_he": "ממבצע קדש לששת הימים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🛡️ ידע כללי",
+   "title_he": "ממבצע קדש לששת הימים",
+   "ref_he": "מלחמות ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הנמל הסגור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: The small port of Eilat in the early 1950s at the edge of the desert, red mountains behind, a still blue gulf with no ships, a lonely pier and a few workers looking out to sea, hot hazy light.",
+     "move": "in",
+     "fx": "dust",
+     "art": "⛵ 🪨",
+     "say": [
+      "אחרי מלחמת העצמאות, המדינה הצעירה רצתה לבנות ולקלוט עולים. אבל השכנים לא השלימו.",
+      "מרצועת עזה ומסיני חדרו שוב ושוב מחבלים, שנקראו פדאיון, ותקפו יישובים ואנשים.",
+      "ובדרום, מצרים סגרה את מצרי טיראן, המעבר הימי הצר שמוביל מאילת אל הים הפתוח.",
+      "ספינות לא יכלו להגיע לאילת, והנמל עמד כמעט ריק.",
+      "מצרים גם קנתה כמויות גדולות של נשק, ומנהיגה, נאצר, דיבר על השמדת ישראל.",
+      "ישראל הרגישה שהיא נחנקת לאט לאט, מבחוץ.",
+      "בפרק הזה נעבור על עשר השנים שבין שתי המלחמות, ונגיע לבוקר שבו התחילה מלחמת ששת הימים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מבצע קדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: The wide open Sinai desert at dawn in 1956, a long line of Israeli military vehicles moving across sand and rock toward distant mountains, a dust trail rising, a vast empty landscape and a pale sky.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🪨 🪨",
+     "say": [
+      "בסוף אוקטובר 1956 יצא צה״ל למבצע שנקרא מבצע קדש.",
+      "בתוך כשבוע בלבד, כבשו כוחות צה״ל כמעט את כל חצי האי סיני.",
+      "הם הגיעו עד שארם א־שייח בדרום, ומצרי טיראן נפתחו.",
+      "סיני הוא גם מקום שקשור לתורה. שם, במדבר, הלכו אבותינו ארבעים שנה, ושם ניתנה התורה.",
+      "אחרי כמה חודשים, בלחץ של מעצמות העולם, ישראל נסוגה מסיני. בגבול הוצב כוח של האו״ם.",
+      "אבל ההישג נשאר: הדרך לאילת נפתחה, וההתקפות מעזה פחתו מאוד.",
+      "ספינות התחילו להגיע לאילת, והעיר הקטנה במדבר התחילה לגדול.",
+      "בזכות המבצע הזה, היו לישראל בערך עשר שנים שקטות יותר, שבהן גדלה ונבנתה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במבצע קדש הגיע צה״ל גם לשארם א־שייח, בקצה הדרומי של סיני, ופתח את הדרך הימית לאילת."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "מאי 1967",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A tense spring evening in 1967 in a modest Israeli living room, a father in a white shirt and kippah listening to a radio, the mother holding a small child, an older boy looking at a map on the table, a window to a quiet street.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👩 👦 👶",
+     "say": [
+      "עשר שנים עברו. ובמאי 1967 התחיל המצב להשתנות במהירות.",
+      "נשיא מצרים, נאצר, הכניס צבא גדול לסיני, עם מאות טנקים.",
+      "הוא דרש מכוחות האו״ם לעזוב את הגבול, והם אכן עזבו.",
+      "אחר כך הודיע שוב על סגירת מצרי טיראן בפני ספינות ישראליות.",
+      "גם סוריה וירדן התכוננו למלחמה, וצבאות מארצות נוספות שלחו כוחות.",
+      "ברדיו של מדינות ערב שידרו כל יום איומים להשמיד את ישראל.",
+      "ישראל הייתה מדינה קטנה, ועכשיו היא הייתה מוקפת מכל הצדדים.",
+      "במדינה חיו אז בערך שני מיליון וחצי יהודים. רבים מהם היו ניצולי שואה, ששמעו שוב איומים להשמיד אותם.",
+      "אפשר להבין את הפחד שהיה בלב.",
+      "ובכל זאת, אף אחד לא חשב לברוח. כולם נשארו, והתכוננו להגן על הבית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ימי ההמתנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Teenagers with kippot and girls in long skirts filling sandbags near a school building in 1967, older men digging a trench beside a playground, a grandmother bringing them water, serious faces, late afternoon light.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👦 👧 👵 👨",
+     "say": [
+      "שלושה שבועות נמשכו ימי ההמתנה. אלה היו ימים של פחד גדול.",
+      "אנשי המילואים גויסו. אבות עזבו את העבודה ואת הבית, ונסעו לגבולות.",
+      "בערים ובמושבים נשארו בעיקר נשים, ילדים וזקנים.",
+      "התלמידים מילאו שקי חול, חפרו תעלות ליד בתי הספר, ועזרו לחלק דואר ולחלוב פרות במשקים.",
+      "רבים בעולם חשבו שישראל עומדת בפני סכנה נוראה.",
+      "והיהודים בכל העולם, בתפוצות, חרדו לגורלה של המדינה והתגייסו לעזור.",
+      "ובכל זאת, דווקא בימים האלה העם היה מאוחד מאוד.",
+      "שכנים עזרו זה לזה, מי שהיה לו מכונית הסיע אחרים, ובתי הספר המשיכו לפעול ככל שאפשר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "עם אחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: An airport hall in 1967 crowded with young Jewish volunteers from abroad arriving with suitcases, some with kippot, being welcomed by Israeli families with hugs, a feeling of family reunion, bright light through big windows.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "והיה עוד דבר מיוחד בימי ההמתנה.",
+      "יהודים בכל העולם, באמריקה, באנגליה, בצרפת ובארגנטינה, הרגישו שהסכנה היא גם שלהם.",
+      "הם התפללו, אספו כסף, ותרמו כמו שלא תרמו מעולם.",
+      "צעירים רבים עלו על מטוסים ובאו להתנדב: לעבוד בקיבוצים ובמושבים, במקום האבות שגויסו.",
+      "עם שמפוזר בכל העולם הרגיש באותם ימים כמו משפחה אחת.",
+      "חז״ל אמרו: כל ישראל ערבים זה בזה. כלומר, כל יהודי אחראי לאחיו, ומרגיש את הכאב שלו.",
+      "בימים ההם ראו את המשפט הזה בעיניים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שומר ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A packed synagogue in Israel in 1967 at night, men and boys with kippot and old men in tallitot reciting Tehillim from small books by candle light, women praying in the women section above, deep concentration.",
+     "move": "up",
+     "fx": "night",
+     "art": "👨 👴 👦",
+     "say": [
+      "בימי ההמתנה התמלאו בתי הכנסת.",
+      "הרבנים הראשיים קראו לעם לומר תהילים ולהתפלל.",
+      "אנשים שלא נכנסו לבית כנסת שנים רבות, באו להתפלל.",
+      "בבתים, אמהות הדליקו נרות שבת בדמעות, וביקשו על הבעלים והבנים שבחזית.",
+      "והחיילים בשטח, ליד הטנקים, הניחו תפילין, ואמרו פרקי תהילים מתוך ספרונים קטנים שהיו בכיסם.",
+      "הפסוק שליווה רבים היה: הנה לא ינום ולא יישן שומר ישראל.",
+      "הם ידעו שהם צריכים לעשות כל מה שבידם, וגם ידעו שהישועה בסוף בידי הקדוש ברוך הוא."
+     ],
+     "pasuk": {
+      "text": "הִנֵּה לֹא יָנוּם וְלֹא יִישָׁן שׁוֹמֵר יִשְׂרָאֵל",
+      "ref": "תהילים קכא, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הבוקר הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Early morning over a calm blue Mediterranean sea on June 5, 1967, a few small jet planes flying very low just above the waves toward the rising sun, sparkling water, a clear sky, seen from far away.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "🕊️",
+     "say": [
+      "ב־5 ביוני 1967, בבוקר, ממריאים כמעט כל מטוסי חיל האוויר הישראלי.",
+      "הם טסים נמוך מאוד מעל הים, בשקט מוחלט בקשר, כדי שלא יתגלו.",
+      "בתוך כמה שעות הם פוגעים בשדות התעופה של מצרים, וחלק גדול מחיל האוויר המצרי נהרס על הקרקע.",
+      "מאוחר יותר באותו יום פגעו המטוסים גם בחילות האוויר של ירדן ושל סוריה. מעכשיו השמיים מעל ישראל היו בטוחים יותר.",
+      "זה היה מבצע מתוכנן היטב, אבל גם הצליח הרבה יותר ממה שרבים קיוו.",
+      "באותו בוקר נכנסו גם כוחות השריון לסיני, והתקדמו במהירות.",
+      "בתוך ימים מעטים הגיעו עד תעלת סואץ, ושוב פתחו את מצרי טיראן.",
+      "אבל בבוקר הראשון, כדי לא לגלות את הסוד, הודיעו ברדיו מעט מאוד. רוב העם עוד לא ידע מה קרה בשמיים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הטייסים טסו נמוך מאוד מעל הים, כדי שהמכ״מים של האויב לא יגלו אותם."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "אזהרה לירדן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: The border line through Jerusalem in 1967: an empty strip of land with barbed wire between stone buildings, the Old City walls beyond, a calm morning about to change, seen from a rooftop.",
+     "move": "in",
+     "fx": "mist",
+     "art": "🪨 🏠",
+     "say": [
+      "ישראל לא רצתה להילחם בירדן. בבוקר הראשון היא שלחה למלך ירדן, חוסיין, הודעה דרך האו״ם.",
+      "בהודעה נאמר: אם לא תתקוף, ישראל לא תתקוף אותך.",
+      "אבל ירדן בחרה להצטרף למלחמה, והתחילה להפגיז את ירושלים.",
+      "ופתאום, השאלה שכולם פחדו לשאול, התחלפה בשאלה אחרת: אולי עכשיו נגיע לעיר העתיקה?",
+      "תשע עשרה שנה עמדו יהודים על הר ציון והסתכלו לעבר הכותל, ולא יכלו להגיע.",
+      "בירושלים ישבו אנשים במקלטים, ושמעו את ההפגזות. ילדים ישבו עם הוריהם, ואמרו תהילים.",
+      "ועכשיו, בתוך יומיים, הכול עמד להשתנות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "מפחד לישועה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Sunrise breaking through dark storm clouds over the hills of Jerusalem, rays of light falling on the city walls, a feeling of fear turning into hope, birds rising into the sky.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕊️",
+     "say": [
+      "חשבו כמה הדברים השתנו בתוך כמה ימים.",
+      "שלושה שבועות של פחד ותפילות, ופתאום, בתוך שעות, המצב התהפך.",
+      "רבים, גם אנשים רחוקים מאמונה, אמרו שהם ראו יד של השגחה.",
+      "אבל חשוב לזכור: הניצחון הגיע גם בזכות חיילים שנלחמו במסירות נפש, ורבים מהם נפלו.",
+      "עם ישראל הודה על הישועה, וגם בכה על הבנים שלא חזרו.",
+      "כך היה תמיד בתולדות עמנו: שמחה גדולה ודמעות, יחד.",
+      "בפרק הבא נגיע לרגע שעם ישראל חיכה לו תשע עשרה שנה, ובעצם אלפיים שנה: הכותל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-war-f3e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היו שתי הסיבות העיקריות למבצע קדש?",
+   "answer": "התקפות של מחבלים מעזה ומסיני, וסגירת הדרך הימית לאילת",
+   "options": [
+    "התקפות של מחבלים מעזה ומסיני, וסגירת הדרך הימית לאילת",
+    "רצון לכבוש את קהיר",
+    "סכסוך עם בריטניה על המנדט"
+   ],
+   "explain_he": "הפדאיון תקפו יישובים, ומצרים סגרה את מצרי טיראן לספינות שמפליגות לאילת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה נאצר במאי 1967?",
+   "answer": "הכניס צבא גדול לסיני, הוציא את כוחות האו״ם וסגר את מצרי טיראן",
+   "options": [
+    "הכניס צבא גדול לסיני, הוציא את כוחות האו״ם וסגר את מצרי טיראן",
+    "חתם על הסכם שלום עם ישראל",
+    "פתח את תעלת סואץ לספינות ישראליות"
+   ],
+   "explain_he": "בתוך כמה ימים השתנה המצב, והגבול הדרומי הפך מסוכן מאוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו רבים בימי ההמתנה, מלבד ההכנות?",
+   "answer": "התפללו ואמרו תהילים, בבתי הכנסת ובחזית",
+   "options": [
+    "התפללו ואמרו תהילים, בבתי הכנסת ובחזית",
+    "נסעו לחופשה בחוץ לארץ",
+    "לא שמו לב למצב"
+   ],
+   "explain_he": "הרבנים קראו לומר תהילים, ובתי הכנסת התמלאו. גם החיילים הניחו תפילין ואמרו תהילים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה טסו הטייסים נמוך מאוד מעל הים?",
+   "answer": "כדי שהמכ״מים של האויב לא יגלו אותם",
+   "options": [
+    "כדי שהמכ״מים של האויב לא יגלו אותם",
+    "כדי לחסוך דלק",
+    "כדי לצלם את הים"
+   ],
+   "explain_he": "הטיסה הנמוכה והשקט בקשר אפשרו להפתיע את שדות התעופה של מצרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הודיעה ישראל לירדן בבוקר הראשון של המלחמה?",
+   "answer": "שאם ירדן לא תתקוף, ישראל לא תתקוף אותה",
+   "options": [
+    "שאם ירדן לא תתקוף, ישראל לא תתקוף אותה",
+    "שישראל תכבוש מיד את עמאן",
+    "שישראל מבקשת מירדן עזרה נגד מצרים"
+   ],
+   "explain_he": "ירדן בחרה להצטרף ולהפגיז את ירושלים, וכך נפתחה הדרך לעיר העתיקה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדנו מהפסוק \"הנה לא ינום ולא יישן שומר ישראל\"?",
+   "answer": "שהקדוש ברוך הוא שומר על עמו תמיד, גם כשאנחנו עושים את המוטל עלינו",
+   "options": [
+    "שהקדוש ברוך הוא שומר על עמו תמיד, גם כשאנחנו עושים את המוטל עלינו",
+    "שאין צורך להתכונן כלל",
+    "שהחיילים לא צריכים לישון"
+   ],
+   "explain_he": "החיילים עשו כל מה שבידם, וידעו שהישועה בסוף בידי הקדוש ברוך הוא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f3e7"
+  }
+ ]
+}

@@ -1,0 +1,306 @@
+{
+ "id": "k-war-f2",
+ "unit_id": "k-war-u1",
+ "course": "wars",
+ "title_he": "ירושלים הנצורה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🛡️ ידע כללי",
+   "title_he": "ירושלים הנצורה",
+   "ref_he": "מלחמות ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "עגלת המים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A stone street in Jerusalem in spring 1948, a horse-drawn water cart with a large metal tank, women in long dresses and head coverings and children with kippot waiting patiently in line with buckets and jugs, morning light.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👩 👦 👧 🐴",
+     "say": [
+      "ירושלים, אביב 1948. ברחוב שקט עומד תור ארוך.",
+      "אמהות וילדים מחזיקים דליים וכדים, ומחכים לעגלה שמביאה מים.",
+      "כל משפחה מקבלת רק מעט מים. צריך להספיק לשתייה, לבישול ולנטילת ידיים.",
+      "מי שמבזבז טיפה, מרגיש שהוא לוקח מהשכן.",
+      "עוד לפני המצור, אנשים נבונים מילאו בסתר את הבורות הישנים שבחצרות הבתים, וסגרו אותם. בזכותם היו לעיר מים.",
+      "למה אין מים בירושלים? כי העיר במצור.",
+      "בעיר החדשה חיו אז בערך מאה אלף יהודים, והדרך אליהם נחסמה.",
+      "היום נספר איך ירושלים החזיקה מעמד בחודשים הקשים ביותר בתולדותיה החדשות, ואיך ניצלה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שער הגיא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: The narrow valley road climbing from the coastal plain into the Judean mountains, steep forested slopes on both sides, a winding road disappearing between the hills, heavy gray clouds, a feeling of a narrow dangerous passage.",
+     "move": "up",
+     "fx": "mist",
+     "art": "🪨 🌳 🪨",
+     "say": [
+      "הדרך היחידה מתל אביב לירושלים עוברת במקום אחד צר: שער הגיא.",
+      "שם הכביש נכנס בין הרים תלולים, מתפתל ועולה.",
+      "מי ששולט בהרים מסביב, יכול לעצור כל מכונית שעוברת למטה.",
+      "כנופיות ערביות התמקמו על ההרים, וחסמו את הדרך באבנים ובמארבים.",
+      "כך הפכה ירושלים לאי מבודד: בלי אוכל, בלי דלק, בלי תרופות, וכמעט בלי תחמושת.",
+      "ומי שמכיר את ההיסטוריה של ירושלים יודע: לא בפעם הראשונה ניסו לכבוש אותה במצור.",
+      "אבל הפעם, הבנים לא התכוונו לעזוב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "השיירות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Old armored trucks from 1948 standing as memorials by the side of a forested mountain road today, painted rusty red, with small wreaths of flowers and Israeli flags beside them, calm daylight, a family looking at them respectfully.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👦 🌳",
+     "say": [
+      "כדי להביא אוכל לירושלים, יצאו שיירות של משאיות.",
+      "על המשאיות ריתכו לוחות ברזל, עם חרכים קטנים. אלה היו המשוריינים, וקראו להם בחיבה סנדוויץ׳, כי היו כמו פרוסות ברזל ועץ זו על זו.",
+      "הנהגים, רובם צעירים, נסעו לאט במעלה ההר, וידעו שבכל פיתול עלול להיות מארב.",
+      "חלק מהשיירות הגיעו, וחלק נעצרו. נהגים ולוחמים רבים נפלו בדרך.",
+      "אבל כל משאית שהגיעה הביאה לירושלים קמח, שימורים ותקווה.",
+      "כשאתם נוסעים היום לירושלים, הביטו בצד הכביש. תראו שם שלדים של משוריינים, צבועים באדום חום.",
+      "הם עומדים שם כדי שנזכור את הגבורה של מי שפרצו את הדרך לירושלים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "שלדי המשוריינים שעומדים עד היום לצד הכביש לירושלים הושארו שם לזכר הנהגים והלוחמים שליוו את השיירות."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "חוביזה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Children with kippot and girls in long dresses gathering green mallow leaves in a rocky field at the edge of a Jerusalem neighborhood, small baskets in hand, a grandmother showing them which leaves to pick, gentle morning.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👧 👵",
+     "say": [
+      "איך חיים בעיר נצורה? בכל יום מחדש מחפשים אוכל.",
+      "האוכל הגיע במנות קטנות: מעט לחם, מעט שמן, לפעמים ביצה אחת לשבוע.",
+      "ואז גילו תושבי ירושלים צמח בר שגדל בשדות: החלמית, שבערבית נקראת חוביזה.",
+      "ילדים ונשים יצאו לשדות, ליקטו את העלים, והאמהות בישלו מהם קציצות ותבשילים.",
+      "גם ברדיו המקומי נתנו מתכונים: איך להכין אוכל מחוביזה.",
+      "הילדים עזרו בכל מה שיכלו: העבירו הודעות, מילאו שקי חול, ושמרו על האחים הקטנים.",
+      "ובבתי הכנסת המשיכו להתפלל, וללמוד תורה, גם כשהבטן הייתה ריקה.",
+      "שכנים חלקו זה עם זה את המעט שהיה להם. מי שהיה לו קצת יותר, נתן למי שהיה לו פחות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "פיקוח נפש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Yeshiva students in white shirts and dark trousers with kippot digging a defensive trench with shovels on the edge of a Jerusalem neighborhood on a Shabbat morning, an elderly rabbi in a tallit watching approvingly, sandbags nearby.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦 👴",
+     "say": [
+      "באחת השבתות של המצור קרה דבר מיוחד.",
+      "היה צורך דחוף לחפור תעלות הגנה ולבנות ביצורים סביב השכונות.",
+      "רבני ירושלים פסקו: זה פיקוח נפש, ומותר לעבוד גם בשבת, כדי להציל חיים.",
+      "ובחורי ישיבות, שבכל שבת אחרת לא היו נוגעים אפילו בעט, יצאו עם אתים וחפרו.",
+      "חז״ל לומדים מהפסוק וחי בהם: התורה ניתנה כדי לחיות בה, ולא כדי למות בגללה.",
+      "זה לא היה ויתור על השבת. זה היה קיום התורה עצמה.",
+      "ומספרים שכשהתושבים ראו את בני הישיבות חופרים, הם הבינו כמה המצב חמור, וכמה העם מאוחד."
+     ],
+     "pasuk": {
+      "text": "וָחַי בָּהֶם, וְלֹא שֶׁיָּמוּת בָּהֶם",
+      "ref": "יומא פה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "הרובע היהודי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: The empty alleys of the Jewish Quarter in the Old City of Jerusalem after the battle, a broken stone arch of a great synagogue against an evening sky, a lone dove on the ruins, sorrow and longing, no people.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨 🕊️",
+     "say": [
+      "בתוך החומות, ברובע היהודי של העיר העתיקה, חיו יהודים דורות רבים, ליד הכותל.",
+      "במלחמה הרובע היה מוקף מכל הצדדים, ורק לוחמים מעטים הגנו עליו, יחד עם התושבים.",
+      "הם נלחמו בגבורה כמעט שבועיים, אבל לא הייתה להם תחמושת ולא תגבורת.",
+      "בי״ט באייר תש״ח נאלצו להיכנע. התושבים הוצאו מהעיר העתיקה, והלוחמים נלקחו בשבי.",
+      "בית הכנסת החורבה, שבנו הפרושים, פוצץ ונהרס, ועמו בתי כנסת רבים אחרים.",
+      "ובמשך תשע עשרה שנה, אף יהודי לא יכול היה להתפלל ליד הכותל המערבי.",
+      "יהודים עלו להר ציון, הסתכלו משם על חומות העיר העתיקה, וביקשו: ולירושלים עירך ברחמים תשוב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "דרך בורמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Night in the Judean hills in June 1948, a narrow rough dirt track cut through rocky slopes, a line of men in simple work clothes carrying heavy sacks of flour on their backs up the steep path, an old bulldozer far behind, starlight.",
+     "move": "left",
+     "fx": "night",
+     "art": "🚶 🚶 🚶",
+     "say": [
+      "אם הכביש חסום, צריך לפרוץ דרך חדשה.",
+      "בסוף מאי 1948 גילו לוחמים שביל צר בהרים, דרומה מהכביש הראשי, שעוקף את השטח שבידי האויב.",
+      "במשך שבועות, בלילות, עבדו אנשים ודחפורים ופרצו בסלעים דרך משובשת.",
+      "בקטע התלול ביותר, שם המשאיות לא יכלו לעבור, נשאו אנשים את שקי הקמח על הגב, בעלייה, בחושך.",
+      "בתחילת יוני 1948 עברה הדרך את השלב הקשה, והאספקה התחילה להגיע לירושלים.",
+      "אחר כך הניחו גם צינור מים חדש לאורכה.",
+      "כשהמשאיות הראשונות הגיעו לירושלים, אנשים יצאו לרחובות ובירכו את הנהגים בדמעות.",
+      "ירושלים ניצלה. הדרך הזאת קיבלה את השם דרך בורמה.",
+      "עד היום אפשר ללכת בחלק מהדרך הזאת, בין העצים, ולדמיין את הלילות ההם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הדרך נקראה דרך בורמה על שם דרך הררית ארוכה במזרח אסיה, שנבנתה במלחמת העולם השנייה."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "סוף המלחמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: A quiet military cemetery on a pine-covered hill in Jerusalem, rows of simple stone graves, a mother in a head covering and her children placing small stones on a grave, soft afternoon light through the trees.",
+     "move": "out",
+     "fx": "light",
+     "art": "👩 👦 👧 🌳",
+     "say": [
+      "המלחמה נמשכה יותר משנה. מיד אחרי הכרזת המדינה פלשו לארץ צבאות של חמש מדינות ערב.",
+      "אבל הצבא הצעיר, צבא ההגנה לישראל, החזיק מעמד, ואחר כך גם הדף את הפולשים.",
+      "בשנת 1949 נחתמו הסכמי שביתת נשק. ירושלים נשארה מחולקת: העיר החדשה בידי ישראל, והעיר העתיקה בידי ירדן.",
+      "המחיר היה כבד מאוד. בערך שש אלפים לוחמים ואזרחים נפלו, בערך אחד מכל מאה יהודים בארץ.",
+      "כמעט בכל משפחה היה מישהו שנפל, או חבר קרוב.",
+      "אנחנו לא שוכחים אותם. הם נתנו את חייהם כדי שתהיה לעם ישראל מדינה.",
+      "ובאותן שנים, המדינה הקטנה והענייה קלטה מאות אלפי עולים, מכל קצות העולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "הרים סביב לה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel from 1948 to 1976: Judean and Jerusalem hills, desert, the Golan, soldiers in simple olive uniforms of the period. Show courage, faith, landscapes, aftermath and symbols, never fighting between people. Dignified, respectful, hopeful mood.  Scene: Jerusalem at sunset seen from a hill, the mountains surrounding the city glowing gold and purple, the Old City walls in the distance, a father with a kippah and his son standing quietly, a soft light from above over the hills.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👦",
+     "say": [
+      "דוד המלך כתב בתהילים: ירושלים הרים סביב לה, וה׳ סביב לעמו.",
+      "בתש״ח ההרים סביב ירושלים היו מקום הסכנה. האויב ישב עליהם.",
+      "אבל הפסוק מזכיר לנו מי באמת מקיף את העיר ושומר עליה.",
+      "רבים ראו נס בכך שעיר נצורה, רעבה וצמאה, החזיקה מעמד עד שהגיעה הישועה.",
+      "לא היה זה בזכות כוח גדול. היה זה בזכות אנשים פשוטים, נהגים, לוחמים, רבנים, אמהות וילדים, וברחמי שמיים.",
+      "מהגגות בירושלים החדשה אפשר היה לראות את החומות, ממש קרוב, אבל לא לגעת.",
+      "ירושלים העתיקה נשארה מעבר לגבול, והכותל רחוק מאוד, אף שהיה קרוב מאוד.",
+      "בפרק הבא נראה איך, תשע עשרה שנה אחר כך, הגיע היום שבו הכותל חזר לעם ישראל."
+     ],
+     "pasuk": {
+      "text": "יְרוּשָׁלַםִ הָרִים סָבִיב לָהּ, וַה׳ סָבִיב לְעַמּוֹ מֵעַתָּה וְעַד עוֹלָם",
+      "ref": "תהילים קכה, ב"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-war-f2e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היה כל כך קשה להגיע לירושלים בתש״ח?",
+   "answer": "הכביש עובר בין הרים בשער הגיא, והאויב חסם אותו מעליהם",
+   "options": [
+    "הכביש עובר בין הרים בשער הגיא, והאויב חסם אותו מעליהם",
+    "הבריטים פוצצו את כל הגשרים",
+    "לא היו משאיות בארץ"
+   ],
+   "explain_he": "מי ששולט בהרים סביב שער הגיא יכול לעצור כל רכב שעובר למטה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה צמח בר ליקטו תושבי ירושלים בזמן המצור?",
+   "answer": "חלמית, שנקראת חוביזה",
+   "options": [
+    "חלמית, שנקראת חוביזה",
+    "תפוחי אדמה",
+    "תמרים"
+   ],
+   "explain_he": "ילדים ונשים ליקטו חוביזה בשדות, והאמהות בישלו ממנה קציצות ותבשילים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה התירו רבני ירושלים לחפור ביצורים בשבת?",
+   "answer": "משום פיקוח נפש, כדי להציל חיים",
+   "options": [
+    "משום פיקוח נפש, כדי להציל חיים",
+    "כי בזמן מלחמה השבת כולה בטלה",
+    "כי החפירה נעשתה רק בלילה"
+   ],
+   "explain_he": "חז״ל למדו מ\"וחי בהם\": התורה ניתנה לחיות בה. הצלת חיים דוחה שבת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה דרך בורמה?",
+   "answer": "דרך עוקפת שנפרצה בהרים כדי להביא אספקה לירושלים",
+   "options": [
+    "דרך עוקפת שנפרצה בהרים כדי להביא אספקה לירושלים",
+    "כביש ראשי שבנו הבריטים",
+    "נמל חדש ליד יפו"
+   ],
+   "explain_he": "בלילות פרצו דרך בסלעים, ובקטע התלול נשאו אנשים את שקי הקמח על הגב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לרובע היהודי בעיר העתיקה בתש״ח?",
+   "answer": "הוא נפל, תושביו הוצאו, ובמשך תשע עשרה שנה לא יכלו יהודים להגיע לכותל",
+   "options": [
+    "הוא נפל, תושביו הוצאו, ובמשך תשע עשרה שנה לא יכלו יהודים להגיע לכותל",
+    "הוא שוחרר והכותל נפתח",
+    "הבריטים נשארו בו עד 1967"
+   ],
+   "explain_he": "בי״ט באייר תש״ח נכנע הרובע, ובית הכנסת החורבה נהרס.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה נפלו בערך במלחמת העצמאות?",
+   "answer": "בערך שש אלפים, אחד מכל מאה יהודים בארץ",
+   "options": [
+    "בערך שש אלפים, אחד מכל מאה יהודים בארץ",
+    "בערך שישים",
+    "בערך שש מאות אלף"
+   ],
+   "explain_he": "המחיר היה כבד מאוד: כמעט בכל משפחה היה מישהו שנפל או חבר קרוב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-war-f2e7"
+  }
+ ]
+}

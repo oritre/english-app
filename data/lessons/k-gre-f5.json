@@ -1,0 +1,601 @@
+{
+ "id": "k-gre-f5",
+ "unit_id": "k-gre-u2",
+ "course": "greece",
+ "title_he": "רבי עקיבא ובר כוכבא",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "רבי עקיבא ובר כוכבא",
+   "ref_he": "יוון ורומא",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "השועל בהר הבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabbi Akiva: an elderly sage with a long white beard, a white tallit over a simple robe, warm wise eyes. Scene: Four elderly sages in robes and head coverings, among them akiva, standing on Mount Scopus looking at the ruined Temple Mount in late afternoon, a single fox trotting out between the fallen stones, akiva smiling gently.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👴 👴 👴",
+     "say": [
+      "כמה שנים אחרי החורבן עלו ארבעה מגדולי החכמים לירושלים, ובהם רבי עקיבא.",
+      "כשהגיעו להר הבית, ראו שועל יוצא ממקום קודש הקדשים. שלושת החכמים פרצו בבכי. ורבי עקיבא, צחק.",
+      "שאלו אותו: למה אתה צוחק? ענה: הנביא אמר שציון תהיה שדה חרוש, והנביא זכריה אמר שעוד ישבו זקנים וזקנות ברחובות ירושלים.",
+      "עכשיו, כשראיתי שהנבואה הקשה התקיימה, אני בטוח שגם הנבואה הטובה תתקיים. אמרו לו: עקיבא, ניחמתנו!",
+      "רבי עקיבא ראה בתוך החורבן את הגאולה. זה היה הכוח המיוחד שלו: לראות אור גם בתוך החושך."
+     ],
+     "pasuk": {
+      "text": "עוֹד יֵשְׁבוּ זְקֵנִים וּזְקֵנוֹת בִּרְחֹבוֹת יְרוּשָׁלָ‍ִם",
+      "ref": "זכריה ח, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "רועה בן ארבעים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A simple shepherd of about forty in a rough robe standing by a spring in the Judean hills at noon, looking closely at a stone with a smooth hollow worn into it by dripping water, his sheep grazing around him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 🐑 🐑",
+     "say": [
+      "מי היה רבי עקיבא? בצעירותו הוא היה רועה צאן פשוט, שלא ידע אפילו לקרוא.",
+      "כשהיה בן ארבעים, ראה פעם אבן שיש בה גומה, ושאל: מי חקק אותה? אמרו לו: המים שטפטפו עליה יום אחרי יום.",
+      "אמר רבי עקיבא: אם המים הרכים חקקו את האבן הקשה, קל וחומר שהתורה תיכנס לליבי.",
+      "הוא התחיל ללמוד אלף בית עם ילדים קטנים, ובסוף נעשה לגדול חכמי ישראל, ולמדו אצלו אלפי תלמידים.",
+      "אשתו, רחל, בתו של כלבא שבוע העשיר, עודדה אותו ללכת ללמוד, וחיה בעוני שנים רבות כדי שילמד. רבי עקיבא אמר על כך לתלמידיו: שלי ושלכם, שלה הוא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הגזירות של אדריאנוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A Roman city being built in Jerusalem under a grey sky: new stone walls and columns, Roman soldiers far off, and on a hillside a quiet cave entrance where Jewish men in robes are slipping inside with scrolls.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👨 👨",
+     "say": [
+      "כשישים שנה אחרי החורבן שלט ברומא קיסר בשם אדריאנוס. הוא רצה להפוך את ירושלים לעיר רומית.",
+      "הוא גזר גזירות קשות: אסור ללמוד תורה, אסור למול, אסור לשמור את המצוות.",
+      "היהודים בארץ ישראל הבינו שהפעם, כמו בימי היוונים, הרומאים רוצים לעקור את התורה עצמה.",
+      "אדריאנוס גם תכנן להקים בירושלים עיר רומית, ובה מקדש לאליל. זה היה יותר ממה שהעם יכול היה לשאת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "דרך כוכב מיעקב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A strong bearded Jewish commander in simple armor and a cloak standing on a rocky ridge at night under a sky full of stars, one bright star shining above, men in robes gathering around him with hope.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨 👨 👨",
+     "say": [
+      "אז קם מנהיג חזק בשם שמעון בן כוסבה, ועמד בראש מרד גדול נגד רומא.",
+      "רבי עקיבא האמין בו, וקרא עליו את הפסוק: דרך כוכב מיעקב. מכאן הכינוי שלו: בר כוכבא, בן הכוכב.",
+      "בתחילה המרד הצליח מאוד. הרומאים גורשו מחלקים גדולים של הארץ, והיהודים טבעו מטבעות משלהם, ועליהם המילים \"לחרות ירושלים\".",
+      "על המטבעות טבעו גם את חזית בית המקדש, ולולב ואתרוג, כאילו לומר: אנחנו מחכים לבניין הבית.",
+      "על המטבעות טבעו גם את חזית בית המקדש, ולולב ואתרוג, כאילו לומר: אנחנו מחכים לבניין הבית."
+     ],
+     "pasuk": {
+      "text": "דָּרַךְ כּוֹכָב מִיַּעֲקֹב",
+      "ref": "במדבר כד, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מכתבים במערה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A deep dry cave in the cliffs of the Judean desert lit by a lantern: old leather bags, clay pots and rolled papyrus letters lying on the rocky floor, the bright desert visible through the cave mouth far away.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🪨",
+     "say": [
+      "לפני יותר משישים שנה גילו חוקרים, במערות במדבר יהודה, מכתבים שנכתבו בימי המרד.",
+      "חלק מהם נשלחו בשמו של בר כוכבא עצמו, אל מפקדיו. הם נשתמרו אלפיים שנה בזכות האוויר היבש של המדבר.",
+      "דרכם אנחנו יכולים לשמוע, כמעט מקרוב, את קולם של היהודים שלחמו אז על החירות ועל התורה.",
+      "נמצאו שם גם חפצים של משפחות שהסתתרו במערות: כלי בית, מפתחות ותעודות. הם מספרים את סיפורם של אנשים רגילים בימים קשים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "באחד המכתבים שנמצאו מבקש בר כוכבא מאנשיו לשלוח לו לולבים ואתרוגים לחג הסוכות. גם בזמן מלחמה, הוא דאג לארבעת המינים."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "נפילת ביתר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The ruins of an ancient hilltop fortress among terraced Judean hills at dusk, broken stone walls, olive trees, a red sunset sky, a quiet sad and peaceful mood, no people.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🌳",
+     "say": [
+      "אבל רומא שלחה צבאות עצומים. אחרי כשלוש שנות מלחמה, נפלה מבצר ביתר, המעוז האחרון של בר כוכבא.",
+      "המשנה אומרת שגם זה קרה בתשעה באב. מספר ההרוגים היה עצום, והארץ נחרבה.",
+      "הרומאים חרשו את ירושלים, ובנו במקומה עיר רומית, ואסרו על יהודים להיכנס אליה."
+     ],
+     "pasuk": {
+      "text": "בְּתִשְׁעָה בְאָב... חָרַב הַבַּיִת בָּרִאשׁוֹנָה וּבַשְּׁנִיָּה, וְנִלְכְּדָה בֵיתָר, וְנֶחְרְשָׁה הָעִיר",
+      "ref": "משנה, תענית ד, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "השועל והדגים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabbi Akiva: an elderly sage with a long white beard, a white tallit over a simple robe, warm wise eyes. Scene: akiva sitting under a tree beside a riverbank in the evening, quietly teaching a few students from memory, a fox standing on the bank looking at fish swimming in the clear water.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👦",
+     "say": [
+      "למרות הגזירה, רבי עקיבא המשיך ללמד תורה ברבים. אדם בשם פפוס שאל אותו: אינך מפחד מהמלכות?",
+      "ענה לו רבי עקיבא במשל: שועל הלך על שפת הנהר וראה דגים בורחים. אמר להם: בואו לגור איתי ביבשה, ואציל אתכם.",
+      "ענו הדגים: אם במים, המקום שבו אנחנו חיים, אנחנו מפחדים, ביבשה, שבה נמות, על אחת כמה וכמה!",
+      "כך גם אנחנו, אמר רבי עקיבא. התורה היא המים שלנו. בלעדיה אין לנו חיים בכלל.",
+      "והמשל הזה נכון לכל הדורות: מי שמציע ליהודים \"להינצל\" על ידי שיעזבו את התורה, מציע לדג לצאת מן המים.",
+      "זמן קצר אחר כך נתפס גם פפוס עצמו, ופגש את רבי עקיבא בבית האסורים. אמר לו: אשריך רבי עקיבא שנתפסת על דברי תורה, אוי לפפוס שנתפס על דברים בטלים."
+     ],
+     "pasuk": {
+      "text": "וּמָה בִּמְקוֹם חִיּוּתֵנוּ כָּךְ, בִּמְקוֹם מִיתָתֵנוּ עַל אַחַת כַּמָּה וְכַמָּה",
+      "ref": "ברכות סא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "שמע ישראל, וחמישה תלמידים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabbi Akiva: an elderly sage with a long white beard, a white tallit over a simple robe, warm wise eyes. Scene: A soft golden dawn over the hills of the south of Eretz Yisrael, akiva with five younger students in robes sitting in a circle on the ground with open scrolls, a single beam of light falling on them from the sky.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "בסוף תפסו הרומאים את רבי עקיבא, והוציאו אותו להורג. ברגעיו האחרונים הוא קרא קריאת שמע, ונשמתו יצאה במילה \"אחד\".",
+      "עוד לפני כן, קרה לו אסון גדול: עשרים וארבעה אלף תלמידיו מתו בתקופה קצרה, בין פסח לשבועות.",
+      "אדם אחר היה אולי מתייאש. אבל רבי עקיבא התחיל מחדש. הוא לימד חמישה תלמידים: רבי מאיר, רבי יהודה, רבי יוסי, רבי שמעון ורבי אלעזר בן שמוע.",
+      "הגמרא אומרת: והם העמידו תורה אותה שעה. כמעט כל המשנה שאנחנו לומדים היום עוברת דרך התלמידים האלה.",
+      "וממנו אנחנו לומדים: גם אחרי אסון, אפשר להתחיל מחדש. וחז\"ל מוסיפים שהתלמידים הראשונים נענשו משום שלא נהגו כבוד זה בזה. לכן הבניין החדש נבנה על כבוד הדדי."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בימי ספירת העומר נוהגים מנהגי אבלות לזכר עשרים וארבעה אלף תלמידי רבי עקיבא, שמתו בין פסח לשבועות."
+     }
+    }
+   ],
+   "id": "k-gre-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🏛️ ידע כללי",
+   "title_he": "רבי עקיבא ובר כוכבא",
+   "ref_he": "יוון ורומא",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "השועל בהר הבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabbi Akiva: an elderly sage with a long white beard, a white tallit over a simple robe, warm wise eyes. Scene: Four elderly sages in robes and head coverings, among them akiva, standing on Mount Scopus looking at the ruined Temple Mount in late afternoon, a single fox trotting out between the fallen stones, akiva smiling gently.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👴 👴 👴 👴",
+     "say": [
+      "כמה שנים אחרי החורבן עלו ארבעה מגדולי החכמים לירושלים, ובהם רבי עקיבא.",
+      "כשהגיעו להר הבית, ראו שועל יוצא ממקום קודש הקדשים. שלושת החכמים פרצו בבכי. ורבי עקיבא, צחק.",
+      "שאלו אותו: למה אתה צוחק? ענה: הנביא אמר שציון תהיה שדה חרוש, והנביא זכריה אמר שעוד ישבו זקנים וזקנות ברחובות ירושלים.",
+      "עכשיו, כשראיתי שהנבואה הקשה התקיימה, אני בטוח שגם הנבואה הטובה תתקיים. אמרו לו: עקיבא, ניחמתנו!",
+      "רבי עקיבא ראה בתוך החורבן את הגאולה. זה היה הכוח המיוחד שלו: לראות אור גם בתוך החושך."
+     ],
+     "pasuk": {
+      "text": "עוֹד יֵשְׁבוּ זְקֵנִים וּזְקֵנוֹת בִּרְחֹבוֹת יְרוּשָׁלָ‍ִם",
+      "ref": "זכריה ח, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "רועה בן ארבעים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A simple shepherd of about forty in a rough robe standing by a spring in the Judean hills at noon, looking closely at a stone with a smooth hollow worn into it by dripping water, his sheep grazing around him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 🐑 🐑",
+     "say": [
+      "מי היה רבי עקיבא? בצעירותו הוא היה רועה צאן פשוט, שלא ידע אפילו לקרוא.",
+      "כשהיה בן ארבעים, ראה פעם אבן שיש בה גומה, ושאל: מי חקק אותה? אמרו לו: המים שטפטפו עליה יום אחרי יום.",
+      "אמר רבי עקיבא: אם המים הרכים חקקו את האבן הקשה, קל וחומר שהתורה תיכנס לליבי.",
+      "הוא התחיל ללמוד אלף בית עם ילדים קטנים, ובסוף נעשה לגדול חכמי ישראל, ולמדו אצלו אלפי תלמידים.",
+      "אשתו, רחל, בתו של כלבא שבוע העשיר, עודדה אותו ללכת ללמוד, וחיה בעוני שנים רבות כדי שילמד. רבי עקיבא אמר על כך לתלמידיו: שלי ושלכם, שלה הוא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הגזירות של אדריאנוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A Roman city being built in Jerusalem under a grey sky: new stone walls and columns, Roman soldiers far off, and on a hillside a quiet cave entrance where Jewish men in robes are slipping inside with scrolls.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👨 👨",
+     "say": [
+      "כשישים שנה אחרי החורבן שלט ברומא קיסר בשם אדריאנוס. הוא רצה להפוך את ירושלים לעיר רומית.",
+      "הוא גזר גזירות קשות: אסור ללמוד תורה, אסור למול, אסור לשמור את המצוות.",
+      "היהודים בארץ ישראל הבינו שהפעם, כמו בימי היוונים, הרומאים רוצים לעקור את התורה עצמה.",
+      "אדריאנוס גם תכנן להקים בירושלים עיר רומית, ובה מקדש לאליל. זה היה יותר ממה שהעם יכול היה לשאת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "דרך כוכב מיעקב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A strong bearded Jewish commander in simple armor and a cloak standing on a rocky ridge at night under a sky full of stars, one bright star shining above, men in robes gathering around him with hope.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨 👨 👨",
+     "say": [
+      "אז קם מנהיג חזק בשם שמעון בן כוסבה, ועמד בראש מרד גדול נגד רומא.",
+      "בתלמוד הירושלמי מסופר שרבי עקיבא, כשראה אותו, אמר: זה הוא מלך המשיח. והוא קרא עליו את הפסוק: דרך כוכב מיעקב. מכאן הכינוי: בר כוכבא.",
+      "אבל לא כל החכמים הסכימו. רבי יוחנן בן תורתא ענה לו: עקיבא, יעלו עשבים בלחייך, ועדיין בן דוד לא יבוא.",
+      "גם מי שטעה בזיהוי, לימד אותנו דבר חשוב: יהודי מחכה לגאולה בכל יום.",
+      "בתחילה המרד הצליח מאוד. הרומאים גורשו מחלקים גדולים של הארץ, והיהודים טבעו מטבעות משלהם, ועליהם המילים \"לחרות ירושלים\".",
+      "על המטבעות טבעו גם את חזית בית המקדש, ולולב ואתרוג, כאילו לומר: אנחנו מחכים לבניין הבית.",
+      "על המטבעות טבעו גם את חזית בית המקדש, ולולב ואתרוג, כאילו לומר: אנחנו מחכים לבניין הבית."
+     ],
+     "pasuk": {
+      "text": "דָּרַךְ כּוֹכָב מִיַּעֲקֹב",
+      "ref": "במדבר כד, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מכתבים במערה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A deep dry cave in the cliffs of the Judean desert lit by a lantern: old leather bags, clay pots and rolled papyrus letters lying on the rocky floor, the bright desert visible through the cave mouth far away.",
+     "move": "in",
+     "fx": "dust",
+     "art": "🪨",
+     "say": [
+      "לפני יותר משישים שנה גילו חוקרים, במערות במדבר יהודה, מכתבים שנכתבו בימי המרד.",
+      "חלק מהם נשלחו בשמו של בר כוכבא עצמו, אל מפקדיו. הם נשתמרו אלפיים שנה בזכות האוויר היבש של המדבר.",
+      "דרכם אנחנו יכולים לשמוע, כמעט מקרוב, את קולם של היהודים שלחמו אז על החירות ועל התורה.",
+      "נמצאו שם גם חפצים של משפחות שהסתתרו במערות: כלי בית, מפתחות ותעודות. הם מספרים את סיפורם של אנשים רגילים בימים קשים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "באחד המכתבים שנמצאו מבקש בר כוכבא מאנשיו לשלוח לו לולבים ואתרוגים לחג הסוכות. גם בזמן מלחמה, הוא דאג לארבעת המינים."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "נפילת ביתר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The ruins of an ancient hilltop fortress among terraced Judean hills at dusk, broken stone walls, olive trees, a red sunset sky, a quiet sad and peaceful mood, no people.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🌳",
+     "say": [
+      "אבל רומא שלחה צבאות עצומים. אחרי כשלוש שנות מלחמה, נפלה מבצר ביתר, המעוז האחרון של בר כוכבא.",
+      "המשנה אומרת שגם זה קרה בתשעה באב. מספר ההרוגים היה עצום, והארץ נחרבה.",
+      "הרומאים חרשו את ירושלים, ובנו במקומה עיר רומית בשם \"איליה קפיטולינה\". הם אף שינו את שם הארץ, כדי למחוק את זכר היהודים ממנה.",
+      "הרמב\"ם כותב שרבי עקיבא וחכמי דורו חשבו שבר כוכבא הוא המשיח, עד שנהרג, ואז ידעו שאינו. כך למדנו שמשיח אמיתי נבחן בכך שהוא מביא את הגאולה בפועל.",
+      "אחרי המרד, יהודים כמעט לא יכלו לגור ביהודה, ומרכז החיים היהודיים עבר לגליל.",
+      "ושם, בגליל, נבנה מחדש מרכז התורה, כפי שנראה בסרט הבא."
+     ],
+     "pasuk": {
+      "text": "בְּתִשְׁעָה בְאָב... חָרַב הַבַּיִת בָּרִאשׁוֹנָה וּבַשְּׁנִיָּה, וְנִלְכְּדָה בֵיתָר, וְנֶחְרְשָׁה הָעִיר",
+      "ref": "משנה, תענית ד, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "עשרה הרוגי מלכות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A quiet night sky over the Judean hills with countless golden sparks of light rising slowly upward like stars from a dark hilltop, a soft light from above, peaceful and holy.",
+     "move": "up",
+     "fx": "stars",
+     "art": "🕊️",
+     "say": [
+      "רבי עקיבא לא היה היחיד. בימים ההם הוציאו הרומאים להורג עוד גדולי חכמים, משום שלימדו תורה. אנחנו קוראים להם \"עשרה הרוגי מלכות\".",
+      "ביום הכיפורים ובתשעה באב אנחנו אומרים עליהם פיוטים, כמו \"אלה אזכרה\".",
+      "אחד מהם, רבי חנינא בן תרדיון, נתפס כשהוא מלמד תורה ברבים וספר תורה בחיקו. תלמידיו שאלו אותו ברגעיו האחרונים: רבי, מה אתה רואה?",
+      "והוא ענה: גווילים נשרפים, ואותיות פורחות. הקלף יכול להישרף, אבל האותיות, התורה עצמה, עולות למעלה ואינן נשרפות לעולם.",
+      "זו גם התשובה לרומא: אפשר לפגוע בגוף, אבל לא בתורה."
+     ],
+     "pasuk": {
+      "text": "גְּוִילִין נִשְׂרָפִין וְאוֹתִיּוֹת פּוֹרְחוֹת",
+      "ref": "עבודה זרה יח, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "השועל והדגים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabbi Akiva: an elderly sage with a long white beard, a white tallit over a simple robe, warm wise eyes. Scene: akiva sitting under a tree beside a riverbank in the evening, quietly teaching a few students from memory, a fox standing on the bank looking at fish swimming in the clear water.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👦",
+     "say": [
+      "למרות הגזירה, רבי עקיבא המשיך ללמד תורה ברבים. אדם בשם פפוס שאל אותו: אינך מפחד מהמלכות?",
+      "ענה לו רבי עקיבא במשל: שועל הלך על שפת הנהר וראה דגים בורחים. אמר להם: בואו לגור איתי ביבשה, ואציל אתכם.",
+      "ענו הדגים: אם במים, המקום שבו אנחנו חיים, אנחנו מפחדים, ביבשה, שבה נמות, על אחת כמה וכמה!",
+      "כך גם אנחנו, אמר רבי עקיבא. התורה היא המים שלנו. בלעדיה אין לנו חיים בכלל.",
+      "והמשל הזה נכון לכל הדורות: מי שמציע ליהודים \"להינצל\" על ידי שיעזבו את התורה, מציע לדג לצאת מן המים.",
+      "זמן קצר אחר כך נתפס גם פפוס עצמו, ופגש את רבי עקיבא בבית האסורים. אמר לו: אשריך רבי עקיבא שנתפסת על דברי תורה, אוי לפפוס שנתפס על דברים בטלים."
+     ],
+     "pasuk": {
+      "text": "וּמָה בִּמְקוֹם חִיּוּתֵנוּ כָּךְ, בִּמְקוֹם מִיתָתֵנוּ עַל אַחַת כַּמָּה וְכַמָּה",
+      "ref": "ברכות סא, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "שמע ישראל, וחמישה תלמידים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Rabbi Akiva: an elderly sage with a long white beard, a white tallit over a simple robe, warm wise eyes. Scene: A soft golden dawn over the hills of the south of Eretz Yisrael, akiva with five younger students in robes sitting in a circle on the ground with open scrolls, a single beam of light falling on them from the sky.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "בסוף תפסו הרומאים את רבי עקיבא, והוציאו אותו להורג. ברגעיו האחרונים הוא קרא קריאת שמע, ונשמתו יצאה במילה \"אחד\".",
+      "עוד לפני כן, קרה לו אסון גדול: עשרים וארבעה אלף תלמידיו מתו בתקופה קצרה, בין פסח לשבועות.",
+      "אדם אחר היה אולי מתייאש. אבל רבי עקיבא התחיל מחדש. הוא לימד חמישה תלמידים: רבי מאיר, רבי יהודה, רבי יוסי, רבי שמעון ורבי אלעזר בן שמוע.",
+      "הגמרא אומרת: והם העמידו תורה אותה שעה. כמעט כל המשנה שאנחנו לומדים היום עוברת דרך התלמידים האלה.",
+      "וממנו אנחנו לומדים: גם אחרי אסון, אפשר להתחיל מחדש. וחז\"ל מוסיפים שהתלמידים הראשונים נענשו משום שלא נהגו כבוד זה בזה. לכן הבניין החדש נבנה על כבוד הדדי."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בימי ספירת העומר נוהגים מנהגי אבלות לזכר עשרים וארבעה אלף תלמידי רבי עקיבא, שמתו בין פסח לשבועות."
+     }
+    }
+   ],
+   "id": "k-gre-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה צחק רבי עקיבא כשראה שועל בהר הבית?",
+   "answer": "כי הבין שאם הנבואה הקשה התקיימה, גם הנבואה הטובה תתקיים",
+   "options": [
+    "כי הבין שאם הנבואה הקשה התקיימה, גם הנבואה הטובה תתקיים",
+    "כי השועל היה מצחיק",
+    "כי לא ידע מה המקום",
+    "כי שמח שהרומאים הלכו"
+   ],
+   "explain_he": "רבי עקיבא אמר: כשראיתי שהנבואה על החורבן התקיימה, אני בטוח שגם \"עוד ישבו זקנים וזקנות ברחובות ירושלים\" תתקיים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה צחק רבי עקיבא כשראה שועל בהר הבית?",
+   "answer": "כי הבין שאם הנבואה הקשה התקיימה, גם הנבואה הטובה תתקיים",
+   "options": [
+    "כי הבין שאם הנבואה הקשה התקיימה, גם הנבואה הטובה תתקיים",
+    "כי השועל היה מצחיק",
+    "כי לא ידע מה המקום",
+    "כי שמח שהרומאים הלכו"
+   ],
+   "explain_he": "רבי עקיבא אמר: כשראיתי שהנבואה על החורבן התקיימה, אני בטוח שגם \"עוד ישבו זקנים וזקנות ברחובות ירושלים\" תתקיים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לימדה האבן עם הגומה את רבי עקיבא?",
+   "answer": "שאם מים רכים חוקקים אבן, התורה תוכל להיכנס לליבו",
+   "options": [
+    "שאם מים רכים חוקקים אבן, התורה תוכל להיכנס לליבו",
+    "שצריך לחפור בארות",
+    "שאבנים מתאימות לבנייה",
+    "שאסור לשתות מים מהמעיין"
+   ],
+   "explain_he": "בגיל ארבעים הבין רבי עקיבא שהתמדה קטנה ויומיומית יכולה לשנות גם את הלב הקשה ביותר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לימדה האבן עם הגומה את רבי עקיבא?",
+   "answer": "שאם מים רכים חוקקים אבן, התורה תוכל להיכנס לליבו",
+   "options": [
+    "שאם מים רכים חוקקים אבן, התורה תוכל להיכנס לליבו",
+    "שצריך לחפור בארות",
+    "שאבנים מתאימות לבנייה",
+    "שאסור לשתות מים מהמעיין"
+   ],
+   "explain_he": "בגיל ארבעים הבין רבי עקיבא שהתמדה קטנה ויומיומית יכולה לשנות גם את הלב הקשה ביותר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה בא השם \"בר כוכבא\"?",
+   "answer": "רבי עקיבא קרא עליו את הפסוק \"דרך כוכב מיעקב\"",
+   "options": [
+    "רבי עקיבא קרא עליו את הפסוק \"דרך כוכב מיעקב\"",
+    "הוא נולד בלילה",
+    "הוא היה אסטרונום",
+    "כך קראו לו הרומאים"
+   ],
+   "explain_he": "שמו היה שמעון בן כוסבה, ורבי עקיבא קרא עליו \"דרך כוכב מיעקב\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה בא השם \"בר כוכבא\"?",
+   "answer": "רבי עקיבא קרא עליו את הפסוק \"דרך כוכב מיעקב\"",
+   "options": [
+    "רבי עקיבא קרא עליו את הפסוק \"דרך כוכב מיעקב\"",
+    "הוא נולד בלילה",
+    "הוא היה אסטרונום",
+    "כך קראו לו הרומאים"
+   ],
+   "explain_he": "שמו היה שמעון בן כוסבה, ורבי עקיבא קרא עליו \"דרך כוכב מיעקב\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש בר כוכבא באחד המכתבים שנמצאו במערות?",
+   "answer": "לולבים ואתרוגים לחג הסוכות",
+   "options": [
+    "לולבים ואתרוגים לחג הסוכות",
+    "זהב ותכשיטים",
+    "סוסים ומרכבות",
+    "מכתב מהקיסר"
+   ],
+   "explain_he": "גם בזמן מלחמה הוא דאג לארבעת המינים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש בר כוכבא באחד המכתבים שנמצאו במערות?",
+   "answer": "לולבים ואתרוגים לחג הסוכות",
+   "options": [
+    "לולבים ואתרוגים לחג הסוכות",
+    "זהב ותכשיטים",
+    "סוסים ומרכבות",
+    "מכתב מהקיסר"
+   ],
+   "explain_he": "גם בזמן מלחמה הוא דאג לארבעת המינים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה רצה רבי עקיבא ללמד במשל השועל והדגים?",
+   "answer": "שבלי תורה אין לעם ישראל חיים, כמו דגים בלי מים",
+   "options": [
+    "שבלי תורה אין לעם ישראל חיים, כמו דגים בלי מים",
+    "שצריך להיזהר משועלים",
+    "שהדגים חכמים מהשועל",
+    "שכדאי לעבור לגור ביבשה"
+   ],
+   "explain_he": "התורה היא המים שלנו. גם אם יש סכנה בלימוד, בלי תורה אין חיים בכלל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה רצה רבי עקיבא ללמד במשל השועל והדגים?",
+   "answer": "שבלי תורה אין לעם ישראל חיים, כמו דגים בלי מים",
+   "options": [
+    "שבלי תורה אין לעם ישראל חיים, כמו דגים בלי מים",
+    "שצריך להיזהר משועלים",
+    "שהדגים חכמים מהשועל",
+    "שכדאי לעבור לגור ביבשה"
+   ],
+   "explain_he": "התורה היא המים שלנו. גם אם יש סכנה בלימוד, בלי תורה אין חיים בכלל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה ביתר?",
+   "answer": "המבצר האחרון של בר כוכבא, שנפל בתשעה באב",
+   "options": [
+    "המבצר האחרון של בר כוכבא, שנפל בתשעה באב",
+    "עיר נמל רומית",
+    "בית המדרש של רבי עקיבא",
+    "מערה במדבר"
+   ],
+   "explain_he": "אחרי כשלוש שנות מלחמה נפלה ביתר, והמשנה מונה זאת בין הצרות של תשעה באב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-gre-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה רבי חנינא בן תרדיון לתלמידיו ברגעיו האחרונים?",
+   "answer": "\"גווילים נשרפים, ואותיות פורחות\"",
+   "options": [
+    "\"גווילים נשרפים, ואותיות פורחות\"",
+    "\"אל תלמדו עוד תורה\"",
+    "\"ברחו לבבל\"",
+    "\"שלי ושלכם, שלה הוא\""
+   ],
+   "explain_he": "הקלף יכול להישרף, אבל התורה עצמה עולה למעלה ואינה נשרפת לעולם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה רבי יוחנן בן תורתא לרבי עקיבא על בר כוכבא?",
+   "answer": "\"יעלו עשבים בלחייך, ועדיין בן דוד לא יבוא\"",
+   "options": [
+    "\"יעלו עשבים בלחייך, ועדיין בן דוד לא יבוא\"",
+    "\"צדקת, הוא המשיח\"",
+    "\"נלך איתו למלחמה\"",
+    "\"נחכה לתשובת הקיסר\""
+   ],
+   "explain_he": "לא כל החכמים הסכימו שבר כוכבא הוא המשיח. רבי יוחנן בן תורתא חשב שהגאולה עוד רחוקה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f5e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה רבי עקיבא אחרי שמתו עשרים וארבעה אלף תלמידיו?",
+   "answer": "התחיל מחדש ולימד חמישה תלמידים שהעמידו תורה",
+   "options": [
+    "התחיל מחדש ולימד חמישה תלמידים שהעמידו תורה",
+    "הפסיק ללמד",
+    "עבר לגור ברומא",
+    "הלך ללחום עם בר כוכבא בלבד"
+   ],
+   "explain_he": "רבי עקיבא לא התייאש. חמשת תלמידיו החדשים העמידו תורה, ודרכם עוברת רוב המשנה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-gre-f5e16"
+  }
+ ]
+}

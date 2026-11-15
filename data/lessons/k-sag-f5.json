@@ -1,0 +1,574 @@
+{
+ "id": "k-sag-f5",
+ "unit_id": "k-sag-u2",
+ "course": "sages",
+ "title_he": "גדולי ספרד: רבי יהודה הלוי והרמב\"ם",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "גדולי ספרד: רבי יהודה הלוי והרמב\"ם",
+   "ref_he": "גדולי ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "west",
+     "title_he": "ליבי במזרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaLevi: a medieval Spanish Jewish poet and physician with a short dark beard, a soft head wrap and a long cloak, eyes full of longing. Scene: Evening on a terrace in medieval Spain: a poet in a long cloak stands at a stone balustrade facing east, a sheet of paper in his hand, orange groves and a sunset sky behind him, his gaze full of longing.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "לפני בערך תשע מאות שנה, בספרד, חי משורר גדול. היה לו בית יפה, כבוד ופרנסה טובה. אבל ליבו היה במקום אחר.",
+      "הוא כתב: ליבי במזרח, ואנכי בסוף מערב. כלומר, הגוף שלי כאן בספרד, אבל הלב שלי בארץ ישראל.",
+      "שמו היה רבי יהודה הלוי. הוא היה רופא, משורר, וחכם גדול בתורה."
+     ],
+     "pasuk": {
+      "text": "ליבי במזרח, ואנכי בסוף מערב",
+      "ref": "רבי יהודה הלוי"
+     },
+     "note": null
+    },
+    {
+     "id": "poems",
+     "title_he": "שירים שאנחנו שרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A Shabbat table in candlelight: a family with boys in kippot and women with head coverings sing together, challah under a cover and wine cup, a warm glow and smiling faces.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "השירים של רבי יהודה הלוי חיים איתנו עד היום. בליל שבת שרים רבים את הזמר \"יום שבתון אין לשכוח\", שהוא כתב.",
+      "ובתשעה באב, כשיושבים על הרצפה ומתאבלים על ירושלים, אומרים את הקינה שלו: ציון הלא תשאלי לשלום אסירייך.",
+      "בשירים שלו יש אהבה עצומה להשם, לעם ישראל ולציון."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בזמר \"יום שבתון\" האותיות הראשונות של הבתים יוצרות את השם \"יהודה\". כך חתם המשורר את שמו."
+     }
+    },
+    {
+     "id": "kuzari",
+     "title_he": "ספר הכוזרי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: An imposing medieval royal tent palace of a steppe kingdom: a king in a fur-trimmed robe sits on a carved throne, listening intently to a dignified Jewish sage in a long cloak who speaks with open hands; lamps and rich carpets.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "רבי יהודה הלוי כתב גם ספר חשוב באמונה: ספר הכוזרי. בספר הוא מספר על מלך הכוזרים, עם גדול שחי אז במזרח.",
+      "המלך חלם חלום, ובו נאמר לו: כוונתך רצויה, אבל מעשיך אינם רצויים. הוא רצה לדעת מהי הדרך האמיתית, ושאל חכמים רבים.",
+      "בסוף הזמין חכם יהודי. החכם לא התחיל בהוכחות מסובכות. הוא אמר: אני מאמין בהשם, שהיה עם אברהם, יצחק ויעקב, שהוציא את ישראל ממצרים ונתן לנו את התורה.",
+      "כלומר, האמונה שלנו בנויה על מה שקרה לעם שלם. מאות אלפים ראו את יציאת מצרים ושמעו את קול השם במעמד הר סיני, והעבירו את זה מאב לבן.",
+      "מלך הכוזרים השתכנע, ויחד עם רבים מאנשיו קיבל עליו את דת ישראל.",
+      "הכוזרי כתוב כשיחה, בשאלות ותשובות, ולכן נעים ללמוד אותו. עד היום לומדים אותו בישיבות ובבתי ספר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "journey",
+     "title_he": "הדרך לציון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: An old wooden sailing ship on a calm blue sea at dawn heading east, a lone figure in a cloak standing at the bow, a faint coastline of the Land of Israel on the horizon.",
+     "move": "left",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "לרבי יהודה הלוי לא הספיקו מילים. הוא עזב את ביתו, את פרנסתו ואת כבודו בספרד, ויצא בדרך הקשה לארץ ישראל.",
+      "הוא הפליג באונייה, והגיע למצרים. שם קיבלו אותו יהודים בכבוד גדול, וביקשו שיישאר. אבל הוא המשיך.",
+      "איך הסתיים המסע שלו, איננו יודעים בוודאות. מסורת עתיקה מספרת שזכה להגיע עד שערי ירושלים, השתחווה, ואמר את שירו \"ציון הלא תשאלי\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rambam",
+     "title_he": "נער מקורדובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Medieval Cordoba seen from a hill at dusk: a river with an old stone bridge, white houses and palm trees; a Jewish family in modest travelling clothes leads a laden donkey away from the city on a dirt road.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👩 👦",
+     "say": [
+      "בשנת 1138 בערך, בעיר קורדובה שבספרד, נולד ילד בשם משה. אביו, רבי מימון, היה דיין וחכם. הילד הזה יהיה הרמב\"ם, רבנו משה בן מימון.",
+      "כשהיה נער, כבשה את ספרד ממלכה אכזרית, שהכריחה את היהודים לעזוב את דתם. משפחת הרמב\"ם לא הסכימה, ויצאה לנדודים.",
+      "במשך שנים נדדו ממקום למקום, עד שהגיעו לעיר פאס שבמרוקו. ובכל הזמן הזה הרמב\"ם לא הפסיק ללמוד ולכתוב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "eretz",
+     "title_he": "ביקור בארץ ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Rambam: a medieval Sephardi sage with a dark beard, a wrapped head covering and a long deep-blue robe, wise focused face. Scene: A stormy sea calming at sunrise as a small medieval ship approaches the walled port of Akko; on deck a young sage with a dark beard and his family look gratefully toward the shore.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "לאחר מכן הפליגה המשפחה לארץ ישראל. בדרך פרצה סערה גדולה בים, והם התפללו להשם. הרמב\"ם קבע את יום הסערה כיום תענית לכל חייו.",
+      "הם הגיעו לעכו, וקבע את היום ההוא כיום שמחה. אחר כך עלה הרמב\"ם לירושלים, ונכנס להתפלל במקום המקדש. משם נסע לחברון, למערת המכפלה.",
+      "אבל בימים ההם היה קשה מאוד לחיות בארץ, ולכן המשפחה ירדה למצרים, והתיישבה ליד קהיר.",
+      "הרמב\"ם כתב שאת הימים שבהם זכה להגיע לירושלים ולחברון, קבע לעצמו ימים של שמחה ותפילה, לכל חייו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "doctor",
+     "title_he": "רופא ביום, תורה בלילה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Rambam: a medieval Sephardi sage with a dark beard, a wrapped head covering and a long deep-blue robe, wise focused face. Scene: Night in a medieval Egyptian house: a tired sage in a blue robe leans on cushions, writing by an oil lamp, while a few visitors in turbans wait respectfully with letters; jars of medicine on a shelf.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴 👨",
+     "say": [
+      "במצרים הרמב\"ם למד, ואחיו דוד התפרנס ממסחר באבנים טובות. יום אחד דוד יצא למסע ארוך בים, והאונייה טבעה. הרמב\"ם היה שבור מצער.",
+      "הוא נעשה רופא, כדי לפרנס את המשפחה. הוא היה רופא כל כך מפורסם, שהשליט של מצרים ואנשי חצרו בחרו בו.",
+      "במכתב אחד הוא תיאר את יומו: כל הבוקר בחצר השליט. כשהוא חוזר הביתה, רעב ועייף, ביתו מלא אנשים שמחכים לו, יהודים וגויים.",
+      "רק בלילה, כשהוא שוכב מרוב עייפות, הוא לומד וכותב. וכך, למרות הכל, כתב ספרים שמאירים את עם ישראל עד היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "books",
+     "title_he": "משנה תורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A long wooden shelf in a warm study holding fourteen identical leather-bound volumes, a single candle glowing beside them, and an old hand resting on the top of one open book.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "הרמב\"ם כתב פירוש על המשנה. בתוכו כתב את שלושה עשר עיקרי האמונה. מהם נוצרו \"אני מאמין\" ו\"יגדל\", שאנחנו אומרים בתפילה.",
+      "וספרו הגדול הוא \"משנה תורה\". בו סידר את כל ההלכות של התורה כולה, בשפה ברורה ויפה, באלף פרקים בערך. גם הלכות שנוהגות רק בזמן בית המקדש.",
+      "הספר מחולק לארבעה עשר ספרים. ארבע עשרה בגימטריה זה \"יד\", ולכן הוא נקרא גם \"היד החזקה\".",
+      "הרמב\"ם נפטר בשנת 1204, ונקבר בטבריה. ועל קברו כתבו: ממשה ועד משה, לא קם כמשה."
+     ],
+     "pasuk": {
+      "text": "ממשה ועד משה לא קם כמשה",
+      "ref": "על קברו של הרמב\"ם"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-sag-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "גדולי ספרד: רבי יהודה הלוי והרמב\"ם",
+   "ref_he": "גדולי ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "west",
+     "title_he": "ליבי במזרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaLevi: a medieval Spanish Jewish poet and physician with a short dark beard, a soft head wrap and a long cloak, eyes full of longing. Scene: Evening on a terrace in medieval Spain: a poet in a long cloak stands at a stone balustrade facing east, a sheet of paper in his hand, orange groves and a sunset sky behind him, his gaze full of longing.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "לפני בערך תשע מאות שנה, בספרד, חי משורר גדול. היה לו בית יפה, כבוד ופרנסה טובה. אבל ליבו היה במקום אחר.",
+      "הוא כתב: ליבי במזרח, ואנכי בסוף מערב. כלומר, הגוף שלי כאן בספרד, אבל הלב שלי בארץ ישראל.",
+      "שמו היה רבי יהודה הלוי. הוא היה רופא, משורר, וחכם גדול בתורה."
+     ],
+     "pasuk": {
+      "text": "ליבי במזרח, ואנכי בסוף מערב",
+      "ref": "רבי יהודה הלוי"
+     },
+     "note": null
+    },
+    {
+     "id": "poems",
+     "title_he": "שירים שאנחנו שרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A Shabbat table in candlelight: a family with boys in kippot and women with head coverings sing together, challah under a cover and wine cup, a warm glow and smiling faces.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "השירים של רבי יהודה הלוי חיים איתנו עד היום. בליל שבת שרים רבים את הזמר \"יום שבתון אין לשכוח\", שהוא כתב.",
+      "ובתשעה באב, כשיושבים על הרצפה ומתאבלים על ירושלים, אומרים את הקינה שלו: ציון הלא תשאלי לשלום אסירייך.",
+      "בשירים שלו יש אהבה עצומה להשם, לעם ישראל ולציון.",
+      "בספר הכוזרי הוא כתב שארץ ישראל מיוחדת מכל הארצות, ושמצוות רבות אפשר לקיים רק בה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בזמר \"יום שבתון\" האותיות הראשונות של הבתים יוצרות את השם \"יהודה\". כך חתם המשורר את שמו."
+     }
+    },
+    {
+     "id": "kuzari",
+     "title_he": "ספר הכוזרי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: An imposing medieval royal tent palace of a steppe kingdom: a king in a fur-trimmed robe sits on a carved throne, listening intently to a dignified Jewish sage in a long cloak who speaks with open hands; lamps and rich carpets.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "רבי יהודה הלוי כתב גם ספר חשוב באמונה: ספר הכוזרי. בספר הוא מספר על מלך הכוזרים, עם גדול שחי אז במזרח.",
+      "המלך חלם חלום, ובו נאמר לו: כוונתך רצויה, אבל מעשיך אינם רצויים. הוא רצה לדעת מהי הדרך האמיתית, ושאל חכמים רבים.",
+      "בסוף הזמין חכם יהודי. החכם לא התחיל בהוכחות מסובכות. הוא אמר: אני מאמין בהשם, שהיה עם אברהם, יצחק ויעקב, שהוציא את ישראל ממצרים ונתן לנו את התורה.",
+      "כלומר, האמונה שלנו בנויה על מה שקרה לעם שלם. מאות אלפים ראו את יציאת מצרים ושמעו את קול השם במעמד הר סיני, והעבירו את זה מאב לבן.",
+      "מלך הכוזרים השתכנע, ויחד עם רבים מאנשיו קיבל עליו את דת ישראל.",
+      "הכוזרי כתוב כשיחה, בשאלות ותשובות, ולכן נעים ללמוד אותו. עד היום לומדים אותו בישיבות ובבתי ספר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "journey",
+     "title_he": "הדרך לציון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: An old wooden sailing ship on a calm blue sea at dawn heading east, a lone figure in a cloak standing at the bow, a faint coastline of the Land of Israel on the horizon.",
+     "move": "left",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "לרבי יהודה הלוי לא הספיקו מילים. הוא עזב את ביתו, את פרנסתו ואת כבודו בספרד, ויצא בדרך הקשה לארץ ישראל.",
+      "הוא הפליג באונייה, והגיע למצרים. שם קיבלו אותו יהודים בכבוד גדול, וביקשו שיישאר. אבל הוא המשיך.",
+      "איך הסתיים המסע שלו, איננו יודעים בוודאות. מסורת עתיקה מספרת שזכה להגיע עד שערי ירושלים, השתחווה, ואמר את שירו \"ציון הלא תשאלי\".",
+      "חבריו בספרד ניסו לשכנע אותו להישאר. הוא ענה בשיריו: איך אוכל ליהנות מכל הטוב כאן, כשציון שוממה? הוא רצה לחיות ולהתפלל על אדמת ארץ ישראל עצמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rambam",
+     "title_he": "נער מקורדובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Medieval Cordoba seen from a hill at dusk: a river with an old stone bridge, white houses and palm trees; a Jewish family in modest travelling clothes leads a laden donkey away from the city on a dirt road.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👩 👦",
+     "say": [
+      "בשנת 1138 בערך, בעיר קורדובה שבספרד, נולד ילד בשם משה. אביו, רבי מימון, היה דיין וחכם. הילד הזה יהיה הרמב\"ם, רבנו משה בן מימון.",
+      "כשהיה נער, כבשה את ספרד ממלכה אכזרית, שהכריחה את היהודים לעזוב את דתם. משפחת הרמב\"ם לא הסכימה, ויצאה לנדודים.",
+      "במשך שנים נדדו ממקום למקום, עד שהגיעו לעיר פאס שבמרוקו. ובכל הזמן הזה הרמב\"ם לא הפסיק ללמוד ולכתוב.",
+      "כבר בשנות הנדודים, כשהיה צעיר מאוד, התחיל הרמב\"ם לכתוב את פירוש המשנה. הוא כתב שחיבר אותו בזמן שהיה גולה ונודד, לפעמים בדרכים ולפעמים באונייה בים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "eretz",
+     "title_he": "ביקור בארץ ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Rambam: a medieval Sephardi sage with a dark beard, a wrapped head covering and a long deep-blue robe, wise focused face. Scene: A stormy sea calming at sunrise as a small medieval ship approaches the walled port of Akko; on deck a young sage with a dark beard and his family look gratefully toward the shore.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "לאחר מכן הפליגה המשפחה לארץ ישראל. בדרך פרצה סערה גדולה בים, והם התפללו להשם. הרמב\"ם קבע את יום הסערה כיום תענית לכל חייו.",
+      "הם הגיעו לעכו, וקבע את היום ההוא כיום שמחה. אחר כך עלה הרמב\"ם לירושלים, ונכנס להתפלל במקום המקדש. משם נסע לחברון, למערת המכפלה.",
+      "אבל בימים ההם היה קשה מאוד לחיות בארץ, ולכן המשפחה ירדה למצרים, והתיישבה ליד קהיר.",
+      "הרמב\"ם כתב שאת הימים שבהם זכה להגיע לירושלים ולחברון, קבע לעצמו ימים של שמחה ותפילה, לכל חייו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "doctor",
+     "title_he": "רופא ביום, תורה בלילה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. The Rambam: a medieval Sephardi sage with a dark beard, a wrapped head covering and a long deep-blue robe, wise focused face. Scene: Night in a medieval Egyptian house: a tired sage in a blue robe leans on cushions, writing by an oil lamp, while a few visitors in turbans wait respectfully with letters; jars of medicine on a shelf.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴 👨",
+     "say": [
+      "במצרים הרמב\"ם למד, ואחיו דוד התפרנס ממסחר באבנים טובות. יום אחד דוד יצא למסע ארוך בים, והאונייה טבעה. הרמב\"ם היה שבור מצער.",
+      "הוא נעשה רופא, כדי לפרנס את המשפחה. הוא היה רופא כל כך מפורסם, שהשליט של מצרים ואנשי חצרו בחרו בו.",
+      "במכתב אחד הוא תיאר את יומו: כל הבוקר בחצר השליט. כשהוא חוזר הביתה, רעב ועייף, ביתו מלא אנשים שמחכים לו, יהודים וגויים.",
+      "רק בלילה, כשהוא שוכב מרוב עייפות, הוא לומד וכותב. וכך, למרות הכל, כתב ספרים שמאירים את עם ישראל עד היום.",
+      "הרמב\"ם כתב גם ספרי רפואה. הוא לימד לשמור על הבריאות: לאכול במידה, להתעמל ולישון כראוי. כי, כפי שכתב, גוף בריא ושלם עוזר לעבוד את השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ikarim",
+     "title_he": "אני מאמין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Night sky full of stars over the Egyptian desert, seen from a flat rooftop where an old book lies open on a cushion beside a small oil lamp; peaceful and vast, soft light from above.",
+     "move": "up",
+     "fx": "stars",
+     "art": "",
+     "say": [
+      "הרמב\"ם רצה שכל יהודי יידע מה הם יסודות האמונה. לכן כתב שלושה עשר עיקרים, קצרים וברורים.",
+      "הראשונים עוסקים בבורא: שהוא ברא הכל ומנהיג הכל, שהוא אחד, שאין לו גוף, ושרק אליו מתפללים.",
+      "אחר כך באה הנבואה ומשה רבנו, והתורה: שכל התורה שבידינו היא שניתנה למשה, ושלא תהיה מוחלפת לעולם.",
+      "ובסוף: השכר והעונש, ביאת המשיח ותחיית המתים. ועל המשיח אנחנו אומרים: ואף על פי שיתמהמה, עם כל זה אחכה לו בכל יום שיבוא."
+     ],
+     "pasuk": {
+      "text": "ואף על פי שיתמהמה, עם כל זה אחכה לו בכל יום שיבוא",
+      "ref": "אני מאמין, העיקר השנים עשר"
+     },
+     "note": null
+    },
+    {
+     "id": "books",
+     "title_he": "משנה תורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A long wooden shelf in a warm study holding fourteen identical leather-bound volumes, a single candle glowing beside them, and an old hand resting on the top of one open book.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "הרמב\"ם כתב פירוש על המשנה. בתוכו כתב את שלושה עשר עיקרי האמונה. מהם נוצרו \"אני מאמין\" ו\"יגדל\", שאנחנו אומרים בתפילה.",
+      "וספרו הגדול הוא \"משנה תורה\". בו סידר את כל ההלכות של התורה כולה, בשפה ברורה ויפה, באלף פרקים בערך. גם הלכות שנוהגות רק בזמן בית המקדש.",
+      "הספר מחולק לארבעה עשר ספרים. ארבע עשרה בגימטריה זה \"יד\", ולכן הוא נקרא גם \"היד החזקה\".",
+      "הרמב\"ם נפטר בשנת 1204, ונקבר בטבריה. ועל קברו כתבו: ממשה ועד משה, לא קם כמשה.",
+      "ספר משנה תורה מסתיים בפסוק מיוחד, על ימות המשיח: כי מלאה הארץ דעה את ה' כמים לים מכסים. זו הייתה התקווה של הרמב\"ם, שכל חייו נדד בגלות.",
+      "הרמב\"ם כתב גם את \"אגרת תימן\", מכתב חיזוק ליהודי תימן בשעה קשה. נשמע עליו בקורס \"עם ישראל בגלות\"."
+     ],
+     "pasuk": {
+      "text": "ממשה ועד משה לא קם כמשה",
+      "ref": "על קברו של הרמב\"ם"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "ישיבות רבות לומדות כל יום פרקים מספר משנה תורה, ומסיימות אותו כולו בכל שנה בערך."
+     }
+    }
+   ],
+   "id": "k-sag-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה התכוון רבי יהודה הלוי במילים \"ליבי במזרח, ואנכי בסוף מערב\"?",
+   "answer": "שהוא בספרד, אבל ליבו בארץ ישראל",
+   "options": [
+    "שהוא בספרד, אבל ליבו בארץ ישראל",
+    "שהוא אוהב את הזריחה יותר מהשקיעה",
+    "שיש לו שני בתים"
+   ],
+   "explain_he": "הגוף שלו היה בספרד, במערב, והלב שלו התגעגע לציון שבמזרח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה התכוון רבי יהודה הלוי במילים \"ליבי במזרח, ואנכי בסוף מערב\"?",
+   "answer": "שהוא בספרד, אבל ליבו בארץ ישראל",
+   "options": [
+    "שהוא בספרד, אבל ליבו בארץ ישראל",
+    "שהוא אוהב את הזריחה יותר מהשקיעה",
+    "שיש לו שני בתים"
+   ],
+   "explain_he": "הגוף שלו היה בספרד, במערב, והלב שלו התגעגע לציון שבמזרח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה בנויה האמונה, לפי החכם היהודי בספר הכוזרי?",
+   "answer": "על יציאת מצרים ומעמד הר סיני, שעם שלם ראה",
+   "options": [
+    "על יציאת מצרים ומעמד הר סיני, שעם שלם ראה",
+    "על חלום של מלך",
+    "על ויכוח עם פילוסופים"
+   ],
+   "explain_he": "החכם אמר שהוא מאמין בהשם שהוציא את ישראל ממצרים ונתן לנו את התורה, ועם שלם היה עד לכך.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה בנויה האמונה, לפי החכם היהודי בספר הכוזרי?",
+   "answer": "על יציאת מצרים ומעמד הר סיני, שעם שלם ראה",
+   "options": [
+    "על יציאת מצרים ומעמד הר סיני, שעם שלם ראה",
+    "על חלום של מלך",
+    "על ויכוח עם פילוסופים"
+   ],
+   "explain_he": "החכם אמר שהוא מאמין בהשם שהוציא את ישראל ממצרים ונתן לנו את התורה, ועם שלם היה עד לכך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה יצאה משפחת הרמב\"ם לנדודים?",
+   "answer": "ממלכה אכזרית הכריחה את היהודים לעזוב את דתם, והם סירבו",
+   "options": [
+    "ממלכה אכזרית הכריחה את היהודים לעזוב את דתם, והם סירבו",
+    "הם רצו לסחור במצרים",
+    "אביו קיבל משרה בפאס"
+   ],
+   "explain_he": "משפחת הרמב\"ם בחרה לעזוב את ביתה ולא לוותר על התורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה יצאה משפחת הרמב\"ם לנדודים?",
+   "answer": "ממלכה אכזרית הכריחה את היהודים לעזוב את דתם, והם סירבו",
+   "options": [
+    "ממלכה אכזרית הכריחה את היהודים לעזוב את דתם, והם סירבו",
+    "הם רצו לסחור במצרים",
+    "אביו קיבל משרה בפאס"
+   ],
+   "explain_he": "משפחת הרמב\"ם בחרה לעזוב את ביתה ולא לוותר על התורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה עבד הרמב\"ם במצרים כדי לפרנס את משפחתו?",
+   "answer": "הוא היה רופא",
+   "options": [
+    "הוא היה רופא",
+    "הוא היה סוחר באבנים טובות",
+    "הוא היה מלח באונייה"
+   ],
+   "explain_he": "אחיו דוד היה הסוחר, וטבע בים. אחר כך הרמב\"ם עבד כרופא.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במה עבד הרמב\"ם במצרים כדי לפרנס את משפחתו?",
+   "answer": "הוא היה רופא",
+   "options": [
+    "הוא היה רופא",
+    "הוא היה סוחר באבנים טובות",
+    "הוא היה מלח באונייה"
+   ],
+   "explain_he": "אחיו דוד היה הסוחר, וטבע בים. אחר כך הרמב\"ם עבד כרופא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא ספר משנה תורה גם \"היד החזקה\"?",
+   "answer": "כי יש בו ארבעה עשר ספרים, ו\"יד\" בגימטריה זה ארבע עשרה",
+   "options": [
+    "כי יש בו ארבעה עשר ספרים, ו\"יד\" בגימטריה זה ארבע עשרה",
+    "כי הרמב\"ם כתב אותו ביד ימין",
+    "כי הוא כבד מאוד"
+   ],
+   "explain_he": "י = 10 ו-ד = 4, ביחד 14 ספרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא ספר משנה תורה גם \"היד החזקה\"?",
+   "answer": "כי יש בו ארבעה עשר ספרים, ו\"יד\" בגימטריה זה ארבע עשרה",
+   "options": [
+    "כי יש בו ארבעה עשר ספרים, ו\"יד\" בגימטריה זה ארבע עשרה",
+    "כי הרמב\"ם כתב אותו ביד ימין",
+    "כי הוא כבד מאוד"
+   ],
+   "explain_he": "י = 10 ו-ד = 4, ביחד 14 ספרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אנחנו אומרים בתפילה שנוצר מעיקרי האמונה של הרמב\"ם?",
+   "answer": "\"אני מאמין\" ו\"יגדל\"",
+   "options": [
+    "\"אני מאמין\" ו\"יגדל\"",
+    "\"לכה דודי\"",
+    "\"ציון הלא תשאלי\""
+   ],
+   "explain_he": "שלושה עשר עיקרי האמונה מופיעים בפירוש המשנה של הרמב\"ם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אנחנו אומרים בתפילה שנוצר מעיקרי האמונה של הרמב\"ם?",
+   "answer": "\"אני מאמין\" ו\"יגדל\"",
+   "options": [
+    "\"אני מאמין\" ו\"יגדל\"",
+    "\"לכה דודי\"",
+    "\"ציון הלא תשאלי\""
+   ],
+   "explain_he": "שלושה עשר עיקרי האמונה מופיעים בפירוש המשנה של הרמב\"ם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה פסוק מסתיים ספר משנה תורה?",
+   "answer": "\"כי מלאה הארץ דעה את ה' כמים לים מכסים\"",
+   "options": [
+    "\"כי מלאה הארץ דעה את ה' כמים לים מכסים\"",
+    "\"שמע ישראל ה' אלקינו ה' אחד\"",
+    "\"ליבי במזרח ואנכי בסוף מערב\""
+   ],
+   "explain_he": "הרמב\"ם חותם את ספרו בתקווה לימות המשיח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה הרמב\"ם ביום הסערה ובו ביום שהגיע לעכו?",
+   "answer": "קבע את יום הסערה כתענית, ואת יום ההגעה כיום שמחה",
+   "options": [
+    "קבע את יום הסערה כתענית, ואת יום ההגעה כיום שמחה",
+    "קבע את שניהם כימי חג",
+    "לא זכר אותם"
+   ],
+   "explain_he": "כך הודה להשם על ההצלה, כל ימי חייו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים על המשיח בעיקר השנים עשר?",
+   "answer": "אף על פי שיתמהמה, עם כל זה אחכה לו בכל יום שיבוא",
+   "options": [
+    "אף על פי שיתמהמה, עם כל זה אחכה לו בכל יום שיבוא",
+    "שהוא יבוא רק בעוד אלף שנה",
+    "שאין צורך לחכות לו"
+   ],
+   "explain_he": "הרמב\"ם קבע את האמונה בביאת המשיח כאחד משלושה עשר העיקרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f5e17"
+  }
+ ]
+}

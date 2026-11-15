@@ -1,0 +1,589 @@
+{
+ "id": "k-sag-f4",
+ "unit_id": "k-sag-u2",
+ "course": "sages",
+ "title_he": "רש\"י",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "רש\"י",
+   "ref_he": "גדולי ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "chumash",
+     "title_he": "האותיות שבצד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A child's hands open an old Chumash on a wooden table at home; the page shows dense columns of small handwriting-like lines with a narrow column beside them, a glass of tea and a candle nearby, cozy evening light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "פתחו חומש. ליד הפסוקים יש אותיות קטנות, בצורה קצת אחרת. כמעט כל ילד יהודי בעולם לומד אותן. של מי הן?",
+      "אלה דבריו של רש\"י, רבנו שלמה יצחקי. כבר כמעט אלף שנה, הוא המורה של כל עם ישראל.",
+      "לכתב המיוחד הזה קוראים \"כתב רש\"י\". רש\"י עצמו לא כתב בו. המדפיסים הראשונים בחרו בו כדי להבדיל בין הפסוק לבין הפירוש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "troyes",
+     "title_he": "נולד בטרויש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A small medieval French town at dawn with timber houses, a river and green vineyards on the hills around it; smoke rises from a chimney of a modest Jewish home.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🏠",
+     "say": [
+      "רש\"י נולד לפני כמעט אלף שנה, בשנת 1040, בעיר טרויש שבצרפת.",
+      "יש מסורת שבאותה שנה נפטר רבנו גרשום, \"מאור הגולה\", גדול חכמי אשכנז. שוב, כמו אצל רבי עקיבא ורבי: וזרח השמש ובא השמש.",
+      "מסופר שמשפחתו של רש\"י התפרנסה מכרמים. רש\"י עבד לפרנסתו, ולא לקח כסף על לימוד התורה.",
+      "טרויש הייתה עיר של ירידים גדולים. סוחרים מארצות רבות באו אליה, ויהודים רבים התפרנסו בה ממסחר."
+     ],
+     "pasuk": {
+      "text": "וזרח השמש ובא השמש",
+      "ref": "קהלת א, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "yeshiva",
+     "title_he": "בישיבות אשכנז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rashi: a medieval French Jewish sage with a brown-grey beard, a long dark robe and a dark cap, a quill in hand, kind thoughtful face. Scene: A medieval stone study hall in the Rhineland at night: a young man with a short beard writes notes by candlelight while older sages teach, the window showing a river and a cathedral-free town skyline of steep roofs.",
+     "move": "right",
+     "fx": "night",
+     "art": "👨 👴",
+     "say": [
+      "כשרש\"י היה צעיר, הוא נסע ללמוד בישיבות הגדולות של מגנצא ושל וורמייזא, בגרמניה של היום. שם לימדו תלמידיו של רבנו גרשום.",
+      "הוא למד בהתמדה גדולה, ורשם בקונטרסים כל מה ששמע מרבותיו. מאוחר יותר, הרשימות האלה עזרו לו לכתוב את פירושיו.",
+      "אחרי כמה שנים חזר לטרויש, ופתח שם ישיבה. תלמידים רבים באו ללמוד אצלו.",
+      "רש\"י כתב פעם, שבשנים ההן למד אצל רבותיו בלי לחם מספיק ובלי בגדים מספיקים. ובכל זאת התמיד, ולא עזב את הלימוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "pshat",
+     "title_he": "פשוטו של מקרא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rashi: a medieval French Jewish sage with a brown-grey beard, a long dark robe and a dark cap, a quill in hand, kind thoughtful face. Scene: A medieval sage writes carefully with a quill on parchment at a sturdy wooden desk, a Torah scroll and several volumes open beside him, morning light through a leaded window; a calm, focused mood.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "רש\"י כתב פירוש על כל התנ\"ך, ועל כמעט כל התלמוד. מה מיוחד בפירוש שלו? הוא קצר, ברור ומדויק.",
+      "בכל מילה רש\"י חושב: מה יקשה על הלומד כאן? ואז הוא עונה בכמה מילים. לפעמים מילה אחת שלו פותרת שאלה שלמה.",
+      "רש\"י כתב שהוא בא לפרש את פשוטו של מקרא. וכשהוא מביא מדרש של חז\"ל, הוא בוחר את המדרש שמיישב את לשון הפסוק."
+     ],
+     "pasuk": {
+      "text": "ואני לא באתי אלא לפשוטו של מקרא",
+      "ref": "רש\"י, בראשית ג, ח"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "כשמילה הייתה קשה, רש\"י תרגם אותה לצרפתית של ימיו, באותיות עבריות. היום חוקרים לומדים מרש\"י איך דיברו בצרפת לפני אלף שנה!"
+     }
+    },
+    {
+     "id": "example",
+     "title_he": "רש\"י בפעולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Desert noon by a tent under great oak trees: an elderly man in white robes sits at the tent entrance resting and looking out kindly, a soft beam of light from above shining on him; no figure in the light.",
+     "move": "in",
+     "fx": "light",
+     "art": "⛺ 👴 🌳",
+     "say": [
+      "בואו נראה את רש\"י בפעולה. בפרשת וירא כתוב: וירא אליו ה' באלוני ממרא. אבל לא כתוב מה אמר השם לאברהם. אז למה בא?",
+      "רש\"י עונה בשתי מילים: לבקר את החולה. אברהם נימול שלושה ימים קודם, והקדוש ברוך הוא בא לבקר אותו. ומכאן למדו: מצווה לבקר חולים, כמו שהשם עושה.",
+      "עוד דוגמה. כתוב: ויצא יעקב מבאר שבע. למה צריך לכתוב מאיפה יצא? רש\"י מסביר: כשצדיק יוצא ממקום, הוא משאיר רושם. הוא היה ההוד וההדר של העיר, וכשיצא, יצא ההוד.",
+      "כך, בכל פסוק, רש\"י מוצא את השאלה, ונותן תשובה קצרה שזוכרים כל החיים."
+     ],
+     "pasuk": {
+      "text": "וירא אליו ה' באלני ממרא",
+      "ref": "בראשית יח, א"
+     },
+     "note": null
+    },
+    {
+     "id": "bereshit",
+     "title_he": "למה מתחילה התורה בבראשית?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A sweeping painted view of the Land of Israel from a hilltop at sunrise: green valleys, terraced hills, olive groves and the distant sea, with soft light from above.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨",
+     "say": [
+      "הפירוש הראשון של רש\"י על התורה הוא אחד המפורסמים ביותר. רש\"י שואל: למה התורה מתחילה בבריאת העולם, ולא במצווה הראשונה?",
+      "והוא עונה: כדי שאם יאמרו אומות העולם לישראל \"גזלנים אתם, שכבשתם את ארץ ישראל\", יענו להם ישראל: כל הארץ של הקדוש ברוך הוא היא.",
+      "הוא ברא אותה, ונתן אותה למי שישר בעיניו. ברצונו נתנה להם, וברצונו לקחה מהם ונתנה לנו.",
+      "כך, כבר בפסוק הראשון, רש\"י מלמד אותנו שארץ ישראל שלנו, במתנה מהשם.",
+      "והיסוד לדבריו הוא הפסוק בתהלים: כח מעשיו הגיד לעמו, לתת להם נחלת גוים. השם הראה לעמו את כוחו כבורא העולם, כדי לתת להם את ארץ ישראל."
+     ],
+     "pasuk": {
+      "text": "כח מעשיו הגיד לעמו, לתת להם נחלת גוים",
+      "ref": "תהלים קיא, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "grandsons",
+     "title_he": "הנכדים והתוספות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rashi: a medieval French Jewish sage with a brown-grey beard, a long dark robe and a dark cap, a quill in hand, kind thoughtful face. Scene: An old sage sits with two young bearded scholars in a medieval study, all leaning over one large open volume, one young man pointing and asking, the old man smiling with pride; candles and stacked books.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👴 👨 👨",
+     "say": [
+      "לרש\"י היו בנות, והן נישאו לתלמידי חכמים גדולים. נכדיו היו בעצמם גאוני עולם: הרשב\"ם, ורבנו תם.",
+      "הנכדים ותלמידיהם נקראו \"בעלי התוספות\". הם הוסיפו על דברי רש\"י, שאלו ודנו, והשוו מקום אחד בגמרא למקום אחר.",
+      "פתחו דף גמרא: בצד הפנימי של הדף, ליד הכריכה, נמצא רש\"י. ובצד החיצוני, התוספות. הסב והנכדים, משני צידי אותו דף.",
+      "גם תלמידים רבים שלמדו אצל רש\"י כתבו את דבריו, והפיצו אותם בכל קהילות צרפת ואשכנז."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "everyone",
+     "title_he": "חומש עם רש\"י",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A family Shabbat afternoon: a father and two boys in white shirts and kippot read together from a Chumash at the dining table after the meal, a grandmother with a head covering smiling nearby, sunlight on a white tablecloth.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦 👦 👵",
+     "say": [
+      "רש\"י נפטר בשנת 1105, אבל התורה שלו חיה בכל בית יהודי. כשילד לומד חומש, הוא לומד \"חומש עם רש\"י\".",
+      "וגם פוסקי ההלכה כתבו: את המצווה לקרוא כל שבוע את הפרשה, שניים מקרא ואחד תרגום, אפשר לקיים גם בלימוד פירוש רש\"י במקום התרגום.",
+      "רש\"י היה ענו, עמל, והסביר כל דבר בסבלנות. לכן הוא נקרא \"פרשנדתא\", הפרשן הגדול של התורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הספר העברי הראשון שנדפס עם תאריך היה פירוש רש\"י על התורה, בשנת 1475, באיטליה."
+     }
+    }
+   ],
+   "id": "k-sag-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "רש\"י",
+   "ref_he": "גדולי ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "chumash",
+     "title_he": "האותיות שבצד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A child's hands open an old Chumash on a wooden table at home; the page shows dense columns of small handwriting-like lines with a narrow column beside them, a glass of tea and a candle nearby, cozy evening light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "פתחו חומש. ליד הפסוקים יש אותיות קטנות, בצורה קצת אחרת. כמעט כל ילד יהודי בעולם לומד אותן. של מי הן?",
+      "אלה דבריו של רש\"י, רבנו שלמה יצחקי. כבר כמעט אלף שנה, הוא המורה של כל עם ישראל.",
+      "לכתב המיוחד הזה קוראים \"כתב רש\"י\". רש\"י עצמו לא כתב בו. המדפיסים הראשונים בחרו בו כדי להבדיל בין הפסוק לבין הפירוש.",
+      "ויש ספרים רבים מאוד, שנכתבו רק כדי להסביר את דברי רש\"י. כל מילה שלו נבדקה ונלמדה, כי ידעו שאין אצלו מילה מיותרת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "troyes",
+     "title_he": "נולד בטרויש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A small medieval French town at dawn with timber houses, a river and green vineyards on the hills around it; smoke rises from a chimney of a modest Jewish home.",
+     "move": "out",
+     "fx": "mist",
+     "art": "🏠",
+     "say": [
+      "רש\"י נולד לפני כמעט אלף שנה, בשנת 1040, בעיר טרויש שבצרפת.",
+      "יש מסורת שבאותה שנה נפטר רבנו גרשום, \"מאור הגולה\", גדול חכמי אשכנז. שוב, כמו אצל רבי עקיבא ורבי: וזרח השמש ובא השמש.",
+      "מסופר שמשפחתו של רש\"י התפרנסה מכרמים. רש\"י עבד לפרנסתו, ולא לקח כסף על לימוד התורה.",
+      "טרויש הייתה עיר של ירידים גדולים. סוחרים מארצות רבות באו אליה, ויהודים רבים התפרנסו בה ממסחר."
+     ],
+     "pasuk": {
+      "text": "וזרח השמש ובא השמש",
+      "ref": "קהלת א, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "yeshiva",
+     "title_he": "בישיבות אשכנז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rashi: a medieval French Jewish sage with a brown-grey beard, a long dark robe and a dark cap, a quill in hand, kind thoughtful face. Scene: A medieval stone study hall in the Rhineland at night: a young man with a short beard writes notes by candlelight while older sages teach, the window showing a river and a cathedral-free town skyline of steep roofs.",
+     "move": "right",
+     "fx": "night",
+     "art": "👨 👴",
+     "say": [
+      "כשרש\"י היה צעיר, הוא נסע ללמוד בישיבות הגדולות של מגנצא ושל וורמייזא, בגרמניה של היום. שם לימדו תלמידיו של רבנו גרשום.",
+      "הוא למד בהתמדה גדולה, ורשם בקונטרסים כל מה ששמע מרבותיו. מאוחר יותר, הרשימות האלה עזרו לו לכתוב את פירושיו.",
+      "אחרי כמה שנים חזר לטרויש, ופתח שם ישיבה. תלמידים רבים באו ללמוד אצלו.",
+      "רש\"י כתב פעם, שבשנים ההן למד אצל רבותיו בלי לחם מספיק ובלי בגדים מספיקים. ובכל זאת התמיד, ולא עזב את הלימוד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בעיר וורמס בגרמניה יש בית כנסת עתיק, שלפי המסורת רש\"י למד בו."
+     }
+    },
+    {
+     "id": "pshat",
+     "title_he": "פשוטו של מקרא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rashi: a medieval French Jewish sage with a brown-grey beard, a long dark robe and a dark cap, a quill in hand, kind thoughtful face. Scene: A medieval sage writes carefully with a quill on parchment at a sturdy wooden desk, a Torah scroll and several volumes open beside him, morning light through a leaded window; a calm, focused mood.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "רש\"י כתב פירוש על כל התנ\"ך, ועל כמעט כל התלמוד. מה מיוחד בפירוש שלו? הוא קצר, ברור ומדויק.",
+      "בכל מילה רש\"י חושב: מה יקשה על הלומד כאן? ואז הוא עונה בכמה מילים. לפעמים מילה אחת שלו פותרת שאלה שלמה.",
+      "רש\"י כתב שהוא בא לפרש את פשוטו של מקרא. וכשהוא מביא מדרש של חז\"ל, הוא בוחר את המדרש שמיישב את לשון הפסוק.",
+      "רש\"י גם לא התבייש לכתוב, במקומות אחדים: איני יודע מה מלמדנו. גדול הדור אומר \"איני יודע\". זו ענווה של אמת.",
+      "ולפעמים רש\"י כותב: אין המקרא הזה אומר אלא דרשני. כלומר, הפסוק עצמו מבקש שנדרוש אותו, כי בלי המדרש לא מבינים אותו."
+     ],
+     "pasuk": {
+      "text": "ואני לא באתי אלא לפשוטו של מקרא",
+      "ref": "רש\"י, בראשית ג, ח"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "כשמילה הייתה קשה, רש\"י תרגם אותה לצרפתית של ימיו, באותיות עבריות. היום חוקרים לומדים מרש\"י איך דיברו בצרפת לפני אלף שנה!"
+     }
+    },
+    {
+     "id": "example",
+     "title_he": "רש\"י בפעולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Desert noon by a tent under great oak trees: an elderly man in white robes sits at the tent entrance resting and looking out kindly, a soft beam of light from above shining on him; no figure in the light.",
+     "move": "in",
+     "fx": "light",
+     "art": "⛺ 👴 🌳",
+     "say": [
+      "בואו נראה את רש\"י בפעולה. בפרשת וירא כתוב: וירא אליו ה' באלוני ממרא. אבל לא כתוב מה אמר השם לאברהם. אז למה בא?",
+      "רש\"י עונה בשתי מילים: לבקר את החולה. אברהם נימול שלושה ימים קודם, והקדוש ברוך הוא בא לבקר אותו. ומכאן למדו: מצווה לבקר חולים, כמו שהשם עושה.",
+      "עוד דוגמה. כתוב: ויצא יעקב מבאר שבע. למה צריך לכתוב מאיפה יצא? רש\"י מסביר: כשצדיק יוצא ממקום, הוא משאיר רושם. הוא היה ההוד וההדר של העיר, וכשיצא, יצא ההוד.",
+      "כך, בכל פסוק, רש\"י מוצא את השאלה, ונותן תשובה קצרה שזוכרים כל החיים."
+     ],
+     "pasuk": {
+      "text": "וירא אליו ה' באלני ממרא",
+      "ref": "בראשית יח, א"
+     },
+     "note": null
+    },
+    {
+     "id": "bereshit",
+     "title_he": "למה מתחילה התורה בבראשית?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A sweeping painted view of the Land of Israel from a hilltop at sunrise: green valleys, terraced hills, olive groves and the distant sea, with soft light from above.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨",
+     "say": [
+      "הפירוש הראשון של רש\"י על התורה הוא אחד המפורסמים ביותר. רש\"י שואל: למה התורה מתחילה בבריאת העולם, ולא במצווה הראשונה?",
+      "והוא עונה: כדי שאם יאמרו אומות העולם לישראל \"גזלנים אתם, שכבשתם את ארץ ישראל\", יענו להם ישראל: כל הארץ של הקדוש ברוך הוא היא.",
+      "הוא ברא אותה, ונתן אותה למי שישר בעיניו. ברצונו נתנה להם, וברצונו לקחה מהם ונתנה לנו.",
+      "כך, כבר בפסוק הראשון, רש\"י מלמד אותנו שארץ ישראל שלנו, במתנה מהשם.",
+      "והיסוד לדבריו הוא הפסוק בתהלים: כח מעשיו הגיד לעמו, לתת להם נחלת גוים. השם הראה לעמו את כוחו כבורא העולם, כדי לתת להם את ארץ ישראל.",
+      "רש\"י הביא את הדברים האלה בשם רבי יצחק, מדברי חז\"ל. והם נכונים גם היום: הזכות שלנו על ארץ ישראל באה מהקדוש ברוך הוא, בורא העולם, שהבטיח אותה לאבותינו."
+     ],
+     "pasuk": {
+      "text": "כח מעשיו הגיד לעמו, לתת להם נחלת גוים",
+      "ref": "תהלים קיא, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "grandsons",
+     "title_he": "הנכדים והתוספות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rashi: a medieval French Jewish sage with a brown-grey beard, a long dark robe and a dark cap, a quill in hand, kind thoughtful face. Scene: An old sage sits with two young bearded scholars in a medieval study, all leaning over one large open volume, one young man pointing and asking, the old man smiling with pride; candles and stacked books.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👴 👨 👨",
+     "say": [
+      "לרש\"י היו בנות, והן נישאו לתלמידי חכמים גדולים. נכדיו היו בעצמם גאוני עולם: הרשב\"ם, ורבנו תם.",
+      "הנכדים ותלמידיהם נקראו \"בעלי התוספות\". הם הוסיפו על דברי רש\"י, שאלו ודנו, והשוו מקום אחד בגמרא למקום אחר.",
+      "פתחו דף גמרא: בצד הפנימי של הדף, ליד הכריכה, נמצא רש\"י. ובצד החיצוני, התוספות. הסב והנכדים, משני צידי אותו דף.",
+      "גם תלמידים רבים שלמדו אצל רש\"י כתבו את דבריו, והפיצו אותם בכל קהילות צרפת ואשכנז.",
+      "רבנו תם נחשב לגדול חכמי דורו. עד היום יש המניחים גם \"תפילין דרבנו תם\", לפי שיטתו בסדר הפרשיות שבתוך התפילין."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "letters",
+     "title_he": "שאלות מכל הקהילות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rashi: a medieval French Jewish sage with a brown-grey beard, a long dark robe and a dark cap, a quill in hand, kind thoughtful face. Scene: A medieval French study by candlelight: a sage reads a folded letter while a messenger in a travelling cloak waits by the door, a pile of sealed letters and an inkpot on the desk.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴 🚶",
+     "say": [
+      "רש\"י לא היה רק פרשן. קהילות רבות שלחו אליו שאלות בהלכה, והוא ענה להן במכתבים. רבות מהתשובות האלה נשמרו עד היום.",
+      "בתשובות שלו רואים ענווה גדולה. לפעמים הוא כותב שהוא אינו בטוח, ומבקש מהשואל לבדוק בעצמו.",
+      "בימים הקשים של סוף חייו, היו יהודים שהוכרחו בכוח לעזוב את דתם, וכשיכלו, חזרו ליהדות. רש\"י פסק שיש לקבל אותם באהבה, ואסור לבייש אותם.",
+      "כך חיבר רש\"י בין דיוק גדול בהלכה, לבין לב רחום לכל יהודי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "everyone",
+     "title_he": "חומש עם רש\"י",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A family Shabbat afternoon: a father and two boys in white shirts and kippot read together from a Chumash at the dining table after the meal, a grandmother with a head covering smiling nearby, sunlight on a white tablecloth.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦 👦 👵",
+     "say": [
+      "רש\"י נפטר בשנת 1105, אבל התורה שלו חיה בכל בית יהודי. כשילד לומד חומש, הוא לומד \"חומש עם רש\"י\".",
+      "וגם פוסקי ההלכה כתבו: את המצווה לקרוא כל שבוע את הפרשה, שניים מקרא ואחד תרגום, אפשר לקיים גם בלימוד פירוש רש\"י במקום התרגום.",
+      "רש\"י היה ענו, עמל, והסביר כל דבר בסבלנות. לכן הוא נקרא \"פרשנדתא\", הפרשן הגדול של התורה.",
+      "בשנים האחרונות של חייו עברו על קהילות אשכנז צרות קשות. אבל רש\"י המשיך ללמד, לענות על שאלות ולחזק את העם. נלמד על הימים ההם בקורס \"עם ישראל בגלות\"."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הספר העברי הראשון שנדפס עם תאריך היה פירוש רש\"י על התורה, בשנת 1475, באיטליה."
+     }
+    }
+   ],
+   "id": "k-sag-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נולד רש\"י?",
+   "answer": "בטרויש שבצרפת",
+   "options": [
+    "בטרויש שבצרפת",
+    "בוורמס שבגרמניה",
+    "בקורדובה שבספרד"
+   ],
+   "explain_he": "רש\"י נולד בטרויש בשנת 1040, ונסע ללמוד בישיבות שבגרמניה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נולד רש\"י?",
+   "answer": "בטרויש שבצרפת",
+   "options": [
+    "בטרויש שבצרפת",
+    "בוורמס שבגרמניה",
+    "בקורדובה שבספרד"
+   ],
+   "explain_he": "רש\"י נולד בטרויש בשנת 1040, ונסע ללמוד בישיבות שבגרמניה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בפירוש של רש\"י?",
+   "answer": "הוא קצר, ברור, ועונה על מה שקשה ללומד",
+   "options": [
+    "הוא קצר, ברור, ועונה על מה שקשה ללומד",
+    "הוא ארוך מאוד ומלא סיפורים",
+    "הוא כתוב בצרפתית בלבד"
+   ],
+   "explain_he": "רש\"י חשב בכל מילה מה יקשה על הלומד, וענה בכמה מילים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בפירוש של רש\"י?",
+   "answer": "הוא קצר, ברור, ועונה על מה שקשה ללומד",
+   "options": [
+    "הוא קצר, ברור, ועונה על מה שקשה ללומד",
+    "הוא ארוך מאוד ומלא סיפורים",
+    "הוא כתוב בצרפתית בלבד"
+   ],
+   "explain_he": "רש\"י חשב בכל מילה מה יקשה על הלומד, וענה בכמה מילים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי רש\"י, למה התורה מתחילה בבריאת העולם?",
+   "answer": "כדי ללמד שכל הארץ של השם, והוא נתן את ארץ ישראל לעם ישראל",
+   "options": [
+    "כדי ללמד שכל הארץ של השם, והוא נתן את ארץ ישראל לעם ישראל",
+    "כדי שנדע כמה ימים יש בשבוע",
+    "כי זה הסיפור הקצר ביותר"
+   ],
+   "explain_he": "רש\"י מלמד כבר בפסוק הראשון שארץ ישראל ניתנה לנו ברצון השם, שברא את העולם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי רש\"י, למה התורה מתחילה בבריאת העולם?",
+   "answer": "כדי ללמד שכל הארץ של השם, והוא נתן את ארץ ישראל לעם ישראל",
+   "options": [
+    "כדי ללמד שכל הארץ של השם, והוא נתן את ארץ ישראל לעם ישראל",
+    "כדי שנדע כמה ימים יש בשבוע",
+    "כי זה הסיפור הקצר ביותר"
+   ],
+   "explain_he": "רש\"י מלמד כבר בפסוק הראשון שארץ ישראל ניתנה לנו ברצון השם, שברא את העולם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו בעלי התוספות?",
+   "answer": "נכדיו ותלמידיהם של רש\"י",
+   "options": [
+    "נכדיו ותלמידיהם של רש\"י",
+    "רבותיו של רש\"י בגרמניה",
+    "המדפיסים של הגמרא"
+   ],
+   "explain_he": "הרשב\"ם ורבנו תם, נכדי רש\"י, ותלמידיהם, הוסיפו על דברי רש\"י ודנו בהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו בעלי התוספות?",
+   "answer": "נכדיו ותלמידיהם של רש\"י",
+   "options": [
+    "נכדיו ותלמידיהם של רש\"י",
+    "רבותיו של רש\"י בגרמניה",
+    "המדפיסים של הגמרא"
+   ],
+   "explain_he": "הרשב\"ם ורבנו תם, נכדי רש\"י, ותלמידיהם, הוסיפו על דברי רש\"י ודנו בהם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כתב רש\"י לפעמים מילים בצרפתית?",
+   "answer": "כדי להסביר מילה קשה בשפה שהלומדים הכירו",
+   "options": [
+    "כדי להסביר מילה קשה בשפה שהלומדים הכירו",
+    "כי שכח את המילה בעברית",
+    "כי רצה שרק צרפתים יבינו"
+   ],
+   "explain_he": "רש\"י תרגם מילים קשות לשפת הדיבור של ימיו, באותיות עבריות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כתב רש\"י לפעמים מילים בצרפתית?",
+   "answer": "כדי להסביר מילה קשה בשפה שהלומדים הכירו",
+   "options": [
+    "כדי להסביר מילה קשה בשפה שהלומדים הכירו",
+    "כי שכח את המילה בעברית",
+    "כי רצה שרק צרפתים יבינו"
+   ],
+   "explain_he": "רש\"י תרגם מילים קשות לשפת הדיבור של ימיו, באותיות עבריות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מלמדות המילים \"איני יודע\" בפירוש רש\"י?",
+   "answer": "את הענווה של רש\"י",
+   "options": [
+    "את הענווה של רש\"י",
+    "שרש\"י לא למד גמרא",
+    "שהפסוק טעות"
+   ],
+   "explain_he": "גדול הדור לא התבייש לכתוב שאינו יודע. זו ענווה של אמת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה נמצא רש\"י בדף הגמרא?",
+   "answer": "בצד הפנימי, ליד הכריכה",
+   "options": [
+    "בצד הפנימי, ליד הכריכה",
+    "בצד החיצוני של הדף",
+    "בתחתית הדף בלבד"
+   ],
+   "explain_he": "רש\"י בצד הפנימי, והתוספות בצד החיצוני.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי רש\"י, למה בא השם אל אברהם באלוני ממרא?",
+   "answer": "לבקר את החולה, כי אברהם נימול",
+   "options": [
+    "לבקר את החולה, כי אברהם נימול",
+    "לצוות עליו ללכת למצרים",
+    "לספר לו על המבול"
+   ],
+   "explain_he": "מכאן למדו שמצווה לבקר חולים, כמו שהשם עושה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי רש\"י, למה בא השם אל אברהם באלוני ממרא?",
+   "answer": "לבקר את החולה, כי אברהם נימול",
+   "options": [
+    "לבקר את החולה, כי אברהם נימול",
+    "לצוות עליו ללכת למצרים",
+    "לספר לו על המבול"
+   ],
+   "explain_he": "מכאן למדו שמצווה לבקר חולים, כמו שהשם עושה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פסק רש\"י על יהודים שהוכרחו לעזוב את דתם וחזרו?",
+   "answer": "לקבל אותם באהבה ולא לבייש אותם",
+   "options": [
+    "לקבל אותם באהבה ולא לבייש אותם",
+    "לא לדבר איתם לעולם",
+    "שיעברו לגור בעיר אחרת"
+   ],
+   "explain_he": "רש\"י חיבר בין דיוק בהלכה לבין לב רחום לכל יהודי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f4e17"
+  }
+ ]
+}

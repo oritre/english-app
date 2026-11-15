@@ -1,0 +1,498 @@
+{
+ "id": "k-itc-f3",
+ "unit_id": "k-itc-u2",
+ "course": "israeltech",
+ "title_he": "מצילים חיים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "מצילים חיים",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "siren",
+     "title_he": "צפירה ברחוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A busy Jerusalem street at dusk: a white ambulance with a red emblem shape and flashing lights makes its way while cars pull aside, people on the sidewalk looking on with concern.",
+     "move": "right",
+     "fx": "night",
+     "art": "🚑",
+     "say": [
+      "שמעתם פעם צפירה של אמבולנס? ברגע הזה, אי שם, מישהו זקוק לעזרה, ומישהו אחר ממהר להציל אותו.",
+      "בישראל יש אלפי אנשים שהקדישו את חייהם, או את זמנם הפנוי, להציל חיים. בשיעור הזה נכיר אותם, ונכיר גם המצאות רפואיות ישראליות שעוזרות לחולים בכל העולם.",
+      "חז״ל אמרו: ״כל המקיים נפש אחת מישראל, מעלה עליו הכתוב כאילו קיים עולם מלא״. כל אדם הוא עולם שלם.",
+      "המשנה מוסיפה שהאדם הראשון נברא יחידי, כדי ללמד שכל אדם חשוב כמו עולם שלם."
+     ],
+     "pasuk": {
+      "text": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת מִיִּשְׂרָאֵל, מַעֲלֶה עָלָיו הַכָּתוּב כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
+      "ref": "משנה, סנהדרין ד, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "mda",
+     "title_he": "מגן דוד אדום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: An ambulance station: volunteer medics in modest uniforms, young men and women in long skirts, check equipment beside white ambulances; a blood donation bus parked nearby.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩",
+     "say": [
+      "מגן דוד אדום הוקם בתל אביב בשנת תר״ץ, 1930, בתחילה בידי קבוצה קטנה של מתנדבים.",
+      "היום זה ארגון ההצלה הלאומי של ישראל. יש לו מאות אמבולנסים, ניידות טיפול נמרץ ואפילו מסוקים, ופועלים בו אנשי צוות ומתנדבים רבים, כולל בני נוער שעברו קורס מיוחד.",
+      "למגן דוד אדום יש גם שירותי דם. מי שתורם דם עושה חסד גדול: מנת דם אחת יכולה לעזור להציל כמה אנשים.",
+      "מתנדבי מגן דוד אדום לומדים קורס ארוך: איך בודקים נשימה ודופק, איך עוצרים דימום, ואיך עושים החייאה. הם מתאמנים שוב ושוב, כדי שבשעת אמת הידיים יידעו מה לעשות.",
+      "ובכל אמבולנס יש ציוד שמאפשר לטפל בחולה כבר בדרך לבית החולים, כדי שאף דקה לא תלך לאיבוד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המספר 101 מחייג ישר למגן דוד אדום. כדאי לזכור אותו!"
+     }
+    },
+    {
+     "id": "hatzalah",
+     "title_he": "איחוד הצלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A volunteer medic with a kippah and an orange vest rides a small motorbike ambulance between cars in a traffic jam in an Israeli city, a medical kit strapped on the back.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏍️",
+     "say": [
+      "ויש עוד ארגון מופלא: ״איחוד הצלה״. הרעיון שלו פשוט: בכל שכונה גרים מתנדבים שלמדו עזרה ראשונה. כשמישהו קורא לעזרה, המתנדב הקרוב ביותר יוצא מיד.",
+      "כדי להגיע מהר, מתנדבים רבים רוכבים על אופנוע הצלה, ״אמבוקלנוע״, שיכול לעבור בין המכוניות בפקקים. לפעמים הוא מגיע תוך דקות ספורות, עוד לפני האמבולנס.",
+      "ובשבת? פיקוח נפש דוחה שבת. מתנדב ששומע קריאה בשבת או ביום הכיפורים עוזב את בית הכנסת ורץ להציל. כך מקיימים את מצוות התורה: ״לא תעמוד על דם רעך״.",
+      "איחוד הצלה נולד בירושלים, מתוך רעיון של מתנדבים שרצו להגיע מהר יותר. היום יש בו אלפי מתנדבים, מכל חלקי העם, שיוצאים מהבית, מהעבודה ומהלימוד, ביום ובלילה, כדי לעזור.",
+      "ובקהילות יהודיות רבות בעולם יש ארגוני הצלה של מתנדבים, שיוצאים לעזור בכל שעה."
+     ],
+     "pasuk": {
+      "text": "לֹא תַעֲמֹד עַל דַּם רֵעֶךָ",
+      "ref": "ויקרא יט, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "bandage",
+     "title_he": "התחבושת הישראלית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Close view of hands in a first-aid class wrapping a green emergency bandage with a small plastic pressure bar around a training dummy arm; an instructor with a kippah guiding them.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "ועכשיו להמצאות. הראשונה פשוטה ומבריקה: ״התחבושת הישראלית״.",
+      "בעבר, כשמישהו נפצע ודימם, היה קשה לחבוש אותו מהר וללחוץ על הפצע. ממציא ישראלי בשם ברנרד בר־נתן פיתח תחבושת מיוחדת, עם ידית קטנה שלוחצת על הפצע, ואפשר לקשור אותה מהר, אפילו ביד אחת.",
+      "התחבושת הזאת נמצאת היום בערכות עזרה ראשונה של צוותי הצלה, אמבולנסים וצבאות בארצות רבות בעולם.",
+      "ההמצאה נולדה ממחשבה פשוטה: מה יעזור לחובש שעובד מהר, בלחץ ובחושך? תחבושת אחת, שהכול בנוי בתוכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "pill",
+     "title_he": "מצלמה בגלולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A doctor in a white coat holds up a tiny capsule between two fingers, showing it to a smiling patient; on a screen behind them, soft pink abstract images from the camera.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "המצאה ישראלית נוספת נראית כמו כמוסה רגילה של תרופה. אבל בתוכה יש... מצלמה!",
+      "המהנדס הישראלי גבריאל עידן פיתח את ״מצלמת הגלולה״. החולה בולע אותה עם קצת מים, והיא עוברת בעדינות בתוך מערכת העיכול ומצלמת אלפי תמונות.",
+      "הרופא רואה את התמונות במחשב, ויכול למצוא את הבעיה בלי ניתוח ובלי כאב.",
+      "הגלולה בגודל של כמוסת ויטמין גדולה. יש בה מצלמה זעירה, נורות קטנטנות, סוללה ומשדר, והיא שולחת את התמונות למכשיר קטן שהחולה נושא על גופו.",
+      "ויש עוד המצאות רפואיות רבות מישראל: תרופות חדשות, מכשירים לניתוחים, ושיטות לטיפול בפצועים, שעוזרים לחולים בכל העולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "abroad",
+     "title_he": "עזרה רחוק מהבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A field hospital of large white tents set up after an earthquake in a distant land, Israeli doctors and nurses in modest scrubs caring for patients, a mountain town with damaged buildings far in the background, no injuries shown.",
+     "move": "out",
+     "fx": "dust",
+     "art": "⛺ 👨 👩",
+     "say": [
+      "ישראל גם שולחת עזרה למרחקים. כשרעידות אדמה קשות פגעו בארצות רחוקות, כמו האיטי וטורקיה, הגיעו משלחות ישראליות של רופאים ומחלצים, הקימו בית חולים שדה בתוך ימים ספורים, וטיפלו בפצועים רבים.",
+      "זה המשך לדרכו של אברהם אבינו, שפתח את אוהלו לכל עובר אורח וגמל חסד עם כל אדם.",
+      "במשלחות האלה עבדו גם רופאים ומחלצים יראי שמיים, שהקפידו על שבת ועל כשרות גם בשטח, ובמקביל עבדו יומם ולילה להצלת חיים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "כל נפש היא עולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The two siblings sit in a first-aid class for youth, practicing with a bandage on each other's arm while a kind instructor watches; a poster of a heart shape on the wall, no text.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? מגן דוד אדום ואיחוד הצלה, תחבושת חכמה ומצלמה בתוך גלולה, ומשלחות שעוזרות בקצה העולם.",
+      "מאחורי כל אלה עומד ערך אחד גדול שלמדנו מהתורה: כל נפש היא עולם מלא.",
+      "וזכרו: גם שאלה פשוטה, ״אתה צריך עזרה?״, וגם קריאה מהירה למבוגר, יכולות להציל חיים.",
+      "ואתם? אפשר להתחיל כבר עכשיו: לזכור את המספר 101, ללמוד עזרה ראשונה כשתגדלו, ולעזור לכל מי שצריך. בשיעור הבא נכיר טכנולוגיה ישראלית שאולי נמצאת גם אצלכם בבית."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "מצילים חיים",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "siren",
+     "title_he": "צפירה ברחוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A busy Jerusalem street at dusk: a white ambulance with a red emblem shape and flashing lights makes its way while cars pull aside, people on the sidewalk looking on with concern.",
+     "move": "right",
+     "fx": "night",
+     "art": "🚑",
+     "say": [
+      "שמעתם פעם צפירה של אמבולנס? ברגע הזה, אי שם, מישהו זקוק לעזרה, ומישהו אחר ממהר להציל אותו.",
+      "בישראל יש אלפי אנשים שהקדישו את חייהם, או את זמנם הפנוי, להציל חיים. בשיעור הזה נכיר אותם, ונכיר גם המצאות רפואיות ישראליות שעוזרות לחולים בכל העולם.",
+      "חז״ל אמרו: ״כל המקיים נפש אחת מישראל, מעלה עליו הכתוב כאילו קיים עולם מלא״. כל אדם הוא עולם שלם.",
+      "המשנה מוסיפה שהאדם הראשון נברא יחידי, כדי ללמד שכל אדם חשוב כמו עולם שלם."
+     ],
+     "pasuk": {
+      "text": "כָּל הַמְקַיֵּם נֶפֶשׁ אַחַת מִיִּשְׂרָאֵל, מַעֲלֶה עָלָיו הַכָּתוּב כְּאִלּוּ קִיֵּם עוֹלָם מָלֵא",
+      "ref": "משנה, סנהדרין ד, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "mda",
+     "title_he": "מגן דוד אדום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: An ambulance station: volunteer medics in modest uniforms, young men and women in long skirts, check equipment beside white ambulances; a blood donation bus parked nearby.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩",
+     "say": [
+      "מגן דוד אדום הוקם בתל אביב בשנת תר״ץ, 1930, בתחילה בידי קבוצה קטנה של מתנדבים.",
+      "היום זה ארגון ההצלה הלאומי של ישראל. יש לו מאות אמבולנסים, ניידות טיפול נמרץ ואפילו מסוקים, ופועלים בו אנשי צוות ומתנדבים רבים, כולל בני נוער שעברו קורס מיוחד.",
+      "למגן דוד אדום יש גם שירותי דם. מי שתורם דם עושה חסד גדול: מנת דם אחת יכולה לעזור להציל כמה אנשים.",
+      "מתנדבי מגן דוד אדום לומדים קורס ארוך: איך בודקים נשימה ודופק, איך עוצרים דימום, ואיך עושים החייאה. הם מתאמנים שוב ושוב, כדי שבשעת אמת הידיים יידעו מה לעשות.",
+      "ובכל אמבולנס יש ציוד שמאפשר לטפל בחולה כבר בדרך לבית החולים, כדי שאף דקה לא תלך לאיבוד.",
+      "תרומת דם היא חסד מיוחד: התורם לא יודע מי יקבל את הדם, והמקבל לא יודע מי תרם. זה דומה לאחת המעלות הגבוהות של צדקה שהרמב״ם מתאר, כשהנותן והמקבל אינם יודעים זה על זה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המספר 101 מחייג ישר למגן דוד אדום. כדאי לזכור אותו!"
+     }
+    },
+    {
+     "id": "hatzalah",
+     "title_he": "איחוד הצלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A volunteer medic with a kippah and an orange vest rides a small motorbike ambulance between cars in a traffic jam in an Israeli city, a medical kit strapped on the back.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏍️",
+     "say": [
+      "ויש עוד ארגון מופלא: ״איחוד הצלה״. הרעיון שלו פשוט: בכל שכונה גרים מתנדבים שלמדו עזרה ראשונה. כשמישהו קורא לעזרה, המתנדב הקרוב ביותר יוצא מיד.",
+      "כדי להגיע מהר, מתנדבים רבים רוכבים על אופנוע הצלה, ״אמבוקלנוע״, שיכול לעבור בין המכוניות בפקקים. לפעמים הוא מגיע תוך דקות ספורות, עוד לפני האמבולנס.",
+      "ובשבת? פיקוח נפש דוחה שבת. מתנדב ששומע קריאה בשבת או ביום הכיפורים עוזב את בית הכנסת ורץ להציל. כך מקיימים את מצוות התורה: ״לא תעמוד על דם רעך״.",
+      "איחוד הצלה נולד בירושלים, מתוך רעיון של מתנדבים שרצו להגיע מהר יותר. היום יש בו אלפי מתנדבים, מכל חלקי העם, שיוצאים מהבית, מהעבודה ומהלימוד, ביום ובלילה, כדי לעזור.",
+      "הרמב״ם פוסק בהלכות רוצח: ״כל היכול להציל ולא הציל, עובר על לא תעמוד על דם רעך״. להציל זו לא רק רשות, אלא חובה על כל מי שיכול."
+     ],
+     "pasuk": {
+      "text": "לֹא תַעֲמֹד עַל דַּם רֵעֶךָ",
+      "ref": "ויקרא יט, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "bandage",
+     "title_he": "התחבושת הישראלית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Close view of hands in a first-aid class wrapping a green emergency bandage with a small plastic pressure bar around a training dummy arm; an instructor with a kippah guiding them.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "ועכשיו להמצאות. הראשונה פשוטה ומבריקה: ״התחבושת הישראלית״.",
+      "בעבר, כשמישהו נפצע ודימם, היה קשה לחבוש אותו מהר וללחוץ על הפצע. ממציא ישראלי בשם ברנרד בר־נתן פיתח תחבושת מיוחדת, עם ידית קטנה שלוחצת על הפצע, ואפשר לקשור אותה מהר, אפילו ביד אחת.",
+      "התחבושת הזאת נמצאת היום בערכות עזרה ראשונה של צוותי הצלה, אמבולנסים וצבאות בארצות רבות בעולם.",
+      "ההמצאה נולדה ממחשבה פשוטה: מה יעזור לחובש שעובד מהר, בלחץ ובחושך? תחבושת אחת, שהכול בנוי בתוכה.",
+      "במצבי חירום, הדקות הראשונות הן החשובות ביותר. לכן כל אחד יכול להיות ״מציל ראשון״: מי שלמד עזרה ראשונה, שומר על עצמו, וקורא מיד לעזרה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "pill",
+     "title_he": "מצלמה בגלולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A doctor in a white coat holds up a tiny capsule between two fingers, showing it to a smiling patient; on a screen behind them, soft pink abstract images from the camera.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "המצאה ישראלית נוספת נראית כמו כמוסה רגילה של תרופה. אבל בתוכה יש... מצלמה!",
+      "המהנדס הישראלי גבריאל עידן פיתח את ״מצלמת הגלולה״. החולה בולע אותה עם קצת מים, והיא עוברת בעדינות בתוך מערכת העיכול ומצלמת אלפי תמונות.",
+      "הרופא רואה את התמונות במחשב, ויכול למצוא את הבעיה בלי ניתוח ובלי כאב.",
+      "הגלולה בגודל של כמוסת ויטמין גדולה. יש בה מצלמה זעירה, נורות קטנטנות, סוללה ומשדר, והיא שולחת את התמונות למכשיר קטן שהחולה נושא על גופו.",
+      "ויש עוד המצאות רפואיות רבות מישראל: תרופות חדשות, מכשירים לניתוחים, ושיטות לטיפול בפצועים, שעוזרים לחולים בכל העולם.",
+      "הסיפור של הגלולה מלמד עוד דבר: עידן היה מהנדס בתעשייה הביטחונית, ושם למד לבנות מצלמות זעירות. את הידע הזה הוא הפנה לטובת חולים. אותה חכמה יכולה לשמש לשמירה ולרפואה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "abroad",
+     "title_he": "עזרה רחוק מהבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A field hospital of large white tents set up after an earthquake in a distant land, Israeli doctors and nurses in modest scrubs caring for patients, a mountain town with damaged buildings far in the background, no injuries shown.",
+     "move": "out",
+     "fx": "dust",
+     "art": "⛺ 👨 👩",
+     "say": [
+      "ישראל גם שולחת עזרה למרחקים. כשרעידות אדמה קשות פגעו בארצות רחוקות, כמו האיטי וטורקיה, הגיעו משלחות ישראליות של רופאים ומחלצים, הקימו בית חולים שדה בתוך ימים ספורים, וטיפלו בפצועים רבים.",
+      "זה המשך לדרכו של אברהם אבינו, שפתח את אוהלו לכל עובר אורח וגמל חסד עם כל אדם.",
+      "במשלחות האלה עבדו גם רופאים ומחלצים יראי שמיים, שהקפידו על שבת ועל כשרות גם בשטח, ובמקביל עבדו יומם ולילה להצלת חיים.",
+      "חסד כזה הוא גם קידוש השם: כשאנשים בקצה העולם רואים רופאים מישראל באים לעזור, הם רואים את דרכה של התורה, ״דרכיה דרכי נועם״."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "gdolim",
+     "title_he": "בידי גדולי ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Shabbat afternoon: a respected rabbi with a white beard and black hat walks quickly beside a young volunteer medic with a kippah toward a house where someone needs help; neighbors open the door.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "ההלכה מלמדת דבר מפתיע. אפשר היה לחשוב שבשבת עדיף שמישהו אחר יעשה את מלאכת ההצלה, ולא דווקא תלמיד חכם. אבל השולחן ערוך פוסק שיש לעשות זאת דווקא בידי ״גדולי ישראל וחכמיהם״.",
+      "למה? כדי שכולם יראו שהצלת חיים בשבת איננה היתר עצוב, אלא מצווה גמורה, וכדי שאף אחד לא יהסס אפילו רגע.",
+      "חז״ל אמרו על כך: ״הזריז הרי זה משובח״. ועוד אמרו: ״חלל עליו שבת אחת, כדי שישמור שבתות הרבה״.",
+      "כשמתנדב של איחוד הצלה או של מגן דוד אדום יוצא באמצע סעודת השבת, הוא לא מזלזל בשבת. הוא מקיים את רצונו של נותן השבת.",
+      "והמשנה במסכת יומא אומרת: מי שנפלה עליו מפולת בשבת, ספק הוא שם ספק אינו שם, ספק חי ספק מת, מפקחים עליו את הגל. אפילו ספק פיקוח נפש דוחה שבת."
+     ],
+     "pasuk": {
+      "text": "חַלֵּל עָלָיו שַׁבָּת אַחַת, כְּדֵי שֶׁיִּשְׁמֹר שַׁבָּתוֹת הַרְבֵּה",
+      "ref": "יומא פה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "כל נפש היא עולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The two siblings sit in a first-aid class for youth, practicing with a bandage on each other's arm while a kind instructor watches; a poster of a heart shape on the wall, no text.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? מגן דוד אדום ואיחוד הצלה, תחבושת חכמה ומצלמה בתוך גלולה, ומשלחות שעוזרות בקצה העולם.",
+      "מאחורי כל אלה עומד ערך אחד גדול שלמדנו מהתורה: כל נפש היא עולם מלא.",
+      "וזכרו: גם שאלה פשוטה, ״אתה צריך עזרה?״, וגם קריאה מהירה למבוגר, יכולות להציל חיים.",
+      "ואתם? אפשר להתחיל כבר עכשיו: לזכור את המספר 101, ללמוד עזרה ראשונה כשתגדלו, ולעזור לכל מי שצריך. בשיעור הבא נכיר טכנולוגיה ישראלית שאולי נמצאת גם אצלכם בבית."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה המספר של מגן דוד אדום?",
+   "answer": "101",
+   "options": [
+    "101",
+    "100",
+    "102"
+   ],
+   "explain_he": "מחייגים 101 ומגיעים ישר למגן דוד אדום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה המספר של מגן דוד אדום?",
+   "answer": "101",
+   "options": [
+    "101",
+    "100",
+    "102"
+   ],
+   "explain_he": "מחייגים 101 ומגיעים ישר למגן דוד אדום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מתנדבי איחוד הצלה רוכבים על אופנועים?",
+   "answer": "כדי לעבור בין המכוניות בפקקים ולהגיע מהר",
+   "options": [
+    "כדי לעבור בין המכוניות בפקקים ולהגיע מהר",
+    "כי אסור להם לנהוג באמבולנס",
+    "כדי להוביל חולים לבית החולים"
+   ],
+   "explain_he": "האמבוקלנוע עובר בין המכוניות ומגיע לפעמים תוך דקות, עוד לפני האמבולנס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מתנדבי איחוד הצלה רוכבים על אופנועים?",
+   "answer": "כדי לעבור בין המכוניות בפקקים ולהגיע מהר",
+   "options": [
+    "כדי לעבור בין המכוניות בפקקים ולהגיע מהר",
+    "כי אסור להם לנהוג באמבולנס",
+    "כדי להוביל חולים לבית החולים"
+   ],
+   "explain_he": "האמבוקלנוע עובר בין המכוניות ומגיע לפעמים תוך דקות, עוד לפני האמבולנס.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד ב״מצלמת הגלולה״?",
+   "answer": "בולעים אותה, והיא מצלמת מבפנים בלי ניתוח",
+   "options": [
+    "בולעים אותה, והיא מצלמת מבפנים בלי ניתוח",
+    "היא מרפאת כל מחלה",
+    "היא מצלמת את הרופא"
+   ],
+   "explain_he": "הגלולה מצלמת אלפי תמונות בתוך מערכת העיכול, והרופא רואה אותן במחשב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד ב״מצלמת הגלולה״?",
+   "answer": "בולעים אותה, והיא מצלמת מבפנים בלי ניתוח",
+   "options": [
+    "בולעים אותה, והיא מצלמת מבפנים בלי ניתוח",
+    "היא מרפאת כל מחלה",
+    "היא מצלמת את הרופא"
+   ],
+   "explain_he": "הגלולה מצלמת אלפי תמונות בתוך מערכת העיכול, והרופא רואה אותן במחשב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושה מתנדב ששומע קריאה להצלת חיים בשבת?",
+   "answer": "יוצא מיד להציל, כי פיקוח נפש דוחה שבת",
+   "options": [
+    "יוצא מיד להציל, כי פיקוח נפש דוחה שבת",
+    "מחכה עד מוצאי שבת",
+    "שואל קודם את כל המתפללים"
+   ],
+   "explain_he": "״לא תעמוד על דם רעך״: בסכנת חיים מצילים מיד, גם בשבת וביום הכיפורים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושה מתנדב ששומע קריאה להצלת חיים בשבת?",
+   "answer": "יוצא מיד להציל, כי פיקוח נפש דוחה שבת",
+   "options": [
+    "יוצא מיד להציל, כי פיקוח נפש דוחה שבת",
+    "מחכה עד מוצאי שבת",
+    "שואל קודם את כל המתפללים"
+   ],
+   "explain_he": "״לא תעמוד על דם רעך״: בסכנת חיים מצילים מיד, גם בשבת וביום הכיפורים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בתחבושת הישראלית?",
+   "answer": "יש בה ידית שלוחצת על הפצע, ואפשר לקשור אותה מהר אפילו ביד אחת",
+   "options": [
+    "יש בה ידית שלוחצת על הפצע, ואפשר לקשור אותה מהר אפילו ביד אחת",
+    "היא מצלמת את הפצע",
+    "היא מודדת חום"
+   ],
+   "explain_he": "ברנרד בר־נתן פיתח תחבושת שמפעילה לחץ על הפצע ונקשרת בקלות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בתחבושת הישראלית?",
+   "answer": "יש בה ידית שלוחצת על הפצע, ואפשר לקשור אותה מהר אפילו ביד אחת",
+   "options": [
+    "יש בה ידית שלוחצת על הפצע, ואפשר לקשור אותה מהר אפילו ביד אחת",
+    "היא מצלמת את הפצע",
+    "היא מודדת חום"
+   ],
+   "explain_he": "ברנרד בר־נתן פיתח תחבושת שמפעילה לחץ על הפצע ונקשרת בקלות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי השולחן ערוך, בידי מי עדיף שתיעשה הצלה בשבת?",
+   "answer": "בידי גדולי ישראל וחכמיהם",
+   "options": [
+    "בידי גדולי ישראל וחכמיהם",
+    "בידי ילדים קטנים",
+    "רק בידי אנשים מחוץ לשכונה"
+   ],
+   "explain_he": "כך כולם רואים שהצלה בשבת היא מצווה גמורה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ההלכה רוצה שדווקא חכמים יעשו את ההצלה בשבת?",
+   "answer": "כדי שכולם יראו שזו מצווה גמורה, ושאף אחד לא יהסס",
+   "options": [
+    "כדי שכולם יראו שזו מצווה גמורה, ושאף אחד לא יהסס",
+    "כי הם חזקים יותר",
+    "כי הם יודעים לנהוג באמבולנס"
+   ],
+   "explain_he": "הצלת חיים בשבת איננה היתר עצוב, אלא רצונו של נותן השבת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f3e14"
+  }
+ ]
+}

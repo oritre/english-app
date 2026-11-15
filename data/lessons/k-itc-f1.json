@@ -1,0 +1,494 @@
+{
+ "id": "k-itc-f1",
+ "unit_id": "k-itc-u1",
+ "course": "israeltech",
+ "title_he": "מים בארץ צמאה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "מים בארץ צמאה",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "thirst",
+     "title_he": "מה הכי חסר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A wide view of Eretz Yisrael from the green Galilee and the blue Kinneret in the north down to the dry golden Negev hills in the south, summer haze, the two siblings looking out from a hilltop.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "בואו נפתח בשאלה: מה הדבר שהכי חסר בארץ ישראל? לא זהב, ולא נפט. מים!",
+      "בצפון הארץ יורד גשם בחורף, אבל בדרום, בנגב, יורד מעט מאוד גשם. ובקיץ, חודשים ארוכים, לא יורדת טיפה.",
+      "התורה מתארת את ארץ ישראל כארץ שתלויה בגשם: ״למטר השמים תשתה מים״. לכן אנחנו מתפללים כל חורף ״ותן טל ומטר לברכה״, ושמחים בכל גשם.",
+      "ובכל זאת, היום בישראל יש מים בברז, שדות ירוקים בנגב ומים לכל בית. איך זה קרה? בואו נגלה.",
+      "ויש פסוק נוסף: ״לא כארץ מצרים היא״, שבה משקים את השדות מהנילוס. בארץ ישראל העיניים נשואות לשמיים.",
+      "ובתנ״ך אנחנו קוראים על בצורות קשות בארץ, כמו בימי אליהו הנביא, כשלא ירד גשם כמה שנים. כולם ידעו: בלי גשם אין לחם."
+     ],
+     "pasuk": {
+      "text": "וְהָאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה לְרִשְׁתָּהּ, אֶרֶץ הָרִים וּבְקָעֹת, לִמְטַר הַשָּׁמַיִם תִּשְׁתֶּה מָּיִם",
+      "ref": "דברים יא, יא"
+     },
+     "note": null
+    },
+    {
+     "id": "carrier",
+     "title_he": "המוביל הארצי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A giant blue water pipeline, wide enough for a grown man to stand inside, stretches across green and then golden fields toward the south; engineers in work shirts and hard hats inspect it at sunrise.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "חברת ״מקורות״ הוקמה לפני כמעט תשעים שנה, עוד לפני קום המדינה, כדי לחפש מים ולהביא אותם ליישובים.",
+      "הבעיה הגדולה הייתה שרוב המים נמצאים בצפון, בכנרת, והרבה מהאדמה שאפשר לעבד נמצאת במרכז ובדרום.",
+      "הפתרון היה מפעל ענק: המוביל הארצי. משאבות חזקות מעלות את המים מהכנרת, שנמצאת נמוך מאוד, מתחת לפני הים, אל הגבעות. משם הם זורמים בצינורות ענקיים, בתעלות ובמנהרות, לאורך בערך מאה ושלושים קילומטרים, ומשם ממשיכים ברשת צינורות עד הנגב.",
+      "המוביל הארצי נחנך בשנת תשכ״ד, 1964. זה היה אחד הפרויקטים הגדולים ביותר שעשתה המדינה הצעירה.",
+      "בניית המוביל נמשכה שנים רבות, ועבדו בה אלפי פועלים ומהנדסים. היה צריך לחצוב מנהרות בסלע, לבנות תחנות שאיבה ענקיות, ולהניח צינורות בתוך עמקים ועל גבעות.",
+      "ולמוביל היו גם ״אחים קטנים״: קווי מים שהובילו מים מהירקון ומבארות אל הנגב, עוד לפני שהמוביל הגדול נבנה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הצינור הראשי של המוביל הארצי רחב כל כך, שאדם מבוגר יכול לעמוד בתוכו זקוף."
+     }
+    },
+    {
+     "id": "drip",
+     "title_he": "סוד הטיפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A row of young trees in a dry field, one of them much taller and greener than the rest; an engineer in a work shirt and cap kneels and finds a small pipe dripping water right by its roots.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "עכשיו נכיר ממציא בשם שמחה בלאס, מהנדס מים. מסופר שפעם הוא ראה עץ אחד שגדל הרבה יותר גבוה וירוק מהעצים שלידו.",
+      "הוא בדק וגילה את הסוד: מצינור מים שעבר שם טפטפה כל הזמן טיפה קטנה, בדיוק ליד שורשי העץ.",
+      "בלאס הבין רעיון גדול: לא צריך להציף את כל השדה במים. מספיק לתת לכל צמח טיפות קטנות, לאט, בדיוק במקום של השורשים. כך כמעט לא הולכים מים לאיבוד.",
+      "יחד עם קיבוץ חצרים שבנגב הוא הקים לפני כשישים שנה את חברת ״נטפים״. היום משתמשים בהשקיה בטפטוף בארצות רבות בעולם, וחוסכים בה כמויות ענקיות של מים.",
+      "בלאס היה צריך סבלנות רבה. הטפטפות הראשונות נסתמו מאבנית ומלכלוך. רק אחרי ניסיונות רבים, ובעזרת חומרים חדשים כמו פלסטיק, הצליחו לבנות טפטפת שעובדת היטב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "recycle",
+     "title_he": "מים בפעם השנייה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A large water treatment plant with round clear pools in the open Negev landscape, and beyond it a green field watered by thin black drip lines, blue sky.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌾",
+     "say": [
+      "ישראל מצאה עוד דרך לחסוך: מים ממוחזרים. המים שזורמים מהבתים לביוב עוברים טיהור במתקנים גדולים, ואחר כך משמשים להשקיית שדות.",
+      "ישראל מנצלת כך את רוב מי הביוב שלה, בערך שמונים וחמישה אחוז, יותר מכל מדינה אחרת בעולם.",
+      "לחקלאי בנגב זה אומר עוד מים לשדה, בלי לקחת מהכנרת ומהמעיינות.",
+      "ויש עוד שיטה: אוספים מי שיטפונות וגשמים במאגרים גדולים ליד השדות, במקום שיזרמו לים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "desal",
+     "title_he": "מי ים מתוקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A modern desalination plant on the Mediterranean shore at dawn: long halls of white pipes and pressure tubes, the blue sea beyond, a worker in a blue work shirt checking a gauge.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "ועדיין, מה עושים בשנים של בצורת? הפתרון נמצא ממש לידנו: הים התיכון. יש בו מים בלי סוף, אבל הם מלוחים.",
+      "במתקני התפלה גדולים לאורך החוף, כמו באשקלון, בחדרה ובשורק, דוחפים את מי הים בלחץ חזק דרך קרומים מיוחדים. המים עוברים, והמלח נשאר מאחור.",
+      "כך יוצאים מים מתוקים וטובים לשתייה. היום רוב המים שזורמים בברזים בבתים בישראל הם מים מותפלים.",
+      "ועדיין, גם כשיש מים, חשוב לא לבזבז אותם. גם זה חלק מהמצווה של ״בל תשחית״.",
+      "ההתפלה עוזרת גם לכנרת: כשיש מספיק מים מותפלים, אפשר לשאוב פחות מהכנרת, ובשנים האחרונות אפילו להזרים אליה מים מותפלים, כדי שתתמלא."
+     ],
+     "pasuk": {
+      "text": "וּשְׁאַבְתֶּם מַיִם בְּשָׂשׂוֹן מִמַּעַיְנֵי הַיְשׁוּעָה",
+      "ref": "ישעיהו יב, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "מתקן ההתפלה בשורק הוא אחד הגדולים בעולם, והוא מספק מים למאות אלפי משפחות."
+     }
+    },
+    {
+     "id": "end",
+     "title_he": "שומרים על כל טיפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The two siblings close a dripping garden tap and look over a green garden in a Negev town at sunset, drip lines glinting between the plants.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? ארץ ישראל היא ארץ שמעט מים בה, אבל עם ישראל למד לשמור על כל טיפה.",
+      "המוביל הארצי מביא מים מהצפון לדרום, הטפטפות של בלאס נותנות לכל צמח בדיוק מה שהוא צריך, מי הביוב מטוהרים ומשקים שדות, ומתקני ההתפלה הופכים את מי הים למים מתוקים.",
+      "וגם אנחנו יכולים לעזור: לסגור את הברז כשמצחצחים שיניים, לא לבזבז מים, ולהודות להשם על כל כוס מים קרים בקיץ.",
+      "בשיעור הבא נראה מה עשו עם המים האלה: נצא למדבר, ונראה איך הוא פורח."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "מים בארץ צמאה",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "thirst",
+     "title_he": "מה הכי חסר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A wide view of Eretz Yisrael from the green Galilee and the blue Kinneret in the north down to the dry golden Negev hills in the south, summer haze, the two siblings looking out from a hilltop.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "בואו נפתח בשאלה: מה הדבר שהכי חסר בארץ ישראל? לא זהב, ולא נפט. מים!",
+      "בצפון הארץ יורד גשם בחורף, אבל בדרום, בנגב, יורד מעט מאוד גשם. ובקיץ, חודשים ארוכים, לא יורדת טיפה.",
+      "התורה מתארת את ארץ ישראל כארץ שתלויה בגשם: ״למטר השמים תשתה מים״. לכן אנחנו מתפללים כל חורף ״ותן טל ומטר לברכה״, ושמחים בכל גשם.",
+      "ובכל זאת, היום בישראל יש מים בברז, שדות ירוקים בנגב ומים לכל בית. איך זה קרה? בואו נגלה.",
+      "ויש פסוק נוסף: ״לא כארץ מצרים היא״, שבה משקים את השדות מהנילוס. בארץ ישראל העיניים נשואות לשמיים.",
+      "ובתנ״ך אנחנו קוראים על בצורות קשות בארץ, כמו בימי אליהו הנביא, כשלא ירד גשם כמה שנים. כולם ידעו: בלי גשם אין לחם."
+     ],
+     "pasuk": {
+      "text": "וְהָאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה לְרִשְׁתָּהּ, אֶרֶץ הָרִים וּבְקָעֹת, לִמְטַר הַשָּׁמַיִם תִּשְׁתֶּה מָּיִם",
+      "ref": "דברים יא, יא"
+     },
+     "note": null
+    },
+    {
+     "id": "carrier",
+     "title_he": "המוביל הארצי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A giant blue water pipeline, wide enough for a grown man to stand inside, stretches across green and then golden fields toward the south; engineers in work shirts and hard hats inspect it at sunrise.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "חברת ״מקורות״ הוקמה לפני כמעט תשעים שנה, עוד לפני קום המדינה, כדי לחפש מים ולהביא אותם ליישובים.",
+      "הבעיה הגדולה הייתה שרוב המים נמצאים בצפון, בכנרת, והרבה מהאדמה שאפשר לעבד נמצאת במרכז ובדרום.",
+      "הפתרון היה מפעל ענק: המוביל הארצי. משאבות חזקות מעלות את המים מהכנרת, שנמצאת נמוך מאוד, מתחת לפני הים, אל הגבעות. משם הם זורמים בצינורות ענקיים, בתעלות ובמנהרות, לאורך בערך מאה ושלושים קילומטרים, ומשם ממשיכים ברשת צינורות עד הנגב.",
+      "המוביל הארצי נחנך בשנת תשכ״ד, 1964. זה היה אחד הפרויקטים הגדולים ביותר שעשתה המדינה הצעירה.",
+      "בניית המוביל נמשכה שנים רבות, ועבדו בה אלפי פועלים ומהנדסים. היה צריך לחצוב מנהרות בסלע, לבנות תחנות שאיבה ענקיות, ולהניח צינורות בתוך עמקים ועל גבעות.",
+      "ולמוביל היו גם ״אחים קטנים״: קווי מים שהובילו מים מהירקון ומבארות אל הנגב, עוד לפני שהמוביל הגדול נבנה.",
+      "המוביל הוא גם דוגמה לעבודה משותפת של כל העם: מהנדסים, פועלים, חקלאים וממשלה עבדו יחד למען מטרה אחת, שהארץ כולה תקבל מים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הצינור הראשי של המוביל הארצי רחב כל כך, שאדם מבוגר יכול לעמוד בתוכו זקוף."
+     }
+    },
+    {
+     "id": "drip",
+     "title_he": "סוד הטיפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A row of young trees in a dry field, one of them much taller and greener than the rest; an engineer in a work shirt and cap kneels and finds a small pipe dripping water right by its roots.",
+     "move": "in",
+     "fx": "light",
+     "art": "🌳",
+     "say": [
+      "עכשיו נכיר ממציא בשם שמחה בלאס, מהנדס מים. מסופר שפעם הוא ראה עץ אחד שגדל הרבה יותר גבוה וירוק מהעצים שלידו.",
+      "הוא בדק וגילה את הסוד: מצינור מים שעבר שם טפטפה כל הזמן טיפה קטנה, בדיוק ליד שורשי העץ.",
+      "בלאס הבין רעיון גדול: לא צריך להציף את כל השדה במים. מספיק לתת לכל צמח טיפות קטנות, לאט, בדיוק במקום של השורשים. כך כמעט לא הולכים מים לאיבוד.",
+      "יחד עם קיבוץ חצרים שבנגב הוא הקים לפני כשישים שנה את חברת ״נטפים״. היום משתמשים בהשקיה בטפטוף בארצות רבות בעולם, וחוסכים בה כמויות ענקיות של מים.",
+      "בלאס היה צריך סבלנות רבה. הטפטפות הראשונות נסתמו מאבנית ומלכלוך. רק אחרי ניסיונות רבים, ובעזרת חומרים חדשים כמו פלסטיק, הצליחו לבנות טפטפת שעובדת היטב.",
+      "ויש בזה גם לקח: שמחה בלאס שם לב לעץ אחד שנראה אחרת. מי שמתבונן בעולם בעיניים פקוחות מגלה בו דברים שאחרים עוברים לידם בלי לראות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "recycle",
+     "title_he": "מים בפעם השנייה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A large water treatment plant with round clear pools in the open Negev landscape, and beyond it a green field watered by thin black drip lines, blue sky.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌾",
+     "say": [
+      "ישראל מצאה עוד דרך לחסוך: מים ממוחזרים. המים שזורמים מהבתים לביוב עוברים טיהור במתקנים גדולים, ואחר כך משמשים להשקיית שדות.",
+      "ישראל מנצלת כך את רוב מי הביוב שלה, בערך שמונים וחמישה אחוז, יותר מכל מדינה אחרת בעולם.",
+      "לחקלאי בנגב זה אומר עוד מים לשדה, בלי לקחת מהכנרת ומהמעיינות.",
+      "ויש עוד שיטה: אוספים מי שיטפונות וגשמים במאגרים גדולים ליד השדות, במקום שיזרמו לים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "desal",
+     "title_he": "מי ים מתוקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A modern desalination plant on the Mediterranean shore at dawn: long halls of white pipes and pressure tubes, the blue sea beyond, a worker in a blue work shirt checking a gauge.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "ועדיין, מה עושים בשנים של בצורת? הפתרון נמצא ממש לידנו: הים התיכון. יש בו מים בלי סוף, אבל הם מלוחים.",
+      "במתקני התפלה גדולים לאורך החוף, כמו באשקלון, בחדרה ובשורק, דוחפים את מי הים בלחץ חזק דרך קרומים מיוחדים. המים עוברים, והמלח נשאר מאחור.",
+      "כך יוצאים מים מתוקים וטובים לשתייה. היום רוב המים שזורמים בברזים בבתים בישראל הם מים מותפלים.",
+      "ועדיין, גם כשיש מים, חשוב לא לבזבז אותם. גם זה חלק מהמצווה של ״בל תשחית״.",
+      "ההתפלה עוזרת גם לכנרת: כשיש מספיק מים מותפלים, אפשר לשאוב פחות מהכנרת, ובשנים האחרונות אפילו להזרים אליה מים מותפלים, כדי שתתמלא.",
+      "אבל להתפלה יש גם מחיר: היא צורכת הרבה חשמל, ומשאירה מים מלוחים במיוחד, שצריך להחזיר לים בזהירות. לכן גם במדינה שמתפילה, החיסכון במים נשאר חשוב."
+     ],
+     "pasuk": {
+      "text": "וּשְׁאַבְתֶּם מַיִם בְּשָׂשׂוֹן מִמַּעַיְנֵי הַיְשׁוּעָה",
+      "ref": "ישעיהו יב, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "מתקן ההתפלה בשורק הוא אחד הגדולים בעולם, והוא מספק מים למאות אלפי משפחות."
+     }
+    },
+    {
+     "id": "rain",
+     "title_he": "גדול יום הגשמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: Winter rain falling softly over the Jerusalem hills, puddles shining on stone streets, children in raincoats looking up at grey clouds with joy, a soft light breaking through from above.",
+     "move": "up",
+     "fx": "mist",
+     "art": "👦 👧",
+     "say": [
+      "חז״ל אמרו במסכת תענית: ״גדול יום הגשמים כיום שניתנה בו תורה״. הגשם הוא ברכה גדולה, ובארץ ישראל במיוחד.",
+      "אפשר לשאול: אם אפשר להתפיל מי ים, האם אנחנו כבר לא צריכים גשם? התשובה היא שההתפלה דורשת אנרגיה רבה ומשאבים גדולים, ובלי גשם הנחלים, המעיינות והאדמה מתייבשים.",
+      "ויותר מזה: התורה לימדה שעיני הקדוש ברוך הוא על ארץ ישראל ״מראשית השנה ועד אחרית שנה״. התלות שלנו בגשם מזכירה לנו שאנחנו תלויים בשמיים, ושהשפע בא בזכות התפילה והמצוות.",
+      "החכמה האנושית עושה את ההשתדלות: מובילים, מטפטפים, ממחזרים ומתפילים. והברכה באה מלמעלה."
+     ],
+     "pasuk": {
+      "text": "אֶרֶץ אֲשֶׁר ה׳ אֱלֹקֶיךָ דֹּרֵשׁ אֹתָהּ תָּמִיד, עֵינֵי ה׳ אֱלֹקֶיךָ בָּהּ מֵרֵשִׁית הַשָּׁנָה וְעַד אַחֲרִית שָׁנָה",
+      "ref": "דברים יא, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "akiva",
+     "title_he": "טיפה אחרי טיפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A young shepherd of ancient times, poor and humble in a simple robe, kneels by a spring and stares at a smooth hollow worn into a rock by dripping water, sheep grazing behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 🐑",
+     "say": [
+      "חז״ל משווים את התורה למים: ״אין מים אלא תורה, שנאמר: הוי כל צמא לכו למים״. כמו שמים יורדים ממקום גבוה למקום נמוך, כך התורה נשארת אצל מי שהוא עניו.",
+      "ובאבות דרבי נתן מסופר על רבי עקיבא, שעד גיל ארבעים לא למד. יום אחד ראה אבן שחקקו בה טיפות מים שירדו עליה כל הזמן.",
+      "הוא אמר לעצמו: אם המים הרכים חקקו את האבן הקשה, דברי תורה, שקשים כברזל, על אחת כמה וכמה שיחקקו את ליבי. ומיד הלך ללמוד, עד שנעשה רבי עקיבא הגדול.",
+      "כמו טפטפת, שנותנת טיפה אחרי טיפה ומצמיחה עץ גדול, כך לימוד קבוע, כל יום קצת, בונה אדם גדול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "שומרים על כל טיפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The two siblings close a dripping garden tap and look over a green garden in a Negev town at sunset, drip lines glinting between the plants.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? ארץ ישראל היא ארץ שמעט מים בה, אבל עם ישראל למד לשמור על כל טיפה.",
+      "המוביל הארצי מביא מים מהצפון לדרום, הטפטפות של בלאס נותנות לכל צמח בדיוק מה שהוא צריך, מי הביוב מטוהרים ומשקים שדות, ומתקני ההתפלה הופכים את מי הים למים מתוקים.",
+      "וגם אנחנו יכולים לעזור: לסגור את הברז כשמצחצחים שיניים, לא לבזבז מים, ולהודות להשם על כל כוס מים קרים בקיץ.",
+      "בשיעור הבא נראה מה עשו עם המים האלה: נצא למדבר, ונראה איך הוא פורח."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושה המוביל הארצי?",
+   "answer": "מעביר מים מהכנרת לאורך הארץ, עד הנגב",
+   "options": [
+    "מעביר מים מהכנרת לאורך הארץ, עד הנגב",
+    "מעביר נפט מהים",
+    "מוביל משאיות עם בקבוקי מים"
+   ],
+   "explain_he": "משאבות מעלות את המים מהכנרת, ומשם הם זורמים בצינורות, בתעלות ובמנהרות דרומה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושה המוביל הארצי?",
+   "answer": "מעביר מים מהכנרת לאורך הארץ, עד הנגב",
+   "options": [
+    "מעביר מים מהכנרת לאורך הארץ, עד הנגב",
+    "מעביר נפט מהים",
+    "מוביל משאיות עם בקבוקי מים"
+   ],
+   "explain_he": "משאבות מעלות את המים מהכנרת, ומשם הם זורמים בצינורות, בתעלות ובמנהרות דרומה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה שמחה בלאס ליד העץ הגבוה?",
+   "answer": "צינור שטפטף טיפות קטנות ליד שורשי העץ",
+   "options": [
+    "צינור שטפטף טיפות קטנות ליד שורשי העץ",
+    "מעיין נסתר",
+    "דשן מיוחד"
+   ],
+   "explain_he": "הטיפות הקטנות ליד השורשים הצמיחו עץ גדול, ומכאן נולדה ההשקיה בטפטוף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה שמחה בלאס ליד העץ הגבוה?",
+   "answer": "צינור שטפטף טיפות קטנות ליד שורשי העץ",
+   "options": [
+    "צינור שטפטף טיפות קטנות ליד שורשי העץ",
+    "מעיין נסתר",
+    "דשן מיוחד"
+   ],
+   "explain_he": "הטיפות הקטנות ליד השורשים הצמיחו עץ גדול, ומכאן נולדה ההשקיה בטפטוף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מתקן התפלה הופך מי ים למים מתוקים?",
+   "answer": "דוחף את המים בלחץ דרך קרומים שעוצרים את המלח",
+   "options": [
+    "דוחף את המים בלחץ דרך קרומים שעוצרים את המלח",
+    "מוסיף להם סוכר",
+    "מקפיא אותם"
+   ],
+   "explain_he": "המים עוברים בלחץ דרך הקרומים, והמלח נשאר מאחור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מתקן התפלה הופך מי ים למים מתוקים?",
+   "answer": "דוחף את המים בלחץ דרך קרומים שעוצרים את המלח",
+   "options": [
+    "דוחף את המים בלחץ דרך קרומים שעוצרים את המלח",
+    "מוסיף להם סוכר",
+    "מקפיא אותם"
+   ],
+   "explain_he": "המים עוברים בלחץ דרך הקרומים, והמלח נשאר מאחור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השקיה בטפטוף חוסכת מים?",
+   "answer": "כי כל צמח מקבל טיפות בדיוק ליד השורשים",
+   "options": [
+    "כי כל צמח מקבל טיפות בדיוק ליד השורשים",
+    "כי משקים רק בחורף",
+    "כי הצמחים שותים פחות"
+   ],
+   "explain_he": "במקום להציף את כל השדה, המים מגיעים רק למקום שבו הצמח צריך אותם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השקיה בטפטוף חוסכת מים?",
+   "answer": "כי כל צמח מקבל טיפות בדיוק ליד השורשים",
+   "options": [
+    "כי כל צמח מקבל טיפות בדיוק ליד השורשים",
+    "כי משקים רק בחורף",
+    "כי הצמחים שותים פחות"
+   ],
+   "explain_he": "במקום להציף את כל השדה, המים מגיעים רק למקום שבו הצמח צריך אותם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים בישראל עם רוב מי הביוב?",
+   "answer": "מטהרים אותם ומשקים בהם שדות",
+   "options": [
+    "מטהרים אותם ומשקים בהם שדות",
+    "שופכים אותם לים",
+    "מחזירים אותם לכנרת"
+   ],
+   "explain_he": "בערך שמונים וחמישה אחוז ממי הביוב מטוהרים ומשמשים לחקלאות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים בישראל עם רוב מי הביוב?",
+   "answer": "מטהרים אותם ומשקים בהם שדות",
+   "options": [
+    "מטהרים אותם ומשקים בהם שדות",
+    "שופכים אותם לים",
+    "מחזירים אותם לכנרת"
+   ],
+   "explain_he": "בערך שמונים וחמישה אחוז ממי הביוב מטוהרים ומשמשים לחקלאות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למד רבי עקיבא מהאבן שהמים חקקו בה?",
+   "answer": "שדברי תורה ייחקקו בלב מי שמתמיד",
+   "options": [
+    "שדברי תורה ייחקקו בלב מי שמתמיד",
+    "שאבנים הן רכות",
+    "שצריך לבנות בארות"
+   ],
+   "explain_he": "אם מים רכים חוקקים אבן, תורה שקשה כברזל תיחקק בלב, טיפה אחרי טיפה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי השיעור, למה עדיין צריך גשם גם כשיש התפלה?",
+   "answer": "כי בלי גשם הטבע מתייבש, והגשם מזכיר שאנחנו תלויים בשמיים",
+   "options": [
+    "כי בלי גשם הטבע מתייבש, והגשם מזכיר שאנחנו תלויים בשמיים",
+    "כי מים מותפלים אסורים בשתייה",
+    "כי אין מספיק ים"
+   ],
+   "explain_he": "ההתפלה עולה הרבה אנרגיה, הנחלים והאדמה צריכים גשם, והשפע בא בזכות התפילה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f1e14"
+  }
+ ]
+}

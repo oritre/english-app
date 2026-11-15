@@ -1,0 +1,491 @@
+{
+ "id": "k-lnf-f1",
+ "unit_id": "k-lnf-u1",
+ "course": "land",
+ "title_he": "הארץ שהשם נתן לנו",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "הארץ שהשם נתן לנו",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "יוצאים לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Early morning on a hilltop in the Judean hills, a wide view of terraced green and golden hills to the horizon. Saba Shmuel and his two grandchildren stand with backpacks, looking out with joy.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👦 👧",
+     "say": [
+      "שלום ילדים! היום אנחנו יוצאים למסע.",
+      "מסע בארץ הכי מיוחדת בעולם: ארץ ישראל.",
+      "השם אמר לאברהם אבינו: קום, לך בארץ, לאורכה ולרוחבה.",
+      "כי את הארץ הזאת אתן לך ולילדים שלך.",
+      "אברהם הלך בארץ ברגליים, מהצפון ועד הדרום.",
+      "במסע הזה נטפס על הרים, נרד לעמקים, ונשחה בים.",
+      "נבקר גם במקומות שבהם חיו אבותינו ואמותינו.",
+      "סבא שמואל יבוא איתנו, ויספר לנו סיפורים בדרך.",
+      "גם אנחנו הילדים של אברהם. אז בואו נצא לדרך!"
+     ],
+     "pasuk": {
+      "text": "קום התהלך בארץ לארכה ולרחבה, כי לך אתננה",
+      "ref": "בראשית יג, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הגבולות שבתורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A soft old map-like painted landscape seen from very high above: a long green and golden land between a blue sea on the left and desert on the right, a great river far in the north-east and a stream in the south-west, gentle morning light. No writing on the map.",
+     "move": "up",
+     "fx": "light",
+     "art": "🗺️",
+     "say": [
+      "איפה מתחילה הארץ, ואיפה היא נגמרת?",
+      "התורה מספרת לנו.",
+      "במערב יש ים גדול וכחול. בתורה קוראים לו \"הים הגדול\".",
+      "במזרח זורם נהר הירדן.",
+      "השם הבטיח לאברהם עוד יותר: ארץ גדולה, עד נהר פרת הרחוק.",
+      "בצפון יש הרים גבוהים, ובדרום יש מדבר גדול.",
+      "חכמינו אמרו: ארץ ישראל גבוהה מכל הארצות.",
+      "לכן אומרים שאנחנו \"עולים\" לארץ ישראל."
+     ],
+     "pasuk": {
+      "text": "לזרעך נתתי את הארץ הזאת, מנהר מצרים עד הנהר הגדל נהר פרת",
+      "ref": "בראשית טו, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "ארץ קטנה ומלאה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: A sunny panorama that shows in one view snowy mountains far in the north, green hills, a blue sea and a golden desert in the south, as if the whole land fits in one picture. Saba points while the children look in wonder.",
+     "move": "left",
+     "fx": null,
+     "art": "🏔️",
+     "say": [
+      "ארץ ישראל היא ארץ קטנה.",
+      "אבל יש בה הכל!",
+      "יש הר עם שלג. יש ים כחול. יש מדבר חם.",
+      "יש יערות ירוקים, ויש מעיינות.",
+      "כמו אוצר קטן, מלא בדברים יפים.",
+      "בבוקר אפשר לשחק בשלג בצפון,",
+      "ובערב לשחות בים החם בדרום!",
+      "השם שם בארץ הקטנה הזאת מכל טוב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אפשר לנסוע ברכב מהצפון של מדינת ישראל עד אילת שבדרום ביום אחד! האורך הוא בערך 470 קילומטרים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "שבעת המינים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A beautiful harvest still-life on a wooden table in a Galilee garden: a sheaf of golden wheat, barley stalks, a cluster of purple grapes, ripe figs, red pomegranates, green olives with a small jar of olive oil, and a bowl of brown dates. Warm afternoon sun.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🍇",
+     "say": [
+      "התורה משבחת את הארץ בשבעה פירות מיוחדים.",
+      "קוראים להם: שבעת המינים.",
+      "חיטה ושעורה. גפן, שזה ענבים. תאנה ורימון.",
+      "זית, ודבש.",
+      "הדבש כאן הוא דבש של תמרים, מתוק מאוד!",
+      "כל אחד מהם גדל בארץ עד היום.",
+      "את החיטה טוחנים לקמח, ואופים ממנו לחם.",
+      "מהזיתים סוחטים שמן, ומהענבים עושים יין לקידוש.",
+      "איזה מהם אתם הכי אוהבים?"
+     ],
+     "pasuk": {
+      "text": "ארץ חטה ושערה וגפן ותאנה ורמון, ארץ זית שמן ודבש",
+      "ref": "דברים ח, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "זבת חלב ודבש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A sunny green pasture in the land: goats grazing under fig trees heavy with ripe purple figs, a drop of sweet juice dripping from a fig, date palms behind, a clay jug of fresh milk on a stone, warm light.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "🐐",
+     "say": [
+      "לתורה יש לארץ עוד שם מיוחד: \"ארץ זבת חלב ודבש\".",
+      "מה זה זבת? זורם, כמו מים בנחל.",
+      "רש\"י מסביר: החלב זורם מהעיזים, שאוכלות עשב טוב.",
+      "והדבש זורם מהתמרים ומהתאנים, המתוקים מאוד.",
+      "פעם חכם אחד ראה עיזים שאוכלות מתחת לעץ תאנה.",
+      "מהתאנים נטף דבש, ומהעיזים נטף חלב, והם התערבבו יחד!",
+      "אמר החכם: הנה, זו ארץ זבת חלב ודבש!"
+     ],
+     "pasuk": {
+      "text": "ארץ זבת חלב ודבש",
+      "ref": "שמות ג, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ברכה מיוחדת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A warm family kitchen on a Friday afternoon: a modest mother with a head covering and children around a table with a plate of dates, grapes and figs, a boy in a kippah lifts a date to say a blessing. Soft window light.",
+     "move": "in",
+     "fx": null,
+     "art": "👩 👦 👧",
+     "say": [
+      "על שבעת המינים יש גם ברכה מיוחדת.",
+      "אחרי שאוכלים ענבים, תאנים, רימונים, זיתים או תמרים,",
+      "אומרים ברכה מיוחדת: \"על העץ ועל פרי העץ\".",
+      "בברכה הזאת אנחנו מודים להשם על הארץ הטובה.",
+      "ובשבת, על השולחן, יש לחם מחיטה ויין מענבים.",
+      "גם הם משבעת המינים!",
+      "כך כל פרי קטן מזכיר לנו את ארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מתחילים במסע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Saba Shmuel and the two children walk on a dirt path between olive trees toward green hills in the north, golden late-afternoon light, long soft shadows.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👦 👧",
+     "say": [
+      "עכשיו אתם יודעים מה הגבולות, ומה גדל בארץ.",
+      "בפרק הבא נעלה צפונה.",
+      "נראה הר עם שלג, וים של מים מתוקים.",
+      "חכמינו אמרו: מי שהולך ארבע אמות בארץ ישראל, זוכה לשכר גדול.",
+      "ארבע אמות זה בערך שני מטרים. רק כמה צעדים!",
+      "יאללה, ממשיכים!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗺️ ידע כללי",
+   "title_he": "הארץ שהשם נתן לנו",
+   "ref_he": "מסע בארץ ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "יוצאים לדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Early morning on a hilltop in the Judean hills, a wide view of terraced green and golden hills to the horizon. Saba Shmuel and his two grandchildren stand with backpacks, looking out with joy.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👦 👧",
+     "say": [
+      "שלום ילדים! היום מתחיל מסע גדול, מסע בארץ הכי מיוחדת בעולם: ארץ ישראל.",
+      "לפני אלפי שנים אמר השם לאברהם אבינו: קום, התהלך בארץ לאורכה ולרוחבה, כי לך אתננה.",
+      "אברהם הלך בארץ ברגליו, והשם הבטיח לו שהיא תהיה של הילדים שלו לעולם.",
+      "אנחנו הנכדים של הנכדים של אברהם. במסע שלנו נטפס על הרים, נרד לעמקים, ונשחה בים שאי אפשר לטבוע בו.",
+      "אז תארזו מים, כובע וסקרנות גדולה, ובואו נתחיל!"
+     ],
+     "pasuk": {
+      "text": "קום התהלך בארץ לארכה ולרחבה, כי לך אתננה",
+      "ref": "בראשית יג, יז"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הגבולות שבתורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A soft old map-like painted landscape seen from very high above: a long green and golden land between a blue sea on the left and desert on the right, a great river far in the north-east and a stream in the south-west, gentle morning light. No writing on the map.",
+     "move": "up",
+     "fx": "light",
+     "art": "🗺️",
+     "say": [
+      "איפה מתחילה ארץ ישראל, ואיפה היא נגמרת? התורה עצמה מספרת לנו.",
+      "בברית בין הבתרים הבטיח השם לאברהם: לזרעך נתתי את הארץ הזאת, מנהר מצרים עד הנהר הגדול, נהר פרת.",
+      "בספר במדבר, לפני הכניסה לארץ, השם מתאר למשה את הגבולות אחד אחד: במערב \"הים הגדול\", הוא הים התיכון.",
+      "בדרום המדבר, בצפון הרים גבוהים, ובאמצע נהר הירדן.",
+      "חכמינו אומרים שהארץ \"גבוהה מכל הארצות\". לכן תמיד אומרים \"עולים\" לארץ ישראל, ולא סתם \"נוסעים\".",
+      "שימו לב: כשהתורה מתארת את הארץ, היא מתארת אותה מכל הצדדים. כל הר וכל נחל שייכים לסיפור שלנו."
+     ],
+     "pasuk": {
+      "text": "לזרעך נתתי את הארץ הזאת, מנהר מצרים עד הנהר הגדל נהר פרת",
+      "ref": "בראשית טו, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "ארץ קטנה ומלאה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: A sunny panorama that shows in one view snowy mountains far in the north, green hills, a blue sea and a golden desert in the south, as if the whole land fits in one picture. Saba points while the children look in wonder.",
+     "move": "left",
+     "fx": null,
+     "art": "🏔️",
+     "say": [
+      "על מפת העולם ארץ ישראל נראית קטנה מאוד. אבל בתוכה יש כמעט כל סוג של נוף.",
+      "בצפון יש הר גבוה שבחורף יורד עליו שלג. בדרום יש מדבר חם ויבש.",
+      "יש בה ים מלוח, ים מתוק, נחלים, מעיינות, יערות ועמקים פוריים.",
+      "בבוקר אפשר לראות שלג על החרמון, ובערב לשחות במים חמים באילת.",
+      "ארץ קטנה, ועם זאת עשירה כל כך. כאילו השם שם בה מכל טוב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אפשר לנסוע ברכב מהצפון של מדינת ישראל עד אילת שבדרום ביום אחד! האורך הוא בערך 470 קילומטרים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "שבעת המינים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A beautiful harvest still-life on a wooden table in a Galilee garden: a sheaf of golden wheat, barley stalks, a cluster of purple grapes, ripe figs, red pomegranates, green olives with a small jar of olive oil, and a bowl of brown dates. Warm afternoon sun.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🍇",
+     "say": [
+      "כשהתורה רוצה לשבח את הארץ, היא מונה שבעה פירות: ארץ חיטה ושעורה, וגפן ותאנה ורימון, ארץ זית שמן ודבש.",
+      "אלה שבעת המינים. שניים מהם דגנים: חיטה ושעורה. מהם אופים לחם.",
+      "והשאר פירות: ענבים, תאנים, רימונים, זיתים, ותמרים.",
+      "והדבש? חכמינו מסבירים שזה דבש תמרים, המיץ המתוק שיוצא מהתמר.",
+      "עד היום כל שבעת המינים גדלים בארץ, ואפשר לראות אותם בשדות ובגינות.",
+      "מהזיתים מפיקים שמן זית. בבית המקדש הדליקו את המנורה בשמן זית טהור.",
+      "ומהענבים עושים יין, שבו אנחנו מקדשים בשבת ובחג."
+     ],
+     "pasuk": {
+      "text": "ארץ חטה ושערה וגפן ותאנה ורמון, ארץ זית שמן ודבש",
+      "ref": "דברים ח, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "זבת חלב ודבש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A sunny green pasture in the land: goats grazing under fig trees heavy with ripe purple figs, a drop of sweet juice dripping from a fig, date palms behind, a clay jug of fresh milk on a stone, warm light.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "🐐",
+     "say": [
+      "לארץ ישראל יש בתורה עוד שם מיוחד: \"ארץ זבת חלב ודבש\". השם הזה חוזר בתורה פעמים רבות.",
+      "רש\"י מסביר: החלב זב מן העיזים, והדבש זב מן התמרים ומן התאנים.",
+      "כלומר, העשב בארץ כל כך טוב, שהעיזים נותנות חלב בשפע, והפירות כל כך בשלים, שהמיץ המתוק נוטף מהם.",
+      "הגמרא מספרת על חכם שראה בבני ברק עיזים שאוכלות מתחת לעצי תאנה. מהתאנים נטף דבש, ומהעיזים נטף חלב, והם התערבבו יחד.",
+      "אמר החכם: זו היא ארץ זבת חלב ודבש!"
+     ],
+     "pasuk": {
+      "text": "ארץ זבת חלב ודבש",
+      "ref": "שמות ג, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ביכורים לבית המקדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A joyful procession in ancient times on a road climbing to Jerusalem: farmers in modest robes carry baskets of first fruits, figs, grapes and pomegranates, an ox with gold-covered horns and an olive-leaf wreath leads them, a flute player walks in front. Morning light on the hills.",
+     "move": "right",
+     "fx": "light",
+     "art": "🧺",
+     "say": [
+      "לשבעת המינים יש מצווה מיוחדת: ביכורים.",
+      "בזמן בית המקדש, כשאיכר ראה את התאנה הראשונה או את אשכול הענבים הראשון מבשיל, הוא היה קושר עליו חוט.",
+      "אחר כך הוא היה מביא את הפירות הראשונים בסל לבית המקדש בירושלים.",
+      "האיכרים עלו בשיירה גדולה, עם שירה וחליל, ושור שקרניו מצופות זהב, ועל ראשו עטרה של עלי זית.",
+      "וכך האיכר אמר בלב: השם, את הפרי הזה אתה נתת לי. תודה!",
+      "ואז האיכר היה אומר מילים מיוחדות שכתובות בתורה, ובהן סיפר את כל הסיפור של עם ישראל: מיעקב אבינו, דרך מצרים, ועד הכניסה לארץ.",
+      "את המילים האלה, \"ארמי אובד אבי\", אנחנו קוראים גם בהגדה של פסח."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את הביכורים הביאו רק משבעת המינים. האיכר היה קושר חוט על הפרי הראשון שהבשיל, כדי לזכור שהוא שייך לביכורים."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "ברכה מיוחדת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land.  Scene: A warm family kitchen on a Friday afternoon: a modest mother with a head covering and children around a table with a plate of dates, grapes and figs, a boy in a kippah lifts a date to say a blessing. Soft window light.",
+     "move": "in",
+     "fx": null,
+     "art": "👩 👦 👧",
+     "say": [
+      "גם בבית, שבעת המינים מקבלים כבוד מיוחד.",
+      "כשיש לפנינו כמה פירות, נוהגים להקדים לברך על הפרי שהוא משבעת המינים.",
+      "ואחרי שאוכלים מהם, אומרים ברכה מיוחדת: \"על העץ ועל פרי העץ\", ובה מודים \"על ארץ חמדה טובה ורחבה\".",
+      "כך כל תמר וכל ענב מזכירים לנו שהארץ היא מתנה מהשם.",
+      "גם בשבת, הלחם שאנחנו מברכים עליו הוא מחיטה, והיין לקידוש הוא מהגפן. שבעת המינים נמצאים על השולחן שלנו כל שבוע."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מתחילים במסע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the real landscapes of Eretz Yisrael, accurate geography and plants: green Galilee hills, snowy Hermon, the blue Kinneret, the Mediterranean coast, terraced Judean hills, golden desert and the Red Sea. Bright natural daylight, rich detail, a feeling of love for the land. Saba Shmuel: a kind Israeli grandfather with a short white beard, knitted kippah, light blue shirt, beige trousers, a walking stick and a small backpack. Two grandchildren: a boy of about nine with a kippah and tzitzit, and a girl of about seven in a long blue skirt with a braid. Scene: Saba Shmuel and the two children walk on a dirt path between olive trees toward green hills in the north, golden late-afternoon light, long soft shadows.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👦 👧",
+     "say": [
+      "עכשיו אנחנו יודעים מה הגבולות שהתורה נתנה, ומה הם הפירות שהארץ משתבחת בהם.",
+      "בפרק הבא נעלה צפונה: אל ההר הכי גבוה בארץ, אל הכנרת, ואל עיר עתיקה בראש ההר.",
+      "תזכרו את מה שאמרו חכמינו: כל מי שהולך ארבע אמות בארץ ישראל, זוכה לשכר גדול.",
+      "אז בואו נלך עוד הרבה אמות!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lnf-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר השם לאברהם על הארץ?",
+   "answer": "קום התהלך בארץ, כי לך אתננה",
+   "options": [
+    "קום התהלך בארץ, כי לך אתננה",
+    "לך מן הארץ הזאת לארץ אחרת",
+    "בנה בארץ עיר גדולה אחת"
+   ],
+   "explain_he": "השם אמר לאברהם: קום, התהלך בארץ לאורכה ולרוחבה, כי לך אתננה. הארץ ניתנה לאברהם ולילדיו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר השם לאברהם על הארץ?",
+   "answer": "קום התהלך בארץ, כי לך אתננה",
+   "options": [
+    "קום התהלך בארץ, כי לך אתננה",
+    "לך מן הארץ הזאת לארץ אחרת",
+    "בנה בארץ עיר גדולה אחת"
+   ],
+   "explain_he": "השם אמר לאברהם: קום, התהלך בארץ לאורכה ולרוחבה, כי לך אתננה. הארץ ניתנה לאברהם ולילדיו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הם שבעת המינים?",
+   "answer": "שבעה פירות ודגנים שהתורה משבחת בהם את הארץ",
+   "options": [
+    "שבעה פירות ודגנים שהתורה משבחת בהם את הארץ",
+    "שבעה סוגים של בעלי חיים בארץ",
+    "שבע ערים חשובות בארץ"
+   ],
+   "explain_he": "חיטה, שעורה, גפן, תאנה, רימון, זית ודבש תמרים. התורה משבחת בהם את ארץ ישראל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הם שבעת המינים?",
+   "answer": "שבעה פירות ודגנים שהתורה משבחת בהם את הארץ",
+   "options": [
+    "שבעה פירות ודגנים שהתורה משבחת בהם את הארץ",
+    "שבעה סוגים של בעלי חיים בארץ",
+    "שבע ערים חשובות בארץ"
+   ],
+   "explain_he": "חיטה, שעורה, גפן, תאנה, רימון, זית ודבש תמרים. התורה משבחת בהם את ארץ ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה דבש מוזכר בשבעת המינים?",
+   "answer": "דבש תמרים",
+   "options": [
+    "דבש תמרים",
+    "דבש דבורים",
+    "דבש של רימונים"
+   ],
+   "explain_he": "חכמינו מסבירים שהדבש בשבעת המינים הוא דבש תמרים, המיץ המתוק של התמר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה דבש מוזכר בשבעת המינים?",
+   "answer": "דבש תמרים",
+   "options": [
+    "דבש תמרים",
+    "דבש דבורים",
+    "דבש של רימונים"
+   ],
+   "explain_he": "חכמינו מסבירים שהדבש בשבעת המינים הוא דבש תמרים, המיץ המתוק של התמר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה אומרים אחרי שאוכלים ענבים או תמרים?",
+   "answer": "על העץ ועל פרי העץ",
+   "options": [
+    "על העץ ועל פרי העץ",
+    "בורא פרי האדמה",
+    "שהכל נהיה בדברו"
+   ],
+   "explain_he": "אחרי פירות משבעת המינים אומרים ברכה מיוחדת: על העץ ועל פרי העץ, ובה מודים להשם על הארץ.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lnf-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אומרים \"עולים\" לארץ ישראל?",
+   "answer": "כי חכמינו אמרו שהארץ גבוהה מכל הארצות",
+   "options": [
+    "כי חכמינו אמרו שהארץ גבוהה מכל הארצות",
+    "כי כל הארץ היא הר אחד גבוה",
+    "כי מגיעים אליה רק במטוס"
+   ],
+   "explain_he": "חכמינו אמרו שארץ ישראל \"גבוהה מכל הארצות\", היא הכי חשובה. לכן אומרים שעולים אליה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה איכר כשראה את הפרי הראשון מבשיל?",
+   "answer": "קשר עליו חוט, כדי להביא אותו לביכורים",
+   "options": [
+    "קשר עליו חוט, כדי להביא אותו לביכורים",
+    "קטף ואכל אותו מיד",
+    "מכר אותו בשוק"
+   ],
+   "explain_he": "האיכר קשר חוט על הפרי הראשון, ואחר כך הביא אותו בסל לבית המקדש, כדי להודות להשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lnf-f1e11"
+  }
+ ]
+}

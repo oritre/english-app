@@ -1,0 +1,546 @@
+{
+ "id": "k-cal-f1",
+ "unit_id": "k-cal-u1",
+ "course": "calendar",
+ "title_he": "יום, שבוע ושבת",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "יום, שבוע ושבת",
+   "ref_he": "לוח השנה העברי",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מתי מתחיל היום?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Sunset over the Judean hills: the sun sinks behind the hills, the sky turning orange and indigo, the first stars appearing; the children stand on a balcony watching.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "יש לי שאלה בשבילכם: מתי מתחיל יום חדש? רוב האנשים יגידו: בבוקר, כשמתעוררים.",
+      "ויש מי שיגידו: בחצות הלילה, כשהשעון מראה שתים עשרה.",
+      "אבל בלוח העברי, היום מתחיל בערב! כשהשמש שוקעת, והכוכבים יוצאים, מתחיל יום חדש.",
+      "בשיעורים האלה נלמד על הלוח שלנו, הלוח העברי. ונתחיל מהדבר הכי קטן: יום אחד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ויהי ערב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A soft painting of Creation: a dark night sky slowly turning to dawn over an untouched world of hills and sea, a soft light from above, no people.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌅",
+     "say": [
+      "למה היום מתחיל בערב? כי כך כתוב בתורה, בסיפור בריאת העולם: ״ויהי ערב, ויהי בוקר, יום אחד״.",
+      "קודם ערב, ואחר כך בוקר. וכך בכל ששת ימי הבריאה.",
+      "יש בזה גם רעיון יפה: קודם חושך, ואחר כך אור. גם כשקשה, אנחנו יודעים שהבוקר יבוא."
+     ],
+     "pasuk": {
+      "text": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
+      "ref": "בראשית א, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שבעה ימים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Seven round painted panels in a row showing the days of Creation: light, sky and sea, plants, sun and moon, birds and fish, animals, and a peaceful seventh panel glowing softly with Shabbat candles.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "🌍",
+     "say": [
+      "השם ברא את העולם בשישה ימים: אור, שמים, ים ויבשה, צמחים, שמש וירח, דגים וציפורים, בעלי חיים ואדם.",
+      "וביום השביעי, שבת. השם הפסיק לברוא, וקידש את היום השביעי.",
+      "מכאן מגיע השבוע שלנו: שבעה ימים, ובסופם שבת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ראשון, שני, שלישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. Scene: Morning prayer in a synagogue: boys and men in tallitot pray from siddurim, sunlight through tall windows; the boy stands beside his father reading.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "לימים בעברית אין שמות מיוחדים. יש להם מספרים: יום ראשון, יום שני, יום שלישי, וכך עד יום שישי.",
+      "ואת היום השביעי לא קוראים ״יום שביעי״. יש לו שם משלו: שבת!",
+      "כל ימי השבוע סופרים לקראת שבת, כמו מדרגות שעולות אל השבת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שמאי והבהמה היפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: An ancient market in Jerusalem: an elderly sage in a simple robe looks admiringly at a fine fat sheep at a stall, baskets of produce all around, morning light.",
+     "move": "left",
+     "fx": null,
+     "art": "👴 🐑",
+     "say": [
+      "חז״ל מספרים על חכם גדול, שמאי הזקן. כשהלך בשוק ומצא בהמה יפה, אמר: ״זו לשבת!״",
+      "ואם מצא אחר כך בהמה יפה עוד יותר, קנה גם אותה לשבת, ואת הראשונה אכל באמצע השבוע.",
+      "כך, כל השבוע של שמאי היה מכוון לשבת. כל יום, הוא חשב: מה אני מכין לכבוד שבת?"
+     ],
+     "pasuk": {
+      "text": "כָּל יָמָיו הָיָה אוֹכֵל לִכְבוֹד שַׁבָּת",
+      "ref": "ביצה טז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "השבת במדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: The Israelite camp in the desert at dawn: families in simple robes and head coverings gather white flakes of manna from the ground around their tents, a soft light from above, a calm sky.",
+     "move": "right",
+     "fx": "light",
+     "art": "⛺ ⛺ 🚶",
+     "say": [
+      "עם ישראל למד לשמור שבת עוד במדבר. בכל בוקר ירד מן מהשמים, וכל משפחה אספה לה מנה ליום אחד.",
+      "וביום שישי, ירדה מנה כפולה. ובשבת? לא ירד מן בכלל!",
+      "משה אמר להם: ״ראו, כי השם נתן לכם את השבת״. השבת היא מתנה, ולא צריך לדאוג: השם דואג לנו גם ביום המנוחה."
+     ],
+     "pasuk": {
+      "text": "רְאוּ כִּי ה׳ נָתַן לָכֶם הַשַּׁבָּת",
+      "ref": "שמות טז, כט"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ערב שבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Friday afternoon in a family home: the table set with a white cloth and challot, the children in festive clothes, the mother in a headscarf lighting two Shabbat candles as the sun sets outside.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👩 👦 👧 🏠",
+     "say": [
+      "ביום שישי כל הבית מתכונן: מנקים, מבשלים, עורכים שולחן יפה, מתרחצים ולובשים בגדי שבת.",
+      "כל אחד עוזר: מי מקפל מפיות, מי מסדר את החלות, ומי מנקה את החדר.",
+      "לפני השקיעה מדליקים נרות שבת. ואז, השבת נכנסת, והבית מתמלא שקט ואור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "יום מנוחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. Scene: Shabbat afternoon: the father and the children sit on a sofa learning from a large book together, the girl reading a story, sunlight and calm, no screens.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "שבת היא מתנה. שישה ימים אנחנו עובדים ולומדים, וביום השביעי נחים.",
+      "בשבת לא עובדים, לא נוסעים ולא מבשלים. מתפללים, לומדים תורה, ואוכלים סעודות שבת עם המשפחה.",
+      "יש זמן לשיר, לספר סיפורים, ולשחק בשקט. איזה יום נעים!"
+     ],
+     "pasuk": {
+      "text": "שֵׁשֶׁת יָמִים תַּעֲבֹד וְעָשִׂיתָ כָּל מְלַאכְתֶּךָ, וְיוֹם הַשְּׁבִיעִי שַׁבָּת",
+      "ref": "שמות כ, ט–י"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הבדלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. Scene: Saturday night: the family stands in a darkened room around the father who holds a braided havdalah candle, a cup and a spice box; through the window three stars shine.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👨 👦 👧",
+     "say": [
+      "במוצאי שבת, כשרואים שלושה כוכבים, עושים הבדלה: על כוס, על בשמים ועל נר.",
+      "מריחים את הבשמים, כדי להתחזק אחרי שהשבת יוצאת. ומסתכלים על האור של הנר.",
+      "השבת יוצאת, ושבוע חדש מתחיל. ושוב סופרים: יום ראשון, יום שני... לקראת השבת הבאה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🗓️ ידע כללי",
+   "title_he": "יום, שבוע ושבת",
+   "ref_he": "לוח השנה העברי",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מתי מתחיל היום?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Sunset over the Judean hills: the sun sinks behind the hills, the sky turning orange and indigo, the first stars appearing; the children stand on a balcony watching.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "יש לי שאלה בשבילכם: מתי מתחיל יום חדש? רוב האנשים יגידו: בבוקר, כשמתעוררים.",
+      "ויש מי שיגידו: בחצות הלילה, כשהשעון מראה שתים עשרה.",
+      "אבל בלוח העברי, היום מתחיל בערב! כשהשמש שוקעת, והכוכבים יוצאים, מתחיל יום חדש.",
+      "בשיעורים האלה נלמד על הלוח שלנו, הלוח העברי. ונתחיל מהדבר הכי קטן: יום אחד.",
+      "לכן גם שבת וחגים מתחילים בערב, ונגמרים בערב שאחריו, כשיוצאים שלושה כוכבים בשמים.",
+      "ובין השקיעה לצאת הכוכבים יש זמן קצר, שנקרא ״בין השמשות״. כדי לא לטעות, מקבלים את השבת עוד לפני השקיעה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "ויהי ערב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: A soft painting of Creation: a dark night sky slowly turning to dawn over an untouched world of hills and sea, a soft light from above, no people.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌅",
+     "say": [
+      "למה היום מתחיל בערב? כי כך כתוב בתורה, בסיפור בריאת העולם: ״ויהי ערב, ויהי בוקר, יום אחד״.",
+      "קודם ערב, ואחר כך בוקר. וכך בכל ששת ימי הבריאה.",
+      "יש בזה גם רעיון יפה: קודם חושך, ואחר כך אור. גם כשקשה, אנחנו יודעים שהבוקר יבוא.",
+      "חז״ל למדו מכאן: הלילה הולך לפני היום. ליל שבת כבר שייך לשבת, וליל הסדר הוא כבר פסח.",
+      "לכן גם התאריך העברי מתחלף בערב. מי שנולד בלילה, אחרי השקיעה, התאריך העברי שלו הוא כבר של היום הבא."
+     ],
+     "pasuk": {
+      "text": "וַיְהִי עֶרֶב וַיְהִי בֹקֶר יוֹם אֶחָד",
+      "ref": "בראשית א, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שבעה ימים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: Seven round painted panels in a row showing the days of Creation: light, sky and sea, plants, sun and moon, birds and fish, animals, and a peaceful seventh panel glowing softly with Shabbat candles.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "🌍",
+     "say": [
+      "השם ברא את העולם בשישה ימים: אור, שמים, ים ויבשה, צמחים, שמש וירח, דגים וציפורים, בעלי חיים ואדם.",
+      "וביום השביעי, שבת. השם הפסיק לברוא, וקידש את היום השביעי.",
+      "מכאן מגיע השבוע שלנו: שבעה ימים, ובסופם שבת.",
+      "השבוע מיוחד: הוא לא תלוי בשמש ולא בירח. יום, חודש ושנה אפשר לראות בשמים, אבל את השבוע, רק התורה מלמדת אותנו.",
+      "ובכל שבת שאנחנו שומרים, אנחנו מעידים: השם ברא את העולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ראשון, שני, שלישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. Scene: Morning prayer in a synagogue: boys and men in tallitot pray from siddurim, sunlight through tall windows; the boy stands beside his father reading.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "לימים בעברית אין שמות מיוחדים. יש להם מספרים: יום ראשון, יום שני, יום שלישי, וכך עד יום שישי.",
+      "ואת היום השביעי לא קוראים ״יום שביעי״. יש לו שם משלו: שבת!",
+      "כל ימי השבוע סופרים לקראת שבת, כמו מדרגות שעולות אל השבת.",
+      "בתפילת שחרית, בשיר של יום, אומרים: ״היום יום ראשון בשבת״, ״היום יום שני בשבת״.",
+      "כך, בכל בוקר, אנחנו זוכרים כמה ימים עברו מהשבת, וכמה נשארו עד השבת הבאה.",
+      "הרמב״ן מסביר שזה חלק מהמצווה ״זכור את יום השבת״: לזכור את השבת כל השבוע."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הרמב״ן כותב שכאשר אנו קוראים לימים ״ראשון בשבת״, ״שני בשבת״, אנחנו זוכרים את השבת בכל יום."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "שמאי והבהמה היפה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The sage: an elderly Jewish sage of ancient times with a long white beard, a white robe and a tallit draped over his head and shoulders. Scene: An ancient market in Jerusalem: an elderly sage in a simple robe looks admiringly at a fine fat sheep at a stall, baskets of produce all around, morning light.",
+     "move": "left",
+     "fx": null,
+     "art": "👴 🐑",
+     "say": [
+      "חז״ל מספרים על חכם גדול, שמאי הזקן. כשהלך בשוק ומצא בהמה יפה, אמר: ״זו לשבת!״",
+      "ואם מצא אחר כך בהמה יפה עוד יותר, קנה גם אותה לשבת, ואת הראשונה אכל באמצע השבוע.",
+      "כך, כל השבוע של שמאי היה מכוון לשבת. כל יום, הוא חשב: מה אני מכין לכבוד שבת?",
+      "גם אנחנו יכולים לעשות כמוהו: לשמור משהו טוב ומיוחד, בגד, מאכל או ממתק, לכבוד שבת.",
+      "כך השבת לא נמצאת רק ביום השביעי. היא מאירה על כל השבוע."
+     ],
+     "pasuk": {
+      "text": "כָּל יָמָיו הָיָה אוֹכֵל לִכְבוֹד שַׁבָּת",
+      "ref": "ביצה טז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "השבת במדבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors.  Scene: The Israelite camp in the desert at dawn: families in simple robes and head coverings gather white flakes of manna from the ground around their tents, a soft light from above, a calm sky.",
+     "move": "right",
+     "fx": "light",
+     "art": "⛺ ⛺ 🚶",
+     "say": [
+      "עם ישראל למד לשמור שבת עוד במדבר. בכל בוקר ירד מן מהשמים, וכל משפחה אספה לה מנה ליום אחד.",
+      "וביום שישי, ירדה מנה כפולה. ובשבת? לא ירד מן בכלל!",
+      "משה אמר להם: ״ראו, כי השם נתן לכם את השבת״. השבת היא מתנה, ולא צריך לדאוג: השם דואג לנו גם ביום המנוחה.",
+      "רש״י מסביר שעוד לפני כן, במרה, קיבלו בני ישראל את מצוות השבת, עוד לפני מתן תורה בהר סיני.",
+      "כך השבת הייתה אחת המצוות הראשונות של העם, ומאז היא מלווה אותנו בכל מקום."
+     ],
+     "pasuk": {
+      "text": "רְאוּ כִּי ה׳ נָתַן לָכֶם הַשַּׁבָּת",
+      "ref": "שמות טז, כט"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ערב שבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Scene: Friday afternoon in a family home: the table set with a white cloth and challot, the children in festive clothes, the mother in a headscarf lighting two Shabbat candles as the sun sets outside.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👩 👦 👧 🏠",
+     "say": [
+      "ביום שישי כל הבית מתכונן: מנקים, מבשלים, עורכים שולחן יפה, מתרחצים ולובשים בגדי שבת.",
+      "כל אחד עוזר: מי מקפל מפיות, מי מסדר את החלות, ומי מנקה את החדר.",
+      "לפני השקיעה מדליקים נרות שבת. ואז, השבת נכנסת, והבית מתמלא שקט ואור.",
+      "חז״ל אומרים: ״מי שטרח בערב שבת, יאכל בשבת״. ההכנה היא חלק מהשבת עצמה.",
+      "ויש זמן מדויק להדלקת הנרות, שמתפרסם בכל שבוע. הוא משתנה: בחורף מוקדם, ובקיץ מאוחר, לפי השקיעה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "יום מנוחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. Scene: Shabbat afternoon: the father and the children sit on a sofa learning from a large book together, the girl reading a story, sunlight and calm, no screens.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "שבת היא מתנה. שישה ימים אנחנו עובדים ולומדים, וביום השביעי נחים.",
+      "בשבת לא עובדים, לא נוסעים ולא מבשלים. מתפללים, לומדים תורה, ואוכלים סעודות שבת עם המשפחה.",
+      "יש זמן לשיר, לספר סיפורים, ולשחק בשקט. איזה יום נעים!",
+      "השבת היא ״אות״ בין השם לעם ישראל, סימן של אהבה וברית. וכך, כבר אלפי שנים, יהודים בכל העולם שומרים אותה.",
+      "חז״ל אמרו: השבת היא ״מעין עולם הבא״, טעימה קטנה של עולם שלם ומתוקן."
+     ],
+     "pasuk": {
+      "text": "שֵׁשֶׁת יָמִים תַּעֲבֹד וְעָשִׂיתָ כָּל מְלַאכְתֶּךָ, וְיוֹם הַשְּׁבִיעִי שַׁבָּת",
+      "ref": "שמות כ, ט–י"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הבדלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Jewish life through the year in the Land of Israel, today in a warm family home and long ago in ancient Jerusalem in the days of the Sanhedrin. Night skies with the moon and stars, the four seasons in the Judean hills. Deep indigo, gold and soft seasonal colors. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved dark green dress. Abba: a warm father in his late thirties with a trimmed dark beard, a black kippah, a white shirt and dark trousers. Scene: Saturday night: the family stands in a darkened room around the father who holds a braided havdalah candle, a cup and a spice box; through the window three stars shine.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👨 👦 👧",
+     "say": [
+      "במוצאי שבת, כשרואים שלושה כוכבים, עושים הבדלה: על כוס, על בשמים ועל נר.",
+      "מריחים את הבשמים, כדי להתחזק אחרי שהשבת יוצאת. ומסתכלים על האור של הנר.",
+      "השבת יוצאת, ושבוע חדש מתחיל. ושוב סופרים: יום ראשון, יום שני... לקראת השבת הבאה.",
+      "כך השבוע הוא כמו גלגל: שישה ימים של עבודה, ושבת אחת של קדושה.",
+      "ובשיעור הבא נכיר שעון גדול יותר, שתלוי בשמים: הירח."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-cal-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי מתחיל יום חדש בלוח העברי?",
+   "answer": "בערב, כשהשמש שוקעת",
+   "options": [
+    "בערב, כשהשמש שוקעת",
+    "בחצות הלילה",
+    "בבוקר, כשהשמש זורחת"
+   ],
+   "explain_he": "בלוח העברי הלילה הולך לפני היום.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי מתחיל יום חדש בלוח העברי?",
+   "answer": "בערב, כשהשמש שוקעת",
+   "options": [
+    "בערב, כשהשמש שוקעת",
+    "בחצות הלילה",
+    "בבוקר, כשהשמש זורחת"
+   ],
+   "explain_he": "בלוח העברי הלילה הולך לפני היום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה למדנו שהיום מתחיל בערב?",
+   "answer": "מהפסוק ״ויהי ערב ויהי בוקר יום אחד״",
+   "options": [
+    "מהפסוק ״ויהי ערב ויהי בוקר יום אחד״",
+    "מהשעון שבבית הכנסת",
+    "מסיפור יציאת מצרים"
+   ],
+   "explain_he": "בתורה כתוב קודם ״ערב״ ואחר כך ״בוקר״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה למדנו שהיום מתחיל בערב?",
+   "answer": "מהפסוק ״ויהי ערב ויהי בוקר יום אחד״",
+   "options": [
+    "מהפסוק ״ויהי ערב ויהי בוקר יום אחד״",
+    "מהשעון שבבית הכנסת",
+    "מסיפור יציאת מצרים"
+   ],
+   "explain_he": "בתורה כתוב קודם ״ערב״ ואחר כך ״בוקר״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קוראים לימי השבוע בעברית?",
+   "answer": "במספרים: ראשון, שני, שלישי...",
+   "options": [
+    "במספרים: ראשון, שני, שלישי...",
+    "בשמות של כוכבים",
+    "בשמות של מלכים"
+   ],
+   "explain_he": "לימים יש מספרים, וכולם סופרים לקראת שבת.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קוראים לימי השבוע בעברית?",
+   "answer": "במספרים: ראשון, שני, שלישי...",
+   "options": [
+    "במספרים: ראשון, שני, שלישי...",
+    "בשמות של כוכבים",
+    "בשמות של מלכים"
+   ],
+   "explain_he": "לימים יש מספרים, וכולם סופרים לקראת שבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה שמאי הזקן כשמצא בהמה יפה?",
+   "answer": "שמר אותה לכבוד שבת",
+   "options": [
+    "שמר אותה לכבוד שבת",
+    "מכר אותה מיד",
+    "נתן אותה לשכן"
+   ],
+   "explain_he": "כל השבוע של שמאי היה מכוון לכבוד שבת.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה שמאי הזקן כשמצא בהמה יפה?",
+   "answer": "שמר אותה לכבוד שבת",
+   "options": [
+    "שמר אותה לכבוד שבת",
+    "מכר אותה מיד",
+    "נתן אותה לשכן"
+   ],
+   "explain_he": "כל השבוע של שמאי היה מכוון לכבוד שבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים במוצאי שבת?",
+   "answer": "הבדלה",
+   "options": [
+    "הבדלה",
+    "קידוש",
+    "הדלקת נרות שבת"
+   ],
+   "explain_he": "במוצאי שבת עושים הבדלה על כוס, בשמים ונר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-cal-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים בכל בוקר בשיר של יום?",
+   "answer": "״היום יום ראשון בשבת״, וכך כל יום",
+   "options": [
+    "״היום יום ראשון בשבת״, וכך כל יום",
+    "את שמות כל החודשים",
+    "את ברכת המזון"
+   ],
+   "explain_he": "כך זוכרים בכל יום את השבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בשבוע, לעומת היום, החודש והשנה?",
+   "answer": "הוא לא תלוי בשמש ולא בירח, אלא בא מהתורה",
+   "options": [
+    "הוא לא תלוי בשמש ולא בירח, אלא בא מהתורה",
+    "הוא תלוי רק בירח",
+    "הוא משתנה בכל שנה"
+   ],
+   "explain_he": "את השבוע אי אפשר לראות בשמים. הוא זכר לבריאת העולם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי יוצאת השבת?",
+   "answer": "במוצאי שבת, כשיוצאים שלושה כוכבים",
+   "options": [
+    "במוצאי שבת, כשיוצאים שלושה כוכבים",
+    "בצהרי שבת",
+    "כשהשמש זורחת ביום ראשון"
+   ],
+   "explain_he": "היום מסתיים בערב, כשיוצאים שלושה כוכבים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-cal-f1e14"
+  }
+ ]
+}

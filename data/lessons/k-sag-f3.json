@@ -1,0 +1,611 @@
+{
+ "id": "k-sag-f3",
+ "unit_id": "k-sag-u1",
+ "course": "sages",
+ "title_he": "רבי יהודה הנשיא והמשנה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "רבי יהודה הנשיא והמשנה",
+   "ref_he": "גדולי ישראל",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "sun",
+     "title_he": "זרח השמש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Dawn over the green hills of the Lower Galilee: the sun rises softly over olive trees and a small Roman-era Jewish town of stone houses, a gentle golden light spreading across the valley.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "",
+     "say": [
+      "חז\"ל אומרים משפט מופלא: ביום שבו נפטר רבי עקיבא, נולד רבי יהודה הנשיא.",
+      "הם למדו את זה מהפסוק: וזרח השמש ובא השמש. עוד לפני שהשמש של צדיק אחד שוקעת, השם מזריח שמש חדשה לעם ישראל.",
+      "רבי יהודה הנשיא היה נכד של נכדים של הלל הזקן. הוא היה נשיא עם ישראל, ולכן נקרא \"הנשיא\". אבל בגמרא קוראים לו פשוט: רבי. ועוד קוראים לו: רבנו הקדוש.",
+      "נסו לדמיין: עם ישראל בצער גדול על רבי עקיבא, ובאותו יום נולד תינוק, שיהיה המנהיג הבא."
+     ],
+     "pasuk": {
+      "text": "וזרח השמש ובא השמש",
+      "ref": "קהלת א, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "galil",
+     "title_he": "בגליל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaNasi: a noble elderly sage with a full white beard, a fine but modest white robe and head covering, Roman-era Galilee. Scene: A large dignified study hall in Roman-era Tzipori: an elderly noble sage in white sits at the head, many students on benches, stone columns and a view of Galilee hills through the windows; warm afternoon light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "רבי חי בגליל, בבית שערים ובציפורי. הוא היה עשיר מאוד, ובביתו ישבו חכמים ותלמידים רבים.",
+      "רבי היה ידוע גם בקשר מיוחד עם שליט רומאי בשם אנטונינוס. אבל את הכבוד הזה הוא לא ניצל לעצמו. הוא ניצל אותו כדי לעזור לעם ישראל.",
+      "למרות כל העושר, רבי חי בפשטות. לפני פטירתו הוא הרים את עשר אצבעותיו כלפי מעלה, ואמר: גלוי וידוע לפניך שלא נהניתי מן העולם הזה אפילו באצבע קטנה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בבית שערים אפשר לבקר היום במערות קבורה עתיקות, ובהן מערה שלפי המסורת היא מקום קבורת רבי ומשפחתו."
+     }
+    },
+    {
+     "id": "oral",
+     "title_he": "תורה שבעל פה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: An old sage passes a small glowing oil lamp into the hands of a younger man, who will pass it to a boy behind him, in a dim stone room; a long line of faces fades into the warm darkness.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "כדי להבין מה רבי עשה, צריך לחזור להר סיני. משה רבנו קיבל שם שתי תורות: את התורה שבכתב, וגם את ההסבר שלה, התורה שבעל פה.",
+      "למשל, בתורה כתוב \"וקשרתם לאות על ידך\". אבל איך עושים תפילין? מה כותבים בהן, ואיך הן נראות? את זה אנחנו יודעים מהתורה שבעל פה.",
+      "במשך יותר מאלף שנים עברה התורה שבעל פה מפה לאוזן: מרב לתלמיד, ומאב לבנו. לא כתבו אותה בספר."
+     ],
+     "pasuk": {
+      "text": "משה קיבל תורה מסיני, ומסרה ליהושע, ויהושע לזקנים, וזקנים לנביאים",
+      "ref": "פרקי אבות א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "danger",
+     "title_he": "שלא תשתכח תורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaNasi: a noble elderly sage with a full white beard, a fine but modest white robe and head covering, Roman-era Galilee. Scene: A grey sky over a deserted path in the Galilee: a few Jewish families in modest dress walk away with bundles toward distant hills, an old sage watches them from a rise, deep concern on his face.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👨 👩 👦",
+     "say": [
+      "אבל בימי רבי המצב היה קשה. בית המקדש כבר נחרב, הרומאים גזרו גזרות, ויהודים רבים התפזרו בארצות רחוקות.",
+      "רבי ראה את הסכנה: אם החכמים יתפזרו ויהיו פחות תלמידים, התורה שבעל פה עלולה להישכח.",
+      "לכן החליט החלטה גדולה: לסדר את עיקרי התורה שבעל פה בספר אחד, קצר וברור. הספר הזה נקרא המשנה.",
+      "זו הייתה החלטה אמיצה מאוד. במשך יותר מאלף שנה לא כתבו את התורה שבעל פה, ורבי ידע שהוא עושה דבר גדול, כדי להציל את התורה."
+     ],
+     "pasuk": {
+      "text": "עת לעשות לה' הפרו תורתך",
+      "ref": "תהלים קיט, קכו"
+     },
+     "note": null
+    },
+    {
+     "id": "shas",
+     "title_he": "שישה סדרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A warm study table by a window: six neat bundles of handwritten scrolls tied with cloth ribbons of different colors, a quill and an inkpot, early evening light; a feeling of order and completion.",
+     "move": "right",
+     "fx": "dust",
+     "art": "",
+     "say": [
+      "המשנה מחולקת לשישה חלקים, שנקראים סדרים. לכן קוראים לתורה שבעל פה גם ש\"ס, ראשי תיבות של שישה סדרים.",
+      "סדר זרעים: ברכות, ומצוות התלויות בארץ, כמו תרומות ומעשרות. סדר מועד: שבת וחגים. סדר נשים: משפחה, נישואין וכתובה.",
+      "סדר נזיקין: דיני ממונות, בתי דין, וגם מסכת אבות. סדר קדשים: קורבנות ובית המקדש. וסדר טהרות: טומאה וטהרה.",
+      "בכל סדר יש מסכתות, ובסך הכל יש במשנה שישים ושלוש מסכתות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במילה \"משנה\" יש אותן אותיות כמו במילה \"נשמה\". לכן יש שנוהגים ללמוד משניות לעילוי נשמה."
+     }
+    },
+    {
+     "id": "how",
+     "title_he": "איך נראית משנה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A Roman-era study hall in the Galilee: young students in modest robes sit in a circle repeating their lesson aloud in a gentle chant, an elderly teacher listening with eyes half closed, sunlight streaming through an open doorway.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "איך נראית משנה? היא קצרה מאוד. למשל, המשנה הראשונה בש\"ס שואלת: מאימתי קורין את שמע בערבית? כלומר, מאיזו שעה בערב אפשר לקרוא קריאת שמע.",
+      "ואחר כך באות דעות של חכמים: רבי אליעזר אומר כך, וחכמים אומרים כך, ורבן גמליאל אומר כך. המשנה שומרת גם את שמות החכמים, וגם את המחלוקות שלהם.",
+      "לפעמים המשנה כותבת דין בלי שם של חכם. לזה קוראים \"סתם משנה\", ובדרך כלל כך נפסקת ההלכה.",
+      "בימים ההם למדו משנה בקול ובניגון, וחזרו עליה שוב ושוב. המילה \"משנה\" באה מהמילה \"לשנות\", כלומר לחזור על הלימוד."
+     ],
+     "pasuk": {
+      "text": "מאימתי קורין את שמע בערבית?",
+      "ref": "משנה, ברכות א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "calf",
+     "title_he": "העגל שברח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaNasi: a noble elderly sage with a full white beard, a fine but modest white robe and head covering, Roman-era Galilee. Scene: A sunny Galilee lane: a young calf has run to an elderly sage in white and hides its head in the folds of his robe, while a herdsman waits a few steps back; olive trees and stone walls.",
+     "move": "in",
+     "fx": "light",
+     "art": "🐄",
+     "say": [
+      "הגמרא מספרת סיפור על רבי, שמלמד אותנו על רחמים. פעם לקחו עגל לשחיטה. העגל ברח, ותחב את ראשו בבגדו של רבי.",
+      "אמר לו רבי: לך, לכך נוצרת. ומן השמים אמרו: הואיל ואינו מרחם, יבואו עליו ייסורים. ובמשך שנים רבות רבי סבל מכאבים.",
+      "יום אחד, עוזרת הבית שלו רצתה לגרש גורי חולדה קטנים מהבית. אמר לה רבי: עזבי אותם. כתוב \"ורחמיו על כל מעשיו\".",
+      "אמרו מן השמים: הואיל ומרחם, נרחם עליו. והייסורים עזבו אותו."
+     ],
+     "pasuk": {
+      "text": "ורחמיו על כל מעשיו",
+      "ref": "תהלים קמה, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "today",
+     "title_he": "המשנה בכל העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A modern-day warm study hall at night: fathers and sons in kippot learn together from open volumes at long tables, a grandfather points at a line; soft lamps and bookshelves full of identical bound volumes.",
+     "move": "out",
+     "fx": "night",
+     "art": "👴 👨 👦",
+     "say": [
+      "כמעט אלף ושמונה מאות שנה עברו מאז שרבי סידר את המשנה. ובכל העולם, בכל קהילה יהודית, לומדים אותה עד היום.",
+      "על המשנה נבנתה אחר כך הגמרא, והיא היסוד של כל ההלכה. כשאתם לומדים משנה, אתם לומדים את אותן מילים שלמדו רבי ותלמידיו בגליל.",
+      "רבי הציל את התורה שבעל פה. והוא עשה את זה בחכמה, בענווה, ובאהבה גדולה לכל יהודי, ואפילו לכל בריה.",
+      "אחרי הגמרא באו הרמב\"ם, השולחן ערוך וכל הפוסקים. וכולם התחילו מהמשנה של רבי. היא כמו היסודות של בית גדול מאוד."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sag-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📚 ידע כללי",
+   "title_he": "רבי יהודה הנשיא והמשנה",
+   "ref_he": "גדולי ישראל",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "sun",
+     "title_he": "זרח השמש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: Dawn over the green hills of the Lower Galilee: the sun rises softly over olive trees and a small Roman-era Jewish town of stone houses, a gentle golden light spreading across the valley.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "",
+     "say": [
+      "חז\"ל אומרים משפט מופלא: ביום שבו נפטר רבי עקיבא, נולד רבי יהודה הנשיא.",
+      "הם למדו את זה מהפסוק: וזרח השמש ובא השמש. עוד לפני שהשמש של צדיק אחד שוקעת, השם מזריח שמש חדשה לעם ישראל.",
+      "רבי יהודה הנשיא היה נכד של נכדים של הלל הזקן. הוא היה נשיא עם ישראל, ולכן נקרא \"הנשיא\". אבל בגמרא קוראים לו פשוט: רבי. ועוד קוראים לו: רבנו הקדוש.",
+      "נסו לדמיין: עם ישראל בצער גדול על רבי עקיבא, ובאותו יום נולד תינוק, שיהיה המנהיג הבא.",
+      "שימו לב לשרשרת: הלל, ואחריו רבן גמליאל ובניו, ועד רבי. התורה עוברת מאב לבן ומרב לתלמיד, ולא נפסקת אף פעם."
+     ],
+     "pasuk": {
+      "text": "וזרח השמש ובא השמש",
+      "ref": "קהלת א, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "galil",
+     "title_he": "בגליל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaNasi: a noble elderly sage with a full white beard, a fine but modest white robe and head covering, Roman-era Galilee. Scene: A large dignified study hall in Roman-era Tzipori: an elderly noble sage in white sits at the head, many students on benches, stone columns and a view of Galilee hills through the windows; warm afternoon light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "רבי חי בגליל, בבית שערים ובציפורי. הוא היה עשיר מאוד, ובביתו ישבו חכמים ותלמידים רבים.",
+      "רבי היה ידוע גם בקשר מיוחד עם שליט רומאי בשם אנטונינוס. אבל את הכבוד הזה הוא לא ניצל לעצמו. הוא ניצל אותו כדי לעזור לעם ישראל.",
+      "למרות כל העושר, רבי חי בפשטות. לפני פטירתו הוא הרים את עשר אצבעותיו כלפי מעלה, ואמר: גלוי וידוע לפניך שלא נהניתי מן העולם הזה אפילו באצבע קטנה.",
+      "רבי כיבד מאוד גם את מי שלמדו ממנו. הוא אמר: הרבה תורה למדתי מרבותיי, ומחבריי יותר מרבותיי, ומתלמידיי יותר מכולם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בבית שערים אפשר לבקר היום במערות קבורה עתיקות, ובהן מערה שלפי המסורת היא מקום קבורת רבי ומשפחתו."
+     }
+    },
+    {
+     "id": "oral",
+     "title_he": "תורה שבעל פה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: An old sage passes a small glowing oil lamp into the hands of a younger man, who will pass it to a boy behind him, in a dim stone room; a long line of faces fades into the warm darkness.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "כדי להבין מה רבי עשה, צריך לחזור להר סיני. משה רבנו קיבל שם שתי תורות: את התורה שבכתב, וגם את ההסבר שלה, התורה שבעל פה.",
+      "למשל, בתורה כתוב \"וקשרתם לאות על ידך\". אבל איך עושים תפילין? מה כותבים בהן, ואיך הן נראות? את זה אנחנו יודעים מהתורה שבעל פה.",
+      "במשך יותר מאלף שנים עברה התורה שבעל פה מפה לאוזן: מרב לתלמיד, ומאב לבנו. לא כתבו אותה בספר.",
+      "בלי התורה שבעל פה, אי אפשר לקיים כמעט אף מצווה. איך שוחטים? מה נחשב מלאכה בשבת? איך בונים סוכה? כל אלה הוסברו למשה בסיני, ועברו מדור לדור."
+     ],
+     "pasuk": {
+      "text": "משה קיבל תורה מסיני, ומסרה ליהושע, ויהושע לזקנים, וזקנים לנביאים",
+      "ref": "פרקי אבות א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "danger",
+     "title_he": "שלא תשתכח תורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaNasi: a noble elderly sage with a full white beard, a fine but modest white robe and head covering, Roman-era Galilee. Scene: A grey sky over a deserted path in the Galilee: a few Jewish families in modest dress walk away with bundles toward distant hills, an old sage watches them from a rise, deep concern on his face.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👨 👩 👦",
+     "say": [
+      "אבל בימי רבי המצב היה קשה. בית המקדש כבר נחרב, הרומאים גזרו גזרות, ויהודים רבים התפזרו בארצות רחוקות.",
+      "רבי ראה את הסכנה: אם החכמים יתפזרו ויהיו פחות תלמידים, התורה שבעל פה עלולה להישכח.",
+      "לכן החליט החלטה גדולה: לסדר את עיקרי התורה שבעל פה בספר אחד, קצר וברור. הספר הזה נקרא המשנה.",
+      "זו הייתה החלטה אמיצה מאוד. במשך יותר מאלף שנה לא כתבו את התורה שבעל פה, ורבי ידע שהוא עושה דבר גדול, כדי להציל את התורה.",
+      "חז\"ל אומרים שהיה מותר לעשות זאת בגלל הפסוק: עת לעשות לה' הפרו תורתך. כלומר, כשיש סכנה שהתורה תשתכח, מותר לשנות את הדרך כדי להציל אותה.",
+      "רבי לא המציא דברים חדשים. הוא אסף את דברי התנאים, החכמים של הדורות הקודמים, ובחר מילים קצרות ומדויקות, כדי שיהיה קל לזכור אותן בעל פה."
+     ],
+     "pasuk": {
+      "text": "עת לעשות לה' הפרו תורתך",
+      "ref": "תהלים קיט, קכו"
+     },
+     "note": null
+    },
+    {
+     "id": "shas",
+     "title_he": "שישה סדרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A warm study table by a window: six neat bundles of handwritten scrolls tied with cloth ribbons of different colors, a quill and an inkpot, early evening light; a feeling of order and completion.",
+     "move": "right",
+     "fx": "dust",
+     "art": "",
+     "say": [
+      "המשנה מחולקת לשישה חלקים, שנקראים סדרים. לכן קוראים לתורה שבעל פה גם ש\"ס, ראשי תיבות של שישה סדרים.",
+      "סדר זרעים: ברכות, ומצוות התלויות בארץ, כמו תרומות ומעשרות. סדר מועד: שבת וחגים. סדר נשים: משפחה, נישואין וכתובה.",
+      "סדר נזיקין: דיני ממונות, בתי דין, וגם מסכת אבות. סדר קדשים: קורבנות ובית המקדש. וסדר טהרות: טומאה וטהרה.",
+      "בכל סדר יש מסכתות, ובסך הכל יש במשנה שישים ושלוש מסכתות.",
+      "ריש לקיש מצא רמז לשישה הסדרים בפסוק בישעיהו: והיה אמונת עתיך, חוסן ישועות, חכמת ודעת.",
+      "אמונת זה סדר זרעים, עתיך זה מועד, חוסן זה נשים, ישועות זה נזיקין, חכמת זה קדשים, ודעת זה טהרות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "במילה \"משנה\" יש אותן אותיות כמו במילה \"נשמה\". לכן יש שנוהגים ללמוד משניות לעילוי נשמה."
+     }
+    },
+    {
+     "id": "how",
+     "title_he": "איך נראית משנה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A Roman-era study hall in the Galilee: young students in modest robes sit in a circle repeating their lesson aloud in a gentle chant, an elderly teacher listening with eyes half closed, sunlight streaming through an open doorway.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👦 👦 👦",
+     "say": [
+      "איך נראית משנה? היא קצרה מאוד. למשל, המשנה הראשונה בש\"ס שואלת: מאימתי קורין את שמע בערבית? כלומר, מאיזו שעה בערב אפשר לקרוא קריאת שמע.",
+      "ואחר כך באות דעות של חכמים: רבי אליעזר אומר כך, וחכמים אומרים כך, ורבן גמליאל אומר כך. המשנה שומרת גם את שמות החכמים, וגם את המחלוקות שלהם.",
+      "לפעמים המשנה כותבת דין בלי שם של חכם. לזה קוראים \"סתם משנה\", ובדרך כלל כך נפסקת ההלכה.",
+      "בימים ההם למדו משנה בקול ובניגון, וחזרו עליה שוב ושוב. המילה \"משנה\" באה מהמילה \"לשנות\", כלומר לחזור על הלימוד.",
+      "למה המשנה מביאה גם דעה של יחיד, שלא נפסקה הלכה כמותה? המשנה עצמה, במסכת עדויות, עונה: כדי שבית דין בדור מאוחר יותר יוכל לסמוך עליה, אם יצטרך."
+     ],
+     "pasuk": {
+      "text": "מאימתי קורין את שמע בערבית?",
+      "ref": "משנה, ברכות א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "calf",
+     "title_he": "העגל שברח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaNasi: a noble elderly sage with a full white beard, a fine but modest white robe and head covering, Roman-era Galilee. Scene: A sunny Galilee lane: a young calf has run to an elderly sage in white and hides its head in the folds of his robe, while a herdsman waits a few steps back; olive trees and stone walls.",
+     "move": "in",
+     "fx": "light",
+     "art": "🐄",
+     "say": [
+      "הגמרא מספרת סיפור על רבי, שמלמד אותנו על רחמים. פעם לקחו עגל לשחיטה. העגל ברח, ותחב את ראשו בבגדו של רבי.",
+      "אמר לו רבי: לך, לכך נוצרת. ומן השמים אמרו: הואיל ואינו מרחם, יבואו עליו ייסורים. ובמשך שנים רבות רבי סבל מכאבים.",
+      "יום אחד, עוזרת הבית שלו רצתה לגרש גורי חולדה קטנים מהבית. אמר לה רבי: עזבי אותם. כתוב \"ורחמיו על כל מעשיו\".",
+      "אמרו מן השמים: הואיל ומרחם, נרחם עליו. והייסורים עזבו אותו.",
+      "מכאן אנחנו לומדים: גם לבעלי חיים יש לרחם. ואם אדם גדול כמו רבי נשפט על דבר קטן כל כך, כמה צריכים אנחנו להיזהר בדרכינו."
+     ],
+     "pasuk": {
+      "text": "ורחמיו על כל מעשיו",
+      "ref": "תהלים קמה, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "will",
+     "title_he": "הצוואה של רבי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated. Rabbi Yehuda HaNasi: a noble elderly sage with a full white beard, a fine but modest white robe and head covering, Roman-era Galilee. Scene: A dignified room in a Galilee house at evening: an elderly noble sage lies resting on a bed with white linens, speaking softly to his grown sons who stand respectfully around him; an oil lamp burns on the table.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👨 👨",
+     "say": [
+      "לפני פטירתו קרא רבי לבניו, ונתן להם צוואה. הדבר הראשון שאמר: הזהרו בכבוד אמכם.",
+      "הוא ביקש שהנר בביתו ימשיך לדלוק במקומו, והשולחן יהיה ערוך במקומו, כמו בחייו. כך ימשיך הבית להיות בית של סדר וכבוד.",
+      "ואחר כך מינה את מנהיגי הדור הבא: שמעון בני חכם, גמליאל בני נשיא, וחנינא בר חמא ישב בראש הישיבה.",
+      "רבי לא השאיר שום דבר למקרה. הוא דאג שהתורה, הכבוד בבית והנהגת העם ימשיכו אחריו. זו אחריות של מנהיג אמיתי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "today",
+     "title_he": "המשנה בכל העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Historical Jewish scenes across the generations, dignified and reverent: Torah sages as venerable men in modest period-appropriate robes and head coverings, study halls lit by oil lamps and candles, old books and scrolls, landscapes of the Land of Israel, Babylon, Spain, France, Egypt and Eastern Europe. Calm, warm, respectful mood; nothing comic or exaggerated.  Scene: A modern-day warm study hall at night: fathers and sons in kippot learn together from open volumes at long tables, a grandfather points at a line; soft lamps and bookshelves full of identical bound volumes.",
+     "move": "out",
+     "fx": "night",
+     "art": "👴 👨 👦",
+     "say": [
+      "כמעט אלף ושמונה מאות שנה עברו מאז שרבי סידר את המשנה. ובכל העולם, בכל קהילה יהודית, לומדים אותה עד היום.",
+      "על המשנה נבנתה אחר כך הגמרא, והיא היסוד של כל ההלכה. כשאתם לומדים משנה, אתם לומדים את אותן מילים שלמדו רבי ותלמידיו בגליל.",
+      "רבי הציל את התורה שבעל פה. והוא עשה את זה בחכמה, בענווה, ובאהבה גדולה לכל יהודי, ואפילו לכל בריה.",
+      "אחרי הגמרא באו הרמב\"ם, השולחן ערוך וכל הפוסקים. וכולם התחילו מהמשנה של רבי. היא כמו היסודות של בית גדול מאוד."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-sag-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו חז\"ל על היום שבו נפטר רבי עקיבא?",
+   "answer": "שבאותו יום נולד רבי",
+   "options": [
+    "שבאותו יום נולד רבי",
+    "שבאותו יום נכתבה המשנה",
+    "שבאותו יום נחרב בית המקדש"
+   ],
+   "explain_he": "חז\"ל לומדים מהפסוק \"וזרח השמש ובא השמש\" שהשם מזריח צדיק חדש לפני ששוקע הקודם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו חז\"ל על היום שבו נפטר רבי עקיבא?",
+   "answer": "שבאותו יום נולד רבי",
+   "options": [
+    "שבאותו יום נולד רבי",
+    "שבאותו יום נכתבה המשנה",
+    "שבאותו יום נחרב בית המקדש"
+   ],
+   "explain_he": "חז\"ל לומדים מהפסוק \"וזרח השמש ובא השמש\" שהשם מזריח צדיק חדש לפני ששוקע הקודם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה החליט רבי לסדר את המשנה?",
+   "answer": "כדי שהתורה שבעל פה לא תישכח בגלל הצרות והפיזור",
+   "options": [
+    "כדי שהתורה שבעל פה לא תישכח בגלל הצרות והפיזור",
+    "כי רצה שיהיה לו ספר משלו",
+    "כי השליט הרומאי ביקש ממנו"
+   ],
+   "explain_he": "החכמים התפזרו והמצב היה קשה, ולכן רבי סידר את עיקרי התורה שבעל פה בספר קצר וברור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה החליט רבי לסדר את המשנה?",
+   "answer": "כדי שהתורה שבעל פה לא תישכח בגלל הצרות והפיזור",
+   "options": [
+    "כדי שהתורה שבעל פה לא תישכח בגלל הצרות והפיזור",
+    "כי רצה שיהיה לו ספר משלו",
+    "כי השליט הרומאי ביקש ממנו"
+   ],
+   "explain_he": "החכמים התפזרו והמצב היה קשה, ולכן רבי סידר את עיקרי התורה שבעל פה בספר קצר וברור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש המילה ש\"ס?",
+   "answer": "שישה סדרים",
+   "options": [
+    "שישה סדרים",
+    "שישים ספרים",
+    "שמונה סדרים"
+   ],
+   "explain_he": "המשנה מחולקת לשישה סדרים, ובהם שישים ושלוש מסכתות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש המילה ש\"ס?",
+   "answer": "שישה סדרים",
+   "options": [
+    "שישה סדרים",
+    "שישים ספרים",
+    "שמונה סדרים"
+   ],
+   "explain_he": "המשנה מחולקת לשישה סדרים, ובהם שישים ושלוש מסכתות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה סדר נמצאים דיני שבת וחגים?",
+   "answer": "סדר מועד",
+   "options": [
+    "סדר מועד",
+    "סדר זרעים",
+    "סדר טהרות"
+   ],
+   "explain_he": "סדר מועד עוסק בשבת ובמועדים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה סדר נמצאים דיני שבת וחגים?",
+   "answer": "סדר מועד",
+   "options": [
+    "סדר מועד",
+    "סדר זרעים",
+    "סדר טהרות"
+   ],
+   "explain_he": "סדר מועד עוסק בשבת ובמועדים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גרם לייסורים של רבי לעזוב אותו?",
+   "answer": "שריחם על גורי חולדה קטנים",
+   "options": [
+    "שריחם על גורי חולדה קטנים",
+    "שהלך לרופא רומאי",
+    "שעבר לגור בעיר אחרת"
+   ],
+   "explain_he": "רבי אמר \"ורחמיו על כל מעשיו\", ומן השמים ריחמו עליו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גרם לייסורים של רבי לעזוב אותו?",
+   "answer": "שריחם על גורי חולדה קטנים",
+   "options": [
+    "שריחם על גורי חולדה קטנים",
+    "שהלך לרופא רומאי",
+    "שעבר לגור בעיר אחרת"
+   ],
+   "explain_he": "רבי אמר \"ורחמיו על כל מעשיו\", ומן השמים ריחמו עליו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חי רבי?",
+   "answer": "בגליל, בבית שערים ובציפורי",
+   "options": [
+    "בגליל, בבית שערים ובציפורי",
+    "בבבל",
+    "ביבנה שבשפלה"
+   ],
+   "explain_he": "רבי חי בגליל, ושם ישבו אצלו חכמים ותלמידים רבים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חי רבי?",
+   "answer": "בגליל, בבית שערים ובציפורי",
+   "options": [
+    "בגליל, בבית שערים ובציפורי",
+    "בבבל",
+    "ביבנה שבשפלה"
+   ],
+   "explain_he": "רבי חי בגליל, ושם ישבו אצלו חכמים ותלמידים רבים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה פסוק התיר לכתוב את התורה שבעל פה?",
+   "answer": "\"עת לעשות לה' הפרו תורתך\"",
+   "options": [
+    "\"עת לעשות לה' הפרו תורתך\"",
+    "\"ורחמיו על כל מעשיו\"",
+    "\"וזרח השמש ובא השמש\""
+   ],
+   "explain_he": "כשיש סכנה שהתורה תשתכח, מותר לשנות את הדרך כדי להציל אותה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראית משנה, לפי הסרט?",
+   "answer": "קצרה מאוד, עם שמות החכמים ומחלוקותיהם",
+   "options": [
+    "קצרה מאוד, עם שמות החכמים ומחלוקותיהם",
+    "ארוכה מאוד, בלי שמות של חכמים",
+    "כתובה כשיר עם חרוזים"
+   ],
+   "explain_he": "המשנה קצרה, ושומרת גם את שמות החכמים וגם את המחלוקות. דין בלי שם נקרא \"סתם משנה\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-sag-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראית משנה, לפי הסרט?",
+   "answer": "קצרה מאוד, עם שמות החכמים ומחלוקותיהם",
+   "options": [
+    "קצרה מאוד, עם שמות החכמים ומחלוקותיהם",
+    "ארוכה מאוד, בלי שמות של חכמים",
+    "כתובה כשיר עם חרוזים"
+   ],
+   "explain_he": "המשנה קצרה, ושומרת גם את שמות החכמים וגם את המחלוקות. דין בלי שם נקרא \"סתם משנה\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הדבר הראשון בצוואה של רבי לבניו?",
+   "answer": "הזהרו בכבוד אמכם",
+   "options": [
+    "הזהרו בכבוד אמכם",
+    "שמרו על העושר",
+    "עזבו את הגליל"
+   ],
+   "explain_he": "רבי פתח את צוואתו בכבוד אם, ואחר כך מינה את מנהיגי הדור הבא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-sag-f3e18"
+  }
+ ]
+}
