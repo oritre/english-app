@@ -41,6 +41,43 @@ tts_slots = threading.Semaphore(2)
 tts_locks = {}
 tts_locks_guard = threading.Lock()
 
+# Billing (ori, 2026-11-15): nothing may run on the paid Gemini API balance.
+# Calls go through Vertex AI in the Google Cloud project, which the account's
+# welcome credit pays for. Without a vertex_api_key nothing is made (the app
+# then uses the device's voice and its drawn backdrops), unless the options
+# say allow_paid_key: true, which uses gemini_api_key on the paid Gemini API.
+VERTEX_TTS_MODEL = 'gemini-2.5-flash-tts'
+
+
+def backend(options):
+    """'vertex', 'paid' or None: who may be asked to make a line or a picture."""
+    if options.get('vertex_api_key'):
+        return 'vertex'
+    if options.get('allow_paid_key') and options.get('gemini_api_key'):
+        return 'paid'
+    return None
+
+
+def vertex_url(options, model):
+    project = options.get('vertex_project') or 'secretary-bot-511411'
+    loc = options.get('vertex_location') or 'global'
+    host = 'aiplatform.googleapis.com' if loc == 'global' else f'{loc}-aiplatform.googleapis.com'
+    return (f'https://{host}/v1/projects/{project}/locations/{loc}/publishers/google/models/{model}:generateContent'
+            f'?key={urllib.parse.quote(options["vertex_api_key"])}')
+
+
+def post_json(url, body, headers=None, timeout=120):
+    req = urllib.request.Request(url, data=json.dumps(body).encode(), method='POST',
+                                 headers={'Content-Type': 'application/json', **(headers or {})})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.load(r)
+    except urllib.error.HTTPError as e:
+        raise ValueError(f'HTTP {e.code}: {e.read()[:300].decode(errors="replace")}') from e
+
+
+NO_BACKEND = 'no vertex_api_key in the add-on options (the paid Gemini key is not used)'
+
 IMG_MAX_CHARS = 1800
 IMG_URL = 'https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent'
 IMG_MODEL = 'gemini-2.5-flash-image'
@@ -142,6 +179,16 @@ def find_audio(obj):
 
 def tts_request(text, options):
     """Natural speech for one line, as (audio bytes, mime)."""
+    if backend(options) == 'vertex':
+        body = {
+            'contents': [{'role': 'user', 'parts': [{'text': f'{TTS_STYLE}\n\n{text}'}]}],
+            'generationConfig': {'responseModalities': ['AUDIO'], 'speechConfig': {'voiceConfig': {
+                'prebuiltVoiceConfig': {'voiceName': options.get('tts_voice') or 'Sulafat'}}}},
+        }
+        found = find_audio(post_json(vertex_url(options, options.get('vertex_tts_model') or VERTEX_TTS_MODEL), body, timeout=60))
+        if not found:
+            raise ValueError('no audio in the response')
+        return base64.b64decode(found[0]), found[1]
     body = {
         'model': options.get('tts_model') or 'gemini-3.8-flash-tts',
         'input': [{'type': 'user_input', 'content': [{
@@ -178,8 +225,8 @@ def tts_file(text, lang, options, store=STORE, request=None):
     target = tts_path(h, store)
     if os.path.exists(target):
         return target
-    if not options.get('gemini_api_key'):
-        raise LookupError('no gemini_api_key in the add-on options')
+    if not backend(options):
+        raise LookupError(NO_BACKEND)
     with tts_locks_guard:
         lock = tts_locks.setdefault(h, threading.Lock())
     with lock, tts_slots:
@@ -231,6 +278,11 @@ def img_request(prompt, options):
         'contents': [{'role': 'user', 'parts': [{'text': prompt}]}],
         'generationConfig': {'responseModalities': ['TEXT', 'IMAGE'], 'imageConfig': {'aspectRatio': '16:9'}},
     }
+    if backend(options) == 'vertex':
+        found = find_image(post_json(vertex_url(options, model), body))
+        if not found:
+            raise ValueError('no image in the response')
+        return base64.b64decode(found[0]), found[1]
     req = urllib.request.Request(IMG_URL.format(model=model), data=json.dumps(body).encode(), method='POST', headers={
         'Content-Type': 'application/json', 'x-goog-api-key': options.get('gemini_api_key') or ''})
     try:
@@ -258,8 +310,8 @@ def img_file(prompt, options, store=STORE, request=None):
     target = img_path(h, store)
     if os.path.exists(target):
         return target
-    if not options.get('gemini_api_key'):
-        raise LookupError('no gemini_api_key in the add-on options')
+    if not backend(options):
+        raise LookupError(NO_BACKEND)
     with tts_locks_guard:
         lock = tts_locks.setdefault(f'img:{h}', threading.Lock())
     with lock, img_slots:
@@ -345,7 +397,8 @@ class Handler(BaseHTTPRequestHandler):
                             f"voice: {status['tts_made']} made since start"
                             + (f", last error {status['tts_error']}" if status['tts_error'] else '')
                             + f"; pictures: {status['img_made']} made since start"
-                            + (f", last error {status['img_error']}" if status['img_error'] else ''))
+                            + (f", last error {status['img_error']}" if status['img_error'] else '')
+                            + f"; billing: {backend(self.options) or 'off (no vertex_api_key)'}")
             return
         t = re.fullmatch(r'/tts/([0-9a-f]{16})\.mp3', path)
         if t:
