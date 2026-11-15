@@ -13,11 +13,125 @@
     1,
     3
    ],
+   "cast": {
+    "lavan": {
+     "name_he": "לבן",
+     "color": "#ff9d8a",
+     "voice": "Algenib",
+     "style": "A shrewd, smooth-talking older man who sounds friendly but calculating, speaking Hebrew, in a biblical story for children.",
+     "height": 0.63,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Pose: standing upright with his hands clasped at his belly, mouth closed, eyes open, a sly half smile."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "leah": {
+     "name_he": "לאה",
+     "color": "#cdb4f0",
+     "voice": "Achernar",
+     "style": "A soft-spoken, kind young woman with deep feeling, speaking Hebrew warmly, in a biblical story for children.",
+     "height": 0.58,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Leah: a young woman with soft, kind eyes, soft lavender dress and cream head scarf. Pose: standing calmly, hands folded in front, mouth closed, eyes open, soft gentle expression."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "rachel": {
+     "name_he": "רחל",
+     "color": "#8ec5ff",
+     "voice": "Vindemiatrix",
+     "style": "A kind, gentle young woman, speaking Hebrew warmly and modestly, in a biblical story for children.",
+     "height": 0.58,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Pose: standing gracefully, holding her shepherd's crook, mouth closed, eyes open, gentle smile."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "yaakov": {
+     "name_he": "יעקב",
+     "color": "#f0c27a",
+     "voice": "Iapetus",
+     "style": "A gentle, sincere and thoughtful man in his prime, speaking Hebrew with warmth and dignity, in a biblical story for children.",
+     "height": 0.64,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Pose: standing relaxed, holding his wooden staff upright in his far hand, mouth closed, eyes open, calm kind expression."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    }
+   },
    "scenes": [
     {
      "id": "open",
      "title_he": "יעקב יוצא לדרך",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Dawn over the desert town of Beer Sheva: Yaakov, seen from behind, walks away from a cluster of tents and a stone well toward distant hills, long shadow, his parents' tents behind him, birds in a pink-gold sky.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Dawn over the desert town of Beer Sheva: a cluster of tents and a stone well, a dirt path leading away toward distant hills, birds in a pink-gold sky. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "right",
      "fx": "dust",
      "art": "🌅 🚶 ⛺",
@@ -25,6 +139,14 @@
       "פרשת ויצא מספרת על יעקב אבינו.",
       "יעקב יוצא מהבית שלו בבאר שבע, ונוסע רחוק רחוק, לעיר חָרָן.",
       "הוא הולך לבד, בלי אבא ואמא. בואו נצא איתו לדרך!"
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.4,
+       "face": "r",
+       "enter": "l"
+      }
      ],
      "pasuk": {
       "text": "וַיֵּצֵא יַעֲקֹב מִבְּאֵר שָׁבַע וַיֵּלֶךְ חָרָנָה",
@@ -44,6 +166,7 @@
       "הוא רואה סולם ענק, שעומד על האדמה, והראש שלו מגיע עד השמיים.",
       "ועל הסולם, מלאכים עולים ויורדים, עולים ויורדים."
      ],
+     "stage": [],
      "pasuk": {
       "text": "וְהִנֵּה סֻלָּם מֻצָּב אַרְצָה וְרֹאשׁוֹ מַגִּיעַ הַשָּׁמָיְמָה, וְהִנֵּה מַלְאֲכֵי אֱלֹהִים עֹלִים וְיֹרְדִים בּוֹ",
       "ref": "בראשית כח, יב"
@@ -62,6 +185,7 @@
       "הוא אומר לו: את הארץ הזאת אתן לך ולילדים שלך.",
       "ועוד הוא אומר: אני איתך, ואשמור עליך בכל מקום שתלך, ואחזיר אותך הביתה."
      ],
+     "stage": [],
      "pasuk": {
       "text": "וְהִנֵּה אָנֹכִי עִמָּךְ וּשְׁמַרְתִּיךָ בְּכֹל אֲשֶׁר תֵּלֵךְ",
       "ref": "בראשית כח, טו"
@@ -71,13 +195,26 @@
     {
      "id": "bethel",
      "title_he": "בית אל",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Early morning on the hilltop: Yaakov, awake and awed, stands a tall stone upright as a pillar and pours oil from a small clay flask onto its top, soft morning mist in the valleys, sunrise light.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Early morning on the hilltop: a tall stone standing upright as a pillar, glistening with oil poured on its top, a small clay flask beside it, soft morning mist in the valleys, sunrise light. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "left",
      "fx": "mist",
      "art": "🌄 🪨 🫒",
      "say": [
-      "בבוקר יעקב מתעורר ואומר: השם נמצא במקום הזה, ואני לא ידעתי!",
+      "בבוקר יעקב מתעורר, ואומר:",
+      {
+       "who": "yaakov",
+       "text": "השם נמצא במקום הזה, ואני לא ידעתי!",
+       "tone": "amazed, in awe",
+       "act": "gesture"
+      },
       "הוא מעמיד את האבן, שופך עליה שמן, וקורא למקום: בית אל, כלומר, הבית של השם."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.36,
+       "face": "r"
+      }
      ],
      "pasuk": {
       "text": "אָכֵן יֵשׁ ה' בַּמָּקוֹם הַזֶּה וְאָנֹכִי לֹא יָדָעְתִּי",
@@ -88,15 +225,38 @@
     {
      "id": "rachel",
      "title_he": "רחל והאבן",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Scene: At the well: Yaakov alone heaves the huge stone off the mouth of the well with great strength, water glittering below, Rachel in blue standing nearby with her flock of sheep, surprised and smiling, shepherds watching in amazement.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: At the well: the huge stone rolled aside from the open mouth of the well, water glittering inside, sheep crowding to drink from a stone trough, shepherds watching in amazement in the background. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
      "fx": "sparkle",
      "art": "💪 🪨 🐑 👧",
      "say": [
       "יעקב מגיע לבאר מים. על הבאר יש אבן ענקית וכבדה.",
       "רחל מגיעה עם הכבשים של אבא שלה. יעקב ניגש, ולבד, מגלגל את האבן הגדולה מעל הבאר!",
-      "הוא משקה את הכבשים של רחל, ומספר לה שהוא בן של רבקה, דודה שלה.",
-      "רחל רצה הביתה, לספר לאבא שלה, לָבָן."
+      "הוא משקה את הכבשים של רחל, ומספר לה:",
+      {
+       "who": "yaakov",
+       "text": "אני יעקב, הבן של רבקה, אחות של אבא שלך!",
+       "tone": "happy, emotional"
+      },
+      {
+       "who": "rachel",
+       "text": "אני רצה לספר לאבא!",
+       "tone": "surprised and happy",
+       "act": "walk:1.2"
+      }
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.32,
+       "face": "r"
+      },
+      {
+       "who": "rachel",
+       "x": 0.7,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": {
       "text": "וַיִּגַּשׁ יַעֲקֹב וַיָּגֶל אֶת הָאֶבֶן מֵעַל פִּי הַבְּאֵר",
@@ -107,14 +267,36 @@
     {
      "id": "seven",
      "title_he": "שבע שנים",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Scene: A montage-like scene: Yaakov tending a large flock of sheep in green fields through the seasons (spring blossoms on one side, autumn leaves on the other), Rachel in blue watching from a distance, warm and tender mood.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Green pastures near Haran through the seasons, spring blossoms on one side and autumn leaves on the other, a large flock of sheep grazing, warm and tender mood. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "right",
      "fx": "sparkle",
      "art": "🐑 ❤️ 7️⃣",
      "say": [
       "ללבן יש שתי בנות: לֵאָה הגדולה, ורחל הקטנה.",
-      "יעקב אומר: אעבוד אצלך שבע שנים, כדי להתחתן עם רחל.",
+      {
+       "who": "yaakov",
+       "text": "אעבוד אצלך שבע שנים, כדי להתחתן עם רחל.",
+       "tone": "sincere, determined",
+       "act": "gesture"
+      },
+      {
+       "who": "lavan",
+       "text": "טוב. תישאר איתי.",
+       "tone": "pleased, shrewd"
+      },
       "שבע שנים זה הרבה זמן! אבל ליעקב הן היו כמו כמה ימים, כי הוא אהב את רחל מאוד."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "וַיִּהְיוּ בְעֵינָיו כְּיָמִים אֲחָדִים בְּאַהֲבָתוֹ אֹתָהּ",
@@ -125,15 +307,34 @@
     {
      "id": "tribes",
      "title_he": "שבטי ישראל",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, green dress and pale green head scarf. Scene: A joyful family scene in a large tent camp: many children of different ages playing among the tents and sheep, Leah in green holding a baby, Rachel in blue holding a baby boy, Yaakov smiling in the middle, golden evening light.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: A joyful large tent camp: many boys of different ages and one girl playing among the tents and sheep, a cradle at a tent door, golden evening light. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "out",
      "fx": "sparkle",
      "art": "👶 👦 👧 ⛺",
      "say": [
       "ליעקב נולדים הרבה ילדים: בנים ובת.",
-      "ללאה נולד בן, וקראה לו יְהוּדָה, כי אמרה: הפעם אודה את השם. כלומר: תודה, השם!",
+      "ללאה נולד בן, וקראה לו יְהוּדָה, כי אמרה:",
+      {
+       "who": "leah",
+       "text": "הפעם אודה את השם!",
+       "tone": "joyful, grateful",
+       "act": "gesture"
+      },
+      "כלומר: תודה, השם!",
       "וברגע מרגש במיוחד, גם לרחל נולד בן: יוֹסֵף.",
       "בפרשה נולדים אחד עשר בנים ובת אחת, דִּינָה. מהבנים האלה יהיו שבטי ישראל."
+     ],
+     "stage": [
+      {
+       "who": "leah",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "rachel",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "הַפַּעַם אוֹדֶה אֶת ה'",
@@ -144,7 +345,7 @@
     {
      "id": "return",
      "title_he": "חוזרים הביתה",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, green dress and pale green head scarf. Scene: A long caravan setting out at dawn: camels carrying Leah, Rachel and the children, flocks of sheep, servants, Yaakov leading on foot with his staff toward the west, hills of Canaan faintly on the horizon.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, soft lavender dress and cream head scarf. Scene: A long caravan setting out at dawn: camels carrying Leah, Rachel and the children, flocks of sheep, servants, Yaakov leading on foot with his staff toward the west, hills of Canaan faintly on the horizon.",
      "move": "right",
      "fx": "dust",
      "art": "🐫 🐫 🐑 🌄",
@@ -152,6 +353,7 @@
       "אחרי עשרים שנה, השם אומר ליעקב: שוב אל ארץ אבותיך, ואהיה עמך.",
       "יעקב אוסף את כל המשפחה, את הילדים ואת הכבשים, ויוצאים לדרך, הביתה, לארץ ישראל."
      ],
+     "stage": [],
      "pasuk": {
       "text": "שׁוּב אֶל אֶרֶץ אֲבוֹתֶיךָ וּלְמוֹלַדְתֶּךָ, וְאֶהְיֶה עִמָּךְ",
       "ref": "בראשית לא, ג"
@@ -161,7 +363,7 @@
     {
      "id": "galed",
      "title_he": "גל עד",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: On a mountain slope in Gilead: Yaakov, his sons and Lavan's men piling up a heap of stones beside a standing stone, Lavan and Yaakov facing each other calmly, a shared meal laid out on the ground, sunset glow over the hills.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: On a mountain slope in Gilead: a large heap of stones beside a standing stone, young men in the background still carrying stones, a shared meal laid out on the ground, sunset glow over the hills. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "out",
      "fx": "sunset",
      "art": "🪨 🪨 🤝 🌄",
@@ -169,6 +371,18 @@
       "לבן רודף אחרי יעקב, אבל השם מזהיר אותו בחלום: אל תעשה ליעקב שום רע.",
       "בסוף לבן ויעקב עושים שלום. הם בונים ערימה של אבנים, וקוראים לה גל עד, וזה הסימן שהם לא יפגעו זה בזה.",
       "לבן מנשק את הנכדים ואת הבנות שלו, ומברך אותם, וחוזר הביתה."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -186,6 +400,7 @@
       "למדנו מרחל לשמור על הרגשות של אחרים, ומלאה, להגיד תודה.",
       "עכשיו בואו נראה מה זכרתם!"
      ],
+     "stage": [],
      "pasuk": null,
      "note": null
     }
@@ -201,11 +416,153 @@
     4,
     6
    ],
+   "cast": {
+    "lavan": {
+     "name_he": "לבן",
+     "color": "#ff9d8a",
+     "voice": "Algenib",
+     "style": "A shrewd, smooth-talking older man who sounds friendly but calculating, speaking Hebrew, in a biblical story for children.",
+     "height": 0.63,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Pose: standing upright with his hands clasped at his belly, mouth closed, eyes open, a sly half smile."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "leah": {
+     "name_he": "לאה",
+     "color": "#cdb4f0",
+     "voice": "Achernar",
+     "style": "A soft-spoken, kind young woman with deep feeling, speaking Hebrew warmly, in a biblical story for children.",
+     "height": 0.58,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Leah: a young woman with soft, kind eyes, soft lavender dress and cream head scarf. Pose: standing calmly, hands folded in front, mouth closed, eyes open, soft gentle expression."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "rachel": {
+     "name_he": "רחל",
+     "color": "#8ec5ff",
+     "voice": "Vindemiatrix",
+     "style": "A kind, gentle young woman, speaking Hebrew warmly and modestly, in a biblical story for children.",
+     "height": 0.58,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Pose: standing gracefully, holding her shepherd's crook, mouth closed, eyes open, gentle smile."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "shepherd": {
+     "name_he": "רועה",
+     "color": "#c8d99a",
+     "voice": "Umbriel",
+     "style": "An easy-going, friendly young shepherd, speaking Hebrew simply, in a biblical story for children.",
+     "height": 0.6,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. A shepherd of Haran: a weathered young man with a short brown beard, plain brown wool robe, striped head cloth, holding a shepherd's staff. Pose: standing relaxed, leaning slightly on his staff, mouth closed, eyes open, friendly expression."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "yaakov": {
+     "name_he": "יעקב",
+     "color": "#f0c27a",
+     "voice": "Iapetus",
+     "style": "A gentle, sincere and thoughtful man in his prime, speaking Hebrew with warmth and dignity, in a biblical story for children.",
+     "height": 0.64,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Pose: standing relaxed, holding his wooden staff upright in his far hand, mouth closed, eyes open, calm kind expression."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    }
+   },
    "scenes": [
     {
      "id": "open",
      "title_he": "יעקב יוצא לדרך",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Dawn over the desert town of Beer Sheva: Yaakov, seen from behind, walks away from a cluster of tents and a stone well toward distant hills, long shadow, his parents' tents behind him, birds in a pink-gold sky.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Dawn over the desert town of Beer Sheva: a cluster of tents and a stone well, a dirt path leading away toward distant hills, birds in a pink-gold sky. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "right",
      "fx": "dust",
      "art": "🌅 🚶 ⛺",
@@ -216,6 +573,14 @@
       "וגם יצחק ביקש ממנו: לך לחרן, ותמצא שם אישה מהמשפחה של אמך.",
       "וכך, יעקב יוצא מבאר שבע, לבד, עם מקל ההליכה שלו בלבד."
      ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.4,
+       "face": "r",
+       "enter": "l"
+      }
+     ],
      "pasuk": {
       "text": "וַיֵּצֵא יַעֲקֹב מִבְּאֵר שָׁבַע וַיֵּלֶךְ חָרָנָה",
       "ref": "בראשית כח, י"
@@ -225,13 +590,21 @@
     {
      "id": "stones",
      "title_he": "לילה במקום",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Sunset on a rocky hilltop in the hills of Canaan: Yaakov arranges a few smooth stones around a sleeping spot, the sun sinking suddenly below the horizon, purple sky, first stars appearing.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Sunset on a rocky hilltop in the hills of Canaan: a few smooth stones arranged around a sleeping spot on the ground, the sun sinking suddenly below the horizon, purple sky, first stars appearing. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
      "fx": "sunset",
      "art": "🌄 🪨 🧔",
      "say": [
       "יעקב הולך והולך, עד שהוא מגיע למקום אחד, והשמש שוקעת.",
       "אין שם בית ואין מלון. יעקב לוקח אבנים מהמקום, שם אותן סביב ראשו, ונשכב לישון על האדמה."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.62,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -249,6 +622,7 @@
       "למה המלאכים גם עולים וגם יורדים? רש\"י מסביר: המלאכים ששמרו על יעקב בארץ ישראל עלו לשמיים,",
       "ובמקומם ירדו מלאכים חדשים, שילוו את יעקב בדרכו מחוץ לארץ. יעקב אף פעם לא לבד."
      ],
+     "stage": [],
      "pasuk": {
       "text": "וְהִנֵּה סֻלָּם מֻצָּב אַרְצָה וְרֹאשׁוֹ מַגִּיעַ הַשָּׁמָיְמָה, וְהִנֵּה מַלְאֲכֵי אֱלֹהִים עֹלִים וְיֹרְדִים בּוֹ",
       "ref": "בראשית כח, יב"
@@ -271,6 +645,7 @@
       "והצאצאים שלך יהיו רבים כמו עפר הארץ, ויתפשטו לכל הכיוונים: מערב, מזרח, צפון ודרום.",
       "ובסוף, ההבטחה החשובה ביותר לאדם שיוצא לבד לדרך: אני איתך, אשמור עליך בכל אשר תלך, ואשיב אותך אל האדמה הזאת."
      ],
+     "stage": [],
      "pasuk": {
       "text": "וְהִנֵּה אָנֹכִי עִמָּךְ וּשְׁמַרְתִּיךָ בְּכֹל אֲשֶׁר תֵּלֵךְ",
       "ref": "בראשית כח, טו"
@@ -280,15 +655,32 @@
     {
      "id": "bethel",
      "title_he": "בית אל",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Early morning on the hilltop: Yaakov, awake and awed, stands a tall stone upright as a pillar and pours oil from a small clay flask onto its top, soft morning mist in the valleys, sunrise light.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Early morning on the hilltop: a tall stone standing upright as a pillar, glistening with oil poured on its top, a small clay flask beside it, soft morning mist in the valleys, sunrise light. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "left",
      "fx": "mist",
      "art": "🌄 🪨 🫒",
      "say": [
-      "יעקב מתעורר ואומר בהתרגשות: אכן יש השם במקום הזה, ואנוכי לא ידעתי!",
-      "מה נורא המקום הזה, אין זה כי אם בית אלוקים, וזה שער השמיים.",
+      "יעקב מתעורר, ואומר בהתרגשות:",
+      {
+       "who": "yaakov",
+       "text": "אָכֵן יֵשׁ השם בַּמָּקוֹם הַזֶּה, וְאָנֹכִי לֹא יָדָעְתִּי!",
+       "tone": "amazed, in awe, softly",
+       "act": "gesture"
+      },
+      {
+       "who": "yaakov",
+       "text": "מַה נּוֹרָא הַמָּקוֹם הַזֶּה! אֵין זֶה כִּי אִם בֵּית אֱלֹקִים, וְזֶה שַׁעַר הַשָּׁמָיִם.",
+       "tone": "reverent, deeply moved"
+      },
       "בבוקר הוא מעמיד את האבן כמו עמוד, מַצֵּבָה, ויוצק עליה שמן.",
       "הוא קורא למקום בית אל. לפני כן קראו לעיר הזאת לוּז."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.36,
+       "face": "r"
+      }
      ],
      "pasuk": {
       "text": "אָכֵן יֵשׁ ה' בַּמָּקוֹם הַזֶּה וְאָנֹכִי לֹא יָדָעְתִּי",
@@ -299,15 +691,32 @@
     {
      "id": "vow",
      "title_he": "הנדר והמעשר",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Yaakov kneeling in prayer beside the oiled stone pillar, hands raised, morning sun behind him, a simple sack and staff beside him, a wide valley below.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: The oiled stone pillar on the hilltop in morning sun, a simple travel sack on the ground beside it, a wide valley below. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
      "fx": "light",
      "art": "🙏 🪨 🔟",
      "say": [
       "לפני שהוא ממשיך בדרך, יעקב נודר נדר, כלומר, מבטיח הבטחה לשם.",
-      "אם השם יהיה איתי וישמור עליי, ויתן לי לחם לאכול ובגד ללבוש, ואחזור בשלום לבית אבי,",
-      "האבן הזאת תהיה בית אלוקים, ומכל מה שתיתן לי, אתן לך עשירית: מַעֲשֵׂר.",
+      {
+       "who": "yaakov",
+       "text": "אם השם יהיה איתי וישמור עליי, ויתן לי לחם לאכול ובגד ללבוש, ואחזור בשלום לבית אבי,",
+       "tone": "praying, earnest and humble",
+       "act": "gesture"
+      },
+      {
+       "who": "yaakov",
+       "text": "האבן הזאת תהיה בית אלוקים, ומכל מה שתיתן לי, אתן לך עשירית.",
+       "tone": "praying, earnest and humble"
+      },
+      "עשירית, כלומר, מַעֲשֵׂר.",
       "מכאן לומדים על מצוות המעשר: לתת עשירית ממה שיש לנו לצדקה ולמטרות טובות."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.42,
+       "face": "r"
+      }
      ],
      "pasuk": {
       "text": "וְכֹל אֲשֶׁר תִּתֶּן לִי עַשֵּׂר אֲעַשְּׂרֶנּוּ לָךְ",
@@ -318,15 +727,47 @@
     {
      "id": "well",
      "title_he": "הבאר בחרן",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: A wide sunny pasture near the town of Haran: a large round stone well covered by a huge heavy stone, three groups of shepherds resting with flocks of sheep beside it, Yaakov arriving with his staff and talking with them.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: A wide sunny pasture near the town of Haran: a large round stone well covered by a huge heavy stone, three flocks of sheep lying beside it, a few shepherds resting in the shade in the background. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "right",
      "fx": "dust",
      "art": "🐑 🐑 🕳️ 🧔",
      "say": [
       "יעקב ממשיך ללכת, ומגיע לארץ בני קדם. הוא רואה באר בשדה, ושלושה עדרי צאן רובצים לידה.",
       "על פי הבאר מונחת אבן גדולה מאוד. הרועים מחכים שכל העדרים יתאספו, ורק אז מזיזים יחד את האבן ומשקים את הצאן.",
-      "יעקב שואל אותם: מאין אתם? מחרן, הם עונים. האם אתם מכירים את לבן? כן, ושלום לו.",
-      "והנה רחל, בתו של לבן, באה עם הצאן."
+      {
+       "who": "yaakov",
+       "text": "אחיי, מאין אתם?",
+       "tone": "friendly, a tired traveler"
+      },
+      {
+       "who": "shepherd",
+       "text": "מחרן אנחנו.",
+       "tone": "easy-going"
+      },
+      {
+       "who": "yaakov",
+       "text": "הידעתם את לבן בן נחור?",
+       "tone": "hopeful"
+      },
+      {
+       "who": "shepherd",
+       "text": "ידענו. שלום לו. והנה רחל בתו באה עם הצאן!",
+       "tone": "friendly, pointing",
+       "act": "gesture"
+      }
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.28,
+       "face": "r",
+       "enter": "l"
+      },
+      {
+       "who": "shepherd",
+       "x": 0.72,
+       "face": "l"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -334,15 +775,37 @@
     {
      "id": "rachel",
      "title_he": "רחל והאבן",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Scene: At the well: Yaakov alone heaves the huge stone off the mouth of the well with great strength, water glittering below, Rachel in blue standing nearby with her flock of sheep, surprised and smiling, shepherds watching in amazement.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: At the well: the huge stone rolled aside from the open mouth of the well, water glittering inside, sheep crowding to drink from a stone trough, shepherds watching in amazement in the background. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
      "fx": "sparkle",
      "art": "💪 🪨 🐑 👧",
      "say": [
       "כשיעקב רואה את רחל, הוא ניגש, ולבדו מגלגל את האבן הכבדה, שבדרך כלל כל הרועים יחד מזיזים.",
-      "הוא משקה את הצאן של לבן, ואז מספר לרחל שהוא קרוב משפחה שלה, בנה של רבקה.",
-      "יעקב מתרגש מאוד, ובוכה. אחרי כל הדרך הארוכה, הוא הגיע למשפחה.",
-      "רחל רצה לספר לאביה."
+      "הוא משקה את הצאן של לבן, ויעקב מתרגש מאוד, ובוכה. אחרי כל הדרך הארוכה, הוא הגיע למשפחה.",
+      {
+       "who": "yaakov",
+       "text": "אני קרוב של אביך. אני בנה של רבקה.",
+       "tone": "moved, close to tears"
+      },
+      {
+       "who": "rachel",
+       "text": "אני רצה לספר לאבי!",
+       "tone": "surprised and happy",
+       "act": "walk:1.2"
+      }
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.32,
+       "face": "r"
+      },
+      {
+       "who": "rachel",
+       "x": 0.7,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": {
       "text": "וַיִּגַּשׁ יַעֲקֹב וַיָּגֶל אֶת הָאֶבֶן מֵעַל פִּי הַבְּאֵר",
@@ -353,14 +816,38 @@
     {
      "id": "lavan",
      "title_he": "לבן",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: The courtyard of Lavan's wealthy stone house in Haran: Lavan rushes out with open arms to hug Yaakov, servants and camels in the background, late afternoon light.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: The courtyard of Lavan's wealthy stone house in Haran: carved doorway, rugs, water jars, servants and camels in the background, late afternoon light. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "left",
      "fx": null,
      "art": "🏠 🤗 🧔",
      "say": [
       "לבן שומע שהגיע בן אחותו, ורץ לקראתו. הוא מחבק ומנשק אותו ומביא אותו לביתו.",
-      "יעקב גר אצלו חודש ימים ועוזר בעבודה.",
-      "ואז לבן אומר: האם בגלל שאתה קרוב משפחה, תעבוד אצלי בחינם? תגיד לי מה תרצה בתור שכר."
+      {
+       "who": "lavan",
+       "text": "אתה ממש מהמשפחה שלי, עצמי ובשרי!",
+       "tone": "effusive, overly warm",
+       "act": "gesture"
+      },
+      "יעקב גר אצלו חודש ימים ועוזר בעבודה. ואז לבן אומר:",
+      {
+       "who": "lavan",
+       "text": "בגלל שאתה קרוב משפחה, תעבוד אצלי בחינם? תגיד לי מה תרצה בתור שכר.",
+       "tone": "smooth, calculating"
+      }
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r",
+       "enter": "l"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -368,15 +855,38 @@
     {
      "id": "seven",
      "title_he": "שבע שנים",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Scene: A montage-like scene: Yaakov tending a large flock of sheep in green fields through the seasons (spring blossoms on one side, autumn leaves on the other), Rachel in blue watching from a distance, warm and tender mood.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Green pastures near Haran through the seasons, spring blossoms on one side and autumn leaves on the other, a large flock of sheep grazing, warm and tender mood. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "right",
      "fx": "sparkle",
      "art": "🐑 ❤️ 7️⃣",
      "say": [
       "ללבן שתי בנות: הגדולה לאה, והקטנה רחל. התורה מספרת שעיני לאה רכות, ורחל יפה מאוד.",
-      "יעקב אוהב את רחל, ומציע: אעבוד אצלך שבע שנים ברחל בתך הקטנה. לבן מסכים.",
+      "יעקב אוהב את רחל, ומציע:",
+      {
+       "who": "yaakov",
+       "text": "אעבוד אצלך שבע שנים, ברחל בתך הקטנה.",
+       "tone": "sincere, determined",
+       "act": "gesture"
+      },
+      {
+       "who": "lavan",
+       "text": "טוב תתי אותה לך, מתתי אותה לאיש אחר. שבה עמדי.",
+       "tone": "pleased, shrewd"
+      },
       "ויעבוד יעקב ברחל שבע שנים, ויהיו בעיניו כימים אחדים באהבתו אותה.",
       "כשאוהבים באמת, ההמתנה לא מרגישה כבדה."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "וַיִּהְיוּ בְעֵינָיו כְּיָמִים אֲחָדִים בְּאַהֲבָתוֹ אֹתָהּ",
@@ -387,15 +897,38 @@
     {
      "id": "wedding",
      "title_he": "החתונה",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: Night inside a festive tent lit by oil lamps: a modest wedding feast, guests in robes, Lavan presiding, a bride fully covered in a heavy veil being led in by women, warm lamplight and deep shadows.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Early morning outside a large festive tent after a wedding feast: oil lamps burnt out, remains of the feast on low tables, colored cloths hanging, pale dawn light and long shadows. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
-     "fx": "night",
+     "fx": "mist",
      "art": "🪔 👰 🎉",
      "say": [
       "אחרי שבע השנים, לבן עורך משתה חתונה גדול. אבל בלילה, הוא מביא ליעקב את לאה, במקום רחל.",
-      "ויהי בבוקר, והנה היא לאה! יעקב שואל את לבן: למה רימית אותי?",
-      "לבן עונה: אצלנו לא נוהגים לחתן את הצעירה לפני הבכירה.",
+      "ויהי בבוקר, והנה היא לאה!",
+      {
+       "who": "yaakov",
+       "text": "מה עשית לי? הרי בשביל רחל עבדתי אצלך! למה רימית אותי?",
+       "tone": "hurt and indignant",
+       "act": "gesture"
+      },
+      {
+       "who": "lavan",
+       "text": "אצלנו לא נוהגים לחתן את הצעירה לפני הבכירה.",
+       "tone": "cool, dismissive"
+      },
       "ורחל? רש\"י מספר שיעקב נתן לה סימנים סודיים, אבל רחל מסרה אותם ללאה, כדי שאחותה לא תתבייש. איזו גבורה של רחל!"
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r",
+       "enter": "l"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "וַיְהִי בַבֹּקֶר וְהִנֵּה הִוא לֵאָה",
@@ -409,17 +942,35 @@
     {
      "id": "tribes",
      "title_he": "שבטי ישראל",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, green dress and pale green head scarf. Scene: A joyful family scene in a large tent camp: many children of different ages playing among the tents and sheep, Leah in green holding a baby, Rachel in blue holding a baby boy, Yaakov smiling in the middle, golden evening light.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: A joyful large tent camp: many boys of different ages and one girl playing among the tents and sheep, a cradle at a tent door, golden evening light. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "out",
      "fx": "sparkle",
      "art": "👶 👦 👧 ⛺",
      "say": [
       "במשך השנים נולדים ליעקב בנים, ולכל אחד שם עם משמעות.",
-      "ללאה נולדים ראובן, שמעון, לוי ויהודה. על יהודה היא אומרת: הפעם אודה את השם.",
+      "ללאה נולדים ראובן, שמעון, לוי ויהודה. על יהודה היא אומרת:",
+      {
+       "who": "leah",
+       "text": "הַפַּעַם אוֹדֶה אֶת השם!",
+       "tone": "joyful, grateful",
+       "act": "gesture"
+      },
       "רחל עוד אין לה ילדים, והיא נותנת ליעקב את שפחתה בִּלְהָה, ונולדים דן ונפתלי. גם לאה נותנת את זִלְפָּה, ונולדים גד ואשר.",
       "אחר כך נולדים ללאה יששכר וזבולון, ובת, דינה.",
       "ולבסוף, אחרי שנים של תפילה, השם זוכר את רחל, ונולד לה יוסף.",
       "אחד עשר בנים, ואחר כך יוולד גם בנימין. שנים עשר שבטי ישראל."
+     ],
+     "stage": [
+      {
+       "who": "leah",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "rachel",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "הַפַּעַם אוֹדֶה אֶת ה'",
@@ -430,15 +981,33 @@
     {
      "id": "flocks",
      "title_he": "הכבשים של יעקב",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: Rolling pastures with two separate flocks: one of plain white sheep and goats, one of spotted, speckled and striped sheep and goats that is visibly growing large, Yaakov counting them with care, Lavan in crimson watching suspiciously from a hill.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Rolling pastures with two separate flocks: one of plain white sheep and goats, one of spotted, speckled and striped sheep and goats that is visibly growing large, wooden water troughs, hills behind. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "left",
      "fx": "dust",
      "art": "🐑 🐐 🐑 👀",
      "say": [
       "אחרי ארבע עשרה שנים, יעקב רוצה לחזור הביתה. אבל לבן לא רוצה לשחרר אותו, כי מאז שיעקב הגיע, השם בירך את לבן.",
+      {
+       "who": "lavan",
+       "text": "ראיתי שהשם בירך אותי בגללך. תגיד לי כמה אתה רוצה, ואתן.",
+       "tone": "grudging, then smooth"
+      },
       "הם מסכמים: כל הכבשים והעזים שייוולדו עם נקודות או פסים, יהיו של יעקב. השאר, של לבן.",
       "לבן ממשיך לרמות, ומשנה את ההסכם שוב ושוב, עשר פעמים!",
       "אבל השם עוזר ליעקב, והעדר שלו גדל וגדל."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -446,7 +1015,7 @@
     {
      "id": "return",
      "title_he": "חוזרים הביתה",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, green dress and pale green head scarf. Scene: A long caravan setting out at dawn: camels carrying Leah, Rachel and the children, flocks of sheep, servants, Yaakov leading on foot with his staff toward the west, hills of Canaan faintly on the horizon.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, soft lavender dress and cream head scarf. Scene: A long caravan setting out at dawn: camels carrying Leah, Rachel and the children, flocks of sheep, servants, Yaakov leading on foot with his staff toward the west, hills of Canaan faintly on the horizon.",
      "move": "right",
      "fx": "dust",
      "art": "🐫 🐫 🐑 🌄",
@@ -456,6 +1025,7 @@
       "יעקב קורא לרחל וללאה לשדה ומספר להן. והן עונות יחד: כל מה שאמר לך השם, עשה.",
       "בזמן שלבן הולך לגזוז את צאנו, יעקב יוצא בשקט עם כל המשפחה והרכוש, אל ארץ כנען."
      ],
+     "stage": [],
      "pasuk": {
       "text": "שׁוּב אֶל אֶרֶץ אֲבוֹתֶיךָ וּלְמוֹלַדְתֶּךָ, וְאֶהְיֶה עִמָּךְ",
       "ref": "בראשית לא, ג"
@@ -475,6 +1045,7 @@
       "כשלבן מגיע, הוא מתלונן: למה ברחת בסתר? ולמה גנבת את האלילים שלי?",
       "יעקב לא יודע שרחל לקחה אותם. לבן מחפש בכל האוהלים, ורחל יושבת על התרפים ולא קמה. לבן לא מוצא כלום."
      ],
+     "stage": [],
      "pasuk": {
       "text": "הִשָּׁמֶר לְךָ פֶּן תְּדַבֵּר עִם יַעֲקֹב מִטּוֹב עַד רָע",
       "ref": "בראשית לא, כד"
@@ -484,15 +1055,32 @@
     {
      "id": "galed",
      "title_he": "גל עד",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: On a mountain slope in Gilead: Yaakov, his sons and Lavan's men piling up a heap of stones beside a standing stone, Lavan and Yaakov facing each other calmly, a shared meal laid out on the ground, sunset glow over the hills.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: On a mountain slope in Gilead: a large heap of stones beside a standing stone, young men in the background still carrying stones, a shared meal laid out on the ground, sunset glow over the hills. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "out",
      "fx": "sunset",
      "art": "🪨 🪨 🤝 🌄",
      "say": [
       "בסוף לבן מציע: בוא נכרות ברית. יעקב מקים אבן למצבה, וכולם אוספים אבנים לגל, ערימה גדולה.",
       "יעקב קורא לה גלעד, ולבן קורא לה בשפתו, ארמית: יְגַר שָׂהֲדוּתָא. שני השמות אומרים אותו דבר: גל של עדות.",
+      {
+       "who": "lavan",
+       "text": "הגל הזה עד ביני ובינך היום.",
+       "tone": "solemn"
+      },
       "הגל הזה יהיה גבול: אף אחד מהם לא יעבור אותו כדי לפגוע בשני.",
       "הם אוכלים יחד, ולמחרת בבוקר לבן מנשק את בניו ובנותיו, מברך אותם וחוזר למקומו."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -506,9 +1094,15 @@
      "art": "✨ 🐫 ✨ 🏞️",
      "say": [
       "ויעקב הלך לדרכו, ויפגעו בו מלאכי אלוקים.",
-      "יעקב אומר: מחנה אלוקים זה! וקורא למקום מַחֲנָיִם.",
+      {
+       "who": "yaakov",
+       "text": "מחנה אלוקים זה!",
+       "tone": "awed and joyful"
+      },
+      "וקורא למקום מַחֲנָיִם.",
       "הפרשה מתחילה במלאכים על הסולם, ונגמרת במלאכים שמקבלים את יעקב בדרך הביתה."
      ],
+     "stage": [],
      "pasuk": {
       "text": "וַיֹּאמֶר יַעֲקֹב כַּאֲשֶׁר רָאָם: מַחֲנֵה אֱלֹהִים זֶה",
       "ref": "בראשית לב, ג"
@@ -528,6 +1122,7 @@
       "רחל לימדה אותנו לוותר כדי לא לבייש אחרים, ולאה לימדה אותנו להודות.",
       "ועכשיו, כמה שאלות על הפרשה."
      ],
+     "stage": [],
      "pasuk": null,
      "note": null
     }
@@ -543,11 +1138,153 @@
     7,
     13
    ],
+   "cast": {
+    "lavan": {
+     "name_he": "לבן",
+     "color": "#ff9d8a",
+     "voice": "Algenib",
+     "style": "A shrewd, smooth-talking older man who sounds friendly but calculating, speaking Hebrew, in a biblical story for children.",
+     "height": 0.63,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Pose: standing upright with his hands clasped at his belly, mouth closed, eyes open, a sly half smile."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "leah": {
+     "name_he": "לאה",
+     "color": "#cdb4f0",
+     "voice": "Achernar",
+     "style": "A soft-spoken, kind young woman with deep feeling, speaking Hebrew warmly, in a biblical story for children.",
+     "height": 0.58,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Leah: a young woman with soft, kind eyes, soft lavender dress and cream head scarf. Pose: standing calmly, hands folded in front, mouth closed, eyes open, soft gentle expression."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "rachel": {
+     "name_he": "רחל",
+     "color": "#8ec5ff",
+     "voice": "Vindemiatrix",
+     "style": "A kind, gentle young woman, speaking Hebrew warmly and modestly, in a biblical story for children.",
+     "height": 0.58,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Pose: standing gracefully, holding her shepherd's crook, mouth closed, eyes open, gentle smile."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "shepherd": {
+     "name_he": "רועה",
+     "color": "#c8d99a",
+     "voice": "Umbriel",
+     "style": "An easy-going, friendly young shepherd, speaking Hebrew simply, in a biblical story for children.",
+     "height": 0.6,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. A shepherd of Haran: a weathered young man with a short brown beard, plain brown wool robe, striped head cloth, holding a shepherd's staff. Pose: standing relaxed, leaning slightly on his staff, mouth closed, eyes open, friendly expression."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    },
+    "yaakov": {
+     "name_he": "יעקב",
+     "color": "#f0c27a",
+     "voice": "Iapetus",
+     "style": "A gentle, sincere and thoughtful man in his prime, speaking Hebrew with warmth and dignity, in a biblical story for children.",
+     "height": 0.64,
+     "frames": {
+      "base": {
+       "p": "Character for a 2D cut-out animated Jewish children's Torah film, painterly storybook gouache style with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from the top of the head to the feet, three-quarter view facing toward the right side of the picture, centered with generous empty margin all around; the whole figure fits inside the frame. Modest traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole picture; the character wears nothing green. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Pose: standing relaxed, holding his wooden staff upright in his far hand, mouth closed, eyes open, calm kind expression."
+      },
+      "talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "base"
+      },
+      "blink": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the eyes are gently closed, as in a blink. The mouth stays closed.",
+       "ref": "base"
+      },
+      "gesture": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: one hand is raised in front of the chest with an open palm, as when explaining something earnestly. The mouth stays closed, the feet stay where they are.",
+       "ref": "base"
+      },
+      "gesture_talk": {
+       "p": "Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the frame, and the flat pure green background, exactly the same. Change only this: the mouth is open, as in the middle of speaking a word.",
+       "ref": "gesture"
+      }
+     }
+    }
+   },
    "scenes": [
     {
      "id": "open",
      "title_he": "יעקב יוצא לדרך",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Dawn over the desert town of Beer Sheva: Yaakov, seen from behind, walks away from a cluster of tents and a stone well toward distant hills, long shadow, his parents' tents behind him, birds in a pink-gold sky.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Dawn over the desert town of Beer Sheva: a cluster of tents and a stone well, a dirt path leading away toward distant hills, birds in a pink-gold sky. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "right",
      "fx": "dust",
      "art": "🌅 🚶 ⛺",
@@ -558,6 +1295,14 @@
       "התורה כבר סיפרה בפרשה הקודמת שיעקב הלך לחרן. אז למה היא חוזרת ואומרת: \"ויצא יעקב מבאר שבע\"?",
       "רש\"י מסביר: כשאדם צדיק גר בעיר, הוא היופי וההדר שלה. כשהוא יוצא, העיר מרגישה בחסרונו.",
       "כלומר, לאדם טוב יש השפעה על כל הסביבה שלו, גם אם הוא לא מרגיש בזה."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.4,
+       "face": "r",
+       "enter": "l"
+      }
      ],
      "pasuk": {
       "text": "וַיֵּצֵא יַעֲקֹב מִבְּאֵר שָׁבַע וַיֵּלֶךְ חָרָנָה",
@@ -571,7 +1316,7 @@
     {
      "id": "stones",
      "title_he": "לילה במקום",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Sunset on a rocky hilltop in the hills of Canaan: Yaakov arranges a few smooth stones around a sleeping spot, the sun sinking suddenly below the horizon, purple sky, first stars appearing.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Sunset on a rocky hilltop in the hills of Canaan: a few smooth stones arranged around a sleeping spot on the ground, the sun sinking suddenly below the horizon, purple sky, first stars appearing. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
      "fx": "sunset",
      "art": "🌄 🪨 🧔",
@@ -581,6 +1326,14 @@
       "יעקב לוקח מאבני המקום, שם אותן סביב ראשו, ושוכב לישון.",
       "בהמשך כתוב שבבוקר הוא לקח \"את האבן\", במילה אחת. רש\"י מביא מדרש מקסים:",
       "האבנים רבו ביניהן, וכל אחת רצתה שהצדיק יניח עליה את ראשו. אז הקדוש ברוך הוא חיבר את כולן לאבן אחת."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.62,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": null,
      "note": {
@@ -602,6 +1355,7 @@
       "יש גם מפרשים שרואים בסולם משל לחיים: האדם עומד על הארץ, עם כל העבודה והטרדות, אבל הוא יכול לטפס ולהגיע עד השמיים.",
       "כל מעשה טוב הוא עוד שלב בסולם."
      ],
+     "stage": [],
      "pasuk": {
       "text": "וְהִנֵּה סֻלָּם מֻצָּב אַרְצָה וְרֹאשׁוֹ מַגִּיעַ הַשָּׁמָיְמָה, וְהִנֵּה מַלְאֲכֵי אֱלֹהִים עֹלִים וְיֹרְדִים בּוֹ",
       "ref": "בראשית כח, יב"
@@ -625,6 +1379,7 @@
       "ואז מגיעה הבטחה אישית: והנה אנוכי עמך, ושמרתיך בכל אשר תלך, והשיבותיך אל האדמה הזאת, כי לא אעזבך.",
       "יעקב בורח, בלי כסף ובלי משפחה, אל עתיד לא ידוע. דווקא ברגע הכי בודד שלו, הוא שומע: אני איתך."
      ],
+     "stage": [],
      "pasuk": {
       "text": "וְהִנֵּה אָנֹכִי עִמָּךְ וּשְׁמַרְתִּיךָ בְּכֹל אֲשֶׁר תֵּלֵךְ",
       "ref": "בראשית כח, טו"
@@ -634,16 +1389,33 @@
     {
      "id": "bethel",
      "title_he": "בית אל",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Early morning on the hilltop: Yaakov, awake and awed, stands a tall stone upright as a pillar and pours oil from a small clay flask onto its top, soft morning mist in the valleys, sunrise light.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Early morning on the hilltop: a tall stone standing upright as a pillar, glistening with oil poured on its top, a small clay flask beside it, soft morning mist in the valleys, sunrise light. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "left",
      "fx": "mist",
      "art": "🌄 🪨 🫒",
      "say": [
-      "יעקב מתעורר ואומר: אכן יש השם במקום הזה, ואנוכי לא ידעתי.",
+      "יעקב מתעורר, ואומר:",
+      {
+       "who": "yaakov",
+       "text": "אָכֵן יֵשׁ השם בַּמָּקוֹם הַזֶּה, וְאָנֹכִי לֹא יָדָעְתִּי.",
+       "tone": "amazed, in awe, softly",
+       "act": "gesture"
+      },
       "רש\"י מסביר שאילו ידע שזה מקום קדוש, לא היה ישן בו.",
       "אבל אפשר ללמוד מהמשפט הזה גם רעיון רחב: לפעמים השם נמצא ממש לידנו, ברגעים רגילים, ואנחנו לא שמים לב.",
-      "יעקב ממשיך: מה נורא המקום הזה, אין זה כי אם בית אלוקים, וזה שער השמיים.",
+      {
+       "who": "yaakov",
+       "text": "מַה נּוֹרָא הַמָּקוֹם הַזֶּה! אֵין זֶה כִּי אִם בֵּית אֱלֹקִים, וְזֶה שַׁעַר הַשָּׁמָיִם.",
+       "tone": "reverent, deeply moved"
+      },
       "בבוקר הוא מקים את האבן למצבה, יוצק שמן על ראשה, וקורא למקום בית אל. שמה הקודם של העיר היה לוּז."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.36,
+       "face": "r"
+      }
      ],
      "pasuk": {
       "text": "אָכֵן יֵשׁ ה' בַּמָּקוֹם הַזֶּה וְאָנֹכִי לֹא יָדָעְתִּי",
@@ -654,15 +1426,32 @@
     {
      "id": "vow",
      "title_he": "הנדר והמעשר",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: Yaakov kneeling in prayer beside the oiled stone pillar, hands raised, morning sun behind him, a simple sack and staff beside him, a wide valley below.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: The oiled stone pillar on the hilltop in morning sun, a simple travel sack on the ground beside it, a wide valley below. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
      "fx": "light",
      "art": "🙏 🪨 🔟",
      "say": [
-      "יעקב נודר נדר: אם יהיה אלוקים עמדי ושמרני בדרך הזה, ונתן לי לחם לאכול ובגד ללבוש, ושבתי בשלום אל בית אבי,",
-      "והאבן הזאת אשר שמתי מצבה, יהיה בית אלוקים, וכל אשר תיתן לי, עשר אעשרנו לך.",
+      "יעקב נודר נדר:",
+      {
+       "who": "yaakov",
+       "text": "אִם יִהְיֶה אֱלֹקִים עִמָּדִי, וּשְׁמָרַנִי בַּדֶּרֶךְ הַזֶּה, וְנָתַן לִי לֶחֶם לֶאֱכֹל וּבֶגֶד לִלְבֹּשׁ, וְשַׁבְתִּי בְשָׁלוֹם אֶל בֵּית אָבִי,",
+       "tone": "praying, earnest and humble",
+       "act": "gesture"
+      },
+      {
+       "who": "yaakov",
+       "text": "וְהָאֶבֶן הַזֹּאת אֲשֶׁר שַׂמְתִּי מַצֵּבָה, יִהְיֶה בֵּית אֱלֹקִים, וְכֹל אֲשֶׁר תִּתֶּן לִי, עַשֵּׂר אֲעַשְּׂרֶנּוּ לָךְ.",
+       "tone": "praying, earnest and humble"
+      },
       "שימו לב למה יעקב מבקש: לא עושר ולא כבוד. רק לחם, בגד, ולחזור הביתה בשלום.",
       "ובתמורה, הוא מתחייב לתת עשירית ממה שיקבל. מכאן המנהג לתת מעשר כספים, עשירית מהרווחים, לצדקה."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.42,
+       "face": "r"
+      }
      ],
      "pasuk": {
       "text": "וְכֹל אֲשֶׁר תִּתֶּן לִי עַשֵּׂר אֲעַשְּׂרֶנּוּ לָךְ",
@@ -673,16 +1462,69 @@
     {
      "id": "well",
      "title_he": "הבאר בחרן",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Scene: A wide sunny pasture near the town of Haran: a large round stone well covered by a huge heavy stone, three groups of shepherds resting with flocks of sheep beside it, Yaakov arriving with his staff and talking with them.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: A wide sunny pasture near the town of Haran: a large round stone well covered by a huge heavy stone, three flocks of sheep lying beside it, a few shepherds resting in the shade in the background. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "right",
      "fx": "dust",
      "art": "🐑 🐑 🕳️ 🧔",
      "say": [
       "יעקב מגיע לארץ בני קדם, ורואה באר בשדה, ולידה שלושה עדרי צאן. על פי הבאר מונחת אבן גדולה.",
-      "יעקב פונה לרועים בחביבות: אחיי, מאין אתם? הם מחרן. האם אתם מכירים את לבן בן נחור? כן. השלום לו? שלום.",
-      "יעקב תמה: היום עוד ארוך, למה אתם לא משקים את הצאן ויוצאים לרעות?",
-      "הם עונים שהם לא יכולים, עד שכל העדרים יתאספו ויזיזו את האבן הכבדה ביחד.",
+      "יעקב פונה לרועים בחביבות.",
+      {
+       "who": "yaakov",
+       "text": "אַחַי, מֵאַיִן אַתֶּם?",
+       "tone": "friendly, a tired traveler"
+      },
+      {
+       "who": "shepherd",
+       "text": "מֵחָרָן אֲנָחְנוּ.",
+       "tone": "easy-going"
+      },
+      {
+       "who": "yaakov",
+       "text": "הַיְדַעְתֶּם אֶת לָבָן בֶּן נָחוֹר?",
+       "tone": "hopeful"
+      },
+      {
+       "who": "shepherd",
+       "text": "יָדָעְנוּ.",
+       "tone": "easy-going"
+      },
+      {
+       "who": "yaakov",
+       "text": "הֲשָׁלוֹם לוֹ?",
+       "tone": "hopeful"
+      },
+      {
+       "who": "shepherd",
+       "text": "שָׁלוֹם. וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם הַצֹּאן!",
+       "tone": "friendly, pointing",
+       "act": "gesture"
+      },
+      {
+       "who": "yaakov",
+       "text": "הֵן עוֹד הַיּוֹם גָּדוֹל. הַשְׁקוּ הַצֹּאן, וּלְכוּ רְעוּ!",
+       "tone": "puzzled, caring",
+       "act": "gesture"
+      },
+      {
+       "who": "shepherd",
+       "text": "לֹא נוּכַל, עַד אֲשֶׁר יֵאָסְפוּ כָּל הָעֲדָרִים, וְגָלְלוּ אֶת הָאֶבֶן מֵעַל פִּי הַבְּאֵר.",
+       "tone": "easy-going, shrugging"
+      },
       "אפשר לראות כאן משהו על יעקב: גם כשהוא זר ועייף מהדרך, אכפת לו שהעבודה תיעשה ביושר, ושהרועים לא יבזבזו את זמן המעסיק שלהם."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.28,
+       "face": "r",
+       "enter": "l"
+      },
+      {
+       "who": "shepherd",
+       "x": 0.72,
+       "face": "l"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -690,7 +1532,7 @@
     {
      "id": "rachel",
      "title_he": "רחל והאבן",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Scene: At the well: Yaakov alone heaves the huge stone off the mouth of the well with great strength, water glittering below, Rachel in blue standing nearby with her flock of sheep, surprised and smiling, shepherds watching in amazement.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: At the well: the huge stone rolled aside from the open mouth of the well, water glittering inside, sheep crowding to drink from a stone trough, shepherds watching in amazement in the background. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
      "fx": "sparkle",
      "art": "💪 🪨 🐑 👧",
@@ -699,7 +1541,25 @@
       "אבן שכל הרועים יחד בקושי הזיזו. יעקב מקבל כוחות מיוחדים ברגע שהוא פוגש את משפחתו.",
       "הוא משקה את צאן לבן, נושק לרחל לשלום, נושא את קולו ובוכה.",
       "רש\"י מביא מדרש: יעקב בכה כי הגיע בידיים ריקות. אליעזר, עבד אברהם, הגיע לכאן בשביל רבקה עם גמלים ומתנות, ולו אין כלום.",
-      "יעקב מספר לרחל שהוא קרוב של אביה ובנה של רבקה, והיא רצה לספר לאביה."
+      {
+       "who": "yaakov",
+       "text": "אֲחִי אָבִיךְ אָנֹכִי, וּבֶן רִבְקָה אָנִי.",
+       "tone": "moved, close to tears"
+      },
+      "ורחל רצה לספר לאביה."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.32,
+       "face": "r"
+      },
+      {
+       "who": "rachel",
+       "x": 0.7,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": {
       "text": "וַיִּגַּשׁ יַעֲקֹב וַיָּגֶל אֶת הָאֶבֶן מֵעַל פִּי הַבְּאֵר",
@@ -710,7 +1570,7 @@
     {
      "id": "lavan",
      "title_he": "לבן",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: The courtyard of Lavan's wealthy stone house in Haran: Lavan rushes out with open arms to hug Yaakov, servants and camels in the background, late afternoon light.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: The courtyard of Lavan's wealthy stone house in Haran: carved doorway, rugs, water jars, servants and camels in the background, late afternoon light. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "left",
      "fx": null,
      "art": "🏠 🤗 🧔",
@@ -718,7 +1578,32 @@
       "לבן שומע שהגיע יעקב בן אחותו, ורץ לקראתו, מחבק אותו ומנשק לו.",
       "רש\"י מגלה מה היה מאחורי החיבוק: לבן זכר את הגמלים והמתנות של אליעזר, וחשב שגם יעקב הביא אוצרות.",
       "הוא חיבק כדי לבדוק אם יש זהב בבגדיו, ונישק כדי לבדוק אם יש פנינים בפיו. כבר כאן אנחנו מתחילים להכיר את לבן.",
-      "אחרי חודש, לבן שואל: הכי אחי אתה, ועבדתני חינם? הגידה לי מה משכורתך."
+      {
+       "who": "lavan",
+       "text": "אַךְ עַצְמִי וּבְשָׂרִי אָתָּה!",
+       "tone": "effusive, overly warm",
+       "act": "gesture"
+      },
+      "אחרי חודש, לבן שואל:",
+      {
+       "who": "lavan",
+       "text": "הֲכִי אָחִי אַתָּה, וַעֲבַדְתַּנִי חִנָּם? הַגִּידָה לִּי מַה מַּשְׂכֻּרְתֶּךָ.",
+       "tone": "smooth, calculating"
+      }
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r",
+       "enter": "l"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": null,
      "note": {
@@ -729,16 +1614,39 @@
     {
      "id": "seven",
      "title_he": "שבע שנים",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Scene: A montage-like scene: Yaakov tending a large flock of sheep in green fields through the seasons (spring blossoms on one side, autumn leaves on the other), Rachel in blue watching from a distance, warm and tender mood.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Green pastures near Haran through the seasons, spring blossoms on one side and autumn leaves on the other, a large flock of sheep grazing, warm and tender mood. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "right",
      "fx": "sparkle",
      "art": "🐑 ❤️ 7️⃣",
      "say": [
       "ללבן שתי בנות: לאה הבכירה ורחל הצעירה. על לאה נאמר ש\"עיניה רכות\".",
       "רש\"י מסביר שלאה בכתה הרבה, כי כולם אמרו שהבת הגדולה של לבן תינשא לבן הגדול של רבקה, עשיו, והיא התפללה שלא יקרה כך.",
-      "יעקב מציע לעבוד שבע שנים ברחל בתך הקטנה, ומפרט כל פרט, כדי שלבן לא יוכל לרמות. לבן מסכים.",
+      {
+       "who": "yaakov",
+       "text": "אֶעֱבָדְךָ שֶׁבַע שָׁנִים, בְּרָחֵל בִּתְּךָ הַקְּטַנָּה.",
+       "tone": "sincere, determined",
+       "act": "gesture"
+      },
+      "יעקב מפרט כל פרט: רחל, בתך, הקטנה. כדי שלבן לא יוכל לרמות.",
+      {
+       "who": "lavan",
+       "text": "טוֹב תִּתִּי אֹתָהּ לָךְ, מִתִּתִּי אֹתָהּ לְאִישׁ אַחֵר. שְׁבָה עִמָּדִי.",
+       "tone": "pleased, shrewd"
+      },
       "ויעבוד יעקב ברחל שבע שנים, ויהיו בעיניו כימים אחדים באהבתו אותה.",
       "זה נשמע הפוך: בדרך כלל כשמחכים למשהו, הזמן נמשך. אבל אהבה אמיתית, שאינה רק לעצמי, לא סופרת את הימים."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "וַיִּהְיוּ בְעֵינָיו כְּיָמִים אֲחָדִים בְּאַהֲבָתוֹ אֹתָהּ",
@@ -749,17 +1657,46 @@
     {
      "id": "wedding",
      "title_he": "החתונה",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: Night inside a festive tent lit by oil lamps: a modest wedding feast, guests in robes, Lavan presiding, a bride fully covered in a heavy veil being led in by women, warm lamplight and deep shadows.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Early morning outside a large festive tent after a wedding feast: oil lamps burnt out, remains of the feast on low tables, colored cloths hanging, pale dawn light and long shadows. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
-     "fx": "night",
+     "fx": "mist",
      "art": "🪔 👰 🎉",
      "say": [
       "לבן אוסף את כל אנשי המקום ועושה משתה. אבל בערב הוא מביא ליעקב את לאה במקום רחל.",
-      "ויהי בבוקר והנה היא לאה. יעקב: מה זאת עשית לי? הלוא ברחל עבדתי עמך, ולמה רימיתני?",
-      "לבן עונה: לא ייעשה כן במקומנו, לתת הצעירה לפני הבכירה. השלם את שבוע החתונה, ותקבל גם את רחל, בתמורה לעוד שבע שנים.",
+      "ויהי בבוקר, והנה היא לאה.",
+      {
+       "who": "yaakov",
+       "text": "מַה זֹּאת עָשִׂיתָ לִּי? הֲלֹא בְרָחֵל עָבַדְתִּי עִמָּךְ, וְלָמָּה רִמִּיתָנִי?",
+       "tone": "hurt and indignant",
+       "act": "gesture"
+      },
+      {
+       "who": "lavan",
+       "text": "לֹא יֵעָשֶׂה כֵן בִּמְקוֹמֵנוּ, לָתֵת הַצְּעִירָה לִפְנֵי הַבְּכִירָה.",
+       "tone": "cool, dismissive"
+      },
+      {
+       "who": "lavan",
+       "text": "מַלֵּא שְׁבֻעַ זֹאת, וְנִתְּנָה לְךָ גַּם אֶת זֹאת, בַּעֲבֹדָה אֲשֶׁר תַּעֲבֹד עִמָּדִי עוֹד שֶׁבַע שָׁנִים.",
+       "tone": "smooth, as if generous",
+       "act": "gesture"
+      },
       "ואיך הצליח התרגיל? רש\"י מספר שיעקב חשש מלבן, ונתן לרחל סימנים. אבל כשראתה רחל שמביאים את לאה, אמרה: עכשיו תתבייש אחותי, ומסרה לה את הסימנים.",
       "רחל ויתרה על מה שהיה הכי יקר לה, רק כדי לא לבייש את אחותה. חז\"ל אומרים שבזכות זה, כשעם ישראל יגלה, דווקא תפילתה של רחל תתקבל.",
       "אחרי שבוע, יעקב נושא גם את רחל, ועובד בשבילה עוד שבע שנים."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r",
+       "enter": "l"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "וַיְהִי בַבֹּקֶר וְהִנֵּה הִוא לֵאָה",
@@ -773,17 +1710,41 @@
     {
      "id": "tribes",
      "title_he": "שבטי ישראל",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, green dress and pale green head scarf. Scene: A joyful family scene in a large tent camp: many children of different ages playing among the tents and sheep, Leah in green holding a baby, Rachel in blue holding a baby boy, Yaakov smiling in the middle, golden evening light.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: A joyful large tent camp: many boys of different ages and one girl playing among the tents and sheep, a cradle at a tent door, golden evening light. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "out",
      "fx": "sparkle",
      "art": "👶 👦 👧 ⛺",
      "say": [
       "השם רואה שלאה מרגישה פחות אהובה, ונותן לה ילדים. השמות שהיא נותנת מספרים את רגשותיה:",
       "ראובן, כי ראה השם בעוניי. שמעון, כי שמע השם. לוי, הפעם יִלָּוֶה אישי אליי.",
-      "וביהודה, היא כבר לא מבקשת דבר, רק אומרת: הפעם אודה את השם.",
+      "וביהודה, היא כבר לא מבקשת דבר, רק אומרת:",
+      {
+       "who": "leah",
+       "text": "הַפַּעַם אוֹדֶה אֶת השם.",
+       "tone": "quietly joyful, grateful",
+       "act": "gesture"
+      },
       "הגמרא אומרת שמיום שנברא העולם, לא היה אדם שהודה לקדוש ברוך הוא, עד שבאה לאה והודתה.",
       "רש\"י מסביר: לאה ידעה שיהיו שנים עשר שבטים מארבע נשים, ולכל אחת מגיעים שלושה. כשקיבלה רביעי, הרגישה שקיבלה יותר מחלקה.",
-      "אחר כך נולדים דן ונפתלי לבלהה, גד ואשר לזלפה, יששכר, זבולון ודינה ללאה, ולבסוף, יוסף לרחל, שקראה לו כך כי אמרה: יוסף השם לי בן אחר."
+      "אחר כך נולדים דן ונפתלי לבלהה, גד ואשר לזלפה, יששכר, זבולון ודינה ללאה. ולבסוף, נולד בן לרחל, והיא אומרת:",
+      {
+       "who": "rachel",
+       "text": "אָסַף אֱלֹקִים אֶת חֶרְפָּתִי. יֹסֵף השם לִי בֵּן אַחֵר.",
+       "tone": "tearful joy, grateful"
+      },
+      "ולכן קראה לו יוסף."
+     ],
+     "stage": [
+      {
+       "who": "leah",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "rachel",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "הַפַּעַם אוֹדֶה אֶת ה'",
@@ -797,17 +1758,36 @@
     {
      "id": "flocks",
      "title_he": "הכבשים של יעקב",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: Rolling pastures with two separate flocks: one of plain white sheep and goats, one of spotted, speckled and striped sheep and goats that is visibly growing large, Yaakov counting them with care, Lavan in crimson watching suspiciously from a hill.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: Rolling pastures with two separate flocks: one of plain white sheep and goats, one of spotted, speckled and striped sheep and goats that is visibly growing large, wooden water troughs, hills behind. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "left",
      "fx": "dust",
      "art": "🐑 🐐 🐑 👀",
      "say": [
-      "אחרי ארבע עשרה שנה, ולידת יוסף, יעקב מבקש לחזור לארצו. לבן מודה: ניחשתי, ויברכני השם בגללך.",
+      "אחרי ארבע עשרה שנה, ולידת יוסף, יעקב מבקש לחזור לארצו. ולבן מודה:",
+      {
+       "who": "lavan",
+       "text": "נִחַשְׁתִּי, וַיְבָרְכֵנִי השם בִּגְלָלֶךָ. נָקְבָה שְׂכָרְךָ עָלַי, וְאֶתֵּנָה.",
+       "tone": "grudging, then smooth",
+       "act": "gesture"
+      },
       "הם מסכמים שהשכר של יעקב יהיה הצאן הנָקֹד, הטָלוּא, כלומר עם נקודות וטלאים, והכבשים החומים.",
       "לבן מיד מרחיק מיעקב את כל הבהמות כאלה, כדי שכמעט לא ייוולדו לו. ובמשך השנים, הוא משנה את השכר עשר פעמים.",
       "יעקב עושה מעשה עם מקלות מקולפים ליד שוקתות המים. אבל בהמשך הוא מגלה, בחלום, שמלאך הראה לו: את כל אשר לבן עושה לך ראיתי.",
       "כלומר, ההצלחה לא באה מהתחבולה, אלא מהשם, שראה את העוול ודאג ליעקב.",
       "יעקב נעשה עשיר מאוד: צאן רב, שפחות ועבדים, גמלים וחמורים."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l",
+       "enter": "r"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -815,7 +1795,7 @@
     {
      "id": "return",
      "title_he": "חוזרים הביתה",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, green dress and pale green head scarf. Scene: A long caravan setting out at dawn: camels carrying Leah, Rachel and the children, flocks of sheep, servants, Yaakov leading on foot with his staff toward the west, hills of Canaan faintly on the horizon.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd's crook. Leah: a young woman with soft, kind eyes, soft lavender dress and cream head scarf. Scene: A long caravan setting out at dawn: camels carrying Leah, Rachel and the children, flocks of sheep, servants, Yaakov leading on foot with his staff toward the west, hills of Canaan faintly on the horizon.",
      "move": "right",
      "fx": "dust",
      "art": "🐫 🐫 🐑 🌄",
@@ -826,6 +1806,7 @@
       "כשלבן הולך לגזוז את צאנו, יעקב יוצא. ורחל לוקחת בסתר את התרפים, פסלי האלילים של אביה.",
       "רש\"י אומר שכוונתה הייתה טובה: להפריד את אביה מעבודה זרה."
      ],
+     "stage": [],
      "pasuk": {
       "text": "שׁוּב אֶל אֶרֶץ אֲבוֹתֶיךָ וּלְמוֹלַדְתֶּךָ, וְאֶהְיֶה עִמָּךְ",
       "ref": "בראשית לא, ג"
@@ -849,6 +1830,7 @@
       "הוא טוען: למה ברחת? למה לא נתת לי לנשק את בניי ובנותיי? ולמה גנבת את אלוהיי?",
       "יעקב, שאינו יודע על התרפים, נותן לו לחפש בכל האוהלים. רחל שמה אותם בכר הגמל, יושבת עליו, ומתנצלת בנימוס שאינה יכולה לקום. לבן לא מוצא דבר."
      ],
+     "stage": [],
      "pasuk": {
       "text": "הִשָּׁמֶר לְךָ פֶּן תְּדַבֵּר עִם יַעֲקֹב מִטּוֹב עַד רָע",
       "ref": "בראשית לא, כד"
@@ -858,17 +1840,48 @@
     {
      "id": "speech",
      "title_he": "עשרים שנה",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: Yaakov standing tall and speaking with deep emotion to Lavan before a crowd of servants on a mountain slope, behind him a faint dreamlike memory of himself guarding sheep in scorching sun and in frosty night under the moon.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: A mountain slope in Gilead with tents and a crowd of servants in the background, and in the sky a faint dreamlike memory of a shepherd guarding sheep in scorching sun on one side and in a frosty night under the moon on the other. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "in",
      "fx": null,
      "art": "🧔 ☀️ 🌙 🐑",
      "say": [
       "ועכשיו, אחרי עשרים שנה של שתיקה, יעקב כועס ומדבר.",
-      "מה פשעי, מה חטאתי, שרדפת אחריי? חיפשת בכל כליי, מה מצאת?",
-      "עשרים שנה אנוכי עמך. הכבשים שלך לא הפילו, ואילי צאנך לא אכלתי. כל כבשה שנטרפה, אני שילמתי עליה.",
-      "הייתי ביום אכלני חורב, וקרח בלילה, ותידד שנתי מעיניי.",
-      "ארבע עשרה שנה עבדתי בשביל בנותיך, ושש שנים בשביל צאנך, ותחלף את משכורתי עשרת מונים.",
+      {
+       "who": "yaakov",
+       "text": "מַה פִּשְׁעִי, מַה חַטָּאתִי, כִּי דָלַקְתָּ אַחֲרָי? כִּי מִשַּׁשְׁתָּ אֶת כָּל כֵּלַי, מַה מָּצָאתָ?",
+       "tone": "angry but dignified, deeply hurt",
+       "act": "gesture"
+      },
+      {
+       "who": "yaakov",
+       "text": "זֶה עֶשְׂרִים שָׁנָה אָנֹכִי עִמָּךְ. רְחֵלֶיךָ וְעִזֶּיךָ לֹא שִׁכֵּלוּ, וְאֵילֵי צֹאנְךָ לֹא אָכָלְתִּי.",
+       "tone": "firm, dignified"
+      },
+      "כל כבשה שנטרפה, יעקב שילם עליה מכספו.",
+      {
+       "who": "yaakov",
+       "text": "הָיִיתִי בַיּוֹם אֲכָלַנִי חֹרֶב, וְקֶרַח בַּלָּיְלָה, וַתִּדַּד שְׁנָתִי מֵעֵינָי.",
+       "tone": "quiet, heavy with memory"
+      },
+      {
+       "who": "yaakov",
+       "text": "עֲבַדְתִּיךָ אַרְבַּע עֶשְׂרֵה שָׁנָה בִּשְׁתֵּי בְנֹתֶיךָ, וְשֵׁשׁ שָׁנִים בְּצֹאנֶךָ, וַתַּחֲלֵף אֶת מַשְׂכֻּרְתִּי עֲשֶׂרֶת מֹנִים.",
+       "tone": "firm, dignified",
+       "act": "gesture"
+      },
       "הרמב\"ם לומד מכאן איך צריך פועל לעבוד: בכל כוחו וביושר, גם כשהמעסיק לא הוגן אליו. כך עבד יעקב הצדיק."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.32,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.72,
+       "face": "l"
+      }
      ],
      "pasuk": {
       "text": "הָיִיתִי בַיּוֹם אֲכָלַנִי חֹרֶב וְקֶרַח בַּלָּיְלָה, וַתִּדַּד שְׁנָתִי מֵעֵינָי",
@@ -879,15 +1892,32 @@
     {
      "id": "galed",
      "title_he": "גל עד",
-     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above. Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff. Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression. Scene: On a mountain slope in Gilead: Yaakov, his sons and Lavan's men piling up a heap of stones beside a standing stone, Lavan and Yaakov facing each other calmly, a shared meal laid out on the ground, sunset glow over the hills.",
+     "img": "Painterly storybook illustration for a Jewish children's Torah film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle rim light. Setting: the ancient Near East in the time of the Patriarchs (Canaan and Haran), stone and tents, no modern objects. Modest traditional clothing: men in long robes with head coverings, women in long dresses with head scarves. Respectful, warm and child-friendly, no violence. No text, no letters, no logos, no frames. Never depict God: the divine presence appears only as soft radiant light from above.  Scene: On a mountain slope in Gilead: a large heap of stones beside a standing stone, young men in the background still carrying stones, a shared meal laid out on the ground, sunset glow over the hills. The main characters are not in this picture (they are animated in front of it): leave a clear, open stretch of level ground across the lower third of the picture, seen at eye level.",
      "move": "out",
      "fx": "sunset",
      "art": "🪨 🪨 🤝 🌄",
      "say": [
       "לבן מציע לכרות ברית. יעקב מקים מצבה, ואחיו אוספים אבנים לגל.",
-      "לבן קורא לגל בארמית, יגר שהדותא, ויעקב בעברית, גלעד. ויש לו שם נוסף: המצפה, כי אמר לבן: יִצֶף השם ביני ובינך.",
+      "לבן קורא לגל בארמית, יגר שהדותא, ויעקב בעברית, גלעד. ויש לו שם נוסף: המצפה, כי אמר לבן:",
+      {
+       "who": "lavan",
+       "text": "יִצֶף השם בֵּינִי וּבֵינֶךָ, כִּי נִסָּתֵר אִישׁ מֵרֵעֵהוּ.",
+       "tone": "solemn"
+      },
       "זו ברית של גבול: לא אעבור אליך את הגל הזה, ואתה לא תעבור אליי לרעה.",
       "יעקב זובח זבח ומזמין את כולם לאכול. ובבוקר, לבן מנשק את בניו ובנותיו, מברך אותם וחוזר."
+     ],
+     "stage": [
+      {
+       "who": "yaakov",
+       "x": 0.3,
+       "face": "r"
+      },
+      {
+       "who": "lavan",
+       "x": 0.7,
+       "face": "l"
+      }
      ],
      "pasuk": null,
      "note": null
@@ -905,6 +1935,7 @@
       "וזה בדיוק הפוך מהחלום בתחילת הפרשה! שם מלאכי הארץ עלו ומלאכי חוץ לארץ ירדו. עכשיו הם מתחלפים שוב.",
       "ההבטחה התקיימה: יעקב יצא לבד, עם מקל בלבד, וחוזר עם משפחה גדולה. השם היה איתו בכל אשר הלך."
      ],
+     "stage": [],
      "pasuk": {
       "text": "וַיֹּאמֶר יַעֲקֹב כַּאֲשֶׁר רָאָם: מַחֲנֵה אֱלֹהִים זֶה",
       "ref": "בראשית לב, ג"
@@ -927,6 +1958,7 @@
       "יעקב מלמד אותנו להישאר ישרים כשאחרים לא; רחל מלמדת לא לבייש אדם אחר אפילו במחיר אישי; ולאה מלמדת להודות על הטוב, גם על מה שכבר מגיע לנו.",
       "ועכשיו, כמה שאלות לחשוב עליהן."
      ],
+     "stage": [],
      "pasuk": null,
      "note": null
     }

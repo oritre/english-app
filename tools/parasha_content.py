@@ -37,18 +37,73 @@ STYLE = ('Painterly storybook illustration for a Jewish children\'s Torah film: 
 CAST = {
     'yaakov': 'Yaakov: a mature man with a kind thoughtful face, dark short beard, cream-and-brown striped robe, simple head cloth, wooden staff.',
     'rachel': 'Rachel: a young shepherdess with a gentle smile, deep blue dress and light blue head scarf, holding a shepherd\'s crook.',
-    'leah': 'Leah: a young woman with soft, kind eyes, green dress and pale green head scarf.',
+    'leah': 'Leah: a young woman with soft, kind eyes, soft lavender dress and cream head scarf.',
     'lavan': 'Lavan: an older man with a grey beard, rich crimson-and-purple robe, gold rings, a sly expression.',
+    'shepherd': 'A shepherd of Haran: a weathered young man with a short brown beard, plain brown wool robe, striped '
+                'head cloth, holding a shepherd\'s staff.',
 }
+
+# The talking characters (ori, 2026-11-15: the characters themselves speak and move, not only a narrator).
+# Each is a cut-out puppet: five frames painted by the Pi on flat green (/sprite) and cut out; the talking,
+# blinking and gesturing frames are edits of the base picture, so they line up exactly. The player swaps
+# them by the voice's loudness (lip-sync), blinks, breathes and walks them (js/exercises/parasha.js).
+# Voices: Gemini prebuilt voices; style = how the character speaks (a line may add its own tone).
+SPRITE_STYLE = ('Character for a 2D cut-out animated Jewish children\'s Torah film, painterly storybook gouache style '
+                'with a clean readable silhouette and soft rim light, matching warm painted backgrounds. Full body from '
+                'the top of the head to the feet, three-quarter view facing toward the right side of the picture, '
+                'centered with generous empty margin all around; the whole figure fits inside the frame. Modest '
+                'traditional clothing of the ancient Near East in the time of the Patriarchs. No scenery, no ground, '
+                'no shadow, no text. The background is a perfectly flat, solid, pure green (#00FF00) filling the whole '
+                'picture; the character wears nothing green.')
+SPRITE_EDIT = ('Edit this picture. Keep the same character, face, body, clothing, colors, size and position in the '
+               'frame, and the flat pure green background, exactly the same. Change only this: ')
+FRAME_EDITS = {
+    'talk': ('base', 'the mouth is open, as in the middle of speaking a word.'),
+    'blink': ('base', 'the eyes are gently closed, as in a blink. The mouth stays closed.'),
+    'gesture': ('base', 'one hand is raised in front of the chest with an open palm, as when explaining something '
+                        'earnestly. The mouth stays closed, the feet stay where they are.'),
+    'gesture_talk': ('gesture', 'the mouth is open, as in the middle of speaking a word.'),
+}
+VOICES = {
+    # who: (name_he, subtitle color, Gemini voice, style, figure height (share of the stage), pose for the base frame)
+    'yaakov': ('יעקב', '#f0c27a', 'Iapetus', 'A gentle, sincere and thoughtful man in his prime, speaking Hebrew with '
+               'warmth and dignity, in a biblical story for children.', 0.64,
+               'standing relaxed, holding his wooden staff upright in his far hand, mouth closed, eyes open, calm kind expression.'),
+    'rachel': ('רחל', '#8ec5ff', 'Vindemiatrix', 'A kind, gentle young woman, speaking Hebrew warmly and modestly, in a '
+               'biblical story for children.', 0.58,
+               'standing gracefully, holding her shepherd\'s crook, mouth closed, eyes open, gentle smile.'),
+    'leah': ('לאה', '#cdb4f0', 'Achernar', 'A soft-spoken, kind young woman with deep feeling, speaking Hebrew warmly, '
+             'in a biblical story for children.', 0.58,
+             'standing calmly, hands folded in front, mouth closed, eyes open, soft gentle expression.'),
+    'lavan': ('לבן', '#ff9d8a', 'Algenib', 'A shrewd, smooth-talking older man who sounds friendly but calculating, '
+              'speaking Hebrew, in a biblical story for children.', 0.63,
+              'standing upright with his hands clasped at his belly, mouth closed, eyes open, a sly half smile.'),
+    'shepherd': ('רועה', '#c8d99a', 'Umbriel', 'An easy-going, friendly young shepherd, speaking Hebrew simply, in a '
+                 'biblical story for children.', 0.6,
+                 'standing relaxed, leaning slightly on his staff, mouth closed, eyes open, friendly expression.'),
+}
+
+
+def cast_for(who):
+    name_he, color, voice, style, height, pose = VOICES[who]
+    base = f"{SPRITE_STYLE} {CAST[who]} Pose: {pose}"
+    frames = {'base': {'p': base}}
+    for frame, (ref, change) in FRAME_EDITS.items():
+        frames[frame] = {'p': SPRITE_EDIT + change, 'ref': ref}
+    return {'name_he': name_he, 'color': color, 'voice': voice, 'style': style, 'height': height, 'frames': frames}
 
 LEVEL_GRADES = {1: [1, 3], 2: [4, 6], 3: [7, 13]}
 
 
-def S(sid, title_he, levels, img, cast=(), move='in', fx=None, art='', pasuk=None, note=None, say=None):
+def S(sid, title_he, levels, img, cast=(), move='in', fx=None, art='', pasuk=None, note=None, say=None, stage=()):
     """A scene. say = {level: [lines]}; a level without its own lines uses the nearest lower one.
+    A line is the narrator's text, or (who, text[, tone[, act]]) for a character speaking in their own voice
+    (act: 'gesture', 'walk:<x>', 'turn'). God never speaks in a voice: His words are told by the narrator.
+    stage = [(who, x 0..1, 'l'|'r' facing[, 'l'|'r' walks in from])]: puppets standing in front of the
+    painting, which then shows the place without them (cast = figures painted into the picture itself).
     pasuk = (text, ref); note = (who, text, levels)."""
     return {'id': sid, 'title_he': title_he, 'levels': levels, 'img': img, 'cast': list(cast), 'move': move,
-            'fx': fx, 'art': art, 'pasuk': pasuk, 'note': note, 'say': say or {}}
+            'fx': fx, 'art': art, 'pasuk': pasuk, 'note': note, 'say': say or {}, 'stage': list(stage)}
 
 
 def Q(levels, prompt_he, answer, wrong, explain_he):
@@ -62,9 +117,9 @@ VAYETZE = {
     'about_he': 'החלום על הסולם, רחל ולאה, שבטי ישראל, והדרך חזרה הביתה',
     'scenes': [
         S('open', 'יעקב יוצא לדרך', [1, 2, 3],
-          'Dawn over the desert town of Beer Sheva: Yaakov, seen from behind, walks away from a cluster of tents and '
-          'a stone well toward distant hills, long shadow, his parents\' tents behind him, birds in a pink-gold sky.',
-          cast=['yaakov'], move='right', fx='dust', art='🌅 🚶 ⛺',
+          'Dawn over the desert town of Beer Sheva: a cluster of tents and a stone well, a dirt path leading away '
+          'toward distant hills, birds in a pink-gold sky.',
+          stage=[('yaakov', 0.4, 'r', 'l')], move='right', fx='dust', art='🌅 🚶 ⛺',
           pasuk=('וַיֵּצֵא יַעֲקֹב מִבְּאֵר שָׁבַע וַיֵּלֶךְ חָרָנָה', 'בראשית כח, י'),
           note=('רש"י', 'כשצדיק נמצא בעיר, הוא ההוד שלה והיופי שלה. כשהוא יוצא ממנה, יוצאים איתו גם ההוד והיופי. יציאת צדיק מן המקום עושה רושם.', [3]),
           say={
@@ -84,9 +139,9 @@ VAYETZE = {
                   'כלומר, לאדם טוב יש השפעה על כל הסביבה שלו, גם אם הוא לא מרגיש בזה.'],
           }),
         S('stones', 'לילה במקום', [2, 3],
-          'Sunset on a rocky hilltop in the hills of Canaan: Yaakov arranges a few smooth stones around a sleeping '
-          'spot, the sun sinking suddenly below the horizon, purple sky, first stars appearing.',
-          cast=['yaakov'], move='in', fx='sunset', art='🌄 🪨 🧔',
+          'Sunset on a rocky hilltop in the hills of Canaan: a few smooth stones arranged around a sleeping spot on '
+          'the ground, the sun sinking suddenly below the horizon, purple sky, first stars appearing.',
+          stage=[('yaakov', 0.62, 'l', 'r')], move='in', fx='sunset', art='🌄 🪨 🧔',
           note=('רש"י', 'האבנים התחילו לריב: כל אחת אמרה "עליי יניח הצדיק את ראשו!" מיד הקדוש ברוך הוא עשה אותן לאבן אחת.', [3]),
           say={
               2: ['יעקב הולך והולך, עד שהוא מגיע למקום אחד, והשמש שוקעת.',
@@ -139,162 +194,192 @@ VAYETZE = {
                   'יעקב בורח, בלי כסף ובלי משפחה, אל עתיד לא ידוע. דווקא ברגע הכי בודד שלו, הוא שומע: אני איתך.'],
           }),
         S('bethel', 'בית אל', [1, 2, 3],
-          'Early morning on the hilltop: Yaakov, awake and awed, stands a tall stone upright as a pillar and pours '
-          'oil from a small clay flask onto its top, soft morning mist in the valleys, sunrise light.',
-          cast=['yaakov'], move='left', fx='mist', art='🌄 🪨 🫒',
+          'Early morning on the hilltop: a tall stone standing upright as a pillar, glistening with oil poured on '
+          'its top, a small clay flask beside it, soft morning mist in the valleys, sunrise light.',
+          stage=[('yaakov', 0.36, 'r')], move='left', fx='mist', art='🌄 🪨 🫒',
           pasuk=('אָכֵן יֵשׁ ה\' בַּמָּקוֹם הַזֶּה וְאָנֹכִי לֹא יָדָעְתִּי', 'בראשית כח, טז'),
           say={
-              1: ['בבוקר יעקב מתעורר ואומר: השם נמצא במקום הזה, ואני לא ידעתי!',
+              1: ['בבוקר יעקב מתעורר, ואומר:',
+                  ('yaakov', 'השם נמצא במקום הזה, ואני לא ידעתי!', 'amazed, in awe', 'gesture'),
                   'הוא מעמיד את האבן, שופך עליה שמן, וקורא למקום: בית אל, כלומר, הבית של השם.'],
-              2: ['יעקב מתעורר ואומר בהתרגשות: אכן יש השם במקום הזה, ואנוכי לא ידעתי!',
-                  'מה נורא המקום הזה, אין זה כי אם בית אלוקים, וזה שער השמיים.',
+              2: ['יעקב מתעורר, ואומר בהתרגשות:',
+                  ('yaakov', 'אָכֵן יֵשׁ השם בַּמָּקוֹם הַזֶּה, וְאָנֹכִי לֹא יָדָעְתִּי!', 'amazed, in awe, softly', 'gesture'),
+                  ('yaakov', 'מַה נּוֹרָא הַמָּקוֹם הַזֶּה! אֵין זֶה כִּי אִם בֵּית אֱלֹקִים, וְזֶה שַׁעַר הַשָּׁמָיִם.', 'reverent, deeply moved'),
                   'בבוקר הוא מעמיד את האבן כמו עמוד, מַצֵּבָה, ויוצק עליה שמן.',
                   'הוא קורא למקום בית אל. לפני כן קראו לעיר הזאת לוּז.'],
-              3: ['יעקב מתעורר ואומר: אכן יש השם במקום הזה, ואנוכי לא ידעתי.',
+              3: ['יעקב מתעורר, ואומר:',
+                  ('yaakov', 'אָכֵן יֵשׁ השם בַּמָּקוֹם הַזֶּה, וְאָנֹכִי לֹא יָדָעְתִּי.', 'amazed, in awe, softly', 'gesture'),
                   'רש"י מסביר שאילו ידע שזה מקום קדוש, לא היה ישן בו.',
                   'אבל אפשר ללמוד מהמשפט הזה גם רעיון רחב: לפעמים השם נמצא ממש לידנו, ברגעים רגילים, ואנחנו לא שמים לב.',
-                  'יעקב ממשיך: מה נורא המקום הזה, אין זה כי אם בית אלוקים, וזה שער השמיים.',
+                  ('yaakov', 'מַה נּוֹרָא הַמָּקוֹם הַזֶּה! אֵין זֶה כִּי אִם בֵּית אֱלֹקִים, וְזֶה שַׁעַר הַשָּׁמָיִם.', 'reverent, deeply moved'),
                   'בבוקר הוא מקים את האבן למצבה, יוצק שמן על ראשה, וקורא למקום בית אל. שמה הקודם של העיר היה לוּז.'],
           }),
         S('vow', 'הנדר והמעשר', [2, 3],
-          'Yaakov kneeling in prayer beside the oiled stone pillar, hands raised, morning sun behind him, a simple '
-          'sack and staff beside him, a wide valley below.',
-          cast=['yaakov'], move='in', fx='light', art='🙏 🪨 🔟',
+          'The oiled stone pillar on the hilltop in morning sun, a simple travel sack on the ground beside it, a '
+          'wide valley below.',
+          stage=[('yaakov', 0.42, 'r')], move='in', fx='light', art='🙏 🪨 🔟',
           pasuk=('וְכֹל אֲשֶׁר תִּתֶּן לִי עַשֵּׂר אֲעַשְּׂרֶנּוּ לָךְ', 'בראשית כח, כב'),
           say={
               2: ['לפני שהוא ממשיך בדרך, יעקב נודר נדר, כלומר, מבטיח הבטחה לשם.',
-                  'אם השם יהיה איתי וישמור עליי, ויתן לי לחם לאכול ובגד ללבוש, ואחזור בשלום לבית אבי,',
-                  'האבן הזאת תהיה בית אלוקים, ומכל מה שתיתן לי, אתן לך עשירית: מַעֲשֵׂר.',
+                  ('yaakov', 'אם השם יהיה איתי וישמור עליי, ויתן לי לחם לאכול ובגד ללבוש, ואחזור בשלום לבית אבי,', 'praying, earnest and humble', 'gesture'),
+                  ('yaakov', 'האבן הזאת תהיה בית אלוקים, ומכל מה שתיתן לי, אתן לך עשירית.', 'praying, earnest and humble'),
+                  'עשירית, כלומר, מַעֲשֵׂר.',
                   'מכאן לומדים על מצוות המעשר: לתת עשירית ממה שיש לנו לצדקה ולמטרות טובות.'],
-              3: ['יעקב נודר נדר: אם יהיה אלוקים עמדי ושמרני בדרך הזה, ונתן לי לחם לאכול ובגד ללבוש, ושבתי בשלום אל בית אבי,',
-                  'והאבן הזאת אשר שמתי מצבה, יהיה בית אלוקים, וכל אשר תיתן לי, עשר אעשרנו לך.',
+              3: ['יעקב נודר נדר:',
+                  ('yaakov', 'אִם יִהְיֶה אֱלֹקִים עִמָּדִי, וּשְׁמָרַנִי בַּדֶּרֶךְ הַזֶּה, וְנָתַן לִי לֶחֶם לֶאֱכֹל וּבֶגֶד לִלְבֹּשׁ, וְשַׁבְתִּי בְשָׁלוֹם אֶל בֵּית אָבִי,', 'praying, earnest and humble', 'gesture'),
+                  ('yaakov', 'וְהָאֶבֶן הַזֹּאת אֲשֶׁר שַׂמְתִּי מַצֵּבָה, יִהְיֶה בֵּית אֱלֹקִים, וְכֹל אֲשֶׁר תִּתֶּן לִי, עַשֵּׂר אֲעַשְּׂרֶנּוּ לָךְ.', 'praying, earnest and humble'),
                   'שימו לב למה יעקב מבקש: לא עושר ולא כבוד. רק לחם, בגד, ולחזור הביתה בשלום.',
                   'ובתמורה, הוא מתחייב לתת עשירית ממה שיקבל. מכאן המנהג לתת מעשר כספים, עשירית מהרווחים, לצדקה.'],
           }),
         S('well', 'הבאר בחרן', [2, 3],
-          'A wide sunny pasture near the town of Haran: a large round stone well covered by a huge heavy stone, three '
-          'groups of shepherds resting with flocks of sheep beside it, Yaakov arriving with his staff and talking with them.',
-          cast=['yaakov'], move='right', fx='dust', art='🐑 🐑 🕳️ 🧔',
+          'A wide sunny pasture near the town of Haran: a large round stone well covered by a huge heavy stone, '
+          'three flocks of sheep lying beside it, a few shepherds resting in the shade in the background.',
+          stage=[('yaakov', 0.28, 'r', 'l'), ('shepherd', 0.72, 'l')], move='right', fx='dust', art='🐑 🐑 🕳️ 🧔',
           say={
               2: ['יעקב ממשיך ללכת, ומגיע לארץ בני קדם. הוא רואה באר בשדה, ושלושה עדרי צאן רובצים לידה.',
                   'על פי הבאר מונחת אבן גדולה מאוד. הרועים מחכים שכל העדרים יתאספו, ורק אז מזיזים יחד את האבן ומשקים את הצאן.',
-                  'יעקב שואל אותם: מאין אתם? מחרן, הם עונים. האם אתם מכירים את לבן? כן, ושלום לו.',
-                  'והנה רחל, בתו של לבן, באה עם הצאן.'],
+                  ('yaakov', 'אחיי, מאין אתם?', 'friendly, a tired traveler'),
+                  ('shepherd', 'מחרן אנחנו.', 'easy-going'),
+                  ('yaakov', 'הידעתם את לבן בן נחור?', 'hopeful'),
+                  ('shepherd', 'ידענו. שלום לו. והנה רחל בתו באה עם הצאן!', 'friendly, pointing', 'gesture')],
               3: ['יעקב מגיע לארץ בני קדם, ורואה באר בשדה, ולידה שלושה עדרי צאן. על פי הבאר מונחת אבן גדולה.',
-                  'יעקב פונה לרועים בחביבות: אחיי, מאין אתם? הם מחרן. האם אתם מכירים את לבן בן נחור? כן. השלום לו? שלום.',
-                  'יעקב תמה: היום עוד ארוך, למה אתם לא משקים את הצאן ויוצאים לרעות?',
-                  'הם עונים שהם לא יכולים, עד שכל העדרים יתאספו ויזיזו את האבן הכבדה ביחד.',
+                  'יעקב פונה לרועים בחביבות.',
+                  ('yaakov', 'אַחַי, מֵאַיִן אַתֶּם?', 'friendly, a tired traveler'),
+                  ('shepherd', 'מֵחָרָן אֲנָחְנוּ.', 'easy-going'),
+                  ('yaakov', 'הַיְדַעְתֶּם אֶת לָבָן בֶּן נָחוֹר?', 'hopeful'),
+                  ('shepherd', 'יָדָעְנוּ.', 'easy-going'),
+                  ('yaakov', 'הֲשָׁלוֹם לוֹ?', 'hopeful'),
+                  ('shepherd', 'שָׁלוֹם. וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם הַצֹּאן!', 'friendly, pointing', 'gesture'),
+                  ('yaakov', 'הֵן עוֹד הַיּוֹם גָּדוֹל. הַשְׁקוּ הַצֹּאן, וּלְכוּ רְעוּ!', 'puzzled, caring', 'gesture'),
+                  ('shepherd', 'לֹא נוּכַל, עַד אֲשֶׁר יֵאָסְפוּ כָּל הָעֲדָרִים, וְגָלְלוּ אֶת הָאֶבֶן מֵעַל פִּי הַבְּאֵר.', 'easy-going, shrugging'),
                   'אפשר לראות כאן משהו על יעקב: גם כשהוא זר ועייף מהדרך, אכפת לו שהעבודה תיעשה ביושר, ושהרועים לא יבזבזו את זמן המעסיק שלהם.'],
           }),
         S('rachel', 'רחל והאבן', [1, 2, 3],
-          'At the well: Yaakov alone heaves the huge stone off the mouth of the well with great strength, water '
-          'glittering below, Rachel in blue standing nearby with her flock of sheep, surprised and smiling, '
-          'shepherds watching in amazement.',
-          cast=['yaakov', 'rachel'], move='in', fx='sparkle', art='💪 🪨 🐑 👧',
+          'At the well: the huge stone rolled aside from the open mouth of the well, water glittering inside, sheep '
+          'crowding to drink from a stone trough, shepherds watching in amazement in the background.',
+          stage=[('yaakov', 0.32, 'r'), ('rachel', 0.7, 'l', 'r')], move='in', fx='sparkle', art='💪 🪨 🐑 👧',
           pasuk=('וַיִּגַּשׁ יַעֲקֹב וַיָּגֶל אֶת הָאֶבֶן מֵעַל פִּי הַבְּאֵר', 'בראשית כט, י'),
           say={
               1: ['יעקב מגיע לבאר מים. על הבאר יש אבן ענקית וכבדה.',
                   'רחל מגיעה עם הכבשים של אבא שלה. יעקב ניגש, ולבד, מגלגל את האבן הגדולה מעל הבאר!',
-                  'הוא משקה את הכבשים של רחל, ומספר לה שהוא בן של רבקה, דודה שלה.',
-                  'רחל רצה הביתה, לספר לאבא שלה, לָבָן.'],
+                  'הוא משקה את הכבשים של רחל, ומספר לה:',
+                  ('yaakov', 'אני יעקב, הבן של רבקה, אחות של אבא שלך!', 'happy, emotional'),
+                  ('rachel', 'אני רצה לספר לאבא!', 'surprised and happy', 'walk:1.2')],
               2: ['כשיעקב רואה את רחל, הוא ניגש, ולבדו מגלגל את האבן הכבדה, שבדרך כלל כל הרועים יחד מזיזים.',
-                  'הוא משקה את הצאן של לבן, ואז מספר לרחל שהוא קרוב משפחה שלה, בנה של רבקה.',
-                  'יעקב מתרגש מאוד, ובוכה. אחרי כל הדרך הארוכה, הוא הגיע למשפחה.',
-                  'רחל רצה לספר לאביה.'],
+                  'הוא משקה את הצאן של לבן, ויעקב מתרגש מאוד, ובוכה. אחרי כל הדרך הארוכה, הוא הגיע למשפחה.',
+                  ('yaakov', 'אני קרוב של אביך. אני בנה של רבקה.', 'moved, close to tears'),
+                  ('rachel', 'אני רצה לספר לאבי!', 'surprised and happy', 'walk:1.2')],
               3: ['כשיעקב רואה את רחל בת לבן, אחי אמו, הוא ניגש ומגלגל לבדו את האבן מעל פי הבאר.',
                   'אבן שכל הרועים יחד בקושי הזיזו. יעקב מקבל כוחות מיוחדים ברגע שהוא פוגש את משפחתו.',
                   'הוא משקה את צאן לבן, נושק לרחל לשלום, נושא את קולו ובוכה.',
                   'רש"י מביא מדרש: יעקב בכה כי הגיע בידיים ריקות. אליעזר, עבד אברהם, הגיע לכאן בשביל רבקה עם גמלים ומתנות, ולו אין כלום.',
-                  'יעקב מספר לרחל שהוא קרוב של אביה ובנה של רבקה, והיא רצה לספר לאביה.'],
+                  ('yaakov', 'אֲחִי אָבִיךְ אָנֹכִי, וּבֶן רִבְקָה אָנִי.', 'moved, close to tears'),
+                  'ורחל רצה לספר לאביה.'],
           }),
         S('lavan', 'לבן', [2, 3],
-          'The courtyard of Lavan\'s wealthy stone house in Haran: Lavan rushes out with open arms to hug Yaakov, '
-          'servants and camels in the background, late afternoon light.',
-          cast=['yaakov', 'lavan'], move='left', fx=None, art='🏠 🤗 🧔',
+          'The courtyard of Lavan\'s wealthy stone house in Haran: carved doorway, rugs, water jars, servants and '
+          'camels in the background, late afternoon light.',
+          stage=[('yaakov', 0.3, 'r', 'l'), ('lavan', 0.7, 'l', 'r')], move='left', fx=None, art='🏠 🤗 🧔',
           note=('רש"י', 'לבן חשב שיעקב הביא איתו אוצרות. הוא חיבק אותו כדי למשש אם יש זהב בבגדיו, ונישק אותו כדי לבדוק אם יש פנינים בפיו.', [3]),
           say={
               2: ['לבן שומע שהגיע בן אחותו, ורץ לקראתו. הוא מחבק ומנשק אותו ומביא אותו לביתו.',
-                  'יעקב גר אצלו חודש ימים ועוזר בעבודה.',
-                  'ואז לבן אומר: האם בגלל שאתה קרוב משפחה, תעבוד אצלי בחינם? תגיד לי מה תרצה בתור שכר.'],
+                  ('lavan', 'אתה ממש מהמשפחה שלי, עצמי ובשרי!', 'effusive, overly warm', 'gesture'),
+                  'יעקב גר אצלו חודש ימים ועוזר בעבודה. ואז לבן אומר:',
+                  ('lavan', 'בגלל שאתה קרוב משפחה, תעבוד אצלי בחינם? תגיד לי מה תרצה בתור שכר.', 'smooth, calculating')],
               3: ['לבן שומע שהגיע יעקב בן אחותו, ורץ לקראתו, מחבק אותו ומנשק לו.',
                   'רש"י מגלה מה היה מאחורי החיבוק: לבן זכר את הגמלים והמתנות של אליעזר, וחשב שגם יעקב הביא אוצרות.',
                   'הוא חיבק כדי לבדוק אם יש זהב בבגדיו, ונישק כדי לבדוק אם יש פנינים בפיו. כבר כאן אנחנו מתחילים להכיר את לבן.',
-                  'אחרי חודש, לבן שואל: הכי אחי אתה, ועבדתני חינם? הגידה לי מה משכורתך.'],
+                  ('lavan', 'אַךְ עַצְמִי וּבְשָׂרִי אָתָּה!', 'effusive, overly warm', 'gesture'),
+                  'אחרי חודש, לבן שואל:',
+                  ('lavan', 'הֲכִי אָחִי אַתָּה, וַעֲבַדְתַּנִי חִנָּם? הַגִּידָה לִּי מַה מַּשְׂכֻּרְתֶּךָ.', 'smooth, calculating')],
           }),
         S('seven', 'שבע שנים', [1, 2, 3],
-          'A montage-like scene: Yaakov tending a large flock of sheep in green fields through the seasons '
-          '(spring blossoms on one side, autumn leaves on the other), Rachel in blue watching from a distance, '
-          'warm and tender mood.',
-          cast=['yaakov', 'rachel'], move='right', fx='sparkle', art='🐑 ❤️ 7️⃣',
+          'Green pastures near Haran through the seasons, spring blossoms on one side and autumn leaves on the '
+          'other, a large flock of sheep grazing, warm and tender mood.',
+          stage=[('yaakov', 0.3, 'r'), ('lavan', 0.7, 'l')], move='right', fx='sparkle', art='🐑 ❤️ 7️⃣',
           pasuk=('וַיִּהְיוּ בְעֵינָיו כְּיָמִים אֲחָדִים בְּאַהֲבָתוֹ אֹתָהּ', 'בראשית כט, כ'),
           say={
               1: ['ללבן יש שתי בנות: לֵאָה הגדולה, ורחל הקטנה.',
-                  'יעקב אומר: אעבוד אצלך שבע שנים, כדי להתחתן עם רחל.',
+                  ('yaakov', 'אעבוד אצלך שבע שנים, כדי להתחתן עם רחל.', 'sincere, determined', 'gesture'),
+                  ('lavan', 'טוב. תישאר איתי.', 'pleased, shrewd'),
                   'שבע שנים זה הרבה זמן! אבל ליעקב הן היו כמו כמה ימים, כי הוא אהב את רחל מאוד.'],
               2: ['ללבן שתי בנות: הגדולה לאה, והקטנה רחל. התורה מספרת שעיני לאה רכות, ורחל יפה מאוד.',
-                  'יעקב אוהב את רחל, ומציע: אעבוד אצלך שבע שנים ברחל בתך הקטנה. לבן מסכים.',
+                  'יעקב אוהב את רחל, ומציע:',
+                  ('yaakov', 'אעבוד אצלך שבע שנים, ברחל בתך הקטנה.', 'sincere, determined', 'gesture'),
+                  ('lavan', 'טוב תתי אותה לך, מתתי אותה לאיש אחר. שבה עמדי.', 'pleased, shrewd'),
                   'ויעבוד יעקב ברחל שבע שנים, ויהיו בעיניו כימים אחדים באהבתו אותה.',
                   'כשאוהבים באמת, ההמתנה לא מרגישה כבדה.'],
               3: ['ללבן שתי בנות: לאה הבכירה ורחל הצעירה. על לאה נאמר ש"עיניה רכות".',
                   'רש"י מסביר שלאה בכתה הרבה, כי כולם אמרו שהבת הגדולה של לבן תינשא לבן הגדול של רבקה, עשיו, והיא התפללה שלא יקרה כך.',
-                  'יעקב מציע לעבוד שבע שנים ברחל בתך הקטנה, ומפרט כל פרט, כדי שלבן לא יוכל לרמות. לבן מסכים.',
+                  ('yaakov', 'אֶעֱבָדְךָ שֶׁבַע שָׁנִים, בְּרָחֵל בִּתְּךָ הַקְּטַנָּה.', 'sincere, determined', 'gesture'),
+                  'יעקב מפרט כל פרט: רחל, בתך, הקטנה. כדי שלבן לא יוכל לרמות.',
+                  ('lavan', 'טוֹב תִּתִּי אֹתָהּ לָךְ, מִתִּתִּי אֹתָהּ לְאִישׁ אַחֵר. שְׁבָה עִמָּדִי.', 'pleased, shrewd'),
                   'ויעבוד יעקב ברחל שבע שנים, ויהיו בעיניו כימים אחדים באהבתו אותה.',
                   'זה נשמע הפוך: בדרך כלל כשמחכים למשהו, הזמן נמשך. אבל אהבה אמיתית, שאינה רק לעצמי, לא סופרת את הימים.'],
           }),
         S('wedding', 'החתונה', [2, 3],
-          'Night inside a festive tent lit by oil lamps: a modest wedding feast, guests in robes, Lavan presiding, '
-          'a bride fully covered in a heavy veil being led in by women, warm lamplight and deep shadows.',
-          cast=['lavan'], move='in', fx='night', art='🪔 👰 🎉',
+          'Early morning outside a large festive tent after a wedding feast: oil lamps burnt out, remains of the '
+          'feast on low tables, colored cloths hanging, pale dawn light and long shadows.',
+          stage=[('yaakov', 0.3, 'r', 'l'), ('lavan', 0.7, 'l')], move='in', fx='mist', art='🪔 👰 🎉',
           pasuk=('וַיְהִי בַבֹּקֶר וְהִנֵּה הִוא לֵאָה', 'בראשית כט, כה'),
           note=('רש"י', 'יעקב מסר לרחל סימנים כדי לזהות אותה. כשראתה רחל שמכניסים את לאה, אמרה: "עכשיו תתבייש אחותי", ומסרה לה את הסימנים.', [2, 3]),
           say={
               2: ['אחרי שבע השנים, לבן עורך משתה חתונה גדול. אבל בלילה, הוא מביא ליעקב את לאה, במקום רחל.',
-                  'ויהי בבוקר, והנה היא לאה! יעקב שואל את לבן: למה רימית אותי?',
-                  'לבן עונה: אצלנו לא נוהגים לחתן את הצעירה לפני הבכירה.',
+                  'ויהי בבוקר, והנה היא לאה!',
+                  ('yaakov', 'מה עשית לי? הרי בשביל רחל עבדתי אצלך! למה רימית אותי?', 'hurt and indignant', 'gesture'),
+                  ('lavan', 'אצלנו לא נוהגים לחתן את הצעירה לפני הבכירה.', 'cool, dismissive'),
                   'ורחל? רש"י מספר שיעקב נתן לה סימנים סודיים, אבל רחל מסרה אותם ללאה, כדי שאחותה לא תתבייש. איזו גבורה של רחל!'],
               3: ['לבן אוסף את כל אנשי המקום ועושה משתה. אבל בערב הוא מביא ליעקב את לאה במקום רחל.',
-                  'ויהי בבוקר והנה היא לאה. יעקב: מה זאת עשית לי? הלוא ברחל עבדתי עמך, ולמה רימיתני?',
-                  'לבן עונה: לא ייעשה כן במקומנו, לתת הצעירה לפני הבכירה. השלם את שבוע החתונה, ותקבל גם את רחל, בתמורה לעוד שבע שנים.',
+                  'ויהי בבוקר, והנה היא לאה.',
+                  ('yaakov', 'מַה זֹּאת עָשִׂיתָ לִּי? הֲלֹא בְרָחֵל עָבַדְתִּי עִמָּךְ, וְלָמָּה רִמִּיתָנִי?', 'hurt and indignant', 'gesture'),
+                  ('lavan', 'לֹא יֵעָשֶׂה כֵן בִּמְקוֹמֵנוּ, לָתֵת הַצְּעִירָה לִפְנֵי הַבְּכִירָה.', 'cool, dismissive'),
+                  ('lavan', 'מַלֵּא שְׁבֻעַ זֹאת, וְנִתְּנָה לְךָ גַּם אֶת זֹאת, בַּעֲבֹדָה אֲשֶׁר תַּעֲבֹד עִמָּדִי עוֹד שֶׁבַע שָׁנִים.', 'smooth, as if generous', 'gesture'),
                   'ואיך הצליח התרגיל? רש"י מספר שיעקב חשש מלבן, ונתן לרחל סימנים. אבל כשראתה רחל שמביאים את לאה, אמרה: עכשיו תתבייש אחותי, ומסרה לה את הסימנים.',
                   'רחל ויתרה על מה שהיה הכי יקר לה, רק כדי לא לבייש את אחותה. חז"ל אומרים שבזכות זה, כשעם ישראל יגלה, דווקא תפילתה של רחל תתקבל.',
                   'אחרי שבוע, יעקב נושא גם את רחל, ועובד בשבילה עוד שבע שנים.'],
           }),
         S('tribes', 'שבטי ישראל', [1, 2, 3],
-          'A joyful family scene in a large tent camp: many children of different ages playing among the tents and '
-          'sheep, Leah in green holding a baby, Rachel in blue holding a baby boy, Yaakov smiling in the middle, '
-          'golden evening light.',
-          cast=['yaakov', 'rachel', 'leah'], move='out', fx='sparkle', art='👶 👦 👧 ⛺',
+          'A joyful large tent camp: many boys of different ages and one girl playing among the tents and sheep, a '
+          'cradle at a tent door, golden evening light.',
+          stage=[('leah', 0.3, 'r'), ('rachel', 0.7, 'l')], move='out', fx='sparkle', art='👶 👦 👧 ⛺',
           pasuk=('הַפַּעַם אוֹדֶה אֶת ה\'', 'בראשית כט, לה'),
           note=('רש"י', 'לאה ידעה שליעקב יהיו שנים עשר שבטים, מארבע נשים. כשנולד לה בן רביעי, הבינה שקיבלה יותר מחלקה, ולכן הודתה.', [3]),
           say={
               1: ['ליעקב נולדים הרבה ילדים: בנים ובת.',
-                  'ללאה נולד בן, וקראה לו יְהוּדָה, כי אמרה: הפעם אודה את השם. כלומר: תודה, השם!',
+                  'ללאה נולד בן, וקראה לו יְהוּדָה, כי אמרה:',
+                  ('leah', 'הפעם אודה את השם!', 'joyful, grateful', 'gesture'),
+                  'כלומר: תודה, השם!',
                   'וברגע מרגש במיוחד, גם לרחל נולד בן: יוֹסֵף.',
                   'בפרשה נולדים אחד עשר בנים ובת אחת, דִּינָה. מהבנים האלה יהיו שבטי ישראל.'],
               2: ['במשך השנים נולדים ליעקב בנים, ולכל אחד שם עם משמעות.',
-                  'ללאה נולדים ראובן, שמעון, לוי ויהודה. על יהודה היא אומרת: הפעם אודה את השם.',
+                  'ללאה נולדים ראובן, שמעון, לוי ויהודה. על יהודה היא אומרת:',
+                  ('leah', 'הַפַּעַם אוֹדֶה אֶת השם!', 'joyful, grateful', 'gesture'),
                   'רחל עוד אין לה ילדים, והיא נותנת ליעקב את שפחתה בִּלְהָה, ונולדים דן ונפתלי. גם לאה נותנת את זִלְפָּה, ונולדים גד ואשר.',
                   'אחר כך נולדים ללאה יששכר וזבולון, ובת, דינה.',
                   'ולבסוף, אחרי שנים של תפילה, השם זוכר את רחל, ונולד לה יוסף.',
                   'אחד עשר בנים, ואחר כך יוולד גם בנימין. שנים עשר שבטי ישראל.'],
               3: ['השם רואה שלאה מרגישה פחות אהובה, ונותן לה ילדים. השמות שהיא נותנת מספרים את רגשותיה:',
                   'ראובן, כי ראה השם בעוניי. שמעון, כי שמע השם. לוי, הפעם יִלָּוֶה אישי אליי.',
-                  'וביהודה, היא כבר לא מבקשת דבר, רק אומרת: הפעם אודה את השם.',
+                  'וביהודה, היא כבר לא מבקשת דבר, רק אומרת:',
+                  ('leah', 'הַפַּעַם אוֹדֶה אֶת השם.', 'quietly joyful, grateful', 'gesture'),
                   'הגמרא אומרת שמיום שנברא העולם, לא היה אדם שהודה לקדוש ברוך הוא, עד שבאה לאה והודתה.',
                   'רש"י מסביר: לאה ידעה שיהיו שנים עשר שבטים מארבע נשים, ולכל אחת מגיעים שלושה. כשקיבלה רביעי, הרגישה שקיבלה יותר מחלקה.',
-                  'אחר כך נולדים דן ונפתלי לבלהה, גד ואשר לזלפה, יששכר, זבולון ודינה ללאה, ולבסוף, יוסף לרחל, שקראה לו כך כי אמרה: יוסף השם לי בן אחר.'],
+                  'אחר כך נולדים דן ונפתלי לבלהה, גד ואשר לזלפה, יששכר, זבולון ודינה ללאה. ולבסוף, נולד בן לרחל, והיא אומרת:',
+                  ('rachel', 'אָסַף אֱלֹקִים אֶת חֶרְפָּתִי. יֹסֵף השם לִי בֵּן אַחֵר.', 'tearful joy, grateful'),
+                  'ולכן קראה לו יוסף.'],
           }),
         S('flocks', 'הכבשים של יעקב', [2, 3],
           'Rolling pastures with two separate flocks: one of plain white sheep and goats, one of spotted, speckled '
-          'and striped sheep and goats that is visibly growing large, Yaakov counting them with care, Lavan in '
-          'crimson watching suspiciously from a hill.',
-          cast=['yaakov', 'lavan'], move='left', fx='dust', art='🐑 🐐 🐑 👀',
+          'and striped sheep and goats that is visibly growing large, wooden water troughs, hills behind.',
+          stage=[('yaakov', 0.3, 'r'), ('lavan', 0.7, 'l', 'r')], move='left', fx='dust', art='🐑 🐐 🐑 👀',
           say={
               2: ['אחרי ארבע עשרה שנים, יעקב רוצה לחזור הביתה. אבל לבן לא רוצה לשחרר אותו, כי מאז שיעקב הגיע, השם בירך את לבן.',
+                  ('lavan', 'ראיתי שהשם בירך אותי בגללך. תגיד לי כמה אתה רוצה, ואתן.', 'grudging, then smooth'),
                   'הם מסכמים: כל הכבשים והעזים שייוולדו עם נקודות או פסים, יהיו של יעקב. השאר, של לבן.',
                   'לבן ממשיך לרמות, ומשנה את ההסכם שוב ושוב, עשר פעמים!',
                   'אבל השם עוזר ליעקב, והעדר שלו גדל וגדל.'],
-              3: ['אחרי ארבע עשרה שנה, ולידת יוסף, יעקב מבקש לחזור לארצו. לבן מודה: ניחשתי, ויברכני השם בגללך.',
+              3: ['אחרי ארבע עשרה שנה, ולידת יוסף, יעקב מבקש לחזור לארצו. ולבן מודה:',
+                  ('lavan', 'נִחַשְׁתִּי, וַיְבָרְכֵנִי השם בִּגְלָלֶךָ. נָקְבָה שְׂכָרְךָ עָלַי, וְאֶתֵּנָה.', 'grudging, then smooth', 'gesture'),
                   'הם מסכמים שהשכר של יעקב יהיה הצאן הנָקֹד, הטָלוּא, כלומר עם נקודות וטלאים, והכבשים החומים.',
                   'לבן מיד מרחיק מיעקב את כל הבהמות כאלה, כדי שכמעט לא ייוולדו לו. ובמשך השנים, הוא משנה את השכר עשר פעמים.',
                   'יעקב עושה מעשה עם מקלות מקולפים ליד שוקתות המים. אבל בהמשך הוא מגלה, בחלום, שמלאך הראה לו: את כל אשר לבן עושה לך ראיתי.',
@@ -337,34 +422,36 @@ VAYETZE = {
                   'יעקב, שאינו יודע על התרפים, נותן לו לחפש בכל האוהלים. רחל שמה אותם בכר הגמל, יושבת עליו, ומתנצלת בנימוס שאינה יכולה לקום. לבן לא מוצא דבר.'],
           }),
         S('speech', 'עשרים שנה', [3],
-          'Yaakov standing tall and speaking with deep emotion to Lavan before a crowd of servants on a mountain '
-          'slope, behind him a faint dreamlike memory of himself guarding sheep in scorching sun and in frosty '
-          'night under the moon.',
-          cast=['yaakov', 'lavan'], move='in', fx=None, art='🧔 ☀️ 🌙 🐑',
+          'A mountain slope in Gilead with tents and a crowd of servants in the background, and in the sky a '
+          'faint dreamlike memory of a shepherd guarding sheep in scorching sun on one side and in a frosty night '
+          'under the moon on the other.',
+          stage=[('yaakov', 0.32, 'r'), ('lavan', 0.72, 'l')], move='in', fx=None, art='🧔 ☀️ 🌙 🐑',
           pasuk=('הָיִיתִי בַיּוֹם אֲכָלַנִי חֹרֶב וְקֶרַח בַּלָּיְלָה, וַתִּדַּד שְׁנָתִי מֵעֵינָי', 'בראשית לא, מ'),
           say={
               3: ['ועכשיו, אחרי עשרים שנה של שתיקה, יעקב כועס ומדבר.',
-                  'מה פשעי, מה חטאתי, שרדפת אחריי? חיפשת בכל כליי, מה מצאת?',
-                  'עשרים שנה אנוכי עמך. הכבשים שלך לא הפילו, ואילי צאנך לא אכלתי. כל כבשה שנטרפה, אני שילמתי עליה.',
-                  'הייתי ביום אכלני חורב, וקרח בלילה, ותידד שנתי מעיניי.',
-                  'ארבע עשרה שנה עבדתי בשביל בנותיך, ושש שנים בשביל צאנך, ותחלף את משכורתי עשרת מונים.',
+                  ('yaakov', 'מַה פִּשְׁעִי, מַה חַטָּאתִי, כִּי דָלַקְתָּ אַחֲרָי? כִּי מִשַּׁשְׁתָּ אֶת כָּל כֵּלַי, מַה מָּצָאתָ?', 'angry but dignified, deeply hurt', 'gesture'),
+                  ('yaakov', 'זֶה עֶשְׂרִים שָׁנָה אָנֹכִי עִמָּךְ. רְחֵלֶיךָ וְעִזֶּיךָ לֹא שִׁכֵּלוּ, וְאֵילֵי צֹאנְךָ לֹא אָכָלְתִּי.', 'firm, dignified'),
+                  'כל כבשה שנטרפה, יעקב שילם עליה מכספו.',
+                  ('yaakov', 'הָיִיתִי בַיּוֹם אֲכָלַנִי חֹרֶב, וְקֶרַח בַּלָּיְלָה, וַתִּדַּד שְׁנָתִי מֵעֵינָי.', 'quiet, heavy with memory'),
+                  ('yaakov', 'עֲבַדְתִּיךָ אַרְבַּע עֶשְׂרֵה שָׁנָה בִּשְׁתֵּי בְנֹתֶיךָ, וְשֵׁשׁ שָׁנִים בְּצֹאנֶךָ, וַתַּחֲלֵף אֶת מַשְׂכֻּרְתִּי עֲשֶׂרֶת מֹנִים.', 'firm, dignified', 'gesture'),
                   'הרמב"ם לומד מכאן איך צריך פועל לעבוד: בכל כוחו וביושר, גם כשהמעסיק לא הוגן אליו. כך עבד יעקב הצדיק.'],
           }),
         S('galed', 'גל עד', [1, 2, 3],
-          'On a mountain slope in Gilead: Yaakov, his sons and Lavan\'s men piling up a heap of stones beside a '
-          'standing stone, Lavan and Yaakov facing each other calmly, a shared meal laid out on the ground, '
-          'sunset glow over the hills.',
-          cast=['yaakov', 'lavan'], move='out', fx='sunset', art='🪨 🪨 🤝 🌄',
+          'On a mountain slope in Gilead: a large heap of stones beside a standing stone, young men in the '
+          'background still carrying stones, a shared meal laid out on the ground, sunset glow over the hills.',
+          stage=[('yaakov', 0.3, 'r'), ('lavan', 0.7, 'l')], move='out', fx='sunset', art='🪨 🪨 🤝 🌄',
           say={
               1: ['לבן רודף אחרי יעקב, אבל השם מזהיר אותו בחלום: אל תעשה ליעקב שום רע.',
                   'בסוף לבן ויעקב עושים שלום. הם בונים ערימה של אבנים, וקוראים לה גל עד, וזה הסימן שהם לא יפגעו זה בזה.',
                   'לבן מנשק את הנכדים ואת הבנות שלו, ומברך אותם, וחוזר הביתה.'],
               2: ['בסוף לבן מציע: בוא נכרות ברית. יעקב מקים אבן למצבה, וכולם אוספים אבנים לגל, ערימה גדולה.',
                   'יעקב קורא לה גלעד, ולבן קורא לה בשפתו, ארמית: יְגַר שָׂהֲדוּתָא. שני השמות אומרים אותו דבר: גל של עדות.',
+                  ('lavan', 'הגל הזה עד ביני ובינך היום.', 'solemn'),
                   'הגל הזה יהיה גבול: אף אחד מהם לא יעבור אותו כדי לפגוע בשני.',
                   'הם אוכלים יחד, ולמחרת בבוקר לבן מנשק את בניו ובנותיו, מברך אותם וחוזר למקומו.'],
               3: ['לבן מציע לכרות ברית. יעקב מקים מצבה, ואחיו אוספים אבנים לגל.',
-                  'לבן קורא לגל בארמית, יגר שהדותא, ויעקב בעברית, גלעד. ויש לו שם נוסף: המצפה, כי אמר לבן: יִצֶף השם ביני ובינך.',
+                  'לבן קורא לגל בארמית, יגר שהדותא, ויעקב בעברית, גלעד. ויש לו שם נוסף: המצפה, כי אמר לבן:',
+                  ('lavan', 'יִצֶף השם בֵּינִי וּבֵינֶךָ, כִּי נִסָּתֵר אִישׁ מֵרֵעֵהוּ.', 'solemn'),
                   'זו ברית של גבול: לא אעבור אליך את הגל הזה, ואתה לא תעבור אליי לרעה.',
                   'יעקב זובח זבח ומזמין את כולם לאכול. ובבוקר, לבן מנשק את בניו ובנותיו, מברך אותם וחוזר.'],
           }),
@@ -376,7 +463,8 @@ VAYETZE = {
           note=('רש"י', 'מחנים: שני מחנות של מלאכים. של חוץ לארץ שליוו אותו עד כאן, ושל ארץ ישראל שבאו לקראתו.', [3]),
           say={
               2: ['ויעקב הלך לדרכו, ויפגעו בו מלאכי אלוקים.',
-                  'יעקב אומר: מחנה אלוקים זה! וקורא למקום מַחֲנָיִם.',
+                  ('yaakov', 'מחנה אלוקים זה!', 'awed and joyful'),
+                  'וקורא למקום מַחֲנָיִם.',
                   'הפרשה מתחילה במלאכים על הסולם, ונגמרת במלאכים שמקבלים את יעקב בדרך הביתה.'],
               3: ['ויעקב הלך לדרכו, ויפגעו בו מלאכי אלוקים. ויאמר יעקב כאשר ראם: מחנה אלוקים זה, ויקרא שם המקום ההוא מחנים.',
                   'רש"י מסביר: מחנים, שני מחנות. מלאכי חוץ לארץ שליוו אותו עד הגבול, ומלאכי ארץ ישראל שבאו לקבל את פניו.',
@@ -450,9 +538,30 @@ PARASHOT = [VAYETZE]
 BOOKS = [('bereshit', '📜', '#8b5e34', 'ספר בראשית', 'בריאת העולם, האבות והאימהות, ויוסף ואחיו')]
 
 
+STAGE_NOTE = ('The main characters are not in this picture (they are animated in front of it): leave a clear, open '
+              'stretch of level ground across the lower third of the picture, seen at eye level.')
+
+
 def prompt_for(scene):
     cast = ' '.join(CAST[c] for c in scene['cast'])
-    return f"{STYLE} {cast} Scene: {scene['img']}".strip()
+    stage = STAGE_NOTE if scene['stage'] else ''
+    return f"{STYLE} {cast} Scene: {scene['img']} {stage}".strip()
+
+
+def line_json(line):
+    if isinstance(line, str):
+        return line
+    who, text, *rest = line
+    out = {'who': who, 'text': text}
+    if len(rest) > 0 and rest[0]:
+        out['tone'] = rest[0]
+    if len(rest) > 1 and rest[1]:
+        out['act'] = rest[1]
+    return out
+
+
+def line_text(line):
+    return line if isinstance(line, str) else line[1]
 
 
 def lines_for(scene, level):
@@ -470,12 +579,15 @@ def film(p, level):
         note = sc['note']
         scenes.append({
             'id': sc['id'], 'title_he': sc['title_he'], 'img': prompt_for(sc), 'move': sc['move'], 'fx': sc['fx'],
-            'art': sc['art'], 'say': lines_for(sc, level),
+            'art': sc['art'], 'say': [line_json(x) for x in lines_for(sc, level)],
+            'stage': [dict(zip(('who', 'x', 'face', 'enter'), st)) for st in sc['stage']],
             'pasuk': {'text': sc['pasuk'][0], 'ref': sc['pasuk'][1]} if sc['pasuk'] else None,
             'note': {'who': note[0], 'text': note[1]} if note and level in note[2] else None,
         })
+    who = sorted({st['who'] for s in scenes for st in s['stage']}
+                 | {ln['who'] for s in scenes for ln in s['say'] if isinstance(ln, dict)})
     return {'type': 'parasha_film', 'title_he': f"פרשת {p['name_he']}", 'ref_he': p['ref_he'],
-            'level': level, 'grades': LEVEL_GRADES[level], 'scenes': scenes}
+            'level': level, 'grades': LEVEL_GRADES[level], 'cast': {w: cast_for(w) for w in who}, 'scenes': scenes}
 
 
 def lesson(p):
@@ -494,9 +606,15 @@ def check(p):
         assert len(prompt_for(sc)) <= 1800, (sc['id'], len(prompt_for(sc)))
         for lv in sc['levels']:
             assert lines_for(sc, lv), (sc['id'], lv)
+        on_stage = {st[0] for st in sc['stage']}
+        assert not (on_stage & set(sc['cast'])), (sc['id'], 'a puppet is also painted in')
+        for st in sc['stage']:
+            assert st[0] in VOICES and 0 <= st[1] <= 1 and st[2] in ('l', 'r'), (sc['id'], st)
         for lines in sc['say'].values():
             for line in lines:
-                assert len(line) <= 600, (sc['id'], line[:40])
+                assert len(line_text(line)) <= 600, (sc['id'], line_text(line)[:40])
+                if not isinstance(line, str):
+                    assert line[0] in VOICES, (sc['id'], line[0])
     for item in p['questions']:
         assert item['q']['answer'] in item['q']['options']
 
@@ -530,6 +648,7 @@ if __name__ == '__main__':
     for p in PARASHOT:
         for lv in (1, 2, 3):
             f = film(p, lv)
-            words = sum(len(l.split()) for s in f['scenes'] for l in s['say'])
+            words = sum(len(line_text(l if isinstance(l, str) else (l['who'], l['text'])).split())
+                        for s in f['scenes'] for l in s['say'])
             print(p['id'], 'level', lv, len(f['scenes']), 'scenes', words, 'words', f'~{words / 120:.0f} min')
         print(' questions per level:', {lv: sum(lv in q['levels'] for q in p['questions']) for lv in (1, 2, 3)})

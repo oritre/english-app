@@ -230,5 +230,41 @@ class PictureServeTest(ServeTest):
         self.assertIn('no image quota', self.get('/status')[1].decode())
 
 
+class CharacterVoiceTest(unittest.TestCase):
+    def test_hash_and_voice_reach_the_request(self):
+        import hashlib
+        self.assertEqual(server.tts_hash('he', ' שלום '), hashlib.sha1('he\nשלום'.encode()).hexdigest()[:16])
+        self.assertEqual(server.tts_hash('he', 'שלום', 'Charon', 'calm'),
+                         hashlib.sha1('he|Charon|calm\nשלום'.encode()).hexdigest()[:16])
+        store = tempfile.mkdtemp()
+        seen = []
+        def request(text, options, voice='', style=''):
+            seen.append((voice, style))
+            return b'\0' * 4800, 'audio/L16;rate=24000'
+        server.tts_file('שלום', 'he', {'vertex_api_key': 'x'}, store, request, voice='Charon', style='calm')
+        server.tts_file('שלום', 'he', {'vertex_api_key': 'x'}, store, request)
+        self.assertEqual(seen, [('Charon', 'calm'), ('', '')])
+
+
+class SpriteTest(unittest.TestCase):
+    def test_paints_base_then_edits_it(self):
+        store = tempfile.mkdtemp()
+        calls = []
+        def request(prompt, options, ref=None):
+            calls.append((prompt, ref is not None))
+            return fake_png(), 'image/png'
+        opts = {'vertex_api_key': 'x'}
+        base = server.sprite_hash('Yaakov standing')
+        with self.assertRaises(FileNotFoundError):
+            server.sprite_file('mouth open', opts, store, base, request)
+        a = server.sprite_file('Yaakov standing', opts, store, '', request)
+        self.assertTrue(a.endswith('.webp') and os.path.exists(server.sprite_paths(base, store)[0]))
+        server.sprite_file('mouth open', opts, store, base, request)
+        server.sprite_file('Yaakov standing', opts, store, '', request)
+        self.assertEqual(calls, [('Yaakov standing', False), ('mouth open', True)])
+        with open(a, 'rb') as f:
+            self.assertEqual(f.read(12)[8:], b'WEBP')
+
+
 if __name__ == '__main__':
     unittest.main()

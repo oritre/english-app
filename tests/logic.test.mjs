@@ -566,8 +566,10 @@ test('parasha film: gate, jumps, cues, subtitles and backdrop plan', async () =>
   const byId = Object.fromEntries(film.scenes.map((s) => [s.id, s]));
   // The verse comes with the line that quotes it, Rashi with the line that names him.
   const open = L.cues(byId.open);
-  assert.ok(byId.open.say[open.pasukLine].includes('ויצא יעקב מבאר שבע'));
-  assert.ok(byId.open.say[open.noteLine].includes('רש"י'));
+  // A line is the narrator's (a string) or a character's ({who, text, ...}).
+  const bare = (s) => s.replace(/[\u0591-\u05C7]/g, '');
+  assert.ok(bare(L.lineText(byId.open.say[open.pasukLine])).includes('ויצא יעקב מבאר שבע'));
+  assert.ok(L.lineText(byId.open.say[open.noteLine]).includes('רש"י'));
   for (const s of film.scenes) {
     const c = L.cues(s);
     assert.equal(c.pasukLine >= 0, !!s.pasuk, s.id);
@@ -575,7 +577,7 @@ test('parasha film: gate, jumps, cues, subtitles and backdrop plan', async () =>
     if (s.pasuk && s.note && s.say.length > 1) assert.notEqual(c.pasukLine, c.noteLine, s.id);
     assert.ok(c.pasukLine < s.say.length && c.noteLine < s.say.length);
     // Subtitles: whole words, in order, nothing lost, no chunk too long, time runs 0..1.
-    for (const line of s.say) {
+    for (const line of s.say.map(L.lineText)) {
       const chunks = L.subtitlePlan(line, 54);
       assert.equal(chunks.flatMap((ch) => ch.words.map((w) => w.w)).join(' '), line.split(/\s+/).filter(Boolean).join(' '));
       for (const ch of chunks) assert.ok(ch.words.map((w) => w.w).join(' ').length <= 54 || ch.words.length === 1, line);
@@ -590,7 +592,7 @@ test('parasha film: gate, jumps, cues, subtitles and backdrop plan', async () =>
 
   // The painted backdrop: the light of the scene, and what stands on its ground.
   assert.equal(L.mood(byId.ladder), 'night');
-  assert.equal(L.mood(byId.wedding), 'lamp');
+  assert.equal(L.mood({ fx: 'night', img: 'Scene: Night inside the tent, oil lamps.' }), 'lamp');
   assert.equal(L.mood(byId.stones), 'sunset');
   assert.equal(L.mood(byId.open), 'dawn');
   assert.equal(L.mood(byId.speech) === 'night', false);
@@ -680,4 +682,58 @@ test('20-minute round: a subject closes after its minutes until the others had t
   r = rotation([s('english', 21, 1), s('think', 20, 2)], S, 20, ['know']);
   assert.equal(r.rounds, 1);
   assert.ok(guessyRound(3, 20) && guessyRound(2, 6) && !guessyRound(2, 12) && !guessyRound(1, 2));
+});
+
+test('parasha puppets: lines, acts, frame order, mouth from loudness', async () => {
+  const L = await import('../js/parashaLogic.js');
+  assert.deepEqual(L.sayLine('שלום'), { who: '', text: 'שלום', tone: '', act: '' });
+  assert.deepEqual(L.sayLine({ who: 'yaakov', text: ' שלום ', act: 'gesture' }), { who: 'yaakov', text: 'שלום', tone: '', act: 'gesture' });
+  assert.equal(L.lineMs({ who: 'a', text: 'א'.repeat(100) }), 7000);
+  assert.deepEqual(L.parseAct('gesture'), { gesture: true, turn: false, walk: null });
+  assert.deepEqual(L.parseAct('walk:0.3 turn'), { gesture: false, turn: true, walk: 0.3 });
+  assert.equal(L.parseAct('walk:1.2').walk, 1.2); // off the stage to the right
+  assert.equal(L.parseAct('walk:9').walk, 1.3);
+  assert.deepEqual(L.parseAct('dance'), { gesture: false, turn: false, walk: null });
+
+  // Bases first, then what is edited from them, then gesture_talk; a frame whose source is missing is left out.
+  const f = (p, ref) => ({ p, ref });
+  const cast = {
+    a: { frames: { gesture_talk: f('agt', 'gesture'), talk: f('at', 'base'), base: f('ab'), gesture: f('ag', 'base'), blink: f('abl', 'base') } },
+    b: { frames: { base: f('bb'), talk: f('bt', 'base'), gesture_talk: f('bgt', 'gesture') } },
+    c: { frames: { talk: f('ct', 'base') } },
+  };
+  assert.deepEqual(L.framePlan(cast).map((j) => `${j.who}.${j.name}<${j.ref}`), ['a.base<', 'b.base<', 'a.talk<base', 'a.blink<base', 'a.gesture<base', 'b.talk<base', 'a.gesture_talk<gesture']);
+  assert.deepEqual(L.framePlan(cast, ['b']).map((j) => j.name), ['base', 'talk']);
+  assert.deepEqual(L.framePlan(undefined), []);
+  assert.deepEqual(L.stagePlan({ stage: [{ who: 'a', x: 0.3, face: 'l', enter: 'r' }, { who: 'zzz', x: 0.5 }, { who: 'b', x: 7 }] }, cast),
+    [{ who: 'a', x: 0.3, face: -1, enter: 'r', scale: 1 }, { who: 'b', x: 1, face: 1, enter: '', scale: 1 }]);
+  assert.deepEqual(L.stagePlan({}, cast), []);
+  assert.equal(L.puppetGrade({ fx: 'sunset' }), 'warm');
+  assert.equal(L.puppetGrade({ fx: 'stars' }), 'night');
+  assert.equal(L.puppetGrade({ fx: 'light' }), 'glow');
+
+  // Loudness of a recording: silence, then a tone, relative to its own loud parts.
+  const rate = 8000;
+  const wave = Float32Array.from({ length: rate }, (_, i) => (i < rate / 2 ? 0 : 0.2 * Math.sin(i * 0.5)));
+  const track = L.envelope(wave, rate);
+  assert.equal(track.env.length, 40);
+  assert.equal(L.levelAt(track, 0.1), 0);
+  assert.ok(L.levelAt(track, 0.8) > 0.9);
+  assert.equal(L.levelAt(track, 5), 0);
+  assert.equal(L.levelAt(null, 0.2), 0);
+  assert.ok(L.envelope(new Float32Array(rate), rate).env.every((v) => v === 0));
+
+  // The mouth: opens on a loud sound, does not flicker, closes in silence, re-opens on a long sound.
+  const run = (level, ms) => { let st; let flips = 0; const log = []; for (let t = 0; t <= ms; t += 16) { const n = L.mouthStep(st, level(t), t); if (st && n.open !== st.open) flips += 1; st = n; log.push(n.open); } return { flips, log, st }; };
+  assert.equal(run(() => 0.05, 1000).log.some(Boolean), false);
+  const jitter = run((t) => (Math.floor(t / 16) % 2 ? 0.9 : 0), 1000); // loud/quiet every frame
+  assert.ok(jitter.flips <= Math.ceil(1000 / L.MOUTH.hold) && jitter.flips >= 4);
+  const steady = run(() => 0.9, 2000); // one long loud sound: the mouth still moves like syllables
+  assert.ok(steady.flips >= 6 && steady.flips <= 14);
+  const word = run((t) => (t > 200 && t < 400 ? 0.8 : 0), 800);
+  assert.equal(word.st.open, false);
+  assert.equal(word.log.filter(Boolean).length > 6, true);
+  let quiet = 0;
+  for (let t = 0; t < 10000; t += 16) { const v = L.flapLevel(t); assert.ok(v >= 0 && v <= 1); if (v < L.MOUTH.off) quiet += 1; }
+  assert.ok(quiet > 60 && quiet < 400);
 });
