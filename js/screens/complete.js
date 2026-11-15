@@ -1,7 +1,7 @@
 import { mixed, el } from '../util.js';
 import { loadThink, loadKnow } from '../course.js';
 import { requiredLessons } from '../thinkLogic.js';
-import { WEAK } from '../learnRules.js';
+import { WEAK, MASTERED } from '../learnRules.js';
 import { roundNow, isLocked } from '../rotation.js';
 import { roundCard } from './round.js';
 import { subjectOf } from '../insights.js';
@@ -9,6 +9,26 @@ import { subjectOf } from '../insights.js';
 // Confetti for the lesson-complete screen: a handful of coloured bits that fall once (CSS does the motion).
 const confetti = (n = 24) => el('div', { class: 'confetti', 'aria-hidden': 'true' }, Array.from({ length: n }, (_, i) =>
   el('i', { style: `--l: ${Math.round((i / n) * 100 + Math.random() * 4)}%; --d: ${Math.round(Math.random() * 600)}ms; --h: ${Math.round(Math.random() * 360)}; --r: ${Math.round(Math.random() * 360)}deg` })));
+
+// The "what counted" card: XP, learning time and mastery for this round, each with its reason.
+function scoreCard(p) {
+  const rows = [];
+  const add = (tone, icon, text) => rows.push(el('li', { class: `score-row ${tone}` }, el('span', { class: 'score-icon', 'aria-hidden': 'true' }, icon), el('span', {}, text)));
+  if (p.repeat === 'mastered') add('neutral', '⭐', 'לא קיבלת XP: כבר שלטת בשיעור הזה, וחזרה עליו לא נותנת נקודות. נקודות מקבלים על שיעור חדש.');
+  else if (p.guessy) add('warn', '⭐', `קיבלת רק חצי XP (\u200E+${p.xp} במקום \u200E+${p.fullXp}), כי היו ${p.guesses} ניחושים.`);
+  else if (p.repeat && p.repeat !== 'new' && p.accuracy > p.prevBest) add('good', '📈', `שיפור! מ־${p.prevBest}% ל־${p.accuracy}%, ולכן קיבלת XP מלא.`);
+  else if (p.repeat && p.repeat !== 'new') add('neutral', '⭐', `חצי XP: חזרת על שיעור בלי לשפר את הציון (הכי טוב שלך: ${p.prevBest}%).`);
+  else if (p.xp != null) add('good', '⭐', `\u200E+${p.xp} XP על שיעור חדש.`);
+  if (p.repeat === 'mastered') add('neutral', '⏱️', 'הזמן הזה לא נספר כזמן למידה, כי זו חזרה על משהו שכבר יודעים.');
+  else if (p.activeMin >= 1) add('good', '⏱️', `${p.activeMin} דקות נספרו לך כזמן למידה.`);
+  if (p.guessy) add('warn', '🎲', 'בגלל הניחושים השיעור לא נחשב כידוע. כדאי לחזור עליו לאט, ואז הוא ייחשב.');
+  else if (p.guesses > 0) add('warn', '🎲', p.guesses === 1 ? 'היה ניחוש אחד. ניחוש לא מלמד, אז כדאי לקרוא כל שאלה עד הסוף.' : `היו ${p.guesses} ניחושים. ניחוש לא מלמד, אז כדאי לקרוא כל שאלה עד הסוף.`);
+  if (!p.guessy && p.repeat !== 'mastered') {
+    if (p.accuracy >= MASTERED) add('good', '✅', 'השיעור נחשב אצלך כשולט (90% ומעלה).');
+    else if (p.accuracy >= WEAK) add('neutral', '👍', `השיעור עבר (${p.accuracy}%). מ־90% ומעלה הוא נחשב שליטה.`);
+  }
+  return rows.length ? el('div', { class: 'score-card' }, el('div', { class: 'score-head' }, '📋 מה נחשב בשיעור הזה'), el('ul', { class: 'score-list' }, rows)) : null;
+}
 
 export async function renderComplete(root, nav, p) {
   const { leagueView, getProfile, updateProfile, doneLessonIds } = await import('../progress.js');
@@ -68,8 +88,8 @@ export async function renderComplete(root, nav, p) {
   // A replay of a mastered lesson goes straight to the summary: nothing to celebrate there.
   const beats = [
     p.repeat === 'mastered' ? null : () => el('div', { class: 'screen complete beat' },
-      el('div', { class: 'beat-big' }, p.accuracy === 100 ? '🏆' : '🎉'),
-      el('h1', {}, p.accuracy === 100 ? 'שיעור מושלם!' : 'סיימתם את השיעור!'),
+      el('div', { class: 'beat-big' }, p.guessy ? '🤔' : p.accuracy === 100 ? '🏆' : '🎉'),
+      el('h1', {}, p.guessy ? 'סיימת, אבל היו ניחושים' : p.accuracy === 100 ? 'שיעור מושלם!' : 'סיימתם את השיעור!'),
       el('div', { class: 'xp-fly', dir: 'ltr' }, `+${p.xp} XP`, stars()),
       el('p', {}, ...mixed(p.lessonTitle))),
     streakUp ? () => el('div', { class: 'screen complete beat' },
@@ -101,10 +121,8 @@ export async function renderComplete(root, nav, p) {
     league.myRow ? el('button', { class: 'league-note', type: 'button', onclick: () => nav('league') },
       `${league.tier.icon} מקום ${league.myRow.rank} בליגת ${league.tier.name}`) : null,
     p.goalMetNow ? el('p', { class: 'goal-met' }, 'עמדתם ביעד היומי ✔') : null,
-    // Repeats: a mastered lesson earns nothing, a better score on a known lesson is celebrated,
-    // and a low score is marked for another try.
-    p.repeat === 'mastered' ? el('p', { class: 'repeat-done' }, '🔁 כבר שלטת בשיעור הזה, אז החזרה לא נתנה XP. הנקודות מחכות בשיעור חדש!')
-      : p.repeat !== 'new' && p.repeat && p.accuracy > p.prevBest ? el('p', { class: 'repeat-better' }, `📈 שיפור! מ־${p.prevBest}% ל־${p.accuracy}%`) : null,
+    // What counted and what didn't, and why, so the kid understands the rules.
+    scoreCard(p),
     !roundRow && p.accuracy < WEAK && !String(p.lessonId).startsWith('tp-') && !String(p.lessonId).startsWith('coach') ? el('div', { class: 'retry-row' },
       el('p', {}, '↻ השיעור הזה מסומן במסלול "לחזק". כשחוזרים עליו ומשתפרים, מקבלים שוב XP.'),
       el('button', { class: 'btn', type: 'button', onclick: () => nav('lesson', { lessonId: p.lessonId }) }, 'לנסות שוב עכשיו')) : null,

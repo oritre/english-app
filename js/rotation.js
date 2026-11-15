@@ -15,14 +15,24 @@ export function roundMinutes(profile) {
   return g >= 1 && g <= 12 ? DEFAULT_ROUND_MIN : 0;
 }
 
-// General knowledge can run out (every video for the grade watched); then the round doesn't wait for it.
+// A subject with nothing new left doesn't hold the round: general knowledge once
+// every video for the grade was watched, and the weekly parasha (one film a week)
+// once this week's films are done.
 async function exhausted(profile) {
+  const out = [];
+  let d = new Set();
+  try { d = new Set(await doneLessonIds()); } catch { return out; }
   try {
-    const [know, done] = await Promise.all([loadKnow(), doneLessonIds()]);
-    const d = new Set(done);
+    const know = await loadKnow();
     const ids = (know.courses || []).filter((c) => gradeFit(c, profile.grade) !== 'below').flatMap((c) => c.units.flatMap((u) => u.lessons));
-    return ids.length && ids.every((id) => d.has(id)) ? ['know'] : [];
-  } catch { return []; }
+    if (ids.length && ids.every((id) => d.has(id))) out.push('know');
+  } catch { /* no catalog */ }
+  try {
+    const r = await fetch('data/parasha.json');
+    const ids = r.ok ? [...new Set((await r.text()).match(/"p-[a-z0-9-]+"/g) || [])].map((x) => x.slice(1, -1)) : [];
+    if (!ids.length || ids.every((id) => d.has(id))) out.push('parasha');
+  } catch { out.push('parasha'); }
+  return out;
 }
 
 export async function roundNow(profile) {

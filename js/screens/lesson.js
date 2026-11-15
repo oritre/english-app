@@ -116,8 +116,13 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
   let slow = false;
   const teachCard = exercises.find((e) => e.type === 'teach');
   const SLOW = { type: '__slow' };
+  // The kid sees it too: a guessed answer says so on its feedback sheet.
+  let justGuessed = false;
+  const guessFlag = () => (justGuessed ? el('div', { class: 'guess-flag', role: 'note' },
+    '🎲 ', guesses >= GUESS_STOP ? 'עוד ניחוש. ' : '', 'ענית מהר מדי, וזה נראה כמו ניחוש. ניחוש לא נותן נקודות ולא נחשב. קרא את השאלה עד הסוף ותחשוב.') : null);
   const noteGuess = (ex, outcome, ms) => {
     if (!isGuess({ type: ex.type, outcome, ms, taps })) return;
+    justGuessed = true;
     guesses++;
     if (guesses === GUESS_STOP && !slow) {
       slow = true;
@@ -136,6 +141,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       return finishLesson();
     }
     const ex = queue.shift();
+    justGuessed = false;
     body.replaceChildren();
     if (ex === SLOW) {
       body.append(el('div', { class: 'slow-card' },
@@ -260,7 +266,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
       el('div', { class: 'feedback-explain' }, ex.hint_he ? ['💡 ', ...mixed(ex.hint_he)] : 'אפשר לנסות שוב, או לראות את הפתרון.'));
     const tryBtn = el('button', { class: 'btn primary wide', type: 'button', onclick: again }, '🔁 נסו שוב');
     const showBtn = el('button', { class: 'btn wide', type: 'button', onclick: reveal }, '👀 הראו לי');
-    footer.replaceChildren(sheet, el('div', { class: 'retry-row' }, tryBtn, showBtn));
+    footer.replaceChildren(...[guessFlag(), sheet, el('div', { class: 'retry-row' }, tryBtn, showBtn)].filter(Boolean));
     footer.className = 'lesson-footer bad';
   }
 
@@ -328,7 +334,7 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
         : think && ex.explain_he ? why(ex.explain_he)
         : ex.explain_he && result !== 'correct' ? el('div', { class: 'feedback-explain grammar' }, '📘 ', ...mixed(ex.explain_he), readBtn(ex.explain_he))
           : ex.explain_he ? el('div', { class: 'feedback-explain' }, ...mixed(ex.explain_he), readBtn(ex.explain_he)) : null);
-    footer.replaceChildren(sheet, checkBtn);
+    footer.replaceChildren(...[guessFlag(), sheet, checkBtn].filter(Boolean));
     footer.className = `lesson-footer ${ok ? 'good' : 'bad'}`;
     checkBtn.disabled = false;
     checkBtn.textContent = 'המשך';
@@ -342,13 +348,14 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     const guessy = guessyRound(guesses, total);
     const fullXp = roundXp(repeat, xpForLesson({ mistakes: mistakes.size, total }), accuracy, prevBest);
     const xp = guessy ? Math.floor(fullXp / 2) : fullXp;
+    const activeMin = session ? Math.round(session.activeMs / 60000) : null;
     markFinished();
     endSession(); // saves the lesson's time now, so the round sees it on the next screen
     const streakInfo = await saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes: [...mistakes], repeat, guessy });
     await updateThinkLevel(lesson, lessonId).catch(() => {});
     // The concept cards' titles make the "what we learned" recap on the complete screen.
     const concepts = lesson.course ? exercises.filter((ex) => ex.type === 'teach' && ex.title_he).map((ex) => ex.title_he) : [];
-    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null, concepts, repeat, prevBest, guessy });
+    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null, concepts, repeat, prevBest, guessy, guesses, activeMin, fullXp });
   }
 
   // Think courses: three strong rounds in a row raise the course's level, three weak ones lower it.
