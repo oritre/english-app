@@ -102,14 +102,14 @@ class VoiceTest(unittest.TestCase):
             return fake_wav(), 'audio/wav'
         with self.assertRaises(LookupError):
             server.tts_file('Hello', 'en', {}, store, request)
-        a = server.tts_file(' Hello ', 'en', {'gemini_api_key': 'x'}, store, request)
-        b = server.tts_file('Hello', 'en', {'gemini_api_key': 'x'}, store, request)
+        a = server.tts_file(' Hello ', 'en', {'vertex_api_key': 'x'}, store, request)
+        b = server.tts_file('Hello', 'en', {'vertex_api_key': 'x'}, store, request)
         self.assertEqual((a, calls), (b, ['Hello']))
         with open(a, 'rb') as f:
             head = f.read(3)
         self.assertTrue(head == b'ID3' or head[0] == 0xFF)
         # raw PCM too
-        raw = server.tts_file('Raw', 'en', {'gemini_api_key': 'x'}, store, lambda t, o: (b'\x00\x10' * 4800, 'audio/L16;rate=24000'))
+        raw = server.tts_file('Raw', 'en', {'vertex_api_key': 'x'}, store, lambda t, o: (b'\x00\x10' * 4800, 'audio/L16;rate=24000'))
         self.assertGreater(os.path.getsize(raw), 100)
 
 
@@ -124,7 +124,7 @@ class VoiceServeTest(ServeTest):
             return fake_wav(), 'audio/wav'
         self.orig = server.tts_request
         server.tts_request = request
-        self.httpd.RequestHandlerClass.options = {'gemini_api_key': 'x'}
+        self.httpd.RequestHandlerClass.options = {'vertex_api_key': 'x'}
 
     def tearDown(self):
         server.tts_request = self.orig
@@ -152,6 +152,21 @@ class VoiceServeTest(ServeTest):
         self.assertEqual(self.get(self.url('no key yet'))[0], 404)
 
 
+class BillingTest(unittest.TestCase):
+    def test_paid_key_is_not_used_unless_allowed(self):
+        self.assertIsNone(server.backend({'gemini_api_key': 'paid'}))
+        self.assertEqual(server.backend({'gemini_api_key': 'paid', 'allow_paid_key': True}), 'paid')
+        self.assertEqual(server.backend({'gemini_api_key': 'paid', 'vertex_api_key': 'v'}), 'vertex')
+        store = tempfile.mkdtemp()
+        with self.assertRaises(LookupError):
+            server.img_file('A tent', {'gemini_api_key': 'paid'}, store, lambda p, o: (fake_png(), 'image/png'))
+
+    def test_vertex_address(self):
+        url = server.vertex_url({'vertex_api_key': 'k', 'vertex_project': 'p1'}, 'gemini-2.5-flash-image')
+        self.assertEqual(url, 'https://aiplatform.googleapis.com/v1/projects/p1/locations/global/publishers/google/models/gemini-2.5-flash-image:generateContent?key=k')
+        self.assertTrue(server.vertex_url({'vertex_api_key': 'k', 'vertex_location': 'us-central1'}, 'm').startswith('https://us-central1-aiplatform.googleapis.com/'))
+
+
 def fake_png():
     import subprocess
     return subprocess.run(['ffmpeg', '-loglevel', 'error', '-f', 'lavfi', '-i', 'color=c=blue:s=64x36', '-frames:v', '1',
@@ -177,8 +192,8 @@ class PictureTest(unittest.TestCase):
             return fake_png(), 'image/png'
         with self.assertRaises(LookupError):
             server.img_file('A well', {}, store, request)
-        a = server.img_file(' A well ', {'gemini_api_key': 'x'}, store, request)
-        b = server.img_file('A well', {'gemini_api_key': 'x'}, store, request)
+        a = server.img_file(' A well ', {'vertex_api_key': 'x'}, store, request)
+        b = server.img_file('A well', {'vertex_api_key': 'x'}, store, request)
         self.assertEqual((a, calls), (b, ['A well']))
         with open(a, 'rb') as f:
             self.assertEqual(f.read(2), b'\xff\xd8')
@@ -193,7 +208,7 @@ class PictureServeTest(ServeTest):
             return fake_png(), 'image/png'
         self.orig = server.img_request
         server.img_request = request
-        self.httpd.RequestHandlerClass.options = {'gemini_api_key': 'x'}
+        self.httpd.RequestHandlerClass.options = {'vertex_api_key': 'x'}
 
     def tearDown(self):
         server.img_request = self.orig
