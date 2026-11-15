@@ -1,7 +1,7 @@
 // App shell is cache-first; course data and the Firebase config are network-first
 // so new lessons (or turning sync on) show up as soon as they're deployed, and
 // still work offline afterwards.
-const CACHE_NAME = 'english-app-v66';
+const CACHE_NAME = 'english-app-v67';
 const ASR_CACHE = 'asr-lib-3.8.1';
 const APP_SHELL = [
   './', './index.html', './manifest.webmanifest', './css/styles.css',
@@ -30,7 +30,7 @@ self.addEventListener('install', (event) => {
 self.addEventListener('activate', (event) => {
   event.waitUntil(caches.keys()
     // Only old app shells; the speech model's caches survive app updates.
-    .then((names) => Promise.all(names.filter((n) => n.startsWith('english-app-v66') && n !== CACHE_NAME).map((n) => caches.delete(n))))
+    .then((names) => Promise.all(names.filter((n) => n.startsWith('english-app-v67') && n !== CACHE_NAME).map((n) => caches.delete(n))))
     .then(() => self.clients.claim()));
 });
 

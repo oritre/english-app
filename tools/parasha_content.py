@@ -25,6 +25,8 @@ Run: python3 tools/parasha_content.py
 import json
 import os
 
+from parasha_videos import VIDEOS
+
 ROOT = os.path.join(os.path.dirname(__file__), '..', 'data')
 
 STYLE = ('Painterly storybook illustration for a Jewish children\'s Torah film: warm gouache and soft watercolor '
@@ -626,9 +628,21 @@ def build():
         ps = [p for p in PARASHOT if p['book'] == bid]
         if not ps:
             continue
+        units = [{'id': f'p-{bid}', 'title_he': title, 'about_he': about, 'lessons': [p['id'] for p in ps]}]
+        vids = [v for p in ps for v in VIDEOS.get(p['id'], [])]
+        if vids:
+            units.append({'id': f'p-{bid}-v', 'title_he': '🎬 סרטונים', 'about_he': 'סרטונים של הידברות קידס על הפרשה',
+                          'lessons': [v[0] for v in vids]})
+            for lesson_id, title_he, exercises in vids:
+                for i, ex in enumerate(exercises, 1):
+                    ex['id'] = f'{lesson_id}e{i}'
+                    assert ex['type'] == 'video' or ex['answer'] in ex['options'], lesson_id
+                titles[lesson_id] = title_he
+                with open(os.path.join(ROOT, 'lessons', f'{lesson_id}.json'), 'w', encoding='utf-8') as f:
+                    json.dump({'id': lesson_id, 'unit_id': f'p-{bid}-v', 'course': bid, 'title_he': title_he,
+                               'exercises': exercises}, f, ensure_ascii=False, indent=1)
         courses.append({'id': bid, 'area': 'torah', 'icon': icon, 'color': color, 'title_he': title, 'about_he': about,
-                        'grades': [1, 8], 'units': [{'id': f'p-{bid}', 'title_he': title, 'about_he': about,
-                                                     'lessons': [p['id'] for p in ps]}]})
+                        'grades': [1, 8], 'units': units})
     for p in PARASHOT:
         check(p)
         titles[p['id']] = f"פרשת {p['name_he']}"
