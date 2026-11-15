@@ -1,0 +1,113 @@
+{
+ "id": "t-gates-f7",
+ "unit_id": "t-gates-u5",
+ "course": "gates",
+ "title_he": "אתגר: מעגלים חכמים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מעגלים שעושים עבודה",
+   "body_he": [
+    "עכשיו מעגלים אמיתיים: שער שמצביע לפי רוב, משווה, ובורר שבוחר כניסה.",
+    "בכל שאלה כדאי לבדוק כמה שורות של הטבלה."
+   ],
+   "say_he": "מעגלים שעושים עבודה עכשיו מעגלים אמיתיים: שער שמצביע לפי רוב, משווה, ובורר שבוחר כניסה. בכל שאלה כדאי לבדוק כמה שורות של הטבלה.",
+   "id": "t-gates-f7e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "שער רוב: 3 כניסות, ויוצא 1 אם לפחות 2 מהן 1. מה יוצא ל-1, 0, 1?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "שתי כניסות מתוך שלוש הן 1: הרוב 1.",
+   "hint_he": "כמה מהכניסות הן 1?",
+   "keep_order": true,
+   "id": "t-gates-f7e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "בכמה מתוך 8 השורות שער הרוב נותן 1?",
+   "answer": "4",
+   "explain_he": "011, 101, 110 ו-111.",
+   "hint_he": "ספרו שורות עם 2 או 3 אחדים",
+   "id": "t-gates-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה ביטוי הוא שער הרוב?",
+   "answer": "(A AND B) OR (A AND C) OR (B AND C)",
+   "options": [
+    "(A AND B) OR (A AND C) OR (B AND C)",
+    "A AND B AND C",
+    "A OR B OR C"
+   ],
+   "explain_he": "מספיק שזוג אחד כלשהו יהיה 1 ו-1.",
+   "id": "t-gates-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "משווה: מעגל שנותן 1 כש-A שווה ל-B. מה הוא?",
+   "answer": "NOT(A XOR B)",
+   "options": [
+    "NOT(A XOR B)",
+    "A AND B",
+    "A OR B"
+   ],
+   "explain_he": "XOR נותן 1 כשהן שונות. ההפך שלו נותן 1 כשהן שוות, גם 00 וגם 11.",
+   "hint_he": "XOR נותן 1 כשהן שונות",
+   "id": "t-gates-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בורר: אם S = 0 יוצא A, ואם S = 1 יוצא B. כאן S = 1, A = 0, B = 1. מה יוצא?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "S = 1, אז יוצא B, שהוא 1.",
+   "hint_he": "S = 1, אז מסתכלים על B",
+   "keep_order": true,
+   "id": "t-gates-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה ביטוי מתאר את הבורר?",
+   "answer": "((NOT S) AND A) OR (S AND B)",
+   "options": [
+    "((NOT S) AND A) OR (S AND B)",
+    "(S AND A) OR B",
+    "S XOR A XOR B"
+   ],
+   "explain_he": "כש-S = 0 רק החלק הראשון יכול להיות 1, והוא שווה ל-A. כש-S = 1 רק השני, והוא שווה ל-B.",
+   "hint_he": "בדקו S = 0 ו-S = 1",
+   "id": "t-gates-f7e7"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה שורות יש בטבלת אמת של מעגל עם 10 כניסות?",
+   "answer": "1024",
+   "explain_he": "2 בחזקת 10 = 1024.",
+   "hint_he": "2 בחזקת 10",
+   "id": "t-gates-f7e8"
+  },
+  {
+   "type": "number",
+   "prompt_he": "אתגר: 0111 + 0110 בבינארי. כתבו את התוצאה בעשרוני",
+   "answer": "13",
+   "explain_he": "0111 = 7 ו-0110 = 6. 7 + 6 = 13 (בבינארי 1101).",
+   "hint_he": "המירו כל מספר לעשרוני",
+   "id": "t-gates-f7e9"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מעבד מבצע 3 מיליארד צעדים בשנייה. כמה מיליארדי צעדים ב-10 שניות?",
+   "answer": "30",
+   "explain_he": "3 × 10 = 30 מיליארד, וכל צעד עובר דרך מיליוני שערים.",
+   "id": "t-gates-f7e10"
+  }
+ ]
+}

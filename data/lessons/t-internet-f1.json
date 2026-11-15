@@ -1,0 +1,147 @@
+{
+ "id": "t-internet-f1",
+ "unit_id": "t-internet-u3",
+ "course": "internet",
+ "title_he": "לקוח ושרת",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "לקוח ושרת",
+   "body_he": [
+    "כשנכנסים לאתר, המחשב שלנו (הלקוח) שולח בקשה למחשב רחוק (השרת).",
+    "השרת שולח בחזרה את הדף בחבילות, והדפדפן מרכיב ומציג אותו."
+   ],
+   "say_he": "לקוח ושרת כשנכנסים לאתר, המחשב שלנו (הלקוח) שולח בקשה למחשב רחוק (השרת). השרת שולח בחזרה את הדף בחבילות, והדפדפן מרכיב ומציג אותו.",
+   "id": "t-internet-f1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בכתובת https://www.example.co.il/books, מה שם האתר (הדומיין)?",
+   "answer": "example.co.il",
+   "options": [
+    "example.co.il",
+    "https",
+    "books",
+    "www"
+   ],
+   "explain_he": "שם האתר הוא החלק שלפני הלוכסן הראשון אחרי https://, בלי www.",
+   "hint_he": "הורידו את https:// ואת www",
+   "id": "t-internet-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מסמן \".il\" בסוף שם האתר?",
+   "answer": "שהאתר רשום בישראל",
+   "options": [
+    "שהאתר רשום בישראל",
+    "שהאתר חינמי",
+    "שהאתר מוצפן"
+   ],
+   "explain_he": "לכל מדינה יש סיומת: il לישראל.",
+   "id": "t-internet-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ומה מסמן \"/books\" בסוף הכתובת?",
+   "answer": "דף או תיקייה בתוך האתר",
+   "options": [
+    "דף או תיקייה בתוך האתר",
+    "שם של אתר אחר",
+    "הסיסמה של האתר"
+   ],
+   "explain_he": "אחרי שם האתר בא המסלול לדף מסוים בתוכו.",
+   "id": "t-internet-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ההבדל בין http ל-https?",
+   "answer": "ב-https החיבור מוצפן",
+   "options": [
+    "ב-https החיבור מוצפן",
+    "https מהיר פי 2",
+    "אין הבדל"
+   ],
+   "explain_he": "ה-s היא secure: מאובטח.",
+   "hint_he": "מה מוסיפה האות s?",
+   "id": "t-internet-f1e5"
+  },
+  {
+   "type": "order",
+   "prompt_he": "סדרו מה קורה כשלוחצים על קישור",
+   "items": [
+    "הדפדפן מבקש מ-DNS את הכתובת המספרית",
+    "הבקשה נשלחת לשרת",
+    "השרת שולח את הדף בחבילות",
+    "הדפדפן מרכיב ומציג את הדף"
+   ],
+   "explain_he": "קודם מוצאים את הכתובת, אחר כך מבקשים, מקבלים ומציגים.",
+   "hint_he": "קודם מוצאים את הכתובת המספרית",
+   "rtl": true,
+   "ends": [
+    "ראשון",
+    "אחרון"
+   ],
+   "id": "t-internet-f1e6"
+  },
+  {
+   "type": "buckets",
+   "prompt_he": "לקוח או שרת?",
+   "buckets": [
+    {
+     "id": "client",
+     "label": "📱 לקוח"
+    },
+    {
+     "id": "server",
+     "label": "🗄️ שרת"
+    }
+   ],
+   "items": [
+    {
+     "label": "הטלפון שפותח אתר",
+     "in": "client"
+    },
+    {
+     "label": "מחשב ששומר את אתר הספרייה",
+     "in": "server"
+    },
+    {
+     "label": "הדפדפן במחשב בבית",
+     "in": "client"
+    },
+    {
+     "label": "מחשב ששולח דואר לכל מי שמבקש",
+     "in": "server"
+    }
+   ],
+   "explain_he": "לקוח מבקש, ושרת עונה ומגיש.",
+   "hint_he": "מי מבקש ומי עונה?",
+   "id": "t-internet-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו כתובת חשודה?",
+   "answer": "www.mybank.co.il.free-gift.com",
+   "options": [
+    "www.mybank.co.il.free-gift.com",
+    "www.mybank.co.il"
+   ],
+   "explain_he": "שם האתר האמיתי הוא החלק האחרון לפני הלוכסן: free-gift.com. מישהו הכניס \"mybank\" לתחילת הכתובת כדי לבלבל.",
+   "hint_he": "מה החלק האחרון של שם האתר?",
+   "id": "t-internet-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בכתובת shop.example.com, מהו האתר הראשי?",
+   "answer": "example.com",
+   "options": [
+    "example.com",
+    "shop",
+    "shop.com"
+   ],
+   "explain_he": "shop הוא חלק בתוך האתר example.com.",
+   "hint_he": "החלק האחרון של השם",
+   "id": "t-internet-f1e9"
+  }
+ ]
+}

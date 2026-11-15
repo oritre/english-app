@@ -1,0 +1,117 @@
+{
+ "id": "t-gates-f5",
+ "unit_id": "t-gates-u4",
+ "course": "gates",
+ "title_he": "NAND בונה הכול",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "שער אחד לכל דבר",
+   "body_he": [
+    "עובדה מפתיעה: מספיק סוג אחד של שער, NAND, כדי לבנות כל מעגל שהוא.",
+    "למשל: NAND שמקבל את אותה כניסה פעמיים, NAND(A, A), הוא בדיוק NOT A."
+   ],
+   "say_he": "שער אחד לכל דבר עובדה מפתיעה: מספיק סוג אחד של שער, NAND, כדי לבנות כל מעגל שהוא. למשל: NAND שמקבל את אותה כניסה פעמיים, NAND(A, A), הוא בדיוק NOT A.",
+   "id": "t-gates-f5e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "NAND(0, 0) = ?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "AND(0, 0) = 0, ו-NOT הופך ל-1.",
+   "hint_he": "קודם AND, ואז הפכו",
+   "keep_order": true,
+   "id": "t-gates-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "A = 1. מה NAND(A, A)?",
+   "answer": "0",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "NAND(1, 1) = 0: יצא ההפך מ-A, בדיוק כמו NOT.",
+   "hint_he": "NAND(1, 1)",
+   "keep_order": true,
+   "id": "t-gates-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך בונים AND משערי NAND?",
+   "answer": "NAND, ואחריו NAND שמשמש כ-NOT",
+   "options": [
+    "NAND, ואחריו NAND שמשמש כ-NOT",
+    "שני NAND זה לצד זה",
+    "אי אפשר"
+   ],
+   "explain_he": "NAND הוא AND הפוך. הופכים אותו שוב, ומקבלים AND.",
+   "id": "t-gates-f5e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה שערי NAND יש ב-AND כזה?",
+   "answer": "2",
+   "explain_he": "אחד שעושה NAND, ועוד אחד שהופך.",
+   "hint_he": "NAND אחד ועוד NOT אחד",
+   "id": "t-gates-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "OR אפשר לבנות כך: NAND(NOT A, NOT B). בדקו: A = 0, B = 1. מה יוצא?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "NOT A = 1, NOT B = 0, ו-NAND(1, 0) = 1. וגם OR(0, 1) = 1. מתאים!",
+   "hint_he": "קודם הפכו את A ואת B",
+   "keep_order": true,
+   "id": "t-gates-f5e6"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה שערי NAND יש ב-OR כזה, אם כל NOT הוא NAND אחד?",
+   "answer": "3",
+   "explain_he": "שני NOT ועוד NAND אחד: 3.",
+   "hint_he": "NOT ל-A, NOT ל-B, ו-NAND",
+   "id": "t-gates-f5e7"
+  },
+  {
+   "type": "number",
+   "prompt_he": "XOR בונים מ-4 שערי NAND. כמה NAND יש בחצי מחבר (XOR ו-AND), אם בונים כל אחד בנפרד?",
+   "answer": "6",
+   "explain_he": "4 ל-XOR ועוד 2 ל-AND: 6.",
+   "hint_he": "4 + 2",
+   "id": "t-gates-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "השער הראשון ב-XOR הזה הוא NAND(A, B). איך אפשר לחסוך שער בחצי המחבר?",
+   "answer": "להפוך את NAND(A, B) הקיים עם NAND אחד, ולקבל AND",
+   "options": [
+    "להפוך את NAND(A, B) הקיים עם NAND אחד, ולקבל AND",
+    "לוותר על ההעברה",
+    "אי אפשר לחסוך"
+   ],
+   "explain_he": "AND הוא NOT של NAND, ו-NAND(A, B) כבר בנוי. מוסיפים רק שער אחד, וביחד 5 במקום 6.",
+   "id": "t-gates-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה יצרני שבבים אוהבים לבנות הכול מסוג שער אחד?",
+   "answer": "קל יותר לייצר המון רכיבים זהים",
+   "options": [
+    "קל יותר לייצר המון רכיבים זהים",
+    "כי שערים אחרים אסורים",
+    "כי כך המחשב לא צריך חשמל"
+   ],
+   "explain_he": "מפעל יכול להתמחות ברכיב אחד ולייצר ממנו מיליארדים בשבב אחד.",
+   "id": "t-gates-f5e10"
+  }
+ ]
+}

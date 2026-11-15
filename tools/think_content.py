@@ -389,7 +389,9 @@ def main():
     from think_full_b import FULL as FB
     from think_full_c import FULL as FC
     from think_full_d import FULL as FD
-    for full in (FA, FB, FC, FD):
+    from think_full_e import FULL as FE
+    from think_full_f import FULL as FF
+    for full in (FA, FB, FC, FD, FE, FF):
         for k, v in full.items():
             deep[k] = deep.get(k, []) + v
     seen = set()

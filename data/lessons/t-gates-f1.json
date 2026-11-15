@@ -1,0 +1,118 @@
+{
+ "id": "t-gates-f1",
+ "unit_id": "t-gates-u3",
+ "course": "gates",
+ "title_he": "טבלת אמת",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "טבלת אמת",
+   "body_he": [
+    "טבלת אמת מראה מה יוצא מהשער בכל צירוף אפשרי של הכניסות.",
+    "לשער עם 2 כניסות יש 4 שורות: 00, 01, 10, 11."
+   ],
+   "say_he": "טבלת אמת טבלת אמת מראה מה יוצא מהשער בכל צירוף אפשרי של הכניסות. לשער עם 2 כניסות יש 4 שורות: 00, 01, 10, 11.",
+   "id": "t-gates-f1e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה שורות יש בטבלת אמת של שער עם 3 כניסות?",
+   "answer": "8",
+   "explain_he": "כל כניסה מכפילה את מספר השורות: 2 × 2 × 2 = 8.",
+   "hint_he": "עם 1 יש 2, עם 2 יש 4...",
+   "id": "t-gates-f1e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "בטבלה של AND עם 2 כניסות, בכמה שורות יוצא 1?",
+   "answer": "1",
+   "explain_he": "רק בשורה 11.",
+   "hint_he": "AND צריך ששתי הכניסות יהיו 1",
+   "id": "t-gates-f1e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "ובטבלה של OR עם 2 כניסות?",
+   "answer": "3",
+   "explain_he": "בשורות 01, 10 ו-11. רק 00 נותן 0.",
+   "hint_he": "מתי OR נותן 0?",
+   "id": "t-gates-f1e4"
+  },
+  {
+   "type": "teach",
+   "title_he": "NAND ו-NOR",
+   "body_he": [
+    "NAND הוא AND ואחריו NOT: יוצא 0 רק כששתי הכניסות 1.",
+    "NOR הוא OR ואחריו NOT: יוצא 1 רק כששתי הכניסות 0."
+   ],
+   "say_he": "NAND ו-NOR NAND הוא AND ואחריו NOT: יוצא 0 רק כששתי הכניסות 1. NOR הוא OR ואחריו NOT: יוצא 1 רק כששתי הכניסות 0.",
+   "id": "t-gates-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "NAND(1, 1) = ?",
+   "answer": "0",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "AND(1, 1) = 1, ו-NOT הופך ל-0.",
+   "hint_he": "קודם AND, ואז הפכו",
+   "keep_order": true,
+   "id": "t-gates-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "NOR(0, 0) = ?",
+   "answer": "1",
+   "options": [
+    "0",
+    "1"
+   ],
+   "explain_he": "OR(0, 0) = 0, ו-NOT הופך ל-1.",
+   "hint_he": "קודם OR, ואז הפכו",
+   "keep_order": true,
+   "id": "t-gates-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה שער נותן את הטבלה הזו?",
+   "answer": "XOR",
+   "options": [
+    "AND",
+    "OR",
+    "XOR",
+    "NAND"
+   ],
+   "explain_he": "יוצא 1 בדיוק כשהכניסות שונות: זה XOR.",
+   "hint_he": "מתי יוצא 1?",
+   "visual": "0 0 → 0\n0 1 → 1\n1 0 → 1\n1 1 → 0",
+   "keep_order": true,
+   "id": "t-gates-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ואיזה שער נותן את הטבלה הזו?",
+   "answer": "NAND",
+   "options": [
+    "AND",
+    "OR",
+    "XOR",
+    "NAND"
+   ],
+   "explain_he": "יוצא 0 רק ב-11: זה NAND, ההפך של AND.",
+   "hint_he": "באיזו שורה יוצא 0?",
+   "visual": "0 0 → 1\n0 1 → 1\n1 0 → 1\n1 1 → 0",
+   "keep_order": true,
+   "id": "t-gates-f1e9"
+  },
+  {
+   "type": "number",
+   "prompt_he": "XOR עם 3 כניסות נותן 1 כשמספר האחדים אי-זוגי. בכמה שורות מתוך 8 יוצא 1?",
+   "answer": "4",
+   "explain_he": "השורות 001, 010, 100 (אחד אחד) ו-111 (שלושה אחדים): 4.",
+   "hint_he": "כתבו את 8 השורות וספרו אחדים",
+   "id": "t-gates-f1e10"
+  }
+ ]
+}
