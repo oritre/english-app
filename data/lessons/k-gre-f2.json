@@ -21,7 +21,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A sunny ancient Greek city on a hill above a blue sea: white marble columns of a public building, men in tunics and cloaks talking in a busy open square, a semicircular stone theater carved into the hillside, olive trees.",
      "move": "out",
      "fx": "light",
-     "art": "👨👨",
+     "art": "👨 👨",
      "say": [
       "כדי להבין את חנוכה, צריך קודם להכיר את יוון. היוונים היו עם של חכמים ואמנים.",
       "הם פיתחו את הגאומטריה, חקרו את הכוכבים, כתבו ספרים על הגוף ועל הטבע. הם בנו תיאטראות, ערכו תחרויות ספורט, ובעיר אתונה אף ניהלו את העיר בהצבעה של האזרחים.",
@@ -41,7 +41,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A new Greek-style city in the Land of Israel: a wide paved street with columns, a sports hall building, young men in short Greek tunics, and on a nearby rooftop an old Jewish man in a robe and head covering watching sadly.",
      "move": "left",
      "fx": "dust",
-     "art": "👴👨",
+     "art": "👴 👨",
      "say": [
       "אחרי אלכסנדר, התרבות היוונית התפשטה בכל העולם. קוראים לזה \"הלניזם\", מהמילה \"הלאס\", כך קראו היוונים לארצם.",
       "גם בארץ ישראל קמו ערים בסגנון יווני, עם עמודי שיש, בתי התעמלות ותיאטראות. השפה היוונית נשמעה בשווקים.",
@@ -58,7 +58,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The steps leading up to the Temple in Jerusalem in harsh midday light, a richly dressed man in a fine Greek cloak handing a heavy leather pouch to a royal official, while an old sage in a simple robe watches sadly from the side.",
      "move": "left",
      "fx": "dust",
-     "art": "👨👨👴",
+     "art": "👨 👨 👴",
      "say": [
       "ההתייוונות הגיעה עד לבית המקדש עצמו. בימים ההם היו אנשים שקנו מהמלך היווני את תפקיד הכהן הגדול, תמורת כסף רב.",
       "גם חז\"ל אומרים על ימי הבית השני, שהיו שנתנו ממון כדי לקבל את הכהונה הגדולה, ולכן רבים מהכהנים הגדולים לא החזיקו מעמד אפילו שנה.",
@@ -73,7 +73,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Twilight split scene: on the left a cold marble hall with empty pedestals and columns in silver light, on the right a warm small study room in Jerusalem with an old sage and boys learning from a scroll by an oil lamp.",
      "move": "right",
      "fx": "light",
-     "art": "👴👦",
+     "art": "👴 👦",
      "say": [
       "חז\"ל לא היו נגד חכמה. הם אמרו: אם יאמר לך אדם יש חכמה בגויים, תאמין. אבל אם יאמר לך יש תורה בגויים, אל תאמין.",
       "ההבדל היה במקור. אצל היוונים, האדם הוא המרכז, והשכל שלו קובע מה טוב ומה רע. הם גם עבדו אלילים רבים.",
@@ -91,7 +91,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: In Alexandria in Egypt: a row of separate small stone rooms along a sunny courtyard, in each one an old Jewish sage with a white beard and head covering writing on a long scroll at a desk, palm trees and the sea beyond.",
      "move": "left",
      "fx": "light",
-     "art": "👴👴👴",
+     "art": "👴 👴 👴",
      "say": [
       "במצרים שלט אז המלך תלמי. הגמרא במסכת מגילה מספרת שהוא אסף שבעים ושניים זקנים מחכמי ישראל.",
       "הוא הכניס כל אחד מהם לחדר נפרד, ולא גילה להם למה. ואז ציווה על כל אחד: כתוב לי את תורת משה רבך ביוונית.",
@@ -112,7 +112,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: An old sage with a white beard and head covering sitting with a young student under a fig tree in the Galilee at sunset, teaching him by heart with a raised finger, no book between them, a warm and close feeling.",
      "move": "in",
      "fx": "sunset",
-     "art": "👴👦",
+     "art": "👴 👦",
      "say": [
       "ומה עם התורה שבעל פה? אותה אי אפשר היה לתרגם באמת.",
       "המדרש מספר שהקדוש ברוך הוא ידע מראש שהגויים יתרגמו את התורה שבכתב ויאמרו: גם אנחנו ישראל! ולכן נתן לנו את המשנה, התורה שבעל פה, שהיא כמו סוד בין השם לעמו.",
@@ -182,7 +182,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A sunny ancient Greek city on a hill above a blue sea: white marble columns of a public building, men in tunics and cloaks talking in a busy open square, a semicircular stone theater carved into the hillside, olive trees.",
      "move": "out",
      "fx": "light",
-     "art": "👨👨",
+     "art": "👨 👨",
      "say": [
       "כדי להבין את חנוכה, צריך קודם להכיר את יוון. היוונים היו עם של חכמים ואמנים.",
       "הם פיתחו את הגאומטריה, חקרו את הכוכבים, כתבו ספרים על הגוף ועל הטבע. הם בנו תיאטראות, ערכו תחרויות ספורט, ובעיר אתונה אף ניהלו את העיר בהצבעה של האזרחים.",
@@ -202,7 +202,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A new Greek-style city in the Land of Israel: a wide paved street with columns, a sports hall building, young men in short Greek tunics, and on a nearby rooftop an old Jewish man in a robe and head covering watching sadly.",
      "move": "left",
      "fx": "dust",
-     "art": "👴👨",
+     "art": "👴 👨",
      "say": [
       "אחרי אלכסנדר, התרבות היוונית התפשטה בכל העולם. קוראים לזה \"הלניזם\", מהמילה \"הלאס\", כך קראו היוונים לארצם.",
       "גם בארץ ישראל קמו ערים בסגנון יווני, עם עמודי שיש, בתי התעמלות ותיאטראות. השפה היוונית נשמעה בשווקים.",
@@ -219,7 +219,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The steps leading up to the Temple in Jerusalem in harsh midday light, a richly dressed man in a fine Greek cloak handing a heavy leather pouch to a royal official, while an old sage in a simple robe watches sadly from the side.",
      "move": "left",
      "fx": "dust",
-     "art": "👨👨👴",
+     "art": "👨 👨 👴",
      "say": [
       "ההתייוונות הגיעה עד לבית המקדש עצמו. בימים ההם היו אנשים שקנו מהמלך היווני את תפקיד הכהן הגדול, תמורת כסף רב.",
       "גם חז\"ל אומרים על ימי הבית השני, שהיו שנתנו ממון כדי לקבל את הכהונה הגדולה, ולכן רבים מהכהנים הגדולים לא החזיקו מעמד אפילו שנה.",
@@ -234,7 +234,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Twilight split scene: on the left a cold marble hall with empty pedestals and columns in silver light, on the right a warm small study room in Jerusalem with an old sage and boys learning from a scroll by an oil lamp.",
      "move": "right",
      "fx": "light",
-     "art": "👴👦",
+     "art": "👴 👦",
      "say": [
       "חז\"ל לא היו נגד חכמה. הם אמרו: אם יאמר לך אדם יש חכמה בגויים, תאמין. אבל אם יאמר לך יש תורה בגויים, אל תאמין.",
       "ההבדל היה במקור. אצל היוונים, האדם הוא המרכז, והשכל שלו קובע מה טוב ומה רע. הם גם עבדו אלילים רבים.",
@@ -254,7 +254,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: In Alexandria in Egypt: a row of separate small stone rooms along a sunny courtyard, in each one an old Jewish sage with a white beard and head covering writing on a long scroll at a desk, palm trees and the sea beyond.",
      "move": "left",
      "fx": "light",
-     "art": "👴👴👴",
+     "art": "👴 👴 👴",
      "say": [
       "במצרים שלט אז המלך תלמי. הגמרא במסכת מגילה מספרת שהוא אסף שבעים ושניים זקנים מחכמי ישראל.",
       "הוא הכניס כל אחד מהם לחדר נפרד, ולא גילה להם למה. ואז ציווה על כל אחד: כתוב לי את תורת משה רבך ביוונית.",
@@ -297,7 +297,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: An old sage with a white beard and head covering sitting with a young student under a fig tree in the Galilee at sunset, teaching him by heart with a raised finger, no book between them, a warm and close feeling.",
      "move": "in",
      "fx": "sunset",
-     "art": "👴👦",
+     "art": "👴 👦",
      "say": [
       "ומה עם התורה שבעל פה? אותה אי אפשר היה לתרגם באמת.",
       "המדרש מספר שהקדוש ברוך הוא ידע מראש שהגויים יתרגמו את התורה שבכתב ויאמרו: גם אנחנו ישראל! ולכן נתן לנו את המשנה, התורה שבעל פה, שהיא כמו סוד בין השם לעמו.",

@@ -40,7 +40,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A teenage prince in a long tunic sitting on a stone bench in a garden of olive trees in Macedonia, listening to an older bearded teacher in a cloak who holds a scroll, soft morning light.",
      "move": "in",
      "fx": "light",
-     "art": "👴👦",
+     "art": "👴 👦",
      "say": [
       "כשאלכסנדר היה נער, אביו, המלך פיליפוס, הביא לו מורה פרטי: אריסטו, אחד מגדולי החכמים של יוון.",
       "אריסטו לימד אותו פילוסופיה, מדע ורפואה. אלכסנדר אהב מאוד את התרבות היוונית, ושאף להפיץ אותה בכל העולם.",
@@ -75,7 +75,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Scene: alexander in a large army tent at evening, seated on a folding chair, a few men in dark robes bowing before him and pointing toward the distant hills of Jerusalem, lamps glowing, his face thoughtful.",
      "move": "left",
      "fx": "night",
-     "art": "👨👨",
+     "art": "👨 👨",
      "say": [
       "הגמרא במסכת יומא מספרת: הכותים, שכניהם של היהודים ואויביהם, באו אל אלכסנדר.",
       "הכותים היו צאצאי העמים שהביא מלך אשור לשומרון, אחרי שהגלה את עשרת השבטים. הם בנו לעצמם מקדש על הר גריזים, ושנאו את המקדש שבירושלים.",
@@ -91,7 +91,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: A long procession at night walking on a road through the Judean hills: kohanim in white robes and elders of Israel carrying burning torches, shimon at the front in full priestly garments, the torchlight glowing on the stones.",
      "move": "right",
      "fx": "night",
-     "art": "👴👨👨",
+     "art": "👴 👨 👨",
      "say": [
       "שמעון הצדיק לבש את בגדי הכהונה של הכהן הגדול. איתו יצאו נכבדי ירושלים, ובידיהם אבוקות של אש.",
       "כל הלילה הלכו. מצד אחד צעדו היהודים עם האבוקות, ומן הצד השני התקרב צבאו של אלכסנדר.",
@@ -108,7 +108,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: At dawn on a wide road, alexander stepping down from his chariot and bowing his head respectfully before shimon in his white and gold garments, soldiers standing still in surprise behind, the first golden sunlight between them.",
      "move": "in",
      "fx": "sunset",
-     "art": "👨👴",
+     "art": "👨 👴",
      "say": [
       "כשעלה עמוד השחר ראה אלכסנדר את שמעון הצדיק. ואז קרה דבר מדהים: המלך הגדול ירד ממרכבתו, והשתחווה לפני הכהן הגדול.",
       "אנשיו שאלו בתדהמה: מלך גדול כמוך משתחווה ליהודי הזה?",
@@ -128,7 +128,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Inside an enormous ancient synagogue hall in Alexandria with double rows of tall columns, a great crowd of Jewish men in robes and head coverings, a man on a raised wooden platform in the center lifting a white cloth, golden chairs along the walls.",
      "move": "up",
      "fx": "light",
-     "art": "👨👨👨",
+     "art": "👨 👨 👨",
      "say": [
       "בעיר אלכסנדריה שבמצרים, שאלכסנדר ייסד, התיישבה קהילה יהודית גדולה מאוד.",
       "הגמרא במסכת סוכה מספרת על בית הכנסת שלהם: הוא היה כל כך גדול, שעמדו בו שבעים ואחד כיסאות של זהב, כנגד שבעים ואחד חכמי הסנהדרין הגדולה.",
@@ -199,7 +199,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A teenage prince in a long tunic sitting on a stone bench in a garden of olive trees in Macedonia, listening to an older bearded teacher in a cloak who holds a scroll, soft morning light.",
      "move": "in",
      "fx": "light",
-     "art": "👴👦",
+     "art": "👴 👦",
      "say": [
       "כשאלכסנדר היה נער, אביו, המלך פיליפוס, הביא לו מורה פרטי: אריסטו, אחד מגדולי החכמים של יוון.",
       "אריסטו לימד אותו פילוסופיה, מדע ורפואה. אלכסנדר אהב מאוד את התרבות היוונית, ושאף להפיץ אותה בכל העולם.",
@@ -236,7 +236,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Scene: alexander in a large army tent at evening, seated on a folding chair, a few men in dark robes bowing before him and pointing toward the distant hills of Jerusalem, lamps glowing, his face thoughtful.",
      "move": "left",
      "fx": "night",
-     "art": "👨👨",
+     "art": "👨 👨",
      "say": [
       "הגמרא במסכת יומא, דף ס\"ט, מספרת: הכותים, שכניהם של היהודים ואויביהם, באו אל אלכסנדר.",
       "הכותים היו צאצאי העמים שהביא מלך אשור לשומרון, אחרי שהגלה את עשרת השבטים. הם בנו לעצמם מקדש על הר גריזים, ושנאו את המקדש שבירושלים.",
@@ -253,7 +253,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: A long procession at night walking on a road through the Judean hills: kohanim in white robes and elders of Israel carrying burning torches, shimon at the front in full priestly garments, the torchlight glowing on the stones.",
      "move": "right",
      "fx": "night",
-     "art": "👴👨👨",
+     "art": "👴 👨 👨",
      "say": [
       "שמעון הצדיק לבש את בגדי הכהונה של הכהן הגדול. איתו יצאו נכבדי ירושלים, ובידיהם אבוקות של אש.",
       "כל הלילה הלכו. מצד אחד צעדו היהודים עם האבוקות, ומן הצד השני התקרב צבאו של אלכסנדר.",
@@ -270,7 +270,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath. Alexander: a young clean-shaven king with wavy hair in a bronze breastplate, long red cloak and long tunic. Shimon HaTzaddik: a tall, white-bearded Kohen Gadol in white and gold priestly garments with a golden headplate. Scene: At dawn on a wide road, alexander stepping down from his chariot and bowing his head respectfully before shimon in his white and gold garments, soldiers standing still in surprise behind, the first golden sunlight between them.",
      "move": "in",
      "fx": "sunset",
-     "art": "👨👴",
+     "art": "👨 👴",
      "say": [
       "כשעלה עמוד השחר ראה אלכסנדר את שמעון הצדיק. ואז קרה דבר מדהים: המלך הגדול ירד ממרכבתו, והשתחווה לפני הכהן הגדול.",
       "אנשיו שאלו בתדהמה: מלך גדול כמוך משתחווה ליהודי הזה?",
@@ -290,7 +290,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Jerusalem on a clear winter day, people in robes and head coverings walking happily up toward the Temple, the golden stones bright in the sun, children running ahead.",
      "move": "up",
      "fx": "light",
-     "art": "👨👩👦",
+     "art": "👨 👩 👦",
      "say": [
       "חכמים קבעו את היום הזה, כ\"ה בטבת, כיום שמחה. הוא נכתב בספר קדום שנקרא \"מגילת תענית\", ובו רשימה של ימים טובים שבהם נעשו נסים לישראל.",
       "שימו לב לעוצמה של הסיפור: לא חרבות ולא צבא הצילו את המקדש, אלא צדיק אחד ותפילה.",
@@ -311,7 +311,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Inside an enormous ancient synagogue hall in Alexandria with double rows of tall columns, a great crowd of Jewish men in robes and head coverings, a man on a raised wooden platform in the center lifting a white cloth, golden chairs along the walls.",
      "move": "up",
      "fx": "light",
-     "art": "👨👨👨",
+     "art": "👨 👨 👨",
      "say": [
       "בעיר אלכסנדריה שבמצרים, שאלכסנדר ייסד, התיישבה קהילה יהודית גדולה מאוד.",
       "הגמרא במסכת סוכה מספרת על בית הכנסת שלהם: הוא היה כל כך גדול, שעמדו בו שבעים ואחד כיסאות של זהב, כנגד שבעים ואחד חכמי הסנהדרין הגדולה.",

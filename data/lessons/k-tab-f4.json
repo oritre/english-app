@@ -36,7 +36,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Autumn olive harvest: the family spreads a large cloth under an olive tree; Saba shakes a branch, the children gather green and black olives into buckets.",
      "move": "left",
      "fx": "sunset",
-     "art": "👴👦👧🌳",
+     "art": "👴 👦 👧 🌳",
      "say": [
       "בסתיו הזיתים מבשילים. בהתחלה הם ירוקים, ואחר כך הם נעשים סגולים ושחורים.",
       "כל המשפחה יוצאת למסיק, כך קוראים לקטיף הזיתים.",
@@ -52,7 +52,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: Close-up: the boy makes a funny bitter face after tasting an olive straight from the tree, while his sister laughs; beside them glass jars of olives soaking in salty water.",
      "move": "in",
      "fx": null,
-     "art": "👦👧",
+     "art": "👦 👧",
      "say": [
       "אבל רגע, אל תאכלו זית ישר מהעץ! הוא מר מאוד. אוי, איזה פרצוף!",
       "כדי שיהיה טעים, משרים אותו הרבה זמן, שבועות שלמים, במים ומלח. רק אז הזית נעשה טעים.",
@@ -123,7 +123,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A winter evening: a silver menorah with small olive-oil cups burns in a window facing the street; on the table a plate of sufganiyot and latkes, the children watching the flames.",
      "move": "out",
      "fx": "night",
-     "art": "👦👧🕎",
+     "art": "👦 👧 🕎",
      "say": [
       "לכן בחנוכה אנחנו מדליקים נרות, שמונה ימים. ומניחים את החנוכייה ליד החלון או בפתח, כדי שכולם יראו את הנס.",
       "הרבה משפחות מדליקות דווקא בשמן זית, כמו במקדש.",
@@ -138,7 +138,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A family Shabbat table outdoors under an olive tree at sunset; young olive saplings grow around the tree, and the children sit happily around the table.",
      "move": "out",
      "fx": "sunset",
-     "art": "👴👦👧🌳",
+     "art": "👴 👦 👧 🌳",
      "say": [
       "דוד המלך כתב בתהלים: ״בניך כשתילי זיתים, סביב לשולחנך״.",
       "מסביב לעץ זית זקן, צומחים שתילים קטנים. הם יגדלו, ויהיו עצים חזקים כמוהו.",

@@ -40,7 +40,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. Scene: Two fields side by side in spring: one of green-golden barley already ripening, one of tall wheat still green; Saba holds an ear of each.",
      "move": "left",
      "fx": "sunset",
-     "art": "👴🌾",
+     "art": "👴 🌾",
      "say": [
       "הראשונים הם חיטה ושעורה. מחיטה כבר למדנו: ממנה עושים קמח, לחם וחלה.",
       "השעורה דומה לחיטה, אבל לשיבולת שלה יש שערות ארוכות. אולי מכאן השם שלה: ״שעורה״.",
@@ -128,7 +128,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A family table after a meal: a plate with a slice of cake, a cup of grape juice and a few figs and dates; the children read from small blessing cards.",
      "move": "in",
      "fx": null,
-     "art": "👦👧",
+     "art": "👦 👧",
      "say": [
       "גם אחרי שאוכלים משבעת המינים, יש ברכה מיוחדת.",
       "אחרי עוגה ועוגיות, אומרים ״על המחיה״. אחרי מיץ ענבים, ״על הגפן״.",
@@ -159,7 +159,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: the Land of Israel today and in olden times: wheat fields, olive groves, vineyards, a family farm in the Galilee hills, a village bakery and warm Jewish homes. Rich earthy golds, greens and olive tones, bright natural daylight unless stated otherwise. Saba: a kind Israeli grandfather farmer in his late sixties with a short white beard, a knitted kippah, a light blue work shirt with long sleeves and khaki trousers. The children: a boy of about seven with short brown hair, a knitted kippah and tzitzit, and his sister of about nine with a long braid in a long-sleeved navy dress. Scene: A grand view at sunset of the Land of Israel: wheat fields, an olive grove, a vineyard, a dairy farm and beehives across the hills; Saba and the children stand on a hill looking at it all.",
      "move": "out",
      "fx": "sunset",
-     "art": "👴👦👧",
+     "art": "👴 👦 👧",
      "say": [
       "עשינו מסע ארוך: מהשדה לטחנה, מהרפת למחלבה, מהכוורת, מבית הבד ומהכרם, ועד השולחן שלנו.",
       "למדנו שעל כל דבר יש ברכה משלו: המוציא, מזונות, הגפן, העץ, האדמה ושהכל.",

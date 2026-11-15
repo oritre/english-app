@@ -64,6 +64,22 @@ def course(cid, area, icon, color, title_he, about_he, grades, levels, style, ca
             'grades': grades, 'levels': list(levels), 'style': style, 'cast': cast, 'units': units}
 
 
+def _spaced(art):
+    """'👴👨👨' -> '👴 👨 👨': the app's fallback (js/parashaLogic.js artPlan) reads emoji split by spaces."""
+    out, join = [], False
+    for ch in str(art or ''):
+        if ch.isspace():
+            join = False
+            out.append(' ')
+            continue
+        glue = ch in '\ufe0f\u20e3\u200d' or 0x1F3FB <= ord(ch) <= 0x1F3FF or ch == '~'
+        if out and out[-1] != ' ' and not glue and not join:
+            out.append(' ')
+        out.append(ch)
+        join = ch == '\u200d' or ch == '~'
+    return ' '.join(''.join(out).split())
+
+
 def _prompt(c, sc):
     cast = ' '.join(c['cast'][x] for x in sc['cast'])
     return f"{BASE_STYLE} {c['style']} {cast} Scene: {sc['img']}".strip()
@@ -84,7 +100,7 @@ def _film(c, les, level):
         note = sc['note']
         scenes.append({
             'id': sc['id'], 'title_he': sc['title_he'], 'img': _prompt(c, sc), 'move': sc['move'], 'fx': sc['fx'],
-            'art': sc['art'], 'say': _lines(sc, level),
+            'art': _spaced(sc['art']), 'say': _lines(sc, level),
             'pasuk': {'text': sc['pasuk'][0], 'ref': sc['pasuk'][1]} if sc['pasuk'] else None,
             'note': {'who': note[0], 'text': note[1]} if note and level in note[2] else None,
         })

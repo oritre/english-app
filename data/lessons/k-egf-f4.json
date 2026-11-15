@@ -21,7 +21,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: An ancient Egyptian village at sunrise: flat-roofed mud-brick houses, palm trees, a woman in a long linen dress and head covering baking flat bread in a clay oven, children feeding geese, the Nile behind.",
      "move": "out",
      "fx": "sunset",
-     "art": "🏠🌴",
+     "art": "🏠 🌴",
      "say": [
       "בוקר בכפר מצרי עתיק. השמש עולה מעל הנילוס, והתרנגולות והאווזים כבר צועקים.",
       "הבתים בנויים מלבנים של בוץ, עם גג שטוח. בלילות החמים של הקיץ, משפחות ישנו על הגג.",
@@ -118,7 +118,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: An Egyptian market by the river: baskets full of fresh fish, cucumbers, watermelons, leeks, onions and garlic, round flat breads, people in long linen robes buying and selling.",
      "move": "right",
      "fx": null,
-     "art": "🐟🍉",
+     "art": "🐟 🍉",
      "say": [
       "מה אכלו במצרים? הרבה לחם, כי חיטה ושעורה היו בשפע.",
       "ומהנהר דגו דגים בשפע, ברשתות ובחכות.",

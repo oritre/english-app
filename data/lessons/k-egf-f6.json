@@ -41,7 +41,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: Night in a small Hebrew house in Egypt: two brave midwives in long dresses and head coverings quietly carry a wrapped newborn baby to its mother, a small oil lamp glowing, faces full of courage.",
      "move": "in",
      "fx": "night",
-     "art": "👩👶",
+     "art": "👩 👶",
      "say": [
       "פרעה גזר גזירה אכזרית על התינוקות של בני ישראל. אבל גם בזמן הקשה, היו גיבורים.",
       "המיילדות, שפרה ופועה, יראו את השם. הן לא שמעו בקול פרעה, והצילו את הילדים.",
@@ -135,7 +135,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol. Moshe: a tall man with a dark beard, in a simple wool robe and head cloth, holding a wooden staff. Scene: The splitting of the sea: a wide dry path through the sea with tall walls of blue-green water on both sides, a huge crowd of Hebrew families with children, sheep and wagons walking through at dawn, Moshe at the front lifting his staff, a pillar of cloud glowing softly above.",
      "move": "up",
      "fx": "light",
-     "art": "🌊🚶",
+     "art": "🌊 🚶",
      "say": [
       "בני ישראל יצאו ממצרים ביד רמה: כשש מאות אלף גברים, מלבד נשים וילדים.",
       "אבל פרעה התחרט, ורדף אחריהם עם כל המרכבות שלו, עד שפת ים סוף.",
@@ -155,7 +155,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: ancient Egypt along the Nile: palm trees, papyrus reeds, mud-brick villages, sandstone buildings seen from outside, golden desert and pyramids. Warm sunlight. Egyptians wear long white linen robes with sleeves. Never show statues of gods or anyone bowing to an idol.  Scene: A warm Seder night today: a religious family around a festive table with matzot, a Seder plate, wine cups and Haggadot, a boy in a kippah asking a question while his father listens with a smile, candles glowing.",
      "move": "out",
      "fx": "light",
-     "art": "🍷👨👦",
+     "art": "🍷 👨 👦",
      "say": [
       "אז מה למדנו ממצרים העתיקה? מצרים הייתה הממלכה הכי חזקה בעולם: נהר ענק, פירמידות, חכמים וצבא גדול.",
       "אבל היא עבדה לאלילי שקר: לנהר, לשמש, לשה, ואפילו לפרעה. וכל אלה לא יכלו להציל אותה.",

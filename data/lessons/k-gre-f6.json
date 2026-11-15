@@ -38,7 +38,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A sage with a white beard and fine robe sitting in a beautiful study hall in the Galilee in morning light, many scholars around him, a scribe carefully writing on scrolls, green hills through the arched windows.",
      "move": "in",
      "fx": "light",
-     "art": "👴👨👨",
+     "art": "👴 👨 👨",
      "say": [
       "אחרי מרד בר כוכבא, מרכז התורה עבר לגליל. החכמים המשיכו ללמוד, בתנאים קשים מאוד.",
       "כמה דורות אחר כך, רבי יהודה הנשיא חשש שבגלל הצרות והגלות, התורה שבעל פה תישכח.",
@@ -55,7 +55,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A large ancient study hall in Babylonia beside a river with palm trees, hundreds of sages and students in robes and head coverings sitting on mats around their teachers, debating with lively hand gestures, warm evening light.",
      "move": "out",
      "fx": "sunset",
-     "art": "👴👨👨👦",
+     "art": "👴 👨 👨 👦",
      "say": [
       "אחרי המשנה המשיכו החכמים, הנקראים אמוראים, לעיין ולשאול: מה פירוש כל משנה? מאיפה היא לומדת? ומה עושים במקרה חדש?",
       "הם לימדו בארץ ישראל, וגם בבבל, שם חיה קהילה יהודית גדולה מחוץ לשלטון רומא.",
@@ -93,7 +93,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The tall stone arches of an ancient Roman aqueduct running along a golden sandy beach beside the blue sea at Caesarea in Israel, gentle waves, a family in modest clothes walking along the sand in the afternoon sun.",
      "move": "right",
      "fx": "light",
-     "art": "👨👩👦",
+     "art": "👨 👩 👦",
      "say": [
       "ומה נשאר מרומא? בחוף קיסריה תוכלו לראות עד היום את קשתות אמת המים שבנו הרומאים, כדי להביא מים לעיר ממרחק רב.",
       "הרומאים סללו עשרות אלפי קילומטרים של דרכים מאבן. חלק מהדרכים המודרניות באירופה עוברות עד היום באותם מסלולים.",
@@ -113,7 +113,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Ancient Roman ruins in a quiet field at sunset: broken columns lying in the grass, a crumbling arch covered with ivy, sheep grazing peacefully between the stones, a calm golden sky.",
      "move": "out",
      "fx": "sunset",
-     "art": "🐑🐑🪨",
+     "art": "🐑 🐑 🪨",
      "say": [
       "אבל האימפריה עצמה? לפני יותר מאלף וחמש מאות שנה נפלה רומא בידי שבטים שפלשו אליה מצפון.",
       "השפה שלה, לטינית, כבר אינה שפה שמדברים בה בבית. האלילים של יוון ורומא נשכחו, ואף אחד בעולם אינו עובד אותם עוד.",
@@ -151,7 +151,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A boy of about twelve with a kippah sitting at a table in a modern Jerusalem home in the evening, learning from an open book of Mishnayot with his father, a Chanukah menorah with lit candles on the windowsill and the Old City walls outside.",
      "move": "in",
      "fx": "light",
-     "art": "👨👦",
+     "art": "👨 👦",
      "say": [
       "ועכשיו הביטו בילד הזה. הוא יושב בירושלים, העיר שהרומאים חרשו, ולומד משנה עם אבא שלו.",
       "המשנה הזאת היא בדיוק המשנה של תלמידי רבי עקיבא. בחלון דולקים נרות חנוכה, בדיוק כמו בימי החשמונאים.",
@@ -200,7 +200,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A sage with a white beard and fine robe sitting in a beautiful study hall in the Galilee in morning light, many scholars around him, a scribe carefully writing on scrolls, green hills through the arched windows.",
      "move": "in",
      "fx": "light",
-     "art": "👴👨👨",
+     "art": "👴 👨 👨",
      "say": [
       "אחרי מרד בר כוכבא, מרכז התורה עבר לגליל. החכמים המשיכו ללמוד, בתנאים קשים מאוד.",
       "כמה דורות אחר כך, רבי יהודה הנשיא חשש שבגלל הצרות והגלות, התורה שבעל פה תישכח.",
@@ -220,7 +220,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A large ancient study hall in Babylonia beside a river with palm trees, hundreds of sages and students in robes and head coverings sitting on mats around their teachers, debating with lively hand gestures, warm evening light.",
      "move": "out",
      "fx": "sunset",
-     "art": "👴👨👨👦",
+     "art": "👴 👨 👨 👦",
      "say": [
       "אחרי המשנה המשיכו החכמים, הנקראים אמוראים, לעיין ולשאול: מה פירוש כל משנה? מאיפה היא לומדת? ומה עושים במקרה חדש?",
       "הם לימדו בארץ ישראל, וגם בבבל, שם חיה קהילה יהודית גדולה מחוץ לשלטון רומא.",
@@ -279,7 +279,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: The tall stone arches of an ancient Roman aqueduct running along a golden sandy beach beside the blue sea at Caesarea in Israel, gentle waves, a family in modest clothes walking along the sand in the afternoon sun.",
      "move": "right",
      "fx": "light",
-     "art": "👨👩👦",
+     "art": "👨 👩 👦",
      "say": [
       "ומה נשאר מרומא? בחוף קיסריה תוכלו לראות עד היום את קשתות אמת המים שבנו הרומאים, כדי להביא מים לעיר ממרחק רב.",
       "הרומאים סללו עשרות אלפי קילומטרים של דרכים מאבן. חלק מהדרכים המודרניות באירופה עוברות עד היום באותם מסלולים.",
@@ -299,7 +299,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: Ancient Roman ruins in a quiet field at sunset: broken columns lying in the grass, a crumbling arch covered with ivy, sheep grazing peacefully between the stones, a calm golden sky.",
      "move": "out",
      "fx": "sunset",
-     "art": "🐑🐑🪨",
+     "art": "🐑 🐑 🪨",
      "say": [
       "אבל האימפריה עצמה? לפני יותר מאלף וחמש מאות שנה נפלה רומא בידי שבטים שפלשו אליה מצפון.",
       "השפה שלה, לטינית, כבר אינה שפה שמדברים בה בבית. האלילים של יוון ורומא נשכחו, ואף אחד בעולם אינו עובד אותם עוד.",
@@ -337,7 +337,7 @@
      "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Setting: Eretz Yisrael, Egypt and the Greek and Roman world about 2,300 to 1,800 years ago. Warm Mediterranean light, honey-stone Jerusalem, marble columns and plain temple buildings shown only as architecture, with no statues and nothing worshipped. Romans and Greeks in tunics and cloaks, Jews in robes and head coverings. No fighting shown, only armies far away or their aftermath.  Scene: A boy of about twelve with a kippah sitting at a table in a modern Jerusalem home in the evening, learning from an open book of Mishnayot with his father, a Chanukah menorah with lit candles on the windowsill and the Old City walls outside.",
      "move": "in",
      "fx": "light",
-     "art": "👨👦",
+     "art": "👨 👦",
      "say": [
       "ועכשיו הביטו בילד הזה. הוא יושב בירושלים, העיר שהרומאים חרשו, ולומד משנה עם אבא שלו.",
       "המשנה הזאת היא בדיוק המשנה של תלמידי רבי עקיבא. בחלון דולקים נרות חנוכה, בדיוק כמו בימי החשמונאים.",
