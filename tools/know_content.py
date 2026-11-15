@@ -124,8 +124,8 @@ def main():
         json.dump(out, f, ensure_ascii=False, indent=1)
     # Parasha videos (tools/parasha_videos.py) are downloaded by the same add-on.
     from parasha_videos import VIDEOS as PARASHA_VIDEOS
-    videos += [{'youtube': ex[0]['youtube'], 'lesson': lid, 'title_he': title}
-               for vs in PARASHA_VIDEOS.values() for lid, title, ex in vs]
+    videos += [{'youtube': ex[0]['youtube'], 'lesson': pid if n == 0 else lid, 'title_he': title}
+               for pid, vs in PARASHA_VIDEOS.items() for n, (lid, title, ex) in enumerate(vs)]
     # The list the Pi add-on (pi/english_media) downloads and serves.
     with open(os.path.join(ROOT, 'videos.json'), 'w', encoding='utf-8') as f:
         json.dump(videos, f, ensure_ascii=False, indent=1)

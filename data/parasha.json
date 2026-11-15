@@ -24,15 +24,7 @@
      "title_he": "ספר בראשית",
      "about_he": "בריאת העולם, האבות והאימהות, ויוסף ואחיו",
      "lessons": [
-      "p-vayetze"
-     ]
-    },
-    {
-     "id": "p-bereshit-v",
-     "title_he": "🎬 סרטונים",
-     "about_he": "סרטונים של הידברות קידס על הפרשה",
-     "lessons": [
-      "p-vayetze-v1",
+      "p-vayetze",
       "p-vayetze-v2",
       "p-vayetze-v3"
      ]
@@ -41,10 +33,9 @@
   }
  ],
  "lesson_titles": {
-  "p-vayetze-v1": "בעקבות הפרשה: ויצא",
+  "p-vayetze": "פרשת ויצא",
   "p-vayetze-v2": "סיפור לשבת: הביטחון של יעקב",
-  "p-vayetze-v3": "ההפטרה של ויצא",
-  "p-vayetze": "פרשת ויצא"
+  "p-vayetze-v3": "ההפטרה של ויצא"
  },
  "weeks": [
   {
