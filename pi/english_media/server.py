@@ -342,10 +342,36 @@ def sprite_hash(prompt, ref=''):
 
 
 def sprite_paths(h, store=STORE):
-    """(the painted original, the cut-out with a transparent background). v2 = cut by cut_out;
-    a v1 cut (green colorkey, which the model's grey backdrops defeated) is remade from the original."""
+    """(the painted original, the cut-out with a transparent background).
+    v3 = keyed from a green-backdrop edit of the original (<h>.green.jpg); v2 = cut_out of the original
+    (the fallback when the green edit can't be made)."""
     base = os.path.join(store, 'sprite', h)
-    return f'{base}.src.jpg', f'{base}.v2.webp'
+    return f'{base}.src.jpg', f'{base}.v3.webp'
+
+
+# Asked for a green backdrop when painting a character, the model paints a textured grey one anyway;
+# asked to EDIT a finished picture's backdrop to green, it does (tested 2026-11-15, Lavan and the shepherd).
+GREEN_EDIT = ('Edit this picture. Keep the character exactly the same: same face, body, pose, clothing, colors, '
+              'size and position in the frame. Replace everything around the character, including any shadow or '
+              'glow, with a perfectly flat, solid, pure green (#00FF00) background with no texture, no gradient, '
+              'no shadow and no outline around the figure.')
+
+
+def green_key(im):
+    """Transparent where the picture is clearly green (the characters wear no green), soft at the edge,
+    and the green spill on the figure's rim taken out."""
+    import numpy as np
+    from PIL import Image, ImageFilter
+    px = np.asarray(im.convert('RGB'), dtype=np.float32)
+    r, g, b = px[..., 0], px[..., 1], px[..., 2]
+    dom = g - np.maximum(r, b)
+    alpha = np.clip((70 - dom) / 50, 0, 1) * 255
+    a = Image.fromarray(alpha.astype(np.uint8)).filter(ImageFilter.MedianFilter(3))
+    a = a.filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(0.8))
+    px[..., 1] = np.where(dom > 0, np.maximum(r, b), g)  # despill
+    out = Image.fromarray(np.clip(px, 0, 255).astype(np.uint8)).convert('RGBA')
+    out.putalpha(a)
+    return out
 
 
 def sprite_request(prompt, options, ref=None):
@@ -419,59 +445,72 @@ def cut_out(im, local=6.0, glob=42.0):
     return out
 
 
-def to_sprite(image, src, out):
-    """Keep the original (for later edits) and cut its backdrop away into a transparent webp."""
-    if image is not None:
-        tmp = f'{src}.part.jpg'
-        subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', 'pipe:0', '-vf', 'scale=-2:1024', '-q:v', '3', tmp],
-                       input=image, check=True, timeout=60, capture_output=True)
-        os.replace(tmp, src)
+def save_jpg(image, target):
+    tmp = f'{target}.part.jpg'
+    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', 'pipe:0', '-vf', 'scale=-2:1024', '-q:v', '3', tmp],
+                   input=image, check=True, timeout=60, capture_output=True)
+    os.replace(tmp, target)
+
+
+def to_sprite(picture, out, key):
+    """The picture (a jpg path) keyed by key() into a 900-high transparent webp."""
     from PIL import Image
-    with Image.open(src) as im:
+    with Image.open(picture) as im:
         im = im.convert('RGB')
         im = im.resize((round(im.width * 900 / im.height), 900), Image.LANCZOS)
         tmp = f'{out}.part.webp'
-        cut_out(im).save(tmp, 'WEBP', quality=85, method=4)
+        key(im).save(tmp, 'WEBP', quality=85, method=4)
     os.replace(tmp, out)
 
 
 def sprite_file(prompt, options, store=STORE, ref='', request=None):
-    """The cut-out for one character frame, painted on first use. Raises when it cannot be made;
+    """The cut-out for one character frame, painted on first use: the frame (an edit of its ref frame's
+    original, if any), then a green-backdrop edit of it, keyed. Raises when it cannot be made;
     FileNotFoundError when the base frame (ref) has not been painted yet."""
     request = request or sprite_request
     h = sprite_hash(prompt, ref)
     src, out = sprite_paths(h, store)
     if os.path.exists(out):
         return out
-    if os.path.exists(src):  # painted before, cut with an older method: cut again, no new painting
-        with tts_locks_guard:
-            lock = tts_locks.setdefault(f'sprite:{h}', threading.Lock())
-        with lock:
-            if not os.path.exists(out):
-                to_sprite(None, src, out)
-        return out
-    ref_bytes = None
-    if ref:
-        ref_src = sprite_paths(ref, store)[0]
-        if not os.path.exists(ref_src):
-            raise FileNotFoundError('the base frame is not painted yet')
-        with open(ref_src, 'rb') as f:
-            ref_bytes = f.read()
-    if not backend(options):
-        raise LookupError(NO_BACKEND)
+    green = src.replace('.src.jpg', '.green.jpg')
+    fallback = src.replace('.src.jpg', '.v2.webp')
+    if not os.path.exists(src):
+        ref_bytes = None
+        if ref:
+            ref_src = sprite_paths(ref, store)[0]
+            if not os.path.exists(ref_src):
+                raise FileNotFoundError('the base frame is not painted yet')
+            with open(ref_src, 'rb') as f:
+                ref_bytes = f.read()
+        if not backend(options):
+            raise LookupError(NO_BACKEND)
     with tts_locks_guard:
         lock = tts_locks.setdefault(f'sprite:{h}', threading.Lock())
     with lock, img_slots:
-        if not os.path.exists(out):
-            os.makedirs(os.path.dirname(out), exist_ok=True)
-            try:
+        if os.path.exists(out):
+            return out
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        try:
+            if not os.path.exists(src):
                 image, _mime = request(prompt.strip(), options, ref_bytes)
-                to_sprite(image, src, out)
-            except Exception as e:
-                status['img_error'] = f'{time.strftime("%H:%M")} sprite {str(e)[:300]}'
-                raise
-            status['img_made'] += 1
+                save_jpg(image, src)
+                status['img_made'] += 1
+            if not os.path.exists(green):
+                if not backend(options):
+                    raise LookupError(NO_BACKEND)
+                with open(src, 'rb') as f:
+                    image, _mime = request(GREEN_EDIT, options, f.read())
+                save_jpg(image, green)
+                status['img_made'] += 1
+            to_sprite(green, out, green_key)
             status['img_error'] = None
+        except Exception as e:
+            status['img_error'] = f'{time.strftime("%H:%M")} sprite {str(e)[:300]}'
+            if not os.path.exists(src):
+                raise
+            if not os.path.exists(fallback):  # keyed from the grey original until the green edit works
+                to_sprite(src, fallback, cut_out)
+            return fallback
     return out
 
 
@@ -645,7 +684,8 @@ class Handler(BaseHTTPRequestHandler):
         if params.get('warm'):
             self.plain(200, 'ok')
             return
-        self.send_file(file, 'image/webp', 'public, max-age=31536000, immutable')
+        cache = 'no-cache' if file.endswith('.v2.webp') else 'public, max-age=31536000, immutable'
+        self.send_file(file, 'image/webp', cache)
 
     def send_file(self, file, ctype='video/mp4', cache='private, max-age=86400'):
         size = os.path.getsize(file)
