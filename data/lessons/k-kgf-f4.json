@@ -1,0 +1,642 @@
+{
+ "id": "k-kgf-f4",
+ "unit_id": "k-kgf-u2",
+ "course": "kings",
+ "title_he": "שלמה החכם מכל אדם",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "שלמה החכם מכל אדם",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך צעיר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: A very young king in a golden crown standing on a hill at Givon at sunrise beside a great bronze altar with rising smoke, priests in white linen and crowds of people around.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 👨 👨",
+     "say": [
+      "דוד נפטר, ובנו שלמה עלה על כיסא המלכות. הוא היה צעיר מאוד, ועכשיו הוא צריך להנהיג עם שלם.",
+      "לפני מותו, דוד ציווה להמליך את שלמה. צדוק הכהן ונתן הנביא משחו אותו בגיחון, וכל העם תקע בשופר וקרא: יחי המלך שלמה!",
+      "שלמה הלך לגבעון, שם עמד אז המזבח הגדול, והקריב אלף קורבנות להשם.",
+      "ובלילה, בגבעון, קרה לו דבר נפלא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שאל מה אתן לך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: Night: the young king asleep on a simple bed in a tent at Givon, a gentle soft light shining down from above through the tent opening, stars outside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👦",
+     "say": [
+      "השם נראה לשלמה בחלום ואמר לו: בקש מה שאתה רוצה, ואני אתן לך.",
+      "רגע. מה אתם הייתם מבקשים? עושר? כוח? חיים ארוכים?",
+      "שלמה ביקש דבר אחר לגמרי: \"לב שומע\". הוא אמר: תן לי לב שיודע להקשיב, כדי לשפוט את עמך, ולהבין בין טוב לרע.",
+      "והקדוש ברוך הוא שמח בבקשה. הוא אמר: כי לא ביקשת לעצמך עושר וכבוד – אני נותן לך חכמה כמו שלא הייתה לאף אדם.",
+      "וגם את מה שלא ביקשת אתן לך: עושר וכבוד.",
+      "שלמה התעורר, והבין שזה היה חלום מהשם. הוא חזר לירושלים, עמד לפני ארון הברית, הקריב קורבנות ועשה משתה לכל עבדיו."
+     ],
+     "pasuk": {
+      "text": "וְנָתַתָּ לְעַבְדְּךָ לֵב שֹׁמֵעַ לִשְׁפֹּט אֶת עַמְּךָ, לְהָבִין בֵּין טוֹב לְרָע",
+      "ref": "מלכים א ג, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שתי נשים ותינוק אחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: A grand throne room of cedar and gold: the young king on his throne listens closely to two women in long dresses and headscarves standing before him, one hugging a wrapped baby in a blanket, courtiers watching.",
+     "move": "left",
+     "fx": null,
+     "art": "👩 👶 👩",
+     "say": [
+      "והנה מבחן ראשון. שתי נשים באו אל המלך. הן גרו באותו בית, ולכל אחת מהן נולד תינוק.",
+      "בלילה קרה אסון, ואחד התינוקות נפטר. ועכשיו כל אחת טוענת: התינוק החי – הוא שלי!",
+      "אין עדים. אין סימנים. רק שתי נשים, וכל אחת אומרת \"שלי\".",
+      "איך אפשר לדעת מי האמא האמיתית?",
+      "ובאולם הגדול כולם שותקים ומסתכלים על המלך הצעיר. מה הוא יעשה?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "היא אמו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: Close-up: one of the women reaches out with both hands toward the king, pleading with tears and love, while the baby sleeps peacefully in a servant's arms; the king's face shows quiet understanding.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👶",
+     "say": [
+      "שלמה אמר משפט מפתיע: אם שתיכן אומרות \"שלי\" – נחלק את הילד לשניים, וכל אחת תקבל חצי.",
+      "כמובן, שלמה לא התכוון לעשות את זה. הוא רצה לראות מה יש בלב.",
+      "ומיד קפצה אחת הנשים וצעקה: לא! תן לה את הילד, רק שיישאר בחיים!",
+      "והשנייה אמרה: לא לי ולא לך.",
+      "שלמה הצביע על הראשונה ואמר: תנו לה את הילד – היא אמו. כי אמא אמיתית מוכנה לוותר על הכול, רק שהילד שלה יחיה.",
+      "וכל ישראל שמעו, והבינו: חכמת השם נמצאת בלבו של המלך."
+     ],
+     "pasuk": {
+      "text": "וַיִּרְאוּ כִּי חׇכְמַת אֱלֹקִים בְּקִרְבּוֹ לַעֲשׂוֹת מִשְׁפָּט",
+      "ref": "מלכים א ג, כח"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "איש תחת גפנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A peaceful village in the hills of Israel in the days of King Shlomo: a family sits together in the shade of their grapevine and fig tree, children playing, terraced fields and vineyards all around.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ימי שלמה היו ימים של שלום. לא היו מלחמות, והארץ הייתה מלאה ברכה.",
+      "התנ\"ך מתאר: כל איש ישב בבטחה תחת הגפן שלו ותחת התאנה שלו.",
+      "ושמו של שלמה התפרסם בכל העולם. הוא דיבר על העצים – מהארז הגדול בלבנון ועד האזוב הקטן שיוצא מהקיר – וגם על בעלי החיים, על העופות ועל הדגים.",
+      "ומכל העמים באו לשמוע את חכמתו.",
+      "והתנ\"ך אומר: יהודה וישראל היו רבים כחול הים, אוכלים ושותים ושמחים."
+     ],
+     "pasuk": {
+      "text": "אִישׁ תַּחַת גַּפְנוֹ וְתַחַת תְּאֵנָתוֹ",
+      "ref": "מלכים א ה, ה"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "השם \"שלמה\" קשור למילה \"שלום\". בימיו היה שלום בכל הגבולות."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "הבית לשם השם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: Jerusalem on Mount Moriah: the white and gold Holy Temple standing complete above its courtyards, crowds of people in festive modest clothing gathered below, a soft cloud of light resting above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠 👨 👩 👨",
+     "say": [
+      "והמשימה הגדולה של שלמה: לבנות את בית המקדש, כמו שהשם הבטיח לדוד אביו.",
+      "שבע שנים בנו אותו, עם אבנים גדולות ועצי ארזים מהלבנון. בבית המקדש עצמו לא נשמע קול של כלי ברזל.",
+      "וביום חנוכת הבית, שלמה עמד והתפלל לפני כל העם, והענן מילא את הבית.",
+      "על בית המקדש נלמד הרבה בקורס מיוחד. כאן רק נזכור: החכמה של שלמה הייתה לשם השם, ובשביל עם ישראל.",
+      "כך התקיימה ההבטחה לדוד: בנו בנה את הבית לשם השם, בעיר שדוד בחר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ספר משלי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A sage father with a beard and kippah sits with his young son outdoors on a warm afternoon, pointing at a long line of ants carrying seeds along a path, both smiling.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "שלמה כתב ספרים קדושים, שנמצאים בתנ\"ך. אחד מהם הוא ספר משלי.",
+      "משלי הוא ספר של עצות חכמות לחיים, כמו אבא שמדבר עם הבן שלו: \"שמע בני מוסר אביך, ואל תיטוש תורת אמך\".",
+      "יש שם משפטים קצרים וחכמים. למשל: \"לך אל נמלה עצל, ראה דרכיה וחכם\". תסתכל על הנמלה: איך היא עובדת קשה בקיץ, ואוספת אוכל לחורף.",
+      "ועוד משפט: \"מענה רך ישיב חמה\" – תשובה רכה ושקטה מרגיעה כעס. נסו את זה בפעם הבאה שמישהו כועס!",
+      "והמשפט הכי חשוב בספר: \"ראשית חכמה – יראת השם\". החכמה מתחילה מזה שאדם יודע שהשם רואה אותו.",
+      "וספר משלי נגמר בשיר \"אשת חיל\", שאנחנו שרים בכל ליל שבת לפני הקידוש."
+     ],
+     "pasuk": {
+      "text": "שְׁמַע בְּנִי מוּסַר אָבִיךָ וְאַל תִּטֹּשׁ תּוֹרַת אִמֶּךָ",
+      "ref": "משלי א, ח"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בתנ\"ך כתוב ששלמה אמר שלושת אלפים משלים, ושיריו היו אלף וחמישה."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "שיר השירים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Springtime in the hills of Israel: blossoming almond and fruit trees, vineyards in bloom, doves flying over Jerusalem, and in the foreground a festive Pesach table with matzot and a small open scroll.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "🕊️",
+     "say": [
+      "ספר אחר של שלמה הוא שיר השירים. זה שיר יפה ועמוק, והוא כתוב כמו משל.",
+      "חז\"ל ורש\"י מסבירים: כל השיר הוא משל על האהבה בין הקדוש ברוך הוא לבין עם ישראל.",
+      "איך השם בחר בנו, הוציא אותנו ממצרים, ונתן לנו את התורה. ואיך עם ישראל ממשיך לאהוב אותו, גם בגלות.",
+      "לכן קוראים את שיר השירים בפסח, חג היציאה ממצרים, ויש שאומרים אותו בכל ערב שבת.",
+      "ורבי עקיבא אמר עליו: כל השירים קודש, ושיר השירים – קודש קודשים."
+     ],
+     "pasuk": {
+      "text": "כׇּל הַשִּׁירִים קֹדֶשׁ, וְשִׁיר הַשִּׁירִים קֹדֶשׁ קָדָשִׁים",
+      "ref": "רבי עקיבא, משנה ידיים ג, ה"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "שלמה החכם מכל אדם",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך צעיר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: A very young king in a golden crown standing on a hill at Givon at sunrise beside a great bronze altar with rising smoke, priests in white linen and crowds of people around.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 👨 👨",
+     "say": [
+      "דוד נפטר, ובנו שלמה עלה על כיסא המלכות. הוא היה צעיר מאוד, ועכשיו הוא צריך להנהיג עם שלם.",
+      "לפני מותו, דוד ציווה להמליך את שלמה. צדוק הכהן ונתן הנביא משחו אותו בגיחון, וכל העם תקע בשופר וקרא: יחי המלך שלמה!",
+      "שלמה הלך לגבעון, שם עמד אז המזבח הגדול, והקריב אלף קורבנות להשם.",
+      "ובלילה, בגבעון, קרה לו דבר נפלא.",
+      "רש\"י אומר ששלמה היה אז בן שתים עשרה בלבד! לכן אמר על עצמו: \"ואנוכי נער קטן, לא אדע צאת ובוא\".",
+      "תחשבו: נער בגיל של תלמיד בכיתה ו', עומד בראש ממלכה גדולה.",
+      "ושלמה לא הרגיש חכם מכולם. להפך – הוא הרגיש קטן, והבין שבלי עזרת השם לא יוכל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שאל מה אתן לך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: Night: the young king asleep on a simple bed in a tent at Givon, a gentle soft light shining down from above through the tent opening, stars outside.",
+     "move": "in",
+     "fx": "night",
+     "art": "👦",
+     "say": [
+      "השם נראה לשלמה בחלום ואמר לו: בקש מה שאתה רוצה, ואני אתן לך.",
+      "רגע. מה אתם הייתם מבקשים? עושר? כוח? חיים ארוכים?",
+      "שלמה ביקש דבר אחר לגמרי: \"לב שומע\". הוא אמר: תן לי לב שיודע להקשיב, כדי לשפוט את עמך, ולהבין בין טוב לרע.",
+      "והקדוש ברוך הוא שמח בבקשה. הוא אמר: כי לא ביקשת לעצמך עושר וכבוד – אני נותן לך חכמה כמו שלא הייתה לאף אדם.",
+      "וגם את מה שלא ביקשת אתן לך: עושר וכבוד.",
+      "שלמה התעורר, והבין שזה היה חלום מהשם. הוא חזר לירושלים, עמד לפני ארון הברית, הקריב קורבנות ועשה משתה לכל עבדיו.",
+      "\"לב שומע\" הוא ביטוי מיוחד. שלמה לא ביקש רק לדעת הרבה. הוא ביקש לשמוע באמת את מי שעומד מולו – את הצער שלו, את האמת שלו.",
+      "חכם אמיתי הוא קודם כול מי שיודע להקשיב."
+     ],
+     "pasuk": {
+      "text": "וְנָתַתָּ לְעַבְדְּךָ לֵב שֹׁמֵעַ לִשְׁפֹּט אֶת עַמְּךָ, לְהָבִין בֵּין טוֹב לְרָע",
+      "ref": "מלכים א ג, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שתי נשים ותינוק אחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: A grand throne room of cedar and gold: the young king on his throne listens closely to two women in long dresses and headscarves standing before him, one hugging a wrapped baby in a blanket, courtiers watching.",
+     "move": "left",
+     "fx": null,
+     "art": "👩 👶 👩",
+     "say": [
+      "והנה מבחן ראשון. שתי נשים באו אל המלך. הן גרו באותו בית, ולכל אחת מהן נולד תינוק.",
+      "בלילה קרה אסון, ואחד התינוקות נפטר. ועכשיו כל אחת טוענת: התינוק החי – הוא שלי!",
+      "אין עדים. אין סימנים. רק שתי נשים, וכל אחת אומרת \"שלי\".",
+      "איך אפשר לדעת מי האמא האמיתית?",
+      "ובאולם הגדול כולם שותקים ומסתכלים על המלך הצעיר. מה הוא יעשה?",
+      "חשבו כמה זה קשה: אין עדים, אין סימנים, ושתיהן נשמעות בטוחות. שופט רגיל לא היה יודע מה לעשות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "היא אמו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: Close-up: one of the women reaches out with both hands toward the king, pleading with tears and love, while the baby sleeps peacefully in a servant's arms; the king's face shows quiet understanding.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👶",
+     "say": [
+      "שלמה אמר משפט מפתיע: אם שתיכן אומרות \"שלי\" – נחלק את הילד לשניים, וכל אחת תקבל חצי.",
+      "כמובן, שלמה לא התכוון לעשות את זה. הוא רצה לראות מה יש בלב.",
+      "ומיד קפצה אחת הנשים וצעקה: לא! תן לה את הילד, רק שיישאר בחיים!",
+      "והשנייה אמרה: לא לי ולא לך.",
+      "שלמה הצביע על הראשונה ואמר: תנו לה את הילד – היא אמו. כי אמא אמיתית מוכנה לוותר על הכול, רק שהילד שלה יחיה.",
+      "וכל ישראל שמעו, והבינו: חכמת השם נמצאת בלבו של המלך.",
+      "שלמה הבין דבר עמוק על הלב: מי שאוהבת באמת – מוכנה לוותר. ומי שרק רוצה לנצח – מוכנה שאף אחד לא יקבל. כך מבדילים בין אהבה לבין קנאה."
+     ],
+     "pasuk": {
+      "text": "וַיִּרְאוּ כִּי חׇכְמַת אֱלֹקִים בְּקִרְבּוֹ לַעֲשׂוֹת מִשְׁפָּט",
+      "ref": "מלכים א ג, כח"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "איש תחת גפנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A peaceful village in the hills of Israel in the days of King Shlomo: a family sits together in the shade of their grapevine and fig tree, children playing, terraced fields and vineyards all around.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ימי שלמה היו ימים של שלום. לא היו מלחמות, והארץ הייתה מלאה ברכה.",
+      "התנ\"ך מתאר: כל איש ישב בבטחה תחת הגפן שלו ותחת התאנה שלו.",
+      "ושמו של שלמה התפרסם בכל העולם. הוא דיבר על העצים – מהארז הגדול בלבנון ועד האזוב הקטן שיוצא מהקיר – וגם על בעלי החיים, על העופות ועל הדגים.",
+      "ומכל העמים באו לשמוע את חכמתו.",
+      "והתנ\"ך אומר: יהודה וישראל היו רבים כחול הים, אוכלים ושותים ושמחים.",
+      "עוד כתוב: \"ויתן המלך את הכסף בירושלים כאבנים\" – כל כך הרבה עושר היה בימיו. ובכל זאת, מה שהיה הכי חשוב לשלמה – החכמה."
+     ],
+     "pasuk": {
+      "text": "אִישׁ תַּחַת גַּפְנוֹ וְתַחַת תְּאֵנָתוֹ",
+      "ref": "מלכים א ה, ה"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "השם \"שלמה\" קשור למילה \"שלום\". בימיו היה שלום בכל הגבולות."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "הבית לשם השם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Shlomo: a young king with a short dark beard, a golden crown, a white and purple robe, a calm wise face. Scene: Jerusalem on Mount Moriah: the white and gold Holy Temple standing complete above its courtyards, crowds of people in festive modest clothing gathered below, a soft cloud of light resting above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠 👨 👩 👨",
+     "say": [
+      "והמשימה הגדולה של שלמה: לבנות את בית המקדש, כמו שהשם הבטיח לדוד אביו.",
+      "שבע שנים בנו אותו, עם אבנים גדולות ועצי ארזים מהלבנון. בבית המקדש עצמו לא נשמע קול של כלי ברזל.",
+      "וביום חנוכת הבית, שלמה עמד והתפלל לפני כל העם, והענן מילא את הבית.",
+      "על בית המקדש נלמד הרבה בקורס מיוחד. כאן רק נזכור: החכמה של שלמה הייתה לשם השם, ובשביל עם ישראל.",
+      "כך התקיימה ההבטחה לדוד: בנו בנה את הבית לשם השם, בעיר שדוד בחר.",
+      "בתפילה שלו, שלמה ביקש: גם כשיהודי יהיה רחוק, אפילו בארץ אחרת, ויתפלל לכיוון הבית הזה – שמע את תפילתו.",
+      "ולכן עד היום, בכל העולם, יהודים מתפללים לכיוון ירושלים ובית המקדש.",
+      "בית המקדש הראשון עמד ארבע מאות ועשר שנים. עליו, ועל מה שקרה לו, נלמד בשיעור האחרון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ספר משלי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A sage father with a beard and kippah sits with his young son outdoors on a warm afternoon, pointing at a long line of ants carrying seeds along a path, both smiling.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "שלמה כתב ספרים קדושים, שנמצאים בתנ\"ך. אחד מהם הוא ספר משלי.",
+      "משלי הוא ספר של עצות חכמות לחיים, כמו אבא שמדבר עם הבן שלו: \"שמע בני מוסר אביך, ואל תיטוש תורת אמך\".",
+      "יש שם משפטים קצרים וחכמים. למשל: \"לך אל נמלה עצל, ראה דרכיה וחכם\". תסתכל על הנמלה: איך היא עובדת קשה בקיץ, ואוספת אוכל לחורף.",
+      "ועוד משפט: \"מענה רך ישיב חמה\" – תשובה רכה ושקטה מרגיעה כעס. נסו את זה בפעם הבאה שמישהו כועס!",
+      "והמשפט הכי חשוב בספר: \"ראשית חכמה – יראת השם\". החכמה מתחילה מזה שאדם יודע שהשם רואה אותו.",
+      "וספר משלי נגמר בשיר \"אשת חיל\", שאנחנו שרים בכל ליל שבת לפני הקידוש.",
+      "וחז\"ל מספרים ששלמה תיקן עירובין ונטילת ידיים, כדי לשמור על התורה. החכמה שלו שירתה את המצוות.",
+      "ומשלי הוא ספר לכל גיל: לילדים, להורים ולזקנים. כל אחד מוצא בו עצה בשבילו."
+     ],
+     "pasuk": {
+      "text": "שְׁמַע בְּנִי מוּסַר אָבִיךָ וְאַל תִּטֹּשׁ תּוֹרַת אִמֶּךָ",
+      "ref": "משלי א, ח"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בתנ\"ך כתוב ששלמה אמר שלושת אלפים משלים, ושיריו היו אלף וחמישה."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "שיר השירים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Springtime in the hills of Israel: blossoming almond and fruit trees, vineyards in bloom, doves flying over Jerusalem, and in the foreground a festive Pesach table with matzot and a small open scroll.",
+     "move": "out",
+     "fx": "sparkle",
+     "art": "🕊️",
+     "say": [
+      "ספר אחר של שלמה הוא שיר השירים. זה שיר יפה ועמוק, והוא כתוב כמו משל.",
+      "חז\"ל ורש\"י מסבירים: כל השיר הוא משל על האהבה בין הקדוש ברוך הוא לבין עם ישראל.",
+      "איך השם בחר בנו, הוציא אותנו ממצרים, ונתן לנו את התורה. ואיך עם ישראל ממשיך לאהוב אותו, גם בגלות.",
+      "לכן קוראים את שיר השירים בפסח, חג היציאה ממצרים, ויש שאומרים אותו בכל ערב שבת.",
+      "ורבי עקיבא אמר עליו: כל השירים קודש, ושיר השירים – קודש קודשים.",
+      "ויש עוד ספר שלישי: קהלת. חז\"ל אומרים ששלמה כתב את שיר השירים בצעירותו, את משלי כשהיה מבוגר, ואת קהלת בזקנתו.",
+      "וקהלת מסתיים במשפט שמסכם הכול: \"סוף דבר, הכול נשמע: את האלוקים ירא, ואת מצוותיו שמור, כי זה כל האדם\".",
+      "אחרי ארבעים שנות מלכות נפטר שלמה. ובשיעור הבא נראה מה קרה לממלכה אחריו."
+     ],
+     "pasuk": {
+      "text": "כׇּל הַשִּׁירִים קֹדֶשׁ, וְשִׁיר הַשִּׁירִים קֹדֶשׁ קָדָשִׁים",
+      "ref": "רבי עקיבא, משנה ידיים ג, ה"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש שלמה מהשם בחלום בגבעון?",
+   "answer": "לב שומע, כדי לשפוט את העם",
+   "options": [
+    "לב שומע, כדי לשפוט את העם",
+    "עושר וכבוד",
+    "חיים ארוכים",
+    "ניצחון על כל אויביו"
+   ],
+   "explain_he": "שלמה ביקש \"לב שומע\", להבין בין טוב לרע. השם נתן לו חכמה, וגם עושר וכבוד שלא ביקש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש שלמה מהשם בחלום בגבעון?",
+   "answer": "לב שומע, כדי לשפוט את העם",
+   "options": [
+    "לב שומע, כדי לשפוט את העם",
+    "עושר וכבוד",
+    "חיים ארוכים",
+    "ניצחון על כל אויביו"
+   ],
+   "explain_he": "שלמה ביקש \"לב שומע\", להבין בין טוב לרע. השם נתן לו חכמה, וגם עושר וכבוד שלא ביקש.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הציע שלמה לחלק את התינוק?",
+   "answer": "כדי לגלות מה יש בלב של כל אחת",
+   "options": [
+    "כדי לגלות מה יש בלב של כל אחת",
+    "כי באמת רצה לחלק אותו",
+    "כי לא היה לו זמן לשמוע",
+    "כי שתיהן ביקשו זאת"
+   ],
+   "explain_he": "שלמה לא התכוון לעשות זאת. הוא ידע שאמא אמיתית תעדיף לוותר, רק שהילד יחיה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הציע שלמה לחלק את התינוק?",
+   "answer": "כדי לגלות מה יש בלב של כל אחת",
+   "options": [
+    "כדי לגלות מה יש בלב של כל אחת",
+    "כי באמת רצה לחלק אותו",
+    "כי לא היה לו זמן לשמוע",
+    "כי שתיהן ביקשו זאת"
+   ],
+   "explain_he": "שלמה לא התכוון לעשות זאת. הוא ידע שאמא אמיתית תעדיף לוותר, רק שהילד יחיה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ידע שלמה מי האמא האמיתית?",
+   "answer": "היא זו שהעדיפה לוותר, רק שהילד יחיה",
+   "options": [
+    "היא זו שהעדיפה לוותר, רק שהילד יחיה",
+    "היא זו שצעקה הכי חזק",
+    "היא זו שהגיעה ראשונה",
+    "היא זו שאמרה \"לא לי ולא לך\""
+   ],
+   "explain_he": "שלמה אמר: \"תנו לה את הילד – היא אמו\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ידע שלמה מי האמא האמיתית?",
+   "answer": "היא זו שהעדיפה לוותר, רק שהילד יחיה",
+   "options": [
+    "היא זו שהעדיפה לוותר, רק שהילד יחיה",
+    "היא זו שצעקה הכי חזק",
+    "היא זו שהגיעה ראשונה",
+    "היא זו שאמרה \"לא לי ולא לך\""
+   ],
+   "explain_he": "שלמה אמר: \"תנו לה את הילד – היא אמו\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מתאר הפסוק \"איש תחת גפנו ותחת תאנתו\"?",
+   "answer": "את השלום והביטחון בימי שלמה",
+   "options": [
+    "את השלום והביטחון בימי שלמה",
+    "את המלחמות בימי שלמה",
+    "את הבנייה של המקדש",
+    "את הגלות"
+   ],
+   "explain_he": "בימי שלמה היה שלום, וכל איש ישב בבטחה בשדה שלו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מתאר הפסוק \"איש תחת גפנו ותחת תאנתו\"?",
+   "answer": "את השלום והביטחון בימי שלמה",
+   "options": [
+    "את השלום והביטחון בימי שלמה",
+    "את המלחמות בימי שלמה",
+    "את הבנייה של המקדש",
+    "את הגלות"
+   ],
+   "explain_he": "בימי שלמה היה שלום, וכל איש ישב בבטחה בשדה שלו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לומדים מהנמלה בספר משלי?",
+   "answer": "לעבוד קשה ולהכין מראש",
+   "options": [
+    "לעבוד קשה ולהכין מראש",
+    "לישון הרבה",
+    "לאכול לבד",
+    "לברוח מכל קושי"
+   ],
+   "explain_he": "\"לך אל נמלה עצל, ראה דרכיה וחכם\" – הנמלה אוספת אוכל בקיץ לקראת החורף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לומדים מהנמלה בספר משלי?",
+   "answer": "לעבוד קשה ולהכין מראש",
+   "options": [
+    "לעבוד קשה ולהכין מראש",
+    "לישון הרבה",
+    "לאכול לבד",
+    "לברוח מכל קושי"
+   ],
+   "explain_he": "\"לך אל נמלה עצל, ראה דרכיה וחכם\" – הנמלה אוספת אוכל בקיץ לקראת החורף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה הוא המשל בשיר השירים, לפי חז\"ל ורש\"י?",
+   "answer": "על האהבה בין הקדוש ברוך הוא לעם ישראל",
+   "options": [
+    "על האהבה בין הקדוש ברוך הוא לעם ישראל",
+    "על הטבע בארץ ישראל בלבד",
+    "על המלחמות של שלמה",
+    "על הבנייה של ירושלים"
+   ],
+   "explain_he": "כל השיר הוא משל, ולכן רבי עקיבא קרא לו \"קודש קודשים\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה הוא המשל בשיר השירים, לפי חז\"ל ורש\"י?",
+   "answer": "על האהבה בין הקדוש ברוך הוא לעם ישראל",
+   "options": [
+    "על האהבה בין הקדוש ברוך הוא לעם ישראל",
+    "על הטבע בארץ ישראל בלבד",
+    "על המלחמות של שלמה",
+    "על הבנייה של ירושלים"
+   ],
+   "explain_he": "כל השיר הוא משל, ולכן רבי עקיבא קרא לו \"קודש קודשים\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי קוראים את שיר השירים בבית הכנסת?",
+   "answer": "בפסח",
+   "options": [
+    "בפסח",
+    "בפורים",
+    "בחנוכה",
+    "ביום כיפור"
+   ],
+   "explain_he": "שיר השירים מספר גם על יציאת מצרים ועל האהבה בין השם לעמו, ולכן קוראים אותו בפסח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי קוראים את שיר השירים בבית הכנסת?",
+   "answer": "בפסח",
+   "options": [
+    "בפסח",
+    "בפורים",
+    "בחנוכה",
+    "ביום כיפור"
+   ],
+   "explain_he": "שיר השירים מספר גם על יציאת מצרים ועל האהבה בין השם לעמו, ולכן קוראים אותו בפסח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בן כמה היה שלמה כשמלך, לפי רש\"י?",
+   "answer": "בן שתים עשרה",
+   "options": [
+    "בן שתים עשרה",
+    "בן שלושים",
+    "בן ארבעים",
+    "בן עשרים וחמש"
+   ],
+   "explain_he": "רש\"י אומר ששלמה היה בן שתים עשרה, ולכן אמר: \"ואנוכי נער קטן\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חז\"ל, איזה ספר כתב שלמה בזקנתו?",
+   "answer": "קהלת",
+   "options": [
+    "קהלת",
+    "שיר השירים",
+    "משלי",
+    "תהילים"
+   ],
+   "explain_he": "שיר השירים בצעירותו, משלי כשהיה מבוגר, וקהלת בזקנתו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f4e18"
+  }
+ ]
+}

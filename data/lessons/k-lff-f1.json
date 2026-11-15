@@ -1,0 +1,549 @@
+{
+ "id": "k-lff-f1",
+ "unit_id": "k-lff-u1",
+ "course": "life",
+ "title_he": "בטוחים בדרך",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "בטוחים בדרך",
+   "ref_he": "ידע לחיים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בוקר של יום חדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A sunny morning on a quiet religious neighborhood street: a father and his young son with a school backpack step out of a stone apartment building, holding hands, trees and parked cars along the street.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "בוקר טוב! זה נועם, והוא בן שבע. היום הוא הולך לבית הספר עם אבא.",
+      "בדרך יש כבישים, מכוניות ואוטובוסים. איך שומרים על עצמנו?",
+      "התורה אומרת: \"ונשמרתם מאוד לנפשותיכם\". השם נתן לנו גוף, ומצווה עלינו לשמור עליו.",
+      "אבא אומר: נועם, היום אלמד אותך את הכללים של הדרך.",
+      "בואו נלמד יחד עם נועם איך הולכים בדרך בבטחה.",
+      "גם ילדים קטנים יכולים לשמור על עצמם. צריך רק לדעת איך."
+     ],
+     "pasuk": {
+      "text": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם",
+      "ref": "דברים ד, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "על המדרכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: The father and son walking on a wide sidewalk far from the curb, the boy on the inside near the garden walls, holding his father's hand; cars drive past on the road.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "הולכים תמיד על המדרכה. לא על הכביש!",
+      "הולכים רחוק משפת הכביש, קרוב לקיר.",
+      "ונועם מחזיק חזק את היד של אבא. ילד קטן חוצה כביש רק עם מבוגר.",
+      "לא רצים ולא משחקים בכדור ליד הכביש. הכדור יכול להתגלגל, ומכונית יכולה להגיע.",
+      "ואם אין מדרכה? הולכים בצד, הכי רחוק מהמכוניות, יחד עם מבוגר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ילדים עד גיל תשע צריכים לחצות כביש רק עם מבוגר שמחזיק להם את היד."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "מעבר החצייה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: At a crosswalk with white stripes, the father and son stand at the edge of the sidewalk, the boy turning his head to look carefully to both sides, a car stopped politely before the stripes.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "והנה כביש. איפה חוצים? רק במעבר החצייה, עם הפסים הלבנים.",
+      "לפני שחוצים, עוצרים על המדרכה. ממש בקצה, לא על הכביש.",
+      "מסתכלים לצד אחד, ולצד השני, ושוב לצד הראשון. ומקשיבים טוב.",
+      "וחושבים טוב: האם בטוח עכשיו לחצות?",
+      "רק כשאין מכונית קרובה, או כשהמכוניות עצרו – חוצים. הולכים מהר, אבל לא רצים.",
+      "ובזמן החצייה לא משחקים ולא מסתכלים בטלפון. רק מסתכלים על הכביש!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הרמזור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A pedestrian traffic light glowing with a small green walking figure, and beside it the car traffic light glowing red; the father and son wait at the curb, then step onto the crosswalk.",
+     "move": "up",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "בהרבה מעברי חצייה יש רמזור. לרמזור של ההולכים יש איש קטן.",
+      "איש אדום עומד – אנחנו עומדים ומחכים.",
+      "איש ירוק הולך – אפשר ללכת. אבל גם אז מסתכלים, שהמכוניות באמת עצרו.",
+      "ולמכוניות יש רמזור עם שלושה צבעים: אדום, צהוב וירוק.",
+      "אדום – עוצרים. צהוב – מתכוננים. ירוק – נוסעים. ואף פעם לא חוצים באדום, גם כשממהרים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "חגורת בטיחות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Inside a family car parked in front of the house: the mother buckles the seat belt of her son in a booster seat in the back, the daughter already buckled beside him, the father at the wheel smiling.",
+     "move": "in",
+     "fx": null,
+     "art": "👩 👦 👧",
+     "say": [
+      "אחרי בית הספר, נוסעים לסבא וסבתא באוטו.",
+      "לפני שנוסעים, כל אחד חוגר חגורת בטיחות. גם אבא, גם אמא, וגם הילדים.",
+      "החגורה היא כמו חיבוק חזק, ששומר עלינו.",
+      "ילדים קטנים יושבים בכיסא מיוחד, או על בוסטר.",
+      "גם בנסיעה קצרה – חוגרים תמיד! ויוצאים מהאוטו רק לצד של המדרכה.",
+      "וגם בהסעה של בית הספר יושבים יפה וחוגרים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "קסדה על הראש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Saba: a grandfather with a white beard, glasses, a black kippah and a grey cardigan. Scene: A sunny park path: the boy wearing a bright helmet buckled under his chin rides a small bicycle, his sister walks beside him, the grandfather watches from a bench under a tree.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👧 👴",
+     "say": [
+      "אצל סבא, נועם רוכב על אופניים בגינה. אבל קודם – קסדה!",
+      "קסדה טובה יושבת ישר על המצח, לא על העורף.",
+      "שמים את הקסדה על הראש, וסוגרים את הרצועה מתחת לסנטר.",
+      "רוכבים בגינה או בשביל, לא על הכביש.",
+      "סבא אומר: הראש שלך יקר מאוד. הקסדה שומרת עליו.",
+      "ונועם לא רוכב מהר מדי, ושם לב לילדים שהולכים בשביל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "תפילת הדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Evening: the family car drives along a road through green hills toward Jerusalem at sunset, inside the car the father and the children say a short prayer together with a small booklet.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👦 👧",
+     "say": [
+      "כשיוצאים לדרך רחוקה, מחוץ לעיר, אומרים תפילת הדרך.",
+      "אנחנו מבקשים מהשם: שמור עלינו, והבא אותנו לשלום.",
+      "והשם רוצה שגם אנחנו נעשה את שלנו: חגורה, קסדה ומעבר חצייה.",
+      "ובערב, כשנועם חוזר הביתה, הוא אומר תודה להשם על יום טוב ובטוח.",
+      "אנחנו נזהרים, והשם שומר. ככה מגיעים הביתה בשמחה!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lff-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "בטוחים בדרך",
+   "ref_he": "ידע לחיים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בוקר של יום חדש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A sunny morning on a quiet religious neighborhood street: a father and his young son with a school backpack step out of a stone apartment building, holding hands, trees and parked cars along the street.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "בוקר טוב! זה נועם, הוא בן שבע ולומד בכיתה ב'. היום הוא הולך לבית הספר ברגל, יחד עם אבא.",
+      "בדרך יש כבישים, מכוניות, אופנועים ואוטובוסים. הם נוסעים מהר, והם כבדים מאוד.",
+      "התורה אומרת: \"ונשמרתם מאוד לנפשותיכם\". מכאן לומדים שזו מצווה לשמור על הגוף ועל החיים, ולא להיכנס לסכנה.",
+      "לכן הכללים של הבטיחות בדרכים הם לא סתם כללים. הם חלק משמירת המצווה הזו. בואו נלמד אותם יחד.",
+      "וכדאי לדעת: את רוב התאונות אפשר למנוע, אם רק זוכרים את הכללים ונזהרים."
+     ],
+     "pasuk": {
+      "text": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם",
+      "ref": "דברים ד, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "על המדרכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: The father and son walking on a wide sidewalk far from the curb, the boy on the inside near the garden walls, holding his father's hand; cars drive past on the road.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "הכלל הראשון: הולכים על המדרכה. הכביש שייך למכוניות, והמדרכה שייכת להולכי הרגל.",
+      "ועל המדרכה הולכים רחוק משפת הכביש, בצד הקרוב לבתים.",
+      "ילדים קטנים, עד גיל תשע, לא חוצים כביש לבד. הם עוד קטנים, הנהג לא תמיד רואה אותם, וקשה להם לדעת כמה מהר מתקרבת מכונית.",
+      "ועוד דבר: לא משחקים בכדור ולא רצים ליד הכביש. כדור שמתגלגל לכביש – לא רצים אחריו! קודם קוראים למבוגר.",
+      "ואם אין מדרכה? הולכים בשוליים, צמוד לצד, מול כיוון התנועה – כדי לראות את המכוניות שמגיעות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ילדים עד גיל תשע צריכים לחצות כביש רק עם מבוגר שמחזיק להם את היד."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "מעבר החצייה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: At a crosswalk with white stripes, the father and son stand at the edge of the sidewalk, the boy turning his head to look carefully to both sides, a car stopped politely before the stripes.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "והנה כביש. חוצים רק במעבר חצייה – הפסים הלבנים על הכביש, שהנהגים יודעים לעצור לפניהם.",
+      "יש ארבע מילים שכדאי לזכור: עצור, הסתכל, הקשב, וחשוב.",
+      "עצור – על המדרכה, בקצה. הסתכל – לשני הצדדים, ושוב. הקשב – אולי שומעים מכונית שמתקרבת. וחשוב – האם באמת בטוח עכשיו?",
+      "חוצים בקו ישר, בהליכה מהירה ולא בריצה, וממשיכים להסתכל עד שמגיעים למדרכה השנייה.",
+      "ואף פעם לא חוצים מבין מכוניות חונות. הנהג לא יכול לראות ילד שיוצא מביניהן.",
+      "ואם אנחנו עם אופניים או קורקינט? יורדים מהם, ומוליכים אותם ביד במעבר החצייה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "הרמזור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A pedestrian traffic light glowing with a small green walking figure, and beside it the car traffic light glowing red; the father and son wait at the curb, then step onto the crosswalk.",
+     "move": "up",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "בהרבה מעברי חצייה יש רמזור. לרמזור של הולכי הרגל יש שני אורות: איש אדום שעומד, ואיש ירוק שהולך.",
+      "אדום – עומדים ומחכים, גם אם הכביש נראה ריק. ירוק – אפשר לחצות.",
+      "אבל גם כשיש ירוק, מסתכלים קודם: האם כל המכוניות באמת עצרו? לפעמים נהג לא שם לב.",
+      "ולמכוניות יש רמזור עם שלושה צבעים: אדום – עוצרים, צהוב – מתכוננים, וירוק – נוסעים.",
+      "שימו לב: הרמזור לא שומר עלינו לבד. העיניים והאוזניים שלנו שומרות עלינו.",
+      "וחשוב: לא חוצים באדום, גם אם אחרים חוצים, וגם אם ממהרים מאוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "חגורת בטיחות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Inside a family car parked in front of the house: the mother buckles the seat belt of her son in a booster seat in the back, the daughter already buckled beside him, the father at the wheel smiling.",
+     "move": "in",
+     "fx": null,
+     "art": "👩 👦 👧",
+     "say": [
+      "אחרי בית הספר, כל המשפחה נוסעת לסבא וסבתא. נועם ותמר נכנסים לאוטו, ואמא בודקת שכולם מוכנים.",
+      "חגורת בטיחות חוגרים תמיד, גם בנסיעה הכי קצרה, וגם במושב האחורי.",
+      "ילדים קטנים יושבים בכיסא בטיחות או על בוסטר, כדי שהחגורה תעבור על הכתף ועל הירכיים ולא על הצוואר.",
+      "החגורה מחזיקה את הגוף אם המכונית עוצרת פתאום. היא הצילה אנשים רבים מאוד.",
+      "וכשיוצאים מהאוטו – רק בצד של המדרכה, לא בצד של הכביש.",
+      "ולא מורידים את החגורה עד שהמכונית עוצרת לגמרי, ואבא או אמא אומרים שאפשר לצאת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "קסדה על הראש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Saba: a grandfather with a white beard, glasses, a black kippah and a grey cardigan. Scene: A sunny park path: the boy wearing a bright helmet buckled under his chin rides a small bicycle, his sister walks beside him, the grandfather watches from a bench under a tree.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👧 👴",
+     "say": [
+      "אצל סבא יש גינה גדולה, ונועם רוכב על אופניים. אבל לפני שעולים על האופניים – חובשים קסדה.",
+      "הקסדה צריכה לשבת ישר על המצח, והרצועה סגורה מתחת לסנטר. קסדה פתוחה לא תשמור.",
+      "בישראל החוק מחייב כל ילד לחבוש קסדה כשהוא רוכב על אופניים.",
+      "ילדים רוכבים בגינה, בפארק או בשביל אופניים – לא על הכביש. ובערב לובשים בגד בהיר, שיראו אותם.",
+      "סבא אומר לנועם: הראש שלך הוא אוצר. בתוכו אתה חושב, לומד תורה ומתפלל. שומרים עליו.",
+      "ואם הקסדה קיבלה מכה חזקה – מחליפים אותה בחדשה, גם אם לא רואים בה סדק."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בתחנת האוטובוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A city bus stop with a shelter: the girl and her mother wait on the sidewalk behind the curb as a green bus pulls in; across the street the bus pulls away and a boy waits patiently until it leaves.",
+     "move": "left",
+     "fx": null,
+     "art": "👩 👧",
+     "say": [
+      "תמר כבר בת תשע, ולפעמים היא נוסעת עם אמא באוטובוס.",
+      "בתחנה מחכים על המדרכה, הרחק מהכביש, עד שהאוטובוס עוצר לגמרי.",
+      "וכשיורדים? לא חוצים מלפני האוטובוס ולא מאחוריו! מחכים שהוא ייסע, ורק אז מסתכלים וחוצים.",
+      "ובאוטובוס עצמו נוהגים בדרך ארץ: אומרים שלום לנהג, ומפנים מקום לזקנים.",
+      "ובתוך האוטובוס מחזיקים חזק במוט, ולא עומדים ליד הדלת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "תפילת הדרך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Evening: the family car drives along a road through green hills toward Jerusalem at sunset, inside the car the father and the children say a short prayer together with a small booklet.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👦 👧",
+     "say": [
+      "כשיוצאים לדרך רחוקה, מחוץ לעיר, אומרים תפילת הדרך: \"שתוליכנו לשלום, ותגיענו למחוז חפצנו לחיים ולשמחה ולשלום\".",
+      "אנחנו יודעים שהשם שומר עלינו. אבל הוא גם רוצה שנעשה את ההשתדלות שלנו.",
+      "ההשתדלות שלנו היא הכללים שלמדנו היום: מדרכה, מעבר חצייה, רמזור, חגורה וקסדה.",
+      "אנחנו נזהרים, והקדוש ברוך הוא שומר. ככה מקיימים את \"ונשמרתם מאוד לנפשותיכם\".",
+      "וזכרו: כל אחד מכם יקר מאוד – להורים, למשפחה, לעם ישראל ולקדוש ברוך הוא. לכן שומרים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lff-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה הולכים ברחוב?",
+   "answer": "על המדרכה",
+   "options": [
+    "על המדרכה",
+    "על הכביש",
+    "בין המכוניות",
+    "באמצע הרחוב"
+   ],
+   "explain_he": "המדרכה שייכת להולכי הרגל. הולכים עליה, רחוק משפת הכביש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה הולכים ברחוב?",
+   "answer": "על המדרכה",
+   "options": [
+    "על המדרכה",
+    "על הכביש",
+    "בין המכוניות",
+    "באמצע הרחוב"
+   ],
+   "explain_he": "המדרכה שייכת להולכי הרגל. הולכים עליה, רחוק משפת הכביש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חוצים את הכביש?",
+   "answer": "במעבר החצייה, עם הפסים הלבנים",
+   "options": [
+    "במעבר החצייה, עם הפסים הלבנים",
+    "איפה שהכי קרוב",
+    "בין מכוניות חונות",
+    "בעיקול של הכביש"
+   ],
+   "explain_he": "חוצים רק במעבר חצייה, אחרי שעוצרים ומסתכלים לשני הצדדים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה חוצים את הכביש?",
+   "answer": "במעבר החצייה, עם הפסים הלבנים",
+   "options": [
+    "במעבר החצייה, עם הפסים הלבנים",
+    "איפה שהכי קרוב",
+    "בין מכוניות חונות",
+    "בעיקול של הכביש"
+   ],
+   "explain_he": "חוצים רק במעבר חצייה, אחרי שעוצרים ומסתכלים לשני הצדדים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשהאיש ברמזור אדום?",
+   "answer": "עומדים ומחכים",
+   "options": [
+    "עומדים ומחכים",
+    "רצים מהר",
+    "חוצים אם אין מכוניות",
+    "הולכים לאט"
+   ],
+   "explain_he": "אדום – עומדים ומחכים. רק כשהאיש ירוק, ואחרי שבודקים שהמכוניות עצרו, חוצים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשהאיש ברמזור אדום?",
+   "answer": "עומדים ומחכים",
+   "options": [
+    "עומדים ומחכים",
+    "רצים מהר",
+    "חוצים אם אין מכוניות",
+    "הולכים לאט"
+   ],
+   "explain_he": "אדום – עומדים ומחכים. רק כשהאיש ירוק, ואחרי שבודקים שהמכוניות עצרו, חוצים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי חוגרים חגורת בטיחות?",
+   "answer": "תמיד, גם בנסיעה קצרה",
+   "options": [
+    "תמיד, גם בנסיעה קצרה",
+    "רק בנסיעה ארוכה",
+    "רק כשאבא נוהג מהר",
+    "רק במושב הקדמי"
+   ],
+   "explain_he": "חוגרים תמיד. החגורה מחזיקה את הגוף אם המכונית עוצרת פתאום.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי חוגרים חגורת בטיחות?",
+   "answer": "תמיד, גם בנסיעה קצרה",
+   "options": [
+    "תמיד, גם בנסיעה קצרה",
+    "רק בנסיעה ארוכה",
+    "רק כשאבא נוהג מהר",
+    "רק במושב הקדמי"
+   ],
+   "explain_he": "חוגרים תמיד. החגורה מחזיקה את הגוף אם המכונית עוצרת פתאום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך שמים קסדה נכון?",
+   "answer": "על הראש, עם רצועה סגורה מתחת לסנטר",
+   "options": [
+    "על הראש, עם רצועה סגורה מתחת לסנטר",
+    "תלויה על הכידון",
+    "על הראש, עם רצועה פתוחה",
+    "רק כשרוכבים מהר"
+   ],
+   "explain_he": "קסדה פתוחה לא תשמור. סוגרים את הרצועה מתחת לסנטר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך שמים קסדה נכון?",
+   "answer": "על הראש, עם רצועה סגורה מתחת לסנטר",
+   "options": [
+    "על הראש, עם רצועה סגורה מתחת לסנטר",
+    "תלויה על הכידון",
+    "על הראש, עם רצועה פתוחה",
+    "רק כשרוכבים מהר"
+   ],
+   "explain_he": "קסדה פתוחה לא תשמור. סוגרים את הרצועה מתחת לסנטר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה פסוק מלמד אותנו לשמור על הגוף?",
+   "answer": "\"ונשמרתם מאוד לנפשותיכם\"",
+   "options": [
+    "\"ונשמרתם מאוד לנפשותיכם\"",
+    "\"לך לך מארצך\"",
+    "\"שמע ישראל\"",
+    "\"בראשית ברא\""
+   ],
+   "explain_he": "התורה מצווה לשמור על הגוף ועל החיים, וכללי הבטיחות הם חלק מזה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה פסוק מלמד אותנו לשמור על הגוף?",
+   "answer": "\"ונשמרתם מאוד לנפשותיכם\"",
+   "options": [
+    "\"ונשמרתם מאוד לנפשותיכם\"",
+    "\"לך לך מארצך\"",
+    "\"שמע ישראל\"",
+    "\"בראשית ברא\""
+   ],
+   "explain_he": "התורה מצווה לשמור על הגוף ועל החיים, וכללי הבטיחות הם חלק מזה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f1e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים אחרי שיורדים מהאוטובוס?",
+   "answer": "מחכים שייסע, ורק אז מסתכלים וחוצים",
+   "options": [
+    "מחכים שייסע, ורק אז מסתכלים וחוצים",
+    "חוצים מלפניו מיד",
+    "חוצים מאחוריו",
+    "רצים לכביש"
+   ],
+   "explain_he": "נהגים לא רואים ילד שיוצא מלפני האוטובוס או מאחוריו. מחכים שייסע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f1e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא חוצים מבין מכוניות חונות?",
+   "answer": "כי הנהג לא יכול לראות את הילד",
+   "options": [
+    "כי הנהג לא יכול לראות את הילד",
+    "כי זה לוקח יותר זמן",
+    "כי המכוניות מלוכלכות",
+    "כי אין שם פסים"
+   ],
+   "explain_he": "ילד שיוצא מבין מכוניות חונות מוסתר, והנהג לא מספיק לעצור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f1e16"
+  }
+ ]
+}

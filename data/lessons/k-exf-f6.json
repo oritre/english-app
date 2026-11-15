@@ -1,0 +1,583 @@
+{
+ "id": "k-exf-f6",
+ "unit_id": "k-exf-u2",
+ "course": "exodus",
+ "title_he": "קריעת ים סוף ושירת הים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌊 ידע כללי",
+   "title_he": "קריעת ים סוף ושירת הים",
+   "ref_he": "משה ויציאת מצרים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "פרעה רודף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Scene: A wide desert plain at dusk, a long line of Egyptian chariots and horses raising a great cloud of dust in the far distance, Pharaoh in a tall crown leading them. No weapons raised.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐎 🐎 🐎",
+     "say": [
+      "בני ישראל הלכו במדבר, עד שהגיעו לחוף של ים גדול: ים סוף.",
+      "ובמצרים, פרעה התחרט: מה עשינו? שלחנו את העבדים שלנו!",
+      "הוא לקח את כל המרכבות שלו ואת כל הסוסים, ורדף אחרי בני ישראל.",
+      "פרעה בעצמו נהג בראש. הוא רצה להחזיר את העם למצרים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הים מלפנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Scene: The Israelites gathered on a beach between steep mountains and a huge dark sea, families in modest robes looking back anxiously at a dust cloud on the horizon, a tall pillar of soft cloud standing between them and the dust.",
+     "move": "out",
+     "fx": "mist",
+     "art": "👨 👩 👦 👴",
+     "say": [
+      "בני ישראל ראו את המצרים מאחוריהם, ואת הים לפניהם. לאן ללכת?",
+      "מימין ומשמאל – הרים ומדבר. אין לאן לברוח!",
+      "הם פחדו מאוד, וצעקו לשם.",
+      "משה אמר להם: אל תפחדו! תעמדו ותראו איך השם יושיע אתכם.",
+      "\"השם יילחם לכם, ואתם תחרישון\". והענן עבר ועמד בין המצרים לבין ישראל, כמו חומה."
+     ],
+     "pasuk": {
+      "text": "ה' יִלָּחֵם לָכֶם, וְאַתֶּם תַּחֲרִשׁוּן",
+      "ref": "שמות יד, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "נחשון קופץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: A brave man with a dark beard in a long robe and head cloth, Nachshon, striding forward into the dark sea, the water already up to his chest, the Israelites watching anxiously from the shore at night.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👨 👩 ⛵",
+     "say": [
+      "השם אמר למשה: למה אתה צועק אליי? תגיד לבני ישראל – שייסעו קדימה!",
+      "עכשיו זה הזמן ללכת, באמונה.",
+      "קדימה? לתוך הים? כולם עמדו ופחדו.",
+      "ואז איש אחד, נחשון בן עמינדב, משבט יהודה, קפץ ראשון לתוך המים.",
+      "הוא הלך והלך, והמים עלו עד הצוואר, ועד האף. והוא האמין בשם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מספרים שנחשון בן עמינדב, נשיא שבט יהודה, נכנס לים עד שהמים הגיעו לאפו – ורק אז נבקע הים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "הים נבקע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Scene: The sea split into towering walls of shining blue-green water on both sides, a wide dry path of sand between them, the Israelites walking through in a long line with children and flocks, a strong wind blowing, morning light glowing from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👦 🐑",
+     "say": [
+      "משה הרים את היד שלו על הים. רוח חזקה נשבה כל הלילה.",
+      "והים נבקע לשניים! המים עמדו כמו קירות גבוהים, מימין ומשמאל.",
+      "ובאמצע – דרך יבשה. בני ישראל הלכו בתוך הים, ברגליים יבשות!",
+      "ילדים, אבות ואמהות, סבים וסבתות, ואפילו הצאן – כולם עברו בשלום."
+     ],
+     "pasuk": {
+      "text": "וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם, וְהַמַּיִם לָהֶם חֹמָה מִימִינָם וּמִשְּׂמֹאלָם",
+      "ref": "שמות יד, כט"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "המים חוזרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: Early morning: the sea calm and whole again, gentle waves shining in the sunrise; on the far shore, crowds of Israelites standing safe in modest robes, looking at the quiet water in awe.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "המצרים ראו את הדרך בים, ורדפו אחרי בני ישראל לתוך הים.",
+      "אבל כשהאחרון של בני ישראל יצא, השם אמר למשה: הרם שוב את היד.",
+      "והמים חזרו למקומם, וכיסו את כל המרכבות של פרעה. לא נשאר מהן אף אחת.",
+      "פרעה, שאמר \"מי השם\", ראה עכשיו בעיניים מי הוא השם.",
+      "בני ישראל עמדו על החוף, ראו מה השם עשה – והאמינו בשם ובמשה עבדו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "אז ישיר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: On the sunny shore of the sea, Moshe with raised hands leading a great crowd of Israelite men singing joyfully toward the sky; soft light from above over the shining water.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👴 👨 👨 👦",
+     "say": [
+      "ואז משה ובני ישראל שרו שיר גדול לשם: שירת הים.",
+      "\"אשירה להשם כי גאה גאה, סוס ורוכבו רמה בים\".",
+      "חז\"ל מספרים שאפילו התינוקות הצביעו ואמרו: \"זה אלי ואנווהו\" – זה השם שלי!",
+      "ואת השירה הזאת אנחנו אומרים עד היום, בכל בוקר, בתפילת שחרית."
+     ],
+     "pasuk": {
+      "text": "זֶה אֵלִי וְאַנְוֵהוּ, אֱלֹקֵי אָבִי וַאֲרֹמְמֶנְהוּ",
+      "ref": "שמות טו, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "אז ישיר – גם בעתיד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: A golden sunrise over Jerusalem on its hills, families in festive modest clothes walking up with joy and singing, a soft light from above over the city.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "שימו לב למילה הראשונה של השירה: \"אז ישיר\".",
+      "\"ישיר\" זה כמו \"ישיר בעתיד\" – עוד ישיר.",
+      "חז\"ל אומרים: זה רמז שבעתיד, כשתבוא הגאולה השלמה, שוב נשיר שירה חדשה לשם.",
+      "אז השירה של הים היא לא רק זיכרון. היא גם הבטחה: עוד נשיר!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מרים והתופים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Miriam: a young Hebrew woman in a long modest brown dress with long sleeves and a head covering, brave eyes. Scene: A little apart on the shore, Miriam in a long modest dress and head covering raising a small hand drum, and a group of women in long dresses and head coverings with drums following her joyfully; the calm sea behind them.",
+     "move": "left",
+     "fx": "light",
+     "art": "👩 👩 👩 👧",
+     "say": [
+      "ומרים, האחות של משה ואהרן, לקחה תוף ביד.",
+      "וכל הנשים יצאו אחריה, עם תופים, והודו לשם.",
+      "זוכרים? הנשים הצדקניות הכינו את התופים עוד במצרים. עכשיו הגיע הזמן!",
+      "מרים, שחיכתה לאחיה ליד היאור – רואה עכשיו את הגאולה שהאמינה בה."
+     ],
+     "pasuk": {
+      "text": "וַתִּקַּח מִרְיָם הַנְּבִיאָה אֲחוֹת אַהֲרֹן אֶת הַתֹּף בְּיָדָהּ",
+      "ref": "שמות טו, כ"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exf-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌊 ידע כללי",
+   "title_he": "קריעת ים סוף ושירת הים",
+   "ref_he": "משה ויציאת מצרים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "פרעה רודף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Scene: A wide desert plain at dusk, a long line of Egyptian chariots and horses raising a great cloud of dust in the far distance, Pharaoh in a tall crown leading them. No weapons raised.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐎 🐎 🐎",
+     "say": [
+      "השם אמר למשה להוביל את העם אל שפת הים, ליד פי החירות. וידע: פרעה יחשוב שהם תועים במדבר.",
+      "ובמצרים – \"ויהפך לבב פרעה ועבדיו אל העם, ויאמרו: מה זאת עשינו, כי שילחנו את ישראל מעבדנו?\"",
+      "\"ויאסור את רכבו, ואת עמו לקח עימו\": שש מאות רכב בחור, וכל רכב מצרים. רש\"י אומר שפרעה אסר את המרכבה בעצמו, בלי לחכות לעבדיו.",
+      "השנאה מיהרה – כמו שאהבת השם גרמה לאברהם לחבוש את חמורו בעצמו. אבל אהבה מביאה ברכה, ושנאה מביאה מפלה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הים מלפנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Scene: The Israelites gathered on a beach between steep mountains and a huge dark sea, families in modest robes looking back anxiously at a dust cloud on the horizon, a tall pillar of soft cloud standing between them and the dust.",
+     "move": "out",
+     "fx": "mist",
+     "art": "👨 👩 👦 👴",
+     "say": [
+      "\"ופרעה הקריב, וישאו בני ישראל את עיניהם, והנה מצרים נוסע אחריהם, וייראו מאוד\".",
+      "\"ויצעקו בני ישראל אל השם\". רש\"י אומר: תפשו אומנות אבותם – התפילה, כמו אברהם, יצחק ויעקב.",
+      "היו שם כאלה שאמרו לחזור למצרים, וכאלה שאמרו להילחם. אבל משה אמר: לא זה ולא זה – עמדו, והשם יושיע.",
+      "ומשה אמר: \"אל תיראו, התייצבו וראו את ישועת השם... השם יילחם לכם, ואתם תחרישון\".",
+      "ועמוד הענן עבר מלפני העם ועמד מאחוריהם, בין מחנה מצרים למחנה ישראל. למצרים היה חושך, ולישראל – אור. כל הלילה לא קרבו זה אל זה."
+     ],
+     "pasuk": {
+      "text": "ה' יִלָּחֵם לָכֶם, וְאַתֶּם תַּחֲרִשׁוּן",
+      "ref": "שמות יד, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "נחשון קופץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: A brave man with a dark beard in a long robe and head cloth, Nachshon, striding forward into the dark sea, the water already up to his chest, the Israelites watching anxiously from the shore at night.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👨 👩 ⛵",
+     "say": [
+      "\"ויאמר השם אל משה: מה תצעק אליי? דבר אל בני ישראל, ויסעו\". יש זמן לתפילה – ויש זמן ללכת קדימה באמונה.",
+      "אבל מי ייכנס ראשון? חז\"ל מספרים שכל שבט אמר: אני לא אכנס ראשון לים.",
+      "ונחשון בן עמינדב, נשיא שבט יהודה, קפץ לתוך המים. הוא התקדם עד שהמים הגיעו לצווארו, ואמר: \"הושיעני אלוקים, כי באו מים עד נפש\".",
+      "וחז\"ל אומרים שבזכות זה זכה שבט יהודה למלוכה. מי שקופץ ראשון באמונה – הוא המנהיג."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מספרים שנחשון בן עמינדב, נשיא שבט יהודה, נכנס לים עד שהמים הגיעו לאפו – ורק אז נבקע הים."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "הים נבקע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Scene: The sea split into towering walls of shining blue-green water on both sides, a wide dry path of sand between them, the Israelites walking through in a long line with children and flocks, a strong wind blowing, morning light glowing from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👦 🐑",
+     "say": [
+      "\"ויט משה את ידו על הים, ויולך השם את הים ברוח קדים עזה כל הלילה, וישם את הים לחרבה, וייבקעו המים\".",
+      "\"ויבואו בני ישראל בתוך הים ביבשה, והמים להם חומה מימינם ומשמאלם\".",
+      "חז\"ל אומרים שהים נקרע לשנים עשר שבילים – שביל לכל שבט.",
+      "ועוד אמרו: \"ראתה שפחה על הים מה שלא ראה יחזקאל הנביא\". בני ישראל, כל אחד מהם, ראו ניסים גדולים יותר ממה שראו נביאים."
+     ],
+     "pasuk": {
+      "text": "וּבְנֵי יִשְׂרָאֵל הָלְכוּ בַיַּבָּשָׁה בְּתוֹךְ הַיָּם, וְהַמַּיִם לָהֶם חֹמָה מִימִינָם וּמִשְּׂמֹאלָם",
+      "ref": "שמות יד, כט"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "המים חוזרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: Early morning: the sea calm and whole again, gentle waves shining in the sunrise; on the far shore, crowds of Israelites standing safe in modest robes, looking at the quiet water in awe.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "המצרים באו אחריהם לתוך הים – כל סוס פרעה, רכבו ופרשיו. ובאשמורת הבוקר השם בלבל את מחנה מצרים, וגלגלי המרכבות נתקעו.",
+      "המצרים אמרו: \"אנוסה מפני ישראל, כי השם נלחם להם במצרים\". אבל כבר היה מאוחר.",
+      "משה נטה את ידו, \"וישב הים לפנות בוקר לאיתנו\". הים חזר למקומו, וכיסה את הרכב ואת הפרשים. לא נשאר בהם עד אחד.",
+      "\"וירא ישראל את היד הגדולה אשר עשה השם במצרים, וייראו העם את השם, ויאמינו בהשם ובמשה עבדו\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "אז ישיר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: On the sunny shore of the sea, Moshe with raised hands leading a great crowd of Israelite men singing joyfully toward the sky; soft light from above over the shining water.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👴 👨 👨 👦",
+     "say": [
+      "\"אז ישיר משה ובני ישראל את השירה הזאת להשם\". כל העם שר יחד, בלב אחד.",
+      "\"עזי וזמרת י-ה, ויהי לי לישועה. זה אלי ואנווהו, אלוקי אבי וארוממנהו\".",
+      "חז\"ל אומרים שהשכינה נגלתה להם כל כך בבירור, שכל אחד יכול היה להצביע ולומר \"זה\". אפילו הילדים הקטנים.",
+      "והשירה מסתיימת במילים: \"השם ימלוך לעולם ועד\". לא רק נס של רגע – אלא הכרזה שהשם מלך על כל העולם, לתמיד.",
+      "את שירת הים אנחנו אומרים בכל בוקר בתפילה. וכך, בכל יום, אנחנו נזכרים בנס."
+     ],
+     "pasuk": {
+      "text": "זֶה אֵלִי וְאַנְוֵהוּ, אֱלֹקֵי אָבִי וַאֲרֹמְמֶנְהוּ",
+      "ref": "שמות טו, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "אז ישיר – גם בעתיד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: A golden sunrise over Jerusalem on its hills, families in festive modest clothes walking up with joy and singing, a soft light from above over the city.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "התורה לא כתבה \"אז שר משה\", אלא \"אז ישיר משה\" – בלשון עתיד.",
+      "רש\"י מביא שני הסברים: אז, כשראה את הנס, עלה בליבו לשיר. וחז\"ל אומרים עוד: מכאן רמז לתחיית המתים מן התורה – בעתיד משה ובני ישראל ישירו שוב.",
+      "המדרש מונה עשר שירות גדולות שנאמרו בעולם: שירת הים, שירת הבאר, שירת דבורה, שירת דוד ועוד. והשירה העשירית – עוד לא נאמרה. היא תיאמר בגאולה השלמה.",
+      "כך כל גאולה שעם ישראל עובר היא גם טעימה מהגאולה הגדולה שעוד תבוא, במהרה בימינו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מרים והתופים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Miriam: a young Hebrew woman in a long modest brown dress with long sleeves and a head covering, brave eyes. Scene: A little apart on the shore, Miriam in a long modest dress and head covering raising a small hand drum, and a group of women in long dresses and head coverings with drums following her joyfully; the calm sea behind them.",
+     "move": "left",
+     "fx": "light",
+     "art": "👩 👩 👩 👧",
+     "say": [
+      "\"ותיקח מרים הנביאה, אחות אהרן, את התוף בידה, ותצאן כל הנשים אחריה בתופים ובמחולות\".",
+      "רש\"י שואל: מאיפה היו להן תופים במדבר? ועונה: מובטחות היו הצדקניות שבדור שהשם יעשה להן ניסים, והוציאו תופים ממצרים.",
+      "מרים, שבגיל קטן ניבאה על הגואל ועמדה לשמור עליו ליד היאור, מובילה עכשיו את הנשים בהודיה לשם.",
+      "האמונה שהחזיקה את הנשים בשעבוד – היא שהביאה את השמחה ביום הישועה."
+     ],
+     "pasuk": {
+      "text": "וַתִּקַּח מִרְיָם הַנְּבִיאָה אֲחוֹת אַהֲרֹן אֶת הַתֹּף בְּיָדָהּ",
+      "ref": "שמות טו, כ"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exf-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה רומזת המילה \"ישיר\" (בלשון עתיד), לפי חז\"ל?",
+   "answer": "שבגאולה השלמה עוד נשיר שירה חדשה",
+   "options": [
+    "שבגאולה השלמה עוד נשיר שירה חדשה",
+    "שמשה שכח לשיר",
+    "שהשירה נכתבה מאוחר"
+   ],
+   "explain_he": "השירה העשירית עוד לא נאמרה – היא תיאמר בגאולה השלמה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה רומזת המילה \"ישיר\" (בלשון עתיד), לפי חז\"ל?",
+   "answer": "שבגאולה השלמה עוד נשיר שירה חדשה",
+   "options": [
+    "שבגאולה השלמה עוד נשיר שירה חדשה",
+    "שמשה שכח לשיר",
+    "שהשירה נכתבה מאוחר"
+   ],
+   "explain_he": "השירה העשירית עוד לא נאמרה – היא תיאמר בגאולה השלמה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה פרעה אחרי ששלח את בני ישראל?",
+   "answer": "התחרט ורדף אחריהם עם המרכבות",
+   "options": [
+    "התחרט ורדף אחריהם עם המרכבות",
+    "שלח להם מתנות",
+    "בנה להם עיר"
+   ],
+   "explain_he": "\"מה זאת עשינו כי שילחנו את ישראל?\" – ופרעה רדף אחריהם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה פרעה אחרי ששלח את בני ישראל?",
+   "answer": "התחרט ורדף אחריהם עם המרכבות",
+   "options": [
+    "התחרט ורדף אחריהם עם המרכבות",
+    "שלח להם מתנות",
+    "בנה להם עיר"
+   ],
+   "explain_he": "\"מה זאת עשינו כי שילחנו את ישראל?\" – ופרעה רדף אחריהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר משה לעם המפוחד ליד הים?",
+   "answer": "\"השם יילחם לכם, ואתם תחרישון\"",
+   "options": [
+    "\"השם יילחם לכם, ואתם תחרישון\"",
+    "\"בואו נחזור למצרים\"",
+    "\"נברח להרים\""
+   ],
+   "explain_he": "משה אמר: אל תיראו, התייצבו וראו את ישועת השם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר משה לעם המפוחד ליד הים?",
+   "answer": "\"השם יילחם לכם, ואתם תחרישון\"",
+   "options": [
+    "\"השם יילחם לכם, ואתם תחרישון\"",
+    "\"בואו נחזור למצרים\"",
+    "\"נברח להרים\""
+   ],
+   "explain_he": "משה אמר: אל תיראו, התייצבו וראו את ישועת השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי קפץ ראשון לתוך הים?",
+   "answer": "נחשון בן עמינדב",
+   "options": [
+    "נחשון בן עמינדב",
+    "פרעה",
+    "אהרן"
+   ],
+   "explain_he": "נחשון, נשיא שבט יהודה, נכנס עד שהמים הגיעו לאפו – ואז נבקע הים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי קפץ ראשון לתוך הים?",
+   "answer": "נחשון בן עמינדב",
+   "options": [
+    "נחשון בן עמינדב",
+    "פרעה",
+    "אהרן"
+   ],
+   "explain_he": "נחשון, נשיא שבט יהודה, נכנס עד שהמים הגיעו לאפו – ואז נבקע הים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך עמדו המים כשהים נבקע?",
+   "answer": "כמו חומה מימין ומשמאל",
+   "options": [
+    "כמו חומה מימין ומשמאל",
+    "כמו מפל",
+    "כמו קרח"
+   ],
+   "explain_he": "\"והמים להם חומה מימינם ומשמאלם\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך עמדו המים כשהים נבקע?",
+   "answer": "כמו חומה מימין ומשמאל",
+   "options": [
+    "כמו חומה מימין ומשמאל",
+    "כמו מפל",
+    "כמו קרח"
+   ],
+   "explain_he": "\"והמים להם חומה מימינם ומשמאלם\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי אנחנו אומרים את שירת הים?",
+   "answer": "בכל בוקר, בתפילת שחרית",
+   "options": [
+    "בכל בוקר, בתפילת שחרית",
+    "רק ביום כיפור",
+    "אף פעם"
+   ],
+   "explain_he": "בכל בוקר אנחנו נזכרים בנס.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי אנחנו אומרים את שירת הים?",
+   "answer": "בכל בוקר, בתפילת שחרית",
+   "options": [
+    "בכל בוקר, בתפילת שחרית",
+    "רק ביום כיפור",
+    "אף פעם"
+   ],
+   "explain_he": "בכל בוקר אנחנו נזכרים בנס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו אפילו התינוקות, לפי חז\"ל?",
+   "answer": "\"זה אלי ואנווהו\"",
+   "options": [
+    "\"זה אלי ואנווהו\"",
+    "\"אנחנו רעבים\"",
+    "\"נחזור הביתה\""
+   ],
+   "explain_he": "השם נגלה כל כך בבירור, שגם ילדים יכלו להצביע ולומר \"זה\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו בני ישראל כשראו את המצרים, לפי רש\"י?",
+   "answer": "תפשו את אומנות אבותם – התפילה",
+   "options": [
+    "תפשו את אומנות אבותם – התפילה",
+    "ברחו להרים",
+    "התחילו להילחם"
+   ],
+   "explain_he": "\"ויצעקו בני ישראל אל השם\" – כמו אברהם, יצחק ויעקב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לכמה שבילים נקרע הים, לפי חז\"ל?",
+   "answer": "לשנים עשר – שביל לכל שבט",
+   "options": [
+    "לשנים עשר – שביל לכל שבט",
+    "לשניים בלבד",
+    "לשבעה"
+   ],
+   "explain_he": "כל שבט הלך בים בשביל משלו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה היו לנשים תופים במדבר, לפי רש\"י?",
+   "answer": "הן הוציאו אותם ממצרים, כי האמינו שיהיו ניסים",
+   "options": [
+    "הן הוציאו אותם ממצרים, כי האמינו שיהיו ניסים",
+    "הן קנו אותם בים",
+    "המצרים נתנו להן"
+   ],
+   "explain_he": "\"מובטחות היו הצדקניות שבדור שהקב\"ה עושה להם ניסים\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f6e18"
+  }
+ ]
+}

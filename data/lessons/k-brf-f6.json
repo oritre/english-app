@@ -1,0 +1,561 @@
+{
+ "id": "k-brf-f6",
+ "unit_id": "k-brf-u2",
+ "course": "bereshit",
+ "title_he": "אליעזר ורבקה ליד הבאר",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "אליעזר ורבקה ליד הבאר",
+   "ref_he": "סיפורי בראשית",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שליחות חשובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Eliezer: a loyal servant with a greying beard in a travel cloak and a head cloth. Scene: Old Avraham with a white beard speaking seriously to his loyal servant Eliezer at the opening of a tent at dawn, ten camels loaded with gifts waiting nearby, their mouths covered with muzzles.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 🐫 🐫",
+     "say": [
+      "אברהם היה כבר זקן מאוד. שרה, אשתו הצדקנית, כבר נפטרה.",
+      "אברהם אמר לאליעזר, העבד הנאמן שלו: לך לארץ שממנה באתי, ומצא שם אשה טובה ליצחק.",
+      "אליעזר לקח עשרה גמלים, ועליהם מתנות יפות.",
+      "ולגמלים של אברהם היו מחסומים על הפה. למה? כדי שלא יאכלו בשדות של אנשים אחרים!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "התפילה ליד הבאר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Eliezer: a loyal servant with a greying beard in a travel cloak and a head cloth. Scene: Evening at a stone well outside an ancient town, Eliezer standing with raised hands in quiet prayer, ten tired camels kneeling in the dust, young women in long dresses approaching from afar with jars.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 🕳️ 🐫",
+     "say": [
+      "אליעזר הגיע לבאר מים, בערב. זה הזמן שבו הבנות יוצאות לשאוב מים.",
+      "אליעזר התפלל לשם: עזור לי למצוא את האשה הנכונה.",
+      "והוא ביקש סימן: אבקש מנערה מים. אם היא תגיד – שתה, וגם לגמלים שלך אשקה – אז אדע שהיא הנכונה.",
+      "למה דווקא זה הסימן? כי לבית של אברהם צריך מישהי שאוהבת לעשות חסד!"
+     ],
+     "pasuk": {
+      "text": "ה' אֱלֹקֵי אֲדֹנִי אַבְרָהָם, הַקְרֵה נָא לְפָנַי הַיּוֹם",
+      "ref": "בראשית כד, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "רבקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Scene: Rivka in a long modest rose dress and head covering arriving at the well with a clay jar on her shoulder, the water in the well rising up toward her by itself, sparkling.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👩 🕳️",
+     "say": [
+      "עוד לפני שאליעזר סיים להתפלל – הגיעה נערה עם כד על הכתף. שמה רבקה.",
+      "רבקה ירדה לבאר, ופתאום קרה נס: המים עלו אליה מעצמם!",
+      "אליעזר רץ אליה ואמר: תני לי בבקשה לשתות קצת מים מהכד.",
+      "ורבקה אמרה: שתה, אדוני. ומיד הורידה את הכד, ונתנה לו לשתות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י מספר שכשרבקה התקרבה לבאר, המים עלו לקראתה מעצמם."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "גם לגמלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Eliezer: a loyal servant with a greying beard in a travel cloak and a head cloth. Scene: Rivka hurrying again and again from the well to a long stone trough, pouring water from her jar for ten thirsty camels drinking in a row, Eliezer watching in quiet amazement.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👩 🐫 🐫 👨",
+     "say": [
+      "ואז רבקה אמרה: וגם לגמלים שלך אשאב מים, עד שיגמרו לשתות.",
+      "עשרה גמלים! וגמלים שותים המון. רבקה רצה לבאר, מילאה, שפכה, ורצה שוב.",
+      "אליעזר עמד ושתק, והתפלא. הנה – בדיוק הסימן שביקש!",
+      "רבקה עשתה הרבה יותר ממה שביקשו ממנה. זה חסד אמיתי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Eliezer: a loyal servant with a greying beard in a travel cloak and a head cloth. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Scene: Inside a large clay house at night lit by oil lamps: Eliezer telling his story to Rivka's family seated on cushions, her brother Lavan eyeing the golden gifts, Rivka in a long dress and head covering standing calmly by her mother.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 👨 👩 👵",
+     "say": [
+      "רבקה רצה הביתה וסיפרה לכולם. אחיה, לבן, ראה את הזהב ורץ לבאר.",
+      "אליעזר בא לבית, וסיפר את כל מה שקרה. ולפני שאכל – אמר: אני לא אוכל עד שאספר את השליחות שלי.",
+      "בבוקר המשפחה רצתה שרבקה תחכה עוד קצת. שאלו את רבקה: תלכי עם האיש הזה?",
+      "ורבקה ענתה במילה אחת: \"אלך\". היא רצתה להצטרף לבית של אברהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יצחק בשדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Scene: Late afternoon in an open field, Yitzchak alone in a white robe praying with bowed head among golden grass; far away a caravan of camels approaches, a woman on one of them covering her face with a veil.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 🌾 🐫",
+     "say": [
+      "באותה שעה יצחק יצא לשדה, אחרי הצהריים, להתפלל.",
+      "חז\"ל אומרים שיצחק תיקן את תפילת מנחה – התפילה שמתפללים אחרי הצהריים.",
+      "רבקה ראתה אותו מרחוק, ושאלה: מי האיש הזה? אליעזר אמר: זה יצחק.",
+      "ורבקה כיסתה את הפנים שלה בצעיף, בצניעות."
+     ],
+     "pasuk": {
+      "text": "וַיֵּצֵא יִצְחָק לָשׂוּחַ בַּשָּׂדֶה לִפְנוֹת עָרֶב",
+      "ref": "בראשית כד, סג"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "האוהל של שרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Scene: Evening in the tent of Sarah: a single oil lamp burning brightly, fresh bread on a cloth, and a soft cloud of light resting gently over the tent; Rivka in a long dress and head covering lighting the lamp.",
+     "move": "in",
+     "fx": "night",
+     "art": "⛺ 👩",
+     "say": [
+      "יצחק הביא את רבקה אל האוהל של שרה אמו. והם התחתנו.",
+      "כשרבקה נכנסה לאוהל, חזרו הסימנים הטובים שהיו אצל שרה.",
+      "הנר דלק כל השבוע, מערב שבת עד ערב שבת. הלחם היה מבורך, וענן של קדושה היה מעל האוהל.",
+      "יצחק ראה שרבקה צדקנית כמו אמו, ושמח."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י אומר שכשרבקה נכנסה לאוהל של שרה, חזרו שלושה סימנים: הנר דלק מערב שבת לערב שבת, ברכה הייתה בעיסה, וענן היה קשור על האוהל."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "הבארות של יצחק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Scene: Yitzchak and his shepherds digging a stone well in a wide dry valley, fresh water bubbling up, flocks of sheep gathering; in the distance, an open green land under a clear sky.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 🕳️ 🐑 🐑",
+     "say": [
+      "יצחק גדל וגר בארץ ישראל כל ימיו. הוא אף פעם לא יצא ממנה.",
+      "יצחק חפר בארות מים, כמו אבא שלו, אברהם.",
+      "שכנים רבו איתו על הבארות. ויצחק לא רב איתם – הוא הלך וחפר באר חדשה.",
+      "עד שבסוף כבר לא רבו, והוא קרא לה \"רחובות\": עכשיו יש מקום לכולם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-brf-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "אליעזר ורבקה ליד הבאר",
+   "ref_he": "סיפורי בראשית",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שליחות חשובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Eliezer: a loyal servant with a greying beard in a travel cloak and a head cloth. Scene: Old Avraham with a white beard speaking seriously to his loyal servant Eliezer at the opening of a tent at dawn, ten camels loaded with gifts waiting nearby, their mouths covered with muzzles.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 🐫 🐫",
+     "say": [
+      "שרה אמנו נפטרה בחברון, בת מאה עשרים ושבע שנה, ואברהם קבר אותה במערת המכפלה.",
+      "עכשיו אברהם רצה למצוא אשה ליצחק. הוא השביע את אליעזר, עבדו הנאמן: לא תיקח אשה מבנות כנען, אלא תלך לארצי ולמולדתי.",
+      "אליעזר לקח עשרה גמלים טעונים בכל טוב, ויצא לחרן, לארם נהריים.",
+      "רש\"י מספר שהגמלים של אברהם היו ניכרים בכל מקום: היו להם מחסומים על הפה, כדי שלא ירעו בשדות של אחרים. אפילו הגמלים של אברהם היו ישרים!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "התפילה ליד הבאר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Eliezer: a loyal servant with a greying beard in a travel cloak and a head cloth. Scene: Evening at a stone well outside an ancient town, Eliezer standing with raised hands in quiet prayer, ten tired camels kneeling in the dust, young women in long dresses approaching from afar with jars.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 🕳️ 🐫",
+     "say": [
+      "אליעזר הגיע אל הבאר מחוץ לעיר נחור, לעת ערב, \"לעת צאת השואבות\".",
+      "והדבר הראשון שעשה – התפלל: \"השם אלוקי אדוני אברהם, הקרה נא לפני היום, ועשה חסד עם אדוני אברהם\".",
+      "הוא בחר סימן חכם: אומר לנערה \"הטי נא כדך ואשתה\". ואם תענה \"שתה, וגם גמליך אשקה\" – היא הראויה ליצחק.",
+      "הוא לא חיפש את העשירה או את היפה ביותר. הוא חיפש לב טוב: מי שרואה צורך של אחר, ועושה יותר ממה שביקשו ממנה."
+     ],
+     "pasuk": {
+      "text": "ה' אֱלֹקֵי אֲדֹנִי אַבְרָהָם, הַקְרֵה נָא לְפָנַי הַיּוֹם",
+      "ref": "בראשית כד, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "רבקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Scene: Rivka in a long modest rose dress and head covering arriving at the well with a clay jar on her shoulder, the water in the well rising up toward her by itself, sparkling.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👩 🕳️",
+     "say": [
+      "\"ויהי הוא טרם כילה לדבר, והנה רבקה יוצאת\". השם ענה לתפילה עוד לפני שנגמרה.",
+      "רבקה הייתה בתו של בתואל, בן אחיו של אברהם. היא ירדה העינה, מילאה את כדה ועלתה.",
+      "רש\"י מספר שאליעזר ראה נס: המים עלו לקראתה. לכן רץ לקראתה ואמר: \"הגמיאיני נא מעט מים מכדך\".",
+      "ורבקה ענתה בכבוד: \"שתה, אדוני\", ומיהרה להוריד את הכד על ידה ולהשקות אותו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י מספר שכשרבקה התקרבה לבאר, המים עלו לקראתה מעצמם."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "גם לגמלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Eliezer: a loyal servant with a greying beard in a travel cloak and a head cloth. Scene: Rivka hurrying again and again from the well to a long stone trough, pouring water from her jar for ten thirsty camels drinking in a row, Eliezer watching in quiet amazement.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👩 🐫 🐫 👨",
+     "say": [
+      "\"ותכל להשקותו, ותאמר: גם לגמליך אשאב, עד אם כילו לשתות\". אף אחד לא ביקש ממנה – היא הציעה בעצמה.",
+      "\"ותמהר ותער כדה אל השוקת, ותרץ עוד אל הבאר לשאוב\". שימו לב למילים: היא מיהרה, היא רצה. חסד בשמחה ובזריזות.",
+      "אליעזר עמד משתאה ושותק, לראות אם השם הצליח את דרכו. אחרי ששתו הגמלים, נתן לה נזם זהב וצמידים.",
+      "והוא שאל: בת מי את? וכששמע שהיא מהמשפחה של אברהם – השתחווה ואמר: \"ברוך השם אלוקי אדוני אברהם, אשר לא עזב חסדו ואמיתו מעם אדוני\"."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גמל צמא מאוד יכול לשתות בפעם אחת בערך מאה ליטר מים. ורבקה השקתה עשרה גמלים!"
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "אלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Eliezer: a loyal servant with a greying beard in a travel cloak and a head cloth. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Scene: Inside a large clay house at night lit by oil lamps: Eliezer telling his story to Rivka's family seated on cushions, her brother Lavan eyeing the golden gifts, Rivka in a long dress and head covering standing calmly by her mother.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 👨 👩 👵",
+     "say": [
+      "רבקה רצה לבית אמה וסיפרה. ולבן אחיה רץ אל האיש – רש\"י אומר: כי ראה את הנזם והצמידים, ועיניו נתנו בממון.",
+      "אליעזר הוזמן לבית, אבל לפני שאכל אמר: \"לא אוכל עד אם דיברתי דבריי\". קודם השליחות – ואחר כך האוכל.",
+      "הוא סיפר הכול: על אברהם, על התפילה ועל הסימן. ובתואל ולבן ענו: \"מהשם יצא הדבר\".",
+      "בבוקר ביקשו לעכב את רבקה עוד ימים רבים. אבל כששאלו אותה \"התלכי עם האיש הזה?\" ענתה בלי היסוס: \"אלך\".",
+      "היא עזבה בית שלא הלך בדרך השם, כדי להיות חלק מהבית של אברהם. ממש כמו שאברהם עצמו עשה ב\"לך לך\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יצחק בשדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Scene: Late afternoon in an open field, Yitzchak alone in a white robe praying with bowed head among golden grass; far away a caravan of camels approaches, a woman on one of them covering her face with a veil.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 🌾 🐫",
+     "say": [
+      "\"ויצא יצחק לשוח בשדה לפנות ערב\". רש\"י אומר: \"שיחה\" זו תפילה. מכאן למדו חז\"ל שיצחק תיקן את תפילת מנחה.",
+      "אברהם תיקן את תפילת שחרית, יצחק את מנחה, ויעקב את ערבית. כך כל אחד מהאבות השאיר לנו תפילה.",
+      "רבקה נשאה את עיניה וראתה את יצחק, ושאלה את אליעזר: מי האיש ההולך בשדה לקראתנו? ואליעזר אמר: הוא אדוני.",
+      "\"ותיקח הצעיף ותתכס\". רבקה כיסתה את עצמה בצניעות, כדרכן של בנות ישראל."
+     ],
+     "pasuk": {
+      "text": "וַיֵּצֵא יִצְחָק לָשׂוּחַ בַּשָּׂדֶה לִפְנוֹת עָרֶב",
+      "ref": "בראשית כד, סג"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "האוהל של שרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Rivka: a young woman in a long modest rose dress with long sleeves and a head covering, carrying a water jar. Scene: Evening in the tent of Sarah: a single oil lamp burning brightly, fresh bread on a cloth, and a soft cloud of light resting gently over the tent; Rivka in a long dress and head covering lighting the lamp.",
+     "move": "in",
+     "fx": "night",
+     "art": "⛺ 👩",
+     "say": [
+      "\"ויביאה יצחק האוהלה שרה אמו, ויקח את רבקה ותהי לו לאשה\".",
+      "רש\"י מסביר שכל ימי שרה היה נר דולק בביתה מערב שבת לערב שבת, ברכה מצויה בעיסה, וענן קשור על האוהל. כשמתה – פסקו. וכשבאה רבקה – חזרו.",
+      "יצחק ראה שרבקה ממשיכה את דרכה של שרה, \"וינחם יצחק אחרי אמו\".",
+      "ומכאן גם המנהג היפה שלנו: נשות ישראל מדליקות נרות שבת, ומביאות אור וברכה לכל הבית."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י אומר שכשרבקה נכנסה לאוהל של שרה, חזרו שלושה סימנים: הנר דלק מערב שבת לערב שבת, ברכה הייתה בעיסה, וענן היה קשור על האוהל."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "הבארות של יצחק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Scene: Yitzchak and his shepherds digging a stone well in a wide dry valley, fresh water bubbling up, flocks of sheep gathering; in the distance, an open green land under a clear sky.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 🕳️ 🐑 🐑",
+     "say": [
+      "יצחק היה היחיד מהאבות שלא יצא מארץ ישראל מעולם. רש\"י אומר שהשם אמר לו: אתה עולה תמימה, וחוץ לארץ אינה כדאי לך.",
+      "בימי רעב השם אמר לו: גור בארץ הזאת, ואהיה עימך ואברכך. ויצחק זרע, וקצר מאה שערים – פי מאה ממה שציפה.",
+      "יצחק חזר וחפר את הבארות של אברהם אביו, וקרא להן באותם שמות שקרא להן אביו – כבוד לאבא.",
+      "הרועים של גרר רבו איתו על הבארות. ויצחק לא נלחם – הלך וחפר באר אחרת, עד שמצא באר שלא רבו עליה, וקרא לה \"רחובות\": \"כי עתה הרחיב השם לנו\".",
+      "ואחרי כל זה נולדו ליצחק ולרבקה שני בנים, תאומים: עשו ויעקב. ועל יעקב – בפרק הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-brf-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היו לגמלים של אברהם מחסומים על הפה?",
+   "answer": "כדי שלא יאכלו בשדות של אנשים אחרים",
+   "options": [
+    "כדי שלא יאכלו בשדות של אנשים אחרים",
+    "כדי שלא ינשכו",
+    "כדי שלא ישתו יותר מדי"
+   ],
+   "explain_he": "אפילו הגמלים של אברהם היו ישרים, ולא אכלו ממה ששייך לאחרים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היו לגמלים של אברהם מחסומים על הפה?",
+   "answer": "כדי שלא יאכלו בשדות של אנשים אחרים",
+   "options": [
+    "כדי שלא יאכלו בשדות של אנשים אחרים",
+    "כדי שלא ינשכו",
+    "כדי שלא ישתו יותר מדי"
+   ],
+   "explain_he": "אפילו הגמלים של אברהם היו ישרים, ולא אכלו ממה ששייך לאחרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה סימן ביקש אליעזר בתפילה?",
+   "answer": "נערה שתשקה אותו וגם את הגמלים",
+   "options": [
+    "נערה שתשקה אותו וגם את הגמלים",
+    "נערה שתביא לו אוכל",
+    "נערה עם שמלה אדומה"
+   ],
+   "explain_he": "אליעזר חיפש לב טוב – מישהי שעושה חסד יותר ממה שמבקשים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה סימן ביקש אליעזר בתפילה?",
+   "answer": "נערה שתשקה אותו וגם את הגמלים",
+   "options": [
+    "נערה שתשקה אותו וגם את הגמלים",
+    "נערה שתביא לו אוכל",
+    "נערה עם שמלה אדומה"
+   ],
+   "explain_he": "אליעזר חיפש לב טוב – מישהי שעושה חסד יותר ממה שמבקשים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נס ראה אליעזר כשרבקה ירדה לבאר?",
+   "answer": "המים עלו לקראתה מעצמם",
+   "options": [
+    "המים עלו לקראתה מעצמם",
+    "ירד גשם",
+    "הגמלים דיברו"
+   ],
+   "explain_he": "רש\"י מספר שהמים עלו לקראת רבקה, ולכן אליעזר רץ אליה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה נס ראה אליעזר כשרבקה ירדה לבאר?",
+   "answer": "המים עלו לקראתה מעצמם",
+   "options": [
+    "המים עלו לקראתה מעצמם",
+    "ירד גשם",
+    "הגמלים דיברו"
+   ],
+   "explain_he": "רש\"י מספר שהמים עלו לקראת רבקה, ולכן אליעזר רץ אליה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענתה רבקה כששאלו אותה אם תלך עם אליעזר?",
+   "answer": "\"אלך\"",
+   "options": [
+    "\"אלך\"",
+    "\"אחשוב על זה שנה\"",
+    "\"לא אלך\""
+   ],
+   "explain_he": "רבקה רצתה להצטרף לבית של אברהם, ולא היססה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענתה רבקה כששאלו אותה אם תלך עם אליעזר?",
+   "answer": "\"אלך\"",
+   "options": [
+    "\"אלך\"",
+    "\"אחשוב על זה שנה\"",
+    "\"לא אלך\""
+   ],
+   "explain_he": "רבקה רצתה להצטרף לבית של אברהם, ולא היססה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה חזר לאוהל של שרה כשרבקה נכנסה?",
+   "answer": "הנר, הברכה בלחם והענן",
+   "options": [
+    "הנר, הברכה בלחם והענן",
+    "הגמלים והזהב",
+    "הבאר והמים"
+   ],
+   "explain_he": "רבקה המשיכה את דרכה של שרה, וחזרו שלושת הסימנים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה חזר לאוהל של שרה כשרבקה נכנסה?",
+   "answer": "הנר, הברכה בלחם והענן",
+   "options": [
+    "הנר, הברכה בלחם והענן",
+    "הגמלים והזהב",
+    "הבאר והמים"
+   ],
+   "explain_he": "רבקה המשיכה את דרכה של שרה, וחזרו שלושת הסימנים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה יצחק כשהשכנים רבו איתו על הבארות?",
+   "answer": "הלך וחפר באר חדשה",
+   "options": [
+    "הלך וחפר באר חדשה",
+    "רב איתם",
+    "סגר את הבאר"
+   ],
+   "explain_he": "יצחק לא רב, עד שמצא באר שלא רבו עליה וקרא לה \"רחובות\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו תפילה תיקן יצחק?",
+   "answer": "תפילת מנחה",
+   "options": [
+    "תפילת מנחה",
+    "תפילת שחרית",
+    "תפילת ערבית"
+   ],
+   "explain_he": "יצחק יצא לשדה להתפלל אחרי הצהריים – זו תפילת מנחה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רץ לבן אל אליעזר, לפי רש\"י?",
+   "answer": "כי ראה את הזהב, ועיניו היו בממון",
+   "options": [
+    "כי ראה את הזהב, ועיניו היו בממון",
+    "כי רצה לעזור לגמלים",
+    "כי הכיר את אליעזר מזמן"
+   ],
+   "explain_he": "לבן ראה את הנזם והצמידים, ורץ בגלל הממון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר אליעזר לפני שאכל בבית של רבקה?",
+   "answer": "\"לא אוכל עד אם דיברתי דבריי\"",
+   "options": [
+    "\"לא אוכל עד אם דיברתי דבריי\"",
+    "\"אני רעב מאוד\"",
+    "\"תביאו לגמלים קודם\""
+   ],
+   "explain_he": "קודם השליחות, ואחר כך האוכל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f6e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשתה רבקה כשראתה את יצחק בשדה?",
+   "answer": "כיסתה את עצמה בצעיף, בצניעות",
+   "options": [
+    "כיסתה את עצמה בצעיף, בצניעות",
+    "רצה אליו",
+    "חזרה הביתה"
+   ],
+   "explain_he": "\"ותיקח הצעיף ותתכס\" – בצניעות, כדרכן של בנות ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f6e17"
+  }
+ ]
+}

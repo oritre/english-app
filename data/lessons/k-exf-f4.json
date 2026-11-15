@@ -1,0 +1,552 @@
+{
+ "id": "k-exf-f4",
+ "unit_id": "k-exf-u2",
+ "course": "exodus",
+ "title_he": "עשר המכות",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌊 ידע כללי",
+   "title_he": "עשר המכות",
+   "ref_he": "משה ויציאת מצרים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שלח את עמי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Aharon: an older man with a long grey beard in a dark blue robe and head cloth, warm, peaceful smile. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Scene: Inside Pharaoh's vast stone throne room: Moshe with his staff and Aharon in a blue robe standing calmly before proud Pharaoh on a golden throne, Egyptian advisers in white linen around him.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👴 👨",
+     "say": [
+      "משה ואהרן באו לארמון של פרעה, ואמרו: כך אמר השם – שלח את עמי!",
+      "ופרעה ענה בגאווה: מי זה השם? אני לא מכיר אותו, ולא אשלח את ישראל.",
+      "פרעה חשב שהוא עצמו אל, ושאף אחד לא חזק ממנו.",
+      "ועוד הכביד את העבודה: מעכשיו, תביאו בעצמכם את התבן ללבנים!",
+      "אז השם אמר: עכשיו כל מצרים תדע מי הוא השם. והתחילו המכות."
+     ],
+     "pasuk": {
+      "text": "כֹּה אָמַר ה' אֱלֹקֵי יִשְׂרָאֵל: שַׁלַּח אֶת עַמִּי",
+      "ref": "שמות ה, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "דם וצפרדע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: The wide Nile flowing deep red under a hazy sky, empty Egyptian clay jars on its banks; then the palace steps, beds and ovens covered with countless green frogs hopping everywhere.",
+     "move": "left",
+     "fx": null,
+     "art": "🐸 🐸 🌾",
+     "say": [
+      "המכה הראשונה: דם. כל המים במצרים – ביאור, בבריכות ואפילו בכדים – הפכו לדם.",
+      "המצרים עבדו ליאור, כאילו הוא אליל. השם הראה להם: היאור לא שולט בכלום.",
+      "המכה השנייה: צפרדע. צפרדעים בכל מקום! במיטות, בתנורים, ואפילו בבצק.",
+      "ופרעה ביקש: תוציאו אותן! אבל כשהן הלכו – הוא שוב לא שלח את העם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י אומר שאת היאור היכה אהרן ולא משה – כי היאור הגן על משה כשהיה תינוק, ומשה לא רצה להכות את מי שעזר לו."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "כינים, ערוב ודבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: Dusty Egyptian streets full of swarms of insects in the air; wild animals, a bear, a wolf and a lion, roaming between empty Egyptian houses; while beyond a line of green fields, the quiet Hebrew homes of Goshen are peaceful and untouched.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🦁 🐺 🐻 🏠",
+     "say": [
+      "המכה השלישית: כינים. כל העפר במצרים הפך לחרקים קטנים שעוקצים.",
+      "החרטומים, הקוסמים של מצרים, ניסו לעשות גם – ולא הצליחו. הם אמרו לפרעה: \"אצבע אלוקים היא\"!",
+      "המכה הרביעית: ערוב – חיות רעות מכל הסוגים. והחמישית: דבר – מחלה שפגעה בבהמות של המצרים.",
+      "ובארץ גושן, איפה שגרו בני ישראל? שם לא היה ערוב, ולא מתה אפילו בהמה אחת!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שחין וברד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: A dark stormy sky over Egyptian fields: huge white hailstones falling while flashes of fire glow inside them among the clouds; flax and barley bent to the ground, the people safely indoors. No injuries shown.",
+     "move": "up",
+     "fx": "night",
+     "art": "🌾 🏠",
+     "say": [
+      "המכה השישית: שחין – פצעים כואבים על העור של המצרים. אפילו החרטומים לא יכלו לעמוד לפני משה.",
+      "המכה השביעית: ברד. אבני קרח גדולות ירדו מהשמיים.",
+      "ובתוך הברד – בערה אש! קרח ואש, יחד, ולא כיבו זה את זה. נס בתוך נס!",
+      "אבל משה הזהיר קודם: הכניסו את הבהמות הביתה. ומי מהמצרים שפחד מהשם – הקשיב, והציל את הבהמות שלו."
+     ],
+     "pasuk": {
+      "text": "וַיְהִי בָרָד וְאֵשׁ מִתְלַקַּחַת בְּתוֹךְ הַבָּרָד",
+      "ref": "שמות ט, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "בנערינו ובזקנינו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: In Pharaoh's throne room: Moshe with his staff standing firm and pointing back toward a group of Hebrew grandparents, fathers, mothers and small children waiting at the palace gate, Pharaoh frowning on his throne.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "לפני מכת ארבה, פרעה ניסה לעשות עסקה עם משה.",
+      "הוא אמר: טוב, לכו לעבוד את השם. אבל מי בדיוק ילך?",
+      "ומשה ענה: כולנו! הילדים והזקנים, הבנים והבנות. אף אחד לא נשאר מאחור.",
+      "פרעה אמר: רק הגברים ילכו, הילדים יישארו פה. ומשה לא הסכים.",
+      "כי בעם ישראל, הילדים הם הכי חשובים. בלי הילדים – אין המשך."
+     ],
+     "pasuk": {
+      "text": "בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ, בְּבָנֵינוּ וּבִבְנוֹתֵנוּ",
+      "ref": "שמות י, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ארבה וחושך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: A dark Egyptian city in deep blackness, not a single lamp, while in the Hebrew homes of Goshen nearby every window glows with warm light and families sit together; a great cloud of locusts flying away over the sea in the distance.",
+     "move": "out",
+     "fx": "night",
+     "art": "🦗 🏠 🏠",
+     "say": [
+      "המכה השמינית: ארבה. המון המון חגבים כיסו את כל הארץ, ואכלו כל עשב וכל עלה שנשאר אחרי הברד.",
+      "המכה התשיעית: חושך. חושך כל כך כבד, שהמצרים לא ראו זה את זה.",
+      "שלושה ימים הם לא יכלו לקום ממקומם!",
+      "אבל אצל בני ישראל, בכל הבתים, היה אור. השם שמר עליהם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בחושך, המצרים לא יכלו לזוז ממקומם שלושה ימים. ולכל בני ישראל, אומרת התורה, \"היה אור במושבותם\"."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "מה למדנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Scene: Moshe standing on a hill at dawn holding his staff, looking over the land of Egypt with its red river restored to blue, quiet fields and the palace in the distance; a soft light from above.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 🌾",
+     "say": [
+      "אז מה למדנו מעשר המכות?",
+      "שהשם שולט בכל העולם: במים, בחיות, במחלות, בגשם ובשמש.",
+      "שהשם שומר על בני ישראל: במכות רבות, אצלם לא קרה כלום.",
+      "ושגאווה, כמו של פרעה, לא מאפשרת לשמוע אמת. אבל המכה האחרונה עוד מחכה – ועליה בפרק הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exf-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌊 ידע כללי",
+   "title_he": "עשר המכות",
+   "ref_he": "משה ויציאת מצרים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שלח את עמי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Aharon: an older man with a long grey beard in a dark blue robe and head cloth, warm, peaceful smile. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Scene: Inside Pharaoh's vast stone throne room: Moshe with his staff and Aharon in a blue robe standing calmly before proud Pharaoh on a golden throne, Egyptian advisers in white linen around him.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👴 👨",
+     "say": [
+      "משה ואהרן נכנסו אל פרעה ואמרו: \"כה אמר השם אלוקי ישראל: שלח את עמי, ויחוגו לי במדבר\".",
+      "ופרעה, שחשב את עצמו לאל, ענה: \"מי השם אשר אשמע בקולו... לא ידעתי את השם, וגם את ישראל לא אשלח\".",
+      "ועוד הכביד את העול: בני ישראל יצטרכו לאסוף תבן בעצמם, ולעשות אותה כמות של לבנים.",
+      "כל המכות באו לענות על השאלה של פרעה: \"מי השם?\" כמו שהשם אמר: \"וידעו מצרים כי אני השם\".",
+      "רבי יהודה נתן בהן סימן קצר, שאנחנו אומרים בהגדה: דצ\"ך, עד\"ש, באח\"ב. בואו נעבור עליהן."
+     ],
+     "pasuk": {
+      "text": "כֹּה אָמַר ה' אֱלֹקֵי יִשְׂרָאֵל: שַׁלַּח אֶת עַמִּי",
+      "ref": "שמות ה, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "דם וצפרדע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: The wide Nile flowing deep red under a hazy sky, empty Egyptian clay jars on its banks; then the palace steps, beds and ovens covered with countless green frogs hopping everywhere.",
+     "move": "left",
+     "fx": null,
+     "art": "🐸 🐸 🌾",
+     "say": [
+      "המכה הראשונה – דם. אהרן הכה במטה את היאור, וכל המים במצרים נהפכו לדם. המצרים חפרו סביב היאור, וחיפשו מים לשתות.",
+      "רש\"י אומר: המצרים עבדו ליאור, כי הוא השקה את כל ארצם. לכן השם הכה קודם את האליל שלהם.",
+      "והמכה השנייה – צפרדע. \"ושרץ היאור צפרדעים, ועלו ובאו בביתך ובחדר משכבך... ובתנוריך ובמשארותיך\".",
+      "פרעה קרא למשה: העתירו אל השם, ויסר הצפרדעים, ואשלחה את העם. משה התפלל, והצפרדעים מתו. אבל \"וירא פרעה כי הייתה הרווחה – והכבד את ליבו\"."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י אומר שאת היאור היכה אהרן ולא משה – כי היאור הגן על משה כשהיה תינוק, ומשה לא רצה להכות את מי שעזר לו."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "כינים, ערוב ודבר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: Dusty Egyptian streets full of swarms of insects in the air; wild animals, a bear, a wolf and a lion, roaming between empty Egyptian houses; while beyond a line of green fields, the quiet Hebrew homes of Goshen are peaceful and untouched.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🦁 🐺 🐻 🏠",
+     "say": [
+      "בכינים – אהרן הכה את עפר הארץ, והוא נהפך לכינים. החרטומים, שהצליחו לחקות את הדם והצפרדע, לא הצליחו כאן. והם הודו: \"אצבע אלוקים היא\".",
+      "בערוב – תערובת של חיות רעות מילאה את בתי מצרים. אבל השם אמר: \"והפליתי ביום ההוא את ארץ גושן\". שם לא היה ערוב, \"למען תדע כי אני השם בקרב הארץ\".",
+      "בדבר – מחלה קשה פגעה במקנה של מצרים: סוסים, חמורים, גמלים, בקר וצאן. וממקנה בני ישראל לא מת אחד.",
+      "פרעה שלח לבדוק – \"והנה לא מת ממקנה ישראל עד אחד\". הוא ראה הכול בעיניים. ובכל זאת – \"ויכבד לב פרעה\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שחין וברד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: A dark stormy sky over Egyptian fields: huge white hailstones falling while flashes of fire glow inside them among the clouds; flax and barley bent to the ground, the people safely indoors. No injuries shown.",
+     "move": "up",
+     "fx": "night",
+     "art": "🌾 🏠",
+     "say": [
+      "בשחין – משה זרק פיח מן הכבשן השמיימה, והוא נהפך לאבק שהביא פצעים כואבים על אדם ובהמה. החרטומים לא יכלו אפילו לעמוד לפני משה.",
+      "בברד – לפני המכה, משה הזהיר: \"שלח העז את מקנך... כל האדם והבהמה אשר יימצא בשדה – ירד עליהם הברד\".",
+      "\"הירא את דבר השם מעבדי פרעה – הניס את עבדיו ואת מקנהו אל הבתים\". גם במכות, השם נתן הזדמנות להינצל.",
+      "ואז ירד ברד כבד, \"ואש מתלקחת בתוך הברד\". רש\"י אומר: נס בתוך נס – האש והברד מעורבים, והמים לא כיבו את האש, ועשו שלום ביניהם לעשות רצון קונם.",
+      "ופרעה אמר לראשונה: \"השם הצדיק, ואני ועמי הרשעים\". אבל כשהברד חדל – שוב הכביד את ליבו."
+     ],
+     "pasuk": {
+      "text": "וַיְהִי בָרָד וְאֵשׁ מִתְלַקַּחַת בְּתוֹךְ הַבָּרָד",
+      "ref": "שמות ט, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "בנערינו ובזקנינו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: In Pharaoh's throne room: Moshe with his staff standing firm and pointing back toward a group of Hebrew grandparents, fathers, mothers and small children waiting at the palace gate, Pharaoh frowning on his throne.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "אחרי הברד, עבדי פרעה לחצו עליו, והוא קרא למשה ואהרן: \"לכו עבדו את השם אלוקיכם – מי ומי ההולכים?\"",
+      "ומשה ענה: \"בנערינו ובזקנינו נלך, בבנינו ובבנותנו, בצאננו ובבקרנו נלך, כי חג השם לנו\".",
+      "פרעה הבין מה זה אומר, וסירב: \"לכו נא הגברים\" – רק המבוגרים. הילדים יישארו כאן.",
+      "פרעה ידע שאם הילדים יישארו במצרים, העם לא באמת יצא. ומשה ידע את זה גם: אין עבודת השם בלי הדור הבא.",
+      "חג של עם ישראל הוא חג של כל המשפחה – מהסבא ועד התינוק. ואם הילדים לא איתנו, אין לנו עתיד."
+     ],
+     "pasuk": {
+      "text": "בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ, בְּבָנֵינוּ וּבִבְנוֹתֵנוּ",
+      "ref": "שמות י, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ארבה וחושך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light.  Scene: A dark Egyptian city in deep blackness, not a single lamp, while in the Hebrew homes of Goshen nearby every window glows with warm light and families sit together; a great cloud of locusts flying away over the sea in the distance.",
+     "move": "out",
+     "fx": "night",
+     "art": "🦗 🏠 🏠",
+     "say": [
+      "בארבה – \"ויכס את עין כל הארץ, ותחשך הארץ\". הארבה אכל את כל עשב השדה ואת כל פרי העץ שהותיר הברד. עבדי פרעה עצמם אמרו לו: \"הטרם תדע כי אבדה מצרים?\"",
+      "ובחושך – משה נטה את ידו על השמיים, \"ויהי חושך אפלה בכל ארץ מצרים שלושת ימים\".",
+      "רש\"י אומר שזה היה חושך שאפשר כמעט למשש אותו. \"לא ראו איש את אחיו, ולא קמו איש מתחתיו\".",
+      "\"ולכל בני ישראל היה אור במושבותם\". באותה ארץ, באותה שעה – אצל המצרים חושך, ואצל ישראל אור. כך מבדיל השם בין מי שהולך בדרכו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בחושך, המצרים לא יכלו לזוז ממקומם שלושה ימים. ולכל בני ישראל, אומרת התורה, \"היה אור במושבותם\"."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "מה למדנו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a dignified man with a long grey beard in a plain cream robe, holding a wooden staff. Scene: Moshe standing on a hill at dawn holding his staff, looking over the land of Egypt with its red river restored to blue, quiet fields and the palace in the distance; a soft light from above.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 🌾",
+     "say": [
+      "תשע מכות, ועוד אחת בדרך. ומה הן לימדו?",
+      "קודם כול – שהשם שולט בכל הבריאה: במים ובאדמה, בחיות ובאוויר, באור ובחושך. אין שום כוח אחר. כל האלילים של מצרים התגלו כחסרי כוח.",
+      "שנית – השגחה פרטית: השם מבדיל בין ישראל למצרים. אפילו בהמה אחת של ישראל לא מתה בדבר.",
+      "שלישית – הזדמנות לתשובה: לפני מכות רבות היה אזהרה, ומי שירא את השם יכול היה להינצל.",
+      "ורביעית – מה עושה גאווה. פרעה ראה הכול, ואפילו אמר \"השם הצדיק\" – ובכל זאת התעקש. רש\"י אומר שבסוף השם חיזק את ליבו, כדי שכל העולם יראה עד הסוף את גבורת השם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-exf-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי, לפי משה, ילך לעבוד את השם?",
+   "answer": "כולם – הילדים והזקנים, הבנים והבנות",
+   "options": [
+    "כולם – הילדים והזקנים, הבנים והבנות",
+    "רק הגברים",
+    "רק משה ואהרן"
+   ],
+   "explain_he": "\"בנערינו ובזקנינו נלך\" – בלי הילדים אין המשך לעם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי, לפי משה, ילך לעבוד את השם?",
+   "answer": "כולם – הילדים והזקנים, הבנים והבנות",
+   "options": [
+    "כולם – הילדים והזקנים, הבנים והבנות",
+    "רק הגברים",
+    "רק משה ואהרן"
+   ],
+   "explain_he": "\"בנערינו ובזקנינו נלך\" – בלי הילדים אין המשך לעם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה פרעה כשמשה אמר \"שלח את עמי\"?",
+   "answer": "\"מי השם? לא אשלח\"",
+   "options": [
+    "\"מי השם? לא אשלח\"",
+    "\"בסדר, לכו מחר\"",
+    "\"אחשוב על זה\""
+   ],
+   "explain_he": "פרעה ענה בגאווה, ולכן המכות באו ללמד אותו מי הוא השם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה פרעה כשמשה אמר \"שלח את עמי\"?",
+   "answer": "\"מי השם? לא אשלח\"",
+   "options": [
+    "\"מי השם? לא אשלח\"",
+    "\"בסדר, לכו מחר\"",
+    "\"אחשוב על זה\""
+   ],
+   "explain_he": "פרעה ענה בגאווה, ולכן המכות באו ללמד אותו מי הוא השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה המכה הראשונה?",
+   "answer": "דם",
+   "options": [
+    "דם",
+    "חושך",
+    "ברד"
+   ],
+   "explain_he": "כל המים במצרים נהפכו לדם – אפילו היאור שהמצרים עבדו לו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה המכה הראשונה?",
+   "answer": "דם",
+   "options": [
+    "דם",
+    "חושך",
+    "ברד"
+   ],
+   "explain_he": "כל המים במצרים נהפכו לדם – אפילו היאור שהמצרים עבדו לו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו החרטומים במכת כינים?",
+   "answer": "\"אצבע אלוקים היא\"",
+   "options": [
+    "\"אצבע אלוקים היא\"",
+    "\"גם אנחנו יכולים\"",
+    "\"זה רק מקרה\""
+   ],
+   "explain_he": "החרטומים לא הצליחו לחקות את המכה, והודו שהיא מהשם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו החרטומים במכת כינים?",
+   "answer": "\"אצבע אלוקים היא\"",
+   "options": [
+    "\"אצבע אלוקים היא\"",
+    "\"גם אנחנו יכולים\"",
+    "\"זה רק מקרה\""
+   ],
+   "explain_he": "החרטומים לא הצליחו לחקות את המכה, והודו שהיא מהשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה מיוחד בברד?",
+   "answer": "אש בערה בתוך הברד",
+   "options": [
+    "אש בערה בתוך הברד",
+    "הוא היה חם",
+    "הוא ירד רק על ישראל"
+   ],
+   "explain_he": "קרח ואש יחד, ולא כיבו זה את זה – נס בתוך נס.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה מיוחד בברד?",
+   "answer": "אש בערה בתוך הברד",
+   "options": [
+    "אש בערה בתוך הברד",
+    "הוא היה חם",
+    "הוא ירד רק על ישראל"
+   ],
+   "explain_he": "קרח ואש יחד, ולא כיבו זה את זה – נס בתוך נס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה אצל בני ישראל בזמן מכת החושך?",
+   "answer": "אור בכל הבתים",
+   "options": [
+    "אור בכל הבתים",
+    "חושך כמו אצל המצרים",
+    "גשם"
+   ],
+   "explain_he": "\"ולכל בני ישראל היה אור במושבותם\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה אצל בני ישראל בזמן מכת החושך?",
+   "answer": "אור בכל הבתים",
+   "options": [
+    "אור בכל הבתים",
+    "חושך כמו אצל המצרים",
+    "גשם"
+   ],
+   "explain_he": "\"ולכל בני ישראל היה אור במושבותם\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הכה אהרן את היאור, ולא משה?",
+   "answer": "כי היאור שמר על משה כשהיה תינוק",
+   "options": [
+    "כי היאור שמר על משה כשהיה תינוק",
+    "כי משה היה עייף",
+    "כי אהרן היה גבוה יותר"
+   ],
+   "explain_he": "משה לא רצה להכות את מי שעזר לו – הכרת הטוב.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הסימן של רבי יהודה לעשר המכות?",
+   "answer": "דצ\"ך, עד\"ש, באח\"ב",
+   "options": [
+    "דצ\"ך, עד\"ש, באח\"ב",
+    "אבג\"ד, הוז\"ח",
+    "שמ\"ע, ישר\"א"
+   ],
+   "explain_he": "את הסימן הזה אנחנו אומרים בהגדה של פסח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למדו מכך שבמכת ערוב ובמכת דבר לא נפגעה ארץ גושן?",
+   "answer": "שהשם משגיח ומבדיל בין ישראל למצרים",
+   "options": [
+    "שהשם משגיח ומבדיל בין ישראל למצרים",
+    "שבגושן לא היו חיות",
+    "שהמצרים לא ידעו על גושן"
+   ],
+   "explain_he": "\"והפליתי ביום ההוא את ארץ גושן... למען תדע כי אני השם בקרב הארץ\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו עבדי פרעה שיראו מהשם לפני הברד?",
+   "answer": "הכניסו את העבדים והבהמות לבתים",
+   "options": [
+    "הכניסו את העבדים והבהמות לבתים",
+    "השאירו את הכול בשדה",
+    "ברחו מהארץ"
+   ],
+   "explain_he": "משה הזהיר מראש, ומי שירא את דבר השם – ניצל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f4e18"
+  }
+ ]
+}

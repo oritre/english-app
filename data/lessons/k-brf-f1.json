@@ -1,0 +1,601 @@
+{
+ "id": "k-brf-f1",
+ "unit_id": "k-brf-u1",
+ "course": "bereshit",
+ "title_he": "ששת ימי בראשית והשבת",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "ששת ימי בראשית והשבת",
+   "ref_he": "סיפורי בראשית",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בראשית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: Deep stillness before the world: a vast dark emptiness with dark waters, and a first soft glow of light beginning to spread from above.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "פעם, לפני הכול, לא היה כלום. לא שמש, לא ים, לא עצים ולא ילדים.",
+      "רק חושך, ומים, ושקט גדול.",
+      "ואז הקדוש ברוך הוא ברא את העולם. הוא אמר – וזה היה.",
+      "כך מתחילה התורה: \"בראשית ברא אלוקים את השמים ואת הארץ\". בואו נראה מה נברא בכל יום."
+     ],
+     "pasuk": {
+      "text": "בְּרֵאשִׁית בָּרָא אֱלֹקִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "ref": "בראשית א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "יום ראשון: אור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A great warm light bursting across the dark waters, golden and white, separating from the darkness at the edges. No figures.",
+     "move": "out",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "ביום הראשון אמר השם: \"יהי אור\". ומיד היה אור!",
+      "השם ראה שהאור טוב. הוא הבדיל בין האור לחושך.",
+      "השם רק אמר מילה אחת – ואור גדול מילא את כל העולם.",
+      "את האור קרא \"יום\", ואת החושך קרא \"לילה\".",
+      "וכך היה ערב, והיה בוקר – יום אחד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "יום שני ויום שלישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A blue sky dome rising above shining waters; then, below it, seas pulling back and green land appearing with grass, flowers and young fruit trees.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🌳 🌳",
+     "say": [
+      "ביום השני ברא השם את הרקיע – את השמיים הכחולים שמעלינו.",
+      "ביום השלישי אמר השם: המים יתאספו למקום אחד. וכך נוצרו הימים, ונראתה היבשה.",
+      "ומיד צמחו על האדמה דשא ירוק, פרחים ועצים עם פירות.",
+      "תפוחים ותאנים, ענבים ותמרים – וכל פרי עם זרעים בפנים, כדי שיצמחו עוד עצים.",
+      "פתאום העולם נהיה ירוק ויפה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יום רביעי: המאורות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A sky over a quiet green earth showing a warm sun on one side at dusk and a silver moon with countless stars rising on the other.",
+     "move": "left",
+     "fx": "stars",
+     "art": "🌳",
+     "say": [
+      "ביום הרביעי ברא השם את השמש, את הירח ואת הכוכבים.",
+      "השמש מאירה ביום, והירח והכוכבים מאירים בלילה.",
+      "הם עוזרים לנו לדעת מתי יום ומתי לילה, ומתי מתחיל חודש חדש.",
+      "בפעם הבאה שתראו את הירח, תגידו בלב: השם ברא אותו!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את השמש והירח ברא השם רק ביום הרביעי – אחרי הצמחים. כך יודעים שהצמחים לא צומחים בזכות השמש לבדה, אלא כי השם ציווה."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "יום חמישי: דגים ועופות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A lively sea full of colorful fish and a great whale, and above it flocks of birds of every color flying over the shore in morning light.",
+     "move": "right",
+     "fx": null,
+     "art": "🐟 🐦 🐋",
+     "say": [
+      "ביום החמישי ברא השם את הדגים בים ואת הציפורים בשמיים.",
+      "דגים קטנים וגדולים, ואפילו לווייתנים ענקיים!",
+      "וציפורים מכל הצבעים: יונים, נשרים ודרורים.",
+      "השם בירך אותם: פרו ורבו – כדי שיהיו הרבה הרבה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יום שישי: החיות והאדם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Adam: a young man with dark hair and a short beard in a long plain light robe, seen small and from afar. Scene: Green meadows full of animals: lions, elephants, deer, cows, sheep and rabbits. Far away on a hill a single small man in a long light robe stands in a soft golden light, looking at the world.",
+     "move": "out",
+     "fx": "light",
+     "art": "🦁 🐘 🐑 🚶",
+     "say": [
+      "ביום השישי ברא השם את כל החיות: אריות ופילים, פרות וכבשים, ואפילו נמלים קטנות.",
+      "ובסוף, אחרי כולם, ברא השם את האדם.",
+      "לאדם השם נתן משהו מיוחד: נשמה. האדם יכול לחשוב, לדבר, לבחור בטוב, ולהתפלל.",
+      "השם הסתכל על כל מה שעשה, \"והנה טוב מאוד\"."
+     ],
+     "pasuk": {
+      "text": "וַיִּבְרָא אֱלֹקִים אֶת הָאָדָם בְּצַלְמוֹ",
+      "ref": "בראשית א, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "שום דבר לא סתם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A close-up of a sunny meadow: a honeybee on a flower, a line of ants carrying seeds, an earthworm in the soil and a small bird feeding its chicks in a nest on a branch.",
+     "move": "in",
+     "fx": null,
+     "art": "🐝 🐜 🐦 🌳",
+     "say": [
+      "בואו נסתכל מקרוב. הדבורה עפה מפרח לפרח, ועושה לנו דבש.",
+      "הנמלים סוחבות זרעים, ומכינות אוכל לחורף.",
+      "התולעת חופרת באדמה, והאדמה נעשית רכה, כדי שצמחים יוכלו לצמוח.",
+      "והציפור מאכילה את הגוזלים שלה, באהבה.",
+      "לכל יצור קטן יש תפקיד. השם לא ברא שום דבר סתם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: \"כל מה שברא הקדוש ברוך הוא בעולמו, לא ברא דבר אחד לבטלה\"."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "השבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: Friday at sunset in a warm home: two Shabbat candles lit on a white tablecloth, two covered challot and a silver kiddush cup, a window showing the quiet green world outside.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠",
+     "say": [
+      "ואז הגיע היום השביעי. השם סיים לברוא את העולם, ונח.",
+      "השם בירך את היום השביעי וקידש אותו. זו השבת!",
+      "גם אנחנו עובדים שישה ימים, ובשבת נחים. מדליקים נרות, עושים קידוש ואוכלים חלות.",
+      "כל שבת אנחנו אומרים: השם ברא את העולם. איזה יום שמח!"
+     ],
+     "pasuk": {
+      "text": "וַיְבָרֶךְ אֱלֹקִים אֶת יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ",
+      "ref": "בראשית ב, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הכול טוב מאוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A wide view of the new world at sunrise: mountains, rivers, forests, a sea with birds above it and animals in the meadows, all shining with soft light.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌳 🐦 🐑",
+     "say": [
+      "בואו ניזכר: אור, שמיים, ים ויבשה וצמחים, שמש וירח, דגים וציפורים, חיות ואדם – ושבת.",
+      "כל דבר בעולם השם ברא, ושום דבר לא נברא סתם.",
+      "אז כשאתם רואים פרח, ציפור או כוכב, תגידו: \"מה רבו מעשיך השם!\""
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-brf-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "ששת ימי בראשית והשבת",
+   "ref_he": "סיפורי בראשית",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "בראשית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: Deep stillness before the world: a vast dark emptiness with dark waters, and a first soft glow of light beginning to spread from above.",
+     "move": "in",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "לפני שהיה העולם, לא היה שום דבר: לא אור ולא זמן, לא שמיים ולא אדמה. התורה אומרת: \"והארץ הייתה תוהו ובוהו, וחושך על פני תהום\".",
+      "ואז הקדוש ברוך הוא ברא את הכול, יש מאין. בלי כלים ובלי עזרה – רק במאמר, בדיבור.",
+      "רש\"י שואל: למה התורה מתחילה דווקא בסיפור הבריאה? ועונה: כדי שנדע שכל העולם שייך להשם, והוא נותן כל ארץ למי שהוא רוצה – וארץ ישראל הוא נתן לנו.",
+      "וחז\"ל אומרים שהעולם נברא בשביל התורה ובשביל עם ישראל. כלומר: גם בשבילך. בואו נעבור יחד, יום אחרי יום."
+     ],
+     "pasuk": {
+      "text": "בְּרֵאשִׁית בָּרָא אֱלֹקִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ",
+      "ref": "בראשית א, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "יום ראשון: אור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A great warm light bursting across the dark waters, golden and white, separating from the darkness at the edges. No figures.",
+     "move": "out",
+     "fx": "light",
+     "art": "",
+     "say": [
+      "ביום הראשון אמר השם \"יהי אור\" – ויהי אור. עוד לפני שהייתה שמש, כבר היה אור בעולם.",
+      "\"וירא אלוקים את האור כי טוב\", והשם הבדיל בין האור ובין החושך: לאור קרא יום, ולחושך קרא לילה.",
+      "רש\"י מביא מדרש מיוחד: האור של היום הראשון היה חזק ונפלא, ואפשר היה לראות בו מסוף העולם ועד סופו. השם גנז אותו, שמר אותו לצדיקים לעתיד לבוא.",
+      "ושימו לב: אצלנו היום מתחיל בערב – \"ויהי ערב ויהי בוקר\". לכן גם שבת וחג מתחילים בערב, בהדלקת נרות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "התורה לא אומרת \"יום ראשון\" אלא \"יום אחד\". רש\"י מסביר: כי באותו יום השם היה יחיד בעולמו – עוד לא היו אפילו מלאכים."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "יום שני ויום שלישי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A blue sky dome rising above shining waters; then, below it, seas pulling back and green land appearing with grass, flowers and young fruit trees.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🌳 🌳",
+     "say": [
+      "ביום השני ברא השם את הרקיע, והבדיל בין המים שמתחתיו למים שמעליו. את הרקיע קרא שמיים.",
+      "ביום השלישי אמר השם: \"ייקוו המים אל מקום אחד, ותראה היבשה\". המים התאספו לימים, ויבשה גדולה הופיעה.",
+      "ובאותו יום ציווה השם שהאדמה תוציא דשא, צמחים ועצי פרי, כל אחד למינו: תפוח מתפוח, חיטה מחיטה, תאנה מתאנה.",
+      "וכל צמח שנברא קיבל בתוכו זרעים, כדי שיוכל לצמוח שוב ושוב – עד היום. כל פעם שאנחנו אוכלים פרי ומברכים \"בורא פרי העץ\", אנחנו נזכרים ביום השלישי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יום רביעי: המאורות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A sky over a quiet green earth showing a warm sun on one side at dusk and a silver moon with countless stars rising on the other.",
+     "move": "left",
+     "fx": "stars",
+     "art": "🌳",
+     "say": [
+      "ביום הרביעי ברא השם את המאורות: \"את המאור הגדול לממשלת היום, ואת המאור הקטן לממשלת הלילה, ואת הכוכבים\".",
+      "המאורות לא רק מאירים. הם גם סופרים לנו את הזמן: ימים, חודשים ושנים, ומתי חל כל חג.",
+      "חז\"ל מספרים שבהתחלה השמש והירח היו גדולים באותה מידה. הירח אמר: אי אפשר ששני מלכים ישתמשו בכתר אחד! והשם אמר לו: לכי והקטיני את עצמך.",
+      "ובכל זאת השם ניחם את הירח, ונתן לו כבוד: את החודשים שלנו אנחנו סופרים לפי הירח, ובכל חודש מברכים \"ברכת הלבנה\"."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את השמש והירח ברא השם רק ביום הרביעי – אחרי הצמחים. כך יודעים שהצמחים לא צומחים בזכות השמש לבדה, אלא כי השם ציווה."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "יום חמישי: דגים ועופות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A lively sea full of colorful fish and a great whale, and above it flocks of birds of every color flying over the shore in morning light.",
+     "move": "right",
+     "fx": null,
+     "art": "🐟 🐦 🐋",
+     "say": [
+      "ביום החמישי אמר השם: \"ישרצו המים שרץ נפש חיה, ועוף יעופף על הארץ\".",
+      "הים התמלא בדגים מכל הסוגים, מהדג הקטן ביותר ועד \"התנינים הגדולים\" – רש\"י אומר שאלה הלווייתנים.",
+      "והשמיים התמלאו בעופות: נשרים חזקים, יונים עדינות, ציפורי שיר קטנות.",
+      "וכאן בפעם הראשונה השם מברך: \"פרו ורבו\". ברכה שבזכותה יש עד היום דגים וציפורים בכל העולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "יום שישי: החיות והאדם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Adam: a young man with dark hair and a short beard in a long plain light robe, seen small and from afar. Scene: Green meadows full of animals: lions, elephants, deer, cows, sheep and rabbits. Far away on a hill a single small man in a long light robe stands in a soft golden light, looking at the world.",
+     "move": "out",
+     "fx": "light",
+     "art": "🦁 🐘 🐑 🚶",
+     "say": [
+      "ביום השישי ברא השם את החיות שעל היבשה: בהמות, חיות בר, ורמשים קטנים.",
+      "ואז, בסוף כל הבריאה, ברא השם את האדם \"בצלם אלוקים\". רק לאדם יש נשמה שיכולה להכיר את בוראה, לבחור בטוב ולקיים מצוות.",
+      "למה האדם נברא אחרון? חז\"ל מסבירים: כמו מלך שבנה ארמון, הכין אותו וקישט אותו, ורק אז הזמין את האורח. השם הכין לאדם עולם שלם ומוכן.",
+      "ועוד אומרים חז\"ל: האדם נברא אחרון כדי שלא יתגאה – גם יתוש קטן נברא לפניו.",
+      "ובסוף היום השישי, \"וירא אלוקים את כל אשר עשה, והנה טוב מאוד\"."
+     ],
+     "pasuk": {
+      "text": "וַיִּבְרָא אֱלֹקִים אֶת הָאָדָם בְּצַלְמוֹ",
+      "ref": "בראשית א, כז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "שום דבר לא סתם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A close-up of a sunny meadow: a honeybee on a flower, a line of ants carrying seeds, an earthworm in the soil and a small bird feeding its chicks in a nest on a branch.",
+     "move": "in",
+     "fx": null,
+     "art": "🐝 🐜 🐦 🌳",
+     "say": [
+      "חז\"ל אומרים: \"כל מה שברא הקדוש ברוך הוא בעולמו, לא ברא דבר אחד לבטלה\". לכל בריה יש מקום ותפקיד.",
+      "הדבורה מעבירה אבקה מפרח לפרח, וכך הפרחים נותנים פרי. בלי הדבורים – לא היו לנו הרבה מהפירות שאנחנו אוהבים.",
+      "שלמה המלך כתב: \"לך אל נמלה עצל, ראה דרכיה וחכם\". הנמלה אוספת בקיץ את מזונה לחורף, בלי שאף אחד מצווה עליה.",
+      "וחז\"ל אמרו עוד: אילולי ניתנה תורה, היינו לומדים צניעות מהחתול, ויושר מהנמלה. גם מהבריות הקטנות אפשר ללמוד.",
+      "כשמסתכלים על העולם בעיניים פקוחות, רואים בכל מקום את חכמת הבורא."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: \"כל מה שברא הקדוש ברוך הוא בעולמו, לא ברא דבר אחד לבטלה\"."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "השבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: Friday at sunset in a warm home: two Shabbat candles lit on a white tablecloth, two covered challot and a silver kiddush cup, a window showing the quiet green world outside.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠",
+     "say": [
+      "\"ויכולו השמיים והארץ וכל צבאם\". ביום השביעי השם כילה את מלאכתו, ושבת.",
+      "רש\"י שואל: מה היה חסר בעולם אחרי ששת הימים? ועונה: מנוחה. באה שבת – באה מנוחה. השבת היא הדבר האחרון שנברא, והיא משלימה את הכול.",
+      "בכל ליל שבת, בקידוש, אנחנו אומרים בדיוק את הפסוקים האלה. כך אנחנו מעידים: השם ברא את העולם בשישה ימים, ונח ביום השביעי.",
+      "ולכן השבת היא \"זכר למעשה בראשית\". מי ששומר שבת אומר בכל שבוע לכל העולם: יש בורא לעולם."
+     ],
+     "pasuk": {
+      "text": "וַיְבָרֶךְ אֱלֹקִים אֶת יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ",
+      "ref": "בראשית ב, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "הכול טוב מאוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A wide view of the new world at sunrise: mountains, rivers, forests, a sea with birds above it and animals in the meadows, all shining with soft light.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌳 🐦 🐑",
+     "say": [
+      "בואו נעבור שוב: ביום הראשון אור, בשני רקיע, בשלישי יבשה וצמחים, ברביעי מאורות, בחמישי דגים ועופות, בשישי חיות ואדם – ובשביעי שבת.",
+      "העולם שלנו מסודר בחכמה נפלאה, וכל דבר בו נברא בשביל מטרה.",
+      "דוד המלך כתב בתהילים: \"מה רבו מעשיך השם, כולם בחכמה עשית\".",
+      "ואת העולם הזה, השם נתן לאדם כדי שישמור עליו, יעבוד בו, ויקדש אותו בתורה ובמצוות."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-brf-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים חז\"ל על כל מה שהשם ברא?",
+   "answer": "שהשם לא ברא שום דבר סתם",
+   "options": [
+    "שהשם לא ברא שום דבר סתם",
+    "שחלק מהדברים מיותרים",
+    "שרק האדם חשוב"
+   ],
+   "explain_he": "לכל יצור, אפילו הקטן ביותר, יש תפקיד בעולם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים חז\"ל על כל מה שהשם ברא?",
+   "answer": "שהשם לא ברא שום דבר סתם",
+   "options": [
+    "שהשם לא ברא שום דבר סתם",
+    "שחלק מהדברים מיותרים",
+    "שרק האדם חשוב"
+   ],
+   "explain_he": "לכל יצור, אפילו הקטן ביותר, יש תפקיד בעולם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ברא השם ביום הראשון?",
+   "answer": "אור",
+   "options": [
+    "אור",
+    "שמש",
+    "חיות"
+   ],
+   "explain_he": "ביום הראשון אמר השם \"יהי אור\" – ויהי אור. השמש נבראה רק ביום הרביעי.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ברא השם ביום הראשון?",
+   "answer": "אור",
+   "options": [
+    "אור",
+    "שמש",
+    "חיות"
+   ],
+   "explain_he": "ביום הראשון אמר השם \"יהי אור\" – ויהי אור. השמש נבראה רק ביום הרביעי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה יום נבראו השמש, הירח והכוכבים?",
+   "answer": "ביום הרביעי",
+   "options": [
+    "ביום הרביעי",
+    "ביום הראשון",
+    "ביום השישי"
+   ],
+   "explain_he": "ביום הרביעי ברא השם את המאורות: השמש ביום, הירח והכוכבים בלילה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזה יום נבראו השמש, הירח והכוכבים?",
+   "answer": "ביום הרביעי",
+   "options": [
+    "ביום הרביעי",
+    "ביום הראשון",
+    "ביום השישי"
+   ],
+   "explain_he": "ביום הרביעי ברא השם את המאורות: השמש ביום, הירח והכוכבים בלילה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נברא ביום החמישי?",
+   "answer": "דגים ועופות",
+   "options": [
+    "דגים ועופות",
+    "עצים ופרחים",
+    "האדם"
+   ],
+   "explain_he": "ביום החמישי התמלא הים בדגים, והשמיים בציפורים, והשם בירך אותם: פרו ורבו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה נברא ביום החמישי?",
+   "answer": "דגים ועופות",
+   "options": [
+    "דגים ועופות",
+    "עצים ופרחים",
+    "האדם"
+   ],
+   "explain_he": "ביום החמישי התמלא הים בדגים, והשמיים בציפורים, והשם בירך אותם: פרו ורבו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה השם ביום השביעי?",
+   "answer": "נח, ובירך וקידש את השבת",
+   "options": [
+    "נח, ובירך וקידש את השבת",
+    "ברא את הים",
+    "ברא את האדם"
+   ],
+   "explain_he": "ביום השביעי השם כילה את מלאכתו ושבת, ובירך את היום השביעי וקידש אותו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה השם ביום השביעי?",
+   "answer": "נח, ובירך וקידש את השבת",
+   "options": [
+    "נח, ובירך וקידש את השבת",
+    "ברא את הים",
+    "ברא את האדם"
+   ],
+   "explain_he": "ביום השביעי השם כילה את מלאכתו ושבת, ובירך את היום השביעי וקידש אותו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד באדם, שאין לחיות?",
+   "answer": "נשמה: הוא יכול לחשוב, לבחור בטוב ולהתפלל",
+   "options": [
+    "נשמה: הוא יכול לחשוב, לבחור בטוב ולהתפלל",
+    "הוא הכי גדול",
+    "הוא הכי מהיר"
+   ],
+   "explain_he": "השם נתן לאדם נשמה. האדם יכול לחשוב, לדבר, לבחור בטוב ולהתפלל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי מתחיל אצלנו היום?",
+   "answer": "בערב",
+   "options": [
+    "בערב",
+    "בצהריים",
+    "בחצות"
+   ],
+   "explain_he": "\"ויהי ערב ויהי בוקר\" – לכן גם שבת מתחילה בערב, בהדלקת נרות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f1e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה האדם נברא אחרון, לפי חז\"ל?",
+   "answer": "כמו אורח שמזמינים רק אחרי שהארמון מוכן",
+   "options": [
+    "כמו אורח שמזמינים רק אחרי שהארמון מוכן",
+    "כי השם שכח אותו",
+    "כי הוא הכי פחות חשוב"
+   ],
+   "explain_he": "השם הכין לאדם עולם שלם, ורק אז ברא אותו. ועוד: כדי שלא יתגאה – גם יתוש נברא לפניו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f1e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי רש\"י, מה היה חסר בעולם אחרי ששת הימים?",
+   "answer": "מנוחה",
+   "options": [
+    "מנוחה",
+    "אור",
+    "מים"
+   ],
+   "explain_he": "באה שבת – באה מנוחה. השבת משלימה את הבריאה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f1e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מלמד אותנו שהצמחים נבראו לפני השמש?",
+   "answer": "שהם צומחים כי השם ציווה, לא בזכות השמש לבדה",
+   "options": [
+    "שהם צומחים כי השם ציווה, לא בזכות השמש לבדה",
+    "שהשמש לא חשובה בכלל",
+    "שהצמחים צמחו בחושך כל השנה"
+   ],
+   "explain_he": "הצמחים נבראו ביום השלישי והשמש ביום הרביעי – כדי שנדע שהכול בציווי השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f1e17"
+  }
+ ]
+}

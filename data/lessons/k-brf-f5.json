@@ -1,0 +1,548 @@
+{
+ "id": "k-brf-f5",
+ "unit_id": "k-brf-u2",
+ "course": "bereshit",
+ "title_he": "האוהל של אברהם והעקדה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "האוהל של אברהם והעקדה",
+   "ref_he": "סיפורי בראשית",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "אוהל פתוח לכל הצדדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Scene: A large desert tent in Elonei Mamre with its sides open in all four directions, an old oak tree beside it, a hot shimmering midday, empty paths leading to it from every side.",
+     "move": "in",
+     "fx": "dust",
+     "art": "⛺ 👴 🌳",
+     "say": [
+      "אברהם ושרה גרו באוהל, באלוני ממרא, ליד חברון.",
+      "לאוהל שלהם היו פתחים לכל הצדדים: לצפון, לדרום, למזרח ולמערב.",
+      "למה? כדי שכל אורח, מכל כיוון, ימצא מיד את הדלת.",
+      "אצל אברהם ושרה, כל מי שבא – קיבל אוכל, שתייה ומקום לנוח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שלושה אורחים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Scene: Avraham, old and still weak, sitting at the tent opening in the blazing noon heat, then rising and hurrying toward three travelers in simple dusty robes standing on the path.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 🚶 🚶 🚶",
+     "say": [
+      "יום אחד היה חם מאוד, ואברהם היה חלש. רק שלושה ימים קודם הוא עשה ברית מילה.",
+      "השם הוציא שמש חמה מאוד, כדי שלא יבואו אורחים ויטריחו את אברהם.",
+      "אבל אברהם היה עצוב – אין אורחים! הוא ישב בפתח האוהל וחיכה.",
+      "פתאום ראה שלושה אנשים. ואברהם, החולה, קם ורץ לקראתם!"
+     ],
+     "pasuk": {
+      "text": "וַיָּרָץ לִקְרָאתָם מִפֶּתַח הָאֹהֶל",
+      "ref": "בראשית יח, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "אמור מעט ועשה הרבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Sarah: a dignified woman in a long blue dress and a head covering, gentle and wise. Scene: Under the oak tree: Avraham serving three seated guests fresh bread, butter, milk and a full meal on a woven mat; inside the tent Sarah in a long dress and head covering kneading dough.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👩 🚶 🚶",
+     "say": [
+      "אברהם אמר לאורחים: בואו, תנוחו מתחת לעץ, ואביא לכם קצת לחם.",
+      "הוא אפילו הביא להם מים לרחוץ את הרגליים, אחרי הדרך הארוכה במדבר.",
+      "אבל הוא הביא הרבה יותר! שרה אפתה עוגות, ואברהם הכין בשר, חמאה וחלב.",
+      "אברהם עצמו עמד ושירת אותם בזמן שאכלו.",
+      "אמר מעט – ועשה הרבה. כך עושים חסד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: \"אמור מעט ועשה הרבה\". אברהם הבטיח רק פת לחם – והגיש סעודה שלמה."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "נולד יצחק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Sarah: a dignified woman in a long blue dress and a head covering, gentle and wise. Scene: Inside a warm tent: old Sarah in a long dress and head covering holding a newborn baby wrapped in white cloth, Avraham beside her with joyful tears, a festive meal outside with guests.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👩 👶",
+     "say": [
+      "אחד האורחים אמר: בשנה הבאה, לשרה יהיה בן!",
+      "אברהם היה בן מאה, ושרה בת תשעים. אבל אצל השם אין דבר קשה מדי.",
+      "ובדיוק כמו שהשם הבטיח – נולד להם בן, וקראו לו יצחק.",
+      "אברהם מל אותו בן שמונה ימים, ועשה מסיבה גדולה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הניסיון הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Scene: Before dawn: Avraham himself saddling a donkey outside the tent under fading stars, a bundle of firewood beside him, young Yitzchak in a white robe coming out to join him.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴 👨 🐐",
+     "say": [
+      "יצחק גדל. ואז השם נתן לאברהם את הניסיון הכי קשה.",
+      "השם אמר: קח את יצחק, ולך איתו להר אחד, ותעלה אותו שם לקורבן.",
+      "אברהם אהב את יצחק מאוד. אבל הוא אהב גם את השם, ורצה לעשות מה שהשם מבקש.",
+      "אז אברהם קם מוקדם בבוקר, וחבש בעצמו את החמור. הוא מיהר לקיים את מצוות השם."
+     ],
+     "pasuk": {
+      "text": "קַח נָא אֶת בִּנְךָ אֶת יְחִידְךָ אֲשֶׁר אָהַבְתָּ אֶת יִצְחָק",
+      "ref": "בראשית כב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "וילכו שניהם יחדו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Scene: Avraham and Yitzchak walking side by side up a rocky mountain path at morning, Yitzchak carrying the bundle of firewood on his back, a soft cloud resting over the summit ahead.",
+     "move": "up",
+     "fx": "mist",
+     "art": "👴 👨 🪨",
+     "say": [
+      "שלושה ימים הלכו בדרך. ואז אברהם ראה מרחוק את ההר, וענן מעליו.",
+      "הענן הראה לאברהם: זה ההר שהשם בחר.",
+      "יצחק לקח את העצים, ואברהם לקח את האש.",
+      "יצחק שאל: אבא, הנה האש והעצים – ואיפה השה?",
+      "ואברהם ענה: השם יראה לו את השה, בני. והם הלכו שניהם יחד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הר המוריה הוא המקום שבו נבנה אחר כך בית המקדש בירושלים."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "האיל בסבך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Scene: On the mountain top a simple altar of stones with firewood on it, Avraham standing beside it looking up at a warm light from above, Yitzchak standing safe at his side, and a ram with curled horns caught in a thorny thicket nearby.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 🐏 🌳",
+     "say": [
+      "על ההר אברהם בנה מזבח, וסידר את העצים.",
+      "ואז קרא אליו מלאך מהשמיים: אברהם! אל תיגע בילד!",
+      "השם אף פעם לא רצה שיקרה ליצחק משהו רע. הוא רק רצה לראות שאברהם מוכן לתת הכול בשבילו.",
+      "אברהם הרים את העיניים, וראה איל שהקרניים שלו נתפסו בשיח. ואותו הקריב במקום יצחק."
+     ],
+     "pasuk": {
+      "text": "אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר",
+      "ref": "בראשית כב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "השופר של ראש השנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A synagogue on Rosh Hashana morning: a man in a white kittel and tallit blowing a curved ram's horn shofar, families in festive modest clothes listening, sunlight through tall windows.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👨 👦 👧",
+     "say": [
+      "ובכל ראש השנה אנחנו תוקעים בשופר של איל.",
+      "למה של איל? כדי שהשם יזכור את העקדה – את האמונה של אברהם ויצחק.",
+      "אנחנו הילדים של אברהם ויצחק. ואנחנו מבקשים: בזכותם, תברך אותנו!",
+      "אברהם לימד אותנו שני דברים גדולים: לעשות חסד עם כל אדם, ולאהוב את השם בכל הלב."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-brf-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "האוהל של אברהם והעקדה",
+   "ref_he": "סיפורי בראשית",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "אוהל פתוח לכל הצדדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Scene: A large desert tent in Elonei Mamre with its sides open in all four directions, an old oak tree beside it, a hot shimmering midday, empty paths leading to it from every side.",
+     "move": "in",
+     "fx": "dust",
+     "art": "⛺ 👴 🌳",
+     "say": [
+      "אברהם ושרה גרו באלוני ממרא, ליד חברון. ואת האוהל שלהם, אומרים חז\"ל, השאירו פתוח לארבע רוחות השמיים.",
+      "כך כל עובר אורח, מכל כיוון שבא, מצא מיד פתח, ולא היה צריך להסתובב ולחפש.",
+      "אברהם האכיל והשקה את האורחים. ואחרי האוכל, כשרצו להודות לו, אמר להם: אל תודו לי – הודו לבורא העולם, שממנו בא כל האוכל הזה.",
+      "כך, דרך החסד, אברהם לימד את העולם להכיר את השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שלושה אורחים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Scene: Avraham, old and still weak, sitting at the tent opening in the blazing noon heat, then rising and hurrying toward three travelers in simple dusty robes standing on the path.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 🚶 🚶 🚶",
+     "say": [
+      "זה היה היום השלישי אחרי שאברהם, בן תשעים ותשע, מל את עצמו – היום שבו הכאב הכי חזק. והשם בא לבקר אותו, ללמד אותנו מצוות ביקור חולים.",
+      "רש\"י מספר שהשם הוציא חמה מנרתיקה – חום עז – כדי שלא יבואו עוברי דרכים ויטריחו את אברהם.",
+      "אבל אברהם היה מצטער שאין אורחים. ראה השם את צערו, ושלח לו שלושה מלאכים בדמות אנשים.",
+      "וכשראה אותם אברהם, הוא לא חיכה שיבואו. \"וירץ לקראתם\" – זקן בן מאה כמעט, אחרי ברית מילה, רץ בחום הגדול כדי לקבל אורחים."
+     ],
+     "pasuk": {
+      "text": "וַיָּרָץ לִקְרָאתָם מִפֶּתַח הָאֹהֶל",
+      "ref": "בראשית יח, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "אמור מעט ועשה הרבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Sarah: a dignified woman in a long blue dress and a head covering, gentle and wise. Scene: Under the oak tree: Avraham serving three seated guests fresh bread, butter, milk and a full meal on a woven mat; inside the tent Sarah in a long dress and head covering kneading dough.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👩 🚶 🚶",
+     "say": [
+      "אברהם אמר: \"יוקח נא מעט מים, ורחצו רגליכם, והישענו תחת העץ. ואקחה פת לחם\".",
+      "הבטיח מעט – והגיש הרבה. הוא מיהר אל שרה, שאפתה עוגות מקמח משובח, רץ אל הבקר והכין שלושה מנות בשר, והגיש חמאה וחלב.",
+      "\"והוא עומד עליהם תחת העץ, ויאכלו\": אברהם, האיש החשוב ביותר בארץ, עמד ושירת את האורחים בעצמו.",
+      "שלושת המלאכים באו לשלוש שליחויות: אחד לרפא את אברהם, אחד לבשר לשרה על בן, ואחד לשליחות בסדום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים: \"אמור מעט ועשה הרבה\". אברהם הבטיח רק פת לחם – והגיש סעודה שלמה."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "נולד יצחק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Sarah: a dignified woman in a long blue dress and a head covering, gentle and wise. Scene: Inside a warm tent: old Sarah in a long dress and head covering holding a newborn baby wrapped in white cloth, Avraham beside her with joyful tears, a festive meal outside with guests.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👩 👶",
+     "say": [
+      "המלאך אמר: \"שוב אשוב אליך כעת חיה, והנה בן לשרה אשתך\". שרה שמעה ולא האמינה שזה יכול לקרות בגיל כזה.",
+      "והשם אמר: \"היפלא מהשם דבר?\" ובדיוק במועד – נולד יצחק. אברהם היה בן מאה, ושרה בת תשעים.",
+      "שרה אמרה: \"צחוק עשה לי אלוקים, כל השומע יצחק לי\" – כל מי שישמע ישמח איתי.",
+      "אברהם מל את יצחק בן שמונה ימים, כמו שציווה השם. זה התינוק הראשון בעולם שנימול בשמיני – כמו כל תינוק יהודי עד היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הניסיון הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Scene: Before dawn: Avraham himself saddling a donkey outside the tent under fading stars, a bundle of firewood beside him, young Yitzchak in a white robe coming out to join him.",
+     "move": "right",
+     "fx": "night",
+     "art": "👴 👨 🐐",
+     "say": [
+      "זה היה הניסיון העשירי, והגדול מכולם. השם אמר: \"קח נא את בנך, את יחידך, אשר אהבת, את יצחק... והעלהו שם לעולה\".",
+      "רש\"י מסביר למה השם האריך כל כך: אברהם אמר – יש לי שני בנים. השם אמר: את יחידך. אברהם אמר – כל אחד יחיד לאמו. השם אמר: אשר אהבת. כדי לחבב עליו את המצווה, ולתת לו לגלות את עומק אהבתו.",
+      "\"וישכם אברהם בבוקר\": הוא לא דחה ולא התמהמה. וחבש את החמור בעצמו, אף שהיו לו עבדים רבים. אהבת השם גרמה לו לעשות הכול בזריזות.",
+      "חז\"ל אומרים שיצחק לא היה ילד קטן. הוא היה בן שלושים ושבע, והלך מרצונו, באמונה שלמה כמו אביו."
+     ],
+     "pasuk": {
+      "text": "קַח נָא אֶת בִּנְךָ אֶת יְחִידְךָ אֲשֶׁר אָהַבְתָּ אֶת יִצְחָק",
+      "ref": "בראשית כב, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "וילכו שניהם יחדו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Scene: Avraham and Yitzchak walking side by side up a rocky mountain path at morning, Yitzchak carrying the bundle of firewood on his back, a soft cloud resting over the summit ahead.",
+     "move": "up",
+     "fx": "mist",
+     "art": "👴 👨 🪨",
+     "say": [
+      "ביום השלישי נשא אברהם את עיניו וראה את המקום מרחוק – רש\"י אומר: ראה ענן קשור על ההר.",
+      "זה היה הר המוריה, ההר שעליו ייבנה, שנים רבות אחר כך, בית המקדש.",
+      "יצחק שאל: \"אבי... הנה האש והעצים, ואיה השה לעולה?\" ואברהם ענה: \"אלוקים יראה לו השה לעולה, בני\".",
+      "\"וילכו שניהם יחדו\". רש\"י אומר: אף שיצחק כבר הבין לאן הם הולכים – הם הלכו בלב אחד, באותה שמחה ובאותה אמונה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הר המוריה הוא המקום שבו נבנה אחר כך בית המקדש בירושלים."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "האיל בסבך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Yitzchak: a young man with a short dark beard in a plain white robe, calm and quiet. Scene: On the mountain top a simple altar of stones with firewood on it, Avraham standing beside it looking up at a warm light from above, Yitzchak standing safe at his side, and a ram with curled horns caught in a thorny thicket nearby.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 🐏 🌳",
+     "say": [
+      "אברהם בנה מזבח, ערך את העצים, והיה מוכן לעשות את רצון השם עד הסוף.",
+      "ואז קרא אליו מלאך השם מן השמיים: \"אברהם, אברהם!... אל תשלח ידך אל הנער\". השם מעולם לא רצה בזה; הוא רצה לגלות לכל העולם את עומק האמונה של אברהם ויצחק.",
+      "\"עתה ידעתי כי ירא אלוקים אתה\". אברהם נשא את עיניו, וראה איל נאחז בסבך בקרניו, והעלה אותו לעולה תחת בנו.",
+      "אברהם קרא למקום \"השם יראה\". ומאז, אומרים חז\"ל, השם זוכר לבני אברהם את העקדה."
+     ],
+     "pasuk": {
+      "text": "אַל תִּשְׁלַח יָדְךָ אֶל הַנַּעַר",
+      "ref": "בראשית כב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "השופר של ראש השנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A synagogue on Rosh Hashana morning: a man in a white kittel and tallit blowing a curved ram's horn shofar, families in festive modest clothes listening, sunlight through tall windows.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👨 👦 👧",
+     "say": [
+      "חז\"ל אומרים שהשם אמר: תקעו לפני בשופר של איל, כדי שאזכור לכם עקידת יצחק, ואעלה עליכם כאילו עקדתם את עצמכם לפני.",
+      "ולכן בכל ראש השנה אנחנו קוראים בתורה את פרשת העקדה, ותוקעים בשופר. הזכות של אברהם ויצחק מלווה אותנו בכל הדורות.",
+      "ושימו לב לשני הצדדים של אברהם: באוהל הפתוח הוא אוהב כל אדם, ורץ לשרת אורחים זרים. ובהר המוריה הוא אוהב את השם יותר מהכול.",
+      "חסד עם בני האדם, ואמונה שלמה בשם – זה היסוד שאברהם אבינו השאיר לנו, לבניו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-brf-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היו לאוהל של אברהם פתחים לכל הצדדים?",
+   "answer": "כדי שכל אורח ימצא מיד את הכניסה",
+   "options": [
+    "כדי שכל אורח ימצא מיד את הכניסה",
+    "כדי שיהיה קריר",
+    "כדי לראות את הכוכבים"
+   ],
+   "explain_he": "אברהם רצה שכל עובר אורח, מכל כיוון, ימצא מיד פתח.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היו לאוהל של אברהם פתחים לכל הצדדים?",
+   "answer": "כדי שכל אורח ימצא מיד את הכניסה",
+   "options": [
+    "כדי שכל אורח ימצא מיד את הכניסה",
+    "כדי שיהיה קריר",
+    "כדי לראות את הכוכבים"
+   ],
+   "explain_he": "אברהם רצה שכל עובר אורח, מכל כיוון, ימצא מיד פתח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה אברהם כשראה את שלושת האורחים, אף שהיה חלש?",
+   "answer": "קם ורץ לקראתם",
+   "options": [
+    "קם ורץ לקראתם",
+    "נשאר לשבת וחיכה",
+    "שלח עבד להגיד שהוא עסוק"
+   ],
+   "explain_he": "\"וירץ לקראתם\" – אף שהיה אחרי ברית מילה, ביום חם מאוד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה אברהם כשראה את שלושת האורחים, אף שהיה חלש?",
+   "answer": "קם ורץ לקראתם",
+   "options": [
+    "קם ורץ לקראתם",
+    "נשאר לשבת וחיכה",
+    "שלח עבד להגיד שהוא עסוק"
+   ],
+   "explain_he": "\"וירץ לקראתם\" – אף שהיה אחרי ברית מילה, ביום חם מאוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קראו לבן שנולד לאברהם ולשרה?",
+   "answer": "יצחק",
+   "options": [
+    "יצחק",
+    "ישמעאל",
+    "יעקב"
+   ],
+   "explain_he": "יצחק נולד כשאברהם היה בן מאה ושרה בת תשעים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קראו לבן שנולד לאברהם ולשרה?",
+   "answer": "יצחק",
+   "options": [
+    "יצחק",
+    "ישמעאל",
+    "יעקב"
+   ],
+   "explain_he": "יצחק נולד כשאברהם היה בן מאה ושרה בת תשעים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראה אברהם על ההר, במקום יצחק?",
+   "answer": "איל שהקרניים שלו נתפסו בשיח",
+   "options": [
+    "איל שהקרניים שלו נתפסו בשיח",
+    "כבש קטן ליד המזבח",
+    "יונה לבנה"
+   ],
+   "explain_he": "אברהם ראה איל נאחז בסבך בקרניו, והקריב אותו במקום יצחק.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראה אברהם על ההר, במקום יצחק?",
+   "answer": "איל שהקרניים שלו נתפסו בשיח",
+   "options": [
+    "איל שהקרניים שלו נתפסו בשיח",
+    "כבש קטן ליד המזבח",
+    "יונה לבנה"
+   ],
+   "explain_he": "אברהם ראה איל נאחז בסבך בקרניו, והקריב אותו במקום יצחק.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה תוקעים בראש השנה בשופר של איל?",
+   "answer": "כדי שהשם יזכור את עקדת יצחק",
+   "options": [
+    "כדי שהשם יזכור את עקדת יצחק",
+    "כי הוא הכי רועש",
+    "כי אין שופרות אחרים"
+   ],
+   "explain_he": "\"תקעו לפני בשופר של איל, כדי שאזכור לכם עקידת יצחק\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה תוקעים בראש השנה בשופר של איל?",
+   "answer": "כדי שהשם יזכור את עקדת יצחק",
+   "options": [
+    "כדי שהשם יזכור את עקדת יצחק",
+    "כי הוא הכי רועש",
+    "כי אין שופרות אחרים"
+   ],
+   "explain_he": "\"תקעו לפני בשופר של איל, כדי שאזכור לכם עקידת יצחק\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר אברהם לאורחים, ומה הוא הביא להם?",
+   "answer": "אמר שיביא קצת לחם – והביא סעודה שלמה",
+   "options": [
+    "אמר שיביא קצת לחם – והביא סעודה שלמה",
+    "אמר שיביא הרבה – והביא מעט",
+    "לא נתן להם כלום"
+   ],
+   "explain_he": "אמור מעט ועשה הרבה – כך עושים חסד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר אברהם לאורחים שרצו להודות לו?",
+   "answer": "להודות לבורא העולם, שממנו בא האוכל",
+   "options": [
+    "להודות לבורא העולם, שממנו בא האוכל",
+    "לשלם לו כסף",
+    "לבוא שוב מחר"
+   ],
+   "explain_he": "דרך החסד אברהם לימד את העולם להכיר את השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לומדים מכך שאברהם חבש את החמור בעצמו?",
+   "answer": "שאהבת השם גרמה לו לעשות הכול בזריזות",
+   "options": [
+    "שאהבת השם גרמה לו לעשות הכול בזריזות",
+    "שלא היו לו עבדים",
+    "שהחמור לא הקשיב לאחרים"
+   ],
+   "explain_he": "היו לאברהם עבדים רבים, אבל הוא מיהר לקיים את המצווה בעצמו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f5e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מיוחד בהר המוריה?",
+   "answer": "עליו נבנה אחר כך בית המקדש",
+   "options": [
+    "עליו נבנה אחר כך בית המקדש",
+    "זה ההר הכי גבוה בעולם",
+    "עליו נחה התיבה של נח"
+   ],
+   "explain_he": "הר המוריה הוא מקום המקדש בירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f5e16"
+  }
+ ]
+}

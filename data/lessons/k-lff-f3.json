@@ -1,0 +1,565 @@
+{
+ "id": "k-lff-f3",
+ "unit_id": "k-lff-u2",
+ "course": "life",
+ "title_he": "בטוחים בבית",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "בטוחים בבית",
+   "ref_he": "ידע לחיים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מעקה לגגך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A bright, cozy family home on a Friday morning: a balcony with a sturdy railing full of flower pots, a kitchen with Shabbat food cooking, two children playing with blocks on a rug.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 👦 👧",
+     "say": [
+      "הבית שלנו הוא מקום חם ושמח. כאן אוכלים, משחקים, לומדים וישנים.",
+      "התורה אומרת: כשבונים בית עם גג, צריך לשים עליו מעקה, גדר קטנה, שאף אחד לא ייפול.",
+      "גם התורה דואגת שהבית יהיה בטוח.",
+      "כלומר: גם בבית שומרים על עצמנו.",
+      "יש כמה כללים פשוטים, ואם נזכור אותם – הבית יישאר בטוח ושמח.",
+      "ואם שוכחים? לא נורא. אבא ואמא תמיד מזכירים לנו."
+     ],
+     "pasuk": {
+      "text": "וְעָשִׂיתָ מַעֲקֶה לְגַגֶּךָ",
+      "ref": "דברים כב, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אש וחום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A warm kitchen on Friday afternoon: the mother stirs a pot on the stove, pot handles turned inward, Shabbat candles on a high shelf, a hot plate on the counter; the children help by setting the table at a safe distance.",
+     "move": "left",
+     "fx": null,
+     "art": "👩 👦 👧",
+     "say": [
+      "ביום שישי אמא מבשלת לשבת. על הכיריים יש סירים חמים.",
+      "ילדים לא נוגעים בכיריים, בתנור ובפלטה. הם חמים מאוד!",
+      "גפרורים ומצית – רק לגדולים. גם את נרות השבת מדליקה אמא.",
+      "ואם רואים אש במקום לא נכון? לא מתקרבים. קוראים מיד למבוגר.",
+      "ואנחנו יכולים לעזור באמת: לערוך את השולחן, רחוק מהאש.",
+      "ואחרי שאמא מסיימת לבשל, כולנו מחכים לשבת המלכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "חשמל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A living room wall with an electrical outlet fitted with a white safety cover, a lamp plugged in nearby; the boy dries his hands with a towel and then asks his father to plug in a charger for him.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "החשמל עוזר לנו מאוד. בזכותו יש אור, מקרר ומזגן.",
+      "החשמל זורם בחוטים, ואי אפשר לראות אותו.",
+      "אבל לחשמל יש כוח חזק. לא מכניסים אצבעות או חפצים לשקע!",
+      "ולא נוגעים בחשמל עם ידיים רטובות.",
+      "צריך לחבר משהו? מבקשים מאבא או מאמא.",
+      "וחוט קרוע? לא נוגעים. מספרים לאבא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "תרופות זה לא ממתקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A high kitchen cabinet with medicine bottles and cleaning products on the top shelf, closed with a child-safety latch; the mother gives her daughter a spoon of syrup while the girl smiles.",
+     "move": "up",
+     "fx": null,
+     "art": "👩 👧",
+     "say": [
+      "כשאנחנו חולים, אמא או אבא נותנים לנו תרופה. התרופה עוזרת להבריא.",
+      "אבל תרופות הן לא ממתקים! גם אם הן מתוקות וצבעוניות.",
+      "רק מבוגר נותן תרופה. אף פעם לא לוקחים לבד.",
+      "וגם חומרי ניקוי – לא נוגעים ולא טועמים. הם שמורים בארון גבוה.",
+      "ואם מוצאים כדור על הרצפה? לא מכניסים לפה. נותנים לאמא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מי בדלת?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The front door of an apartment from the inside: the girl stands on a little stool looking through the peephole, her little brother beside her, then she turns and calls toward the kitchen. Calm and cozy.",
+     "move": "in",
+     "fx": null,
+     "art": "👧 👦",
+     "say": [
+      "דינג דונג! מישהו מצלצל בדלת.",
+      "תמר לא פותחת. היא שואלת: מי זה? וקוראת לאמא.",
+      "רוב האנשים בעולם טובים. אבל להחליט אם לפתוח – זה התפקיד של אבא ואמא.",
+      "ואם ההורים לא בבית? לא פותחים לאף אחד שלא מכירים. גם אם הוא נחמד מאוד.",
+      "ואם מישהו שאתם לא מכירים מבקש שתבואו איתו – אומרים \"לא\", והולכים למבוגר שאתם סומכים עליו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "מאה ואחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The family sits together on the living room sofa practicing on a toy phone; on the wall a simple drawing of a red star of David ambulance and a blue police car, no letters. Warm, playful mood.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "עכשיו משחקים משחק חשוב: מתקשרים לעזרה.",
+      "מאה ואחת – מגן דוד אדום. מזמינים אמבולנס, כשמישהו נפגע או לא מרגיש טוב.",
+      "מאה – המשטרה. כשמשהו לא בסדר ויש סכנה.",
+      "מתקשרים רק כשבאמת צריך עזרה. זה לא משחק.",
+      "אומרים: איך קוראים לי, מה הכתובת שלי, ומה קרה. ונשארים בטלפון, עד שאומרים לנו לסגור.",
+      "וכדאי לדעת בעל פה: את הכתובת שלנו, ואת מספר הטלפון של אבא או של אמא."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יש עוד מספר חשוב: 102 – הכבאים, שמכבים אש."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "בית שמח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Friday night: the family around a Shabbat table with white tablecloth, two candles glowing in a safe spot, the father raising a kiddush cup, the children smiling. Peaceful and safe.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "והנה שבת. הנרות דולקים במקום בטוח, ואבא עושה קידוש.",
+      "הם עומדים במקום גבוה ויציב, ואף אחד לא נוגע בהם.",
+      "כולם יושבים יחד, שמחים ורגועים.",
+      "למדנו: לא נוגעים באש ובחשמל, תרופות רק ממבוגר, לא פותחים לזרים, ויודעים לחייג 101 ו-100.",
+      "ככה הבית שלנו בטוח – ומלא שמחה.",
+      "ואנחנו אומרים: תודה, השם, על הבית שלנו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lff-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "בטוחים בבית",
+   "ref_he": "ידע לחיים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מעקה לגגך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A bright, cozy family home on a Friday morning: a balcony with a sturdy railing full of flower pots, a kitchen with Shabbat food cooking, two children playing with blocks on a rug.",
+     "move": "out",
+     "fx": "light",
+     "art": "🏠 👦 👧",
+     "say": [
+      "הבית שלנו הוא המקום הכי חם ושמח: כאן אוכלים, משחקים, לומדים, ישנים, ועושים שבת.",
+      "התורה מצווה: \"ועשית מעקה לגגך\". מי שבונה בית עם גג שעולים עליו, צריך לבנות סביבו מעקה, כדי שאף אחד לא ייפול.",
+      "ומהמצווה הזו לומדים שצריך להוציא מהבית כל דבר מסוכן, ולשמור שאף אחד לא ייפגע.",
+      "אין צורך לפחד בבית. רק צריך להכיר כמה כללים פשוטים. בואו נלמד אותם עם נועם ותמר."
+     ],
+     "pasuk": {
+      "text": "וְעָשִׂיתָ מַעֲקֶה לְגַגֶּךָ",
+      "ref": "דברים כב, ח"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אש וחום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A warm kitchen on Friday afternoon: the mother stirs a pot on the stove, pot handles turned inward, Shabbat candles on a high shelf, a hot plate on the counter; the children help by setting the table at a safe distance.",
+     "move": "left",
+     "fx": null,
+     "art": "👩 👦 👧",
+     "say": [
+      "ביום שישי אמא מבשלת לשבת. על הכיריים סירים רותחים, והידיות שלהם מופנות פנימה, כדי שאף אחד לא ייתקע בהן.",
+      "הכלל: ילדים לא נוגעים בכיריים, בתנור, בפלטה של שבת ובמיחם. הם יכולים להיות חמים מאוד גם כשהם נראים כבויים.",
+      "גפרורים ומצית הם לא משחק. רק מבוגר משתמש בהם. גם את נרות השבת מדליקה אמא, ושמים אותם במקום שלא נופלים.",
+      "ואם רואים אש קטנה במקום שלא צריך? לא מתקרבים. קוראים מיד למבוגר, ויוצאים מהחדר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "חשמל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A living room wall with an electrical outlet fitted with a white safety cover, a lamp plugged in nearby; the boy dries his hands with a towel and then asks his father to plug in a charger for him.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "החשמל הוא מתנה נפלאה. בזכותו יש לנו אור בלילה, מקרר שמשמר את האוכל, ומזגן בקיץ.",
+      "אבל בתוך החוטים זורם כוח חזק מאוד, שאי אפשר לראות. לכן לא מכניסים לשקע אצבעות, מסמרים או שום חפץ.",
+      "מים וחשמל לא הולכים יחד: לא נוגעים במכשיר חשמלי בידיים רטובות, ולא משתמשים בו ליד אמבטיה מלאה.",
+      "וחוט קרוע או תקע שבור – לא נוגעים, ומספרים מיד להורים. צריך לחבר משהו? מבקשים מאבא או מאמא.",
+      "וגם ברחוב, לא מתקרבים לעמודי חשמל, לארונות חשמל, או לחוטים שנפלו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "תרופות זה לא ממתקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A high kitchen cabinet with medicine bottles and cleaning products on the top shelf, closed with a child-safety latch; the mother gives her daughter a spoon of syrup while the girl smiles.",
+     "move": "up",
+     "fx": null,
+     "art": "👩 👧",
+     "say": [
+      "כשאנחנו חולים, הרופא אומר איזו תרופה לקחת, וכמה. אבא או אמא נותנים לנו אותה, בכמות הנכונה.",
+      "יש תרופות מתוקות, וחלק נראות כמו סוכריות צבעוניות. אבל תרופה היא לא ממתק! הרבה ממנה יכול להזיק מאוד.",
+      "לכן הכלל: רק מבוגר נותן תרופה. אף פעם לא לוקחים לבד, גם לא \"רק אחת\".",
+      "וחומרי ניקוי – כמו אקונומיקה – לא נוגעים, לא מריחים ולא טועמים. ואם רואים בקבוק כזה על הרצפה, מרימים אותו למבוגר, ושומרים על האחים הקטנים.",
+      "וכשהרופא נותן תרופה, לוקחים אותה בדיוק כמו שאמר – לא יותר ולא פחות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מי בדלת?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The front door of an apartment from the inside: the girl stands on a little stool looking through the peephole, her little brother beside her, then she turns and calls toward the kitchen. Calm and cozy.",
+     "move": "in",
+     "fx": null,
+     "art": "👧 👦",
+     "say": [
+      "דינג דונג! מישהו מצלצל בדלת. מה עושים?",
+      "תמר לא פותחת. היא מסתכלת בעינית, שואלת \"מי זה?\" – וקוראת לאבא או לאמא.",
+      "רוב האנשים טובים ונחמדים. אבל ההחלטה למי לפתוח היא של ההורים, לא של הילדים.",
+      "ואם ההורים לא בבית, למשל רק לכמה דקות? לא פותחים לאף אחד שלא מכירים. גם לא לשליח, וגם אם הוא אומר שהוא מכיר את אבא.",
+      "ובטלפון, לא מספרים לאדם זר שאנחנו לבד בבית. אומרים: אבא לא יכול לבוא לטלפון עכשיו.",
+      "ואם מישהו לא מוכר ברחוב מבקש מכם לבוא איתו, אפילו להראות לו את הדרך – אומרים \"לא, תודה\", וממהרים למבוגר שאתם מכירים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "מאה ואחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The family sits together on the living room sofa practicing on a toy phone; on the wall a simple drawing of a red star of David ambulance and a blue police car, no letters. Warm, playful mood.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "אבא מלמד את נועם ותמר משחק חשוב: איך מבקשים עזרה במצב חירום.",
+      "מאה ואחת – מגן דוד אדום: כשמישהו נפגע, נפל, או פתאום מרגיש לא טוב, הם שולחים אמבולנס וחובשים.",
+      "מאה – המשטרה: כשיש סכנה, או כשמשהו לא בסדר ואין מבוגר לידנו.",
+      "בטלפון מדברים לאט וברור: אומרים את השם, את הכתובת המלאה – עיר, רחוב ומספר בית – ומה קרה. ולא סוגרים, עד שאומרים לנו.",
+      "לכן כל ילד צריך לדעת בעל פה את הכתובת שלו ואת מספר הטלפון של אבא או של אמא. בואו נתרגל את זה בבית.",
+      "ומתקשרים רק כשבאמת צריך. אסור להתקשר לחירום בשביל צחוק – כי בזמן הזה מישהו אחר אולי צריך עזרה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יש עוד מספר חשוב: 102 – הכבאים, שמכבים אש."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "פיקוח נפש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Saba: a grandfather with a white beard, glasses, a black kippah and a grey cardigan. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A quiet Shabbat afternoon in the living room, a telephone on a side table beside a closed siddur, sunlight through the window; the grandfather calmly explains something to the girl.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👧",
+     "say": [
+      "תמר שואלת את סבא: ואם קורה משהו מסוכן בשבת? מותר להתקשר?",
+      "סבא עונה: בוודאי! כשיש סכנת חיים, זה נקרא פיקוח נפש, ופיקוח נפש דוחה שבת.",
+      "התורה אמרה על המצוות \"וחי בהם\". חז\"ל למדו מכאן: המצוות ניתנו כדי לחיות בהן, ולא כדי שאדם ימות בגללן.",
+      "לכן אם יש סכנה אמיתית, מתקשרים מיד ל-101 – גם בשבת. וזו מצווה גדולה.",
+      "וגם כשיש ספק אם זו סכנה – מתקשרים. כשיש ספק של פיקוח נפש, לא מחכים."
+     ],
+     "pasuk": {
+      "text": "וָחַי בָּהֶם – וְלֹא שֶׁיָּמוּת בָּהֶם",
+      "ref": "יומא פה, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "בית שמח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Friday night: the family around a Shabbat table with white tablecloth, two candles glowing in a safe spot, the father raising a kiddush cup, the children smiling. Peaceful and safe.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "והנה ליל שבת. הנרות דולקים במקום בטוח, אבא מרים את כוס הקידוש, וכל המשפחה סביב השולחן.",
+      "כל הכללים שלמדנו היום לא נועדו להפחיד. הם כמו המעקה על הגג: שומרים עלינו בשקט, כדי שנוכל לשמוח.",
+      "לא נוגעים באש ובחשמל, תרופות רק ממבוגר, לא פותחים לזרים, ויודעים לחייג 101 ו-100.",
+      "וכך הבית שלנו נשאר מה שהוא צריך להיות: בית בטוח, חם ומלא שמחה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lff-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה התורה מצווה לבנות על גג הבית?",
+   "answer": "מעקה, כדי שאף אחד לא ייפול",
+   "options": [
+    "מעקה, כדי שאף אחד לא ייפול",
+    "חדר נוסף",
+    "סוכה גדולה",
+    "פעמון"
+   ],
+   "explain_he": "\"ועשית מעקה לגגך\" – מכאן לומדים לשמור שאף אחד לא ייפגע בבית.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה התורה מצווה לבנות על גג הבית?",
+   "answer": "מעקה, כדי שאף אחד לא ייפול",
+   "options": [
+    "מעקה, כדי שאף אחד לא ייפול",
+    "חדר נוסף",
+    "סוכה גדולה",
+    "פעמון"
+   ],
+   "explain_he": "\"ועשית מעקה לגגך\" – מכאן לומדים לשמור שאף אחד לא ייפגע בבית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי מדליק גפרורים ומצית?",
+   "answer": "רק מבוגר",
+   "options": [
+    "רק מבוגר",
+    "כל ילד שיודע",
+    "הילד הגדול בבית",
+    "כל אחד בשבת"
+   ],
+   "explain_he": "גפרורים ומצית הם לא משחק. רק מבוגר משתמש בהם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי מדליק גפרורים ומצית?",
+   "answer": "רק מבוגר",
+   "options": [
+    "רק מבוגר",
+    "כל ילד שיודע",
+    "הילד הגדול בבית",
+    "כל אחד בשבת"
+   ],
+   "explain_he": "גפרורים ומצית הם לא משחק. רק מבוגר משתמש בהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לא עושים עם חשמל?",
+   "answer": "לא נוגעים בו עם ידיים רטובות ולא מכניסים חפצים לשקע",
+   "options": [
+    "לא נוגעים בו עם ידיים רטובות ולא מכניסים חפצים לשקע",
+    "לא מדליקים אור בלילה",
+    "לא פותחים מקרר",
+    "לא מדברים ליד מזגן"
+   ],
+   "explain_he": "בחשמל יש כוח חזק שלא רואים. מים וחשמל לא הולכים יחד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לא עושים עם חשמל?",
+   "answer": "לא נוגעים בו עם ידיים רטובות ולא מכניסים חפצים לשקע",
+   "options": [
+    "לא נוגעים בו עם ידיים רטובות ולא מכניסים חפצים לשקע",
+    "לא מדליקים אור בלילה",
+    "לא פותחים מקרר",
+    "לא מדברים ליד מזגן"
+   ],
+   "explain_he": "בחשמל יש כוח חזק שלא רואים. מים וחשמל לא הולכים יחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי נותן לנו תרופה?",
+   "answer": "רק מבוגר",
+   "options": [
+    "רק מבוגר",
+    "אנחנו לבד, כשרוצים",
+    "אח גדול",
+    "חבר מהכיתה"
+   ],
+   "explain_he": "תרופה היא לא ממתק. רק מבוגר נותן אותה, בכמות הנכונה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי נותן לנו תרופה?",
+   "answer": "רק מבוגר",
+   "options": [
+    "רק מבוגר",
+    "אנחנו לבד, כשרוצים",
+    "אח גדול",
+    "חבר מהכיתה"
+   ],
+   "explain_he": "תרופה היא לא ממתק. רק מבוגר נותן אותה, בכמות הנכונה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשמישהו מצלצל בדלת וההורים לא בבית?",
+   "answer": "לא פותחים לאף אחד שלא מכירים",
+   "options": [
+    "לא פותחים לאף אחד שלא מכירים",
+    "פותחים אם הוא נחמד",
+    "פותחים לכל שליח",
+    "פותחים ויוצאים לראות"
+   ],
+   "explain_he": "רוב האנשים טובים, אבל ההחלטה למי לפתוח היא של ההורים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשמישהו מצלצל בדלת וההורים לא בבית?",
+   "answer": "לא פותחים לאף אחד שלא מכירים",
+   "options": [
+    "לא פותחים לאף אחד שלא מכירים",
+    "פותחים אם הוא נחמד",
+    "פותחים לכל שליח",
+    "פותחים ויוצאים לראות"
+   ],
+   "explain_he": "רוב האנשים טובים, אבל ההחלטה למי לפתוח היא של ההורים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה מספר מתקשרים כדי להזמין אמבולנס?",
+   "answer": "101 – מגן דוד אדום",
+   "options": [
+    "101 – מגן דוד אדום",
+    "100",
+    "102",
+    "111"
+   ],
+   "explain_he": "101 הוא מגן דוד אדום, 100 היא המשטרה, ו-102 הם הכבאים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה מספר מתקשרים כדי להזמין אמבולנס?",
+   "answer": "101 – מגן דוד אדום",
+   "options": [
+    "101 – מגן דוד אדום",
+    "100",
+    "102",
+    "111"
+   ],
+   "explain_he": "101 הוא מגן דוד אדום, 100 היא המשטרה, ו-102 הם הכבאים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים בטלפון כשמתקשרים לעזרה?",
+   "answer": "את השם, את הכתובת ומה קרה",
+   "options": [
+    "את השם, את הכתובת ומה קרה",
+    "רק שלום ולהתראות",
+    "רק את הגיל",
+    "שיר קצר"
+   ],
+   "explain_he": "מדברים לאט וברור, ונשארים בטלפון עד שאומרים לנו לסגור.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים בטלפון כשמתקשרים לעזרה?",
+   "answer": "את השם, את הכתובת ומה קרה",
+   "options": [
+    "את השם, את הכתובת ומה קרה",
+    "רק שלום ולהתראות",
+    "רק את הגיל",
+    "שיר קצר"
+   ],
+   "explain_he": "מדברים לאט וברור, ונשארים בטלפון עד שאומרים לנו לסגור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מותר להתקשר ל-101 בשבת כשיש סכנה?",
+   "answer": "כן, פיקוח נפש דוחה שבת",
+   "options": [
+    "כן, פיקוח נפש דוחה שבת",
+    "לא, אף פעם",
+    "רק אחרי צאת השבת",
+    "רק אם הרב מרשה בכתב"
+   ],
+   "explain_he": "המצוות ניתנו \"וחי בהם\". כשיש סכנת חיים, מתקשרים מיד – וזו מצווה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f3e17"
+  }
+ ]
+}
