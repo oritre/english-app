@@ -1,0 +1,826 @@
+{
+ "id": "k-inf-f7",
+ "unit_id": "k-inf-u3",
+ "course": "inventors",
+ "title_he": "רפואה: חיסונים ואנטיביוטיקה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "רפואה: חיסונים ואנטיביוטיקה",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "sick",
+     "title_he": "כשלא היו תרופות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Long ago in a village house at night: a kindly old doctor with a beard and a leather bag sits by the bed of a sick boy, the parents standing close, the mother in a head covering; a single lamp glows.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👦",
+     "say": [
+      "פעם, גם מחלות שנראות לנו היום קטנות היו מסוכנות מאוד. לא היו תרופות כמו היום.",
+      "רופאים רצו לעזור, אבל לפעמים לא ידעו איך.",
+      "היום נגלה שתי המצאות שעזרו להציל מיליוני אנשים: החיסון והאנטיביוטיקה.",
+      "גם פצע קטן שהזדהם יכול היה להיות מסוכן."
+     ],
+     "pasuk": {
+      "text": "כִּי אֲנִי ה׳ רֹפְאֶךָ",
+      "ref": "שמות טו, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "rambam",
+     "title_he": "ורפא ירפא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Old Fustat in Egypt: the Rambam, a dignified sage with a dark beard, turban-style head covering and long robe, kindly examines a patient while a line of people waits patiently at his door; palm trees, warm light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "התורה מלמדת שמותר לרופא לרפא, ושזו מצווה גדולה.",
+      "הרמב״ם, אחד מגדולי חכמי ישראל, היה גם רופא מפורסם. הוא ריפא אנשים רבים במצרים.",
+      "הרופא עושה את ההשתדלות, אבל הרפואה עצמה באה מהשם. לכן כשהולכים לרופא, גם מתפללים.",
+      "הרמב״ם עבד קשה מאוד: ביום ריפא חולים, ובלילה כתב ספרים גדולים בתורה."
+     ],
+     "pasuk": {
+      "text": "וְרַפֹּא יְרַפֵּא",
+      "ref": "שמות כא, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "jenner",
+     "title_he": "החיסון הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An English countryside farm about two hundred years ago: a country doctor in a long coat talks with a farm worker in a long dress, apron and bonnet beside a cow in a green meadow, morning mist.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 🐄",
+     "say": [
+      "רופא אנגלי בשם אדוארד ג׳נר שם לב לדבר מעניין.",
+      "אנשים שעבדו עם פרות, וחלו במחלה קלה שעוברת מהפרות, לא נדבקו במחלה קשה ומסוכנת שנקראת אבעבועות שחורות.",
+      "ג׳נר הבין: מחלה קלה מלמדת את הגוף להתגונן מפני המחלה הקשה. כך נולד החיסון.",
+      "הקדוש ברוך הוא ברא בגוף שלנו מערכת שמירה מופלאה, שזוכרת את המחלות ויודעת להתגונן מהן.",
+      "החיסון מלמד אותה מראש. ובזכות החיסונים, האבעבועות השחורות נעלמו מהעולם!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "pasteur",
+     "title_he": "יצורים זעירים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 19th-century French laboratory: a bearded scientist in a dark suit peers into a brass microscope, glass flasks with curved necks on the table; a magnified circle shows tiny round and rod-shaped specks.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "מדען צרפתי בשם לואי פסטר גילה שיש יצורים קטנטנים, שאי אפשר לראות בלי מיקרוסקופ: חיידקים.",
+      "חלק מהם גורמים למחלות. לכן חשוב לשטוף ידיים!",
+      "פסטר גם מצא דרך לחמם את החלב, כך שהחיידקים המזיקים מתים. קוראים לזה ״פסטור״.",
+      "פסטר עבד בסבלנות שנים רבות, ופיתח חיסונים נוספים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז״ל תיקנו נטילת ידיים בבוקר ולפני אכילת לחם, מטעמי קדושה וטהרה. כך, הרבה לפני שגילו את החיידקים, יהודים כבר נטלו ידיים כל יום."
+     }
+    },
+    {
+     "id": "fleming",
+     "title_he": "העובש שהציל חיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A cluttered laboratory around a century ago: a scientist in a white coat and bow tie holds up a small glass dish with a fuzzy green mold spot, looking at it with surprise; a window shows a grey city.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "ואז הגיע גילוי מפתיע. חוקר בשם אלכסנדר פלמינג שכח צלחות עם חיידקים במעבדה, ויצא לחופשה.",
+      "כשחזר, ראה שגדל על אחת מהן עובש, כמו על לחם ישן. ומסביב לעובש, החיידקים מתו!",
+      "מהעובש הזה עשו תרופה בשם פניצילין. היא הצילה הרבה מאוד אנשים.",
+      "אבל חשוב לזכור: אנטיביוטיקה לוקחים רק כשהרופא נותן, ובדיוק לפי ההוראות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "salk",
+     "title_he": "החיסון נגד שיתוק ילדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: The 1950s: a dedicated doctor in a white lab coat and glasses works late at night among test tubes in a laboratory, a window showing city lights; then morning, a line of children in neat modest clothes waits calmly with parents.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "פעם הייתה מחלה מפחידה בשם פוליו, שיתוק ילדים. רופא יהודי, ד״ר יונס סאלק, עבד שנים רבות, יום ולילה, עד שמצא חיסון נגדה.",
+      "בזכות החיסון, המחלה הזאת נעשתה נדירה מאוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "chai",
+     "title_he": "וחי בהם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Shabbat afternoon in a Jerusalem neighborhood: a volunteer medic with a kippah hurries out of a synagogue doorway carrying a medical bag, the congregation in tallitot looking on with respect.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "ויש מצווה גדולה: פיקוח נפש. כשמישהו בסכנה, מצילים אותו, אפילו בשבת!",
+      "והתורה אומרת: ״וחי בהם״. המצוות ניתנו לנו כדי שנחיה."
+     ],
+     "pasuk": {
+      "text": "וּשְׁמַרְתֶּם אֶת חֻקֹּתַי וְאֶת מִשְׁפָּטַי אֲשֶׁר יַעֲשֶׂה אֹתָם הָאָדָם וָחַי בָּהֶם",
+      "ref": "ויקרא יח, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "אתה חונן לאדם דעת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children stand before a long sunlit table displaying a toy wooden wheel, an old printed book, a brass compass, a light bulb, a model airplane, an old telephone and a small medicine bottle, faces full of wonder.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "בקורס הזה פגשנו המצאות רבות: הגלגל והכתב, הדפוס, המצפן, החשמל, המכונית והמטוס, הטלפון והמחשב, והתרופות.",
+      "כל ממציא היה סקרן, עבד קשה ולא התייאש.",
+      "והחכמה הזאת היא כמו כל מתנה: צריך להשתמש בה לטובה, ללמוד, לעזור ולשמור על החיים.",
+      "ומאיפה באה להם החכמה? מהשם! בכל יום אנחנו מתפללים: ״אתה חונן לאדם דעת״. תודה להשם על כל ההמצאות הטובות."
+     ],
+     "pasuk": {
+      "text": "אַתָּה חוֹנֵן לְאָדָם דַּעַת וּמְלַמֵּד לֶאֱנוֹשׁ בִּינָה",
+      "ref": "מתוך תפילת שמונה עשרה"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-inf-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "רפואה: חיסונים ואנטיביוטיקה",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "sick",
+     "title_he": "כשלא היו תרופות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Long ago in a village house at night: a kindly old doctor with a beard and a leather bag sits by the bed of a sick boy, the parents standing close, the mother in a head covering; a single lamp glows.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👦",
+     "say": [
+      "לפני מאתיים וחמישים שנה, מחלות שהיום כמעט לא שומעים עליהן היו פוגעות בעיירות שלמות. אחת הקשות שבהן הייתה האבעבועות השחורות.",
+      "גם פצע קטן שהזדהם יכול היה להיות מסוכן, והרופאים עמדו לפעמים חסרי אונים.",
+      "בשיעור האחרון שלנו נכיר שתי המצאות שהצילו את חייהם של מיליוני אנשים: החיסון והאנטיביוטיקה. ובסוף נראה מה מחבר את כל ההמצאות שלמדנו."
+     ],
+     "pasuk": {
+      "text": "כִּי אֲנִי ה׳ רֹפְאֶךָ",
+      "ref": "שמות טו, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "rambam",
+     "title_he": "ורפא ירפא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Old Fustat in Egypt: the Rambam, a dignified sage with a dark beard, turban-style head covering and long robe, kindly examines a patient while a line of people waits patiently at his door; palm trees, warm light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "אולי תשאלו: אם הקדוש ברוך הוא הוא הרופא, למה צריך רופאים? חז״ל לומדים מהמילים ״ורפא ירפא״ שהתורה נתנה רשות לרופא לרפא. ולא רק רשות: להציל חיים זו מצווה גדולה.",
+      "הרמב״ם, מגדולי חכמי ישראל בכל הדורות, היה גם רופא מפורסם. במצרים הוא היה רופא בחצר השליט, ובשובו לביתו טיפל באנשים רבים שחיכו לו, עד הלילה.",
+      "הרופא עושה את ההשתדלות, והרפואה עצמה באה מהשם. לכן כשהולכים לרופא, גם מתפללים.",
+      "הרמב״ם כתב גם ספרי רפואה ועצות לשמירה על הבריאות: לאכול במידה, להתעמל, לישון בזמן, ולשמור על מצב רוח טוב. חלק מהעצות האלה נמצאות בספרו ״משנה תורה״, בהלכות דעות."
+     ],
+     "pasuk": {
+      "text": "וְרַפֹּא יְרַפֵּא",
+      "ref": "שמות כא, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "jenner",
+     "title_he": "החיסון הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An English countryside farm about two hundred years ago: a country doctor in a long coat talks with a farm worker in a long dress, apron and bonnet beside a cow in a green meadow, morning mist.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 🐄",
+     "say": [
+      "לפני בערך מאתיים ושלושים שנה, רופא כפרי באנגליה בשם אדוארד ג׳נר שם לב לתופעה מעניינת: אנשים שעבדו עם פרות, ונדבקו במחלה קלה שעוברת מהפרות, לא חלו באבעבועות השחורות.",
+      "ג׳נר הבין שהמחלה הקלה מלמדת את הגוף איך להתגונן, ואחר כך הוא מוכן גם מול המחלה הקשה. כך נולד החיסון.",
+      "הקדוש ברוך הוא ברא בגוף שלנו מערכת שמירה מופלאה, מערכת החיסון. היא זוכרת את החיידקים והנגיפים שפגשה, ויודעת להתגונן מהם בפעם הבאה. החיסון פשוט מלמד אותה מראש.",
+      "ומשמה של המחלה הקלה, שבאה מהפרות, נקרא החיסון בשפות רבות ״וקצינה״, מהמילה הלטינית לפרה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בזכות חיסונים, האבעבועות השחורות נעלמו לגמרי מהעולם. כבר יותר מארבעים שנה שאין בעולם אף חולה במחלה הזאת."
+     }
+    },
+    {
+     "id": "pasteur",
+     "title_he": "יצורים זעירים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 19th-century French laboratory: a bearded scientist in a dark suit peers into a brass microscope, glass flasks with curved necks on the table; a magnified circle shows tiny round and rod-shaped specks.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "כמאה שנה אחרי ג׳נר, המדען הצרפתי לואי פסטר הראה בניסויים שמחלות רבות נגרמות על ידי יצורים זעירים, חיידקים, שאפשר לראות רק במיקרוסקופ.",
+      "פסטר פיתח חיסונים נוספים, והראה שחימום של חלב ומשקאות הורג חיידקים מזיקים. השיטה נקראת על שמו, ״פסטור״, ואפשר למצוא את המילה הזאת על קרטון החלב.",
+      "מאז הבינו הרופאים כמה חשוב הניקיון: לשטוף ידיים, לנקות כלים ולחטא פצעים.",
+      "פסטר עבד שנים רבות בסבלנות, ואחד החיסונים המפורסמים שלו היה נגד מחלת הכלבת, שעוברת בנשיכה של בעלי חיים חולים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז״ל תיקנו נטילת ידיים בבוקר ולפני אכילת לחם, מטעמי קדושה וטהרה. כך, הרבה לפני שגילו את החיידקים, יהודים כבר נטלו ידיים כל יום."
+     }
+    },
+    {
+     "id": "fleming",
+     "title_he": "העובש שהציל חיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A cluttered laboratory around a century ago: a scientist in a white coat and bow tie holds up a small glass dish with a fuzzy green mold spot, looking at it with surprise; a window shows a grey city.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "לפני כמאה שנה, החוקר הסקוטי אלכסנדר פלמינג יצא לחופשה והשאיר במעבדה צלחות שגידל בהן חיידקים.",
+      "כשחזר, ראה שעל אחת הצלחות צמח עובש ירקרק, כמו על לחם ישן. ומסביב לעובש, החיידקים נעלמו! העובש הפריש חומר שהורג חיידקים.",
+      "פלמינג קרא לחומר פניצילין. אבל רק אחרי יותר מעשר שנים מצאו חוקרים אחרים דרך לייצר ממנו כמויות גדולות. זו הייתה האנטיביוטיקה הראשונה.",
+      "מאז, דלקות שהיו מסוכנות מאוד נרפאות תוך כמה ימים. וזכרו: אנטיביוטיקה לוקחים רק כשהרופא נותן, ובדיוק לפי ההוראות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "salk",
+     "title_he": "החיסון נגד שיתוק ילדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: The 1950s: a dedicated doctor in a white lab coat and glasses works late at night among test tubes in a laboratory, a window showing city lights; then morning, a line of children in neat modest clothes waits calmly with parents.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "ועוד סיפור: עד לפני כשבעים שנה, מחלה בשם פוליו, שיתוק ילדים, הפחידה הורים בכל העולם. היא פגעה בעיקר בילדים, ורבים מהם לא יכלו ללכת.",
+      "רופא וחוקר יהודי מניו יורק, ד״ר יונס סאלק, עבד שנים רבות, יום ולילה, עד שפיתח חיסון נגד המחלה.",
+      "בשנת 1955 הוכרז שהחיסון מצליח. מאז, בזכות חיסונים, המחלה הזאת נעשתה נדירה מאוד בעולם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כששאלו את ד״ר סאלק למי שייך החיסון שפיתח, הוא ענה שהוא שייך לאנשים. הוא לא ביקש להתעשר ממנו."
+     }
+    },
+    {
+     "id": "chai",
+     "title_he": "וחי בהם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Shabbat afternoon in a Jerusalem neighborhood: a volunteer medic with a kippah hurries out of a synagogue doorway carrying a medical bag, the congregation in tallitot looking on with respect.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "ההלכה מתייחסת לבריאות ברצינות רבה. פיקוח נפש דוחה כמעט את כל התורה: בשבת, ביום הכיפורים, בכל זמן, כשיש סכנת חיים, מצילים.",
+      "חז״ל לומדים זאת מהמילים ״וחי בהם״: המצוות ניתנו כדי לחיות בהן. וכל בוקר אנחנו מברכים ״אשר יצר״, ומסיימים: ״רופא כל בשר ומפליא לעשות״."
+     ],
+     "pasuk": {
+      "text": "וּשְׁמַרְתֶּם אֶת חֻקֹּתַי וְאֶת מִשְׁפָּטַי אֲשֶׁר יַעֲשֶׂה אֹתָם הָאָדָם וָחַי בָּהֶם",
+      "ref": "ויקרא יח, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "אתה חונן לאדם דעת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children stand before a long sunlit table displaying a toy wooden wheel, an old printed book, a brass compass, a light bulb, a model airplane, an old telephone and a small medicine bottle, faces full of wonder.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "בואו נעשה סיכום קטן. התחלנו בגלגל ובכתב, המשכנו לדפוס שהפיץ את ספרי התורה, למצפן שהוביל ספינות, לחשמל שהאיר את הלילה, למכוניות ולמטוסים שקיצרו את הדרכים, לטלפון ולמחשב שחיברו את העולם, ולתרופות שהצילו חיים.",
+      "מה משותף לכל הממציאים? סקרנות, סבלנות ועבודה קשה. אדיסון ניסה אלפי פעמים, האחים רייט בדקו מאות כנפיים, וסאלק עבד שנים רבות.",
+      "ומאיפה באה החכמה? שלוש פעמים ביום אנחנו מתפללים: ״אתה חונן לאדם דעת ומלמד לאנוש בינה״. כל רעיון טוב הוא מתנה מהשם.",
+      "ועוד דבר חשוב: כל המצאה היא כלי. היא טובה כשמשתמשים בה לטובה: ללמוד תורה, לעזור לאנשים ולשמור על החיים. אולי גם אתם תמציאו יום אחד משהו שיעשה טוב בעולם!"
+     ],
+     "pasuk": {
+      "text": "אַתָּה חוֹנֵן לְאָדָם דַּעַת וּמְלַמֵּד לֶאֱנוֹשׁ בִּינָה",
+      "ref": "מתוך תפילת שמונה עשרה"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-inf-f7e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "רפואה: חיסונים ואנטיביוטיקה",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "sick",
+     "title_he": "כשלא היו תרופות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Long ago in a village house at night: a kindly old doctor with a beard and a leather bag sits by the bed of a sick boy, the parents standing close, the mother in a head covering; a single lamp glows.",
+     "move": "in",
+     "fx": "night",
+     "art": "👴 👦",
+     "say": [
+      "לפני מאתיים וחמישים שנה, מחלות שהיום כמעט לא שומעים עליהן היו פוגעות בעיירות שלמות. אחת הקשות שבהן הייתה האבעבועות השחורות.",
+      "גם פצע קטן שהזדהם יכול היה להיות מסוכן, והרופאים עמדו לפעמים חסרי אונים.",
+      "בשיעור האחרון שלנו נכיר שתי המצאות שהצילו את חייהם של מיליוני אנשים: החיסון והאנטיביוטיקה. ובסוף נראה מה מחבר את כל ההמצאות שלמדנו.",
+      "במשנה במסכת תענית מסופר שבזמן מגפה היו מתפללים וגוזרים תענית. התפילה וההשתדלות הולכות תמיד יחד: עושים כל מה שאפשר, ומתפללים שהשם ישלח רפואה."
+     ],
+     "pasuk": {
+      "text": "כִּי אֲנִי ה׳ רֹפְאֶךָ",
+      "ref": "שמות טו, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "rambam",
+     "title_he": "ורפא ירפא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Old Fustat in Egypt: the Rambam, a dignified sage with a dark beard, turban-style head covering and long robe, kindly examines a patient while a line of people waits patiently at his door; palm trees, warm light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "אולי תשאלו: אם הקדוש ברוך הוא הוא הרופא, למה צריך רופאים? חז״ל לומדים מהמילים ״ורפא ירפא״ שהתורה נתנה רשות לרופא לרפא. ולא רק רשות: להציל חיים זו מצווה גדולה.",
+      "הרמב״ם, מגדולי חכמי ישראל בכל הדורות, היה גם רופא מפורסם. במצרים הוא היה רופא בחצר השליט, ובשובו לביתו טיפל באנשים רבים שחיכו לו, עד הלילה.",
+      "הרופא עושה את ההשתדלות, והרפואה עצמה באה מהשם. לכן כשהולכים לרופא, גם מתפללים.",
+      "הרמב״ם כתב גם ספרי רפואה ועצות לשמירה על הבריאות: לאכול במידה, להתעמל, לישון בזמן, ולשמור על מצב רוח טוב. חלק מהעצות האלה נמצאות בספרו ״משנה תורה״, בהלכות דעות.",
+      "שם הוא כותב: ״הואיל והיות הגוף בריא ושלם מדרכי השם הוא, שהרי אי אפשר שיבין או ידע דבר מידיעת הבורא והוא חולה, לפיכך צריך להרחיק אדם עצמו מדברים המאבדין את הגוף״. שמירת הבריאות היא חלק מעבודת השם."
+     ],
+     "pasuk": {
+      "text": "וְרַפֹּא יְרַפֵּא",
+      "ref": "שמות כא, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "jenner",
+     "title_he": "החיסון הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An English countryside farm about two hundred years ago: a country doctor in a long coat talks with a farm worker in a long dress, apron and bonnet beside a cow in a green meadow, morning mist.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 🐄",
+     "say": [
+      "לפני בערך מאתיים ושלושים שנה, רופא כפרי באנגליה בשם אדוארד ג׳נר שם לב לתופעה מעניינת: אנשים שעבדו עם פרות, ונדבקו במחלה קלה שעוברת מהפרות, לא חלו באבעבועות השחורות.",
+      "ג׳נר הבין שהמחלה הקלה מלמדת את הגוף איך להתגונן, ואחר כך הוא מוכן גם מול המחלה הקשה. כך נולד החיסון.",
+      "הקדוש ברוך הוא ברא בגוף שלנו מערכת שמירה מופלאה, מערכת החיסון. היא זוכרת את החיידקים והנגיפים שפגשה, ויודעת להתגונן מהם בפעם הבאה. החיסון פשוט מלמד אותה מראש.",
+      "ומשמה של המחלה הקלה, שבאה מהפרות, נקרא החיסון בשפות רבות ״וקצינה״, מהמילה הלטינית לפרה.",
+      "כבר לפני ג׳נר נהגו בארצות שונות להדביק אנשים בכוונה במעט מן המחלה עצמה, כדי שיחלו קל ויהיו מוגנים. אבל זה היה מסוכן. ג׳נר מצא דרך בטוחה בהרבה, בעזרת המחלה הקלה של הפרות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בזכות חיסונים, האבעבועות השחורות נעלמו לגמרי מהעולם. כבר יותר מארבעים שנה שאין בעולם אף חולה במחלה הזאת."
+     }
+    },
+    {
+     "id": "pasteur",
+     "title_he": "יצורים זעירים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 19th-century French laboratory: a bearded scientist in a dark suit peers into a brass microscope, glass flasks with curved necks on the table; a magnified circle shows tiny round and rod-shaped specks.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "כמאה שנה אחרי ג׳נר, המדען הצרפתי לואי פסטר הראה בניסויים שמחלות רבות נגרמות על ידי יצורים זעירים, חיידקים, שאפשר לראות רק במיקרוסקופ.",
+      "פסטר פיתח חיסונים נוספים, והראה שחימום של חלב ומשקאות הורג חיידקים מזיקים. השיטה נקראת על שמו, ״פסטור״, ואפשר למצוא את המילה הזאת על קרטון החלב.",
+      "מאז הבינו הרופאים כמה חשוב הניקיון: לשטוף ידיים, לנקות כלים ולחטא פצעים.",
+      "פסטר עבד שנים רבות בסבלנות, ואחד החיסונים המפורסמים שלו היה נגד מחלת הכלבת, שעוברת בנשיכה של בעלי חיים חולים.",
+      "בעקבות התגליות של פסטר התחילו רופאים לחטא כלים ופצעים ולשטוף ידיים לפני ניתוח, ומספר החולים שנדבקו בבית החולים עצמו ירד מאוד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז״ל תיקנו נטילת ידיים בבוקר ולפני אכילת לחם, מטעמי קדושה וטהרה. כך, הרבה לפני שגילו את החיידקים, יהודים כבר נטלו ידיים כל יום."
+     }
+    },
+    {
+     "id": "fleming",
+     "title_he": "העובש שהציל חיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A cluttered laboratory around a century ago: a scientist in a white coat and bow tie holds up a small glass dish with a fuzzy green mold spot, looking at it with surprise; a window shows a grey city.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "לפני כמאה שנה, החוקר הסקוטי אלכסנדר פלמינג יצא לחופשה והשאיר במעבדה צלחות שגידל בהן חיידקים.",
+      "כשחזר, ראה שעל אחת הצלחות צמח עובש ירקרק, כמו על לחם ישן. ומסביב לעובש, החיידקים נעלמו! העובש הפריש חומר שהורג חיידקים.",
+      "פלמינג קרא לחומר פניצילין. אבל רק אחרי יותר מעשר שנים מצאו חוקרים אחרים דרך לייצר ממנו כמויות גדולות. זו הייתה האנטיביוטיקה הראשונה.",
+      "מאז, דלקות שהיו מסוכנות מאוד נרפאות תוך כמה ימים. וזכרו: אנטיביוטיקה לוקחים רק כשהרופא נותן, ובדיוק לפי ההוראות.",
+      "פלמינג עצמו הזהיר כבר אז: מי שישתמש באנטיביוטיקה יותר מדי, או לא עד הסוף, יגרום לחיידקים להתחזק ולהפסיק להיפגע ממנה. לכן ההוראה לקחת בדיוק לפי הרופא חשובה כל כך.",
+      "ופלמינג אמר בענווה שהוא לא המציא את הפניצילין, אלא רק מצא אותו. בלשון שלנו נאמר: הקדוש ברוך הוא ברא את התרופה, והאדם זכה לגלות אותה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "salk",
+     "title_he": "החיסון נגד שיתוק ילדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: The 1950s: a dedicated doctor in a white lab coat and glasses works late at night among test tubes in a laboratory, a window showing city lights; then morning, a line of children in neat modest clothes waits calmly with parents.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "ועוד סיפור: עד לפני כשבעים שנה, מחלה בשם פוליו, שיתוק ילדים, הפחידה הורים בכל העולם. היא פגעה בעיקר בילדים, ורבים מהם לא יכלו ללכת.",
+      "רופא וחוקר יהודי מניו יורק, ד״ר יונס סאלק, עבד שנים רבות, יום ולילה, עד שפיתח חיסון נגד המחלה.",
+      "בשנת 1955 הוכרז שהחיסון מצליח. מאז, בזכות חיסונים, המחלה הזאת נעשתה נדירה מאוד בעולם.",
+      "ואחריו פיתח חוקר יהודי נוסף, ד״ר אלברט סייבין, חיסון שאפשר לתת בטיפות, בפה. בזכות שני החיסונים, הפוליו נעלמה כמעט מכל העולם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כששאלו את ד״ר סאלק למי שייך החיסון שפיתח, הוא ענה שהוא שייך לאנשים. הוא לא ביקש להתעשר ממנו."
+     }
+    },
+    {
+     "id": "chai",
+     "title_he": "וחי בהם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Shabbat afternoon in a Jerusalem neighborhood: a volunteer medic with a kippah hurries out of a synagogue doorway carrying a medical bag, the congregation in tallitot looking on with respect.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "ההלכה מתייחסת לבריאות ברצינות רבה. פיקוח נפש דוחה כמעט את כל התורה כולה: בשבת, ביום כיפור, בכל זמן, כשיש סכנת חיים, מצילים.",
+      "חז״ל לומדים זאת מהמילים ״וחי בהם״: המצוות ניתנו כדי לחיות בהן, ולא כדי למות בגללן.",
+      "וכל בוקר, ואחרי כל פעם שאנחנו יוצאים מבית הכיסא, אנחנו מברכים ״אשר יצר את האדם בחכמה״, ומסיימים: ״רופא כל בשר ומפליא לעשות״. ככל שהרופאים מגלים עוד על הגוף, אנחנו מבינים כמה עמוקה הברכה הזאת.",
+      "הרופאים גילו את החיסון ואת האנטיביוטיקה, אבל את הגוף המופלא ואת מערכת השמירה שבו, ברא הקדוש ברוך הוא."
+     ],
+     "pasuk": {
+      "text": "וּשְׁמַרְתֶּם אֶת חֻקֹּתַי וְאֶת מִשְׁפָּטַי אֲשֶׁר יַעֲשֶׂה אֹתָם הָאָדָם וָחַי בָּהֶם",
+      "ref": "ויקרא יח, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "אתה חונן לאדם דעת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: The two children stand before a long sunlit table displaying a toy wooden wheel, an old printed book, a brass compass, a light bulb, a model airplane, an old telephone and a small medicine bottle, faces full of wonder.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "בואו נעשה סיכום קטן. התחלנו בגלגל ובכתב, המשכנו לדפוס שהפיץ את ספרי התורה, למצפן שהוביל ספינות, לחשמל שהאיר את הלילה, למכוניות ולמטוסים שקיצרו את הדרכים, לטלפון ולמחשב שחיברו את העולם, ולתרופות שהצילו חיים.",
+      "מה משותף לכל הממציאים? סקרנות, סבלנות ועבודה קשה. אדיסון ניסה אלפי פעמים, האחים רייט בדקו מאות כנפיים, וסאלק עבד שנים רבות.",
+      "ומאיפה באה החכמה? שלוש פעמים ביום אנחנו מתפללים: ״אתה חונן לאדם דעת ומלמד לאנוש בינה״. כל רעיון טוב הוא מתנה מהשם.",
+      "חז״ל אף תיקנו ברכה מיוחדת למי שרואה חכם גדול בחכמות העולם: ״ברוך... שנתן מחכמתו לבשר ודם״. אנחנו מכבדים את החכמה, וזוכרים תמיד מי נתן אותה.",
+      "ועוד דבר חשוב: כל המצאה היא כלי. היא טובה כשמשתמשים בה לטובה: ללמוד תורה, לעזור לאנשים ולשמור על החיים. אולי גם אתם תמציאו יום אחד משהו שיעשה טוב בעולם!"
+     ],
+     "pasuk": {
+      "text": "אַתָּה חוֹנֵן לְאָדָם דַּעַת וּמְלַמֵּד לֶאֱנוֹשׁ בִּינָה",
+      "ref": "מתוך תפילת שמונה עשרה"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-inf-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבין אדוארד ג׳נר?",
+   "answer": "שמחלה קלה מלמדת את הגוף להתגונן מפני מחלה קשה",
+   "options": [
+    "שמחלה קלה מלמדת את הגוף להתגונן מפני מחלה קשה",
+    "שפרות אף פעם לא חולות",
+    "שאפשר לרפא כל מחלה בחלב"
+   ],
+   "explain_he": "אנשים שנדבקו במחלה הקלה של הפרות לא חלו באבעבועות השחורות. כך נולד החיסון.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבין אדוארד ג׳נר?",
+   "answer": "שמחלה קלה מלמדת את הגוף להתגונן מפני מחלה קשה",
+   "options": [
+    "שמחלה קלה מלמדת את הגוף להתגונן מפני מחלה קשה",
+    "שפרות אף פעם לא חולות",
+    "שאפשר לרפא כל מחלה בחלב"
+   ],
+   "explain_he": "אנשים שנדבקו במחלה הקלה של הפרות לא חלו באבעבועות השחורות. כך נולד החיסון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבין אדוארד ג׳נר?",
+   "answer": "שמחלה קלה מלמדת את הגוף להתגונן מפני מחלה קשה",
+   "options": [
+    "שמחלה קלה מלמדת את הגוף להתגונן מפני מחלה קשה",
+    "שפרות אף פעם לא חולות",
+    "שאפשר לרפא כל מחלה בחלב"
+   ],
+   "explain_he": "אנשים שנדבקו במחלה הקלה של הפרות לא חלו באבעבועות השחורות. כך נולד החיסון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ממה עשו את התרופה פניצילין?",
+   "answer": "מעובש",
+   "options": [
+    "מעובש",
+    "מחלב של פרות",
+    "מעלים של עץ"
+   ],
+   "explain_he": "פלמינג ראה שעובש ירקרק הורג חיידקים, ומהחומר שלו עשו את הפניצילין.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ממה עשו את התרופה פניצילין?",
+   "answer": "מעובש",
+   "options": [
+    "מעובש",
+    "מחלב של פרות",
+    "מעלים של עץ"
+   ],
+   "explain_he": "פלמינג ראה שעובש ירקרק הורג חיידקים, ומהחומר שלו עשו את הפניצילין.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ממה עשו את התרופה פניצילין?",
+   "answer": "מעובש",
+   "options": [
+    "מעובש",
+    "מחלב של פרות",
+    "מעלים של עץ"
+   ],
+   "explain_he": "פלמינג ראה שעובש ירקרק הורג חיידקים, ומהחומר שלו עשו את הפניצילין.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה גם מגדולי חכמי ישראל וגם רופא מפורסם במצרים?",
+   "answer": "הרמב״ם",
+   "options": [
+    "הרמב״ם",
+    "רש״י",
+    "לואי פסטר"
+   ],
+   "explain_he": "הרמב״ם היה רופא בחצר השליט במצרים, וריפא אנשים רבים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה גם מגדולי חכמי ישראל וגם רופא מפורסם במצרים?",
+   "answer": "הרמב״ם",
+   "options": [
+    "הרמב״ם",
+    "רש״י",
+    "לואי פסטר"
+   ],
+   "explain_he": "הרמב״ם היה רופא בחצר השליט במצרים, וריפא אנשים רבים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היה גם מגדולי חכמי ישראל וגם רופא מפורסם במצרים?",
+   "answer": "הרמב״ם",
+   "options": [
+    "הרמב״ם",
+    "רש״י",
+    "לואי פסטר"
+   ],
+   "explain_he": "הרמב״ם היה רופא בחצר השליט במצרים, וריפא אנשים רבים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי השיעור, מאיפה באה החכמה של הממציאים?",
+   "answer": "מהשם, ״אתה חונן לאדם דעת״",
+   "options": [
+    "מהשם, ״אתה חונן לאדם דעת״",
+    "רק מהמזל",
+    "מהמכונות שלהם"
+   ],
+   "explain_he": "כל רעיון טוב הוא מתנה מהשם, ולכן אנחנו מתפללים ״אתה חונן לאדם דעת״.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי השיעור, מאיפה באה החכמה של הממציאים?",
+   "answer": "מהשם, ״אתה חונן לאדם דעת״",
+   "options": [
+    "מהשם, ״אתה חונן לאדם דעת״",
+    "רק מהמזל",
+    "מהמכונות שלהם"
+   ],
+   "explain_he": "כל רעיון טוב הוא מתנה מהשם, ולכן אנחנו מתפללים ״אתה חונן לאדם דעת״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי השיעור, מאיפה באה החכמה של הממציאים?",
+   "answer": "מהשם, ״אתה חונן לאדם דעת״",
+   "options": [
+    "מהשם, ״אתה חונן לאדם דעת״",
+    "רק מהמזל",
+    "מהמכונות שלהם"
+   ],
+   "explain_he": "כל רעיון טוב הוא מתנה מהשם, ולכן אנחנו מתפללים ״אתה חונן לאדם דעת״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה לואי פסטר?",
+   "answer": "שיש חיידקים זעירים שגורמים למחלות",
+   "options": [
+    "שיש חיידקים זעירים שגורמים למחלות",
+    "את החשמל",
+    "את הנורה"
+   ],
+   "explain_he": "פסטר הראה שחיידקים זעירים, שרואים רק במיקרוסקופ, גורמים למחלות רבות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f7e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה לואי פסטר?",
+   "answer": "שיש חיידקים זעירים שגורמים למחלות",
+   "options": [
+    "שיש חיידקים זעירים שגורמים למחלות",
+    "את החשמל",
+    "את הנורה"
+   ],
+   "explain_he": "פסטר הראה שחיידקים זעירים, שרואים רק במיקרוסקופ, גורמים למחלות רבות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f7e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה לואי פסטר?",
+   "answer": "שיש חיידקים זעירים שגורמים למחלות",
+   "options": [
+    "שיש חיידקים זעירים שגורמים למחלות",
+    "את החשמל",
+    "את הנורה"
+   ],
+   "explain_he": "פסטר הראה שחיידקים זעירים, שרואים רק במיקרוסקופ, גורמים למחלות רבות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך לוקחים אנטיביוטיקה?",
+   "answer": "רק כשהרופא נותן, ובדיוק לפי ההוראות",
+   "options": [
+    "רק כשהרופא נותן, ובדיוק לפי ההוראות",
+    "בכל פעם שכואב הראש",
+    "כמה שרוצים, כי זה בריא"
+   ],
+   "explain_he": "אנטיביוטיקה היא תרופה חזקה, ולוקחים אותה רק לפי הוראות הרופא.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f7e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך לוקחים אנטיביוטיקה?",
+   "answer": "רק כשהרופא נותן, ובדיוק לפי ההוראות",
+   "options": [
+    "רק כשהרופא נותן, ובדיוק לפי ההוראות",
+    "בכל פעם שכואב הראש",
+    "כמה שרוצים, כי זה בריא"
+   ],
+   "explain_he": "אנטיביוטיקה היא תרופה חזקה, ולוקחים אותה רק לפי הוראות הרופא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה ד״ר יונס סאלק?",
+   "answer": "פיתח חיסון נגד מחלת הפוליו",
+   "options": [
+    "פיתח חיסון נגד מחלת הפוליו",
+    "גילה את הפניצילין",
+    "המציא את המיקרוסקופ"
+   ],
+   "explain_he": "ד״ר סאלק עבד שנים רבות ופיתח חיסון נגד שיתוק ילדים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f7e21"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה ד״ר יונס סאלק?",
+   "answer": "פיתח חיסון נגד מחלת הפוליו",
+   "options": [
+    "פיתח חיסון נגד מחלת הפוליו",
+    "גילה את הפניצילין",
+    "המציא את המיקרוסקופ"
+   ],
+   "explain_he": "ד״ר סאלק עבד שנים רבות ופיתח חיסון נגד שיתוק ילדים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e22"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה לומדים חז״ל מהמילים ״וחי בהם״?",
+   "answer": "שפיקוח נפש דוחה כמעט את כל התורה",
+   "options": [
+    "שפיקוח נפש דוחה כמעט את כל התורה",
+    "שצריך לאכול הרבה",
+    "שאסור ללכת לרופא בשבת"
+   ],
+   "explain_he": "המצוות ניתנו כדי לחיות בהן, ולכן כשיש סכנת חיים, מצילים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e23"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה מברכים כשרואים חכם גדול בחכמות העולם?",
+   "answer": "״שנתן מחכמתו לבשר ודם״",
+   "options": [
+    "״שנתן מחכמתו לבשר ודם״",
+    "״שהחיינו״",
+    "״הטוב והמטיב״"
+   ],
+   "explain_he": "הברכה מזכירה שהחכמה של בני האדם היא מתנה מהקדוש ברוך הוא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f7e24"
+  }
+ ]
+}

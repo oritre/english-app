@@ -1,0 +1,507 @@
+{
+ "id": "k-itc-f4",
+ "unit_id": "k-itc-u2",
+ "course": "israeltech",
+ "title_he": "נוצר בישראל",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "נוצר בישראל",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "small",
+     "title_he": "מדינה קטנה, רעיונות גדולים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A view over a modern Israeli city with glass office towers beside old Jerusalem-stone buildings at sunrise, the two siblings on a balcony pointing at the skyline.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧 🏠",
+     "say": [
+      "ישראל היא מדינה קטנה. אפשר לנסוע בה מצפון לדרום ביום אחד. ובכל זאת, המצאות רבות שמשתמשים בהן בכל העולם נולדו כאן.",
+      "יש אפילו כינוי לישראל: ״אומת הסטארט־אפ״, כלומר עם של חברות חדשות, שמתחילות מרעיון קטן.",
+      "בשיעור הזה נכיר שלוש המצאות ישראליות: מערכת ששומרת על נהגים, זיכרון קטן שנכנס בכיס, ודרך חכמה למצוא את הדרך.",
+      "ישראל היא גם אחת המדינות שמשקיעות במחקר ובפיתוח את החלק הגדול ביותר מכספן, ביחס לגודלן.",
+      "ומאחורי כל המצאה כזאת עומדות שנים של לימוד, ניסיונות וכישלונות, שאיש אינו רואה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "mobileye",
+     "title_he": "מצלמה שרואה את הכביש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: View from inside a car on an Israeli highway at dusk: a small camera unit behind the windshield, soft glowing outlines highlighting the car ahead, a pedestrian at a crossing and the lane lines; the driver's hands on the wheel.",
+     "move": "in",
+     "fx": "light",
+     "art": "🚗",
+     "say": [
+      "נתחיל בירושלים. פרופסור אמנון שעשוע, חוקר מחשבים באוניברסיטה העברית, שאל שאלה: האם מחשב יכול ״לראות״ את הכביש כמו נהג?",
+      "יחד עם שותפו, זיו אבירם, הוא הקים לפני יותר מעשרים וחמש שנה את חברת ״מובילאיי״.",
+      "הם פיתחו מצלמה קטנה שמותקנת על השמשה הקדמית של המכונית, ומחשב זעיר שמבין מה המצלמה רואה: מכונית שעוצרת מלפנים, הולך רגל שחוצה, קווים על הכביש.",
+      "אם הנהג מתקרב מדי לרכב שלפניו, המערכת מצפצפת ומזהירה אותו, ובמכוניות חדשות היא אף עוזרת לבלום. מערכות כאלה נמצאות היום במיליוני מכוניות בעולם.",
+      "כדי ״ללמד״ את המחשב לזהות מכוניות והולכי רגל, הראו לו מיליוני תמונות של כבישים. לאט לאט למד המחשב להבחין בין משאית לאוטובוס, ובין ילד לעמוד.",
+      "המערכות האלה כבר מנעו תאונות רבות, ושמרו על חייהם של נהגים, נוסעים והולכי רגל."
+     ],
+     "pasuk": {
+      "text": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם",
+      "ref": "דברים ד, טו"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בשנת 2017 קנתה חברת אינטל את מובילאיי, באחת העסקאות הגדולות בתולדות ההייטק הישראלי."
+     }
+    },
+    {
+     "id": "dok",
+     "title_he": "דיסק און קי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A desk of around the year 2000: a pile of old square plastic floppy disks beside a single tiny flash drive on a key ring, an engineer in a button-down shirt holding the little drive up with a smile.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "ההמצאה השנייה קטנה מאוד: הדיסק און קי. פעם, כדי להעביר קבצים בין מחשבים, השתמשו בדיסקטים, ריבועי פלסטיק שהחזיקו מעט מאוד מידע ונשברו בקלות.",
+      "דב מורן, מהנדס ישראלי, וחברת ״אם־סיסטמס״ שהקים, היו מהראשונים בעולם שפיתחו זיכרון קטנטן שנכנס בכיס ומתחבר למחשב בלחיצה. הם קראו לו ״דיסק און קי״, דיסק על מחזיק מפתחות.",
+      "פתאום אפשר היה לשאת בכיס יותר מידע מאשר בערימה גדולה של דיסקטים. מורים, תלמידים ואנשי עסקים בכל העולם התחילו להשתמש בו.",
+      "והיום? אנשים רבים שומרים קבצים ״בענן״, כלומר במחשבים גדולים שנמצאים רחוק ומחוברים לאינטרנט. אבל הרעיון שזיכרון יכול להיות קטן, נוח וזמין בכל מקום, קיבל דחיפה גדולה מהדיסק און קי.",
+      "הדיסק און קי הראשונים נמכרו בעולם בשמות של חברות מוכרות, ורבים מהמשתמשים לא ידעו שהם פותחו בישראל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הדיסק און קי הראשון שנמכר החזיק שמונה מגה־בייט בלבד. היום יש כאלה שמחזיקים פי עשרות אלפים יותר."
+     }
+    },
+    {
+     "id": "waze",
+     "title_he": "נהגים עוזרים לנהגים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: An aerial view of Israeli highways at evening, streams of car headlights, with gentle glowing dots and lines above the roads showing busy and clear routes, like a living map; no text.",
+     "move": "out",
+     "fx": "night",
+     "art": "🚗",
+     "say": [
+      "ההמצאה השלישית: ״וייז״, אפליקציית ניווט שנולדה בישראל.",
+      "הרעיון החכם שלה: כל נהג שמשתמש בה עוזר לנהגים האחרים. הטלפון שלו מדווח באיזו מהירות הוא נוסע, וכך כולם יודעים איפה יש פקק ואיפה הכביש פנוי.",
+      "זה כמו שכנים טובים שמזהירים זה את זה: ״אל תיסע מכאן, יש עומס״. ביחד, כולם מגיעים מהר יותר.",
+      "וייז נוסדה בישראל, ובשנת 2013 קנתה אותה חברת גוגל. מיליוני נהגים בעולם משתמשים בה.",
+      "והיום יש באפליקציות רבות רעיון דומה: אנשים משתפים מידע, וכולם נעזרים בו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "why",
+     "title_he": "למה דווקא כאן?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A lively beit midrash: pairs of young men and boys with kippot learn in chavruta, leaning over open volumes, hands raised mid-question, faces full of energy.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "למה דווקא בישראל נולדות כל כך הרבה המצאות? יש לכך כמה סיבות.",
+      "עם ישראל הוא עם של לימוד. במשך אלפי שנים, ילדים יהודים ישבו בחברותא, שאלו קושיות וחיפשו תשובות. מי שרגיל לשאול ״למה?״ ולא מוותר, מתאמן בדיוק במה שממציאים צריכים.",
+      "ויש גם חריצות, אומץ לנסות שוב אחרי כישלון, ועזרה הדדית: אנשים מבקשים עצה, ומחברים בין רעיונות.",
+      "וגם קיבוץ הגלויות עזר: לישראל הגיעו מהנדסים ומדענים מכל העולם, וכל אחד הביא איתו ידע וניסיון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "humble",
+     "title_he": "כוחי ועוצם ידי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A successful engineer with a kippah stands at the window of a modern office at sunset, eyes closed and hand on his heart in a moment of thanks, the Jerusalem hills glowing beyond.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "אבל יש סכנה בהצלחה גדולה. התורה מזהירה אותנו: כשתצליח, אל תאמר ״כוחי ועוצם ידי עשה לי את החיל הזה״.",
+      "אלא ״וזכרת את ה׳ אלוקיך, כי הוא הנותן לך כוח לעשות חיל״. גם רעיון מבריק, וגם הכוח לעבוד קשה, הם מתנה מהשם.",
+      "ולכן, כשמגיעה הצלחה, אומרים תודה להשם, ומשתמשים בה לטובה: לצדקה, לחסד, ולתמיכה בלימוד התורה.",
+      "יש ממציאים ומהנדסים יראי שמיים שקובעים עיתים לתורה בכל יום, גם כשהם עובדים קשה מאוד. התורה נותנת לעבודה שלהם כיוון ומשמעות."
+     ],
+     "pasuk": {
+      "text": "וְזָכַרְתָּ אֶת ה׳ אֱלֹקֶיךָ, כִּי הוּא הַנֹּתֵן לְךָ כֹּחַ לַעֲשׂוֹת חָיִל",
+      "ref": "דברים ח, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "אולי אתם הבאים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The two siblings build a small robot from a kit at a kitchen table, the boy holding a tiny screwdriver and the sister reading the instruction sheet, both concentrating and smiling.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? מצלמה חכמה ששומרת על נהגים, זיכרון קטן שנכנס בכיס, ואפליקציה שבה נהגים עוזרים זה לזה.",
+      "כולן התחילו ברעיון קטן, בשאלה טובה, ובהרבה מאוד עבודה.",
+      "וזכרו: גם רעיון קטן יכול לעזור לעולם, אם עובדים עליו בסבלנות, ביושר ובשיתוף פעולה.",
+      "ואולי אחד מכם ימציא יום אחד משהו שיעזור לעולם, ויזכור לומר תודה להשם. בשיעור הבא נעלה אל החלל!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🚀 ידע כללי",
+   "title_he": "נוצר בישראל",
+   "ref_he": "ישראל במדע ובטכנולוגיה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "small",
+     "title_he": "מדינה קטנה, רעיונות גדולים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: A view over a modern Israeli city with glass office towers beside old Jerusalem-stone buildings at sunrise, the two siblings on a balcony pointing at the skyline.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧 🏠",
+     "say": [
+      "ישראל היא מדינה קטנה. אפשר לנסוע בה מצפון לדרום ביום אחד. ובכל זאת, המצאות רבות שמשתמשים בהן בכל העולם נולדו כאן.",
+      "יש אפילו כינוי לישראל: ״אומת הסטארט־אפ״, כלומר עם של חברות חדשות, שמתחילות מרעיון קטן.",
+      "בשיעור הזה נכיר שלוש המצאות ישראליות: מערכת ששומרת על נהגים, זיכרון קטן שנכנס בכיס, ודרך חכמה למצוא את הדרך.",
+      "ישראל היא גם אחת המדינות שמשקיעות במחקר ובפיתוח את החלק הגדול ביותר מכספן, ביחס לגודלן.",
+      "ומאחורי כל המצאה כזאת עומדות שנים של לימוד, ניסיונות וכישלונות, שאיש אינו רואה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "mobileye",
+     "title_he": "מצלמה שרואה את הכביש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: View from inside a car on an Israeli highway at dusk: a small camera unit behind the windshield, soft glowing outlines highlighting the car ahead, a pedestrian at a crossing and the lane lines; the driver's hands on the wheel.",
+     "move": "in",
+     "fx": "light",
+     "art": "🚗",
+     "say": [
+      "נתחיל בירושלים. פרופסור אמנון שעשוע, חוקר מחשבים באוניברסיטה העברית, שאל שאלה: האם מחשב יכול ״לראות״ את הכביש כמו נהג?",
+      "יחד עם שותפו, זיו אבירם, הוא הקים לפני יותר מעשרים וחמש שנה את חברת ״מובילאיי״.",
+      "הם פיתחו מצלמה קטנה שמותקנת על השמשה הקדמית של המכונית, ומחשב זעיר שמבין מה המצלמה רואה: מכונית שעוצרת מלפנים, הולך רגל שחוצה, קווים על הכביש.",
+      "אם הנהג מתקרב מדי לרכב שלפניו, המערכת מצפצפת ומזהירה אותו, ובמכוניות חדשות היא אף עוזרת לבלום. מערכות כאלה נמצאות היום במיליוני מכוניות בעולם.",
+      "כדי ״ללמד״ את המחשב לזהות מכוניות והולכי רגל, הראו לו מיליוני תמונות של כבישים. לאט לאט למד המחשב להבחין בין משאית לאוטובוס, ובין ילד לעמוד.",
+      "המערכות האלה כבר מנעו תאונות רבות, ושמרו על חייהם של נהגים, נוסעים והולכי רגל.",
+      "ויש כאן גם לקח: גם כשיש במכונית מערכת חכמה, הנהג חייב להמשיך לשים לב לכביש. המכשיר הוא עזר, והאחריות לשמור על החיים נשארת על האדם."
+     ],
+     "pasuk": {
+      "text": "וְנִשְׁמַרְתֶּם מְאֹד לְנַפְשֹׁתֵיכֶם",
+      "ref": "דברים ד, טו"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בשנת 2017 קנתה חברת אינטל את מובילאיי, באחת העסקאות הגדולות בתולדות ההייטק הישראלי."
+     }
+    },
+    {
+     "id": "dok",
+     "title_he": "דיסק און קי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A desk of around the year 2000: a pile of old square plastic floppy disks beside a single tiny flash drive on a key ring, an engineer in a button-down shirt holding the little drive up with a smile.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "ההמצאה השנייה קטנה מאוד: הדיסק און קי. פעם, כדי להעביר קבצים בין מחשבים, השתמשו בדיסקטים, ריבועי פלסטיק שהחזיקו מעט מאוד מידע ונשברו בקלות.",
+      "דב מורן, מהנדס ישראלי, וחברת ״אם־סיסטמס״ שהקים, היו מהראשונים בעולם שפיתחו זיכרון קטנטן שנכנס בכיס ומתחבר למחשב בלחיצה. הם קראו לו ״דיסק און קי״, דיסק על מחזיק מפתחות.",
+      "פתאום אפשר היה לשאת בכיס יותר מידע מאשר בערימה גדולה של דיסקטים. מורים, תלמידים ואנשי עסקים בכל העולם התחילו להשתמש בו.",
+      "והיום? אנשים רבים שומרים קבצים ״בענן״, כלומר במחשבים גדולים שנמצאים רחוק ומחוברים לאינטרנט. אבל הרעיון שזיכרון יכול להיות קטן, נוח וזמין בכל מקום, קיבל דחיפה גדולה מהדיסק און קי."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הדיסק און קי הראשון שנמכר החזיק שמונה מגה־בייט בלבד. היום יש כאלה שמחזיקים פי עשרות אלפים יותר."
+     }
+    },
+    {
+     "id": "waze",
+     "title_he": "נהגים עוזרים לנהגים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: An aerial view of Israeli highways at evening, streams of car headlights, with gentle glowing dots and lines above the roads showing busy and clear routes, like a living map; no text.",
+     "move": "out",
+     "fx": "night",
+     "art": "🚗",
+     "say": [
+      "ההמצאה השלישית: ״וייז״, אפליקציית ניווט שנולדה בישראל.",
+      "הרעיון החכם שלה: כל נהג שמשתמש בה עוזר לנהגים האחרים. הטלפון שלו מדווח באיזו מהירות הוא נוסע, וכך כולם יודעים איפה יש פקק ואיפה הכביש פנוי.",
+      "זה כמו שכנים טובים שמזהירים זה את זה: ״אל תיסע מכאן, יש עומס״. ביחד, כולם מגיעים מהר יותר.",
+      "וייז נוסדה בישראל, ובשנת 2013 קנתה אותה חברת גוגל. מיליוני נהגים בעולם משתמשים בה.",
+      "וייז מלמדת על כוחה של עזרה הדדית: כל נהג נותן קצת מידע, וכולם מרוויחים. כך גם בקהילה: כשכל אחד תורם מעט, כולם נהנים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "why",
+     "title_he": "למה דווקא כאן?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A lively beit midrash: pairs of young men and boys with kippot learn in chavruta, leaning over open volumes, hands raised mid-question, faces full of energy.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "למה דווקא בישראל נולדות כל כך הרבה המצאות? יש לכך כמה סיבות.",
+      "עם ישראל הוא עם של לימוד. במשך אלפי שנים, ילדים יהודים ישבו בחברותא, שאלו קושיות וחיפשו תשובות. מי שרגיל לשאול ״למה?״ ולא מוותר, מתאמן בדיוק במה שממציאים צריכים.",
+      "ויש גם חריצות, אומץ לנסות שוב אחרי כישלון, ועזרה הדדית: אנשים מבקשים עצה, ומחברים בין רעיונות.",
+      "וגם קיבוץ הגלויות עזר: לישראל הגיעו מהנדסים ומדענים מכל העולם, וכל אחד הביא איתו ידע וניסיון.",
+      "חז״ל אמרו: ״קנאת סופרים תרבה חכמה״. כשתלמידי חכמים מתחרים זה בזה בלימוד, בדרך כבוד, החכמה גדלה. גם בעולם ההמצאות, תחרות הוגנת מביאה רעיונות טובים יותר.",
+      "ובגמרא נאמר: ״הרבה למדתי מרבותי, ומחבריי יותר מרבותי, ומתלמידיי יותר מכולן״. מי שיודע ללמוד מכל אחד, גם מהצעיר ממנו, מוסיף חכמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "humble",
+     "title_he": "כוחי ועוצם ידי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A successful engineer with a kippah stands at the window of a modern office at sunset, eyes closed and hand on his heart in a moment of thanks, the Jerusalem hills glowing beyond.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👨",
+     "say": [
+      "אבל יש סכנה בהצלחה גדולה. התורה מזהירה אותנו: כשתצליח, אל תאמר ״כוחי ועוצם ידי עשה לי את החיל הזה״.",
+      "אלא ״וזכרת את ה׳ אלוקיך, כי הוא הנותן לך כוח לעשות חיל״. גם רעיון מבריק, וגם הכוח לעבוד קשה, הם מתנה מהשם.",
+      "ולכן, כשמגיעה הצלחה, אומרים תודה להשם, ומשתמשים בה לטובה: לצדקה, לחסד, ולתמיכה בלימוד התורה.",
+      "יש ממציאים ומהנדסים יראי שמיים שקובעים עיתים לתורה בכל יום, גם כשהם עובדים קשה מאוד. התורה נותנת לעבודה שלהם כיוון ומשמעות.",
+      "במשנה במסכת אבות נאמר: ״יפה תלמוד תורה עם דרך ארץ, שיגיעת שניהם משכחת עוון״. לימוד תורה לצד עבודה ישרה שומר על האדם בדרך הטובה."
+     ],
+     "pasuk": {
+      "text": "וְזָכַרְתָּ אֶת ה׳ אֱלֹקֶיךָ, כִּי הוּא הַנֹּתֵן לְךָ כֹּחַ לַעֲשׂוֹת חָיִל",
+      "ref": "דברים ח, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "honest",
+     "title_he": "יושר בעולם המחשבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details.  Scene: A medieval sage with a beard and kippah seals a folded letter with wax at a wooden desk by candlelight; beside the scene, a modern closed laptop resting on a table, a gentle visual echo across time.",
+     "move": "left",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "לטכנולוגיה יש גם שאלות של יושר. לפני בערך אלף שנה תיקן רבנו גרשום מאור הגולה תקנה: אסור לפתוח ולקרוא מכתב שנשלח לאדם אחר.",
+      "היום, כשמכתבים עוברים במחשב ובטלפון, התקנה הזאת חשובה יותר מתמיד: לא נכנסים לחשבון של אחר, ולא קוראים הודעות שלא נשלחו אלינו.",
+      "וגם תוכנה, משחק או סרט שמישהו פיתח הם רכוש שלו. העתקה בלי רשות דומה ללקיחת חפץ שאינו שלנו. גדולי הפוסקים בדורנו דנו בשאלות האלה, ורבים מהם אסרו להעתיק בלי רשות.",
+      "עם של ממציאים צריך להיות גם עם ישר. כך מקדשים שם שמיים: כשאחרים רואים שגם בעולם המהיר של המחשבים, יהודי נשאר הגון.",
+      "וגם בעולם העבודה התורה דורשת יושר: לא להטעות לקוחות, לא להגזים במה שהמוצר עושה, ולשלם לעובדים בזמן, כמו שנאמר: ״ביומו תתן שכרו״."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "אולי אתם הבאים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Modern Eretz Yisrael from the 1930s to today: Kinneret shores, Negev and Arava desert farms, greenhouses, Jerusalem stone, laboratories and workshops, ambulances, night skies and space with Earth and the Moon. Bright Mediterranean light, hopeful and proud mood, realistic modern details. Two Israeli siblings: a boy of about twelve with a knitted kippah and tzitzit, and his sister of about eleven in a long skirt and a sleeved blouse. Scene: The two siblings build a small robot from a kit at a kitchen table, the boy holding a tiny screwdriver and the sister reading the instruction sheet, both concentrating and smiling.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? מצלמה חכמה ששומרת על נהגים, זיכרון קטן שנכנס בכיס, ואפליקציה שבה נהגים עוזרים זה לזה.",
+      "כולן התחילו ברעיון קטן, בשאלה טובה, ובהרבה מאוד עבודה.",
+      "וזכרו: גם רעיון קטן יכול לעזור לעולם, אם עובדים עליו בסבלנות, ביושר ובשיתוף פעולה.",
+      "והנביא ירמיהו אומר: ״אל יתהלל חכם בחכמתו... כי אם בזאת יתהלל המתהלל: השכל וידוע אותי״. החכמה הגדולה ביותר היא להכיר את השם.",
+      "ואולי אחד מכם ימציא יום אחד משהו שיעזור לעולם, ויזכור לומר תודה להשם. בשיעור הבא נעלה אל החלל!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-itc-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושה המערכת של מובילאיי?",
+   "answer": "מצלמה ומחשב מזהים סכנות בכביש ומזהירים את הנהג",
+   "options": [
+    "מצלמה ומחשב מזהים סכנות בכביש ומזהירים את הנהג",
+    "מתדלקת את המכונית",
+    "מנגנת מוזיקה לנהג"
+   ],
+   "explain_he": "המצלמה רואה את הכביש, והמחשב מבין מה היא רואה ומזהיר את הנהג.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושה המערכת של מובילאיי?",
+   "answer": "מצלמה ומחשב מזהים סכנות בכביש ומזהירים את הנהג",
+   "options": [
+    "מצלמה ומחשב מזהים סכנות בכביש ומזהירים את הנהג",
+    "מתדלקת את המכונית",
+    "מנגנת מוזיקה לנהג"
+   ],
+   "explain_he": "המצלמה רואה את הכביש, והמחשב מבין מה היא רואה ומזהיר את הנהג.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה החליף הדיסק און קי?",
+   "answer": "דיסקטים שהחזיקו מעט מידע ונשברו בקלות",
+   "options": [
+    "דיסקטים שהחזיקו מעט מידע ונשברו בקלות",
+    "ספרים מודפסים",
+    "טלפונים ניידים"
+   ],
+   "explain_he": "הדיסק און קי הקטן החזיק יותר מידע מערימה של דיסקטים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה החליף הדיסק און קי?",
+   "answer": "דיסקטים שהחזיקו מעט מידע ונשברו בקלות",
+   "options": [
+    "דיסקטים שהחזיקו מעט מידע ונשברו בקלות",
+    "ספרים מודפסים",
+    "טלפונים ניידים"
+   ],
+   "explain_he": "הדיסק און קי הקטן החזיק יותר מידע מערימה של דיסקטים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הרעיון החכם של וייז?",
+   "answer": "כל נהג עוזר לאחרים בכך שהטלפון שלו מדווח על המהירות והפקקים",
+   "options": [
+    "כל נהג עוזר לאחרים בכך שהטלפון שלו מדווח על המהירות והפקקים",
+    "שוטרים מכוונים את התנועה",
+    "המכונית נוהגת לבד"
+   ],
+   "explain_he": "כמו שכנים טובים, הנהגים מזהירים זה את זה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הרעיון החכם של וייז?",
+   "answer": "כל נהג עוזר לאחרים בכך שהטלפון שלו מדווח על המהירות והפקקים",
+   "options": [
+    "כל נהג עוזר לאחרים בכך שהטלפון שלו מדווח על המהירות והפקקים",
+    "שוטרים מכוונים את התנועה",
+    "המכונית נוהגת לבד"
+   ],
+   "explain_he": "כמו שכנים טובים, הנהגים מזהירים זה את זה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה מזהירה התורה כשמצליחים?",
+   "answer": "לא לומר ״כוחי ועוצם ידי עשה לי את החיל הזה״",
+   "options": [
+    "לא לומר ״כוחי ועוצם ידי עשה לי את החיל הזה״",
+    "לא לספר לאף אחד",
+    "לא להמשיך לעבוד"
+   ],
+   "explain_he": "השם הוא הנותן כוח לעשות חיל, ולכן מודים לו ומשתמשים בהצלחה לטובה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על מה מזהירה התורה כשמצליחים?",
+   "answer": "לא לומר ״כוחי ועוצם ידי עשה לי את החיל הזה״",
+   "options": [
+    "לא לומר ״כוחי ועוצם ידי עשה לי את החיל הזה״",
+    "לא לספר לאף אחד",
+    "לא להמשיך לעבוד"
+   ],
+   "explain_he": "השם הוא הנותן כוח לעשות חיל, ולכן מודים לו ומשתמשים בהצלחה לטובה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הקימו את מובילאיי?",
+   "answer": "אמנון שעשוע וזיו אבירם",
+   "options": [
+    "אמנון שעשוע וזיו אבירם",
+    "דב מורן",
+    "שמחה בלאס"
+   ],
+   "explain_he": "פרופסור אמנון שעשוע מירושלים ושותפו זיו אבירם הקימו את החברה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-itc-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הקימו את מובילאיי?",
+   "answer": "אמנון שעשוע וזיו אבירם",
+   "options": [
+    "אמנון שעשוע וזיו אבירם",
+    "דב מורן",
+    "שמחה בלאס"
+   ],
+   "explain_he": "פרופסור אמנון שעשוע מירושלים ושותפו זיו אבירם הקימו את החברה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו תקנה של רבנו גרשום חשובה גם להודעות במחשב?",
+   "answer": "שאסור לקרוא מכתב שנשלח לאדם אחר",
+   "options": [
+    "שאסור לקרוא מכתב שנשלח לאדם אחר",
+    "שאסור לכתוב מכתבים",
+    "שצריך לענות לכל מכתב מיד"
+   ],
+   "explain_he": "גם היום לא קוראים הודעות שלא נשלחו אלינו ולא נכנסים לחשבון של אחר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה העתקת תוכנה בלי רשות היא בעיה?",
+   "answer": "כי היא רכוש של מי שפיתח אותה, כמו חפץ",
+   "options": [
+    "כי היא רכוש של מי שפיתח אותה, כמו חפץ",
+    "כי המחשב מתקלקל",
+    "כי כל התוכנות אסורות"
+   ],
+   "explain_he": "העתקה בלי רשות דומה ללקיחת חפץ שאינו שלנו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-itc-f4e14"
+  }
+ ]
+}

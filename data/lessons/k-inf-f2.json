@@ -1,0 +1,782 @@
+{
+ "id": "k-inf-f2",
+ "unit_id": "k-inf-u1",
+ "course": "inventors",
+ "title_he": "הדפוס",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "הדפוס",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "handcopy",
+     "title_he": "ספר אחד לכולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A medieval study hall at night: many young men with kippot crowd around one large handwritten book on a wooden table, sharing it by candlelight; shelves almost empty.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👨 👦",
+     "say": [
+      "דמיינו בית מדרש לפני הרבה מאוד שנים. יש בו הרבה תלמידים, אבל רק ספר אחד או שניים.",
+      "כל ספר נכתב ביד. כדי להעתיק גמרא אחת, סופר עבד חודשים רבים!",
+      "ולכן ספרים היו יקרים מאוד. רק מעטים יכלו לקנות ספר.",
+      "וגם כשמעתיקים בזהירות, לפעמים נופלת טעות קטנה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "press",
+     "title_he": "אותיות ממתכת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 15th-century German print workshop: a craftsman in a simple tunic and cap pulls the long wooden lever of a big screw press; trays of tiny metal letter blocks and fresh printed pages hanging to dry.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "בעיר מגנצא שבגרמניה חי איש בשם יוהנס גוטנברג.",
+      "הוא הכין אותיות קטנות ממתכת, כל אות לחוד.",
+      "הוא סידר את האותיות לשורות, מרח עליהן דיו, ולחץ עליהן דף נייר במכונה גדולה. ואז... הדף מודפס!",
+      "במכונה אחת אפשר להדפיס מאות דפים ביום, וכולם אותו דבר בדיוק!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "spread",
+     "title_he": "הספרים מתרבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A busy old European market street with several print shops, stacks of fresh books on wooden stalls, townspeople in long period clothes browsing and buying.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🚶 🏠",
+     "say": [
+      "ההמצאה של גוטנברג התפשטה מהר מאוד.",
+      "בעוד ועוד ערים פתחו בתי דפוס.",
+      "עכשיו ספר כבר לא היה אוצר נדיר. הרבה משפחות יכלו לקנות ספרים!",
+      "ויותר ויותר אנשים למדו לקרוא.",
+      "ספרים הגיעו גם לכפרים קטנים ולערים רחוקות."
+     ],
+     "pasuk": {
+      "text": "עֲשׂוֹת סְפָרִים הַרְבֵּה אֵין קֵץ",
+      "ref": "קהלת יב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "rashi1475",
+     "title_he": "הספר העברי הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A small Jewish print shop in a southern Italian town, 15th century: a printer with a beard and kippah lifts a freshly printed page and studies it with joy; sunlight through an arched window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "גם היהודים שמחו מאוד בהמצאה החדשה.",
+      "ואתם יודעים מה היה הספר העברי הראשון שהודפס ויש עליו תאריך? הפירוש של רש״י על התורה!",
+      "זה קרה באיטליה, לפני יותר מחמש מאות וחמישים שנה.",
+      "למה דווקא רש״י? כי רש״י הוא המורה של כל ילד יהודי. מי שלומד חומש, לומד עם רש״י!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ktavrashi",
+     "title_he": "כתב רש״י",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Close view of an open old printed Chumash on a wooden shtender: a block of large square letters at the top and smaller rounded letters below, shapes only and not readable; a boy's finger points at the page.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "אולי ראיתם בחומש אותיות קצת אחרות, קטנות ומעוגלות. קוראים להן כתב רש״י.",
+      "המדפיסים השתמשו בהן לפירוש של רש״י, כדי שיהיה קל לראות מה הפסוק ומה הפירוש.",
+      "ודבר מפתיע: רש״י עצמו בכלל לא כתב בכתב הזה! קראו לו על שמו, כי בו הדפיסו את הפירוש שלו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "vilna",
+     "title_he": "הש״ס של וילנא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A large 19th-century print hall in Vilna: bearded workers with kippot and aprons at big iron presses, tall stacks of huge Talmud volumes with brown leather spines, warm lamp light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👴",
+     "say": [
+      "והנה ספר ענק ומיוחד: הש״ס של וילנא, כל הגמרא בספרים גדולים.",
+      "בעיר וילנא הייתה משפחת מדפיסים בשם ראם. הם הדפיסו את הגמרא בצורה כל כך יפה וברורה, שעד היום לומדים בגמרות כמו שלהם.",
+      "בכל בית מדרש בעולם, הדף נראה אותו דבר!",
+      "הם בדקו כל מילה, והוסיפו מסביב לגמרא הרבה פירושים של חכמים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דף הגמרא בנוי כמו תמונה קבועה: הגמרא באמצע, רש״י בצד אחד ותוספות בצד השני. לכן כשאומרים ״דף ב׳ עמוד א׳״, כל לומד בעולם פותח בדיוק באותו מקום."
+     }
+    },
+    {
+     "id": "dafyomi",
+     "title_he": "אותו דף בכל העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Split warm scene: two study halls far apart, one with Jerusalem stone arches and one in a big modern city, men and boys with kippot learning from identical large open volumes at the same moment.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "ובגלל שכל הגמרות נראות אותו דבר, יהודים בכל העולם לומדים אותו דף גמרא באותו יום. זה נקרא ״הדף היומי״.",
+      "יהודי בירושלים ויהודי באמריקה לומדים אותו דף, ואפילו לא מכירים זה את זה!"
+     ],
+     "pasuk": {
+      "text": "וְכָל בָּנַיִךְ לִמּוּדֵי ה׳, וְרַב שְׁלוֹם בָּנָיִךְ",
+      "ref": "ישעיהו נד, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "ארון הספרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A cozy Israeli living room with a tall bookcase full of Chumashim, siddurim and Talmud volumes; the two children each pull out a small book of their own, smiling.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "היום, בכל בית יהודי יש ארון ספרים מלא: חומשים, סידורים, משניות וגמרות.",
+      "פעם זה היה חלום! תודה להשם על ההמצאה של הדפוס, שבזכותה כל ילד יכול להחזיק חומש משלו.",
+      "פעם, ספר אחד עבר מיד ליד. היום, לכל ילד יש סידור משלו, ואפילו חומש משלו.",
+      "בשיעור הבא נצא לים, ונגלה איך ספנים מצאו את הדרך בלב האוקיינוס."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "הדפוס",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "handcopy",
+     "title_he": "ספר אחד לכולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A medieval study hall at night: many young men with kippot crowd around one large handwritten book on a wooden table, sharing it by candlelight; shelves almost empty.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👨 👦",
+     "say": [
+      "דמיינו בית מדרש לפני בערך שש מאות שנה. התלמידים יושבים צפופים סביב שולחן אחד, ולכולם יש רק ספר גמרא אחד.",
+      "כל ספר נכתב אז ביד. סופר שישב להעתיק ספר גדול עבד חודשים רבים, ולפעמים שנים.",
+      "ספר היה יקר מאוד. משפחה שהיה לה ספר שמרה עליו כמו על אוצר, והורישה אותו מאב לבן.",
+      "וגם כשמעתיקים בזהירות, נופלות טעויות. כל העתקה הוסיפה עוד טעות קטנה. היה צריך רעיון חדש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "press",
+     "title_he": "אותיות ממתכת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 15th-century German print workshop: a craftsman in a simple tunic and cap pulls the long wooden lever of a big screw press; trays of tiny metal letter blocks and fresh printed pages hanging to dry.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "לפני בערך חמש מאות ושבעים שנה, בעיר מגנצא שבגרמניה, עבד אומן בשם יוהנס גוטנברג.",
+      "הרעיון שלו היה לייצק אותיות קטנות ממתכת, כל אות לחוד. את האותיות אפשר לסדר למילים ולשורות, כמו משחק הרכבה, ואחר כך לפרק ולסדר מחדש לדף אחר.",
+      "את דף האותיות מורחים בדיו, מניחים עליו נייר, ולוחצים חזק במכבש, מכונה עם בורג גדול, כמו המכבשים שבהם סחטו ענבים ליין.",
+      "תוך רגע יוצא דף שלם וברור. ואפשר לחזור על זה שוב ושוב: מאות דפים זהים ביום אחד!",
+      "כדי להדפיס דף אחד, היה צריך לסדר ביד אלפי אותיות קטנות, אחת אחת, והפוכות, כמו בתמונת מראה. העובד שעשה זאת נקרא ״סדר״, והיה צריך עיניים חדות וסבלנות רבה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גם בסין הדפיסו עוד קודם, בעזרת לוחות עץ חרוטים. אבל האותיות הנפרדות של גוטנברג הפכו את הדפוס באירופה למהיר וזול."
+     }
+    },
+    {
+     "id": "spread",
+     "title_he": "הספרים מתרבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A busy old European market street with several print shops, stacks of fresh books on wooden stalls, townspeople in long period clothes browsing and buying.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🚶 🏠",
+     "say": [
+      "ההמצאה התפשטה במהירות. תוך כמה עשרות שנים כבר עבדו בתי דפוס במאות ערים באירופה.",
+      "ספרים נעשו זולים יותר, ויותר אנשים למדו לקרוא. ידע שהיה שמור אצל מעטים הגיע עכשיו להרבה מאוד אנשים.",
+      "וגם הטעויות פחתו: מגיהים בדקו את הדף בעיון לפני ההדפסה, וכל העותקים יצאו זהים.",
+      "גם הלימוד השתנה: תלמיד יכול היה להחזיק ספר משלו, לחזור על הלימוד בבית, ולהשוות בין ספרים."
+     ],
+     "pasuk": {
+      "text": "עֲשׂוֹת סְפָרִים הַרְבֵּה אֵין קֵץ",
+      "ref": "קהלת יב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "rashi1475",
+     "title_he": "הספר העברי הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A small Jewish print shop in a southern Italian town, 15th century: a printer with a beard and kippah lifts a freshly printed page and studies it with joy; sunlight through an arched window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "חכמי ישראל הבינו מיד כמה ההמצאה הזו טובה ללימוד התורה. מדפיסים יהודים פתחו בתי דפוס עבריים, בעיקר באיטליה.",
+      "הספר העברי הראשון שהודפס ושנכתב בו תאריך היה הפירוש של רש״י על התורה. הוא הודפס בעיר רג׳ו שבדרום איטליה, בשנת ה׳ אלפים רל״ה, לפני יותר מחמש מאות וחמישים שנה.",
+      "זה לא מקרי. רש״י היה המורה הגדול של כל ילד יהודי. מי שלמד חומש, למד אותו עם רש״י.",
+      "ואחרי רש״י הגיעו לדפוס ספרים רבים: חומשים, סידורים, משניות, ובסוף גם התלמוד כולו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "משפחת שונצינו, משפחה של מדפיסים יהודים באיטליה, הדפיסה בשנת ה׳ אלפים רמ״ח את התנ״ך השלם הראשון בעברית, עם ניקוד."
+     }
+    },
+    {
+     "id": "ktavrashi",
+     "title_he": "כתב רש״י",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Close view of an open old printed Chumash on a wooden shtender: a block of large square letters at the top and smaller rounded letters below, shapes only and not readable; a boy's finger points at the page.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "פתחו חומש ותסתכלו על הפירוש בתחתית הדף. האותיות שם נראות אחרת: קטנות ומעוגלות קצת. קוראים להן כתב רש״י.",
+      "האמת היא שרש״י עצמו לא כתב באותיות האלה. זה כתב יד ששימש יהודים בספרד ובארצות אחרות, והמדפיסים בחרו בו בשביל הפירושים.",
+      "כך, במבט אחד, הלומד יודע מה הם דברי הפסוק, באותיות מרובעות וגדולות, ומה הם דברי הפירוש. ובגלל שבו הודפס פירוש רש״י, השם ״כתב רש״י״ נדבק אליו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "vilna",
+     "title_he": "הש״ס של וילנא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A large 19th-century print hall in Vilna: bearded workers with kippot and aprons at big iron presses, tall stacks of huge Talmud volumes with brown leather spines, warm lamp light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👴",
+     "say": [
+      "והנה יצירה גדולה של הדפוס העברי: הש״ס של וילנא.",
+      "בעיר וילנא שבליטא פעל בית הדפוס של משפחת ראם. לפני בערך מאה וארבעים שנה הם הדפיסו שם את כל התלמוד הבבלי.",
+      "הם אספו כתבי יד עתיקים, ביקשו מחכמים לבדוק כל מילה, והוסיפו עשרות פירושים מסביב לגמרא.",
+      "התוצאה הייתה כל כך מדויקת ויפה, שעד היום רוב הגמרות שבבתי המדרש מודפסות לפי הש״ס של וילנא.",
+      "בש״ס של וילנא הודפסו גם פירושים שלא הודפסו לפני כן, ובהם הגהות של גדולי ישראל, כמו הגאון מווילנא."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דף הגמרא בנוי כמו תמונה קבועה: הגמרא באמצע, רש״י בצד אחד ותוספות בצד השני. לכן כשאומרים ״דף ב׳ עמוד א׳״, כל לומד בעולם פותח בדיוק באותו מקום."
+     }
+    },
+    {
+     "id": "dafyomi",
+     "title_he": "אותו דף בכל העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Split warm scene: two study halls far apart, one with Jerusalem stone arches and one in a big modern city, men and boys with kippot learning from identical large open volumes at the same moment.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "ובזכות הדפוס קרה עוד דבר נפלא: כל הגמרות בעולם מחולקות לאותם דפים בדיוק.",
+      "לכן לפני בערך מאה שנה הציע הרב מאיר שפירא מלובלין את ״הדף היומי״: כל יהודי בעולם לומד אותו דף גמרא באותו יום.",
+      "יהודי מירושלים ויהודי מניו יורק, שלא נפגשו מעולם, יכולים לשבת ולדבר על אותו דף בדיוק."
+     ],
+     "pasuk": {
+      "text": "וְכָל בָּנַיִךְ לִמּוּדֵי ה׳, וְרַב שְׁלוֹם בָּנָיִךְ",
+      "ref": "ישעיהו נד, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "ארון הספרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A cozy Israeli living room with a tall bookcase full of Chumashim, siddurim and Talmud volumes; the two children each pull out a small book of their own, smiling.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "תסתכלו על ארון הספרים שבבית שלכם: חומשים, סידורים, משניות, גמרות וספרי הלכה. לפני שש מאות שנה, אפילו לרב גדול לא היו כל כך הרבה ספרים.",
+      "הדפוס הפך את לימוד התורה לנחלת כל אחד: כל ילד מחזיק חומש משלו, וכל אחד יכול לפתוח גמרא ולהצטרף ללימוד. תודה להשם על המתנה הזאת.",
+      "ויש לנו גם אחריות: לשמור על ספרי הקודש, לא לזרוק אותם, ולהחזיר כל ספר למקומו אחרי הלימוד. ספר קודש שבלה גונזים בכבוד.",
+      "בשיעור הבא נצא אל הים הגדול, ונגלה איך המצפן עזר לספנים למצוא את הדרך."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f2e2"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "💡 ידע כללי",
+   "title_he": "הדפוס",
+   "ref_he": "ממציאים ששינו את העולם",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "handcopy",
+     "title_he": "ספר אחד לכולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A medieval study hall at night: many young men with kippot crowd around one large handwritten book on a wooden table, sharing it by candlelight; shelves almost empty.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👨 👦",
+     "say": [
+      "דמיינו בית מדרש לפני בערך שש מאות שנה. התלמידים יושבים צפופים סביב שולחן אחד, ולכולם יש רק ספר גמרא אחד.",
+      "כל ספר נכתב אז ביד. סופר שישב להעתיק ספר גדול עבד חודשים רבים, ולפעמים שנים.",
+      "ספר היה יקר מאוד. משפחה שהיה לה ספר שמרה עליו כמו על אוצר, והורישה אותו מאב לבן.",
+      "וגם כשמעתיקים בזהירות, נופלות טעויות. כל העתקה הוסיפה עוד טעות קטנה. היה צריך רעיון חדש.",
+      "חז״ל במסכת כתובות מספרים על רבי חייא, שכדי שהתורה לא תשתכח, זרע פשתן, עשה ממנו רשתות, צד צבאים והכין מעורם קלף. על הקלף כתב חמישה חומשים, ולימד חמישה ילדים, כל ילד חומש אחד, כדי שילמדו זה את זה.",
+      "כך, בעמל רב, שמרו חכמי ישראל על הספרים, גם בלי דפוס."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "press",
+     "title_he": "אותיות ממתכת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A 15th-century German print workshop: a craftsman in a simple tunic and cap pulls the long wooden lever of a big screw press; trays of tiny metal letter blocks and fresh printed pages hanging to dry.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "לפני בערך חמש מאות ושבעים שנה, בעיר מגנצא שבגרמניה, עבד אומן בשם יוהנס גוטנברג.",
+      "מגנצא הייתה עיר של קהילה יהודית עתיקה וחשובה. שם לימד, מאות שנים קודם, רבנו גרשום מאור הגולה.",
+      "הרעיון של גוטנברג היה לייצק אותיות קטנות ממתכת, כל אות לחוד. את האותיות אפשר לסדר למילים ולשורות, כמו משחק הרכבה, ואחר כך לפרק ולסדר מחדש לדף אחר.",
+      "את דף האותיות מורחים בדיו, מניחים עליו נייר, ולוחצים חזק במכבש, מכונה עם בורג גדול, כמו המכבשים שבהם סחטו ענבים ליין.",
+      "תוך רגע יוצא דף שלם וברור. ואפשר לחזור על זה שוב ושוב: מאות דפים זהים ביום אחד!",
+      "כדי להדפיס דף אחד, היה צריך לסדר ביד אלפי אותיות קטנות, אחת אחת, והפוכות, כמו בתמונת מראה. העובד שעשה זאת נקרא ״סדר״, והיה צריך עיניים חדות וסבלנות רבה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גם בסין הדפיסו עוד קודם, בעזרת לוחות עץ חרוטים. אבל האותיות הנפרדות של גוטנברג הפכו את הדפוס באירופה למהיר וזול."
+     }
+    },
+    {
+     "id": "spread",
+     "title_he": "הספרים מתרבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A busy old European market street with several print shops, stacks of fresh books on wooden stalls, townspeople in long period clothes browsing and buying.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🚶 🏠",
+     "say": [
+      "ההמצאה התפשטה במהירות. תוך כמה עשרות שנים כבר עבדו בתי דפוס במאות ערים באירופה.",
+      "ספרים נעשו זולים יותר, ויותר אנשים למדו לקרוא. ידע שהיה שמור אצל מעטים הגיע עכשיו להרבה מאוד אנשים.",
+      "וגם הטעויות פחתו: מגיהים בדקו את הדף בעיון לפני ההדפסה, וכל העותקים יצאו זהים.",
+      "גם הלימוד השתנה: תלמיד יכול היה להחזיק ספר משלו, לחזור על הלימוד בבית, ולהשוות בין ספרים.",
+      "אבל לספרים היו גם אויבים. בשנים ההן שרפו ברומא ובערים אחרות באיטליה אלפי ספרי תלמוד. ובכל זאת, היהודים המשיכו להדפיס וללמוד, בכל מקום שבו יכלו."
+     ],
+     "pasuk": {
+      "text": "עֲשׂוֹת סְפָרִים הַרְבֵּה אֵין קֵץ",
+      "ref": "קהלת יב, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "rashi1475",
+     "title_he": "הספר העברי הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A small Jewish print shop in a southern Italian town, 15th century: a printer with a beard and kippah lifts a freshly printed page and studies it with joy; sunlight through an arched window.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "חכמי ישראל הבינו מיד כמה ההמצאה הזו טובה ללימוד התורה. מדפיסים יהודים פתחו בתי דפוס עבריים, בעיקר באיטליה.",
+      "הספר העברי הראשון שהודפס ושנכתב בו תאריך היה הפירוש של רש״י על התורה. הוא הודפס בעיר רג׳ו שבדרום איטליה, בשנת ה׳ אלפים רל״ה, לפני יותר מחמש מאות וחמישים שנה.",
+      "זה לא מקרי. רש״י היה המורה הגדול של כל ילד יהודי. מי שלמד חומש, למד אותו עם רש״י.",
+      "ואחרי רש״י הגיעו לדפוס ספרים רבים: חומשים, סידורים, משניות, ובסוף גם התלמוד כולו.",
+      "בספרים העבריים הראשונים נהגו המדפיסים לכתוב בסוף הספר, בשמחה ובהודיה, את שמם ואת תאריך סיום ההדפסה. בזכות זה אנחנו יודעים עד היום מתי הודפס כל ספר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "משפחת שונצינו, משפחה של מדפיסים יהודים באיטליה, הדפיסה בשנת ה׳ אלפים רמ״ח את התנ״ך השלם הראשון בעברית, עם ניקוד."
+     }
+    },
+    {
+     "id": "ktavrashi",
+     "title_he": "כתב רש״י",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Close view of an open old printed Chumash on a wooden shtender: a block of large square letters at the top and smaller rounded letters below, shapes only and not readable; a boy's finger points at the page.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "פתחו חומש ותסתכלו על הפירוש בתחתית הדף. האותיות שם נראות אחרת: קטנות ומעוגלות קצת. קוראים להן כתב רש״י.",
+      "האמת היא שרש״י עצמו לא כתב באותיות האלה. זה כתב יד ששימש יהודים בספרד ובארצות אחרות, והמדפיסים בחרו בו בשביל הפירושים.",
+      "כך, במבט אחד, הלומד יודע מה הם דברי הפסוק, באותיות מרובעות וגדולות, ומה הם דברי הפירוש. ובגלל שבו הודפס פירוש רש״י, השם ״כתב רש״י״ נדבק אליו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "vilna",
+     "title_he": "הש״ס של וילנא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: A large 19th-century print hall in Vilna: bearded workers with kippot and aprons at big iron presses, tall stacks of huge Talmud volumes with brown leather spines, warm lamp light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👴",
+     "say": [
+      "והנה יצירה גדולה של הדפוס העברי: הש״ס של וילנא.",
+      "בעיר וילנא שבליטא פעל בית הדפוס של משפחת ראם. לפני בערך מאה וארבעים שנה הם הדפיסו שם את כל התלמוד הבבלי.",
+      "הם אספו כתבי יד עתיקים, ביקשו מחכמים לבדוק כל מילה, והוסיפו עשרות פירושים מסביב לגמרא.",
+      "התוצאה הייתה כל כך מדויקת ויפה, שעד היום רוב הגמרות שבבתי המדרש מודפסות לפי הש״ס של וילנא.",
+      "בש״ס של וילנא הודפסו גם פירושים שלא הודפסו לפני כן, ובהם הגהות של גדולי ישראל, כמו הגאון מווילנא."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דף הגמרא בנוי כמו תמונה קבועה: הגמרא באמצע, רש״י בצד אחד ותוספות בצד השני. לכן כשאומרים ״דף ב׳ עמוד א׳״, כל לומד בעולם פותח בדיוק באותו מקום."
+     }
+    },
+    {
+     "id": "dafyomi",
+     "title_he": "אותו דף בכל העולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: Split warm scene: two study halls far apart, one with Jerusalem stone arches and one in a big modern city, men and boys with kippot learning from identical large open volumes at the same moment.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦",
+     "say": [
+      "איך נקבע שכל הגמרות בעולם יהיו באותם מספרי דפים? זה התחיל עוד קודם, בעיר ונציה שבאיטליה, לפני בערך חמש מאות שנה.",
+      "מדפיס בשם דניאל בומברג הדפיס שם את כל התלמוד הבבלי, וקבע את חלוקת הדפים. המדפיסים שבאו אחריו, וגם הש״ס של וילנא, שמרו על אותה חלוקה.",
+      "בזכות זה יכול היה הרב מאיר שפירא מלובלין להציע לפני בערך מאה שנה רעיון נפלא: הדף היומי. כל יהודי בעולם לומד אותו דף גמרא באותו יום.",
+      "יהודי מירושלים ויהודי מניו יורק, שלא נפגשו מעולם, יכולים לשבת ולדבר על אותו דף בדיוק. הדפוס הפך לגשר שמחבר את עם ישראל בכל מקום."
+     ],
+     "pasuk": {
+      "text": "וְכָל בָּנַיִךְ לִמּוּדֵי ה׳, וְרַב שְׁלוֹם בָּנָיִךְ",
+      "ref": "ישעיהו נד, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "haskama",
+     "title_he": "ההסכמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery.  Scene: An elderly rabbi with a white beard and black hat sits at a desk piled with books, signing a short letter with a quill while a respectful printer waits holding a new printed volume.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "עם הדפוס הגיעה גם אחריות. ספר מודפס מגיע לאלפי אנשים, ולכן חשוב מאוד שיהיה מדויק ונכון.",
+      "לכן נהגו המדפיסים לבקש מגדולי הרבנים ״הסכמה״: מכתב קצר בתחילת הספר, שבו הרב מעיד שהספר ראוי ללמוד בו.",
+      "בהסכמות רבות הוסיפו הרבנים גם אזהרה: אסור לאחרים להדפיס את אותו ספר במשך כמה שנים, כדי שהמדפיס שהשקיע את עמלו וכספו לא יפסיד. כך שמרו על יושר גם בעולם הספרים.",
+      "גם היום, כשאתם פותחים ספר קודש חדש, חפשו בעמודים הראשונים. כמעט תמיד תמצאו בו הסכמות של רבנים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "ארון הספרים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey through the history of inventions: ancient workshops and roads, a medieval Jewish home, Renaissance print shops, wooden sailing ships, 19th-century laboratories, early roads and skies, a modern Israeli home. Period-accurate clothing and objects, warm golden light, a feeling of wonder at discovery. Two curious Israeli siblings: a boy of about nine with a knitted kippah and tzitzit, and his sister of about eight with a braid, a long navy skirt and a sleeved blouse. Scene: A cozy Israeli living room with a tall bookcase full of Chumashim, siddurim and Talmud volumes; the two children each pull out a small book of their own, smiling.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "תסתכלו על ארון הספרים שבבית שלכם: חומשים, סידורים, משניות, גמרות וספרי הלכה. לפני שש מאות שנה, אפילו לרב גדול לא היו כל כך הרבה ספרים.",
+      "הדפוס הפך את לימוד התורה לנחלת כל אחד: כל ילד מחזיק חומש משלו, וכל אחד יכול לפתוח גמרא ולהצטרף ללימוד. תודה להשם על המתנה הזאת.",
+      "ויש לנו גם אחריות: לשמור על ספרי הקודש, לא לזרוק אותם, ולהחזיר כל ספר למקומו אחרי הלימוד. ספר קודש שבלה גונזים בכבוד.",
+      "שלמה המלך אמר: ״עשות ספרים הרבה אין קץ״. ובאמת, מאז הדפוס ספרי התורה ממשיכים להתרבות, וכל דור מוסיף עליהם חידושים ופירושים.",
+      "בשיעור הבא נצא אל הים הגדול, ונגלה איך המצפן עזר לספנים למצוא את הדרך."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-inf-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי המציא את הדפוס עם אותיות ממתכת?",
+   "answer": "יוהנס גוטנברג",
+   "options": [
+    "יוהנס גוטנברג",
+    "רש״י",
+    "משפחת ראם"
+   ],
+   "explain_he": "יוהנס גוטנברג, בעיר מגנצא שבגרמניה, יצק אותיות נפרדות ממתכת והדפיס בהן במכבש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי המציא את הדפוס עם אותיות ממתכת?",
+   "answer": "יוהנס גוטנברג",
+   "options": [
+    "יוהנס גוטנברג",
+    "רש״י",
+    "משפחת ראם"
+   ],
+   "explain_he": "יוהנס גוטנברג, בעיר מגנצא שבגרמניה, יצק אותיות נפרדות ממתכת והדפיס בהן במכבש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי המציא את הדפוס עם אותיות ממתכת?",
+   "answer": "יוהנס גוטנברג",
+   "options": [
+    "יוהנס גוטנברג",
+    "רש״י",
+    "משפחת ראם"
+   ],
+   "explain_he": "יוהנס גוטנברג, בעיר מגנצא שבגרמניה, יצק אותיות נפרדות ממתכת והדפיס בהן במכבש.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הספר העברי הראשון שהודפס ויש עליו תאריך?",
+   "answer": "פירוש רש״י על התורה",
+   "options": [
+    "פירוש רש״י על התורה",
+    "ספר תהלים",
+    "הש״ס של וילנא"
+   ],
+   "explain_he": "פירוש רש״י על התורה הודפס באיטליה, לפני יותר מחמש מאות וחמישים שנה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הספר העברי הראשון שהודפס ויש עליו תאריך?",
+   "answer": "פירוש רש״י על התורה",
+   "options": [
+    "פירוש רש״י על התורה",
+    "ספר תהלים",
+    "הש״ס של וילנא"
+   ],
+   "explain_he": "פירוש רש״י על התורה הודפס באיטליה, לפני יותר מחמש מאות וחמישים שנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה הספר העברי הראשון שהודפס ויש עליו תאריך?",
+   "answer": "פירוש רש״י על התורה",
+   "options": [
+    "פירוש רש״י על התורה",
+    "ספר תהלים",
+    "הש״ס של וילנא"
+   ],
+   "explain_he": "פירוש רש״י על התורה הודפס באיטליה, לפני יותר מחמש מאות וחמישים שנה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ספרים היו יקרים מאוד לפני הדפוס?",
+   "answer": "כי כל ספר נכתב ביד, וזה לקח חודשים",
+   "options": [
+    "כי כל ספר נכתב ביד, וזה לקח חודשים",
+    "כי הנייר היה עשוי מזהב",
+    "כי אסור היה למכור ספרים"
+   ],
+   "explain_he": "סופר עבד חודשים רבים על ספר אחד, ולכן ספרים היו נדירים ויקרים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ספרים היו יקרים מאוד לפני הדפוס?",
+   "answer": "כי כל ספר נכתב ביד, וזה לקח חודשים",
+   "options": [
+    "כי כל ספר נכתב ביד, וזה לקח חודשים",
+    "כי הנייר היה עשוי מזהב",
+    "כי אסור היה למכור ספרים"
+   ],
+   "explain_he": "סופר עבד חודשים רבים על ספר אחד, ולכן ספרים היו נדירים ויקרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ספרים היו יקרים מאוד לפני הדפוס?",
+   "answer": "כי כל ספר נכתב ביד, וזה לקח חודשים",
+   "options": [
+    "כי כל ספר נכתב ביד, וזה לקח חודשים",
+    "כי הנייר היה עשוי מזהב",
+    "כי אסור היה למכור ספרים"
+   ],
+   "explain_he": "סופר עבד חודשים רבים על ספר אחד, ולכן ספרים היו נדירים ויקרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המדפיסים השתמשו בכתב רש״י לפירוש?",
+   "answer": "כדי שיהיה קל להבחין בין הפסוק לבין הפירוש",
+   "options": [
+    "כדי שיהיה קל להבחין בין הפסוק לבין הפירוש",
+    "כי רש״י ביקש זאת",
+    "כי זה הכתב היחיד שהיה להם"
+   ],
+   "explain_he": "הפסוק מודפס באותיות מרובעות והפירוש בכתב רש״י, וכך רואים במבט אחד מה כל דבר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-inf-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המדפיסים השתמשו בכתב רש״י לפירוש?",
+   "answer": "כדי שיהיה קל להבחין בין הפסוק לבין הפירוש",
+   "options": [
+    "כדי שיהיה קל להבחין בין הפסוק לבין הפירוש",
+    "כי רש״י ביקש זאת",
+    "כי זה הכתב היחיד שהיה להם"
+   ],
+   "explain_he": "הפסוק מודפס באותיות מרובעות והפירוש בכתב רש״י, וכך רואים במבט אחד מה כל דבר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המדפיסים השתמשו בכתב רש״י לפירוש?",
+   "answer": "כדי שיהיה קל להבחין בין הפסוק לבין הפירוש",
+   "options": [
+    "כדי שיהיה קל להבחין בין הפסוק לבין הפירוש",
+    "כי רש״י ביקש זאת",
+    "כי זה הכתב היחיד שהיה להם"
+   ],
+   "explain_he": "הפסוק מודפס באותיות מרובעות והפירוש בכתב רש״י, וכך רואים במבט אחד מה כל דבר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f2e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היתרון של אותיות נפרדות ממתכת?",
+   "answer": "אפשר לסדר אותן מחדש לכל דף ולהדפיס שוב ושוב",
+   "options": [
+    "אפשר לסדר אותן מחדש לכל דף ולהדפיס שוב ושוב",
+    "הן לא צריכות דיו",
+    "הן כותבות לבד"
+   ],
+   "explain_he": "את האותיות מסדרים לשורות, מדפיסים מאות עותקים, ואחר כך מפרקים ומסדרים לדף הבא.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f2e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היתרון של אותיות נפרדות ממתכת?",
+   "answer": "אפשר לסדר אותן מחדש לכל דף ולהדפיס שוב ושוב",
+   "options": [
+    "אפשר לסדר אותן מחדש לכל דף ולהדפיס שוב ושוב",
+    "הן לא צריכות דיו",
+    "הן כותבות לבד"
+   ],
+   "explain_he": "את האותיות מסדרים לשורות, מדפיסים מאות עותקים, ואחר כך מפרקים ומסדרים לדף הבא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f2e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה עד היום רוב הגמרות מודפסות לפי הש״ס של וילנא?",
+   "answer": "כי הוא היה מדויק מאוד, עם פירושים רבים מסביב",
+   "options": [
+    "כי הוא היה מדויק מאוד, עם פירושים רבים מסביב",
+    "כי זה היה הספר הזול ביותר",
+    "כי הוא היחיד שנשאר בעולם"
+   ],
+   "explain_he": "משפחת ראם בדקה כל מילה מול כתבי יד והוסיפה פירושים רבים, ולכן הש״ס שלהם נשאר הבסיס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-inf-f2e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה עד היום רוב הגמרות מודפסות לפי הש״ס של וילנא?",
+   "answer": "כי הוא היה מדויק מאוד, עם פירושים רבים מסביב",
+   "options": [
+    "כי הוא היה מדויק מאוד, עם פירושים רבים מסביב",
+    "כי זה היה הספר הזול ביותר",
+    "כי הוא היחיד שנשאר בעולם"
+   ],
+   "explain_he": "משפחת ראם בדקה כל מילה מול כתבי יד והוסיפה פירושים רבים, ולכן הש״ס שלהם נשאר הבסיס.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f2e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה איפשר את רעיון הדף היומי?",
+   "answer": "שכל הגמרות בעולם מחולקות לאותם דפים",
+   "options": [
+    "שכל הגמרות בעולם מחולקות לאותם דפים",
+    "שכל היהודים גרו בעיר אחת",
+    "שהגמרא קצרה מאוד"
+   ],
+   "explain_he": "מאז הדפוס בוונציה, כל הגמרות שומרות על אותה חלוקת דפים, ולכן כולם יכולים ללמוד אותו דף ביום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f2e20"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זו ״הסכמה״ בתחילת ספר?",
+   "answer": "מכתב של רב שמעיד שהספר ראוי ללמוד בו",
+   "options": [
+    "מכתב של רב שמעיד שהספר ראוי ללמוד בו",
+    "רשימת המחירים של הספר",
+    "תוכן העניינים"
+   ],
+   "explain_he": "רבנים כתבו הסכמות כדי להעיד על הספר, ולעתים גם הגנו בהן על זכויות המדפיס.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-inf-f2e21"
+  }
+ ]
+}
