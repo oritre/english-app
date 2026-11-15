@@ -1,0 +1,160 @@
+{
+ "id": "p-vezot-haberacha",
+ "unit_id": "p-devarim",
+ "course": "devarim",
+ "title_he": "פרשת וזאת הברכה",
+ "exercises": [
+  {
+   "type": "video",
+   "title_he": "סיפור לשבת: רבי מרדכי מצ'רנוביל ופדיון שבויים",
+   "youtube": "Ts0uzmcCtGI",
+   "source_he": "סרטון: הידברות קידס",
+   "duration": 188,
+   "id": "p-vezot-haberachae1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי קוראים את וזאת הברכה?",
+   "answer": "בשמחת תורה",
+   "options": [
+    "בשמחת תורה",
+    "בפורים",
+    "בחנוכה"
+   ],
+   "explain_he": "מסיימים את התורה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "p-vezot-haberachae2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים בשמחת תורה?",
+   "answer": "רוקדים ושמחים עם התורה",
+   "options": [
+    "רוקדים ושמחים עם התורה",
+    "צמים",
+    "בוכים"
+   ],
+   "explain_he": "גם הילדים עולים לתורה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "p-vezot-haberachae3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אסף רבי מרדכי?",
+   "answer": "כסף לצדקה",
+   "options": [
+    "כסף לצדקה",
+    "אבנים",
+    "ספרים"
+   ],
+   "explain_he": "כדי להציל יהודים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "p-vezot-haberachae4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זה פדיון שבויים?",
+   "answer": "לשחרר יהודים שנכלאו בתשלום",
+   "options": [
+    "לשחרר יהודים שנכלאו בתשלום",
+    "לקנות בית",
+    "לבנות כלא"
+   ],
+   "explain_he": "מצווה גדולה מאוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "p-vezot-haberachae5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה רובל ביקש רבי מרדכי?",
+   "answer": "שמונה עשר, ח\"י",
+   "options": [
+    "שמונה עשר, ח\"י",
+    "אחד",
+    "אלף"
+   ],
+   "explain_he": "חי רובל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "p-vezot-haberachae6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה העשיר הקמצן?",
+   "answer": "עשה עצמו חולה כדי לא להיפגש",
+   "options": [
+    "עשה עצמו חולה כדי לא להיפגש",
+    "נתן הכל",
+    "ברח לים"
+   ],
+   "explain_he": "הוא פחד לתת כסף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "p-vezot-haberachae7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בנו של מי היה רבי מרדכי?",
+   "answer": "של רבי מנחם נחום מצ'רנוביל",
+   "options": [
+    "של רבי מנחם נחום מצ'רנוביל",
+    "של הרמב\"ם",
+    "של רש\"י"
+   ],
+   "explain_he": "מתלמידי הבעל שם טוב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "p-vezot-haberachae8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה פדיון שבויים כל כך חשוב?",
+   "answer": "כי זה הצלת חיים",
+   "options": [
+    "כי זה הצלת חיים",
+    "כי זה מנהג",
+    "כי זה קל"
+   ],
+   "explain_he": "מצווה רבה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "p-vezot-haberachae9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי עולה לתורה בשמחת תורה, לפי הסרטון?",
+   "answer": "גם ילדים מתחת לבר מצווה",
+   "options": [
+    "גם ילדים מתחת לבר מצווה",
+    "רק הרב",
+    "אף אחד"
+   ],
+   "explain_he": "כל הנערים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "p-vezot-haberachae10"
+  }
+ ]
+}
