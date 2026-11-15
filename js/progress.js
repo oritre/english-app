@@ -2,7 +2,7 @@ import { store, newId } from './db.js';
 import { localISO, addDays } from './dates.js';
 import { weekStart, weekEnd, buildBoard, nextTier, TIERS } from './league.js';
 import { computeStreak } from './streak.js';
-import { GUESSY_CAP } from './learnRules.js';
+import { GUESSY_CAP, masteredRepeats } from './learnRules.js';
 
 // Several learners can share one device. The chosen one is remembered per
 // device; storage can be blocked (private mode), so fall back to memory.
@@ -48,6 +48,12 @@ export async function lessonProgress(lessonId) {
 }
 
 // Best accuracy of every lesson the learner really did (not skipped by the placement test).
+// The learner's progress records by lesson id.
+export async function progressByLesson() {
+  const rows = await store.byIndex('progress', 'profile_id', currentId);
+  return Object.fromEntries(rows.map((r) => [r.lesson_id, r]));
+}
+
 export async function bestByLesson() {
   const rows = await store.byIndex('progress', 'profile_id', currentId);
   return Object.fromEntries(rows.filter((r) => r.status === 'done' && !r.skipped).map((r) => [r.lesson_id, Number(r.best_accuracy) || 0]));
@@ -104,6 +110,8 @@ export async function saveLessonResult({ lessonId, xp, accuracy, durationS, mist
     // A round of guesses never makes a lesson count as known (learnRules.guessyRound).
     best_accuracy: Math.max(guessy ? Math.min(accuracy, GUESSY_CAP) : accuracy, prev ? prev.best_accuracy : 0),
     times_done: (prev ? prev.times_done : 0) + 1,
+    // A mastered lesson may be repeated once (learnRules.repeatClosed).
+    mastered_repeats: masteredRepeats(prev) + (repeat === 'mastered' ? 1 : 0),
   });
 
   const dayKey = `${currentId}:${today}`;

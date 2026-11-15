@@ -57,7 +57,7 @@ async function init() {
 }
 
 // Profile fields only the weekly review (tools/coach.py) sets.
-export const COACH_FIELDS = ['coach', 'think_plan', 'know_plan', 'think_level', 'talk_focus'];
+export const COACH_FIELDS = ['coach', 'think_plan', 'know_plan', 'think_level', 'talk_focus', 'unlock_courses'];
 
 export async function mirrorWrite(storeName, record) {
   if (!SYNC_STORES.includes(storeName)) return;

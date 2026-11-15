@@ -2,8 +2,8 @@ import { el, en, mixed } from '../util.js';
 import { loadCourse, loadThink, loadKnow, loadParasha, lessonStates } from '../course.js';
 import { parashaOfWeek, hebrewShabbat } from '../parashaWeek.js';
 import { warmParasha } from '../parashaWarm.js';
-import { doneLessonIds, bestByLesson, stats, getProfile, settleLeagues, setCurrentProfile, updateProfile } from '../progress.js';
-import { WEAK, gradeFit } from '../learnRules.js';
+import { doneLessonIds, bestByLesson, progressByLesson, stats, getProfile, settleLeagues, setCurrentProfile, updateProfile } from '../progress.js';
+import { WEAK, gradeFit, courseOpen, repeatClosed } from '../learnRules.js';
 import { TIERS } from '../league.js';
 import { APP_VERSION } from '../version.js';
 import { COACH_LESSON, coachModules, moduleSubject } from '../coach.js';
@@ -26,6 +26,9 @@ export function topBar(s, profile, nav) {
 export async function renderPath(root, nav) {
   await settleLeagues();
   const [course, thinkData, know, parasha, done, best, s, profile] = await Promise.all([loadCourse(), loadThink(), loadKnow(), loadParasha(), doneLessonIds(), bestByLesson(), stats(), getProfile()]);
+  const prog = await progressByLesson();
+  // A mastered lesson that was already repeated once is closed (learnRules.repeatClosed).
+  const closed = (id) => repeatClosed(id, prog[id]);
   // A lesson done with a low score is marked for practice (redoing it earns XP again).
   const weak = (id) => best[id] != null && best[id] < WEAK;
   // Three subjects share the learner, the streak and the weekly coach: English,
@@ -39,7 +42,7 @@ export async function renderPath(root, nav) {
   const think = catalogs[subject] || thinkData;
   const courses = think.courses || [];
   const key = (k) => `${subject}_${k}`;
-  const openCourse = subject !== 'english' ? courses.find((c) => c.id === profile[key('course')]) : null;
+  const openCourse = subject !== 'english' ? courses.find((c) => c.id === profile[key('course')] && courseOpen(c, profile, subject)) : null;
   const states = subject === 'english' ? lessonStates(course, done, { starter: !!profile.starter })
     : openCourse ? lessonStates(openCourse, done, { skipUnits: subject === 'think' ? skipUnits(openCourse, profile) : 0 }) : {};
   const titles = { ...(course.lesson_titles || {}), ...(thinkData.lesson_titles || {}), ...(know.lesson_titles || {}), ...(parasha.lesson_titles || {}) };
@@ -67,9 +70,9 @@ export async function renderPath(root, nav) {
       el('span', { class: 'lesson-sheet-icon' }, state === 'done' ? (weak(id) ? '↻' : '✓') : '★'),
       el('span', { class: 'lesson-sheet-text' },
         el('span', { class: 'lesson-sheet-kicker' }, state !== 'done' ? 'השיעור הבא שלך'
-          : weak(id) ? `כדאי לחזק · קיבלת ${best[id]}%` : best[id] >= 90 ? 'כבר שולט בזה · חזרה בלי XP' : 'שיעור שסיימת · אפשר לחזור עליו'),
+          : weak(id) ? `כדאי לחזק · קיבלת ${best[id]}%` : closed(id) ? 'כבר שולט בזה וחזרת עליו · השיעור הבא מחכה' : best[id] >= 90 ? 'כבר שולט בזה · אפשר לחזור פעם אחת, בלי XP' : 'שיעור שסיימת · אפשר לחזור עליו'),
         el('span', { class: 'lesson-sheet-title' }, ...mixed(titles[id] || ''))),
-      el('button', { class: 'btn primary', type: 'button', onclick: go }, state === 'done' ? 'שוב' : 'התחלה'));
+      closed(id) ? null : el('button', { class: 'btn primary', type: 'button', onclick: go }, state === 'done' ? 'שוב' : 'התחלה'));
     sheet.hidden = false;
     screenEl?.classList.add('has-sheet');
   };
@@ -81,8 +84,8 @@ export async function renderPath(root, nav) {
       const label = isWeak ? '↻' : state === 'done' ? '✓' : state === 'locked' ? '🔒' : state === 'bonus' && kind === 'think' ? '▶' : '★';
       const node = el('button', {
         class: `node ${state}${isWeak ? ' weak' : ''}`, type: 'button', style: `transform: translateX(${offset}px)`,
-        disabled: state === 'locked', 'aria-label': titles[id] || id,
-        title: state === 'locked' ? 'נפתח כשמסיימים את השיעור שלפניו' : isWeak ? `כדאי לחזק: ${best[id]}%` : null,
+        disabled: state === 'locked' || (kind !== 'think' && closed(id)), 'aria-label': titles[id] || id,
+        title: state === 'locked' ? 'נפתח כשמסיימים את השיעור שלפניו' : closed(id) ? 'כבר שולט בזה וחזרת עליו. השיעור הבא מחכה' : isWeak ? `כדאי לחזק: ${best[id]}%` : null,
       }, label);
       node.addEventListener('click', () => (kind === 'think' ? selectLesson(id) : nav('lesson', { lessonId: id })));
       const row = el('div', { class: 'node-row' },
@@ -186,7 +189,7 @@ export async function renderPath(root, nav) {
         : state === 'started' ? `${n} מתוך ${ids.length} · הבא: ${titles[next] || ''}` : `${ids.length} שיעורים`));
   };
   // "Continue where you left off": the last course the learner opened, if it still has lessons.
-  const lastCourse = courses.find((c) => c.id === profile[key('last')] && progressOf(c).next);
+  const lastCourse = courses.find((c) => c.id === profile[key('last')] && progressOf(c).next && courseOpen(c, profile, subject));
   const hero = lastCourse ? (() => {
     const { n, ids, pct, next } = progressOf(lastCourse);
     return el('section', { class: 'continue-card', style: `--course: ${lastCourse.color}` },
@@ -217,8 +220,10 @@ export async function renderPath(root, nav) {
   const started = (c) => progressOf(c).n > 0 && progressOf(c).next;
   const fit = (c) => gradeFit(c, grade);
   const others = courses.filter((c) => !picks.includes(c));
-  const rest = others.filter((c) => fit(c) === 'fit' || started(c));
-  const above = others.filter((c) => fit(c) === 'above' && !started(c));
+  // Nothing above the learner's grade, unless the weekly review opened it.
+  const open = (c) => courseOpen(c, profile, subject);
+  const rest = others.filter((c) => open(c) && (fit(c) === 'fit' || started(c)));
+  const above = others.filter((c) => open(c) && fit(c) === 'above' && !started(c));
   const below = others.filter((c) => fit(c) === 'below' && !started(c));
   const fold = (title, note, list) => (list.length ? el('details', { class: 'course-fold' },
     el('summary', {}, title, el('span', { class: 'area-count' }, String(list.length))),
@@ -246,7 +251,7 @@ export async function renderPath(root, nav) {
         el('h2', {}, titles[week.lesson] || ''),
         el('p', {}, parasha.about?.[week.lesson] || ''))),
     el('div', { class: 'continue-actions' },
-      el('button', { class: 'btn continue-go', type: 'button', onclick: () => startLesson(weekCourse, week.lesson) }, done.includes(week.lesson) ? 'לצפות שוב' : '▶ לסרט ולשאלות'))) : null;
+      el('button', { class: 'btn continue-go', type: 'button', disabled: closed(week.lesson), onclick: () => startLesson(weekCourse, week.lesson) }, closed(week.lesson) ? '✓ כבר צפית ושלטת' : done.includes(week.lesson) ? 'לצפות שוב' : '▶ לסרט ולשאלות'))) : null;
   const catalog = subject !== 'english' && !openCourse ? el('section', { class: 'catalog' },
     weekHero,
     weekHero ? null : hero,
@@ -255,7 +260,7 @@ export async function renderPath(root, nav) {
     recommended ? el('h2', { class: 'catalog-title' }, 'עוד נושאים') : null,
     ...areas.map((a) => group(a.title_he, a.icon, rest.filter((c) => c.area === a.id))),
     ungrouped.length ? group('עוד', '✨', ungrouped) : null,
-    fold('🚀 לכיתות גבוהות יותר', 'נושאים שבדרך כלל לומדים בכיתות גבוהות. אפשר לנסות, אבל כדאי קודם את מה שמתאים לכיתה שלך.', above),
+    fold('🚀 נפתחו בשבילך', 'נושאים של כיתות גבוהות יותר שנפתחו בשבילך, כי אתה כבר מוכן אליהם.', above),
     fold('🔙 קל לכיתה שלך', 'נושאים של כיתות נמוכות יותר. טובים לחזרה, אבל הם כנראה כבר קלים לך.', below)) : null;
   const courseView = openCourse ? (() => {
     const { n, ids, pct, next } = progressOf(openCourse);

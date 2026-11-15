@@ -681,3 +681,23 @@ test('20-minute round: a subject closes after its minutes until the others had t
   assert.equal(r.rounds, 1);
   assert.ok(guessyRound(3, 20) && guessyRound(2, 6) && !guessyRound(2, 12) && !guessyRound(1, 2));
 });
+
+test('nothing above the grade unless opened, and one repeat of a mastered lesson', async () => {
+  const L = await import('../js/learnRules.js');
+  const c = { id: 'fractions', grades: [3, 5] };
+  assert.equal(L.courseOpen(c, { grade: 1 }, 'think'), false);
+  assert.equal(L.courseOpen(c, { grade: 2 }, 'think'), false);
+  assert.equal(L.courseOpen(c, { grade: 3 }, 'think'), true);
+  assert.equal(L.courseOpen(c, { grade: 1, unlock_courses: ['think:fractions'] }, 'think'), true);
+  assert.equal(L.courseOpen(c, { grade: 1, unlock_courses: ['know:fractions'] }, 'think'), false);
+  assert.equal(L.courseOpen(c, { grade: 1, think_plan: { courses: ['fractions'] } }, 'think'), true);
+  assert.equal(L.courseOpen(c, { grade: 13 }, 'think'), true);
+  const done = (best, times, mr) => ({ status: 'done', best_accuracy: best, times_done: times, ...(mr != null ? { mastered_repeats: mr } : {}) });
+  assert.equal(L.repeatClosed('s1l1', done(100, 1)), false);
+  assert.equal(L.repeatClosed('s1l1', done(100, 2, 1)), true);
+  assert.equal(L.repeatClosed('s1l1', done(100, 18)), true);
+  assert.equal(L.repeatClosed('s1l1', done(50, 18)), false);
+  assert.equal(L.repeatClosed('tp-times', done(100, 9, 5)), false);
+  assert.equal(L.subjectOfLesson('k-ani-v1'), 'know');
+  assert.equal(L.subjectOfLesson('tp-times'), 'think');
+});
