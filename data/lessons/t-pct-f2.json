@@ -1,0 +1,81 @@
+{
+ "id": "t-pct-f2",
+ "unit_id": "t-pct-u1",
+ "course": "percents",
+ "title_he": "חישוב אחוזים מהר",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "הטריק של 10%",
+   "body_he": [
+    "10% זה לחלק ב-10. מזה בונים: 5% הם חצי מ-10%, ו-15% הם 10% ועוד 5%.",
+    "ו-1% זה לחלק ב-100."
+   ],
+   "say_he": "הטריק של 10% 10% זה לחלק ב-10. מזה בונים: 5% הם חצי מ-10%, ו-15% הם 10% ועוד 5%. ו-1% זה לחלק ב-100.",
+   "id": "t-pct-f2e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "10% מ-340?",
+   "answer": "34",
+   "explain_he": "340 : 10 = 34.",
+   "id": "t-pct-f2e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "5% מ-340?",
+   "answer": "17",
+   "explain_he": "חצי מ-10%: חצי מ-34 = 17.",
+   "id": "t-pct-f2e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "15% מ-80?",
+   "answer": "12",
+   "explain_he": "10% הם 8, 5% הם 4. ביחד 12.",
+   "id": "t-pct-f2e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "1% מ-2,500?",
+   "answer": "25",
+   "explain_he": "2,500 : 100 = 25.",
+   "id": "t-pct-f2e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "35% מ-60?",
+   "answer": "21",
+   "explain_he": "10% הם 6, אז 30% הם 18, ו-5% הם 3. ביחד 21.",
+   "id": "t-pct-f2e6"
+  },
+  {
+   "type": "number",
+   "prompt_he": "18% מ-50? (רמז: אפשר להפוך את הסדר)",
+   "answer": "9",
+   "explain_he": "18% מ-50 שווה ל-50% מ-18, שזה חצי מ-18: 9.",
+   "hint_he": "מה זה 50% מ-18?",
+   "id": "t-pct-f2e7"
+  },
+  {
+   "type": "number",
+   "prompt_he": "8% מ-25?",
+   "answer": "2",
+   "explain_he": "8% מ-25 = 25% מ-8 = רבע מ-8 = 2.",
+   "id": "t-pct-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גדול יותר?",
+   "answer": "שניהם שווים",
+   "options": [
+    "30% מ-90",
+    "90% מ-30",
+    "שניהם שווים"
+   ],
+   "explain_he": "30% מ-90 = 27, וגם 90% מ-30 = 27. תמיד a% מ-b שווה ל-b% מ-a!",
+   "keep_order": true,
+   "id": "t-pct-f2e9"
+  }
+ ]
+}

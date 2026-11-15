@@ -1,0 +1,115 @@
+{
+ "id": "t-py-f9",
+ "unit_id": "t-py-u5",
+ "course": "python",
+ "title_he": "אתגר: לולאות בתוך לולאות ורקורסיה",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "לולאה בתוך לולאה",
+   "body_he": [
+    "כשיש לולאה בתוך לולאה, הפנימית רצה עד הסוף בכל סיבוב של החיצונית.",
+    "רקורסיה: פונקציה שקוראת לעצמה עם בעיה קטנה יותר, עד שמגיעים למקרה פשוט שעוצר."
+   ],
+   "say_he": "לולאה בתוך לולאה כשיש לולאה בתוך לולאה, הפנימית רצה עד הסוף בכל סיבוב של החיצונית. רקורסיה: פונקציה שקוראת לעצמה עם בעיה קטנה יותר, עד שמגיעים למקרה פשוט שעוצר.",
+   "id": "t-py-f9e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה פעמים יודפס ⭐?",
+   "answer": "12",
+   "explain_he": "בכל אחד מ-3 הסיבובים החיצוניים, הפנימית רצה 4 פעמים: 3 × 4 = 12.",
+   "visual": "for i in range(3):\n    for j in range(4):\n        print(\"⭐\")",
+   "code": true,
+   "id": "t-py-f9e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "10",
+   "explain_he": "הפנימית רצה i פעמים: 0 + 1 + 2 + 3 + 4 = 10.",
+   "hint_he": "כמה פעמים רצה הפנימית כש-i = 0? ו-i = 1?",
+   "visual": "count = 0\nfor i in range(5):\n    for j in range(i):\n        count += 1\nprint(count)",
+   "code": true,
+   "id": "t-py-f9e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "120",
+   "explain_he": "fact(5) = 5 × fact(4) = 5 × 4 × 3 × 2 × 1 = 120. המקרה n == 1 עוצר את הרקורסיה.",
+   "visual": "def fact(n):\n    if n == 1:\n        return 1\n    return n * fact(n - 1)\n\nprint(fact(5))",
+   "code": true,
+   "id": "t-py-f9e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "18",
+   "explain_he": "זה סכום ספרות ברקורסיה: 1 + f(908) = 1 + 8 + f(90) = 1 + 8 + 0 + f(9) = 1 + 8 + 0 + 9 = 18.",
+   "visual": "def f(n):\n    if n == 0:\n        return 0\n    return n % 10 + f(n // 10)\n\nprint(f(9081))",
+   "code": true,
+   "id": "t-py-f9e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "[1, 9, 25]",
+   "options": [
+    "[1, 9, 25]",
+    "[1, 4, 9, 16, 25]",
+    "[4, 16]",
+    "[1, 3, 5]"
+   ],
+   "explain_he": "זו \"רשימה מקוצרת\": לוקחים רק אי-זוגיים 1, 3, 5, ומעלים בריבוע: 1, 9, 25.",
+   "visual": "print([x * x for x in range(1, 6) if x % 2 == 1])",
+   "code": true,
+   "id": "t-py-f9e6"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "8",
+   "explain_he": "g(0) = g(1) = 1, וכל ערך הוא סכום שני הקודמים: g(2) = 2, g(3) = 3, g(4) = 5, g(5) = 8.",
+   "hint_he": "חשבו מלמטה למעלה: g(2), g(3)...",
+   "visual": "def g(n):\n    if n <= 1:\n        return 1\n    return g(n - 1) + g(n - 2)\n\nprint(g(5))",
+   "code": true,
+   "id": "t-py-f9e7"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "15",
+   "explain_he": "grid[i][i] הוא האלכסון: grid[0][0] = 1, grid[1][1] = 5, grid[2][2] = 9. הסכום 15.",
+   "hint_he": "grid[1] היא השורה [4, 5, 6]",
+   "visual": "grid = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\ns = 0\nfor i in range(3):\n    s += grid[i][i]\nprint(s)",
+   "code": true,
+   "id": "t-py-f9e8"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "6",
+   "explain_he": "הקוד עובר על כל 36 התוצאות של שתי קוביות וסופר זוגות שסכומם 7: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1).",
+   "visual": "pairs = 0\nfor a in range(1, 7):\n    for b in range(1, 7):\n        if a + b == 7:\n            pairs += 1\nprint(pairs)",
+   "code": true,
+   "id": "t-py-f9e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "True False",
+   "options": [
+    "True False",
+    "False True",
+    "True True",
+    "False False"
+   ],
+   "explain_he": "הפונקציה משווה את התו הראשון לאחרון, ושוב על החלק הפנימי. racecar נקרא אותו דבר משני הכיוונים (פלינדרום), abca לא.",
+   "hint_he": "מה הפונקציה בודקת בכל שלב?",
+   "visual": "def mystery(s):\n    if len(s) <= 1:\n        return True\n    if s[0] != s[-1]:\n        return False\n    return mystery(s[1:-1])\n\nprint(mystery(\"racecar\"), mystery(\"abca\"))",
+   "code": true,
+   "id": "t-py-f9e10"
+  }
+ ]
+}

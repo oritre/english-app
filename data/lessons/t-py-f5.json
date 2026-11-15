@@ -1,0 +1,126 @@
+{
+ "id": "t-py-f5",
+ "unit_id": "t-py-u4",
+ "course": "python",
+ "title_he": "רשימות לעומק",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "רשימה שמשתנה",
+   "body_he": [
+    "nums.append(5) מוסיפה את 5 לסוף הרשימה.",
+    "nums[-1] הוא האיבר האחרון, ו-nums[1:3] חותך כמו במחרוזת.",
+    "max, min, sum, len ו-sorted עובדות על כל רשימה של מספרים."
+   ],
+   "say_he": "רשימה שמשתנה nums.append(5) מוסיפה את 5 לסוף הרשימה. nums[-1] הוא האיבר האחרון, ו-nums[1:3] חותך כמו במחרוזת. max, min, sum, len ו-sorted עובדות על כל רשימה של מספרים.",
+   "id": "t-py-f5e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "4",
+   "explain_he": "הוספנו איבר רביעי, אז האורך 4.",
+   "visual": "nums = [3, 8, 1]\nnums.append(6)\nprint(len(nums))",
+   "code": true,
+   "id": "t-py-f5e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "1",
+   "explain_he": "-1 הוא 6 (האחרון), ו-2- הוא זה שלפניו: 1.",
+   "hint_he": "ספרו מהסוף",
+   "visual": "nums = [3, 8, 1, 6]\nprint(nums[-2])",
+   "code": true,
+   "id": "t-py-f5e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "7",
+   "explain_he": "הגדול 8 והקטן 1: 8 - 1 = 7.",
+   "visual": "nums = [3, 8, 1, 6]\nprint(max(nums) - min(nums))",
+   "code": true,
+   "id": "t-py-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "[1, 3, 6, 8]",
+   "options": [
+    "[1, 3, 6, 8]",
+    "[8, 6, 3, 1]",
+    "[3, 8, 1, 6]",
+    "1 3 6 8"
+   ],
+   "explain_he": "sorted מחזירה רשימה חדשה ממוינת מהקטן לגדול.",
+   "visual": "nums = [3, 8, 1, 6]\nprint(sorted(nums))",
+   "code": true,
+   "id": "t-py-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "[20, 30, 40]",
+   "options": [
+    "[20, 30, 40]",
+    "[10, 20, 30, 40]",
+    "[20, 30, 40, 50]",
+    "[30, 40]"
+   ],
+   "explain_he": "מקומות 1, 2, 3 (לא כולל 4): 20, 30, 40.",
+   "visual": "nums = [10, 20, 30, 40, 50]\nprint(nums[1:4])",
+   "code": true,
+   "id": "t-py-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "[9, 7]",
+   "options": [
+    "[9, 7]",
+    "[7, 9]",
+    "[4, 2]",
+    "[9]"
+   ],
+   "explain_he": "עוברים על כל מספר, ומוסיפים לרשימה החדשה רק את הגדולים מ-5: 9 ו-7, לפי הסדר.",
+   "visual": "nums = [4, 9, 2, 7]\nbig = []\nfor n in nums:\n    if n > 5:\n        big.append(n)\nprint(big)",
+   "code": true,
+   "id": "t-py-f5e7"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "4",
+   "explain_he": "מפתיע! b = a לא מעתיק את הרשימה: a ו-b הם שני שמות לאותה רשימה. הוספה דרך b משנה גם את a.",
+   "hint_he": "האם b היא רשימה חדשה או אותה רשימה?",
+   "visual": "a = [1, 2, 3]\nb = a\nb.append(4)\nprint(len(a))",
+   "code": true,
+   "id": "t-py-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "3 1",
+   "options": [
+    "3 1",
+    "3 2",
+    "1 3",
+    "5 3"
+   ],
+   "explain_he": "count(5) סופר שלוש פעמים 5. index(3) מחזיר את המקום של 3: מקום 1.",
+   "visual": "nums = [5, 3, 5, 1, 5]\nprint(nums.count(5), nums.index(3))",
+   "code": true,
+   "id": "t-py-f5e9"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "79",
+   "explain_he": "הסכום 72 + 95 + 88 + 64 = 319. מחלקים ב-4 בחילוק שלם: 319 // 4 = 79 (הממוצע המדויק 79.75).",
+   "visual": "scores = [72, 95, 88, 64]\ntotal = 0\nfor s in scores:\n    total += s\nprint(total // len(scores))",
+   "code": true,
+   "id": "t-py-f5e10"
+  }
+ ]
+}

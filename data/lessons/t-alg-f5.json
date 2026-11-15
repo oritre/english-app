@@ -1,0 +1,111 @@
+{
+ "id": "t-alg-f5",
+ "unit_id": "t-alg-u2",
+ "course": "algebra",
+ "title_he": "משוואות בשני צעדים",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מפשיטים את x",
+   "body_he": [
+    "ב-2x + 3 = 11 (2x פירושו 2 × x) מורידים קודם 3 משני הצדדים: 2x = 8.",
+    "אחר כך מחלקים ב-2: x = 4.",
+    "תמיד בודקים: 2 × 4 + 3 = 11. נכון!"
+   ],
+   "say_he": "מפשיטים את x ב-2x + 3 = 11 (2x פירושו 2 × x) מורידים קודם 3 משני הצדדים: 2x = 8. אחר כך מחלקים ב-2: x = 4. תמיד בודקים: 2 × 4 + 3 = 11. נכון!",
+   "id": "t-alg-f5e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה x?",
+   "answer": "18",
+   "explain_he": "מורידים 12 משני הצדדים: x = 30 − 12 = 18.",
+   "visual": "x + 12 = 30",
+   "before": "x =",
+   "id": "t-alg-f5e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה x?",
+   "answer": "9",
+   "explain_he": "מחלקים ב-4: x = 36 : 4 = 9.",
+   "visual": "4x = 36",
+   "before": "x =",
+   "id": "t-alg-f5e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה x?",
+   "answer": "6",
+   "explain_he": "מוסיפים 4: 3x = 18. מחלקים ב-3: x = 6.",
+   "hint_he": "בטלו את ה-4 קודם",
+   "visual": "3x − 4 = 14",
+   "before": "x =",
+   "id": "t-alg-f5e4"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה x?",
+   "answer": "14",
+   "explain_he": "כופלים ב-2: x = 14.",
+   "hint_he": "מה מבטל חילוק ב-2?",
+   "visual": "x : 2 = 7",
+   "before": "x =",
+   "id": "t-alg-f5e5"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה x?",
+   "answer": "7",
+   "explain_he": "מורידים 5: 5x = 35. מחלקים ב-5: x = 7.",
+   "visual": "5x + 5 = 40",
+   "before": "x =",
+   "id": "t-alg-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה x פותר את המשוואה 3x + 2 = 20?",
+   "answer": "6",
+   "options": [
+    "5",
+    "6",
+    "7",
+    "18"
+   ],
+   "explain_he": "3 × 6 + 2 = 20. נכון!",
+   "hint_he": "נסו להציב כל אחת מהתשובות",
+   "keep_order": true,
+   "id": "t-alg-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "רעי פתר 2x + 6 = 20 וקיבל x = 13. האם צדק?",
+   "answer": "לא, x = 7",
+   "options": [
+    "לא, x = 7",
+    "כן",
+    "לא, x = 14"
+   ],
+   "explain_he": "בדיקה: 2 × 13 + 6 = 32, לא 20. נכון: 2x = 14, x = 7. נראה שהוא שכח לחלק ב-2.",
+   "id": "t-alg-f5e8"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה x?",
+   "answer": "5",
+   "explain_he": "מחסרים 6: 2x = 10, ואז x = 5.",
+   "visual": "2x + 6 = 16",
+   "before": "x =",
+   "id": "t-alg-f5e9"
+  },
+  {
+   "type": "number",
+   "prompt_he": "אתגר: מה x?",
+   "answer": "12",
+   "explain_he": "מורידים 5: x : 3 = 4. כופלים ב-3: x = 12.",
+   "visual": "x : 3 + 5 = 9",
+   "before": "x =",
+   "id": "t-alg-f5e10"
+  }
+ ]
+}

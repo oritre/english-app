@@ -1,0 +1,143 @@
+{
+ "id": "t-py-f3",
+ "unit_id": "t-py-u3",
+ "course": "python",
+ "title_he": "מחרוזות",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "מחרוזת היא רצף של תווים",
+   "body_he": [
+    "מחרוזת כותבים בין מרכאות: \"shalom\".",
+    "כמו ברשימה, לכל תו יש מקום שמתחיל מ-0: word[0] הוא התו הראשון, ו-word[-1] האחרון.",
+    "len(word) מחזיר כמה תווים יש, ו-word[1:4] חותך את התווים במקומות 1, 2, 3."
+   ],
+   "say_he": "מחרוזת היא רצף של תווים מחרוזת כותבים בין מרכאות: \"shalom\". כמו ברשימה, לכל תו יש מקום שמתחיל מ-0: word[0] הוא התו הראשון, ו-word[-1] האחרון. len(word) מחזיר כמה תווים יש, ו-word[1:4] חותך את התווים במקומות 1, 2, 3.",
+   "id": "t-py-f3e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה יודפס?",
+   "answer": "6",
+   "explain_he": "ב-shalom יש 6 אותיות: s-h-a-l-o-m.",
+   "visual": "word = \"shalom\"\nprint(len(word))",
+   "code": true,
+   "id": "t-py-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "s",
+   "options": [
+    "s",
+    "h",
+    "m",
+    "shalom"
+   ],
+   "explain_he": "המקום הראשון הוא 0, ושם נמצא s.",
+   "hint_he": "הספירה מתחילה מ-0",
+   "visual": "word = \"shalom\"\nprint(word[0])",
+   "code": true,
+   "id": "t-py-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "m",
+   "options": [
+    "m",
+    "s",
+    "o",
+    "שגיאה"
+   ],
+   "explain_he": "אינדקס -1 הוא התו האחרון: m.",
+   "visual": "word = \"shalom\"\nprint(word[-1])",
+   "code": true,
+   "id": "t-py-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "hal",
+   "options": [
+    "hal",
+    "hall",
+    "sha",
+    "halo"
+   ],
+   "explain_he": "חותכים מהמקום 1 עד המקום 4, לא כולל 4: מקומות 1, 2, 3, כלומר h, a, l.",
+   "hint_he": "המספר השני בחיתוך לא נכלל",
+   "visual": "word = \"shalom\"\nprint(word[1:4])",
+   "code": true,
+   "id": "t-py-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "ababab!",
+   "options": [
+    "ababab!",
+    "ab3!",
+    "ab!ab!ab!",
+    "שגיאה"
+   ],
+   "explain_he": "כפל מחרוזת במספר חוזר עליה: ababab, ו-+ מחבר: ababab!.",
+   "visual": "a = \"ab\"\nprint(a * 3 + \"!\")",
+   "code": true,
+   "id": "t-py-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "JERUSALEM",
+   "options": [
+    "JERUSALEM",
+    "Jerusalem",
+    "jerusalem",
+    "J"
+   ],
+   "explain_he": "upper() הופכת את כל האותיות לגדולות.",
+   "visual": "city = \"jerusalem\"\nprint(city.upper())",
+   "code": true,
+   "id": "t-py-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "True",
+   "options": [
+    "True",
+    "False"
+   ],
+   "explain_he": "in בודקת אם מחרוזת אחת מופיעה בתוך השנייה. jerusalem מכילה rus.",
+   "visual": "print(\"rus\" in \"jerusalem\")",
+   "code": true,
+   "id": "t-py-f3e8"
+  },
+  {
+   "type": "number",
+   "prompt_he": "כמה פעמים מופיעה האות a?",
+   "answer": "3",
+   "explain_he": "הלולאה עוברת על כל תו: b-a-n-a-n-a. שלוש פעמים התו הוא a.",
+   "visual": "name = \"banana\"\ncount = 0\nfor ch in name:\n    if ch == \"a\":\n        count += 1\nprint(count)",
+   "code": true,
+   "id": "t-py-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה יודפס?",
+   "answer": "nohtyp",
+   "options": [
+    "nohtyp",
+    "python",
+    "p",
+    "pytho"
+   ],
+   "explain_he": "החיתוך [::-1] הולך מהסוף להתחלה בקפיצות של 1 אחורה, כלומר הופך את המחרוזת.",
+   "hint_he": "צעד -1 פירושו ללכת אחורה",
+   "visual": "w = \"python\"\nprint(w[::-1])",
+   "code": true,
+   "id": "t-py-f3e10"
+  }
+ ]
+}

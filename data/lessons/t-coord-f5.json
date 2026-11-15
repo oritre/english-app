@@ -1,0 +1,133 @@
+{
+ "id": "t-coord-f5",
+ "unit_id": "t-coord-u2",
+ "course": "coordinates",
+ "title_he": "שיפוע: כמה תלול?",
+ "exercises": [
+  {
+   "type": "teach",
+   "title_he": "שיפוע",
+   "body_he": [
+    "השיפוע אומר בכמה עולה y כשמתקדמים צעד אחד ימינה.",
+    "בקו y = 3x + 2 השיפוע הוא 3. שיפוע שלילי: הקו יורד."
+   ],
+   "say_he": "שיפוע השיפוע אומר בכמה עולה y כשמתקדמים צעד אחד ימינה. בקו y = 3x + 2 השיפוע הוא 3. שיפוע שלילי: הקו יורד.",
+   "id": "t-coord-f5e1"
+  },
+  {
+   "type": "number",
+   "prompt_he": "מה השיפוע של הקו ⁦y = 4x − 1⁩?",
+   "answer": "4",
+   "explain_he": "המספר שכופל את x הוא השיפוע.",
+   "id": "t-coord-f5e2"
+  },
+  {
+   "type": "number",
+   "prompt_he": "קו עובר דרך (0, 1) ו-(2, 7). מה השיפוע?",
+   "answer": "3",
+   "explain_he": "y עלה 6 כש-x עלה 2: 6 : 2 = 3.",
+   "id": "t-coord-f5e3"
+  },
+  {
+   "type": "number",
+   "prompt_he": "קו עובר דרך (1, 8) ו-(3, 2). מה השיפוע?",
+   "answer": "-3",
+   "explain_he": "y ירד 6 כש-x עלה ⁦2: −6 : 2 = −3⁩.",
+   "negative": true,
+   "id": "t-coord-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לאיזה קו שיפוע שלילי?",
+   "answer": "y = −2x + 5",
+   "options": [
+    "y = −2x + 5",
+    "y = 2x − 5",
+    "y = x",
+    "y = 5"
+   ],
+   "explain_he": "המקדם של x הוא ⁦−2⁩.",
+   "id": "t-coord-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה השיפוע של הקו y = 5?",
+   "answer": "0",
+   "options": [
+    "0",
+    "5",
+    "1",
+    "אין לו שיפוע"
+   ],
+   "explain_he": "הקו אופקי: y לא משתנה כש-x גדל.",
+   "id": "t-coord-f5e6"
+  },
+  {
+   "type": "buckets",
+   "prompt_he": "עולה, יורד או אופקי?",
+   "buckets": [
+    {
+     "id": "up",
+     "label": "עולה"
+    },
+    {
+     "id": "down",
+     "label": "יורד"
+    },
+    {
+     "id": "flat",
+     "label": "אופקי"
+    }
+   ],
+   "items": [
+    {
+     "label": "y = 2x",
+     "in": "up"
+    },
+    {
+     "label": "y = −x + 1",
+     "in": "down"
+    },
+    {
+     "label": "y = 7",
+     "in": "flat"
+    },
+    {
+     "label": "y = 0.5x − 3",
+     "in": "up"
+    },
+    {
+     "label": "y = −3x",
+     "in": "down"
+    }
+   ],
+   "explain_he": "שיפוע חיובי עולה, שלילי יורד, ו-0 אופקי.",
+   "id": "t-coord-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הקו y = 2x + 3 חותך את ציר ה-y בנקודה...",
+   "answer": "(0, 3)",
+   "options": [
+    "(0, 3)",
+    "(3, 0)",
+    "(0, 2)",
+    "(2, 3)"
+   ],
+   "explain_he": "על ציר ה-y x = 0, ואז y = 3.",
+   "id": "t-coord-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "אילו שני קווים מקבילים?",
+   "answer": "y = 2x + 1 ו-⁦y = 2x − 4⁩",
+   "options": [
+    "y = 2x + 1 ו-⁦y = 2x − 4⁩",
+    "y = 2x + 1 ו-y = x + 1",
+    "y = 3x ו-⁦y = −3x⁩"
+   ],
+   "explain_he": "לקווים מקבילים אותו שיפוע.",
+   "id": "t-coord-f5e9"
+  }
+ ]
+}
