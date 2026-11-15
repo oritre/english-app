@@ -1,0 +1,610 @@
+{
+ "id": "k-lff-f5",
+ "unit_id": "k-lff-u3",
+ "course": "life",
+ "title_he": "כסף בחיי היום יום",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "כסף בחיי היום יום",
+   "ref_he": "ידע לחיים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "במכולת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A small neighborhood grocery shop with shelves of bread, milk and fruit; the girl holds a few coins in her open palm at the counter, a friendly elderly shopkeeper with a kippah smiles at her.",
+     "move": "in",
+     "fx": "light",
+     "art": "👧 👴",
+     "say": [
+      "אמא שלחה את תמר למכולת, לקנות מחברת חדשה.",
+      "תמר מחזיקה ביד כמה מטבעות. אבל כמה כסף יש לה? ומה אפשר לקנות?",
+      "היום נלמד על כסף: איך משלמים, איך חוסכים, ואיך נותנים צדקה.",
+      "תמר רוצה לדעת. בואו נעזור לה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מטבעות ושטרות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: Israeli coins and banknotes spread on a wooden table: small copper-colored and silver coins, a larger gold-and-silver coin, and colorful paper banknotes in green, purple, blue and red. No readable text.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🏠",
+     "say": [
+      "בישראל הכסף נקרא שקל. יש מטבעות, ויש שטרות מנייר.",
+      "יש מטבע של שקל אחד, שני שקלים, חמישה שקלים ועשרה שקלים.",
+      "ויש מטבעות קטנים של אגורות. מאה אגורות הן שקל אחד.",
+      "והשטרות? עשרים, חמישים, מאה ומאתיים שקלים. כל שטר בצבע אחר.",
+      "המטבע של עשרה שקלים הוא בשני צבעים: זהב וכסף."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המילה \"שקל\" מופיעה כבר בתורה: אברהם אבינו שילם ארבע מאות שקל כסף על מערת המכפלה."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "משלמים ומקבלים עודף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: At the grocery counter the girl hands a ten-shekel coin to the shopkeeper, who places a new notebook and three shiny coins in her hand; both smile. Warm afternoon light.",
+     "move": "left",
+     "fx": null,
+     "art": "👧 👴",
+     "say": [
+      "המחברת עולה שבעה שקלים. לתמר יש מטבע של עשרה שקלים.",
+      "היא נותנת את העשרה, ומקבלת את המחברת, ועוד שלושה שקלים בחזרה.",
+      "הכסף שמקבלים בחזרה נקרא עודף. עשר פחות שבע – שלוש.",
+      "תמר סופרת את העודף, ובודקת שהכול נכון.",
+      "ותמר אומרת למוכר: תודה רבה!",
+      "ואם המוכר טעה, ונתן יותר מדי? מחזירים לו. כסף שלא שלנו – מחזירים!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יגיע כפיך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Early morning at the doorway of an apartment: the father with a work bag waves goodbye on his way to work, the mother in the doorway with the children waving back, a small breakfast table behind them.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ומאיפה בא הכסף? אבא ואמא עובדים קשה, כדי שיהיה לנו בית, אוכל ובגדים.",
+      "כל שקל הוא עבודה ומאמץ.",
+      "לכן אנחנו שמחים במה שיש, ושומרים על הכסף.",
+      "ומעל הכול, אנחנו זוכרים שהשם נותן את הפרנסה.",
+      "ואנחנו אומרים תודה לאבא ולאמא על כל מה שהם קונים לנו."
+     ],
+     "pasuk": {
+      "text": "יְגִיעַ כַּפֶּיךָ כִּי תֹאכֵל אַשְׁרֶיךָ וְטוֹב לָךְ",
+      "ref": "תהלים קכח, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "קופת חיסכון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: The boy drops a coin into a sturdy glass jar with a slot in its lid, already half full of coins, on a shelf in his room beside books; a picture of a new bicycle is taped to the wall above it.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦",
+     "say": [
+      "נועם קיבל דמי חנוכה. הוא יכול לקנות ממתק עכשיו.",
+      "אבל נועם רוצה משהו גדול: ספר חדש, או אופניים. אז הוא שם את הכסף בקופת חיסכון.",
+      "כל פעם עוד מטבע, ועוד מטבע. והקופה מתמלאת.",
+      "לחכות קצת – ולקבל משהו גדול יותר. זה חיסכון.",
+      "וגם יוסף הצדיק חסך! בשנים הטובות הוא שמר אוכל, ובשנות הרעב היה לחם לכולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "מעשר וצדקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Friday afternoon near the Shabbat candles: the girl drops a coin into a small tzedakah box on the shelf, her mother beside her, the candlesticks ready; warm golden light.",
+     "move": "up",
+     "fx": "light",
+     "art": "👩 👧",
+     "say": [
+      "ויש עוד דבר חשוב לעשות עם כסף: צדקה.",
+      "יש שנותנים מעשר: מכל עשרה שקלים, שקל אחד לצדקה.",
+      "בערב שבת, לפני הדלקת הנרות, תמר שמה מטבע בקופת הצדקה.",
+      "הכסף הזה עוזר למשפחות שצריכות עזרה. וחז\"ל אומרים: מי שנותן – מתברך.",
+      "וצדקה נותנים בשמחה ובסבר פנים יפות. ככה העני לא מתבייש."
+     ],
+     "pasuk": {
+      "text": "עַשֵּׂר תְּעַשֵּׂר – עַשֵּׂר בִּשְׁבִיל שֶׁתִּתְעַשֵּׁר",
+      "ref": "דברים יד, כב; תענית ט, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בל תשחית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: In the kitchen the boy switches off a light in an empty room and closes a dripping tap, while his sister carefully puts leftover rice into a container for tomorrow; their father nods with approval.",
+     "move": "right",
+     "fx": null,
+     "art": "👨 👦 👧",
+     "say": [
+      "התורה מלמדת אותנו מצווה שנקראת \"בל תשחית\": לא מקלקלים ולא זורקים סתם.",
+      "לא זורקים אוכל טוב לפח. מה שנשאר – שומרים למחר.",
+      "מכבים את האור בחדר ריק, וסוגרים ברז שמטפטף.",
+      "ושומרים על הבגדים, הספרים והצעצועים. הם שלנו, אבל השם נתן לנו אותם.",
+      "ומה שכבר לא צריכים? אפשר לתת למישהו אחר, שזקוק לזה."
+     ],
+     "pasuk": {
+      "text": "לֹא תַשְׁחִית אֶת עֵצָהּ",
+      "ref": "דברים כ, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "השמח בחלקו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Evening at home: the family sits together on the balcony at sunset sharing a simple meal of bread, vegetables and fruit, laughing together, potted plants around them.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ומי עשיר באמת? חז\"ל אומרים: מי ששמח במה שיש לו.",
+      "לא צריך הכול. צריך לשמוח במה שיש.",
+      "חיבוק של אמא, צחוק של אח קטן ושבת עם המשפחה – זה העושר הכי גדול.",
+      "למדנו: שקלים ואגורות, עודף, חיסכון, צדקה, ובל תשחית.",
+      "ועכשיו, כשתלכו למכולת – אתם כבר יודעים מה לעשות!"
+     ],
+     "pasuk": {
+      "text": "אֵיזֶהוּ עָשִׁיר? הַשָּׂמֵחַ בְּחֶלְקוֹ",
+      "ref": "אבות ד, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lff-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "כסף בחיי היום יום",
+   "ref_he": "ידע לחיים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "במכולת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A small neighborhood grocery shop with shelves of bread, milk and fruit; the girl holds a few coins in her open palm at the counter, a friendly elderly shopkeeper with a kippah smiles at her.",
+     "move": "in",
+     "fx": "light",
+     "art": "👧 👴",
+     "say": [
+      "אמא שלחה את תמר למכולת שבפינת הרחוב, לקנות מחברת חדשה לבית הספר.",
+      "תמר מחזיקה בכף היד כמה מטבעות. היא מרגישה גדולה וחשובה. אבל רגע: כמה כסף יש לה? והאם זה מספיק?",
+      "כסף הוא דבר שפוגשים בכל יום. היום נלמד להכיר אותו: איך משלמים ומקבלים עודף, למה חוסכים, ואיך משתמשים בכסף כמו שהתורה מלמדת.",
+      "תמר אוחזת את הכסף חזק ביד, כדי שלא ייפול, והולכת בזהירות למכולת – על המדרכה, כמו שלמדנו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מטבעות ושטרות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: Israeli coins and banknotes spread on a wooden table: small copper-colored and silver coins, a larger gold-and-silver coin, and colorful paper banknotes in green, purple, blue and red. No readable text.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🏠",
+     "say": [
+      "בישראל הכסף נקרא שקל חדש. יש מטבעות של מתכת, ויש שטרות של נייר.",
+      "המטבעות הקטנים הם אגורות: עשר אגורות, וחצי שקל – שהוא חמישים אגורות. מאה אגורות הן שקל אחד.",
+      "ויש מטבעות של שקל, שני שקלים, חמישה שקלים, ועשרה שקלים – שהוא בשני צבעים, זהב וכסף.",
+      "השטרות הם של עשרים, חמישים, מאה ומאתיים שקלים. לכל שטר צבע משלו ומספר משלו.",
+      "וכשמשלמים בכרטיס או בטלפון, זה גם כסף אמיתי – רק שלא רואים אותו. לכן גם אז שואלים את ההורים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המילה \"שקל\" מופיעה כבר בתורה: אברהם אבינו שילם ארבע מאות שקל כסף על מערת המכפלה."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "משלמים ומקבלים עודף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: At the grocery counter the girl hands a ten-shekel coin to the shopkeeper, who places a new notebook and three shiny coins in her hand; both smile. Warm afternoon light.",
+     "move": "left",
+     "fx": null,
+     "art": "👧 👴",
+     "say": [
+      "המחברת עולה שבעה שקלים, ולתמר יש מטבע של עשרה. היא נותנת אותו למוכר.",
+      "המוכר נותן לה את המחברת, ועוד שלושה שקלים. הכסף הזה נקרא עודף: עשר פחות שבע – שלוש.",
+      "תמר בודקת שקיבלה את העודף הנכון, ואומרת: תודה רבה!",
+      "וכדאי לבדוק את המחיר לפני שקונים, כדי לדעת אם יש לנו מספיק כסף.",
+      "ומה אם המוכר טעה, ונתן לה יותר מדי? תמר מחזירה לו את הכסף. כי כסף שלא שלנו – מחזירים. זו מצוות השבת אבדה, וזו יושרה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יגיע כפיך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Early morning at the doorway of an apartment: the father with a work bag waves goodbye on his way to work, the mother in the doorway with the children waving back, a small breakfast table behind them.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ומאיפה בא הכסף? הוא לא צומח על העצים. אבא ואמא עובדים קשה כל יום, כדי שיהיה לנו בית, אוכל, בגדים וספרים.",
+      "דוד המלך כתב: \"יגיע כפיך כי תאכל, אשריך וטוב לך\". עבודה ישרה היא דבר מכובד ושמח.",
+      "כשאנחנו יודעים כמה מאמץ יש בכל שקל, אנחנו מעריכים יותר את מה שקונים לנו, ואומרים תודה.",
+      "ואנחנו גם זוכרים: את הפרנסה נותן הקדוש ברוך הוא. העבודה שלנו היא ההשתדלות, והברכה באה ממנו.",
+      "ולכן אומרים תודה לאבא ולאמא, גם על הדברים הקטנים."
+     ],
+     "pasuk": {
+      "text": "יְגִיעַ כַּפֶּיךָ כִּי תֹאכֵל אַשְׁרֶיךָ וְטוֹב לָךְ",
+      "ref": "תהלים קכח, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "קופת חיסכון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: The boy drops a coin into a sturdy glass jar with a slot in its lid, already half full of coins, on a shelf in his room beside books; a picture of a new bicycle is taped to the wall above it.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦",
+     "say": [
+      "נועם קיבל דמי חנוכה מסבא. הוא יכול לרוץ ולקנות ממתקים עכשיו. אבל יש לו חלום: ספר חדש וגדול, ואולי אפילו אופניים.",
+      "אז נועם שם את הכסף בקופת חיסכון. כל פעם עוד מטבע, ועוד מטבע, והקופה מתמלאת לאט.",
+      "חיסכון פירושו לוותר קצת עכשיו, כדי שיהיה משהו טוב יותר אחר כך.",
+      "והתורה מספרת על החיסכון הגדול בהיסטוריה: יוסף במצרים. בשבע שנות השובע הוא אסף אוכל ושמר אותו, ובשבע שנות הרעב היה לחם לכולם.",
+      "וכדאי לחסוך בקופה שקופה – ככה רואים איך הכסף גדל, וזה משמח מאוד!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "מעשר וצדקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Friday afternoon near the Shabbat candles: the girl drops a coin into a small tzedakah box on the shelf, her mother beside her, the candlesticks ready; warm golden light.",
+     "move": "up",
+     "fx": "light",
+     "art": "👩 👧",
+     "say": [
+      "ויש דבר נפלא נוסף שעושים עם כסף: צדקה.",
+      "התורה אומרת \"עשר תעשר\", וחז\"ל דרשו: \"עשר בשביל שתתעשר\". מי שנותן מעשר – השם מברך אותו.",
+      "מעשר הוא אחד מכל עשרה: אם תמר קיבלה עשרים שקלים במתנה, שני שקלים הולכים לצדקה.",
+      "ובהרבה בתים יש מנהג יפה: בערב שבת, לפני הדלקת הנרות, נותנים מטבע לקופת הצדקה.",
+      "והצדקה לא \"נלקחת\" מאיתנו. היא חלק מהכסף שהשם נתן לנו, כדי שנעזור גם לאחרים.",
+      "והרמב\"ם כותב שהמעלה הכי גבוהה בצדקה היא לעזור לאדם לפני שהוא נופל, למשל לתת לו עבודה, כדי שלא יצטרך לבקש."
+     ],
+     "pasuk": {
+      "text": "עַשֵּׂר תְּעַשֵּׂר – עַשֵּׂר בִּשְׁבִיל שֶׁתִּתְעַשֵּׁר",
+      "ref": "דברים יד, כב; תענית ט, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בל תשחית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: In the kitchen the boy switches off a light in an empty room and closes a dripping tap, while his sister carefully puts leftover rice into a container for tomorrow; their father nods with approval.",
+     "move": "right",
+     "fx": null,
+     "art": "👨 👦 👧",
+     "say": [
+      "התורה אומרת שגם במלחמה, אסור לכרות עצי פרי סתם: \"לא תשחית את עצה\". מכאן למדו חז\"ל מצווה שנקראת \"בל תשחית\".",
+      "אסור לקלקל או לבזבז דבר שיש בו תועלת. לא זורקים אוכל טוב – מה שנשאר, שומרים למחר.",
+      "מכבים את האור בחדר ריק, סוגרים ברז שמטפטף, ולא שוברים חפצים בכעס.",
+      "ושומרים על בגדים, ספרים וצעצועים, כדי שיחזיקו מעמד, ואולי יעברו גם לאח הקטן.",
+      "כל דבר שיש לנו הוא מתנה מהשם, ואבא ואמא עבדו קשה בשבילו. לכן שומרים עליו."
+     ],
+     "pasuk": {
+      "text": "לֹא תַשְׁחִית אֶת עֵצָהּ",
+      "ref": "דברים כ, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "השמח בחלקו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Evening at home: the family sits together on the balcony at sunset sharing a simple meal of bread, vegetables and fruit, laughing together, potted plants around them.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ומי הוא העשיר האמיתי? חז\"ל אומרים: \"איזהו עשיר? השמח בחלקו\".",
+      "אפשר שיהיו לאדם הרבה מאוד דברים, והוא תמיד ירגיש שחסר לו. ואפשר שיהיה לו מעט, והוא ירגיש עשיר.",
+      "ומשפחה שיושבת יחד, שמחה ואומרת תודה להשם – היא משפחה עשירה באמת.",
+      "ומי ששמח בחלקו, גם שמח לתת לאחרים.",
+      "אז למדנו: שקלים ואגורות, עודף ויושרה, חיסכון, מעשר, ובל תשחית. ועכשיו – אתם מוכנים ללכת למכולת לבד."
+     ],
+     "pasuk": {
+      "text": "אֵיזֶהוּ עָשִׁיר? הַשָּׂמֵחַ בְּחֶלְקוֹ",
+      "ref": "אבות ד, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lff-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אגורות יש בשקל אחד?",
+   "answer": "מאה",
+   "options": [
+    "מאה",
+    "עשר",
+    "חמישים",
+    "אלף"
+   ],
+   "explain_he": "מאה אגורות הן שקל אחד. חצי שקל הוא חמישים אגורות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אגורות יש בשקל אחד?",
+   "answer": "מאה",
+   "options": [
+    "מאה",
+    "עשר",
+    "חמישים",
+    "אלף"
+   ],
+   "explain_he": "מאה אגורות הן שקל אחד. חצי שקל הוא חמישים אגורות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מחברת עולה שבעה שקלים, ותמר נתנה עשרה. כמה עודף קיבלה?",
+   "answer": "שלושה שקלים",
+   "options": [
+    "שלושה שקלים",
+    "שבעה שקלים",
+    "שקל אחד",
+    "עשרה שקלים"
+   ],
+   "explain_he": "עשר פחות שבע – שלוש. הכסף שמקבלים בחזרה נקרא עודף.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מחברת עולה שבעה שקלים, ותמר נתנה עשרה. כמה עודף קיבלה?",
+   "answer": "שלושה שקלים",
+   "options": [
+    "שלושה שקלים",
+    "שבעה שקלים",
+    "שקל אחד",
+    "עשרה שקלים"
+   ],
+   "explain_he": "עשר פחות שבע – שלוש. הכסף שמקבלים בחזרה נקרא עודף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נועם שם את הכסף בקופת חיסכון?",
+   "answer": "כדי לקנות אחר כך משהו גדול יותר",
+   "options": [
+    "כדי לקנות אחר כך משהו גדול יותר",
+    "כי אסור לקנות ממתקים",
+    "כי הוא לא אהב את הכסף",
+    "כי סבא ביקש להחזיר"
+   ],
+   "explain_he": "חיסכון פירושו לחכות קצת עכשיו, כדי לקבל משהו טוב יותר אחר כך.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נועם שם את הכסף בקופת חיסכון?",
+   "answer": "כדי לקנות אחר כך משהו גדול יותר",
+   "options": [
+    "כדי לקנות אחר כך משהו גדול יותר",
+    "כי אסור לקנות ממתקים",
+    "כי הוא לא אהב את הכסף",
+    "כי סבא ביקש להחזיר"
+   ],
+   "explain_he": "חיסכון פירושו לחכות קצת עכשיו, כדי לקבל משהו טוב יותר אחר כך.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זה מעשר?",
+   "answer": "לתת לצדקה אחד מכל עשרה",
+   "options": [
+    "לתת לצדקה אחד מכל עשרה",
+    "לקנות עשרה דברים",
+    "לחסוך עשרה שקלים בשבוע",
+    "לתת את כל הכסף"
+   ],
+   "explain_he": "מכל עשרה שקלים – שקל אחד לצדקה. וחז\"ל אומרים: \"עשר בשביל שתתעשר\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זה מעשר?",
+   "answer": "לתת לצדקה אחד מכל עשרה",
+   "options": [
+    "לתת לצדקה אחד מכל עשרה",
+    "לקנות עשרה דברים",
+    "לחסוך עשרה שקלים בשבוע",
+    "לתת את כל הכסף"
+   ],
+   "explain_he": "מכל עשרה שקלים – שקל אחד לצדקה. וחז\"ל אומרים: \"עשר בשביל שתתעשר\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי, במנהג יפה, נותנים צדקה בכל שבוע?",
+   "answer": "בערב שבת, לפני הדלקת הנרות",
+   "options": [
+    "בערב שבת, לפני הדלקת הנרות",
+    "במוצאי שבת בלבד",
+    "רק בפורים",
+    "רק ביום ההולדת"
+   ],
+   "explain_he": "בהרבה בתים נותנים מטבע לקופת הצדקה לפני הדלקת נרות שבת.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי, במנהג יפה, נותנים צדקה בכל שבוע?",
+   "answer": "בערב שבת, לפני הדלקת הנרות",
+   "options": [
+    "בערב שבת, לפני הדלקת הנרות",
+    "במוצאי שבת בלבד",
+    "רק בפורים",
+    "רק ביום ההולדת"
+   ],
+   "explain_he": "בהרבה בתים נותנים מטבע לקופת הצדקה לפני הדלקת נרות שבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"בל תשחית\"?",
+   "answer": "לא מקלקלים ולא מבזבזים דברים טובים",
+   "options": [
+    "לא מקלקלים ולא מבזבזים דברים טובים",
+    "לא קונים שום דבר חדש",
+    "לא משחקים בצעצועים",
+    "לא אוכלים בחוץ"
+   ],
+   "explain_he": "לא זורקים אוכל טוב, מכבים אור בחדר ריק, ושומרים על החפצים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"בל תשחית\"?",
+   "answer": "לא מקלקלים ולא מבזבזים דברים טובים",
+   "options": [
+    "לא מקלקלים ולא מבזבזים דברים טובים",
+    "לא קונים שום דבר חדש",
+    "לא משחקים בצעצועים",
+    "לא אוכלים בחוץ"
+   ],
+   "explain_he": "לא זורקים אוכל טוב, מכבים אור בחדר ריק, ושומרים על החפצים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי עשיר באמת, לפי חז\"ל?",
+   "answer": "מי ששמח במה שיש לו",
+   "options": [
+    "מי ששמח במה שיש לו",
+    "מי שיש לו הכי הרבה כסף",
+    "מי שגר בבית הכי גדול",
+    "מי שקונה הכי הרבה"
+   ],
+   "explain_he": "\"איזהו עשיר? השמח בחלקו\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f5e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי עשיר באמת, לפי חז\"ל?",
+   "answer": "מי ששמח במה שיש לו",
+   "options": [
+    "מי ששמח במה שיש לו",
+    "מי שיש לו הכי הרבה כסף",
+    "מי שגר בבית הכי גדול",
+    "מי שקונה הכי הרבה"
+   ],
+   "explain_he": "\"איזהו עשיר? השמח בחלקו\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים אם המוכר נתן בטעות עודף גדול מדי?",
+   "answer": "מחזירים לו את הכסף",
+   "options": [
+    "מחזירים לו את הכסף",
+    "שומרים, כי זו טעות שלו",
+    "קונים בזה ממתק",
+    "לא אומרים כלום"
+   ],
+   "explain_he": "כסף שלא שלנו מחזירים. זו מצוות השבת אבדה, וזו יושרה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה יוסף במצרים בשבע שנות השובע?",
+   "answer": "אסף אוכל ושמר אותו לשנות הרעב",
+   "options": [
+    "אסף אוכל ושמר אותו לשנות הרעב",
+    "מכר את כל האוכל",
+    "חילק הכול מיד",
+    "ברח מהארץ"
+   ],
+   "explain_he": "בזכות החיסכון של יוסף היה לחם לכולם בשנות הרעב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f5e18"
+  }
+ ]
+}

@@ -1,0 +1,607 @@
+{
+ "id": "k-brf-f3",
+ "unit_id": "k-brf-u1",
+ "course": "bereshit",
+ "title_he": "נח והתיבה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "נח והתיבה",
+   "ref_he": "סיפורי בראשית",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "דור של גזל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: An ancient town of clay houses at dusk, people in long robes snatching baskets from a market stall and arguing; a grey heavy sky. No violence shown.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 👨 👨",
+     "say": [
+      "עברו הרבה שנים מאז אדם הראשון. בעולם היו הרבה אנשים.",
+      "אבל האנשים נהיו רעים. הם גנבו אחד מהשני, ולא שמעו בקול השם.",
+      "השם היה עצוב מאוד. הוא החליט להביא על העולם מבול – הרבה הרבה מים.",
+      "אבל היה איש אחד טוב: נח."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "נח הצדיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: Noach, an old man with a white beard, standing calmly with his three grown sons by his simple house on a hill, looking up at a soft light breaking through the clouds.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "נח היה צדיק. הוא לא גנב, לא שיקר, והקשיב תמיד לקול השם.",
+      "כל האנשים מסביבו עשו רע, אבל נח לא למד מהם. הוא נשאר טוב.",
+      "לנח היו שלושה בנים: שם, חם ויפת.",
+      "השם אמר לנח: אני אביא מבול. בנה לך תיבה גדולה, כמו בית שצף על המים.",
+      "בתיבה יהיו אתה, המשפחה שלך, ובעלי חיים מכל סוג."
+     ],
+     "pasuk": {
+      "text": "נֹחַ אִישׁ צַדִּיק תָּמִים הָיָה בְּדֹרֹתָיו, אֶת הָאֱלֹקִים הִתְהַלֶּךְ נֹחַ",
+      "ref": "בראשית ו, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מאה ועשרים שנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: Noach working with tools on a huge half-built wooden ark on dry land, curious townspeople in long robes gathering around and asking questions, sawdust in the warm air.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👴 👨 👨",
+     "say": [
+      "נח בנה את התיבה הרבה הרבה שנים. מאה ועשרים שנה!",
+      "האנשים באו ושאלו: נח, מה אתה בונה?",
+      "ונח אמר להם: השם יביא מבול, כי אתם עושים רע. תחזרו בתשובה!",
+      "אבל הם צחקו עליו, ולא הקשיבו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השם יכול היה להציל את נח בדרכים רבות. רש\"י אומר שהוא הטריח אותו לבנות תיבה כל כך הרבה שנים – כדי לתת לאנשים זמן לחזור בתשובה."
+     }
+    },
+    {
+     "id": "s3b",
+     "title_he": "שבעה ימים של אבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: A quiet hillside at evening: Noach and his family in simple robes standing with bowed heads near a modest stone burial cave, the unfinished-looking huge ark in the valley below, still and silent.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 👨 🪨",
+     "say": [
+      "רגע לפני המבול, נפטר צדיק זקן מאוד: מתושלח, הסבא של נח.",
+      "מתושלח חי תשע מאות שישים ותשע שנים. אף אדם לא חי יותר ממנו!",
+      "והשם חיכה עוד שבעה ימים לפני המבול, כדי שכולם יתאבלו על הצדיק.",
+      "כך השם מכבד את הצדיקים: גם כשהעולם מתקלקל, צדיק אחד חשוב מאוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "זוגות זוגות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: A long orderly line of animals in pairs walking up a wide wooden ramp into the ark: elephants, giraffes, lions, sheep, horses, birds flying in, under a darkening sky.",
+     "move": "right",
+     "fx": null,
+     "art": "🐘 🦒 🦁 🐑",
+     "say": [
+      "ואז הגיע הזמן. בעלי החיים באו אל התיבה, זוג זוג.",
+      "פילים וג'ירפות, אריות וכבשים, סוסים ותרנגולות.",
+      "נח נכנס לתיבה עם אשתו, הבנים שלו והנשים שלהם. שמונה אנשים בסך הכול.",
+      "והשם סגר את הדלת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "צוהר תעשה לתיבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: Inside the great ark: three wooden decks, the middle deck full of animals in neat wooden stalls eating hay, a warm glowing light shining from a gem-like window above, Noach walking between the stalls with a basket.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 🐘 🐑 🦁",
+     "say": [
+      "איך נראתה התיבה מבפנים? היו בה שלוש קומות.",
+      "רש\"י אומר: בקומה העליונה גרו נח והמשפחה, ובאמצעית – החיות.",
+      "השם אמר לנח: \"צוהר תעשה לתיבה\". חז\"ל אומרים שזה היה חלון, או אבן טובה שהאירה כמו מנורה.",
+      "וכך, גם בתוך הגשם והחושך, היה בתיבה אור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "המבול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: The great wooden ark floating alone on endless grey waters under heavy rain clouds, a small lamp glowing in its window. No people in the water.",
+     "move": "out",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "ואז ירד גשם. ארבעים יום וארבעים לילה, בלי הפסקה.",
+      "המים עלו ועלו, עד שכיסו אפילו את ההרים הגבוהים.",
+      "אבל התיבה צפה על המים, והכול בתוכה היה בטוח.",
+      "בתוך התיבה, נח טיפל בכל החיות, ונתן להן אוכל, ביום ובלילה."
+     ],
+     "pasuk": {
+      "text": "וַיִּזָּכֹר אֱלֹקִים אֶת נֹחַ וְאֵת כָּל הַחַיָּה... אֲשֶׁר אִתּוֹ בַּתֵּבָה",
+      "ref": "בראשית ח, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "היונה ועלה הזית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A white dove flying back toward the ark over calm shining water with a fresh green olive leaf in its beak, mountain tops peeking out, the sky clearing.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕊️ ⛵",
+     "say": [
+      "התיבה נחה על הרי אררט. נח פתח את החלון ושלח עורב, ואחר כך יונה.",
+      "בפעם הראשונה היונה חזרה – כי עוד היו מים בכל מקום.",
+      "אחרי שבעה ימים נח שלח אותה שוב, והיא חזרה עם עלה זית בפה!",
+      "עכשיו נח ידע: המים יורדים. בקרוב אפשר לצאת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הקשת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: Noach and his family in simple robes stepping out on a green mountainside beside a small stone altar, the animals spreading out over the hills, and a bright rainbow across the clean sky.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👨 👩 🐑",
+     "say": [
+      "השם אמר לנח: צא מן התיבה! ונח יצא עם כל המשפחה וכל החיות.",
+      "הדבר הראשון שנח עשה: בנה מזבח, והודה לשם.",
+      "והשם הבטיח: לא אביא עוד מבול על כל העולם.",
+      "וכסימן להבטחה, השם שם בענן את הקשת. בכל פעם שרואים קשת, נזכרים בהבטחה."
+     ],
+     "pasuk": {
+      "text": "אֶת קַשְׁתִּי נָתַתִּי בֶּעָנָן, וְהָיְתָה לְאוֹת בְּרִית",
+      "ref": "בראשית ט, יג"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-brf-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "נח והתיבה",
+   "ref_he": "סיפורי בראשית",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "דור של גזל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: An ancient town of clay houses at dusk, people in long robes snatching baskets from a market stall and arguing; a grey heavy sky. No violence shown.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 👨 👨",
+     "say": [
+      "עשרה דורות עברו מאדם ועד נח. העולם התמלא באנשים – אבל גם ברשע.",
+      "התורה אומרת: \"ותימלא הארץ חמס\". רש\"י מסביר שחמס הוא גזל: כל אחד לקח מה ששייך לחברו, ואף אחד לא התבייש.",
+      "השם ראה שהאנשים מקלקלים את העולם שהוא ברא, והחליט להביא מבול ולהתחיל מחדש.",
+      "אבל בתוך כל הדור הזה היה איש אחד אחר. \"ונח מצא חן בעיני השם\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "נח הצדיק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: Noach, an old man with a white beard, standing calmly with his three grown sons by his simple house on a hill, looking up at a soft light breaking through the clouds.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "\"נח איש צדיק תמים היה בדורותיו\". קל להיות טוב כשכולם סביבך טובים. נח היה טוב כשכולם סביבו היו רעים.",
+      "לנח היו שלושה בנים: שם, חם ויפת. מהם יבואו כל עמי העולם אחרי המבול.",
+      "השם אמר לנח: אני מביא מבול מים על הארץ. עשה לך תיבה מעצי גופר, וצפה אותה בכופר – חומר שמונע מהמים לחדור.",
+      "התיבה הייתה ענקית: שלוש מאות אמה אורך, חמישים אמה רוחב ושלושים אמה גובה, ובה שלוש קומות."
+     ],
+     "pasuk": {
+      "text": "נֹחַ אִישׁ צַדִּיק תָּמִים הָיָה בְּדֹרֹתָיו, אֶת הָאֱלֹקִים הִתְהַלֶּךְ נֹחַ",
+      "ref": "בראשית ו, ט"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מאה ועשרים שנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: Noach working with tools on a huge half-built wooden ark on dry land, curious townspeople in long robes gathering around and asking questions, sawdust in the warm air.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👴 👨 👨",
+     "say": [
+      "לנח לקח מאה ועשרים שנה לבנות את התיבה. למה כל כך הרבה זמן?",
+      "רש\"י מסביר: נח נטע עצים, חיכה שיגדלו, ואז כרת אותם ובנה. וכל הזמן הזה האנשים ראו אותו ושאלו: מה אתה עושה?",
+      "ונח ענה: השם עומד להביא מבול על העולם, כי אתם עושים רע. אולי תחזרו בתשובה?",
+      "זה היה הרעיון: השם רצה לתת להם הזדמנות אחרי הזדמנות. אבל אנשי הדור צחקו ולא שבו. אפילו בזמן העונש, השם מחכה לתשובה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השם יכול היה להציל את נח בדרכים רבות. רש\"י אומר שהוא הטריח אותו לבנות תיבה כל כך הרבה שנים – כדי לתת לאנשים זמן לחזור בתשובה."
+     }
+    },
+    {
+     "id": "s3b",
+     "title_he": "שבעה ימים של אבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: A quiet hillside at evening: Noach and his family in simple robes standing with bowed heads near a modest stone burial cave, the unfinished-looking huge ark in the valley below, still and silent.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👴 👨 👨 🪨",
+     "say": [
+      "רגע לפני המבול נפטר מתושלח, סבו של נח. הוא חי תשע מאות שישים ותשע שנים – יותר מכל אדם שהתורה מספרת עליו.",
+      "השם אמר לנח: \"כי לימים עוד שבעה, אנוכי ממטיר על הארץ\". למה עוד שבעה ימים?",
+      "רש\"י מסביר: אלה היו שבעת ימי האבל על מתושלח הצדיק. השם חס על כבודו, ולא הביא את המבול עד שיסתיימו ימי האבל.",
+      "מכאן אנחנו לומדים כמה חשוב לכבד צדיקים, ולהתאבל עליהם כראוי. ומכאן גם מנהג השבעה: שבעה ימי אבל אחרי פטירה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "זוגות זוגות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: A long orderly line of animals in pairs walking up a wide wooden ramp into the ark: elephants, giraffes, lions, sheep, horses, birds flying in, under a darkening sky.",
+     "move": "right",
+     "fx": null,
+     "art": "🐘 🦒 🦁 🐑",
+     "say": [
+      "בעלי החיים באו אל נח מעצמם, \"שניים שניים\", זכר ונקבה. ומהבהמות הטהורות – שבעה זוגות.",
+      "נח, אשתו, שלושת בניו ונשותיהם – שמונה נפשות – נכנסו לתיבה. ונח לקח גם הרבה מזון, לאנשים ולחיות.",
+      "רש\"י אומר שנח עצמו היה \"מקטני אמנה\": הוא חיכה להיכנס עד שהמים ממש הגיעו. גם צדיק גדול לומד להאמין עוד יותר.",
+      "\"ויסגור השם בעדו\": השם בעצמו סגר את התיבה, ושמר על כל מי שבתוכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4b",
+     "title_he": "צוהר תעשה לתיבה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: Inside the great ark: three wooden decks, the middle deck full of animals in neat wooden stalls eating hay, a warm glowing light shining from a gem-like window above, Noach walking between the stalls with a basket.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 🐘 🐑 🦁",
+     "say": [
+      "השם ציווה את נח: \"צוהר תעשה לתיבה... תחתיים שניים ושלישים תעשה\". שלוש קומות.",
+      "רש\"י מביא: הקומה העליונה לאדם, האמצעית לבהמות ולחיות, והתחתונה לפסולת. הכול מסודר ונקי, אפילו בתוך תיבה מלאה.",
+      "ומה זה צוהר? רש\"י מביא שתי דעות: יש אומרים חלון, ויש אומרים אבן טובה שהאירה להם.",
+      "ותחשבו: בתוך כל העולם שהיה חשוך וסוער, היה מקום אחד קטן מלא באור, בסדר ובחסד. כך גם בית יהודי יכול להיות – אור באמצע העולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "המבול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: The great wooden ark floating alone on endless grey waters under heavy rain clouds, a small lamp glowing in its window. No people in the water.",
+     "move": "out",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "\"נבקעו כל מעיינות תהום רבה, וארובות השמיים נפתחו\". ארבעים יום וארבעים לילה ירד גשם.",
+      "המים עלו חמש עשרה אמה מעל ההרים הגבוהים ביותר. והתיבה צפה בשקט על פני המים.",
+      "נח ובני ביתו היו בתיבה כשנה שלמה. חז\"ל מספרים שכל הזמן הזה נח לא ישן כמעט: ביום ובלילה הוא האכיל כל חיה בשעה שלה ובמזון שלה.",
+      "תחשבו על זה: שנה שלמה של חסד, של דאגה לאחרים, בלי מנוחה. כך נבנה העולם החדש – בחסד.",
+      "ואז \"ויזכור אלוקים את נח\". השם העביר רוח על הארץ, והמים התחילו לרדת."
+     ],
+     "pasuk": {
+      "text": "וַיִּזָּכֹר אֱלֹקִים אֶת נֹחַ וְאֵת כָּל הַחַיָּה... אֲשֶׁר אִתּוֹ בַּתֵּבָה",
+      "ref": "בראשית ח, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "היונה ועלה הזית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A white dove flying back toward the ark over calm shining water with a fresh green olive leaf in its beak, mountain tops peeking out, the sky clearing.",
+     "move": "up",
+     "fx": "light",
+     "art": "🕊️ ⛵",
+     "say": [
+      "התיבה נחה על הרי אררט, ולאט לאט נראו ראשי ההרים.",
+      "נח פתח את החלון ושלח את העורב, אבל העורב רק הסתובב הלוך ושוב. אחר כך שלח את היונה, והיא חזרה כי לא מצאה מנוח לכף רגלה.",
+      "אחרי שבעה ימים שלח אותה שוב, והנה בערב חזרה ובפיה עלה זית טרף.",
+      "רש\"י מביא מדרש יפה: היונה כאילו אמרה – מוטב שיהיו מזונותיי מרים כזית, אבל מיד השם, ולא מתוקים כדבש מיד בשר ודם. עדיף לי לקבל מהשם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הקשת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Noach: an old man with a long white beard, a simple brown robe and a head cloth, kind and steady. Scene: Noach and his family in simple robes stepping out on a green mountainside beside a small stone altar, the animals spreading out over the hills, and a bright rainbow across the clean sky.",
+     "move": "out",
+     "fx": "light",
+     "art": "👴 👨 👩 🐑",
+     "say": [
+      "השם אמר לנח: \"צא מן התיבה\". נח ומשפחתו יצאו, וכל החיות התפזרו על פני הארץ.",
+      "ומה הדבר הראשון שעשה נח? בנה מזבח והקריב קורבן לשם. לפני שבונים בית – אומרים תודה.",
+      "השם בירך את נח ואת בניו, ונתן להם מצוות לכל האנושות. חז\"ל קוראים להן \"שבע מצוות בני נח\".",
+      "והשם כרת ברית: לא יהיה עוד מבול לשחת את הארץ. האות לברית – הקשת בענן.",
+      "ומה עושים כשרואים קשת? מברכים: \"זוכר הברית ונאמן בבריתו וקיים במאמרו\"."
+     ],
+     "pasuk": {
+      "text": "אֶת קַשְׁתִּי נָתַתִּי בֶּעָנָן, וְהָיְתָה לְאוֹת בְּרִית",
+      "ref": "בראשית ט, יג"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-brf-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חיכה השם שבעה ימים לפני המבול?",
+   "answer": "כדי שיתאבלו על מתושלח הצדיק",
+   "options": [
+    "כדי שיתאבלו על מתושלח הצדיק",
+    "כי התיבה לא הייתה מוכנה",
+    "כי חיכה לגשם"
+   ],
+   "explain_he": "השם חס על כבוד הצדיק, ומכאן גם מנהג השבעה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חיכה השם שבעה ימים לפני המבול?",
+   "answer": "כדי שיתאבלו על מתושלח הצדיק",
+   "options": [
+    "כדי שיתאבלו על מתושלח הצדיק",
+    "כי התיבה לא הייתה מוכנה",
+    "כי חיכה לגשם"
+   ],
+   "explain_he": "השם חס על כבוד הצדיק, ומכאן גם מנהג השבעה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הביא השם את המבול?",
+   "answer": "כי האנשים נהיו רעים וגנבו זה מזה",
+   "options": [
+    "כי האנשים נהיו רעים וגנבו זה מזה",
+    "כי היה חם מדי",
+    "כי נח ביקש"
+   ],
+   "explain_he": "\"ותימלא הארץ חמס\" – האנשים גזלו זה מזה ולא שמעו בקול השם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הביא השם את המבול?",
+   "answer": "כי האנשים נהיו רעים וגנבו זה מזה",
+   "options": [
+    "כי האנשים נהיו רעים וגנבו זה מזה",
+    "כי היה חם מדי",
+    "כי נח ביקש"
+   ],
+   "explain_he": "\"ותימלא הארץ חמס\" – האנשים גזלו זה מזה ולא שמעו בקול השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים בנה נח את התיבה?",
+   "answer": "מאה ועשרים שנה",
+   "options": [
+    "מאה ועשרים שנה",
+    "שבוע אחד",
+    "שבע שנים"
+   ],
+   "explain_he": "נח בנה מאה ועשרים שנה, כדי שהאנשים ישאלו ויחזרו בתשובה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים בנה נח את התיבה?",
+   "answer": "מאה ועשרים שנה",
+   "options": [
+    "מאה ועשרים שנה",
+    "שבוע אחד",
+    "שבע שנים"
+   ],
+   "explain_he": "נח בנה מאה ועשרים שנה, כדי שהאנשים ישאלו ויחזרו בתשובה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה החזירה היונה בפעם השנייה?",
+   "answer": "עלה זית",
+   "options": [
+    "עלה זית",
+    "ענף של תאנה",
+    "אבן קטנה"
+   ],
+   "explain_he": "היונה חזרה בערב ובפיה עלה זית – וכך ידע נח שהמים יורדים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה החזירה היונה בפעם השנייה?",
+   "answer": "עלה זית",
+   "options": [
+    "עלה זית",
+    "ענף של תאנה",
+    "אבן קטנה"
+   ],
+   "explain_he": "היונה חזרה בערב ובפיה עלה זית – וכך ידע נח שהמים יורדים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הדבר הראשון שעשה נח כשיצא מהתיבה?",
+   "answer": "בנה מזבח והודה לשם",
+   "options": [
+    "בנה מזבח והודה לשם",
+    "בנה בית גדול",
+    "הלך לישון"
+   ],
+   "explain_he": "לפני הכול, נח אמר תודה לשם והקריב קורבן.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הדבר הראשון שעשה נח כשיצא מהתיבה?",
+   "answer": "בנה מזבח והודה לשם",
+   "options": [
+    "בנה מזבח והודה לשם",
+    "בנה בית גדול",
+    "הלך לישון"
+   ],
+   "explain_he": "לפני הכול, נח אמר תודה לשם והקריב קורבן.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הסימן להבטחה שלא יהיה עוד מבול?",
+   "answer": "הקשת בענן",
+   "options": [
+    "הקשת בענן",
+    "כוכב חדש",
+    "היונה"
+   ],
+   "explain_he": "השם שם את הקשת בענן כאות לברית. כשרואים קשת מברכים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הסימן להבטחה שלא יהיה עוד מבול?",
+   "answer": "הקשת בענן",
+   "options": [
+    "הקשת בענן",
+    "כוכב חדש",
+    "היונה"
+   ],
+   "explain_he": "השם שם את הקשת בענן כאות לברית. כשרואים קשת מברכים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה נח בתוך התיבה ביום ובלילה?",
+   "answer": "טיפל בחיות ונתן להן אוכל",
+   "options": [
+    "טיפל בחיות ונתן להן אוכל",
+    "שיחק עם הילדים כל הזמן",
+    "ישן כל השנה"
+   ],
+   "explain_he": "נח האכיל את כל החיות, ביום ובלילה – שנה שלמה של חסד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הטריח השם את נח לבנות תיבה כל כך הרבה שנים?",
+   "answer": "כדי לתת לאנשים זמן לשאול ולחזור בתשובה",
+   "options": [
+    "כדי לתת לאנשים זמן לשאול ולחזור בתשובה",
+    "כי לא היו לו כלים",
+    "כי העצים היו כבדים מדי"
+   ],
+   "explain_he": "רש\"י: אנשי הדור ראו את נח בונה ושאלו – והייתה להם הזדמנות לשוב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה \"אמרה\" היונה בעלה הזית, לפי המדרש?",
+   "answer": "עדיף מזון מר מיד השם, ממתוק מיד בשר ודם",
+   "options": [
+    "עדיף מזון מר מיד השם, ממתוק מיד בשר ודם",
+    "שהיא אוהבת זיתים",
+    "שהיא רוצה בית חדש"
+   ],
+   "explain_he": "\"מוטב שיהיו מזונותיי מרים כזית, ומסורים בידו של הקב\"ה\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך קוראים חז\"ל למצוות שהשם נתן לכל האנושות אחרי המבול?",
+   "answer": "שבע מצוות בני נח",
+   "options": [
+    "שבע מצוות בני נח",
+    "עשרת הדיברות",
+    "תרי\"ג מצוות"
+   ],
+   "explain_he": "אחרי המבול נתן השם לנח ולבניו מצוות לכל בני האדם – שבע מצוות בני נח.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f3e18"
+  }
+ ]
+}

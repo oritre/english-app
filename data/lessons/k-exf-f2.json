@@ -1,0 +1,589 @@
+{
+ "id": "k-exf-f2",
+ "unit_id": "k-exf-u1",
+ "course": "exodus",
+ "title_he": "משה בתיבה ביאור",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌊 ידע כללי",
+   "title_he": "משה בתיבה ביאור",
+   "ref_he": "משה ויציאת מצרים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הבית מתמלא אור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Yocheved: a Hebrew mother in a long dark dress with long sleeves and a head covering, gentle and strong. Scene: Inside a humble Hebrew mud-brick home at night, a mother in a long dress and head covering holding a newborn baby wrapped in cloth, and the whole small room filled with a soft golden glow.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👶 🏠",
+     "say": [
+      "בבית אחד, משבט לוי, נולד תינוק. אבא שלו עמרם, ואמא שלו יוכבד.",
+      "חז\"ל מספרים: כשהתינוק נולד, כל הבית התמלא באור!",
+      "אבל זה היה זמן מסוכן. פרעה גזר: כל תינוק בן – לזרוק ליאור, הנהר הגדול.",
+      "יוכבד הסתירה את התינוק בבית, שלושה חודשים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שכשנולד משה, התמלא כל הבית אור."
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "תיבת גומא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Yocheved: a Hebrew mother in a long dark dress with long sleeves and a head covering, gentle and strong. Scene: Yocheved kneeling at the edge of the Nile at dawn among tall green reeds, gently placing a small woven papyrus basket coated with dark pitch into the calm water.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👩 👶 🌾",
+     "say": [
+      "יוכבד לקחה קנים, וקלעה מהם סל קטן – תיבה.",
+      "היא מרחה עליה זפת מבחוץ, כדי שהמים לא ייכנסו.",
+      "היא שמה בתוכה את התינוק, בעדינות, והניחה את התיבה בין הקנים, ליד שפת היאור.",
+      "ואז התפללה: השם, תשמור על הילד שלי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מרים שומרת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Young Miriam: a Hebrew girl of about seven in a long modest dress and a head scarf. Scene: Young Miriam in a long modest dress and head scarf hiding among tall reeds by the Nile, watching closely the little basket floating nearby, palm trees and morning light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 🌾",
+     "say": [
+      "מרים, האחות הגדולה, לא הלכה הביתה.",
+      "היא עמדה רחוק, בין הקנים, והסתכלה על התיבה.",
+      "היא רצתה לדעת מה יקרה לאח הקטן שלה.",
+      "כי מרים האמינה בנבואה שלה: האח הזה יציל את עם ישראל."
+     ],
+     "pasuk": {
+      "text": "וַתֵּתַצַּב אֲחֹתוֹ מֵרָחֹק לְדֵעָה מַה יֵּעָשֶׂה לוֹ",
+      "ref": "שמות ב, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "בת פרעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Pharaoh's daughter: an Egyptian princess in a long white robe with long sleeves and a modest shawl, a kind face. Scene: Pharaoh's daughter in a long white robe with long sleeves and a modest shawl standing at the river bank with her maidservants, lifting the lid of the floating basket and smiling with tender surprise at the crying baby.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👩 👶 🌾",
+     "say": [
+      "בת פרעה ירדה אל היאור, עם הנערות שלה.",
+      "היא ראתה את התיבה בין הקנים, ושלחה להביא אותה.",
+      "היא פתחה – והנה תינוק בוכה! והיא ריחמה עליו.",
+      "היא אמרה: \"מילדי העברים זה\". והחליטה להציל אותו, אף שאבא שלה גזר את הגזירה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אמא באה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Pharaoh's daughter: an Egyptian princess in a long white robe with long sleeves and a modest shawl, a kind face. Young Miriam: a Hebrew girl of about seven in a long modest dress and a head scarf. Yocheved: a Hebrew mother in a long dark dress with long sleeves and a head covering, gentle and strong. Scene: At the riverbank, little Miriam bowing respectfully to the princess, and Yocheved in a long dress and head covering stepping forward to take the baby into her arms, overcome with quiet joy.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👧 👩 👩 👶",
+     "say": [
+      "התינוק בכה, ולא רצה לאכול משום אישה מצרייה.",
+      "מרים רצה אל בת פרעה ושאלה: לקרוא לך אישה עבריה שתניק את הילד?",
+      "בת פרעה אמרה: לכי. ומרים רצה – והביאה את אמא שלה, יוכבד!",
+      "ובת פרעה אמרה ליוכבד: קחי את הילד, תגדלי אותו, ואני אשלם לך. איזה נס!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "בארמון של פרעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Scene: A bright Egyptian palace hall with tall painted columns: a small boy of about three in a white robe sitting near Pharaoh's throne, reaching toward a tray with a shining gold crown and a glowing coal, while advisers watch closely.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦 👨 👨",
+     "say": [
+      "כשמשה גדל, יוכבד הביאה אותו לבת פרעה. והיא קראה לו \"משה\" – כי מן המים משיתיהו, הוצאתי אותו מהמים.",
+      "משה גדל בארמון של פרעה. יש סיפור במדרש: פעם, הילד משה לקח את הכתר של פרעה ושם על ראשו.",
+      "היועצים פחדו: אולי הוא ייקח ממך את המלוכה! והם עשו מבחן: שמו לפניו זהב וגחלת בוערת.",
+      "משה רצה לקחת את הזהב, אבל מלאך הזיז את היד שלו אל הגחלת. הוא נגע בה בפה, ומאז היה \"כבד פה\" – דיבר לאט."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "יום מנוחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Scene: A palace courtyard: young Moshe in fine Egyptian clothes speaking respectfully to Pharaoh on a throne, and beyond the gates tired Hebrew workers resting under palm trees on a quiet day.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👨 🌴",
+     "say": [
+      "המדרש מספר עוד סיפור יפה על משה הצעיר.",
+      "משה ראה שהעבדים עובדים כל יום, בלי הפסקה. והוא הלך אל פרעה.",
+      "משה אמר: אם העבדים לא ינוחו אף פעם – הם יחלשו, ולא יוכלו לעבוד. תן להם יום אחד של מנוחה.",
+      "פרעה הסכים. ומשה בחר בשבילם את היום השביעי – את השבת!",
+      "כבר אז, עוד לפני מתן תורה, משה דאג שתהיה לאחים שלו שבת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ויצא אל אחיו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: A young man in fine Egyptian clothes, Moshe, standing on the edge of a brick field and looking with deep compassion at the tired Hebrew workers, then helping an old man lift a heavy load.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👴 👨",
+     "say": [
+      "משה גדל בארמון, עם בגדים יפים ואוכל טוב. אבל הוא לא שכח שהוא עברי.",
+      "הוא יצא לראות את האחים שלו, העבדים, ועזר להם לסחוב את המשא הכבד.",
+      "יום אחד ראה משה מצרי מכה עבד עברי. משה הציל את העברי מהמצרי.",
+      "פרעה שמע על זה וכעס מאוד. ומשה ברח מהארמון – רחוק, למדבר."
+     ],
+     "pasuk": {
+      "text": "וַיִּגְדַּל מֹשֶׁה וַיֵּצֵא אֶל אֶחָיו וַיַּרְא בְּסִבְלֹתָם",
+      "ref": "שמות ב, יא"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exf-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌊 ידע כללי",
+   "title_he": "משה בתיבה ביאור",
+   "ref_he": "משה ויציאת מצרים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הבית מתמלא אור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Yocheved: a Hebrew mother in a long dark dress with long sleeves and a head covering, gentle and strong. Scene: Inside a humble Hebrew mud-brick home at night, a mother in a long dress and head covering holding a newborn baby wrapped in cloth, and the whole small room filled with a soft golden glow.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👶 🏠",
+     "say": [
+      "\"וילך איש מבית לוי, ויקח את בת לוי\". האיש הוא עמרם, ראש הדור, והאישה – יוכבד. נולדו להם כבר מרים ואהרן.",
+      "ועכשיו נולד להם בן. \"ותרא אותו כי טוב הוא\" – חז\"ל אומרים: כשנולד, נתמלא הבית כולו אורה.",
+      "אבל פרעה גזר: \"כל הבן הילוד – היאורה תשליכוהו\". המצרים חיפשו בכל בית עברי.",
+      "שלושה ירחים הצליחה יוכבד להסתיר אותו. אבל אחרי שלושה חודשים כבר לא יכלה עוד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שכשנולד משה, התמלא כל הבית אור."
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "תיבת גומא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Yocheved: a Hebrew mother in a long dark dress with long sleeves and a head covering, gentle and strong. Scene: Yocheved kneeling at the edge of the Nile at dawn among tall green reeds, gently placing a small woven papyrus basket coated with dark pitch into the calm water.",
+     "move": "left",
+     "fx": "mist",
+     "art": "👩 👶 🌾",
+     "say": [
+      "\"ותיקח לו תיבת גומא, ותחמרה בחמר ובזפת\". גומא הוא צמח רך של ביצות.",
+      "רש\"י מסביר: את הזפת היא שמה מבחוץ, ואת הטיט מבפנים – כדי שהצדיק הקטן לא יריח ריח רע של זפת. גם בשעה הכי קשה, היא דאגה לנוחות של התינוק.",
+      "\"ותשם בה את הילד, ותשם בסוף על שפת היאור\". הסוף הם הקנים הגבוהים שליד המים.",
+      "אמא שמניחה את התינוק שלה בנהר – רק אמונה גדולה בשם יכולה לתת כוח כזה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "מרים שומרת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Young Miriam: a Hebrew girl of about seven in a long modest dress and a head scarf. Scene: Young Miriam in a long modest dress and head scarf hiding among tall reeds by the Nile, watching closely the little basket floating nearby, palm trees and morning light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 🌾",
+     "say": [
+      "\"ותתצב אחותו מרחוק, לדעה מה ייעשה לו\". מרים לא עזבה את אחיה לרגע.",
+      "חז\"ל אומרים: מרים חיכתה למשה שעה אחת על שפת היאור. ובזכות זה, כל עם ישראל חיכה לה שבעה ימים במדבר, כשהייתה צריכה.",
+      "כל מעשה טוב, אפילו קטן, השם זוכר. ועל מעשה של חסד מקבלים שכר גדול.",
+      "ובינתיים, מרחוק, נשמעו קולות: מישהו מגיע אל המים."
+     ],
+     "pasuk": {
+      "text": "וַתֵּתַצַּב אֲחֹתוֹ מֵרָחֹק לְדֵעָה מַה יֵּעָשֶׂה לוֹ",
+      "ref": "שמות ב, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "בת פרעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Pharaoh's daughter: an Egyptian princess in a long white robe with long sleeves and a modest shawl, a kind face. Scene: Pharaoh's daughter in a long white robe with long sleeves and a modest shawl standing at the river bank with her maidservants, lifting the lid of the floating basket and smiling with tender surprise at the crying baby.",
+     "move": "in",
+     "fx": "light",
+     "art": "👩 👩 👶 🌾",
+     "say": [
+      "\"ותרד בת פרעה לרחוץ על היאור, ונערותיה הולכות על יד היאור\". חז\"ל קוראים לה בתיה.",
+      "היא ראתה את התיבה בתוך הסוף, ושלחה לקחת אותה. \"ותפתח ותראהו את הילד, והנה נער בוכה, ותחמול עליו\".",
+      "היא הבינה מיד: \"מילדי העברים זה\". ובכל זאת – בת המלך עצמו – בחרה להציל אותו, נגד הגזירה של אביה.",
+      "חז\"ל אומרים שבזכות החסד הזה היא זכתה לשכר גדול, ושהשם קרא לה \"בתיה\" – בת י-ה, כאילו אמר: את קראת לו בן, ואני קורא לך בת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "אמא באה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Pharaoh's daughter: an Egyptian princess in a long white robe with long sleeves and a modest shawl, a kind face. Young Miriam: a Hebrew girl of about seven in a long modest dress and a head scarf. Yocheved: a Hebrew mother in a long dark dress with long sleeves and a head covering, gentle and strong. Scene: At the riverbank, little Miriam bowing respectfully to the princess, and Yocheved in a long dress and head covering stepping forward to take the baby into her arms, overcome with quiet joy.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👧 👩 👩 👶",
+     "say": [
+      "הביאו אל התינוק מיניקות מצריות – והוא סירב. רש\"י אומר: פה שעתיד לדבר עם השכינה, לא יינק דבר טמא.",
+      "ומרים, בחכמה ובאומץ, ניגשה אל בת פרעה: \"האלך וקראתי לך אישה מינקת מן העבריות?\"",
+      "\"ותאמר לה בת פרעה: לכי. ותלך העלמה, ותקרא את אם הילד\".",
+      "ובת פרעה אמרה ליוכבד: \"היליכי את הילד הזה והיניקיהו לי, ואני אתן את שכרך\". האמא קיבלה את בנה בחזרה – ועוד שכר על גידולו!",
+      "כך השם הפך את הגזירה של פרעה עצמה לישועה. הבן שיגאל את ישראל יגדל דווקא בבית של פרעה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י אומר שמשה לא רצה לינוק מאף אישה מצרייה – הפה שעתיד לדבר עם השם, יינק רק מאמו העברייה."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "בארמון של פרעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Scene: A bright Egyptian palace hall with tall painted columns: a small boy of about three in a white robe sitting near Pharaoh's throne, reaching toward a tray with a shining gold crown and a glowing coal, while advisers watch closely.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦 👨 👨",
+     "say": [
+      "\"ויגדל הילד, ותביאהו לבת פרעה, ויהי לה לבן, ותקרא שמו משה, ותאמר: כי מן המים משיתיהו\".",
+      "המדרש מספר שפעם, כשמשה היה ילד קטן בארמון, הוריד את הכתר מראשו של פרעה ושם על ראשו. היועצים אמרו: זה סימן רע – הילד הזה יילחם בך!",
+      "אחד הציע מבחן: נשים לפניו זהב וגחלת בוערת. אם יושיט יד לזהב – הוא מבין, ומסוכן. אם לגחלת – הוא סתם ילד.",
+      "משה הושיט יד לזהב, אבל מלאך הסיט את ידו אל הגחלת. הוא הכניס אותה לפיו, ונכווה בלשונו. ומכאן, אומר המדרש, משה היה \"כבד פה וכבד לשון\".",
+      "כך השם שמר על משה. וגם זה שהוא לא היה דברן גדול – לימד את כולם שהכוח של משה בא מהשם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "יום מנוחה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Pharaoh: an Egyptian king in white linen robes, a tall striped crown and a heavy gold collar, cold proud face. Scene: A palace courtyard: young Moshe in fine Egyptian clothes speaking respectfully to Pharaoh on a throne, and beyond the gates tired Hebrew workers resting under palm trees on a quiet day.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👨 🌴",
+     "say": [
+      "המדרש מספר: משה ראה שבני ישראל עובדים בלי שום מנוחה, יום אחרי יום.",
+      "הוא הלך אל פרעה ואמר בחכמה: מי שיש לו עבד, ואינו נותן לו לנוח יום אחד בשבוע – העבד מת. עבדיך ימותו, אם לא תניח להם.",
+      "אמר לו פרעה: לך ועשה להם כמו שאתה אומר. ומשה תיקן להם את יום השבת למנוחה.",
+      "ובתפילת שבת אנחנו אומרים: \"ישמח משה במתנת חלקו\". יש מפרשים שזה רומז לשמחה של משה, כשקיבל בסיני את מצוות השבת – את היום שבחר בשביל אחיו כבר במצרים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ויצא אל אחיו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Israelite families: bearded men in long robes and head cloths, women in long dresses and head coverings, children. Scene: A young man in fine Egyptian clothes, Moshe, standing on the edge of a brick field and looking with deep compassion at the tired Hebrew workers, then helping an old man lift a heavy load.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👴 👨",
+     "say": [
+      "\"ויגדל משה, ויצא אל אחיו, וירא בסבלותם\". משה יכול היה לחיות חיים נוחים בארמון. אבל הוא בחר לצאת אל אחיו.",
+      "רש\"י אומר: \"נתן עיניו וליבו להיות מיצר עליהם\". הוא לא רק ראה מרחוק; הוא הרגיש את הצער שלהם, ועזר להם בכתף.",
+      "יום אחד ראה מצרי מכה איש עברי. משה לא יכול היה לעמוד מנגד, ופעל כדי להציל את אחיו.",
+      "הדבר נודע, ופרעה ביקש להעניש את משה. משה ברח מפני פרעה, אל ארץ מדין.",
+      "הנסיך מהארמון יוצא עכשיו למדבר, בלי כלום. אבל שם, בדיוק שם, השם יתגלה אליו."
+     ],
+     "pasuk": {
+      "text": "וַיִּגְדַּל מֹשֶׁה וַיֵּצֵא אֶל אֶחָיו וַיַּרְא בְּסִבְלֹתָם",
+      "ref": "שמות ב, יא"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exf-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה יום מנוחה ביקש משה בשביל העבדים, לפי המדרש?",
+   "answer": "את היום השביעי – השבת",
+   "options": [
+    "את היום השביעי – השבת",
+    "את היום הראשון",
+    "יום אחד בחודש"
+   ],
+   "explain_he": "משה שכנע את פרעה לתת לעבדים יום מנוחה, ובחר בשבת.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה יום מנוחה ביקש משה בשביל העבדים, לפי המדרש?",
+   "answer": "את היום השביעי – השבת",
+   "options": [
+    "את היום השביעי – השבת",
+    "את היום הראשון",
+    "יום אחד בחודש"
+   ],
+   "explain_he": "משה שכנע את פרעה לתת לעבדים יום מנוחה, ובחר בשבת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה בבית כשנולד משה, לפי חז\"ל?",
+   "answer": "כל הבית התמלא אור",
+   "options": [
+    "כל הבית התמלא אור",
+    "כל הנרות כבו",
+    "ירד שלג"
+   ],
+   "explain_he": "\"ותרא אותו כי טוב הוא\" – חז\"ל אומרים שנתמלא הבית כולו אורה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה בבית כשנולד משה, לפי חז\"ל?",
+   "answer": "כל הבית התמלא אור",
+   "options": [
+    "כל הבית התמלא אור",
+    "כל הנרות כבו",
+    "ירד שלג"
+   ],
+   "explain_he": "\"ותרא אותו כי טוב הוא\" – חז\"ל אומרים שנתמלא הבית כולו אורה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן הסתירה יוכבד את משה בבית?",
+   "answer": "שלושה חודשים",
+   "options": [
+    "שלושה חודשים",
+    "שלוש שנים",
+    "שלושה ימים"
+   ],
+   "explain_he": "שלושה ירחים הצליחה להסתיר אותו, ואז שמה אותו בתיבה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה זמן הסתירה יוכבד את משה בבית?",
+   "answer": "שלושה חודשים",
+   "options": [
+    "שלושה חודשים",
+    "שלוש שנים",
+    "שלושה ימים"
+   ],
+   "explain_he": "שלושה ירחים הצליחה להסתיר אותו, ואז שמה אותו בתיבה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי עמדה רחוק ושמרה על התיבה?",
+   "answer": "מרים, אחותו",
+   "options": [
+    "מרים, אחותו",
+    "בת פרעה",
+    "יוכבד"
+   ],
+   "explain_he": "\"ותתצב אחותו מרחוק, לדעה מה ייעשה לו\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי עמדה רחוק ושמרה על התיבה?",
+   "answer": "מרים, אחותו",
+   "options": [
+    "מרים, אחותו",
+    "בת פרעה",
+    "יוכבד"
+   ],
+   "explain_he": "\"ותתצב אחותו מרחוק, לדעה מה ייעשה לו\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "את מי הביאה מרים להניק את התינוק?",
+   "answer": "את אמא שלו, יוכבד",
+   "options": [
+    "את אמא שלו, יוכבד",
+    "אישה מצרייה",
+    "את בת פרעה"
+   ],
+   "explain_he": "מרים קראה ליוכבד, ובת פרעה אפילו שילמה לה לגדל את בנה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "את מי הביאה מרים להניק את התינוק?",
+   "answer": "את אמא שלו, יוכבד",
+   "options": [
+    "את אמא שלו, יוכבד",
+    "אישה מצרייה",
+    "את בת פרעה"
+   ],
+   "explain_he": "מרים קראה ליוכבד, ובת פרעה אפילו שילמה לה לגדל את בנה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קראה בת פרעה לתינוק \"משה\"?",
+   "answer": "כי הוציאה אותו מן המים",
+   "options": [
+    "כי הוציאה אותו מן המים",
+    "כי כך רצה פרעה",
+    "כי זה שם של מלך"
+   ],
+   "explain_he": "\"כי מן המים משיתיהו\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קראה בת פרעה לתינוק \"משה\"?",
+   "answer": "כי הוציאה אותו מן המים",
+   "options": [
+    "כי הוציאה אותו מן המים",
+    "כי כך רצה פרעה",
+    "כי זה שם של מלך"
+   ],
+   "explain_he": "\"כי מן המים משיתיהו\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה היה משה \"כבד פה\", לפי המדרש?",
+   "answer": "כי נגע בגחלת בוערת כשהיה ילד",
+   "options": [
+    "כי נגע בגחלת בוערת כשהיה ילד",
+    "כי לא למד לדבר",
+    "כי היה חולה"
+   ],
+   "explain_he": "מלאך הסיט את ידו אל הגחלת, והוא נגע בה בפה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f2e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה משה כשגדל בארמון?",
+   "answer": "יצא לראות את אחיו העבדים ועזר להם",
+   "options": [
+    "יצא לראות את אחיו העבדים ועזר להם",
+    "נשאר בארמון ושכח אותם",
+    "נעשה נוגש"
+   ],
+   "explain_he": "משה לא שכח שהוא עברי, ויצא לעזור לאחיו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f2e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שמה יוכבד את הזפת דווקא מבחוץ?",
+   "answer": "כדי שהתינוק לא יריח ריח רע",
+   "options": [
+    "כדי שהתינוק לא יריח ריח רע",
+    "כי לא הספיקה זפת",
+    "כדי שהתיבה תהיה יפה"
+   ],
+   "explain_he": "רש\"י: טיט מבפנים וזפת מבחוץ – כדי שהצדיק לא יריח ריח רע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זכתה מרים בזכות ההמתנה למשה ליד היאור?",
+   "answer": "שכל עם ישראל חיכה לה שבעה ימים במדבר",
+   "options": [
+    "שכל עם ישראל חיכה לה שבעה ימים במדבר",
+    "שקיבלה כתר",
+    "שנעשתה מלכת מצרים"
+   ],
+   "explain_he": "על כל מעשה טוב, אפילו קטן, השם נותן שכר גדול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"וירא בסבלותם\", לפי רש\"י?",
+   "answer": "שמשה נתן עיניו וליבו להצטער איתם",
+   "options": [
+    "שמשה נתן עיניו וליבו להצטער איתם",
+    "שמשה ספר את העבדים",
+    "שמשה פחד מהם"
+   ],
+   "explain_he": "משה לא רק ראה מרחוק – הוא הרגיש את הצער שלהם ועזר להם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f2e19"
+  }
+ ]
+}

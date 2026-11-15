@@ -1,0 +1,589 @@
+{
+ "id": "k-brf-f7",
+ "unit_id": "k-brf-u2",
+ "course": "bereshit",
+ "title_he": "יעקב, יוסף ואחיו",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "יעקב, יוסף ואחיו",
+   "ref_he": "סיפורי בראשית",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הסולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yaakov: a man with a dark beard in a striped brown robe and a head cloth, gentle face. Scene: Night on a rocky hillside: Yaakov asleep on the ground with his head resting on stones, and above him a tall shining ladder rising into the starry sky with small figures of light going up and down it.",
+     "move": "up",
+     "fx": "stars",
+     "art": "😴 🪜 🪨",
+     "say": [
+      "יעקב, הבן של יצחק ורבקה, אהב ללמוד תורה. הוא היה \"יושב אוהלים\".",
+      "יעקב היה צריך לצאת מהבית, ולנסוע רחוק, לחרן.",
+      "בדרך, בלילה, הוא שכב לישון על אבנים, וחלם חלום מיוחד: סולם שמגיע עד השמיים, ומלאכים עולים ויורדים בו.",
+      "והשם הבטיח לו: אני איתך, אשמור עליך, ואחזיר אותך לארץ הזאת."
+     ],
+     "pasuk": {
+      "text": "וְהִנֵּה אָנֹכִי עִמָּךְ, וּשְׁמַרְתִּיךָ בְּכֹל אֲשֶׁר תֵּלֵךְ",
+      "ref": "בראשית כח, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שתים עשרה שבטים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yaakov: a man with a dark beard in a striped brown robe and a head cloth, gentle face. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: A large family camp in Charan with many tents and flocks: Yaakov, a tall bearded man, standing among his twelve sons of different ages, from grown shepherds to a small boy, under a wide evening sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👨 👦 🐑",
+     "say": [
+      "בחרן יעקב עבד אצל לבן, הדוד שלו, הרבה שנים. הוא שמר על הצאן ביושר, בחום ובקור.",
+      "יעקב התחתן עם רחל ולאה, ונולדו לו שנים עשר בנים.",
+      "ראובן, שמעון, לוי, יהודה, יששכר, זבולון, דן, נפתלי, גד, אשר, יוסף ובנימין.",
+      "מהם יצאו שנים עשר השבטים של עם ישראל. ויעקב חזר איתם לארץ ישראל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יעקב עבד אצל לבן עשרים שנה. הוא אמר: ביום אכלני חורב, וקרח בלילה – הוא עבד ביושר, בחום ובקור."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "כתונת הפסים והחלומות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef: a young man of seventeen, beardless, dark hair, a long robe of many soft colors. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: In a green pasture near Chevron, Yosef, a boy of seventeen in a long robe of many soft colors, excitedly telling his older shepherd brothers about his dream; in the sky above, faint images of sheaves of wheat bowing, a sun, a moon and eleven stars.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦 👨 👨 🌾",
+     "say": [
+      "יעקב אהב מאוד את יוסף, ועשה לו מעיל יפה וצבעוני: כתונת פסים.",
+      "יוסף חלם חלומות. פעם חלם שהאלומות של האחים משתחוות לאלומה שלו.",
+      "ופעם חלם שהשמש, הירח ואחד עשר כוכבים משתחווים לו.",
+      "האחים קינאו בו מאוד, וכעסו עליו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יוסף נמכר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef: a young man of seventeen, beardless, dark hair, a long robe of many soft colors. Scene: A desert road at noon: a caravan of camels loaded with sacks of fragrant spices moving away toward Egypt, Yosef in a plain robe walking with the merchants and looking back at the distant hills.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐫 🐫 🚶",
+     "say": [
+      "יעקב שלח את יוסף לראות מה שלום האחים, שרעו את הצאן רחוק.",
+      "האחים ראו אותו מרחוק, ולקחו ממנו את הכתונת.",
+      "יהודה אמר: בואו נמכור אותו. והם מכרו את יוסף לסוחרים שנסעו למצרים.",
+      "ליעקב אמרו שחיה רעה טרפה אותו. ויעקב בכה, והתאבל הרבה הרבה שנים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "השם עם יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef: a young man of seventeen, beardless, dark hair, a long robe of many soft colors. Scene: Inside a dim Egyptian prison with sandstone walls: young Yosef in a plain robe sitting calmly and listening to two worried Egyptian officials, a cupbearer and a baker, a small window of light above them.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👨",
+     "say": [
+      "במצרים יוסף היה עבד, רחוק מאבא ומהבית. אבל הוא לא שכח את השם.",
+      "השם היה עם יוסף, וכל מה שעשה – הצליח.",
+      "אבל יום אחד הכניסו אותו לבית סוהר, אף שלא עשה שום דבר רע.",
+      "גם שם יוסף עזר לכולם. הוא פתר חלומות לשני שרים של פרעה, ואמר: הפתרון בא מהשם."
+     ],
+     "pasuk": {
+      "text": "וַיְהִי ה' אֶת יוֹסֵף וַיְהִי אִישׁ מַצְלִיחַ",
+      "ref": "בראשית לט, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "המשנה למלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef as ruler of Egypt: a young man with a short dark beard, a kippah-like small cap, white Egyptian robes and a gold chain of office. Scene: A grand Egyptian palace hall: Yosef as ruler in white robes and a gold chain standing before Pharaoh on his throne, through tall columns huge granaries filling with golden wheat.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👨 🌾 🏛️",
+     "say": [
+      "פרעה חלם חלום מוזר על שבע פרות שמנות ושבע פרות רזות, ואף אחד לא ידע לפתור.",
+      "הוציאו את יוסף מבית הסוהר, והוא אמר לפרעה: לא אני – השם יגיד.",
+      "יוסף הסביר: יבואו שבע שנים של שובע, ואחריהן שבע שנים של רעב.",
+      "פרעה מינה את יוסף לשליט על כל מצרים, ויוסף אסף אוכל במחסנים גדולים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "האחים באים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef as ruler of Egypt: a young man with a short dark beard, a kippah-like small cap, white Egyptian robes and a gold chain of office. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: In an Egyptian hall, Yosef as ruler in white robes looking at a group of bearded Hebrew shepherd brothers bowing before him with empty grain sacks; a young Binyamin among them; Yehuda stepping forward bravely.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👨 👨 👦",
+     "say": [
+      "הרעב הגיע גם לארץ כנען. יעקב שלח את הבנים למצרים, לקנות אוכל.",
+      "הם השתחוו לשליט של מצרים – ולא ידעו שזה יוסף! בדיוק כמו בחלום.",
+      "יוסף הכיר אותם, אבל לא אמר. הוא רצה לראות: האם הם השתנו?",
+      "כשיוסף רצה לקחת את בנימין לעבד, יהודה אמר: קח אותי במקומו! עכשיו יוסף ידע: האחים חזרו בתשובה."
+     ],
+     "pasuk": {
+      "text": "כִּי עַבְדְּךָ עָרַב אֶת הַנַּעַר",
+      "ref": "בראשית מד, לב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "אני יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef as ruler of Egypt: a young man with a short dark beard, a kippah-like small cap, white Egyptian robes and a gold chain of office. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: Yosef in white Egyptian robes, tears in his eyes, embracing his younger brother Binyamin, the older brothers standing around amazed and moved, warm light filling the hall.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦 👨 👨",
+     "say": [
+      "יוסף לא יכול היה להתאפק יותר. הוא בכה, ואמר: \"אני יוסף! העוד אבי חי?\"",
+      "האחים נבהלו מאוד, ולא ידעו מה להגיד.",
+      "אבל יוסף אמר: אל תפחדו. השם שלח אותי לפניכם, כדי שאוכל לעזור לכולם ברעב.",
+      "יוסף סלח לאחים, ונישק את כולם. המשפחה חזרה להיות משפחה."
+     ],
+     "pasuk": {
+      "text": "אֲנִי יוֹסֵף, הַעוֹד אָבִי חָי?",
+      "ref": "בראשית מה, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "יורדים מצרימה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Old Yaakov: a white-bearded elder in a brown robe and head cloth, leaning on a staff. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: A long family caravan of wagons, donkeys and flocks crossing the desert toward green Egypt: old Yaakov with a white beard riding at the front, children and women in modest robes, a soft light from above over the road.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "האחים חזרו ואמרו ליעקב: יוסף חי! ויעקב לא האמין. אבל כשראה את העגלות ששלח יוסף – רוחו חזרה אליו.",
+      "השם אמר ליעקב: אל תפחד לרדת למצרים. אני ארד איתך, ואני גם אעלה אותך.",
+      "ויעקב ירד למצרים עם כל המשפחה: שבעים נפש.",
+      "ויוסף רץ לקראת אבא שלו, וחיבק אותו, ובכה הרבה. איזו שמחה!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י מספר שיעקב שלח את יהודה לפניו למצרים, כדי להקים שם בית תלמוד – שיהיה מקום ללמוד תורה עוד לפני שהמשפחה מגיעה."
+     }
+    }
+   ],
+   "id": "k-brf-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "יעקב, יוסף ואחיו",
+   "ref_he": "סיפורי בראשית",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "הסולם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yaakov: a man with a dark beard in a striped brown robe and a head cloth, gentle face. Scene: Night on a rocky hillside: Yaakov asleep on the ground with his head resting on stones, and above him a tall shining ladder rising into the starry sky with small figures of light going up and down it.",
+     "move": "up",
+     "fx": "stars",
+     "art": "😴 🪜 🪨",
+     "say": [
+      "\"ויעקב איש תם, יושב אוהלים\". רש\"י אומר שישב באוהלי תורה, באוהל של שם ועבר, ולמד.",
+      "כשגדל, הוריו שלחו אותו לחרן, אל משפחת רבקה. בדרך הגיע למקום אחד, בא השמש, ויעקב שכב לישון שם, ואבנים תחת ראשו.",
+      "ובחלום: \"והנה סולם מוצב ארצה, וראשו מגיע השמיימה, והנה מלאכי אלוקים עולים ויורדים בו\".",
+      "והשם הבטיח לו את הארץ, ואת הזרע הרב, ושמירה בכל הדרך. יעקב התעורר ואמר: \"מה נורא המקום הזה, אין זה כי אם בית אלוקים\". רש\"י אומר שזה הר המוריה – מקום המקדש."
+     ],
+     "pasuk": {
+      "text": "וְהִנֵּה אָנֹכִי עִמָּךְ, וּשְׁמַרְתִּיךָ בְּכֹל אֲשֶׁר תֵּלֵךְ",
+      "ref": "בראשית כח, טו"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שתים עשרה שבטים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yaakov: a man with a dark beard in a striped brown robe and a head cloth, gentle face. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: A large family camp in Charan with many tents and flocks: Yaakov, a tall bearded man, standing among his twelve sons of different ages, from grown shepherds to a small boy, under a wide evening sky.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👨 👦 🐑",
+     "say": [
+      "בחרן עבד יעקב אצל לבן עשרים שנה. לבן רימה אותו פעם אחר פעם, אבל יעקב שמר על הצאן ביושר מלא, \"ביום אכלני חורב וקרח בלילה\".",
+      "יעקב נשא את רחל ואת לאה, ונולדו לו שנים עשר בנים: ראובן, שמעון, לוי, יהודה, יששכר וזבולון; דן ונפתלי; גד ואשר; ויוסף ובנימין, בני רחל.",
+      "אחרי שנים רבות חזר יעקב עם כל משפחתו לארץ ישראל. בדרך, השם קרא לו בשם חדש: ישראל.",
+      "ומכאן השם שלנו: \"בני ישראל\" – הבנים של יעקב. כל יהודי היום שייך לאחד השבטים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יעקב עבד אצל לבן עשרים שנה. הוא אמר: ביום אכלני חורב, וקרח בלילה – הוא עבד ביושר, בחום ובקור."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "כתונת הפסים והחלומות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef: a young man of seventeen, beardless, dark hair, a long robe of many soft colors. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: In a green pasture near Chevron, Yosef, a boy of seventeen in a long robe of many soft colors, excitedly telling his older shepherd brothers about his dream; in the sky above, faint images of sheaves of wheat bowing, a sun, a moon and eleven stars.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👦 👨 👨 🌾",
+     "say": [
+      "\"וישראל אהב את יוסף מכל בניו\", ועשה לו כתונת פסים – בגד צבעוני ומיוחד. והאחים ראו, ולא יכלו לדבר איתו בשלום.",
+      "יוסף חלם: הנה אנחנו מאלמים אלומות בשדה, ואלומתי קמה, ואלומותיכם משתחוות לה. ועוד חלם: השמש, הירח ואחד עשר כוכבים משתחווים לי.",
+      "האחים קינאו בו. ויעקב גער ביוסף – אבל בליבו \"שמר את הדבר\", חיכה לראות מה יקרה.",
+      "חז\"ל לומדים מכאן: אסור לאב להבדיל בין בניו. בגלל כתונת אחת, קנאה גדולה הגיעה לכל המשפחה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "יוסף נמכר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef: a young man of seventeen, beardless, dark hair, a long robe of many soft colors. Scene: A desert road at noon: a caravan of camels loaded with sacks of fragrant spices moving away toward Egypt, Yosef in a plain robe walking with the merchants and looking back at the distant hills.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐫 🐫 🚶",
+     "say": [
+      "יעקב שלח את יוסף לשכם: \"לך נא ראה את שלום אחיך\". יוסף הלך מיד, אף שידע שאחיו שונאים אותו – כיבוד אב.",
+      "האחים ראו אותו מרחוק, והפשיטו ממנו את הכתונת. ראובן רצה להציל אותו ולהשיבו לאביו.",
+      "יהודה אמר: \"מה בצע\"? והציע למכור אותו לשיירה שעברה בדרך. וכך נמכר יוסף, והגיע למצרים.",
+      "את הכתונת טבלו האחים בדם של שעיר, והביאו לאביהם. יעקב חשב שיוסף נטרף, ובכה עליו שנים רבות, ולא רצה להתנחם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י מספר שהשיירה שלקחה את יוסף נשאה בשמים בעלי ריח טוב, ולא נפט מסריח – השם ריכך ליוסף את הדרך."
+     }
+    },
+    {
+     "id": "s5",
+     "title_he": "השם עם יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef: a young man of seventeen, beardless, dark hair, a long robe of many soft colors. Scene: Inside a dim Egyptian prison with sandstone walls: young Yosef in a plain robe sitting calmly and listening to two worried Egyptian officials, a cupbearer and a baker, a small window of light above them.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👨",
+     "say": [
+      "יוסף נמכר כעבד לפוטיפר, שר הטבחים של פרעה. \"ויהי השם את יוסף\", וכל אשר עשה – הצליח.",
+      "רש\"י אומר שהשם היה \"שגור בפיו\": יוסף הזכיר את השם כל הזמן, גם בבית של אדון מצרי. הוא נשאר נאמן לדרך של אביו.",
+      "אבל בגלל עלילת שקר – יוסף הושלך לבית הסוהר, אף שלא עשה שום רע. וגם שם, \"ויהי השם את יוסף\", ושר בית הסוהר מינה אותו על כל האסירים.",
+      "בבית הסוהר פתר יוסף את החלומות של שר המשקים ושר האופים. ולפני שפתר אמר: \"הלוא לאלוקים פתרונים\" – לא אני יודע, השם יודע."
+     ],
+     "pasuk": {
+      "text": "וַיְהִי ה' אֶת יוֹסֵף וַיְהִי אִישׁ מַצְלִיחַ",
+      "ref": "בראשית לט, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "המשנה למלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef as ruler of Egypt: a young man with a short dark beard, a kippah-like small cap, white Egyptian robes and a gold chain of office. Scene: A grand Egyptian palace hall: Yosef as ruler in white robes and a gold chain standing before Pharaoh on his throne, through tall columns huge granaries filling with golden wheat.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👨 🌾 🏛️",
+     "say": [
+      "שנתיים אחר כך חלם פרעה על שבע פרות שמנות ושבע פרות רזות, ועל שבע שיבולים מלאות ושבע דקות. אף אחד לא ידע לפתור.",
+      "הביאו את יוסף מבית הסוהר. פרעה אמר: שמעתי שאתה פותר חלומות. ויוסף ענה: \"בלעדיי – אלוקים יענה את שלום פרעה\". את הכבוד הוא נתן להשם.",
+      "יוסף הסביר: שבע שנים של שובע גדול, ואחריהן שבע שנים של רעב. ועוד נתן עצה: למנות איש נבון, שיאסוף אוכל בשנות השובע.",
+      "פרעה אמר: \"הנמצא כזה, איש אשר רוח אלוקים בו?\" ומינה את יוסף, בן שלושים, למשנה למלך על כל ארץ מצרים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "האחים באים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef as ruler of Egypt: a young man with a short dark beard, a kippah-like small cap, white Egyptian robes and a gold chain of office. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: In an Egyptian hall, Yosef as ruler in white robes looking at a group of bearded Hebrew shepherd brothers bowing before him with empty grain sacks; a young Binyamin among them; Yehuda stepping forward bravely.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👨 👨 👦",
+     "say": [
+      "הרעב כבד גם בארץ כנען, ויעקב שלח עשרה מבניו למצרים לשבור בר. בנימין, הקטן, נשאר עם אביו.",
+      "הם השתחוו ליוסף אפיים ארצה – בדיוק כמו בחלום – ולא הכירו אותו. אבל יוסף הכיר אותם.",
+      "יוסף בחן אותם בחוכמה: הוא ביקש שיביאו את בנימין, ואחר כך שם את גביע הכסף שלו באמתחת של בנימין, ואמר: הוא יישאר לי לעבד.",
+      "זה היה המבחן: האם יעזבו גם את בנימין, כמו שעזבו פעם את יוסף? ויהודה ניגש ואמר: \"כי עבדך ערב את הנער... ישב נא עבדך תחת הנער\" – אני אהיה עבד במקומו!",
+      "יהודה, שפעם הציע למכור את יוסף, מוכן עכשיו למסור את עצמו בשביל אחיו. זו תשובה שלמה."
+     ],
+     "pasuk": {
+      "text": "כִּי עַבְדְּךָ עָרַב אֶת הַנַּעַר",
+      "ref": "בראשית מד, לב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "אני יוסף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Yosef as ruler of Egypt: a young man with a short dark beard, a kippah-like small cap, white Egyptian robes and a gold chain of office. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: Yosef in white Egyptian robes, tears in his eyes, embracing his younger brother Binyamin, the older brothers standing around amazed and moved, warm light filling the hall.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👦 👨 👨",
+     "say": [
+      "\"ולא יכול יוסף להתאפק\". הוא הוציא את כל המצרים, ובכה בקול: \"אני יוסף, העוד אבי חי?\"",
+      "האחים לא יכלו לענות, כי נבהלו מפניו. ויוסף אמר: \"גשו נא אליי... ועתה אל תיעצבו... כי למחיה שלחני אלוקים לפניכם\".",
+      "יוסף ראה את כל הסיפור בעיניים של אמונה: לא אתם שלחתם אותי הנה – השם שלח אותי, כדי להציל את המשפחה מרעב.",
+      "הוא נפל על צווארי בנימין אחיו ובכה, ונישק את כל אחיו. אחרי עשרים ושתיים שנה, המשפחה שוב הייתה שלמה."
+     ],
+     "pasuk": {
+      "text": "אֲנִי יוֹסֵף, הַעוֹד אָבִי חָי?",
+      "ref": "בראשית מה, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "יורדים מצרימה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Old Yaakov: a white-bearded elder in a brown robe and head cloth, leaning on a staff. Yaakov's sons: bearded shepherd brothers in simple robes and head cloths, with staffs. Scene: A long family caravan of wagons, donkeys and flocks crossing the desert toward green Egypt: old Yaakov with a white beard riding at the front, children and women in modest robes, a soft light from above over the road.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "האחים סיפרו ליעקב: \"עוד יוסף חי, והוא מושל בכל ארץ מצרים\". ליבו של יעקב לא האמין. אבל כשראה את העגלות – \"ותחי רוח יעקב אביהם\".",
+      "בבאר שבע, השם אמר לו בחזיון הלילה: \"אל תירא מרדה מצרימה... אנכי ארד עמך מצרימה, ואנכי אעלך גם עלה\".",
+      "וכך ירדו למצרים, אל ארץ גושן, שבעים נפש – כל בית יעקב. ויוסף אסר מרכבתו, יצא לקראת אביו, ובכה על צווארו עוד.",
+      "בואו נראה את כל הדרך: מבריאת העולם ושבת, דרך אדם ונח, אברהם, יצחק ויעקב – ועכשיו משפחה של שבעים נפש, שתהפוך במצרים לעם שלם.",
+      "השם הבטיח \"ואנכי אעלך גם עלה\" – והבטחה של השם תמיד מתקיימת. אבל זה כבר הסיפור הבא: משה ויציאת מצרים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י מספר שיעקב שלח את יהודה לפניו למצרים, כדי להקים שם בית תלמוד – שיהיה מקום ללמוד תורה עוד לפני שהמשפחה מגיעה."
+     }
+    }
+   ],
+   "id": "k-brf-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראה יעקב בחלום בדרך לחרן?",
+   "answer": "סולם שמגיע לשמיים, ומלאכים עולים ויורדים בו",
+   "options": [
+    "סולם שמגיע לשמיים, ומלאכים עולים ויורדים בו",
+    "שבע פרות",
+    "אלומות משתחוות"
+   ],
+   "explain_he": "בחלום הסולם השם הבטיח ליעקב לשמור עליו ולהחזיר אותו לארץ.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראה יעקב בחלום בדרך לחרן?",
+   "answer": "סולם שמגיע לשמיים, ומלאכים עולים ויורדים בו",
+   "options": [
+    "סולם שמגיע לשמיים, ומלאכים עולים ויורדים בו",
+    "שבע פרות",
+    "אלומות משתחוות"
+   ],
+   "explain_he": "בחלום הסולם השם הבטיח ליעקב לשמור עליו ולהחזיר אותו לארץ.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה בנים היו ליעקב?",
+   "answer": "שנים עשר",
+   "options": [
+    "שנים עשר",
+    "שבעה",
+    "שלושה"
+   ],
+   "explain_he": "מהם יצאו שנים עשר השבטים של עם ישראל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה בנים היו ליעקב?",
+   "answer": "שנים עשר",
+   "options": [
+    "שנים עשר",
+    "שבעה",
+    "שלושה"
+   ],
+   "explain_he": "מהם יצאו שנים עשר השבטים של עם ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה יעקב ליוסף, שגרם לאחים לקנא?",
+   "answer": "עשה לו כתונת פסים",
+   "options": [
+    "עשה לו כתונת פסים",
+    "נתן לו את כל הצאן",
+    "שלח אותו לחרן"
+   ],
+   "explain_he": "בגלל כתונת אחת, קנאה גדולה הגיעה לכל המשפחה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה יעקב ליוסף, שגרם לאחים לקנא?",
+   "answer": "עשה לו כתונת פסים",
+   "options": [
+    "עשה לו כתונת פסים",
+    "נתן לו את כל הצאן",
+    "שלח אותו לחרן"
+   ],
+   "explain_he": "בגלל כתונת אחת, קנאה גדולה הגיעה לכל המשפחה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר יוסף לפני שפתר חלומות?",
+   "answer": "שהפתרון בא מהשם",
+   "options": [
+    "שהפתרון בא מהשם",
+    "שהוא הכי חכם",
+    "שצריך לשלם לו"
+   ],
+   "explain_he": "יוסף נתן את הכבוד להשם: \"בלעדיי – אלוקים יענה\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר יוסף לפני שפתר חלומות?",
+   "answer": "שהפתרון בא מהשם",
+   "options": [
+    "שהפתרון בא מהשם",
+    "שהוא הכי חכם",
+    "שצריך לשלם לו"
+   ],
+   "explain_he": "יוסף נתן את הכבוד להשם: \"בלעדיי – אלוקים יענה\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ידע יוסף שהאחים חזרו בתשובה?",
+   "answer": "יהודה היה מוכן להיות עבד במקום בנימין",
+   "options": [
+    "יהודה היה מוכן להיות עבד במקום בנימין",
+    "הם הביאו לו מתנות",
+    "הם השתחוו לו"
+   ],
+   "explain_he": "פעם עזבו את יוסף – ועכשיו יהודה מוסר את עצמו בשביל אחיו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך ידע יוסף שהאחים חזרו בתשובה?",
+   "answer": "יהודה היה מוכן להיות עבד במקום בנימין",
+   "options": [
+    "יהודה היה מוכן להיות עבד במקום בנימין",
+    "הם הביאו לו מתנות",
+    "הם השתחוו לו"
+   ],
+   "explain_he": "פעם עזבו את יוסף – ועכשיו יהודה מוסר את עצמו בשביל אחיו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה נפשות ירדו עם יעקב למצרים?",
+   "answer": "שבעים",
+   "options": [
+    "שבעים",
+    "שתים עשרה",
+    "אלף"
+   ],
+   "explain_he": "בית יעקב – שבעים נפש – ירדו לארץ גושן.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "את מי שלח יעקב לפניו למצרים, ולמה?",
+   "answer": "את יהודה, כדי להקים בית תלמוד",
+   "options": [
+    "את יהודה, כדי להקים בית תלמוד",
+    "את יוסף, כדי לקנות אוכל",
+    "את ראובן, כדי לבנות בתים"
+   ],
+   "explain_he": "רש\"י: כדי שיהיה מקום ללמוד תורה עוד לפני שהמשפחה מגיעה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אמר יוסף לאחים \"אל תיעצבו\"?",
+   "answer": "כי הוא האמין שהשם שלח אותו כדי להציל את המשפחה",
+   "options": [
+    "כי הוא האמין שהשם שלח אותו כדי להציל את המשפחה",
+    "כי הוא שכח מה קרה",
+    "כי הוא רצה שיחזרו מהר"
+   ],
+   "explain_he": "\"כי למחיה שלחני אלוקים לפניכם\" – יוסף ראה את הכול בעיניים של אמונה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f7e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הבטיח השם ליעקב בבאר שבע?",
+   "answer": "שירד איתו למצרים ויעלה אותו משם",
+   "options": [
+    "שירד איתו למצרים ויעלה אותו משם",
+    "שלא יהיה עוד רעב לעולם",
+    "שיוסף יחזור לכנען"
+   ],
+   "explain_he": "\"אנכי ארד עמך מצרימה, ואנכי אעלך גם עלה\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f7e16"
+  }
+ ]
+}

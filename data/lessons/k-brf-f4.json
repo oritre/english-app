@@ -1,0 +1,558 @@
+{
+ "id": "k-brf-f4",
+ "unit_id": "k-brf-u2",
+ "course": "bereshit",
+ "title_he": "מגדל בבל ואברהם הצעיר",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "מגדל בבל ואברהם הצעיר",
+   "ref_he": "סיפורי בראשית",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שפה אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A wide flat plain by a river after the flood, many families in long robes making clay bricks in rows and baking them in kilns under a hot sun.",
+     "move": "out",
+     "fx": "dust",
+     "art": "👨 👨 👩 🏠",
+     "say": [
+      "אחרי המבול, המשפחה של נח גדלה והתרבתה. נולדו עוד ועוד אנשים.",
+      "כולם דיברו באותה שפה. כולם הבינו אחד את השני.",
+      "הם הגיעו לבקעה גדולה, בארץ שנער, והתחילו לעשות לבנים מטיט ולשרוף אותן באש.",
+      "כולם עבדו יחד, כמו צוות אחד גדול.",
+      "הם רצו לבנות משהו גדול מאוד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מגדל עד השמיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A huge unfinished brick tower rising into the clouds on a plain, long lines of tiny workers carrying bricks up its spiral ramp, a dusty orange sky.",
+     "move": "up",
+     "fx": "dust",
+     "art": "🏠 👨 👨",
+     "say": [
+      "הם אמרו: בואו נבנה עיר, ומגדל שמגיע עד השמיים!",
+      "הם לא בנו אותו כדי לעבוד את השם. הם בנו כדי שכולם יגידו: וואו, כמה אנחנו חזקים!",
+      "חז\"ל מספרים: כשלבנה נפלה מהמגדל – הם בכו. אבל כשאדם נפל ונפגע – לא היה אכפת להם.",
+      "הלבנים נהיו חשובות להם יותר מבני אדם."
+     ],
+     "pasuk": {
+      "text": "הָבָה נִבְנֶה לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם, וְנַעֲשֶׂה לָּנוּ שֵׁם",
+      "ref": "בראשית יא, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בלבול השפות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: Workers on the half-built tower dropping their tools in confusion, waving their hands at each other, families walking away from the plain in many directions toward distant hills.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👨 👩 🚶",
+     "say": [
+      "השם ראה מה הם עושים, ובלבל את השפה שלהם.",
+      "פתאום אחד ביקש לבנה – והשני הביא לו מים. אחד אמר \"פטיש\" – והשני לא הבין.",
+      "הם לא הצליחו להמשיך לבנות. כל משפחה הלכה לארץ אחרת, עם שפה משלה.",
+      "לכן קוראים למקום \"בבל\": שם השם בלבל את השפות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "שם המקום \"בבל\" בא מהמילה \"בלבל\": שם בלל השם את שפת כל הארץ."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "ילד שחושב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Young Avraham: a thoughtful boy of about ten in a plain tan robe, curly dark hair. Scene: A boy of about ten in a plain tan robe sitting on a flat clay roof at night in the ancient city of Ur, looking up thoughtfully at a full sky of stars and a bright moon.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👦 🏠",
+     "say": [
+      "בעיר אור כשדים גר ילד בשם אברם. אבא שלו, תרח, מכר פסלים.",
+      "באותם ימים אנשים שכחו את השם, ועבדו לפסלים של אבן ועץ.",
+      "אבל אברם הקטן חשב וחשב: מי ברא את השמש? מי ברא את הירח ואת הכוכבים?",
+      "ולאט לאט הוא הבין: יש בורא אחד, שברא את הכול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "החנות של תרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Young Avraham: a thoughtful boy of about ten in a plain tan robe, curly dark hair. Scene: Inside a dim ancient pottery shop with plain clay jars on shelves and broken pottery pieces scattered on the floor, the boy holding a wooden stick and looking calmly at an angry merchant in the doorway.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👦 👨",
+     "say": [
+      "פעם תרח יצא, והשאיר את אברם לשמור על החנות.",
+      "אברם לקח מקל, ושבר את כל הפסלים – חוץ מהגדול. ואת המקל שם ביד של הפסל הגדול.",
+      "תרח חזר וצעק: מה קרה פה? אברם אמר: הפסל הגדול שבר את כולם!",
+      "תרח אמר: אבל הוא רק פסל, הוא לא יכול לזוז! ואברם ענה: אז למה עובדים לו?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "כבשן האש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A young man in a plain robe walking out unharmed from a glowing brick furnace, calm and peaceful, soft light from above surrounding him, astonished people in long robes watching from afar.",
+     "move": "up",
+     "fx": "light",
+     "art": "🚶 👨 👨",
+     "say": [
+      "המלך של המקום, נמרוד, שמע על אברם וכעס מאוד.",
+      "הוא אמר: אם אתה לא משתחווה לפסלים – אזרוק אותך לכבשן האש!",
+      "אבל אברם לא פחד. הוא האמין בשם.",
+      "הוא אמר בלב: השם ברא את האש, והשם יכול לשמור עליי.",
+      "והשם הציל אותו. אברם יצא מהאש בשלום, אפילו לא נכווה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6b",
+     "title_he": "אברהם העברי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A wide river at sunrise: on one bank a great crowd of people in long robes, and on the other bank a single young man in a plain robe standing alone and calm, looking up at a soft light in the sky.",
+     "move": "out",
+     "fx": "light",
+     "art": "🚶 👨 👨 👨",
+     "say": [
+      "אברהם נקרא \"אברהם העברי\". למה?",
+      "חז\"ל אומרים: כל העולם כולו עמד בצד אחד, ואברהם עמד לבד בצד השני.",
+      "כולם עבדו לפסלים, ורק אברהם האמין בשם. והוא לא התבייש ולא פחד.",
+      "גם אנחנו לפעמים שונים מאחרים. ואז נזכור את אברהם: הוא עשה מה שנכון, גם כשהיה לבד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "לך לך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Sarah: a dignified woman in a long blue dress and a head covering, gentle and wise. Scene: Avraham and Sarah in long modest robes leading a small caravan of donkeys, camels and sheep along a dusty road toward green hills at sunrise, a soft light ahead of them.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👩 🐫 🐑",
+     "say": [
+      "אברם גדל, והתחתן עם שרי, אשה צדקנית.",
+      "יום אחד השם אמר לו: \"לך לך\". עזוב את הארץ שלך, ולך לארץ שאני אראה לך.",
+      "ואברם הלך. הוא לא ידע אפילו לאן! הוא פשוט האמין בשם.",
+      "והארץ שהשם הראה לו הייתה ארץ כנען – ארץ ישראל שלנו."
+     ],
+     "pasuk": {
+      "text": "לֶךְ לְךָ מֵאַרְצְךָ וּמִמּוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ, אֶל הָאָרֶץ אֲשֶׁר אַרְאֶךָּ",
+      "ref": "בראשית יב, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-brf-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "📜 ידע כללי",
+   "title_he": "מגדל בבל ואברהם הצעיר",
+   "ref_he": "סיפורי בראשית",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "שפה אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A wide flat plain by a river after the flood, many families in long robes making clay bricks in rows and baking them in kilns under a hot sun.",
+     "move": "out",
+     "fx": "dust",
+     "art": "👨 👨 👩 🏠",
+     "say": [
+      "אחרי המבול, צאצאי נח התרבו, ו\"כל הארץ הייתה שפה אחת ודברים אחדים\".",
+      "הם נסעו מקדם, ומצאו בקעה גדולה בארץ שנער – זה האזור של בבל.",
+      "ושם הם המציאו דבר חדש: לבנים. לא היו שם אבנים, אז הם עשו לבנים מטיט ושרפו אותן באש, ובמקום טיט השתמשו בחֵמר.",
+      "עם כל הכוח הזה, וכל השפה האחת, הם יכלו לעשות דברים נפלאים. אבל מה הם בחרו לבנות?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "מגדל עד השמיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A huge unfinished brick tower rising into the clouds on a plain, long lines of tiny workers carrying bricks up its spiral ramp, a dusty orange sky.",
+     "move": "up",
+     "fx": "dust",
+     "art": "🏠 👨 👨",
+     "say": [
+      "\"הבה נבנה לנו עיר ומגדל וראשו בשמיים, ונעשה לנו שם\". הם לא רצו לעשות שם להשם – אלא לעצמם.",
+      "רש\"י מביא שהם אמרו בגאווה: נעלה עד הרקיע! הם חשבו שהם לא צריכים את השם, ושהם יכולים להסתדר לבד, בכוח שלהם.",
+      "חז\"ל מתארים את המגדל: הוא היה כל כך גבוה, שלקח שנה שלמה לעלות עם לבנה עד למעלה.",
+      "ולכן, כשלבנה נפלה – הם בכו: אוי, מתי נביא אחרת? אבל אם אדם נפל ונפגע – אף אחד לא שם לב.",
+      "זה מה שקורה כשבני אדם שוכחים את השם: הבניין נהיה חשוב יותר מהאדם."
+     ],
+     "pasuk": {
+      "text": "הָבָה נִבְנֶה לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם, וְנַעֲשֶׂה לָּנוּ שֵׁם",
+      "ref": "בראשית יא, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "בלבול השפות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: Workers on the half-built tower dropping their tools in confusion, waving their hands at each other, families walking away from the plain in many directions toward distant hills.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👨 👩 🚶",
+     "say": [
+      "השם ירד, כביכול, לראות את העיר והמגדל. רש\"י אומר: הוא לא היה צריך לרדת – אלא לימד אותנו לא לשפוט אף אחד לפני שבודקים היטב.",
+      "השם בלבל את שפתם: אחד ביקש לבנה, והשני הביא לו טיט. אחד דיבר, והשני לא הבין מילה.",
+      "הם הפסיקו לבנות, והשם פיזר אותם על פני כל הארץ. כך נוצרו העמים, כל אחד בשפתו ובארצו.",
+      "ולמה הם לא נענשו קשה כמו דור המבול? רש\"י מסביר: אנשי דור המבול גזלו ורבו זה עם זה. אבל אנשי דור הפלגה אהבו זה את זה ודיברו בשלום. שלום הוא דבר חשוב כל כך."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "שם המקום \"בבל\" בא מהמילה \"בלבל\": שם בלל השם את שפת כל הארץ."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "ילד שחושב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Young Avraham: a thoughtful boy of about ten in a plain tan robe, curly dark hair. Scene: A boy of about ten in a plain tan robe sitting on a flat clay roof at night in the ancient city of Ur, looking up thoughtfully at a full sky of stars and a bright moon.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👦 🏠",
+     "say": [
+      "כמה דורות אחרי המבול, בעיר אור כשדים, נולד ילד בשם אברם, בן תרח. רק אחר כך השם יקרא לו אברהם.",
+      "באותם ימים העולם כמעט כולו שכח את השם. אנשים השתחוו לשמש, לירח ולפסלים שעשו בידיהם.",
+      "אבל אברם התבונן בעולם ושאל: מי ברא את כל זה? חז\"ל משווים אותו לאדם שעובר ליד ארמון מואר, ושואל: האם ייתכן שאין לארמון הזה בעל בית?",
+      "ובאותו רגע, אומרים חז\"ל, הציץ עליו בעל הבית ואמר: אני הוא בעל הבית. ואברם הבין: לעולם יש בורא, והוא אחד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "החנות של תרח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Young Avraham: a thoughtful boy of about ten in a plain tan robe, curly dark hair. Scene: Inside a dim ancient pottery shop with plain clay jars on shelves and broken pottery pieces scattered on the floor, the boy holding a wooden stick and looking calmly at an angry merchant in the doorway.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👦 👨",
+     "say": [
+      "המדרש מספר: תרח היה עושה פסלים ומוכר אותם. יום אחד יצא, והשאיר את אברם בחנות.",
+      "באה אישה עם צלחת סולת, ואמרה: תן את זה לפסלים. אברם לקח מקל, שבר את כל הפסלים, ואת המקל שם ביד של הגדול שבהם.",
+      "תרח חזר וצעק: מי עשה את זה? אמר אברם: הם רבו מי יאכל ראשון, והגדול קם ושבר את כולם.",
+      "אמר לו תרח: מה אתה מספר לי? הם הרי לא יודעים כלום! ואברם ענה: וישמעו אוזניך מה שפיך אומר. אם הם לא יודעים כלום – למה להשתחוות להם?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "כבשן האש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A young man in a plain robe walking out unharmed from a glowing brick furnace, calm and peaceful, soft light from above surrounding him, astonished people in long robes watching from afar.",
+     "move": "up",
+     "fx": "light",
+     "art": "🚶 👨 👨",
+     "say": [
+      "המדרש ממשיך: תרח לקח את אברם אל נמרוד, המלך החזק של אותם ימים. נמרוד אמר לו: השתחווה לאש!",
+      "אברם ענה בחכמה: אולי נשתחווה למים, שמכבים את האש? ואולי לעננים, שנושאים את המים? ואולי לרוח, שמפזרת את העננים?",
+      "נמרוד כעס ואמר: אני משתחווה רק לאש, ואני אזרוק אותך לתוכה. שיבוא האל שלך ויציל אותך!",
+      "אברם נזרק לכבשן – והשם הציל אותו. הוא יצא בשלום. רש\"י אומר שזה סוד השם \"אור כשדים\": אור הוא אש.",
+      "זה היה הניסיון הראשון של אברהם. חז\"ל אומרים שעשרה ניסיונות ניסה השם את אברהם, ובכולם עמד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רש\"י מסביר שהשם \"אור כשדים\" רומז גם לאש: \"אור\" הוא אש, ושם ניצל אברם מכבשן האש."
+     }
+    },
+    {
+     "id": "s6b",
+     "title_he": "אברהם העברי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes.  Scene: A wide river at sunrise: on one bank a great crowd of people in long robes, and on the other bank a single young man in a plain robe standing alone and calm, looking up at a soft light in the sky.",
+     "move": "out",
+     "fx": "light",
+     "art": "🚶 👨 👨 👨",
+     "say": [
+      "בתורה, אברהם נקרא \"אברם העברי\". חז\"ל דורשים: כל העולם כולו מעבר אחד, והוא מעבר אחד.",
+      "כל הדור עמד בצד אחד של הנהר, ואברם לבדו בצד השני. הוא לא הלך אחרי הרוב, כשהרוב טעה.",
+      "וזה גם השם שלנו: עברים, יהודים. עם שמוכן להיות שונה מכל העמים, כדי לשמור על האמונה בשם ועל התורה.",
+      "ולא רק לעמוד לבד – אברהם גם קירב אחרים. בכל מקום שהלך, הוא לימד אנשים שיש בורא אחד לעולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "לך לך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. The world of Sefer Bereshit: fresh green hills, wide skies and deserts of the ancient Near East, simple tents, clay houses, flocks and wells. Early-history clothing: long woven robes and head cloths. Wonder and warmth; people are often seen small inside big landscapes. Avraham: a tall man with a grey beard in a cream and brown robe and a head cloth, warm and wise eyes. Sarah: a dignified woman in a long blue dress and a head covering, gentle and wise. Scene: Avraham and Sarah in long modest robes leading a small caravan of donkeys, camels and sheep along a dusty road toward green hills at sunrise, a soft light ahead of them.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👩 🐫 🐑",
+     "say": [
+      "אברם גדל, ונשא לאשה את שרי – אחר כך השם יקרא להם אברהם ושרה.",
+      "ואז בא הניסיון הבא: \"לך לך מארצך וממולדתך ומבית אביך, אל הארץ אשר אראך\". לעזוב הכול, ואפילו בלי לדעת לאן.",
+      "והשם הבטיח: \"ואעשך לגוי גדול, ואברכך... ונברכו בך כל משפחות האדמה\".",
+      "אברם ושרי יצאו לדרך, ואיתם \"הנפש אשר עשו בחרן\" – רש\"י אומר: האנשים שקירבו לאמונה בשם. אברם לימד את הגברים, ושרי לימדה את הנשים.",
+      "והם הגיעו לארץ כנען – ארץ ישראל. ושם, על ההרים, בנה אברם מזבח וקרא בשם השם."
+     ],
+     "pasuk": {
+      "text": "לֶךְ לְךָ מֵאַרְצְךָ וּמִמּוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ, אֶל הָאָרֶץ אֲשֶׁר אַרְאֶךָּ",
+      "ref": "בראשית יב, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-brf-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא אברהם \"העברי\", לפי חז\"ל?",
+   "answer": "כי כל העולם עמד בצד אחד, והוא לבד בצד השני",
+   "options": [
+    "כי כל העולם עמד בצד אחד, והוא לבד בצד השני",
+    "כי עבר הרבה נהרות",
+    "כי דיבר הרבה שפות"
+   ],
+   "explain_he": "אברהם עשה מה שנכון, גם כשהיה לבד מול כולם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה נקרא אברהם \"העברי\", לפי חז\"ל?",
+   "answer": "כי כל העולם עמד בצד אחד, והוא לבד בצד השני",
+   "options": [
+    "כי כל העולם עמד בצד אחד, והוא לבד בצד השני",
+    "כי עבר הרבה נהרות",
+    "כי דיבר הרבה שפות"
+   ],
+   "explain_he": "אברהם עשה מה שנכון, גם כשהיה לבד מול כולם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בנו אנשי בבל את המגדל?",
+   "answer": "כדי להראות כמה הם חזקים ולעשות לעצמם שם",
+   "options": [
+    "כדי להראות כמה הם חזקים ולעשות לעצמם שם",
+    "כדי לעבוד את השם",
+    "כדי להציל אנשים ממבול"
+   ],
+   "explain_he": "\"ונעשה לנו שם\" – הם רצו כבוד לעצמם, ולא לשם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בנו אנשי בבל את המגדל?",
+   "answer": "כדי להראות כמה הם חזקים ולעשות לעצמם שם",
+   "options": [
+    "כדי להראות כמה הם חזקים ולעשות לעצמם שם",
+    "כדי לעבוד את השם",
+    "כדי להציל אנשים ממבול"
+   ],
+   "explain_he": "\"ונעשה לנו שם\" – הם רצו כבוד לעצמם, ולא לשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה כשלבנה נפלה מהמגדל, לפי חז\"ל?",
+   "answer": "הם בכו – אבל על אדם שנפל לא היה אכפת להם",
+   "options": [
+    "הם בכו – אבל על אדם שנפל לא היה אכפת להם",
+    "הם צחקו",
+    "הם הפסיקו לבנות"
+   ],
+   "explain_he": "הלבנים נהיו חשובות להם יותר מבני אדם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה כשלבנה נפלה מהמגדל, לפי חז\"ל?",
+   "answer": "הם בכו – אבל על אדם שנפל לא היה אכפת להם",
+   "options": [
+    "הם בכו – אבל על אדם שנפל לא היה אכפת להם",
+    "הם צחקו",
+    "הם הפסיקו לבנות"
+   ],
+   "explain_he": "הלבנים נהיו חשובות להם יותר מבני אדם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה השם לבוני המגדל?",
+   "answer": "בלבל את השפה שלהם",
+   "options": [
+    "בלבל את השפה שלהם",
+    "הביא מבול",
+    "הפך את המגדל לזהב"
+   ],
+   "explain_he": "השם בלבל את שפתם, והם לא הבינו זה את זה, ולכן נקרא המקום \"בבל\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה השם לבוני המגדל?",
+   "answer": "בלבל את השפה שלהם",
+   "options": [
+    "בלבל את השפה שלהם",
+    "הביא מבול",
+    "הפך את המגדל לזהב"
+   ],
+   "explain_he": "השם בלבל את שפתם, והם לא הבינו זה את זה, ולכן נקרא המקום \"בבל\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הוכיח אברם לתרח שהפסלים לא שווים כלום?",
+   "answer": "שבר אותם ושם מקל ביד הפסל הגדול",
+   "options": [
+    "שבר אותם ושם מקל ביד הפסל הגדול",
+    "הסתיר אותם במרתף",
+    "מכר אותם בזול"
+   ],
+   "explain_he": "תרח אמר \"הם לא יכולים לזוז\" – ואברם ענה: אז למה עובדים להם?",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הוכיח אברם לתרח שהפסלים לא שווים כלום?",
+   "answer": "שבר אותם ושם מקל ביד הפסל הגדול",
+   "options": [
+    "שבר אותם ושם מקל ביד הפסל הגדול",
+    "הסתיר אותם במרתף",
+    "מכר אותם בזול"
+   ],
+   "explain_he": "תרח אמר \"הם לא יכולים לזוז\" – ואברם ענה: אז למה עובדים להם?",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הציל את אברם מכבשן האש?",
+   "answer": "השם",
+   "options": [
+    "השם",
+    "נמרוד",
+    "תרח"
+   ],
+   "explain_he": "אברם האמין בשם, והשם הציל אותו. הוא יצא מהאש בשלום.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר השם לאברם ב\"לך לך\"?",
+   "answer": "לעזוב את ארצו וללכת לארץ שהשם יראה לו",
+   "options": [
+    "לעזוב את ארצו וללכת לארץ שהשם יראה לו",
+    "לבנות מגדל",
+    "לחזור לאור כשדים"
+   ],
+   "explain_he": "ואברם הלך, אפילו בלי לדעת לאן – והגיע לארץ ישראל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-brf-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דור הפלגה לא נענש קשה כמו דור המבול, לפי רש\"י?",
+   "answer": "כי הם אהבו זה את זה וחיו בשלום",
+   "options": [
+    "כי הם אהבו זה את זה וחיו בשלום",
+    "כי הם היו מעטים",
+    "כי המגדל היה קטן"
+   ],
+   "explain_he": "אנשי דור המבול גזלו ורבו. אנשי דור הפלגה דיברו בשלום – ושלום הוא דבר חשוב מאוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה משווים חז\"ל את אברם, כשגילה את השם?",
+   "answer": "לאדם שרואה ארמון מואר ושואל מי בעל הבית",
+   "options": [
+    "לאדם שרואה ארמון מואר ושואל מי בעל הבית",
+    "לדייג שמחפש דגים",
+    "לבנאי שבונה מגדל"
+   ],
+   "explain_he": "אברם הבין: עולם כל כך מסודר ויפה – חייב להיות לו בורא.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי היו \"הנפש אשר עשו בחרן\", לפי רש\"י?",
+   "answer": "אנשים שאברם ושרי קירבו לאמונה בשם",
+   "options": [
+    "אנשים שאברם ושרי קירבו לאמונה בשם",
+    "העבדים שקנו",
+    "החיות של אברם"
+   ],
+   "explain_he": "אברם לימד את הגברים ושרי לימדה את הנשים להאמין בשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-brf-f4e17"
+  }
+ ]
+}

@@ -1,0 +1,579 @@
+{
+ "id": "k-exf-f3",
+ "unit_id": "k-exf-u1",
+ "course": "exodus",
+ "title_he": "משה במדין והסנה הבוער",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌊 ידע כללי",
+   "title_he": "משה במדין והסנה הבוער",
+   "ref_he": "משה ויציאת מצרים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ליד הבאר במדין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: A stone well in the desert of Midyan at noon: Moshe in a simple robe drawing water for a flock of sheep, seven shepherd girls in long modest dresses and head coverings standing gratefully beside their sheep, rough shepherds walking away.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👨 🕳️ 🐑 🐑",
+     "say": [
+      "משה הגיע לארץ מדין, וישב ליד באר מים.",
+      "שבע בנות של כהן מדין, יתרו, באו להשקות את הצאן של אבא שלהן.",
+      "אבל רועים אחרים באו וגירשו אותן. ומשה קם ועזר להן, והשקה את הצאן שלהן.",
+      "משה לא יכול לראות עוול. גם כשמדובר באנשים שהוא לא מכיר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הרועה והגדי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe in a shepherd's robe walking across a wide desert carrying a small tired lamb gently in his arms, a flock of sheep following him toward a quiet spring among rocks.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 🐑 🐑 🪨",
+     "say": [
+      "משה היה רועה טוב מאוד. הוא שמר על כל כבש וכל גדי.",
+      "הוא הוביל אותם למקומות עם עשב טוב, ודאג שאף אחד לא ילך לאיבוד.",
+      "פעם גדי קטן ברח. משה רץ אחריו, עד שמצא אותו שותה מים ממעיין.",
+      "משה אמר: לא ידעתי שאתה צמא. בטח אתה עייף. והוא הרים את הגדי על הכתפיים, והחזיר אותו.",
+      "השם אמר: מי שדואג כך לגדי קטן – הוא ירעה את עם ישראל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שהשם בוחן את מנהיגי ישראל דרך הצאן: גם משה וגם דוד המלך היו רועים נאמנים לפני שנבחרו."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "הסנה הבוער",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: At the foot of a tall red mountain in the desert: a low thorny bush burning with bright flames that do not consume it, its green leaves still fresh, Moshe standing at a distance with his flock, staring in wonder.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 🌳 🐑",
+     "say": [
+      "יום אחד משה הוביל את הצאן במדבר, והגיע להר חורב – הוא הר סיני.",
+      "פתאום ראה משהו מוזר: שיח קוצים, סנה, בוער באש.",
+      "האש בערה ובערה – אבל השיח לא נשרף! העלים נשארו ירוקים.",
+      "משה אמר: אסורה נא ואראה. אלך לראות את הדבר הפלא הזה."
+     ],
+     "pasuk": {
+      "text": "וְהִנֵּה הַסְּנֶה בֹּעֵר בָּאֵשׁ, וְהַסְּנֶה אֵינֶנּוּ אֻכָּל",
+      "ref": "שמות ג, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "של נעליך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe barefoot, his sandals placed on the ground beside him, kneeling before the burning bush with his face hidden in his hands, a strong soft light around the flames.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 🌳",
+     "say": [
+      "ומתוך הסנה קרא השם: משה, משה! ומשה ענה: הנני.",
+      "השם אמר: אל תתקרב. תוריד את הנעליים, כי המקום הזה קדוש.",
+      "משה הוריד את הנעליים, והסתיר את הפנים שלו. הוא פחד להסתכל.",
+      "ולמה דווקא בשיח קוצים? כי השם רצה לומר: גם אני כביכול איתכם בצרה, כמו האש בין הקוצים."
+     ],
+     "pasuk": {
+      "text": "שַׁל נְעָלֶיךָ מֵעַל רַגְלֶיךָ, כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עוֹמֵד עָלָיו אַדְמַת קֹדֶשׁ הוּא",
+      "ref": "שמות ג, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שלח נא ביד תשלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe barefoot in the desert near the bush, humbly spreading his hands and shaking his head, the flames of the bush still glowing softly behind him, his flock resting nearby.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 🌳 🐑",
+     "say": [
+      "השם אמר: ראיתי את הצער של עמי במצרים. אני שולח אותך אל פרעה, להוציא אותם.",
+      "אבל משה היה עניו מאוד. הוא אמר: מי אני? אני לא יודע לדבר יפה.",
+      "והשם אמר: אני אהיה איתך. ואהרן אחיך ידבר בשבילך.",
+      "ומשה הסכים. הוא ילך אל פרעה, בשליחות של השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "אהיה אשר אהיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe barefoot near the burning bush at twilight, looking up with his hands open in a question, the flames glowing softly and a gentle light from above; far away on the horizon, the land of Egypt.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 🌳",
+     "say": [
+      "משה שאל עוד שאלה: כשאבוא לבני ישראל, ויגידו לי – מי שלח אותך? מה אגיד?",
+      "השם אמר: תגיד להם \"אהיה אשר אהיה\".",
+      "רש\"י מסביר: אני אהיה איתם בצרה הזאת, ואהיה איתם גם בצרות אחרות, תמיד.",
+      "והשם נתן למשה מילים מיוחדות: \"פקוד פקדתי אתכם\". כשבני ישראל ישמעו אותן – הם יידעו שזו באמת הגאולה."
+     ],
+     "pasuk": {
+      "text": "פָּקֹד פָּקַדְתִּי אֶתְכֶם וְאֶת הֶעָשׂוּי לָכֶם בְּמִצְרָיִם",
+      "ref": "שמות ג, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "האותות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe barefoot in the desert holding up his wooden staff in astonishment as it turns into a long serpent on the sand, then back into a staff; his flock watching from among the rocks.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👨 🐍 🪨",
+     "say": [
+      "משה שאל: ואם הם לא יאמינו לי?",
+      "השם אמר: זרוק את המטה שלך על הארץ. משה זרק – והמטה הפך לנחש!",
+      "משה ברח. אבל השם אמר: תפוס אותו בזנב. ומשה תפס – והנחש חזר להיות מטה.",
+      "השם נתן למשה אותות, כדי שבני ישראל יאמינו שהשם שלח אותו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בדרך חזרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Aharon: an older man with a long grey beard in a dark blue robe and head cloth, warm, peaceful smile. Scene: On a desert road two bearded brothers meeting and embracing joyfully: Moshe with his staff and older Aharon in a blue robe, the red mountain behind them in golden light.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👴 🪨",
+     "say": [
+      "משה נפרד מיתרו, ויצא בחזרה למצרים.",
+      "בדרך, ליד הר האלוקים, הוא פגש את אהרן אחיו. והם התחבקו בשמחה גדולה!",
+      "יחד הם באו אל זקני ישראל, ואמרו: השם זכר אתכם. הגאולה מגיעה!",
+      "והעם האמין, והשתחווה לשם."
+     ],
+     "pasuk": {
+      "text": "וַיַּאֲמֵן הָעָם, וַיִּשְׁמְעוּ כִּי פָקַד ה' אֶת בְּנֵי יִשְׂרָאֵל",
+      "ref": "שמות ד, לא"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exf-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌊 ידע כללי",
+   "title_he": "משה במדין והסנה הבוער",
+   "ref_he": "משה ויציאת מצרים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ליד הבאר במדין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: A stone well in the desert of Midyan at noon: Moshe in a simple robe drawing water for a flock of sheep, seven shepherd girls in long modest dresses and head coverings standing gratefully beside their sheep, rough shepherds walking away.",
+     "move": "in",
+     "fx": "dust",
+     "art": "👨 🕳️ 🐑 🐑",
+     "say": [
+      "משה הגיע למדין והתיישב ליד הבאר. שבע בנות יתרו, כהן מדין, באו לשאוב מים לצאן אביהן.",
+      "רש\"י מספר שיתרו עזב את עבודת האלילים, ולכן אנשי מדין התרחקו ממנו. והרועים באו וגירשו את בנותיו.",
+      "\"ויקם משה ויושיען, וישק את צאנם\". משה לא שאל של מי הצאן ומי הבנות – הוא ראה עוול, וקם.",
+      "יתרו קרא לו לביתו, ומשה נשאר שם, ונשא לאשה את צפורה בתו. ומשה נעשה רועה של הצאן של יתרו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "הרועה והגדי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe in a shepherd's robe walking across a wide desert carrying a small tired lamb gently in his arms, a flock of sheep following him toward a quiet spring among rocks.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 🐑 🐑 🪨",
+     "say": [
+      "המדרש מספר: פעם ברח גדי מהעדר של משה. משה רץ אחריו, עד שהגיע הגדי לבריכת מים ועמד לשתות.",
+      "אמר משה: אני לא ידעתי שרץ היית מפני צמא. עייף אתה! הרכיב אותו על כתפו, והחזיר אותו לעדר.",
+      "אמר הקדוש ברוך הוא: יש לך רחמים לנהוג צאנו של בשר ודם כך – חייך, אתה תרעה צאני, ישראל.",
+      "מנהיג אמיתי לא נמדד בכוח או בעושר, אלא ברחמים ובאכפתיות – גם לחלש ולקטן."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שהשם בוחן את מנהיגי ישראל דרך הצאן: גם משה וגם דוד המלך היו רועים נאמנים לפני שנבחרו."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "הסנה הבוער",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: At the foot of a tall red mountain in the desert: a low thorny bush burning with bright flames that do not consume it, its green leaves still fresh, Moshe standing at a distance with his flock, staring in wonder.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 🌳 🐑",
+     "say": [
+      "משה נהג את הצאן אחר המדבר, ובא אל הר האלוקים, חורבה. שם ראה מראה פלא.",
+      "\"והנה הסנה בוער באש, והסנה איננו אוכל\". שיח קוצים קטן, שהאש מקיפה אותו, והוא לא נשרף.",
+      "משה יכול היה להמשיך בדרכו. אבל אמר: \"אסורה נא ואראה את המראה הגדול הזה, מדוע לא יבער הסנה\".",
+      "חז\"ל אומרים: כשהשם ראה שמשה סר לראות – שהוא שם לב ולא עבר הלאה – רק אז קרא אליו."
+     ],
+     "pasuk": {
+      "text": "וְהִנֵּה הַסְּנֶה בֹּעֵר בָּאֵשׁ, וְהַסְּנֶה אֵינֶנּוּ אֻכָּל",
+      "ref": "שמות ג, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "של נעליך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe barefoot, his sandals placed on the ground beside him, kneeling before the burning bush with his face hidden in his hands, a strong soft light around the flames.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 🌳",
+     "say": [
+      "\"ויקרא אליו אלוקים מתוך הסנה, ויאמר: משה משה. ויאמר: הנני\".",
+      "\"של נעליך מעל רגליך, כי המקום אשר אתה עומד עליו אדמת קודש הוא\". משה הוריד את נעליו, \"ויסתר משה פניו, כי ירא מהביט\".",
+      "למה התגלה השם דווקא מתוך סנה, שיח קוצים נמוך ופשוט? רש\"י אומר: \"עמו אנוכי בצרה\". עם ישראל בצרה – וגם השם, כביכול, נמצא איתם בתוך הקוצים.",
+      "והאש שלא אוכלת את הסנה רומזת לעם ישראל: מצרים רוצה לכלות אותו, אבל הוא לא יכלה לעולם."
+     ],
+     "pasuk": {
+      "text": "שַׁל נְעָלֶיךָ מֵעַל רַגְלֶיךָ, כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עוֹמֵד עָלָיו אַדְמַת קֹדֶשׁ הוּא",
+      "ref": "שמות ג, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "שלח נא ביד תשלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe barefoot in the desert near the bush, humbly spreading his hands and shaking his head, the flames of the bush still glowing softly behind him, his flock resting nearby.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 🌳 🐑",
+     "say": [
+      "השם אמר: \"ראה ראיתי את עני עמי אשר במצרים... ואת צעקתם שמעתי... וארד להצילו\". ועכשיו – \"לכה ואשלחך אל פרעה\".",
+      "ומשה, הענו מכל האדם, ענה: \"מי אנוכי כי אלך אל פרעה?\" ואחר כך: \"לא איש דברים אנוכי... כי כבד פה וכבד לשון אנוכי\".",
+      "שבעה ימים, אומר רש\"י, ניסה משה לסרב. אחת הסיבות: הוא לא רצה לקבל גדולה על פני אהרן, אחיו הגדול.",
+      "והשם אמר: \"הנה הוא יוצא לקראתך, וראך ושמח בליבו\". אהרן לא יקנא – הוא ישמח. ואהרן יהיה הפה של משה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5b",
+     "title_he": "אהיה אשר אהיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe barefoot near the burning bush at twilight, looking up with his hands open in a question, the flames glowing softly and a gentle light from above; far away on the horizon, the land of Egypt.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨 🌳",
+     "say": [
+      "משה שאל: \"הנה אנוכי בא אל בני ישראל... ואמרו לי מה שמו, מה אומר אליהם?\"",
+      "השם ענה: \"אהיה אשר אהיה\". רש\"י מפרש: אהיה עימם בצרה הזאת, אשר אהיה עימם בשעבוד שאר מלכויות. השם מבטיח להיות עם עמו בכל הגלויות.",
+      "ועוד אמר: לך ואמור לזקני ישראל \"פקוד פקדתי אתכם\". רש\"י אומר: \"ושמעו לקולך\" – כי הסימן הזה מסור בידם מיעקב ומיוסף, שבלשון הזה הם נגאלים.",
+      "יוסף אמר לפני מותו: \"פקוד יפקוד אלוקים אתכם\". עכשיו משה מביא בדיוק את המילים האלה. המסורת של האבות היא המפתח לגאולה."
+     ],
+     "pasuk": {
+      "text": "פָּקֹד פָּקַדְתִּי אֶתְכֶם וְאֶת הֶעָשׂוּי לָכֶם בְּמִצְרָיִם",
+      "ref": "שמות ג, טז"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "האותות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Scene: Moshe barefoot in the desert holding up his wooden staff in astonishment as it turns into a long serpent on the sand, then back into a staff; his flock watching from among the rocks.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👨 🐍 🪨",
+     "say": [
+      "משה שאל: \"והן לא יאמינו לי, ולא ישמעו בקולי\". והשם נתן לו שלושה אותות.",
+      "המטה שהשליך משה ארצה – נהפך לנחש, ומשה נס מפניו. וכשאחז בזנבו – חזר להיות מטה ביד משה.",
+      "אחר כך, ידו של משה נעשתה לבנה כשלג כשהכניס אותה לחיקו, ושבה לקדמותה. והאות השלישי: מים מן היאור שייהפכו לדם על היבשה.",
+      "רש\"י אומר שבאותות האלה היה גם רמז: משה אמר \"לא יאמינו לי\", וחשד באחיו. השם לימד אותו – בני ישראל הם \"מאמינים בני מאמינים\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בדרך חזרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Egypt and the Sinai desert in the time of the Exodus: the wide Nile with reeds and palms, mud-brick cities, the mighty stone palace of Pharaoh, then golden desert, red mountains and the sea. The Israelites wear simple long robes and head cloths; Egyptians wear white linen. Warm, hopeful light. Moshe: a tall man with a dark beard in a simple brown shepherd's robe and head cloth, holding a wooden staff, humble. Aharon: an older man with a long grey beard in a dark blue robe and head cloth, warm, peaceful smile. Scene: On a desert road two bearded brothers meeting and embracing joyfully: Moshe with his staff and older Aharon in a blue robe, the red mountain behind them in golden light.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👴 🪨",
+     "say": [
+      "משה ביקש רשות מיתרו, חותנו, לחזור. כיבוד חותן – גם כשהשם בעצמו שולח.",
+      "והשם אמר לאהרן: \"לך לקראת משה המדברה\". הם נפגשו בהר האלוקים, ואהרן נישק את משה. בלי שמץ של קנאה – רק שמחה.",
+      "הם אספו את זקני ישראל, אהרן דיבר, ומשה עשה את האותות לעיני העם.",
+      "\"ויאמן העם, וישמעו כי פקד השם את בני ישראל... ויקדו וישתחוו\". עכשיו, עם אמונה, מתחיל המאבק מול פרעה."
+     ],
+     "pasuk": {
+      "text": "וַיַּאֲמֵן הָעָם, וַיִּשְׁמְעוּ כִּי פָקַד ה' אֶת בְּנֵי יִשְׂרָאֵל",
+      "ref": "שמות ד, לא"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-exf-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"אהיה אשר אהיה\", לפי רש\"י?",
+   "answer": "השם יהיה עם ישראל בצרה הזאת ובכל הצרות",
+   "options": [
+    "השם יהיה עם ישראל בצרה הזאת ובכל הצרות",
+    "שהשם יבוא רק בעוד הרבה שנים",
+    "שמשה יהיה מלך"
+   ],
+   "explain_he": "השם מבטיח להיות עם עמו בכל הגלויות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"אהיה אשר אהיה\", לפי רש\"י?",
+   "answer": "השם יהיה עם ישראל בצרה הזאת ובכל הצרות",
+   "options": [
+    "השם יהיה עם ישראל בצרה הזאת ובכל הצרות",
+    "שהשם יבוא רק בעוד הרבה שנים",
+    "שמשה יהיה מלך"
+   ],
+   "explain_he": "השם מבטיח להיות עם עמו בכל הגלויות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה משה כשהרועים גירשו את בנות יתרו?",
+   "answer": "קם, עזר להן והשקה את הצאן",
+   "options": [
+    "קם, עזר להן והשקה את הצאן",
+    "הלך משם",
+    "צחק עליהן"
+   ],
+   "explain_he": "משה לא יכול לראות עוול, גם כלפי אנשים שהוא לא מכיר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה משה כשהרועים גירשו את בנות יתרו?",
+   "answer": "קם, עזר להן והשקה את הצאן",
+   "options": [
+    "קם, עזר להן והשקה את הצאן",
+    "הלך משם",
+    "צחק עליהן"
+   ],
+   "explain_he": "משה לא יכול לראות עוול, גם כלפי אנשים שהוא לא מכיר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה משה עם הגדי שברח?",
+   "answer": "הרים אותו על הכתפיים והחזיר אותו לעדר",
+   "options": [
+    "הרים אותו על הכתפיים והחזיר אותו לעדר",
+    "כעס עליו",
+    "השאיר אותו במדבר"
+   ],
+   "explain_he": "השם אמר: מי שדואג כך לגדי – ירעה את ישראל.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה משה עם הגדי שברח?",
+   "answer": "הרים אותו על הכתפיים והחזיר אותו לעדר",
+   "options": [
+    "הרים אותו על הכתפיים והחזיר אותו לעדר",
+    "כעס עליו",
+    "השאיר אותו במדבר"
+   ],
+   "explain_he": "השם אמר: מי שדואג כך לגדי – ירעה את ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה מיוחד באש של הסנה?",
+   "answer": "היא בערה, אבל השיח לא נשרף",
+   "options": [
+    "היא בערה, אבל השיח לא נשרף",
+    "היא הייתה כחולה",
+    "היא כבתה מיד"
+   ],
+   "explain_he": "\"והסנה בוער באש, והסנה איננו אוכל\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה היה מיוחד באש של הסנה?",
+   "answer": "היא בערה, אבל השיח לא נשרף",
+   "options": [
+    "היא בערה, אבל השיח לא נשרף",
+    "היא הייתה כחולה",
+    "היא כבתה מיד"
+   ],
+   "explain_he": "\"והסנה בוער באש, והסנה איננו אוכל\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר השם למשה לעשות, כי המקום קדוש?",
+   "answer": "להוריד את הנעליים",
+   "options": [
+    "להוריד את הנעליים",
+    "לשיר שיר",
+    "לבנות מזבח"
+   ],
+   "explain_he": "\"של נעליך מעל רגליך, כי המקום... אדמת קודש הוא\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר השם למשה לעשות, כי המקום קדוש?",
+   "answer": "להוריד את הנעליים",
+   "options": [
+    "להוריד את הנעליים",
+    "לשיר שיר",
+    "לבנות מזבח"
+   ],
+   "explain_he": "\"של נעליך מעל רגליך, כי המקום... אדמת קודש הוא\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה התגלה השם דווקא מתוך שיח קוצים?",
+   "answer": "כדי לומר: אני כביכול עם ישראל בצרה",
+   "options": [
+    "כדי לומר: אני כביכול עם ישראל בצרה",
+    "כי לא היו שם עצים אחרים",
+    "כי השיח היה הכי יפה"
+   ],
+   "explain_he": "רש\"י: \"עמו אנוכי בצרה\" – כמו האש בין הקוצים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה התגלה השם דווקא מתוך שיח קוצים?",
+   "answer": "כדי לומר: אני כביכול עם ישראל בצרה",
+   "options": [
+    "כדי לומר: אני כביכול עם ישראל בצרה",
+    "כי לא היו שם עצים אחרים",
+    "כי השיח היה הכי יפה"
+   ],
+   "explain_he": "רש\"י: \"עמו אנוכי בצרה\" – כמו האש בין הקוצים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המטה של משה הפך לנחש?",
+   "answer": "כאות, כדי שבני ישראל יאמינו שהשם שלח אותו",
+   "options": [
+    "כאות, כדי שבני ישראל יאמינו שהשם שלח אותו",
+    "כדי להבהיל את הצאן",
+    "כי המטה היה ישן"
+   ],
+   "explain_he": "השם נתן למשה אותות, כדי שהעם יאמין.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-exf-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ניסה משה לסרב לשליחות, לפי רש\"י?",
+   "answer": "כי לא רצה לקבל גדולה על פני אהרן אחיו הגדול",
+   "options": [
+    "כי לא רצה לקבל גדולה על פני אהרן אחיו הגדול",
+    "כי לא אהב את מצרים",
+    "כי היה עייף"
+   ],
+   "explain_he": "משה היה עניו, והשם אמר: אהרן לא יקנא – הוא ישמח בליבו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי, לפי חז\"ל, קרא השם למשה מתוך הסנה?",
+   "answer": "כשראה שמשה סר לראות ולא עבר הלאה",
+   "options": [
+    "כשראה שמשה סר לראות ולא עבר הלאה",
+    "כשמשה צעק",
+    "כשהצאן ברח"
+   ],
+   "explain_he": "משה שם לב, והתקרב לראות – ואז השם קרא לו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר השם על בני ישראל, כשמשה אמר \"לא יאמינו לי\"?",
+   "answer": "שהם מאמינים בני מאמינים",
+   "options": [
+    "שהם מאמינים בני מאמינים",
+    "שהם לא יקשיבו לעולם",
+    "שצריך לחכות שנה"
+   ],
+   "explain_he": "השם לימד את משה לא לחשוד באחיו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-exf-f3e18"
+  }
+ ]
+}

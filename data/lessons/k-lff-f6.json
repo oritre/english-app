@@ -1,0 +1,565 @@
+{
+ "id": "k-lff-f6",
+ "unit_id": "k-lff-u3",
+ "course": "life",
+ "title_he": "דרך ארץ",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "דרך ארץ",
+   "ref_he": "ידע לחיים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "דרך ארץ קדמה לתורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A warm morning in a religious school courtyard: children in modest clothes and kippot greet a teacher at the gate, a boy holds the door open for an elderly man, sunlight through the trees.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧 👴 👨",
+     "say": [
+      "יש מילה מיוחדת: דרך ארץ. מה זה?",
+      "דרך ארץ זה להתנהג יפה: לכבד אנשים, להגיד תודה, ולדבר בנימוס.",
+      "לדוגמה: להגיד \"בוקר טוב\", \"בבקשה\" ו\"סליחה\".",
+      "חז\"ל אומרים: \"דרך ארץ קדמה לתורה\". קודם לומדים להיות אנשים טובים.",
+      "בואו נראה איך עושים את זה, בבית, בבית הספר וברחוב.",
+      "כשיש לנו דרך ארץ, כולם שמחים להיות לידנו."
+     ],
+     "pasuk": {
+      "text": "דֶּרֶךְ אֶרֶץ קָדְמָה לַתּוֹרָה",
+      "ref": "ויקרא רבה ט, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "כבד את אביך ואת אמך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: At home in the evening: the father comes through the door tired from work, his son jumps up to take his bag and the daughter brings him a glass of water; the mother smiles from the kitchen.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "אחת מעשרת הדיברות היא: \"כבד את אביך ואת אמך\".",
+      "אבא חוזר הביתה עייף. נועם רץ לקחת לו את התיק, ותמר מביאה כוס מים.",
+      "למה? כי אבא ואמא נתנו לנו חיים, ודואגים לנו כל יום.",
+      "כיבוד הורים זה לעזור, לשמוע בקול, ולדבר בכבוד.",
+      "ולא יושבים על הכיסא של אבא, ולא אומרים לו \"אתה טועה\".",
+      "ואם אבא או אמא ביקשו משהו – עושים מיד, בשמחה, בלי להתווכח.",
+      "וגם לאמא עוזרים: לשים את הכלים בכיור, ולסדר את החדר."
+     ],
+     "pasuk": {
+      "text": "כַּבֵּד אֶת אָבִיךָ וְאֶת אִמֶּךָ",
+      "ref": "שמות כ, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "כבוד למורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A bright classroom: the children rise from their seats with respect as their rabbi-teacher with a beard and kippah enters, holding books; one boy helps carry them to the desk.",
+     "move": "right",
+     "fx": null,
+     "art": "👨 👦 👦 👧",
+     "say": [
+      "בבית הספר, כשהרב או המורה נכנסים לכיתה, הילדים קמים.",
+      "ולא קוראים למורה רק בשם שלו. אומרים \"הרב\" או \"המורה\".",
+      "מקשיבים בשקט, לא מפריעים, ומצביעים כשרוצים לשאול.",
+      "המורה מלמד אותנו תורה וחכמה. הוא כמו אבא שני.",
+      "ונועם עוזר לרב לסחוב את הספרים. איזה יופי!",
+      "ובסוף השיעור אומרים: תודה רבה!"
+     ],
+     "pasuk": {
+      "text": "וּמוֹרָא רַבְּךָ כְּמוֹרָא שָׁמַיִם",
+      "ref": "אבות ד, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מפני שיבה תקום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Inside a city bus: the boy stands up and offers his seat to an elderly man with a white beard and a cane; his sister helps an elderly woman with a headscarf carry a shopping bag at the bus door.",
+     "move": "left",
+     "fx": "light",
+     "art": "👦 👴 👧 👵",
+     "say": [
+      "התורה אומרת: \"מפני שיבה תקום\". כשאדם זקן מגיע – קמים לכבודו.",
+      "באוטובוס, נועם רואה סבא עם מקל. הוא קם מיד, ונותן לו לשבת.",
+      "ותמר עוזרת לסבתא לסחוב את השקית.",
+      "ולא צוחקים על אדם זקן שהולך לאט. מחכים לו בסבלנות.",
+      "הזקנים חיו הרבה, ויודעים הרבה. מכבדים אותם.",
+      "וכשסבא וסבתא באים לבקר, רצים לפתוח להם את הדלת, ואומרים שלום בחיוך."
+     ],
+     "pasuk": {
+      "text": "מִפְּנֵי שֵׂיבָה תָּקוּם וְהָדַרְתָּ פְּנֵי זָקֵן",
+      "ref": "ויקרא יט, לב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תודה!",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: At the dinner table the children say thank you to their mother for the meal with big smiles, the father nods warmly; a plate of fresh food and a small vase of flowers on the table.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "מילה קטנה עם כוח גדול: תודה!",
+      "אומרים תודה לאמא על האוכל, לנהג האוטובוס, למורה ולחבר.",
+      "גם להשם אומרים תודה, בכל בוקר: \"מודה אני\".",
+      "לאה אמנו קראה לבנה \"יהודה\", כי אמרה: הפעם אודה את השם.",
+      "ויודעים מה? אנחנו נקראים \"יהודים\" – מלשון \"הודיה\", תודה!",
+      "אז בואו נגיד היום תודה לפחות לשלושה אנשים!"
+     ],
+     "pasuk": {
+      "text": "הַפַּעַם אוֹדֶה אֶת ה'",
+      "ref": "בראשית כט, לה"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "אני טעיתי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: In the kitchen a broken glass on the floor; the boy stands honestly in front of his mother saying sorry, his face brave and sincere, while she kneels to hug him; a broom nearby.",
+     "move": "up",
+     "fx": null,
+     "art": "👩 👦",
+     "say": [
+      "אופס! נועם שיחק בכדור בבית, והכוס נפלה ונשברה.",
+      "נועם יכול להגיד \"זה לא אני\". אבל הוא הולך לאמא, ואומר: \"אני שברתי. סליחה.\"",
+      "להודות בטעות זה אומץ גדול!",
+      "ואמא מחבקת אותו, ושניהם מנקים יחד.",
+      "גם הגדולים טועים לפעמים. אבל אדם גדול – מודה בטעות.",
+      "ואחרי סליחה מתקנים, ונזהרים בפעם הבאה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "סביב שולחן השבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Saba: a grandfather with a white beard, glasses, a black kippah and a grey cardigan. Scene: Friday night: the father blesses his children with hands on their heads at the Shabbat table, the mother beside them, candles glowing, grandparents smiling at the table.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ליל שבת. אבא מברך את הילדים, ואמא מחייכת.",
+      "הילדים עוזרים להגיש, מחכים לקידוש, ואומרים תודה על האוכל.",
+      "וסבא יושב במקום של כבוד.",
+      "זו דרך ארץ: בית שכולם בו מכבדים זה את זה.",
+      "ובסוף הסעודה, כולם מברכים יחד ברכת המזון, ומודים להשם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lff-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "דרך ארץ",
+   "ref_he": "ידע לחיים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "דרך ארץ קדמה לתורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A warm morning in a religious school courtyard: children in modest clothes and kippot greet a teacher at the gate, a boy holds the door open for an elderly man, sunlight through the trees.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👧 👴 👨",
+     "say": [
+      "יש ביטוי יפה בעברית: דרך ארץ. דרך ארץ פירושה להתנהג כמו שאדם טוב מתנהג: לכבד אחרים, להגיד תודה, לדבר בנימוס, ולהתחשב.",
+      "חז\"ל אומרים: \"דרך ארץ קדמה לתורה\". עוד לפני שעם ישראל קיבל את התורה בהר סיני, האבות שלנו כבר התנהגו בדרך ארץ.",
+      "תורה בלי דרך ארץ – חסר בה משהו גדול. ומי שיש לו דרך ארץ, התורה שלו יפה יותר.",
+      "בואו נראה מה זה אומר בחיים: בבית, בבית הספר, ברחוב ובאוטובוס.",
+      "יש לזה גם מילה של היום: נימוס. אבל דרך ארץ היא יותר מנימוס – היא באה מהלב."
+     ],
+     "pasuk": {
+      "text": "דֶּרֶךְ אֶרֶץ קָדְמָה לַתּוֹרָה",
+      "ref": "ויקרא רבה ט, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "כבד את אביך ואת אמך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: At home in the evening: the father comes through the door tired from work, his son jumps up to take his bag and the daughter brings him a glass of water; the mother smiles from the kitchen.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "אחת מעשרת הדיברות היא \"כבד את אביך ואת אמך\". והיא כתובה על הלוח הראשון, יחד עם המצוות שבין אדם להשם.",
+      "חז\"ל מסבירים: ההורים הם שותפים של הקדוש ברוך הוא. הם נתנו לנו חיים, ומגדלים אותנו באהבה.",
+      "כיבוד הורים זה לעזור להם: להגיש להם, להביא להם, לעשות מה שביקשו, ולדבר אליהם בקול נעים.",
+      "ויש גם \"מורא\": לא יושבים על הכיסא הקבוע של אבא, ולא אומרים לו \"אתה לא צודק\". ואם חושבים אחרת – שואלים בכבוד.",
+      "ולכבד הורים אפשר בכל גיל: לבוא לשולחן כשקוראים, להגיד \"בבקשה\" ו\"תודה\", ולעזור בלי שמבקשים."
+     ],
+     "pasuk": {
+      "text": "כַּבֵּד אֶת אָבִיךָ וְאֶת אִמֶּךָ",
+      "ref": "שמות כ, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "דמא בן נתינה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: An ancient merchant's house in Ashkelon: a man quietly stands by the bedroom door where his old father sleeps peacefully, a key under the pillow, while puzzled visitors with gemstones wait outside.",
+     "move": "left",
+     "fx": "night",
+     "art": "👴 👨 👨",
+     "say": [
+      "חז\"ל מספרים על איש מאשקלון, שלא היה יהודי, ושמו דמא בן נתינה. הוא כיבד את אביו בצורה מופלאה.",
+      "פעם באו חכמים לקנות ממנו אבן יקרה בשביל בגדי הכהן הגדול, והציעו לו הרבה מאוד כסף.",
+      "אבל המפתח של התיבה היה מתחת לכרית של אביו, ואביו ישן. ודמא לא הסכים להעיר אותו – גם אם יפסיד את כל הכסף.",
+      "ובשנה שאחר כך, השם נתן לו שכר: נולדה בעדר שלו פרה אדומה, נדירה מאוד, והוא קיבל עליה הון גדול.",
+      "וחז\"ל אומרים: אם כך עשה מי שלא נצטווה, קל וחומר אנחנו, שהשם ציווה אותנו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "כבוד למורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A bright classroom: the children rise from their seats with respect as their rabbi-teacher with a beard and kippah enters, holding books; one boy helps carry them to the desk.",
+     "move": "right",
+     "fx": null,
+     "art": "👨 👦 👦 👧",
+     "say": [
+      "בבית הספר, כשהרב או המורה נכנסים לכיתה, הילדים קמים לכבודם.",
+      "חז\"ל אומרים: \"ומורא רבך כמורא שמים\". מי שמלמד אותנו תורה, נותן לנו את הדבר היקר ביותר.",
+      "לכן מקשיבים בשקט, לא מפריעים, מצביעים כשרוצים לשאול, ואומרים \"בוקר טוב\" ו\"תודה\" בסוף השיעור.",
+      "ואם יש לנו הערה, אומרים אותה בכבוד. רב ומורה הם שותפים של ההורים בחינוך שלנו.",
+      "ולא מדברים על המורה דברים לא יפים, גם לא כשהוא לא בכיתה."
+     ],
+     "pasuk": {
+      "text": "וּמוֹרָא רַבְּךָ כְּמוֹרָא שָׁמַיִם",
+      "ref": "אבות ד, יב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "מפני שיבה תקום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Inside a city bus: the boy stands up and offers his seat to an elderly man with a white beard and a cane; his sister helps an elderly woman with a headscarf carry a shopping bag at the bus door.",
+     "move": "left",
+     "fx": "light",
+     "art": "👦 👴 👧 👵",
+     "say": [
+      "התורה אומרת: \"מפני שיבה תקום, והדרת פני זקן\". כשאדם זקן נכנס – קמים לכבודו, ומכבדים אותו.",
+      "באוטובוס, נועם רואה איש מבוגר עם מקל. הוא קם מיד ואומר: בבקשה, שב כאן.",
+      "ותמר רואה סבתא שמתקשה לרדת עם שקית כבדה, ועוזרת לה.",
+      "הזקנים ראו הרבה בחיים, ויש להם חכמה. הם בנו את הבתים, את בתי הכנסת ואת הארץ שאנחנו חיים בה. מגיע להם כבוד גדול.",
+      "וכשסבא וסבתא באים לבקר, רצים לקראתם, עוזרים להם לשבת, ומקשיבים לסיפורים שלהם. יש להם הרבה מה ללמד."
+     ],
+     "pasuk": {
+      "text": "מִפְּנֵי שֵׂיבָה תָּקוּם וְהָדַרְתָּ פְּנֵי זָקֵן",
+      "ref": "ויקרא יט, לב"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "תודה!",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: At the dinner table the children say thank you to their mother for the meal with big smiles, the father nods warmly; a plate of fresh food and a small vase of flowers on the table.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "מילה קטנה עם כוח גדול: תודה. בעברית של חז\"ל קוראים לזה \"הכרת הטוב\" – להכיר בטוב שמישהו עשה לנו.",
+      "אומרים תודה לאמא ולאבא על האוכל ועל כל מה שהם עושים, לנהג האוטובוס, למורה, ולחבר שעזר.",
+      "לאה אמנו, כשנולד לה בן רביעי, אמרה: \"הפעם אודה את השם\" – וקראה לו יהודה.",
+      "ומשמו של יהודה נקראים כולנו \"יהודים\". כלומר: אנחנו עם שיודע להגיד תודה.",
+      "נסו היום לספור: למי אמרתם תודה? לנהג, לחבר, לאמא ולאבא? ומה עם תודה להשם על דבר טוב שקרה?"
+     ],
+     "pasuk": {
+      "text": "הַפַּעַם אוֹדֶה אֶת ה'",
+      "ref": "בראשית כט, לה"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "אני טעיתי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: In the kitchen a broken glass on the floor; the boy stands honestly in front of his mother saying sorry, his face brave and sincere, while she kneels to hug him; a broom nearby.",
+     "move": "up",
+     "fx": null,
+     "art": "👩 👦",
+     "say": [
+      "אופס! נועם שיחק בכדור בתוך הבית, והכוס נפלה ונשברה. אף אחד לא ראה.",
+      "נועם יכול לשתוק, או להגיד \"זה לא אני\". אבל הוא הולך לאמא ואומר: \"אמא, אני שברתי. סליחה. אני אעזור לנקות\".",
+      "להודות בטעות – זה אומץ אמיתי. אפילו משה רבנו, כשאהרן הראה לו שטעה, הסכים מיד. רש\"י אומר: משה הודה, ולא התבייש.",
+      "ומה עושים אחרי סליחה? מתקנים מה שאפשר, ומשתדלים להיזהר בפעם הבאה.",
+      "וסליחה אמיתית אומרים ישר בעיניים, בלי \"אבל\". לא \"סליחה, אבל הוא התחיל\" – רק \"סליחה\"."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "סביב שולחן השבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Saba: a grandfather with a white beard, glasses, a black kippah and a grey cardigan. Scene: Friday night: the father blesses his children with hands on their heads at the Shabbat table, the mother beside them, candles glowing, grandparents smiling at the table.",
+     "move": "out",
+     "fx": "night",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ליל שבת. אבא שם את ידיו על ראשי הילדים ומברך אותם, ואמא מסתכלת בשמחה.",
+      "הילדים עוזרים לאמא להגיש, מחכים בשקט לקידוש, וסבא יושב במקום של כבוד.",
+      "בשולחן השבת רואים את כל מה שלמדנו: כיבוד הורים, כבוד לזקנים, תודה, וגם \"סליחה\" כשצריך.",
+      "דרך ארץ היא לא רק כללים. היא הדרך שבה בית יהודי נעשה בית חם, שהשכינה שורה בו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lff-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"דרך ארץ\"?",
+   "answer": "להתנהג יפה ולכבד אחרים",
+   "options": [
+    "להתנהג יפה ולכבד אחרים",
+    "לטייל בארץ",
+    "לבנות דרכים",
+    "לדעת גאוגרפיה"
+   ],
+   "explain_he": "דרך ארץ היא להתנהג כמו אדם טוב. \"דרך ארץ קדמה לתורה\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"דרך ארץ\"?",
+   "answer": "להתנהג יפה ולכבד אחרים",
+   "options": [
+    "להתנהג יפה ולכבד אחרים",
+    "לטייל בארץ",
+    "לבנות דרכים",
+    "לדעת גאוגרפיה"
+   ],
+   "explain_he": "דרך ארץ היא להתנהג כמו אדם טוב. \"דרך ארץ קדמה לתורה\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו נועם ותמר כשאבא חזר עייף מהעבודה?",
+   "answer": "לקחו לו את התיק והביאו לו מים",
+   "options": [
+    "לקחו לו את התיק והביאו לו מים",
+    "ביקשו ממנו לשחק",
+    "המשיכו לשחק בחדר",
+    "ביקשו ממנו ממתק"
+   ],
+   "explain_he": "זה כיבוד הורים: לעזור להם, להגיש להם ולשמח אותם.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו נועם ותמר כשאבא חזר עייף מהעבודה?",
+   "answer": "לקחו לו את התיק והביאו לו מים",
+   "options": [
+    "לקחו לו את התיק והביאו לו מים",
+    "ביקשו ממנו לשחק",
+    "המשיכו לשחק בחדר",
+    "ביקשו ממנו ממתק"
+   ],
+   "explain_he": "זה כיבוד הורים: לעזור להם, להגיש להם ולשמח אותם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשהרב או המורה נכנסים לכיתה?",
+   "answer": "קמים לכבודם",
+   "options": [
+    "קמים לכבודם",
+    "ממשיכים לדבר",
+    "יוצאים מהכיתה",
+    "מסתתרים"
+   ],
+   "explain_he": "\"ומורא רבך כמורא שמים\". מי שמלמד אותנו תורה – מכבדים אותו מאוד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשהרב או המורה נכנסים לכיתה?",
+   "answer": "קמים לכבודם",
+   "options": [
+    "קמים לכבודם",
+    "ממשיכים לדבר",
+    "יוצאים מהכיתה",
+    "מסתתרים"
+   ],
+   "explain_he": "\"ומורא רבך כמורא שמים\". מי שמלמד אותנו תורה – מכבדים אותו מאוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרת התורה על אדם זקן?",
+   "answer": "\"מפני שיבה תקום\"",
+   "options": [
+    "\"מפני שיבה תקום\"",
+    "\"לך לך\"",
+    "\"זכור את יום השבת\"",
+    "\"לא תגנוב\""
+   ],
+   "explain_he": "כשאדם זקן מגיע – קמים, ונותנים לו מקום באוטובוס.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרת התורה על אדם זקן?",
+   "answer": "\"מפני שיבה תקום\"",
+   "options": [
+    "\"מפני שיבה תקום\"",
+    "\"לך לך\"",
+    "\"זכור את יום השבת\"",
+    "\"לא תגנוב\""
+   ],
+   "explain_he": "כשאדם זקן מגיע – קמים, ונותנים לו מקום באוטובוס.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזו מילה בא השם \"יהודים\"?",
+   "answer": "מהודיה – תודה",
+   "options": [
+    "מהודיה – תודה",
+    "מירושלים",
+    "מיום",
+    "מיהלום"
+   ],
+   "explain_he": "לאה אמרה \"הפעם אודה את השם\" וקראה לבנה יהודה, ומשמו נקראנו יהודים.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיזו מילה בא השם \"יהודים\"?",
+   "answer": "מהודיה – תודה",
+   "options": [
+    "מהודיה – תודה",
+    "מירושלים",
+    "מיום",
+    "מיהלום"
+   ],
+   "explain_he": "לאה אמרה \"הפעם אודה את השם\" וקראה לבנה יהודה, ומשמו נקראנו יהודים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה נועם אחרי שהכוס נשברה?",
+   "answer": "סיפר לאמא שהוא שבר ואמר סליחה",
+   "options": [
+    "סיפר לאמא שהוא שבר ואמר סליחה",
+    "הסתיר את השברים",
+    "אמר שזה לא הוא",
+    "האשים את תמר"
+   ],
+   "explain_he": "להודות בטעות זה אומץ. ואחרי סליחה – עוזרים לתקן.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה נועם אחרי שהכוס נשברה?",
+   "answer": "סיפר לאמא שהוא שבר ואמר סליחה",
+   "options": [
+    "סיפר לאמא שהוא שבר ואמר סליחה",
+    "הסתיר את השברים",
+    "אמר שזה לא הוא",
+    "האשים את תמר"
+   ],
+   "explain_he": "להודות בטעות זה אומץ. ואחרי סליחה – עוזרים לתקן.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דמא בן נתינה לא מכר את האבן היקרה?",
+   "answer": "כי לא רצה להעיר את אביו שישן",
+   "options": [
+    "כי לא רצה להעיר את אביו שישן",
+    "כי המחיר היה נמוך",
+    "כי האבן הייתה שבורה",
+    "כי לא אהב את החכמים"
+   ],
+   "explain_he": "המפתח היה מתחת לכרית של אביו. דמא ויתר על הון רב כדי לכבד את אביו, והשם נתן לו שכר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה משה רבנו כשהבין שטעה, לפי רש\"י?",
+   "answer": "הודה בטעות ולא התבייש",
+   "options": [
+    "הודה בטעות ולא התבייש",
+    "אמר שהוא אף פעם לא טועה",
+    "כעס על אהרן",
+    "שתק והתעלם"
+   ],
+   "explain_he": "גם הגדול שבנביאים הודה בטעות. כך לומדים שלהודות זה דבר גדול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f6e16"
+  }
+ ]
+}

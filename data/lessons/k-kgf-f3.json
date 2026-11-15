@@ -1,0 +1,620 @@
+{
+ "id": "k-kgf-f3",
+ "unit_id": "k-kgf-u1",
+ "course": "kings",
+ "title_he": "דוד המלך",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "דוד המלך",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך בחברון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe, a harp nearby. Scene: The ancient hill town of Hebron at dawn, stone houses and vineyards, elders of Yehuda anointing a bearded man with oil from a horn in a crowded square, people rejoicing.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👴 👴 👨",
+     "say": [
+      "שנים עברו. שאול ויהונתן נפלו במלחמה עם הפלשתים בהר הגלבוע. דוד בכה עליהם מאוד, והתאבל עליהם כמו על אבא ואח.",
+      "ואז שאל דוד את השם: האם לעלות אל אחת מערי יהודה? והשם ענה: עלה לחברון.",
+      "בחברון, עיר האבות, משחו אנשי יהודה את דוד למלך. הוא היה בן שלושים.",
+      "חברון היא העיר שבה קבורים אברהם, יצחק ויעקב, שרה, רבקה ולאה, במערת המכפלה. מלכות דוד מתחילה ליד האבות.",
+      "שבע שנים וחצי מלך דוד בחברון. ואז באו כל שבטי ישראל ואמרו לו: הנה אנחנו עצמך ובשרך. אתה תרעה את עמנו.",
+      "הרועה מבית לחם הוא עכשיו המלך של כל ישראל.",
+      "ודוד, המלך החדש, לא שכח את חברו: הוא דאג לבן של יהונתן, והושיב אותו ליד שולחנו כל הימים."
+     ],
+     "pasuk": {
+      "text": "בֶּן שְׁלֹשִׁים שָׁנָה דָּוִד בְּמָלְכוֹ, אַרְבָּעִים שָׁנָה מָלָךְ",
+      "ref": "שמואל ב ה, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "עיר דוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A fortified hilltop city of golden stone on a narrow ridge, deep valleys on both sides, the higher hill of Moriah rising just above it to the north, warm afternoon light.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 🪨",
+     "say": [
+      "דוד רצה בירה לכל ישראל. והוא בחר עיר מיוחדת: ירושלים.",
+      "באותם ימים ישבו בה היבוסים, במבצר חזק על הר, והם היו בטוחים שאף אחד לא יכבוש אותו.",
+      "אבל דוד ואנשיו כבשו את מצודת ציון. מאז היא נקראת \"עיר דוד\".",
+      "וממש מעליה עומד הר המוריה, המקום שבו אברהם עקד את יצחק. שם, ביום מן הימים, ייבנה בית המקדש.",
+      "ירושלים נמצאת בין נחלת יהודה לנחלת בנימין. היא לא שייכת לשבט אחד – היא של כל ישראל.",
+      "דוד בנה בה את הארמון שלו, והעיר הקטנה על ההר התחילה לגדול ולהתמלא אנשים מכל השבטים."
+     ],
+     "pasuk": {
+      "text": "וַיִּלְכֹּד דָּוִד אֵת מְצֻדַת צִיּוֹן הִיא עִיר דָּוִד",
+      "ref": "שמואל ב ה, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "מכרכר בכל עוז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe, a harp nearby. Scene: A joyful procession climbing toward the hilltop city: Levites in white linen carry on their shoulders a golden chest covered with a blue cloth, on long poles; musicians blow shofars and play harps and cymbals; a king in a plain white linen tunic dances with all his strength in front.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨 👨 👨 👨",
+     "say": [
+      "ואז הגיע אחד הימים השמחים ביותר בתולדות ישראל.",
+      "הלוויים נשאו את ארון הברית על הכתפיים, ועלו אל ירושלים. כל העם הלך אחריהם, בתרועה ובקול שופר.",
+      "ודוד המלך? הוא לא הלך מאחור בבגדי מלכות. הוא הוריד את בגדי הכבוד, לבש בגד פשוט של פשתן, ורקד לפני הארון בכל כוחו.",
+      "מלך שרוקד בשמחה גדולה לפני השם, יחד עם כל העם, כמו אחד מהם.",
+      "וכשהארון הגיע למקומו באוהל שדוד הכין לו, דוד בירך את העם, ונתן לכל אחד ואחד מתנה: לחם ועוגות.",
+      "וכל העם חזר הביתה שמח: הארון, שבתוכו לוחות הברית, נמצא עכשיו בירושלים, בעיר דוד."
+     ],
+     "pasuk": {
+      "text": "וְדָוִד מְכַרְכֵּר בְּכׇל עֹז לִפְנֵי ה'",
+      "ref": "שמואל ב ו, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ביתך יבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe, a harp nearby. Scene: Evening in a cedar-wood palace: the king sits with an elderly prophet with a grey beard by a window overlooking the hill of Moriah, a small oil lamp between them.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👴",
+     "say": [
+      "ערב אחד ישב דוד בארמון היפה שלו, מעצי ארזים, ואמר לנתן הנביא: אני גר בבית של ארזים, וארון השם נמצא באוהל?",
+      "דוד רצה לבנות בית מקדש. אבל בלילה אמר השם לנתן: לא דוד יבנה. הבן שלו יבנה את הבית.",
+      "דוד לא התאכזב ולא כעס. הוא התחיל להכין הכול לבנו: זהב, כסף, נחושת, עצים ואבנים.",
+      "והשם הבטיח לדוד הבטחה נפלאה: מלכות בית דוד תהיה לעולם.",
+      "ודוד אמר תפילת תודה ארוכה: \"מי אנוכי... ומי ביתי, כי הביאותני עד הלום?\" – מי אני, שזכיתי לכל הטוב הזה?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "נעים זמירות ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe, a harp nearby. Scene: Night in the palace: a harp hangs on the wall above a simple bed by an open window, a gentle breeze moves its strings; the bearded king sits up awake by a small lamp with a scroll, stars over Jerusalem.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨",
+     "say": [
+      "דוד היה מלך, מצביא ושופט. אבל הוא נקרא גם בשם מיוחד: \"נעים זמירות ישראל\".",
+      "כל חייו כתב דוד שירים ותפילות להקדוש ברוך הוא. כשהיה שמח – שר תודה. כשהיה בצרה – ביקש עזרה.",
+      "ואפילו בלילה. דוד כתב: \"חצות לילה אקום להודות לך\". באמצע הלילה, כשכולם ישנים, המלך קם להודות להשם.",
+      "בתהילים יש מזמורים של שמחה, של תודה, של בקשה, ואפילו של בכי. כל רגש של אדם מוצא בו מקום.",
+      "המזמורים האלה נאספו לספר אחד: ספר תהילים.",
+      "ואנחנו אומרים מזמורי תהילים בכל בוקר, בפסוקי דזמרה, ובכל ליל שבת, בקבלת שבת."
+     ],
+     "pasuk": {
+      "text": "חֲצוֹת לַיְלָה אָקוּם לְהוֹדוֹת לָךְ",
+      "ref": "תהלים קיט, סב"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מספרים שכינור היה תלוי מעל מיטתו של דוד. בחצות הלילה נשבה רוח צפונית, הכינור ניגן מעצמו, ודוד קם ללמוד תורה עד הבוקר."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "השם רועי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Green pastures beside quiet still water in the hills of Yehuda at dawn, a flock of sheep resting, a small harp on a rock, a sense of peace and trust.",
+     "move": "right",
+     "fx": "light",
+     "art": "🐑",
+     "say": [
+      "אחד המזמורים הכי מפורסמים מתחיל כך: \"מזמור לדוד, השם רועי לא אחסר\".",
+      "דוד היה רועה, והוא ידע איך רועה טוב דואג לכבשים: מוביל אותן לעשב ירוק ולמים שקטים, ושומר עליהן.",
+      "וכך, אמר דוד, הקדוש ברוך הוא דואג לי. איתו לא חסר לי כלום, וגם כשקשה – אני לא מפחד, \"כי אתה עמדי\".",
+      "את המזמור הזה שרים בהרבה בתים בסעודה השלישית בשבת.",
+      "והמזמור מסתיים בהבטחה: \"אך טוב וחסד ירדפוני כל ימי חיי, ושבתי בבית השם לאורך ימים\"."
+     ],
+     "pasuk": {
+      "text": "ה' רֹעִי לֹא אֶחְסָר",
+      "ref": "תהלים כג, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "דוד מלך ישראל חי וקיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A grandfather with a white beard and a kippah and his grandchildren in modest clothes reciting from a small book of Psalms at a window in modern Jerusalem, the Old City walls glowing outside at sunset.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👧",
+     "say": [
+      "דוד מלך ארבעים שנה: שבע בחברון, ושלושים ושלוש בירושלים. לפני מותו המליך את בנו שלמה.",
+      "לפני שנפטר, דוד אמר לשלמה: \"וחזקת והיית לאיש\", ושמור את מצוות השם, ככתוב בתורת משה.",
+      "שלושת אלפים שנה עברו. ובכל דור ובכל מקום, יהודים אומרים את המילים של דוד.",
+      "סבים וסבתות, אבות ואמהות, ילדים קטנים: אומרים תהילים על חולה שיבריא, על עם ישראל, ועל כל צרה ושמחה.",
+      "ומבית דוד, כך הבטיח השם, יבוא המשיח. לכן אנחנו שרים: \"דוד מלך ישראל חי וקיים\"."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "דוד המלך",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך בחברון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe, a harp nearby. Scene: The ancient hill town of Hebron at dawn, stone houses and vineyards, elders of Yehuda anointing a bearded man with oil from a horn in a crowded square, people rejoicing.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👴 👴 👨",
+     "say": [
+      "שנים עברו. שאול ויהונתן נפלו במלחמה עם הפלשתים בהר הגלבוע. דוד בכה עליהם מאוד, והתאבל עליהם כמו על אבא ואח.",
+      "ואז שאל דוד את השם: האם לעלות אל אחת מערי יהודה? והשם ענה: עלה לחברון.",
+      "בחברון, עיר האבות, משחו אנשי יהודה את דוד למלך. הוא היה בן שלושים.",
+      "חברון היא העיר שבה קבורים אברהם, יצחק ויעקב, שרה, רבקה ולאה, במערת המכפלה. מלכות דוד מתחילה ליד האבות.",
+      "שבע שנים וחצי מלך דוד בחברון. ואז באו כל שבטי ישראל ואמרו לו: הנה אנחנו עצמך ובשרך. אתה תרעה את עמנו.",
+      "הרועה מבית לחם הוא עכשיו המלך של כל ישראל.",
+      "ודוד, המלך החדש, לא שכח את חברו: הוא דאג לבן של יהונתן, והושיב אותו ליד שולחנו כל הימים.",
+      "שימו לב: גם אחרי ששאול רדף אחריו שנים, דוד לא שמח במפלתו. הוא קונן עליו ועל יהונתן, וכיבד את זכרם.",
+      "ודוד לא מיהר לקחת את המלוכה בכוח. בכל צעד הוא שאל קודם את השם."
+     ],
+     "pasuk": {
+      "text": "בֶּן שְׁלֹשִׁים שָׁנָה דָּוִד בְּמָלְכוֹ, אַרְבָּעִים שָׁנָה מָלָךְ",
+      "ref": "שמואל ב ה, ד"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "עיר דוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A fortified hilltop city of golden stone on a narrow ridge, deep valleys on both sides, the higher hill of Moriah rising just above it to the north, warm afternoon light.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 🪨",
+     "say": [
+      "דוד רצה בירה לכל ישראל. והוא בחר עיר מיוחדת: ירושלים.",
+      "באותם ימים ישבו בה היבוסים, במבצר חזק על הר, והם היו בטוחים שאף אחד לא יכבוש אותו.",
+      "אבל דוד ואנשיו כבשו את מצודת ציון. מאז היא נקראת \"עיר דוד\".",
+      "וממש מעליה עומד הר המוריה, המקום שבו אברהם עקד את יצחק. שם, ביום מן הימים, ייבנה בית המקדש.",
+      "ירושלים נמצאת בין נחלת יהודה לנחלת בנימין. היא לא שייכת לשבט אחד – היא של כל ישראל.",
+      "דוד בנה בה את הארמון שלו, והעיר הקטנה על ההר התחילה לגדול ולהתמלא אנשים מכל השבטים.",
+      "ואת המקום של המקדש עצמו, את גורן ארוונה בהר המוריה, דוד לא לקח. הוא קנה אותו בכסף מלא.",
+      "חז\"ל אומרים שיש שלושה מקומות שאף אחד לא יוכל לומר לישראל שגזלו אותם, כי נקנו בכסף מלא: מערת המכפלה בחברון, קבר יוסף בשכם, ומקום המקדש בירושלים."
+     ],
+     "pasuk": {
+      "text": "וַיִּלְכֹּד דָּוִד אֵת מְצֻדַת צִיּוֹן הִיא עִיר דָּוִד",
+      "ref": "שמואל ב ה, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הארון בבית עובד אדום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A simple farmhouse with fields and olive trees, a family in modest clothes standing joyfully among overflowing baskets of fruit, healthy flocks and full grain jars, a quiet blessed glow over the house.",
+     "move": "left",
+     "fx": "light",
+     "art": "🏠 👨 👩 🐑",
+     "say": [
+      "דוד רצה להביא את ארון הברית לירושלים. בפעם הראשונה הניחו אותו על עגלה חדשה – ולא כמו שציוותה התורה, שהלוויים יישאו אותו על הכתפיים.",
+      "קרה דבר עצוב בדרך, ודוד הבין שצריך לעצור. הארון נשאר שלושה חודשים בבית של איש בשם עובד אדום.",
+      "ובשלושה חודשים האלה, כל הבית של עובד אדום התברך. כולם ראו: הארון מביא ברכה.",
+      "ואז דוד ידע: הגיע הזמן להעלות את הארון – הפעם בדיוק כמו שכתוב בתורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "מכרכר בכל עוז",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe, a harp nearby. Scene: A joyful procession climbing toward the hilltop city: Levites in white linen carry on their shoulders a golden chest covered with a blue cloth, on long poles; musicians blow shofars and play harps and cymbals; a king in a plain white linen tunic dances with all his strength in front.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨 👨 👨 👨",
+     "say": [
+      "ואז הגיע אחד הימים השמחים ביותר בתולדות ישראל.",
+      "הלוויים נשאו את ארון הברית על הכתפיים, ועלו אל ירושלים. כל העם הלך אחריהם, בתרועה ובקול שופר.",
+      "ודוד המלך? הוא לא הלך מאחור בבגדי מלכות. הוא הוריד את בגדי הכבוד, לבש בגד פשוט של פשתן, ורקד לפני הארון בכל כוחו.",
+      "מלך שרוקד בשמחה גדולה לפני השם, יחד עם כל העם, כמו אחד מהם.",
+      "וכשהארון הגיע למקומו באוהל שדוד הכין לו, דוד בירך את העם, ונתן לכל אחד ואחד מתנה: לחם ועוגות.",
+      "וכל העם חזר הביתה שמח: הארון, שבתוכו לוחות הברית, נמצא עכשיו בירושלים, בעיר דוד.",
+      "הרמב\"ם כותב שהשמחה שאדם שמח במצווה היא עבודה גדולה, ומי שמשפיל את עצמו לכבוד השם – הוא הגדול והמכובד באמת.",
+      "ודוד הוא הדוגמה: \"ונקלותי עוד מזאת\" – אני מוכן להיות פשוט עוד יותר, לכבוד השם.",
+      "דוד מלמד אותנו שאין סתירה בין כבוד המלכות לבין ענווה לפני השם: מול השם, גם המלך הוא עבד."
+     ],
+     "pasuk": {
+      "text": "וְדָוִד מְכַרְכֵּר בְּכׇל עֹז לִפְנֵי ה'",
+      "ref": "שמואל ב ו, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "ביתך יבנה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe, a harp nearby. Scene: Evening in a cedar-wood palace: the king sits with an elderly prophet with a grey beard by a window overlooking the hill of Moriah, a small oil lamp between them.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨 👴",
+     "say": [
+      "ערב אחד ישב דוד בארמון היפה שלו, מעצי ארזים, ואמר לנתן הנביא: אני גר בבית של ארזים, וארון השם נמצא באוהל?",
+      "דוד רצה לבנות בית מקדש. אבל בלילה אמר השם לנתן: לא דוד יבנה. הבן שלו יבנה את הבית.",
+      "דוד לא התאכזב ולא כעס. הוא התחיל להכין הכול לבנו: זהב, כסף, נחושת, עצים ואבנים.",
+      "והשם הבטיח לדוד הבטחה נפלאה: מלכות בית דוד תהיה לעולם.",
+      "ודוד אמר תפילת תודה ארוכה: \"מי אנוכי... ומי ביתי, כי הביאותני עד הלום?\" – מי אני, שזכיתי לכל הטוב הזה?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "נעים זמירות ישראל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King David: a man with a reddish-brown beard, a simple gold crown and a royal blue robe, a harp nearby. Scene: Night in the palace: a harp hangs on the wall above a simple bed by an open window, a gentle breeze moves its strings; the bearded king sits up awake by a small lamp with a scroll, stars over Jerusalem.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨",
+     "say": [
+      "דוד היה מלך, מצביא ושופט. אבל הוא נקרא גם בשם מיוחד: \"נעים זמירות ישראל\".",
+      "כל חייו כתב דוד שירים ותפילות להקדוש ברוך הוא. כשהיה שמח – שר תודה. כשהיה בצרה – ביקש עזרה.",
+      "ואפילו בלילה. דוד כתב: \"חצות לילה אקום להודות לך\". באמצע הלילה, כשכולם ישנים, המלך קם להודות להשם.",
+      "בתהילים יש מזמורים של שמחה, של תודה, של בקשה, ואפילו של בכי. כל רגש של אדם מוצא בו מקום.",
+      "המזמורים האלה נאספו לספר אחד: ספר תהילים.",
+      "ואנחנו אומרים מזמורי תהילים בכל בוקר, בפסוקי דזמרה, ובכל ליל שבת, בקבלת שבת.",
+      "חז\"ל אומרים שדוד כתב את ספר תהילים, וצירף לו גם מזמורים של צדיקים אחרים, כמו אדם הראשון, משה רבנו ובני קורח.",
+      "ובספר יש חמישה חלקים. המדרש אומר: משה נתן לישראל חמישה חומשי תורה, ודוד נתן להם חמישה ספרים של תהילים.",
+      "בספר תהילים יש מאה וחמישים מזמורים."
+     ],
+     "pasuk": {
+      "text": "חֲצוֹת לַיְלָה אָקוּם לְהוֹדוֹת לָךְ",
+      "ref": "תהלים קיט, סב"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מספרים שכינור היה תלוי מעל מיטתו של דוד. בחצות הלילה נשבה רוח צפונית, הכינור ניגן מעצמו, ודוד קם ללמוד תורה עד הבוקר."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "השם רועי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Green pastures beside quiet still water in the hills of Yehuda at dawn, a flock of sheep resting, a small harp on a rock, a sense of peace and trust.",
+     "move": "right",
+     "fx": "light",
+     "art": "🐑",
+     "say": [
+      "אחד המזמורים הכי מפורסמים מתחיל כך: \"מזמור לדוד, השם רועי לא אחסר\".",
+      "דוד היה רועה, והוא ידע איך רועה טוב דואג לכבשים: מוביל אותן לעשב ירוק ולמים שקטים, ושומר עליהן.",
+      "וכך, אמר דוד, הקדוש ברוך הוא דואג לי. איתו לא חסר לי כלום, וגם כשקשה – אני לא מפחד, \"כי אתה עמדי\".",
+      "את המזמור הזה שרים בהרבה בתים בסעודה השלישית בשבת.",
+      "והמזמור מסתיים בהבטחה: \"אך טוב וחסד ירדפוני כל ימי חיי, ושבתי בבית השם לאורך ימים\"."
+     ],
+     "pasuk": {
+      "text": "ה' רֹעִי לֹא אֶחְסָר",
+      "ref": "תהלים כג, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "דוד מלך ישראל חי וקיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A grandfather with a white beard and a kippah and his grandchildren in modest clothes reciting from a small book of Psalms at a window in modern Jerusalem, the Old City walls glowing outside at sunset.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👧",
+     "say": [
+      "דוד מלך ארבעים שנה: שבע בחברון, ושלושים ושלוש בירושלים. לפני מותו המליך את בנו שלמה.",
+      "לפני שנפטר, דוד אמר לשלמה: \"וחזקת והיית לאיש\", ושמור את מצוות השם, ככתוב בתורת משה.",
+      "שלושת אלפים שנה עברו. ובכל דור ובכל מקום, יהודים אומרים את המילים של דוד.",
+      "סבים וסבתות, אבות ואמהות, ילדים קטנים: אומרים תהילים על חולה שיבריא, על עם ישראל, ועל כל צרה ושמחה.",
+      "ומבית דוד, כך הבטיח השם, יבוא המשיח. לכן אנחנו שרים: \"דוד מלך ישראל חי וקיים\".",
+      "חז\"ל מספרים שהמשפט הזה היה סימן סודי: רבי יהודה הנשיא שלח את רבי חייא לקדש את החודש, ואמר לו: כשתסיים, שלח לי סימן – \"דוד מלך ישראל חי וקיים\".",
+      "ועוד מסורת יפה: דוד נולד ונפטר בחג השבועות. לכן יש מקומות שבהם קוראים בשבועות גם תהילים, וגם את מגילת רות – הסבתא של אבא שלו."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו עיר מלך דוד בשבע השנים הראשונות?",
+   "answer": "בחברון",
+   "options": [
+    "בחברון",
+    "בירושלים",
+    "בבית לחם",
+    "בשכם"
+   ],
+   "explain_he": "השם אמר לדוד לעלות לחברון, ושם מלך שבע שנים וחצי, לפני שעבר לירושלים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו עיר מלך דוד בשבע השנים הראשונות?",
+   "answer": "בחברון",
+   "options": [
+    "בחברון",
+    "בירושלים",
+    "בבית לחם",
+    "בשכם"
+   ],
+   "explain_he": "השם אמר לדוד לעלות לחברון, ושם מלך שבע שנים וחצי, לפני שעבר לירושלים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ירושלים מתאימה להיות הבירה של כל ישראל?",
+   "answer": "כי היא בין יהודה לבנימין, ולא שייכת לשבט אחד",
+   "options": [
+    "כי היא בין יהודה לבנימין, ולא שייכת לשבט אחד",
+    "כי היא ליד הים",
+    "כי היא העיר הכי גדולה",
+    "כי שם נולד דוד"
+   ],
+   "explain_he": "ירושלים נמצאת בין נחלת יהודה לנחלת בנימין – היא של כל ישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ירושלים מתאימה להיות הבירה של כל ישראל?",
+   "answer": "כי היא בין יהודה לבנימין, ולא שייכת לשבט אחד",
+   "options": [
+    "כי היא בין יהודה לבנימין, ולא שייכת לשבט אחד",
+    "כי היא ליד הים",
+    "כי היא העיר הכי גדולה",
+    "כי שם נולד דוד"
+   ],
+   "explain_he": "ירושלים נמצאת בין נחלת יהודה לנחלת בנימין – היא של כל ישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נשאו את ארון הברית לירושלים בשמחה?",
+   "answer": "הלוויים נשאו אותו על הכתפיים",
+   "options": [
+    "הלוויים נשאו אותו על הכתפיים",
+    "על עגלה חדשה",
+    "על גב סוס",
+    "החיילים גררו אותו"
+   ],
+   "explain_he": "כך ציוותה התורה: הלוויים נושאים את הארון על כתפיהם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נשאו את ארון הברית לירושלים בשמחה?",
+   "answer": "הלוויים נשאו אותו על הכתפיים",
+   "options": [
+    "הלוויים נשאו אותו על הכתפיים",
+    "על עגלה חדשה",
+    "על גב סוס",
+    "החיילים גררו אותו"
+   ],
+   "explain_he": "כך ציוותה התורה: הלוויים נושאים את הארון על כתפיהם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד המלך כשהארון עלה לירושלים?",
+   "answer": "לבש בגד פשתן פשוט ורקד בכל כוחו",
+   "options": [
+    "לבש בגד פשתן פשוט ורקד בכל כוחו",
+    "ישב על כיסא המלכות והסתכל",
+    "נשאר בארמון",
+    "הלך בסוף התהלוכה בבגדי מלכות"
+   ],
+   "explain_he": "\"ודוד מכרכר בכל עוז לפני השם\". הוא שמח לפני השם כמו אחד מהעם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד המלך כשהארון עלה לירושלים?",
+   "answer": "לבש בגד פשתן פשוט ורקד בכל כוחו",
+   "options": [
+    "לבש בגד פשתן פשוט ורקד בכל כוחו",
+    "ישב על כיסא המלכות והסתכל",
+    "נשאר בארמון",
+    "הלך בסוף התהלוכה בבגדי מלכות"
+   ],
+   "explain_he": "\"ודוד מכרכר בכל עוז לפני השם\". הוא שמח לפני השם כמו אחד מהעם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה השם לדוד כשרצה לבנות את בית המקדש?",
+   "answer": "שהבן שלו יבנה אותו",
+   "options": [
+    "שהבן שלו יבנה אותו",
+    "שיבנה אותו מיד",
+    "שאין צורך במקדש",
+    "שיבנה אותו בחברון"
+   ],
+   "explain_he": "נתן הנביא אמר לדוד שבנו יבנה את הבית, ודוד הכין לו את כל החומרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה השם לדוד כשרצה לבנות את בית המקדש?",
+   "answer": "שהבן שלו יבנה אותו",
+   "options": [
+    "שהבן שלו יבנה אותו",
+    "שיבנה אותו מיד",
+    "שאין צורך במקדש",
+    "שיבנה אותו בחברון"
+   ],
+   "explain_he": "נתן הנביא אמר לדוד שבנו יבנה את הבית, ודוד הכין לו את כל החומרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד בחצות הלילה?",
+   "answer": "קם להודות להשם וללמוד תורה",
+   "options": [
+    "קם להודות להשם וללמוד תורה",
+    "יצא לרעות את הצאן",
+    "הלך לישון",
+    "יצא למלחמה"
+   ],
+   "explain_he": "\"חצות לילה אקום להודות לך\". חז\"ל מספרים שהכינור ניגן מעצמו, ודוד קם ללמוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f3e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד בחצות הלילה?",
+   "answer": "קם להודות להשם וללמוד תורה",
+   "options": [
+    "קם להודות להשם וללמוד תורה",
+    "יצא לרעות את הצאן",
+    "הלך לישון",
+    "יצא למלחמה"
+   ],
+   "explain_he": "\"חצות לילה אקום להודות לך\". חז\"ל מספרים שהכינור ניגן מעצמו, ודוד קם ללמוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דוד משווה את הקדוש ברוך הוא לרועה במזמור \"השם רועי\"?",
+   "answer": "כי כמו שרועה דואג לכבשים, השם דואג לו",
+   "options": [
+    "כי כמו שרועה דואג לכבשים, השם דואג לו",
+    "כי השם מגדל כבשים",
+    "כי דוד רצה לחזור להיות רועה",
+    "כי הכבשים שרות"
+   ],
+   "explain_he": "דוד היה רועה, וידע איך רועה טוב מוביל ושומר. כך, אמר, השם דואג לו – \"לא אחסר\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f3e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דוד משווה את הקדוש ברוך הוא לרועה במזמור \"השם רועי\"?",
+   "answer": "כי כמו שרועה דואג לכבשים, השם דואג לו",
+   "options": [
+    "כי כמו שרועה דואג לכבשים, השם דואג לו",
+    "כי השם מגדל כבשים",
+    "כי דוד רצה לחזור להיות רועה",
+    "כי הכבשים שרות"
+   ],
+   "explain_he": "דוד היה רועה, וידע איך רועה טוב מוביל ושומר. כך, אמר, השם דואג לו – \"לא אחסר\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מקום, לפי חז\"ל, נקנה בכסף מלא בירושלים?",
+   "answer": "מקום המקדש, גורן ארוונה",
+   "options": [
+    "מקום המקדש, גורן ארוונה",
+    "ארמון דוד",
+    "מצודת ציון",
+    "הר הזיתים"
+   ],
+   "explain_he": "דוד קנה את מקום המקדש בכסף מלא. כך גם מערת המכפלה וקבר יוסף נקנו בכסף מלא.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לבית עובד אדום כשהארון היה אצלו?",
+   "answer": "כל הבית שלו התברך",
+   "options": [
+    "כל הבית שלו התברך",
+    "הבית נשרף",
+    "הוא עזב את הארץ",
+    "לא קרה כלום"
+   ],
+   "explain_he": "שלושה חודשים היה הארון בביתו, וכולם ראו שהארון מביא ברכה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f3e18"
+  }
+ ]
+}

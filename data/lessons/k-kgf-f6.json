@@ -1,0 +1,731 @@
+{
+ "id": "k-kgf-f6",
+ "unit_id": "k-kgf-u3",
+ "course": "kings",
+ "title_he": "אליהו בהר הכרמל",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "אליהו בהר הכרמל",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך ומלכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Achav: a heavy-set king with a black beard, a jeweled crown and a crimson robe, uneasy face. Scene: A grand palace in Shomron with ivory-inlaid walls, a king in a crimson robe on his throne looking uneasy; in a hillside cave nearby, a kind man in plain clothes secretly brings bread and water jugs to hidden prophets.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 🪨",
+     "say": [
+      "כשישים שנה אחרי ירבעם, מלך בממלכת ישראל המלך אחאב. ואשתו הייתה איזבל, בת של מלך צידון.",
+      "איזבל הביאה איתה עבודה זרה של הבעל, והפיצה אותה בכל הממלכה. היא רדפה את נביאי השם.",
+      "אבל גם בימים חשוכים יש צדיקים. עובדיהו, שהיה ממונה על בית המלך, הסתיר מאה נביאים במערות, חמישים בכל מערה.",
+      "ובכל יום הביא להם לחם ומים, בסתר, בסכנה גדולה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אם יהיה טל ומטר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. King Achav: a heavy-set king with a black beard, a jeweled crown and a crimson robe, uneasy face. Scene: A prophet with a wild beard and a hairy mantle stands boldly before the king's throne, one hand raised; the king grips his armrests. Through a window, dry brown fields.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👨",
+     "say": [
+      "ואז הופיע איש מיוחד. אליהו התשבי, מהגלעד. הוא נכנס אל המלך ואמר:",
+      "חי השם! בשנים האלה לא יהיו טל ומטר – רק לפי דברי.",
+      "ומאותו יום, לא ירד גשם. האדמה התייבשה, הנחלים נעלמו, והיה רעב בכל הארץ.",
+      "הבעל, שאנשים חשבו שהוא מביא גשם, לא עשה כלום. כי רק הקדוש ברוך הוא מוריד גשם."
+     ],
+     "pasuk": {
+      "text": "חַי ה'... אִם יִהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם לְפִי דְבָרִי",
+      "ref": "מלכים א יז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "העורבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: A narrow green ravine with a small stream, the prophet sitting by the water at dawn as two black ravens swoop down carrying loaves of bread in their beaks.",
+     "move": "up",
+     "fx": "light",
+     "art": "🐦",
+     "say": [
+      "השם אמר לאליהו: לך והסתתר בנחל כרית. תשתה מהנחל, והעורבים יביאו לך אוכל.",
+      "ובכל בוקר ובכל ערב באו עורבים, והביאו לו לחם ובשר. אליהו שתה מהנחל, וחיכה.",
+      "אחר כך הנחל התייבש. והשם שלח את אליהו לעיר צרפת, אל אלמנה ענייה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הבצורת בימי אליהו נמשכה עד השנה השלישית. כל הזמן הזה השם דאג לנביא שלו."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "כד הקמח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: Inside a small poor stone house: a widow in a long dress and headscarf and her young son look with joy into a clay jar that is still full of flour and a small jug of oil, the prophet smiling at the door.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👩 👦 🏠",
+     "say": [
+      "לאלמנה בצרפת נשאר רק מעט קמח בכד, ומעט שמן בפך. היא רצתה לאפות עוגה אחרונה, לה ולבנה.",
+      "אליהו ביקש: קודם תכיני לי עוגה קטנה. כי כך אמר השם: כד הקמח לא ייגמר, והשמן לא ייחסר – עד שיירד גשם.",
+      "האישה האמינה, ונתנה קודם לאורח. ומאז, יום אחרי יום, הקמח לא נגמר והשמן לא נחסר.",
+      "מי שנותן גם כשקשה לו, רואה את ברכת השם.",
+      "ובזכות האמונה של האלמנה, היה לה, לבנה ולאליהו אוכל, יום אחרי יום, כל זמן הבצורת."
+     ],
+     "pasuk": {
+      "text": "כַּד הַקֶּמַח לֹא תִכְלָה וְצַפַּחַת הַשֶּׁמֶן לֹא תֶחְסָר",
+      "ref": "מלכים א יז, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "עד מתי אתם פוסחים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: The long ridge of Mount Carmel above the sea at morning, a huge crowd of Israelites gathered on its slopes, the bearded prophet standing alone on a rock and calling out to them; two simple stone altars waiting, wood laid on them, no fire.",
+     "move": "out",
+     "fx": "mist",
+     "art": "👨 👨 👨 👴",
+     "say": [
+      "בשנה השלישית, אליהו פגש שוב את אחאב, ואמר לו: אסוף את כל ישראל אל הר הכרמל, וגם את ארבע מאות וחמישים נביאי הבעל.",
+      "כל העם התאסף על ההר. ואליהו עמד מולם וקרא: עד מתי אתם פוסחים על שתי הסעיפים? כלומר, עד מתי תקפצו מצד לצד?",
+      "אם השם הוא האלוקים – לכו אחריו. ואם לא – תגידו. והעם שתק.",
+      "אז אליהו הציע מבחן: נבנה שני מזבחות, ונשים עצים וקורבן. אף אחד לא ידליק אש.",
+      "מי שיענה באש מהשמיים – הוא האלוקים. וכל העם אמר: טוב הדבר."
+     ],
+     "pasuk": {
+      "text": "עַד מָתַי אַתֶּם פֹּסְחִים עַל שְׁתֵּי הַסְּעִפִּים",
+      "ref": "מלכים א יח, כא"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "אין קול ואין עונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: Midday on Mount Carmel under a harsh sun: a crowd of exhausted false prophets in colorful robes sit around a cold altar with unlit wood, seen from far away; the bearded prophet watches calmly from a rock.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨 👨 👨",
+     "say": [
+      "נביאי הבעל התחילו ראשונים. הם קראו מהבוקר ועד הצהריים, וקפצו סביב המזבח.",
+      "אבל לא היה קול, ולא היה עונה. האש לא ירדה.",
+      "אליהו צחק עליהם: תקראו בקול גדול! אולי הוא עסוק? אולי הוא ישן, וצריך להעיר אותו?",
+      "הם צעקו עוד ועוד, עד הערב. וכלום לא קרה. כי אין שום כוח מלבד השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "עננו השם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: Late afternoon on Mount Carmel: the prophet stands beside a simple altar of twelve rough stones with a water-filled trench around it, people pouring the last large jars of water, the prophet lifting his hands in prayer toward the sky.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨 👨 👨",
+     "say": [
+      "עכשיו אליהו קרא לעם: גשו אליי. הוא לקח שתים עשרה אבנים, כמספר שבטי ישראל, ובנה מזבח.",
+      "שימו לב: עשרה שבטים בממלכת ישראל, ושניים ביהודה. אבל אצל אליהו – כולם יחד, עם אחד.",
+      "מסביב למזבח חפר תעלה. ואז אמר: מלאו ארבעה כדים של מים, ושפכו על הקורבן ועל העצים. ועוד פעם. ועוד פעם.",
+      "המים מילאו גם את התעלה. עכשיו כולם יראו שאין כאן שום תחבולה.",
+      "ובזמן המנחה, אליהו ניגש והתפלל: ענני השם, ענני! וידע העם הזה כי אתה השם האלוקים."
+     ],
+     "pasuk": {
+      "text": "עֲנֵנִי ה' עֲנֵנִי",
+      "ref": "מלכים א יח, לז"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "אליהו נענה בזמן תפילת המנחה. מכאן אמרו חז\"ל: תמיד יהיה אדם זהיר בתפילת המנחה."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "השם הוא האלוקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A brilliant column of bright golden light streams down from the sky onto the stone altar, steam rising from the trench, the whole crowd on the mountainside bowing with faces to the ground in awe.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👩 👴",
+     "say": [
+      "ואז, באור גדול מן השמיים, ירדה אש השם.",
+      "האש שרפה את הקורבן ואת העצים, את האבנים ואת העפר – ואפילו את המים שבתעלה.",
+      "כל העם ראה, ונפל על הפנים, וקרא בקול גדול: השם הוא האלוקים! השם הוא האלוקים!",
+      "עם שלם, שהיה מבולבל, חזר באותו רגע אל השם."
+     ],
+     "pasuk": {
+      "text": "ה' הוּא הָאֱלֹקִים, ה' הוּא הָאֱלֹקִים",
+      "ref": "מלכים א יח, לט"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "ענן ככף איש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: The top of Mount Carmel facing the sea: the prophet sits bowed with his head near his knees, his young servant pointing at a tiny cloud rising from the sea on the horizon; dark rain clouds gathering behind.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 👦",
+     "say": [
+      "אחרי הנס, אליהו עלה לראש הכרמל, השתופף ושם את ראשו בין ברכיו, והתפלל על גשם.",
+      "הוא אמר לנער שלו: עלה והסתכל לכיוון הים. הנער הלך, ואמר: אין כלום. שבע פעמים הלך.",
+      "ובפעם השביעית אמר: הנה ענן קטן, כמו כף יד של אדם, עולה מן הים.",
+      "ותוך זמן קצר, השמיים התכסו בעננים, וירד גשם גדול. הארץ הצמאה קיבלה מים.",
+      "כך נגמרה הבצורת, והעם ידע שהגשם בא מהשם. ואליהו רץ לפני מרכבת אחאב עד יזרעאל, בכוח שהשם נתן לו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s10",
+     "title_he": "אליהו הנביא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A Jewish family's Pesach Seder table at night with an open door and a full silver cup of wine waiting, children in festive modest clothes looking toward the doorway with excitement, soft light.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "אליהו לא מת כמו כל אדם. בסוף ימיו, התנ\"ך מספר, הוא עלה בסערה השמיימה, ותלמידו אלישע ראה אותו עולה.",
+      "ועד היום אנחנו מחכים לאליהו. בליל הסדר פותחים לו את הדלת, ויש לו כוס מיוחדת.",
+      "בברית מילה יש כיסא של אליהו. ובמוצאי שבת שרים: \"אליהו הנביא, אליהו התשבי\".",
+      "והנביא מלאכי הבטיח: אליהו יבוא לפני הגאולה, וישיב לב אבות על בנים, ולב בנים על אבותם."
+     ],
+     "pasuk": {
+      "text": "הִנֵּה אָנֹכִי שֹׁלֵחַ לָכֶם אֵת אֵלִיָּה הַנָּבִיא... וְהֵשִׁיב לֵב אָבוֹת עַל בָּנִים",
+      "ref": "מלאכי ג, כג-כד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "אליהו בהר הכרמל",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מלך ומלכה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. King Achav: a heavy-set king with a black beard, a jeweled crown and a crimson robe, uneasy face. Scene: A grand palace in Shomron with ivory-inlaid walls, a king in a crimson robe on his throne looking uneasy; in a hillside cave nearby, a kind man in plain clothes secretly brings bread and water jugs to hidden prophets.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 🪨",
+     "say": [
+      "כשישים שנה אחרי ירבעם, מלך בממלכת ישראל המלך אחאב. ואשתו הייתה איזבל, בת של מלך צידון.",
+      "איזבל הביאה איתה עבודה זרה של הבעל, והפיצה אותה בכל הממלכה. היא רדפה את נביאי השם.",
+      "אבל גם בימים חשוכים יש צדיקים. עובדיהו, שהיה ממונה על בית המלך, הסתיר מאה נביאים במערות, חמישים בכל מערה.",
+      "ובכל יום הביא להם לחם ומים, בסתר, בסכנה גדולה.",
+      "חז\"ל אומרים שעובדיהו היה ירא שמים גדול, ובזכות זה זכה להיות נביא בעצמו. ספר עובדיה בתנ\"ך הוא שלו.",
+      "גם בדור הכי חשוך, יש מי ששומר על האור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "אם יהיה טל ומטר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. King Achav: a heavy-set king with a black beard, a jeweled crown and a crimson robe, uneasy face. Scene: A prophet with a wild beard and a hairy mantle stands boldly before the king's throne, one hand raised; the king grips his armrests. Through a window, dry brown fields.",
+     "move": "in",
+     "fx": null,
+     "art": "👨 👨",
+     "say": [
+      "ואז הופיע איש מיוחד. אליהו התשבי, מהגלעד. הוא נכנס אל המלך ואמר:",
+      "חי השם! בשנים האלה לא יהיו טל ומטר – רק לפי דברי.",
+      "ומאותו יום, לא ירד גשם. האדמה התייבשה, הנחלים נעלמו, והיה רעב בכל הארץ.",
+      "הבעל, שאנשים חשבו שהוא מביא גשם, לא עשה כלום. כי רק הקדוש ברוך הוא מוריד גשם.",
+      "אנחנו אומרים בכל תפילה בחורף: \"משיב הרוח ומוריד הגשם\". חז\"ל אומרים שמפתח הגשמים נמצא בידו של הקדוש ברוך הוא בלבד.",
+      "ואליהו בא להוכיח את זה לעם, שהתחיל לשכוח.",
+      "ואת \"טל ומטר\" אנחנו מבקשים בחורף, בברכת השנים: \"ותן טל ומטר לברכה\"."
+     ],
+     "pasuk": {
+      "text": "חַי ה'... אִם יִהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם לְפִי דְבָרִי",
+      "ref": "מלכים א יז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "העורבים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: A narrow green ravine with a small stream, the prophet sitting by the water at dawn as two black ravens swoop down carrying loaves of bread in their beaks.",
+     "move": "up",
+     "fx": "light",
+     "art": "🐦",
+     "say": [
+      "השם אמר לאליהו: לך והסתתר בנחל כרית. תשתה מהנחל, והעורבים יביאו לך אוכל.",
+      "ובכל בוקר ובכל ערב באו עורבים, והביאו לו לחם ובשר. אליהו שתה מהנחל, וחיכה.",
+      "אחר כך הנחל התייבש. והשם שלח את אליהו לעיר צרפת, אל אלמנה ענייה.",
+      "אליהו, שגזר בצורת על כל הארץ, חי בעצמו בפשטות גדולה: מים מהנחל, ולחם מהעורבים. נביא לא מבקש לעצמו עושר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הבצורת בימי אליהו נמשכה עד השנה השלישית. כל הזמן הזה השם דאג לנביא שלו."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "כד הקמח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: Inside a small poor stone house: a widow in a long dress and headscarf and her young son look with joy into a clay jar that is still full of flour and a small jug of oil, the prophet smiling at the door.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👩 👦 🏠",
+     "say": [
+      "לאלמנה בצרפת נשאר רק מעט קמח בכד, ומעט שמן בפך. היא רצתה לאפות עוגה אחרונה, לה ולבנה.",
+      "אליהו ביקש: קודם תכיני לי עוגה קטנה. כי כך אמר השם: כד הקמח לא ייגמר, והשמן לא ייחסר – עד שיירד גשם.",
+      "האישה האמינה, ונתנה קודם לאורח. ומאז, יום אחרי יום, הקמח לא נגמר והשמן לא נחסר.",
+      "מי שנותן גם כשקשה לו, רואה את ברכת השם.",
+      "ובזכות האמונה של האלמנה, היה לה, לבנה ולאליהו אוכל, יום אחרי יום, כל זמן הבצורת.",
+      "פעם אחת חלה הבן של האלמנה מאוד, ואליהו התפלל עליו, והשם החזיר לו את חייו. והאישה אמרה: \"עתה זה ידעתי כי איש אלוקים אתה\"."
+     ],
+     "pasuk": {
+      "text": "כַּד הַקֶּמַח לֹא תִכְלָה וְצַפַּחַת הַשֶּׁמֶן לֹא תֶחְסָר",
+      "ref": "מלכים א יז, יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "עד מתי אתם פוסחים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: The long ridge of Mount Carmel above the sea at morning, a huge crowd of Israelites gathered on its slopes, the bearded prophet standing alone on a rock and calling out to them; two simple stone altars waiting, wood laid on them, no fire.",
+     "move": "out",
+     "fx": "mist",
+     "art": "👨 👨 👨 👴",
+     "say": [
+      "בשנה השלישית, אליהו פגש שוב את אחאב, ואמר לו: אסוף את כל ישראל אל הר הכרמל, וגם את ארבע מאות וחמישים נביאי הבעל.",
+      "כל העם התאסף על ההר. ואליהו עמד מולם וקרא: עד מתי אתם פוסחים על שתי הסעיפים? כלומר, עד מתי תקפצו מצד לצד?",
+      "אם השם הוא האלוקים – לכו אחריו. ואם לא – תגידו. והעם שתק.",
+      "אז אליהו הציע מבחן: נבנה שני מזבחות, ונשים עצים וקורבן. אף אחד לא ידליק אש.",
+      "מי שיענה באש מהשמיים – הוא האלוקים. וכל העם אמר: טוב הדבר.",
+      "ולמה העם שתק? כי הם היו מבולבלים. הם לא עזבו לגמרי את השם, אבל גם לא עזבו את הבעל. ואליהו בא לומר: אי אפשר ללכת בשתי דרכים יחד."
+     ],
+     "pasuk": {
+      "text": "עַד מָתַי אַתֶּם פֹּסְחִים עַל שְׁתֵּי הַסְּעִפִּים",
+      "ref": "מלכים א יח, כא"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "אין קול ואין עונה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: Midday on Mount Carmel under a harsh sun: a crowd of exhausted false prophets in colorful robes sit around a cold altar with unlit wood, seen from far away; the bearded prophet watches calmly from a rock.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👨 👨 👨",
+     "say": [
+      "נביאי הבעל התחילו ראשונים. הם קראו מהבוקר ועד הצהריים, וקפצו סביב המזבח.",
+      "אבל לא היה קול, ולא היה עונה. האש לא ירדה.",
+      "אליהו צחק עליהם: תקראו בקול גדול! אולי הוא עסוק? אולי הוא ישן, וצריך להעיר אותו?",
+      "הם צעקו עוד ועוד, עד הערב. וכלום לא קרה. כי אין שום כוח מלבד השם.",
+      "וזו הייתה גם הוכחה: אם יש לבעל כוח, למה לא ירד גשם שלוש שנים? כל מה שהם קיוו לו – לא היה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "עננו השם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: Late afternoon on Mount Carmel: the prophet stands beside a simple altar of twelve rough stones with a water-filled trench around it, people pouring the last large jars of water, the prophet lifting his hands in prayer toward the sky.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨 👨 👨",
+     "say": [
+      "עכשיו אליהו קרא לעם: גשו אליי. הוא לקח שתים עשרה אבנים, כמספר שבטי ישראל, ובנה מזבח.",
+      "שימו לב: עשרה שבטים בממלכת ישראל, ושניים ביהודה. אבל אצל אליהו – כולם יחד, עם אחד.",
+      "מסביב למזבח חפר תעלה. ואז אמר: מלאו ארבעה כדים של מים, ושפכו על הקורבן ועל העצים. ועוד פעם. ועוד פעם.",
+      "המים מילאו גם את התעלה. עכשיו כולם יראו שאין כאן שום תחבולה.",
+      "ובזמן המנחה, אליהו ניגש והתפלל: ענני השם, ענני! וידע העם הזה כי אתה השם האלוקים.",
+      "למה אליהו אמר פעמיים \"ענני\"? חז\"ל מסבירים: פעם אחת – שתרד אש מן השמיים. ופעם שנייה – שלא יגידו שזה כישוף, אלא יבינו שזה מהשם."
+     ],
+     "pasuk": {
+      "text": "עֲנֵנִי ה' עֲנֵנִי",
+      "ref": "מלכים א יח, לז"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "אליהו נענה בזמן תפילת המנחה. מכאן אמרו חז\"ל: תמיד יהיה אדם זהיר בתפילת המנחה."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "השם הוא האלוקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A brilliant column of bright golden light streams down from the sky onto the stone altar, steam rising from the trench, the whole crowd on the mountainside bowing with faces to the ground in awe.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👨 👩 👴",
+     "say": [
+      "ואז, באור גדול מן השמיים, ירדה אש השם.",
+      "האש שרפה את הקורבן ואת העצים, את האבנים ואת העפר – ואפילו את המים שבתעלה.",
+      "כל העם ראה, ונפל על הפנים, וקרא בקול גדול: השם הוא האלוקים! השם הוא האלוקים!",
+      "עם שלם, שהיה מבולבל, חזר באותו רגע אל השם.",
+      "ואת המילים האלה אנחנו קוראים עד היום, בסוף יום הכיפורים, בסוף תפילת נעילה: שבע פעמים \"השם הוא האלוקים\".",
+      "ברגע הכי קדוש בשנה, אנחנו חוזרים על מה שאמרו אבותינו בהר הכרמל."
+     ],
+     "pasuk": {
+      "text": "ה' הוּא הָאֱלֹקִים, ה' הוּא הָאֱלֹקִים",
+      "ref": "מלכים א יח, לט"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "ענן ככף איש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Eliyahu: a lean man with a wild dark beard, a rough hairy mantle and a leather belt, fiery eyes. Scene: The top of Mount Carmel facing the sea: the prophet sits bowed with his head near his knees, his young servant pointing at a tiny cloud rising from the sea on the horizon; dark rain clouds gathering behind.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 👦",
+     "say": [
+      "אחרי הנס, אליהו עלה לראש הכרמל, השתופף ושם את ראשו בין ברכיו, והתפלל על גשם.",
+      "הוא אמר לנער שלו: עלה והסתכל לכיוון הים. הנער הלך, ואמר: אין כלום. שבע פעמים הלך.",
+      "ובפעם השביעית אמר: הנה ענן קטן, כמו כף יד של אדם, עולה מן הים.",
+      "ותוך זמן קצר, השמיים התכסו בעננים, וירד גשם גדול. הארץ הצמאה קיבלה מים.",
+      "כך נגמרה הבצורת, והעם ידע שהגשם בא מהשם. ואליהו רץ לפני מרכבת אחאב עד יזרעאל, בכוח שהשם נתן לו.",
+      "שימו לב: אליהו לא הסתפק בנס של האש. הוא המשיך להתפלל, שוב ושוב, עד שבא הגשם. מי שמתפלל – לא מתייאש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s10",
+     "title_he": "אליהו הנביא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A Jewish family's Pesach Seder table at night with an open door and a full silver cup of wine waiting, children in festive modest clothes looking toward the doorway with excitement, soft light.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "אליהו לא מת כמו כל אדם. בסוף ימיו, התנ\"ך מספר, הוא עלה בסערה השמיימה, ותלמידו אלישע ראה אותו עולה.",
+      "ועד היום אנחנו מחכים לאליהו. בליל הסדר פותחים לו את הדלת, ויש לו כוס מיוחדת.",
+      "בברית מילה יש כיסא של אליהו. ובמוצאי שבת שרים: \"אליהו הנביא, אליהו התשבי\".",
+      "והנביא מלאכי הבטיח: אליהו יבוא לפני הגאולה, וישיב לב אבות על בנים, ולב בנים על אבותם.",
+      "וחשבו על זה: אותו אליהו שקרא לעם \"עד מתי אתם פוסחים\", הוא זה שיבוא בסוף לחבר בין הדורות, בין ההורים לילדים.",
+      "ובשיעור הבא נראה מלכים צדיקים ביהודה, את החורבן, ואת השיבה לציון."
+     ],
+     "pasuk": {
+      "text": "הִנֵּה אָנֹכִי שֹׁלֵחַ לָכֶם אֵת אֵלִיָּה הַנָּבִיא... וְהֵשִׁיב לֵב אָבוֹת עַל בָּנִים",
+      "ref": "מלאכי ג, כג-כד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה עובדיהו בזמן שאיזבל רדפה את הנביאים?",
+   "answer": "הסתיר מאה נביאים במערות והביא להם לחם ומים",
+   "options": [
+    "הסתיר מאה נביאים במערות והביא להם לחם ומים",
+    "ברח מהארץ",
+    "הצטרף לנביאי הבעל",
+    "כתב מכתב למלך צידון"
+   ],
+   "explain_he": "עובדיהו הסתיר מאה נביאים, חמישים בכל מערה, ודאג להם בסתר, בסכנה גדולה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה עובדיהו בזמן שאיזבל רדפה את הנביאים?",
+   "answer": "הסתיר מאה נביאים במערות והביא להם לחם ומים",
+   "options": [
+    "הסתיר מאה נביאים במערות והביא להם לחם ומים",
+    "ברח מהארץ",
+    "הצטרף לנביאי הבעל",
+    "כתב מכתב למלך צידון"
+   ],
+   "explain_he": "עובדיהו הסתיר מאה נביאים, חמישים בכל מערה, ודאג להם בסתר, בסכנה גדולה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר אליהו לאחאב בפגישה הראשונה?",
+   "answer": "שלא יהיו טל ומטר, רק לפי דברו",
+   "options": [
+    "שלא יהיו טל ומטר, רק לפי דברו",
+    "שהוא רוצה להיות מלך",
+    "שיבנה מקדש בשומרון",
+    "שהגשם ירד מחר"
+   ],
+   "explain_he": "\"חי השם... אם יהיה השנים האלה טל ומטר כי אם לפי דברי\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר אליהו לאחאב בפגישה הראשונה?",
+   "answer": "שלא יהיו טל ומטר, רק לפי דברו",
+   "options": [
+    "שלא יהיו טל ומטר, רק לפי דברו",
+    "שהוא רוצה להיות מלך",
+    "שיבנה מקדש בשומרון",
+    "שהגשם ירד מחר"
+   ],
+   "explain_he": "\"חי השם... אם יהיה השנים האלה טל ומטר כי אם לפי דברי\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הביא לאליהו אוכל בנחל כרית?",
+   "answer": "עורבים",
+   "options": [
+    "עורבים",
+    "יונים",
+    "אחאב",
+    "העם"
+   ],
+   "explain_he": "בכל בוקר ובכל ערב הביאו לו העורבים לחם ובשר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הביא לאליהו אוכל בנחל כרית?",
+   "answer": "עורבים",
+   "options": [
+    "עורבים",
+    "יונים",
+    "אחאב",
+    "העם"
+   ],
+   "explain_he": "בכל בוקר ובכל ערב הביאו לו העורבים לחם ובשר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לאלמנה בצרפת אחרי שנתנה קודם לאליהו?",
+   "answer": "הקמח והשמן שלה לא נגמרו",
+   "options": [
+    "הקמח והשמן שלה לא נגמרו",
+    "היא נעשתה עשירה מאוד",
+    "היא עזבה את העיר",
+    "היא קיבלה בית חדש"
+   ],
+   "explain_he": "\"כד הקמח לא תכלה וצפחת השמן לא תחסר\" – עד שירד גשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה לאלמנה בצרפת אחרי שנתנה קודם לאליהו?",
+   "answer": "הקמח והשמן שלה לא נגמרו",
+   "options": [
+    "הקמח והשמן שלה לא נגמרו",
+    "היא נעשתה עשירה מאוד",
+    "היא עזבה את העיר",
+    "היא קיבלה בית חדש"
+   ],
+   "explain_he": "\"כד הקמח לא תכלה וצפחת השמן לא תחסר\" – עד שירד גשם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שפכו מים רבים על המזבח של אליהו?",
+   "answer": "כדי שכולם יראו שאין שום תחבולה",
+   "options": [
+    "כדי שכולם יראו שאין שום תחבולה",
+    "כדי לנקות את האבנים",
+    "כי היה חם מאוד",
+    "כי כך עשו נביאי הבעל"
+   ],
+   "explain_he": "המים מילאו אפילו את התעלה, וכשהאש ירדה, כולם הבינו שזה רק מהשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שפכו מים רבים על המזבח של אליהו?",
+   "answer": "כדי שכולם יראו שאין שום תחבולה",
+   "options": [
+    "כדי שכולם יראו שאין שום תחבולה",
+    "כדי לנקות את האבנים",
+    "כי היה חם מאוד",
+    "כי כך עשו נביאי הבעל"
+   ],
+   "explain_he": "המים מילאו אפילו את התעלה, וכשהאש ירדה, כולם הבינו שזה רק מהשם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בנה אליהו מזבח משתים עשרה אבנים?",
+   "answer": "כמספר שבטי ישראל – עם אחד",
+   "options": [
+    "כמספר שבטי ישראל – עם אחד",
+    "כי זה מה שהיה על ההר",
+    "כמספר החודשים",
+    "כמספר הנביאים שהסתתרו"
+   ],
+   "explain_he": "אף שהעם היה מחולק לשתי ממלכות, אליהו הראה שכל השבטים הם עם אחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בנה אליהו מזבח משתים עשרה אבנים?",
+   "answer": "כמספר שבטי ישראל – עם אחד",
+   "options": [
+    "כמספר שבטי ישראל – עם אחד",
+    "כי זה מה שהיה על ההר",
+    "כמספר החודשים",
+    "כמספר הנביאים שהסתתרו"
+   ],
+   "explain_he": "אף שהעם היה מחולק לשתי ממלכות, אליהו הראה שכל השבטים הם עם אחד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרא העם כשירדה אש השם?",
+   "answer": "\"השם הוא האלוקים\"",
+   "options": [
+    "\"השם הוא האלוקים\"",
+    "\"יחי המלך אחאב\"",
+    "\"לאוהליך ישראל\"",
+    "\"מי כמוך באלים\""
+   ],
+   "explain_he": "העם נפל על פניו וקרא פעמיים: \"השם הוא האלוקים\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f6e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרא העם כשירדה אש השם?",
+   "answer": "\"השם הוא האלוקים\"",
+   "options": [
+    "\"השם הוא האלוקים\"",
+    "\"יחי המלך אחאב\"",
+    "\"לאוהליך ישראל\"",
+    "\"מי כמוך באלים\""
+   ],
+   "explain_he": "העם נפל על פניו וקרא פעמיים: \"השם הוא האלוקים\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה מחכים לאליהו הנביא עד היום?",
+   "answer": "בליל הסדר, בברית מילה ובמוצאי שבת",
+   "options": [
+    "בליל הסדר, בברית מילה ובמוצאי שבת",
+    "רק בחנוכה",
+    "רק בפורים",
+    "רק בראש חודש"
+   ],
+   "explain_he": "בליל הסדר יש כוס של אליהו, בברית יש כיסא של אליהו, ובמוצאי שבת שרים \"אליהו הנביא\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f6e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה מחכים לאליהו הנביא עד היום?",
+   "answer": "בליל הסדר, בברית מילה ובמוצאי שבת",
+   "options": [
+    "בליל הסדר, בברית מילה ובמוצאי שבת",
+    "רק בחנוכה",
+    "רק בפורים",
+    "רק בראש חודש"
+   ],
+   "explain_he": "בליל הסדר יש כוס של אליהו, בברית יש כיסא של אליהו, ובמוצאי שבת שרים \"אליהו הנביא\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אמר אליהו פעמיים \"ענני\"?",
+   "answer": "פעם שתרד אש, ופעם שלא יגידו שזה כישוף",
+   "options": [
+    "פעם שתרד אש, ופעם שלא יגידו שזה כישוף",
+    "כי לא שמעו אותו בפעם הראשונה",
+    "כי כך כתוב בתורה",
+    "כי היו שני מזבחות"
+   ],
+   "explain_he": "כך מסבירים חז\"ל: גם הנס, וגם שהעם יבין שהנס בא מהשם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e19"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי אנחנו אומרים שבע פעמים \"השם הוא האלוקים\"?",
+   "answer": "בסוף תפילת נעילה ביום הכיפורים",
+   "options": [
+    "בסוף תפילת נעילה ביום הכיפורים",
+    "בליל הסדר",
+    "בקבלת שבת",
+    "בהדלקת נרות חנוכה"
+   ],
+   "explain_he": "ברגע הכי קדוש בשנה, חוזרים על מה שאמרו אבותינו בהר הכרמל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f6e20"
+  }
+ ]
+}

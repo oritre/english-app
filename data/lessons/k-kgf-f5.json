@@ -1,0 +1,626 @@
+{
+ "id": "k-kgf-f5",
+ "unit_id": "k-kgf-u2",
+ "course": "kings",
+ "title_he": "הממלכה נקרעת לשתיים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "הממלכה נקרעת לשתיים",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "כינוס בשכם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: The ancient town of Shechem between two green mountains, a great crowd of Israelites in modest robes gathered in an open square, a young king in a golden crown standing on a stone platform.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👨 👨 👴",
+     "say": [
+      "שלמה נפטר, ובנו רחבעם הגיע לשכם, כדי שכל ישראל ימליכו אותו.",
+      "גם ירבעם בן נבט, שברח למצרים בימי שלמה, חזר ובא לשכם, ועמד בראש העם.",
+      "אבל העם בא עם בקשה. הם אמרו: אביך שלמה הטיל עלינו עול כבד – מיסים רבים ועבודה קשה בשביל המלך.",
+      "עכשיו, אם תקל עלינו – נעבוד אותך.",
+      "רחבעם אמר: לכו לשלושה ימים, ואז חזרו אליי. ובינתיים, הלך להתייעץ.",
+      "שכם היא עיר עתיקה וחשובה: שם קנה יעקב אבינו חלקת שדה, ושם קבור יוסף הצדיק. ועכשיו, בשכם, ייקבע עתיד הממלכה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "עצת הזקנים ועצת הילדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Inside a palace hall two groups advise a young king: on one side calm old men with long white beards, on the other proud young courtiers in fancy robes, gesturing boldly; the king turns toward the young men.",
+     "move": "left",
+     "fx": null,
+     "art": "👴 👴 👨 👨",
+     "say": [
+      "קודם שאל רחבעם את הזקנים, שעמדו לפני שלמה אביו. הם אמרו לו עצה חכמה:",
+      "אם היום תהיה עבד לעם הזה, תדבר אליהם בטוב ותקל עליהם – הם יהיו לך עבדים כל הימים.",
+      "אבל רחבעם לא אהב את העצה. הוא הלך לשאול את הצעירים, שגדלו איתו.",
+      "הצעירים האלה לא ראו הרבה בחיים. הם רצו כוח וכבוד, ולא חשבו על העם.",
+      "והם אמרו לו: תראה להם שאתה חזק עוד יותר מאביך! תגיד להם: אבי הכביד את העול – ואני אוסיף עליו.",
+      "ואת העצה הזו רחבעם בחר.",
+      "רחבעם ענה לעם בקשיחות, ולא שמע לעצת הזקנים. וזו הייתה טעות גדולה."
+     ],
+     "pasuk": {
+      "text": "אִם הַיּוֹם תִּהְיֶה עֶבֶד לָעָם הַזֶּה... וְהָיוּ לְךָ עֲבָדִים כׇּל הַיָּמִים",
+      "ref": "מלכים א יב, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "השמלה שנקרעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: On a quiet road outside Jerusalem, an old prophet in a new cloak tears it into twelve pieces and hands ten of them to a strong young man from the tribe of Ephraim, who looks amazed.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👨",
+     "say": [
+      "כשהעם שמע את התשובה הקשה של רחבעם, הם קראו: \"לאוהליך ישראל!\" – וחזרו הביתה.",
+      "עשרה שבטים המליכו מלך אחר: ירבעם בן נבט, משבט אפרים.",
+      "ורק שבט יהודה ושבט בנימין נשארו עם רחבעם, ועם בית דוד בירושלים.",
+      "עכשיו יש שתי ממלכות: ממלכת ישראל בצפון, וממלכת יהודה בדרום.",
+      "רחבעם ניסה לדבר עם השבטים, אבל הם כעסו מאוד, והוא מיהר לחזור לירושלים.",
+      "וזה לא קרה במקרה. הנביא אחיה השילוני אמר את זה מראש, כי כך נגזר מהשם.",
+      "הנביאים קוראים לממלכת יהודה גם \"בית דוד\", ולממלכת ישראל גם \"אפרים\", על שם השבט של ירבעם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "עוד בימי שלמה, הנביא אחיה השילוני קרע שמלה חדשה לשנים עשר קרעים, ונתן עשרה מהם לירבעם: סימן שעשרה שבטים יהיו שלו."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "אל תלחמו באחיכם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A large army of Israelite men in plain tunics turning around on a road between hills and walking home, laying down their spears on the ground, faces relieved, a prophet in a dark cloak standing on a rock.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👨 👨 👴",
+     "say": [
+      "רחבעם כעס. הוא אסף צבא גדול מיהודה ומבנימין, כדי להילחם בשבטים ולהחזיר אותם בכוח.",
+      "אבל אז בא נביא בשם שמעיה, ואמר בשם השם: אל תעלו, ואל תילחמו באחיכם בני ישראל.",
+      "והצבא שמע בקול השם, וכל אחד חזר לביתו.",
+      "גם כשיש מחלוקת, יהודי לא נלחם באחיו. וגם כשהעם התפצל, כולם נשארו אחים.",
+      "שבטים יכולים להיפרד בשלטון, ולהישאר אחים בלב. וזה מה שהנביא ביקש."
+     ],
+     "pasuk": {
+      "text": "לֹא תַעֲלוּ וְלֹא תִלָּחֲמוּן עִם אֲחֵיכֶם בְנֵי יִשְׂרָאֵל",
+      "ref": "מלכים א יב, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הפחד של ירבעם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Night on the flat roof of a palace in the northern hills: a king with a short beard paces worriedly, looking south toward the far-off hills where Jerusalem lies under the moonlight.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "ירבעם היה עכשיו מלך על עשרה שבטים. אבל הייתה לו דאגה אחת גדולה.",
+      "שלוש פעמים בשנה, בפסח, בשבועות ובסוכות, כל ישראל עולים לרגל לבית המקדש בירושלים.",
+      "ירבעם חשב: אם העם שלי יעלה לירושלים, ויראה את המקדש ואת מלך בית דוד – הלב שלו יחזור לרחבעם.",
+      "הוא אפילו פחד שהעם ימליך שוב את רחבעם, ויפגע בו.",
+      "ובגלל הפחד הזה, ירבעם החליט החלטה נוראה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "החטא בבית אל ובדן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A lonely mountain road leading south toward far-off Jerusalem, blocked by a row of royal guards; saddened families with festival baskets turn back toward the north. Cloudy grey sky.",
+     "move": "out",
+     "fx": "mist",
+     "art": "👨 👩 👦 🚶",
+     "say": [
+      "ירבעם עשה שני עגלים מזהב. אחד שם בבית אל, בדרום הממלכה שלו, ואחד בדן, בצפון.",
+      "והוא אמר לעם: רב לכם מעלות ירושלים. אל תעלו לשם, אלא לכאן.",
+      "זה היה חטא גדול מאוד. העגלים היו עבודה זרה, כמו חטא העגל במדבר. וירבעם הרחיק את העם מבית המקדש, המקום שהשם בחר.",
+      "ירבעם אפילו הזיז את חג הסוכות לחודש אחר, חודש \"אשר בדא מלבו\", כלומר שהמציא בעצמו.",
+      "לכן חז\"ל אומרים עליו: ירבעם בן נבט חטא, והחטיא את הרבים. הוא לא רק חטא בעצמו – הוא גרם לעם שלם לחטוא.",
+      "ירבעם גם מינה כהנים שלא היו מבני לוי, מכל מי שרצה. כך שבר עוד ועוד מסדרי התורה.",
+      "ושימו לב: גם חטא שמתחיל ממחשבה אחת, יכול להשפיע על דורות רבים."
+     ],
+     "pasuk": {
+      "text": "יָרָבְעָם בֶּן נְבָט חָטָא וְהֶחֱטִיא אֶת הָרַבִּים",
+      "ref": "אבות ה, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "והיו לאחדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Close-up on two weathered wooden sticks held together in a man's hands so that they look like one, against a soft sunrise over the hills of Israel.",
+     "move": "in",
+     "fx": "light",
+     "art": "🪨",
+     "say": [
+      "מאז, במשך מאות שנים, היו שתי ממלכות. בממלכת יהודה מלכו מלכי בית דוד בירושלים, ליד בית המקדש.",
+      "בממלכת ישראל, בצפון, התחלפו מלכים ומשפחות. עבודה זרה התפשטה, והנביאים הזהירו שוב ושוב.",
+      "בממלכת יהודה היו מלכים צדיקים ומלכים רשעים, ובית המקדש המשיך לעמוד, והכוהנים עבדו בו בכל יום.",
+      "אבל הנביא יחזקאל הבטיח: יבוא יום, ושתי הממלכות יחזרו להיות אחת.",
+      "השם אמר לו לקחת שני מקלות, אחד ליהודה ואחד ליוסף, ולחבר אותם ביד – \"והיו לאחדים בידך\".",
+      "עם אחד, מלך אחד מבית דוד, ובית מקדש אחד. לזה אנחנו מחכים.",
+      "ובכל יום, בתפילת שמונה עשרה, אנחנו מבקשים: \"את צמח דוד עבדך מהרה תצמיח\". שתחזור מלכות בית דוד."
+     ],
+     "pasuk": {
+      "text": "וְהָיוּ לַאֲחָדִים בְּיָדֶךָ",
+      "ref": "יחזקאל לז, יז"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "הממלכה נקרעת לשתיים",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "כינוס בשכם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: The ancient town of Shechem between two green mountains, a great crowd of Israelites in modest robes gathered in an open square, a young king in a golden crown standing on a stone platform.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👨 👨 👴",
+     "say": [
+      "שלמה נפטר, ובנו רחבעם הגיע לשכם, כדי שכל ישראל ימליכו אותו.",
+      "גם ירבעם בן נבט, שברח למצרים בימי שלמה, חזר ובא לשכם, ועמד בראש העם.",
+      "אבל העם בא עם בקשה. הם אמרו: אביך שלמה הטיל עלינו עול כבד – מיסים רבים ועבודה קשה בשביל המלך.",
+      "עכשיו, אם תקל עלינו – נעבוד אותך.",
+      "רחבעם אמר: לכו לשלושה ימים, ואז חזרו אליי. ובינתיים, הלך להתייעץ.",
+      "שכם היא עיר עתיקה וחשובה: שם קנה יעקב אבינו חלקת שדה, ושם קבור יוסף הצדיק. ועכשיו, בשכם, ייקבע עתיד הממלכה.",
+      "חז\"ל קוראים לשכם \"מקום מוכן לפורענות\": משם התחילה מכירת יוסף, ושם נחלקה מלכות בית דוד. דווקא שם, היה צריך להיזהר במיוחד במילים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "עצת הזקנים ועצת הילדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Inside a palace hall two groups advise a young king: on one side calm old men with long white beards, on the other proud young courtiers in fancy robes, gesturing boldly; the king turns toward the young men.",
+     "move": "left",
+     "fx": null,
+     "art": "👴 👴 👨 👨",
+     "say": [
+      "קודם שאל רחבעם את הזקנים, שעמדו לפני שלמה אביו. הם אמרו לו עצה חכמה:",
+      "אם היום תהיה עבד לעם הזה, תדבר אליהם בטוב ותקל עליהם – הם יהיו לך עבדים כל הימים.",
+      "אבל רחבעם לא אהב את העצה. הוא הלך לשאול את הצעירים, שגדלו איתו.",
+      "הצעירים האלה לא ראו הרבה בחיים. הם רצו כוח וכבוד, ולא חשבו על העם.",
+      "והם אמרו לו: תראה להם שאתה חזק עוד יותר מאביך! תגיד להם: אבי הכביד את העול – ואני אוסיף עליו.",
+      "ואת העצה הזו רחבעם בחר.",
+      "רחבעם ענה לעם בקשיחות, ולא שמע לעצת הזקנים. וזו הייתה טעות גדולה.",
+      "שימו לב לעצת הזקנים: מנהיג אמיתי הוא קודם כול משרת. מי שמדבר בנחת ובכבוד, אנשים רוצים ללכת אחריו.",
+      "ומכאן לומדים גם אנחנו: כשיש שאלה חשובה, טוב לשמוע לעצת המבוגרים והחכמים, שראו הרבה בחיים.",
+      "רחבעם שמע לצעירים, כי העצה שלהם החמיאה לו. לפעמים העצה הנעימה היא לא העצה הנכונה."
+     ],
+     "pasuk": {
+      "text": "אִם הַיּוֹם תִּהְיֶה עֶבֶד לָעָם הַזֶּה... וְהָיוּ לְךָ עֲבָדִים כׇּל הַיָּמִים",
+      "ref": "מלכים א יב, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "השמלה שנקרעה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: On a quiet road outside Jerusalem, an old prophet in a new cloak tears it into twelve pieces and hands ten of them to a strong young man from the tribe of Ephraim, who looks amazed.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👨",
+     "say": [
+      "כשהעם שמע את התשובה הקשה של רחבעם, הם קראו: \"לאוהליך ישראל!\" – וחזרו הביתה.",
+      "עשרה שבטים המליכו מלך אחר: ירבעם בן נבט, משבט אפרים.",
+      "ורק שבט יהודה ושבט בנימין נשארו עם רחבעם, ועם בית דוד בירושלים.",
+      "עכשיו יש שתי ממלכות: ממלכת ישראל בצפון, וממלכת יהודה בדרום.",
+      "רחבעם ניסה לדבר עם השבטים, אבל הם כעסו מאוד, והוא מיהר לחזור לירושלים.",
+      "וזה לא קרה במקרה. הנביא אחיה השילוני אמר את זה מראש, כי כך נגזר מהשם.",
+      "הנביאים קוראים לממלכת יהודה גם \"בית דוד\", ולממלכת ישראל גם \"אפרים\", על שם השבט של ירבעם.",
+      "הרמב\"ם כותב שאחיה השילוני היה אחד ממוסרי התורה מדור לדור, ואליהו הנביא קיבל ממנו את התורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "עוד בימי שלמה, הנביא אחיה השילוני קרע שמלה חדשה לשנים עשר קרעים, ונתן עשרה מהם לירבעם: סימן שעשרה שבטים יהיו שלו."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "אל תלחמו באחיכם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A large army of Israelite men in plain tunics turning around on a road between hills and walking home, laying down their spears on the ground, faces relieved, a prophet in a dark cloak standing on a rock.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👨 👨 👴",
+     "say": [
+      "רחבעם כעס. הוא אסף צבא גדול מיהודה ומבנימין, כדי להילחם בשבטים ולהחזיר אותם בכוח.",
+      "אבל אז בא נביא בשם שמעיה, ואמר בשם השם: אל תעלו, ואל תילחמו באחיכם בני ישראל.",
+      "והצבא שמע בקול השם, וכל אחד חזר לביתו.",
+      "גם כשיש מחלוקת, יהודי לא נלחם באחיו. וגם כשהעם התפצל, כולם נשארו אחים.",
+      "שבטים יכולים להיפרד בשלטון, ולהישאר אחים בלב. וזה מה שהנביא ביקש.",
+      "וזה לימוד לכל הדורות: גם כשיש מחלוקת גדולה בעם ישראל, מלחמת אחים היא הדבר האחרון. קודם מקשיבים לדבר השם."
+     ],
+     "pasuk": {
+      "text": "לֹא תַעֲלוּ וְלֹא תִלָּחֲמוּן עִם אֲחֵיכֶם בְנֵי יִשְׂרָאֵל",
+      "ref": "מלכים א יב, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הפחד של ירבעם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Night on the flat roof of a palace in the northern hills: a king with a short beard paces worriedly, looking south toward the far-off hills where Jerusalem lies under the moonlight.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "ירבעם היה עכשיו מלך על עשרה שבטים. אבל הייתה לו דאגה אחת גדולה.",
+      "שלוש פעמים בשנה, בפסח, בשבועות ובסוכות, כל ישראל עולים לרגל לבית המקדש בירושלים.",
+      "ירבעם חשב: אם העם שלי יעלה לירושלים, ויראה את המקדש ואת מלך בית דוד – הלב שלו יחזור לרחבעם.",
+      "הוא אפילו פחד שהעם ימליך שוב את רחבעם, ויפגע בו.",
+      "ובגלל הפחד הזה, ירבעם החליט החלטה נוראה.",
+      "חז\"ל מספרים שירבעם היה תלמיד חכם גדול. והקדוש ברוך הוא כביכול תפס אותו בבגדו ואמר לו: חזור בך, ואני ואתה ובן ישי נטייל יחד בגן עדן.",
+      "ירבעם שאל: מי ילך בראש? – בן ישי בראש. – אם כך, אינני רוצה.",
+      "הקנאה והגאווה איבדו אדם גדול. מכאן לומדים כמה חשוב לשמוח בטוב של אחרים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "החטא בבית אל ובדן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A lonely mountain road leading south toward far-off Jerusalem, blocked by a row of royal guards; saddened families with festival baskets turn back toward the north. Cloudy grey sky.",
+     "move": "out",
+     "fx": "mist",
+     "art": "👨 👩 👦 🚶",
+     "say": [
+      "ירבעם עשה שני עגלים מזהב. אחד שם בבית אל, בדרום הממלכה שלו, ואחד בדן, בצפון.",
+      "והוא אמר לעם: רב לכם מעלות ירושלים. אל תעלו לשם, אלא לכאן.",
+      "זה היה חטא גדול מאוד. העגלים היו עבודה זרה, כמו חטא העגל במדבר. וירבעם הרחיק את העם מבית המקדש, המקום שהשם בחר.",
+      "ירבעם אפילו הזיז את חג הסוכות לחודש אחר, חודש \"אשר בדא מלבו\", כלומר שהמציא בעצמו.",
+      "לכן חז\"ל אומרים עליו: ירבעם בן נבט חטא, והחטיא את הרבים. הוא לא רק חטא בעצמו – הוא גרם לעם שלם לחטוא.",
+      "ירבעם גם מינה כהנים שלא היו מבני לוי, מכל מי שרצה. כך שבר עוד ועוד מסדרי התורה.",
+      "ושימו לב: גם חטא שמתחיל ממחשבה אחת, יכול להשפיע על דורות רבים.",
+      "ושימו לב לשורש החטא: ירבעם לא התחיל מזה שרצה עבודה זרה. הוא התחיל מפחד לאבד את השלטון שלו.",
+      "וכשמנהיג שם את הכבוד שלו לפני רצון השם, גם החלטה \"פוליטית\" יכולה להפוך לחטא נורא.",
+      "ובספר מלכים, כמעט על כל מלך של ממלכת ישראל כתוב: \"לא סר מחטאות ירבעם בן נבט\". חטא אחד ליווה את הממלכה כולה."
+     ],
+     "pasuk": {
+      "text": "יָרָבְעָם בֶּן נְבָט חָטָא וְהֶחֱטִיא אֶת הָרַבִּים",
+      "ref": "אבות ה, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "שומרים בדרכים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Summer vineyards in the hills at sunset, the same mountain road now open, a happy line of pilgrims with baskets and children walking south toward Jerusalem.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "במשך בערך מאתיים שנה עמדו שומרים בדרכים, ולא נתנו לבני הממלכה הצפונית לעלות לירושלים.",
+      "ובכל זאת, תמיד היו יהודים שהתאמצו ועלו בסתר, מתוך אהבה לבית המקדש.",
+      "ויום אחד, המלך הושע בן אלה הסיר את השומרים. חז\"ל אומרים שזה היה בט\"ו באב – ולכן זה יום טוב ושמח."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל אומרים שאחד הדברים שקרו בט\"ו באב הוא היום שבו המלך הושע בן אלה הסיר את השומרים שהציב ירבעם בדרכים לירושלים."
+     }
+    },
+    {
+     "id": "s8",
+     "title_he": "והיו לאחדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Close-up on two weathered wooden sticks held together in a man's hands so that they look like one, against a soft sunrise over the hills of Israel.",
+     "move": "in",
+     "fx": "light",
+     "art": "🪨",
+     "say": [
+      "מאז, במשך מאות שנים, היו שתי ממלכות. בממלכת יהודה מלכו מלכי בית דוד בירושלים, ליד בית המקדש.",
+      "בממלכת ישראל, בצפון, התחלפו מלכים ומשפחות. עבודה זרה התפשטה, והנביאים הזהירו שוב ושוב.",
+      "בממלכת יהודה היו מלכים צדיקים ומלכים רשעים, ובית המקדש המשיך לעמוד, והכוהנים עבדו בו בכל יום.",
+      "אבל הנביא יחזקאל הבטיח: יבוא יום, ושתי הממלכות יחזרו להיות אחת.",
+      "השם אמר לו לקחת שני מקלות, אחד ליהודה ואחד ליוסף, ולחבר אותם ביד – \"והיו לאחדים בידך\".",
+      "עם אחד, מלך אחד מבית דוד, ובית מקדש אחד. לזה אנחנו מחכים.",
+      "ובכל יום, בתפילת שמונה עשרה, אנחנו מבקשים: \"את צמח דוד עבדך מהרה תצמיח\". שתחזור מלכות בית דוד.",
+      "ויחזקאל אמר עוד: \"ועבדי דוד מלך עליהם, ורועה אחד יהיה לכולם\".",
+      "ובשיעור הבא נפגוש את הנביא הגדול שעמד מול מלך ישראל, ועשה את הנס המפורסם בהר הכרמל."
+     ],
+     "pasuk": {
+      "text": "וְהָיוּ לַאֲחָדִים בְּיָדֶךָ",
+      "ref": "יחזקאל לז, יז"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש העם מרחבעם בשכם?",
+   "answer": "שיקל עליהם את העול הכבד",
+   "options": [
+    "שיקל עליהם את העול הכבד",
+    "שיבנה להם ארמון",
+    "שייצא למלחמה",
+    "שיעביר את הבירה לשכם"
+   ],
+   "explain_he": "העם אמר: אביך הכביד עלינו – מיסים ועבודה. אם תקל עלינו, נעבוד אותך.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקש העם מרחבעם בשכם?",
+   "answer": "שיקל עליהם את העול הכבד",
+   "options": [
+    "שיקל עליהם את העול הכבד",
+    "שיבנה להם ארמון",
+    "שייצא למלחמה",
+    "שיעביר את הבירה לשכם"
+   ],
+   "explain_he": "העם אמר: אביך הכביד עלינו – מיסים ועבודה. אם תקל עלינו, נעבוד אותך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה עצת הזקנים?",
+   "answer": "לדבר אל העם בטוב ולהקל עליהם",
+   "options": [
+    "לדבר אל העם בטוב ולהקל עליהם",
+    "להוסיף עליהם עול",
+    "לברוח מהעיר",
+    "לא לענות להם בכלל"
+   ],
+   "explain_he": "הזקנים אמרו: אם תהיה היום עבד לעם, הם יהיו לך עבדים כל הימים. רחבעם לא שמע להם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הייתה עצת הזקנים?",
+   "answer": "לדבר אל העם בטוב ולהקל עליהם",
+   "options": [
+    "לדבר אל העם בטוב ולהקל עליהם",
+    "להוסיף עליהם עול",
+    "לברוח מהעיר",
+    "לא לענות להם בכלל"
+   ],
+   "explain_he": "הזקנים אמרו: אם תהיה היום עבד לעם, הם יהיו לך עבדים כל הימים. רחבעם לא שמע להם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "אילו שבטים נשארו עם רחבעם?",
+   "answer": "יהודה ובנימין",
+   "options": [
+    "יהודה ובנימין",
+    "אפרים ומנשה",
+    "דן ונפתלי",
+    "כל השבטים"
+   ],
+   "explain_he": "עשרה שבטים המליכו את ירבעם, ורק יהודה ובנימין נשארו עם בית דוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "אילו שבטים נשארו עם רחבעם?",
+   "answer": "יהודה ובנימין",
+   "options": [
+    "יהודה ובנימין",
+    "אפרים ומנשה",
+    "דן ונפתלי",
+    "כל השבטים"
+   ],
+   "explain_he": "עשרה שבטים המליכו את ירבעם, ורק יהודה ובנימין נשארו עם בית דוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הצבא של רחבעם לא נלחם בשבטים?",
+   "answer": "כי הנביא שמעיה אמר בשם השם לא להילחם באחים",
+   "options": [
+    "כי הנביא שמעיה אמר בשם השם לא להילחם באחים",
+    "כי פחדו מהם",
+    "כי לא היו להם נשק",
+    "כי ירבעם ביקש שלום"
+   ],
+   "explain_he": "\"לא תעלו ולא תלחמון עם אחיכם בני ישראל\" – והצבא שמע בקול השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הצבא של רחבעם לא נלחם בשבטים?",
+   "answer": "כי הנביא שמעיה אמר בשם השם לא להילחם באחים",
+   "options": [
+    "כי הנביא שמעיה אמר בשם השם לא להילחם באחים",
+    "כי פחדו מהם",
+    "כי לא היו להם נשק",
+    "כי ירבעם ביקש שלום"
+   ],
+   "explain_he": "\"לא תעלו ולא תלחמון עם אחיכם בני ישראל\" – והצבא שמע בקול השם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ממה פחד ירבעם?",
+   "answer": "שאם העם יעלה לירושלים, ליבו יחזור לבית דוד",
+   "options": [
+    "שאם העם יעלה לירושלים, ליבו יחזור לבית דוד",
+    "שיהיה רעב",
+    "שהנביא יכעס עליו",
+    "שהמקדש ייחרב"
+   ],
+   "explain_he": "ירבעם חשב שהעלייה לרגל לירושלים תחזיר את הלב של העם לרחבעם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ממה פחד ירבעם?",
+   "answer": "שאם העם יעלה לירושלים, ליבו יחזור לבית דוד",
+   "options": [
+    "שאם העם יעלה לירושלים, ליבו יחזור לבית דוד",
+    "שיהיה רעב",
+    "שהנביא יכעס עליו",
+    "שהמקדש ייחרב"
+   ],
+   "explain_he": "ירבעם חשב שהעלייה לרגל לירושלים תחזיר את הלב של העם לרחבעם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מה שעשה ירבעם בבית אל ובדן היה חטא גדול?",
+   "answer": "כי זו הייתה עבודה זרה, והוא הרחיק את העם מבית המקדש",
+   "options": [
+    "כי זו הייתה עבודה זרה, והוא הרחיק את העם מבית המקדש",
+    "כי בנה שם בתי ספר",
+    "כי שם היו מקומות קדושים יותר",
+    "כי עשה את זה בלי לשאול את רחבעם"
+   ],
+   "explain_he": "ירבעם עשה עגלי זהב, ואמר לעם לא לעלות לירושלים. לכן \"חטא והחטיא את הרבים\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f5e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מה שעשה ירבעם בבית אל ובדן היה חטא גדול?",
+   "answer": "כי זו הייתה עבודה זרה, והוא הרחיק את העם מבית המקדש",
+   "options": [
+    "כי זו הייתה עבודה זרה, והוא הרחיק את העם מבית המקדש",
+    "כי בנה שם בתי ספר",
+    "כי שם היו מקומות קדושים יותר",
+    "כי עשה את זה בלי לשאול את רחבעם"
+   ],
+   "explain_he": "ירבעם עשה עגלי זהב, ואמר לעם לא לעלות לירושלים. לכן \"חטא והחטיא את הרבים\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה יחזקאל עם שני המקלות?",
+   "answer": "חיבר אותם ביד לאחד, סימן שהממלכות יתאחדו",
+   "options": [
+    "חיבר אותם ביד לאחד, סימן שהממלכות יתאחדו",
+    "שבר אותם",
+    "זרק אותם לנהר",
+    "נתן אחד לכל מלך"
+   ],
+   "explain_he": "\"והיו לאחדים בידך\" – בעתיד שתי הממלכות יחזרו להיות עם אחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f5e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה יחזקאל עם שני המקלות?",
+   "answer": "חיבר אותם ביד לאחד, סימן שהממלכות יתאחדו",
+   "options": [
+    "חיבר אותם ביד לאחד, סימן שהממלכות יתאחדו",
+    "שבר אותם",
+    "זרק אותם לנהר",
+    "נתן אחד לכל מלך"
+   ],
+   "explain_he": "\"והיו לאחדים בידך\" – בעתיד שתי הממלכות יחזרו להיות עם אחד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה ירבעם כשהשם הציע לו לחזור בתשובה?",
+   "answer": "שאל מי ילך בראש, וכששמע שבן ישי – סירב",
+   "options": [
+    "שאל מי ילך בראש, וכששמע שבן ישי – סירב",
+    "הסכים מיד",
+    "אמר שהוא צריך לחשוב",
+    "ביקש להיות כהן"
+   ],
+   "explain_he": "הקנאה והגאווה מנעו מירבעם לחזור בתשובה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה, לפי חז\"ל, בט\"ו באב?",
+   "answer": "המלך הושע בן אלה הסיר את השומרים מהדרכים לירושלים",
+   "options": [
+    "המלך הושע בן אלה הסיר את השומרים מהדרכים לירושלים",
+    "ירבעם הומלך",
+    "נבנה בית המקדש",
+    "רחבעם הגיע לשכם"
+   ],
+   "explain_he": "מאז שוב יכלו בני הממלכה הצפונית לעלות לירושלים, ולכן זה יום שמח.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f5e18"
+  }
+ ]
+}

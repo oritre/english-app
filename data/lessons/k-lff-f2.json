@@ -1,0 +1,584 @@
+{
+ "id": "k-lff-f2",
+ "unit_id": "k-lff-u1",
+ "course": "life",
+ "title_he": "קוראים שעון",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "קוראים שעון",
+   "ref_he": "ידע לחיים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מתי מתפללים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Early morning in a cozy kitchen: a round wall clock above the doorway, the father with a tallit bag ready to leave for synagogue, his daughter looking up at the clock with curiosity.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👧",
+     "say": [
+      "בוקר. אבא לוקח את התיק של הטלית, ואומר: אני הולך לבית הכנסת. התפילה מתחילה בשבע.",
+      "תמר שואלת: איך אתה יודע מתי זה שבע?",
+      "אבא מצביע על השעון שעל הקיר. השעון אומר לנו מה השעה.",
+      "היום נלמד לקרוא שעון. זה ממש כמו לפתור חידה!",
+      "ובסוף, גם אתם תוכלו להגיד לאבא: עוד עשר דקות התפילה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שני מחוגים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A large friendly round clock face filling the picture, numbers one to twelve around the edge, a short thick hand and a long thin hand, soft colors. No letters.",
+     "move": "in",
+     "fx": null,
+     "art": "🏠",
+     "say": [
+      "בשעון יש מספרים, מאחת ועד שתים עשרה.",
+      "ויש שני מחוגים. מחוג קצר, ומחוג ארוך.",
+      "המחוג הקצר מראה את השעה. המחוג הארוך מראה את הדקות.",
+      "שניהם מסתובבים כל הזמן, לאט לאט, בכיוון אחד.",
+      "המחוג הארוך זז מהר. הקצר זז לאט, לאט. וכל היום הם מראים לנו את הזמן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שעה עגולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A round clock showing exactly seven o'clock: the long hand points straight up to twelve, the short hand points to seven; morning sunlight on the kitchen wall.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "כשהמחוג הארוך מצביע למעלה, על שתים עשרה – זו שעה עגולה.",
+      "ואיזו שעה? מסתכלים על המחוג הקצר.",
+      "הקצר על שבע? אז השעה שבע בדיוק!",
+      "הקצר על שמונה? שמונה בדיוק. זמן ללכת לבית הספר!",
+      "ועכשיו נסו: הארוך על שתים עשרה, והקצר על תשע. מה השעה? נכון – תשע!",
+      "והקצר על אחת? השעה אחת בצהריים. זמן לחזור הביתה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "וחצי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A round clock showing half past seven, the long hand pointing straight down to six; next to it a round pita bread cut exactly in half on a plate, showing two halves.",
+     "move": "left",
+     "fx": null,
+     "art": "🏠",
+     "say": [
+      "עכשיו המחוג הארוך ירד למטה, אל השש.",
+      "הוא עשה חצי סיבוב. חצי, כמו חצי פיתה!",
+      "זה אומר: חצי שעה עברה. הקצר בין שבע לשמונה? השעה שבע וחצי.",
+      "חצי שעה זה שלושים דקות.",
+      "בשבע וחצי, תמר כבר אוכלת ארוחת בוקר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "רבע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A round clock showing a quarter past seven with the long hand on three, and beside it a round cake cut into four equal pieces with one piece set apart.",
+     "move": "right",
+     "fx": null,
+     "art": "🏠",
+     "say": [
+      "עכשיו נלמד מילה חדשה: רבע.",
+      "ואם המחוג הארוך על שלוש? הוא עשה רבע סיבוב, כמו חתיכה אחת מעוגה שחתכו לארבע.",
+      "זה רבע שעה. אומרים: שבע ורבע.",
+      "ואם הארוך על תשע? עוד רבע אחד – ומגיעים לשעה הבאה.",
+      "אומרים: רבע לשמונה.",
+      "רבע שעה זה חמש עשרה דקות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "סופרים בחמש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A round clock with small marks between the numbers, the long hand on two; a smiling girl sits at a table counting on her fingers, a small digital clock on the shelf shows glowing shapes, not readable.",
+     "move": "in",
+     "fx": null,
+     "art": "👧",
+     "say": [
+      "בשעה יש שישים דקות. בין מספר למספר בשעון יש חמש דקות.",
+      "אז סופרים בקפיצות של חמש: חמש, עשר, חמש עשרה, עשרים.",
+      "הארוך על שתיים? זה עשר דקות. השעה: שבע ועשרה.",
+      "הארוך על ארבע? עשרים דקות. השעה: שבע ועשרים.",
+      "תמר מתרגלת, ועכשיו היא יודעת לקרוא כל שעה!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בשעה יש שישים דקות, ובדקה יש שישים שניות."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "זמני התפילה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A synagogue entrance hall with a wooden board of prayer times and a big clock, men with tallit bags arriving, the sky outside changing from sunrise colors on one side to sunset colors on the other.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👴 👦",
+     "say": [
+      "לשעון יש תפקיד חשוב אצלנו: זמני התפילה.",
+      "שחרית מתפללים בבוקר. מנחה – אחרי הצהריים, לפני שהשמש שוקעת. וערבית – בלילה.",
+      "ובשבת יש זמן להדלקת נרות, וזמן לצאת השבת.",
+      "הזמנים כתובים בלוח, ובכל יום הם קצת משתנים – כי הם הולכים לפי השמש.",
+      "ויש גם תפילה לפני השינה: קריאת שמע על המיטה.",
+      "ואבא אומר: התפילה הכי יפה היא תפילה בזמן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "זריזים מקדימים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The girl arriving at a school gate with her backpack, smiling, a little early, the morning sun behind her; a teacher with a head covering greets her warmly at the door.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 👩",
+     "say": [
+      "חז\"ל אומרים: \"זריזים מקדימים למצוות\". מי שאוהב מצווה – בא אליה מוקדם.",
+      "כשאנחנו מגיעים בזמן, אנחנו מכבדים את מי שמחכה לנו.",
+      "המורה, החברים, וגם אבא ואמא.",
+      "ובבוקר, כשהשעון מצלצל – קמים מהר, בזריזות, ומתחילים יום חדש.",
+      "אז מעכשיו, כשמישהו שואל \"מה השעה?\" – אתם כבר יודעים לענות!"
+     ],
+     "pasuk": {
+      "text": "זְרִיזִין מַקְדִּימִין לְמִצְווֹת",
+      "ref": "פסחים ד, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lff-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "קוראים שעון",
+   "ref_he": "ידע לחיים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מתי מתפללים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Early morning in a cozy kitchen: a round wall clock above the doorway, the father with a tallit bag ready to leave for synagogue, his daughter looking up at the clock with curiosity.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨 👧",
+     "say": [
+      "בוקר. אבא לוקח את תיק הטלית והתפילין, ואומר: אני הולך לבית הכנסת. השחרית מתחילה בשבע.",
+      "תמר שואלת: איך אתה יודע מתי זה בדיוק שבע? ומה אם תאחר?",
+      "אבא מחייך ומצביע על השעון העגול שעל הקיר. השעון מחלק לנו את היום לחלקים קטנים, כדי שנדע מתי לעשות כל דבר.",
+      "בואו נלמד לקרוא שעון. זה קצת כמו לפתור חידה – וכשמבינים, זה ממש קל.",
+      "וכשתדעו לקרוא שעון, תוכלו לעזור לכל המשפחה להגיע בזמן: לבית הכנסת, לבית הספר ולשבת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "שני מחוגים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A large friendly round clock face filling the picture, numbers one to twelve around the edge, a short thick hand and a long thin hand, soft colors. No letters.",
+     "move": "in",
+     "fx": null,
+     "art": "🏠",
+     "say": [
+      "סביב השעון יש שנים עשר מספרים, מאחת ועד שתים עשרה.",
+      "ויש שני מחוגים: הקצר מראה את השעות, והארוך מראה את הדקות.",
+      "המחוג הארוך זז מהר יותר. הוא מסתובב סיבוב שלם בשעה אחת.",
+      "המחוג הקצר זז לאט מאוד. הוא עובר רק ממספר אחד למספר הבא בשעה שלמה.",
+      "וביום שלם יש עשרים וארבע שעות. לכן המחוג הקצר מסתובב פעמיים: פעם אחת ביום, ופעם אחת בלילה.",
+      "דרך לזכור: המחוג הארוך רץ מהר כמו ילד, והקצר הולך לאט כמו סבא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "שעה עגולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A round clock showing exactly seven o'clock: the long hand points straight up to twelve, the short hand points to seven; morning sunlight on the kitchen wall.",
+     "move": "up",
+     "fx": "light",
+     "art": "🏠",
+     "say": [
+      "נתחיל מהקל ביותר: שעה עגולה. כשהמחוג הארוך מצביע ישר למעלה, על השתים עשרה, אנחנו בתחילת שעה.",
+      "ועכשיו בודקים את המחוג הקצר: על איזה מספר הוא מצביע? זו השעה.",
+      "ארוך על שתים עשרה, קצר על שבע – השעה שבע בדיוק. אבא יוצא לתפילה.",
+      "ארוך על שתים עשרה, קצר על שמונה – השעה שמונה. מתחיל יום הלימודים.",
+      "נסו בעצמכם: הארוך למעלה, והקצר על ארבע. מה השעה? ארבע בדיוק – זמן לשחק בגינה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "וחצי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A round clock showing half past seven, the long hand pointing straight down to six; next to it a round pita bread cut exactly in half on a plate, showing two halves.",
+     "move": "left",
+     "fx": null,
+     "art": "🏠",
+     "say": [
+      "עכשיו המחוג הארוך ירד ישר למטה, אל המספר שש. הוא עשה חצי סיבוב – כמו פיתה שחתכו באמצע.",
+      "חצי סיבוב של המחוג הארוך הוא חצי שעה. ובחצי שעה יש שלושים דקות.",
+      "ושימו לב: גם המחוג הקצר זז קצת. עכשיו הוא באמצע, בין השבע לשמונה.",
+      "אז השעה: שבע וחצי. אפשר להגיד גם: שבע ושלושים.",
+      "חצי שעה זה בערך הזמן שלוקח לאכול ארוחת ערב רגועה עם המשפחה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "רבע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A round clock showing a quarter past seven with the long hand on three, and beside it a round cake cut into four equal pieces with one piece set apart.",
+     "move": "right",
+     "fx": null,
+     "art": "🏠",
+     "say": [
+      "עכשיו נחתוך עוגה עגולה לארבעה חלקים שווים. כל חלק הוא רבע.",
+      "כשהמחוג הארוך על שלוש, הוא עשה רבע סיבוב. זו רבע שעה – חמש עשרה דקות. אומרים: שבע ורבע.",
+      "כשהארוך על תשע, הוא עשה שלושה רבעים. נשאר רק רבע עד השעה הבאה. אומרים: רבע לשמונה.",
+      "אז יש לנו: שעה עגולה – למעלה. ורבע – ימינה. וחצי – למטה. ורבע ל – שמאלה.",
+      "ורבע שעה זה בערך הזמן של הפסקה בבית הספר.",
+      "טריק קטן: רבע שעה, חצי שעה, שלושה רבעים, ושעה שלמה – בדיוק כמו ארבע חתיכות עוגה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "סופרים בחמש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A round clock with small marks between the numbers, the long hand on two; a smiling girl sits at a table counting on her fingers, a small digital clock on the shelf shows glowing shapes, not readable.",
+     "move": "in",
+     "fx": null,
+     "art": "👧",
+     "say": [
+      "ומה עם כל הזמנים שביניהם? בשעה יש שישים דקות, ובין כל שני מספרים בשעון יש חמש דקות.",
+      "לכן את המחוג הארוך סופרים בקפיצות של חמש: אחת זה חמש דקות, שתיים זה עשר, שלוש זה חמש עשרה, ארבע זה עשרים.",
+      "הארוך על ארבע והקצר אחרי שבע? השעה שבע ועשרים.",
+      "ויש גם שעון דיגיטלי, עם מספרים. כתוב בו קודם השעה, ואחר כך הדקות: שבע, נקודתיים, שלושים – זה שבע וחצי.",
+      "ובשעון דיגיטלי, עשר וחצי בלילה נראה לפעמים כך: עשרים ושתיים, שלושים. כי סופרים את כל עשרים וארבע השעות.",
+      "תמר מתרגלת, ועכשיו היא קוראת כל שעה, בכל שעון."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בשעה יש שישים דקות, ובדקה יש שישים שניות."
+     }
+    },
+    {
+     "id": "s7",
+     "title_he": "זמני התפילה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: A synagogue entrance hall with a wooden board of prayer times and a big clock, men with tallit bags arriving, the sky outside changing from sunrise colors on one side to sunset colors on the other.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👴 👦",
+     "say": [
+      "לשעון יש אצלנו תפקיד חשוב מאוד: זמני התפילה והמצוות.",
+      "שחרית בבוקר. לקריאת שמע של הבוקר יש זמן אחרון, ואחריו כבר מאוחר. מנחה – אחרי הצהריים, עד שקיעת החמה. וערבית – בלילה.",
+      "ובערב שבת, אמא מסתכלת בשעון כדי לדעת מתי מדליקים נרות. ובמוצאי שבת מחכים לצאת הכוכבים.",
+      "הזמנים האלה הולכים לפי השמש. לכן הם משתנים מיום ליום, ובקיץ השבת נכנסת מאוחר יותר מאשר בחורף.",
+      "בלוח שבבית הכנסת כתובים כל הזמנים: עלות השחר, הזריחה, סוף זמן קריאת שמע, השקיעה וצאת הכוכבים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "זריזים מקדימים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The girl arriving at a school gate with her backpack, smiling, a little early, the morning sun behind her; a teacher with a head covering greets her warmly at the door.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 👩",
+     "say": [
+      "חז\"ל אומרים: \"זריזים מקדימים למצוות\". אברהם אבינו, כשהשם ציווה אותו, השכים בבוקר ומיהר לעשות.",
+      "וכשמגיעים בזמן, מכבדים אנשים אחרים: את המורה שמתחילה שיעור, את החברים שמחכים, ואת אבא ואמא.",
+      "מי שמאחר כל פעם, לוקח בלי לשים לב מהזמן של אחרים. וזמן הוא מתנה יקרה מאוד.",
+      "גם בבוקר אפשר להיות זריזים: כשהשעון המעורר מצלצל, קמים מיד, ואומרים \"מודה אני\".",
+      "אז מעכשיו, כשמישהו ישאל \"מה השעה?\" – תוכלו להסתכל על השעון ולענות בעצמכם."
+     ],
+     "pasuk": {
+      "text": "זְרִיזִין מַקְדִּימִין לְמִצְווֹת",
+      "ref": "פסחים ד, א"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "בהלכה מחלקים את היום, מהבוקר עד הערב, לשתים עשרה \"שעות זמניות\". בקיץ, כשהיום ארוך, כל שעה כזו ארוכה יותר."
+     }
+    }
+   ],
+   "id": "k-lff-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מראה המחוג הקצר בשעון?",
+   "answer": "את השעות",
+   "options": [
+    "את השעות",
+    "את הדקות",
+    "את הימים",
+    "את החודשים"
+   ],
+   "explain_he": "המחוג הקצר מראה את השעה, והמחוג הארוך מראה את הדקות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מראה המחוג הקצר בשעון?",
+   "answer": "את השעות",
+   "options": [
+    "את השעות",
+    "את הדקות",
+    "את הימים",
+    "את החודשים"
+   ],
+   "explain_he": "המחוג הקצר מראה את השעה, והמחוג הארוך מראה את הדקות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הארוך על שתים עשרה והקצר על שבע. מה השעה?",
+   "answer": "שבע בדיוק",
+   "options": [
+    "שבע בדיוק",
+    "שבע וחצי",
+    "שתים עשרה",
+    "רבע לשבע"
+   ],
+   "explain_he": "כשהארוך למעלה, זו שעה עגולה. הקצר מראה איזו: שבע.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הארוך על שתים עשרה והקצר על שבע. מה השעה?",
+   "answer": "שבע בדיוק",
+   "options": [
+    "שבע בדיוק",
+    "שבע וחצי",
+    "שתים עשרה",
+    "רבע לשבע"
+   ],
+   "explain_he": "כשהארוך למעלה, זו שעה עגולה. הקצר מראה איזו: שבע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "המחוג הארוך על שש. מה זה אומר?",
+   "answer": "עברה חצי שעה",
+   "options": [
+    "עברה חצי שעה",
+    "עברו שש שעות",
+    "עברה רבע שעה",
+    "השעה שש"
+   ],
+   "explain_he": "חצי סיבוב של המחוג הארוך הוא חצי שעה – שלושים דקות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "המחוג הארוך על שש. מה זה אומר?",
+   "answer": "עברה חצי שעה",
+   "options": [
+    "עברה חצי שעה",
+    "עברו שש שעות",
+    "עברה רבע שעה",
+    "השעה שש"
+   ],
+   "explain_he": "חצי סיבוב של המחוג הארוך הוא חצי שעה – שלושים דקות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הארוך על שלוש, והקצר אחרי שבע. מה השעה?",
+   "answer": "שבע ורבע",
+   "options": [
+    "שבע ורבע",
+    "שלוש ושבע",
+    "רבע לשבע",
+    "שבע וחצי"
+   ],
+   "explain_he": "הארוך על שלוש – רבע סיבוב, רבע שעה. השעה שבע ורבע.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הארוך על שלוש, והקצר אחרי שבע. מה השעה?",
+   "answer": "שבע ורבע",
+   "options": [
+    "שבע ורבע",
+    "שלוש ושבע",
+    "רבע לשבע",
+    "שבע וחצי"
+   ],
+   "explain_he": "הארוך על שלוש – רבע סיבוב, רבע שעה. השעה שבע ורבע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה דקות יש בשעה אחת?",
+   "answer": "שישים",
+   "options": [
+    "שישים",
+    "עשרים",
+    "מאה",
+    "שתים עשרה"
+   ],
+   "explain_he": "בשעה יש שישים דקות, ובין כל שני מספרים בשעון יש חמש דקות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה דקות יש בשעה אחת?",
+   "answer": "שישים",
+   "options": [
+    "שישים",
+    "עשרים",
+    "מאה",
+    "שתים עשרה"
+   ],
+   "explain_he": "בשעה יש שישים דקות, ובין כל שני מספרים בשעון יש חמש דקות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה זמני התפילה משתנים מיום ליום?",
+   "answer": "כי הם הולכים לפי השמש",
+   "options": [
+    "כי הם הולכים לפי השמש",
+    "כי השעון מתקלקל",
+    "כי הרב מחליט כל יום מחדש",
+    "כי בכל יום יש פחות שעות"
+   ],
+   "explain_he": "הזמנים קשורים לזריחה ולשקיעה, ולכן בקיץ השבת נכנסת מאוחר יותר מבחורף.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה זמני התפילה משתנים מיום ליום?",
+   "answer": "כי הם הולכים לפי השמש",
+   "options": [
+    "כי הם הולכים לפי השמש",
+    "כי השעון מתקלקל",
+    "כי הרב מחליט כל יום מחדש",
+    "כי בכל יום יש פחות שעות"
+   ],
+   "explain_he": "הזמנים קשורים לזריחה ולשקיעה, ולכן בקיץ השבת נכנסת מאוחר יותר מבחורף.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"זריזים מקדימים למצוות\"?",
+   "answer": "מי שאוהב מצווה – ממהר ובא אליה מוקדם",
+   "options": [
+    "מי שאוהב מצווה – ממהר ובא אליה מוקדם",
+    "צריך לרוץ מהר בכל מקום",
+    "מצווה עושים רק בבוקר",
+    "מותר לאחר למצווה קטנה"
+   ],
+   "explain_he": "כשמגיעים בזמן, מראים שהמצווה חשובה לנו, ומכבדים את מי שמחכה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f2e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"זריזים מקדימים למצוות\"?",
+   "answer": "מי שאוהב מצווה – ממהר ובא אליה מוקדם",
+   "options": [
+    "מי שאוהב מצווה – ממהר ובא אליה מוקדם",
+    "צריך לרוץ מהר בכל מקום",
+    "מצווה עושים רק בבוקר",
+    "מותר לאחר למצווה קטנה"
+   ],
+   "explain_he": "כשמגיעים בזמן, מראים שהמצווה חשובה לנו, ומכבדים את מי שמחכה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f2e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הארוך על ארבע והקצר אחרי שבע. מה השעה?",
+   "answer": "שבע ועשרים",
+   "options": [
+    "שבע ועשרים",
+    "ארבע ושבע",
+    "שבע וארבע",
+    "רבע לשבע"
+   ],
+   "explain_he": "סופרים בחמש: ארבע קפיצות של חמש הן עשרים דקות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f2e17"
+  }
+ ]
+}

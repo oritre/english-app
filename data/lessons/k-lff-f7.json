@@ -1,0 +1,565 @@
+{
+ "id": "k-lff-f7",
+ "unit_id": "k-lff-u3",
+ "course": "life",
+ "title_he": "עוזרים בבית, חברים טובים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "עוזרים בבית, חברים טובים",
+   "ref_he": "ידע לחיים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ערב שבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Friday afternoon at home: everyone helps prepare for Shabbat; the father polishes the candlesticks, the girl sets the white tablecloth, the boy puts out the challah cover, the mother takes challah from the oven.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "יום שישי בצהריים. כל הבית מתכונן לשבת!",
+      "כל אחד מקבל תפקיד.",
+      "אבא מצחצח את הפמוטים. אמא אופה חלות.",
+      "תמר פורסת מפה לבנה, ונועם מביא את כיסוי החלות.",
+      "כשכולם עוזרים, הבית מוכן מהר, וכולם שמחים יחד.",
+      "ואפילו האח הקטן עוזר: הוא מביא את המפיות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "כל אחד עוזר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The children's bedroom being tidied: the boy puts toys into a basket, the girl folds clean laundry into neat piles, a toddler brother tries to help with a sock. Bright and cheerful.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👦 👧 👶",
+     "say": [
+      "מה ילדים יכולים לעשות בבית?",
+      "לסדר את החדר, להחזיר צעצועים למקום, ולקפל בגדים.",
+      "לערוך את השולחן, ולפנות את הצלחות אחרי האוכל.",
+      "לשים את הנעליים במקום, ולהוריד את הצלחת לכיור.",
+      "ולעזור לאח הקטן. כל עזרה קטנה – היא מצווה גדולה!",
+      "וכשעוזרים בלי שמבקשים – אמא כל כך שמחה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "אברהם רץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: An ancient desert tent at midday under a big oak tree: an elderly man with a white beard runs joyfully toward three travelers to invite them in, the tent open on all sides.",
+     "move": "right",
+     "fx": "light",
+     "art": "⛺ 👴 🚶",
+     "say": [
+      "מי היה הכי טוב בעשיית חסד? אברהם אבינו!",
+      "האוהל שלו היה פתוח לכל הצדדים, כדי שאורחים ייכנסו מכל כיוון.",
+      "ביום חם מאוד, אברהם ישב בפתח האוהל, וחיכה לאורחים.",
+      "כשראה שלושה אורחים, הוא רץ אליהם, והביא להם מים, לחם ואוכל טוב.",
+      "חסד פירושו לעשות טוב לאחרים, מכל הלב.",
+      "גם אנחנו יכולים לעשות חסד: לעזור לחבר, לשמח את סבתא, להביא כוס מים."
+     ],
+     "pasuk": {
+      "text": "עוֹלָם חֶסֶד יִבָּנֶה",
+      "ref": "תהלים פט, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "משתפים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A school playground at recess: the girl breaks her sandwich in half to share with a friend who forgot hers, and the boy lets another boy have a turn with his ball; children smiling.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👧 👧 👦 👦",
+     "say": [
+      "בהפסקה, החברה של תמר שכחה כריך. תמר חוצה את שלה, ונותנת לה חצי.",
+      "ונועם נותן לחבר תור עם הכדור שלו.",
+      "ככה כל ההפסקה הייתה שמחה יותר, לשתיהן.",
+      "התורה אומרת: \"ואהבת לרעך כמוך\". לאהוב את החבר כמו את עצמך.",
+      "מה שהיית רוצה שיעשו לך – תעשה לחבר.",
+      "וילד חדש בכיתה, שעומד לבד? מזמינים אותו לשחק!"
+     ],
+     "pasuk": {
+      "text": "וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ",
+      "ref": "ויקרא יט, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "נצור לשונך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: Two boys talking quietly on a school bench; one starts whispering about another child, and the second boy gently raises his hand as if to say let's talk about something else, smiling kindly.",
+     "move": "left",
+     "fx": null,
+     "art": "👦 👦",
+     "say": [
+      "למילים יש כוח. הן יכולות לשמח, והן יכולות להעליב.",
+      "לשון הרע זה לספר דברים רעים על מישהו אחר. גם אם זה נכון!",
+      "כי מי שמספרים עליו – נעלב ועצוב. וגם כשמשהו נכון, לא מספרים אותו כדי לצחוק על מישהו.",
+      "חבר אמר לנועם: \"תשמע מה יוסי עשה...\". ונועם ענה: \"בוא נדבר על משהו אחר\".",
+      "דוד המלך אמר: \"נצור לשונך מרע\". שמור על הלשון שלך.",
+      "ומי ששומר על הפה – יש לו הרבה חברים."
+     ],
+     "pasuk": {
+      "text": "מִי הָאִישׁ הֶחָפֵץ חַיִּים... נְצֹר לְשׁוֹנְךָ מֵרָע",
+      "ref": "תהלים לד, יג-יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "אמת ונועם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: In a classroom the girl gently and kindly tells a friend that her drawing is beautiful, pointing at a detail; in the background a boy honestly returns a lost pencil case to its owner.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 👧 👦",
+     "say": [
+      "חבר טוב מדבר אמת. התורה אומרת: \"מדבר שקר תרחק\".",
+      "וגם מדבר בנועם, בעדינות. אומרים מילה טובה לחבר: \"איזה ציור יפה!\"",
+      "חיוך ו\"שלום\" יפה – גם זה חסד.",
+      "ואם מוצאים קלמר של מישהו? מחזירים לו.",
+      "אמת ונעימות – יחד. ככה כולם רוצים להיות איתך.",
+      "וכשמישהו עצוב, אומרים לו מילה טובה ומחייכים אליו."
+     ],
+     "pasuk": {
+      "text": "מִדְּבַר שֶׁקֶר תִּרְחָק",
+      "ref": "שמות כג, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "ידע לחיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Saba: a grandfather with a white beard, glasses, a black kippah and a grey cardigan. Scene: Shabbat afternoon in a green park: the family walks together, the children holding hands with friends, the grandfather on a bench smiling, the neighborhood houses and a synagogue in the background.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ראינו כל כך הרבה דברים בקורס הזה!",
+      "איך חוצים כביש, איך קוראים שעון, איך שומרים על הבית ועל הגוף.",
+      "איך משתמשים בכסף, איך מכבדים הורים, ואיך עוזרים ומדברים יפה.",
+      "כל אלה הם ידע לחיים: לחיות כמו שהשם רוצה – בזהירות, בשמחה, ובאהבה.",
+      "ובכל דבר כזה – אנחנו משמחים את הקדוש ברוך הוא.",
+      "ועכשיו, תורכם: איזה דבר טוב תעשו היום?"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lff-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "עוזרים בבית, חברים טובים",
+   "ref_he": "ידע לחיים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "ערב שבת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Friday afternoon at home: everyone helps prepare for Shabbat; the father polishes the candlesticks, the girl sets the white tablecloth, the boy puts out the challah cover, the mother takes challah from the oven.",
+     "move": "out",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "יום שישי בצהריים, וכל הבית מתכונן לשבת המלכה.",
+      "אבא מצחצח את הפמוטים ואת גביע הקידוש, אמא מוציאה מהתנור חלות ריחניות, תמר פורסת מפה לבנה, ונועם מביא את כיסוי החלות.",
+      "חז\"ל מספרים שגם גדולי החכמים בגמרא הכינו בעצמם משהו לשבת. כי מצווה לכבד את השבת בידיים שלנו.",
+      "וכשכל אחד עוזר, הבית מוכן מהר יותר, ויש בו שמחה ואחדות.",
+      "ויש עוד סוד: מי שעובד בהכנת השבת, מרגיש אותה יותר. השבת נעשית גם שלו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הגמרא מספרת שחכמים גדולים הכינו לשבת בעצמם: אחד מלח דגים, אחר הדליק נרות, ואחר חתך ירקות."
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "כל אחד עוזר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The children's bedroom being tidied: the boy puts toys into a basket, the girl folds clean laundry into neat piles, a toddler brother tries to help with a sock. Bright and cheerful.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👦 👧 👶",
+     "say": [
+      "מה ילדים יכולים לעשות בבית? הרבה יותר ממה שחושבים.",
+      "לסדר את החדר ואת המיטה, להחזיר צעצועים ומשחקים למקום, ולקפל בגדים נקיים.",
+      "לערוך את השולחן, לפנות צלחות, ולשים את הנעליים במקום.",
+      "ולעזור לאחים הקטנים: לקרוא להם סיפור, להלביש אותם, או לשחק איתם כשאמא עסוקה.",
+      "וכשעוזרים בלי שמבקשים – זה הכי יפה. כי אז רואים שאכפת לנו.",
+      "ולעזור להורים – זו גם מצוות כיבוד אב ואם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "אברהם רץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood.  Scene: An ancient desert tent at midday under a big oak tree: an elderly man with a white beard runs joyfully toward three travelers to invite them in, the tent open on all sides.",
+     "move": "right",
+     "fx": "light",
+     "art": "⛺ 👴 🚶",
+     "say": [
+      "מי היה האלוף של החסד? אברהם אבינו.",
+      "חז\"ל מספרים שהאוהל שלו היה פתוח לארבעה צדדים, כדי שכל עובר אורח ימצא בקלות את הכניסה.",
+      "ביום חם מאוד, כשראה שלושה אורחים, אברהם רץ לקראתם, ביקש שיבואו, והגיש להם מים לרחוץ, לחם ומאכלים טובים.",
+      "דוד המלך כתב: \"עולם חסד ייבנה\". העולם כולו בנוי על חסד: על אנשים שעושים טוב זה לזה.",
+      "ואנחנו, הילדים של אברהם, ממשיכים את הדרך שלו.",
+      "וחסד לא חייב להיות דבר גדול: כוס מים לאורח, עזרה לשכנה עם השקיות, או מילה טובה לחבר עצוב."
+     ],
+     "pasuk": {
+      "text": "עוֹלָם חֶסֶד יִבָּנֶה",
+      "ref": "תהלים פט, ג"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "משתפים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A school playground at recess: the girl breaks her sandwich in half to share with a friend who forgot hers, and the boy lets another boy have a turn with his ball; children smiling.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👧 👧 👦 👦",
+     "say": [
+      "בהפסקה, החברה של תמר שכחה את הכריך בבית. תמר לא חושבת פעמיים: היא חוצה את הכריך שלה ונותנת לה חצי.",
+      "ונועם, שיש לו כדור חדש, נותן גם לחבר לשחק בו.",
+      "התורה אומרת: \"ואהבת לרעך כמוך\". ורבי עקיבא אמר: זה כלל גדול בתורה.",
+      "והלל הזקן הסביר את זה בפשטות: מה ששנוא עליך – אל תעשה לחברך. וגם להפך: מה שהיית שמח שיעשו לך – עשה לו.",
+      "ויש עוד דבר: ילד חדש בכיתה, שעומד לבד? מזמינים אותו לשחק. ככה נראה חבר טוב."
+     ],
+     "pasuk": {
+      "text": "וְאָהַבְתָּ לְרֵעֲךָ כָּמוֹךָ",
+      "ref": "ויקרא יט, יח"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "נצור לשונך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: Two boys talking quietly on a school bench; one starts whispering about another child, and the second boy gently raises his hand as if to say let's talk about something else, smiling kindly.",
+     "move": "left",
+     "fx": null,
+     "art": "👦 👦",
+     "say": [
+      "למילים יש כוח גדול מאוד. מילה אחת יכולה לשמח חבר כל היום, ומילה אחרת יכולה לפגוע בו מאוד.",
+      "לשון הרע פירושה לספר דברים שליליים על מישהו אחר, כשהוא לא נמצא. וזה אסור – גם כשהסיפור נכון.",
+      "חבר התחיל לספר לנועם: \"תשמע מה יוסי עשה...\". ונועם אמר בחיוך: \"בוא נדבר על משהו אחר\". ככה, בלי לריב, הוא שמר גם על עצמו וגם על יוסי.",
+      "החפץ חיים, צדיק גדול, כתב ספרים שלמים על שמירת הלשון. והוא לימד: מי ששומר על הפה – שומר על נשמתו.",
+      "ומה אם מישהו כבר סיפר לנו לשון הרע? לא מאמינים מיד, ולא מעבירים הלאה."
+     ],
+     "pasuk": {
+      "text": "מִי הָאִישׁ הֶחָפֵץ חַיִּים... נְצֹר לְשׁוֹנְךָ מֵרָע",
+      "ref": "תהלים לד, יג-יד"
+     },
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "אמת ונועם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: In a classroom the girl gently and kindly tells a friend that her drawing is beautiful, pointing at a detail; in the background a boy honestly returns a lost pencil case to its owner.",
+     "move": "right",
+     "fx": "light",
+     "art": "👧 👧 👦",
+     "say": [
+      "חבר טוב מדבר אמת. התורה אומרת: \"מדבר שקר תרחק\" – לא רק לא לשקר, אלא להתרחק מכל דבר שקרוב לשקר.",
+      "אבל אמת לא אומרים בצורה פוגעת. אומרים אותה בנועם, ברכות. ותמיד אפשר למצוא מילה טובה: \"איזה ציור יפה! הצבעים כאן מיוחדים\".",
+      "חז\"ל אומרים: \"הוי מקבל את כל האדם בסבר פנים יפות\". חיוך ושלום יפה הם חסד שעולה מעט ושווה הרבה.",
+      "ואם מוצאים חפץ של מישהו, כמו קלמר שנשכח – מחזירים לו. גם זה חלק מלהיות חבר ישר.",
+      "ומי שמדבר אמת תמיד, אנשים סומכים עליו. ומי שמדבר בנועם – אנשים אוהבים אותו."
+     ],
+     "pasuk": {
+      "text": "מִדְּבַר שֶׁקֶר תִּרְחָק",
+      "ref": "שמות כג, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "מחזירים שלום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: The two girls who had argued in the schoolyard now walk toward each other, one holding out her hand, smiles returning, a teacher watching kindly from a distance.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "👧 👧",
+     "say": [
+      "ומה קורה כשרבים? גם לחברים טובים זה קורה לפעמים.",
+      "תמר וחברתה רבו בהפסקה, וכל אחת הלכה לצד אחר. אבל אחרי השיעור, תמר ניגשה ראשונה ואמרה: \"סליחה, אני לא רוצה שנריב\".",
+      "אהרן הכהן היה ידוע בזה. חז\"ל מספרים שהוא \"אוהב שלום ורודף שלום\": כשראה שני אנשים שרבו, הלך לכל אחד מהם, עד שהשלימו.",
+      "מי שמבקש סליחה ראשון – הוא לא החלש. הוא הגיבור.",
+      "ואחרי שמשלימים, החברות לפעמים נעשית אפילו חזקה יותר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "ידע לחיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Saba: a grandfather with a white beard, glasses, a black kippah and a grey cardigan. Scene: Shabbat afternoon in a green park: the family walks together, the children holding hands with friends, the grandfather on a bench smiling, the neighborhood houses and a synagogue in the background.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ראינו בקורס הזה הרבה דברים: איך חוצים כביש בבטחה, איך קוראים שעון, ואיך שומרים על הבית ועל הגוף.",
+      "למדנו להשתמש בכסף ביושר ובחכמה, לכבד הורים, מורים וזקנים, ולהגיד תודה וסליחה.",
+      "ואין דבר יפה יותר מבית שבו כולם עוזרים זה לזה.",
+      "והיום למדנו לעזור בבית, לעשות חסד, לשתף, ולשמור על הלשון.",
+      "כל אלה הם \"ידע לחיים\": איך לחיות חיים טובים, כמו שהקדוש ברוך הוא רוצה – בזהירות, בשמחה, ובאהבה לכל אדם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-lff-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו כל בני המשפחה ביום שישי בצהריים?",
+   "answer": "עזרו יחד להכין את הבית לשבת",
+   "options": [
+    "עזרו יחד להכין את הבית לשבת",
+    "הלכו לישון",
+    "יצאו לטיול",
+    "שיחקו כל אחד לבד"
+   ],
+   "explain_he": "כל אחד עשה חלק, והבית היה מוכן מהר ובשמחה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשו כל בני המשפחה ביום שישי בצהריים?",
+   "answer": "עזרו יחד להכין את הבית לשבת",
+   "options": [
+    "עזרו יחד להכין את הבית לשבת",
+    "הלכו לישון",
+    "יצאו לטיול",
+    "שיחקו כל אחד לבד"
+   ],
+   "explain_he": "כל אחד עשה חלק, והבית היה מוכן מהר ובשמחה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראה האוהל של אברהם אבינו?",
+   "answer": "פתוח לכל הצדדים, כדי שאורחים ייכנסו",
+   "options": [
+    "פתוח לכל הצדדים, כדי שאורחים ייכנסו",
+    "סגור עם דלת כבדה",
+    "גבוה מאוד על הר",
+    "קטן ונסתר"
+   ],
+   "explain_he": "אברהם רצה שכל עובר אורח ימצא בקלות את הכניסה.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נראה האוהל של אברהם אבינו?",
+   "answer": "פתוח לכל הצדדים, כדי שאורחים ייכנסו",
+   "options": [
+    "פתוח לכל הצדדים, כדי שאורחים ייכנסו",
+    "סגור עם דלת כבדה",
+    "גבוה מאוד על הר",
+    "קטן ונסתר"
+   ],
+   "explain_he": "אברהם רצה שכל עובר אורח ימצא בקלות את הכניסה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשתה תמר כשהחברה שלה שכחה כריך?",
+   "answer": "נתנה לה חצי מהכריך שלה",
+   "options": [
+    "נתנה לה חצי מהכריך שלה",
+    "צחקה עליה",
+    "אכלה לבד",
+    "סיפרה לכולם"
+   ],
+   "explain_he": "\"ואהבת לרעך כמוך\" – מה שהיית רוצה שיעשו לך, עשה לחבר.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשתה תמר כשהחברה שלה שכחה כריך?",
+   "answer": "נתנה לה חצי מהכריך שלה",
+   "options": [
+    "נתנה לה חצי מהכריך שלה",
+    "צחקה עליה",
+    "אכלה לבד",
+    "סיפרה לכולם"
+   ],
+   "explain_he": "\"ואהבת לרעך כמוך\" – מה שהיית רוצה שיעשו לך, עשה לחבר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זה לשון הרע?",
+   "answer": "לספר דברים רעים על מישהו אחר, גם אם הם נכונים",
+   "options": [
+    "לספר דברים רעים על מישהו אחר, גם אם הם נכונים",
+    "לדבר בשפה זרה",
+    "לדבר בקול רם",
+    "לשיר שיר עצוב"
+   ],
+   "explain_he": "לשון הרע אסורה גם כשהסיפור נכון. \"נצור לשונך מרע\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זה לשון הרע?",
+   "answer": "לספר דברים רעים על מישהו אחר, גם אם הם נכונים",
+   "options": [
+    "לספר דברים רעים על מישהו אחר, גם אם הם נכונים",
+    "לדבר בשפה זרה",
+    "לדבר בקול רם",
+    "לשיר שיר עצוב"
+   ],
+   "explain_he": "לשון הרע אסורה גם כשהסיפור נכון. \"נצור לשונך מרע\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה נועם כשחבר התחיל לספר עליו משהו רע על יוסי?",
+   "answer": "\"בוא נדבר על משהו אחר\"",
+   "options": [
+    "\"בוא נדבר על משהו אחר\"",
+    "\"ספר לי עוד\"",
+    "\"אני אספר לכולם\"",
+    "\"יוסי באמת רע\""
+   ],
+   "explain_he": "כך, בלי לריב, נועם שמר על עצמו ועל יוסי.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה נועם כשחבר התחיל לספר עליו משהו רע על יוסי?",
+   "answer": "\"בוא נדבר על משהו אחר\"",
+   "options": [
+    "\"בוא נדבר על משהו אחר\"",
+    "\"ספר לי עוד\"",
+    "\"אני אספר לכולם\"",
+    "\"יוסי באמת רע\""
+   ],
+   "explain_he": "כך, בלי לריב, נועם שמר על עצמו ועל יוסי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשמוצאים קלמר של מישהו?",
+   "answer": "מחזירים לו",
+   "options": [
+    "מחזירים לו",
+    "לוקחים לעצמנו",
+    "זורקים לפח",
+    "מחביאים"
+   ],
+   "explain_he": "חבר טוב הוא חבר ישר. מחזירים חפץ שאבד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים כשמוצאים קלמר של מישהו?",
+   "answer": "מחזירים לו",
+   "options": [
+    "מחזירים לו",
+    "לוקחים לעצמנו",
+    "זורקים לפח",
+    "מחביאים"
+   ],
+   "explain_he": "חבר טוב הוא חבר ישר. מחזירים חפץ שאבד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה אהרן הכהן כששני אנשים רבו?",
+   "answer": "הלך לכל אחד מהם עד שהשלימו",
+   "options": [
+    "הלך לכל אחד מהם עד שהשלימו",
+    "אמר להם להתרחק",
+    "כעס עליהם",
+    "לא התערב"
+   ],
+   "explain_he": "אהרן היה \"אוהב שלום ורודף שלום\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f7e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר הלל הזקן?",
+   "answer": "מה ששנוא עליך – אל תעשה לחברך",
+   "options": [
+    "מה ששנוא עליך – אל תעשה לחברך",
+    "כל אחד לעצמו",
+    "רק חברים טובים צריך לאהוב",
+    "לא צריך לשתף"
+   ],
+   "explain_he": "זה ההסבר הפשוט של \"ואהבת לרעך כמוך\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f7e16"
+  }
+ ]
+}

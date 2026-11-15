@@ -1,0 +1,694 @@
+{
+ "id": "k-kgf-f7",
+ "unit_id": "k-kgf-u3",
+ "course": "kings",
+ "title_he": "מחזקיהו ועד השיבה לציון",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "מחזקיהו ועד השיבה לציון",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "חזקיהו המלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A Jerusalem study hall in the days of the First Temple: oil lamps glowing, men and boys of all ages in modest robes and head coverings sitting together over scrolls, a bearded king in a simple crown standing at the door smiling.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦 👦",
+     "say": [
+      "עכשיו נחזור לממלכת יהודה, לירושלים. כאן מלכו מלכי בית דוד, וחלק מהם היו צדיקים גדולים.",
+      "אחד מהם הוא חזקיהו. אביו אחז היה מלך רשע, וסגר את בית המקדש. אבל חזקיהו, מהחודש הראשון, פתח את דלתות המקדש וטיהר אותו.",
+      "הוא עשה פסח גדול, והזמין אליו את כל ישראל, אפילו מהשבטים בצפון.",
+      "ומה שהכי חשוב לו היה לימוד התורה. בכל מקום למדו, ילדים ומבוגרים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מספרים שבימי חזקיהו חיפשו מדן ועד באר שבע, ולא מצאו אדם שאינו בקי בתורה – אפילו ילדים קטנים."
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "סנחריב בשערי ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Early morning mist outside the walls of Jerusalem: a vast enemy camp of tents lies completely silent and abandoned, banners drooping, while on the city wall people in modest robes look out in wonder and relief. No bodies, only empty tents.",
+     "move": "out",
+     "fx": "mist",
+     "art": "⛺ ⛺ 🏠",
+     "say": [
+      "ואז בא סנחריב, מלך אשור, עם צבא עצום, והקיף את ירושלים.",
+      "השליח שלו, רבשקה, עמד ליד החומה וצעק בעברית, כדי שכולם יבינו: אל תבטחו בהשם! אף אחד לא יציל אתכם!",
+      "סנחריב שלח מכתב מאיים. וחזקיהו? הוא עלה לבית המקדש, פרש את המכתב לפני השם, והתפלל.",
+      "והנביא ישעיהו שלח לו תשובה בשם השם: \"וגנותי אל העיר הזאת להושיעה\". אני אגן על העיר הזאת.",
+      "ובאותו לילה, מלאך השם פגע במחנה אשור. בבוקר, המחנה הענק היה שקט וריק. סנחריב חזר לארצו, וירושלים ניצלה."
+     ],
+     "pasuk": {
+      "text": "וְגַנּוֹתִי אֶל הָעִיר הַזֹּאת לְהוֹשִׁיעָהּ",
+      "ref": "מלכים ב יט, לד"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הספר שנמצא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Inside the Temple storerooms during repair work: workmen with tools and wooden beams, and an elderly Kohen in white linen lifting an old Torah scroll from behind stones, holding it up in amazement in a beam of light.",
+     "move": "up",
+     "fx": "dust",
+     "art": "👴 👨 👨",
+     "say": [
+      "אחרי חזקיהו מלך בנו מנשה, ושוב התפשטה עבודה זרה. אבל אחר כך בא מלך צדיק נוסף: יאשיהו.",
+      "יאשיהו מלך כשהיה רק בן שמונה! וכשגדל, ציווה לתקן את בית המקדש.",
+      "בזמן התיקון, חלקיהו הכהן הגדול מצא ספר תורה, שהיה מוסתר בבית המקדש.",
+      "קראו את הספר לפני המלך. יאשיהו שמע את דברי התורה, וקרע את בגדיו מרוב צער: כמה רחוקים אנחנו מהתורה!",
+      "הוא אסף את כל העם, קרא באוזניהם את הספר, וכולם קיבלו על עצמם מחדש את הברית עם השם.",
+      "ואז עשה יאשיהו פסח גדול, שלא היה כמוהו מימי השופטים."
+     ],
+     "pasuk": {
+      "text": "וְכָמֹהוּ לֹא הָיָה לְפָנָיו מֶלֶךְ אֲשֶׁר שָׁב אֶל ה' בְּכׇל לְבָבוֹ",
+      "ref": "מלכים ב כג, כה"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ירמיהו הנביא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Yirmiyahu: a thin bearded man in a rough brown cloak, sad but caring eyes. Scene: A young prophet in a brown cloak stands in a Jerusalem street holding a blossoming almond branch, speaking with pain and love to people who turn away, the Temple visible on the hill behind.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👨 👩",
+     "say": [
+      "בימי יאשיהו התחיל לנבא נביא צעיר: ירמיהו, מכפר קטן בשם ענתות.",
+      "כשהשם קרא לו, ירמיהו אמר: אני לא יודע לדבר, אני רק נער! אבל השם אמר לו: אל תפחד, אני איתך.",
+      "ארבעים שנה הזהיר ירמיהו את העם: עזבו את העבודה הזרה, חזרו אל השם, אחרת ירושלים תיחרב.",
+      "הרבה לא הקשיבו לו. היו שצחקו עליו, ואפילו שמו אותו בבור. אבל ירמיהו לא הפסיק, כי אהב את עמו."
+     ],
+     "pasuk": {
+      "text": "אֲהָהּ ה' אֱלֹקִים, הִנֵּה לֹא יָדַעְתִּי דַּבֵּר כִּי נַעַר אָנֹכִי",
+      "ref": "ירמיהו א, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "החורבן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Yirmiyahu: a thin bearded man in a rough brown cloak, sad but caring eyes. Scene: Sunset over the Temple Mount after the destruction: blackened ancient stones lie quiet on the hill, thin smoke drifting, the prophet sits alone on a stone with his head in his hands. No people harmed shown.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 👨",
+     "say": [
+      "ובסוף, מה שירמיהו הזהיר – קרה. נבוכדנצר, מלך בבל, הקיף את ירושלים.",
+      "העיר נכבשה, ובתשעה באב נשרף בית המקדש.",
+      "ארבע מאות ועשר שנים עמד בית המקדש הראשון, מימי שלמה המלך. ועכשיו נשארו אבנים שחורות.",
+      "ירמיהו ישב על החורבות ובכה. את הצער הזה כתב במגילת איכה, שאנחנו קוראים בתשעה באב: \"איכה ישבה בדד העיר\"."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בית המקדש הראשון עמד ארבע מאות ועשר שנים."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "על נהרות בבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Willow trees along a wide calm river in Babylon at dusk, Jewish exiles in modest robes and headscarves sitting on the bank looking west, harps hanging silent on the branches.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👩 👨 👧",
+     "say": [
+      "רוב העם הוגלה לבבל, רחוק מהארץ. הם ישבו על הנהרות ובכו כשזכרו את ציון.",
+      "האנשים בבבל אמרו להם: שירו לנו משירי ציון! אבל הם ענו: \"איך נשיר את שיר השם על אדמת נכר?\"",
+      "והם נשבעו: \"אם אשכחך ירושלים, תשכח ימיני\". לעולם לא נשכח אותך.",
+      "ועד היום, בכל חתונה יהודית, שוברים כוס ואומרים את המשפט הזה. גם ברגע הכי שמח – זוכרים את ירושלים.",
+      "וירמיהו שלח להם מכתב: בנו בתים, נטעו גנים, תגדלו משפחות. כי אחרי שבעים שנה – השם יחזיר אתכם."
+     ],
+     "pasuk": {
+      "text": "אִם אֶשְׁכָּחֵךְ יְרוּשָׁלָ‍ִם תִּשְׁכַּח יְמִינִי",
+      "ref": "תהלים קלז, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הכרזת כורש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A Persian royal herald on a palace step reading aloud from a long scroll to a crowd of Jewish families, who lift their hands in joy; behind them, loaded donkeys and camels ready for a long journey west.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩 👦 👴",
+     "say": [
+      "ממלכת בבל נפלה, ובמקומה קמה ממלכת פרס. והמלך החדש, כורש, הוציא הכרזה בכל הממלכה:",
+      "השם, אלוקי השמיים, ציווה עליי לבנות לו בית בירושלים. מי מכם, מכל עמו, יעלה לירושלים ויבנה!",
+      "ויהודים רבים קמו, ויצאו בשמחה בדרך הארוכה חזרה לארץ ישראל, בראשם זרובבל, מבית דוד.",
+      "ואחרי שבעים שנות גלות, כמו שניבא ירמיהו, עמד בית המקדש השני על מקומו."
+     ],
+     "pasuk": {
+      "text": "כֹּה אָמַר כֹּרֶשׁ מֶלֶךְ פָּרָס... וְהוּא פָקַד עָלַי לִבְנוֹת לוֹ בַיִת בִּירוּשָׁלַ‍ִם",
+      "ref": "עזרא א, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "עזרא ונחמיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Ezra the scribe: a white-bearded sage in white robes holding a Torah scroll. Nechemya: a bearded Jewish man in fine Persian court robes and a cloth head covering, determined and warm. Scene: Jerusalem on Rosh HaShana morning: a sage in white robes stands on a high wooden platform reading from a Torah scroll to a huge crowd of men, women and children in modest festive clothes, standing with tears and smiles; new stone walls rising around the city.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "אחרי שנים, עלה מבבל עזרא הסופר, תלמיד חכם גדול. הוא הכין את ליבו ללמוד את התורה, לקיים וללמד.",
+      "ונחמיה, שהיה שר יהודי בחצר מלך פרס, שמע שחומות ירושלים פרוצות, ובכה. הוא ביקש רשות מהמלך, ועלה לבנות אותן.",
+      "כל העם עבד יחד, משפחה ליד משפחה, והחומה נבנתה בחמישים ושניים ימים בלבד.",
+      "ובראש השנה, עזרא עמד על במה גבוהה, וקרא את התורה לפני כל העם. האנשים שמעו ובכו, כי הבינו כמה התרחקו.",
+      "אבל נחמיה ועזרא אמרו להם: אל תבכו! היום קדוש. לכו, אכלו ושתו, ותנו מנות למי שאין לו. כי השמחה בהשם – היא הכוח שלכם."
+     ],
+     "pasuk": {
+      "text": "כִּי חֶדְוַת ה' הִיא מָעֻזְּכֶם",
+      "ref": "נחמיה ח, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "כחולמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A Shabbat table in a modern Jerusalem home at the end of the meal: a father with a beard and kippah, a mother with a head covering and their children singing together, through the window the Old City walls glowing at dusk.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ראינו מסע ארוך: משמואל ושאול, דרך דוד ושלמה, הפילוג, אליהו בכרמל, המלכים הצדיקים, החורבן – ועד השיבה לציון.",
+      "והעם הזה, שהתרחק וחזר, נפל וקם – תמיד נשאר עם התורה, ועם האהבה לירושלים.",
+      "בכל שבת, לפני ברכת המזון, אנחנו שרים: \"בשוב השם את שיבת ציון, היינו כחולמים\".",
+      "שיבת ציון של ימי עזרא ונחמיה נראתה להם כמו חלום. ואנחנו מתפללים לגאולה השלמה: למלך מבית דוד, ולבית המקדש השלישי – במהרה בימינו."
+     ],
+     "pasuk": {
+      "text": "בְּשׁוּב ה' אֶת שִׁיבַת צִיּוֹן הָיִינוּ כְּחֹלְמִים",
+      "ref": "תהלים קכו, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "מחזקיהו ועד השיבה לציון",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "חזקיהו המלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A Jerusalem study hall in the days of the First Temple: oil lamps glowing, men and boys of all ages in modest robes and head coverings sitting together over scrolls, a bearded king in a simple crown standing at the door smiling.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦 👦",
+     "say": [
+      "עכשיו נחזור לממלכת יהודה, לירושלים. כאן מלכו מלכי בית דוד, וחלק מהם היו צדיקים גדולים.",
+      "אחד מהם הוא חזקיהו. אביו אחז היה מלך רשע, וסגר את בית המקדש. אבל חזקיהו, מהחודש הראשון, פתח את דלתות המקדש וטיהר אותו.",
+      "הוא עשה פסח גדול, והזמין אליו את כל ישראל, אפילו מהשבטים בצפון.",
+      "ומה שהכי חשוב לו היה לימוד התורה. בכל מקום למדו, ילדים ומבוגרים.",
+      "בימי חזקיהו כבר קרה דבר נורא בצפון: ממלכת אשור כבשה את ממלכת ישראל, והגלתה את עשרת השבטים. בערך מאה ושלושים שנה לפני חורבן הבית.",
+      "וממלכת יהודה הקטנה נשארה לבד, מול אשור הגדולה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חז\"ל מספרים שבימי חזקיהו חיפשו מדן ועד באר שבע, ולא מצאו אדם שאינו בקי בתורה – אפילו ילדים קטנים."
+     }
+    },
+    {
+     "id": "s2",
+     "title_he": "סנחריב בשערי ירושלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Early morning mist outside the walls of Jerusalem: a vast enemy camp of tents lies completely silent and abandoned, banners drooping, while on the city wall people in modest robes look out in wonder and relief. No bodies, only empty tents.",
+     "move": "out",
+     "fx": "mist",
+     "art": "⛺ ⛺ 🏠",
+     "say": [
+      "ואז בא סנחריב, מלך אשור, עם צבא עצום, והקיף את ירושלים.",
+      "השליח שלו, רבשקה, עמד ליד החומה וצעק בעברית, כדי שכולם יבינו: אל תבטחו בהשם! אף אחד לא יציל אתכם!",
+      "סנחריב שלח מכתב מאיים. וחזקיהו? הוא עלה לבית המקדש, פרש את המכתב לפני השם, והתפלל.",
+      "והנביא ישעיהו שלח לו תשובה בשם השם: \"וגנותי אל העיר הזאת להושיעה\". אני אגן על העיר הזאת.",
+      "ובאותו לילה, מלאך השם פגע במחנה אשור. בבוקר, המחנה הענק היה שקט וריק. סנחריב חזר לארצו, וירושלים ניצלה.",
+      "חז\"ל מספרים שזה קרה בליל פסח – באותו לילה שבו השם הציל את ישראל במצרים.",
+      "וחזקיהו גם התכונן במעשים: הוא חפר נקבה מתחת לאדמה, שהביאה את מי מעיין הגיחון אל תוך העיר. ואת הנקבה הזו אפשר ללכת בה עד היום, בעיר דוד."
+     ],
+     "pasuk": {
+      "text": "וְגַנּוֹתִי אֶל הָעִיר הַזֹּאת לְהוֹשִׁיעָהּ",
+      "ref": "מלכים ב יט, לד"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הספר שנמצא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Inside the Temple storerooms during repair work: workmen with tools and wooden beams, and an elderly Kohen in white linen lifting an old Torah scroll from behind stones, holding it up in amazement in a beam of light.",
+     "move": "up",
+     "fx": "dust",
+     "art": "👴 👨 👨",
+     "say": [
+      "אחרי חזקיהו מלך בנו מנשה, ושוב התפשטה עבודה זרה. אבל אחר כך בא מלך צדיק נוסף: יאשיהו.",
+      "יאשיהו מלך כשהיה רק בן שמונה! וכשגדל, ציווה לתקן את בית המקדש.",
+      "בזמן התיקון, חלקיהו הכהן הגדול מצא ספר תורה, שהיה מוסתר בבית המקדש.",
+      "קראו את הספר לפני המלך. יאשיהו שמע את דברי התורה, וקרע את בגדיו מרוב צער: כמה רחוקים אנחנו מהתורה!",
+      "הוא אסף את כל העם, קרא באוזניהם את הספר, וכולם קיבלו על עצמם מחדש את הברית עם השם.",
+      "ואז עשה יאשיהו פסח גדול, שלא היה כמוהו מימי השופטים.",
+      "חז\"ל מספרים עוד דבר: יאשיהו ראה שהחורבן קרב, ולכן גנז והסתיר את ארון הברית במקום סודי עמוק, כדי שלא ייפול בידי האויבים.",
+      "ולכן, בבית המקדש השני, כבר לא היה ארון הברית בקודש הקודשים."
+     ],
+     "pasuk": {
+      "text": "וְכָמֹהוּ לֹא הָיָה לְפָנָיו מֶלֶךְ אֲשֶׁר שָׁב אֶל ה' בְּכׇל לְבָבוֹ",
+      "ref": "מלכים ב כג, כה"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "ירמיהו הנביא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Yirmiyahu: a thin bearded man in a rough brown cloak, sad but caring eyes. Scene: A young prophet in a brown cloak stands in a Jerusalem street holding a blossoming almond branch, speaking with pain and love to people who turn away, the Temple visible on the hill behind.",
+     "move": "left",
+     "fx": null,
+     "art": "👨 👨 👩",
+     "say": [
+      "בימי יאשיהו התחיל לנבא נביא צעיר: ירמיהו, מכפר קטן בשם ענתות.",
+      "כשהשם קרא לו, ירמיהו אמר: אני לא יודע לדבר, אני רק נער! אבל השם אמר לו: אל תפחד, אני איתך.",
+      "ארבעים שנה הזהיר ירמיהו את העם: עזבו את העבודה הזרה, חזרו אל השם, אחרת ירושלים תיחרב.",
+      "הרבה לא הקשיבו לו. היו שצחקו עליו, ואפילו שמו אותו בבור. אבל ירמיהו לא הפסיק, כי אהב את עמו.",
+      "ולפני החורבן ממש, בזמן שהאויב כבר הקיף את העיר, השם ציווה את ירמיהו לקנות שדה בענתות.",
+      "למה לקנות שדה כשהכול עומד להיחרב? כי השם אמר: \"עוד ייקנו בתים ושדות וכרמים בארץ הזאת\". אתם תחזרו."
+     ],
+     "pasuk": {
+      "text": "אֲהָהּ ה' אֱלֹקִים, הִנֵּה לֹא יָדַעְתִּי דַּבֵּר כִּי נַעַר אָנֹכִי",
+      "ref": "ירמיהו א, ו"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "החורבן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Yirmiyahu: a thin bearded man in a rough brown cloak, sad but caring eyes. Scene: Sunset over the Temple Mount after the destruction: blackened ancient stones lie quiet on the hill, thin smoke drifting, the prophet sits alone on a stone with his head in his hands. No people harmed shown.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🪨 👨",
+     "say": [
+      "ובסוף, מה שירמיהו הזהיר – קרה. נבוכדנצר, מלך בבל, הקיף את ירושלים.",
+      "העיר נכבשה, ובתשעה באב נשרף בית המקדש.",
+      "ארבע מאות ועשר שנים עמד בית המקדש הראשון, מימי שלמה המלך. ועכשיו נשארו אבנים שחורות.",
+      "ירמיהו ישב על החורבות ובכה. את הצער הזה כתב במגילת איכה, שאנחנו קוראים בתשעה באב: \"איכה ישבה בדד העיר\".",
+      "חז\"ל אומרים שהבית הראשון חרב בגלל עבודה זרה ועוד שני חטאים חמורים, שהעם לא חזר מהם בתשובה, למרות כל אזהרות הנביאים.",
+      "אבל גם בחורבן, השם לא עזב את עמו. הנביאים כבר הבטיחו: יש סוף לגלות הזאת."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בית המקדש הראשון עמד ארבע מאות ועשר שנים."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "על נהרות בבל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: Willow trees along a wide calm river in Babylon at dusk, Jewish exiles in modest robes and headscarves sitting on the bank looking west, harps hanging silent on the branches.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👴 👩 👨 👧",
+     "say": [
+      "רוב העם הוגלה לבבל, רחוק מהארץ. הם ישבו על הנהרות ובכו כשזכרו את ציון.",
+      "האנשים בבבל אמרו להם: שירו לנו משירי ציון! אבל הם ענו: \"איך נשיר את שיר השם על אדמת נכר?\"",
+      "והם נשבעו: \"אם אשכחך ירושלים, תשכח ימיני\". לעולם לא נשכח אותך.",
+      "ועד היום, בכל חתונה יהודית, שוברים כוס ואומרים את המשפט הזה. גם ברגע הכי שמח – זוכרים את ירושלים.",
+      "וירמיהו שלח להם מכתב: בנו בתים, נטעו גנים, תגדלו משפחות. כי אחרי שבעים שנה – השם יחזיר אתכם.",
+      "בבבל היהודים שמרו על התורה גם בקושי. חנניה, מישאל ועזריה לא השתחוו לפסל של נבוכדנצר, ודניאל המשיך להתפלל שלוש פעמים ביום מול ירושלים.",
+      "הגלות לא הפכה אותם לבבלים. הם נשארו עם ישראל."
+     ],
+     "pasuk": {
+      "text": "אִם אֶשְׁכָּחֵךְ יְרוּשָׁלָ‍ִם תִּשְׁכַּח יְמִינִי",
+      "ref": "תהלים קלז, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "הכרזת כורש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A Persian royal herald on a palace step reading aloud from a long scroll to a crowd of Jewish families, who lift their hands in joy; behind them, loaded donkeys and camels ready for a long journey west.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👩 👦 👴",
+     "say": [
+      "ממלכת בבל נפלה, ובמקומה קמה ממלכת פרס. והמלך החדש, כורש, הוציא הכרזה בכל הממלכה:",
+      "השם, אלוקי השמיים, ציווה עליי לבנות לו בית בירושלים. מי מכם, מכל עמו, יעלה לירושלים ויבנה!",
+      "ויהודים רבים קמו, ויצאו בשמחה בדרך הארוכה חזרה לארץ ישראל, בראשם זרובבל, מבית דוד.",
+      "ואחרי שבעים שנות גלות, כמו שניבא ירמיהו, עמד בית המקדש השני על מקומו.",
+      "והנביא ישעיהו קרא לכורש בשמו – שנים רבות לפני שנולד!",
+      "התנ\"ך מונה את העולים בפעם הראשונה: ארבעים ושניים אלף, שלוש מאות ושישים.",
+      "וכשהניחו את היסודות לבית המקדש, הזקנים שזכרו את הבית הראשון בכו, והצעירים צעקו בשמחה. ואי אפשר היה להבחין בין קול הבכי לקול השמחה."
+     ],
+     "pasuk": {
+      "text": "כֹּה אָמַר כֹּרֶשׁ מֶלֶךְ פָּרָס... וְהוּא פָקַד עָלַי לִבְנוֹת לוֹ בַיִת בִּירוּשָׁלַ‍ִם",
+      "ref": "עזרא א, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "עזרא ונחמיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Ezra the scribe: a white-bearded sage in white robes holding a Torah scroll. Nechemya: a bearded Jewish man in fine Persian court robes and a cloth head covering, determined and warm. Scene: Jerusalem on Rosh HaShana morning: a sage in white robes stands on a high wooden platform reading from a Torah scroll to a huge crowd of men, women and children in modest festive clothes, standing with tears and smiles; new stone walls rising around the city.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👩 👦",
+     "say": [
+      "אחרי שנים, עלה מבבל עזרא הסופר, תלמיד חכם גדול. הוא הכין את ליבו ללמוד את התורה, לקיים וללמד.",
+      "ונחמיה, שהיה שר יהודי בחצר מלך פרס, שמע שחומות ירושלים פרוצות, ובכה. הוא ביקש רשות מהמלך, ועלה לבנות אותן.",
+      "כל העם עבד יחד, משפחה ליד משפחה, והחומה נבנתה בחמישים ושניים ימים בלבד.",
+      "ובראש השנה, עזרא עמד על במה גבוהה, וקרא את התורה לפני כל העם. האנשים שמעו ובכו, כי הבינו כמה התרחקו.",
+      "אבל נחמיה ועזרא אמרו להם: אל תבכו! היום קדוש. לכו, אכלו ושתו, ותנו מנות למי שאין לו. כי השמחה בהשם – היא הכוח שלכם.",
+      "עזרא ובית הדין שלו, אנשי כנסת הגדולה, תיקנו לנו הרבה ממה שאנחנו עושים עד היום: את נוסח תפילת שמונה עשרה, את הברכות, ואת הקידוש וההבדלה.",
+      "כך, ברגע של התחלה חדשה, דאגו שעם ישראל יהיה מחובר לתורה בכל מקום ובכל דור."
+     ],
+     "pasuk": {
+      "text": "כִּי חֶדְוַת ה' הִיא מָעֻזְּכֶם",
+      "ref": "נחמיה ח, י"
+     },
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "כחולמים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: A Shabbat table in a modern Jerusalem home at the end of the meal: a father with a beard and kippah, a mother with a head covering and their children singing together, through the window the Old City walls glowing at dusk.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "ראינו מסע ארוך: משמואל ושאול, דרך דוד ושלמה, הפילוג, אליהו בכרמל, המלכים הצדיקים, החורבן – ועד השיבה לציון.",
+      "והעם הזה, שהתרחק וחזר, נפל וקם – תמיד נשאר עם התורה, ועם האהבה לירושלים.",
+      "בכל שבת, לפני ברכת המזון, אנחנו שרים: \"בשוב השם את שיבת ציון, היינו כחולמים\".",
+      "שיבת ציון של ימי עזרא ונחמיה נראתה להם כמו חלום. ואנחנו מתפללים לגאולה השלמה: למלך מבית דוד, ולבית המקדש השלישי – במהרה בימינו."
+     ],
+     "pasuk": {
+      "text": "בְּשׁוּב ה' אֶת שִׁיבַת צִיּוֹן הָיִינוּ כְּחֹלְמִים",
+      "ref": "תהלים קכו, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה חזקיהו כשסנחריב שלח לו מכתב מאיים?",
+   "answer": "עלה לבית המקדש, פרש את המכתב לפני השם והתפלל",
+   "options": [
+    "עלה לבית המקדש, פרש את המכתב לפני השם והתפלל",
+    "ברח מהעיר",
+    "שלח לסנחריב זהב רב",
+    "שרף את המכתב וצחק"
+   ],
+   "explain_he": "חזקיהו סמך על השם, וישעיהו ענה בשמו: \"וגנותי אל העיר הזאת להושיעה\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה חזקיהו כשסנחריב שלח לו מכתב מאיים?",
+   "answer": "עלה לבית המקדש, פרש את המכתב לפני השם והתפלל",
+   "options": [
+    "עלה לבית המקדש, פרש את המכתב לפני השם והתפלל",
+    "ברח מהעיר",
+    "שלח לסנחריב זהב רב",
+    "שרף את המכתב וצחק"
+   ],
+   "explain_he": "חזקיהו סמך על השם, וישעיהו ענה בשמו: \"וגנותי אל העיר הזאת להושיעה\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראו אנשי ירושלים בבוקר שאחרי הלילה ההוא?",
+   "answer": "שמחנה אשור שקט וריק, וסנחריב חוזר לארצו",
+   "options": [
+    "שמחנה אשור שקט וריק, וסנחריב חוזר לארצו",
+    "שהחומה נפלה",
+    "שהצבא של אשור גדל",
+    "שנבוכדנצר הגיע"
+   ],
+   "explain_he": "מלאך השם פגע במחנה אשור, וירושלים ניצלה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראו אנשי ירושלים בבוקר שאחרי הלילה ההוא?",
+   "answer": "שמחנה אשור שקט וריק, וסנחריב חוזר לארצו",
+   "options": [
+    "שמחנה אשור שקט וריק, וסנחריב חוזר לארצו",
+    "שהחומה נפלה",
+    "שהצבא של אשור גדל",
+    "שנבוכדנצר הגיע"
+   ],
+   "explain_he": "מלאך השם פגע במחנה אשור, וירושלים ניצלה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מצא חלקיהו הכהן כשתיקנו את בית המקדש?",
+   "answer": "ספר תורה שהיה מוסתר",
+   "options": [
+    "ספר תורה שהיה מוסתר",
+    "אוצר של זהב",
+    "את כתר דוד",
+    "מפה עתיקה"
+   ],
+   "explain_he": "יאשיהו שמע את דברי הספר, קרע את בגדיו, וחידש עם כל העם את הברית עם השם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מצא חלקיהו הכהן כשתיקנו את בית המקדש?",
+   "answer": "ספר תורה שהיה מוסתר",
+   "options": [
+    "ספר תורה שהיה מוסתר",
+    "אוצר של זהב",
+    "את כתר דוד",
+    "מפה עתיקה"
+   ],
+   "explain_he": "יאשיהו שמע את דברי הספר, קרע את בגדיו, וחידש עם כל העם את הברית עם השם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ציווה השם את ירמיהו לקנות שדה, כשהאויב כבר הקיף את העיר?",
+   "answer": "כסימן שעם ישראל עוד יחזור לארץ",
+   "options": [
+    "כסימן שעם ישראל עוד יחזור לארץ",
+    "כדי לגדל שם חיטה מיד",
+    "כי השדה היה זול",
+    "כדי לברוח לשם"
+   ],
+   "explain_he": "\"עוד ייקנו בתים ושדות וכרמים בארץ הזאת\" – יש תקווה גם בחורבן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים עמד בית המקדש הראשון?",
+   "answer": "ארבע מאות ועשר שנים",
+   "options": [
+    "ארבע מאות ועשר שנים",
+    "שבעים שנה",
+    "אלף שנה",
+    "ארבעים שנה"
+   ],
+   "explain_he": "מימי שלמה ועד החורבן עמד הבית הראשון 410 שנים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה שנים עמד בית המקדש הראשון?",
+   "answer": "ארבע מאות ועשר שנים",
+   "options": [
+    "ארבע מאות ועשר שנים",
+    "שבעים שנה",
+    "אלף שנה",
+    "ארבעים שנה"
+   ],
+   "explain_he": "מימי שלמה ועד החורבן עמד הבית הראשון 410 שנים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שוברים כוס בחתונה יהודית?",
+   "answer": "כדי לזכור את ירושלים גם ברגע הכי שמח",
+   "options": [
+    "כדי לזכור את ירושלים גם ברגע הכי שמח",
+    "כדי להביא מזל",
+    "כי הכוס ישנה",
+    "כדי להשמיע רעש לשמחה"
+   ],
+   "explain_he": "בחתונה אומרים \"אם אשכחך ירושלים\" ושוברים כוס, כמו שנשבעו הגולים על נהרות בבל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שוברים כוס בחתונה יהודית?",
+   "answer": "כדי לזכור את ירושלים גם ברגע הכי שמח",
+   "options": [
+    "כדי לזכור את ירושלים גם ברגע הכי שמח",
+    "כדי להביא מזל",
+    "כי הכוס ישנה",
+    "כדי להשמיע רעש לשמחה"
+   ],
+   "explain_he": "בחתונה אומרים \"אם אשכחך ירושלים\" ושוברים כוס, כמו שנשבעו הגולים על נהרות בבל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הכריז שהיהודים יכולים לחזור ולבנות את בית המקדש?",
+   "answer": "כורש, מלך פרס",
+   "options": [
+    "כורש, מלך פרס",
+    "נבוכדנצר, מלך בבל",
+    "סנחריב, מלך אשור",
+    "אחאב, מלך ישראל"
+   ],
+   "explain_he": "כורש הכריז: \"והוא פקד עליי לבנות לו בית בירושלים\". ואחרי שבעים שנות גלות נבנה הבית השני.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f7e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מי הכריז שהיהודים יכולים לחזור ולבנות את בית המקדש?",
+   "answer": "כורש, מלך פרס",
+   "options": [
+    "כורש, מלך פרס",
+    "נבוכדנצר, מלך בבל",
+    "סנחריב, מלך אשור",
+    "אחאב, מלך ישראל"
+   ],
+   "explain_he": "כורש הכריז: \"והוא פקד עליי לבנות לו בית בירושלים\". ואחרי שבעים שנות גלות נבנה הבית השני.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו עזרא ונחמיה לעם שבכה בראש השנה?",
+   "answer": "אל תבכו, היום קדוש, ושמחת השם היא הכוח שלכם",
+   "options": [
+    "אל תבכו, היום קדוש, ושמחת השם היא הכוח שלכם",
+    "תבכו עוד, כי צריך",
+    "לכו הביתה ואל תחזרו",
+    "תצומו כל היום"
+   ],
+   "explain_he": "\"כי חדוות השם היא מעוזכם\" – אכלו, שתו, ותנו מנות למי שאין לו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f7e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמרו עזרא ונחמיה לעם שבכה בראש השנה?",
+   "answer": "אל תבכו, היום קדוש, ושמחת השם היא הכוח שלכם",
+   "options": [
+    "אל תבכו, היום קדוש, ושמחת השם היא הכוח שלכם",
+    "תבכו עוד, כי צריך",
+    "לכו הביתה ואל תחזרו",
+    "תצומו כל היום"
+   ],
+   "explain_he": "\"כי חדוות השם היא מעוזכם\" – אכלו, שתו, ותנו מנות למי שאין לו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה יאשיהו עם ארון הברית, לפי חז\"ל?",
+   "answer": "גנז והסתיר אותו במקום סודי",
+   "options": [
+    "גנז והסתיר אותו במקום סודי",
+    "לקח אותו לבבל",
+    "שבר אותו",
+    "נתן אותו לכורש"
+   ],
+   "explain_he": "יאשיהו ראה שהחורבן קרב, והסתיר את הארון. לכן בבית השני לא היה ארון בקודש הקודשים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e18"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה תיקנו עזרא ואנשי כנסת הגדולה?",
+   "answer": "את נוסח שמונה עשרה, הברכות, הקידוש וההבדלה",
+   "options": [
+    "את נוסח שמונה עשרה, הברכות, הקידוש וההבדלה",
+    "את חג החנוכה",
+    "את צום יום הכיפורים",
+    "את ספירת העומר"
+   ],
+   "explain_he": "בזכותם עם ישראל מחובר לתורה ולתפילה בכל מקום ובכל דור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f7e19"
+  }
+ ]
+}

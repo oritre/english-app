@@ -1,0 +1,587 @@
+{
+ "id": "k-lff-f4",
+ "unit_id": "k-lff-u2",
+ "course": "life",
+ "title_he": "גוף בריא ונקי",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "גוף בריא ונקי",
+   "ref_he": "ידע לחיים",
+   "level": 1,
+   "grades": [
+    1,
+    3
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מודה אני ונטילת ידיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: Early morning in a child's bedroom: the boy sits up in bed with a two-handled washing cup and a small basin beside the bed, pouring water over his hand, soft sunrise light through the curtain.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "בוקר! נועם פוקח את העיניים, ואומר מיד: מודה אני לפניך. תודה, השם, על יום חדש.",
+      "ליד המיטה מחכים ספל וקערה. נועם נוטל ידיים: ימין, שמאל, ימין, שמאל, ימין, שמאל. שלוש פעמים כל יד.",
+      "ואחר כך הוא מברך \"על נטילת ידיים\".",
+      "ככה מתחיל יום יהודי: בתודה, ובידיים נקיות.",
+      "גם נועם, גם תמר, וגם אבא ואמא – כולם נוטלים ידיים בבוקר."
+     ],
+     "pasuk": {
+      "text": "מוֹדֶה אֲנִי לְפָנֶיךָ מֶלֶךְ חַי וְקַיָּם",
+      "ref": "תפילת הבוקר"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "סבון ומים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A bright bathroom sink: the girl washes her hands with lots of soap bubbles under running water, singing, a clean towel hanging nearby; a little brother waits his turn.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👧 👦",
+     "say": [
+      "על הידיים יש חיידקים. הם כל כך קטנים, שאי אפשר לראות אותם.",
+      "לכן רוחצים ידיים עם סבון: אחרי השירותים, לפני האוכל, ואחרי משחק בחוץ.",
+      "משפשפים טוב: את כפות הידיים, בין האצבעות, ואת הציפורניים. ושוטפים במים.",
+      "ואחרי השירותים, מברכים \"אשר יצר\": תודה שהגוף שלנו עובד טוב.",
+      "רחיצה טובה לוקחת זמן, כמו לשיר שיר קצר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חיידקים הם יצורים קטנים כל כך, שאי אפשר לראות אותם בלי מיקרוסקופ. רובם לא מזיקים, אבל חלקם גורמים למחלות."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "נטילה לסעודה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: At the kitchen sink before a meal: the father pours water from a large washing cup over his hand while his son watches and waits with a towel, fresh challah and bread on the table behind them.",
+     "move": "right",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "לפני שאוכלים לחם, עושים עוד נטילה מיוחדת.",
+      "שופכים מים מהספל על יד ימין, ועל יד שמאל. ומברכים \"על נטילת ידיים\".",
+      "ואז, בלי לדבר, מברכים \"המוציא לחם מן הארץ\" – ואוכלים.",
+      "זו לא רק נקיות. זו קדושה: השולחן שלנו הוא כמו מזבח קטן.",
+      "וגם אחרי האוכל מברכים: ברכת המזון."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שיניים מבריקות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Evening in the bathroom: the boy and girl in pajamas brushing their teeth side by side in front of a mirror, foam and smiles, a small sand timer on the shelf.",
+     "move": "in",
+     "fx": null,
+     "art": "👦 👧",
+     "say": [
+      "צחצוח שיניים: פעמיים ביום, בבוקר ובערב.",
+      "מצחצחים בעדינות, את כל השיניים, מבפנים ומבחוץ. בערך שתי דקות.",
+      "ממתקים ושתייה מתוקה – רק קצת. כי הסוכר עושה חורים בשיניים.",
+      "ופעם בכמה חודשים הולכים לרופא שיניים, שיבדוק שהכול בסדר.",
+      "שיניים חזקות עוזרות לנו לאכול, לדבר יפה, ולחייך! ואחרי הצחצוח בערב – לא אוכלים עוד ממתקים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "צלחת צבעונית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A family lunch table with a colorful spread: a salad of tomatoes and cucumbers, fruit, whole bread, eggs, rice and a jug of water; the children fill their plates happily, a small bowl of candies set aside.",
+     "move": "out",
+     "fx": null,
+     "art": "👩 👦 👧",
+     "say": [
+      "מה אוכלים כדי להיות חזקים ובריאים?",
+      "הרבה ירקות ופירות, בכל הצבעים. לחם, אורז, ביצים, גבינה ודגים.",
+      "ושותים מים. הרבה מים, במיוחד בקיץ.",
+      "ממתקים זה טעים, אבל רק קצת. הגוף צריך אוכל שנותן כוח.",
+      "ואוכלים לאט, יושבים ליד השולחן, ולא תוך כדי ריצה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ברכה לפני האוכל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Close-up of the girl holding a red apple and closing her eyes in a short blessing, a bowl of grapes, cucumbers and a piece of cake on the table, warm afternoon light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👧",
+     "say": [
+      "לפני שאוכלים, מברכים. כי הכול שייך להשם, והוא נתן לנו את האוכל.",
+      "על תפוח, שגדל על עץ: \"בורא פרי העץ\". על מלפפון מהאדמה: \"בורא פרי האדמה\".",
+      "על עוגה: \"בורא מיני מזונות\". ועל מים ושוקו: \"שהכול נהיה בדברו\".",
+      "וכשאומרים את הברכה לאט ובשמחה, האוכל טעים עוד יותר!",
+      "ואחרי האוכל, אומרים גם ברכה אחרונה. תודה בהתחלה, ותודה בסוף."
+     ],
+     "pasuk": {
+      "text": "לַה' הָאָרֶץ וּמְלוֹאָהּ",
+      "ref": "תהלים כד, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "לילה טוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A quiet child's bedroom at night with a small night light: the boy in bed covers his eyes with his hand saying Shema, his mother sits beside him on the bed, stars outside the window.",
+     "move": "up",
+     "fx": "night",
+     "art": "👩 👦",
+     "say": [
+      "בערב, הגוף צריך לנוח. ילדים צריכים לישון הרבה – בערך עשר שעות בכל לילה.",
+      "לפני השינה לא משחקים במשחקים פרועים. מתרגעים, ושומעים סיפור.",
+      "לפני השינה, נועם מכסה את העיניים ואומר: \"שמע ישראל\".",
+      "אמא אומרת לו לילה טוב, ומכבה את האור.",
+      "בשינה הגוף גדל ומתחזק, ובבוקר אנחנו קמים רעננים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "גוף בריא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A sunny morning in the park: the whole family walks together, the children running ahead on the grass, the father and mother smiling, green trees and blue sky.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "הגוף שלנו הוא מתנה מהשם.",
+      "כשהוא בריא, אנחנו יכולים ללמוד, לשחק, לעזור ולהתפלל.",
+      "לכן שומרים עליו: ידיים נקיות, שיניים מצוחצחות, אוכל טוב, שינה, וגם תנועה ומשחק בחוץ.",
+      "ובכל פעם, לא שוכחים להגיד תודה להשם.",
+      "ומי ששומר על הגוף, יכול לעשות עוד ועוד מצוות!"
+     ],
+     "pasuk": {
+      "text": "הוֹאִיל וֶהֱיוֹת הַגּוּף בָּרִיא וְשָׁלֵם מִדַּרְכֵי הַשֵּׁם הוּא",
+      "ref": "רמב\"ם, הלכות דעות ד, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lff-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧭 ידע כללי",
+   "title_he": "גוף בריא ונקי",
+   "ref_he": "ידע לחיים",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "מודה אני ונטילת ידיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: Early morning in a child's bedroom: the boy sits up in bed with a two-handled washing cup and a small basin beside the bed, pouring water over his hand, soft sunrise light through the curtain.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "בוקר! נועם פוקח את העיניים, ולפני כל דבר אחר אומר: \"מודה אני לפניך, מלך חי וקיים\". תודה שהחזרת לי את הנשמה.",
+      "ליד המיטה מחכים ספל של נטילה וקערה. נועם שופך מים על ידיו לסירוגין: ימין, שמאל, ימין, שמאל – שלוש פעמים כל יד.",
+      "אחר כך הוא מברך \"על נטילת ידיים\", ומתכונן לתפילה.",
+      "ככה מתחיל יום של יהודי: בתודה להשם, ובידיים נקיות וטהורות.",
+      "ויש טעם נוסף: בבוקר אנחנו כמו בריאה חדשה, ומתכוננים לעבודת השם, כמו כהן שרוחץ ידיים לפני העבודה במקדש."
+     ],
+     "pasuk": {
+      "text": "מוֹדֶה אֲנִי לְפָנֶיךָ מֶלֶךְ חַי וְקַיָּם",
+      "ref": "תפילת הבוקר"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "סבון ומים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A bright bathroom sink: the girl washes her hands with lots of soap bubbles under running water, singing, a clean towel hanging nearby; a little brother waits his turn.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👧 👦",
+     "say": [
+      "על הידיים שלנו יש חיידקים. אי אפשר לראות אותם, אבל חלק מהם יכולים לגרום למחלות.",
+      "לכן רוחצים ידיים עם סבון ומים: אחרי השירותים, לפני האוכל, אחרי משחק בחוץ, ואחרי שמתעטשים.",
+      "משפשפים כעשרים שניות: כפות הידיים, גב היד, בין האצבעות והציפורניים. אפשר לשיר שיר קצר בזמן הזה. ואז שוטפים ומנגבים.",
+      "ואחרי השירותים מברכים \"אשר יצר\". בברכה הזו אנחנו מודים להשם על הגוף המופלא שלנו, שכל חלק בו עובד בדיוק כמו שצריך.",
+      "וכשמשתעלים או מתעטשים, מכסים את הפה במרפק. כך שומרים גם על אחרים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "חיידקים הם יצורים קטנים כל כך, שאי אפשר לראות אותם בלי מיקרוסקופ. רובם לא מזיקים, אבל חלקם גורמים למחלות."
+     }
+    },
+    {
+     "id": "s3",
+     "title_he": "נטילה לסעודה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: At the kitchen sink before a meal: the father pours water from a large washing cup over his hand while his son watches and waits with a towel, fresh challah and bread on the table behind them.",
+     "move": "right",
+     "fx": null,
+     "art": "👨 👦",
+     "say": [
+      "לפני שאוכלים לחם, נוטלים ידיים בדרך מיוחדת. קודם הידיים צריכות להיות נקיות.",
+      "לוקחים ספל מלא מים, ושופכים על יד ימין, ואז על יד שמאל. רבים נוהגים לשפוך פעמיים על כל יד. ומברכים \"על נטילת ידיים\".",
+      "מנגבים, ובלי לדבר – מברכים \"המוציא לחם מן הארץ\" ואוכלים.",
+      "הנטילה הזו היא לא בשביל ניקיון בלבד. חז\"ל אומרים שהשולחן שלנו הוא כמו מזבח קטן, והאוכל שלנו – עבודת השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "שיניים מבריקות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Evening in the bathroom: the boy and girl in pajamas brushing their teeth side by side in front of a mirror, foam and smiles, a small sand timer on the shelf.",
+     "move": "in",
+     "fx": null,
+     "art": "👦 👧",
+     "say": [
+      "צחצוח שיניים עושים פעמיים ביום: בבוקר, ובערב לפני השינה.",
+      "שמים מעט משחה, ומצחצחים בעדינות כשתי דקות: את כל השיניים, מבחוץ, מבפנים ומלמעלה. ובסוף יורקים.",
+      "למה זה חשוב? אחרי האוכל נשארים על השיניים שאריות. החיידקים אוכלים מהסוכר, ויוצרים חורים בשיניים.",
+      "לכן ממתקים ושתייה מתוקה – רק מעט, ועדיף לשתות מים. ופעם בכמה חודשים הולכים לרופא שיניים לבדיקה.",
+      "והשיניים הקבועות, שמתחילות לצמוח בערך בגיל שש, צריכות לשמש אותנו כל החיים. לכן שומרים עליהן מגיל קטן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "צלחת צבעונית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A family lunch table with a colorful spread: a salad of tomatoes and cucumbers, fruit, whole bread, eggs, rice and a jug of water; the children fill their plates happily, a small bowl of candies set aside.",
+     "move": "out",
+     "fx": null,
+     "art": "👩 👦 👧",
+     "say": [
+      "מה אוכלים כדי להיות חזקים ובריאים? צלחת טובה היא צלחת צבעונית.",
+      "ירקות ופירות בכל הצבעים, לחם מלא, אורז, קטניות, ביצים, גבינה ודגים. כל מאכל נותן לגוף משהו אחר.",
+      "ושותים מים – הרבה מים, במיוחד בקיץ החם של ארץ ישראל.",
+      "הרמב\"ם, שהיה גם רופא גדול, כתב: אוכלים כשרעבים, ומפסיקים לפני שמרגישים מלאים לגמרי.",
+      "ממתקים? מותר וטעים, אבל מעט. הגוף צריך אוכל שבונה אותו.",
+      "ואוכלים לאט, ליד השולחן, יחד עם המשפחה. ככה גם נהנים יותר, וגם מספרים מה היה היום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s6",
+     "title_he": "ברכה לפני האוכל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: Close-up of the girl holding a red apple and closing her eyes in a short blessing, a bowl of grapes, cucumbers and a piece of cake on the table, warm afternoon light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👧",
+     "say": [
+      "לפני כל אוכל ושתייה, מברכים. למה? כי \"להשם הארץ ומלואה\" – הכול שלו, והוא נותן לנו.",
+      "חז\"ל אומרים: מי שנהנה מהעולם בלי ברכה, כאילו לקח משהו שלא שלו. הברכה היא ה\"תודה\" שלנו.",
+      "על פרי מהעץ: \"בורא פרי העץ\". על ירק מהאדמה: \"בורא פרי האדמה\". על עוגה ועוגיות: \"בורא מיני מזונות\". ועל מים, חלב וממתקים: \"שהכול נהיה בדברו\".",
+      "ואחרי האוכל, מברכים ברכה אחרונה. כך אנחנו לא שוכחים לרגע מי נותן לנו הכול.",
+      "וכשמברכים, אומרים כל מילה לאט ומתכוונים: ברוך אתה השם – אתה נתת לנו את זה."
+     ],
+     "pasuk": {
+      "text": "לַה' הָאָרֶץ וּמְלוֹאָהּ",
+      "ref": "תהלים כד, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "לילה טוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Scene: A quiet child's bedroom at night with a small night light: the boy in bed covers his eyes with his hand saying Shema, his mother sits beside him on the bed, stars outside the window.",
+     "move": "up",
+     "fx": "night",
+     "art": "👩 👦",
+     "say": [
+      "בערב, הגוף צריך לנוח. ילדים בגילכם צריכים לישון הרבה – בערך עשר שעות בכל לילה.",
+      "בשינה הגוף גדל, השרירים מתחזקים, והמוח מסדר את כל מה שלמדנו ביום. מי שישן מספיק – לומד טוב יותר.",
+      "לכן הולכים לישון בזמן, ולא משחקים במסכים לפני השינה.",
+      "ולפני שנרדמים, נועם מכסה את העיניים ואומר קריאת שמע על המיטה, ומפקיד את עצמו בידי השם: \"בידך אפקיד רוחי\".",
+      "והשינה היא מתנה מהשם: בבוקר אנחנו מודים לו שהחזיר לנו את הנשמה, רעננה וחזקה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "גוף בריא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Present-day Israel: a sunny religious neighborhood of light stone apartment buildings with balconies, trees and small gardens, crosswalks and city buses, a cozy family home with books of Torah on the shelves. Bright, cheerful, gentle colors, a safe and friendly mood. Abba: a father in his thirties with a short dark beard, a knitted kippah and a white shirt. Ima: a mother with a colorful head covering, a long skirt and a long-sleeved blouse, a warm smile. Noam: a boy of seven with brown hair, a kippah, tzitzit strings and a striped shirt. Tamar: a girl of nine with a long braid, a long denim skirt and a long-sleeved yellow shirt. Scene: A sunny morning in the park: the whole family walks together, the children running ahead on the grass, the father and mother smiling, green trees and blue sky.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👦 👧",
+     "say": [
+      "הרמב\"ם כתב: לשמור על גוף בריא ושלם – זה חלק מדרכי השם. כי בגוף חזק ובריא קל יותר ללמוד תורה ולקיים מצוות.",
+      "אז מה למדנו? מודה אני ונטילת ידיים בבוקר, רחיצה בסבון, נטילה לפני הלחם, צחצוח שיניים, אוכל צבעוני, ושינה טובה.",
+      "ועוד דבר: הגוף אוהב לזוז. משחק בחוץ, ריצה והליכה עם המשפחה עושים אותו חזק.",
+      "ומעל הכול: ברכות. כל ביס וכל לגימה הם הזדמנות להגיד תודה להשם.",
+      "והרמב\"ם מוסיף: גם השינה, האוכל והתנועה יכולים להיות עבודת השם – כשעושים אותם כדי להיות חזקים לתורה ולמצוות."
+     ],
+     "pasuk": {
+      "text": "הוֹאִיל וֶהֱיוֹת הַגּוּף בָּרִיא וְשָׁלֵם מִדַּרְכֵי הַשֵּׁם הוּא",
+      "ref": "רמב\"ם, הלכות דעות ד, א"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-lff-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים מיד כשמתעוררים בבוקר?",
+   "answer": "\"מודה אני\"",
+   "options": [
+    "\"מודה אני\"",
+    "\"לילה טוב\"",
+    "\"המוציא\"",
+    "\"שהכול\""
+   ],
+   "explain_he": "הדבר הראשון בבוקר הוא תודה להשם על יום חדש.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אומרים מיד כשמתעוררים בבוקר?",
+   "answer": "\"מודה אני\"",
+   "options": [
+    "\"מודה אני\"",
+    "\"לילה טוב\"",
+    "\"המוציא\"",
+    "\"שהכול\""
+   ],
+   "explain_he": "הדבר הראשון בבוקר הוא תודה להשם על יום חדש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נוטלים ידיים בבוקר?",
+   "answer": "שלוש פעמים כל יד, לסירוגין: ימין, שמאל",
+   "options": [
+    "שלוש פעמים כל יד, לסירוגין: ימין, שמאל",
+    "פעם אחת על יד ימין",
+    "רק על יד שמאל",
+    "שוטפים את הפנים"
+   ],
+   "explain_he": "ימין, שמאל, ימין, שמאל, ימין, שמאל – שלוש פעמים כל יד.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך נוטלים ידיים בבוקר?",
+   "answer": "שלוש פעמים כל יד, לסירוגין: ימין, שמאל",
+   "options": [
+    "שלוש פעמים כל יד, לסירוגין: ימין, שמאל",
+    "פעם אחת על יד ימין",
+    "רק על יד שמאל",
+    "שוטפים את הפנים"
+   ],
+   "explain_he": "ימין, שמאל, ימין, שמאל, ימין, שמאל – שלוש פעמים כל יד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי רוחצים ידיים עם סבון?",
+   "answer": "אחרי השירותים, לפני האוכל ואחרי משחק בחוץ",
+   "options": [
+    "אחרי השירותים, לפני האוכל ואחרי משחק בחוץ",
+    "רק בשבת",
+    "רק כשהן נראות מלוכלכות",
+    "רק בערב"
+   ],
+   "explain_he": "חיידקים לא רואים, אבל הם שם. לכן רוחצים גם כשהידיים נראות נקיות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מתי רוחצים ידיים עם סבון?",
+   "answer": "אחרי השירותים, לפני האוכל ואחרי משחק בחוץ",
+   "options": [
+    "אחרי השירותים, לפני האוכל ואחרי משחק בחוץ",
+    "רק בשבת",
+    "רק כשהן נראות מלוכלכות",
+    "רק בערב"
+   ],
+   "explain_he": "חיידקים לא רואים, אבל הם שם. לכן רוחצים גם כשהידיים נראות נקיות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה מברכים אחרי השירותים?",
+   "answer": "\"אשר יצר\"",
+   "options": [
+    "\"אשר יצר\"",
+    "\"בורא פרי העץ\"",
+    "\"המוציא\"",
+    "\"שהחיינו\""
+   ],
+   "explain_he": "בברכת \"אשר יצר\" מודים להשם על הגוף שעובד טוב.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה מברכים אחרי השירותים?",
+   "answer": "\"אשר יצר\"",
+   "options": [
+    "\"אשר יצר\"",
+    "\"בורא פרי העץ\"",
+    "\"המוציא\"",
+    "\"שהחיינו\""
+   ],
+   "explain_he": "בברכת \"אשר יצר\" מודים להשם על הגוף שעובד טוב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה פעמים ביום מצחצחים שיניים?",
+   "answer": "פעמיים – בבוקר ובערב",
+   "options": [
+    "פעמיים – בבוקר ובערב",
+    "פעם בשבוע",
+    "רק אחרי ממתק",
+    "חמש פעמים"
+   ],
+   "explain_he": "מצחצחים פעמיים ביום, בערך שתי דקות.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה פעמים ביום מצחצחים שיניים?",
+   "answer": "פעמיים – בבוקר ובערב",
+   "options": [
+    "פעמיים – בבוקר ובערב",
+    "פעם בשבוע",
+    "רק אחרי ממתק",
+    "חמש פעמים"
+   ],
+   "explain_he": "מצחצחים פעמיים ביום, בערך שתי דקות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה מברכים על תפוח?",
+   "answer": "\"בורא פרי העץ\"",
+   "options": [
+    "\"בורא פרי העץ\"",
+    "\"בורא פרי האדמה\"",
+    "\"שהכול נהיה בדברו\"",
+    "\"בורא מיני מזונות\""
+   ],
+   "explain_he": "תפוח גדל על עץ, ולכן מברכים \"בורא פרי העץ\".",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f4e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו ברכה מברכים על תפוח?",
+   "answer": "\"בורא פרי העץ\"",
+   "options": [
+    "\"בורא פרי העץ\"",
+    "\"בורא פרי האדמה\"",
+    "\"שהכול נהיה בדברו\"",
+    "\"בורא מיני מזונות\""
+   ],
+   "explain_he": "תפוח גדל על עץ, ולכן מברכים \"בורא פרי העץ\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f4e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מברכים לפני האוכל?",
+   "answer": "כי הכול שייך להשם, והוא נותן לנו את האוכל",
+   "options": [
+    "כי הכול שייך להשם, והוא נותן לנו את האוכל",
+    "כדי שהאוכל יתקרר",
+    "כי כך עושים רק בשבת",
+    "כדי שאמא תשמע"
+   ],
+   "explain_he": "\"להשם הארץ ומלואה\". הברכה היא התודה שלנו.",
+   "grades": [
+    1,
+    3
+   ],
+   "id": "k-lff-f4e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מברכים לפני האוכל?",
+   "answer": "כי הכול שייך להשם, והוא נותן לנו את האוכל",
+   "options": [
+    "כי הכול שייך להשם, והוא נותן לנו את האוכל",
+    "כדי שהאוכל יתקרר",
+    "כי כך עושים רק בשבת",
+    "כדי שאמא תשמע"
+   ],
+   "explain_he": "\"להשם הארץ ומלואה\". הברכה היא התודה שלנו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f4e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה כתב הרמב\"ם על אכילה?",
+   "answer": "אוכלים כשרעבים, ומפסיקים לפני שמלאים לגמרי",
+   "options": [
+    "אוכלים כשרעבים, ומפסיקים לפני שמלאים לגמרי",
+    "אוכלים כמה שיותר",
+    "אוכלים רק פעם ביום",
+    "לא אוכלים לחם"
+   ],
+   "explain_he": "הרמב\"ם היה גם רופא, ולימד לאכול במידה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-lff-f4e17"
+  }
+ ]
+}

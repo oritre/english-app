@@ -1,0 +1,669 @@
+{
+ "id": "k-kgf-f2",
+ "unit_id": "k-kgf-u1",
+ "course": "kings",
+ "title_he": "דוד הרועה וגלית",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "דוד הרועה וגלית",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "אל בית לחם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: The old prophet walking toward the small hill town of Bethlehem at morning, carrying a ram's horn of oil, terraces of olive trees and wheat fields around, town elders coming out to meet him.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 🏠",
+     "say": [
+      "שמואל היה עצוב. הוא אהב את שאול, והתפלל עליו.",
+      "אבל הקדוש ברוך הוא אמר לו: מלא את הקרן שלך בשמן ולך. אני שולח אותך אל ישי, בבית לחם, כי ראיתי בבניו מלך.",
+      "בית לחם היא עיר קטנה בהרי יהודה, מוקפת שדות חיטה ועצי זית. כאן, דורות קודם, חיו בועז ורות.",
+      "ישי הוא נכד של בועז ורות. ועכשיו, בבית שלו, מחכה הפתעה גדולה."
+     ],
+     "pasuk": {
+      "text": "מַלֵּא קַרְנְךָ שֶׁמֶן וְלֵךְ אֶשְׁלָחֲךָ אֶל יִשַׁי בֵּית הַלַּחְמִי",
+      "ref": "שמואל א טז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "השם יראה ללבב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: Inside a stone courtyard in Bethlehem, a father with a grey beard presents his tall sons one by one to the old prophet; the eldest is tall and handsome, the prophet gently shakes his head.",
+     "move": "left",
+     "fx": null,
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "ישי הביא את בניו אחד אחד. הראשון היה אליאב, הבכור, גבוה ויפה. שמואל חשב: בטח זה המלך.",
+      "אבל השם אמר לשמואל: אל תסתכל על המראה שלו ועל הגובה שלו. האדם רואה מה שבחוץ, והשם רואה את הלב.",
+      "עבר אבינדב – לא הוא. עבר שמה – לא הוא. כך עברו שבעה בנים, ואף אחד מהם לא נבחר.",
+      "שמואל שאל: אלה כל הבנים? וישי ענה: יש עוד אחד, הקטן. הוא בשדה, רועה את הצאן."
+     ],
+     "pasuk": {
+      "text": "כִּי הָאָדָם יִרְאֶה לַעֵינַיִם וַה' יִרְאֶה לַלֵּבָב",
+      "ref": "שמואל א טז, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הרועה הנאמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: A reddish-haired shepherd youth in green hills at golden hour, carrying a small lamb on his shoulders, young lambs grazing on soft grass around him, a small harp resting on a rock.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🐑",
+     "say": [
+      "והנה הוא: דוד, הבן הקטן. נער אדמוני, עם עיניים יפות, שעומד בשדה עם הכבשים.",
+      "דוד היה רועה נאמן. הוא דאג לכל כבשה, ידע מתי היא רעבה, ומתי היא עייפה.",
+      "המדרש מספר שהוא נתן לטלאים הקטנים לאכול קודם את העשב הרך, ורק אחר כך לכבשים הגדולות.",
+      "וכשהיה לבד בשדה, דוד ניגן בכינור ושר להקדוש ברוך הוא. משם, מהשדה, נולדו מזמורי התהילים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המדרש מספר שדוד הניח לטלאים הקטנים לרעות ראשונים את העשב הרך, ואחריהם את הגדולים. השם אמר: מי שיודע לרעות צאן כך – ירעה את עמי."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "קרן השמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: In the courtyard the old prophet pours oil from a ram's horn onto the head of the shepherd youth while his father and older brothers watch in surprise. A soft warm light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👦 👨 👨",
+     "say": [
+      "הביאו את דוד מהשדה. והשם אמר לשמואל: קום, משח אותו, כי זה הוא.",
+      "שמואל לקח את קרן השמן ומשח את דוד, בתוך אחיו.",
+      "ומאותו יום, רוח השם הייתה עם דוד.",
+      "אבל דוד לא רץ לארמון. הוא חזר לצאן שלו, וחיכה בסבלנות לזמן שהשם יבחר.",
+      "ובינתיים, דוד הגיע לארמון בדרך אחרת: שאול היה עצוב ומודאג, וחיפשו מנגן טוב שירגיע אותו. דוד בא וניגן לפניו בכינור."
+     ],
+     "pasuk": {
+      "text": "וַתִּצְלַח רוּחַ ה' אֶל דָּוִד מֵהַיּוֹם הַהוּא וָמָעְלָה",
+      "ref": "שמואל א טז, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הענק בעמק האלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: The Valley of Ela from above: two armies camped on two opposite hillsides, tents and banners, a wide valley with a dry stream bed between them; far away a huge armored figure stands alone, seen only as a distant silhouette.",
+     "move": "out",
+     "fx": "dust",
+     "art": "⛺ 🪨 ⛺",
+     "say": [
+      "כמה שנים עברו. הפלשתים באו להילחם בישראל. הם חנו על הר אחד, וישראל חנו על הר שני, ובאמצע – עמק האלה.",
+      "ומתוך מחנה הפלשתים יצא ענק: גלית, מהעיר גת. גובהו בערך שלושה מטרים, והשריון שלו היה כבד מאוד.",
+      "הוא עמד באמצע העמק וצעק: שלחו אליי איש אחד! אם ינצח אותי – נהיה לכם עבדים.",
+      "וכל יום, בבוקר ובערב, יצא גלית וחירף את עם ישראל. ארבעים יום.",
+      "וחיילי ישראל שמעו, ופחדו מאוד. אף אחד לא יצא אליו.",
+      "שאול הבטיח פרס גדול למי שינצח: עושר רב, ופטור ממסים לכל משפחתו. ובכל זאת, אף אחד לא העז."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גובהו של גלית היה \"שש אמות וזרת\" – בערך שלושה מטרים!"
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "מי הפלשתי הזה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: The shepherd youth arriving at the Israelite camp on a hillside carrying a sack of roasted grain, loaves and cheeses for his brothers, soldiers in plain tunics talking anxiously around him.",
+     "move": "left",
+     "fx": null,
+     "art": "👦 👨 👨",
+     "say": [
+      "באותם ימים, ישי שלח את דוד אל המחנה, להביא אוכל לאחים שלו: קלי, עשרה לחמים, ועשר גבינות.",
+      "דוד הגיע, ושמע את גלית צועק. והוא לא האמין למשמע אוזניו.",
+      "מי הפלשתי הזה, שמחרף את מחנה אלוקים חיים? דוד לא שאל כמה גלית גבוה. הוא שאל: איך מעזים לבזות את השם?",
+      "דוד הלך אל שאול ואמר: אני אלך ואלחם בו. השם שהציל אותי מהאריה ומהדוב – יציל אותי גם מהפלשתי.",
+      "שאול נתן לדוד את השריון שלו ואת הקסדה. אבל דוד ניסה ללכת, ולא הצליח. הוא אמר: לא התרגלתי לזה. והוריד הכול."
+     ],
+     "pasuk": {
+      "text": "כִּי מִי הַפְּלִשְׁתִּי הֶעָרֵל הַזֶּה כִּי חֵרֵף מַעַרְכוֹת אֱלֹקִים חַיִּים",
+      "ref": "שמואל א יז, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בשם השם צבאות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: Close-up in the valley: the shepherd youth kneels by a clear stream picking five smooth round stones, then stands with a leather sling in his hand, calm and confident, morning sun behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 🪨",
+     "say": [
+      "דוד ירד אל הנחל, ובחר חמש אבנים חלקות. הוא שם אותן בילקוט הרועים שלו, ולקח את הקלע.",
+      "גלית ראה נער צעיר בלי שריון, וצחק עליו.",
+      "ודוד אמר לו משפט שעם ישראל זוכר עד היום: אתה בא אליי בחרב ובחנית – ואני בא אליך בשם השם צבאות.",
+      "והוסיף: \"וידעו כל הארץ כי יש אלוקים לישראל\". כי לא בחרב ולא בחנית מושיע השם – כי להשם המלחמה."
+     ],
+     "pasuk": {
+      "text": "אַתָּה בָּא אֵלַי בְּחֶרֶב וּבַחֲנִית וּבְכִידוֹן וְאָנֹכִי בָא אֵלֶיךָ בְּשֵׁם ה' צְבָאוֹת",
+      "ref": "שמואל א יז, מה"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "אבן אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: A single smooth stone flying high through the bright blue sky over the valley, the sling still swinging in the youth's raised hand; on the far hillside the Israelite soldiers lift their arms in joy.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🪨",
+     "say": [
+      "דוד רץ קדימה. הוא שם אבן אחת בקלע, סובב, ושחרר.",
+      "האבן עפה באוויר, ופגעה בדיוק במצחו של גלית. והענק הגדול נפל על פניו ארצה.",
+      "הפלשתים ראו שהגיבור שלהם נפל, וברחו. ועם ישראל קם, ושמח מאוד.",
+      "נער אחד, עם אבן אחת ואמונה שלמה. וכולם הבינו: לא הגובה ולא השריון מנצחים. מי שמנצח – זה השם.",
+      "ודוד? הוא לא התגאה. הוא ידע שהאבן הייתה שלו, אבל הניצחון – של השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "יהונתן ודוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: Two young men standing on a green hillside at sunset: a prince in a fine robe hands his own cloak and belt to the reddish-haired youth as a gift of friendship.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👦",
+     "say": [
+      "אחרי הניצחון, יהונתן, הבן של שאול המלך, אהב את דוד כמו את עצמו. הוא נתן לדוד את המעיל שלו במתנה.",
+      "חז\"ל אומרים שזו החברות הכי אמיתית: אהבה שלא תלויה בשום דבר.",
+      "יהונתן ידע שדוד ימלוך במקומו. ובכל זאת שמח בשבילו, ושמר עליו.",
+      "וכאן מתחיל המסע של דוד: מהשדה בבית לחם – אל כיסא המלכות."
+     ],
+     "pasuk": {
+      "text": "כׇּל אַהֲבָה שֶׁאֵינָהּ תְּלוּיָה בְדָבָר... זוֹ אַהֲבַת דָּוִד וִיהוֹנָתָן",
+      "ref": "אבות ה, טז"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "דוד הרועה וגלית",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "אל בית לחם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: The old prophet walking toward the small hill town of Bethlehem at morning, carrying a ram's horn of oil, terraces of olive trees and wheat fields around, town elders coming out to meet him.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 🏠",
+     "say": [
+      "שמואל היה עצוב. הוא אהב את שאול, והתפלל עליו.",
+      "אבל הקדוש ברוך הוא אמר לו: מלא את הקרן שלך בשמן ולך. אני שולח אותך אל ישי, בבית לחם, כי ראיתי בבניו מלך.",
+      "בית לחם היא עיר קטנה בהרי יהודה, מוקפת שדות חיטה ועצי זית. כאן, דורות קודם, חיו בועז ורות.",
+      "ישי הוא נכד של בועז ורות. ועכשיו, בבית שלו, מחכה הפתעה גדולה."
+     ],
+     "pasuk": {
+      "text": "מַלֵּא קַרְנְךָ שֶׁמֶן וְלֵךְ אֶשְׁלָחֲךָ אֶל יִשַׁי בֵּית הַלַּחְמִי",
+      "ref": "שמואל א טז, א"
+     },
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "השם יראה ללבב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: Inside a stone courtyard in Bethlehem, a father with a grey beard presents his tall sons one by one to the old prophet; the eldest is tall and handsome, the prophet gently shakes his head.",
+     "move": "left",
+     "fx": null,
+     "art": "👴 👨 👨 👨",
+     "say": [
+      "ישי הביא את בניו אחד אחד. הראשון היה אליאב, הבכור, גבוה ויפה. שמואל חשב: בטח זה המלך.",
+      "אבל השם אמר לשמואל: אל תסתכל על המראה שלו ועל הגובה שלו. האדם רואה מה שבחוץ, והשם רואה את הלב.",
+      "עבר אבינדב – לא הוא. עבר שמה – לא הוא. כך עברו שבעה בנים, ואף אחד מהם לא נבחר.",
+      "שמואל שאל: אלה כל הבנים? וישי ענה: יש עוד אחד, הקטן. הוא בשדה, רועה את הצאן.",
+      "איזה רעיון חשוב: אנחנו מתרשמים ממראה, מגובה, מבגדים. אבל הקדוש ברוך הוא מסתכל על מה שבלב – על המידות, על היראה, על האמונה.",
+      "ושמואל ענה: לא נשב לאכול עד שיבוא."
+     ],
+     "pasuk": {
+      "text": "כִּי הָאָדָם יִרְאֶה לַעֵינַיִם וַה' יִרְאֶה לַלֵּבָב",
+      "ref": "שמואל א טז, ז"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "הרועה הנאמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: A reddish-haired shepherd youth in green hills at golden hour, carrying a small lamb on his shoulders, young lambs grazing on soft grass around him, a small harp resting on a rock.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🐑",
+     "say": [
+      "והנה הוא: דוד, הבן הקטן. נער אדמוני, עם עיניים יפות, שעומד בשדה עם הכבשים.",
+      "דוד היה רועה נאמן. הוא דאג לכל כבשה, ידע מתי היא רעבה, ומתי היא עייפה.",
+      "המדרש מספר שהוא נתן לטלאים הקטנים לאכול קודם את העשב הרך, ורק אחר כך לכבשים הגדולות.",
+      "וכשהיה לבד בשדה, דוד ניגן בכינור ושר להקדוש ברוך הוא. משם, מהשדה, נולדו מזמורי התהילים.",
+      "וגם משה רבנו היה רועה צאן לפני שהנהיג את עם ישראל. חז\"ל אומרים שהשם בוחן את המנהיגים במה שקטן: איך הם דואגים לכבשה אחת.",
+      "דוד גם הגן על הצאן. כשבא אריה או דוב ולקח שה מהעדר, דוד רץ אחריו והציל את השה, ובכוח השם עמד מול החיה.",
+      "ובשדה למד דוד גם סבלנות ואומץ: לשבת לבד, לשמור, ולהתפלל. כל זה יעזור לו כשיהיה מלך."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המדרש מספר שדוד הניח לטלאים הקטנים לרעות ראשונים את העשב הרך, ואחריהם את הגדולים. השם אמר: מי שיודע לרעות צאן כך – ירעה את עמי."
+     }
+    },
+    {
+     "id": "s4",
+     "title_he": "קרן השמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: In the courtyard the old prophet pours oil from a ram's horn onto the head of the shepherd youth while his father and older brothers watch in surprise. A soft warm light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👴 👦 👨 👨",
+     "say": [
+      "הביאו את דוד מהשדה. והשם אמר לשמואל: קום, משח אותו, כי זה הוא.",
+      "שמואל לקח את קרן השמן ומשח את דוד, בתוך אחיו.",
+      "ומאותו יום, רוח השם הייתה עם דוד.",
+      "אבל דוד לא רץ לארמון. הוא חזר לצאן שלו, וחיכה בסבלנות לזמן שהשם יבחר.",
+      "ובינתיים, דוד הגיע לארמון בדרך אחרת: שאול היה עצוב ומודאג, וחיפשו מנגן טוב שירגיע אותו. דוד בא וניגן לפניו בכינור.",
+      "שימו לב לשני סוגי משיחה: את שאול משחו בפך, ואת דוד בקרן. חז\"ל אומרים: מלכות שנמשחה בפך – לא נמשכה; מלכות שנמשחה בקרן – נמשכה.",
+      "ובאמת, מלכות בית דוד נמשכת לדורות, ומבית דוד יבוא המשיח."
+     ],
+     "pasuk": {
+      "text": "וַתִּצְלַח רוּחַ ה' אֶל דָּוִד מֵהַיּוֹם הַהוּא וָמָעְלָה",
+      "ref": "שמואל א טז, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "הענק בעמק האלה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: The Valley of Ela from above: two armies camped on two opposite hillsides, tents and banners, a wide valley with a dry stream bed between them; far away a huge armored figure stands alone, seen only as a distant silhouette.",
+     "move": "out",
+     "fx": "dust",
+     "art": "⛺ 🪨 ⛺",
+     "say": [
+      "כמה שנים עברו. הפלשתים באו להילחם בישראל. הם חנו על הר אחד, וישראל חנו על הר שני, ובאמצע – עמק האלה.",
+      "ומתוך מחנה הפלשתים יצא ענק: גלית, מהעיר גת. גובהו בערך שלושה מטרים, והשריון שלו היה כבד מאוד.",
+      "הוא עמד באמצע העמק וצעק: שלחו אליי איש אחד! אם ינצח אותי – נהיה לכם עבדים.",
+      "וכל יום, בבוקר ובערב, יצא גלית וחירף את עם ישראל. ארבעים יום.",
+      "וחיילי ישראל שמעו, ופחדו מאוד. אף אחד לא יצא אליו.",
+      "שאול הבטיח פרס גדול למי שינצח: עושר רב, ופטור ממסים לכל משפחתו. ובכל זאת, אף אחד לא העז.",
+      "חז\"ל אומרים שגלית בחר דווקא את הבוקר ואת הערב – כדי לבלבל את ישראל בזמן קריאת שמע.",
+      "הוא ידע שכוחו של עם ישראל בא מהאמונה, ולכן ניסה לפגוע דווקא בה.",
+      "ושימו לב לניגוד: גלית בוטח בגובה, בשריון ובחנית. דוד בוטח רק בהשם. זה כל הסיפור."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גובהו של גלית היה \"שש אמות וזרת\" – בערך שלושה מטרים!"
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "מי הפלשתי הזה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: The shepherd youth arriving at the Israelite camp on a hillside carrying a sack of roasted grain, loaves and cheeses for his brothers, soldiers in plain tunics talking anxiously around him.",
+     "move": "left",
+     "fx": null,
+     "art": "👦 👨 👨",
+     "say": [
+      "באותם ימים, ישי שלח את דוד אל המחנה, להביא אוכל לאחים שלו: קלי, עשרה לחמים, ועשר גבינות.",
+      "דוד הגיע, ושמע את גלית צועק. והוא לא האמין למשמע אוזניו.",
+      "מי הפלשתי הזה, שמחרף את מחנה אלוקים חיים? דוד לא שאל כמה גלית גבוה. הוא שאל: איך מעזים לבזות את השם?",
+      "דוד הלך אל שאול ואמר: אני אלך ואלחם בו. השם שהציל אותי מהאריה ומהדוב – יציל אותי גם מהפלשתי.",
+      "שאול נתן לדוד את השריון שלו ואת הקסדה. אבל דוד ניסה ללכת, ולא הצליח. הוא אמר: לא התרגלתי לזה. והוריד הכול.",
+      "אליאב, האח הגדול, דווקא כעס עליו: למה באת? רק כדי לראות את המלחמה? ודוד ענה בשקט: \"מה עשיתי עתה? הלוא דבר הוא\". הוא לא נגרר לריב.",
+      "ודוד לא צריך שריון של מלך. הוא הולך כמו שהוא – רועה, עם מקל, קלע, והרבה אמונה."
+     ],
+     "pasuk": {
+      "text": "כִּי מִי הַפְּלִשְׁתִּי הֶעָרֵל הַזֶּה כִּי חֵרֵף מַעַרְכוֹת אֱלֹקִים חַיִּים",
+      "ref": "שמואל א יז, כו"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "בשם השם צבאות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: Close-up in the valley: the shepherd youth kneels by a clear stream picking five smooth round stones, then stands with a leather sling in his hand, calm and confident, morning sun behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 🪨",
+     "say": [
+      "דוד ירד אל הנחל, ובחר חמש אבנים חלקות. הוא שם אותן בילקוט הרועים שלו, ולקח את הקלע.",
+      "גלית ראה נער צעיר בלי שריון, וצחק עליו.",
+      "ודוד אמר לו משפט שעם ישראל זוכר עד היום: אתה בא אליי בחרב ובחנית – ואני בא אליך בשם השם צבאות.",
+      "והוסיף: \"וידעו כל הארץ כי יש אלוקים לישראל\". כי לא בחרב ולא בחנית מושיע השם – כי להשם המלחמה."
+     ],
+     "pasuk": {
+      "text": "אַתָּה בָּא אֵלַי בְּחֶרֶב וּבַחֲנִית וּבְכִידוֹן וְאָנֹכִי בָא אֵלֶיךָ בְּשֵׁם ה' צְבָאוֹת",
+      "ref": "שמואל א יז, מה"
+     },
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "אבן אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: A single smooth stone flying high through the bright blue sky over the valley, the sling still swinging in the youth's raised hand; on the far hillside the Israelite soldiers lift their arms in joy.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🪨",
+     "say": [
+      "דוד רץ קדימה. הוא שם אבן אחת בקלע, סובב, ושחרר.",
+      "האבן עפה באוויר, ופגעה בדיוק במצחו של גלית. והענק הגדול נפל על פניו ארצה.",
+      "הפלשתים ראו שהגיבור שלהם נפל, וברחו. ועם ישראל קם, ושמח מאוד.",
+      "נער אחד, עם אבן אחת ואמונה שלמה. וכולם הבינו: לא הגובה ולא השריון מנצחים. מי שמנצח – זה השם.",
+      "ודוד? הוא לא התגאה. הוא ידע שהאבן הייתה שלו, אבל הניצחון – של השם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s9",
+     "title_he": "יהונתן ודוד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Young David: a youth with reddish hair, bright eyes, a shepherd's wool tunic, a sling at his belt and a small harp. Scene: Two young men standing on a green hillside at sunset: a prince in a fine robe hands his own cloak and belt to the reddish-haired youth as a gift of friendship.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👨 👦",
+     "say": [
+      "אחרי הניצחון, יהונתן, הבן של שאול המלך, אהב את דוד כמו את עצמו. הוא נתן לדוד את המעיל שלו במתנה.",
+      "חז\"ל אומרים שזו החברות הכי אמיתית: אהבה שלא תלויה בשום דבר.",
+      "יהונתן ידע שדוד ימלוך במקומו. ובכל זאת שמח בשבילו, ושמר עליו.",
+      "וכאן מתחיל המסע של דוד: מהשדה בבית לחם – אל כיסא המלכות.",
+      "אבל שאול קינא בדוד, ודוד נאלץ לברוח ולהסתתר במדבר.",
+      "פעם אחת שאול נכנס למערה שבה הסתתר דוד. אנשיו של דוד לחשו: זו ההזדמנות שלך! ודוד חתך בשקט רק את כנף המעיל של שאול, ואמר: חלילה לי לפגוע במשיח השם.",
+      "גם כשרדפו אחריו, דוד שמר על כבוד המלך. זו גדולה של מלך אמיתי."
+     ],
+     "pasuk": {
+      "text": "כׇּל אַהֲבָה שֶׁאֵינָהּ תְּלוּיָה בְדָבָר... זוֹ אַהֲבַת דָּוִד וִיהוֹנָתָן",
+      "ref": "אבות ה, טז"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-kgf-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למד שמואל כשרצה לבחור את אליאב?",
+   "answer": "שהשם רואה את הלב, ולא רק את המראה",
+   "options": [
+    "שהשם רואה את הלב, ולא רק את המראה",
+    "שהבכור תמיד נבחר",
+    "שהמלך צריך להיות הכי גבוה",
+    "שצריך להטיל גורל"
+   ],
+   "explain_he": "\"כי האדם יראה לעיניים, והשם יראה ללבב\". השם בוחר לפי המידות והאמונה שבלב.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה למד שמואל כשרצה לבחור את אליאב?",
+   "answer": "שהשם רואה את הלב, ולא רק את המראה",
+   "options": [
+    "שהשם רואה את הלב, ולא רק את המראה",
+    "שהבכור תמיד נבחר",
+    "שהמלך צריך להיות הכי גבוה",
+    "שצריך להטיל גורל"
+   ],
+   "explain_he": "\"כי האדם יראה לעיניים, והשם יראה ללבב\". השם בוחר לפי המידות והאמונה שבלב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה היה דוד כששמואל הגיע לבית ישי?",
+   "answer": "בשדה, רועה את הצאן",
+   "options": [
+    "בשדה, רועה את הצאן",
+    "בארמון של שאול",
+    "במחנה הצבא",
+    "בבית המדרש בירושלים"
+   ],
+   "explain_he": "דוד היה הבן הקטן, וישי אמר: \"עוד שאר הקטן, והנה רועה בצאן\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה היה דוד כששמואל הגיע לבית ישי?",
+   "answer": "בשדה, רועה את הצאן",
+   "options": [
+    "בשדה, רועה את הצאן",
+    "בארמון של שאול",
+    "במחנה הצבא",
+    "בבית המדרש בירושלים"
+   ],
+   "explain_he": "דוד היה הבן הקטן, וישי אמר: \"עוד שאר הקטן, והנה רועה בצאן\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מספר המדרש על הדרך שבה דוד רעה את הצאן?",
+   "answer": "שנתן לטלאים הקטנים לאכול קודם את העשב הרך",
+   "options": [
+    "שנתן לטלאים הקטנים לאכול קודם את העשב הרך",
+    "שהשאיר את הצאן לבד",
+    "שהאכיל רק את הכבשים הגדולות",
+    "שמכר את הצאן בשוק"
+   ],
+   "explain_he": "דוד דאג לכל אחד לפי כוחו. השם אמר: מי שיודע לרעות כך – ירעה את עמי.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מספר המדרש על הדרך שבה דוד רעה את הצאן?",
+   "answer": "שנתן לטלאים הקטנים לאכול קודם את העשב הרך",
+   "options": [
+    "שנתן לטלאים הקטנים לאכול קודם את העשב הרך",
+    "שהשאיר את הצאן לבד",
+    "שהאכיל רק את הכבשים הגדולות",
+    "שמכר את הצאן בשוק"
+   ],
+   "explain_he": "דוד דאג לכל אחד לפי כוחו. השם אמר: מי שיודע לרעות כך – ירעה את עמי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה גלית יצא דווקא בבוקר ובערב?",
+   "answer": "כדי לבלבל את ישראל בזמן קריאת שמע",
+   "options": [
+    "כדי לבלבל את ישראל בזמן קריאת שמע",
+    "כי בצהריים היה חם מדי",
+    "כי אז היה פחות חזק",
+    "כי כך ציווה מלך הפלשתים"
+   ],
+   "explain_he": "חז\"ל אומרים שגלית רצה לפגוע בכוח האמונה של ישראל – בקריאת שמע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דוד הוריד את השריון של שאול?",
+   "answer": "כי לא היה רגיל אליו ולא הצליח ללכת בו",
+   "options": [
+    "כי לא היה רגיל אליו ולא הצליח ללכת בו",
+    "כי השריון היה שבור",
+    "כי שאול ביקש אותו בחזרה",
+    "כי גלית צחק עליו"
+   ],
+   "explain_he": "דוד אמר: \"לא אוכל ללכת באלה, כי לא ניסיתי\". הוא יצא כמו רועה – עם מקל, קלע ואמונה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דוד הוריד את השריון של שאול?",
+   "answer": "כי לא היה רגיל אליו ולא הצליח ללכת בו",
+   "options": [
+    "כי לא היה רגיל אליו ולא הצליח ללכת בו",
+    "כי השריון היה שבור",
+    "כי שאול ביקש אותו בחזרה",
+    "כי גלית צחק עליו"
+   ],
+   "explain_he": "דוד אמר: \"לא אוכל ללכת באלה, כי לא ניסיתי\". הוא יצא כמו רועה – עם מקל, קלע ואמונה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר דוד לגלית?",
+   "answer": "\"ואנוכי בא אליך בשם השם צבאות\"",
+   "options": [
+    "\"ואנוכי בא אליך בשם השם צבאות\"",
+    "\"אני חזק ממך\"",
+    "\"בוא נעשה שלום\"",
+    "\"השריון שלי טוב משלך\""
+   ],
+   "explain_he": "דוד לא סמך על כוחו. הוא אמר: \"כי להשם המלחמה\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר דוד לגלית?",
+   "answer": "\"ואנוכי בא אליך בשם השם צבאות\"",
+   "options": [
+    "\"ואנוכי בא אליך בשם השם צבאות\"",
+    "\"אני חזק ממך\"",
+    "\"בוא נעשה שלום\"",
+    "\"השריון שלי טוב משלך\""
+   ],
+   "explain_he": "דוד לא סמך על כוחו. הוא אמר: \"כי להשם המלחמה\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אבנים בחר דוד מהנחל, וכמה הוא היה צריך?",
+   "answer": "חמש אבנים, ונצרכה רק אחת",
+   "options": [
+    "חמש אבנים, ונצרכה רק אחת",
+    "שלוש אבנים, וזרק את כולן",
+    "אבן אחת בלבד",
+    "עשר אבנים, וזרק שתיים"
+   ],
+   "explain_he": "דוד בחר חמש אבנים חלקות, ואבן אחת פגעה במצחו של גלית.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f2e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה אבנים בחר דוד מהנחל, וכמה הוא היה צריך?",
+   "answer": "חמש אבנים, ונצרכה רק אחת",
+   "options": [
+    "חמש אבנים, ונצרכה רק אחת",
+    "שלוש אבנים, וזרק את כולן",
+    "אבן אחת בלבד",
+    "עשר אבנים, וזרק שתיים"
+   ],
+   "explain_he": "דוד בחר חמש אבנים חלקות, ואבן אחת פגעה במצחו של גלית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו אהבה מביאים חז\"ל כדוגמה לאהבה שאינה תלויה בדבר?",
+   "answer": "אהבת דוד ויהונתן",
+   "options": [
+    "אהבת דוד ויהונתן",
+    "אהבת שאול ושמואל",
+    "אהבת דוד ואליאב",
+    "אהבת ישי ובועז"
+   ],
+   "explain_he": "יהונתן אהב את דוד ושמח בשבילו, גם כשידע שדוד ימלוך במקומו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f2e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזו אהבה מביאים חז\"ל כדוגמה לאהבה שאינה תלויה בדבר?",
+   "answer": "אהבת דוד ויהונתן",
+   "options": [
+    "אהבת דוד ויהונתן",
+    "אהבת שאול ושמואל",
+    "אהבת דוד ואליאב",
+    "אהבת ישי ובועז"
+   ],
+   "explain_he": "יהונתן אהב את דוד ושמח בשבילו, גם כשידע שדוד ימלוך במקומו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה דוד כששאול נכנס למערה שבה הסתתר?",
+   "answer": "חתך רק את כנף המעיל, ולא פגע בו",
+   "options": [
+    "חתך רק את כנף המעיל, ולא פגע בו",
+    "ברח מהמערה מיד",
+    "קרא לחיילים שלו",
+    "לקח את הכתר של שאול"
+   ],
+   "explain_he": "דוד אמר: \"חלילה לי לשלוח ידי במשיח השם\". גם כשרדפו אחריו, שמר על כבוד המלך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f2e18"
+  }
+ ]
+}

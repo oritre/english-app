@@ -1,0 +1,630 @@
+{
+ "id": "k-kgf-f1",
+ "unit_id": "k-kgf-u1",
+ "course": "kings",
+ "title_he": "שמואל ובקשת המלך",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "שמואל ובקשת המלך",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "השופט האחרון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: An old prophet riding a donkey along a hill road between stone villages in the land of Binyamin at morning, people coming out of their houses to greet him with respect.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩",
+     "say": [
+      "דמיינו זקן צדיק, שעובר מעיר לעיר בארץ ישראל: בית אל, הגלגל, המצפה, ובחזרה אל ביתו ברמה.",
+      "בכל מקום אנשים באים אליו עם שאלות ועם ריבים, והוא שופט אותם ביושר. זה שמואל הנביא.",
+      "שמואל הוא השופט האחרון של עם ישראל. אחרי יהושע, במשך מאות שנים, הנהיגו את העם שופטים – ולא היה מלך.",
+      "וכבר כשהיה ילד קטן במשכן בשילה, השם דיבר אליו. אמא שלו, חנה, התפללה עליו בדמעות, ונדרה שיהיה כל ימיו של השם.",
+      "אבל עכשיו שמואל כבר זקן. ובני ישראל מתחילים לשאול: מה יהיה אחריו?",
+      "שמואל היה שופט ישר. הוא אף פעם לא לקח שוחד, ולא העדיף את העשיר על העני. כולם סמכו עליו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "תנה לנו מלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: Elders of Israel with grey beards and modest robes standing in a stone courtyard in Rama before the old prophet, speaking earnestly; the prophet listens with a troubled face.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👴 👴",
+     "say": [
+      "יום אחד הגיעו כל זקני ישראל אל שמואל, לעיר רמה.",
+      "הם אמרו לו: אתה כבר זקן, והבנים שלך לא הולכים בדרכיך. עכשיו שים לנו מלך שישפוט אותנו – ככל הגויים.",
+      "שמואל הצטער מאוד. הוא התפלל אל השם.",
+      "והקדוש ברוך הוא ענה לו: שמע לקולם. כי לא אותך הם דוחים – אותי הם דוחים, שלא אמלוך עליהם."
+     ],
+     "pasuk": {
+      "text": "עַתָּה שִׂימָה לָּנוּ מֶלֶךְ לְשָׁפְטֵנוּ כְּכָל הַגּוֹיִם",
+      "ref": "שמואל א ח, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "האתונות האבודות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Shaul: a very tall young man with a short black beard, a plain brown robe, modest and shy. Scene: A very tall young man and a servant walking through green hills and rocky paths, searching, shading their eyes against the afternoon sun; a distant hilltop town ahead.",
+     "move": "left",
+     "fx": null,
+     "art": "🚶 🚶",
+     "say": [
+      "בשבט בנימין גר איש בשם קיש, ולו בן צעיר וגבוה מאוד: שאול. הוא היה גבוה מכל העם, מהכתפיים ומעלה.",
+      "יום אחד אבדו לקיש האתונות שלו. הוא אמר לשאול: קח איתך נער, ולך לחפש אותן.",
+      "הם עברו בהר אפרים, ובארץ שלישה, ובארץ שעלים, ובארץ בנימין. ושום אתון לא נמצאה.",
+      "הם הלכו ימים שלמים בהרים, ולא מצאו. שאול רצה לחזור, כדי שאבא שלו לא ידאג.",
+      "אבל הנער אמר: יש בעיר הזו איש אלוקים, נביא. בוא נשאל אותו, אולי יגיד לנו לאן ללכת.",
+      "והם לא ידעו שיום לפני כן, השם כבר גילה לשמואל: מחר אשלח אליך איש משבט בנימין – ואותו תמשח למלך."
+     ],
+     "pasuk": {
+      "text": "מִשִּׁכְמוֹ וָמַעְלָה גָּבֹהַּ מִכָּל הָעָם",
+      "ref": "שמואל א ט, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "פך השמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Shaul: a very tall young man with a short black beard, a plain brown robe, modest and shy. Scene: Dawn on a hilltop outside a stone town: the old prophet pours oil from a small clay flask onto the head of the tall young man, who bows his head humbly. Soft golden light from above.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "שמואל קיבל את שאול בכבוד גדול. הוא הושיב אותו בראש השולחן, ואמר לו: האתונות כבר נמצאו, אל תדאג.",
+      "ולמחרת, בבוקר מוקדם, הלכו שניהם לבד אל קצה העיר. שמואל לקח פך קטן של שמן, ויצק אותו על ראשו של שאול.",
+      "הוא נשק לו ואמר: השם משח אותך להיות מנהיג על עמו.",
+      "שאול, הבחור הצנוע שחיפש אתונות, הוא עכשיו המלך הראשון של ישראל. אבל עדיין אף אחד לא יודע.",
+      "ושאול חזר הביתה, ולא סיפר לאף אחד. כשדודו שאל אותו מה אמר לו שמואל, ענה רק: הוא אמר שהאתונות נמצאו. איזו צניעות!"
+     ],
+     "pasuk": {
+      "text": "וַיִּקַּח שְׁמוּאֵל אֶת פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל רֹאשׁוֹ",
+      "ref": "שמואל א י, א"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "המילה \"משיח\" באה מהמשיחה בשמן. מלך ישראל נקרא \"משיח השם\", כי נמשח בשמן בשליחות השם."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "נחבא אל הכלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Shaul: a very tall young man with a short black beard, a plain brown robe, modest and shy. Scene: A great gathering of the tribes at Mitzpa on a hill; men turn to look at a pile of baggage and supplies at the edge of the camp, where a very tall young man is half hidden, embarrassed.",
+     "move": "out",
+     "fx": null,
+     "art": "👨 👨 👨 👨",
+     "say": [
+      "עכשיו שמואל אסף את כל העם במצפה, כדי שכולם יראו מי בחר השם.",
+      "הטילו גורל: מכל השבטים נבחר שבט בנימין, ומבנימין – משפחת מטרי, ומהמשפחה – שאול בן קיש.",
+      "חיפשו את שאול – ולא מצאו! איפה הוא? השם אמר: הנה הוא מתחבא בין הכלים, בין החבילות והציוד.",
+      "המלך הראשון של ישראל לא רץ לכבוד. הוא בכלל התבייש, וברח ממנו.",
+      "רצו והביאו אותו. הוא עמד, גבוה מכולם, וכל העם קרא: יחי המלך!",
+      "מאותו יום, לשאול היה תפקיד חדש: להנהיג את עם ישראל בדרך השם."
+     ],
+     "pasuk": {
+      "text": "הִנֵּה הוּא נֶחְבָּא אֶל הַכֵּלִים",
+      "ref": "שמואל א י, כב"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ההצלה ביבש גלעד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: The gates of a hill town in Gilad thrown open at sunrise, its people in modest robes and headscarves running out joyfully, waving, as a long line of Israelite men arrives over the hills. No fighting.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👴",
+     "say": [
+      "ואז הגיע מבחן ראשון. אויב בשם נחש העמוני הקיף את העיר יבש גלעד, ואיים להשפיל את כל תושביה.",
+      "התושבים שלחו שליחים לבקש עזרה. שאול שמע, ורוח השם שרתה עליו. הוא קרא לכל ישראל לבוא.",
+      "והעם בא, כאיש אחד. בבוקר, שאול והעם הצילו את יבש גלעד, והעיר כולה שמחה.",
+      "עכשיו כולם רצו להעניש את אלה שזלזלו בשאול. אבל שאול אמר: לא ייפגע אף איש היום – כי היום עשה השם תשועה בישראל.",
+      "שאול לא לקח את הניצחון לעצמו. הוא אמר: את זה עשה השם.",
+      "ושימו לב לאחדות: עם שלם יצא יחד להציל עיר אחת רחוקה. כשיהודים בצרה – כל ישראל באים לעזור."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "את שור מי לקחתי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: In Gilgal the old prophet stands before all the people in a wheat field at harvest time; sudden dark clouds and soft rain in the sky, people looking up in wonder.",
+     "move": "up",
+     "fx": "mist",
+     "art": "👴 👨 👩 👨",
+     "say": [
+      "בגלגל חידשו את המלוכה, ושם נפרד שמואל מהעם בדברים מרגשים.",
+      "הוא שאל: האם לקחתי שור של מישהו? חמור של מישהו? האם רימיתי מישהו, או לקחתי שוחד?",
+      "וכל העם ענה: לא! לא רימית אותנו, ולא לקחת מאף אחד שום דבר.",
+      "זה מנהיג אמיתי: כל החיים הוא שירת את העם, ולא לקח לעצמו כלום.",
+      "ואז שמואל התפלל, ובאמצע קציר החיטים, בקיץ, ירדו פתאום רעמים וגשם. העם הבין: חשוב לשמוע בקול השם.",
+      "שמואל הבטיח: לא אפסיק להתפלל עליכם. רק תלכו בדרך השם – אתם והמלך שלכם.",
+      "הוא אמר: אם אפסיק להתפלל עליכם – זה יהיה חטא בשבילי. כך אוהב מנהיג אמיתי את עמו."
+     ],
+     "pasuk": {
+      "text": "אֶת שׁוֹר מִי לָקַחְתִּי וַחֲמוֹר מִי לָקַחְתִּי",
+      "ref": "שמואל א יב, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "גשם בקציר החיטים, בקיץ, הוא דבר נדיר מאוד בארץ ישראל. לכן כולם הבינו שזה אות מהשם."
+     }
+    }
+   ],
+   "id": "k-kgf-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "👑 ידע כללי",
+   "title_he": "שמואל ובקשת המלך",
+   "ref_he": "מלכים ובית המקדש",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "s1",
+     "title_he": "השופט האחרון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: An old prophet riding a donkey along a hill road between stone villages in the land of Binyamin at morning, people coming out of their houses to greet him with respect.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴 👨 👩",
+     "say": [
+      "דמיינו זקן צדיק, שעובר מעיר לעיר בארץ ישראל: בית אל, הגלגל, המצפה, ובחזרה אל ביתו ברמה.",
+      "בכל מקום אנשים באים אליו עם שאלות ועם ריבים, והוא שופט אותם ביושר. זה שמואל הנביא.",
+      "שמואל הוא השופט האחרון של עם ישראל. אחרי יהושע, במשך מאות שנים, הנהיגו את העם שופטים – ולא היה מלך.",
+      "וכבר כשהיה ילד קטן במשכן בשילה, השם דיבר אליו. אמא שלו, חנה, התפללה עליו בדמעות, ונדרה שיהיה כל ימיו של השם.",
+      "אבל עכשיו שמואל כבר זקן. ובני ישראל מתחילים לשאול: מה יהיה אחריו?",
+      "שמואל היה שופט ישר. הוא אף פעם לא לקח שוחד, ולא העדיף את העשיר על העני. כולם סמכו עליו.",
+      "חז\"ל אומרים ששמואל שקול כנגד משה ואהרן, כמו שכתוב בתהילים: \"משה ואהרן בכהניו ושמואל בקוראי שמו\".",
+      "ושמואל לא ישב בביתו וחיכה שיבואו אליו. הוא יצא בעצמו אל העם, שנה אחרי שנה. כך נראה מנהיג שאכפת לו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s2",
+     "title_he": "תנה לנו מלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: Elders of Israel with grey beards and modest robes standing in a stone courtyard in Rama before the old prophet, speaking earnestly; the prophet listens with a troubled face.",
+     "move": "in",
+     "fx": null,
+     "art": "👴 👴 👴",
+     "say": [
+      "יום אחד הגיעו כל זקני ישראל אל שמואל, לעיר רמה.",
+      "הם אמרו לו: אתה כבר זקן, והבנים שלך לא הולכים בדרכיך. עכשיו שים לנו מלך שישפוט אותנו – ככל הגויים.",
+      "שמואל הצטער מאוד. הוא התפלל אל השם.",
+      "והקדוש ברוך הוא ענה לו: שמע לקולם. כי לא אותך הם דוחים – אותי הם דוחים, שלא אמלוך עליהם.",
+      "רגע, הרי בתורה עצמה כתוב \"שום תשים עליך מלך\". למינוי מלך יש מקום בתורה! אז למה שמואל הצטער?",
+      "חז\"ל מסבירים: זקני העם ביקשו כמו שצריך – מלך שינהיג את העם בדרך התורה. אבל חלק מהעם ביקשו \"ככל הגויים\": מלך שיחליף את הביטחון שלהם בהקדוש ברוך הוא.",
+      "מלך בישראל לא בא במקום השם. הוא שליח של השם."
+     ],
+     "pasuk": {
+      "text": "עַתָּה שִׂימָה לָּנוּ מֶלֶךְ לְשָׁפְטֵנוּ כְּכָל הַגּוֹיִם",
+      "ref": "שמואל א ח, ה"
+     },
+     "note": null
+    },
+    {
+     "id": "s3",
+     "title_he": "משפט המלך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: The old prophet standing on a low stone platform in a town square, speaking to a large crowd of men and women in modest robes and head coverings, raising one hand in warning.",
+     "move": "out",
+     "fx": null,
+     "art": "👴 👨 👩 👨",
+     "say": [
+      "שמואל הזהיר את העם: מלך יבקש מכם הרבה. הוא ייקח את בניכם לצבא ולעבודה בשדות שלו, ייקח מכם מיסים, מהשדות ומהצאן.",
+      "אבל העם התעקש: \"לא, כי אם מלך יהיה עלינו\". שמואל שמע, והחליט לעשות כפי שאמר לו השם.",
+      "עכשיו נשארה שאלה אחת גדולה: מי יהיה המלך הראשון של ישראל?"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s4",
+     "title_he": "האתונות האבודות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Shaul: a very tall young man with a short black beard, a plain brown robe, modest and shy. Scene: A very tall young man and a servant walking through green hills and rocky paths, searching, shading their eyes against the afternoon sun; a distant hilltop town ahead.",
+     "move": "left",
+     "fx": null,
+     "art": "🚶 🚶",
+     "say": [
+      "בשבט בנימין גר איש בשם קיש, ולו בן צעיר וגבוה מאוד: שאול. הוא היה גבוה מכל העם, מהכתפיים ומעלה.",
+      "יום אחד אבדו לקיש האתונות שלו. הוא אמר לשאול: קח איתך נער, ולך לחפש אותן.",
+      "הם עברו בהר אפרים, ובארץ שלישה, ובארץ שעלים, ובארץ בנימין. ושום אתון לא נמצאה.",
+      "הם הלכו ימים שלמים בהרים, ולא מצאו. שאול רצה לחזור, כדי שאבא שלו לא ידאג.",
+      "אבל הנער אמר: יש בעיר הזו איש אלוקים, נביא. בוא נשאל אותו, אולי יגיד לנו לאן ללכת.",
+      "והם לא ידעו שיום לפני כן, השם כבר גילה לשמואל: מחר אשלח אליך איש משבט בנימין – ואותו תמשח למלך.",
+      "שימו לב לשאול: הוא יצא לחפש אתונות, ומצא מלוכה. אבל הדבר הראשון שהדאיג אותו היה אבא שלו.",
+      "ילד שמכבד את אביו ודואג לו – מזה מתחיל מלך."
+     ],
+     "pasuk": {
+      "text": "מִשִּׁכְמוֹ וָמַעְלָה גָּבֹהַּ מִכָּל הָעָם",
+      "ref": "שמואל א ט, ב"
+     },
+     "note": null
+    },
+    {
+     "id": "s5",
+     "title_he": "פך השמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Shaul: a very tall young man with a short black beard, a plain brown robe, modest and shy. Scene: Dawn on a hilltop outside a stone town: the old prophet pours oil from a small clay flask onto the head of the tall young man, who bows his head humbly. Soft golden light from above.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨",
+     "say": [
+      "שמואל קיבל את שאול בכבוד גדול. הוא הושיב אותו בראש השולחן, ואמר לו: האתונות כבר נמצאו, אל תדאג.",
+      "ולמחרת, בבוקר מוקדם, הלכו שניהם לבד אל קצה העיר. שמואל לקח פך קטן של שמן, ויצק אותו על ראשו של שאול.",
+      "הוא נשק לו ואמר: השם משח אותך להיות מנהיג על עמו.",
+      "שאול, הבחור הצנוע שחיפש אתונות, הוא עכשיו המלך הראשון של ישראל. אבל עדיין אף אחד לא יודע.",
+      "ושאול חזר הביתה, ולא סיפר לאף אחד. כשדודו שאל אותו מה אמר לו שמואל, ענה רק: הוא אמר שהאתונות נמצאו. איזו צניעות!",
+      "שמואל גם נתן לשאול סימנים: בדרך תפגוש שני אנשים ליד קבר רחל, ואחר כך שלושה אנשים שעולים להתפלל בבית אל, ואחר כך להקת נביאים.",
+      "וכל הסימנים התקיימו בדיוק, כדי ששאול יידע שזה באמת מהשם."
+     ],
+     "pasuk": {
+      "text": "וַיִּקַּח שְׁמוּאֵל אֶת פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל רֹאשׁוֹ",
+      "ref": "שמואל א י, א"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "המילה \"משיח\" באה מהמשיחה בשמן. מלך ישראל נקרא \"משיח השם\", כי נמשח בשמן בשליחות השם."
+     }
+    },
+    {
+     "id": "s6",
+     "title_he": "נחבא אל הכלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. Shaul: a very tall young man with a short black beard, a plain brown robe, modest and shy. Scene: A great gathering of the tribes at Mitzpa on a hill; men turn to look at a pile of baggage and supplies at the edge of the camp, where a very tall young man is half hidden, embarrassed.",
+     "move": "out",
+     "fx": null,
+     "art": "👨 👨 👨 👨",
+     "say": [
+      "עכשיו שמואל אסף את כל העם במצפה, כדי שכולם יראו מי בחר השם.",
+      "הטילו גורל: מכל השבטים נבחר שבט בנימין, ומבנימין – משפחת מטרי, ומהמשפחה – שאול בן קיש.",
+      "חיפשו את שאול – ולא מצאו! איפה הוא? השם אמר: הנה הוא מתחבא בין הכלים, בין החבילות והציוד.",
+      "המלך הראשון של ישראל לא רץ לכבוד. הוא בכלל התבייש, וברח ממנו.",
+      "רצו והביאו אותו. הוא עמד, גבוה מכולם, וכל העם קרא: יחי המלך!",
+      "מאותו יום, לשאול היה תפקיד חדש: להנהיג את עם ישראל בדרך השם.",
+      "ולא כולם שמחו. היו כמה שאמרו בזלזול: \"מה יושיענו זה?\" – ולא הביאו לו מתנה.",
+      "ומה עשה שאול? התורה אומרת: \"ויהי כמחריש\". הוא שתק, ולא נעלב. ענווה אמיתית."
+     ],
+     "pasuk": {
+      "text": "הִנֵּה הוּא נֶחְבָּא אֶל הַכֵּלִים",
+      "ref": "שמואל א י, כב"
+     },
+     "note": null
+    },
+    {
+     "id": "s7",
+     "title_he": "ההצלה ביבש גלעד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light.  Scene: The gates of a hill town in Gilad thrown open at sunrise, its people in modest robes and headscarves running out joyfully, waving, as a long line of Israelite men arrives over the hills. No fighting.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👨 👩 👦 👴",
+     "say": [
+      "ואז הגיע מבחן ראשון. אויב בשם נחש העמוני הקיף את העיר יבש גלעד, ואיים להשפיל את כל תושביה.",
+      "התושבים שלחו שליחים לבקש עזרה. שאול שמע, ורוח השם שרתה עליו. הוא קרא לכל ישראל לבוא.",
+      "והעם בא, כאיש אחד. בבוקר, שאול והעם הצילו את יבש גלעד, והעיר כולה שמחה.",
+      "עכשיו כולם רצו להעניש את אלה שזלזלו בשאול. אבל שאול אמר: לא ייפגע אף איש היום – כי היום עשה השם תשועה בישראל.",
+      "שאול לא לקח את הניצחון לעצמו. הוא אמר: את זה עשה השם.",
+      "ושימו לב לאחדות: עם שלם יצא יחד להציל עיר אחת רחוקה. כשיהודים בצרה – כל ישראל באים לעזור.",
+      "ואנשי יבש גלעד לא שכחו את הטובה. שנים רבות אחר כך, כשהגיע זמן צער לשאול, הם סיכנו את עצמם כדי לכבד אותו.",
+      "הכרת הטוב היא מידה של עם ישראל: מי שעשה לך טובה – לא שוכחים אותה לעולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "s8",
+     "title_he": "את שור מי לקחתי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Ancient Israel in the days of the prophets and kings: green hills of Binyamin and Yehuda, shepherds' fields, Jerusalem of golden limestone on its hills, simple stone villages, palaces of cedar wood. Robes of wool and linen in earthy tones, royal blue and purple for kings. Warm, noble, hopeful light. The prophet Shmuel: an old man with a long white beard, a simple dark cloak and a staff, gentle and serious. Scene: In Gilgal the old prophet stands before all the people in a wheat field at harvest time; sudden dark clouds and soft rain in the sky, people looking up in wonder.",
+     "move": "up",
+     "fx": "mist",
+     "art": "👴 👨 👩 👨",
+     "say": [
+      "בגלגל חידשו את המלוכה, ושם נפרד שמואל מהעם בדברים מרגשים.",
+      "הוא שאל: האם לקחתי שור של מישהו? חמור של מישהו? האם רימיתי מישהו, או לקחתי שוחד?",
+      "וכל העם ענה: לא! לא רימית אותנו, ולא לקחת מאף אחד שום דבר.",
+      "זה מנהיג אמיתי: כל החיים הוא שירת את העם, ולא לקח לעצמו כלום.",
+      "ואז שמואל התפלל, ובאמצע קציר החיטים, בקיץ, ירדו פתאום רעמים וגשם. העם הבין: חשוב לשמוע בקול השם.",
+      "שמואל הבטיח: לא אפסיק להתפלל עליכם. רק תלכו בדרך השם – אתם והמלך שלכם.",
+      "הוא אמר: אם אפסיק להתפלל עליכם – זה יהיה חטא בשבילי. כך אוהב מנהיג אמיתי את עמו.",
+      "אבל המבחן הגדול של מלך הוא לשמוע בקול השם בכל דבר. במלחמה בעמלק, שאול לא עשה בדיוק כפי שנצטווה.",
+      "ושמואל אמר לו את המשפט המפורסם: \"הנה שמוע מזבח טוב\" – לשמוע בקול השם טוב יותר מכל קורבן.",
+      "ובכל זאת, חז\"ל אומרים ששאול היה צדיק ונקי, \"כבן שנה\" שלא טעם טעם חטא. אבל מלכות ישראל צריכה מלך שישמע בקול השם בכל דבר.",
+      "ובשיעור הבא, שמואל ייצא לבית לחם, אל בית ישי, לחפש את המלך הבא."
+     ],
+     "pasuk": {
+      "text": "אֶת שׁוֹר מִי לָקַחְתִּי וַחֲמוֹר מִי לָקַחְתִּי",
+      "ref": "שמואל א יב, ג"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "גשם בקציר החיטים, בקיץ, הוא דבר נדיר מאוד בארץ ישראל. לכן כולם הבינו שזה אות מהשם."
+     }
+    }
+   ],
+   "id": "k-kgf-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקשו זקני ישראל משמואל?",
+   "answer": "שישים להם מלך",
+   "options": [
+    "שישים להם מלך",
+    "שיבנה להם בית מקדש",
+    "שיוביל אותם למצרים",
+    "שימנה את בניו לשופטים"
+   ],
+   "explain_he": "הזקנים אמרו: \"שימה לנו מלך לשפטנו ככל הגויים\".",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ביקשו זקני ישראל משמואל?",
+   "answer": "שישים להם מלך",
+   "options": [
+    "שישים להם מלך",
+    "שיבנה להם בית מקדש",
+    "שיוביל אותם למצרים",
+    "שימנה את בניו לשופטים"
+   ],
+   "explain_he": "הזקנים אמרו: \"שימה לנו מלך לשפטנו ככל הגויים\".",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה חיפש שאול כשהגיע אל שמואל?",
+   "answer": "את האתונות של אביו",
+   "options": [
+    "את האתונות של אביו",
+    "מקום להתפלל",
+    "מלך לעם",
+    "עבודה בעיר"
+   ],
+   "explain_he": "לקיש אבדו האתונות, והוא שלח את שאול לחפש אותן. שאול יצא לחפש אתונות – ומצא מלוכה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה חיפש שאול כשהגיע אל שמואל?",
+   "answer": "את האתונות של אביו",
+   "options": [
+    "את האתונות של אביו",
+    "מקום להתפלל",
+    "מלך לעם",
+    "עבודה בעיר"
+   ],
+   "explain_he": "לקיש אבדו האתונות, והוא שלח את שאול לחפש אותן. שאול יצא לחפש אתונות – ומצא מלוכה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך משח שמואל את שאול למלך?",
+   "answer": "יצק על ראשו שמן מפך קטן",
+   "options": [
+    "יצק על ראשו שמן מפך קטן",
+    "שם עליו כתר מזהב",
+    "נתן לו חרב",
+    "הלביש אותו בגדי כהונה"
+   ],
+   "explain_he": "שמואל לקח פך של שמן ויצק על ראשו של שאול. מכאן השם \"משיח\" – מי שנמשח בשמן.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך משח שמואל את שאול למלך?",
+   "answer": "יצק על ראשו שמן מפך קטן",
+   "options": [
+    "יצק על ראשו שמן מפך קטן",
+    "שם עליו כתר מזהב",
+    "נתן לו חרב",
+    "הלביש אותו בגדי כהונה"
+   ],
+   "explain_he": "שמואל לקח פך של שמן ויצק על ראשו של שאול. מכאן השם \"משיח\" – מי שנמשח בשמן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה מצאו את שאול כשבחרו בו בגורל במצפה?",
+   "answer": "מתחבא בין הכלים",
+   "options": [
+    "מתחבא בין הכלים",
+    "עומד בראש העם",
+    "רץ אל שמואל",
+    "יושב על כיסא המלך"
+   ],
+   "explain_he": "\"הנה הוא נחבא אל הכלים\". שאול היה צנוע, ולא רדף אחרי כבוד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איפה מצאו את שאול כשבחרו בו בגורל במצפה?",
+   "answer": "מתחבא בין הכלים",
+   "options": [
+    "מתחבא בין הכלים",
+    "עומד בראש העם",
+    "רץ אל שמואל",
+    "יושב על כיסא המלך"
+   ],
+   "explain_he": "\"הנה הוא נחבא אל הכלים\". שאול היה צנוע, ולא רדף אחרי כבוד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שאול לא הרשה להעניש את מי שזלזלו בו?",
+   "answer": "כי אמר שהיום עשה השם תשועה בישראל",
+   "options": [
+    "כי אמר שהיום עשה השם תשועה בישראל",
+    "כי פחד מהם",
+    "כי לא שמע מה אמרו",
+    "כי הם היו מבני משפחתו"
+   ],
+   "explain_he": "אחרי ההצלה ביבש גלעד שאול אמר: לא ייפגע איש היום, כי היום עשה השם תשועה בישראל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה שאול לא הרשה להעניש את מי שזלזלו בו?",
+   "answer": "כי אמר שהיום עשה השם תשועה בישראל",
+   "options": [
+    "כי אמר שהיום עשה השם תשועה בישראל",
+    "כי פחד מהם",
+    "כי לא שמע מה אמרו",
+    "כי הם היו מבני משפחתו"
+   ],
+   "explain_he": "אחרי ההצלה ביבש גלעד שאול אמר: לא ייפגע איש היום, כי היום עשה השם תשועה בישראל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה העם כששמואל שאל \"את שור מי לקחתי\"?",
+   "answer": "שהוא לא רימה ולא לקח מאף אחד דבר",
+   "options": [
+    "שהוא לא רימה ולא לקח מאף אחד דבר",
+    "שהוא לקח מעט מיסים",
+    "שהם לא זוכרים",
+    "שהוא צריך להחזיר את השור"
+   ],
+   "explain_he": "כל העם העיד ששמואל שירת אותם כל חייו ולא לקח לעצמו דבר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f1e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ענה העם כששמואל שאל \"את שור מי לקחתי\"?",
+   "answer": "שהוא לא רימה ולא לקח מאף אחד דבר",
+   "options": [
+    "שהוא לא רימה ולא לקח מאף אחד דבר",
+    "שהוא לקח מעט מיסים",
+    "שהם לא זוכרים",
+    "שהוא צריך להחזיר את השור"
+   ],
+   "explain_he": "כל העם העיד ששמואל שירת אותם כל חייו ולא לקח לעצמו דבר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e14"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הגשם שירד בגלגל היה אות מיוחד?",
+   "answer": "כי ירד בקיץ, בזמן קציר החיטים",
+   "options": [
+    "כי ירד בקיץ, בזמן קציר החיטים",
+    "כי הוא היה צבעוני",
+    "כי ירד רק על המלך",
+    "כי ירד בשבת"
+   ],
+   "explain_he": "גשם בקציר החיטים נדיר מאוד בארץ ישראל, ולכן העם הבין שזה אות מהשם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-kgf-f1e15"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הגשם שירד בגלגל היה אות מיוחד?",
+   "answer": "כי ירד בקיץ, בזמן קציר החיטים",
+   "options": [
+    "כי ירד בקיץ, בזמן קציר החיטים",
+    "כי הוא היה צבעוני",
+    "כי ירד רק על המלך",
+    "כי ירד בשבת"
+   ],
+   "explain_he": "גשם בקציר החיטים נדיר מאוד בארץ ישראל, ולכן העם הבין שזה אות מהשם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e16"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה, לפי חז\"ל, הצטער שמואל על הבקשה, אם בתורה כתוב \"שום תשים עליך מלך\"?",
+   "answer": "כי חלק מהעם ביקשו מלך \"ככל הגויים\", במקום הביטחון בהשם",
+   "options": [
+    "כי חלק מהעם ביקשו מלך \"ככל הגויים\", במקום הביטחון בהשם",
+    "כי בתורה אסור למנות מלך",
+    "כי הוא רצה להיות מלך בעצמו",
+    "כי שאול לא היה גבוה מספיק"
+   ],
+   "explain_he": "הזקנים ביקשו כראוי, אבל חלק מהעם רצו מלך שיחליף את הביטחון בהקדוש ברוך הוא. מלך בישראל הוא שליח של השם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e17"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש \"הנה שמוע מזבח טוב\"?",
+   "answer": "לשמוע בקול השם טוב יותר מכל קורבן",
+   "options": [
+    "לשמוע בקול השם טוב יותר מכל קורבן",
+    "קורבן טוב יותר משמיעה",
+    "צריך לבנות מזבח גדול",
+    "מלך צריך להקריב בכל יום"
+   ],
+   "explain_he": "שמואל לימד את שאול שהעיקר הוא לעשות בדיוק את מה שהשם מצווה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-kgf-f1e18"
+  }
+ ]
+}
