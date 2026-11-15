@@ -2,7 +2,7 @@
 ARG BUILD_FROM=ghcr.io/home-assistant/aarch64-base:latest
 FROM $BUILD_FROM
 # yt-dlp needs a JavaScript runtime for YouTube (node, with yt-dlp-ejs from the [default] extra).
-RUN apk add --no-cache python3 py3-pip ffmpeg nodejs tailscale \
+RUN apk add --no-cache python3 py3-pip py3-numpy py3-pillow ffmpeg nodejs tailscale \
  && pip install --no-cache-dir --break-system-packages "yt-dlp[default]"
 COPY server.py run.sh /
 # Files copied from Windows may carry CRLF line ends, which break the shebang ("/run.sh: not found").
