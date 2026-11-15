@@ -2,6 +2,9 @@ import { mixed, el } from '../util.js';
 import { loadThink, loadKnow } from '../course.js';
 import { requiredLessons } from '../thinkLogic.js';
 import { WEAK } from '../learnRules.js';
+import { roundNow, isLocked } from '../rotation.js';
+import { roundCard } from './round.js';
+import { subjectOf } from '../insights.js';
 
 // Confetti for the lesson-complete screen: a handful of coloured bits that fall once (CSS does the motion).
 const confetti = (n = 24) => el('div', { class: 'confetti', 'aria-hidden': 'true' }, Array.from({ length: n }, (_, i) =>
@@ -13,6 +16,16 @@ export async function renderComplete(root, nav, p) {
   const mins = Math.floor(p.durationS / 60);
   const secs = String(p.durationS % 60).padStart(2, '0');
   const streakUp = p.streakAfter > p.streakBefore;
+
+  // The round: if this lesson used up the subject's minutes, the way on is another subject.
+  let roundRow = null;
+  try {
+    const profile = await getProfile();
+    const round = await roundNow(profile);
+    if (isLocked(round, p.lessonId)) {
+      roundRow = roundCard(round, subjectOf(p.lessonId), async (id) => { const fresh = await getProfile(); fresh.subject = id; await updateProfile(fresh); nav('path'); });
+    }
+  } catch { roundRow = null; }
 
   // After a think lesson: straight on to the next lesson of the course, or to the catalog when the course is done.
   let nextRow = null;
@@ -92,14 +105,14 @@ export async function renderComplete(root, nav, p) {
     // and a low score is marked for another try.
     p.repeat === 'mastered' ? el('p', { class: 'repeat-done' }, '🔁 כבר שלטת בשיעור הזה, אז החזרה לא נתנה XP. הנקודות מחכות בשיעור חדש!')
       : p.repeat !== 'new' && p.repeat && p.accuracy > p.prevBest ? el('p', { class: 'repeat-better' }, `📈 שיפור! מ־${p.prevBest}% ל־${p.accuracy}%`) : null,
-    p.accuracy < WEAK && !String(p.lessonId).startsWith('tp-') && !String(p.lessonId).startsWith('coach') ? el('div', { class: 'retry-row' },
+    !roundRow && p.accuracy < WEAK && !String(p.lessonId).startsWith('tp-') && !String(p.lessonId).startsWith('coach') ? el('div', { class: 'retry-row' },
       el('p', {}, '↻ השיעור הזה מסומן במסלול "לחזק". כשחוזרים עליו ומשתפרים, מקבלים שוב XP.'),
       el('button', { class: 'btn', type: 'button', onclick: () => nav('lesson', { lessonId: p.lessonId }) }, 'לנסות שוב עכשיו')) : null,
     // Think lessons: a recap of the ideas the lesson taught (the concept cards' titles).
     p.concepts?.length ? el('div', { class: 'recap' },
       el('div', { class: 'recap-head' }, '📚 מה למדנו'),
       el('ul', { class: 'recap-list' }, p.concepts.map((t) => el('li', {}, el('span', { class: 'recap-check' }, '✓'), ...mixed(t))))) : null,
-    nextRow,
-    el('button', { class: `btn ${nextRow ? '' : 'primary'} wide`, type: 'button', onclick: () => nav('path') }, nextRow ? 'חזרה למסלול' : 'המשך')));
+    roundRow || nextRow,
+    el('button', { class: `btn ${nextRow || roundRow ? '' : 'primary'} wide`, type: 'button', onclick: () => nav('path') }, nextRow ? 'חזרה למסלול' : 'המשך')));
   }
 }

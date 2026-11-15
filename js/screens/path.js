@@ -8,6 +8,8 @@ import { COACH_LESSON, coachModules, moduleSubject } from '../coach.js';
 import { talkSupported } from '../talk.js';
 import { courseLevel, skipUnits, requiredLessons, LEVEL_NAMES } from '../thinkLogic.js';
 import { goalStrip } from './parent.js';
+import { roundNow } from '../rotation.js';
+import { roundStrip, roundCard } from './round.js';
 
 export function topBar(s, profile, nav) {
   return el('div', { class: 'top-stats' },
@@ -38,14 +40,17 @@ export async function renderPath(root, nav) {
   const states = subject === 'english' ? lessonStates(course, done, { starter: !!profile.starter })
     : openCourse ? lessonStates(openCourse, done, { skipUnits: subject === 'think' ? skipUnits(openCourse, profile) : 0 }) : {};
   const titles = { ...(course.lesson_titles || {}), ...(thinkData.lesson_titles || {}), ...(know.lesson_titles || {}) };
+  // The day's round: after 20 minutes in one subject it waits until the others had theirs.
+  const round = await roundNow(profile).catch(() => null);
+  const locked = (id) => !!round?.locked.includes(id);
   const setProfile = async (patch) => { Object.assign(profile, patch); await updateProfile(profile); nav('path'); };
   const subjects = [['english', '🔤', 'אנגלית'], ['think', '🧠', 'חשיבה ומדעים'], ['know', '🌍', 'ידע כללי']]
     .filter(([id]) => id === 'english' || catalogs[id].courses?.length);
   const switcher = subjects.length > 1 ? el('div', { class: 'subject-switch', role: 'tablist' },
     subjects.map(([id, icon, name]) => el('button', {
-      class: `subject-tab ${subject === id ? 'on' : ''}`, type: 'button', role: 'tab', 'aria-selected': String(subject === id),
+      class: `subject-tab ${subject === id ? 'on' : ''}${locked(id) ? ' locked' : ''}`, type: 'button', role: 'tab', 'aria-selected': String(subject === id),
       onclick: () => { if (subject !== id) setProfile({ subject: id }); },
-    }, el('span', { class: 'subject-icon' }, icon), name))) : null;
+    }, el('span', { class: 'subject-icon' }, locked(id) ? '🔒' : icon), name))) : null;
 
   // Think course map: tapping a stop selects it and a bottom sheet offers to start it (the current one is pre-selected).
   const rows = new Map();
@@ -264,14 +269,15 @@ export async function renderPath(root, nav) {
       el('button', { class: 'to-current', type: 'button', hidden: true, onclick: () => rows.get(next)?.scrollIntoView({ block: 'center', behavior: 'smooth' }) }, '★ לשיעור הנוכחי'),
       sheet];
   })() : null;
-  const content = subject !== 'english' ? [coach, catalog, courseView]
-    : [talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test];
-  screenEl = el('div', { class: `screen path subject-${subject}${subject === 'know' ? ' subject-think' : ''}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, ...content, logout,
+  const content = locked(subject) ? [roundCard(round, subject, (id) => setProfile({ subject: id }))]
+    : subject !== 'english' ? [coach, catalog, courseView]
+      : [talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test];
+  screenEl = el('div', { class: `screen path subject-${subject}${subject === 'know' ? ' subject-think' : ''}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, roundStrip(round), ...content, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`));
   root.replaceChildren(screenEl);
   // The goals a parent set, with how far along they are.
   goalStrip(profile).then((strip) => { if (strip) screenEl.querySelector('.top-stats')?.after(strip); }).catch(() => {});
-  if (openCourse) {
+  if (openCourse && !locked(subject)) {
     const { next, ids } = progressOf(openCourse);
     selectLesson(next || ids[0]);
     // A floating button brings the current stop back into view when it is scrolled away.

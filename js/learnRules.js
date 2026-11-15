@@ -68,3 +68,31 @@ export function watchTracker(duration) {
     enough: (len = duration) => !len || watched >= len * WATCH_SHARE,
   };
 }
+
+// ---- the 20-minute round ----
+// Each subject gets `quota` minutes of real learning per round. A subject that
+// used its minutes closes (after the lesson in progress ends, never in the
+// middle) until every other subject has had its minutes too; then a new round
+// starts and everything is open again. Replays of mastered lessons don't count.
+// `sessions` are the day's session records; `exempt` subjects have nothing new
+// left to learn, so the round doesn't wait for them.
+export function rotation(sessions, subjects, quota, exempt = []) {
+  const need = subjects.filter((s) => !exempt.includes(s));
+  const zero = () => Object.fromEntries(subjects.map((s) => [s, 0]));
+  let used = zero();
+  let rounds = 0;
+  for (const x of [...sessions].sort((a, b) => (a.at || 0) - (b.at || 0))) {
+    if (x.repeat === 'mastered' || !(x.subject in used)) continue;
+    used[x.subject] += (x.active_s || 0) / 60;
+    if (need.length > 1 && need.every((k) => used[k] >= quota)) { used = zero(); rounds++; }
+  }
+  const locked = need.length > 1 ? need.filter((k) => used[k] >= quota) : [];
+  return { quota, used, locked, need, rounds, waiting: need.filter((k) => used[k] < quota) };
+}
+
+// ---- guessing ----
+export const GUESS_STOP = 2; // guesses in a lesson before it stops to explain again
+// A round is guess-y when 3+ answers were guesses, or 2+ and a quarter of the questions.
+// It earns half the XP, never counts as mastered, and pulls the course level down.
+export const guessyRound = (guesses, total) => guesses >= 3 || (guesses >= 2 && guesses / Math.max(1, total) >= 0.25);
+export const GUESSY_CAP = WEAK - 1;

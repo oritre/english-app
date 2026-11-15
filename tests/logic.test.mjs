@@ -581,3 +581,25 @@ test('coach modules go to their own tab', async () => {
   assert.equal(moduleSubject({ exercises: [{ type: 'mcq', answer: 'He' }] }), 'english');
   assert.equal(moduleSubject({ subject: 'know', exercises: [] }), 'know');
 });
+
+test('20-minute round: a subject closes after its minutes until the others had theirs', async () => {
+  const { rotation, guessyRound } = await import('../js/learnRules.js');
+  const S = ['english', 'think', 'know'];
+  const s = (subject, min, at, extra = {}) => ({ subject, active_s: min * 60, at, ...extra });
+  let r = rotation([s('english', 15, 1)], S, 20);
+  assert.deepEqual(r.locked, []);
+  r = rotation([s('english', 15, 1), s('english', 6, 2)], S, 20);
+  assert.deepEqual(r.locked, ['english']);
+  assert.deepEqual(r.waiting, ['think', 'know']);
+  // Mastered replays don't count.
+  r = rotation([s('english', 15, 1), s('english', 30, 2, { repeat: 'mastered' })], S, 20);
+  assert.deepEqual(r.locked, []);
+  // Once every subject had its minutes, a new round starts.
+  r = rotation([s('english', 21, 1), s('think', 20, 2), s('know', 25, 3), s('think', 5, 4)], S, 20);
+  assert.deepEqual(r.locked, []);
+  assert.equal(r.rounds, 1);
+  // A subject with nothing new left doesn't hold the round.
+  r = rotation([s('english', 21, 1), s('think', 20, 2)], S, 20, ['know']);
+  assert.equal(r.rounds, 1);
+  assert.ok(guessyRound(3, 20) && guessyRound(2, 6) && !guessyRound(2, 12) && !guessyRound(1, 2));
+});

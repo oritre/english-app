@@ -2,6 +2,7 @@ import { store, newId } from './db.js';
 import { localISO, addDays } from './dates.js';
 import { weekStart, weekEnd, buildBoard, nextTier, TIERS } from './league.js';
 import { computeStreak } from './streak.js';
+import { GUESSY_CAP } from './learnRules.js';
 
 // Several learners can share one device. The chosen one is remembered per
 // device; storage can be blocked (private mode), so fall back to memory.
@@ -57,7 +58,7 @@ export async function accuraciesIn(lessonIds) {
   const ids = new Set(lessonIds);
   const rows = await store.byIndex('results', 'profile_id', currentId);
   return rows.filter((r) => ids.has(r.lesson_id) && typeof r.accuracy === 'number')
-    .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : (a.at || a.updated_at || 0) - (b.at || b.updated_at || 0))).map((r) => r.accuracy);
+    .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : (a.at || a.updated_at || 0) - (b.at || b.updated_at || 0))).map((r) => (r.guessy ? Math.min(r.accuracy, 40) : r.accuracy));
 }
 
 // Marks lessons as passed by the placement test. Never un-does real progress,
@@ -86,21 +87,22 @@ export async function stats() {
 }
 
 // Saves a finished lesson. Returns { streakBefore, streakAfter, goalMetNow }.
-export async function saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes, repeat = 'new' }) {
+export async function saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes, repeat = 'new', guessy = false }) {
   const profile = await getProfile();
   const today = localISO();
   const before = await stats();
 
   await store.put('results', {
     id: newId(), profile_id: currentId, lesson_id: lessonId, date: today,
-    xp, accuracy, duration_s: durationS, mistakes, repeat, at: Date.now(),
+    xp, accuracy, duration_s: durationS, mistakes, repeat, at: Date.now(), ...(guessy ? { guessy } : {}),
   });
 
   const key = `${currentId}:${lessonId}`;
   const prev = await store.get('progress', key);
   await store.put('progress', {
     id: key, profile_id: currentId, lesson_id: lessonId, status: 'done', skipped: false,
-    best_accuracy: Math.max(accuracy, prev ? prev.best_accuracy : 0),
+    // A round of guesses never makes a lesson count as known (learnRules.guessyRound).
+    best_accuracy: Math.max(guessy ? Math.min(accuracy, GUESSY_CAP) : accuracy, prev ? prev.best_accuracy : 0),
     times_done: (prev ? prev.times_done : 0) + 1,
   });
 
