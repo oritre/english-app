@@ -624,32 +624,38 @@ def check(p):
 
 
 def build():
-    """The tab shows only Hidabroot Kids videos with graded questions (ori, 2026-11-15: "בלי הסרטון שלנו").
+    """The tab shows only Hidabroot Kids videos with graded questions (ori, 2026-11-15: "בלי הסרטון שלנו"),
+    every parasha in Torah order, each in the week ending with its Shabbat (tools/parasha_calendar.py).
     The puppet film code above stays for now, but no lesson is built from it."""
+    from parasha_calendar import BOOKS as CAL_BOOKS, LESSONS
     lessons_dir = os.path.join(ROOT, 'lessons')
     os.makedirs(lessons_dir, exist_ok=True)
     for name in os.listdir(lessons_dir):  # start clean
         if name.startswith('p-'):
             os.remove(os.path.join(lessons_dir, name))
     courses, titles, week, about = [], {}, {}, {}
-    for bid, icon, color, title, book_about in BOOKS:
+    known = {row[0] for row in LESSONS}
+    assert not set(VIDEOS) - known, set(VIDEOS) - known
+    for bid, icon, color, title, book_about in CAL_BOOKS:
         ids = []
-        for p in (p for p in PARASHOT if p['book'] == bid):
-            vids = VIDEOS.get(p['id'], [])
+        for pid, name_he, book, about_he, shabbatot in LESSONS:
+            vids = VIDEOS.get(pid, []) if book == bid else []
             if not vids:
                 continue
             for n, (lesson_id, title_he, exercises) in enumerate(vids):
-                lesson_id = p['id'] if n == 0 else lesson_id  # the first video is the parasha's lesson of the week
+                lesson_id = pid if n == 0 else lesson_id  # the first video is the parasha's lesson of the week
+                assert lesson_id not in titles, lesson_id
                 for i, ex in enumerate(exercises, 1):
                     ex['id'] = f'{lesson_id}e{i}'
                     assert ex['type'] == 'video' or ex['answer'] in ex['options'], lesson_id
-                titles[lesson_id] = f"פרשת {p['name_he']}" if n == 0 else title_he
+                titles[lesson_id] = f'פרשת {name_he}' if n == 0 else title_he
                 with open(os.path.join(lessons_dir, f'{lesson_id}.json'), 'w', encoding='utf-8') as f:
                     json.dump({'id': lesson_id, 'unit_id': f'p-{bid}', 'course': bid, 'title_he': titles[lesson_id],
                                'exercises': exercises}, f, ensure_ascii=False, indent=1)
                 ids.append(lesson_id)
-            week[p['shabbat']] = p['id']
-            about[p['id']] = p['about_he']
+            for d in shabbatot:
+                week[d] = pid
+            about[pid] = about_he
         if ids:
             courses.append({'id': bid, 'area': 'torah', 'icon': icon, 'color': color, 'title_he': title,
                             'about_he': book_about, 'grades': [1, 8],
