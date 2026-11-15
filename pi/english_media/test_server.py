@@ -264,6 +264,22 @@ class SpriteTest(unittest.TestCase):
         self.assertEqual(calls, [('Yaakov standing', False), ('mouth open', True)])
         with open(a, 'rb') as f:
             self.assertEqual(f.read(12)[8:], b'WEBP')
+        os.remove(a)  # an older cut: made again from the kept original, without painting
+        server.sprite_file('Yaakov standing', opts, store, '', request)
+        self.assertTrue(os.path.exists(a) and len(calls) == 2)
+
+    def test_cut_out_removes_a_grey_backdrop(self):
+        from PIL import Image, ImageDraw
+        im = Image.new('RGB', (300, 400), (128, 124, 120))
+        d = ImageDraw.Draw(im)
+        for x in range(0, 300, 6):  # painted texture
+            d.line([(x, 0), (x, 400)], fill=(132, 127, 122))
+        d.rectangle([100, 60, 200, 340], fill=(150, 90, 50), outline=(240, 200, 150), width=3)  # a robe
+        d.rectangle([20, 60, 30, 340], fill=(110, 70, 40))  # a staff
+        d.ellipse([90, 335, 210, 360], fill=(100, 97, 94))  # shadow under the feet
+        a = server.cut_out(im).getchannel('A')
+        self.assertEqual((a.getpixel((5, 5)), a.getpixel((60, 200)), a.getpixel((150, 352))), (0, 0, 0))
+        self.assertEqual((a.getpixel((150, 200)), a.getpixel((25, 200))), (255, 255))
 
 
 if __name__ == '__main__':

@@ -342,9 +342,10 @@ def sprite_hash(prompt, ref=''):
 
 
 def sprite_paths(h, store=STORE):
-    """(the painted original on green, the cut-out with a transparent background)."""
+    """(the painted original, the cut-out with a transparent background). v2 = cut by cut_out;
+    a v1 cut (green colorkey, which the model's grey backdrops defeated) is remade from the original."""
     base = os.path.join(store, 'sprite', h)
-    return f'{base}.src.jpg', f'{base}.webp'
+    return f'{base}.src.jpg', f'{base}.v2.webp'
 
 
 def sprite_request(prompt, options, ref=None):
@@ -373,17 +374,64 @@ def sprite_request(prompt, options, ref=None):
     return base64.b64decode(found[0]), found[1]
 
 
+def cut_out(im, local=6.0, glob=42.0):
+    """The figure with a transparent background. The model paints its characters on a plain backdrop
+    (asked for green, it usually paints a textured grey). A region grows from the picture's border
+    through pixels that change only gently from their neighbour (it follows texture and a vignette, the
+    figure's outline stops it) and stay near the border's colour. Flat backdrop-coloured pockets closed
+    in by the figure, and the soft grey shadow under the feet, go too (the player draws its own)."""
+    import numpy as np
+    from PIL import Image, ImageFilter
+    rgb = im.convert('RGB')
+    px = np.asarray(rgb.filter(ImageFilter.GaussianBlur(1)), dtype=np.float32)
+    h, w, _ = px.shape
+    bg = np.median(np.concatenate([px[0], px[-1], px[:, 0], px[:, -1]]), axis=0)
+    dist = np.linalg.norm(px - bg, axis=2)
+    chroma = px.max(axis=2) - px.min(axis=2)
+    lum = px.mean(axis=2)
+    low = np.arange(h)[:, None] > h * 0.7
+    shadow = (chroma < 27) & (lum < bg.mean() + 4) & (lum > bg.mean() - 90) & low
+    near = (dist < glob) | shadow
+    reach = np.zeros((h, w), bool)
+    reach[0, :] = reach[-1, :] = reach[:, 0] = reach[:, -1] = True
+    reach &= near
+    g = np.asarray(rgb.convert('L').filter(ImageFilter.GaussianBlur(1)), dtype=np.float32)
+    m = np.asarray(Image.fromarray(g.astype(np.uint8)).filter(ImageFilter.BoxBlur(5)), dtype=np.float32)
+    sq = Image.fromarray(np.clip(g * g / 255, 0, 255).astype(np.uint8)).filter(ImageFilter.BoxBlur(5))
+    std = np.sqrt(np.clip(np.asarray(sq, dtype=np.float32) * 255 - m * m, 0, None))
+    reach |= ((dist < 14) & (std < 5)) | shadow
+    dv = np.linalg.norm(px[1:] - px[:-1], axis=2) < local
+    dh = np.linalg.norm(px[:, 1:] - px[:, :-1], axis=2) < local
+    for _ in range(5000):
+        grow = reach.copy()
+        grow[1:] |= reach[:-1] & dv
+        grow[:-1] |= reach[1:] & dv
+        grow[:, 1:] |= reach[:, :-1] & dh
+        grow[:, :-1] |= reach[:, 1:] & dh
+        grow &= near
+        if np.array_equal(grow, reach):
+            break
+        reach = grow
+    alpha = Image.fromarray(np.where(reach, 0, 255).astype(np.uint8))
+    alpha = alpha.filter(ImageFilter.MinFilter(3)).filter(ImageFilter.GaussianBlur(1.2))
+    out = rgb.convert('RGBA')
+    out.putalpha(alpha)
+    return out
+
+
 def to_sprite(image, src, out):
-    """Keep the original (for later edits) and cut the green away into a transparent webp."""
-    tmp = f'{src}.part.jpg'
-    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', 'pipe:0', '-vf', 'scale=-2:1024', '-q:v', '3', tmp],
-                   input=image, check=True, timeout=60, capture_output=True)
-    os.replace(tmp, src)
-    tmp = f'{out}.part.webp'
-    subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', src, '-vf',
-                    'scale=-2:900,colorkey=0x00FF00:0.32:0.08,despill=type=green,format=yuva420p',
-                    '-c:v', 'libwebp', '-quality', '85', tmp],
-                   check=True, timeout=60, capture_output=True)
+    """Keep the original (for later edits) and cut its backdrop away into a transparent webp."""
+    if image is not None:
+        tmp = f'{src}.part.jpg'
+        subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', 'pipe:0', '-vf', 'scale=-2:1024', '-q:v', '3', tmp],
+                       input=image, check=True, timeout=60, capture_output=True)
+        os.replace(tmp, src)
+    from PIL import Image
+    with Image.open(src) as im:
+        im = im.convert('RGB')
+        im = im.resize((round(im.width * 900 / im.height), 900), Image.LANCZOS)
+        tmp = f'{out}.part.webp'
+        cut_out(im).save(tmp, 'WEBP', quality=85, method=4)
     os.replace(tmp, out)
 
 
@@ -394,6 +442,13 @@ def sprite_file(prompt, options, store=STORE, ref='', request=None):
     h = sprite_hash(prompt, ref)
     src, out = sprite_paths(h, store)
     if os.path.exists(out):
+        return out
+    if os.path.exists(src):  # painted before, cut with an older method: cut again, no new painting
+        with tts_locks_guard:
+            lock = tts_locks.setdefault(f'sprite:{h}', threading.Lock())
+        with lock:
+            if not os.path.exists(out):
+                to_sprite(None, src, out)
         return out
     ref_bytes = None
     if ref:
