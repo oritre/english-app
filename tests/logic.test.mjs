@@ -769,3 +769,12 @@ test('parasha puppets: lines, acts, frame order, mouth from loudness', async () 
   for (let t = 0; t < 10000; t += 16) { const v = L.flapLevel(t); assert.ok(v >= 0 && v <= 1); if (v < L.MOUTH.off) quiet += 1; }
   assert.ok(quiet > 60 && quiet < 400);
 });
+
+test('report minutes use active time, and cap a lesson left open for hours', async () => {
+  const { lessonSeconds, minutesByDay } = await import('../js/report.js');
+  assert.equal(lessonSeconds({ duration_s: 157024 }), 1800);
+  assert.equal(lessonSeconds({ duration_s: 157024, active_s: 40 }), 40);
+  assert.equal(lessonSeconds({ duration_s: 90 }), 90);
+  const day = minutesByDay([{ date: '2026-11-11', duration_s: 157024, active_s: 60 }], '2026-11-11', 1);
+  assert.equal(day[0].minutes, 1);
+});

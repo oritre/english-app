@@ -40,11 +40,15 @@ export function skillStats(attempts) {
   });
 }
 
+// Seconds a lesson really took: its active time, or for older results the wall time
+// capped at 30 minutes (a lesson left open overnight once showed 43 hours).
+export const lessonSeconds = (r) => (Number.isFinite(r.active_s) ? r.active_s : Math.min(Number(r.duration_s) || 0, 1800));
+
 export function minutesByDay(results, today, days = 14) {
   const out = [];
   for (let i = days - 1; i >= 0; i--) {
     const date = addDays(today, -i);
-    const secs = results.filter((r) => r.date === date).reduce((s, r) => s + r.duration_s, 0);
+    const secs = results.filter((r) => r.date === date).reduce((s, r) => s + lessonSeconds(r), 0);
     out.push({ date, minutes: Math.round((secs / 60) * 10) / 10, lessons: results.filter((r) => r.date === date).length });
   }
   return out;
@@ -63,7 +67,7 @@ export function hardestItems(attempts, limit = 5) {
 }
 
 export function summarize({ profile, attempts, results, days, progress }, today) {
-  const totalSec = results.reduce((s, r) => s + r.duration_s, 0);
+  const totalSec = results.reduce((s, r) => s + lessonSeconds(r), 0);
   const lessonsDone = progress.filter((p) => p.status === 'done' && !p.skipped).length;
   const skipped = progress.filter((p) => p.skipped).length;
   const last7 = new Set(results.filter((r) => r.date > addDays(today, -7)).map((r) => r.date)).size;
