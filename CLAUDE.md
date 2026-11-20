@@ -12,8 +12,9 @@ Content = `data/lessons/`, `data/*.json`, `tools/*content*.py`, `tools/know_*.py
 If you BUILD content (you are the builder):
 1. Open the PR as usual and subscribe to its activity.
 2. Ask for a review right away: fire the scheduled task "בקרת תוכן: סוכן מבקר
-   לאפליקציית לימודים" (`fire_trigger`; find its id with `list_triggers`) with
-   the PR link as text. A sweep also runs every 3 hours by itself.
+   לאפליקציית לימודים" (`fire_trigger` trig_01LU6NMd7Z4yquMpuHuC3k2m, text =
+   the PR link). It wakes the reviewer's own project thread "סוכן מבקר לתכני
+   לימודים", which is separate from yours. It also sweeps every 3 hours.
 3. For each new video, write in the PR body what you checked (captions, frames,
    what it teaches); the reviewer cannot watch YouTube from the cloud.
 4. When the reviewer's comment says "צריך תיקונים", fix every 🔴 and 🟠 item
