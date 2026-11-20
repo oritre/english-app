@@ -1,5 +1,5 @@
 name: English app videos
-version: "1.4.3"
+version: "1.5.0"
 slug: english_media
 description: Serves the לימודים app's general-knowledge videos (downloaded once, without YouTube or ads) and reads its words and sentences in a natural voice.
 url: https://github.com/oritre/english-app/tree/main/pi/english_media
@@ -27,6 +27,8 @@ options:
   vertex_project: secretary-bot-511411
   vertex_location: global
   allow_paid_key: false
+  paint_ahead: true
+  paint_per_day: 300
 schema:
   family_code: password
   tailscale_authkey: password?
@@ -42,3 +44,6 @@ schema:
   vertex_location: str?
   vertex_tts_model: str?
   allow_paid_key: bool?
+  paint_ahead: bool?
+  paint_per_day: int(0,2000)?
+  pictures_url: url?

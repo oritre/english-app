@@ -9,8 +9,9 @@ sync code: the first 16 hex digits of SHA-256("media:" + code) (js/media.js).
 It also reads the app's words and sentences aloud in a natural voice
 (/tts): each line is made once with Gemini text-to-speech, using the key in the
 add-on options, and kept as an mp3 in /media/english-app/tts.
-And it paints the parasha films' illustrations (/img): each picture is made
-once by a Gemini image model and kept as a jpg in /media/english-app/img.
+And it paints the films' illustrations (/img): each picture is made once by a
+Gemini image model and kept as a jpg in /media/english-app/img. The pictures
+listed in the app's data/pictures.json are painted ahead in the background.
 
 Pure standard library apart from yt-dlp and ffmpeg. Port 8811.
 """
@@ -84,7 +85,16 @@ IMG_MODEL = 'gemini-2.5-flash-image'
 img_slots = threading.Semaphore(1)
 
 log = logging.getLogger('english_media')
-status = {'videos': 0, 'ready': 0, 'failed': {}, 'last_check': None, 'tts_made': 0, 'tts_error': None, 'img_made': 0, 'img_error': None}
+status = {'videos': 0, 'ready': 0, 'failed': {}, 'last_check': None, 'tts_made': 0, 'tts_error': None, 'img_made': 0, 'img_error': None,
+          'pictures': 0, 'pictures_ready': 0, 'paint_wait': None}
+
+# Painting ahead (2026-11-20): the general-knowledge films' pictures used to be painted
+# only when a child opened the film, and Vertex often answers a burst of picture
+# requests with HTTP 429, so the films showed only their emoji backdrops. Now the
+# add-on paints everything in data/pictures.json in the background, one picture at a
+# time with a pause between them, and waits longer after each 429.
+PAINT_GAP_S = 40
+PAINT_BACKOFF_S = (600, 1200, 2400, 3600)
 
 
 def load_options(path=OPTIONS):
@@ -538,6 +548,68 @@ def refresh(options):
     log.info('%d of %d videos ready', status['ready'], len(ids))
 
 
+def pictures_url(options):
+    url = options.get('pictures_url') or ''
+    if url:
+        return url
+    videos = options.get('videos_url') or 'https://oritre.github.io/english-app/data/videos.json'
+    return videos.rsplit('/', 1)[0] + '/pictures.json'
+
+
+def paint_ahead(options, store=STORE, prompts=None, paint=None, sleep=time.sleep, daily_max=None):
+    """Paint the listed pictures that are not on disk yet. Returns how many were painted.
+    After a 429 it waits (PAINT_BACKOFF_S, longer each time) and tries the same picture again;
+    another error skips that picture until the next round."""
+    paint = paint or img_file
+    if prompts is None:
+        try:
+            with urllib.request.urlopen(f'{pictures_url(options)}?t={int(time.time())}', timeout=30) as r:
+                prompts = [p for p in json.load(r) if isinstance(p, str) and 0 < len(p.strip()) <= IMG_MAX_CHARS]
+        except (OSError, ValueError) as e:
+            log.warning('could not read the picture list: %s', e)
+            return 0
+    limit = int(options.get('paint_per_day') or 0) if daily_max is None else daily_max
+    status['pictures'] = len(prompts)
+    status['pictures_ready'] = sum(os.path.exists(img_path(img_hash(p), store)) for p in prompts)
+    made, strikes = 0, 0
+    for p in prompts:
+        if os.path.exists(img_path(img_hash(p), store)):
+            continue
+        if limit and made >= limit:
+            break
+        while True:
+            try:
+                paint(p, options, store)
+            except Exception as e:  # noqa: BLE001 - keep painting the rest
+                if '429' in str(e) or 'RESOURCE_EXHAUSTED' in str(e):
+                    wait = PAINT_BACKOFF_S[min(strikes, len(PAINT_BACKOFF_S) - 1)]
+                    strikes += 1
+                    status['paint_wait'] = f'{time.strftime("%H:%M")} rate limit, waiting {wait // 60} min'
+                    sleep(wait)
+                    continue
+                log.warning('could not paint a picture: %s', str(e)[:200])
+                break
+            made += 1
+            strikes = 0
+            status['pictures_ready'] += 1
+            status['paint_wait'] = None
+            break
+        sleep(PAINT_GAP_S)
+    return made
+
+
+def painter(options):
+    """Paints ahead forever: a round, then again a day later (or sooner, when the round was cut by the daily limit)."""
+    time.sleep(60)
+    while True:
+        if backend(options) and options.get('paint_ahead', True):
+            try:
+                paint_ahead(options)
+            except Exception:  # keep serving whatever happens
+                log.exception('painting ahead failed')
+        time.sleep(24 * 3600)
+
+
 def refresher(options):
     while True:
         try:
@@ -588,7 +660,8 @@ class Handler(BaseHTTPRequestHandler):
                             f"{len(status['failed'])} failed; last check {status['last_check']}; "
                             f"voice: {status['tts_made']} made since start"
                             + (f", last error {status['tts_error']}" if status['tts_error'] else '')
-                            + f"; pictures: {status['img_made']} made since start"
+                            + f"; pictures: {status['pictures_ready']} of {status['pictures']} film pictures ready, {status['img_made']} made since start"
+                            + (f", {status['paint_wait']}" if status['paint_wait'] else '')
                             + (f", last error {status['img_error']}" if status['img_error'] else '')
                             + f"; billing: {backend(self.options) or 'off (no vertex_api_key)'}")
             return
@@ -731,6 +804,7 @@ def main():
     if not Handler.keys:
         log.warning('No family_code set: every video request will be refused.')
     threading.Thread(target=refresher, args=(options,), daemon=True).start()
+    threading.Thread(target=painter, args=(options,), daemon=True).start()
     ThreadingHTTPServer(('0.0.0.0', PORT), Handler).serve_forever()
 
 
