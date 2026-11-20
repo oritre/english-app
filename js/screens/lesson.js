@@ -359,13 +359,15 @@ export async function renderLesson(root, nav, { lessonId, module = 0 }) {
     const fullXp = roundXp(repeat, xpForLesson({ mistakes: mistakes.size, total }), accuracy, prevBest);
     const xp = guessy ? Math.floor(fullXp / 2) : fullXp;
     const activeMin = session ? Math.round(session.activeMs / 60000) : null;
+    // Wall time can run for hours when a lesson is left open; reports use the active time.
+    const activeS = session ? Math.round(session.activeMs / 1000) : null;
     markFinished();
     endSession(); // saves the lesson's time now, so the round sees it on the next screen
-    const streakInfo = await saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes: [...mistakes], repeat, guessy });
+    const streakInfo = await saveLessonResult({ lessonId, xp, accuracy, durationS, activeS, mistakes: [...mistakes], repeat, guessy });
     await updateThinkLevel(lesson, lessonId).catch(() => {});
     // The concept cards' titles make the "what we learned" recap on the complete screen.
     const concepts = lesson.course ? exercises.filter((ex) => ex.type === 'teach' && ex.title_he).map((ex) => ex.title_he) : [];
-    nav('complete', { xp, accuracy, durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null, concepts, repeat, prevBest, guessy, guesses, activeMin, fullXp });
+    nav('complete', { xp, accuracy, durationS: activeS ?? durationS, ...streakInfo, lessonTitle: lesson.title_he, lessonId, course: lesson.course || null, concepts, repeat, prevBest, guessy, guesses, activeMin, fullXp });
   }
 
   // Think courses: three strong rounds in a row raise the course's level, three weak ones lower it.

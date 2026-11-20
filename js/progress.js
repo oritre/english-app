@@ -93,14 +93,14 @@ export async function stats() {
 }
 
 // Saves a finished lesson. Returns { streakBefore, streakAfter, goalMetNow }.
-export async function saveLessonResult({ lessonId, xp, accuracy, durationS, mistakes, repeat = 'new', guessy = false }) {
+export async function saveLessonResult({ lessonId, xp, accuracy, durationS, activeS = null, mistakes, repeat = 'new', guessy = false }) {
   const profile = await getProfile();
   const today = localISO();
   const before = await stats();
 
   await store.put('results', {
     id: newId(), profile_id: currentId, lesson_id: lessonId, date: today,
-    xp, accuracy, duration_s: durationS, mistakes, repeat, at: Date.now(), ...(guessy ? { guessy } : {}),
+    xp, accuracy, duration_s: durationS, ...(activeS != null ? { active_s: activeS } : {}), mistakes, repeat, at: Date.now(), ...(guessy ? { guessy } : {}),
   });
 
   const key = `${currentId}:${lessonId}`;

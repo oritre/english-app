@@ -106,8 +106,17 @@ export function aboveGrade(course, grade) {
   if (!g || g >= 13 || !course?.grades) return false;
   return course.grades[0] > g;
 }
+// Nothing too easy either (ori, 2026-11-20): a think or know course that ends
+// below the learner's grade is closed too, even if it was started, unless the
+// weekly review opened it (as review for a gap it found).
+export function belowGrade(course, grade) {
+  const g = parseInt(grade, 10);
+  if (!g || g >= 13 || !course?.grades) return false;
+  return course.grades[1] < g;
+}
 export function courseOpen(course, profile, subject) {
-  if (!aboveGrade(course, profile?.grade)) return true;
+  const tooEasy = (subject === 'think' || subject === 'know') && belowGrade(course, profile?.grade);
+  if (!aboveGrade(course, profile?.grade) && !tooEasy) return true;
   const plan = profile?.[`${subject}_plan`]?.courses || [];
   const unlocked = profile?.unlock_courses || [];
   return plan.includes(course.id) || unlocked.includes(`${subject}:${course.id}`);
