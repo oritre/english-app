@@ -107,10 +107,17 @@ def render_ex(e, out):
     if t == "mcq":
         opts = e.get("options", [])
         ans = e.get("answer")
-        mark = " | ".join(("✅ " if o == ans else "") + q(o) for o in opts)
+        def lab(o):
+            return o.get("label") if isinstance(o, dict) else o
+
+        def show(o):
+            if isinstance(o, dict):
+                return f"[איור {o.get('label')}]"
+            return q(o)
+        mark = " | ".join(("✅ " if lab(o) == ans else "") + show(o) for o in opts)
         out.append(f"- ❓ {q(e.get('prompt_he', ''))}{grades(e)}")
         out.append(f"  - {mark}")
-        if ans not in opts:
+        if ans not in [lab(o) for o in opts]:
             out.append(f"  - ⚠️ התשובה ({q(ans)}) לא נמצאת באפשרויות")
         for k in ("hint_he", "explain_he"):
             if e.get(k):
