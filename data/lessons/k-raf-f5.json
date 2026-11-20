@@ -1,0 +1,308 @@
+{
+ "id": "k-raf-f5",
+ "unit_id": "k-raf-u2",
+ "course": "radiation",
+ "title_he": "אולטרה־סגול: השמש החזקה של ישראל",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌈 ידע כללי",
+   "title_he": "אולטרה־סגול: השמש החזקה של ישראל",
+   "ref_he": "מסע אל הקרינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "beach",
+     "title_he": "יום בחוף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A bright summer day on a beach near Netanya with separate hours, men and boys only: a boy in a modest swim shirt and bucket hat plays in the sand, another boy without a hat has reddened shoulders, a lifeguard tower and umbrellas; a few light clouds.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦 🌊",
+     "say": [
+      "יום בים. היה מעונן קצת, ולא הרגשתם חום גדול. אבל בערב, הכתפיים אדומות ושורפות. איך זה קרה, אם בכלל לא היה חם?",
+      "כי מה ששורף את העור הוא לא החום. זו קרינה שאי אפשר לראות ואי אפשר להרגיש: אולטרה־סגול, ״מעבר לסגול״.",
+      "אורך הגל שלה קצר יותר מזה של הסגול, ולכן יש לה יותר אנרגיה. והשמש של ישראל, בעיקר בקיץ, שולחת הרבה ממנה.",
+      "בשיעור הזה נלמד מי גילה אותה, למה היא מסוכנת וגם מועילה, ואיך מתגוננים ממנה בחוכמה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ritter",
+     "title_he": "ריטר והמלח שהשחיר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A small German laboratory in 1801: a young scientist in a waistcoat looks closely at strips of paper coated with white silver salt laid in the colored band from a prism, the strip just beyond the violet end turning dark; morning light.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "שנה אחרי שהרשל מצא קרינה מעבר לאדום, שאל הפיזיקאי הגרמני יוהאן ריטר: אולי יש משהו גם בקצה השני, מעבר לסגול?",
+      "הוא השתמש בחומר בשם כלוריד הכסף, מלח לבן שמשחיר כשאור פוגע בו. ידעו שאור כחול משחיר אותו מהר יותר מאדום.",
+      "ריטר הניח את המלח בצבעים של המנסרה, וגם מעבר לסגול, באזור שנראה חשוך. ושם המלח השחיר הכי מהר!",
+      "כך, בשנת 1801, התגלתה קרינת האולטרה־סגול. מעבר לאדום יש חום, ומעבר לסגול יש קרינה שגורמת לשינויים כימיים.",
+      "אגב, על התגובה הזאת של מלחי כסף לאור נבנה מאוחר יותר הצילום הראשון.",
+      "שני הגילויים, של הרשל ושל ריטר, לימדו את המדענים שיעור של ענווה: העין שלנו רואה רק חלק קטן מהמציאות, ויש סביבנו הרבה יותר ממה שנראה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "types",
+     "title_he": "שלושה סוגים של אולטרה־סגול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. Scene: A clear midday in the Israeli countryside: harsh bright sunlight falls on a field, a boy in a wide-brimmed hat, long sleeves and his tzitzit stands in the shade of an olive tree; soft violet glow suggested in the sunbeams.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 🌳",
+     "say": [
+      "מחלקים את האולטרה־סגול לשלושה סוגים, לפי אורך הגל. UVA הוא הארוך, הקרוב לסגול. UVB באמצע. ו־UVC הוא הקצר ביותר, ובעל האנרגיה הגבוהה ביותר.",
+      "ל־UVB יש מספיק אנרגיה כדי לפגוע ישירות במולקולות שבתאי העור. כשהפגיעה גדולה, העור מאדים ושורף: זו כוויית שמש.",
+      "UVA חודר עמוק יותר בעור, ובמשך שנים גורם לו להזדקן ולהתקמט מהר יותר.",
+      "אבל יש לאולטרה־סגול גם צד טוב: מעט חשיפה לשמש עוזרת לעור לייצר ויטמין D, שחשוב לעצמות חזקות. ולכן לא בורחים מהשמש לגמרי, אלא נזהרים ממנה.",
+      "כמו בהרבה דברים בעולם: מעט זה טוב ונחוץ, והרבה מדי מזיק. הסוד הוא המידה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "השיזוף הוא מנגנון הגנה של העור. כשהעור נחשף לאולטרה־סגול, הוא מייצר יותר מלנין, חומר כהה שבולע את הקרינה ומגן על התאים שמתחתיו."
+     }
+    },
+    {
+     "id": "ozone",
+     "title_he": "מגן בשמיים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A view from very high above the Earth: the thin glowing blue layer of the atmosphere curving along the horizon, sunlight streaming in from the side, and beneath it the land and sea of the Middle East seen through scattered clouds.",
+     "move": "out",
+     "fx": "light",
+     "art": "🌍",
+     "say": [
+      "אם השמש שולחת כל כך הרבה אולטרה־סגול, למה אנחנו לא נשרפים תוך דקות? כי מעלינו יש מגן.",
+      "בגובה של בערך 15 עד 35 קילומטר באוויר יש שכבה שבה יש יותר מהרגיל מגז בשם אוזון, צורה מיוחדת של חמצן.",
+      "שכבת האוזון בולעת את כל ה־UVC, הסוג המסוכן ביותר, ואת רוב ה־UVB. לקרקע מגיע בעיקר UVA, ומעט UVB.",
+      "בלי השכבה הזאת, היה קשה מאוד לחיות על פני האדמה. היא דקה מאוד, ובכל זאת שומרת על כל מה שחי מתחתיה.",
+      "וזה נפלא לחשוב: מעל ראשינו פרוס כל הזמן מגן שקוף, שאנחנו לא רואים ולא מרגישים, ובלעדיו לא היינו יכולים ללכת בשמש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "protect",
+     "title_he": "איך מתגוננים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: An Israeli family preparing for a summer outing: the mother in a long skirt and sun hat applies sunscreen to the girl's arms, the boy puts on sunglasses and a wide hat over his kippah, water bottles and a beach umbrella ready by the door.",
+     "move": "left",
+     "fx": "light",
+     "art": "👩 👧 👦 🏠",
+     "say": [
+      "בישראל השמש חזקה במיוחד, ובקיץ מדד הקרינה, שנקרא ״אינדקס UV״, מגיע לעתים קרובות לרמות גבוהות מאוד. אז איך שומרים על העור?",
+      "הכי פשוט: צל, כובע רחב ובגדים עם שרוולים. בגד שמכסה הוא מגן מצוין. ובשעות הצהריים, כשהשמש גבוהה, הקרינה הכי חזקה.",
+      "למה דווקא בצהריים? כי אז השמש גבוהה, והקרינה עוברת את הדרך הקצרה ביותר באוויר. בבוקר ובערב היא עוברת דרך ארוכה, וחלק גדול ממנה נבלע ומתפזר, בדיוק כמו בשקיעה.",
+      "קרם הגנה בולע או מחזיר חלק גדול מהקרינה. המספר שעליו, SPF, מראה כמה הוא מגן מפני UVB. קרם של SPF 30 עוצר בערך 97 אחוז ממנה. אבל צריך למרוח מספיק, ולחזור ולמרוח אחרי שחייה.",
+      "ושימו לב לשתי מלכודות. עננים דקים מעבירים רוב האולטרה־סגול, ולכן אפשר להישרף גם ביום מעונן. ומים וחול מחזירים קרינה, כך שגם מתחת לשמשייה היא מגיעה.",
+      "ואת העיניים מגינים במשקפי שמש עם הגנה מאולטרה־סגול. ולעולם, לעולם לא מסתכלים ישר אל השמש, גם לא בליקוי."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "hermon",
+     "title_he": "שלג על החרמון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A sunny winter day on snowy Mount Hermon: Israeli families in warm modest clothing, hats and sunglasses play in bright white snow, a boy with a knitted hat over his kippah throws a snowball, a ski lift and blue sky.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👦 👧 ⛄",
+     "say": [
+      "בחורף, כשיורד שלג על החרמון, משפחות רבות עולות לשחק בו. קר מאוד, ובכל זאת אנשים חוזרים משם עם פנים שרופות מהשמש. איך?",
+      "שלג טרי מחזיר את רוב האולטרה־סגול שפוגע בו. כך הקרינה פוגעת בכם פעמיים: פעם מלמעלה, מהשמש, ופעם מלמטה, מהשלג.",
+      "וגם הגובה משפיע. ככל שעולים גבוה יותר, יש מעליכם פחות אוויר שבולע קרינה. בכל אלף מטר, הקרינה חזקה יותר בערך בעשרה אחוזים.",
+      "לכן על השלג צריך משקפי שמש, אפילו בחורף. בלעדיהם העיניים יכולות להיפגע מהקרינה המוחזרת, ולכאוב מאוד ימים אחר כך.",
+      "הקור לא מגן מאולטרה־סגול. מה שמגן הוא הידיעה, והזהירות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "glow",
+     "title_he": "זוהר בחושך",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A night walk in the Negev desert with a guide: an older guide with a beard and hat shines a small violet ultraviolet flashlight on the ground, and a scorpion under a rock glows bright greenish-blue; the boy and girl crouch at a safe distance, amazed; stars above.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👴 👦 👧 🦂",
+     "say": [
+      "יש חומרים שעושים דבר מיוחד: הם קולטים אולטרה־סגול, שאנחנו לא רואים, ומחזירים אותו כאור נראה. זה נקרא פלואורסצנציה.",
+      "בטיול לילה בנגב, מדריכים מאירים בפנס אולטרה־סגול קטן מתחת לסלעים. ועקרבים, שכמעט לא רואים אותם בחושך, זוהרים פתאום בירוק־כחלחל! הסיבה המדויקת עדיין נחקרת.",
+      "גם צבע של מרקר זוהר, מי טוניק, וסימנים נסתרים בשטרות כסף רבים זוהרים באולטרה־סגול. כך בודקים בחנויות ובבנקים אם שטר אמיתי.",
+      "וזהירות: לא מתקרבים לעקרבים, ולא מאירים בפנס אולטרה־סגול לעיניים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דבורים רואות אולטרה־סגול. על פרחים רבים יש דוגמאות שאנחנו לא רואים, אבל בעיני הדבורה הן כמו ״שלטים״ שמראים איפה הצוף."
+     }
+    },
+    {
+     "id": "germs",
+     "title_he": "אולטרה־סגול נגד חיידקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A clean modern water treatment room in Israel: large stainless steel pipes and cylinders with a soft violet glow visible through a small inspection window, an engineer with a kippah and safety glasses checks a gauge.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "ה־UVC, שהאוזון עוצר בשמיים, שימושי מאוד כשהוא בידיים זהירות. יש לו מספיק אנרגיה כדי לפגוע בחומר התורשתי של חיידקים ונגיפים, כך שהם לא יכולים להתרבות.",
+      "לכן במתקנים לטיהור מים, בבתי חולים ובמעבדות, מנורות UVC מחטאות מים, אוויר ומשטחים, בלי להוסיף חומרים כימיים.",
+      "כמובן, את המנורות האלה סוגרים בתוך מכלים או מפעילים כשאין אנשים בחדר, כי הן מזיקות גם לעור ולעיניים שלנו.",
+      "הנה עיקרון שנפגוש שוב: אותה קרינה יכולה להזיק או להועיל. הכול תלוי בכמות, בזמן ובזהירות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: Late afternoon at a park in an Israeli town: the boy and his sister sit on a bench in the shade of a large ficus tree, wearing hats, with water bottles; families picnicking in the shade around them.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧 🌳",
+     "say": [
+      "אז מה למדנו? מעבר לסגול יש אולטרה־סגול, שגילה ריטר בשנת 1801. יש לו יותר אנרגיה מלאור הנראה, והוא גורם לכוויות שמש.",
+      "שכבת האוזון עוצרת את רובו, ומה שנשאר מגיע אלינו. מעט ממנו עוזר לייצר ויטמין D, והרבה מדי מזיק.",
+      "מתגוננים בצל, בכובע, בבגדים, בקרם ובמשקפי שמש. ובשימוש זהיר, אולטרה־סגול מחטא מים ומגלה עקרבים בלילה.",
+      "וזכרו את הכלל הישראלי הפשוט לקיץ: אם הצל שלכם קצר מכם, השמש גבוהה, והקרינה חזקה. זה הזמן לחפש צל.",
+      "ובשיעור הבא נמשיך עוד הלאה, אל קרינה שעוברת דרך הגוף: קרני רנטגן וקרני גמא."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-raf-f5e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אפשר להישרף מהשמש גם ביום שלא היה חם?",
+   "answer": "כי את הכוויה גורם האולטרה־סגול, ולא החום",
+   "options": [
+    "כי את הכוויה גורם האולטרה־סגול, ולא החום",
+    "כי הרוח שורפת את העור",
+    "כי המים בים חמים"
+   ],
+   "explain_he": "אולטרה־סגול אי אפשר לראות או להרגיש, והוא עובר גם דרך עננים דקים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך גילה ריטר את האולטרה־סגול?",
+   "answer": "מלח כסף השחיר הכי מהר באזור החשוך שמעבר לסגול",
+   "options": [
+    "מלח כסף השחיר הכי מהר באזור החשוך שמעבר לסגול",
+    "מדחום עלה מעבר לאדום",
+    "הוא ראה זוהר בעקרבים"
+   ],
+   "explain_he": "כלוריד הכסף משחיר באור. הוא השחיר הכי מהר מעבר לסגול, ושם התגלתה הקרינה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ל־UVB יש יכולת לפגוע בתאי העור, ולאור אדום אין?",
+   "answer": "כי אורך הגל שלו קצר, ולכן יש לו יותר אנרגיה",
+   "options": [
+    "כי אורך הגל שלו קצר, ולכן יש לו יותר אנרגיה",
+    "כי הוא חם יותר",
+    "כי הוא מגיע רק בחורף"
+   ],
+   "explain_he": "ככל שאורך הגל קצר יותר, האנרגיה של הקרינה גבוהה יותר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושה שכבת האוזון?",
+   "answer": "בולעת את כל ה־UVC ואת רוב ה־UVB",
+   "options": [
+    "בולעת את כל ה־UVC ואת רוב ה־UVB",
+    "מחממת את כדור הארץ",
+    "מחזירה את גלי הרדיו"
+   ],
+   "explain_he": "האוזון, בגובה של בערך 15 עד 35 קילומטר, הוא מגן שקוף מפני האולטרה־סגול המסוכן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "קרם הגנה SPF 30. כמה מקרינת ה־UVB הוא עוצר, בערך?",
+   "answer": "בערך 97 אחוז",
+   "options": [
+    "בערך 97 אחוז",
+    "בערך 30 אחוז",
+    "מאה אחוז, לכל היום"
+   ],
+   "explain_he": "SPF 30 עוצר בערך 97 אחוז מה־UVB, בתנאי שמורחים מספיק וחוזרים ומורחים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אפשר להישרף מהשמש על השלג בחרמון, אף שקר מאוד?",
+   "answer": "כי השלג מחזיר את רוב האולטרה־סגול, ובגובה הקרינה חזקה יותר",
+   "options": [
+    "כי השלג מחזיר את רוב האולטרה־סגול, ובגובה הקרינה חזקה יותר",
+    "כי השלג חם מבפנים",
+    "כי הקור שורף את העור כמו אש"
+   ],
+   "explain_he": "הקרינה מגיעה מלמעלה ומוחזרת מלמטה, ובגובה יש פחות אוויר שבולע אותה. הקור לא מגן מאולטרה־סגול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה זו פלואורסצנציה?",
+   "answer": "חומר שקולט אולטרה־סגול ומחזיר אותו כאור נראה",
+   "options": [
+    "חומר שקולט אולטרה־סגול ומחזיר אותו כאור נראה",
+    "חומר שמייצר חום בחושך",
+    "חומר שבולע את כל הצבעים"
+   ],
+   "explain_he": "כך זוהרים עקרבים, מרקרים וסימנים בשטרות כשמאירים עליהם באולטרה־סגול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מפעילים מנורות UVC לחיטוי רק בתוך מכלים או בחדר ריק?",
+   "answer": "כי הן פוגעות לא רק בחיידקים אלא גם בעור ובעיניים שלנו",
+   "options": [
+    "כי הן פוגעות לא רק בחיידקים אלא גם בעור ובעיניים שלנו",
+    "כי הן צורכות הרבה חשמל",
+    "כי הן פועלות רק בחושך"
+   ],
+   "explain_he": "ל־UVC אנרגיה גבוהה, שפוגעת בחומר התורשתי של חיידקים, וגם בתאים שלנו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f5e9"
+  }
+ ]
+}

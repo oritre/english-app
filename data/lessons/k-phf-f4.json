@@ -1,0 +1,484 @@
+{
+ "id": "k-phf-f4",
+ "unit_id": "k-phf-u2",
+ "course": "physics",
+ "title_he": "לחץ וציפה: מארכימדס ועד ים המלח",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "לחץ וציפה: מארכימדס ועד ים המלח",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "camel",
+     "title_he": "גמל בחול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The Negev dunes in soft morning light: a camel walks easily on the sand with its wide padded feet, while beside it a boy with a kippah in sandals sinks slightly into the sand; a Bedouin guide in a long robe leads the camel.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐪 👦",
+     "say": [
+      "למה סכין חדה חותכת לחם בקלות, וכף לא? למה גמל הולך בחול בלי לשקוע, ואילו אנחנו שוקעים בכל צעד?",
+      "התשובה היא מילה אחת: לחץ. לחץ הוא כמה כוח נופל על כל יחידת שטח.",
+      "הגמל כבד מאיתנו בהרבה, אבל יש לו כפות רגליים רחבות ורכות. המשקל שלו מתפזר על שטח גדול, ולכן הלחץ על החול קטן.",
+      "בלהב של סכין חדה, כל הכוח מתרכז בקו דק מאוד. הלחץ עצום, והלחם נחתך. גם רצועות רחבות בתיק בית הספר מפזרות את המשקל, ולכן הן לא כואבות בכתפיים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "archimedes",
+     "title_he": "ארכימדס באמבטיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Ancient Syracuse in the 3rd century BCE: an older bearded Greek scholar in a modest white robe sits beside a stone bath full to the brim, water spilling over the edge, a golden crown on a small table, sunlight through columns.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "לפני בערך 2,200 שנה, בעיר סירקוזה שבאי סיציליה, חי מתמטיקאי וממציא בשם ארכימדס.",
+      "לפי סיפור מפורסם, המלך ביקש ממנו לבדוק אם הכתר החדש שלו עשוי זהב טהור, בלי לפגוע בכתר.",
+      "ארכימדס נכנס לאמבטיה מלאה, ראה את המים עולים ונשפכים, והבין: גוף שנכנס למים דוחה מים בנפח שלו. כך אפשר למדוד נפח של כל צורה, גם של כתר.",
+      "וארכימדס גילה עוד חוק חשוב: המים דוחפים כלפי מעלה כל גוף שנמצא בהם, בכוח ששווה למשקל המים שהגוף דחה. זה נקרא כוח העילוי."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את סיפור הכתר והאמבטיה כתב סופר רומי כמאתיים שנה אחרי ארכימדס, ולכן אולי הוא סיפור בלבד. אבל חוק הציפה שארכימדס כתב בספרו נכון ונבדק אלפי פעמים."
+     }
+    },
+    {
+     "id": "ship",
+     "title_he": "איך ספינת פלדה צפה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The port of Haifa at golden hour: a huge steel cargo ship sits high on calm water near the docks, cranes behind it, Mount Carmel with houses rising above the bay.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚢",
+     "say": [
+      "פלדה כבדה פי שמונה בערך ממים. גוש פלדה שוקע מיד. אז איך ספינת פלדה ענקית בנמל חיפה צפה?",
+      "הסוד הוא הצורה. הספינה חלולה ומלאה אוויר, ולכן היא דוחה כמות עצומה של מים. משקל המים שהיא דוחה גדול ממשקל הספינה, וכוח העילוי מחזיק אותה.",
+      "נסו בבית: קחו דף של נייר אלומיניום, קמטו אותו לכדור קטן ושימו בקערת מים. הוא ישקע. עכשיו קחו דף זהה וקפלו אותו לסירה קטנה. היא תצוף, ואפילו תישא כמה מטבעות!",
+      "ככל שמעמיסים על הספינה, היא שוקעת עמוק יותר, ודוחה עוד מים, עד שהכוחות שוב שווים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "deadsea",
+     "title_he": "ים המלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The Dead Sea on a hazy morning: a man with a kippah in a modest swim shirt floats on his back with his hands relaxed behind his head; white salt formations along the shore, the Moab mountains across the water.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨 🌊",
+     "say": [
+      "בים המלח קורה דבר מוזר: אי אפשר לשקוע! אנשים שוכבים על המים כמו על מזרון.",
+      "המים שם מלאים מלח, ולכן הם כבדים הרבה יותר ממים רגילים. ליטר אחד שלהם שוקל בערך קילוגרם ורבע.",
+      "מים כבדים יותר דוחפים חזק יותר. כוח העילוי בים המלח גדול כל כך, שהגוף שלנו צף כשחלק גדול ממנו מעל המים.",
+      "נסו בבית, עם הורה: שימו ביצה טרייה בכוס מים. היא שוקעת. עכשיו הוסיפו כפות מלח ובחשו. בשלב מסוים הביצה תתרומם ותצוף, בדיוק כמו בים המלח."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ים המלח הוא המקום הנמוך ביותר על פני היבשה בעולם, בערך 430 מטר מתחת לפני הים. ובמים שלו יש פי עשרה מלח בערך מאשר בים התיכון."
+     }
+    },
+    {
+     "id": "deep",
+     "title_he": "לחץ במעמקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Underwater at a coral reef near Eilat: a diver in a full wetsuit swims beside colorful corals and fish, sunbeams reaching down from the bright surface above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🐠",
+     "say": [
+      "מי שצלל באילת מרגיש לחץ באוזניים כבר במטר או שניים. למה? כי ככל שיורדים עמוק יותר, יש מעליכם יותר מים, והם לוחצים.",
+      "בכל עשרה מטרים בערך, הלחץ של המים גדל בערך כמו כל הלחץ של האוויר שמעלינו.",
+      "לכן סכרים בנויים עבים מאוד בתחתית ודקים יותר למעלה: בתחתית לחץ המים הכי גדול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "air",
+     "title_he": "ים של אוויר מעלינו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Italy in the 1640s: a young scholar in a dark coat holds up a tall glass tube filled with shiny silver liquid upside down in a dish, the column standing partly empty at the top; a window shows a cloudy sky.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "גם אנחנו חיים בתחתית של ״ים״, ים של אוויר. מעלינו יש קילומטרים רבים של אוויר, ואוויר שוקל!",
+      "בשנת 1643 הראה זאת באיטליה מדען בשם טוריצ׳לי. הוא מילא צינור זכוכית בכספית, הפך אותו לתוך קערה, וראה שהכספית לא נשפכת כולה. נשאר עמוד של בערך 76 סנטימטר.",
+      "מה החזיק את הכספית? לחץ האוויר, שלוחץ על הקערה מכל עבר. זה היה המכשיר הראשון למדידת לחץ האוויר, הברומטר.",
+      "נסו בבית, מעל הכיור: מלאו כוס מים עד הסוף, הניחו עליה גלויה, החזיקו אותה והפכו את הכוס. עזבו את הגלויה בזהירות. לחץ האוויר מלמטה מחזיק אותה, והמים לא נשפכים!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "jerusalem",
+     "title_he": "מירושלים לים המלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A wide panorama in Israel from the Jerusalem hills down to the Dead Sea: stone houses in the morning light at the top, a road winding down through the Judean desert to the blue water far below.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 🌊",
+     "say": [
+      "ככל שעולים גבוה יותר, יש מעלינו פחות אוויר, ולכן לחץ האוויר קטן יותר. בשנת 1648 טיפס בצרפת גיסו של המדען פסקל על הר, וראה שעמוד הכספית מתקצר בהדרגה.",
+      "בישראל אפשר להרגיש את זה בנסיעה אחת. בירושלים, בגובה של בערך 800 מטר, הלחץ נמוך מאשר בתל אביב. ובים המלח, הנמוך מכולם, הלחץ הכי גבוה.",
+      "האוזניים שלכם ״נסתמות״ בירידה מירושלים לים המלח, כי הלחץ בחוץ משתנה מהר יותר מהאוויר שבתוך האוזן."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A family trip at the Dead Sea shore at sunset: the two brothers in modest swim shirts and kippot sit on the salty shore by a cooler, smiling; pink light on the mountains.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👦 🌊",
+     "say": [
+      "אז מה למדנו? לחץ הוא כוח חלקי שטח. לכן סכין חדה חותכת, וגמל לא שוקע בחול.",
+      "לפי חוק ארכימדס, נוזל דוחף כלפי מעלה בכוח ששווה למשקל הנוזל שנדחה. לכן ספינת פלדה צפה, ובים המלח צפים בקלות.",
+      "ומעלינו יש ים של אוויר שלוחץ עלינו כל הזמן. בשיעור הבא נעבור לעולם הנסתר שבתוך החומר: מטען חשמלי, ברקים ומעגלים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f4e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "לחץ וציפה: מארכימדס ועד ים המלח",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "camel",
+     "title_he": "גמל בחול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The Negev dunes in soft morning light: a camel walks easily on the sand with its wide padded feet, while beside it a boy with a kippah in sandals sinks slightly into the sand; a Bedouin guide in a long robe leads the camel.",
+     "move": "right",
+     "fx": "dust",
+     "art": "🐪 👦",
+     "say": [
+      "למה סכין חדה חותכת לחם בקלות, וכף לא? למה גמל הולך בחול בלי לשקוע, ואילו אנחנו שוקעים בכל צעד?",
+      "התשובה היא מילה אחת: לחץ. לחץ הוא כמה כוח נופל על כל יחידת שטח.",
+      "הגמל כבד מאיתנו בהרבה, אבל יש לו כפות רגליים רחבות ורכות. המשקל שלו מתפזר על שטח גדול, ולכן הלחץ על החול קטן.",
+      "בלהב של סכין חדה, כל הכוח מתרכז בקו דק מאוד. הלחץ עצום, והלחם נחתך. גם רצועות רחבות בתיק בית הספר מפזרות את המשקל, ולכן הן לא כואבות בכתפיים.",
+      "הנוסחה היא P = F ÷ A: הלחץ שווה לכוח חלקי השטח. ילד של 400 ניוטון שעומד על שתי רגליים, בשטח של בערך 400 סמ״ר, לוחץ בניוטון אחד לכל סמ״ר.",
+      "אם יעמוד על רגל אחת, השטח קטן לחצי והלחץ גדל פי שניים. ואם יעמוד על עקב דק של 4 סמ״ר? 400 ÷ 4, כלומר 100 ניוטון לסמ״ר. פי מאה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "archimedes",
+     "title_he": "ארכימדס באמבטיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Ancient Syracuse in the 3rd century BCE: an older bearded Greek scholar in a modest white robe sits beside a stone bath full to the brim, water spilling over the edge, a golden crown on a small table, sunlight through columns.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "לפני בערך 2,200 שנה, בעיר סירקוזה שבאי סיציליה, חי מתמטיקאי וממציא בשם ארכימדס.",
+      "לפי סיפור מפורסם, המלך ביקש ממנו לבדוק אם הכתר החדש שלו עשוי זהב טהור, בלי לפגוע בכתר.",
+      "ארכימדס נכנס לאמבטיה מלאה, ראה את המים עולים ונשפכים, והבין: גוף שנכנס למים דוחה מים בנפח שלו. כך אפשר למדוד נפח של כל צורה, גם של כתר.",
+      "וארכימדס גילה עוד חוק חשוב: המים דוחפים כלפי מעלה כל גוף שנמצא בהם, בכוח ששווה למשקל המים שהגוף דחה. זה נקרא כוח העילוי.",
+      "זה חוק ארכימדס. ליטר מים שוקל בערך 10 ניוטון. לכן גוף שדוחה 2 ליטר מים מקבל דחיפה כלפי מעלה של בערך 20 ניוטון.",
+      "ועכשיו פשוט: אם הגוף שוקל פחות מכוח העילוי, הוא צף. אם יותר, הוא שוקע. גוף שדוחה 2 ליטר ושוקל 15 ניוטון, יצוף. גוף שדוחה 2 ליטר ושוקל 50 ניוטון, ישקע."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את סיפור הכתר והאמבטיה כתב סופר רומי כמאתיים שנה אחרי ארכימדס, ולכן אולי הוא סיפור בלבד. אבל חוק הציפה שארכימדס כתב בספרו נכון ונבדק אלפי פעמים."
+     }
+    },
+    {
+     "id": "ship",
+     "title_he": "איך ספינת פלדה צפה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The port of Haifa at golden hour: a huge steel cargo ship sits high on calm water near the docks, cranes behind it, Mount Carmel with houses rising above the bay.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "🚢",
+     "say": [
+      "פלדה כבדה פי שמונה בערך ממים. גוש פלדה שוקע מיד. אז איך ספינת פלדה ענקית בנמל חיפה צפה?",
+      "הסוד הוא הצורה. הספינה חלולה ומלאה אוויר, ולכן היא דוחה כמות עצומה של מים. משקל המים שהיא דוחה גדול ממשקל הספינה, וכוח העילוי מחזיק אותה.",
+      "נסו בבית: קחו דף של נייר אלומיניום, קמטו אותו לכדור קטן ושימו בקערת מים. הוא ישקע. עכשיו קחו דף זהה וקפלו אותו לסירה קטנה. היא תצוף, ואפילו תישא כמה מטבעות!",
+      "ככל שמעמיסים על הספינה, היא שוקעת עמוק יותר, ודוחה עוד מים, עד שהכוחות שוב שווים.",
+      "צוללת משתמשת בזה בחוכמה. יש לה מכלים גדולים. כשהיא ממלאת אותם במים היא כבדה יותר ויורדת. כשהיא דוחפת את המים החוצה באוויר דחוס, היא קלה יותר ועולה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "deadsea",
+     "title_he": "ים המלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The Dead Sea on a hazy morning: a man with a kippah in a modest swim shirt floats on his back with his hands relaxed behind his head; white salt formations along the shore, the Moab mountains across the water.",
+     "move": "in",
+     "fx": "mist",
+     "art": "👨 🌊",
+     "say": [
+      "בים המלח קורה דבר מוזר: אי אפשר לשקוע! אנשים שוכבים על המים כמו על מזרון.",
+      "המים שם מלאים מלח, ולכן הם כבדים הרבה יותר ממים רגילים. ליטר אחד שלהם שוקל בערך קילוגרם ורבע.",
+      "מים כבדים יותר דוחפים חזק יותר. כוח העילוי בים המלח גדול כל כך, שהגוף שלנו צף כשחלק גדול ממנו מעל המים.",
+      "נסו בבית, עם הורה: שימו ביצה טרייה בכוס מים. היא שוקעת. עכשיו הוסיפו כפות מלח ובחשו. בשלב מסוים הביצה תתרומם ותצוף, בדיוק כמו בים המלח.",
+      "המונח המדעי הוא צפיפות: כמה מסה יש בכל נפח. הצפיפות של מים רגילים היא 1 קילוגרם לליטר, ושל מי ים המלח בערך 1.24.",
+      "גוף שצפיפותו קטנה מזו של הנוזל, צף. הגוף שלנו, עם האוויר שבריאות, קרוב לצפיפות של מים רגילים, ולכן בים המלח הוא צף גבוה במיוחד. וזהירות: המים המלוחים שורפים מאוד בעיניים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ים המלח הוא המקום הנמוך ביותר על פני היבשה בעולם, בערך 430 מטר מתחת לפני הים. ובמים שלו יש פי עשרה מלח בערך מאשר בים התיכון."
+     }
+    },
+    {
+     "id": "deep",
+     "title_he": "לחץ במעמקים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Underwater at a coral reef near Eilat: a diver in a full wetsuit swims beside colorful corals and fish, sunbeams reaching down from the bright surface above.",
+     "move": "up",
+     "fx": "light",
+     "art": "🐠",
+     "say": [
+      "מי שצלל באילת מרגיש לחץ באוזניים כבר במטר או שניים. למה? כי ככל שיורדים עמוק יותר, יש מעליכם יותר מים, והם לוחצים.",
+      "בכל עשרה מטרים בערך, הלחץ של המים גדל בערך כמו כל הלחץ של האוויר שמעלינו.",
+      "לכן סכרים בנויים עבים מאוד בתחתית ודקים יותר למעלה: בתחתית לחץ המים הכי גדול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "air",
+     "title_he": "ים של אוויר מעלינו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Italy in the 1640s: a young scholar in a dark coat holds up a tall glass tube filled with shiny silver liquid upside down in a dish, the column standing partly empty at the top; a window shows a cloudy sky.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "גם אנחנו חיים בתחתית של ״ים״, ים של אוויר. מעלינו יש קילומטרים רבים של אוויר, ואוויר שוקל!",
+      "בשנת 1643 הראה זאת באיטליה מדען בשם טוריצ׳לי. הוא מילא צינור זכוכית בכספית, הפך אותו לתוך קערה, וראה שהכספית לא נשפכת כולה. נשאר עמוד של בערך 76 סנטימטר.",
+      "מה החזיק את הכספית? לחץ האוויר, שלוחץ על הקערה מכל עבר. זה היה המכשיר הראשון למדידת לחץ האוויר, הברומטר.",
+      "נסו בבית, מעל הכיור: מלאו כוס מים עד הסוף, הניחו עליה גלויה, החזיקו אותה והפכו את הכוס. עזבו את הגלויה בזהירות. לחץ האוויר מלמטה מחזיק אותה, והמים לא נשפכים!",
+      "לחץ האוויר בגובה פני הים הוא בערך 10 ניוטון לכל סמ״ר. על כל מטר רבוע זה כמו משקל של בערך עשרה טון! אנחנו לא נמעכים כי האוויר והנוזלים בגופנו לוחצים החוצה באותה עוצמה.",
+      "בשנת 1654 הראה אוטו פון גריקה בגרמניה שני חצאי כדור ממתכת, שהוציא את האוויר מביניהם. שתי קבוצות סוסים לא הצליחו להפריד אותם, כי לחץ האוויר מבחוץ הצמיד אותם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "jerusalem",
+     "title_he": "מירושלים לים המלח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A wide panorama in Israel from the Jerusalem hills down to the Dead Sea: stone houses in the morning light at the top, a road winding down through the Judean desert to the blue water far below.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 🌊",
+     "say": [
+      "ככל שעולים גבוה יותר, יש מעלינו פחות אוויר, ולכן לחץ האוויר קטן יותר. בשנת 1648 טיפס בצרפת גיסו של המדען פסקל על הר, וראה שעמוד הכספית מתקצר בהדרגה.",
+      "בישראל אפשר להרגיש את זה בנסיעה אחת. בירושלים, בגובה של בערך 800 מטר, הלחץ נמוך מאשר בתל אביב. ובים המלח, הנמוך מכולם, הלחץ הכי גבוה.",
+      "האוזניים שלכם ״נסתמות״ בירידה מירושלים לים המלח, כי הלחץ בחוץ משתנה מהר יותר מהאוויר שבתוך האוזן.",
+      "ויש עוד תוצאה מפתיעה: בלחץ נמוך מים רותחים בטמפרטורה נמוכה יותר. בירושלים מים רותחים בערך ב־97 מעלות במקום 100. על הר האוורסט הם רותחים כבר בערך ב־70 מעלות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A family trip at the Dead Sea shore at sunset: the two brothers in modest swim shirts and kippot sit on the salty shore by a cooler, smiling; pink light on the mountains.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👦 🌊",
+     "say": [
+      "אז מה למדנו? לחץ הוא כוח חלקי שטח. לכן סכין חדה חותכת, וגמל לא שוקע בחול.",
+      "לפי חוק ארכימדס, נוזל דוחף כלפי מעלה בכוח ששווה למשקל הנוזל שנדחה. לכן ספינת פלדה צפה, ובים המלח צפים בקלות.",
+      "ומעלינו יש ים של אוויר שלוחץ עלינו כל הזמן. בשיעור הבא נעבור לעולם הנסתר שבתוך החומר: מטען חשמלי, ברקים ומעגלים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה גמל לא שוקע בחול, אף שהוא כבד מאוד?",
+   "answer": "כי כפות רגליו רחבות, והמשקל מתפזר על שטח גדול",
+   "options": [
+    "כי כפות רגליו רחבות, והמשקל מתפזר על שטח גדול",
+    "כי החול במדבר קשה כמו אבן",
+    "כי הגמל קל מאדם"
+   ],
+   "explain_he": "לחץ הוא כוח חלקי שטח. שטח גדול פירושו לחץ קטן, ולכן הגמל לא שוקע.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה גמל לא שוקע בחול, אף שהוא כבד מאוד?",
+   "answer": "כי כפות רגליו רחבות, והמשקל מתפזר על שטח גדול",
+   "options": [
+    "כי כפות רגליו רחבות, והמשקל מתפזר על שטח גדול",
+    "כי החול במדבר קשה כמו אבן",
+    "כי הגמל קל מאדם"
+   ],
+   "explain_he": "לחץ הוא כוח חלקי שטח. שטח גדול פירושו לחץ קטן, ולכן הגמל לא שוקע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חוק ארכימדס, בכמה דוחפים המים כלפי מעלה גוף שנמצא בהם?",
+   "answer": "בכוח ששווה למשקל המים שהגוף דחה",
+   "options": [
+    "בכוח ששווה למשקל המים שהגוף דחה",
+    "בכוח ששווה למשקל הגוף תמיד",
+    "בכוח קבוע שאינו תלוי בגוף"
+   ],
+   "explain_he": "זה כוח העילוי: הוא שווה למשקל הנוזל שהגוף דוחה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי חוק ארכימדס, בכמה דוחפים המים כלפי מעלה גוף שנמצא בהם?",
+   "answer": "בכוח ששווה למשקל המים שהגוף דחה",
+   "options": [
+    "בכוח ששווה למשקל המים שהגוף דחה",
+    "בכוח ששווה למשקל הגוף תמיד",
+    "בכוח קבוע שאינו תלוי בגוף"
+   ],
+   "explain_he": "זה כוח העילוי: הוא שווה למשקל הנוזל שהגוף דוחה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ספינת פלדה צפה, אף שגוש פלדה שוקע?",
+   "answer": "כי היא חלולה ודוחה כמות גדולה מאוד של מים",
+   "options": [
+    "כי היא חלולה ודוחה כמות גדולה מאוד של מים",
+    "כי הפלדה של ספינות קלה ממים",
+    "כי המנוע מחזיק אותה למעלה"
+   ],
+   "explain_he": "הצורה החלולה גורמת לספינה לדחות הרבה מים. משקל המים שנדחו גדול ממשקל הספינה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה ספינת פלדה צפה, אף שגוש פלדה שוקע?",
+   "answer": "כי היא חלולה ודוחה כמות גדולה מאוד של מים",
+   "options": [
+    "כי היא חלולה ודוחה כמות גדולה מאוד של מים",
+    "כי הפלדה של ספינות קלה ממים",
+    "כי המנוע מחזיק אותה למעלה"
+   ],
+   "explain_he": "הצורה החלולה גורמת לספינה לדחות הרבה מים. משקל המים שנדחו גדול ממשקל הספינה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קל כל כך לצוף בים המלח?",
+   "answer": "כי המים מלאים מלח וכבדים יותר, ולכן דוחפים חזק יותר",
+   "options": [
+    "כי המים מלאים מלח וכבדים יותר, ולכן דוחפים חזק יותר",
+    "כי המים שם חמים מאוד",
+    "כי אין שם גלים"
+   ],
+   "explain_he": "ליטר ממי ים המלח שוקל בערך קילוגרם ורבע. מים כבדים יותר נותנים כוח עילוי גדול יותר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f4e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הראה טוריצ׳לי עם צינור הכספית?",
+   "answer": "שלאוויר יש לחץ שיכול להחזיק עמוד כספית",
+   "options": [
+    "שלאוויר יש לחץ שיכול להחזיק עמוד כספית",
+    "שכספית קלה ממים",
+    "שהאוויר לא שוקל כלום"
+   ],
+   "explain_he": "לחץ האוויר על הקערה החזיק עמוד כספית של בערך 76 סנטימטר. זה היה הברומטר הראשון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f4e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ילד של 400 ניוטון עומד על עקב דק של 4 סמ״ר. מה הלחץ?",
+   "answer": "100 ניוטון לסמ״ר",
+   "options": [
+    "100 ניוטון לסמ״ר",
+    "1,600 ניוטון לסמ״ר",
+    "4 ניוטון לסמ״ר"
+   ],
+   "explain_he": "P = F ÷ A = 400 ÷ 4 = 100 ניוטון לסמ״ר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f4e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "גוף דוחה 2 ליטר מים ושוקל 15 ניוטון. מה יקרה לו? (ליטר מים שוקל 10 ניוטון)",
+   "answer": "הוא יצוף, כי כוח העילוי, 20 ניוטון, גדול ממשקלו",
+   "options": [
+    "הוא יצוף, כי כוח העילוי, 20 ניוטון, גדול ממשקלו",
+    "הוא ישקע, כי 15 גדול מ־2",
+    "הוא ירחף באמצע המים בדיוק"
+   ],
+   "explain_he": "כוח העילוי הוא 2 × 10 = 20 ניוטון, יותר מ־15 ניוטון, ולכן הגוף צף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f4e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בירושלים מים רותחים בפחות מ־100 מעלות?",
+   "answer": "כי בגובה לחץ האוויר נמוך יותר",
+   "options": [
+    "כי בגובה לחץ האוויר נמוך יותר",
+    "כי המים בירושלים מלוחים",
+    "כי בירושלים קר יותר"
+   ],
+   "explain_he": "בירושלים, בגובה 800 מטר, יש מעלינו פחות אוויר. בלחץ נמוך מים רותחים בטמפרטורה נמוכה יותר, בערך 97 מעלות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f4e13"
+  }
+ ]
+}

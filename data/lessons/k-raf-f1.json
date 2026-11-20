@@ -1,0 +1,280 @@
+{
+ "id": "k-raf-f1",
+ "unit_id": "k-raf-u1",
+ "course": "radiation",
+ "title_he": "מהו אור? הקשת והספקטרום",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌈 ידע כללי",
+   "title_he": "מהו אור? הקשת והספקטרום",
+   "ref_he": "מסע אל הקרינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "rainbow",
+     "title_he": "קשת אחרי הגשם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: The Galilee hills after a winter rain in the late afternoon: a bright full rainbow arches over green fields and a village, the low sun behind a boy and girl standing on a path, looking up in awe.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "אחרי גשם של חורף, השמש מציצה, ובשמיים מופיעה קשת. אדום, כתום, צהוב, ירוק, כחול וסגול, בסדר קבוע, תמיד אותו סדר.",
+      "כשרואים קשת מברכים: ״ברוך אתה ה׳ אלקינו מלך העולם, זוכר הברית, ונאמן בבריתו, וקיים במאמרו״. הקשת מזכירה את הברית שכרת הקדוש ברוך הוא עם נח, שלא יביא עוד מבול על העולם.",
+      "וחז״ל לימדו שלא להסתכל בקשת הרבה, אלא לראות, לברך ולהמשיך.",
+      "אבל מה בעצם קורה שם בשמיים? מאיפה באים הצבעים? התשובה תיקח אותנו למסע גדול, אל העולם של האור ושל הקרינה.",
+      "במסע הזה נגלה שהאור שאנחנו רואים הוא רק חלון קטן במשפחה ענקית של גלים: מגלי רדיו ועד קרני גמא."
+     ],
+     "pasuk": {
+      "text": "אֶת קַשְׁתִּי נָתַתִּי בֶּעָנָן, וְהָיְתָה לְאוֹת בְּרִית בֵּינִי וּבֵין הָאָרֶץ",
+      "ref": "בראשית ט, יג"
+     },
+     "note": null
+    },
+    {
+     "id": "prism",
+     "title_he": "ניוטון והמנסרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: Cambridge, England, in the 1660s: a dark room with closed wooden shutters, a thin beam of sunlight enters through a small hole and passes through a glass prism held by a long-haired young scholar, spreading into a band of rainbow colors on the far wall.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "בשנות ה־1660 ישב צעיר בשם אייזק ניוטון, אותו ניוטון של חוקי התנועה, בחדר חשוך. הוא סגר את התריסים והשאיר חור קטן, שדרכו נכנסה קרן שמש דקה.",
+      "הוא הציב בדרך הקרן מנסרה, גוש זכוכית משולש. ועל הקיר שמולו הופיע פס ארוך של צבעים, בדיוק כמו בקשת.",
+      "עד אז חשבו רבים שהזכוכית ״צובעת״ את האור. ניוטון בדק: הוא לקח רק את הצבע האדום והעביר אותו במנסרה שנייה. האדום נשאר אדום.",
+      "ואז עשה ניסוי מבריק: הוא איחד את כל הצבעים חזרה בעזרת מנסרה הפוכה, וקיבל שוב אור לבן.",
+      "המסקנה שלו: האור הלבן של השמש הוא תערובת של כל הצבעים. המנסרה רק מפרידה ביניהם, כי היא מכופפת כל צבע בזווית קצת אחרת. הסגול מתכופף הכי הרבה, והאדום הכי מעט."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ניוטון עשה את ניסויי האור שלו בשנות ה־1660, אבל פרסם אותם בספר ״אופטיקה״ רק בשנת 1704, כמעט ארבעים שנה אחר כך."
+     }
+    },
+    {
+     "id": "drops",
+     "title_he": "כל טיפה היא מנסרה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A sunny garden in an Israeli home: the girl sprays a fine mist from a garden hose with the sun behind her, and a small bright rainbow appears in the spray; her brother watches smiling; green lawn and a lemon tree.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👧 👦 🌳",
+     "say": [
+      "עכשיו אפשר להבין את הקשת. אחרי הגשם, באוויר יש מיליוני טיפות מים קטנות, ובכל אחת מהן קורה מה שקרה במנסרה של ניוטון.",
+      "קרן שמש נכנסת לטיפה ומתכופפת, פוגעת בדופן האחורית ומוחזרת, ויוצאת שוב ומתכופפת. בדרך הצבעים נפרדים זה מזה.",
+      "כל טיפה שולחת אלינו צבע אחד, לפי הזווית שבה היא נמצאת. טיפות גבוהות יותר שולחות אדום, ונמוכות יותר שולחות סגול. כך נבנית הקשת כולה.",
+      "ולכן יש כלל: רואים קשת רק כשהשמש מאחורינו, והגשם מולנו. לכן קשת נראית בדרך כלל בבוקר או אחר הצהריים, כשהשמש נמוכה.",
+      "נסו בבית, ביום שמשי: עמדו כשהשמש מאחוריכם, ורססו ערפל דק של מים מצינור הגינה. תראו קשת קטנה משלכם. אבל לעולם אל תסתכלו ישר אל השמש."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wave",
+     "title_he": "אור הוא גל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A school laboratory: the teacher shines a thin beam of red light and then a beam of violet light onto a white wall in a dim room, the boy and girl watching; between them soft glowing ripples drawn in the air, long ones in red and short ones in violet.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👦 👧",
+     "say": [
+      "אבל מה זה בעצם צבע? במשך מאות שנים התווכחו המדענים: האם אור הוא זרם של חלקיקים זעירים, או גל, כמו גלים במים?",
+      "בתחילת המאה ה־19 הראה המדען האנגלי תומס יאנג שאור מתנהג כמו גל. הוא העביר אור דרך שני חריצים צרים, וקיבל פסים של אור וחושך, כמו שגלי מים נפגשים ומחזקים או מבטלים זה את זה.",
+      "לכל צבע יש אורך גל אחר. לאדום יש את אורך הגל הארוך ביותר שאנחנו רואים, בערך 700 ננומטר. לסגול יש את הקצר ביותר, בערך 400 ננומטר.",
+      "ננומטר הוא מיליארדית המטר. כלומר, על רוחב של שערה אחת נכנסים בערך מאה גלים של אור אדום!",
+      "בהמשך יתברר שהאור הוא גם גל וגם חלקיק, תלוי איך בודקים אותו. נחזור לזה בשיעור האחרון, כי זה המפתח להבנת הקרינה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "speed",
+     "title_he": "מהירות האור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A 17th-century observatory in Paris at night: an astronomer in a long coat and wig looks through a long brass telescope toward a bright planet Jupiter with its small moons visible as dots of light; stars fill the sky.",
+     "move": "up",
+     "fx": "stars",
+     "art": "👨 🔭",
+     "say": [
+      "האור מהיר מאוד, כל כך מהר שנראה כאילו הוא מגיע ברגע. אבל בשנת 1676 הראה האסטרונום הדני אולה רמר שגם לאור לוקח זמן.",
+      "רמר צפה בירחים של צדק, ושם לב שהם מופיעים מאחורי צדק מוקדם או מאוחר, לפי המרחק בין כדור הארץ לצדק. כשכדור הארץ רחוק יותר, האור צריך יותר זמן להגיע.",
+      "היום אנחנו יודעים את המספר המדויק: בערך 300 אלף קילומטר בשנייה. בשנייה אחת אור יכול להקיף את כדור הארץ בערך שבע פעמים וחצי.",
+      "וזה מסביר למה רואים את הברק לפני ששומעים את הרעם. האור מגיע כמעט מיד, והקול מתעכב בערך שלוש שניות לכל קילומטר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אור השמש שאתם רואים עכשיו יצא מהשמש לפני בערך שמונה דקות. ואור הירח, שהוא אור שמש מוחזר, מגיע אלינו מהירח בפחות משתי שניות."
+     }
+    },
+    {
+     "id": "maxwell",
+     "title_he": "הספקטרום כולו",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: Scotland in the 1860s: a bearded scientist in a dark Victorian suit sits by a fireplace with papers full of drawings of curving lines with no writing visible, looking up in thought; beside him a soft band of glowing ripples, long to short.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "בשנות ה־1860 הסקוטי ג׳יימס קלרק מקסוול חיבר יחד את כל מה שידעו על חשמל ומגנטיות, ממחקריהם של ארסטד ופאראדיי.",
+      "מהחשבונות שלו יצא דבר מדהים: שדה חשמלי שמשתנה יוצר שדה מגנטי, ושדה מגנטי שמשתנה יוצר שדה חשמלי, וכך הם ״מושכים״ זה את זה במרחב, כגל.",
+      "ומקסוול חישב את המהירות של הגל הזה, ויצאה בדיוק מהירות האור! המסקנה: אור הוא גל אלקטרומגנטי.",
+      "ואם כך, צריכים להיות גם גלים כאלה שאורכם ארוך או קצר מזה של האור, שהעין לא רואה. וכך היה. כבר בשנת 1800 מצא ויליאם הרשל קרינה בלתי נראית מעבר לאדום, וכעבור שנה מצא יוהאן ריטר קרינה מעבר לסגול.",
+      "כל המשפחה הזאת נקראת הספקטרום האלקטרומגנטי. מהארוך לקצר: גלי רדיו, מיקרוגל, אינפרה־אדום, אור נראה, אולטרה־סגול, קרני רנטגן וקרני גמא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "formula",
+     "title_he": "נוסחה אחת לכל הגלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A night view of a modern Israeli city from a hilltop: a tall radio antenna mast with a red light, lit windows, cars on a highway, and stars above; faint colored ripples of different sizes drift through the air.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 🏠",
+     "say": [
+      "לכל הגלים במשפחה יש דבר אחד משותף: בריק כולם נעים באותה מהירות, מהירות האור. מסמנים אותה באות c.",
+      "ומה שמבדיל ביניהם הוא אורך הגל, ואיתו התדירות. הנוסחה היא c = f × λ: מהירות האור שווה לתדירות כפול אורך הגל.",
+      "מכאן נובע: ככל שאורך הגל קצר יותר, התדירות גבוהה יותר. לגלי רדיו יש אורך גל של מטרים ואפילו קילומטרים, ולקרני גמא אורך גל קטן מאטום.",
+      "נחשב: תחנת רדיו בתדר 100 מגה־הרץ, כלומר 100 מיליון רעידות בשנייה. אורך הגל הוא λ = c ÷ f = 300,000,000 ÷ 100,000,000, כלומר 3 מטר.",
+      "ובאור אדום, באורך גל של 700 ננומטר, התדירות היא בערך 430 מיליון מיליון רעידות בשנייה. מספר שקשה אפילו לדמיין."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "עוטה אור כשלמה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: Sunrise over the Jerusalem hills seen from a rooftop: golden light spreads over stone houses and domes, the boy and his sister stand quietly watching, the sky changing from deep blue to gold.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧 🏠",
+     "say": [
+      "אז מה למדנו? אור לבן הוא תערובת של כל הצבעים, וכל טיפת גשם היא מנסרה קטנה שיוצרת את הקשת.",
+      "האור הוא גל אלקטרומגנטי, שעובר בערך 300 אלף קילומטר בשנייה. וכל הצבעים שאנחנו רואים הם רק חלון קטן מתוך ספקטרום ענק.",
+      "דוד המלך תיאר את הקדוש ברוך הוא כ״עוטה אור כשלמה״, כמו בגד. וככל שלומדים יותר, מבינים כמה עשיר ומופלא ה״בגד״ הזה, מעבר לכל מה שהעין רואה.",
+      "בשיעור הבא נצא אל הקצה הארוך של הספקטרום: גלי הרדיו, שמביאים לנו קולות מרחוק."
+     ],
+     "pasuk": {
+      "text": "עֹטֶה אוֹר כַּשַּׂלְמָה, נוֹטֶה שָׁמַיִם כַּיְרִיעָה",
+      "ref": "תהלים קד, ב"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-raf-f1e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הוכיח ניוטון כשאיחד את הצבעים חזרה בעזרת מנסרה הפוכה?",
+   "answer": "שאור לבן הוא תערובת של כל הצבעים",
+   "options": [
+    "שאור לבן הוא תערובת של כל הצבעים",
+    "שהזכוכית צובעת את האור",
+    "שאור השמש הוא אדום בעצם"
+   ],
+   "explain_he": "הצבעים התאחדו חזרה לאור לבן. כלומר, המנסרה רק מפרידה צבעים שכבר נמצאים באור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רואים קשת רק כשהשמש מאחורינו?",
+   "answer": "כי הטיפות מחזירות את האור לכיוון שממנו בא, אחרי שהוא נשבר בתוכן",
+   "options": [
+    "כי הטיפות מחזירות את האור לכיוון שממנו בא, אחרי שהוא נשבר בתוכן",
+    "כי השמש מסנוורת את הקשת",
+    "כי הקשת היא צל של השמש"
+   ],
+   "explain_he": "האור נכנס לטיפה, מוחזר מהדופן האחורית ויוצא חזרה לכיוון השמש, כשהצבעים מופרדים. לכן צריך שהשמש תהיה מאחורינו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ההבדל בין אור אדום לאור סגול?",
+   "answer": "לאדום אורך גל ארוך יותר",
+   "options": [
+    "לאדום אורך גל ארוך יותר",
+    "לסגול מהירות גבוהה יותר בריק",
+    "האדום הוא חלקיק והסגול הוא גל"
+   ],
+   "explain_he": "לאדום אורך גל של בערך 700 ננומטר, ולסגול בערך 400. בריק כולם נעים באותה מהירות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מצא מקסוול כשחישב את מהירות הגל האלקטרומגנטי?",
+   "answer": "שהיא שווה למהירות האור, ולכן אור הוא גל אלקטרומגנטי",
+   "options": [
+    "שהיא שווה למהירות האור, ולכן אור הוא גל אלקטרומגנטי",
+    "שהיא שווה למהירות הקול",
+    "שהגל לא זז בכלל"
+   ],
+   "explain_he": "המהירות שיצאה בחישוב הייתה בדיוק מהירות האור. מכאן הבין שאור הוא גל אלקטרומגנטי.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "תחנת רדיו משדרת בתדר 100 מגה־הרץ. מה אורך הגל? (c = 300,000,000 מטר לשנייה)",
+   "answer": "3 מטר",
+   "options": [
+    "3 מטר",
+    "30 סנטימטר",
+    "300 מטר"
+   ],
+   "explain_he": "λ = c ÷ f = 300,000,000 ÷ 100,000,000 = 3 מטר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים כשרואים קשת?",
+   "answer": "זוכר הברית ונאמן בבריתו וקיים במאמרו",
+   "options": [
+    "זוכר הברית ונאמן בבריתו וקיים במאמרו",
+    "שכוחו וגבורתו מלא עולם",
+    "עושה מעשה בראשית"
+   ],
+   "explain_he": "הקשת מזכירה את הברית עם נח, ולכן מברכים ״זוכר הברית ונאמן בבריתו וקיים במאמרו״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך הראה אולה רמר שלאור לוקח זמן להגיע?",
+   "answer": "הירחים של צדק הופיעו מאוחר יותר כשכדור הארץ היה רחוק מצדק",
+   "options": [
+    "הירחים של צדק הופיעו מאוחר יותר כשכדור הארץ היה רחוק מצדק",
+    "הוא מדד את האור של נר בחדר",
+    "הוא שמע את הרעם אחרי הברק"
+   ],
+   "explain_he": "כשהמרחק לצדק גדל, האור מהירחים שלו צריך יותר זמן להגיע, והם ״איחרו״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f1e8"
+  }
+ ]
+}

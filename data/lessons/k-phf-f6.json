@@ -1,0 +1,502 @@
+{
+ "id": "k-phf-f6",
+ "unit_id": "k-phf-u2",
+ "course": "physics",
+ "title_he": "מגנטיות והמצפן",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "מגנטיות והמצפן",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "fridge",
+     "title_he": "המגנט שעל המקרר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli kitchen: the younger brother holds two bar magnets, one pushing the other away along the table, while colorful fridge magnets hold a family photo and a child's drawing on the fridge.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🧲 👦",
+     "say": [
+      "על המקרר שלכם יש מגנטים, שמחזיקים תמונות ופתקים, אפילו דרך דף נייר. איך הם מחזיקים בלי דבק?",
+      "מגנט מושך אליו ברזל, אבל לא כל מתכת. נסו: מסמרי ברזל ומהדקים נמשכים, אבל מטבע של אלומיניום, טבעת זהב או חוט נחושת לא.",
+      "ויש למגנט שני קצוות מיוחדים, שנקראים קטבים: קוטב צפון וקוטב דרום. קטבים דומים נדחים, וקטבים שונים נמשכים. מזכיר משהו? כמו מטענים חשמליים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "compass",
+     "title_he": "המצפן של הספנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A wooden sailing ship on a grey sea in medieval times: a navigator in a long coat and cap holds a small bowl with a floating magnetic needle, looking toward the horizon under cloudy skies.",
+     "move": "left",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "לפני כאלף שנה, בסין ובאירופה, גילו אנשים דבר מופלא: מחט ברזל ממוגנטת, שיכולה להסתובב בחופשיות, מצביעה תמיד צפונה.",
+      "זה המצפן. בזכותו יכלו ספנים לנווט גם ביום מעונן, כשלא רואים שמש, וגם בלילה בלי כוכבים.",
+      "נסו בבית, עם הורה: לטפו מחט תפירה במגנט כעשרים פעם, תמיד באותו כיוון. הניחו אותה על פיסת שעם קטנה שצפה בקערת מים. המחט תסתובב לאט, ותעצור בכיוון צפון־דרום. בניתם מצפן!",
+      "ומי שיודע איפה צפון, יכול למצוא גם את כל שאר הכיוונים: מזרח, מערב ודרום. כך אפשר לדעת, גם במקום זר ורחוק, לאיזה כיוון פונים בתפילה, אל ירושלים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אבן השואבת היא אבן טבעית, מגנטית מעצמה, ממחצב ברזל בשם מגנטיט. אנשים הכירו אותה כבר בעת העתיקה."
+     }
+    },
+    {
+     "id": "earth",
+     "title_he": "כדור הארץ הוא מגנט",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: England around 1600: a bearded physician in an Elizabethan ruff collar and black robe holds a small sphere of lodestone with a tiny compass needle above it, in a study full of books and instruments.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "אבל למה המצפן מצביע צפונה? בשנת 1600 הציע הרופא האנגלי ויליאם גילברט תשובה: כדור הארץ כולו הוא מגנט ענקי!",
+      "הוא בנה כדור קטן מאבן שואבת, והראה שמחט המצפן מתנהגת סביבו בדיוק כמו סביב כדור הארץ.",
+      "השדה המגנטי של כדור הארץ נוצר עמוק בפנים, בגלעין, שבו יש ברזל ניתך שזורם ויוצר זרמים חשמליים.",
+      "והשדה הזה עושה עוד דבר נפלא: הוא מסיט חלקיקים טעונים שמגיעים מהשמש, ומגן על כדור הארץ. ליד הקטבים החלקיקים פוגעים באוויר הגבוה, ויוצרים את ״הזוהר הצפוני״, וילונות של אור ירוק בשמי הלילה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "birds",
+     "title_he": "הציפורים שמעל עמק החולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The Hula valley in autumn at dawn: huge flocks of cranes fly in long lines over wetlands and fields, others stand in shallow water; the Golan heights glowing pink in the distance.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🕊️",
+     "say": [
+      "בכל סתיו עוברות מעל ארץ ישראל מאות מיליוני ציפורים, בדרכן מאירופה לאפריקה. עגורים, חסידות ועוד.",
+      "איך הן יודעות את הדרך, אלפי קילומטרים? הן נעזרות בשמש, בכוכבים ובנוף. ומדענים גילו שציפורים רבות מסוגלות גם להרגיש את השדה המגנטי של כדור הארץ, כמו מצפן פנימי.",
+      "כך, השדה הבלתי נראה הזה משמש לא רק ספנים, אלא גם בעלי חיים, שנוסעים בו כבר דורות רבים.",
+      "בעמק החולה אפשר לראות בחורף עשרות אלפי עגורים בבת אחת. מי שעומד שם בזריחה ושומע אותם קוראים, לא שוכח את המראה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ישראל נמצאת על אחד מנתיבי הנדידה הגדולים בעולם. מאות מיליוני ציפורים עוברות מעלינו פעמיים בשנה, בסתיו ובאביב."
+     }
+    },
+    {
+     "id": "domains",
+     "title_he": "מה יש בתוך ברזל?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A blacksmith's workshop in an Israeli village: a bearded smith in a leather apron and kippah heats an iron bar until it glows orange, a horseshoe magnet lying on the anvil beside a pile of nails; sparks and warm firelight.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "למה ברזל נמשך למגנט, ואלומיניום לא? התשובה מסתתרת בתוך החומר.",
+      "בתוך הברזל יש אזורים זעירים, וכל אחד מהם הוא כמו מגנט קטנטן. בדרך כלל הם מסודרים בבלגן, כל אחד לכיוון אחר, והם מבטלים זה את זה.",
+      "כשמקרבים מגנט, המגנטים הקטנים מסתדרים לאותו כיוון, והברזל עצמו נעשה מגנט ונמשך. כך המחט במצפן הביתי שלנו נעשתה מגנטית כשליטפנו אותה.",
+      "ואם מחממים מגנט מאוד, או מכים בו חזק שוב ושוב, הסדר מתפרק, והמגנטיות נחלשת או נעלמת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "electro",
+     "title_he": "אלקטרומגנט",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A scrapyard near an Israeli industrial zone: a crane with a big round electromagnet lifts a pile of old iron scrap into the air, a worker in a hard hat and long sleeves watches from a safe distance.",
+     "move": "up",
+     "fx": "dust",
+     "art": "🏗️ 👨",
+     "say": [
+      "בשנת 1820 גילה המדען הדני הנס כריסטיאן ארסטד שזרם חשמלי בחוט מזיז מחט של מצפן. חשמל יוצר מגנטיות!",
+      "מכאן נולד האלקטרומגנט: חוט שמלופף סביב מוט ברזל. כשמזרימים זרם, הוא נעשה מגנט חזק. כשמפסיקים, המגנטיות נעלמת.",
+      "במגרש גרוטאות, מנוף עם אלקטרומגנט ענק מרים מכוניות ישנות, ומשחרר אותן בלחיצת כפתור. ובבית החולים, מכשיר MRI משתמש באלקטרומגנט עצום כדי לצלם את פנים הגוף בלי ניתוח.",
+      "הסיפור המלא של ארסטד ושל האלקטרומגנט מופיע בסרטונים של הקורס, ושם אפשר להעמיק."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "motor",
+     "title_he": "מנוע וגנרטור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: London in the 1830s: a humble man with curly hair in a dark coat moves a bar magnet in and out of a coil of copper wire connected to a needle meter, in a laboratory with glass jars and wooden benches.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "אם חשמל יוצר מגנטיות, אולי גם מגנטיות יכולה ליצור חשמל? את זה גילה בשנת 1831 האנגלי מייקל פאראדיי.",
+      "פאראדיי הזיז מגנט בתוך סליל של חוט, וראה שבזמן התנועה נוצר זרם חשמלי. כך נולד הגנרטור, המכונה שמייצרת חשמל.",
+      "ובכיוון ההפוך עובד המנוע החשמלי: זרם ומגנט דוחפים זה את זה, והציר מסתובב. יש מנוע במאוורר, במכונת הכביסה ובקורקינט החשמלי.",
+      "בתחנות הכוח בישראל, כמו בחדרה, טורבינות ענקיות מסובבות גנרטורים. כך מגיע החשמל לשקע שבקיר שלכם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A family hike in the Galilee hills: the older brother holds a compass and a folded map, the younger points the way along a path between oak trees; the father with a kippah follows; bright afternoon.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👦 👨 🌳",
+     "say": [
+      "אז מה למדנו? למגנט יש שני קטבים. קטבים שונים נמשכים, ודומים נדחים. כדור הארץ כולו הוא מגנט, ולכן המצפן מצביע צפונה, וגם הציפורים מוצאות את דרכן.",
+      "זרם חשמלי יוצר מגנטיות, וכך עובד האלקטרומגנט. ומגנט שזז ליד סליל יוצר זרם, וכך עובדים הגנרטורים בתחנות הכוח.",
+      "ובשיעור הבא: גלים וקול. מהאדווה בכנרת ועד הקול של השופר."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f6e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "מגנטיות והמצפן",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "fridge",
+     "title_he": "המגנט שעל המקרר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli kitchen: the younger brother holds two bar magnets, one pushing the other away along the table, while colorful fridge magnets hold a family photo and a child's drawing on the fridge.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🧲 👦",
+     "say": [
+      "על המקרר שלכם יש מגנטים, שמחזיקים תמונות ופתקים, אפילו דרך דף נייר. איך הם מחזיקים בלי דבק?",
+      "מגנט מושך אליו ברזל, אבל לא כל מתכת. נסו: מסמרי ברזל ומהדקים נמשכים, אבל מטבע של אלומיניום, טבעת זהב או חוט נחושת לא.",
+      "ויש למגנט שני קצוות מיוחדים, שנקראים קטבים: קוטב צפון וקוטב דרום. קטבים דומים נדחים, וקטבים שונים נמשכים. מזכיר משהו? כמו מטענים חשמליים.",
+      "ואם שוברים מגנט לשניים? לא מקבלים ״צפון לבד״ ו״דרום לבד״. כל חתיכה נעשית מגנט שלם, עם צפון ודרום משלה. אי אפשר להפריד את הקטבים.",
+      "מסביב למגנט יש ״שדה מגנטי״, אזור שבו הוא פועל. נסו בבית: פזרו שבבי ברזל על דף שמונח מעל מגנט, ותראו אותם מסתדרים בקשתות יפות מקוטב לקוטב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "compass",
+     "title_he": "המצפן של הספנים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A wooden sailing ship on a grey sea in medieval times: a navigator in a long coat and cap holds a small bowl with a floating magnetic needle, looking toward the horizon under cloudy skies.",
+     "move": "left",
+     "fx": "mist",
+     "art": "⛵",
+     "say": [
+      "לפני כאלף שנה, בסין ובאירופה, גילו אנשים דבר מופלא: מחט ברזל ממוגנטת, שיכולה להסתובב בחופשיות, מצביעה תמיד צפונה.",
+      "זה המצפן. בזכותו יכלו ספנים לנווט גם ביום מעונן, כשלא רואים שמש, וגם בלילה בלי כוכבים.",
+      "נסו בבית, עם הורה: לטפו מחט תפירה במגנט כעשרים פעם, תמיד באותו כיוון. הניחו אותה על פיסת שעם קטנה שצפה בקערת מים. המחט תסתובב לאט, ותעצור בכיוון צפון־דרום. בניתם מצפן!",
+      "ומי שיודע איפה צפון, יכול למצוא גם את כל שאר הכיוונים: מזרח, מערב ודרום. כך אפשר לדעת, גם במקום זר ורחוק, לאיזה כיוון פונים בתפילה, אל ירושלים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אבן השואבת היא אבן טבעית, מגנטית מעצמה, ממחצב ברזל בשם מגנטיט. אנשים הכירו אותה כבר בעת העתיקה."
+     }
+    },
+    {
+     "id": "earth",
+     "title_he": "כדור הארץ הוא מגנט",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: England around 1600: a bearded physician in an Elizabethan ruff collar and black robe holds a small sphere of lodestone with a tiny compass needle above it, in a study full of books and instruments.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "אבל למה המצפן מצביע צפונה? בשנת 1600 הציע הרופא האנגלי ויליאם גילברט תשובה: כדור הארץ כולו הוא מגנט ענקי!",
+      "הוא בנה כדור קטן מאבן שואבת, והראה שמחט המצפן מתנהגת סביבו בדיוק כמו סביב כדור הארץ.",
+      "השדה המגנטי של כדור הארץ נוצר עמוק בפנים, בגלעין, שבו יש ברזל ניתך שזורם ויוצר זרמים חשמליים.",
+      "והשדה הזה עושה עוד דבר נפלא: הוא מסיט חלקיקים טעונים שמגיעים מהשמש, ומגן על כדור הארץ. ליד הקטבים החלקיקים פוגעים באוויר הגבוה, ויוצרים את ״הזוהר הצפוני״, וילונות של אור ירוק בשמי הלילה.",
+      "פרט מבלבל: קוטב הצפון של מחט המצפן נמשך לצפון כדור הארץ. ומאחר שקטבים שונים נמשכים, זה אומר שבצפון הגיאוגרפי נמצא בעצם קוטב דרום מגנטי של ״המגנט הגדול״.",
+      "והקוטב המגנטי גם לא נמצא בדיוק בקוטב הצפוני הגיאוגרפי, והוא אף זז לאט במשך השנים. לכן מנווטים מדויקים מתקנים את קריאת המצפן לפי מפות מיוחדות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "birds",
+     "title_he": "הציפורים שמעל עמק החולה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The Hula valley in autumn at dawn: huge flocks of cranes fly in long lines over wetlands and fields, others stand in shallow water; the Golan heights glowing pink in the distance.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🕊️",
+     "say": [
+      "בכל סתיו עוברות מעל ארץ ישראל מאות מיליוני ציפורים, בדרכן מאירופה לאפריקה. עגורים, חסידות ועוד.",
+      "איך הן יודעות את הדרך, אלפי קילומטרים? הן נעזרות בשמש, בכוכבים ובנוף. ומדענים גילו שציפורים רבות מסוגלות גם להרגיש את השדה המגנטי של כדור הארץ, כמו מצפן פנימי.",
+      "כך, השדה הבלתי נראה הזה משמש לא רק ספנים, אלא גם בעלי חיים, שנוסעים בו כבר דורות רבים.",
+      "בעמק החולה אפשר לראות בחורף עשרות אלפי עגורים בבת אחת. מי שעומד שם בזריחה ושומע אותם קוראים, לא שוכח את המראה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ישראל נמצאת על אחד מנתיבי הנדידה הגדולים בעולם. מאות מיליוני ציפורים עוברות מעלינו פעמיים בשנה, בסתיו ובאביב."
+     }
+    },
+    {
+     "id": "domains",
+     "title_he": "מה יש בתוך ברזל?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A blacksmith's workshop in an Israeli village: a bearded smith in a leather apron and kippah heats an iron bar until it glows orange, a horseshoe magnet lying on the anvil beside a pile of nails; sparks and warm firelight.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "למה ברזל נמשך למגנט, ואלומיניום לא? התשובה מסתתרת בתוך החומר.",
+      "בתוך הברזל יש אזורים זעירים, וכל אחד מהם הוא כמו מגנט קטנטן. בדרך כלל הם מסודרים בבלגן, כל אחד לכיוון אחר, והם מבטלים זה את זה.",
+      "כשמקרבים מגנט, המגנטים הקטנים מסתדרים לאותו כיוון, והברזל עצמו נעשה מגנט ונמשך. כך המחט במצפן הביתי שלנו נעשתה מגנטית כשליטפנו אותה.",
+      "ואם מחממים מגנט מאוד, או מכים בו חזק שוב ושוב, הסדר מתפרק, והמגנטיות נחלשת או נעלמת.",
+      "האזורים האלה נקראים ״תחומים מגנטיים״. בכל אחד מהם יש מיליארדי אטומים, שכולם מכוונים יחד.",
+      "הפיזיקאי פייר קירי מצא שלכל חומר מגנטי יש טמפרטורה שמעליה המגנטיות נעלמת. לברזל היא בערך 770 מעלות. היא נקראת על שמו, ״טמפרטורת קירי״. ועל אשתו, מארי קירי, נשמע בקורס על הקרינה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "electro",
+     "title_he": "אלקטרומגנט",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A scrapyard near an Israeli industrial zone: a crane with a big round electromagnet lifts a pile of old iron scrap into the air, a worker in a hard hat and long sleeves watches from a safe distance.",
+     "move": "up",
+     "fx": "dust",
+     "art": "🏗️ 👨",
+     "say": [
+      "בשנת 1820 גילה המדען הדני הנס כריסטיאן ארסטד שזרם חשמלי בחוט מזיז מחט של מצפן. חשמל יוצר מגנטיות!",
+      "מכאן נולד האלקטרומגנט: חוט שמלופף סביב מוט ברזל. כשמזרימים זרם, הוא נעשה מגנט חזק. כשמפסיקים, המגנטיות נעלמת.",
+      "במגרש גרוטאות, מנוף עם אלקטרומגנט ענק מרים מכוניות ישנות, ומשחרר אותן בלחיצת כפתור. ובבית החולים, מכשיר MRI משתמש באלקטרומגנט עצום כדי לצלם את פנים הגוף בלי ניתוח.",
+      "הסיפור המלא של ארסטד ושל האלקטרומגנט מופיע בסרטונים של הקורס, ושם אפשר להעמיק.",
+      "איך מחזקים אלקטרומגנט? מוסיפים עוד ליפופים של חוט, מגבירים את הזרם, ושמים בפנים ליבה של ברזל. הליבה מגבירה את השדה פי מאות, כי התחומים המגנטיים שבה מסתדרים לפי השדה של הזרם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "motor",
+     "title_he": "מנוע וגנרטור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: London in the 1830s: a humble man with curly hair in a dark coat moves a bar magnet in and out of a coil of copper wire connected to a needle meter, in a laboratory with glass jars and wooden benches.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "אם חשמל יוצר מגנטיות, אולי גם מגנטיות יכולה ליצור חשמל? את זה גילה בשנת 1831 האנגלי מייקל פאראדיי.",
+      "פאראדיי הזיז מגנט בתוך סליל של חוט, וראה שבזמן התנועה נוצר זרם חשמלי. כך נולד הגנרטור, המכונה שמייצרת חשמל.",
+      "ובכיוון ההפוך עובד המנוע החשמלי: זרם ומגנט דוחפים זה את זה, והציר מסתובב. יש מנוע במאוורר, במכונת הכביסה ובקורקינט החשמלי.",
+      "בתחנות הכוח בישראל, כמו בחדרה, טורבינות ענקיות מסובבות גנרטורים. כך מגיע החשמל לשקע שבקיר שלכם.",
+      "פאראדיי גדל במשפחה ענייה, ובנעוריו עבד כשוליה של כורך ספרים. הוא קרא את הספרים שכרך, הלך להרצאות, ובעבודה קשה ובהתמדה הפך לאחד המדענים הגדולים של המאה ה־19.",
+      "ושימו לב לסימטריה היפה: זרם יוצר שדה מגנטי, ושדה מגנטי משתנה יוצר זרם. שני הכוחות האלה הם בעצם כוח אחד, האלקטרומגנטיות. בקורס ״מסע אל הקרינה״ נגלה שגם האור עצמו קשור אליהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A family hike in the Galilee hills: the older brother holds a compass and a folded map, the younger points the way along a path between oak trees; the father with a kippah follows; bright afternoon.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👦 👨 🌳",
+     "say": [
+      "אז מה למדנו? למגנט יש שני קטבים. קטבים שונים נמשכים, ודומים נדחים. כדור הארץ כולו הוא מגנט, ולכן המצפן מצביע צפונה, וגם הציפורים מוצאות את דרכן.",
+      "זרם חשמלי יוצר מגנטיות, וכך עובד האלקטרומגנט. ומגנט שזז ליד סליל יוצר זרם, וכך עובדים הגנרטורים בתחנות הכוח.",
+      "ובשיעור הבא: גלים וקול. מהאדווה בכנרת ועד הקול של השופר.",
+      "ונזכור את הדרך: מאבן שואבת בעת העתיקה, דרך המצפן של הספנים וגילברט, ועד ארסטד ופאראדיי. כל דור בנה על מה שגילה הדור שלפניו, בסבלנות ובמדידות מדויקות."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מהדברים האלה מגנט ימשוך?",
+   "answer": "מסמר ברזל",
+   "options": [
+    "מסמר ברזל",
+    "מטבע אלומיניום",
+    "טבעת זהב"
+   ],
+   "explain_he": "מגנט מושך ברזל, אבל לא כל מתכת. אלומיניום, זהב ונחושת אינם נמשכים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איזה מהדברים האלה מגנט ימשוך?",
+   "answer": "מסמר ברזל",
+   "options": [
+    "מסמר ברזל",
+    "מטבע אלומיניום",
+    "טבעת זהב"
+   ],
+   "explain_he": "מגנט מושך ברזל, אבל לא כל מתכת. אלומיניום, זהב ונחושת אינם נמשכים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הציע ויליאם גילברט בשנת 1600?",
+   "answer": "שכדור הארץ כולו הוא מגנט ענקי",
+   "options": [
+    "שכדור הארץ כולו הוא מגנט ענקי",
+    "שהמצפן מושפע מהירח",
+    "שמגנטים עשויים מזהב"
+   ],
+   "explain_he": "גילברט הראה שמחט המצפן מתנהגת סביב כדור קטן של אבן שואבת כמו סביב כדור הארץ.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הציע ויליאם גילברט בשנת 1600?",
+   "answer": "שכדור הארץ כולו הוא מגנט ענקי",
+   "options": [
+    "שכדור הארץ כולו הוא מגנט ענקי",
+    "שהמצפן מושפע מהירח",
+    "שמגנטים עשויים מזהב"
+   ],
+   "explain_he": "גילברט הראה שמחט המצפן מתנהגת סביב כדור קטן של אבן שואבת כמו סביב כדור הארץ.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה מייקל פאראדיי בשנת 1831?",
+   "answer": "שמגנט שזז בתוך סליל יוצר זרם חשמלי",
+   "options": [
+    "שמגנט שזז בתוך סליל יוצר זרם חשמלי",
+    "שאפשר לבנות מצפן ממחט",
+    "שהברק הוא חשמל"
+   ],
+   "explain_he": "זה הגילוי שעליו בנויים הגנרטורים, המכונות שמייצרות חשמל.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה מייקל פאראדיי בשנת 1831?",
+   "answer": "שמגנט שזז בתוך סליל יוצר זרם חשמלי",
+   "options": [
+    "שמגנט שזז בתוך סליל יוצר זרם חשמלי",
+    "שאפשר לבנות מצפן ממחט",
+    "שהברק הוא חשמל"
+   ],
+   "explain_he": "זה הגילוי שעליו בנויים הגנרטורים, המכונות שמייצרות חשמל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המצפן עזר כל כך לספנים?",
+   "answer": "כי הוא מראה את הכיוון גם כשאין שמש וכוכבים",
+   "options": [
+    "כי הוא מראה את הכיוון גם כשאין שמש וכוכבים",
+    "כי הוא מגביר את הרוח",
+    "כי הוא מראה כמה עמוק הים"
+   ],
+   "explain_he": "ביום מעונן או בלילה בלי כוכבים, המצפן עדיין מצביע צפונה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f6e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קורה לאלקטרומגנט כשמפסיקים את הזרם?",
+   "answer": "המגנטיות שלו נעלמת",
+   "options": [
+    "המגנטיות שלו נעלמת",
+    "הוא נעשה חזק יותר",
+    "הוא נשאר מגנט לתמיד"
+   ],
+   "explain_he": "אלקטרומגנט הוא מגנט רק כשזורם בו זרם. לכן מנוף הגרוטאות משחרר את הברזל בלחיצת כפתור.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f6e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "שוברים מגנט לשתי חתיכות. מה מקבלים?",
+   "answer": "שני מגנטים שלמים, לכל אחד צפון ודרום",
+   "options": [
+    "שני מגנטים שלמים, לכל אחד צפון ודרום",
+    "חתיכה של צפון בלבד וחתיכה של דרום בלבד",
+    "שתי חתיכות שאינן מגנטיות"
+   ],
+   "explain_he": "אי אפשר להפריד את הקטבים. כל חתיכה נעשית מגנט שלם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f6e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "קוטב הצפון של המצפן נמשך לצפון הגיאוגרפי. איזה קוטב מגנטי נמצא שם, אם כך?",
+   "answer": "קוטב דרום מגנטי",
+   "options": [
+    "קוטב דרום מגנטי",
+    "קוטב צפון מגנטי",
+    "אין שם שום קוטב"
+   ],
+   "explain_he": "קטבים שונים נמשכים. אם צפון המחט נמשך לשם, יש שם קוטב דרום של ״המגנט הגדול״.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f6e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ההבדל בין מנוע חשמלי לגנרטור?",
+   "answer": "מנוע הופך חשמל לתנועה, וגנרטור הופך תנועה לחשמל",
+   "options": [
+    "מנוע הופך חשמל לתנועה, וגנרטור הופך תנועה לחשמל",
+    "אין שום הבדל",
+    "מנוע עובד רק בסוללות, וגנרטור רק בשמש"
+   ],
+   "explain_he": "שניהם בנויים ממגנטים וסלילים, אבל פועלים בכיוונים הפוכים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f6e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מגן על כדור הארץ מהחלקיקים הטעונים שמגיעים מהשמש?",
+   "answer": "השדה המגנטי של כדור הארץ",
+   "options": [
+    "השדה המגנטי של כדור הארץ",
+    "העננים",
+    "הירח"
+   ],
+   "explain_he": "השדה המגנטי מסיט את החלקיקים. ליד הקטבים הם פוגעים באוויר הגבוה, ויוצרים את הזוהר הצפוני.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f6e14"
+  }
+ ]
+}

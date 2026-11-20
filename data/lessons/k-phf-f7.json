@@ -1,0 +1,478 @@
+{
+ "id": "k-phf-f7",
+ "unit_id": "k-phf-u3",
+ "course": "physics",
+ "title_he": "גלים וקול: מהאדווה ועד השופר",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "גלים וקול: מהאדווה ועד השופר",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "ripples",
+     "title_he": "אבן בכנרת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: The calm shore of the Kinneret in the morning: a boy with a kippah throws a pebble into the still water, circular ripples spread outward and a floating leaf bobs on them; fishing boats far away.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 🌊",
+     "say": [
+      "זרקו אבן קטנה למים שקטים בכנרת. מהמקום שבו היא נופלת יוצאים מעגלים, הולכים ומתרחבים. אלה גלים.",
+      "הסתכלו על עלה שצף במים. כשהגל עובר, העלה עולה ויורד, אבל כמעט לא מתקדם עם הגל!",
+      "זה הסוד של כל הגלים: גל מעביר אנרגיה ממקום למקום, אבל החומר עצמו כמעט לא עובר. המים רק עולים ויורדים במקום.",
+      "כמו ״גל״ באצטדיון: כל אחד קם ומתיישב במקומו, ובכל זאת הגל מקיף את כל היציע.",
+      "ויש גלים מכל הסוגים: גלי ים, גלי קול, רעידות באדמה, ואפילו האור. בשיעור הזה נתמקד בגל שאנחנו שומעים: הקול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sound",
+     "title_he": "קול הוא רעד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A boy with a kippah at his desk presses one end of a plastic ruler to the table and flicks the other end, which blurs as it vibrates; his other hand rests on his throat as he hums; a lamp and books.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "גם הקול הוא גל. שימו יד על הגרון ותגידו ״אאאא״. מרגישים רעד? מיתרי הקול רועדים, ודוחפים את האוויר.",
+      "נסו בבית: הצמידו סרגל לקצה השולחן, ותנו מכה לקצה השני. הוא רוטט ומזמזם. קצרו את החלק הבולט, והצליל נעשה גבוה יותר.",
+      "הרעד דוחף את מולקולות האוויר, הן דוחפות את השכנות שלהן, וכך הגל מתקדם עד האוזן. שם הוא מרעיד את עור התוף, והמוח שומע צליל.",
+      "בשנת 1660 שם המדען רוברט בויל פעמון בתוך צנצנת זכוכית ושאב ממנה את האוויר. הפעמון המשיך לנקוש, אבל הקול נעלם. בלי אוויר, אין מה שיישא את הקול."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "freq",
+     "title_he": "גבוה ונמוך, חזק וחלש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A music room in an Israeli school: a boy plays a violin, another plucks the thick strings of a cello, a small dog sits by the door with ears raised; warm wood tones and afternoon light.",
+     "move": "left",
+     "fx": "light",
+     "art": "🎻 👦 🐕",
+     "say": [
+      "לכל צליל יש שתי תכונות חשובות. הראשונה היא תדירות: כמה פעמים בשנייה האוויר רועד. ככל שהתדירות גבוהה יותר, הצליל גבוה יותר.",
+      "תדירות מודדים ב״הרץ״, על שם המדען הגרמני היינריך הרץ. הרץ אחד הוא רעידה אחת בשנייה. אוזן של ילד שומעת בערך מ־20 הרץ ועד 20,000 הרץ.",
+      "מיתר דק וקצר בכינור רועד מהר ונותן צליל גבוה. מיתר עבה וארוך בצ׳לו רועד לאט ונותן צליל נמוך.",
+      "התכונה השנייה היא משרעת: כמה חזק האוויר רועד. משרעת גדולה נותנת צליל חזק, ומשרעת קטנה צליל חלש. רעש חזק מדי מזיק לאוזניים, ולכן שומרים עליהן."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כלבים שומעים צלילים גבוהים מאוד שאנחנו לא שומעים, ולכן יש ״משרוקית כלבים״ שרק הם שומעים. ופילים מתקשרים בצלילים נמוכים מאוד, שעוברים קילומטרים."
+     }
+    },
+    {
+     "id": "speed",
+     "title_he": "כמה מהר הולך הקול?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A summer evening at the edge of an Israeli town: far away on a hill fireworks burst for Yom HaAtzmaut, and the two brothers on a rooftop see the flash before covering their ears; a crowd of families below.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🎆 👦 👦",
+     "say": [
+      "ביום העצמאות, מסתכלים על זיקוקים רחוקים. קודם רואים את ההבזק, ורק אחר כך שומעים את הבום. למה?",
+      "כי האור מהיר בערך מיליון פעמים מהקול. הקול באוויר עובר בערך 340 מטר בשנייה, כלומר בערך קילומטר בשלוש שניות.",
+      "וזה טריק נהדר לסערה: כשרואים ברק, סופרים שניות עד הרעם. כל שלוש שניות הן בערך קילומטר. ספרתם תשע שניות? הברק היה בערך שלושה קילומטרים מכם.",
+      "בנוזלים ובמוצקים הקול מהיר עוד יותר. במים הוא עובר בערך 1,500 מטר בשנייה, ובפלדה אפילו יותר מזה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "echo",
+     "title_he": "ההד במכתש רמון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: The edge of Makhtesh Ramon at sunrise: the two brothers stand at the cliff railing and call out with hands cupped around their mouths, the vast crater of colorful rock layers below; an ibex on a nearby rock.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👦 👦 🐐",
+     "say": [
+      "עמדו על שפת מכתש רמון וקראו בקול רם: ״הלו!״. אחרי רגע, הקול חוזר אליכם. זה הד.",
+      "ההד הוא קול שפוגע בקיר סלע ומוחזר אלינו, כמו כדור שפוגע בקיר וחוזר. כדי לשמוע הד נפרד, הקיר צריך להיות רחוק לפחות כ־17 מטר.",
+      "עטלפים משתמשים בהד כדי ״לראות״ בחושך. הם משמיעים צלילים גבוהים מאוד, ומקשיבים להדים שחוזרים מחרקים ומקירות. דולפינים עושים אותו דבר במים.",
+      "ובני אדם למדו מהם. ספינות משתמשות בסונאר כדי למדוד את עומק הים, וגם בבית החולים בודקים את פנים הגוף בגלי קול גבוהים מאוד, בבדיקת אולטרסאונד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "shofar",
+     "title_he": "הפיזיקה של השופר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A synagogue on Rosh Hashanah morning: a bearded man in a white kittel and tallit raises a long curved ram's horn shofar to his lips, men in tallitot and boys with kippot stand listening; soft light through high windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "בראש השנה כולנו עומדים בשקט ומקשיבים לשופר. ועכשיו נבין גם מה קורה בו מבחינה פיזיקלית.",
+      "בשופר אין מיתרים ואין לשונית. התוקע מצמיד את שפתיו לפתח הצר ומזמזם, והשפתיים עצמן רוטטות. השופר החלול מגביר רק צלילים מסוימים, אלה שמתאימים לאורך שלו.",
+      "כשהתוקע משנה את מתח השפתיים, הוא עובר מצליל נמוך לגבוה. כך יוצאים הקולות: תקיעה ארוכה ופשוטה, שלושה שברים, ותרועה של לפחות תשעה קולות קצרים.",
+      "וחז״ל דקדקו בקול השופר. במשנה נאמר שאם השופר ניקב וסתמו את החור, ״אם מעכב את התקיעה, פסול״. כלומר: אם התיקון שינה את הקול, השופר פסול."
+     ],
+     "pasuk": {
+      "text": "וַיְהִי קוֹל הַשֹּׁפָר הוֹלֵךְ וְחָזֵק מְאֹד",
+      "ref": "שמות יט, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Evening at home after the holiday: the boys sit with their grandfather, a white-bearded man with a kippah, who shows them how to hold an old shofar; a festive table with apples and honey.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👦",
+     "say": [
+      "אז מה למדנו? גל מעביר אנרגיה בלי להעביר חומר. הקול הוא רעד שעובר באוויר, ובלי אוויר אין קול.",
+      "תדירות קובעת אם הצליל גבוה או נמוך, ומשרעת קובעת אם הוא חזק או חלש. הקול עובר בערך קילומטר בשלוש שניות, וחוזר אלינו כהד.",
+      "וכשתשמעו את השופר בראש השנה, תדעו: השפתיים של התוקע רועדות, עמוד האוויר שבקרן מגביר את הצליל, וגל הקול עובר בכל בית הכנסת עד האוזן שלכם.",
+      "ובשיעור האחרון ניקח את כל מה שלמדנו, ונראה איך הוא מסתתר ביום אחד רגיל בחיים שלכם."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f7e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "גלים וקול: מהאדווה ועד השופר",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "ripples",
+     "title_he": "אבן בכנרת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: The calm shore of the Kinneret in the morning: a boy with a kippah throws a pebble into the still water, circular ripples spread outward and a floating leaf bobs on them; fishing boats far away.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 🌊",
+     "say": [
+      "זרקו אבן קטנה למים שקטים בכנרת. מהמקום שבו היא נופלת יוצאים מעגלים, הולכים ומתרחבים. אלה גלים.",
+      "הסתכלו על עלה שצף במים. כשהגל עובר, העלה עולה ויורד, אבל כמעט לא מתקדם עם הגל!",
+      "זה הסוד של כל הגלים: גל מעביר אנרגיה ממקום למקום, אבל החומר עצמו כמעט לא עובר. המים רק עולים ויורדים במקום.",
+      "כמו ״גל״ באצטדיון: כל אחד קם ומתיישב במקומו, ובכל זאת הגל מקיף את כל היציע.",
+      "ויש גלים מכל הסוגים: גלי ים, גלי קול, רעידות באדמה, ואפילו האור. בשיעור הזה נתמקד בגל שאנחנו שומעים: הקול.",
+      "לגל במים יש ״רכס״, הנקודה הגבוהה, ו״שקע״, הנקודה הנמוכה. המרחק מרכס לרכס הוא אורך הגל, וזמן של רעידה אחת שלמה נקרא ״זמן מחזור״.",
+      "ככל שזורקים אבן גדולה יותר, הגלים גבוהים יותר. כלומר, הם נושאים יותר אנרגיה. מיד נראה שגם לקול יש ״גובה גל״ כזה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sound",
+     "title_he": "קול הוא רעד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A boy with a kippah at his desk presses one end of a plastic ruler to the table and flicks the other end, which blurs as it vibrates; his other hand rests on his throat as he hums; a lamp and books.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦",
+     "say": [
+      "גם הקול הוא גל. שימו יד על הגרון ותגידו ״אאאא״. מרגישים רעד? מיתרי הקול רועדים, ודוחפים את האוויר.",
+      "נסו בבית: הצמידו סרגל לקצה השולחן, ותנו מכה לקצה השני. הוא רוטט ומזמזם. קצרו את החלק הבולט, והצליל נעשה גבוה יותר.",
+      "הרעד דוחף את מולקולות האוויר, הן דוחפות את השכנות שלהן, וכך הגל מתקדם עד האוזן. שם הוא מרעיד את עור התוף, והמוח שומע צליל.",
+      "בשנת 1660 שם המדען רוברט בויל פעמון בתוך צנצנת זכוכית ושאב ממנה את האוויר. הפעמון המשיך לנקוש, אבל הקול נעלם. בלי אוויר, אין מה שיישא את הקול.",
+      "לכן בחלל ובירח שקט גמור. אסטרונאוטים מדברים זה עם זה ברדיו, כי גלי רדיו, שהם סוג אחר של גל, יכולים לעבור גם בריק.",
+      "גל הקול הוא ״גל אורך״: האוויר נדחס ומתרווח לאורך הכיוון שבו הגל מתקדם. גלי המים, לעומת זאת, עולים ויורדים בניצב לכיוון ההתקדמות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "freq",
+     "title_he": "גבוה ונמוך, חזק וחלש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A music room in an Israeli school: a boy plays a violin, another plucks the thick strings of a cello, a small dog sits by the door with ears raised; warm wood tones and afternoon light.",
+     "move": "left",
+     "fx": "light",
+     "art": "🎻 👦 🐕",
+     "say": [
+      "לכל צליל יש שתי תכונות חשובות. הראשונה היא תדירות: כמה פעמים בשנייה האוויר רועד. ככל שהתדירות גבוהה יותר, הצליל גבוה יותר.",
+      "תדירות מודדים ב״הרץ״, על שם המדען הגרמני היינריך הרץ. הרץ אחד הוא רעידה אחת בשנייה. אוזן של ילד שומעת בערך מ־20 הרץ ועד 20,000 הרץ.",
+      "מיתר דק וקצר בכינור רועד מהר ונותן צליל גבוה. מיתר עבה וארוך בצ׳לו רועד לאט ונותן צליל נמוך.",
+      "התכונה השנייה היא משרעת: כמה חזק האוויר רועד. משרעת גדולה נותנת צליל חזק, ומשרעת קטנה צליל חלש. רעש חזק מדי מזיק לאוזניים, ולכן שומרים עליהן.",
+      "לכל גל יש גם אורך גל: המרחק בין דחיסה אחת לבאה. מהירות הגל שווה לתדירות כפול אורך הגל: v = f × λ. האות היוונית λ נקראת למדא.",
+      "נחשב: במהירות קול של 340 מטר לשנייה, צליל של 340 הרץ הוא באורך גל של מטר אחד. צליל של 3,400 הרץ? אורך הגל קטן פי עשרה, 10 סנטימטר בלבד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "כלבים שומעים צלילים גבוהים מאוד שאנחנו לא שומעים, ולכן יש ״משרוקית כלבים״ שרק הם שומעים. ופילים מתקשרים בצלילים נמוכים מאוד, שעוברים קילומטרים."
+     }
+    },
+    {
+     "id": "speed",
+     "title_he": "כמה מהר הולך הקול?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A summer evening at the edge of an Israeli town: far away on a hill fireworks burst for Yom HaAtzmaut, and the two brothers on a rooftop see the flash before covering their ears; a crowd of families below.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "🎆 👦 👦",
+     "say": [
+      "ביום העצמאות, מסתכלים על זיקוקים רחוקים. קודם רואים את ההבזק, ורק אחר כך שומעים את הבום. למה?",
+      "כי האור מהיר בערך מיליון פעמים מהקול. הקול באוויר עובר בערך 340 מטר בשנייה, כלומר בערך קילומטר בשלוש שניות.",
+      "וזה טריק נהדר לסערה: כשרואים ברק, סופרים שניות עד הרעם. כל שלוש שניות הן בערך קילומטר. ספרתם תשע שניות? הברק היה בערך שלושה קילומטרים מכם.",
+      "בנוזלים ובמוצקים הקול מהיר עוד יותר. במים הוא עובר בערך 1,500 מטר בשנייה, ובפלדה אפילו יותר מזה.",
+      "נחשב: ספרתם 6 שניות בין הברק לרעם. המרחק הוא d = v × t = 340 × 6, כלומר 2,040 מטר, בערך 2 קילומטר.",
+      "למה הקול מהיר יותר במים ובפלדה? כי החלקיקים שם קרובים זה לזה וקשורים חזק, ולכן כל אחד ״מעביר״ את הדחיפה לשכן שלו מהר יותר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "echo",
+     "title_he": "ההד במכתש רמון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: The edge of Makhtesh Ramon at sunrise: the two brothers stand at the cliff railing and call out with hands cupped around their mouths, the vast crater of colorful rock layers below; an ibex on a nearby rock.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👦 👦 🐐",
+     "say": [
+      "עמדו על שפת מכתש רמון וקראו בקול רם: ״הלו!״. אחרי רגע, הקול חוזר אליכם. זה הד.",
+      "ההד הוא קול שפוגע בקיר סלע ומוחזר אלינו, כמו כדור שפוגע בקיר וחוזר. כדי לשמוע הד נפרד, הקיר צריך להיות רחוק לפחות כ־17 מטר.",
+      "עטלפים משתמשים בהד כדי ״לראות״ בחושך. הם משמיעים צלילים גבוהים מאוד, ומקשיבים להדים שחוזרים מחרקים ומקירות. דולפינים עושים אותו דבר במים.",
+      "ובני אדם למדו מהם. ספינות משתמשות בסונאר כדי למדוד את עומק הים, וגם בבית החולים בודקים את פנים הגוף בגלי קול גבוהים מאוד, בבדיקת אולטרסאונד.",
+      "איך מודדים עומק בסונאר? אם ההד חוזר אחרי שתי שניות, הקול עבר שתי שניות הלוך וחזור. במהירות של 1,500 מטר לשנייה, זה 3,000 מטר הלוך וחזור, והעומק הוא 1,500 מטר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "shofar",
+     "title_he": "הפיזיקה של השופר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A synagogue on Rosh Hashanah morning: a bearded man in a white kittel and tallit raises a long curved ram's horn shofar to his lips, men in tallitot and boys with kippot stand listening; soft light through high windows.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👨 👦",
+     "say": [
+      "בראש השנה כולנו עומדים בשקט ומקשיבים לשופר. ועכשיו נבין גם מה קורה בו מבחינה פיזיקלית.",
+      "בשופר אין מיתרים ואין לשונית. התוקע מצמיד את שפתיו לפתח הצר ומזמזם, והשפתיים עצמן רוטטות. השופר החלול מגביר רק צלילים מסוימים, אלה שמתאימים לאורך שלו.",
+      "כשהתוקע משנה את מתח השפתיים, הוא עובר מצליל נמוך לגבוה. כך יוצאים הקולות: תקיעה ארוכה ופשוטה, שלושה שברים, ותרועה של לפחות תשעה קולות קצרים.",
+      "וחז״ל דקדקו בקול השופר. במשנה נאמר שאם השופר ניקב וסתמו את החור, ״אם מעכב את התקיעה, פסול״. כלומר: אם התיקון שינה את הקול, השופר פסול.",
+      "בהר סיני, אומרת התורה, ״קול השופר הולך וחזק מאוד״. רש״י מסביר שזה היה פלא: מנהג העולם שמי שמאריך לתקוע, קולו נחלש והולך. אבל כאן הוא הלך והתחזק.",
+      "בלשון של פיזיקה: אצל תוקע אנושי, הנשימה נגמרת והמשרעת קטנה. בהר סיני הקול גבר מרגע לרגע, נגד הטבע הרגיל."
+     ],
+     "pasuk": {
+      "text": "וַיְהִי קוֹל הַשֹּׁפָר הוֹלֵךְ וְחָזֵק מְאֹד",
+      "ref": "שמות יט, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Evening at home after the holiday: the boys sit with their grandfather, a white-bearded man with a kippah, who shows them how to hold an old shofar; a festive table with apples and honey.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👴 👦 👦",
+     "say": [
+      "אז מה למדנו? גל מעביר אנרגיה בלי להעביר חומר. הקול הוא רעד שעובר באוויר, ובלי אוויר אין קול.",
+      "תדירות קובעת אם הצליל גבוה או נמוך, ומשרעת קובעת אם הוא חזק או חלש. הקול עובר בערך קילומטר בשלוש שניות, וחוזר אלינו כהד.",
+      "וכשתשמעו את השופר בראש השנה, תדעו: השפתיים של התוקע רועדות, עמוד האוויר שבקרן מגביר את הצליל, וגל הקול עובר בכל בית הכנסת עד האוזן שלכם.",
+      "ובשיעור האחרון ניקח את כל מה שלמדנו, ונראה איך הוא מסתתר ביום אחד רגיל בחיים שלכם.",
+      "ונזכור גם, שאת ״קול השופר ההולך וחזק״ של הר סיני אין פיזיקה שמסבירה. שם השתנה הטבע עצמו, ביום שבו ניתנה התורה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "עלה צף במים, וגל עובר. מה קורה לעלה?",
+   "answer": "הוא עולה ויורד, אבל כמעט לא מתקדם",
+   "options": [
+    "הוא עולה ויורד, אבל כמעט לא מתקדם",
+    "הוא נסחף עם הגל עד החוף",
+    "הוא שוקע מיד"
+   ],
+   "explain_he": "גל מעביר אנרגיה, אבל החומר עצמו כמעט לא עובר. המים והעלה רק עולים ויורדים במקום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "עלה צף במים, וגל עובר. מה קורה לעלה?",
+   "answer": "הוא עולה ויורד, אבל כמעט לא מתקדם",
+   "options": [
+    "הוא עולה ויורד, אבל כמעט לא מתקדם",
+    "הוא נסחף עם הגל עד החוף",
+    "הוא שוקע מיד"
+   ],
+   "explain_he": "גל מעביר אנרגיה, אבל החומר עצמו כמעט לא עובר. המים והעלה רק עולים ויורדים במקום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הראה רוברט בויל עם הפעמון בצנצנת?",
+   "answer": "שבלי אוויר הקול לא עובר",
+   "options": [
+    "שבלי אוויר הקול לא עובר",
+    "שפעמון שוקל יותר בלי אוויר",
+    "שהקול עובר מהר יותר בלי אוויר"
+   ],
+   "explain_he": "הפעמון המשיך לנקוש, אבל הקול נעלם. בלי אוויר אין מה שיישא את גל הקול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה הראה רוברט בויל עם הפעמון בצנצנת?",
+   "answer": "שבלי אוויר הקול לא עובר",
+   "options": [
+    "שבלי אוויר הקול לא עובר",
+    "שפעמון שוקל יותר בלי אוויר",
+    "שהקול עובר מהר יותר בלי אוויר"
+   ],
+   "explain_he": "הפעמון המשיך לנקוש, אבל הקול נעלם. בלי אוויר אין מה שיישא את גל הקול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "רואים ברק, וסופרים תשע שניות עד הרעם. כמה רחוק הברק, בערך?",
+   "answer": "בערך שלושה קילומטרים",
+   "options": [
+    "בערך שלושה קילומטרים",
+    "בערך תשעה קילומטרים",
+    "בערך מאה מטר"
+   ],
+   "explain_he": "הקול עובר בערך קילומטר בשלוש שניות. תשע שניות הן בערך שלושה קילומטרים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "רואים ברק, וסופרים תשע שניות עד הרעם. כמה רחוק הברק, בערך?",
+   "answer": "בערך שלושה קילומטרים",
+   "options": [
+    "בערך שלושה קילומטרים",
+    "בערך תשעה קילומטרים",
+    "בערך מאה מטר"
+   ],
+   "explain_he": "הקול עובר בערך קילומטר בשלוש שניות. תשע שניות הן בערך שלושה קילומטרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f7e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קובעת התדירות של צליל?",
+   "answer": "אם הצליל גבוה או נמוך",
+   "options": [
+    "אם הצליל גבוה או נמוך",
+    "אם הצליל חזק או חלש",
+    "כמה רחוק הצליל מגיע"
+   ],
+   "explain_he": "ככל שהאוויר רועד יותר פעמים בשנייה, הצליל גבוה יותר. העוצמה תלויה במשרעת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f7e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך עטלפים מוצאים חרקים בחושך?",
+   "answer": "הם משמיעים צלילים גבוהים ומקשיבים להד",
+   "options": [
+    "הם משמיעים צלילים גבוהים ומקשיבים להד",
+    "הם רואים היטב בחושך בעזרת אור",
+    "הם מריחים את החרקים מקילומטרים"
+   ],
+   "explain_he": "העטלף מקשיב להדים שחוזרים מהחרקים ומהקירות, וכך יודע איפה הם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f7e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהירות הקול 340 מטר לשנייה. מה אורך הגל של צליל של 340 הרץ?",
+   "answer": "מטר אחד",
+   "options": [
+    "מטר אחד",
+    "340 מטר",
+    "10 סנטימטר"
+   ],
+   "explain_he": "λ = v ÷ f = 340 ÷ 340 = 1 מטר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f7e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "סונאר שולח צליל, וההד חוזר אחרי 2 שניות. מהירות הקול במים 1,500 מטר לשנייה. מה העומק?",
+   "answer": "1,500 מטר",
+   "options": [
+    "1,500 מטר",
+    "3,000 מטר",
+    "750 מטר"
+   ],
+   "explain_he": "בשתי שניות הקול עבר 3,000 מטר הלוך וחזור. העומק הוא חצי מזה: 1,500 מטר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f7e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי רש״י, מה היה מיוחד בקול השופר בהר סיני?",
+   "answer": "הקול הלך והתחזק, בניגוד לשופר רגיל שקולו נחלש",
+   "options": [
+    "הקול הלך והתחזק, בניגוד לשופר רגיל שקולו נחלש",
+    "הוא נשמע רק לכהנים",
+    "הוא היה נמוך מאוד"
+   ],
+   "explain_he": "אצל תוקע רגיל הקול נחלש ככל שמאריכים. בהר סיני הוא הלך וחזק מאוד, נגד הטבע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f7e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הקול מהיר יותר בפלדה מאשר באוויר?",
+   "answer": "כי החלקיקים בפלדה קרובים וקשורים חזק, ומעבירים את הדחיפה מהר",
+   "options": [
+    "כי החלקיקים בפלדה קרובים וקשורים חזק, ומעבירים את הדחיפה מהר",
+    "כי פלדה חמה יותר מאוויר",
+    "כי בפלדה אין חלקיקים בכלל"
+   ],
+   "explain_he": "בחומר מוצק החלקיקים קשורים זה לזה היטב, וכל דחיפה עוברת לשכן מהר יותר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f7e14"
+  }
+ ]
+}
