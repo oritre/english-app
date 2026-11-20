@@ -1,0 +1,293 @@
+{
+ "id": "k-raf-f3",
+ "unit_id": "k-raf-u2",
+ "course": "radiation",
+ "title_he": "מיקרוגל ואינפרה־אדום: הגלים של החום",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌈 ידע כללי",
+   "title_he": "מיקרוגל ואינפרה־אדום: הגלים של החום",
+   "ref_he": "מסע אל הקרינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "wintersun",
+     "title_he": "שמש של חורף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. Scene: A cold clear winter morning in Jerusalem: the boy in a warm sweater over his tzitzit sits on a stone bench with his face turned toward the low sun, eyes closed, smiling; his breath visible, stone walls glowing gold.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 ☀️",
+     "say": [
+      "בוקר קר של חורף בירושלים. האוויר קפוא, אבל אתם עומדים בשמש, ומרגישים חום נעים על הפנים.",
+      "רגע, איך החום הזה הגיע אלינו? בין השמש לכדור הארץ יש כמעט ריק מוחלט, מאה וחמישים מיליון קילומטר בלי אוויר. החום לא יכול היה ״לזרום״ דרך האוויר.",
+      "החום הגיע אלינו כקרינה, בגלים אלקטרומגנטיים. חלק גדול ממנו הגיע באור שאנחנו רואים, וחלק גדול באור שאנחנו לא רואים: אינפרה־אדום.",
+      "למעשה, בערך מחצית מהאנרגיה של השמש שמגיעה אל הקרקע היא אינפרה־אדום. בשיעור הזה נכיר אותו, ואת השכן שלו בספקטרום, המיקרוגל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "herschel",
+     "title_he": "המדחום שמעבר לאדום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: England in the year 1800: an older astronomer in a dark coat and white neckcloth places small glass thermometers in the rainbow band of colors cast by a prism onto a table, one thermometer beyond the red end in the dark; a window with sunlight.",
+     "move": "right",
+     "fx": "light",
+     "art": "👴",
+     "say": [
+      "בשנת 1800 שאל האסטרונום ויליאם הרשל שאלה פשוטה: האם כל הצבעים באור השמש חמים באותה מידה?",
+      "הוא פיצל אור שמש במנסרה, והניח מדחום בכל צבע. הוא מצא שהטמפרטורה עולה מהסגול אל האדום.",
+      "ואז, מתוך סקרנות, הניח מדחום גם מעבר לאדום, באזור שנראה חשוך לגמרי. והמדחום הזה עלה הכי הרבה!",
+      "הרשל הבין שיש שם קרינה שהעין לא רואה, אבל היא מחממת. היום קוראים לה אינפרה־אדום, כלומר ״מתחת לאדום״, כי התדירות שלה נמוכה מזו של האור האדום, ואורך הגל שלה ארוך יותר.",
+      "זו הייתה הפעם הראשונה שבני אדם גילו קרינה בלתי נראית. מאז התברר שהספקטרום ענק, ושהעין רואה רק חלק קטן ממנו."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ויליאם הרשל היה גם אסטרונום גדול, וגילה את כוכב הלכת אורנוס בשנת 1781. את טלסקופי הענק שלו בנה בעצמו."
+     }
+    },
+    {
+     "id": "glow",
+     "title_he": "כל דבר חם מקרין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A blacksmith's forge at dusk: an iron bar heated in the coals glows deep red at one end and orange-yellow at its hottest point, the smith with a beard and leather apron holding it with long tongs; dark workshop around.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "והנה גילוי מפתיע: כל גוף שיש לו חום מקרין אינפרה־אדום. האדמה, הקירות, החתול, ואתם. הגוף שלכם, בחום של 37 מעלות, ״זוהר״ כל הזמן באינפרה־אדום. רק שהעין לא רואה את זה.",
+      "ככל שגוף חם יותר, הוא מקרין יותר, ובאורכי גל קצרים יותר. מוט ברזל שמחממים מאוד מתחיל לזהור באדום כהה, אחר כך בכתום, ובחום גבוה מאוד בצהוב ולבן.",
+      "השמש, שפני השטח שלה חמים בערך 5,500 מעלות, מקרינה בעיקר אור נראה. האש בנר מקרינה אור, והרבה אינפרה־אדום.",
+      "לכן כשמחזיקים יד ליד תנור דולק בלי לגעת, מרגישים חום. זו קרינה שעוברת מהתנור ישר אל היד.",
+      "ומדחום אוזן, שמודד חום אצל רופא הילדים בשנייה אחת? הוא לא נוגע בכלום. הוא פשוט מודד כמה אינפרה־אדום מקרינה עור התוף שבאוזן, ומחשב ממנו את חום הגוף.",
+      "ושמיכת חילוץ כסופה ודקה, כמו שיש בערכות עזרה ראשונה, שומרת על חום הגוף, כי היא מחזירה אליו את האינפרה־אדום שהוא מקרין."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "thermal",
+     "title_he": "מצלמה שרואה חום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A night search in the rocky Judean desert: a rescue team in reflective jackets and helmets uses a handheld thermal camera, its screen glowing with a warm orange shape of a lost hiker sitting behind a boulder; stars overhead.",
+     "move": "left",
+     "fx": "night",
+     "art": "👨 👨 🪨",
+     "say": [
+      "מצלמה תרמית היא מצלמה שרואה אינפרה־אדום. במקום צבעים רגילים, היא מראה חום. גוף חם נראה בה בהיר, וגוף קר נראה כהה.",
+      "בלילה חשוך, במדבר, מטייל שאבד יושב מאחורי סלע. בעין לא רואים אותו. אבל במצלמה תרמית, גוף האדם החם בולט כמו נורה על רקע הסלעים שהתקררו.",
+      "צוותי חילוץ בישראל, ובהם המשלחות של ישראל שיוצאות לעזור באזורי אסון ורעידות אדמה בעולם, משתמשים במצלמות כאלה כדי למצוא לכודים מתחת להריסות.",
+      "גם כבאים משתמשים בהן כדי לראות דרך עשן, וגם חוקרי טבע, כדי לצפות בחיות לילה בלי להפריע להן.",
+      "ויש בעלי חיים שהרגישות שלהם לחום מפליאה. יתושים, למשל, מוצאים אותנו בלילה גם בעזרת החום שגופנו מקרין, וגם בעזרת הנשימה שלנו.",
+      "זה יפה במיוחד: קרינה שאף אחד לא ראה עד שנת 1800 עוזרת היום להציל חיים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "remote",
+     "title_he": "השלט הרחוק",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: An Israeli living room in the evening: the girl points a TV remote control at her phone's camera and looks at the phone screen with surprise; the boy leans over her shoulder; a sofa and a bookshelf with seforim.",
+     "move": "in",
+     "fx": "light",
+     "art": "👧 👦 🏠",
+     "say": [
+      "גם בשלט הרחוק של המזגן או הטלוויזיה יש אינפרה־אדום. בקצה השלט יש נורה זעירה, שמהבהבת באינפרה־אדום בקצב מהיר, כמו קוד.",
+      "כל כפתור שולח רצף הבהובים אחר, והמכשיר ״קורא״ את הרצף ומבין: להדליק, להגביר או להחליף.",
+      "נסו בבית: כוונו את השלט אל המצלמה של טלפון, ולחצו על כפתור. בהרבה טלפונים, ובעיקר במצלמה הקדמית, תראו על המסך הבהוב סגלגל, שבעין רגילה לא רואים!",
+      "החיישן של המצלמה רגיש מעט גם לאינפרה־אדום הקרוב לאדום, ולכן הוא ״רואה״ את מה שנסתר מאיתנו.",
+      "והשלט לא עובר דרך קירות. האינפרה־אדום שלו נבלע ומוחזר כמו אור, ולכן צריך לכוון אותו אל המכשיר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "desertnight",
+     "title_he": "למה לילות המדבר קרים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A clear night in the Negev desert near Mitzpe Ramon: a family in warm modest clothing sits by a tent under a sky full of stars, dew drops glistening on desert plants in the foreground, the cliffs of the crater faintly visible.",
+     "move": "up",
+     "fx": "stars",
+     "art": "⛺ 👨 👦 👧",
+     "say": [
+      "מי שישן פעם במדבר יודע: היום חם מאוד, אבל הלילה קר להפתיע. למה?",
+      "כל הזמן, גם בלילה, האדמה מקרינה אינפרה־אדום אל השמיים, ומאבדת חום. בלילה בהיר, בלי עננים, הקרינה הזאת בורחת ישר החוצה, והאדמה מתקררת מהר.",
+      "בלילה מעונן, העננים בולעים חלק מהקרינה ומחזירים אותה למטה. לכן לילות מעוננים בחורף הם בדרך כלל פחות קרים מלילות בהירים.",
+      "וזו גם הסיבה לטל. בלילה בהיר, עלים ואבנים מתקררים מהקרינה מתחת לטמפרטורת האוויר, והאדים שבאוויר מתעבים עליהם לטיפות קטנות.",
+      "בתפילה אנחנו מזכירים את הטל בכל יום בקיץ, ״מוריד הטל״. ועכשיו אפשר להבין גם את הפיזיקה של כל טיפה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "micro",
+     "title_he": "המיקרוגל: בין רדיו לחום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A wide scene: on one side an Israeli kitchen with a microwave oven warming a bowl of soup, on the other through the window a weather radar dome on a distant hill and an airplane in the sky; evening light.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 ✈️",
+     "say": [
+      "בין גלי הרדיו לבין האינפרה־אדום נמצאים המיקרוגלים. אורך הגל שלהם הוא בערך ממילימטר ועד כמה עשרות סנטימטרים.",
+      "בתנור המיקרוגל, גלים בתדר של 2.45 ג׳יגה־הרץ גורמים למולקולות המים שבמזון להסתובב הלוך ושוב מיליארדי פעמים בשנייה. החיכוך ביניהן מחמם את המזון מבפנים. בסרטון של הקורס אפשר ללמוד על זה עוד.",
+      "הדלת של התנור מכוסה רשת מתכת עם חורים קטנים. החורים קטנים בהרבה מאורך הגל, ולכן המיקרוגלים לא יוצאים, אבל האור הנראה, שאורך הגל שלו זעיר, עובר ואפשר להסתכל פנימה.",
+      "מיקרוגלים משמשים גם במכ״ם. המכ״ם שולח גלים, ומקשיב להד שחוזר ממטוסים, מספינות או מטיפות גשם. כך החזאים רואים איפה יורד גשם ולאן הוא נע.",
+      "ושימו לב: זה בדיוק כמו העטלף עם גלי הקול, רק בגלים אלקטרומגנטיים.",
+      "ומכ״ם התנועה ליד הכביש? גם הוא שולח מיקרוגלים אל המכוניות. לפי השינוי הקטן בתדירות של הגל שחוזר, הוא יודע כמה מהר נוסעת כל מכונית."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "את תנור המיקרוגל גילה בשנת 1945 המהנדס האמריקאי פרסי ספנסר, כשעבד ליד מכשיר מכ״ם ושם לב שחטיף שוקולד בכיס שלו נמס."
+     }
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A family evening around a small campfire in the Negev, everyone in warm modest clothing: the father with a kippah adds a branch, the children hold their hands toward the warm glow, a dark sky full of stars above the desert hills.",
+     "move": "out",
+     "fx": "stars",
+     "art": "👨 👦 👧 🔥",
+     "say": [
+      "אז מה למדנו? מעבר לאדום יש אינפרה־אדום, קרינה של חום, שגילה הרשל בשנת 1800 בעזרת מדחום.",
+      "כל גוף חם מקרין אינפרה־אדום, ובזכות זה מצלמה תרמית מוצאת מטיילים שאבדו, והשלט הרחוק מדבר עם המזגן.",
+      "המיקרוגלים נמצאים בין הרדיו לאינפרה־אדום. הם מחממים את המרק, ובמכ״ם הם רואים גשם ומטוסים.",
+      "וכשאתם יושבים ליד מדורה ומרגישים את החום על הידיים, תזכרו: זו קרינה, שעוברת אליכם במהירות האור. ובשיעור הבא נגיע אל החלק הקטן והיפה ביותר בספקטרום: האור שאנחנו רואים, והצבעים."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-raf-f3e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה הרשל כשהניח מדחום מעבר לצבע האדום?",
+   "answer": "שהמדחום עלה, כי יש שם קרינה בלתי נראית שמחממת",
+   "options": [
+    "שהמדחום עלה, כי יש שם קרינה בלתי נראית שמחממת",
+    "שהמדחום ירד מתחת לאפס",
+    "שאין שם שום קרינה"
+   ],
+   "explain_he": "המדחום שבאזור החשוך עלה הכי הרבה. כך התגלתה קרינת האינפרה־אדום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מגיע אלינו חום השמש, אם בדרך יש ריק בלי אוויר?",
+   "answer": "בקרינה של גלים אלקטרומגנטיים",
+   "options": [
+    "בקרינה של גלים אלקטרומגנטיים",
+    "בזרם של אוויר חם",
+    "דרך העננים בלבד"
+   ],
+   "explain_he": "קרינה אלקטרומגנטית עוברת גם בריק. חום השמש מגיע כאור נראה וכאינפרה־אדום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מוט ברזל מתחמם יותר ויותר. מה קורה לאור שהוא מקרין?",
+   "answer": "הוא זוהר באדום, אחר כך בכתום ובצהוב, כי אורך הגל מתקצר",
+   "options": [
+    "הוא זוהר באדום, אחר כך בכתום ובצהוב, כי אורך הגל מתקצר",
+    "הוא מקרין רק גלי רדיו",
+    "הוא מפסיק להקרין"
+   ],
+   "explain_he": "ככל שגוף חם יותר, הוא מקרין יותר ובאורכי גל קצרים יותר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מצלמה תרמית מוצאת מטייל שאבד בלילה במדבר?",
+   "answer": "כי הגוף החם שלו מקרין יותר אינפרה־אדום מהסלעים שהתקררו",
+   "options": [
+    "כי הגוף החם שלו מקרין יותר אינפרה־אדום מהסלעים שהתקררו",
+    "כי היא מאירה את המדבר באור חזק",
+    "כי היא שומעת את קולו"
+   ],
+   "explain_he": "המצלמה רואה חום. גוף האדם החם בולט על רקע הסלעים הקרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה המיקרוגלים לא יוצאים מהחורים ברשת שבדלת התנור, אבל האור כן?",
+   "answer": "כי החורים קטנים מאורך הגל של המיקרוגל, אבל גדולים מאורך הגל של האור",
+   "options": [
+    "כי החורים קטנים מאורך הגל של המיקרוגל, אבל גדולים מאורך הגל של האור",
+    "כי הרשת עשויה זכוכית",
+    "כי האור מהיר יותר מהמיקרוגל"
+   ],
+   "explain_he": "אורך הגל של המיקרוגל הוא סנטימטרים, ושל האור זעיר. החורים חוסמים את הגל הארוך ומעבירים את הקצר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "איך מכ״ם של מזג אוויר יודע איפה יורד גשם?",
+   "answer": "הוא שולח מיקרוגלים ומקשיב להד שחוזר מטיפות הגשם",
+   "options": [
+    "הוא שולח מיקרוגלים ומקשיב להד שחוזר מטיפות הגשם",
+    "הוא מצלם את העננים באור רגיל",
+    "הוא מודד את הרוח בלבד"
+   ],
+   "explain_he": "כמו עטלף עם קול: הגלים מוחזרים מהטיפות, ולפי ההד יודעים איפה הגשם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לילה בהיר במדבר קר יותר מלילה מעונן?",
+   "answer": "כי בלי עננים האינפרה־אדום של האדמה בורח ישר לשמיים",
+   "options": [
+    "כי בלי עננים האינפרה־אדום של האדמה בורח ישר לשמיים",
+    "כי בלילה בהיר הירח מקרר את האדמה",
+    "כי העננים מייצרים חום בעצמם"
+   ],
+   "explain_he": "העננים בולעים חלק מהקרינה של האדמה ומחזירים אותה. בלילה בהיר היא בורחת, והאדמה מתקררת מהר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אפשר לראות כשמכוונים שלט רחוק למצלמת טלפון ולוחצים?",
+   "answer": "הבהוב קטן שהעין לא רואה",
+   "options": [
+    "הבהוב קטן שהעין לא רואה",
+    "קשת בענן",
+    "שום דבר, כי השלט עובד בקול"
+   ],
+   "explain_he": "החיישן של המצלמה רגיש מעט לאינפרה־אדום, ולכן הוא ״רואה״ את ההבהוב של השלט.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f3e9"
+  }
+ ]
+}

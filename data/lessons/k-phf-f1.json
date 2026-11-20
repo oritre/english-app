@@ -1,0 +1,495 @@
+{
+ "id": "k-phf-f1",
+ "unit_id": "k-phf-u1",
+ "course": "physics",
+ "title_he": "כוח ותנועה: שלושת החוקים של ניוטון",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "כוח ותנועה: שלושת החוקים של ניוטון",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "bus",
+     "title_he": "בלימה באוטובוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Inside a city bus in Jerusalem in the morning: the bus brakes suddenly and the two brothers, standing and holding a pole, lean forward; schoolbags swing forward; other passengers in modest clothes grab handles.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "בוקר רגיל, באוטובוס בדרך לבית הספר. פתאום הנהג בולם חזק. מה קורה לכם? הגוף שלכם נזרק קדימה!",
+      "אבל רגע, אף אחד לא דחף אתכם קדימה. האוטובוס עצר, ואתם פשוט המשכתם לנוע.",
+      "ולמה כשהאוטובוס מתחיל לנסוע, אתם נופלים דווקא אחורה? ולמה קשה יותר לדחוף עגלה מלאה בסופר מעגלה ריקה?",
+      "על כל השאלות האלה עונים שלושה חוקים פשוטים ומדויקים, שכתב לפני יותר משלוש מאות שנה מדען בשם אייזק ניוטון. היום נלמד אותם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "galileo",
+     "title_he": "גלילאו והכדורים המתגלגלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: An Italian workshop around the year 1600: a bearded scholar in a dark long coat lets a bronze ball roll down a long smooth wooden ramp, an assistant watches; candles, wooden tools, morning light through a window.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👨",
+     "say": [
+      "במשך אלפיים שנה אנשים חשבו שכל דבר שזז נעצר מעצמו. זה גם מה שאנחנו רואים: כדור שבועטים בו מתגלגל, ובסוף נעצר.",
+      "בסביבות שנת 1600 בדק את זה באיטליה מדען בשם גלילאו גליליי. הוא גלגל כדורים על מסילות עץ חלקות, ושם לב לדבר מעניין.",
+      "ככל שהמשטח חלק יותר, הכדור מתגלגל רחוק יותר. על שטיח הוא נעצר מהר, על רצפה חלקה הוא ממשיך הרבה יותר.",
+      "גלילאו הבין: הכדור לא נעצר מעצמו. משהו עוצר אותו, והמשהו הזה הוא כוח החיכוך. אילו לא היה חיכוך בכלל, הכדור היה ממשיך לנוע לעולם."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דיסקית הוקי על קרח מחליקה למרחק גדול מאוד, כי לקרח החלק יש מעט מאוד חיכוך. זה הכי קרוב שאפשר לראות על כדור הארץ לתנועה בלי כוח שעוצר."
+     }
+    },
+    {
+     "id": "newton1",
+     "title_he": "החוק הראשון: התמדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: England, 1680s: a thoughtful man with long wavy hair in a dark 17th-century coat writes with a quill at a desk covered with papers and a small glass prism, a candle burning; a bookcase behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "באנגליה חי אייזק ניוטון. בשנת 1687 הוא פרסם ספר גדול, ובו שלושה חוקי תנועה. החוק הראשון נקרא חוק ההתמדה.",
+      "הוא אומר כך: גוף שעומד במקום ימשיך לעמוד, וגוף שנע ימשיך לנוע באותה מהירות ובאותו כיוון, כל עוד לא פועל עליו כוח שמשנה את זה.",
+      "עכשיו אפשר להבין את האוטובוס. כשהאוטובוס בולם, הגוף שלכם ״מתמיד״ בתנועה וממשיך קדימה. בגלל זה חגורת בטיחות כל כך חשובה: היא הכוח שעוצר אתכם יחד עם המכונית.",
+      "נסו בבית: הניחו כרטיס על כוס, ומטבע על הכרטיס. העיפו את הכרטיס בתנועה מהירה של האצבע הצידה. הכרטיס עף, והמטבע? הוא ״מתמיד״ במקומו ונופל ישר לתוך הכוס."
+     ],
+     "pasuk": {
+      "text": "אם ראיתי רחוק יותר, הרי זה משום שעמדתי על כתפי ענקים",
+      "ref": "אייזק ניוטון, מכתב, 1675"
+     },
+     "note": null
+    },
+    {
+     "id": "force",
+     "title_he": "מה זה כוח?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Scene: A schoolyard in an Israeli town at recess: boys with kippot play tug of war with a thick rope, both teams leaning back and the rope not moving; a teacher watches smiling; palm trees and a stone wall.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👦 👦 👦 👦",
+     "say": [
+      "אז מה זה בעצם כוח? בפיזיקה, כוח הוא דחיפה או משיכה. כשאתם פותחים דלת, בועטים בכדור או מרימים תיק, אתם מפעילים כוח.",
+      "כוח מודדים ביחידה שנקראת ניוטון, על שם אייזק ניוטון. כדי להחזיק תפוח קטן ביד, היד שלכם מפעילה כוח של בערך ניוטון אחד.",
+      "לכוח יש גם גודל וגם כיוון. בתחרות משיכת חבל, שתי הקבוצות מושכות חזק, אבל לכיוונים הפוכים.",
+      "אם הן מושכות בדיוק באותה עוצמה, הכוחות מאזנים זה את זה, והחבל לא זז. רק כשקבוצה אחת מושכת חזק יותר, החבל מתחיל לנוע."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "fma",
+     "title_he": "החוק השני: F = m × a",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli supermarket aisle: the younger brother easily pushes an empty shopping cart while the older brother strains to push a cart heavy with water bottles and sacks of flour; shelves of food, bright light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "בסופר, עגלה ריקה זזה מדחיפה קטנה. עגלה מלאה בבקבוקי מים צריכה דחיפה חזקה הרבה יותר כדי לזוז באותה מהירות.",
+      "זה החוק השני של ניוטון. ככל שהכוח גדול יותר, הגוף מאיץ יותר. וככל שהגוף כבד יותר, כלומר יש לו יותר מסה, קשה יותר להאיץ אותו.",
+      "ניוטון כתב את זה בנוסחה קצרה: F = m × a. האות F היא הכוח, m היא המסה, ו־a היא התאוצה, כלומר כמה מהר משתנה המהירות.",
+      "וזו הסיבה שמשאית כבדה צריכה מרחק גדול כל כך כדי לבלום. יש לה מסה עצומה, ולכן גם בלמים חזקים משנים את מהירותה לאט."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המילה ״תאוצה״ פירושה שינוי במהירות. גם בלימה היא תאוצה, רק בכיוון ההפוך לתנועה, וגם פנייה בסיבוב היא תאוצה, כי כיוון התנועה משתנה."
+     }
+    },
+    {
+     "id": "action",
+     "title_he": "החוק השלישי: פעולה ותגובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The Kinneret on a calm afternoon: a boy with a kippah jumps from a small wooden rowboat onto a jetty, and the boat drifts backwards; green hills of the Golan across the water, gentle ripples.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "קפצתם פעם מסירה קטנה אל המזח? אתם קופצים קדימה, והסירה בורחת לכם אחורה.",
+      "זה החוק השלישי של ניוטון: כשגוף אחד מפעיל כוח על גוף שני, הגוף השני מפעיל עליו כוח שווה בגודלו והפוך בכיוונו.",
+      "הרגליים שלכם דוחפות את הסירה אחורה, והסירה דוחפת אתכם קדימה. כך גם בבריכה: אתם דוחפים את המים אחורה בידיים, והמים דוחפים אתכם קדימה.",
+      "נסו בבית: נפחו בלון ושחררו אותו בלי לקשור. האוויר נדחף החוצה לכיוון אחד, והבלון טס לכיוון ההפוך. כך בדיוק עובדת גם רקטה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kick",
+     "title_he": "שלושת החוקים בבעיטה אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A small football pitch next to an Israeli school at noon: a boy with a kippah kicks a ball which flies forward, his friends running; a goal net, a blue sky and a few eucalyptus trees.",
+     "move": "up",
+     "fx": "dust",
+     "art": "👦 👦",
+     "say": [
+      "עכשיו בואו נראה את שלושת החוקים בבעיטה אחת בהפסקה.",
+      "הכדור מונח על הדשא ולא זז: חוק ראשון, אין כוח שמשנה את מצבו. הרגל פוגעת בו: חוק שני, כוח גדול נותן לו תאוצה גדולה.",
+      "ובאותו רגע הכדור לוחץ בחזרה על הרגל, ולכן מרגישים אותו: חוק שלישי. ואחרי שהכדור עף, החיכוך עם הדשא והאוויר מאטים אותו עד שהוא נעצר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Late afternoon in an Israeli living room: the two brothers sit at a table with a coin, a cup, a balloon and a toy car, laughing as they try the experiments; warm light through a window.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 👦 👦",
+     "say": [
+      "אז מה למדנו? כוח הוא דחיפה או משיכה, ונמדד בניוטון.",
+      "החוק הראשון: בלי כוח, גוף שומר על התנועה שלו. החוק השני: F = m × a. החוק השלישי: לכל פעולה יש תגובה שווה והפוכה.",
+      "בפעם הבאה שתיסעו באוטובוס, תחשבו על ניוטון, ותחגרו חגורה. ובשיעור הבא נגלה את הכוח שכולנו מרגישים כל רגע: כוח המשיכה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f1e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "כוח ותנועה: שלושת החוקים של ניוטון",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "bus",
+     "title_he": "בלימה באוטובוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Inside a city bus in Jerusalem in the morning: the bus brakes suddenly and the two brothers, standing and holding a pole, lean forward; schoolbags swing forward; other passengers in modest clothes grab handles.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "בוקר רגיל, באוטובוס בדרך לבית הספר. פתאום הנהג בולם חזק. מה קורה לכם? הגוף שלכם נזרק קדימה!",
+      "אבל רגע, אף אחד לא דחף אתכם קדימה. האוטובוס עצר, ואתם פשוט המשכתם לנוע.",
+      "ולמה כשהאוטובוס מתחיל לנסוע, אתם נופלים דווקא אחורה? ולמה קשה יותר לדחוף עגלה מלאה בסופר מעגלה ריקה?",
+      "על כל השאלות האלה עונים שלושה חוקים פשוטים ומדויקים, שכתב לפני יותר משלוש מאות שנה מדען בשם אייזק ניוטון. היום נלמד אותם.",
+      "השאלות האלה נראות קטנות, אבל הן היו מהשאלות הגדולות של המדע. התשובות עליהן מאפשרות היום לבנות גשרים, לתכנן מכוניות בטוחות ולשגר לוויינים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "galileo",
+     "title_he": "גלילאו והכדורים המתגלגלים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: An Italian workshop around the year 1600: a bearded scholar in a dark long coat lets a bronze ball roll down a long smooth wooden ramp, an assistant watches; candles, wooden tools, morning light through a window.",
+     "move": "right",
+     "fx": "dust",
+     "art": "👨 👨",
+     "say": [
+      "במשך אלפיים שנה אנשים חשבו שכל דבר שזז נעצר מעצמו. זה גם מה שאנחנו רואים: כדור שבועטים בו מתגלגל, ובסוף נעצר.",
+      "בסביבות שנת 1600 בדק את זה באיטליה מדען בשם גלילאו גליליי. הוא גלגל כדורים על מסילות עץ חלקות, ושם לב לדבר מעניין.",
+      "ככל שהמשטח חלק יותר, הכדור מתגלגל רחוק יותר. על שטיח הוא נעצר מהר, על רצפה חלקה הוא ממשיך הרבה יותר.",
+      "גלילאו הבין: הכדור לא נעצר מעצמו. משהו עוצר אותו, והמשהו הזה הוא כוח החיכוך. אילו לא היה חיכוך בכלל, הכדור היה ממשיך לנוע לעולם.",
+      "זה היה מהפך במחשבה. במקום לשאול ״למה דבר זז?״, גלילאו לימד לשאול ״מה גורם לו להשתנות?״.",
+      "וגלילאו לא הסתפק בהיגיון. הוא מדד, רשם וחזר על הניסוי שוב ושוב. מכאן התחילה הדרך המדעית: לבדוק במציאות, ולא רק לחשוב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "דיסקית הוקי על קרח מחליקה למרחק גדול מאוד, כי לקרח החלק יש מעט מאוד חיכוך. זה הכי קרוב שאפשר לראות על כדור הארץ לתנועה בלי כוח שעוצר."
+     }
+    },
+    {
+     "id": "newton1",
+     "title_he": "החוק הראשון: התמדה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: England, 1680s: a thoughtful man with long wavy hair in a dark 17th-century coat writes with a quill at a desk covered with papers and a small glass prism, a candle burning; a bookcase behind him.",
+     "move": "in",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "באנגליה חי אייזק ניוטון. בשנת 1687 הוא פרסם ספר גדול, ובו שלושה חוקי תנועה. החוק הראשון נקרא חוק ההתמדה.",
+      "הוא אומר כך: גוף שעומד במקום ימשיך לעמוד, וגוף שנע ימשיך לנוע באותה מהירות ובאותו כיוון, כל עוד לא פועל עליו כוח שמשנה את זה.",
+      "עכשיו אפשר להבין את האוטובוס. כשהאוטובוס בולם, הגוף שלכם ״מתמיד״ בתנועה וממשיך קדימה. בגלל זה חגורת בטיחות כל כך חשובה: היא הכוח שעוצר אתכם יחד עם המכונית.",
+      "נסו בבית: הניחו כרטיס על כוס, ומטבע על הכרטיס. העיפו את הכרטיס בתנועה מהירה של האצבע הצידה. הכרטיס עף, והמטבע? הוא ״מתמיד״ במקומו ונופל ישר לתוך הכוס.",
+      "שימו לב לניסוח המדויק: כוח לא דרוש כדי שגוף ימשיך לנוע. כוח דרוש כדי לשנות את התנועה: להאיץ, להאט או לסובב.",
+      "ניוטון עצמו כתב בצניעות שהוא עמד ״על כתפי ענקים״. הוא בנה על מה שגילו לפניו גלילאו ואחרים."
+     ],
+     "pasuk": {
+      "text": "אם ראיתי רחוק יותר, הרי זה משום שעמדתי על כתפי ענקים",
+      "ref": "אייזק ניוטון, מכתב, 1675"
+     },
+     "note": null
+    },
+    {
+     "id": "force",
+     "title_he": "מה זה כוח?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Scene: A schoolyard in an Israeli town at recess: boys with kippot play tug of war with a thick rope, both teams leaning back and the rope not moving; a teacher watches smiling; palm trees and a stone wall.",
+     "move": "left",
+     "fx": "dust",
+     "art": "👦 👦 👦 👦",
+     "say": [
+      "אז מה זה בעצם כוח? בפיזיקה, כוח הוא דחיפה או משיכה. כשאתם פותחים דלת, בועטים בכדור או מרימים תיק, אתם מפעילים כוח.",
+      "כוח מודדים ביחידה שנקראת ניוטון, על שם אייזק ניוטון. כדי להחזיק תפוח קטן ביד, היד שלכם מפעילה כוח של בערך ניוטון אחד.",
+      "לכוח יש גם גודל וגם כיוון. בתחרות משיכת חבל, שתי הקבוצות מושכות חזק, אבל לכיוונים הפוכים.",
+      "אם הן מושכות בדיוק באותה עוצמה, הכוחות מאזנים זה את זה, והחבל לא זז. רק כשקבוצה אחת מושכת חזק יותר, החבל מתחיל לנוע.",
+      "כשכל הכוחות על גוף מאזנים זה את זה, אומרים ש״הכוח השקול״ הוא אפס. ואז, לפי החוק הראשון, הגוף עומד במקום או נע במהירות קבועה.",
+      "לכן מכונית שנוסעת בכביש ישר במהירות קבועה לא ״צריכה״ כוח עודף. המנוע רק מאזן את החיכוך ואת התנגדות האוויר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "fma",
+     "title_he": "החוק השני: F = m × a",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli supermarket aisle: the younger brother easily pushes an empty shopping cart while the older brother strains to push a cart heavy with water bottles and sacks of flour; shelves of food, bright light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "בסופר, עגלה ריקה זזה מדחיפה קטנה. עגלה מלאה בבקבוקי מים צריכה דחיפה חזקה הרבה יותר כדי לזוז באותה מהירות.",
+      "זה החוק השני של ניוטון. ככל שהכוח גדול יותר, הגוף מאיץ יותר. וככל שהגוף כבד יותר, כלומר יש לו יותר מסה, קשה יותר להאיץ אותו.",
+      "ניוטון כתב את זה בנוסחה קצרה: F = m × a. האות F היא הכוח, m היא המסה, ו־a היא התאוצה, כלומר כמה מהר משתנה המהירות.",
+      "וזו הסיבה שמשאית כבדה צריכה מרחק גדול כל כך כדי לבלום. יש לה מסה עצומה, ולכן גם בלמים חזקים משנים את מהירותה לאט.",
+      "נחשב: כדור של 2 קילוגרם, ודוחפים אותו בכוח של 6 ניוטון. לפי a = F ÷ m, התאוצה היא 6 ÷ 2, כלומר 3 מטר לשנייה בכל שנייה.",
+      "זה אומר שבכל שנייה של דחיפה, המהירות שלו גדלה ב־3 מטר לשנייה. אחרי שתי שניות הוא כבר נע 6 מטר לשנייה.",
+      "ומה אם נדחוף באותו כוח עגלה של 30 קילוגרם? 6 ÷ 30 זה 0.2 בלבד. אותו כוח, אבל תאוצה קטנה פי חמישה עשר. זו בדיוק ההרגשה בסופר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המילה ״תאוצה״ פירושה שינוי במהירות. גם בלימה היא תאוצה, רק בכיוון ההפוך לתנועה, וגם פנייה בסיבוב היא תאוצה, כי כיוון התנועה משתנה."
+     }
+    },
+    {
+     "id": "action",
+     "title_he": "החוק השלישי: פעולה ותגובה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The Kinneret on a calm afternoon: a boy with a kippah jumps from a small wooden rowboat onto a jetty, and the boat drifts backwards; green hills of the Golan across the water, gentle ripples.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "⛵",
+     "say": [
+      "קפצתם פעם מסירה קטנה אל המזח? אתם קופצים קדימה, והסירה בורחת לכם אחורה.",
+      "זה החוק השלישי של ניוטון: כשגוף אחד מפעיל כוח על גוף שני, הגוף השני מפעיל עליו כוח שווה בגודלו והפוך בכיוונו.",
+      "הרגליים שלכם דוחפות את הסירה אחורה, והסירה דוחפת אתכם קדימה. כך גם בבריכה: אתם דוחפים את המים אחורה בידיים, והמים דוחפים אתכם קדימה.",
+      "נסו בבית: נפחו בלון ושחררו אותו בלי לקשור. האוויר נדחף החוצה לכיוון אחד, והבלון טס לכיוון ההפוך. כך בדיוק עובדת גם רקטה.",
+      "שאלה חכמה: אם הכוחות שווים והפוכים, למה הם לא מבטלים זה את זה? כי הם פועלים על שני גופים שונים. כוח אחד פועל על הסירה, והשני פועל עליכם.",
+      "ולמה הסירה זזה הרבה ואתם פחות? לפי החוק השני: אותו כוח, אבל המסות שונות. לגוף הקל יותר יש תאוצה גדולה יותר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kick",
+     "title_he": "שלושת החוקים בבעיטה אחת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A small football pitch next to an Israeli school at noon: a boy with a kippah kicks a ball which flies forward, his friends running; a goal net, a blue sky and a few eucalyptus trees.",
+     "move": "up",
+     "fx": "dust",
+     "art": "👦 👦",
+     "say": [
+      "עכשיו בואו נראה את שלושת החוקים בבעיטה אחת בהפסקה.",
+      "הכדור מונח על הדשא ולא זז: חוק ראשון, אין כוח שמשנה את מצבו. הרגל פוגעת בו: חוק שני, כוח גדול נותן לו תאוצה גדולה.",
+      "ובאותו רגע הכדור לוחץ בחזרה על הרגל, ולכן מרגישים אותו: חוק שלישי. ואחרי שהכדור עף, החיכוך עם הדשא והאוויר מאטים אותו עד שהוא נעצר.",
+      "וזה היופי של חוקי ניוטון: אותם שלושה חוקים פשוטים מסבירים כדור בהפסקה, בלימה של רכבת, ואפילו את התנועה של הירח סביב כדור הארץ, כפי שנראה בשיעור הבא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Late afternoon in an Israeli living room: the two brothers sit at a table with a coin, a cup, a balloon and a toy car, laughing as they try the experiments; warm light through a window.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 👦 👦",
+     "say": [
+      "אז מה למדנו? כוח הוא דחיפה או משיכה, ונמדד בניוטון.",
+      "החוק הראשון: בלי כוח, גוף שומר על התנועה שלו. החוק השני: F = m × a. החוק השלישי: לכל פעולה יש תגובה שווה והפוכה.",
+      "בפעם הבאה שתיסעו באוטובוס, תחשבו על ניוטון, ותחגרו חגורה. ובשיעור הבא נגלה את הכוח שכולנו מרגישים כל רגע: כוח המשיכה."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f1e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כשהאוטובוס בולם, הגוף שלנו נזרק קדימה?",
+   "answer": "כי הגוף ממשיך בתנועה שלו, וזה חוק ההתמדה",
+   "options": [
+    "כי הגוף ממשיך בתנועה שלו, וזה חוק ההתמדה",
+    "כי הנהג דוחף אותנו",
+    "כי האוויר באוטובוס נדחף קדימה"
+   ],
+   "explain_he": "אף אחד לא דוחף אותנו. האוטובוס נעצר, והגוף שלנו ״מתמיד״ בתנועה קדימה עד שכוח, כמו חגורת בטיחות, עוצר אותו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f1e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כשהאוטובוס בולם, הגוף שלנו נזרק קדימה?",
+   "answer": "כי הגוף ממשיך בתנועה שלו, וזה חוק ההתמדה",
+   "options": [
+    "כי הגוף ממשיך בתנועה שלו, וזה חוק ההתמדה",
+    "כי הנהג דוחף אותנו",
+    "כי האוויר באוטובוס נדחף קדימה"
+   ],
+   "explain_he": "אף אחד לא דוחף אותנו. האוטובוס נעצר, והגוף שלנו ״מתמיד״ בתנועה קדימה עד שכוח, כמו חגורת בטיחות, עוצר אותו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f1e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה גלילאו כשגלגל כדורים על משטחים חלקים יותר ויותר?",
+   "answer": "שהכדור נעצר בגלל חיכוך, ובלי חיכוך היה ממשיך לנוע",
+   "options": [
+    "שהכדור נעצר בגלל חיכוך, ובלי חיכוך היה ממשיך לנוע",
+    "שכדור כבד תמיד נעצר מהר יותר",
+    "שכדורים נעצרים מעצמם אחרי זמן קבוע"
+   ],
+   "explain_he": "ככל שהמשטח חלק יותר, הכדור הגיע רחוק יותר. מכאן הבין גלילאו שהחיכוך הוא הכוח שעוצר.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f1e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילה גלילאו כשגלגל כדורים על משטחים חלקים יותר ויותר?",
+   "answer": "שהכדור נעצר בגלל חיכוך, ובלי חיכוך היה ממשיך לנוע",
+   "options": [
+    "שהכדור נעצר בגלל חיכוך, ובלי חיכוך היה ממשיך לנוע",
+    "שכדור כבד תמיד נעצר מהר יותר",
+    "שכדורים נעצרים מעצמם אחרי זמן קבוע"
+   ],
+   "explain_he": "ככל שהמשטח חלק יותר, הכדור הגיע רחוק יותר. מכאן הבין גלילאו שהחיכוך הוא הכוח שעוצר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f1e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בתחרות משיכת חבל, שתי הקבוצות מושכות בדיוק באותה עוצמה. מה יקרה?",
+   "answer": "החבל לא יזוז, כי הכוחות מאזנים זה את זה",
+   "options": [
+    "החבל לא יזוז, כי הכוחות מאזנים זה את זה",
+    "החבל ייקרע תמיד",
+    "החבל יזוז לכיוון הקבוצה שיש בה יותר ילדים"
+   ],
+   "explain_he": "כשהכוחות שווים והפוכים, הם מאזנים זה את זה, והחבל נשאר במקום.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f1e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בתחרות משיכת חבל, שתי הקבוצות מושכות בדיוק באותה עוצמה. מה יקרה?",
+   "answer": "החבל לא יזוז, כי הכוחות מאזנים זה את זה",
+   "options": [
+    "החבל לא יזוז, כי הכוחות מאזנים זה את זה",
+    "החבל ייקרע תמיד",
+    "החבל יזוז לכיוון הקבוצה שיש בה יותר ילדים"
+   ],
+   "explain_he": "כשהכוחות שווים והפוכים, הם מאזנים זה את זה, והחבל נשאר במקום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f1e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "באיזו יחידה מודדים כוח?",
+   "answer": "ניוטון",
+   "options": [
+    "ניוטון",
+    "קילוגרם",
+    "מטר"
+   ],
+   "explain_he": "כוח מודדים בניוטון, על שם אייזק ניוטון. החזקת תפוח קטן ביד דורשת בערך ניוטון אחד.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f1e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הבלון שמשחררים בלי לקשור טס קדימה?",
+   "answer": "כי הוא דוחף את האוויר החוצה, והאוויר דוחף אותו לכיוון ההפוך",
+   "options": [
+    "כי הוא דוחף את האוויר החוצה, והאוויר דוחף אותו לכיוון ההפוך",
+    "כי האוויר בתוכו קל מהאוויר בחוץ",
+    "כי הרוח בחדר נושבת אותו"
+   ],
+   "explain_he": "זה החוק השלישי: פעולה ותגובה. כך עובדת גם רקטה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f1e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כדור של 2 ק״ג נדחף בכוח של 6 ניוטון. מה התאוצה שלו?",
+   "answer": "3 מטר לשנייה בכל שנייה",
+   "options": [
+    "3 מטר לשנייה בכל שנייה",
+    "12 מטר לשנייה בכל שנייה",
+    "4 מטר לשנייה בכל שנייה"
+   ],
+   "explain_he": "לפי F = m × a, התאוצה היא a = F ÷ m = 6 ÷ 2 = 3.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f1e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כשקופצים מסירה, הכוחות על הסירה ועלינו שווים והפוכים. למה הם לא מבטלים זה את זה?",
+   "answer": "כי הם פועלים על שני גופים שונים",
+   "options": [
+    "כי הם פועלים על שני גופים שונים",
+    "כי אחד מהם חזק יותר",
+    "כי המים מבטלים את אחד הכוחות"
+   ],
+   "explain_he": "כוח אחד פועל על הסירה והשני פועל עלינו. כוחות מבטלים זה את זה רק כשהם פועלים על אותו גוף.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f1e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מכונית נוסעת בכביש ישר במהירות קבועה. מה אפשר לומר על הכוחות עליה?",
+   "answer": "הם מאזנים זה את זה, והכוח השקול הוא אפס",
+   "options": [
+    "הם מאזנים זה את זה, והכוח השקול הוא אפס",
+    "כוח המנוע גדול בהרבה מכל השאר",
+    "אין עליה שום כוח בכלל"
+   ],
+   "explain_he": "לפי החוק הראשון, מהירות קבועה פירושה שהכוח השקול הוא אפס: המנוע מאזן את החיכוך ואת התנגדות האוויר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f1e13"
+  }
+ ]
+}

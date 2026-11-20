@@ -1,0 +1,526 @@
+{
+ "id": "k-phf-f8",
+ "unit_id": "k-phf-u3",
+ "course": "physics",
+ "title_he": "יום אחד של פיזיקה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "יום אחד של פיזיקה",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "alarm",
+     "title_he": "השעון המעורר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Early morning in an Israeli boys' bedroom: an alarm clock rings on a nightstand, the younger brother sits up rubbing his eyes, his tzitzit and kippah on the chair, soft dawn light through the shutters.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👦",
+     "say": [
+      "שש וחצי בבוקר. השעון המעורר מצלצל. כבר בשנייה הראשונה של היום, אתם בתוך שיעור בפיזיקה!",
+      "הצלצול הוא גל קול: משהו קטן בשעון רועד מהר, האוויר רועד איתו, ועור התוף שלכם מעביר את הרעד למוח.",
+      "אתם קמים מהמיטה, והרגליים לוחצות על הרצפה. כוח המשיכה מושך אתכם למטה, והרצפה דוחפת אתכם חזרה למעלה, בדיוק באותו כוח. ניוטון כבר כאן.",
+      "מודה אני לפניך, ונוטלים ידיים. היום מתחיל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kitchen",
+     "title_he": "ארוחת בוקר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: The family kitchen at breakfast: the mother in a headscarf pours boiling water from an electric kettle, the boys eat bread and cheese at the table, a solar heater visible through the window on the neighbor's roof.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 👩 👦 👦",
+     "say": [
+      "במטבח, אמא מרתיחה מים בקומקום. 2,000 וואט, בערך שלוש דקות, בערך עשירית קילוואט־שעה, וכמה אגורות בחשבון החשמל.",
+      "המים החמים במקלחת הגיעו מדוד השמש. אנרגיית השמש הפכה לחום, בלי שום חשמל.",
+      "והלחם שאתם אוכלים? הוא אנרגיה כימית, שמקורה בשמש שהאירה על שדה החיטה. עכשיו היא תהפוך לאנרגיה שתוליך אתכם כל היום.",
+      "על דלת המקרר, מגנט מחזיק את לוח הזמנים של המשפחה. בתוך המגנט, מיליארדי אטומים מכוונים יחד, וכולם מושכים את הברזל שבדלת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "busride",
+     "title_he": "הנסיעה לבית הספר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A city bus on a sunny Israeli road: inside, the two brothers sit with seatbelts on, schoolbags on their laps, a water bottle sliding forward on the floor as the bus slows at a crosswalk.",
+     "move": "left",
+     "fx": "light",
+     "art": "🚌 👦 👦",
+     "say": [
+      "באוטובוס, הנהג בולם לפני מעבר החצייה. בקבוק המים על הרצפה מחליק קדימה. חוק ההתמדה!",
+      "האוטובוס המלא בילדים כבד, ולכן לפי F = m × a הנהג צריך כוח בלימה גדול, ובולם מוקדם.",
+      "הבלמים עובדים בחיכוך: הם הופכים את אנרגיית התנועה של האוטובוס לחום. אחרי ירידה ארוכה מירושלים, הבלמים ממש חמים.",
+      "ולמה האוטובוס לא מחליק? כי הצמיגים נצמדים לכביש בחיכוך. ביום הגשם הראשון, הכביש חלק יותר, החיכוך קטן, ולכן נהגים זהירים נוסעים לאט ושומרים מרחק."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "recess",
+     "title_he": "בהפסקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A schoolyard during recess: boys with kippot slide down a plastic slide, one with his hair standing on end from static; others kick a football; a sunny day with blue sky and a few palm trees.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👦 👦 👦",
+     "say": [
+      "בהפסקה, מגלשה מפלסטיק. אתם מטפסים למעלה, ואוספים אנרגיית גובה. בגלישה היא הופכת למהירות, וגם קצת לחום מהחיכוך.",
+      "ולמה השערות של החבר עומדות אחרי הגלישה? השפשוף בפלסטיק העביר אלקטרונים. חשמל סטטי, ממש כמו הבלון.",
+      "ובמגרש, כל בעיטה בכדור היא שלושת חוקי ניוטון יחד. וכדור שבועטים לגובה עף בקשת יפה וחוזר לאדמה, כי כוח המשיכה מושך אותו כל הזמן למטה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "afternoon",
+     "title_he": "אחר הצהריים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli neighborhood swimming pool with separate hours, boys only: the brothers in modest swim shirts swim and float, a lifeguard watches; bright afternoon sun on the water.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦 🌊",
+     "say": [
+      "אחר הצהריים, בבריכה. אתם דוחפים את המים אחורה בידיים, והמים דוחפים אתכם קדימה. פעולה ותגובה.",
+      "אתם שוכבים על הגב וצפים. חוק ארכימדס: המים דוחפים אתכם למעלה בכוח ששווה למשקל המים שדחיתם.",
+      "צוללים לתחתית, ומרגישים את הלחץ באוזניים. ככל שעמוק יותר, יותר מים לוחצים מלמעלה.",
+      "וכשמישהו קופץ מהמקפצה, אתם שומעים את הנחיתה גם מתחת למים, ואפילו חזק. הקול עובר במים מהר יותר מבאוויר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "bike",
+     "title_he": "רוכבים הביתה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A quiet street in an Israeli town at dusk: the older brother rides a bicycle up a gentle hill, his headlight glowing from a small dynamo on the wheel, helmet on over his kippah; stone houses and cypress trees.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🚲 👦",
+     "say": [
+      "לפני הערב, רוכבים על האופניים לחוג. בעלייה הרגליים עובדות קשה: אתם מעלים את הגוף ואת האופניים, ועושים עבודה נגד כוח המשיכה.",
+      "בירידה, אנרגיית הגובה חוזרת אליכם כמהירות, בלי לדווש בכלל. אבל זהירות, ובולמים מוקדם.",
+      "ואם יש לאופניים פנס עם דינמו קטן על הגלגל, הגלגל מסובב מגנט בתוך סליל, ונוצר זרם שמדליק את הפנס. זה הגילוי של פאראדיי, על האופניים שלכם!",
+      "והקסדה? היא מפזרת את כוח המכה על שטח גדול, ומאריכה את זמן העצירה של הראש. פחות לחץ ופחות תאוצה. פיזיקה שמצילה חיים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "storm",
+     "title_he": "ערב של סערה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A stormy winter evening seen from inside a warm Israeli home: a lightning flash over the dark hills through the window, the brothers by the window counting on their fingers, lamps glowing inside.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "בערב יורד גשם חזק. הבזק! אתם מברכים ״עושה מעשה בראשית״, ומתחילים לספור: אחת, שתיים, שלוש... ששש... בום! ״שכוחו וגבורתו מלא עולם״.",
+      "שש שניות, כלומר הברק היה בערך שני קילומטרים מכם. מבפנים, בבית, אתם בטוחים.",
+      "בבית האורות דולקים, המקרר עובד, והמחשב נטען. כולם מחוברים במקביל, וממסר הפחת שומר על כולם. ובתחנת הכוח, גנרטור של פאראדיי מסתובב בשבילכם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rambam",
+     "title_he": "הפליאה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A quiet beit midrash at night: an older rabbi with a white beard sits with the two brothers over an open large sefer, a window behind them showing a starry sky and a crescent moon; warm lamp light.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👴 👦 👦",
+     "say": [
+      "חשבתם פעם כמה מופלא הדבר? אותם חוקים מדויקים פועלים על תפוח בגולן ועל הירח בשמיים, על בלון בסלון ועל ברק מעל הגליל.",
+      "החוקים לא מתעייפים, לא משתנים ולא ״שוכחים״. בזכות זה אפשר לבנות גשרים, לשגר לוויינים ולחשב את מולד הירח שנים מראש.",
+      "דוד המלך, כשהתבונן בעולם, אמר: ״מה רבו מעשיך ה׳, כולם בחכמה עשית״. מי שלומד פיזיקה רואה עוד ועוד מן החכמה הזאת."
+     ],
+     "pasuk": {
+      "text": "מָה רַבּוּ מַעֲשֶׂיךָ ה׳, כֻּלָּם בְּחָכְמָה עָשִׂיתָ",
+      "ref": "תהלים קד, כד"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "לילה טוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Night in the boys' bedroom: the younger brother lies in bed with his hand over his eyes saying Shema, the older brother turns off the light; through the window the moon shines over quiet rooftops.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "הגיע הלילה. אתם קוראים קריאת שמע, ומכבים את האור. אבל הפיזיקה לא הולכת לישון.",
+      "הירח ממשיך ״ליפול״ סביב כדור הארץ, המצפן בתיק עדיין מצביע צפונה, והמים בים המלח עדיין מחזיקים את מי שצף בהם.",
+      "למדנו על כוחות ותנועה, על משיכה ואנרגיה, על לחץ, חשמל, מגנטיות וגלים. ומחר, כשתקומו, תראו את כל אלה סביבכם, בעיניים חדשות. לילה טוב!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f8e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "יום אחד של פיזיקה",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "alarm",
+     "title_he": "השעון המעורר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Early morning in an Israeli boys' bedroom: an alarm clock rings on a nightstand, the younger brother sits up rubbing his eyes, his tzitzit and kippah on the chair, soft dawn light through the shutters.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👦",
+     "say": [
+      "שש וחצי בבוקר. השעון המעורר מצלצל. כבר בשנייה הראשונה של היום, אתם בתוך שיעור בפיזיקה!",
+      "הצלצול הוא גל קול: משהו קטן בשעון רועד מהר, האוויר רועד איתו, ועור התוף שלכם מעביר את הרעד למוח.",
+      "אתם קמים מהמיטה, והרגליים לוחצות על הרצפה. כוח המשיכה מושך אתכם למטה, והרצפה דוחפת אתכם חזרה למעלה, בדיוק באותו כוח. ניוטון כבר כאן.",
+      "מודה אני לפניך, ונוטלים ידיים. היום מתחיל.",
+      "ולמה אתם לא נופלים דרך הרצפה? כי האטומים של הרצפה דוחים את האטומים של כפות הרגליים, בכוחות חשמליים זעירים. אפילו ״לעמוד״ זה פיזיקה של חשמל!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kitchen",
+     "title_he": "ארוחת בוקר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: The family kitchen at breakfast: the mother in a headscarf pours boiling water from an electric kettle, the boys eat bread and cheese at the table, a solar heater visible through the window on the neighbor's roof.",
+     "move": "right",
+     "fx": "light",
+     "art": "🏠 👩 👦 👦",
+     "say": [
+      "במטבח, אמא מרתיחה מים בקומקום. 2,000 וואט, בערך שלוש דקות, בערך עשירית קילוואט־שעה, וכמה אגורות בחשבון החשמל.",
+      "המים החמים במקלחת הגיעו מדוד השמש. אנרגיית השמש הפכה לחום, בלי שום חשמל.",
+      "והלחם שאתם אוכלים? הוא אנרגיה כימית, שמקורה בשמש שהאירה על שדה החיטה. עכשיו היא תהפוך לאנרגיה שתוליך אתכם כל היום.",
+      "על דלת המקרר, מגנט מחזיק את לוח הזמנים של המשפחה. בתוך המגנט, מיליארדי אטומים מכוונים יחד, וכולם מושכים את הברזל שבדלת.",
+      "ואם תשאירו את דלת המקרר פתוחה? האוויר הקר, שכבד מהאוויר החם, ״נשפך״ החוצה למטה, והמקרר יצטרך להשקיע עוד אנרגיה כדי לקרר מחדש. לכן סוגרים מהר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "busride",
+     "title_he": "הנסיעה לבית הספר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A city bus on a sunny Israeli road: inside, the two brothers sit with seatbelts on, schoolbags on their laps, a water bottle sliding forward on the floor as the bus slows at a crosswalk.",
+     "move": "left",
+     "fx": "light",
+     "art": "🚌 👦 👦",
+     "say": [
+      "באוטובוס, הנהג בולם לפני מעבר החצייה. בקבוק המים על הרצפה מחליק קדימה. חוק ההתמדה!",
+      "האוטובוס המלא בילדים כבד, ולכן לפי F = m × a הנהג צריך כוח בלימה גדול, ובולם מוקדם.",
+      "הבלמים עובדים בחיכוך: הם הופכים את אנרגיית התנועה של האוטובוס לחום. אחרי ירידה ארוכה מירושלים, הבלמים ממש חמים.",
+      "ולמה האוטובוס לא מחליק? כי הצמיגים נצמדים לכביש בחיכוך. ביום הגשם הראשון, הכביש חלק יותר, החיכוך קטן, ולכן נהגים זהירים נוסעים לאט ושומרים מרחק.",
+      "נחשב: אוטובוס של 15,000 קילוגרם, ובלמים שמאטים אותו ב־2 מטר לשנייה בכל שנייה. הכוח הדרוש הוא F = m × a = 15,000 × 2, כלומר 30,000 ניוטון. כמו משקל של שלוש מכוניות!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "recess",
+     "title_he": "בהפסקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A schoolyard during recess: boys with kippot slide down a plastic slide, one with his hair standing on end from static; others kick a football; a sunny day with blue sky and a few palm trees.",
+     "move": "up",
+     "fx": "sparkle",
+     "art": "👦 👦 👦",
+     "say": [
+      "בהפסקה, מגלשה מפלסטיק. אתם מטפסים למעלה, ואוספים אנרגיית גובה. בגלישה היא הופכת למהירות, וגם קצת לחום מהחיכוך.",
+      "ולמה השערות של החבר עומדות אחרי הגלישה? השפשוף בפלסטיק העביר אלקטרונים. חשמל סטטי, ממש כמו הבלון.",
+      "ובמגרש, כל בעיטה בכדור היא שלושת חוקי ניוטון יחד. וכדור שבועטים לגובה עף בקשת יפה וחוזר לאדמה, כי כוח המשיכה מושך אותו כל הזמן למטה.",
+      "ואפשר אפילו לחשב: אם המגלשה בגובה 2 מטר, אנרגיית הגובה של ילד של 40 קילוגרם היא 40 × 10 × 2, כלומר 800 ג׳אול. בתחתית, רוב האנרגיה הזאת הפכה למהירות, והשאר לחום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "afternoon",
+     "title_he": "אחר הצהריים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli neighborhood swimming pool with separate hours, boys only: the brothers in modest swim shirts swim and float, a lifeguard watches; bright afternoon sun on the water.",
+     "move": "right",
+     "fx": "light",
+     "art": "👦 👦 🌊",
+     "say": [
+      "אחר הצהריים, בבריכה. אתם דוחפים את המים אחורה בידיים, והמים דוחפים אתכם קדימה. פעולה ותגובה.",
+      "אתם שוכבים על הגב וצפים. חוק ארכימדס: המים דוחפים אתכם למעלה בכוח ששווה למשקל המים שדחיתם.",
+      "צוללים לתחתית, ומרגישים את הלחץ באוזניים. ככל שעמוק יותר, יותר מים לוחצים מלמעלה.",
+      "וכשמישהו קופץ מהמקפצה, אתם שומעים את הנחיתה גם מתחת למים, ואפילו חזק. הקול עובר במים מהר יותר מבאוויר.",
+      "ולמה קשה כל כך להחזיק כדור ים מתחת למים? כדור גדול מלא אוויר דוחה הרבה מים, ולכן כוח העילוי עליו גדול בהרבה ממשקלו. כדור שדוחה 5 ליטר מקבל דחיפה של בערך 50 ניוטון למעלה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "bike",
+     "title_he": "רוכבים הביתה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A quiet street in an Israeli town at dusk: the older brother rides a bicycle up a gentle hill, his headlight glowing from a small dynamo on the wheel, helmet on over his kippah; stone houses and cypress trees.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "🚲 👦",
+     "say": [
+      "לפני הערב, רוכבים על האופניים לחוג. בעלייה הרגליים עובדות קשה: אתם מעלים את הגוף ואת האופניים, ועושים עבודה נגד כוח המשיכה.",
+      "בירידה, אנרגיית הגובה חוזרת אליכם כמהירות, בלי לדווש בכלל. אבל זהירות, ובולמים מוקדם.",
+      "ואם יש לאופניים פנס עם דינמו קטן על הגלגל, הגלגל מסובב מגנט בתוך סליל, ונוצר זרם שמדליק את הפנס. זה הגילוי של פאראדיי, על האופניים שלכם!",
+      "והקסדה? היא מפזרת את כוח המכה על שטח גדול, ומאריכה את זמן העצירה של הראש. פחות לחץ ופחות תאוצה. פיזיקה שמצילה חיים.",
+      "נחשב: ילד של 40 קילוגרם עם אופניים של 10 קילוגרם עולה בעלייה של 20 מטר בתוך 100 שניות. העבודה נגד כוח המשיכה: 50 × 10 × 20, כלומר 10,000 ג׳אול. ההספק: 10,000 ÷ 100, כלומר 100 וואט, כמו נורה ישנה חזקה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "storm",
+     "title_he": "ערב של סערה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A stormy winter evening seen from inside a warm Israeli home: a lightning flash over the dark hills through the window, the brothers by the window counting on their fingers, lamps glowing inside.",
+     "move": "in",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "בערב יורד גשם חזק. הבזק! אתם מברכים ״עושה מעשה בראשית״, ומתחילים לספור: אחת, שתיים, שלוש... ששש... בום! ״שכוחו וגבורתו מלא עולם״.",
+      "שש שניות, כלומר הברק היה בערך שני קילומטרים מכם. מבפנים, בבית, אתם בטוחים.",
+      "בבית האורות דולקים, המקרר עובד, והמחשב נטען. כולם מחוברים במקביל, וממסר הפחת שומר על כולם. ובתחנת הכוח, גנרטור של פאראדיי מסתובב בשבילכם.",
+      "וכשאבא מרים את הטלפון כדי להתקשר לסבא, הקול שלו הופך לאות חשמלי ואחר כך לגל רדיו בלתי נראה. על הגלים האלה, מהרדיו ועד קרני גמא, נלמד בקורס ״מסע אל הקרינה״."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rambam",
+     "title_he": "הפליאה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A quiet beit midrash at night: an older rabbi with a white beard sits with the two brothers over an open large sefer, a window behind them showing a starry sky and a crescent moon; warm lamp light.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👴 👦 👦",
+     "say": [
+      "חשבתם פעם כמה מופלא הדבר? אותם חוקים מדויקים פועלים על תפוח בגולן ועל הירח בשמיים, על בלון בסלון ועל ברק מעל הגליל.",
+      "החוקים לא מתעייפים, לא משתנים ולא ״שוכחים״. בזכות זה אפשר לבנות גשרים, לשגר לוויינים ולחשב את מולד הירח שנים מראש.",
+      "דוד המלך, כשהתבונן בעולם, אמר: ״מה רבו מעשיך ה׳, כולם בחכמה עשית״. מי שלומד פיזיקה רואה עוד ועוד מן החכמה הזאת.",
+      "הרמב״ם כותב בהלכות יסודי התורה, שהדרך לאהבת השם ויראתו היא להתבונן במעשיו ובברואיו הנפלאים והגדולים, ולראות מהם את חכמתו שאין לה ערך ולא קץ.",
+      "כלומר, לפי הרמב״ם, ההתבוננות בטבע איננה רק מדע. כשהיא נעשית כראוי, היא מביאה את האדם לשבח ולפאר את בורא העולם."
+     ],
+     "pasuk": {
+      "text": "מָה רַבּוּ מַעֲשֶׂיךָ ה׳, כֻּלָּם בְּחָכְמָה עָשִׂיתָ",
+      "ref": "תהלים קד, כד"
+     },
+     "note": {
+      "who": "הידעת?",
+      "text": "לפי עדותו של תלמידו, רבי ברוך משקלוב, אמר הגאון מווילנא שכפי מה שחסר לאדם מן החכמות האחרות, יחסר לו בחכמת התורה. ולכן עודד אותו לתרגם לעברית ספר בגאומטריה."
+     }
+    },
+    {
+     "id": "end",
+     "title_he": "לילה טוב",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Night in the boys' bedroom: the younger brother lies in bed with his hand over his eyes saying Shema, the older brother turns off the light; through the window the moon shines over quiet rooftops.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "הגיע הלילה. אתם קוראים קריאת שמע, ומכבים את האור. אבל הפיזיקה לא הולכת לישון.",
+      "הירח ממשיך ״ליפול״ סביב כדור הארץ, המצפן בתיק עדיין מצביע צפונה, והמים בים המלח עדיין מחזיקים את מי שצף בהם.",
+      "למדנו על כוחות ותנועה, על משיכה ואנרגיה, על לחץ, חשמל, מגנטיות וגלים. ומחר, כשתקומו, תראו את כל אלה סביבכם, בעיניים חדשות. לילה טוב!"
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f8e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כשאתם עומדים על הרצפה, מה הרצפה עושה לפי החוק השלישי?",
+   "answer": "דוחפת אתכם למעלה באותו כוח שאתם לוחצים עליה",
+   "options": [
+    "דוחפת אתכם למעלה באותו כוח שאתם לוחצים עליה",
+    "מושכת אתכם למטה",
+    "לא מפעילה שום כוח"
+   ],
+   "explain_he": "אתם לוחצים על הרצפה, והרצפה דוחפת אתכם חזרה באותו כוח בדיוק: פעולה ותגובה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f8e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כשאתם עומדים על הרצפה, מה הרצפה עושה לפי החוק השלישי?",
+   "answer": "דוחפת אתכם למעלה באותו כוח שאתם לוחצים עליה",
+   "options": [
+    "דוחפת אתכם למעלה באותו כוח שאתם לוחצים עליה",
+    "מושכת אתכם למטה",
+    "לא מפעילה שום כוח"
+   ],
+   "explain_he": "אתם לוחצים על הרצפה, והרצפה דוחפת אתכם חזרה באותו כוח בדיוק: פעולה ותגובה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f8e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים הבלמים לאנרגיית התנועה של האוטובוס?",
+   "answer": "הופכים אותה לחום בעזרת חיכוך",
+   "options": [
+    "הופכים אותה לחום בעזרת חיכוך",
+    "מחזירים אותה לתחנת הכוח",
+    "משמידים אותה לגמרי"
+   ],
+   "explain_he": "אנרגיה לא נעלמת. הבלמים הופכים אותה לחום, ולכן הם מתחממים בירידה ארוכה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f8e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושים הבלמים לאנרגיית התנועה של האוטובוס?",
+   "answer": "הופכים אותה לחום בעזרת חיכוך",
+   "options": [
+    "הופכים אותה לחום בעזרת חיכוך",
+    "מחזירים אותה לתחנת הכוח",
+    "משמידים אותה לגמרי"
+   ],
+   "explain_he": "אנרגיה לא נעלמת. הבלמים הופכים אותה לחום, ולכן הם מתחממים בירידה ארוכה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f8e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השערות של הילד עומדות אחרי הגלישה במגלשת פלסטיק?",
+   "answer": "השפשוף העביר אלקטרונים ויצר חשמל סטטי",
+   "options": [
+    "השפשוף העביר אלקטרונים ויצר חשמל סטטי",
+    "כי הרוח נשבה חזק",
+    "כי כוח המשיכה נחלש במגלשה"
+   ],
+   "explain_he": "כמו בבלון: השפשוף בפלסטיק העביר אלקטרונים, והשערות נטענו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f8e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השערות של הילד עומדות אחרי הגלישה במגלשת פלסטיק?",
+   "answer": "השפשוף העביר אלקטרונים ויצר חשמל סטטי",
+   "options": [
+    "השפשוף העביר אלקטרונים ויצר חשמל סטטי",
+    "כי הרוח נשבה חזק",
+    "כי כוח המשיכה נחלש במגלשה"
+   ],
+   "explain_he": "כמו בבלון: השפשוף בפלסטיק העביר אלקטרונים, והשערות נטענו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f8e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה מגיעה האנרגיה שבלחם?",
+   "answer": "מהשמש, שהאירה על שדה החיטה",
+   "options": [
+    "מהשמש, שהאירה על שדה החיטה",
+    "מהקומקום",
+    "מתחנת הכוח"
+   ],
+   "explain_he": "הצמחים קולטים את אור השמש ובונים ממנו את החיטה. האנרגיה הכימית שבלחם מקורה בשמש.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f8e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה אמר דוד המלך כשהתבונן בעולם?",
+   "answer": "מה רבו מעשיך ה׳, כולם בחכמה עשית",
+   "options": [
+    "מה רבו מעשיך ה׳, כולם בחכמה עשית",
+    "שכוחו וגבורתו מלא עולם",
+    "זוכר הברית"
+   ],
+   "explain_he": "בתהלים קד אומר דוד המלך: ״מה רבו מעשיך ה׳, כולם בחכמה עשית״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f8e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ילד של 40 ק״ג בראש מגלשה בגובה 2 מטר. מה אנרגיית הגובה שלו? (g = 10)",
+   "answer": "800 ג׳אול",
+   "options": [
+    "800 ג׳אול",
+    "80 ג׳אול",
+    "8,000 ג׳אול"
+   ],
+   "explain_he": "E = m × g × h = 40 × 10 × 2 = 800 ג׳אול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f8e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ספרתם 6 שניות בין הברק לרעם. כמה רחוק הברק, בערך?",
+   "answer": "בערך 2 קילומטרים",
+   "options": [
+    "בערך 2 קילומטרים",
+    "בערך 6 קילומטרים",
+    "בערך 600 מטר"
+   ],
+   "explain_he": "d = v × t = 340 × 6 = 2,040 מטר, כלומר בערך 2 קילומטרים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f8e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הרמב״ם, מהי הדרך לאהבת השם ויראתו?",
+   "answer": "להתבונן במעשיו ובברואיו הנפלאים ולראות מהם את חכמתו",
+   "options": [
+    "להתבונן במעשיו ובברואיו הנפלאים ולראות מהם את חכמתו",
+    "להימנע מכל לימוד של הטבע",
+    "לשנן נוסחאות בלבד"
+   ],
+   "explain_he": "הרמב״ם כותב בהלכות יסודי התורה שההתבוננות בברואים מביאה לאהבה וליראה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f8e13"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה, לפי הסרט, אפשר לבנות גשרים ולחשב את מולד הירח שנים מראש?",
+   "answer": "כי חוקי הטבע מדויקים ואינם משתנים",
+   "options": [
+    "כי חוקי הטבע מדויקים ואינם משתנים",
+    "כי מזל טוב עוזר למהנדסים",
+    "כי הירח זז כל פעם אחרת"
+   ],
+   "explain_he": "החוקים פועלים תמיד באותו אופן בדיוק, ולכן אפשר לחשב ולתכנן לפיהם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f8e14"
+  }
+ ]
+}

@@ -1,0 +1,277 @@
+{
+ "id": "k-raf-f2",
+ "unit_id": "k-raf-u1",
+ "course": "radiation",
+ "title_he": "גלי רדיו: קולות מרחוק",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌈 ידע כללי",
+   "title_he": "גלי רדיו: קולות מרחוק",
+   "ref_he": "מסע אל הקרינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "car",
+     "title_he": "קול שעובר באוויר",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. Scene: Inside a family car on a highway in Israel in the morning: the father with a kippah drives, the boy in the back seat listens to the car radio, fields and the Carmel ridge passing outside.",
+     "move": "right",
+     "fx": "light",
+     "art": "🚗 👨 👦",
+     "say": [
+      "בוקר, בנסיעה. ברדיו של המכונית שומעים חדשות, משדר מאולפן שנמצא עשרות קילומטרים מכאן. אין חוט בין האולפן לבין המכונית. אז איך הקול מגיע?",
+      "האוויר סביבנו מלא בגלים בלתי נראים: גלי רדיו. הם עוברים דרך קירות, דרך חלונות, ואפילו דרכנו, בלי שנרגיש.",
+      "גלי רדיו הם בדיוק אותה משפחה של האור, גלים אלקטרומגנטיים. אבל אורך הגל שלהם ארוך הרבה יותר, מסנטימטרים ועד קילומטרים, והעין לא רואה אותם.",
+      "ויש בהם גם עולם של הצלה: אמבולנסים, כבאים, טייסים וספינות מדברים זה עם זה ברדיו, גם כשאין קליטה סלולרית, באמצע הים או במדבר.",
+      "בשיעור הזה נגלה מי גילה אותם, איך הם נושאים קול, ואיך הטלפון שבכיס מדבר עם העולם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "hertz",
+     "title_he": "הרץ והניצוץ",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: Karlsruhe, Germany, 1887: a young bearded scientist in a dark suit sits in a dim laboratory, watching a tiny spark jump across a gap in a small wire ring held across the room from a larger spark apparatus; brass and wooden instruments.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👨",
+     "say": [
+      "מקסוול חזה שצריכים להיות גלים אלקטרומגנטיים בלתי נראים. אבל עד שמישהו יראה אותם באמת, זו הייתה רק השערה.",
+      "בשנת 1887 בנה הפיזיקאי הגרמני היינריך הרץ מכשיר שיצר ניצוצות חשמליים חזקים. בצד השני של החדר הוא הציב טבעת של חוט, עם רווח קטנטן.",
+      "וכל פעם שהמכשיר הגדול ניצץ, קפץ ניצוץ זעיר גם ברווח של הטבעת, בלי שום חוט ביניהם! משהו עבר באוויר.",
+      "הרץ מדד את הגלים, והראה שהם מוחזרים מקירות, מתכופפים ונעים במהירות האור, בדיוק כמו שמקסוול חזה.",
+      "כך התגלו גלי הרדיו. אבל הרץ, שנפטר צעיר, לא הספיק לראות לאן התגלית שלו תוביל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "יחידת התדירות, הרץ, קרויה על שמו של היינריך הרץ. הרץ אחד הוא רעידה אחת בשנייה. תחנת רדיו של 100 מגה־הרץ משדרת גל שרועד 100 מיליון פעם בשנייה."
+     }
+    },
+    {
+     "id": "marconi",
+     "title_he": "מרקוני מעבר לאוקיינוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A windswept cliff on the coast of Newfoundland in December 1901: a young man in a heavy coat and hat listens with an earpiece inside a wooden hut, while outside a kite carries a long antenna wire into the grey sky.",
+     "move": "up",
+     "fx": "mist",
+     "art": "👨",
+     "say": [
+      "צעיר איטלקי בשם גוליילמו מרקוני קרא על הניסויים של הרץ, וחשב: אולי אפשר לשלוח בגלים האלה הודעות?",
+      "בשנת 1895, כשהיה בן עשרים ואחת, שלח אותות בגלי רדיו לאורך השדות של אחוזת המשפחה. לאט לאט הגדיל את המרחק.",
+      "ובשנת 1901 עשה דבר שרבים חשבו לבלתי אפשרי: הוא שלח אות רדיו מאנגליה, מעבר לאוקיינוס האטלנטי, עד קנדה. אלפי קילומטרים בלי חוט!",
+      "הרדיו שינה את העולם. ספינות בלב ים יכלו עכשיו לקרוא לעזרה. כשהטיטאניק טבעה בשנת 1912, הקריאות שלה ברדיו הזעיקו ספינה שהצילה בערך 700 איש.",
+      "ואיך האות עבר מעבר לעיקול של כדור הארץ, אם גלים נעים בקו ישר? מאוחר יותר התברר שגבוה באוויר יש שכבה טעונה חשמלית, היונוספירה, שמחזירה חלק מגלי הרדיו חזרה לאדמה, כמו מראה.",
+      "זה מה שמדע טוב יכול לעשות: לחבר בין אנשים, ולהציל חיים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "how",
+     "title_he": "איך גל נושא קול?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A small radio studio in Israel: a man with a kippah speaks into a microphone wearing headphones; through the window a tall antenna mast on a hill sends out faint glowing rings into the evening sky.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "גל רדיו לבד לא נשמע. הוא לא קול, הוא גל אלקטרומגנטי. אז איך הוא מביא קול?",
+      "באולפן, המיקרופון הופך את הקול לאות חשמלי שמשתנה. המשדר יוצר גל רדיו קבוע, שנקרא ״גל נושא״, ו״מדפיס״ עליו את האות.",
+      "בשיטה אחת, AM, משנים את הגובה של הגל, את המשרעת. בשיטה אחרת, FM, משנים מעט את התדירות. כך הגל נושא בתוכו את צורת הקול.",
+      "האנטנה ברדיו שלכם קולטת את הגל, המקלט ״מוריד״ ממנו את האות, והרמקול הופך אותו חזרה לקול.",
+      "וכל תחנה משדרת בתדר אחר, כמו בנתיב משלה. כשאתם מכוונים את הרדיו, אתם בוחרים לאיזה תדר להקשיב. תחנות FM בישראל משדרות בערך בין 88 ל־108 מגה־הרץ."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "antenna",
+     "title_he": "למה לאנטנה יש אורך מסוים?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A rooftop of an Israeli apartment building at sunset: several antennas of different lengths, a long thin car-style whip antenna and short ones, a technician with a kippah and safety harness adjusting one; the city spreading below.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "👨 🏠",
+     "say": [
+      "אנטנה היא מוט או חוט ממתכת. כשגל רדיו עובר בה, השדה החשמלי של הגל מזיז את האלקטרונים במתכת הלוך ושוב, ונוצר בה זרם חשמלי חלש. את הזרם הזה המקלט מגביר.",
+      "ובשידור זה הפוך: המשדר מזיז אלקטרונים באנטנה הלוך ושוב מהר מאוד, והם יוצרים גל שיוצא לכל הכיוונים.",
+      "אנטנה עובדת הכי טוב כשהאורך שלה מתאים לאורך הגל. אנטנה פשוטה טובה היא באורך של רבע מאורך הגל.",
+      "נחשב: לגל FM של 3 מטר, רבע מאורך הגל הוא 75 סנטימטר. וזה בערך האורך של אנטנת המוט במכוניות רבות.",
+      "ובטלפון, שמשתמש בגלים של סנטימטרים בודדים, האנטנות כל כך קטנות שהן מוסתרות בתוך המכשיר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "phone",
+     "title_he": "הטלפון הנייד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A hilltop in an Israeli town: a cellular antenna mast with panel antennas stands above stone houses; below, a mother in a headscarf talks on her mobile phone at a bus stop, a soft glowing ripple linking the phone and the mast.",
+     "move": "right",
+     "fx": "light",
+     "art": "👩 🏠",
+     "say": [
+      "הטלפון הנייד הוא בעצם מכשיר רדיו קטן, ששולח וגם קולט. כשאתם מדברים, הקול הופך לאות דיגיטלי, רצף של אפסים ואחדים, שנשלח בגלי רדיו.",
+      "האות לא מגיע ישר לטלפון של סבתא. הוא מגיע לאנטנה הקרובה, שנקראת ״אתר״, ומשם עובר ברשת של כבלים ואנטנות, עד האנטנה שליד סבתא, ואל הטלפון שלה.",
+      "הארץ מחולקת לאזורים קטנים, ״תאים״, ולכל אחד אנטנה משלו. בגלל זה קוראים לטלפון ״סלולרי״, מהמילה תא.",
+      "ככל שיש יותר אנטנות קרובות, הטלפון צריך לשדר בעוצמה קטנה יותר כדי להגיע אליהן.",
+      "וכשאתם נוסעים ברכב, הטלפון עובר מאנטנה לאנטנה, מתא לתא, באמצע השיחה, בלי שתרגישו. מחשבים ברשת מחליטים בכל רגע איזו אנטנה תטפל בכם.",
+      "גם מערכת הניווט בטלפון משתמשת בגלי רדיו: לוויינים ששולחים אותות מגובה של בערך עשרים אלף קילומטר. הטלפון מודד כמה זמן לקח לכל אות להגיע, ומחשב בדיוק איפה הוא נמצא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wifi",
+     "title_he": "Wi-Fi בבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. Scene: A quiet Israeli home on a Friday afternoon before Shabbat: a small wireless router with its lights on sits on a shelf, a laptop is being closed by the boy; candlesticks ready on a white tablecloth, challot covered, warm light.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🏠 👦 🕯️",
+     "say": [
+      "גם רשת האינטרנט האלחוטית בבית, ה־Wi-Fi, היא גלי רדיו. הנתב שולח וקולט אותות בתדרים של 2.4 או 5 ג׳יגה־הרץ, מיליארדי רעידות בשנייה.",
+      "נחשב: λ = c ÷ f = 300,000,000 ÷ 2,400,000,000. יוצא בערך 0.125 מטר, כלומר 12.5 סנטימטר.",
+      "למה בחדר הרחוק האות חלש? כי קירות, ובעיקר קירות בטון עם ברזל, כמו בממ״ד, בולעים ומחזירים חלק מהגל. ככל שמתרחקים, הגל גם מתפזר על שטח גדול יותר ונחלש.",
+      "ובערב שבת, המחשב נסגר, והטלפונים כבים. הגלים ממשיכים לעבור באוויר, אבל אנחנו עוצרים, ומקדישים את הזמן למשפחה, לתפילה ולתורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "אות של Wi-Fi בתדר 2.4 ג׳יגה־הרץ הוא גל באורך של בערך 12.5 סנטימטר. גל של 5 ג׳יגה־הרץ קצר יותר, בערך 6 סנטימטר, ונחלש מהר יותר כשהוא עובר דרך קירות."
+     }
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: Evening on the balcony of an Israeli apartment: the boy and his sister look at the city lights and a distant antenna mast blinking red on a hill; the first stars and a thin moon above.",
+     "move": "out",
+     "fx": "night",
+     "art": "👦 👧 🏠",
+     "say": [
+      "אז מה למדנו? גלי רדיו הם גלים אלקטרומגנטיים ארוכים. מקסוול חזה אותם, הרץ גילה אותם בשנת 1887, ומרקוני הפך אותם לרדיו.",
+      "גל רדיו נושא קול בעזרת שינוי בעוצמה או בתדירות. והטלפון הנייד וה־Wi-Fi הם פשוט מכשירי רדיו חכמים.",
+      "ועוד דבר חשוב: גלי רדיו הם קרינה ״בלתי מייננת״. האנרגיה שלהם קטנה מכדי לשבור מולקולות בגוף. נבין את זה לעומק בשיעור האחרון.",
+      "ותחשבו על השרשרת: מקסוול חישב על הנייר, הרץ בדק במעבדה, ומרקוני בנה מזה מכשיר. כך הופך רעיון מדעי לכלי שמשרת את כולנו.",
+      "ובשיעור הבא נתקדם לגלים קצרים יותר: המיקרוגל והאינפרה־אדום, הגלים של החום."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-raf-f2e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ראה הרץ בניסוי שלו בשנת 1887?",
+   "answer": "ניצוץ קטן קפץ בטבעת חוט בצד השני של החדר, בלי חוט ביניהם",
+   "options": [
+    "ניצוץ קטן קפץ בטבעת חוט בצד השני של החדר, בלי חוט ביניהם",
+    "נורה נדלקה מעצמה",
+    "מחט של מצפן הסתובבה"
+   ],
+   "explain_he": "בכל פעם שהמכשיר הגדול ניצץ, ניצוץ זעיר קפץ גם בטבעת. כך הוכח שגלים אלקטרומגנטיים עוברים באוויר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עשה מרקוני בשנת 1901?",
+   "answer": "שלח אות רדיו מעבר לאוקיינוס האטלנטי",
+   "options": [
+    "שלח אות רדיו מעבר לאוקיינוס האטלנטי",
+    "המציא את הטלפון הנייד",
+    "גילה את מהירות האור"
+   ],
+   "explain_he": "מרקוני שלח אות מאנגליה עד קנדה, אלפי קילומטרים בלי חוט.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ההבדל בין שידור AM לשידור FM?",
+   "answer": "ב־AM משנים את המשרעת של הגל, וב־FM משנים את התדירות",
+   "options": [
+    "ב־AM משנים את המשרעת של הגל, וב־FM משנים את התדירות",
+    "AM משדר רק ביום ו־FM רק בלילה",
+    "AM הוא קול ו־FM הוא אור"
+   ],
+   "explain_he": "בשתי השיטות ״מדפיסים״ את הקול על גל נושא: ב־AM בעוצמה, וב־FM בתדירות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "נתב Wi-Fi משדר בתדר 2.4 ג׳יגה־הרץ. מה אורך הגל בערך?",
+   "answer": "12.5 סנטימטר",
+   "options": [
+    "12.5 סנטימטר",
+    "12.5 מטר",
+    "1.25 מילימטר"
+   ],
+   "explain_he": "λ = c ÷ f = 300,000,000 ÷ 2,400,000,000 = 0.125 מטר, כלומר 12.5 סנטימטר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה כשיש יותר אנטנות סלולריות קרובות, הטלפון משדר בעוצמה קטנה יותר?",
+   "answer": "כי הוא צריך להגיע רק לאנטנה קרובה",
+   "options": [
+    "כי הוא צריך להגיע רק לאנטנה קרובה",
+    "כי האנטנות שולחות לו חשמל",
+    "כי הסוללה נטענת מהאנטנות"
+   ],
+   "explain_he": "ככל שהאנטנה קרובה יותר, האות צריך לעבור פחות, והטלפון יכול לשדר חלש יותר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "גל FM באורך 3 מטר. מה אורך אנטנה של רבע אורך גל?",
+   "answer": "75 סנטימטר",
+   "options": [
+    "75 סנטימטר",
+    "3 מטר",
+    "12 מטר"
+   ],
+   "explain_he": "רבע מ־3 מטר הוא 0.75 מטר, כלומר 75 סנטימטר, בערך האורך של אנטנה במכונית.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה גלי רדיו נקראים קרינה ״בלתי מייננת״?",
+   "answer": "כי האנרגיה שלהם קטנה מכדי לשבור מולקולות בגוף",
+   "options": [
+    "כי האנרגיה שלהם קטנה מכדי לשבור מולקולות בגוף",
+    "כי הם לא עוברים באוויר",
+    "כי הם מהירים מהאור"
+   ],
+   "explain_he": "לגלי רדיו אנרגיה קטנה מאוד לכל ״מנה״, ולכן הם לא מסוגלים לשבור מולקולות. נלמד על זה לעומק בשיעור האחרון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f2e8"
+  }
+ ]
+}

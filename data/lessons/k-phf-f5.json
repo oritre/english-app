@@ -1,0 +1,495 @@
+{
+ "id": "k-phf-f5",
+ "unit_id": "k-phf-u2",
+ "course": "physics",
+ "title_he": "חשמל סטטי ומעגלים חשמליים",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "חשמל סטטי ומעגלים חשמליים",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "balloon",
+     "title_he": "בלון ושערות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A cozy Israeli living room in winter: the younger brother rubs a balloon on his hair and his short hair stands up toward the balloon, his older brother laughing; small scraps of paper on the table lift toward a second balloon.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🎈 👦 👦",
+     "say": [
+      "שפשפו בלון בשערות, וקרבו אותו לראש. השערות עומדות ונמשכות אל הבלון! קרבו אותו לפיסות נייר קטנות, והן קופצות אליו.",
+      "ובחורף היבש, לפעמים נוגעים בידית של דלת ומרגישים ״זריקה״ קטנה, ואפילו שומעים טיק.",
+      "מה קורה כאן? זה חשמל, אבל לא החשמל שזורם בחוטים. זה ״חשמל סטטי״, חשמל שעומד במקום.",
+      "כבר לפני בערך 2,600 שנה שם לב היווני תאלס, שענבר משופשף מושך אליו קש ונוצות. בשפה היוונית ענבר נקרא ״אלקטרון״, ומכאן המילה ״חשמל״ בשפות רבות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "charge",
+     "title_he": "פלוס ומינוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Scene: A bright school science room: the teacher holds a plastic comb near a thin stream of water flowing from a tap, and the stream visibly bends toward the comb; boys with kippot watch amazed.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👦",
+     "say": [
+      "כל חומר בנוי מאטומים זעירים. בכל אטום יש חלקיקים בעלי מטען חשמלי: פרוטונים חיוביים, פלוס, במרכז, ואלקטרונים שליליים, מינוס, מסביב.",
+      "בדרך כלל יש באטום אותו מספר של פלוס ומינוס, והם מאזנים זה את זה. אבל כשמשפשפים שני חומרים, אלקטרונים עוברים מחומר אחד לשני.",
+      "הבלון ״אוסף״ אלקטרונים מהשערות, ונעשה שלילי. השערות נשארות עם חוסר באלקטרונים, ונעשות חיוביות.",
+      "והחוק הוא: מטענים הפוכים נמשכים, ומטענים דומים נדחים. לכן השערות נמשכות לבלון, ושני בלונים משופשפים בורחים זה מזה.",
+      "נסו בבית: שפשפו מסרק פלסטיק בשערות יבשות, וקרבו אותו לזרם דק מאוד של מים מהברז. הזרם יתעקם אל המסרק!"
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בשנת 1785 מדד הצרפתי שארל קולומב בדיוק את הכוח בין מטענים, בעזרת מאזניים עדינים מאוד של חוט מתפתל. יחידת המטען, קולון, קרויה על שמו."
+     }
+    },
+    {
+     "id": "lightning",
+     "title_he": "הברק והרעם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A winter night over the hills of the Galil: a bright lightning bolt flashes from heavy dark clouds to a distant hill, a village with lit windows below; seen safely from inside a home window.",
+     "move": "up",
+     "fx": "night",
+     "art": "🌩️ 🏠",
+     "say": [
+      "ובחורף, בסערה, אנחנו רואים את החשמל הסטטי בגודל ענק: ברק.",
+      "בענן סערה, טיפות קרח וגרגרי ברד מתנגשים ומתחככים. כך נאגר בענן מטען עצום. כשהמטען גדול מספיק, הוא קופץ בבת אחת לאדמה או לענן אחר, כניצוץ ענקי.",
+      "הברק מחמם את האוויר בדרכו בתוך רגע לחום גבוה פי כמה מפני השמש. האוויר מתרחב בפתאומיות ומרעיד את הסביבה: זה הרעם.",
+      "חז״ל תיקנו ברכות לרגעים האלה. על הברק מברכים ״עושה מעשה בראשית״, ועל הרעם ״שכוחו וגבורתו מלא עולם״. כשאנחנו מבינים כמה אנרגיה יש בברק אחד, הברכה הזאת נאמרת מהלב."
+     ],
+     "pasuk": {
+      "text": "בָּרוּךְ אַתָּה ה׳ אֱלֹקֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁכֹּחוֹ וּגְבוּרָתוֹ מָלֵא עוֹלָם",
+      "ref": "ברכה על הרעם"
+     },
+     "note": null
+    },
+    {
+     "id": "circuit",
+     "title_he": "המעגל החשמלי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A school workbench close-up: a battery, a small light bulb in a holder, a switch and copper wires connected in a closed loop, the bulb glowing; boys' hands with a screwdriver nearby.",
+     "move": "in",
+     "fx": "light",
+     "art": "💡 👦",
+     "say": [
+      "החשמל שבבית שונה מהחשמל הסטטי: הוא זורם. כדי שיזרום, צריך מעגל חשמלי, דרך סגורה שבה המטען יכול להסתובב.",
+      "למעגל פשוט יש מקור, כמו סוללה, חוטים, וצרכן, כמו נורה. המקור דוחף את האלקטרונים, והם זורמים דרך החוטים והנורה וחוזרים למקור.",
+      "המתג הוא כמו גשר. כשהוא סגור, הדרך שלמה והנורה נדלקת. כשפותחים אותו, נוצר פער, הזרם נעצר, והנורה כבה.",
+      "את המושגים זרם ומתח אפשר ללמוד לעומק בסרטונים של הקורס. כאן נתמקד במה שעובר בחוטים, ובמה שלא."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "conductors",
+     "title_he": "מוליכים ומבודדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A close view of a cut electrical cable on a workbench: shiny copper wires inside colored plastic insulation, a pair of insulated pliers with rubber handles, a roll of electrical tape; soft workshop light.",
+     "move": "left",
+     "fx": "light",
+     "art": "🔌",
+     "say": [
+      "למה חוטי חשמל עשויים נחושת, ומצופים בפלסטיק?",
+      "כי יש חומרים שהמטען זורם בהם בקלות. הם נקראים מוליכים: נחושת, אלומיניום, ובעצם כמעט כל המתכות.",
+      "ויש חומרים שכמעט אינם מעבירים זרם. הם נקראים מבודדים: פלסטיק, גומי, זכוכית ועץ יבש. הפלסטיק עוטף את הנחושת ומגן עלינו.",
+      "ומה עם מים? מים טהורים לגמרי מוליכים מעט מאוד. אבל במים שבברז, בזיעה ובגוף שלנו יש מלחים מומסים, והם מוליכים חשמל היטב. לכן לעולם לא נוגעים במכשיר חשמלי בידיים רטובות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "series",
+     "title_he": "טורי ומקבילי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli sukkah at night decorated with strings of small warm lights, paper chains and hanging fruit; a father with a kippah and his sons check a string of lights where one section is dark.",
+     "move": "right",
+     "fx": "night",
+     "art": "⛺ 👨 👦 👦",
+     "say": [
+      "אפשר לחבר כמה נורות בשתי דרכים. בחיבור טורי, הנורות מחוברות אחת אחרי השנייה, בשרשרת אחת. הזרם עובר דרך כולן באותה דרך.",
+      "ומה קורה אם נורה אחת נשרפת? הדרך נקטעת, וכל השרשרת כבה. כך היה בשרשראות נורות ישנות לסוכה: נורה אחת התקלקלה, והייתם צריכים לחפש אותה בכל השרשרת.",
+      "בחיבור מקבילי, כל נורה מקבלת דרך משלה אל המקור. אם נורה אחת נשרפת, האחרות ממשיכות לדלוק.",
+      "בבית כל המכשירים מחוברים במקביל, ולכן כל אחד מהם מקבל את מלוא המתח, 230 וולט בישראל."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בבית, כל השקעים והנורות מחוברים במקביל. לכן אפשר לכבות את האור בחדר אחד, והמקרר במטבח ממשיך לעבוד."
+     }
+    },
+    {
+     "id": "safety",
+     "title_he": "בטיחות חשמל בבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli apartment hallway: the father with a kippah shows his two sons the electrical panel with its row of switches, a small test button visible; everything calm and tidy.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👨 👦 👦",
+     "say": [
+      "חשמל הוא משרת נאמן, אבל מסוכן מאוד אם לא נזהרים. בלוח החשמל שבבית יש מפסקים, שמנתקים את הזרם כשיש תקלה.",
+      "והחשוב שבהם הוא ממסר הפחת. הוא בודק כל הזמן שהזרם שיוצא חוזר כולו. אם חלק מהזרם ״בורח״, למשל דרך גוף של אדם, הוא מנתק את החשמל בתוך שבריר שנייה.",
+      "כללים פשוטים: לא מכניסים שום דבר לשקע. לא נוגעים במכשירים בידיים רטובות. לא מעמיסים מפצל. ומנתקים מטען מהשקע כשמסיימים.",
+      "ובחוץ: לא מטיסים עפיפון ליד קווי חשמל, לא מטפסים על עמודים, ואם רואים חוט חשמל שנפל, מתרחקים מיד וקוראים למבוגר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A rainy winter evening in an Israeli home: the family sits at the table with warm lamps lit, the boys look out the window at a distant flash of lightning over the hills.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "אז מה למדנו? בכל חומר יש מטענים חיוביים ושליליים. מטענים הפוכים נמשכים, ודומים נדחים. השפשוף מעביר אלקטרונים, וכך נוצר חשמל סטטי, מהבלון ועד הברק.",
+      "כדי שחשמל יזרום, צריך מעגל סגור. מוליכים מעבירים זרם, ומבודדים עוצרים אותו. בבית הכול מחובר במקביל, וממסר הפחת שומר עלינו.",
+      "ובשיעור הבא נגלה כוח קרוב מאוד לחשמל, שמסתתר במצפן ובכדור הארץ כולו: המגנטיות."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f5e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "חשמל סטטי ומעגלים חשמליים",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "balloon",
+     "title_he": "בלון ושערות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A cozy Israeli living room in winter: the younger brother rubs a balloon on his hair and his short hair stands up toward the balloon, his older brother laughing; small scraps of paper on the table lift toward a second balloon.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "🎈 👦 👦",
+     "say": [
+      "שפשפו בלון בשערות, וקרבו אותו לראש. השערות עומדות ונמשכות אל הבלון! קרבו אותו לפיסות נייר קטנות, והן קופצות אליו.",
+      "ובחורף היבש, לפעמים נוגעים בידית של דלת ומרגישים ״זריקה״ קטנה, ואפילו שומעים טיק.",
+      "מה קורה כאן? זה חשמל, אבל לא החשמל שזורם בחוטים. זה ״חשמל סטטי״, חשמל שעומד במקום.",
+      "כבר לפני בערך 2,600 שנה שם לב היווני תאלס, שענבר משופשף מושך אליו קש ונוצות. בשפה היוונית ענבר נקרא ״אלקטרון״, ומכאן המילה ״חשמל״ בשפות רבות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "charge",
+     "title_he": "פלוס ומינוס",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Scene: A bright school science room: the teacher holds a plastic comb near a thin stream of water flowing from a tap, and the stream visibly bends toward the comb; boys with kippot watch amazed.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👦 👦",
+     "say": [
+      "כל חומר בנוי מאטומים זעירים. בכל אטום יש חלקיקים בעלי מטען חשמלי: פרוטונים חיוביים, פלוס, במרכז, ואלקטרונים שליליים, מינוס, מסביב.",
+      "בדרך כלל יש באטום אותו מספר של פלוס ומינוס, והם מאזנים זה את זה. אבל כשמשפשפים שני חומרים, אלקטרונים עוברים מחומר אחד לשני.",
+      "הבלון ״אוסף״ אלקטרונים מהשערות, ונעשה שלילי. השערות נשארות עם חוסר באלקטרונים, ונעשות חיוביות.",
+      "והחוק הוא: מטענים הפוכים נמשכים, ומטענים דומים נדחים. לכן השערות נמשכות לבלון, ושני בלונים משופשפים בורחים זה מזה.",
+      "נסו בבית: שפשפו מסרק פלסטיק בשערות יבשות, וקרבו אותו לזרם דק מאוד של מים מהברז. הזרם יתעקם אל המסרק!",
+      "שימו לב: בשפשוף לא נוצר מטען חדש. רק עוברים אלקטרונים ממקום למקום. כמות המטען הכוללת נשמרת, בדיוק כמו האנרגיה.",
+      "ואם תיגעו בידית מתכת אחרי הליכה על שטיח, האלקטרונים העודפים קופצים בבת אחת, והניצוץ הקטן הוא ברק זעיר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בשנת 1785 מדד הצרפתי שארל קולומב בדיוק את הכוח בין מטענים, בעזרת מאזניים עדינים מאוד של חוט מתפתל. יחידת המטען, קולון, קרויה על שמו."
+     }
+    },
+    {
+     "id": "lightning",
+     "title_he": "הברק והרעם",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A winter night over the hills of the Galil: a bright lightning bolt flashes from heavy dark clouds to a distant hill, a village with lit windows below; seen safely from inside a home window.",
+     "move": "up",
+     "fx": "night",
+     "art": "🌩️ 🏠",
+     "say": [
+      "ובחורף, בסערה, אנחנו רואים את החשמל הסטטי בגודל ענק: ברק.",
+      "בענן סערה, טיפות קרח וגרגרי ברד מתנגשים ומתחככים. כך נאגר בענן מטען עצום. כשהמטען גדול מספיק, הוא קופץ בבת אחת לאדמה או לענן אחר, כניצוץ ענקי.",
+      "הברק מחמם את האוויר בדרכו בתוך רגע לחום גבוה פי כמה מפני השמש. האוויר מתרחב בפתאומיות ומרעיד את הסביבה: זה הרעם.",
+      "חז״ל תיקנו ברכות לרגעים האלה. על הברק מברכים ״עושה מעשה בראשית״, ועל הרעם ״שכוחו וגבורתו מלא עולם״. כשאנחנו מבינים כמה אנרגיה יש בברק אחד, הברכה הזאת נאמרת מהלב.",
+      "בשנת 1752 בנג׳מין פרנקלין באמריקה הראה שהברק הוא חשמל, והמציא את כליא הברק: מוט מתכת על גג הבניין, שמוביל את הברק בבטחה לאדמה.",
+      "הניסוי שלו עם עפיפון בסערה היה מסוכן מאוד, ואסור בהחלט לחקות אותו. כליא ברק יש היום על בניינים גבוהים רבים בישראל."
+     ],
+     "pasuk": {
+      "text": "בָּרוּךְ אַתָּה ה׳ אֱלֹקֵינוּ מֶלֶךְ הָעוֹלָם, שֶׁכֹּחוֹ וּגְבוּרָתוֹ מָלֵא עוֹלָם",
+      "ref": "ברכה על הרעם"
+     },
+     "note": null
+    },
+    {
+     "id": "circuit",
+     "title_he": "המעגל החשמלי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A school workbench close-up: a battery, a small light bulb in a holder, a switch and copper wires connected in a closed loop, the bulb glowing; boys' hands with a screwdriver nearby.",
+     "move": "in",
+     "fx": "light",
+     "art": "💡 👦",
+     "say": [
+      "החשמל שבבית שונה מהחשמל הסטטי: הוא זורם. כדי שיזרום, צריך מעגל חשמלי, דרך סגורה שבה המטען יכול להסתובב.",
+      "למעגל פשוט יש מקור, כמו סוללה, חוטים, וצרכן, כמו נורה. המקור דוחף את האלקטרונים, והם זורמים דרך החוטים והנורה וחוזרים למקור.",
+      "המתג הוא כמו גשר. כשהוא סגור, הדרך שלמה והנורה נדלקת. כשפותחים אותו, נוצר פער, הזרם נעצר, והנורה כבה.",
+      "את המושגים זרם ומתח אפשר ללמוד לעומק בסרטונים של הקורס. כאן נתמקד במה שעובר בחוטים, ובמה שלא.",
+      "ועוד פרט מעניין: האלקטרונים עצמם נעים בחוט לאט מאוד, פחות ממילימטר בשנייה. אבל כשסוגרים מתג, הדחיפה עוברת לאורך כל החוט כמעט במהירות האור, כמו צינור מלא בכדורים: דוחפים כדור בקצה אחד, וכדור יוצא מיד בקצה השני.",
+      "ואת ההספק של מכשיר אפשר לחשב: P = V × I, מתח כפול זרם. קומקום של 2,000 וואט על 230 וולט מושך זרם של בערך 9 אמפר. לכן לא מחברים כמה מכשירים כאלה למפצל אחד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "conductors",
+     "title_he": "מוליכים ומבודדים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A close view of a cut electrical cable on a workbench: shiny copper wires inside colored plastic insulation, a pair of insulated pliers with rubber handles, a roll of electrical tape; soft workshop light.",
+     "move": "left",
+     "fx": "light",
+     "art": "🔌",
+     "say": [
+      "למה חוטי חשמל עשויים נחושת, ומצופים בפלסטיק?",
+      "כי יש חומרים שהמטען זורם בהם בקלות. הם נקראים מוליכים: נחושת, אלומיניום, ובעצם כמעט כל המתכות.",
+      "ויש חומרים שכמעט אינם מעבירים זרם. הם נקראים מבודדים: פלסטיק, גומי, זכוכית ועץ יבש. הפלסטיק עוטף את הנחושת ומגן עלינו.",
+      "ומה עם מים? מים טהורים לגמרי מוליכים מעט מאוד. אבל במים שבברז, בזיעה ובגוף שלנו יש מלחים מומסים, והם מוליכים חשמל היטב. לכן לעולם לא נוגעים במכשיר חשמלי בידיים רטובות.",
+      "במתכת, חלק מהאלקטרונים לא קשורים לאטום מסוים. הם נעים בחופשיות בין האטומים, ולכן המתכת מוליכה. במבודד האלקטרונים קשורים היטב לאטומים שלהם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "series",
+     "title_he": "טורי ומקבילי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli sukkah at night decorated with strings of small warm lights, paper chains and hanging fruit; a father with a kippah and his sons check a string of lights where one section is dark.",
+     "move": "right",
+     "fx": "night",
+     "art": "⛺ 👨 👦 👦",
+     "say": [
+      "אפשר לחבר כמה נורות בשתי דרכים. בחיבור טורי, הנורות מחוברות אחת אחרי השנייה, בשרשרת אחת. הזרם עובר דרך כולן באותה דרך.",
+      "ומה קורה אם נורה אחת נשרפת? הדרך נקטעת, וכל השרשרת כבה. כך היה בשרשראות נורות ישנות לסוכה: נורה אחת התקלקלה, והייתם צריכים לחפש אותה בכל השרשרת.",
+      "בחיבור מקבילי, כל נורה מקבלת דרך משלה אל המקור. אם נורה אחת נשרפת, האחרות ממשיכות לדלוק.",
+      "בבית כל המכשירים מחוברים במקביל, ולכן כל אחד מהם מקבל את מלוא המתח, 230 וולט בישראל.",
+      "בחיבור טורי הזרם שווה בכל הנורות, אבל המתח של המקור מתחלק ביניהן. שתי נורות זהות בטור על סוללה של 3 וולט יקבלו 1.5 וולט כל אחת, ויאירו חלש יותר.",
+      "בחיבור מקבילי המתח על כל נורה הוא המתח המלא, והזרמים מתחברים. כל מכשיר נוסף מוסיף זרם בחוט הראשי. לכן מפצל אחד עם הרבה מכשירים חזקים עלול להתחמם מאוד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "בבית, כל השקעים והנורות מחוברים במקביל. לכן אפשר לכבות את האור בחדר אחד, והמקרר במטבח ממשיך לעבוד."
+     }
+    },
+    {
+     "id": "safety",
+     "title_he": "בטיחות חשמל בבית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli apartment hallway: the father with a kippah shows his two sons the electrical panel with its row of switches, a small test button visible; everything calm and tidy.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👨 👦 👦",
+     "say": [
+      "חשמל הוא משרת נאמן, אבל מסוכן מאוד אם לא נזהרים. בלוח החשמל שבבית יש מפסקים, שמנתקים את הזרם כשיש תקלה.",
+      "והחשוב שבהם הוא ממסר הפחת. הוא בודק כל הזמן שהזרם שיוצא חוזר כולו. אם חלק מהזרם ״בורח״, למשל דרך גוף של אדם, הוא מנתק את החשמל בתוך שבריר שנייה.",
+      "כללים פשוטים: לא מכניסים שום דבר לשקע. לא נוגעים במכשירים בידיים רטובות. לא מעמיסים מפצל. ומנתקים מטען מהשקע כשמסיימים.",
+      "ובחוץ: לא מטיסים עפיפון ליד קווי חשמל, לא מטפסים על עמודים, ואם רואים חוט חשמל שנפל, מתרחקים מיד וקוראים למבוגר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A rainy winter evening in an Israeli home: the family sits at the table with warm lamps lit, the boys look out the window at a distant flash of lightning over the hills.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "אז מה למדנו? בכל חומר יש מטענים חיוביים ושליליים. מטענים הפוכים נמשכים, ודומים נדחים. השפשוף מעביר אלקטרונים, וכך נוצר חשמל סטטי, מהבלון ועד הברק.",
+      "כדי שחשמל יזרום, צריך מעגל סגור. מוליכים מעבירים זרם, ומבודדים עוצרים אותו. בבית הכול מחובר במקביל, וממסר הפחת שומר עלינו.",
+      "ובשיעור הבא נגלה כוח קרוב מאוד לחשמל, שמסתתר במצפן ובכדור הארץ כולו: המגנטיות."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f5e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קורה כשמשפשפים בלון בשערות?",
+   "answer": "אלקטרונים עוברים מהשערות לבלון, והם נעשים בעלי מטענים הפוכים",
+   "options": [
+    "אלקטרונים עוברים מהשערות לבלון, והם נעשים בעלי מטענים הפוכים",
+    "הבלון מתחמם ונעשה דביק",
+    "נוצר מטען חדש יש מאין"
+   ],
+   "explain_he": "השפשוף מעביר אלקטרונים. הבלון נעשה שלילי, השערות חיוביות, ומטענים הפוכים נמשכים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f5e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קורה כשמשפשפים בלון בשערות?",
+   "answer": "אלקטרונים עוברים מהשערות לבלון, והם נעשים בעלי מטענים הפוכים",
+   "options": [
+    "אלקטרונים עוברים מהשערות לבלון, והם נעשים בעלי מטענים הפוכים",
+    "הבלון מתחמם ונעשה דביק",
+    "נוצר מטען חדש יש מאין"
+   ],
+   "explain_he": "השפשוף מעביר אלקטרונים. הבלון נעשה שלילי, השערות חיוביות, ומטענים הפוכים נמשכים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f5e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גורם לרעם?",
+   "answer": "הברק מחמם את האוויר בבת אחת, והאוויר מתרחב בפתאומיות",
+   "options": [
+    "הברק מחמם את האוויר בבת אחת, והאוויר מתרחב בפתאומיות",
+    "עננים שמתנגשים זה בזה כמו אבנים",
+    "גשם שנופל חזק על האדמה"
+   ],
+   "explain_he": "הברק מחמם את האוויר לחום עצום ברגע, והתרחבות האוויר הפתאומית היא הרעם.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f5e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גורם לרעם?",
+   "answer": "הברק מחמם את האוויר בבת אחת, והאוויר מתרחב בפתאומיות",
+   "options": [
+    "הברק מחמם את האוויר בבת אחת, והאוויר מתרחב בפתאומיות",
+    "עננים שמתנגשים זה בזה כמו אבנים",
+    "גשם שנופל חזק על האדמה"
+   ],
+   "explain_he": "הברק מחמם את האוויר לחום עצום ברגע, והתרחבות האוויר הפתאומית היא הרעם.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f5e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא נוגעים במכשיר חשמלי בידיים רטובות?",
+   "answer": "כי במים שעל הידיים יש מלחים, והם מוליכים חשמל היטב",
+   "options": [
+    "כי במים שעל הידיים יש מלחים, והם מוליכים חשמל היטב",
+    "כי המכשיר יתקלקל מהמים",
+    "כי מים הם מבודד טוב"
+   ],
+   "explain_he": "מים טהורים לגמרי כמעט לא מוליכים, אבל במים שבברז ובזיעה יש מלחים מומסים, והם מוליכים.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f5e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה לא נוגעים במכשיר חשמלי בידיים רטובות?",
+   "answer": "כי במים שעל הידיים יש מלחים, והם מוליכים חשמל היטב",
+   "options": [
+    "כי במים שעל הידיים יש מלחים, והם מוליכים חשמל היטב",
+    "כי המכשיר יתקלקל מהמים",
+    "כי מים הם מבודד טוב"
+   ],
+   "explain_he": "מים טהורים לגמרי כמעט לא מוליכים, אבל במים שבברז ובזיעה יש מלחים מומסים, והם מוליכים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f5e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "בשרשרת נורות טורית נורה אחת נשרפה. מה יקרה?",
+   "answer": "כל השרשרת תכבה",
+   "options": [
+    "כל השרשרת תכבה",
+    "רק הנורה השרופה תכבה",
+    "שאר הנורות יאירו חזק יותר"
+   ],
+   "explain_he": "בחיבור טורי יש לזרם דרך אחת בלבד. נורה שרופה קוטעת אותה, וכל השרשרת כבה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f5e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מברכים על הרעם?",
+   "answer": "שכוחו וגבורתו מלא עולם",
+   "options": [
+    "שכוחו וגבורתו מלא עולם",
+    "עושה מעשה בראשית",
+    "זוכר הברית"
+   ],
+   "explain_he": "על הרעם מברכים ״שכוחו וגבורתו מלא עולם״, ועל הברק ״עושה מעשה בראשית״.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f5e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה מתכות מוליכות חשמל?",
+   "answer": "כי חלק מהאלקטרונים בהן נעים בחופשיות בין האטומים",
+   "options": [
+    "כי חלק מהאלקטרונים בהן נעים בחופשיות בין האטומים",
+    "כי יש בהן מים",
+    "כי הן תמיד חמות"
+   ],
+   "explain_he": "במתכת יש אלקטרונים שאינם קשורים לאטום מסוים, והם יכולים לזרום. במבודד הם קשורים היטב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f5e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "שתי נורות זהות מחוברות בטור לסוללה של 3 וולט. מה המתח על כל נורה?",
+   "answer": "1.5 וולט",
+   "options": [
+    "1.5 וולט",
+    "3 וולט",
+    "6 וולט"
+   ],
+   "explain_he": "בחיבור טורי המתח של המקור מתחלק בין הנורות: 3 ÷ 2 = 1.5 וולט לכל אחת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f5e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה עושה ממסר הפחת?",
+   "answer": "מנתק את החשמל כשחלק מהזרם בורח ולא חוזר",
+   "options": [
+    "מנתק את החשמל כשחלק מהזרם בורח ולא חוזר",
+    "מגביר את הזרם כשצריך",
+    "סופר כמה חשמל צרכנו"
+   ],
+   "explain_he": "הוא בודק שהזרם שיוצא חוזר כולו. אם זרם בורח, למשל דרך גוף אדם, הוא מנתק מיד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f5e13"
+  }
+ ]
+}

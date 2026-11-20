@@ -1,0 +1,308 @@
+{
+ "id": "k-raf-f4",
+ "unit_id": "k-raf-u2",
+ "course": "radiation",
+ "title_he": "אור וצבע: למה השמיים כחולים?",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌈 ידע כללי",
+   "title_he": "אור וצבע: למה השמיים כחולים?",
+   "ref_he": "מסע אל הקרינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "sky",
+     "title_he": "שמיים כחולים, שקיעה אדומה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: The Mediterranean beach of Ashdod in the late afternoon: half the sky still deep blue above, the sun setting orange-red over the sea, the boy and his sister walking along the shore in modest clothes, families on the sand.",
+     "move": "right",
+     "fx": "sunset",
+     "art": "👦 👧 🌊",
+     "say": [
+      "בצהריים, השמיים כחולים. בערב, מעל הים, השמש שוקעת באדום וכתום. ובירח, שאין בו אוויר, השמיים שחורים גם ביום.",
+      "למה? הרי זו אותה שמש, ואותו אור לבן. מה צובע את השמיים?",
+      "ולמה עלה ירוק, תפוח אדום ושלג לבן? ואיך העין שלנו בכלל יודעת מה זה ״אדום״?",
+      "אנחנו רגילים לחשוב שצבע ״שייך״ לחפץ, כמו משקל או גודל. אבל בשיעור הזה נגלה שצבע הוא בעצם סיפור משותף של שלושה: מקור האור, החפץ, והעין שמסתכלת.",
+      "בשיעור הזה נבין את הצבעים, מהשמיים ועד מסך הטלפון, ובסוף נגיע אל נר ההבדלה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "scatter",
+     "title_he": "פיזור האור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: Victorian England, 1870s: a bearded nobleman scientist in a dark suit stands at a tall window of a country manor looking at a bright blue sky, a glass flask of slightly cloudy water on the sill glowing faint blue in the sunlight.",
+     "move": "up",
+     "fx": "light",
+     "art": "👨",
+     "say": [
+      "האוויר בנוי ממולקולות זעירות של חנקן וחמצן. כשאור השמש פוגע בהן, חלק ממנו ״מתפזר״, נזרק לכל הכיוונים.",
+      "בשנת 1871 הראה המדען האנגלי לורד ריילי שהמולקולות האלה מפזרות הרבה יותר את אורכי הגל הקצרים. האור הכחול מתפזר בערך פי חמישה יותר מהאדום.",
+      "לכן, לאן שלא נסתכל בשמיים, מגיע אלינו אור כחול שהתפזר מהאוויר. השמיים כולם ״זוהרים״ בכחול.",
+      "ולמה לא סגול, שמתפזר עוד יותר? כי בשמש יש פחות סגול, וחלק ממנו נבלע גבוה באוויר. וגם העין שלנו פחות רגישה לסגול. התוצאה שאנחנו רואים: כחול.",
+      "ובירח? אין אוויר, אין פיזור, ולכן השמיים שחורים גם כשהשמש זורחת."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "sunset",
+     "title_he": "למה השקיעה אדומה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A kitchen at night: the girl shines a flashlight through a tall glass of water with a little milk stirred in; from the side the glass glows pale blue, while the beam coming out the far end on a white card is orange; her brother watches.",
+     "move": "in",
+     "fx": "night",
+     "art": "👧 👦",
+     "say": [
+      "בשקיעה, השמש נמוכה, והאור שלה עובר דרך שכבה עבה הרבה יותר של אוויר עד שהוא מגיע אלינו.",
+      "בדרך הארוכה הזאת, כמעט כל הכחול מתפזר הצידה ונעלם מהקרן. מה שנשאר להגיע ישר אלינו הוא בעיקר הצבעים הארוכים: כתום ואדום.",
+      "נסו בבית: מלאו כוס גבוהה במים, הוסיפו כמה טיפות חלב ובחשו. בחושך, האירו בפנס דרך הכוס.",
+      "מהצד הכוס נראית כחלחלה, כמו השמיים. ואם תסתכלו על האור שיוצא מהצד השני, על דף לבן, הוא כתום, כמו שקיעה!",
+      "החלב מפזר את הכחול, בדיוק כמו האוויר. בכוס אחת קטנה ראיתם גם את הצהריים וגם את הערב."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "גם אחרי השקיעה, כשהשמש כבר מתחת לאופק, השמיים עדיין מוארים, כי האוויר הגבוה מפזר אלינו את אורה. בהלכה יש לזמן הזה שם משלו: בין השמשות."
+     }
+    },
+    {
+     "id": "leaves",
+     "title_he": "למה העלה ירוק?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: An Israeli orchard in spring: sunlight through green leaves of a fig tree, a red pomegranate and yellow lemons on nearby trees; the boy in a white shirt and his sister in a dark skirt walk between the trees.",
+     "move": "left",
+     "fx": "light",
+     "art": "🌳 👦 👧",
+     "say": [
+      "צבע של חפץ תלוי באור שהוא מחזיר אלינו. כשאור לבן פוגע בתפוח אדום, התפוח בולע כמעט את כל הצבעים, ומחזיר בעיקר אדום.",
+      "ועלה ירוק? בעלה יש חומר שנקרא כלורופיל. הוא בולע בעיקר אור אדום וכחול, ומשתמש באנרגיה שלו כדי לבנות סוכר מהמים ומהאוויר.",
+      "את האור הירוק העלה בולע פחות, ומחזיר אותו. וזה מה שמגיע לעין שלנו.",
+      "חפץ לבן מחזיר את כל הצבעים, וחפץ שחור בולע כמעט את כולם. לכן בקיץ הישראלי חולצה לבנה נשארת קרירה, וחולצה שחורה מתחממת בשמש: האנרגיה שנבלעה הופכת לחום.",
+      "ובחושך מוחלט? אין אור שיחזור. לתפוח אין צבע בכלל, עד שאור פוגע בו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "eye",
+     "title_he": "העין",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A close, gentle view of the boy's face with clear brown eyes looking at a bright bouquet of colorful flowers held by his sister; soft daylight, a blurred garden behind.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👧 🌷",
+     "say": [
+      "ואיך העין רואה את כל זה? בחזית העין יש עדשה, כמו במצלמה. היא ממקדת את האור על הרשתית, שכבה דקה בתוך העין.",
+      "ברשתית יש שני סוגים של תאים שקולטים אור. בערך 120 מיליון ״קנים״, שרגישים מאוד לאור חלש, ועוזרים לראות בלילה, אבל לא מבחינים בצבעים.",
+      "ובערך 6 מיליון ״מדוכים״, שרואים צבע. יש להם שלושה סוגים: אחד רגיש בעיקר לאדום, אחד לירוק ואחד לכחול.",
+      "המוח משווה בין שלושת הסוגים, ומרכיב מהם כל צבע. צהוב, למשל, הוא כשהמדוכים של האדום ושל הירוק פועלים יחד.",
+      "ויש אנשים, רובם בנים, שאחד מסוגי המדוכים שלהם פועל אחרת. הם מתקשים להבחין בין אדום לירוק. זה נקרא עיוורון צבעים, ובדרך כלל הוא לא מפריע כמעט בחיי היום־יום.",
+      "לכן בלילה, כשרק הקנים פועלים, העולם נראה אפרפר. ובבוקר, כשהאור חוזר, חוזרים גם הצבעים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "glasses",
+     "title_he": "אור שמתכופף",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Scene: A sunny classroom: a glass of water with a straw that looks broken at the water line stands on a desk; beside it the boy puts on new eyeglasses and looks at the board with delight, the teacher smiling.",
+     "move": "left",
+     "fx": "light",
+     "art": "👦 👨",
+     "say": [
+      "הכניסו קש לכוס מים, והסתכלו מהצד. הקש נראה שבור בדיוק בקו המים! הוא כמובן שלם. מה קרה?",
+      "האור נע לאט יותר במים ובזכוכית מאשר באוויר. כשהוא עובר בזווית ממים לאוויר, הוא מתכופף. זה נקרא שבירת אור. זה בדיוק מה שקרה במנסרה של ניוטון ובטיפות הגשם.",
+      "עדשה היא זכוכית מעוגלת שמכופפת את האור בדרך מתוכננת. עדשה בולטת אוספת קרניים לנקודה אחת, ועדשה שקועה מפזרת אותן.",
+      "אצל ילדים רבים העין ארוכה מעט מהרגיל, והתמונה של דברים רחוקים נופלת לפני הרשתית. הלוח נראה מטושטש. עדשה שקועה במשקפיים מזיזה את התמונה בדיוק אל הרשתית, ופתאום הכול חד.",
+      "וכך, בזכות הבנת האור, מיליוני אנשים קוראים, לומדים ונוהגים בבטחה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "screen",
+     "title_he": "שלוש נקודות קטנות",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A close view of a glowing phone screen with a single water droplet on it acting as a magnifier, revealing a tiny grid of red, green and blue glowing dots; the girl's fingertip beside it; soft desk lamp light.",
+     "move": "in",
+     "fx": "sparkle",
+     "art": "👧",
+     "say": [
+      "ומסך הטלפון או המחשב? הוא ״מרמה״ את העין בחוכמה. כל נקודה בתמונה בנויה משלוש נורות זעירות: אדומה, ירוקה וכחולה.",
+      "אם רק האדומה והירוקה דולקות, העין שלנו רואה צהוב, אף שאין שם אור צהוב בכלל. וכשכל השלוש דולקות חזק, רואים לבן.",
+      "נסו בבית: שימו טיפת מים קטנה על מסך דולק, על אזור לבן, והסתכלו מקרוב. הטיפה פועלת כזכוכית מגדלת, ותראו את הנקודות הקטנות: אדום, ירוק וכחול.",
+      "ככה, עם שלושה צבעים בלבד, המסך יוצר מיליוני גוונים. וזה עובד רק כי לעין שלנו יש שלושה סוגי מדוכים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "havdalah",
+     "title_he": "מאורי האש",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: Motzaei Shabbat in an Israeli home: the father with a kippah holds a cup of wine, the girl holds a tall braided havdalah candle with several wicks, its flame glowing red, orange, yellow and a little blue; the family looks at the light reflected on their fingernails.",
+     "move": "in",
+     "fx": "night",
+     "art": "🕯️ 👨 👦 👧",
+     "say": [
+      "במוצאי שבת, בהבדלה, מברכים על הנר: ״בורא מאורי האש״. למה ״מאורי״, ברבים, ולא ״מאור״?",
+      "בגמרא במסכת ברכות מוסבר: ״הרבה נהורי איכא בנורא״, יש הרבה אורות באש. ורש״י מפרש: שלהבת אדומה, לבנה וירקרקת.",
+      "הסתכלו בלהבה של נר ההבדלה: בתחתית היא כחלחלה, באמצע צהובה ולבנה, ובקצה כתומה ואדומה. כל צבע מעיד על טמפרטורה ועל חומר שבוער אחרת.",
+      "ונוהגים להסתכל בציפורניים לאור הנר, כדי ליהנות מהאור, ולראות את ההבדל בין האור שעל הציפורן לצל שעל האצבע.",
+      "בברכה אחת קטנה, בכל מוצאי שבת, אנחנו מודים על האור, ועל מגוון הצבעים שבו."
+     ],
+     "pasuk": {
+      "text": "בָּרוּךְ אַתָּה ה׳ אֱלֹקֵינוּ מֶלֶךְ הָעוֹלָם, בּוֹרֵא מְאוֹרֵי הָאֵשׁ",
+      "ref": "ברכת ההבדלה"
+     },
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: Early evening on a hill above an Israeli town: the sky fades from orange at the horizon to deep blue above, the first star visible; the boy and his sister sit on a rock watching the colors change.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "👦 👧",
+     "say": [
+      "אז מה למדנו? השמיים כחולים כי האוויר מפזר את הכחול יותר מאשר את האדום. והשקיעה אדומה כי האור עובר דרך ארוכה, והכחול מתפזר בדרך.",
+      "הצבע של חפץ הוא האור שהוא מחזיר. העלה בולע אדום וכחול, ומחזיר ירוק.",
+      "העין רואה צבעים בעזרת שלושה סוגי מדוכים, והמסכים מנצלים את זה עם שלוש נקודות קטנות.",
+      "ובשיעור הבא נצא שוב אל מעבר לסגול, אל הקרינה שגורמת לכוויות שמש: האולטרה־סגול."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-raf-f4e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השמיים כחולים ביום?",
+   "answer": "כי האוויר מפזר את האור הכחול יותר מאשר את האדום",
+   "options": [
+    "כי האוויר מפזר את האור הכחול יותר מאשר את האדום",
+    "כי השמיים משקפים את הים",
+    "כי השמש מקרינה רק כחול"
+   ],
+   "explain_he": "מולקולות האוויר מפזרות הרבה יותר את אורכי הגל הקצרים. האור הכחול שהתפזר מגיע אלינו מכל השמיים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f4e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה השמש נראית אדומה בשקיעה?",
+   "answer": "כי האור עובר דרך ארוכה באוויר, והכחול מתפזר בדרך",
+   "options": [
+    "כי האור עובר דרך ארוכה באוויר, והכחול מתפזר בדרך",
+    "כי השמש מתקררת בערב",
+    "כי הים צובע אותה"
+   ],
+   "explain_he": "בשקיעה האור עובר שכבה עבה של אוויר. הכחול מתפזר הצידה, ומה שמגיע ישר אלינו הוא בעיקר כתום ואדום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f4e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה העלה נראה ירוק?",
+   "answer": "כי הכלורופיל בולע בעיקר אדום וכחול, ומחזיר את הירוק",
+   "options": [
+    "כי הכלורופיל בולע בעיקר אדום וכחול, ומחזיר את הירוק",
+    "כי העלה מייצר אור ירוק בעצמו",
+    "כי העלה בולע רק ירוק"
+   ],
+   "explain_he": "הצבע שאנחנו רואים הוא הצבע שהחפץ מחזיר, לא זה שהוא בולע.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f4e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "במסך דולקות רק הנקודות האדומות והירוקות. איזה צבע נראה?",
+   "answer": "צהוב",
+   "options": [
+    "צהוב",
+    "סגול",
+    "שחור"
+   ],
+   "explain_he": "כשהמדוכים של האדום ושל הירוק מגורים יחד, המוח רואה צהוב.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f4e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בלילה העולם נראה אפרפר?",
+   "answer": "כי באור חלש פועלים בעיקר הקנים, והם לא מבחינים בצבעים",
+   "options": [
+    "כי באור חלש פועלים בעיקר הקנים, והם לא מבחינים בצבעים",
+    "כי בלילה אין לחפצים חומר",
+    "כי העדשה בעין נסגרת"
+   ],
+   "explain_he": "הקנים רגישים לאור חלש אבל לא לצבעים. המדוכים, שרואים צבע, צריכים יותר אור.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f4e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי הגמרא, למה אומרים בהבדלה ״בורא מאורי האש״, ברבים?",
+   "answer": "כי יש הרבה אורות וצבעים באש",
+   "options": [
+    "כי יש הרבה אורות וצבעים באש",
+    "כי מדליקים הרבה נרות",
+    "כי ההבדלה נאמרת בלילה"
+   ],
+   "explain_he": "״הרבה נהורי איכא בנורא״, ורש״י מפרש: שלהבת אדומה, לבנה וירקרקת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f4e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה קש בכוס מים נראה שבור בקו המים?",
+   "answer": "כי האור מתכופף כשהוא עובר ממים לאוויר",
+   "options": [
+    "כי האור מתכופף כשהוא עובר ממים לאוויר",
+    "כי המים מכופפים את הקש באמת",
+    "כי הכוס מגדילה רק את החלק העליון"
+   ],
+   "explain_he": "האור נע לאט יותר במים, ומתכופף במעבר לאוויר. זו שבירת אור, כמו במנסרה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f4e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה חולצה שחורה מתחממת בשמש יותר מחולצה לבנה?",
+   "answer": "כי השחורה בולעת כמעט את כל האור, והאנרגיה הופכת לחום",
+   "options": [
+    "כי השחורה בולעת כמעט את כל האור, והאנרגיה הופכת לחום",
+    "כי צבע שחור כבד יותר",
+    "כי הלבנה מקררת את האוויר"
+   ],
+   "explain_he": "הלבנה מחזירה את רוב האור, והשחורה בולעת אותו. אנרגיה שנבלעה הופכת לחום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f4e9"
+  }
+ ]
+}

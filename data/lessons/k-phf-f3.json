@@ -1,0 +1,486 @@
+{
+ "id": "k-phf-f3",
+ "unit_id": "k-phf-u1",
+ "course": "physics",
+ "title_he": "אנרגיה: עבודה, הספק וחשבון החשמל",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "אנרגיה: עבודה, הספק וחשבון החשמל",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "morning",
+     "title_he": "אנרגיה בכל מקום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli kitchen in the morning: an electric kettle steaming, bread in a toaster, a phone charging on the counter, a bicycle by the door; the boys have breakfast in kippot, their mother in a headscarf pours tea.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👦 👦 👩",
+     "say": [
+      "הקומקום רותח, הטלפון נטען, ואתם אוכלים פרוסה לפני שאתם יוצאים על האופניים לבית הספר.",
+      "בכל אחד מהדברים האלה יש משהו משותף: אנרגיה. אנרגיה היא היכולת לעשות עבודה, להזיז, לחמם, להאיר או להשמיע.",
+      "אי אפשר לראות אנרגיה או להחזיק אותה ביד, אבל אפשר למדוד אותה בדיוק רב. ובשיעור הזה נלמד גם לקרוא את חשבון החשמל של הבית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kinds",
+     "title_he": "הרבה צורות של אנרגיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A collage-like wide scene in one sunny Israeli courtyard: a rolling bicycle, a boy holding a stone up high, a lit gas burner with a pot, a stretched bow, a lamp shining and a solar water heater on the roof.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "🚲 🏠",
+     "say": [
+      "לאנרגיה יש הרבה צורות. לגוף שנע יש אנרגיית תנועה. אופניים מהירים, כדור עף ורוח נושבת.",
+      "לגוף שנמצא גבוה יש אנרגיית גובה. אבן על מדף יכולה ליפול ולעשות רעש. מים בראש מפל יכולים לסובב טחנה.",
+      "במזון ובגז לבישול יש אנרגיה כימית, אגורה בחומר עצמו. בקפיץ מתוח ובקשת דרוכה יש אנרגיה אלסטית.",
+      "ויש גם אנרגיה חשמלית, אנרגיית חום, אור וקול. ואנרגיה עוברת כל הזמן מצורה לצורה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "swing",
+     "title_he": "הנדנדה והחוק הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A playground in an Israeli park in the late afternoon: a boy with a kippah swings high on a swing, caught at the top of the arc, his brother watching; pine trees and long shadows.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👦 👦",
+     "say": [
+      "הסתכלו על נדנדה. למעלה, לרגע, היא כמעט עוצרת: יש לה הרבה אנרגיית גובה, ומעט אנרגיית תנועה.",
+      "בדרך למטה הגובה הופך למהירות. בתחתית היא הכי מהירה. ואז היא עולה שוב, והמהירות חוזרת להיות גובה.",
+      "זה אחד החוקים החשובים ביותר בפיזיקה: חוק שימור האנרגיה. אנרגיה לא נוצרת יש מאין בידי אדם, ולא נעלמת. היא רק עוברת מצורה לצורה.",
+      "אבל אם לא דוחפים, הנדנדה נעצרת בסוף. לאן הלכה האנרגיה? לחיכוך באוויר ובשרשראות. היא הפכה לחום קטן ולקול חריקה. היא לא אבדה, רק שינתה צורה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ג׳יימס ג׳ול, בעל מבשלת בירה באנגליה, הראה בשנות ה־1840 שמשקולת שיורדת ומסובבת גלגל משוטים חם את המים במעט. כך הוכיח שחום הוא צורה של אנרגיה. יחידת האנרגיה, ג׳אול, קרויה על שמו."
+     }
+    },
+    {
+     "id": "work",
+     "title_he": "עבודה בפיזיקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A stairwell in an Israeli apartment building: the older brother carries a heavy bag of groceries up the stairs, while in the lobby below his brother simply stands holding another heavy bag, looking tired.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "בפיזיקה, למילה ״עבודה״ יש משמעות מדויקת: עבודה נעשית כשכוח מזיז גוף לאורך מרחק.",
+      "הנוסחה היא W = F × d: העבודה שווה לכוח כפול המרחק. ומודדים אותה בג׳אול, כמו אנרגיה. כי עבודה היא בדיוק העברה של אנרגיה.",
+      "אם תרימו שקית של 1 קילוגרם לגובה מטר אחד, תפעילו כוח של בערך 10 ניוטון לאורך מטר, ותעשו עבודה של 10 ג׳אול.",
+      "ומה עם מי שעומד במקום ומחזיק שקית כבדה? הוא מתעייף, אבל בפיזיקה הוא לא עושה עבודה על השקית, כי היא לא זזה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "power",
+     "title_he": "הספק: כמה מהר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A late 18th-century workshop in Scotland: a man in a waistcoat and white neckcloth examines a big iron steam engine with a turning flywheel, steam rising; a draft horse stands in the yard outside.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 🐴",
+     "say": [
+      "עכשיו דמיינו שני אחים שעולים את אותן מדרגות. אחד רץ בעשר שניות, והשני הולך לאט בדקה. העבודה של שניהם זהה. אז מה שונה?",
+      "שונה ההספק: כמה עבודה נעשית בכל שנייה. ההספק נמדד ביחידה שנקראת וואט, על שם ג׳יימס וואט, ששיפר מאוד את מנוע הקיטור בסוף המאה ה־18.",
+      "וואט רצה להסביר ללקוחות כמה חזק המנוע שלו, אז השווה אותו לסוסים שהיו מושכים עגלות. משם הגיע המונח ״כוח סוס״, שעדיין משתמשים בו למכוניות.",
+      "נורה חסכונית צורכת בערך 10 וואט. קומקום חשמלי צורך בערך 2,000 וואט. ולכן הקומקום מרתיח מים כל כך מהר, אבל גם צורך הרבה חשמל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "bill",
+     "title_he": "קילוואט־שעה בחשבון החשמל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli family kitchen in the evening: the father with a kippah and the older son sit at the table looking at a paper electricity bill and a calculator, the fridge and the kettle behind them; warm lamp light.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👨 👦",
+     "say": [
+      "כל חודשיים מגיע הביתה חשבון חשמל. מה כתוב בו? לא כמה ״חשמל״ השתמשנו, אלא כמה אנרגיה, ביחידה שנקראת קילוואט־שעה.",
+      "קילוואט הוא אלף וואט. קילוואט־שעה הוא האנרגיה שצורך מכשיר של אלף וואט שפועל שעה שלמה.",
+      "הקומקום שלנו צורך 2 קילוואט. אם ירתח שעה שלמה, יצרוך 2 קילוואט־שעה. אבל הוא רותח רק כשלוש דקות, ולכן הוא צורך רק בערך עשירית קילוואט־שעה.",
+      "בישראל משלמים על כל קילוואט־שעה בערך שישים אגורות, והמחיר משתנה מעט משנה לשנה. כך כל אחד יכול לחשב כמה עולה כל מכשיר בבית.",
+      "והמכשירים שצורכים הכי הרבה הם בדרך כלל אלה שמחממים או מקררים: מזגן, תנור, מייבש כביסה ודוד חשמלי."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "קילוואט־שעה אחד שווה ל־3.6 מיליון ג׳אול. זו אנרגיה גדולה: אדם היה צריך לטפס ברגל אלפי קומות כדי לעשות עבודה כזאת."
+     }
+    },
+    {
+     "id": "sun",
+     "title_he": "דוד השמש על הגג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Rooftops of an Israeli neighborhood under strong midday sun: rows of solar water heaters with dark glass panels and white tanks, the hills of Jerusalem in the distance, a clear blue sky.",
+     "move": "left",
+     "fx": "light",
+     "art": "🏠 ☀️",
+     "say": [
+      "הסתכלו על הגגות בישראל. ברוב הבתים יש דוד שמש: לוחות כהים שקולטים את אנרגיית השמש ומחממים את המים למקלחת.",
+      "את דוד השמש המודרני פיתח בשנות החמישים מדען ישראלי, הרי צבי טבור. היום הוא חוסך לכל משפחה חשמל רב.",
+      "גם הרבה מהאנרגיה שלנו מגיעה בסוף מהשמש. הצמחים קולטים את אור השמש ובונים ממנו את החיטה. החיטה הופכת ללחם, והלחם נותן לנו כוח לרכוב על האופניים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Evening in the boys' room: the younger brother switches off a lamp while the older one checks a small plug-in electricity meter on a socket; a bookshelf with seforim, moonlight in the window.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "אז מה למדנו? אנרגיה היא היכולת לעשות עבודה, ויש לה צורות רבות. היא לא נעלמת, רק עוברת מצורה לצורה.",
+      "עבודה היא כוח כפול מרחק. הספק הוא כמה מהר נעשית העבודה, ונמדד בוואט. ובחשבון החשמל משלמים לפי קילוואט־שעה.",
+      "עכשיו כשאתם מכבים אור מיותר, אתם יודעים בדיוק מה אתם חוסכים. ובשיעור הבא נגלה איך ספינת פלדה ענקית צפה, ולמה בים המלח אי אפשר לטבוע."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f3e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "אנרגיה: עבודה, הספק וחשבון החשמל",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "morning",
+     "title_he": "אנרגיה בכל מקום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli kitchen in the morning: an electric kettle steaming, bread in a toaster, a phone charging on the counter, a bicycle by the door; the boys have breakfast in kippot, their mother in a headscarf pours tea.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👦 👦 👩",
+     "say": [
+      "הקומקום רותח, הטלפון נטען, ואתם אוכלים פרוסה לפני שאתם יוצאים על האופניים לבית הספר.",
+      "בכל אחד מהדברים האלה יש משהו משותף: אנרגיה. אנרגיה היא היכולת לעשות עבודה, להזיז, לחמם, להאיר או להשמיע.",
+      "אי אפשר לראות אנרגיה או להחזיק אותה ביד, אבל אפשר למדוד אותה בדיוק רב. ובשיעור הזה נלמד גם לקרוא את חשבון החשמל של הבית."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "kinds",
+     "title_he": "הרבה צורות של אנרגיה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A collage-like wide scene in one sunny Israeli courtyard: a rolling bicycle, a boy holding a stone up high, a lit gas burner with a pot, a stretched bow, a lamp shining and a solar water heater on the roof.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "🚲 🏠",
+     "say": [
+      "לאנרגיה יש הרבה צורות. לגוף שנע יש אנרגיית תנועה. אופניים מהירים, כדור עף ורוח נושבת.",
+      "לגוף שנמצא גבוה יש אנרגיית גובה. אבן על מדף יכולה ליפול ולעשות רעש. מים בראש מפל יכולים לסובב טחנה.",
+      "במזון ובגז לבישול יש אנרגיה כימית, אגורה בחומר עצמו. בקפיץ מתוח ובקשת דרוכה יש אנרגיה אלסטית.",
+      "ויש גם אנרגיה חשמלית, אנרגיית חום, אור וקול. ואנרגיה עוברת כל הזמן מצורה לצורה.",
+      "בתחנת כוח, למשל, אנרגיה כימית של גז הופכת לחום, החום הופך מים לקיטור, הקיטור מסובב טורבינה, והטורבינה מסובבת גנרטור שמייצר אנרגיה חשמלית.",
+      "ובכל שלב בשרשרת הזאת חלק מהאנרגיה הופך לחום שאי אפשר לנצל. לכן מהנדסים עובדים קשה כדי שכל שלב יהיה יעיל ככל האפשר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "swing",
+     "title_he": "הנדנדה והחוק הגדול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A playground in an Israeli park in the late afternoon: a boy with a kippah swings high on a swing, caught at the top of the arc, his brother watching; pine trees and long shadows.",
+     "move": "left",
+     "fx": "sunset",
+     "art": "👦 👦",
+     "say": [
+      "הסתכלו על נדנדה. למעלה, לרגע, היא כמעט עוצרת: יש לה הרבה אנרגיית גובה, ומעט אנרגיית תנועה.",
+      "בדרך למטה הגובה הופך למהירות. בתחתית היא הכי מהירה. ואז היא עולה שוב, והמהירות חוזרת להיות גובה.",
+      "זה אחד החוקים החשובים ביותר בפיזיקה: חוק שימור האנרגיה. אנרגיה לא נוצרת יש מאין בידי אדם, ולא נעלמת. היא רק עוברת מצורה לצורה.",
+      "אבל אם לא דוחפים, הנדנדה נעצרת בסוף. לאן הלכה האנרגיה? לחיכוך באוויר ובשרשראות. היא הפכה לחום קטן ולקול חריקה. היא לא אבדה, רק שינתה צורה.",
+      "אפשר לחשב: אנרגיית הגובה היא E = m × g × h. ספר של 1 קילוגרם על מדף בגובה 2 מטר: 1 × 10 × 2, כלומר 20 ג׳אול.",
+      "ואנרגיית התנועה היא E = ½ × m × v². כשהספר נופל, כמעט כל 20 הג׳אול הופכים לאנרגיית תנועה רגע לפני שהוא פוגע ברצפה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "ג׳יימס ג׳ול, בעל מבשלת בירה באנגליה, הראה בשנות ה־1840 שמשקולת שיורדת ומסובבת גלגל משוטים חם את המים במעט. כך הוכיח שחום הוא צורה של אנרגיה. יחידת האנרגיה, ג׳אול, קרויה על שמו."
+     }
+    },
+    {
+     "id": "work",
+     "title_he": "עבודה בפיזיקה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A stairwell in an Israeli apartment building: the older brother carries a heavy bag of groceries up the stairs, while in the lobby below his brother simply stands holding another heavy bag, looking tired.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 👦",
+     "say": [
+      "בפיזיקה, למילה ״עבודה״ יש משמעות מדויקת: עבודה נעשית כשכוח מזיז גוף לאורך מרחק.",
+      "הנוסחה היא W = F × d: העבודה שווה לכוח כפול המרחק. ומודדים אותה בג׳אול, כמו אנרגיה. כי עבודה היא בדיוק העברה של אנרגיה.",
+      "אם תרימו שקית של 1 קילוגרם לגובה מטר אחד, תפעילו כוח של בערך 10 ניוטון לאורך מטר, ותעשו עבודה של 10 ג׳אול.",
+      "ומה עם מי שעומד במקום ומחזיק שקית כבדה? הוא מתעייף, אבל בפיזיקה הוא לא עושה עבודה על השקית, כי היא לא זזה.",
+      "נחשב: ילד שמסתו 40 קילוגרם עולה קומה אחת, 3 מטר. הכוח הוא המשקל שלו, בערך 400 ניוטון. העבודה: 400 × 3, כלומר 1,200 ג׳אול.",
+      "וזה נשמע הרבה, אבל פרוסת לחם אחת נותנת לגוף בערך 300 אלף ג׳אול! הגוף שלנו הוא מכונה מופלאה, שהופכת מזון לתנועה ולחום."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "power",
+     "title_he": "הספק: כמה מהר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A late 18th-century workshop in Scotland: a man in a waistcoat and white neckcloth examines a big iron steam engine with a turning flywheel, steam rising; a draft horse stands in the yard outside.",
+     "move": "right",
+     "fx": "mist",
+     "art": "👨 🐴",
+     "say": [
+      "עכשיו דמיינו שני אחים שעולים את אותן מדרגות. אחד רץ בעשר שניות, והשני הולך לאט בדקה. העבודה של שניהם זהה. אז מה שונה?",
+      "שונה ההספק: כמה עבודה נעשית בכל שנייה. ההספק נמדד ביחידה שנקראת וואט, על שם ג׳יימס וואט, ששיפר מאוד את מנוע הקיטור בסוף המאה ה־18.",
+      "וואט רצה להסביר ללקוחות כמה חזק המנוע שלו, אז השווה אותו לסוסים שהיו מושכים עגלות. משם הגיע המונח ״כוח סוס״, שעדיין משתמשים בו למכוניות.",
+      "נורה חסכונית צורכת בערך 10 וואט. קומקום חשמלי צורך בערך 2,000 וואט. ולכן הקומקום מרתיח מים כל כך מהר, אבל גם צורך הרבה חשמל.",
+      "הנוסחה היא P = W ÷ t: הספק שווה לעבודה חלקי הזמן. הילד שעשה 1,200 ג׳אול בעשר שניות פיתח הספק של 120 וואט. מי שהלך דקה פיתח רק 20 וואט."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "bill",
+     "title_he": "קילוואט־שעה בחשבון החשמל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An Israeli family kitchen in the evening: the father with a kippah and the older son sit at the table looking at a paper electricity bill and a calculator, the fridge and the kettle behind them; warm lamp light.",
+     "move": "in",
+     "fx": "light",
+     "art": "🏠 👨 👦",
+     "say": [
+      "כל חודשיים מגיע הביתה חשבון חשמל. מה כתוב בו? לא כמה ״חשמל״ השתמשנו, אלא כמה אנרגיה, ביחידה שנקראת קילוואט־שעה.",
+      "קילוואט הוא אלף וואט. קילוואט־שעה הוא האנרגיה שצורך מכשיר של אלף וואט שפועל שעה שלמה.",
+      "הקומקום שלנו צורך 2 קילוואט. אם ירתח שעה שלמה, יצרוך 2 קילוואט־שעה. אבל הוא רותח רק כשלוש דקות, ולכן הוא צורך רק בערך עשירית קילוואט־שעה.",
+      "בישראל משלמים על כל קילוואט־שעה בערך שישים אגורות, והמחיר משתנה מעט משנה לשנה. כך כל אחד יכול לחשב כמה עולה כל מכשיר בבית.",
+      "והמכשירים שצורכים הכי הרבה הם בדרך כלל אלה שמחממים או מקררים: מזגן, תנור, מייבש כביסה ודוד חשמלי.",
+      "נחשב: מזגן שצורך בערך קילוואט אחד ופועל שמונה שעות בלילה קיצי צורך 1 × 8, כלומר 8 קילוואט־שעה. בשישים אגורות לכל אחד, זה בערך 4.8 שקלים ללילה.",
+      "ונורה של 10 וואט שדולקת כל השבת, בערך 25 שעות? 0.01 קילוואט × 25 שעות = 0.25 קילוואט־שעה, בערך 15 אגורות בלבד. רואים כמה ההספק משנה."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "קילוואט־שעה אחד שווה ל־3.6 מיליון ג׳אול. זו אנרגיה גדולה: אדם היה צריך לטפס ברגל אלפי קומות כדי לעשות עבודה כזאת."
+     }
+    },
+    {
+     "id": "sun",
+     "title_he": "דוד השמש על הגג",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Rooftops of an Israeli neighborhood under strong midday sun: rows of solar water heaters with dark glass panels and white tanks, the hills of Jerusalem in the distance, a clear blue sky.",
+     "move": "left",
+     "fx": "light",
+     "art": "🏠 ☀️",
+     "say": [
+      "הסתכלו על הגגות בישראל. ברוב הבתים יש דוד שמש: לוחות כהים שקולטים את אנרגיית השמש ומחממים את המים למקלחת.",
+      "את דוד השמש המודרני פיתח בשנות החמישים מדען ישראלי, הרי צבי טבור. היום הוא חוסך לכל משפחה חשמל רב.",
+      "גם הרבה מהאנרגיה שלנו מגיעה בסוף מהשמש. הצמחים קולטים את אור השמש ובונים ממנו את החיטה. החיטה הופכת ללחם, והלחם נותן לנו כוח לרכוב על האופניים.",
+      "שימו לב לשרשרת: אור השמש הופך לאנרגיה כימית בצמח, ואחר כך לאנרגיה כימית בגוף שלנו, ואז לאנרגיית תנועה ולחום. בכל שלב כמות האנרגיה נשמרת, אבל חלק ממנה תמיד הופך לחום שאי אפשר לנצל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Evening in the boys' room: the younger brother switches off a lamp while the older one checks a small plug-in electricity meter on a socket; a bookshelf with seforim, moonlight in the window.",
+     "move": "out",
+     "fx": "night",
+     "art": "🏠 👦 👦",
+     "say": [
+      "אז מה למדנו? אנרגיה היא היכולת לעשות עבודה, ויש לה צורות רבות. היא לא נעלמת, רק עוברת מצורה לצורה.",
+      "עבודה היא כוח כפול מרחק. הספק הוא כמה מהר נעשית העבודה, ונמדד בוואט. ובחשבון החשמל משלמים לפי קילוואט־שעה.",
+      "עכשיו כשאתם מכבים אור מיותר, אתם יודעים בדיוק מה אתם חוסכים. ובשיעור הבא נגלה איך ספינת פלדה ענקית צפה, ולמה בים המלח אי אפשר לטבוע."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f3e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הנדנדה נמצאת בנקודה הגבוהה ביותר. איזו אנרגיה יש לה בעיקר?",
+   "answer": "אנרגיית גובה",
+   "options": [
+    "אנרגיית גובה",
+    "אנרגיית תנועה",
+    "אנרגיה חשמלית"
+   ],
+   "explain_he": "למעלה היא כמעט עוצרת, ולכן יש לה הרבה אנרגיית גובה ומעט אנרגיית תנועה. בדרך למטה הגובה הופך למהירות.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f3e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הנדנדה נמצאת בנקודה הגבוהה ביותר. איזו אנרגיה יש לה בעיקר?",
+   "answer": "אנרגיית גובה",
+   "options": [
+    "אנרגיית גובה",
+    "אנרגיית תנועה",
+    "אנרגיה חשמלית"
+   ],
+   "explain_he": "למעלה היא כמעט עוצרת, ולכן יש לה הרבה אנרגיית גובה ומעט אנרגיית תנועה. בדרך למטה הגובה הופך למהירות.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f3e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הנדנדה נעצרת בסוף אם לא דוחפים. לאן הלכה האנרגיה?",
+   "answer": "היא הפכה לחום ולקול בגלל החיכוך",
+   "options": [
+    "היא הפכה לחום ולקול בגלל החיכוך",
+    "היא נעלמה לגמרי",
+    "היא חזרה לשמש"
+   ],
+   "explain_he": "לפי חוק שימור האנרגיה היא לא אבדה. החיכוך באוויר ובשרשראות הפך אותה לחום קטן ולקול.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f3e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "הנדנדה נעצרת בסוף אם לא דוחפים. לאן הלכה האנרגיה?",
+   "answer": "היא הפכה לחום ולקול בגלל החיכוך",
+   "options": [
+    "היא הפכה לחום ולקול בגלל החיכוך",
+    "היא נעלמה לגמרי",
+    "היא חזרה לשמש"
+   ],
+   "explain_he": "לפי חוק שימור האנרגיה היא לא אבדה. החיכוך באוויר ובשרשראות הפך אותה לחום קטן ולקול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f3e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ילד עומד במקום ומחזיק שקית כבדה. כמה עבודה, במובן של פיזיקה, הוא עושה על השקית?",
+   "answer": "אפס, כי השקית לא זזה",
+   "options": [
+    "אפס, כי השקית לא זזה",
+    "הרבה, כי הוא מתעייף",
+    "תלוי כמה זמן הוא מחזיק"
+   ],
+   "explain_he": "עבודה היא כוח כפול מרחק. אם השקית לא זזה, המרחק הוא אפס, ולכן גם העבודה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f3e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ילד עומד במקום ומחזיק שקית כבדה. כמה עבודה, במובן של פיזיקה, הוא עושה על השקית?",
+   "answer": "אפס, כי השקית לא זזה",
+   "options": [
+    "אפס, כי השקית לא זזה",
+    "הרבה, כי הוא מתעייף",
+    "תלוי כמה זמן הוא מחזיק"
+   ],
+   "explain_he": "עבודה היא כוח כפול מרחק. אם השקית לא זזה, המרחק הוא אפס, ולכן גם העבודה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f3e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "על שם מי קרויה יחידת ההספק וואט?",
+   "answer": "ג׳יימס וואט, ששיפר את מנוע הקיטור",
+   "options": [
+    "ג׳יימס וואט, ששיפר את מנוע הקיטור",
+    "אייזק ניוטון",
+    "גלילאו גליליי"
+   ],
+   "explain_he": "ג׳יימס וואט שיפר מאוד את מנוע הקיטור בסוף המאה ה־18, ויחידת ההספק נקראת על שמו.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f3e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה מודדים בחשבון החשמל?",
+   "answer": "כמה אנרגיה צרכנו, בקילוואט־שעה",
+   "options": [
+    "כמה אנרגיה צרכנו, בקילוואט־שעה",
+    "כמה מכשירים יש בבית",
+    "כמה מהר זורם החשמל"
+   ],
+   "explain_he": "החשבון מודד אנרגיה ביחידה של קילוואט־שעה: מכשיר של אלף וואט שפועל שעה אחת.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f3e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ספר של 1 ק״ג מונח על מדף בגובה 2 מטר. מה אנרגיית הגובה שלו? (g = 10)",
+   "answer": "20 ג׳אול",
+   "options": [
+    "20 ג׳אול",
+    "2 ג׳אול",
+    "200 ג׳אול"
+   ],
+   "explain_he": "E = m × g × h = 1 × 10 × 2 = 20 ג׳אול.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f3e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ילד עשה עבודה של 1,200 ג׳אול בעשר שניות. מה ההספק שלו?",
+   "answer": "120 וואט",
+   "options": [
+    "120 וואט",
+    "12,000 וואט",
+    "12 וואט"
+   ],
+   "explain_he": "P = W ÷ t = 1,200 ÷ 10 = 120 וואט.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f3e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "קומקום של 2 קילוואט פועל שש דקות, עשירית שעה. כמה אנרגיה הוא צורך?",
+   "answer": "0.2 קילוואט־שעה",
+   "options": [
+    "0.2 קילוואט־שעה",
+    "12 קילוואט־שעה",
+    "2 קילוואט־שעה"
+   ],
+   "explain_he": "אנרגיה שווה להספק כפול זמן: 2 קילוואט × 0.1 שעה = 0.2 קילוואט־שעה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f3e13"
+  }
+ ]
+}

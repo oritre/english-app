@@ -1,0 +1,501 @@
+{
+ "id": "k-phf-f2",
+ "unit_id": "k-phf-u1",
+ "course": "physics",
+ "title_he": "כוח המשיכה: למה הכול נופל?",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "כוח המשיכה: למה הכול נופל?",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 2,
+   "grades": [
+    4,
+    6
+   ],
+   "scenes": [
+    {
+     "id": "apple",
+     "title_he": "תפוח נופל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An apple orchard in the Golan in late summer: a ripe red apple falls from a branch while the two brothers look up; ladders and crates among the trees, golden evening light.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🍎",
+     "say": [
+      "עיפרון נופל מהשולחן. תפוח נופל מהעץ. טיפת גשם נופלת מהענן. אף פעם לא ראינו תפוח שנופל למעלה!",
+      "כל כך התרגלנו לזה, שאנחנו לא שואלים: למה בעצם דברים נופלים? ולמה דווקא למטה?",
+      "לפי סיפור שניוטון עצמו סיפר בזקנתו, תפוח שנפל בגינה שלו עורר אותו לחשוב על השאלה הזאת.",
+      "ובשיעור הזה נגלה שהכוח שמפיל תפוח הוא אותו כוח שמחזיק את הירח במסלולו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "heavy",
+     "title_he": "מה נופל מהר יותר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Scene: A classroom: the teacher holds a flat sheet of paper in one hand and a crumpled paper ball in the other, about to drop them together, as boys with kippot lean forward watching; morning light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👦 👦",
+     "say": [
+      "אם תפילו יחד אבן ונוצה, מי תגיע ראשונה לרצפה? ברור שהאבן. אבל האם זה בגלל שהיא כבדה יותר?",
+      "גלילאו טען שלא. לדבריו, כל הגופים נופלים באותה מהירות, והנוצה מאטה רק בגלל האוויר, שבולם אותה.",
+      "נסו בבית: הפילו מאותו גובה דף נייר שטוח וכדור נייר מקומט. זה אותו נייר, אותו משקל, אבל הכדור נוחת הרבה לפני הדף.",
+      "מה השתנה? רק הצורה. לדף השטוח יש שטח גדול, והאוויר דוחף אותו מלמטה. זה נקרא התנגדות האוויר."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הפילוסוף היווני אריסטו טען שגוף כבד פי עשרה נופל מהר פי עשרה. במשך כמעט אלפיים שנה רוב החכמים קיבלו את דבריו, בלי לבדוק."
+     }
+    },
+    {
+     "id": "moonfeather",
+     "title_he": "פטיש ונוצה על הירח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The grey surface of the Moon under a black sky, the blue Earth small on the horizon: an astronaut in a white spacesuit holds a hammer in one hand and a feather in the other, letting go of both at once.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👨‍🚀",
+     "say": [
+      "אבל איך אפשר לבדוק בלי אוויר בכלל? בשנת 1971 האסטרונאוט דייוויד סקוט עמד על הירח, שאין בו אוויר.",
+      "הוא החזיק ביד אחת פטיש ובשנייה נוצה, ושחרר את שניהם יחד. ושניהם נחתו על אדמת הירח באותו רגע בדיוק!",
+      "גלילאו צדק. בלי התנגדות אוויר, פטיש ונוצה נופלים באותה מהירות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "freefall",
+     "title_he": "נפילה חופשית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A wide sky over the Jezreel valley: a parachutist under a large round canopy floats slowly down over green and brown fields, far below a small village and a road.",
+     "move": "up",
+     "fx": "light",
+     "art": "🪂",
+     "say": [
+      "גוף שנופל בלי שום דבר שמפריע לו נמצא ב״נפילה חופשית״. ליד כדור הארץ, המהירות שלו גדלה בכל שנייה בבערך 10 מטר לשנייה.",
+      "אחרי שנייה אחת של נפילה הוא נע 10 מטר לשנייה. אחרי שתי שניות 20, ואחרי שלוש שניות 30 מטר לשנייה. מהר מאוד!",
+      "אבל באוויר האמיתי, ככל שגוף נופל מהר יותר, האוויר דוחף אותו חזק יותר. בשלב מסוים הכוחות מתאזנים, והגוף מפסיק להאיץ.",
+      "בדיוק בשביל זה יש מצנח. הוא פותח שטח ענק, האוויר בולם אותו חזק, והצנחן נוחת בעדינות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "צנחן בלי מצנח פתוח מגיע אחרי כמה שניות למהירות קבועה של בערך 200 קמ״ש, כי התנגדות האוויר גדלה עם המהירות. המצנח מגדיל מאוד את ההתנגדות ומוריד את המהירות לבערך 20 קמ״ש."
+     }
+    },
+    {
+     "id": "newton",
+     "title_he": "הכול מושך את הכול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Night in an English country garden in the 1660s: the long-haired scholar in a dark coat sits under an apple tree looking up at a bright full moon among the stars, deep in thought.",
+     "move": "up",
+     "fx": "night",
+     "art": "👨 🌳",
+     "say": [
+      "ניוטון שאל שאלה נועזת: אולי הכוח שמושך את התפוח למטה מגיע עד הירח?",
+      "הוא הגיע למסקנה שכל שני גופים בעולם מושכים זה את זה. זה נקרא כוח הכבידה, או כוח המשיכה.",
+      "ככל שהמסה גדולה יותר, המשיכה חזקה יותר. גם אתם וחבר שיושב לידכם מושכים זה את זה, אבל בכוח זעיר כל כך שאי אפשר להרגיש.",
+      "כדור הארץ, לעומת זאת, ענק. לכן המשיכה שלו חזקה, והיא מחזיקה אותנו, את המים בים ואת האוויר סביבנו."
+     ],
+     "pasuk": {
+      "text": "עָשָׂה יָרֵחַ לְמוֹעֲדִים, שֶׁמֶשׁ יָדַע מְבוֹאוֹ",
+      "ref": "תהלים קד, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "weight",
+     "title_he": "מסה ומשקל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A bright bathroom in an Israeli home: the younger brother stands on a bathroom scale while his older brother looks at it; next to them a picture-like daydream bubble of the same boy hopping lightly on the grey Moon.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👦 👦",
+     "say": [
+      "בואו נבדיל בין שתי מילים שמתבלבלים בהן: מסה ומשקל.",
+      "מסה היא כמות החומר שבגוף, ומודדים אותה בקילוגרמים. המסה שלכם זהה בבית, על הר החרמון ואפילו על הירח.",
+      "משקל הוא הכוח שבו כדור הארץ מושך אתכם, ומודדים אותו בניוטון. ילד שהמסה שלו 40 קילוגרם נמשך לכדור הארץ בכוח של בערך 400 ניוטון.",
+      "על הירח המשיכה חלשה בערך פי שישה. אותו ילד, עם אותה מסה, ישקול שם רק בערך 65 ניוטון, ויוכל לקפוץ גבוה פי כמה!"
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "orbit",
+     "title_he": "הירח נופל כל הזמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A view from high above the Earth: the blue planet with white clouds, the grey Moon far away, a faint glowing curved path around the Earth; stars in the black sky.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🌍 🌙",
+     "say": [
+      "אם הירח נמשך לכדור הארץ, למה הוא לא נופל עלינו? התשובה של ניוטון מבריקה: הוא כן נופל, כל הזמן!",
+      "דמיינו תותח על הר גבוה מאוד שיורה כדור הצידה. ככל שהכדור מהיר יותר, הוא נוחת רחוק יותר. ואם הוא מהיר מספיק, האדמה המעוגלת ״בורחת״ מתחתיו, והוא נופל סביב כדור הארץ בלי לפגוע בה לעולם.",
+      "זה בדיוק מה שעושה הירח. הוא נע הצידה במהירות של בערך קילומטר בשנייה, וכוח המשיכה מעקם את דרכו למעגל.",
+      "הירח נמצא במרחק של בערך 384 אלף קילומטר, ומקיף את כדור הארץ בערך פעם בחודש. מכאן החודש העברי, שמתחיל בכל פעם שהירח מתחדש.",
+      "וגם הירח מושך אותנו. המשיכה שלו מרימה מעט את מי האוקיינוסים, וכך נוצרים הגאות והשפל. בים התיכון שלנו ההבדל קטן, עשרות סנטימטרים בלבד, אבל בחופים מסוימים בעולם המים עולים ויורדים כמה מטרים פעמיים ביום."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לפי חשבון הלוח שבידינו מחז״ל, מולד אחד ממוצע אחרי הקודם עובר 29 ימים, 12 שעות ו־793 חלקים. החשבון הזה מדויק עד היום להפליא."
+     }
+    },
+    {
+     "id": "end",
+     "title_he": "כוח אחד, מהתפוח ועד הירח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Evening on a balcony in an Israeli town: the two brothers look at a thin new crescent moon low over the hills, one of them pointing; the first stars appear.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 👦 👦",
+     "say": [
+      "אז מה למדנו? כל הגופים נופלים באותה תאוצה, אם אין אוויר שמפריע. ליד כדור הארץ היא בערך 10 מטר לשנייה בכל שנייה.",
+      "מסה היא כמות החומר, ומשקל הוא הכוח שבו נמשכים. ואותו כוח משיכה שמפיל תפוח מחזיק את הירח במסלולו.",
+      "בפעם הבאה שתראו את הירח החדש בתחילת החודש, תזכרו: הוא נופל סביבנו כל הזמן, בסדר מדויק. ובשיעור הבא: אנרגיה, ואיך משלמים עליה בחשבון החשמל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f2e1"
+  },
+  {
+   "type": "parasha_film",
+   "kicker_he": "🧲 ידע כללי",
+   "title_he": "כוח המשיכה: למה הכול נופל?",
+   "ref_he": "פיזיקה סביבנו",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "apple",
+     "title_he": "תפוח נופל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: An apple orchard in the Golan in late summer: a ripe red apple falls from a branch while the two brothers look up; ladders and crates among the trees, golden evening light.",
+     "move": "in",
+     "fx": "sunset",
+     "art": "🍎",
+     "say": [
+      "עיפרון נופל מהשולחן. תפוח נופל מהעץ. טיפת גשם נופלת מהענן. אף פעם לא ראינו תפוח שנופל למעלה!",
+      "כל כך התרגלנו לזה, שאנחנו לא שואלים: למה בעצם דברים נופלים? ולמה דווקא למטה?",
+      "לפי סיפור שניוטון עצמו סיפר בזקנתו, תפוח שנפל בגינה שלו עורר אותו לחשוב על השאלה הזאת.",
+      "ובשיעור הזה נגלה שהכוח שמפיל תפוח הוא אותו כוח שמחזיק את הירח במסלולו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "heavy",
+     "title_he": "מה נופל מהר יותר?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Scene: A classroom: the teacher holds a flat sheet of paper in one hand and a crumpled paper ball in the other, about to drop them together, as boys with kippot lean forward watching; morning light.",
+     "move": "left",
+     "fx": "light",
+     "art": "👨 👦 👦",
+     "say": [
+      "אם תפילו יחד אבן ונוצה, מי תגיע ראשונה לרצפה? ברור שהאבן. אבל האם זה בגלל שהיא כבדה יותר?",
+      "גלילאו טען שלא. לדבריו, כל הגופים נופלים באותה מהירות, והנוצה מאטה רק בגלל האוויר, שבולם אותה.",
+      "נסו בבית: הפילו מאותו גובה דף נייר שטוח וכדור נייר מקומט. זה אותו נייר, אותו משקל, אבל הכדור נוחת הרבה לפני הדף.",
+      "מה השתנה? רק הצורה. לדף השטוח יש שטח גדול, והאוויר דוחף אותו מלמטה. זה נקרא התנגדות האוויר.",
+      "גלילאו מדד תנועה של כדורים על מסילות משופעות, כדי שהנפילה תהיה איטית מספיק למדידה. הוא גילה שהמרחק גדל עם ריבוע הזמן: בכפול זמן, פי ארבעה מרחק."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הפילוסוף היווני אריסטו טען שגוף כבד פי עשרה נופל מהר פי עשרה. במשך כמעט אלפיים שנה רוב החכמים קיבלו את דבריו, בלי לבדוק."
+     }
+    },
+    {
+     "id": "moonfeather",
+     "title_he": "פטיש ונוצה על הירח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: The grey surface of the Moon under a black sky, the blue Earth small on the horizon: an astronaut in a white spacesuit holds a hammer in one hand and a feather in the other, letting go of both at once.",
+     "move": "in",
+     "fx": "stars",
+     "art": "👨‍🚀",
+     "say": [
+      "אבל איך אפשר לבדוק בלי אוויר בכלל? בשנת 1971 האסטרונאוט דייוויד סקוט עמד על הירח, שאין בו אוויר.",
+      "הוא החזיק ביד אחת פטיש ובשנייה נוצה, ושחרר את שניהם יחד. ושניהם נחתו על אדמת הירח באותו רגע בדיוק!",
+      "גלילאו צדק. בלי התנגדות אוויר, פטיש ונוצה נופלים באותה מהירות.",
+      "זה מפתיע: על הפטיש פועל כוח משיכה גדול הרבה יותר. אבל יש לו גם הרבה יותר מסה, ולפי F = m × a, קשה יותר להאיץ אותו. שני הדברים מתקזזים בדיוק, והתאוצה של כולם שווה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "freefall",
+     "title_he": "נפילה חופשית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A wide sky over the Jezreel valley: a parachutist under a large round canopy floats slowly down over green and brown fields, far below a small village and a road.",
+     "move": "up",
+     "fx": "light",
+     "art": "🪂",
+     "say": [
+      "גוף שנופל בלי שום דבר שמפריע לו נמצא ב״נפילה חופשית״. ליד כדור הארץ, המהירות שלו גדלה בכל שנייה בבערך 10 מטר לשנייה.",
+      "אחרי שנייה אחת של נפילה הוא נע 10 מטר לשנייה. אחרי שתי שניות 20, ואחרי שלוש שניות 30 מטר לשנייה. מהר מאוד!",
+      "אבל באוויר האמיתי, ככל שגוף נופל מהר יותר, האוויר דוחף אותו חזק יותר. בשלב מסוים הכוחות מתאזנים, והגוף מפסיק להאיץ.",
+      "בדיוק בשביל זה יש מצנח. הוא פותח שטח ענק, האוויר בולם אותו חזק, והצנחן נוחת בעדינות.",
+      "המספר המדויק של תאוצת הנפילה הוא בערך 9.8 מטר לשנייה בכל שנייה, ומסמנים אותו באות g. לחישובים פשוטים מעגלים ל־10.",
+      "המהירות אחרי זמן t היא v = g × t. והמרחק שגוף נופל מהמנוחה הוא d = ½ × g × t².",
+      "נחשב: בשנייה אחת גוף נופל ½ × 10 × 1, כלומר 5 מטר. בשתי שניות ½ × 10 × 4, כלומר 20 מטר. פי שניים זמן, פי ארבעה מרחק, בדיוק כמו שגלילאו מצא."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "צנחן בלי מצנח פתוח מגיע אחרי כמה שניות למהירות קבועה של בערך 200 קמ״ש, כי התנגדות האוויר גדלה עם המהירות. המצנח מגדיל מאוד את ההתנגדות ומוריד את המהירות לבערך 20 קמ״ש."
+     }
+    },
+    {
+     "id": "newton",
+     "title_he": "הכול מושך את הכול",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: Night in an English country garden in the 1660s: the long-haired scholar in a dark coat sits under an apple tree looking up at a bright full moon among the stars, deep in thought.",
+     "move": "up",
+     "fx": "night",
+     "art": "👨 🌳",
+     "say": [
+      "ניוטון שאל שאלה נועזת: אולי הכוח שמושך את התפוח למטה מגיע עד הירח?",
+      "הוא הגיע למסקנה שכל שני גופים בעולם מושכים זה את זה. זה נקרא כוח הכבידה, או כוח המשיכה.",
+      "ככל שהמסה גדולה יותר, המשיכה חזקה יותר. גם אתם וחבר שיושב לידכם מושכים זה את זה, אבל בכוח זעיר כל כך שאי אפשר להרגיש.",
+      "כדור הארץ, לעומת זאת, ענק. לכן המשיכה שלו חזקה, והיא מחזיקה אותנו, את המים בים ואת האוויר סביבנו.",
+      "ועוד דבר גילה ניוטון: המשיכה נחלשת עם המרחק. במרחק כפול, הכוח קטן פי ארבעה. במרחק פי שלושה, הכוח קטן פי תשעה. זה נקרא ״חוק הריבוע ההפוך״.",
+      "בעזרת החוק הזה, ועם שלושת חוקי התנועה, ניוטון הצליח לחשב את מסלולי הירח וכוכבי הלכת בדיוק מפליא."
+     ],
+     "pasuk": {
+      "text": "עָשָׂה יָרֵחַ לְמוֹעֲדִים, שֶׁמֶשׁ יָדַע מְבוֹאוֹ",
+      "ref": "תהלים קד, יט"
+     },
+     "note": null
+    },
+    {
+     "id": "weight",
+     "title_he": "מסה ומשקל",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: A bright bathroom in an Israeli home: the younger brother stands on a bathroom scale while his older brother looks at it; next to them a picture-like daydream bubble of the same boy hopping lightly on the grey Moon.",
+     "move": "right",
+     "fx": "sparkle",
+     "art": "👦 👦",
+     "say": [
+      "בואו נבדיל בין שתי מילים שמתבלבלים בהן: מסה ומשקל.",
+      "מסה היא כמות החומר שבגוף, ומודדים אותה בקילוגרמים. המסה שלכם זהה בבית, על הר החרמון ואפילו על הירח.",
+      "משקל הוא הכוח שבו כדור הארץ מושך אתכם, ומודדים אותו בניוטון. ילד שהמסה שלו 40 קילוגרם נמשך לכדור הארץ בכוח של בערך 400 ניוטון.",
+      "על הירח המשיכה חלשה בערך פי שישה. אותו ילד, עם אותה מסה, ישקול שם רק בערך 65 ניוטון, ויוכל לקפוץ גבוה פי כמה!",
+      "הנוסחה היא W = m × g: המשקל שווה למסה כפול תאוצת הנפילה. על הירח g הוא בערך 1.6 בלבד.",
+      "והמשקל בחדר האמבטיה? הוא בעצם מודד כוח, כמה חזק אתם לוחצים עליו, ומתרגם אותו לקילוגרמים בשבילנו. על הירח הוא היה ״משקר״ ומראה בערך 7 קילוגרם."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "orbit",
+     "title_he": "הירח נופל כל הזמן",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing.  Scene: A view from high above the Earth: the blue planet with white clouds, the grey Moon far away, a faint glowing curved path around the Earth; stars in the black sky.",
+     "move": "out",
+     "fx": "stars",
+     "art": "🌍 🌙",
+     "say": [
+      "אם הירח נמשך לכדור הארץ, למה הוא לא נופל עלינו? התשובה של ניוטון מבריקה: הוא כן נופל, כל הזמן!",
+      "דמיינו תותח על הר גבוה מאוד שיורה כדור הצידה. ככל שהכדור מהיר יותר, הוא נוחת רחוק יותר. ואם הוא מהיר מספיק, האדמה המעוגלת ״בורחת״ מתחתיו, והוא נופל סביב כדור הארץ בלי לפגוע בה לעולם.",
+      "זה בדיוק מה שעושה הירח. הוא נע הצידה במהירות של בערך קילומטר בשנייה, וכוח המשיכה מעקם את דרכו למעגל.",
+      "הירח נמצא במרחק של בערך 384 אלף קילומטר, ומקיף את כדור הארץ בערך פעם בחודש. מכאן החודש העברי, שמתחיל בכל פעם שהירח מתחדש.",
+      "וגם הירח מושך אותנו. המשיכה שלו מרימה מעט את מי האוקיינוסים, וכך נוצרים הגאות והשפל. בים התיכון שלנו ההבדל קטן, עשרות סנטימטרים בלבד, אבל בחופים מסוימים בעולם המים עולים ויורדים כמה מטרים פעמיים ביום.",
+      "האסטרונאוטים בתחנת החלל מרחפים לא כי אין שם כוח משיכה. יש, ובערך 90 אחוז ממה שעל פני האדמה! הם מרחפים כי הם והתחנה נופלים יחד סביב כדור הארץ.",
+      "ולמה החודש העברי ארוך יותר מסיבוב אחד של הירח? סיבוב מלא ביחס לכוכבים לוקח בערך 27 ימים וקצת. אבל בזמן הזה כדור הארץ התקדם במסלולו סביב השמש, והירח צריך עוד כיומיים כדי לחזור למצב של מולד."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לפי חשבון הלוח שבידינו מחז״ל, מולד אחד ממוצע אחרי הקודם עובר 29 ימים, 12 שעות ו־793 חלקים. החשבון הזה מדויק עד היום להפליא."
+     }
+    },
+    {
+     "id": "end",
+     "title_he": "כוח אחד, מהתפוח ועד הירח",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. Physics in everyday life: a modern Israeli home, school, city bus, the Kinneret, the Negev and the Dead Sea, and historical scenes of scientists at work in period clothing (17th to 19th century Europe, ancient Greece). Clear, bright, curious mood; objects and motion drawn so the physics is easy to see. No diagrams with writing. Two Israeli brothers: a boy of about twelve and one of about fourteen, both with knitted kippot, tzitzit over light shirts and long trousers, curious and cheerful. Scene: Evening on a balcony in an Israeli town: the two brothers look at a thin new crescent moon low over the hills, one of them pointing; the first stars appear.",
+     "move": "out",
+     "fx": "sunset",
+     "art": "🏠 👦 👦",
+     "say": [
+      "אז מה למדנו? כל הגופים נופלים באותה תאוצה, אם אין אוויר שמפריע. ליד כדור הארץ היא בערך 10 מטר לשנייה בכל שנייה.",
+      "מסה היא כמות החומר, ומשקל הוא הכוח שבו נמשכים. ואותו כוח משיכה שמפיל תפוח מחזיק את הירח במסלולו.",
+      "בפעם הבאה שתראו את הירח החדש בתחילת החודש, תזכרו: הוא נופל סביבנו כל הזמן, בסדר מדויק. ובשיעור הבא: אנרגיה, ואיך משלמים עליה בחשבון החשמל."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-phf-f2e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מפילים דף נייר שטוח וכדור נייר מקומט מאותו נייר. למה הכדור נוחת קודם?",
+   "answer": "כי לדף השטוח יש שטח גדול, והתנגדות האוויר מאטה אותו",
+   "options": [
+    "כי לדף השטוח יש שטח גדול, והתנגדות האוויר מאטה אותו",
+    "כי הכדור כבד יותר מהדף",
+    "כי כדור הארץ מושך חזק יותר דברים עגולים"
+   ],
+   "explain_he": "זה אותו נייר עם אותו משקל. רק הצורה השתנתה: לדף יש שטח גדול שהאוויר דוחף מלמטה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f2e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מפילים דף נייר שטוח וכדור נייר מקומט מאותו נייר. למה הכדור נוחת קודם?",
+   "answer": "כי לדף השטוח יש שטח גדול, והתנגדות האוויר מאטה אותו",
+   "options": [
+    "כי לדף השטוח יש שטח גדול, והתנגדות האוויר מאטה אותו",
+    "כי הכדור כבד יותר מהדף",
+    "כי כדור הארץ מושך חזק יותר דברים עגולים"
+   ],
+   "explain_he": "זה אותו נייר עם אותו משקל. רק הצורה השתנתה: לדף יש שטח גדול שהאוויר דוחף מלמטה.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f2e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה כשהאסטרונאוט שחרר פטיש ונוצה על הירח?",
+   "answer": "שניהם נחתו באותו רגע",
+   "options": [
+    "שניהם נחתו באותו רגע",
+    "הפטיש נחת הרבה לפני הנוצה",
+    "הנוצה ריחפה ולא נפלה"
+   ],
+   "explain_he": "על הירח אין אוויר, ולכן אין התנגדות אוויר. כל הגופים נופלים שם באותה תאוצה, כמו שגלילאו טען.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f2e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה קרה כשהאסטרונאוט שחרר פטיש ונוצה על הירח?",
+   "answer": "שניהם נחתו באותו רגע",
+   "options": [
+    "שניהם נחתו באותו רגע",
+    "הפטיש נחת הרבה לפני הנוצה",
+    "הנוצה ריחפה ולא נפלה"
+   ],
+   "explain_he": "על הירח אין אוויר, ולכן אין התנגדות אוויר. כל הגופים נופלים שם באותה תאוצה, כמו שגלילאו טען.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f2e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ההבדל בין מסה למשקל?",
+   "answer": "מסה היא כמות החומר, ומשקל הוא הכוח שבו הגוף נמשך",
+   "options": [
+    "מסה היא כמות החומר, ומשקל הוא הכוח שבו הגוף נמשך",
+    "אין הבדל, אלה שתי מילים לאותו דבר",
+    "משקל הוא כמות החומר, ומסה היא הצבע של הגוף"
+   ],
+   "explain_he": "המסה זהה בכל מקום, ונמדדת בקילוגרם. המשקל תלוי בכוח המשיכה, ונמדד בניוטון.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f2e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ההבדל בין מסה למשקל?",
+   "answer": "מסה היא כמות החומר, ומשקל הוא הכוח שבו הגוף נמשך",
+   "options": [
+    "מסה היא כמות החומר, ומשקל הוא הכוח שבו הגוף נמשך",
+    "אין הבדל, אלה שתי מילים לאותו דבר",
+    "משקל הוא כמות החומר, ומסה היא הצבע של הגוף"
+   ],
+   "explain_he": "המסה זהה בכל מקום, ונמדדת בקילוגרם. המשקל תלוי בכוח המשיכה, ונמדד בניוטון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f2e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה הירח לא נופל על כדור הארץ?",
+   "answer": "כי הוא נע הצידה מהר, ולכן הוא נופל סביב כדור הארץ ולא עליו",
+   "options": [
+    "כי הוא נע הצידה מהר, ולכן הוא נופל סביב כדור הארץ ולא עליו",
+    "כי בחלל אין כוח משיכה בכלל",
+    "כי הירח קל מאוד"
+   ],
+   "explain_he": "כמו כדור תותח מהיר מאוד: האדמה המעוגלת ״בורחת״ מתחתיו כל הזמן, והוא מקיף אותה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f2e9"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "ילד שהמסה שלו 40 ק״ג עולה לירח. מה יקרה למסה שלו?",
+   "answer": "היא תישאר 40 ק״ג",
+   "options": [
+    "היא תישאר 40 ק״ג",
+    "היא תקטן פי שישה",
+    "היא תהיה אפס"
+   ],
+   "explain_he": "המסה היא כמות החומר, והיא לא משתנה. רק המשקל, כוח המשיכה, קטן על הירח בערך פי שישה.",
+   "grades": [
+    4,
+    6
+   ],
+   "id": "k-phf-f2e10"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "כמה מטרים נופל גוף מהמנוחה בשתי שניות? (g = 10)",
+   "answer": "20 מטר",
+   "options": [
+    "20 מטר",
+    "10 מטר",
+    "40 מטר"
+   ],
+   "explain_he": "לפי d = ½ × g × t², המרחק הוא ½ × 10 × 4 = 20 מטר.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f2e11"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "אם המרחק בין שני גופים גדל פי שניים, מה קורה לכוח המשיכה ביניהם?",
+   "answer": "הוא קטן פי ארבעה",
+   "options": [
+    "הוא קטן פי ארבעה",
+    "הוא קטן פי שניים",
+    "הוא לא משתנה"
+   ],
+   "explain_he": "לפי חוק הריבוע ההפוך של ניוטון: מרחק כפול, כוח קטן פי 2 × 2 = 4.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f2e12"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה האסטרונאוטים בתחנת החלל מרחפים?",
+   "answer": "כי הם והתחנה נופלים יחד סביב כדור הארץ",
+   "options": [
+    "כי הם והתחנה נופלים יחד סביב כדור הארץ",
+    "כי אין שם כוח משיכה בכלל",
+    "כי התחנה דוחפת אותם למעלה"
+   ],
+   "explain_he": "כוח המשיכה שם הוא בערך 90 אחוז מזה שעל פני האדמה. הם מרחפים כי כולם בנפילה חופשית יחד.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-phf-f2e13"
+  }
+ ]
+}

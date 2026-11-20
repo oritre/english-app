@@ -1,0 +1,275 @@
+{
+ "id": "k-raf-f7",
+ "unit_id": "k-raf-u3",
+ "course": "radiation",
+ "title_he": "קרינה: בטיחות ופליאה",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌈 ידע כללי",
+   "title_he": "קרינה: בטיחות ופליאה",
+   "ref_he": "מסע אל הקרינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "worry",
+     "title_he": "מה זה בכלל ״קרינה״?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: An Israeli family dinner table in the evening: the girl looks worried at a phone lying on the table, while her brother and their father with a kippah smile reassuringly and explain; a bowl of salad and bread on the table.",
+     "move": "in",
+     "fx": "light",
+     "art": "👧 👦 👨 🏠",
+     "say": [
+      "ילדה שמעה בכיתה את המילה ״קרינה״, והיא דואגת: ״הטלפון שלי מקרין? ה־Wi-Fi בבית מסוכן?״",
+      "זו שאלה טובה. והתשובה מתחילה בכך שהמילה ״קרינה״ מכסה המון דברים שונים מאוד. גם אור הנר הוא קרינה, וגם החום מהתנור, וגם גלי הרדיו, וגם קרני גמא.",
+      "הם כולם חלק מאותה משפחה, אבל ההבדל ביניהם עצום, כמו ההבדל בין טפטוף עדין של מים לבין גל ענק בים.",
+      "בשיעור הזה נלמד לחשוב על קרינה כמו מדענים: ברוגע, במדויק ובלי מיתוסים. ובסוף, נסתכל על כל המסע ביחד."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "photon",
+     "title_he": "מנות של אור",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: Berlin around 1900: a serious man with a mustache and round glasses in a dark suit writes at a desk by a window, while in a second panel a young man with wild hair in a simple suit sits in a quiet office; both thoughtful, warm lamp light.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👨",
+     "say": [
+      "בשנת 1900 הציע הפיזיקאי הגרמני מקס פלאנק רעיון מפתיע: קרינה לא נמסרת בזרם רציף, אלא ב״מנות״ קטנות. ובשנת 1905 הראה אלברט איינשטיין שהאור עצמו בנוי מהמנות האלה. קוראים להן פוטונים.",
+      "האנרגיה של כל פוטון תלויה בתדירות: E = h × f. האות h היא מספר קבוע וזעיר, שנקרא ״הקבוע של פלאנק״.",
+      "כלומר, ככל שהתדירות גבוהה יותר, כל מנה ״כבדה״ יותר. פוטון של אור כחול חזק יותר מפוטון של אור אדום. ופוטון של קרני רנטגן חזק מאות ואלפי מונים מפוטון של אור.",
+      "ואיינשטיין גילה דבר חשוב: כשאור פוגע במתכת מסוימת ומעיף ממנה אלקטרונים, מה שקובע הוא האנרגיה של כל פוטון לבד, ולא כמה פוטונים יש. אור אדום חזק מאוד לא מעיף אף אלקטרון, ואור אולטרה־סגול חלש כן.",
+      "דמיינו: אלף כדורי ספוג לא יפילו פין של באולינג, אבל כדור באולינג אחד כן. כך גם בקרינה: הגודל של כל מנה הוא העיקר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "ionizing",
+     "title_he": "מייננת ובלתי מייננת",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Their science teacher: a man of about forty with a short dark beard, black kippah, white shirt and glasses. Scene: A calm school classroom: the teacher stands by a long horizontal band of glowing colored ripples painted on a large paper scroll without any writing, wide gentle waves on one end and tight sharp ripples on the other; boys with kippot listen at their desks.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👨 👦 👧",
+     "say": [
+      "עכשיו אפשר להבין את המילה החשובה ביותר בשיעור: ״מייננת״. קרינה מייננת היא קרינה שלכל פוטון שלה יש מספיק אנרגיה כדי לתלוש אלקטרון מאטום.",
+      "כשזה קורה בתוך הגוף, הקרינה יכולה לשבור מולקולות חשובות, וגם לפגוע בחומר התורשתי שבתאים. לכן קרינה מייננת דורשת זהירות.",
+      "קרני רנטגן וקרני גמא הן מייננות. גם החלק הקצר ביותר של האולטרה־סגול.",
+      "גלי רדיו, מיקרוגלים, אינפרה־אדום ואור נראה הם קרינה בלתי מייננת. לכל פוטון שלהם אין מספיק אנרגיה כדי לתלוש אלקטרון, ולא משנה כמה פוטונים יש.",
+      "ובאמצע נמצא האולטרה־סגול שמגיע אלינו מהשמש. רובו לא מיינן, אבל יש לו מספיק אנרגיה כדי לפגוע ישירות במולקולות בעור. לכן אנחנו נזהרים ממנו, כמו שלמדנו."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "phones",
+     "title_he": "טלפונים ו־Wi-Fi",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A bright Israeli living room: the girl now smiles, holding her phone, a wireless router on a shelf, her brother doing homework on a laptop at the table; afternoon sun through the window, a vase of flowers.",
+     "move": "in",
+     "fx": "light",
+     "art": "👧 👦 🏠",
+     "say": [
+      "אז מה עם הטלפון וה־Wi-Fi? הם משתמשים בגלי רדיו ומיקרוגלים, כלומר בקרינה בלתי מייננת. הפוטונים שלהם חלשים מכדי לשבור מולקולות בגוף.",
+      "ההשפעה היחידה של גלים כאלה שידועה בבירור היא חימום, כמו בתנור המיקרוגל. אבל שם העוצמה היא מאות וואט, בתוך קופסה סגורה.",
+      "טלפון משדר בעוצמה קטנה מאוד, ויש תקנים מחמירים שקובעים כמה קרינה מותר לו לשדר, הרבה מתחת לרמה שיכולה לחמם את הגוף באופן משמעותי. נתב Wi-Fi משדר בעוצמה קטנה עוד יותר, ובמרחק של כמה מטרים היא נחלשת מאוד.",
+      "מחקרים רבים מאוד, במשך עשרות שנים, לא מצאו נזק בריאותי מוכח מטלפונים ומ־Wi-Fi בשימוש רגיל.",
+      "אז ממה כן כדאי להיזהר עם הטלפון? מלהסתכל בו בזמן שחוצים כביש, ומלהשתמש בו כל כך הרבה שהוא גוזל את השינה. אלה הסכנות האמיתיות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "לפוטון של Wi-Fi יש אנרגיה קטנה בערך פי מיליון מזו שדרושה כדי לתלוש אלקטרון מאטום. גם מיליארדים כאלה לא יעשו את זה, כמו שכדורי הספוג לא מפילים את הפין."
+     }
+    },
+    {
+     "id": "background",
+     "title_he": "קרינת רקע טבעית",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A peaceful view of the granite mountains near Eilat at sunrise: red and grey rocks, an airplane high in the sky leaving a thin trail, a bunch of bananas and a cup of tea on a picnic blanket in the foreground.",
+     "move": "up",
+     "fx": "sunset",
+     "art": "🪨 ✈️ 🍌",
+     "say": [
+      "והנה עובדה שמרגיעה הרבה אנשים: כולנו מקבלים כל הזמן כמות קטנה של קרינה מייננת טבעית. זה היה כך תמיד.",
+      "היא מגיעה מהסלעים והאדמה, שבהם יש כמויות זעירות של יסודות קורנים, ומגז טבעי בשם ראדון שעולה מהקרקע.",
+      "היא מגיעה גם מהמזון. בבננות, למשל, יש אשלגן, ומעט מאוד מהאשלגן בטבע הוא קורן. ואפילו גוף האדם עצמו מכיל כמות זעירה כזאת.",
+      "ועוד מעט קרינה מגיעה מהחלל, ממה שנקרא ״קרינה קוסמית״. רובה נעצרת באוויר, ולכן בטיסה גבוהה מקבלים ממנה קצת יותר.",
+      "את המנה מודדים ביחידה בשם סיוורט, על שם המדען השוודי רולף סיוורט. אדם ממוצע מקבל בערך 2 עד 3 אלפיות סיוורט בשנה מהטבע, והגוף מתמודד עם זה היטב."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "dose",
+     "title_he": "המינון קובע",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: A wise elderly Jewish doctor with a white beard and a kippah, in a white coat, sits with the boy and girl in a sunny clinic room, holding up a small glass of water in one hand and a large pitcher in the other, smiling warmly.",
+     "move": "in",
+     "fx": "light",
+     "art": "👴 👦 👧",
+     "say": [
+      "אז איך מחליטים מה מסוכן? הכלל החשוב הוא: המינון קובע. כמו תרופה: כמות נכונה מרפאה, וכמות גדולה מדי מזיקה. ואפילו מים, אם שותים מהם כמות עצומה בבת אחת.",
+      "צילום רנטגן אחד, בערך כמו עשרה ימים של קרינת רקע, הוא כמו כוס מים אחת: מנה קטנה. מאות צילומים כאלה בזה אחר זה כבר היו מנה גדולה.",
+      "לכן הרופאים שולחים לצילום כשיש צורך, ולא סתם. ולכן ההוראות של זמן, מרחק ומיגון נשמרות בקפידה.",
+      "וכשרואים את הסימן הבינלאומי של קרינה מייננת, שלושה עלים שחורים על רקע צהוב, מכבדים אותו: לא נכנסים, לא נוגעים, וקוראים למבוגר אחראי.",
+      "זה היחס הנכון לקרינה: לא פחד, ולא זלזול. הבנה וזהירות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "journey",
+     "title_he": "כל המסע ביחד",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A sweeping dreamlike panorama over the Land of Israel from north to south at golden hour: radio antennas on the Carmel, a microwave weather radar dome, a warm campfire in the desert, a rainbow over the Galilee, a bright sun above the Dead Sea, a hospital building in Jerusalem; one continuous band of soft colored ripples arching above it all.",
+     "move": "right",
+     "fx": "light",
+     "art": "🌈 🏠",
+     "say": [
+      "בואו נסתכל על כל המסע. בקצה אחד, גלי רדיו ארוכים, שמביאים קולות מרחוק, מחברים טלפונים ומנווטים אותנו.",
+      "אחריהם המיקרוגלים, שמחממים מזון ורואים גשם במכ״ם. ואחריהם האינפרה־אדום, החום של השמש ושל המדורה, שמצלמות תרמיות רואות.",
+      "ואז, חלון קטן וצר: האור הנראה, כל צבעי הקשת, שבו אנחנו רואים את העולם.",
+      "אחריו האולטרה־סגול, שבולעת שכבת האוזון ושמחטא מים. ובסוף קרני רנטגן וקרני גמא, שרואות דרך הגוף ומרפאות, בזהירות רבה.",
+      "כולם גלים אלקטרומגנטיים, כולם נעים באותה מהירות, מהירות האור. וההבדל היחיד ביניהם הוא אורך הגל. דבר אחד פשוט, שיוצר עולם שלם של תופעות."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "wonder",
+     "title_he": "האור הראשון",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: Dawn breaking over the Judean hills: the first rays of light rise behind the hills in soft gold and pink, the boy in tallit and tefillin and his sister standing a little apart on a hilltop, watching quietly; a gentle soft light from above.",
+     "move": "up",
+     "fx": "light",
+     "art": "👦 👧",
+     "say": [
+      "הדבר הראשון שנברא בתורה, ביום הראשון, הוא האור. ורש״י מביא את דברי חז״ל: את האור של היום הראשון גנז הקדוש ברוך הוא לצדיקים לעתיד לבוא.",
+      "האור שאנחנו מכירים הוא חלון צר בלבד. העין שלנו רואה רק חלק זעיר מהספקטרום, ובכל זאת הוא מספיק כדי לראות פרח, פנים של אמא, ושקיעה מעל הים.",
+      "וכדור הארץ עטוף במגינים: האוויר, שעוצר את קרני הרנטגן והגמא שמגיעות מהחלל; שכבת האוזון, שעוצרת את האולטרה־סגול המסוכן; והשדה המגנטי, שמסיט חלקיקים מהשמש. כך מגיע אלינו בדיוק מה שטוב לחיים.",
+      "המדענים שלמדנו עליהם, ניוטון והרשל, מקסוול והרץ, רנטגן וקירי, גילו את הסדר הזה צעד אחר צעד, בסקרנות, בעבודה קשה ובמדידות מדויקות.",
+      "ואנחנו, כשאנחנו מבינים, יכולים לברך בלב שלם על הקשת, על הברק ועל נר ההבדלה, ולראות בכל קרן אור עוד מן החכמה שבה נברא העולם."
+     ],
+     "pasuk": {
+      "text": "רָאָהוּ שֶׁאֵינוֹ כְּדַאי לְהִשְׁתַּמֵּשׁ בּוֹ רְשָׁעִים, וְהִבְדִּילוֹ לַצַּדִּיקִים לֶעָתִיד לָבוֹא",
+      "ref": "רש״י, בראשית א, ד"
+     },
+     "note": null
+    }
+   ],
+   "id": "k-raf-f7e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהי קרינה מייננת?",
+   "answer": "קרינה שלכל פוטון שלה יש מספיק אנרגיה לתלוש אלקטרון מאטום",
+   "options": [
+    "קרינה שלכל פוטון שלה יש מספיק אנרגיה לתלוש אלקטרון מאטום",
+    "כל קרינה שאפשר לראות",
+    "קרינה שמגיעה רק מהשמש"
+   ],
+   "explain_he": "יינון פירושו תלישת אלקטרון מאטום. רק לפוטונים בעלי אנרגיה גבוהה, כמו רנטגן וגמא, יש מספיק אנרגיה לכך.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f7e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "לפי E = h × f, לאיזה פוטון יש יותר אנרגיה?",
+   "answer": "לפוטון של אור כחול יותר מאשר לפוטון של אור אדום",
+   "options": [
+    "לפוטון של אור כחול יותר מאשר לפוטון של אור אדום",
+    "לפוטון של גל רדיו יותר מאשר לפוטון של רנטגן",
+    "לכל הפוטונים אותה אנרגיה"
+   ],
+   "explain_he": "האנרגיה של פוטון גדלה עם התדירות. לאור כחול תדירות גבוהה יותר מלאור אדום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f7e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה אור אדום חזק מאוד לא מעיף אלקטרונים מהמתכת, ואור אולטרה־סגול חלש כן?",
+   "answer": "כי מה שקובע הוא האנרגיה של כל פוטון לבד, ולא מספר הפוטונים",
+   "options": [
+    "כי מה שקובע הוא האנרגיה של כל פוטון לבד, ולא מספר הפוטונים",
+    "כי אור אדום איטי יותר",
+    "כי אולטרה־סגול חם יותר"
+   ],
+   "explain_he": "כמו כדורי ספוג וכדור באולינג: אלף כדורים קלים לא יפילו פין, ואחד כבד כן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f7e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "האם הקרינה של טלפון נייד ושל Wi-Fi היא מייננת?",
+   "answer": "לא, היא בלתי מייננת, והפוטונים שלה חלשים מכדי לשבור מולקולות",
+   "options": [
+    "לא, היא בלתי מייננת, והפוטונים שלה חלשים מכדי לשבור מולקולות",
+    "כן, היא כמו קרני גמא",
+    "רק כשהטלפון נטען"
+   ],
+   "explain_he": "טלפונים ו־Wi-Fi משתמשים בגלי רדיו ומיקרוגלים. לפוטון של Wi-Fi יש אנרגיה קטנה בערך פי מיליון מהדרוש ליינון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f7e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מאיפה מגיעה קרינת הרקע הטבעית?",
+   "answer": "מהסלעים והאדמה, מהמזון, מהגוף עצמו ומהחלל",
+   "options": [
+    "מהסלעים והאדמה, מהמזון, מהגוף עצמו ומהחלל",
+    "רק מתחנות כוח",
+    "רק מטלפונים"
+   ],
+   "explain_he": "יסודות קורנים בסלעים, ראדון מהקרקע, אשלגן במזון ובגוף, וקרינה קוסמית מהחלל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f7e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה פירוש הכלל ״המינון קובע״?",
+   "answer": "שהנזק תלוי בכמות: מנה קטנה בטוחה, ומנה גדולה מזיקה",
+   "options": [
+    "שהנזק תלוי בכמות: מנה קטנה בטוחה, ומנה גדולה מזיקה",
+    "שכל קרינה מזיקה תמיד באותה מידה",
+    "שקרינה אף פעם לא מזיקה"
+   ],
+   "explain_he": "כמו בתרופה ואפילו במים: הכמות קובעת. לכן מצלמים כשצריך, ושומרים על זמן, מרחק ומיגון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f7e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה ההבדל היחיד בין כל סוגי הגלים האלקטרומגנטיים, מרדיו ועד גמא?",
+   "answer": "אורך הגל, ואיתו התדירות והאנרגיה",
+   "options": [
+    "אורך הגל, ואיתו התדירות והאנרגיה",
+    "המהירות שלהם בריק",
+    "הצבע שלהם בלבד"
+   ],
+   "explain_he": "כולם נעים בריק באותה מהירות, מהירות האור. מה שמשתנה הוא אורך הגל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f7e8"
+  }
+ ]
+}

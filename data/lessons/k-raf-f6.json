@@ -1,0 +1,294 @@
+{
+ "id": "k-raf-f6",
+ "unit_id": "k-raf-u3",
+ "course": "radiation",
+ "title_he": "קרני רנטגן וגמא: לראות מבעד לגוף",
+ "exercises": [
+  {
+   "type": "parasha_film",
+   "kicker_he": "🌈 ידע כללי",
+   "title_he": "קרני רנטגן וגמא: לראות מבעד לגוף",
+   "ref_he": "מסע אל הקרינה",
+   "level": 3,
+   "grades": [
+    7,
+    13
+   ],
+   "scenes": [
+    {
+     "id": "arm",
+     "title_he": "יד שבורה",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. Scene: An Israeli hospital radiology room: the boy with a kippah sits calmly with his arm on the table of an X-ray machine, a friendly technician in a lead apron adjusts it, his father with a kippah waits by the door; on a wall screen a soft grey image of arm bones.",
+     "move": "in",
+     "fx": "light",
+     "art": "👦 👨",
+     "say": [
+      "בהפסקה, משחק כדורגל, נפילה, והיד כואבת מאוד. במיון, הרופאה אומרת: ״צריך צילום רנטגן״.",
+      "כמה דקות אחר כך, על המסך מופיעה תמונה של העצמות שבתוך היד, בלי שום חתך. ורואים בבירור: יש סדק קטן בעצם.",
+      "איך אפשר לראות דרך העור והשרירים? בעזרת קרינה שאורך הגל שלה קצר הרבה יותר מהאולטרה־סגול: קרני רנטגן.",
+      "בשיעור הזה נכיר את המדענים שגילו אותן, את הקרינה החזקה עוד יותר, קרני גמא, ואת הדרך שבה משתמשים בהן בבטחה."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "rontgen",
+     "title_he": "קרני X",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: Würzburg, Germany, November 1895: a bearded professor in a dark suit sits in a darkened laboratory beside a glass vacuum tube wrapped in black cardboard, staring in surprise at a small screen across the room that glows faint green.",
+     "move": "in",
+     "fx": "night",
+     "art": "👨",
+     "say": [
+      "בנובמבר 1895, בעיר וירצבורג שבגרמניה, עבד הפיזיקאי וילהלם קונרד רנטגן עם שפופרת זכוכית שהזרים בה חשמל. הוא עטף אותה בקרטון שחור, כך ששום אור לא יצא.",
+      "ובכל זאת, מסך קטן שעמד בצד השני של החדר התחיל לזהור! משהו בלתי נראה יצא מהשפופרת, עבר דרך הקרטון, והאיר את המסך.",
+      "רנטגן לא ידע מה זה, ולכן קרא לזה ״קרני X״, כמו נעלם בתרגיל מתמטיקה. בעברית אנחנו קוראים להן על שמו: קרני רנטגן.",
+      "כמה שבועות אחר כך, הוא צילם את היד של אשתו. בתמונה נראו העצמות, ואפילו הטבעת שעל האצבע. היא הופתעה מאוד לראות את השלד של עצמה.",
+      "תוך חודשים ספורים כבר השתמשו בקרני רנטגן בבתי חולים ברחבי העולם, כדי למצוא שברים ולהוציא רסיסי מתכת מגופם של פצועים."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "רנטגן סירב לרשום פטנט על התגלית שלו. הוא רצה שהיא תשמש את כל בני האדם, בלי תשלום. ובשנת 1901 קיבל את פרס נובל הראשון בפיזיקה."
+     }
+    },
+    {
+     "id": "how",
+     "title_he": "איך נוצרת התמונה?",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: An airport security area: a suitcase moves slowly on a conveyor belt into a scanner tunnel, a security officer in a neat uniform watches a screen showing soft shapes of objects inside the bag; a family with children waits patiently in line.",
+     "move": "right",
+     "fx": "light",
+     "art": "👨 👩 👦",
+     "say": [
+      "לקרני רנטגן יש אורך גל זעיר ואנרגיה גבוהה. הן עוברות בקלות דרך חומרים רכים, כמו עור ושריר, שבנויים בעיקר מיסודות קלים.",
+      "אבל העצמות מכילות הרבה סידן, יסוד כבד יותר, והן בולעות חלק גדול מהקרינה. מאחורי הגוף יש גלאי. איפה שהקרינה עברה, הוא מתכהה. איפה שהעצם עצרה אותה, נשאר ״צל״ בהיר.",
+      "כך תמונת רנטגן היא בעצם תמונת צל: צל של העצמות. באותו עיקרון רופא השיניים רואה חור בשן, שמוסתר מהעין.",
+      "בצילום שיניים המנה קטנה במיוחד, בערך כמו יום אחד של הקרינה הטבעית שבסביבה. ובכל זאת, גם שם מקפידים לצלם רק כשיש צורך.",
+      "בבדיקת CT מסובבים מקור רנטגן סביב הגוף, מצלמים מכל הכיוונים, ומחשב מרכיב מזה תמונה של ״פרוסות״ מבפנים, בלי ניתוח.",
+      "ובשדה התעופה, מכונת רנטגן בודקת את המזוודות בלי לפתוח אותן, כדי לשמור על בטחון הנוסעים."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "curie",
+     "title_he": "מארי קירי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: Paris, around 1900: a woman scientist in a long dark dress with long sleeves and her hair neatly pinned up stirs a large iron pot of dark mineral residue in a simple wooden shed laboratory, glass flasks on shelves, her bearded husband in a dark suit examining a small glowing vial.",
+     "move": "left",
+     "fx": "sparkle",
+     "art": "👩 👨",
+     "say": [
+      "שנה אחרי רנטגן, בשנת 1896, גילה הצרפתי אנרי בקרל שמלחי אורניום פולטים קרינה בעצמם, בלי שום חשמל ובלי אור. הם השחירו לוח צילום שהיה סגור במגירה.",
+      "אישה צעירה מוורשה, מארי סקלודובסקה קירי, החליטה לחקור את הקרינה המסתורית הזאת. היא קראה לתופעה ״רדיואקטיביות״.",
+      "יחד עם בעלה פייר, הם עבדו שנים במבנה עץ פשוט וקר. הם עיבדו טונות של עפרה, ובשנת 1898 גילו שני יסודות חדשים: פולוניום, שנקרא על שם פולין, מולדתה, ורדיום, שזוהר בחושך.",
+      "מארי קירי קיבלה שני פרסי נובל, בפיזיקה בשנת 1903 ובכימיה בשנת 1911. היא הייתה האדם הראשון שזכה בשני פרסי נובל.",
+      "אבל בזמנה עוד לא ידעו כמה הקרינה מסוכנת. היא נשאה מבחנות של רדיום בכיס, ועבדה בלי הגנה. היא חלתה ונפטרה, כנראה בגלל הקרינה. מהעבודה הקשה שלה למדו כולם גם כמה חשובה הזהירות."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "המחברות של מארי קירי עדיין קורנות היום, יותר ממאה שנה אחר כך. הן נשמרות בספרייה בפריז בקופסאות מצופות עופרת, ומי שרוצה לעיין בהן מקבל ציוד מגן."
+     }
+    },
+    {
+     "id": "gamma",
+     "title_he": "קרני גמא",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A modern Israeli hospital treatment room: a large white radiotherapy machine with a rotating arm stands over a padded bed, soft lighting, a nurse in modest scrubs and head covering prepares it, a window to a calm garden.",
+     "move": "up",
+     "fx": "light",
+     "art": "👩 🏠",
+     "say": [
+      "בקצה הקצר ביותר של הספקטרום נמצאות קרני גמא. אורך הגל שלהן קטן אפילו מגודלו של אטום, והאנרגיה שלהן הגבוהה ביותר.",
+      "בשנת 1900 גילה אותן הצרפתי פול וִילָאר, בקרינה של רדיום. קרני גמא יוצאות מגרעין האטום, הלב הזעיר והצפוף שבמרכזו, כשגרעינים מסוימים משתנים.",
+      "קרני גמא חודרות עמוק מאוד, ולכן הן מסוכנות. אבל בידיים מקצועיות הן כלי רב ערך. בבתי חולים מעקרים בהן ציוד רפואי, כמו מזרקים ותחבושות, כך שלא יישאר עליו אף חיידק.",
+      "ובטיפולים בקרינה, נגד מחלות קשות, מכוונים קרינה חזקה בדיוק אל מקום המחלה. המכונה מסתובבת ושולחת קרינה מכמה כיוונים, כך שהיא מתרכזת במקום החולה ופוגעת כמה שפחות ברקמה הבריאה.",
+      "ויש גם בדיקות שבהן נותנים לחולה כמות זעירה של חומר קורן, ומצלמה מיוחדת עוקבת אחרי קרני הגמא שהוא פולט, ורואה איך איבר בגוף פועל."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "scroll",
+     "title_he": "מגילת עין גדי",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A modern laboratory in Jerusalem: a small blackened, charred lump of an ancient scroll rests on a padded stand inside a scanning machine, a researcher with a kippah and gloves watches a computer screen showing a softly unrolled grey sheet with faint columns, no readable letters.",
+     "move": "in",
+     "fx": "light",
+     "art": "📜 👨",
+     "say": [
+      "ועכשיו סיפור מופלא שמחבר בין קרני רנטגן לבין התורה. בשנת 1970 נמצאה בחפירות בית כנסת עתיק בעין גדי מגילה שרופה.",
+      "היא נשרפה בשריפה לפני בערך 1,500 שנה, והפכה לגוש פחם שחור. כל ניסיון לפתוח אותה היה מפורר אותה לאבק. במשך עשרות שנים היא שכבה במחסן, ואיש לא ידע מה כתוב בה.",
+      "בשנת 2015 סרקו חוקרים את הגוש בסריקת CT מדויקת מאוד, בקרני רנטגן. הדיו העתיק הכיל מתכת, ולכן הוא נראה בסריקה אחרת מהקלף.",
+      "ובעזרת תוכנת מחשב מיוחדת, ״פתחו״ את המגילה על המסך, שכבה אחר שכבה, בלי לגעת בה בכלל.",
+      "ומה נגלה? הפסוקים הראשונים של ספר ויקרא: ״ויקרא אל משה״. וכשהשוו, הנוסח היה זהה לגמרי לנוסח שבספרי התורה שלנו. עדות מרגשת לדיוק שבו נמסרה התורה מדור לדור."
+     ],
+     "pasuk": null,
+     "note": {
+      "who": "הידעת?",
+      "text": "הטקסט שנקרא במגילת עין גדי, תחילת ספר ויקרא, זהה בכל אותיותיו לנוסח ספר התורה שבידינו היום."
+     }
+    },
+    {
+     "id": "safety",
+     "title_he": "בטיחות בבית החולים",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder.  Scene: A hospital X-ray room seen from the control booth: a technician in a lead apron with a small badge clipped to her collar stands behind a thick window with a protective wall, pressing a button; through the glass a patient lies calmly on the table.",
+     "move": "left",
+     "fx": "light",
+     "art": "👩",
+     "say": [
+      "אז איך משתמשים בקרינה חזקה בלי להזיק? אנשי המקצוע שומרים על שלושה כללים: זמן, מרחק ומיגון.",
+      "זמן: החשיפה קצרה ככל האפשר, שבריר שנייה בצילום רגיל. מרחק: ככל שמתרחקים מהמקור, הקרינה נחלשת מאוד. לכן הטכנאית יוצאת מהחדר לפני הצילום.",
+      "מיגון: עופרת, יסוד כבד וצפוף, עוצרת היטב קרני רנטגן. לכן יש בקירות של חדרי הרנטגן שכבת עופרת, ולפעמים שמים על החולה סינר עופרת.",
+      "ועובדי הקרינה עונדים תג קטן, ״דוזימטר״, שמודד כמה קרינה קיבלו, כדי לוודא שהם תמיד רחוקים מאוד מגבול מסוכן.",
+      "צילום חזה רגיל נותן מנה קטנה, בערך כמו עשרה ימים של הקרינה הטבעית שכולנו מקבלים בכל מקרה. ולכן הרופאים שוקלים: התועלת של הצילום גדולה בהרבה מהסיכון הזעיר."
+     ],
+     "pasuk": null,
+     "note": null
+    },
+    {
+     "id": "end",
+     "title_he": "סיכום",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. Scene: Weeks later in an Israeli schoolyard: the boy with a cast on his arm, decorated with friends' drawings, laughs with his friends in kippot, the sun shining, a football at his feet.",
+     "move": "out",
+     "fx": "light",
+     "art": "👦 👦 👦",
+     "say": [
+      "אז מה למדנו? רנטגן גילה בשנת 1895 קרינה שעוברת דרך הגוף, והעצמות עוצרות אותה. כך נולד צילום הרנטגן.",
+      "בקרל ומארי קירי גילו את הרדיואקטיביות. וקרני גמא, שיוצאות מגרעין האטום, הן הקרינה החזקה ביותר בספקטרום.",
+      "בבית החולים משתמשים בהן בזהירות רבה, לפי זמן, מרחק ומיגון, כדי לרפא ולגלות מחלות.",
+      "ובשיעור האחרון נעשה סדר: מה ההבדל בין קרינה ״מייננת״ לקרינה ״בלתי מייננת״, ממה צריך להיזהר, וממה אין סיבה לפחד."
+     ],
+     "pasuk": null,
+     "note": null
+    }
+   ],
+   "id": "k-raf-f6e1"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה רנטגן קרא לקרינה שגילה ״קרני X״?",
+   "answer": "כי לא ידע מה הן, כמו נעלם בתרגיל",
+   "options": [
+    "כי לא ידע מה הן, כמו נעלם בתרגיל",
+    "כי הן נראו כמו האות X",
+    "על שם עיר בגרמניה"
+   ],
+   "explain_he": "הקרינה הייתה לגמרי לא מוכרת, ולכן סימן אותה כמו נעלם, X.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f6e2"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה העצמות נראות בצילום רנטגן?",
+   "answer": "כי הסידן שבהן בולע את הקרינה, ונשאר ״צל״ בהיר",
+   "options": [
+    "כי הסידן שבהן בולע את הקרינה, ונשאר ״צל״ בהיר",
+    "כי העצמות זוהרות בחושך",
+    "כי השרירים מחזירים את הקרינה"
+   ],
+   "explain_he": "הקרינה עוברת דרך עור ושריר, אבל העצמות בולעות אותה. תמונת רנטגן היא תמונת צל.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f6e3"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה גילו מארי ופייר קירי בשנת 1898?",
+   "answer": "שני יסודות חדשים, פולוניום ורדיום",
+   "options": [
+    "שני יסודות חדשים, פולוניום ורדיום",
+    "את קרני הרנטגן",
+    "את גלי הרדיו"
+   ],
+   "explain_he": "הם עיבדו טונות של עפרה, וגילו את הפולוניום, על שם פולין, ואת הרדיום.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f6e4"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה בטיפול בקרינה המכונה שולחת קרינה מכמה כיוונים?",
+   "answer": "כדי שהקרינה תתרכז במקום החולה ותפגע כמה שפחות ברקמה הבריאה",
+   "options": [
+    "כדי שהקרינה תתרכז במקום החולה ותפגע כמה שפחות ברקמה הבריאה",
+    "כדי שהטיפול יהיה מהיר יותר",
+    "כי המכונה לא יכולה לעמוד במקום"
+   ],
+   "explain_he": "מכל כיוון עוברת מעט קרינה ברקמה הבריאה, ובמקום החולה כל הכיוונים נפגשים.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f6e5"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מה התגלה כשסרקו בקרני רנטגן את מגילת עין גדי השרופה?",
+   "answer": "פסוקי תחילת ספר ויקרא, בנוסח זהה לנוסח שבידינו",
+   "options": [
+    "פסוקי תחילת ספר ויקרא, בנוסח זהה לנוסח שבידינו",
+    "מפה של ארץ ישראל",
+    "שהמגילה ריקה"
+   ],
+   "explain_he": "סריקת ה־CT והמחשב ״פתחו״ את המגילה בלי לגעת בה, והתגלו פסוקי ויקרא בנוסח זהה לשלנו.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f6e6"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "מהם שלושת הכללים לבטיחות קרינה?",
+   "answer": "זמן, מרחק ומיגון",
+   "options": [
+    "זמן, מרחק ומיגון",
+    "מהירות, צבע וחום",
+    "שתייה, מנוחה ושינה"
+   ],
+   "explain_he": "חשיפה קצרה, התרחקות מהמקור, ושכבת מגן כמו עופרת.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f6e7"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "למה דווקא עופרת משמשת למיגון מקרני רנטגן?",
+   "answer": "כי היא יסוד כבד וצפוף, שבולע היטב את הקרינה",
+   "options": [
+    "כי היא יסוד כבד וצפוף, שבולע היטב את הקרינה",
+    "כי היא זולה וקלה",
+    "כי היא מחזירה את הקרינה כמו מראה"
+   ],
+   "explain_he": "יסודות כבדים וצפופים, כמו עופרת, עוצרים היטב קרינה חודרת. לכן יש עופרת בקירות חדרי הרנטגן.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f6e8"
+  },
+  {
+   "type": "mcq",
+   "prompt_he": "צילום חזה רגיל נותן מנה של קרינה. למה היא דומה, בערך?",
+   "answer": "לבערך עשרה ימים של קרינה טבעית",
+   "options": [
+    "לבערך עשרה ימים של קרינה טבעית",
+    "לעשר שנים של קרינה טבעית",
+    "לשום דבר, אין בו קרינה"
+   ],
+   "explain_he": "המנה קטנה, בערך כמו עשרה ימים של קרינת הרקע. התועלת גדולה בהרבה מהסיכון.",
+   "grades": [
+    7,
+    13
+   ],
+   "id": "k-raf-f6e9"
+  }
+ ]
+}
