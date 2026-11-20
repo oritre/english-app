@@ -778,3 +778,16 @@ test('report minutes use active time, and cap a lesson left open for hours', asy
   const day = minutesByDay([{ date: '2026-11-11', duration_s: 157024, active_s: 60 }], '2026-11-11', 1);
   assert.equal(day[0].minutes, 1);
 });
+
+test('think and know courses below the grade are closed unless the review opened them', async () => {
+  const L = await import('../js/learnRules.js');
+  const weather = { id: 'weather', grades: [1, 3] };
+  assert.equal(L.courseOpen(weather, { grade: 6 }, 'think'), false);
+  assert.equal(L.courseOpen(weather, { grade: 3 }, 'think'), true);
+  assert.equal(L.courseOpen(weather, { grade: 4 }, 'know'), false);
+  assert.equal(L.courseOpen(weather, { grade: 6, think_plan: { courses: ['weather'] } }, 'think'), true);
+  assert.equal(L.courseOpen(weather, { grade: 6, unlock_courses: ['think:weather'] }, 'think'), true);
+  assert.equal(L.courseOpen({ id: 'p', grades: [1, 8] }, { grade: 6 }, 'parasha'), true);
+  assert.equal(L.courseOpen({ id: 'body', grades: [4, 6] }, { grade: 6 }, 'think'), true);
+  assert.equal(L.courseOpen(weather, { grade: 13 }, 'think'), true);
+});

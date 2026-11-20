@@ -220,11 +220,11 @@ export async function renderPath(root, nav) {
   const started = (c) => progressOf(c).n > 0 && progressOf(c).next;
   const fit = (c) => gradeFit(c, grade);
   const others = courses.filter((c) => !picks.includes(c));
-  // Nothing above the learner's grade, unless the weekly review opened it.
+  // Nothing above the learner's grade and nothing too easy, unless the weekly review opened it.
   const open = (c) => courseOpen(c, profile, subject);
   const rest = others.filter((c) => open(c) && (fit(c) === 'fit' || started(c)));
   const above = others.filter((c) => open(c) && fit(c) === 'above' && !started(c));
-  const below = others.filter((c) => fit(c) === 'below' && !started(c));
+  const below = others.filter((c) => open(c) && fit(c) === 'below' && !started(c));
   const fold = (title, note, list) => (list.length ? el('details', { class: 'course-fold' },
     el('summary', {}, title, el('span', { class: 'area-count' }, String(list.length))),
     el('p', { class: 'muted area-note' }, note),
@@ -263,7 +263,7 @@ export async function renderPath(root, nav) {
     ...areas.map((a) => group(a.title_he, a.icon, rest.filter((c) => c.area === a.id))),
     ungrouped.length ? group('עוד', '✨', ungrouped) : null,
     fold('🚀 נפתחו בשבילך', 'נושאים של כיתות גבוהות יותר שנפתחו בשבילך, כי אתה כבר מוכן אליהם.', above),
-    fold('🔙 קל לכיתה שלך', 'נושאים של כיתות נמוכות יותר. טובים לחזרה, אבל הם כנראה כבר קלים לך.', below)) : null;
+    fold('🔙 חזרה שנפתחה בשבילך', 'נושאים של כיתות נמוכות יותר שנפתחו לך לחזרה על משהו שעוד לא יציב.', below)) : null;
   const courseView = openCourse ? (() => {
     const { n, ids, pct, next } = progressOf(openCourse);
     const finished = !next;
