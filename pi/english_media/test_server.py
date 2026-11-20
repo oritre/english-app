@@ -199,6 +199,33 @@ class PictureTest(unittest.TestCase):
             self.assertEqual(f.read(2), b'\xff\xd8')
 
 
+class PaintAheadTest(unittest.TestCase):
+    def test_paints_missing_waits_after_429_and_skips_errors(self):
+        store = tempfile.mkdtemp()
+        opts = {'vertex_api_key': 'x'}
+        tries, waits = [], []
+        def request(prompt, options):
+            tries.append(prompt)
+            if prompt == 'busy' and tries.count('busy') < 3:
+                raise ValueError('HTTP 429: RESOURCE_EXHAUSTED')
+            if prompt == 'broken':
+                raise ValueError('no image in the response')
+            return fake_png(), 'image/png'
+        paint = lambda p, o, st: server.img_file(p, o, st, request)
+        server.img_file('kept', opts, store, request)
+        made = server.paint_ahead(opts, store, ['kept', 'busy', 'broken', 'sea'], paint, waits.append, 0)
+        self.assertEqual(made, 2)
+        self.assertEqual(tries, ['kept', 'busy', 'busy', 'busy', 'broken', 'sea'])
+        self.assertEqual([w for w in waits if w != server.PAINT_GAP_S], list(server.PAINT_BACKOFF_S[:2]))
+        self.assertEqual((server.status['pictures'], server.status['pictures_ready']), (4, 3))
+
+    def test_daily_limit_and_list_address(self):
+        store = tempfile.mkdtemp()
+        paint = lambda p, o, st: server.img_file(p, o, st, lambda *_: (fake_png(), 'image/png'))
+        self.assertEqual(server.paint_ahead({'vertex_api_key': 'x'}, store, ['a', 'b', 'c'], paint, lambda _s: None, 2), 2)
+        self.assertEqual(server.pictures_url({'videos_url': 'https://x.io/app/data/videos.json'}), 'https://x.io/app/data/pictures.json')
+
+
 class PictureServeTest(ServeTest):
     def setUp(self):
         super().setUp()

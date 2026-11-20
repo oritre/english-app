@@ -129,6 +129,26 @@ def main():
     # The list the Pi add-on (pi/english_media) downloads and serves.
     with open(os.path.join(ROOT, 'videos.json'), 'w', encoding='utf-8') as f:
         json.dump(videos, f, ensure_ascii=False, indent=1)
+    # The film pictures the add-on paints ahead, slowly, so a film never waits for them
+    # (a picture painted only when a child opens the film is often refused by the model's
+    # rate limit, and the film then shows only its emoji backdrop). Order: the first
+    # lesson of every topic, then the second of every topic, and so on.
+    rows = []
+    for c in films:
+        n = 0
+        for u in c['units']:
+            for les in u['lessons']:
+                for ex in lesson_exercises(c, les):
+                    if ex['type'] == 'parasha_film':
+                        rows += [(n, s['img']) for s in ex['scenes']]
+                n += 1
+    pictures, have = [], set()
+    for _n, prompt in sorted(rows, key=lambda r: r[0]):
+        if prompt not in have:
+            have.add(prompt)
+            pictures.append(prompt)
+    with open(os.path.join(ROOT, 'pictures.json'), 'w', encoding='utf-8') as f:
+        json.dump(pictures, f, ensure_ascii=False, indent=0)
     print(f"{len(out['courses'])} courses, {len(out['lesson_titles'])} lessons, {count} exercises")
 
 
