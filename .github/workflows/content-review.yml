@@ -1,0 +1,66 @@
+# Content-review gate (see CONTENT_REVIEW.md).
+# Sets the commit status "בקרת תוכן" on a PR's head commit:
+#   success  - the PR changes no content, or the reviewer approved a commit
+#              and nothing after it touched content;
+#   failure  - the reviewer's latest verdict on the current content is "changes";
+#   pending  - content changed and no review yet.
+# Free: runs on GitHub-hosted runners of this public repo, no secrets, no API keys.
+name: content-review-gate
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+  issue_comment:
+    types: [created, edited]
+permissions:
+  contents: read
+  pull-requests: read
+  statuses: write
+jobs:
+  gate:
+    if: github.event_name == 'pull_request' || github.event.issue.pull_request
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const CONTENT = [/^data\/lessons\//, /^data\/[^/]+\.json$/, /^tools\/.*content.*\.py$/,
+                             /^tools\/know_.*\.py$/, /^tools\/think_.*\.py$/, /^tools\/parasha_.*\.py$/];
+            const isContent = f => CONTENT.some(r => r.test(f));
+            const {owner, repo} = context.repo;
+            const number = context.payload.pull_request ? context.payload.pull_request.number
+                                                        : context.payload.issue.number;
+            const pr = (await github.rest.pulls.get({owner, repo, pull_number: number})).data;
+            const head = pr.head.sha;
+            const setStatus = (state, description) => github.rest.repos.createCommitStatus({
+              owner, repo, sha: head, state, context: 'בקרת תוכן', description,
+              target_url: `${pr.html_url}#issuecomment-new`});
+
+            const files = await github.paginate(github.rest.pulls.listFiles,
+              {owner, repo, pull_number: number, per_page: 100});
+            if (!files.some(f => isContent(f.filename))) {
+              await setStatus('success', 'אין שינוי בתוכן לימודי');
+              return;
+            }
+            const comments = await github.paginate(github.rest.issues.listComments,
+              {owner, repo, issue_number: number, per_page: 100});
+            const re = /<!--\s*content-review:\s*(approved|changes)\s+([0-9a-f]{7,40})\s*-->/g;
+            const verdicts = [];
+            for (const c of comments) for (const m of (c.body || '').matchAll(re))
+              verdicts.push({kind: m[1], sha: m[2], at: c.updated_at});
+            verdicts.sort((a, b) => a.at.localeCompare(b.at));
+            // Walk from the newest verdict back; use the first one whose commit
+            // is in this branch and has no content change after it.
+            for (const v of verdicts.reverse()) {
+              let later;
+              try {
+                later = (await github.rest.repos.compareCommitsWithBasehead(
+                  {owner, repo, basehead: `${v.sha}...${head}`})).data;
+              } catch (e) { continue; }
+              if (later.status === 'diverged' || later.status === 'behind') continue;
+              const touched = (later.files || []).some(f => isContent(f.filename));
+              if (touched) break;   // content changed since the newest usable verdict
+              if (v.kind === 'approved') await setStatus('success', `אושר במבקר (${v.sha.slice(0, 7)})`);
+              else await setStatus('failure', 'המבקר ביקש תיקונים: ראו את ההערה ב-PR');
+              return;
+            }
+            await setStatus('pending', 'ממתין לסוכן המבקר');
