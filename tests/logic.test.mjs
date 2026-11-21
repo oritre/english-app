@@ -816,3 +816,11 @@ test('film cut: shots fill the frame, first is wide, no framing twice in a row; 
   assert.equal(on('2026-07-24'), false); // 10 Av
   assert.equal(on('2026-07-25'), true);
 });
+
+test('film voice: initials and letter dates are said in full', async () => {
+  const { spokenHe } = await import('../js/parashaLogic.js');
+  assert.equal(spokenHe('תלמידי הבעש״ט ותלמידי הגר״א'), 'תלמידי הבעל שם טוב ותלמידי הגאון מווילנה');
+  assert.equal(spokenHe('ובפרק הבא: כ״ט בנובמבר וה׳ באייר.'), 'ובפרק הבא: כף־טית בנובמבר וחמישה באייר.');
+  assert.equal(spokenHe('ביום ה׳ באייר'), 'ביום חמישה באייר');
+  assert.equal(spokenHe('שלום'), 'שלום');
+});

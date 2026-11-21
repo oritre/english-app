@@ -8,6 +8,19 @@ export function sayLine(line) {
   }
   return { who: '', text: String(line || '').trim(), tone: '', act: '' };
 }
+// Words the narrator reads wrong as written (initials, dates in letters): said in
+// full. Only the voice changes; the subtitles keep the written form.
+const SPOKEN_HE = [
+  [/הבעש["״]ט/g, 'הבעל שם טוב'],
+  [/הגר["״]א/g, 'הגאון מווילנה'],
+  [/(^|[\s(])(ו?)ה[׳'] באייר/g, '$1$2חמישה באייר'],
+  [/כ["״]ט בנובמבר/g, 'כף־טית בנובמבר'],
+];
+export function spokenHe(text) {
+  let t = String(text || '');
+  for (const [re, said] of SPOKEN_HE) t = t.replace(re, said);
+  return t;
+}
 export const lineText = (line) => (line && typeof line === 'object' ? String(line.text || '') : String(line || ''));
 
 // What a character does with a line: 'gesture', 'walk:<x>' (0..1 across the stage), 'turn'. Anything else is ignored.
