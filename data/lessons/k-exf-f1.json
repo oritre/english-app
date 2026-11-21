@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "🏠 🏠 🐑",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה: השעבוד והנשים הצדקניות.",
+      "בפרק הזה: השעבוד והנשים הצדקניות.",
       "יעקב ובניו באו למצרים שבעים נפש. אבל עברו שנים, ובני ישראל גדלו והתרבו מאוד.",
       "יוסף והאחים כבר נפטרו. ואז קם מלך חדש במצרים.",
       "ופתאום, הכול השתנה.",
@@ -166,7 +166,7 @@
    ],
    "next_he": "משה בתיבה ביאור",
    "quiet_end": false,
-   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "music": null,
    "id": "k-exf-f1e1"
   },
   {
@@ -188,7 +188,7 @@
      "fx": "sunset",
      "art": "🏠 🏠 🐑",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה: השעבוד והנשים הצדקניות.",
+      "בפרק הזה: השעבוד והנשים הצדקניות.",
       "בני ישראל ירדו למצרים שבעים נפש. אבל התורה אומרת: \"פרו וישרצו וירבו ויעצמו במאוד מאוד\".",
       "יוסף מת, וכל אחיו, וכל הדור ההוא. \"ויקם מלך חדש על מצרים, אשר לא ידע את יוסף\".",
       "רש\"י מביא שתי דעות: אולי באמת מלך אחר. ואולי אותו פרעה – אבל עשה את עצמו כאילו לא מכיר את יוסף. שכח את כל הטוב שיוסף עשה למצרים.",
@@ -332,7 +332,7 @@
    ],
    "next_he": "משה בתיבה ביאור",
    "quiet_end": false,
-   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "music": null,
    "id": "k-exf-f1e2"
   },
   {

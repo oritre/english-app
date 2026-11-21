@@ -163,18 +163,37 @@ def _ordered(c):
 
 # Topics told in a hushed voice: no greeting, no "see you", no music.
 SOLEMN_COURSES = {'holocaust'}
+# Courses about the fallen: the host still greets, but no music under any film.
+NO_MUSIC_COURSES = {'holocaust', 'wars'}
+# Words about the killed and the fallen: one such line is enough for a lesson without music.
+DEATH = ('שואה', 'נרצחו', 'רצחו', 'נהרגו', 'נפלו', 'הרוגי מלכות', 'נשמתו יצאה', 'על קידוש השם', 'קדושי ',
+         'השמדה', 'להשמיד', 'פרעות', 'זכרם', 'לזכר')
 # Words of grief or remembrance: a film that opens or ends with them gets no
-# cheerful greeting or farewell, and the music does not swell at its end.
-GRAVE = ('לזכר', 'זכרם', 'זכרונם', 'נפלו', 'נהרגו', 'נרצחו', 'חורבן', 'נחרב', 'גירוש', 'גורשו', 'פרעות', 'השואה', 'ובכו', 'בכו ',
-         'השמדה', 'להשמיד', 'רגע של שקט', 'הרוגי מלכות', 'נשמתו יצאה', 'על קידוש השם', 'קדושי ', 'תשעה באב')
+# cheerful greeting or farewell; three such lines make the whole lesson sad.
+GRAVE = DEATH + ('זכרונם', 'חורבן', 'נחרב', 'גירוש', 'גורשו', 'ובכו', 'בכו ', 'רגע של שקט', 'תשעה באב', 'נפטר')
 # The last lines already say what comes next: then no second announcement.
-NEXT_SAID = ('בפרק הבא', 'בשיעור הבא', 'בסרט הבא', 'בפרקים הבאים', 'בשיעורים הבאים', 'האחרון', 'נתראה', 'להתראות',
-             'לילה טוב', 'בפעם הבאה נ', 'עוד נכיר', 'עוד נלמד', 'עוד נראה', 'נגלה בקרוב', 'בהמשך נ')
+NEXT_SAID = ('בפרק הבא', 'בשיעור הבא', 'בסרט הבא', 'בפרקים הבאים', 'בשיעורים הבאים', 'הפרק האחרון', 'השיעור האחרון',
+             'הסרט האחרון', 'הבא והאחרון', 'נתראה', 'להתראות', 'לילה טוב', 'בפעם הבאה נ', 'עוד נכיר', 'עוד נלמד',
+             'עוד נראה', 'נגלה בקרוב', 'בהמשך נ')
 HELLO = ('שלום', 'בוקר טוב', 'ערב טוב', 'צהריים טובים', 'ברוכים הבאים')
 
 
+# Phrases that hold a grave word but are not about death.
+NOT_GRAVE = ('נפלו על פניהם', 'נפלו על פניו', 'נפלו למטה')
+
+
+def _clean(line):
+    for p in NOT_GRAVE:
+        line = line.replace(p, '')
+    return line
+
+
+def _has(lines, words):
+    return any(w in _clean(line) for line in lines for w in words)
+
+
 def _grave(lines):
-    return any(w in line for line in lines for w in GRAVE)
+    return _has(lines, GRAVE)
 
 
 def _title(t):
@@ -183,40 +202,51 @@ def _title(t):
     return t if t.endswith(('?', '!')) else f'{t}.'
 
 
-def _framed(c, les, film):
+def _mood(c, films):
+    """One decision per lesson, the same at every level (the review of #45):
+    a quiet opening, a quiet ending, and whether music plays at all."""
+    solemn = c['id'] in SOLEMN_COURSES
+    said = lambda f: [line for sc in f['scenes'] for line in sc['say']]
+    # An ending is sad by its own words, not by a hint about the next lesson.
+    ending = lambda f: [line for line in f['scenes'][-1]['say'][-3:] if not _has([line], NEXT_SAID)]
+    sad_start = any(_grave(f['scenes'][0]['say'][:2]) for f in films)
+    sad_end = solemn or any(_grave(ending(f)) for f in films)
+    mourning = any(_has(said(f), DEATH) or sum(1 for line in said(f) if _grave([line])) >= 3 for f in films)
+    # A sad opening only hushes the greeting; the music goes for the fallen, the killed, or a sad ending.
+    music = not (c['id'] in NO_MUSIC_COURSES or sad_end or mourning)
+    return {'solemn': solemn, 'sad_start': sad_start, 'sad_end': sad_end, 'music': music}
+
+
+def _framed(c, les, film, mood):
     """The host's words around the film, as in the Hidabroot videos: a greeting
     before the first scene and, after the last, what the next part is about.
     Solemn topics and sad openings or endings keep their own quiet words."""
     order = _ordered(c)
     k = next(i for i, x in enumerate(order) if x['id'] == les['id'])
     first, last = film['scenes'][0], film['scenes'][-1]
-    solemn = c['id'] in SOLEMN_COURSES
     if k + 1 < len(order):
         film['next_he'] = order[k + 1]['title_he']
-    sad_end = solemn or _grave(last['say'][-3:])
-    sad_start = _grave(first['say'][:2])
-    film['quiet_end'] = sad_end
-    # No music under remembrance, mourning or destruction anywhere in the film (the review of #45).
-    # A film about destruction or killing (3+ such lines) is sad all through, even when it ends on hope.
-    sad_any = sum(1 for sc in film['scenes'] for line in sc['say'] if _grave([line])) >= 3
-    film['music'] = None if solemn or sad_end or sad_start or sad_any else (c.get('music') or MUSIC.get(c['area'], MUSIC['history']))
-    if solemn:
+    film['quiet_end'] = mood['sad_end']
+    film['music'] = (c.get('music') or MUSIC.get(c['area'], MUSIC['history'])) if mood['music'] else None
+    if mood['solemn']:
         return film
     if not first['say'][0].lstrip().startswith(HELLO):
         hello = 'שלום לכם!' if film['level'] == 3 else 'שלום לכם, ילדים!'
         opening = f"בפרק הזה: {_title(les['title_he'])}"
-        first['say'] = [opening if sad_start else f'{hello} {opening}', *first['say']]
-    if sad_end or any(w in line for line in last['say'][-3:] for w in NEXT_SAID):
+        first['say'] = [opening if mood['sad_start'] else f'{hello} {opening}', *first['say']]
+    if mood['sad_end'] or _has(last['say'][-3:], NEXT_SAID):
         return film
     if k + 1 < len(order):
         last['say'] = [*last['say'], f"ובפרק הבא: {_title(order[k + 1]['title_he'])} נתראה!"]
     else:
-        last['say'] = [*last['say'], f"זה היה הפרק האחרון של {c['title_he']}. כל הכבוד שלמדתם איתנו!"]
+        last['say'] = [*last['say'], f'זה היה הפרק האחרון בסדרה "{c["title_he"]}". כל הכבוד שלמדתם איתנו!']
     return film
 
 
 def lesson_exercises(c, les):
-    ex = [_framed(c, les, _film(c, les, lv)) for lv in c['levels']]
+    films = [_film(c, les, lv) for lv in c['levels']]
+    mood = _mood(c, films)
+    ex = [_framed(c, les, f, mood) for f in films]
     for q in les['questions']:
         for lv in q['levels']:
             ex.append({**q['q'], 'grades': LEVEL_GRADES[lv]})
