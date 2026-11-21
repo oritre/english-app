@@ -181,13 +181,14 @@ FILM_MOOD = {
     'k-jer-f6': 'no_music quiet_start end=quiet',
     'k-jer-f7': 'no_music',
     'k-kgf-f7': 'no_music quiet_start',
-    'k-gre-f3': 'end=plain',
+    'k-gre-f3': 'no_music end=plain',
     'k-gre-f4': 'no_music quiet_start end=plain',
     'k-gre-f5': 'no_music quiet_start end=plain',
     # a journey whose last line already says where we go next
     'k-lnf-f2': 'end=said',
     'k-lnf-f3': 'end=said',
     'k-lnf-f4': 'end=said',
+    'k-lnf-f5': 'no_music',  # Masada's sad end (level 2)
     # ends by pointing to another course, after hard times
     'k-sag-f4': 'end=plain',
     'k-sag-f5': 'end=plain',
