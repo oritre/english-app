@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: רבי יהודה הנשיא והמשנה.",
+      "שלום לכם, ילדים! בפרק הזה: רבי יהודה הנשיא והמשנה.",
       "חז\"ל אומרים משפט מופלא: ביום שבו נפטר רבי עקיבא, נולד רבי יהודה הנשיא.",
       "הם למדו את זה מהפסוק: וזרח השמש ובא השמש. עוד לפני שהשמש של צדיק אחד שוקעת, השם מזריח שמש חדשה לעם ישראל.",
       "רבי יהודה הנשיא היה נכד של נכדים של הלל הזקן. הוא היה נשיא עם ישראל, ולכן נקרא \"הנשיא\". אבל בגמרא קוראים לו פשוט: רבי. ועוד קוראים לו: רבנו הקדוש.",
@@ -167,6 +167,7 @@
    ],
    "next_he": "רש\"י",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f3e1"
   },
   {
@@ -188,7 +189,7 @@
      "fx": "sunset",
      "art": "",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: רבי יהודה הנשיא והמשנה.",
+      "שלום לכם! בפרק הזה: רבי יהודה הנשיא והמשנה.",
       "חז\"ל אומרים משפט מופלא: ביום שבו נפטר רבי עקיבא, נולד רבי יהודה הנשיא.",
       "הם למדו את זה מהפסוק: וזרח השמש ובא השמש. עוד לפני שהשמש של צדיק אחד שוקעת, השם מזריח שמש חדשה לעם ישראל.",
       "רבי יהודה הנשיא היה נכד של נכדים של הלל הזקן. הוא היה נשיא עם ישראל, ולכן נקרא \"הנשיא\". אבל בגמרא קוראים לו פשוט: רבי. ועוד קוראים לו: רבנו הקדוש.",
@@ -357,6 +358,7 @@
    ],
    "next_he": "רש\"י",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f3e2"
   },
   {

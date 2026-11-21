@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "👴",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מהשדה לשולחן: שבעת המינים.",
+      "שלום לכם, ילדים! בפרק הזה: שבעת המינים.",
       "ארבעים שנה הלכו בני ישראל במדבר. ולפני שנכנסו לארץ, משה רבנו סיפר להם עליה.",
       "הוא אמר: זו ארץ טובה! יש בה נחלים ומעיינות, ויש בה הרבה פירות.",
       "ואז מנה שבעה פירות מיוחדים, שהארץ התברכה בהם. הם נקראים ״שבעת המינים״.",
@@ -176,6 +176,7 @@
     }
    ],
    "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-tab-f7e1"
   },
   {

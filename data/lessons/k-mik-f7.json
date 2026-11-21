@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "🪨 🪨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של בית המקדש: תשעה באב והבית השלישי.",
+      "בפרק הזה: תשעה באב והבית השלישי.",
       "הבית השני עמד מאות שנים. אבל אז באו הרומאים, ממלכה חזקה מאוד, ושוב נחרב הבית.",
       "וגם הפעם, באותו יום – בתשעה באב.",
       "למה זה קרה? חז\"ל אומרים: בגלל שנאת חינם.",
@@ -164,6 +164,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-mik-f7e1"
   },
   {
@@ -185,7 +186,7 @@
      "fx": "sunset",
      "art": "🪨 🪨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של בית המקדש: תשעה באב והבית השלישי.",
+      "בפרק הזה: תשעה באב והבית השלישי.",
       "לפני כמעט אלפיים שנה צרו הרומאים על ירושלים. ובתשעה באב, באותו יום שבו נחרב הבית הראשון, נשרף גם הבית השני.",
       "חז\"ל שואלים: בבית שני עסקו בתורה, במצוות ובגמילות חסדים – למה הוא חרב? ועונים: \"מפני שהייתה בו שנאת חינם\".",
       "הם מספרים על אדם שבייש את חברו בפני כולם בסעודה, והחכמים שישבו שם שתקו ולא מחו. ומשם התגלגלו הדברים, עד החורבן.",
@@ -325,6 +326,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-mik-f7e2"
   },
   {

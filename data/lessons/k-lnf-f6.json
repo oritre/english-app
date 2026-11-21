@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "🐪",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מסע בארץ ישראל: הנגב ואילת.",
+      "שלום לכם, ילדים! בפרק הזה: הנגב ואילת.",
       "עכשיו אנחנו נוסעים דרומה, לנגב.",
       "הנגב הוא מדבר גדול מאוד.",
       "הוא יותר מחצי מהשטח של המדינה!",
@@ -185,6 +185,7 @@
    ],
    "next_he": "ארץ שמחכה לגשם",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-lnf-f6e1"
   },
   {
@@ -206,7 +207,7 @@
      "fx": "sunset",
      "art": "🐪",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מסע בארץ ישראל: הנגב ואילת.",
+      "שלום לכם, ילדים! בפרק הזה: הנגב ואילת.",
       "שלב חדש במסע: הדרום. כאן נמצא הנגב, מדבר גדול שתופס יותר מחצי מהשטח של מדינת ישראל.",
       "בנגב יורד מעט מאוד גשם, ובקיץ השמש חזקה מאוד. לכן תמיד יוצאים לטייל כאן עם כובע והרבה מים.",
       "אבל הנגב לא ריק. יש בו ערים, יישובים, חוות, ובעלי חיים שיודעים לחיות בחום.",
@@ -359,6 +360,7 @@
    ],
    "next_he": "ארץ שמחכה לגשם",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-lnf-f6e2"
   },
   {

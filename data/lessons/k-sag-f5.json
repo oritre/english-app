@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: גדולי ספרד: רבי יהודה הלוי והרמב\"ם.",
+      "שלום לכם, ילדים! בפרק הזה: גדולי ספרד: רבי יהודה הלוי והרמב\"ם.",
       "לפני בערך תשע מאות שנה, בספרד, חי משורר גדול. היה לו בית יפה, כבוד ופרנסה טובה. אבל ליבו היה במקום אחר.",
       "הוא כתב: ליבי במזרח, ואנכי בסוף מערב. כלומר, הגוף שלי כאן בספרד, אבל הלב שלי בארץ ישראל.",
       "שמו היה רבי יהודה הלוי. הוא היה רופא, משורר, וחכם גדול בתורה."
@@ -155,6 +155,7 @@
    ],
    "next_he": "רבי יוסף קארו והשולחן ערוך",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f5e1"
   },
   {
@@ -176,7 +177,7 @@
      "fx": "sunset",
      "art": "👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: גדולי ספרד: רבי יהודה הלוי והרמב\"ם.",
+      "שלום לכם! בפרק הזה: גדולי ספרד: רבי יהודה הלוי והרמב\"ם.",
       "לפני בערך תשע מאות שנה, בספרד, חי משורר גדול. היה לו בית יפה, כבוד ופרנסה טובה. אבל ליבו היה במקום אחר.",
       "הוא כתב: ליבי במזרח, ואנכי בסוף מערב. כלומר, הגוף שלי כאן בספרד, אבל הלב שלי בארץ ישראל.",
       "שמו היה רבי יהודה הלוי. הוא היה רופא, משורר, וחכם גדול בתורה."
@@ -336,6 +337,7 @@
    ],
    "next_he": "רבי יוסף קארו והשולחן ערוך",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f5e2"
   },
   {

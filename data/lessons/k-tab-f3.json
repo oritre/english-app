@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "🐄 🐝",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מהשדה לשולחן: ארץ זבת חלב ודבש.",
+      "שלום לכם, ילדים! בפרק הזה: ארץ זבת חלב ודבש.",
       "התורה קוראת לארץ ישראל בשם מיוחד: ״ארץ זבת חלב ודבש״.",
       "״זבת״ פירושו: זורמת. כאילו החלב והדבש זורמים בה כמו נחל! איזה שם מתוק.",
       "היום נבקר ברפת, במחלבה ובכוורת, ונגלה מאיפה מגיעים החלב, הגבינה והדבש."
@@ -163,6 +163,7 @@
    ],
    "next_he": "הזית: שמן לאור",
    "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-tab-f3e1"
   },
   {

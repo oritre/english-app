@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "👨 👩 👧 👦",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של בית המקדש: עולים לרגל.",
+      "שלום לכם, ילדים! בפרק הזה: עולים לרגל.",
       "הכירו את המשפחה הזאת. הם גרים בכפר קטן, רחוק מירושלים.",
       "היום הם קמו מוקדם מאוד, והעמיסו על החמור אוכל ובגדים לדרך.",
       "לאן הם נוסעים? לירושלים, לבית המקדש! עוד מעט פסח.",
@@ -172,6 +172,7 @@
    ],
    "next_he": "החורבן הראשון ובית שני",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-mik-f5e1"
   },
   {
@@ -193,7 +194,7 @@
      "fx": "sunset",
      "art": "👨 👩 👧 👦",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של בית המקדש: עולים לרגל.",
+      "שלום לכם, ילדים! בפרק הזה: עולים לרגל.",
       "בכל רחבי הארץ, בכפרים ובערים, מתכוננים. עוד מעט חג, וכל המשפחות יוצאות לדרך.",
       "התורה מצווה: \"שלוש פעמים בשנה יראה כל זכורך את פני ה'\" – בחג המצות, בחג השבועות ובחג הסוכות.",
       "לכן הם נקראים \"שלושת הרגלים\": עולים ברגל לירושלים, לבית המקדש.",
@@ -341,6 +342,7 @@
    ],
    "next_he": "החורבן הראשון ובית שני",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-mik-f5e2"
   },
   {

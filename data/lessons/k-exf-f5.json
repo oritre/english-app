@@ -23,7 +23,7 @@
      "fx": "stars",
      "art": "👴 👴 🏠",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של משה ויציאת מצרים: ליל הפסח והיציאה.",
+      "שלום לכם, ילדים! בפרק הזה: ליל הפסח והיציאה.",
       "עוד לפני המכה האחרונה, השם נתן לבני ישראל מצווה ראשונה, כעם.",
       "השם הראה למשה את הירח החדש, ואמר: החודש הזה, חודש ניסן, יהיה החודש הראשון שלכם.",
       "בחודש הזה תצאו לחירות.",
@@ -172,6 +172,7 @@
    ],
    "next_he": "קריעת ים סוף ושירת הים",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-exf-f5e1"
   },
   {
@@ -193,7 +194,7 @@
      "fx": "stars",
      "art": "👴 👴 🏠",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של משה ויציאת מצרים: ליל הפסח והיציאה.",
+      "שלום לכם, ילדים! בפרק הזה: ליל הפסח והיציאה.",
       "לפני המכה העשירית, השם נתן לעם ישראל את המצווה הראשונה כעם: \"החודש הזה לכם ראש חודשים\".",
       "רש\"י אומר שהשם הראה למשה את הירח בתחילת חידושו, ואמר: כזה ראה וקדש. מכאן מצוות קידוש החודש.",
       "ורש\"י, בתחילת התורה, שואל: למה התורה לא מתחילה כאן, במצווה הראשונה? ועונה: כדי שנדע שכל העולם שייך להשם, והוא נתן לנו את ארץ ישראל.",
@@ -340,6 +341,7 @@
    ],
    "next_he": "קריעת ים סוף ושירת הים",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-exf-f5e2"
   },
   {

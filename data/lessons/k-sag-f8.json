@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "🏠 👵 👴",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: החפץ חיים, ושרשרת הדורות.",
+      "שלום לכם, ילדים! בפרק הזה: החפץ חיים, ושרשרת הדורות.",
       "בעיירה ראדין שבפולין הייתה חנות מכולת קטנה. אשת הרב עמדה בה ומכרה, והרב עצמו דאג שהמשקלות יהיו מדויקים לגמרי.",
       "מסופר שכאשר הרוויחו מספיק לאותו יום, הרב ביקש לסגור את החנות. למה? כדי שגם החנויות האחרות בעיירה יוכלו להתפרנס.",
       "מי היה הרב הזה? רבי ישראל מאיר הכהן, שנולד בשנת 1838. אבל כולם קראו לו בשם אחר: החפץ חיים.",
@@ -146,6 +146,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f8e1"
   },
   {
@@ -167,7 +168,7 @@
      "fx": "light",
      "art": "🏠 👵 👴",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: החפץ חיים, ושרשרת הדורות.",
+      "שלום לכם! בפרק הזה: החפץ חיים, ושרשרת הדורות.",
       "בעיירה ראדין שבפולין הייתה חנות מכולת קטנה. אשת הרב עמדה בה ומכרה, והרב עצמו דאג שהמשקלות יהיו מדויקים לגמרי.",
       "מסופר שכאשר הרוויחו מספיק לאותו יום, הרב ביקש לסגור את החנות. למה? כדי שגם החנויות האחרות בעיירה יוכלו להתפרנס.",
       "מי היה הרב הזה? רבי ישראל מאיר הכהן, שנולד בשנת 1838. אבל כולם קראו לו בשם אחר: החפץ חיים.",
@@ -327,6 +328,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f8e2"
   },
   {

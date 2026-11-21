@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "🏠 👨 👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של סיפורי בראשית: נח והתיבה.",
+      "שלום לכם, ילדים! בפרק הזה: נח והתיבה.",
       "עברו הרבה שנים מאז אדם הראשון. בעולם היו הרבה אנשים.",
       "אבל האנשים נהיו רעים. הם גנבו אחד מהשני, ולא שמעו בקול השם.",
       "השם היה עצוב מאוד. הוא החליט להביא על העולם מבול – הרבה הרבה מים.",
@@ -177,6 +177,7 @@
    ],
    "next_he": "מגדל בבל ואברהם הצעיר",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-brf-f3e1"
   },
   {
@@ -198,7 +199,7 @@
      "fx": "sunset",
      "art": "🏠 👨 👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של סיפורי בראשית: נח והתיבה.",
+      "שלום לכם, ילדים! בפרק הזה: נח והתיבה.",
       "עשרה דורות עברו מאדם ועד נח. העולם התמלא באנשים – אבל גם ברשע.",
       "התורה אומרת: \"ותימלא הארץ חמס\". רש\"י מסביר שחמס הוא גזל: כל אחד לקח מה ששייך לחברו, ואף אחד לא התבייש.",
       "השם ראה שהאנשים מקלקלים את העולם שהוא ברא, והחליט להביא מבול ולהתחיל מחדש.",
@@ -353,6 +354,7 @@
    ],
    "next_he": "מגדל בבל ואברהם הצעיר",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-brf-f3e2"
   },
   {

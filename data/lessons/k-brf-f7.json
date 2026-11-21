@@ -23,7 +23,7 @@
      "fx": "stars",
      "art": "😴 🪜 🪨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של סיפורי בראשית: יעקב, יוסף ואחיו.",
+      "שלום לכם, ילדים! בפרק הזה: יעקב, יוסף ואחיו.",
       "יעקב, הבן של יצחק ורבקה, אהב ללמוד תורה. הוא היה \"יושב אוהלים\".",
       "יעקב היה צריך לצאת מהבית, ולנסוע רחוק, לחרן.",
       "בדרך, בלילה, הוא שכב לישון על אבנים, וחלם חלום מיוחד: סולם שמגיע עד השמיים, ומלאכים עולים ויורדים בו.",
@@ -181,6 +181,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-brf-f7e1"
   },
   {
@@ -202,7 +203,7 @@
      "fx": "stars",
      "art": "😴 🪜 🪨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של סיפורי בראשית: יעקב, יוסף ואחיו.",
+      "שלום לכם, ילדים! בפרק הזה: יעקב, יוסף ואחיו.",
       "\"ויעקב איש תם, יושב אוהלים\". רש\"י אומר שישב באוהלי תורה, באוהל של שם ועבר, ולמד.",
       "כשגדל, הוריו שלחו אותו לחרן, אל משפחת רבקה. בדרך הגיע למקום אחד, בא השמש, ויעקב שכב לישון שם, ואבנים תחת ראשו.",
       "ובחלום: \"והנה סולם מוצב ארצה, וראשו מגיע השמיימה, והנה מלאכי אלוקים עולים ויורדים בו\".",
@@ -365,6 +366,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-brf-f7e2"
   },
   {

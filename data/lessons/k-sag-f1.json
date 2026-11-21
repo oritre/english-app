@@ -23,7 +23,7 @@
      "fx": "night",
      "art": "👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: הלל ושמאי.",
+      "שלום לכם, ילדים! בפרק הזה: הלל ושמאי.",
       "ערב שבת, בחורף קר מאוד. על גג של בית מדרש בירושלים שוכב אדם צעיר, ושלג יורד עליו. מה הוא עושה שם? בואו נשמע.",
       "הצעיר הזה הוא הלל. הוא עלה מבבל לארץ ישראל כדי ללמוד תורה, והיה עני מאוד.",
       "בכל יום עבד הלל והרוויח מטבע קטן. חצי מהמטבע נתן לשומר של בית המדרש כדי שיכניס אותו ללמוד, ובחצי השני פרנס את ביתו.",
@@ -136,6 +136,7 @@
    ],
    "next_he": "רבי עקיבא",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f1e1"
   },
   {
@@ -157,7 +158,7 @@
      "fx": "night",
      "art": "👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: הלל ושמאי.",
+      "שלום לכם! בפרק הזה: הלל ושמאי.",
       "ערב שבת, בחורף קר מאוד. על גג של בית מדרש בירושלים שוכב אדם צעיר, ושלג יורד עליו. מה הוא עושה שם? בואו נשמע.",
       "הצעיר הזה הוא הלל. הוא עלה מבבל לארץ ישראל כדי ללמוד תורה, והיה עני מאוד.",
       "בכל יום עבד הלל והרוויח מטבע קטן. חצי מהמטבע נתן לשומר של בית המדרש כדי שיכניס אותו ללמוד, ובחצי השני פרנס את ביתו.",
@@ -299,6 +300,7 @@
    ],
    "next_he": "רבי עקיבא",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f1e2"
   },
   {

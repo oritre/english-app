@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "👨 👩 👧",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מלחמות ישראל: אנטבה ואמונת הלוחמים.",
+      "שלום לכם! בפרק הזה: אנטבה ואמונת הלוחמים.",
       "יום ראשון, 27 ביוני 1976. מטוס של חברת אייר פרנס ממריא מנמל התעופה בלוד, בדרך לפריז.",
       "על המטוס בערך מאתיים וחמישים נוסעים, ביניהם משפחות עם ילדים, מישראל וממקומות אחרים.",
       "המטוס עוצר באתונה, ועולים עליו נוסעים נוספים.",
@@ -208,6 +208,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-war-f6e1"
   },
   {

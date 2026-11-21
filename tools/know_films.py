@@ -156,19 +156,49 @@ def _ordered(c):
     return [les for u in c['units'] for les in u['lessons']]
 
 
+# Topics told in a hushed voice: no greeting, no "see you", no music.
+SOLEMN_COURSES = {'holocaust'}
+# Words of grief or remembrance: a film that opens or ends with them gets no
+# cheerful greeting or farewell, and the music does not swell at its end.
+GRAVE = ('לזכר', 'זכרם', 'זכרונם', 'נפלו', 'נהרגו', 'נרצחו', 'חורבן', 'נחרב', 'גירוש', 'גורשו', 'פרעות', 'השואה', 'ובכו', 'בכו ', 'הקדושים',
+         'השמדה', 'להשמיד', 'רגע של שקט')
+# The last lines already say what comes next: then no second announcement.
+NEXT_SAID = ('בפרק הבא', 'בשיעור הבא', 'בסרט הבא', 'בפרקים הבאים', 'בשיעורים הבאים', 'האחרון', 'נתראה')
+
+
+def _grave(lines):
+    return any(w in line for line in lines for w in GRAVE)
+
+
+def _title(t):
+    return str(t).strip().rstrip('?!.').strip()
+
+
 def _framed(c, les, film):
     """The host's words around the film, as in the Hidabroot videos: a greeting
-    before the first scene and, after the last, what the next part is about."""
+    before the first scene and, after the last, what the next part is about.
+    Solemn topics and sad openings or endings keep their own quiet words."""
     order = _ordered(c)
     k = next(i for i, x in enumerate(order) if x['id'] == les['id'])
     first, last = film['scenes'][0], film['scenes'][-1]
-    first['say'] = [f"שלום לכם, ילדים! בפרק הזה של {c['title_he']}: {les['title_he']}.", *first['say']]
+    solemn = c['id'] in SOLEMN_COURSES
     if k + 1 < len(order):
-        last['say'] = [*last['say'], f"ובפרק הבא: {order[k + 1]['title_he']}. נתראה!"]
         film['next_he'] = order[k + 1]['title_he']
+    film['music'] = None if solemn else (c.get('music') or MUSIC.get(c['area'], MUSIC['history']))
+    sad_end = solemn or _grave(last['say'][-3:])
+    film['quiet_end'] = sad_end
+    if solemn:
+        return film
+    if not first['say'][0].lstrip().startswith('שלום'):
+        hello = 'שלום לכם!' if film['level'] == 3 else 'שלום לכם, ילדים!'
+        opening = f"בפרק הזה: {_title(les['title_he'])}."
+        first['say'] = [opening if _grave(first['say'][:2]) else f'{hello} {opening}', *first['say']]
+    if sad_end or any(w in line for line in last['say'][-3:] for w in NEXT_SAID):
+        return film
+    if k + 1 < len(order):
+        last['say'] = [*last['say'], f"ובפרק הבא: {_title(order[k + 1]['title_he'])}. נתראה!"]
     else:
         last['say'] = [*last['say'], f"זה היה הפרק האחרון של {c['title_he']}. כל הכבוד שלמדתם איתנו!"]
-    film['music'] = c.get('music') or MUSIC.get(c['area'], MUSIC['history'])
     return film
 
 

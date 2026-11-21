@@ -23,7 +23,7 @@
      "fx": "stars",
      "art": "🏠 🏠",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: הגאון מווילנה והבעל שם טוב.",
+      "שלום לכם, ילדים! בפרק הזה: הגאון מווילנה והבעל שם טוב.",
       "לפני בערך מאתיים ושמונים שנה, במזרח אירופה, חיו שני גדולים. כל אחד מהם האיר לעם ישראל אור גדול.",
       "האחד, הבעל שם טוב, חי באוקראינה של היום. השני, הגאון מווילנה, חי בליטא. הם לא נפגשו אף פעם. ובכל זאת, הדרכים שלהם משפיעות עלינו עד היום.",
       "בואו נכיר את שניהם, בכבוד הראוי לשניהם.",
@@ -155,6 +155,7 @@
    ],
    "next_he": "החפץ חיים, ושרשרת הדורות",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f7e1"
   },
   {
@@ -176,7 +177,7 @@
      "fx": "stars",
      "art": "🏠 🏠",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: הגאון מווילנה והבעל שם טוב.",
+      "שלום לכם! בפרק הזה: הגאון מווילנה והבעל שם טוב.",
       "לפני בערך מאתיים ושמונים שנה, במזרח אירופה, חיו שני גדולים. כל אחד מהם האיר לעם ישראל אור גדול.",
       "האחד, הבעל שם טוב, חי באוקראינה של היום. השני, הגאון מווילנה, חי בליטא. הם לא נפגשו אף פעם. ובכל זאת, הדרכים שלהם משפיעות עלינו עד היום.",
       "בואו נכיר את שניהם, בכבוד הראוי לשניהם.",
@@ -337,6 +338,7 @@
    ],
    "next_he": "החפץ חיים, ושרשרת הדורות",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f7e2"
   },
   {

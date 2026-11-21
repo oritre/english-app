@@ -23,7 +23,7 @@
      "fx": "night",
      "art": "🌙",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של לוח השנה העברי: הירח וראש חודש.",
+      "שלום לכם, ילדים! בפרק הזה: הירח וראש חודש.",
       "הסתכלתם פעם על הירח, כמה לילות ברציפות? בואו ננסה.",
       "יום אחד הוא דק, כמו ציפורן. אחרי כמה ימים, הוא חצי עיגול. ואחרי שבועיים, הוא עגול ומלא, ומאיר את כל הלילה.",
       "ואז הוא קטן שוב, לאט לאט, עד שהוא נעלם לגמרי. ואחרי יום או יומיים, הוא חוזר, דק וחדש."
@@ -167,6 +167,7 @@
    ],
    "next_he": "שנים עשר החודשים",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-cal-f2e1"
   },
   {
@@ -188,7 +189,7 @@
      "fx": "night",
      "art": "🌙",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של לוח השנה העברי: הירח וראש חודש.",
+      "שלום לכם, ילדים! בפרק הזה: הירח וראש חודש.",
       "הסתכלתם פעם על הירח, כמה לילות ברציפות? בואו ננסה.",
       "יום אחד הוא דק, כמו ציפורן. אחרי כמה ימים, הוא חצי עיגול. ואחרי שבועיים, הוא עגול ומלא, ומאיר את כל הלילה.",
       "ואז הוא קטן שוב, לאט לאט, עד שהוא נעלם לגמרי. ואחרי יום או יומיים, הוא חוזר, דק וחדש.",
@@ -352,6 +353,7 @@
    ],
    "next_he": "שנים עשר החודשים",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-cal-f2e2"
   },
   {

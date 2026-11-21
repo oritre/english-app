@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "🌧️",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מסע בארץ ישראל: ארץ שמחכה לגשם.",
+      "שלום לכם, ילדים! בפרק הזה: ארץ שמחכה לגשם.",
       "בסוף המסע, בואו נדבר על משהו חשוב מאוד: מים.",
       "במצרים יש נהר גדול, הנילוס. משם לוקחים מים.",
       "במצרים כמעט לא יורד גשם, אבל הנהר תמיד זורם.",
@@ -178,6 +178,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-lnf-f7e1"
   },
   {
@@ -199,7 +200,7 @@
      "fx": "light",
      "art": "🌧️",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מסע בארץ ישראל: ארץ שמחכה לגשם.",
+      "שלום לכם, ילדים! בפרק הזה: ארץ שמחכה לגשם.",
       "בסוף המסע נדבר על הדבר שהכי חשוב לכל ארץ: מים.",
       "משה רבנו אמר לבני ישראל: הארץ שאתם באים אליה היא לא כמו מצרים. במצרים לוקחים מים מהנילוס, ומשקים את השדות ברגליים, כמו גינת ירק.",
       "אבל ארץ ישראל שותה מים מגשם השמים. אין בה נהר ענק שתמיד זורם.",
@@ -348,6 +349,7 @@
     }
    ],
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-lnf-f7e2"
   },
   {

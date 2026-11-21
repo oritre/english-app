@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "👑",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מצרים העתיקה: פרעונים ופירמידות.",
+      "שלום לכם, ילדים! בפרק הזה: פרעונים ופירמידות.",
       "למלך של מצרים קראו פרעה. במשך דורות רבים מלכו במצרים פרעונים רבים, אחד אחרי השני.",
       "פרעה היה שליט חזק מאוד. כל האדמה, הצבא והפקידים היו שלו.",
       "המצרים חשבו שפרעה הוא לא סתם בן אדם, אלא מעין אל. זו הייתה כמובן אמונת שקר.",
@@ -151,6 +151,7 @@
    ],
    "next_he": "כתב החרטומים",
    "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-egf-f2e1"
   },
   {

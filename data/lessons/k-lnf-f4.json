@@ -23,7 +23,7 @@
      "fx": "mist",
      "art": "🐑",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מסע בארץ ישראל: בעקבות האבות.",
+      "שלום לכם, ילדים! בפרק הזה: בעקבות האבות.",
       "בוקר טוב! היום אנחנו בהרים שבאמצע הארץ.",
       "בצפון יש את הרי השומרון, ובדרום את הרי יהודה.",
       "יש כאן הרבה עצי זית ומדרגות של אבן.",
@@ -176,6 +176,7 @@
    ],
    "next_he": "ירושלים וים המלח",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-lnf-f4e1"
   },
   {
@@ -197,7 +198,7 @@
      "fx": "mist",
      "art": "🐑",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מסע בארץ ישראל: בעקבות האבות.",
+      "שלום לכם, ילדים! בפרק הזה: בעקבות האבות.",
       "בוקר טוב! היום אנחנו בלב הארץ, בשרשרת ההרים שעוברת באמצע, מצפון לדרום.",
       "בחלק הצפוני נמצאים הרי השומרון, ובחלק הדרומי הרי יהודה.",
       "על המדרונות בנו איכרים מדרגות של אבן, כדי שהאדמה לא תיסחף בגשם. על המדרגות גדלים זיתים וגפנים.",
@@ -343,6 +344,7 @@
    ],
    "next_he": "ירושלים וים המלח",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-lnf-f4e2"
   },
   {

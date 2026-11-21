@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "🪨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של בית המקדש: הכהנים והלוויים.",
+      "שלום לכם, ילדים! בפרק הזה: הכהנים והלוויים.",
       "עוד לפני שהשמש זורחת, בית המקדש כבר ער.",
       "הכהנים קמו מוקדם מאוד, טבלו במים, ולבשו בגדים לבנים.",
       "הם עולים אל המזבח, מסדרים את העצים ומוסיפים אש.",
@@ -167,6 +167,7 @@
    ],
    "next_he": "עולים לרגל",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-mik-f4e1"
   },
   {
@@ -188,7 +189,7 @@
      "fx": "sunset",
      "art": "🪨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של בית המקדש: הכהנים והלוויים.",
+      "שלום לכם, ילדים! בפרק הזה: הכהנים והלוויים.",
       "עוד לפני עלות השחר, במקדש כבר יש תנועה. הכהנים טבלו במקווה ולבשו את בגדי הכהונה.",
       "העבודה הראשונה של היום הייתה \"תרומת הדשן\": הכהן הרים מעט מהאפר של המזבח, כדי להתחיל יום חדש של עבודה.",
       "ואיך ידעו מי יעשה כל עבודה? הכהנים עמדו במעגל, והפילו גורל. כך אף אחד לא נדחק לפני חברו.",
@@ -330,6 +331,7 @@
    ],
    "next_he": "עולים לרגל",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-mik-f4e2"
   },
   {

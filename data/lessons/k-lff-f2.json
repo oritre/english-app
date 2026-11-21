@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "👨 👧",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של ידע לחיים: קוראים שעון.",
+      "שלום לכם, ילדים! בפרק הזה: קוראים שעון.",
       "בוקר. אבא לוקח את התיק של הטלית, ואומר: אני הולך לבית הכנסת. התפילה מתחילה בשבע.",
       "תמר שואלת: איך אתה יודע מתי זה שבע?",
       "אבא מצביע על השעון שעל הקיר. השעון אומר לנו מה השעה.",
@@ -165,6 +165,7 @@
    ],
    "next_he": "בטוחים בבית",
    "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-lff-f2e1"
   },
   {
@@ -186,7 +187,7 @@
      "fx": "light",
      "art": "👨 👧",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של ידע לחיים: קוראים שעון.",
+      "שלום לכם, ילדים! בפרק הזה: קוראים שעון.",
       "בוקר. אבא לוקח את תיק הטלית והתפילין, ואומר: אני הולך לבית הכנסת. השחרית מתחילה בשבע.",
       "תמר שואלת: איך אתה יודע מתי זה בדיוק שבע? ומה אם תאחר?",
       "אבא מחייך ומצביע על השעון העגול שעל הקיר. השעון מחלק לנו את היום לחלקים קטנים, כדי שנדע מתי לעשות כל דבר.",
@@ -331,6 +332,7 @@
    ],
    "next_he": "בטוחים בבית",
    "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-lff-f2e2"
   },
   {

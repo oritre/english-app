@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "🐑 👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: רבי עקיבא.",
+      "בפרק הזה: רבי עקיבא.",
       "רועה צאן אחד, בן ארבעים, עומד ליד באר. הוא לא יודע לקרוא אפילו את האות אלף. קוראים לו עקיבא.",
       "פתאום הוא רואה אבן ובה חור עמוק. מי חפר את החור הזה? הוא מבין: טיפות מים קטנות, שנפלו שנים רבות בלי הפסקה.",
       "ועקיבא אומר לעצמו: אם מים רכים חקקו אבן קשה, דברי תורה, שהם חזקים כברזל, ודאי יוכלו להיכנס לליבי.",
@@ -154,6 +154,7 @@
    ],
    "next_he": "רבי יהודה הנשיא והמשנה",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f2e1"
   },
   {
@@ -175,7 +176,7 @@
      "fx": "light",
      "art": "🐑 👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של גדולי ישראל: רבי עקיבא.",
+      "בפרק הזה: רבי עקיבא.",
       "רועה צאן אחד, בן ארבעים, עומד ליד באר. הוא לא יודע לקרוא אפילו את האות אלף. קוראים לו עקיבא.",
       "פתאום הוא רואה אבן ובה חור עמוק. מי חפר את החור הזה? הוא מבין: טיפות מים קטנות, שנפלו שנים רבות בלי הפסקה.",
       "ועקיבא אומר לעצמו: אם מים רכים חקקו אבן קשה, דברי תורה, שהם חזקים כברזל, ודאי יוכלו להיכנס לליבי.",
@@ -334,6 +335,7 @@
    ],
    "next_he": "רבי יהודה הנשיא והמשנה",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-sag-f2e2"
   },
   {

@@ -23,7 +23,7 @@
      "fx": "dust",
      "art": "👨 👨 👩 🏠",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של סיפורי בראשית: מגדל בבל ואברהם הצעיר.",
+      "שלום לכם, ילדים! בפרק הזה: מגדל בבל ואברהם הצעיר.",
       "אחרי המבול, המשפחה של נח גדלה והתרבתה. נולדו עוד ועוד אנשים.",
       "כולם דיברו באותה שפה. כולם הבינו אחד את השני.",
       "הם הגיעו לבקעה גדולה, בארץ שנער, והתחילו לעשות לבנים מטיט ולשרוף אותן באש.",
@@ -159,6 +159,7 @@
    ],
    "next_he": "האוהל של אברהם והעקדה",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-brf-f4e1"
   },
   {
@@ -180,7 +181,7 @@
      "fx": "dust",
      "art": "👨 👨 👩 🏠",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של סיפורי בראשית: מגדל בבל ואברהם הצעיר.",
+      "שלום לכם, ילדים! בפרק הזה: מגדל בבל ואברהם הצעיר.",
       "אחרי המבול, צאצאי נח התרבו, ו\"כל הארץ הייתה שפה אחת ודברים אחדים\".",
       "הם נסעו מקדם, ומצאו בקעה גדולה בארץ שנער – זה האזור של בבל.",
       "ושם הם המציאו דבר חדש: לבנים. לא היו שם אבנים, אז הם עשו לבנים מטיט ושרפו אותן באש, ובמקום טיט השתמשו בחֵמר.",
@@ -320,6 +321,7 @@
    ],
    "next_he": "האוהל של אברהם והעקדה",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-brf-f4e2"
   },
   {

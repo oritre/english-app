@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "👦 👧 👴 👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של ידע לחיים: דרך ארץ.",
+      "שלום לכם, ילדים! בפרק הזה: דרך ארץ.",
       "יש מילה מיוחדת: דרך ארץ. מה זה?",
       "דרך ארץ זה להתנהג יפה: לכבד אנשים, להגיד תודה, ולדבר בנימוס.",
       "לדוגמה: להגיד \"בוקר טוב\", \"בבקשה\" ו\"סליחה\".",
@@ -161,6 +161,7 @@
    ],
    "next_he": "עוזרים בבית, חברים טובים",
    "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-lff-f6e1"
   },
   {
@@ -182,7 +183,7 @@
      "fx": "light",
      "art": "👦 👧 👴 👨",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של ידע לחיים: דרך ארץ.",
+      "שלום לכם, ילדים! בפרק הזה: דרך ארץ.",
       "יש ביטוי יפה בעברית: דרך ארץ. דרך ארץ פירושה להתנהג כמו שאדם טוב מתנהג: לכבד אחרים, להגיד תודה, לדבר בנימוס, ולהתחשב.",
       "חז\"ל אומרים: \"דרך ארץ קדמה לתורה\". עוד לפני שעם ישראל קיבל את התורה בהר סיני, האבות שלנו כבר התנהגו בדרך ארץ.",
       "תורה בלי דרך ארץ – חסר בה משהו גדול. ומי שיש לו דרך ארץ, התורה שלו יפה יותר.",
@@ -329,6 +330,7 @@
    ],
    "next_he": "עוזרים בבית, חברים טובים",
    "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-lff-f6e2"
   },
   {

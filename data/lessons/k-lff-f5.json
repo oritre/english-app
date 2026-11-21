@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "👧 👴",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של ידע לחיים: כסף בחיי היום יום.",
+      "שלום לכם, ילדים! בפרק הזה: כסף בחיי היום יום.",
       "אמא שלחה את תמר למכולת, לקנות מחברת חדשה.",
       "תמר מחזיקה ביד כמה מטבעות. אבל כמה כסף יש לה? ומה אפשר לקנות?",
       "היום נלמד על כסף: איך משלמים, איך חוסכים, ואיך נותנים צדקה.",
@@ -171,6 +171,7 @@
    ],
    "next_he": "דרך ארץ",
    "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-lff-f5e1"
   },
   {
@@ -192,7 +193,7 @@
      "fx": "light",
      "art": "👧 👴",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של ידע לחיים: כסף בחיי היום יום.",
+      "שלום לכם, ילדים! בפרק הזה: כסף בחיי היום יום.",
       "אמא שלחה את תמר למכולת שבפינת הרחוב, לקנות מחברת חדשה לבית הספר.",
       "תמר מחזיקה בכף היד כמה מטבעות. היא מרגישה גדולה וחשובה. אבל רגע: כמה כסף יש לה? והאם זה מספיק?",
       "כסף הוא דבר שפוגשים בכל יום. היום נלמד להכיר אותו: איך משלמים ומקבלים עודף, למה חוסכים, ואיך משתמשים בכסף כמו שהתורה מלמדת.",
@@ -340,6 +341,7 @@
    ],
    "next_he": "דרך ארץ",
    "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-lff-f5e2"
   },
   {

@@ -23,7 +23,7 @@
      "fx": "dust",
      "art": "🐎 🐎 🐎",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של משה ויציאת מצרים: קריעת ים סוף ושירת הים.",
+      "שלום לכם, ילדים! בפרק הזה: קריעת ים סוף ושירת הים.",
       "בני ישראל הלכו במדבר, עד שהגיעו לחוף של ים גדול: ים סוף.",
       "ובמצרים, פרעה התחרט: מה עשינו? שלחנו את העבדים שלנו!",
       "הוא לקח את כל המרכבות שלו ואת כל הסוסים, ורדף אחרי בני ישראל.",
@@ -166,6 +166,7 @@
    ],
    "next_he": "במדבר ובהר סיני",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-exf-f6e1"
   },
   {
@@ -187,7 +188,7 @@
      "fx": "dust",
      "art": "🐎 🐎 🐎",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של משה ויציאת מצרים: קריעת ים סוף ושירת הים.",
+      "שלום לכם, ילדים! בפרק הזה: קריעת ים סוף ושירת הים.",
       "השם אמר למשה להוביל את העם אל שפת הים, ליד פי החירות. וידע: פרעה יחשוב שהם תועים במדבר.",
       "ובמצרים – \"ויהפך לבב פרעה ועבדיו אל העם, ויאמרו: מה זאת עשינו, כי שילחנו את ישראל מעבדנו?\"",
       "\"ויאסור את רכבו, ואת עמו לקח עימו\": שש מאות רכב בחור, וכל רכב מצרים. רש\"י אומר שפרעה אסר את המרכבה בעצמו, בלי לחכות לעבדיו.",
@@ -329,6 +330,7 @@
    ],
    "next_he": "במדבר ובהר סיני",
    "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
+   "quiet_end": false,
    "id": "k-exf-f6e2"
   },
   {

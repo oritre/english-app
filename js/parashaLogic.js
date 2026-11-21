@@ -269,7 +269,6 @@ export function stagePlan(scene, cast) {
 // after another. One painted picture is cut the same way here: each shot is a
 // framing of the picture (zoom z, centre offset x, y in % of the frame) with a
 // slow drift to the next resting place. The first shot of a scene is wide.
-export const SHOT_MS = 4000;
 const FRAMINGS = [
   { z: 1.06, x: 0, y: 0 }, // wide
   { z: 1.38, x: -10, y: 2 }, // medium, right of the picture (RTL viewers read from there)
@@ -309,3 +308,26 @@ export function shotPlan(key, count) {
   return out;
 }
 export const shotTransform = ({ z, x, y }) => `scale(${z.toFixed(3)}) translate3d(${x.toFixed(2)}%, ${y.toFixed(2)}%, 0)`;
+
+// The pace of a film by its level (1 = grades 1-3, 2 = 4-6, 3 = 7-8): gaps in ms, a new shot every SHOT_MS.
+export function filmPace(level) {
+  return Number(level) === 1
+    ? { PREROLL: 1200, LINE_GAP: 420, SCENE_GAP: 800, SHOT_MS: 5200 }
+    : { PREROLL: 800, LINE_GAP: 220, SCENE_GAP: 300, SHOT_MS: 4000 };
+}
+
+// No background music in the days many families keep without music: the Omer
+// (16 Nisan to 5 Sivan) and the Three Weeks (17 Tammuz to 10 Av).
+export function musicAllowed(date) {
+  let day = 0;
+  let month = '';
+  try {
+    const parts = new Intl.DateTimeFormat('en-u-ca-hebrew', { month: 'long', day: 'numeric' }).formatToParts(date);
+    day = Number(parts.find((p) => p.type === 'day')?.value);
+    month = parts.find((p) => p.type === 'month')?.value || '';
+  } catch { return false; }
+  if (!day || !month) return false; // no Hebrew calendar on this device: better without music
+  if ((month === 'Nisan' && day >= 16) || month === 'Iyar' || (month === 'Sivan' && day <= 5)) return false;
+  if ((month === 'Tamuz' && day >= 17) || (month === 'Av' && day <= 10)) return false;
+  return true;
+}

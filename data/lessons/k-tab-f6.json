@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "👦 👧 🍎",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה של מהשדה לשולחן: העץ והאדמה.",
+      "שלום לכם, ילדים! בפרק הזה: העץ והאדמה.",
       "בואו נלך לשוק. איזה רעש, ואיזה צבעים!",
       "יש כאן הרים של תפוחים אדומים, תפוזים כתומים, עגבניות, מלפפונים, גזר ואבטיחים.",
       "על כל אחד מהם מברכים לפני שאוכלים. אבל איזו ברכה? יש כלל פשוט, ובואו נלמד אותו."
@@ -169,6 +169,7 @@
    ],
    "next_he": "שבעת המינים",
    "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
+   "quiet_end": false,
    "id": "k-tab-f6e1"
   },
   {

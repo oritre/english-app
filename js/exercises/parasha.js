@@ -2,7 +2,7 @@ import { el } from '../util.js';
 import { imageUrl, characterLineUrl, musicUrl } from '../media.js';
 import { piLineUrl, deviceSay, stopSpeech, canSpeakLang } from '../speech.js';
 import { rateFactor } from '../settings.js';
-import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt, mood, artPlan, seeded, sayLine, parseAct, levelAt, shotPlan, shotTransform, SHOT_MS } from '../parashaLogic.js';
+import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt, mood, artPlan, seeded, sayLine, parseAct, levelAt, shotPlan, shotTransform, filmPace, musicAllowed } from '../parashaLogic.js';
 import { createPuppets, voiceTrack } from './parashaPuppets.js';
 
 // The parasha film ("פרשת שבוע"): a narrated storybook film, one painted
@@ -26,9 +26,6 @@ import { createPuppets, voiceTrack } from './parashaPuppets.js';
 const SPEEDS = [1, 1.25, 0.85];
 // The pace (2026-11-21, after the Hidabroot Kids videos): the narration flows on
 // from scene to scene with short breaths, the picture cuts every few seconds.
-const PREROLL = 800; // the chapter title shows before the narration of a scene starts
-const LINE_GAP = 220;
-const SCENE_GAP = 300;
 const MUSIC_BED = 0.16; // music under the voice, about 16 dB below it
 const MUSIC_SWELL = 0.45; // music alone: the opening and the end
 const ACT_WAIT = 7000; // a walk before a line never holds the film longer than this
@@ -197,6 +194,8 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   }).filter((s) => s.say.length);
   const total = scenes.length;
   const lesson = root.closest('.lesson');
+  // The pace by the cut's level: the youngest (grades 1-3) get longer breaths and longer shots.
+  const { PREROLL, LINE_GAP, SCENE_GAP, SHOT_MS } = filmPace(ex.level);
   const key = `${learnerId ? `${learnerId}:` : ''}${ex.id || ex.title_he || 'film'}:${total}`;
   const seen = loadSeen(key);
 
@@ -398,7 +397,8 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   music.preload = 'auto';
   // Where a page can't set the volume (iPhone), the music would drown the voice: no music there.
   music.volume = 0.5;
-  const musicOk = Math.abs(music.volume - 0.5) < 0.01 && !!ex.music;
+  // No music in the Omer and the Three Weeks (parashaLogic musicAllowed).
+  const musicOk = Math.abs(music.volume - 0.5) < 0.01 && !!ex.music && musicAllowed(new Date());
   music.volume = 0;
   let musicWanted = false;
   let musicFade = 0;
@@ -737,7 +737,12 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     furthest = total - 1;
     setPlaying(false);
     // The music closes the film on its own for a moment, then fades away.
-    if (musicWanted && music.src) { music.play().catch(() => {}); fadeMusic(MUSIC_SWELL, 900); setTimeout(() => { if (alive && at >= total) fadeMusic(0, 2600); }, 3600); }
+    // A film that ends in remembrance or sorrow ends quietly: the music only fades away.
+    if (musicWanted && music.src) {
+      music.play().catch(() => {});
+      if (ex.quiet_end) fadeMusic(0, 2400);
+      else { fadeMusic(MUSIC_SWELL, 900); setTimeout(() => { if (alive && at >= total) fadeMusic(0, 2600); }, 3600); }
+    }
     frame.classList.add('at-end');
     frame.classList.remove('pasuk-on', 'note-on');
     subs.replaceChildren();
