@@ -816,3 +816,21 @@ test('film cut: shots fill the frame, first is wide, no framing twice in a row; 
   assert.equal(on('2026-07-24'), false); // 10 Av
   assert.equal(on('2026-07-25'), true);
 });
+
+test('film voice: initials and letter dates are said in full', async () => {
+  const { spokenHe } = await import('../js/parashaLogic.js');
+  assert.equal(spokenHe('תלמידי הבעש״ט ותלמידי הגר״א'), 'תלמידי הבעל שם טוב ותלמידי הגאון מווילנה');
+  assert.equal(spokenHe('ובפרק הבא: כ״ט בנובמבר וה׳ באייר.'), 'ובפרק הבא: כף־טית בנובמבר וחמישה באייר.');
+  assert.equal(spokenHe('ביום ה׳ באייר'), 'ביום חמישה באייר');
+  assert.equal(spokenHe('שלום'), 'שלום');
+  assert.equal(spokenHe('רבי ישראל בעל שם טוב, הבעש״ט, חי באוקראינה'), 'רבי ישראל בעל שם טוב, חי באוקראינה');
+  assert.equal(spokenHe('רבי אליהו מווילנה, הגאון מווילנה, הגר״א.'), 'רבי אליהו מווילנה, הגאון מווילנה.');
+  assert.equal(spokenHe('תלמידי הגאון מווילנה, הגר"א, שנקראו'), 'תלמידי הגאון מווילנה, שנקראו');
+  assert.equal(spokenHe('ובכל שנה, בה׳ באייר, אומרים הלל'), 'ובכל שנה, בחמישה באייר, אומרים הלל');
+  assert.equal(spokenHe('בד׳ באייר וי״ט באייר וכ״ח באייר'), 'בארבעה באייר ותשעה עשר באייר ועשרים ושמונה באייר');
+  assert.equal(spokenHe('ט״ו בשבט'), 'טוּ בשבט');
+  assert.equal(spokenHe('ובט"ו באב'), 'ובטוּ באב');
+  assert.equal(spokenHe('ט״ו בתשרי'), 'חמישה עשר בתשרי');
+  assert.equal(spokenHe("וירא אליו ה' באלוני ממרא"), "וירא אליו ה' באלוני ממרא");
+  assert.equal(spokenHe('אבא בא באב'), 'אבא בא באב');
+});

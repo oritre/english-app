@@ -2,7 +2,7 @@ import { el } from '../util.js';
 import { imageUrl, characterLineUrl, musicUrl } from '../media.js';
 import { piLineUrl, deviceSay, stopSpeech, canSpeakLang } from '../speech.js';
 import { rateFactor } from '../settings.js';
-import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt, mood, artPlan, seeded, sayLine, parseAct, levelAt, shotPlan, shotTransform, filmPace, musicAllowed } from '../parashaLogic.js';
+import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt, mood, artPlan, seeded, sayLine, parseAct, levelAt, shotPlan, shotTransform, filmPace, musicAllowed, spokenHe } from '../parashaLogic.js';
 import { createPuppets, voiceTrack } from './parashaPuppets.js';
 
 // The parasha film ("פרשת שבוע"): a narrated storybook film, one painted
@@ -284,10 +284,10 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
   // Where the Pi keeps the recording of a line: the narrator's voice, or the
   // character's own. null: the device reads it.
   const lineUrl = async (ln) => {
-    const url = await piLineUrl(ln.text, 'he-IL');
+    const url = await piLineUrl(spokenHe(ln.text), 'he-IL');
     const ch = cast[ln.who];
     if (!url || !ch) return url;
-    return characterLineUrl(ln.text, ch.voice, [ch.style, ln.tone].filter(Boolean).join(' '));
+    return characterLineUrl(spokenHe(ln.text), ch.voice, [ch.style, ln.tone].filter(Boolean).join(' '));
   };
   // A character's recording, fetched whole: to play (src) and as loudness over
   // time for the mouth (env). {bad: status} when the Pi refuses; null when it
@@ -572,7 +572,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     if (!canSpeakLang('he-IL')) { runTimer(est, 0); return; }
     const g = gen;
     cur = { kind: 'device', est, text, t0: now() };
-    deviceSay(text, 'he-IL', 0.95 * rateFactor() * speed).catch(() => {}).then(() => {
+    deviceSay(spokenHe(text), 'he-IL', 0.95 * rateFactor() * speed).catch(() => {}).then(() => {
       if (!alive || g !== gen) return;
       const took = now() - cur.t0;
       if (took < Math.min(1500, est * 0.3)) runTimer(est, took * speed); else lineDone();

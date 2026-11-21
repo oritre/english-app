@@ -166,6 +166,7 @@ def _ordered(c):
 #   no_music     no music bed under any level of the lesson
 #   quiet_start  no "שלום לכם" before the title
 #   end=quiet    no words of ours after the last line
+#   end=said     the last line already leads into the next part: nothing added
 #   end=plain    "ובפרק הבא: X." without the cheerful "נתראה!"
 # A lesson not listed: greeting, music, and "ובפרק הבא: X. נתראה!".
 SOLEMN_COURSES = {'holocaust'}          # hushed all through: no greeting, no farewell, no music
@@ -180,9 +181,17 @@ FILM_MOOD = {
     'k-jer-f6': 'no_music quiet_start end=quiet',
     'k-jer-f7': 'no_music',
     'k-kgf-f7': 'no_music quiet_start',
-    'k-gre-f3': 'end=plain',
+    'k-gre-f3': 'no_music end=plain',
     'k-gre-f4': 'no_music quiet_start end=plain',
     'k-gre-f5': 'no_music quiet_start end=plain',
+    # a journey whose last line already says where we go next
+    'k-lnf-f2': 'end=said',
+    'k-lnf-f3': 'end=said',
+    'k-lnf-f4': 'end=said',
+    'k-lnf-f5': 'no_music',  # Masada's sad end (level 2)
+    # ends by pointing to another course, after hard times
+    'k-sag-f4': 'end=plain',
+    'k-sag-f5': 'end=plain',
     # martyrdom, expulsion, pogroms
     'k-sag-f2': 'no_music end=quiet',
     'k-exl-f1': 'no_music quiet_start end=quiet',
@@ -199,10 +208,16 @@ FILM_MOOD = {
     'k-war-f2': 'end=plain',
     'k-war-f5': 'quiet_start end=quiet',
 }
+# Titles as the narrator should say them aloud (no niqqud, initials read wrong).
+SPOKEN_TITLE = {
+    'k-exf-f2': 'משה בתיבה, על שפת היאור',
+    'k-zio-f2': 'תלמידי הבעל שם טוב ותלמידי הגאון מווילנה',
+    'k-zio-f8': 'כ״ט בנובמבר והכרזת המדינה',
+}
 # The last scene already says what comes next: then no second announcement.
 NEXT_SAID = ('בפרק הבא', 'בשיעור הבא', 'בסרט הבא', 'בפרקים הבאים', 'בשיעורים הבאים', 'הפרק האחרון', 'השיעור האחרון',
              'הסרט האחרון', 'בפרק האחרון', 'בשיעור האחרון', 'הבא והאחרון', 'נתראה', 'להתראות', 'לילה טוב',
-             'בפעם הבאה נ', 'עוד נכיר', 'עוד נלמד', 'עוד נראה', 'נגלה בקרוב', 'בהמשך נ')
+             'בפעם הבאה נ', 'עוד נכיר', 'עוד נלמד', 'עוד נראה', 'נגלה בקרוב', 'בהמשך נ', 'ועכשיו הגיע הזמן להכיר')
 # The first lines already name the topic: then the greeting does not name it again.
 INTRO_SAID = ('בפרק הזה', 'בשיעור הזה', 'בסרט הזה', 'היום נלמד', 'היום נכיר')
 HELLO = ('שלום', 'בוקר טוב', 'ערב טוב', 'צהריים טובים', 'ברוכים הבאים')
@@ -212,9 +227,11 @@ def _has(lines, words):
     return any(w in line for line in lines for w in words)
 
 
-def _title(t):
-    """A title as the end of a spoken sentence: its own ? or ! stays, otherwise a full stop."""
-    t = str(t).strip().rstrip('.').strip()
+def _title(les):
+    """A lesson's title as the end of a spoken sentence: its own ? or ! stays,
+    otherwise a full stop; a colon inside becomes a pause of its own."""
+    t = SPOKEN_TITLE.get(les['id'], les['title_he'])
+    t = str(t).strip().rstrip('.').strip().replace(': ', '. ')
     return t if t.endswith(('?', '!')) else f'{t}.'
 
 
@@ -242,18 +259,18 @@ def _framed(c, les, film, mood):
         return film
     if not first['say'][0].lstrip().startswith(HELLO):
         hello = 'שלום לכם!' if film['level'] == 3 else 'שלום לכם, ילדים!'
-        opening = f"בפרק הזה: {_title(les['title_he'])}"
+        opening = f"בפרק הזה: {_title(les)}"
         if mood['quiet_start']:
             first['say'] = [opening, *first['say']]
         elif _has(first['say'][:2], INTRO_SAID):
             first['say'] = [hello, *first['say']]
         else:
             first['say'] = [f'{hello} {opening}', *first['say']]
-    if mood['end'] == 'quiet' or _has(last['say'], NEXT_SAID):
+    if mood['end'] in ('quiet', 'said') or _has(last['say'], NEXT_SAID):
         return film
     if k + 1 < len(order):
         see_you = '' if mood['end'] == 'plain' else ' נתראה!'
-        last['say'] = [*last['say'], f"ובפרק הבא: {_title(order[k + 1]['title_he'])}{see_you}"]
+        last['say'] = [*last['say'], f"ובפרק הבא: {_title(order[k + 1])}{see_you}"]
     else:
         last['say'] = [*last['say'], f'זה היה הפרק האחרון בסדרה "{c["title_he"]}". כל הכבוד שלמדתם איתנו!']
     return film
@@ -289,7 +306,9 @@ def load():
     ids = {les['id'] for c in out for les in _ordered(c)}
     for lid, words in FILM_MOOD.items():
         assert lid in ids or not strict, (lid, 'FILM_MOOD names no lesson')
-        assert set(words.split()) <= {'no_music', 'quiet_start', 'end=quiet', 'end=plain'}, (lid, words)
+        assert set(words.split()) <= {'no_music', 'quiet_start', 'end=quiet', 'end=plain', 'end=said'}, (lid, words)
+    for lid in SPOKEN_TITLE:
+        assert lid in ids or not strict, (lid, 'SPOKEN_TITLE names no lesson')
     return out
 
 
