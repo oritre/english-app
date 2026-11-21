@@ -8,13 +8,32 @@ export function sayLine(line) {
   }
   return { who: '', text: String(line || '').trim(), tone: '', act: '' };
 }
+const HE_LETTER = { א: 1, ב: 2, ג: 3, ד: 4, ה: 5, ו: 6, ז: 7, ח: 8, ט: 9, י: 10, כ: 20, ל: 30 };
+const HE_ONES = ['', 'אחד', 'שניים', 'שלושה', 'ארבעה', 'חמישה', 'שישה', 'שבעה', 'שמונה', 'תשעה'];
+const HE_TEENS = ['עשרה', 'אחד עשר', 'שניים עשר', 'שלושה עשר', 'ארבעה עשר', 'חמישה עשר', 'שישה עשר', 'שבעה עשר', 'שמונה עשר', 'תשעה עשר'];
+// A day of the month as it is said: 4 "ארבעה", 19 "תשעה עשר", 28 "עשרים ושמונה".
+export function heDayWords(n) {
+  if (n < 10) return HE_ONES[n];
+  if (n < 20) return HE_TEENS[n - 10];
+  const tens = n >= 30 ? 'שלושים' : 'עשרים';
+  return n % 10 ? `${tens} ו${HE_ONES[n % 10]}` : tens;
+}
+const HE_MONTHS = 'תשרי|חשוון|חשון|כסלו|טבת|שבט|אדר|ניסן|אייר|סיוון|סיון|תמוז|אב|אלול';
 // Words the narrator reads wrong as written (initials, dates in letters): said in
 // full. Only the voice changes; the subtitles keep the written form.
 const SPOKEN_HE = [
-  [/הבעש["״]ט/g, 'הבעל שם טוב'],
-  [/הגר["״]א/g, 'הגאון מווילנה'],
-  [/(^|[\s(])(ו?)ה[׳'] באייר/g, '$1$2חמישה באייר'],
+  // the initials right after the full name: said once, not twice
+  [/(בעל שם טוב|הגאון מווילנה)\s*[,–-]\s*(הבעש["״]ט|הגר["״]א)(?![א-ת])/g, '$1'],
+  [/(?<![א-ת])(ו?)הבעש["״]ט(?![א-ת])/g, '$1הבעל שם טוב'],
+  [/(?<![א-ת])(ו?)הגר["״]א(?![א-ת])/g, '$1הגאון מווילנה'],
   [/כ["״]ט בנובמבר/g, 'כף־טית בנובמבר'],
+  // a day in letters before a Hebrew month: "בה׳ באייר" -> "בחמישה באייר", "י״ט באייר" -> "תשעה עשר באייר"
+  [new RegExp(`(^|[\\s(])([ובלמשכ]{0,2}?)([א-ל])(?:["״]([א-ט]))?[׳'"״]? (ב(?:${HE_MONTHS}))(?![א-ת])`, 'g'),
+    (all, pre, prefix, a, b, month) => {
+      const n = (HE_LETTER[a] || 0) + (b ? HE_LETTER[b] || 0 : 0);
+      const ok = n >= 1 && n <= 30 && (b || /[׳']/.test(all));
+      return ok ? `${pre}${prefix}${heDayWords(n)} ${month}` : all;
+    }],
 ];
 export function spokenHe(text) {
   let t = String(text || '');
