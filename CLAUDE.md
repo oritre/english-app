@@ -17,7 +17,9 @@ If you BUILD content (you are the builder):
    text = the PR link. That thread has the repo and posts the review on the PR
    itself. Do NOT use `fire_trigger` for this: a fired run with text starts a
    separate session that has no GitHub access and cannot post (seen 2026-11-21).
-   The reviewer also sweeps open PRs every 3 hours by itself.
+   There is no scheduled sweep (ori, 2026-11-21): the reviewer runs only when a
+   builder messages it, so send the message every time you produce a new film or
+   video, or change one.
 3. For each new video, write in the PR body what you checked (captions, frames,
    what it teaches); the reviewer cannot watch YouTube from the cloud.
 4. When the reviewer's comment says "צריך תיקונים", fix every 🔴 and 🟠 item
