@@ -11,17 +11,24 @@ Content = `data/lessons/`, `data/*.json`, `tools/*content*.py`, `tools/know_*.py
 
 If you BUILD content (you are the builder):
 1. Open the PR as usual and subscribe to its activity.
-2. Ask for a review right away: fire the scheduled task "בקרת תוכן: סוכן מבקר
-   לאפליקציית לימודים" (`fire_trigger` trig_01LU6NMd7Z4yquMpuHuC3k2m, text =
-   the PR link). It wakes the reviewer's own project thread "סוכן מבקר לתכני
-   לימודים", which is separate from yours. It also sweeps every 3 hours.
+2. Ask for a review right away: send a message to the reviewer's project thread
+   "סוכן מבקר לתכני לימודים" (thread id
+   cmsg_01SaGFiw6iznbK1amho1gUhPY8GbeUao3KtdFqoVgbDnmr) with `message_thread`,
+   text = the PR link. That thread has the repo and posts the review on the PR
+   itself. Do NOT use `fire_trigger` for this: a fired run with text starts a
+   separate session that has no GitHub access and cannot post (seen 2026-11-21).
+   There is no scheduled sweep (ori, 2026-11-21): the reviewer runs only when a
+   builder messages it, so send the message every time you produce a new film or
+   video, or change one.
 3. For each new video, write in the PR body what you checked (captions, frames,
    what it teaches); the reviewer cannot watch YouTube from the cloud.
 4. When the reviewer's comment says "צריך תיקונים", fix every 🔴 and 🟠 item
-   (or reply on the PR why not), push, and fire the reviewer again. Treat 🟢 as
+   (or reply on the PR why not), push, and message the reviewer thread again. Treat 🟢 as
    suggestions worth taking.
 5. Do not merge, and do not tell ori the PR is ready, while the "בקרת תוכן"
-   status is not green. Never write the `content-review` marker yourself.
+   status is not green. Never write the `content-review` marker yourself, and
+   do not relay a review from anywhere else as a substitute: only the
+   reviewer thread's own comment counts.
 
 If you REVIEW content: you only review. Do not edit or push to the PR branch.
 
