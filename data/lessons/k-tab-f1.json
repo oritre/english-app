@@ -23,7 +23,6 @@
      "fx": "light",
      "art": "👦 👧 🏠",
      "say": [
-      "שלום לכם, ילדים! בפרק הזה: מהזרע ועד הקמח.",
       "בוקר טוב! על השולחן יש פרוסת לחם רכה וטעימה. אפשר למרוח עליה גבינה, או לטבול אותה במרק.",
       "האם פעם שאלתם את עצמכם: מאיפה הלחם הזה הגיע?",
       "אולי תגידו: מהמכולת! נכון, קנינו אותו במכולת. אבל הלחם לא גדל בחנות.",
@@ -163,8 +162,8 @@
     }
    ],
    "next_he": "הלחם והחלה",
-   "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
    "quiet_end": false,
+   "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
    "id": "k-tab-f1e1"
   },
   {

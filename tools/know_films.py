@@ -92,6 +92,10 @@ def _lines(sc, level):
     return []
 
 
+def _repeats(lines):
+    return [a for a, b in zip(lines, lines[1:]) if a.strip() == b.strip()]
+
+
 def _film(c, les, level):
     scenes = []
     for sc in les['scenes']:
@@ -126,6 +130,7 @@ def check(c):
                 assert len(_prompt(c, sc)) <= 1800, (les['id'], sc['id'], len(_prompt(c, sc)))
                 for lv in sc['levels']:
                     assert _lines(sc, lv), (les['id'], sc['id'], lv, 'no narration')
+                    assert not _repeats(_lines(sc, lv)), (les['id'], sc['id'], lv, 'a line said twice in a row')
                 for lines in sc['say'].values():
                     for line in lines:
                         assert 0 < len(line) <= 400, (les['id'], sc['id'], line[:40])
@@ -160,10 +165,12 @@ def _ordered(c):
 SOLEMN_COURSES = {'holocaust'}
 # Words of grief or remembrance: a film that opens or ends with them gets no
 # cheerful greeting or farewell, and the music does not swell at its end.
-GRAVE = ('לזכר', 'זכרם', 'זכרונם', 'נפלו', 'נהרגו', 'נרצחו', 'חורבן', 'נחרב', 'גירוש', 'גורשו', 'פרעות', 'השואה', 'ובכו', 'בכו ', 'הקדושים',
-         'השמדה', 'להשמיד', 'רגע של שקט')
+GRAVE = ('לזכר', 'זכרם', 'זכרונם', 'נפלו', 'נהרגו', 'נרצחו', 'חורבן', 'נחרב', 'גירוש', 'גורשו', 'פרעות', 'השואה', 'ובכו', 'בכו ',
+         'השמדה', 'להשמיד', 'רגע של שקט', 'הרוגי מלכות', 'נשמתו יצאה', 'על קידוש השם', 'קדושי ', 'תשעה באב')
 # The last lines already say what comes next: then no second announcement.
-NEXT_SAID = ('בפרק הבא', 'בשיעור הבא', 'בסרט הבא', 'בפרקים הבאים', 'בשיעורים הבאים', 'האחרון', 'נתראה')
+NEXT_SAID = ('בפרק הבא', 'בשיעור הבא', 'בסרט הבא', 'בפרקים הבאים', 'בשיעורים הבאים', 'האחרון', 'נתראה', 'להתראות',
+             'לילה טוב', 'בפעם הבאה נ', 'עוד נכיר', 'עוד נלמד', 'עוד נראה', 'נגלה בקרוב', 'בהמשך נ')
+HELLO = ('שלום', 'בוקר טוב', 'ערב טוב', 'צהריים טובים', 'ברוכים הבאים')
 
 
 def _grave(lines):
@@ -171,7 +178,9 @@ def _grave(lines):
 
 
 def _title(t):
-    return str(t).strip().rstrip('?!.').strip()
+    """A title as the end of a spoken sentence: its own ? or ! stays, otherwise a full stop."""
+    t = str(t).strip().rstrip('.').strip()
+    return t if t.endswith(('?', '!')) else f'{t}.'
 
 
 def _framed(c, les, film):
@@ -184,19 +193,23 @@ def _framed(c, les, film):
     solemn = c['id'] in SOLEMN_COURSES
     if k + 1 < len(order):
         film['next_he'] = order[k + 1]['title_he']
-    film['music'] = None if solemn else (c.get('music') or MUSIC.get(c['area'], MUSIC['history']))
     sad_end = solemn or _grave(last['say'][-3:])
+    sad_start = _grave(first['say'][:2])
     film['quiet_end'] = sad_end
+    # No music under remembrance, mourning or destruction anywhere in the film (the review of #45).
+    # A film about destruction or killing (3+ such lines) is sad all through, even when it ends on hope.
+    sad_any = sum(1 for sc in film['scenes'] for line in sc['say'] if _grave([line])) >= 3
+    film['music'] = None if solemn or sad_end or sad_start or sad_any else (c.get('music') or MUSIC.get(c['area'], MUSIC['history']))
     if solemn:
         return film
-    if not first['say'][0].lstrip().startswith('שלום'):
+    if not first['say'][0].lstrip().startswith(HELLO):
         hello = 'שלום לכם!' if film['level'] == 3 else 'שלום לכם, ילדים!'
-        opening = f"בפרק הזה: {_title(les['title_he'])}."
-        first['say'] = [opening if _grave(first['say'][:2]) else f'{hello} {opening}', *first['say']]
+        opening = f"בפרק הזה: {_title(les['title_he'])}"
+        first['say'] = [opening if sad_start else f'{hello} {opening}', *first['say']]
     if sad_end or any(w in line for line in last['say'][-3:] for w in NEXT_SAID):
         return film
     if k + 1 < len(order):
-        last['say'] = [*last['say'], f"ובפרק הבא: {_title(order[k + 1]['title_he'])}. נתראה!"]
+        last['say'] = [*last['say'], f"ובפרק הבא: {_title(order[k + 1]['title_he'])} נתראה!"]
     else:
         last['say'] = [*last['say'], f"זה היה הפרק האחרון של {c['title_he']}. כל הכבוד שלמדתם איתנו!"]
     return film

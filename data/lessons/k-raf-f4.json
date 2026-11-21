@@ -23,7 +23,7 @@
      "fx": "sunset",
      "art": "👦 👧 🌊",
      "say": [
-      "שלום לכם! בפרק הזה: אור וצבע: למה השמיים כחולים.",
+      "שלום לכם! בפרק הזה: אור וצבע: למה השמיים כחולים?",
       "בצהריים, השמיים כחולים. בערב, מעל הים, השמש שוקעת באדום וכתום. ובירח, שאין בו אוויר, השמיים שחורים גם ביום.",
       "למה? הרי זו אותה שמש, ואותו אור לבן. מה צובע את השמיים?",
       "ולמה עלה ירוק, תפוח אדום ושלג לבן? ואיך העין שלנו בכלל יודעת מה זה ״אדום״?",
@@ -176,8 +176,8 @@
     }
    ],
    "next_he": "אולטרה־סגול: השמש החזקה של ישראל",
-   "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
    "quiet_end": false,
+   "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
    "id": "k-raf-f4e1"
   },
   {

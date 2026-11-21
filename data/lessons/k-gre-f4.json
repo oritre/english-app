@@ -174,8 +174,8 @@
     }
    ],
    "next_he": "רבי עקיבא ובר כוכבא",
-   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "quiet_end": false,
+   "music": null,
    "id": "k-gre-f4e1"
   },
   {
@@ -371,8 +371,8 @@
     }
    ],
    "next_he": "רבי עקיבא ובר כוכבא",
-   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "quiet_end": true,
+   "music": null,
    "id": "k-gre-f4e2"
   },
   {

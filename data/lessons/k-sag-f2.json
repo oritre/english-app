@@ -142,8 +142,7 @@
       "בסוף תפסו הרומאים את רבי עקיבא, והוא נהרג על קידוש השם. הוא היה זקן מאוד, ולא פחד.",
       "ברגעיו האחרונים הגיע זמן קריאת שמע, והוא קרא שמע ישראל בשמחה. תלמידיו שאלו: רבנו, עד כאן?",
       "אמר להם: כל ימיי הצטערתי על הפסוק \"בכל נפשך\", גם כשנוטל את נפשך. אמרתי: מתי תבוא לידי ואקיים אותו? ועכשיו שבאה, לא אקיים?",
-      "הוא האריך במילה \"אחד\", ונשמתו יצאה באחד. רבי עקיבא הוא אחד מעשרה הרוגי מלכות, שאנחנו מזכירים ביום הכיפורים ובתשעה באב.",
-      "ובפרק הבא: רבי יהודה הנשיא והמשנה. נתראה!"
+      "הוא האריך במילה \"אחד\", ונשמתו יצאה באחד. רבי עקיבא הוא אחד מעשרה הרוגי מלכות, שאנחנו מזכירים ביום הכיפורים ובתשעה באב."
      ],
      "pasuk": {
       "text": "שמע ישראל, ה' אלקינו, ה' אחד",
@@ -153,8 +152,8 @@
     }
    ],
    "next_he": "רבי יהודה הנשיא והמשנה",
-   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
-   "quiet_end": false,
+   "quiet_end": true,
+   "music": null,
    "id": "k-sag-f2e1"
   },
   {
@@ -334,8 +333,8 @@
     }
    ],
    "next_he": "רבי יהודה הנשיא והמשנה",
-   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "quiet_end": false,
+   "music": null,
    "id": "k-sag-f2e2"
   },
   {
