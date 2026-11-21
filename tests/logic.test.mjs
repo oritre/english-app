@@ -828,6 +828,9 @@ test('film voice: initials and letter dates are said in full', async () => {
   assert.equal(spokenHe('תלמידי הגאון מווילנה, הגר"א, שנקראו'), 'תלמידי הגאון מווילנה, שנקראו');
   assert.equal(spokenHe('ובכל שנה, בה׳ באייר, אומרים הלל'), 'ובכל שנה, בחמישה באייר, אומרים הלל');
   assert.equal(spokenHe('בד׳ באייר וי״ט באייר וכ״ח באייר'), 'בארבעה באייר ותשעה עשר באייר ועשרים ושמונה באייר');
-  assert.equal(spokenHe('ט״ו בשבט'), 'חמישה עשר בשבט');
+  assert.equal(spokenHe('ט״ו בשבט'), 'טוּ בשבט');
+  assert.equal(spokenHe('ובט"ו באב'), 'ובטוּ באב');
+  assert.equal(spokenHe('ט״ו בתשרי'), 'חמישה עשר בתשרי');
+  assert.equal(spokenHe("וירא אליו ה' באלוני ממרא"), "וירא אליו ה' באלוני ממרא");
   assert.equal(spokenHe('אבא בא באב'), 'אבא בא באב');
 });
