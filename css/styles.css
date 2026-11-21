@@ -1508,3 +1508,22 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
    reads the same on the green, red and amber footers. */
 .guess-flag { margin-bottom: -4px; padding: 7px 12px; border-radius: 12px; border: 1px solid var(--weak-line); border-inline-start: 4px solid var(--sun); background: color-mix(in srgb, var(--sun) 16%, var(--surface)); color: var(--fg); font-size: 14px; line-height: 1.4; text-wrap: pretty; animation: sheet-in .28s cubic-bezier(.2, .9, .3, 1.2) both; }
 @media (prefers-reduced-motion: reduce) { .score-card, .guess-flag { animation: none; } }
+
+/* ---- all videos in one place (parents' area, js/screens/videos.js) ---- */
+.videos .vg-controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.videos .vg-level { display: flex; gap: 6px; align-items: center; }
+.videos .vg-auto { font-size: 14px; display: flex; align-items: center; gap: 4px; }
+.videos .vg-player { padding: 8px 0; display: flex; flex-direction: column; gap: 6px; scroll-margin-top: 8px; }
+.videos .vg-now { margin: 0; font-size: 18px; }
+.videos .vg-stage video { width: 100%; max-height: 60vh; border-radius: 14px; background: #000; display: block; }
+.videos .vg-msg { margin: 0; }
+.videos .vg-nav { display: flex; justify-content: space-between; align-items: center; }
+.videos .vg-pos { font-size: 14px; color: var(--muted); }
+.videos .vg-list { display: flex; flex-direction: column; gap: 12px; }
+.videos .vg-group { border-inline-start: 5px solid var(--vg-c, var(--line)); }
+.videos .vg-head { display: flex; align-items: center; gap: 8px; }
+.videos .vg-head h2 { margin: 0; font-size: 17px; flex: 1; }
+.videos .vg-items { display: flex; flex-direction: column; gap: 2px; }
+.videos .vg-item { display: flex; gap: 8px; align-items: center; text-align: start; border: none; background: none; font: inherit; font-size: 15px; padding: 8px 6px; border-radius: 10px; cursor: pointer; color: inherit; }
+.videos .vg-item:hover { background: var(--line); }
+.videos .vg-item[aria-current="true"] { background: var(--ink); color: #fff; }
