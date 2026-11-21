@@ -158,6 +158,7 @@ export async function renderParent(root, nav) {
       el('p', { class: 'muted small-l parent-note' }, 'זמן פעיל נספר רק כשנוגעים במסך, מקלידים, צופים בסרטון או מדברים עם המורה. מסך שנשאר פתוח לא נספר. ', helpLink()),
       profiles.length ? profiles.map((p, i) => kidCard(nav, p, all[i], today, range)) : el('p', {}, 'עוד אין לומדים.'),
       el('div', { class: 'parent-foot' },
+        el('button', { class: 'btn ghost', type: 'button', onclick: () => nav('videos') }, '🎬 כל הסרטונים במקום אחד'),
         el('button', { class: 'btn ghost', type: 'button', onclick: () => nav('reports') }, '📊 הדוחות המפורטים (אנגלית)'),
         el('button', { class: 'btn ghost', type: 'button', onclick: () => { unlockedAt = 0; pinGate(root, nav, profiles.map((p) => ({ ...p, parent_pin: null })), () => renderParent(root, nav)); } }, '🔑 החלפת קוד ההורים'))));
   };

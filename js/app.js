@@ -10,6 +10,7 @@ import { renderSync, syncOnLoad } from './screens/syncSetup.js';
 import { renderSettings } from './screens/settings.js';
 import { renderTalk, leaveTalk } from './screens/talk.js';
 import { renderParent, renderParentKid } from './screens/parent.js';
+import { renderVideos } from './screens/videos.js';
 import { getProfile, setCurrentProfile } from './progress.js';
 import { el } from './util.js';
 import { endSession } from './activity.js';
@@ -30,6 +31,7 @@ const routes = {
   talk: renderTalk,
   parent: renderParent,
   parentKid: renderParentKid,
+  videos: renderVideos,
 };
 // Lesson-like screens have their own footer and a 🏠 in their top bar instead.
 const NO_TABS = new Set(['lesson', 'placement', 'talk']);
