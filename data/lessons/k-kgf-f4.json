@@ -23,7 +23,7 @@
      "fx": "light",
      "art": "👦 👨 👨",
      "say": [
-      "בפרק הזה: שלמה החכם מכל אדם.",
+      "שלום לכם, ילדים! בפרק הזה: שלמה החכם מכל אדם.",
       "דוד נפטר, ובנו שלמה עלה על כיסא המלכות. הוא היה צעיר מאוד, ועכשיו הוא צריך להנהיג עם שלם.",
       "לפני מותו, דוד ציווה להמליך את שלמה. צדוק הכהן ונתן הנביא משחו אותו בגיחון, וכל העם תקע בשופר וקרא: יחי המלך שלמה!",
       "שלמה הלך לגבעון, שם עמד אז המזבח הגדול, והקריב אלף קורבנות להשם.",
@@ -179,7 +179,7 @@
    ],
    "next_he": "הממלכה נקרעת לשתיים",
    "quiet_end": false,
-   "music": null,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-kgf-f4e1"
   },
   {
@@ -201,7 +201,7 @@
      "fx": "light",
      "art": "👦 👨 👨",
      "say": [
-      "בפרק הזה: שלמה החכם מכל אדם.",
+      "שלום לכם! בפרק הזה: שלמה החכם מכל אדם.",
       "דוד נפטר, ובנו שלמה עלה על כיסא המלכות. הוא היה צעיר מאוד, ועכשיו הוא צריך להנהיג עם שלם.",
       "לפני מותו, דוד ציווה להמליך את שלמה. צדוק הכהן ונתן הנביא משחו אותו בגיחון, וכל העם תקע בשופר וקרא: יחי המלך שלמה!",
       "שלמה הלך לגבעון, שם עמד אז המזבח הגדול, והקריב אלף קורבנות להשם.",
@@ -372,7 +372,7 @@
    ],
    "next_he": "הממלכה נקרעת לשתיים",
    "quiet_end": false,
-   "music": null,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-kgf-f4e2"
   },
   {
