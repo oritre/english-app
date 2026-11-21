@@ -262,3 +262,50 @@ export function stagePlan(scene, cast) {
     scale: Math.min(1.6, Math.max(0.4, Number(it.scale) || 1)),
   }));
 }
+
+// ---- the cut (ori 2026-11-21: present the films like the Hidabroot Kids videos) ----
+
+// Their picture changes every 3-4 seconds: wide, medium and close shots one
+// after another. One painted picture is cut the same way here: each shot is a
+// framing of the picture (zoom z, centre offset x, y in % of the frame) with a
+// slow drift to the next resting place. The first shot of a scene is wide.
+export const SHOT_MS = 4000;
+const FRAMINGS = [
+  { z: 1.06, x: 0, y: 0 }, // wide
+  { z: 1.38, x: -10, y: 2 }, // medium, right of the picture (RTL viewers read from there)
+  { z: 1.7, x: 0, y: 5 }, // close on the middle, where people usually stand
+  { z: 1.38, x: 10, y: 2 }, // medium, left
+  { z: 1.5, x: -5, y: -9 }, // the upper part: sky, walls, mountains
+  { z: 1.55, x: 6, y: 9 }, // the lower part: ground, hands, feet
+];
+// The furthest a framing may move off centre and still fill the frame.
+export const shotRoom = (z) => 50 * (1 - 1 / z);
+const clampShot = ({ z, x, y }) => {
+  const r = shotRoom(z) - 0.2;
+  return { z, x: Math.max(-r, Math.min(r, x)), y: Math.max(-r, Math.min(r, y)) };
+};
+// The shots of one scene: [{from, to}], from and to as {z, x, y}. Never the same
+// framing twice in a row; each drifts a little (a slow push in or out, a short pan).
+export function shotPlan(key, count) {
+  const rnd = seeded(`shots:${key}`);
+  const out = [];
+  let last = -1;
+  for (let i = 0; i < count; i++) {
+    let k = 0;
+    if (i > 0) {
+      do { k = 1 + Math.floor(rnd() * (FRAMINGS.length - 1)); } while (k === last);
+      if (i % 5 === 0) k = 0; // back to wide now and then, to breathe
+    }
+    last = k;
+    const f = FRAMINGS[k];
+    const push = rnd() < 0.6 ? 1 : -1;
+    const dz = 0.05 * push;
+    const dx = (rnd() - 0.5) * 4;
+    const dy = (rnd() - 0.5) * 2;
+    const a = clampShot({ z: f.z, x: f.x - dx / 2, y: f.y - dy / 2 });
+    const b = clampShot({ z: Math.max(1.03, f.z + dz), x: f.x + dx / 2, y: f.y + dy / 2 });
+    out.push({ from: a, to: b });
+  }
+  return out;
+}
+export const shotTransform = ({ z, x, y }) => `scale(${z.toFixed(3)}) translate3d(${x.toFixed(2)}%, ${y.toFixed(2)}%, 0)`;

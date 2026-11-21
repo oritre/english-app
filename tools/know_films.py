@@ -136,8 +136,44 @@ def check(c):
     return ids
 
 
+# Background music under the narration (ori 2026-11-21: present the films like the
+# Hidabroot Kids videos, which run a quiet music bed under the voice all along).
+# The Pi makes each piece once (Lyria, /music) and the player loops it softly.
+MUSIC = {
+    'israel': 'Warm cinematic orchestral underscore for a Jewish children\'s history documentary: soft strings, '
+              'gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, '
+              'seamless loop.',
+    'history': 'Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense '
+               'of ancient times, steady gentle pace, no vocals, seamless loop.',
+    'society': 'Light, friendly underscore for a children\'s explainer: soft marimba, pizzicato strings and '
+               'acoustic guitar, cheerful and calm, no vocals, seamless loop.',
+    'nature': 'Gentle wonder underscore for a children\'s nature film: soft piano, celesta and warm strings, '
+              'curious and peaceful, no vocals, seamless loop.',
+}
+
+
+def _ordered(c):
+    return [les for u in c['units'] for les in u['lessons']]
+
+
+def _framed(c, les, film):
+    """The host's words around the film, as in the Hidabroot videos: a greeting
+    before the first scene and, after the last, what the next part is about."""
+    order = _ordered(c)
+    k = next(i for i, x in enumerate(order) if x['id'] == les['id'])
+    first, last = film['scenes'][0], film['scenes'][-1]
+    first['say'] = [f"שלום לכם, ילדים! בפרק הזה של {c['title_he']}: {les['title_he']}.", *first['say']]
+    if k + 1 < len(order):
+        last['say'] = [*last['say'], f"ובפרק הבא: {order[k + 1]['title_he']}. נתראה!"]
+        film['next_he'] = order[k + 1]['title_he']
+    else:
+        last['say'] = [*last['say'], f"זה היה הפרק האחרון של {c['title_he']}. כל הכבוד שלמדתם איתנו!"]
+    film['music'] = c.get('music') or MUSIC.get(c['area'], MUSIC['history'])
+    return film
+
+
 def lesson_exercises(c, les):
-    ex = [_film(c, les, lv) for lv in c['levels']]
+    ex = [_framed(c, les, _film(c, les, lv)) for lv in c['levels']]
     for q in les['questions']:
         for lv in q['levels']:
             ex.append({**q['q'], 'grades': LEVEL_GRADES[lv]})

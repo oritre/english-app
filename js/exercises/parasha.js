@@ -1,8 +1,8 @@
 import { el } from '../util.js';
-import { imageUrl, characterLineUrl } from '../media.js';
+import { imageUrl, characterLineUrl, musicUrl } from '../media.js';
 import { piLineUrl, deviceSay, stopSpeech, canSpeakLang } from '../speech.js';
 import { rateFactor } from '../settings.js';
-import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt, mood, artPlan, seeded, sayLine, parseAct, levelAt } from '../parashaLogic.js';
+import { lineMs, filmMinutes, gateOpen, canJump, cues, subtitlePlan, subtitleAt, mood, artPlan, seeded, sayLine, parseAct, levelAt, shotPlan, shotTransform, SHOT_MS } from '../parashaLogic.js';
 import { createPuppets, voiceTrack } from './parashaPuppets.js';
 
 // The parasha film ("פרשת שבוע"): a narrated storybook film, one painted
@@ -24,9 +24,13 @@ import { createPuppets, voiceTrack } from './parashaPuppets.js';
 // face, enter, scale}]. A film with no cast plays as it always did.
 
 const SPEEDS = [1, 1.25, 0.85];
-const PREROLL = 2000; // the chapter title has the stage to itself before the narration starts
-const LINE_GAP = 380;
-const SCENE_GAP = 900;
+// The pace (2026-11-21, after the Hidabroot Kids videos): the narration flows on
+// from scene to scene with short breaths, the picture cuts every few seconds.
+const PREROLL = 800; // the chapter title shows before the narration of a scene starts
+const LINE_GAP = 220;
+const SCENE_GAP = 300;
+const MUSIC_BED = 0.16; // music under the voice, about 16 dB below it
+const MUSIC_SWELL = 0.45; // music alone: the opening and the end
 const ACT_WAIT = 7000; // a walk before a line never holds the film longer than this
 const START_WAIT = 4000; // a Pi recording that has not started by now is read by the device instead
 const reducedMotion = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -344,7 +348,8 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     const ms = s.say.reduce((n, t) => n + lineMs(t) + LINE_GAP, PREROLL) / speed;
     const figures = puppets.build(i);
     // With figures on the stage the camera keeps to a slow, small move that leaves their feet on the ground.
-    const node = el('div', { class: `pf-scene pf-move-${['in', 'out', 'left', 'right', 'up'].includes(s.move) ? s.move : 'in'}${figures ? ' has-stage' : ''}`, style: `--dur:${Math.round(Math.max(14000, ms) * (s.talk ? 1.6 : 1))}ms` },
+    const cut = !figures && !reducedMotion();
+    const node = el('div', { class: `pf-scene pf-move-${['in', 'out', 'left', 'right', 'up'].includes(s.move) ? s.move : 'in'}${figures ? ' has-stage' : ''}${cut ? ' pf-cut' : ''}`, style: `--dur:${Math.round(Math.max(14000, ms) * (s.talk ? 1.6 : 1))}ms` },
       el('div', { class: 'pf-cam' }, paint(s), figures),
       reducedMotion() ? null : effects(s.fx, seeded(`${s.id}fx`)));
     return node;
@@ -360,6 +365,63 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     puppets.show(i);
     if (pics[i].state === 'fail') loadPic(i);
     requestAnimationFrame(() => requestAnimationFrame(() => node.classList.add('in')));
+    cutTo(true);
+  };
+
+  // ---- the cut: shots over the scene's picture (wide, medium, close), a new one every few seconds ----
+  let shots = [];
+  let shotK = 0;
+  let shotScene = -1;
+  let shotAnim = null;
+  let shotTimer = 0;
+  let shotAt = 0;
+  const armShots = () => { clearTimeout(shotTimer); if (playing && shotAnim) shotTimer = setTimeout(() => cutTo(), SHOT_MS / Math.max(0.85, speed)); };
+  function cutTo(fresh = false) {
+    const node = sceneEls.get(at);
+    if (!node || !node.classList.contains('pf-cut')) { shotAnim = null; clearTimeout(shotTimer); return; }
+    if (fresh || shotScene !== at) { shotScene = at; shotK = 0; shots = shotPlan(scenes[at].id || at, 48); }
+    const sh = shots[shotK % shots.length];
+    shotK += 1;
+    shotAnim?.cancel();
+    shotAnim = node.querySelector('.pf-cam').animate([{ transform: shotTransform(sh.from) }, { transform: shotTransform(sh.to) }],
+      { duration: SHOT_MS + 1800, easing: 'cubic-bezier(.25, .1, .25, 1)', fill: 'forwards' });
+    if (!playing) shotAnim.pause();
+    shotAt = now();
+    armShots();
+  }
+  // A new line of narration gets a new shot, unless the last cut was only a moment ago.
+  const cutForLine = () => { if (shotAnim && now() - shotAt > 1500) cutTo(); };
+
+  // ---- music under the narration ----
+  const music = new Audio();
+  music.loop = true;
+  music.preload = 'auto';
+  // Where a page can't set the volume (iPhone), the music would drown the voice: no music there.
+  music.volume = 0.5;
+  const musicOk = Math.abs(music.volume - 0.5) < 0.01 && !!ex.music;
+  music.volume = 0;
+  let musicWanted = false;
+  let musicFade = 0;
+  const fadeMusic = (to, ms) => {
+    clearInterval(musicFade);
+    const from = music.volume;
+    const t0 = now();
+    musicFade = setInterval(() => {
+      const f = Math.min(1, (now() - t0) / ms);
+      try { music.volume = Math.max(0, Math.min(1, from + (to - from) * f)); } catch { /* not settable */ }
+      if (f >= 1) { clearInterval(musicFade); if (to === 0) { musicWanted = false; music.pause(); } }
+    }, 60);
+  };
+  const startMusic = async (vol) => {
+    if (!musicOk) return;
+    musicWanted = true;
+    if (!music.src) {
+      const url = await musicUrl(ex.music).catch(() => null);
+      if (!url || !alive) return;
+      music.src = url;
+    }
+    if (playing && music.paused) music.play().catch(() => {});
+    fadeMusic(vol, 1400);
   };
 
   // ---- subtitles ----
@@ -475,6 +537,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
       puppets.speak(ln.who, parseAct(ln.act).gesture, voiceLevel);
     }
     setLine(text, ch);
+    if (line > 0) cutForLine();
     const url = await lineUrl(ln).catch(() => null);
     if (!alive || g !== gen || !playing) return;
     if (!url) { playDevice(text); return; }
@@ -549,7 +612,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     frame.classList.toggle('paused', !on);
     frame.classList.toggle('playing', on);
     puppets.setPlaying(on);
-    if (on) wake();
+    if (on) { shotAnim?.play(); armShots(); if (musicWanted && music.src) music.play().catch(() => {}); wake(); } else { shotAnim?.pause(); clearTimeout(shotTimer); music.pause(); }
   };
   const paintNav = () => {
     const inFilm = at >= 0 && at < total;
@@ -598,7 +661,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     paintNav();
     remember();
     cur = { kind: 'gap', next: startLine };
-    if (play) wait(PREROLL, startLine);
+    if (play) { wait(PREROLL, startLine); if (musicOk) startMusic(MUSIC_BED); }
   };
   // The buttons and chips: only as far as the film has already reached.
   const jump = (i) => {
@@ -664,6 +727,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     preload(from); warm(from);
     card?.classList.add('go');
     setPlaying(true);
+    startMusic(MUSIC_SWELL);
     cur = { kind: 'gap', next: () => go(from, true) };
     wait(reducedMotion() ? 700 : 3300, cur.next);
   };
@@ -672,6 +736,8 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     line = 0;
     furthest = total - 1;
     setPlaying(false);
+    // The music closes the film on its own for a moment, then fades away.
+    if (musicWanted && music.src) { music.play().catch(() => {}); fadeMusic(MUSIC_SWELL, 900); setTimeout(() => { if (alive && at >= total) fadeMusic(0, 2600); }, 3600); }
     frame.classList.add('at-end');
     frame.classList.remove('pasuk-on', 'note-on');
     subs.replaceChildren();
@@ -683,6 +749,7 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
         el('span', { class: 'pf-kicker' }, ex.title_he || ''),
         el('h2', { class: 'pf-end-text' }, 'סוף!'),
         rule(),
+        ex.next_he ? el('span', { class: 'pf-end-next' }, `בפרק הבא: ${ex.next_he}`) : null,
         el('span', { class: 'pf-end-sub' }, 'עכשיו כמה שאלות על מה שראינו'),
         el('button', { class: 'pf-cta ghost', type: 'button', onclick: () => { track?.('replay', ''); go(0, true); } }, icon('replay'), el('span', {}, 'לצפות שוב')))));
     open();
@@ -767,6 +834,8 @@ export function renderParashaFilm(root, ex, { setReady, track, learnerId } = {})
     quiet();
     stopSpeech();
     try { audio.pause(); audio.removeAttribute('src'); audio.load(); } catch { /* never loaded */ }
+    clearInterval(musicFade); clearTimeout(shotTimer); shotAnim?.cancel();
+    try { music.pause(); music.removeAttribute('src'); music.load(); } catch { /* never loaded */ }
     clearInterval(watch); clearInterval(ticker); clearTimeout(idleTimer);
     puppets.destroy();
     for (const url of [...voices.keys()]) dropVoice(url);
