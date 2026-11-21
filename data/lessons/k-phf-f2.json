@@ -23,6 +23,7 @@
      "fx": "sunset",
      "art": "🍎",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: כוח המשיכה: למה הכול נופל?",
       "עיפרון נופל מהשולחן. תפוח נופל מהעץ. טיפת גשם נופלת מהענן. אף פעם לא ראינו תפוח שנופל למעלה!",
       "כל כך התרגלנו לזה, שאנחנו לא שואלים: למה בעצם דברים נופלים? ולמה דווקא למטה?",
       "לפי סיפור שניוטון עצמו סיפר בזקנתו, תפוח שנפל בגינה שלו עורר אותו לחשוב על השאלה הזאת.",
@@ -155,6 +156,9 @@
      "note": null
     }
    ],
+   "next_he": "אנרגיה: עבודה, הספק וחשבון החשמל",
+   "quiet_end": false,
+   "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
    "id": "k-phf-f2e1"
   },
   {
@@ -176,6 +180,7 @@
      "fx": "sunset",
      "art": "🍎",
      "say": [
+      "שלום לכם! בפרק הזה: כוח המשיכה: למה הכול נופל?",
       "עיפרון נופל מהשולחן. תפוח נופל מהעץ. טיפת גשם נופלת מהענן. אף פעם לא ראינו תפוח שנופל למעלה!",
       "כל כך התרגלנו לזה, שאנחנו לא שואלים: למה בעצם דברים נופלים? ולמה דווקא למטה?",
       "לפי סיפור שניוטון עצמו סיפר בזקנתו, תפוח שנפל בגינה שלו עורר אותו לחשוב על השאלה הזאת.",
@@ -319,6 +324,9 @@
      "note": null
     }
    ],
+   "next_he": "אנרגיה: עבודה, הספק וחשבון החשמל",
+   "quiet_end": false,
+   "music": "Gentle wonder underscore for a children's nature film: soft piano, celesta and warm strings, curious and peaceful, no vocals, seamless loop.",
    "id": "k-phf-f2e2"
   },
   {

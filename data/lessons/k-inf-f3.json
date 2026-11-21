@@ -23,6 +23,7 @@
      "fx": "stars",
      "art": "⛵",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: המצפן והניווט.",
       "דמיינו שאתם על ספינה, באמצע הים הגדול. מסביב רק מים, מים ומים.",
       "אין שלטים ואין כבישים. איך יודעים לאן לשוט?",
       "היום נגלה איך ספנים מצאו את הדרך, ואת ההמצאה הקטנה שעזרה להם מאוד: המצפן.",
@@ -152,6 +153,9 @@
      "note": null
     }
    ],
+   "next_he": "החשמל והנורה",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f3e1"
   },
   {
@@ -173,6 +177,7 @@
      "fx": "stars",
      "art": "⛵",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: המצפן והניווט.",
       "דמיינו שאתם על ספינת עץ, באמצע הים הגדול. מכל הצדדים רק גלים, עד האופק. אין שלטים, אין דרכים ואין סימנים.",
       "ספינה שטועה בדרך עלולה להסתובב שבועות בים, עד שנגמרים לה המים והאוכל.",
       "איך מוצאים את הדרך? היום נגלה איך ניווטו פעם, ומהי ההמצאה הקטנה ששינתה את המסעות בים: המצפן."
@@ -308,6 +313,9 @@
      "note": null
     }
    ],
+   "next_he": "החשמל והנורה",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f3e2"
   },
   {
@@ -329,6 +337,7 @@
      "fx": "stars",
      "art": "⛵",
      "say": [
+      "שלום לכם! בפרק הזה: המצפן והניווט.",
       "דמיינו שאתם על ספינת עץ, באמצע הים הגדול. מכל הצדדים רק גלים, עד האופק. אין שלטים, אין דרכים ואין סימנים.",
       "ספינה שטועה בדרך עלולה להסתובב שבועות בים, עד שנגמרים לה המים והאוכל.",
       "איך מוצאים את הדרך? היום נגלה איך ניווטו פעם, ומהי ההמצאה הקטנה ששינתה את המסעות בים: המצפן."
@@ -472,6 +481,9 @@
      "note": null
     }
    ],
+   "next_he": "החשמל והנורה",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f3e3"
   },
   {

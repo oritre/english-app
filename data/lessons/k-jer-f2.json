@@ -23,6 +23,7 @@
      "fx": "light",
      "art": "🏠 🪨",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: עיר דוד ובתי המקדש.",
       "עברו הרבה שנים מאז אברהם. עם ישראל יצא ממצרים, קיבל את התורה, ונכנס לארץ.",
       "אבל עיר אחת עוד לא הייתה בידי ישראל: העיר יבוס, על ההר.",
       "אנשי יבוס ישבו בתוך חומות חזקות. הם חשבו: אף אחד לא יוכל לכבוש אותנו!",
@@ -143,6 +144,9 @@
      "note": null
     }
    ],
+   "next_he": "גלות ותפילה לירושלים",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-jer-f2e1"
   },
   {
@@ -164,6 +168,7 @@
      "fx": "light",
      "art": "🏠 🪨",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: עיר דוד ובתי המקדש.",
       "יהושע הביא את בני ישראל לארץ, והשבטים קיבלו את נחלותיהם. אבל העיר על ההר נשארה בידי היבוסים.",
       "ספר שופטים מספר: \"ואת היבוסי יושב ירושלים לא הורישו בני בנימין\". מאות שנים ישבו היבוסים בתוך חומות חזקות, על רכס צר מעל עמק עמוק.",
       "בתחתית ההר נבע מעיין – מעיין הגיחון. מים, חומות וגבעה תלולה: עיר שקשה מאוד לכבוש.",
@@ -297,6 +302,9 @@
      "note": null
     }
    ],
+   "next_he": "גלות ותפילה לירושלים",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-jer-f2e2"
   },
   {
@@ -318,6 +326,7 @@
      "fx": "light",
      "art": "🏠 🪨",
      "say": [
+      "שלום לכם! בפרק הזה: עיר דוד ובתי המקדש.",
       "יהושע הביא את בני ישראל לארץ, והשבטים קיבלו את נחלותיהם. אבל העיר על ההר נשארה בידי היבוסים.",
       "ספר שופטים מספר: \"ואת היבוסי יושב ירושלים לא הורישו בני בנימין\". מאות שנים ישבו היבוסים בתוך חומות חזקות, על רכס צר מעל עמק עמוק.",
       "בתחתית ההר נבע מעיין – מעיין הגיחון. מים, חומות וגבעה תלולה: עיר שקשה מאוד לכבוש.",
@@ -464,6 +473,9 @@
      "note": null
     }
    ],
+   "next_he": "גלות ותפילה לירושלים",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-jer-f2e3"
   },
   {

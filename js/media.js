@@ -65,3 +65,14 @@ export async function characterLineUrl(text, voice, style = '', lang = 'he') {
   return `${MEDIA_BASE}/tts/${h}.mp3?k=${key}&l=${lang}&t=${encodeURIComponent(t)}`
     + `&v=${encodeURIComponent(voice || '')}&s=${encodeURIComponent(style || '')}`;
 }
+
+// A piece of background music for a film, made once by the Pi (Lyria) and kept
+// there: /music/<hash>.mp3, hash = first 16 hex of SHA-1("music\n" + prompt)
+// (server.py music_hash). null without a family code.
+export async function musicUrl(prompt) {
+  const key = await mediaKey();
+  const p = String(prompt || '').trim();
+  if (!key || !p || !crypto.subtle) return null;
+  const h = await sha1hex(`music\n${p}`);
+  return `${MEDIA_BASE}/music/${h}.mp3?k=${key}&p=${encodeURIComponent(p)}`;
+}

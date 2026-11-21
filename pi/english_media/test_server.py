@@ -226,6 +226,30 @@ class PaintAheadTest(unittest.TestCase):
         self.assertEqual(server.pictures_url({'videos_url': 'https://x.io/app/data/videos.json'}), 'https://x.io/app/data/pictures.json')
 
 
+class MusicTest(unittest.TestCase):
+    def test_hash_matches_the_app(self):
+        import hashlib
+        self.assertEqual(server.music_hash(' calm strings '), hashlib.sha1(b'music\ncalm strings').hexdigest()[:16])
+
+    def test_makes_once_and_keeps(self):
+        import io
+        import wave
+        buf = io.BytesIO()
+        with wave.open(buf, 'wb') as w:
+            w.setnchannels(2); w.setsampwidth(2); w.setframerate(48000); w.writeframes(b'\0\0\0\0' * 48000 * 4)
+        calls = []
+        def request(prompt, options):
+            calls.append(prompt)
+            return buf.getvalue()
+        store = tempfile.mkdtemp()
+        with self.assertRaises(LookupError):
+            server.music_file('calm', {}, store, request)
+        a = server.music_file(' calm ', {'vertex_api_key': 'x'}, store, request)
+        b = server.music_file('calm', {'vertex_api_key': 'x'}, store, request)
+        self.assertEqual((a, calls), (b, ['calm']))
+        self.assertGreater(os.path.getsize(a), 1000)
+
+
 class PictureServeTest(ServeTest):
     def setUp(self):
         super().setUp()

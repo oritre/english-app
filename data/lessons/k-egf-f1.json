@@ -23,6 +23,7 @@
      "fx": "light",
      "art": "🏜️",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: הנילוס, נהר החיים.",
       "דמיינו שאתם ציפור שעפה גבוה מעל מדבר ענק. חול צהוב לכל הכיוונים.",
       "ופתאום, באמצע המדבר, פס כחול ארוך ארוך, ומשני הצדדים שלו רצועה ירוקה של שדות ועצי תמר.",
       "הפס הכחול הוא הנילוס, והרצועה הירוקה היא מצרים העתיקה.",
@@ -155,6 +156,9 @@
      "note": null
     }
    ],
+   "next_he": "פרעונים ופירמידות",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-egf-f1e1"
   },
   {

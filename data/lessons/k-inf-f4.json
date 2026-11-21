@@ -23,6 +23,7 @@
      "fx": "night",
      "art": "👨 👦",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: החשמל והנורה.",
       "מה עושים כשיורד החושך? לוחצים על המתג, והאור נדלק!",
       "אבל פעם לא היה חשמל. בלילה הדליקו נרות או מנורות שמן קטנות.",
       "האור היה חלש, והיה צריך להיזהר מאש. היום נגלה איך הגיע אלינו החשמל."
@@ -153,6 +154,9 @@
      "note": null
     }
    ],
+   "next_he": "מכוניות ומטוסים",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f4e1"
   },
   {
@@ -174,6 +178,7 @@
      "fx": "night",
      "art": "👨 👦",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: החשמל והנורה.",
       "מה עושים כשיורד החושך? לוחצים על מתג, והבית מואר. נוח, נכון?",
       "אבל במשך אלפי שנים, בני האדם האירו את הלילה בנרות, במנורות שמן ובלפידים. האור היה חלש ומהבהב, העשן השחיר את התקרה, ונר שנפל יכול היה לגרום לשריפה.",
       "בבתי המדרש למדו בלילות לאור נר, וחכמים רבים כתבו את ספריהם בחדרים כמעט חשוכים.",
@@ -305,6 +310,9 @@
      "note": null
     }
    ],
+   "next_he": "מכוניות ומטוסים",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f4e2"
   },
   {
@@ -326,6 +334,7 @@
      "fx": "night",
      "art": "👨 👦",
      "say": [
+      "שלום לכם! בפרק הזה: החשמל והנורה.",
       "מה עושים כשיורד החושך? לוחצים על מתג, והבית מואר. נוח, נכון?",
       "אבל במשך אלפי שנים, בני האדם האירו את הלילה בנרות, במנורות שמן ובלפידים. האור היה חלש ומהבהב, העשן השחיר את התקרה, ונר שנפל יכול היה לגרום לשריפה.",
       "בבתי המדרש למדו בלילות לאור נר, וחכמים רבים כתבו את ספריהם בחדרים כמעט חשוכים.",
@@ -467,6 +476,9 @@
      "note": null
     }
    ],
+   "next_he": "מכוניות ומטוסים",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f4e3"
   },
   {

@@ -343,6 +343,70 @@ def img_file(prompt, options, store=STORE, request=None):
     return target
 
 
+MUSIC_MAX_CHARS = 600
+MUSIC_MODEL = 'lyria-002'
+MUSIC_LOCATION = 'us-central1'  # Lyria is served from a region, not from 'global'
+music_slots = threading.Semaphore(1)
+
+
+def music_hash(prompt):
+    """Matches js/media.js musicUrl: SHA-1 of "music\n<prompt>", first 16 hex digits."""
+    return hashlib.sha1(f'music\n{prompt.strip()}'.encode()).hexdigest()[:16]
+
+
+def music_path(h, store=STORE):
+    return os.path.join(store, 'music', f'{h}.mp3')
+
+
+def music_request(prompt, options):
+    """About 30 s of instrumental music (Lyria on Vertex) as wav bytes."""
+    if backend(options) != 'vertex':
+        raise LookupError(NO_BACKEND)
+    project = options.get('vertex_project') or 'secretary-bot-511411'
+    loc = options.get('music_location') or MUSIC_LOCATION
+    model = options.get('music_model') or MUSIC_MODEL
+    url = (f'https://{loc}-aiplatform.googleapis.com/v1/projects/{project}/locations/{loc}/publishers/google/models/'
+           f'{model}:predict?key={urllib.parse.quote(options["vertex_api_key"])}')
+    body = {'instances': [{'prompt': prompt, 'negative_prompt': 'vocals, singing, choir, lyrics, speech, drums solo'}],
+            'parameters': {'sample_count': 1}}
+    res = post_json(url, body, timeout=180)
+    for pred in res.get('predictions') or []:
+        data = pred.get('bytesBase64Encoded') or pred.get('audioContent')
+        if data:
+            return base64.b64decode(data)
+    raise ValueError('no music in the response')
+
+
+def music_file(prompt, options, store=STORE, request=None):
+    """The mp3 for one music prompt, made on first use: a loop that fades in and out at its ends."""
+    request = request or music_request
+    h = music_hash(prompt)
+    target = music_path(h, store)
+    if os.path.exists(target):
+        return target
+    if not backend(options):
+        raise LookupError(NO_BACKEND)
+    with tts_locks_guard:
+        lock = tts_locks.setdefault(f'music:{h}', threading.Lock())
+    with lock, music_slots:
+        if not os.path.exists(target):
+            os.makedirs(os.path.dirname(target), exist_ok=True)
+            try:
+                wav = request(prompt.strip(), options)
+                tmp = f'{target}.part.mp3'
+                # Short fades at both ends, so the loop's seam is soft.
+                subprocess.run(['ffmpeg', '-loglevel', 'error', '-y', '-i', 'pipe:0', '-af',
+                                'afade=t=in:d=1.2,areverse,afade=t=in:d=1.6,areverse', '-ac', '2', '-b:a', '96k', tmp],
+                               input=wav, check=True, timeout=120, capture_output=True)
+                os.replace(tmp, target)
+            except Exception as e:
+                status['music_error'] = f'{time.strftime("%H:%M")} {str(e)[:300]}'
+                raise
+            status['music_made'] = status.get('music_made', 0) + 1
+            status['music_error'] = None
+    return target
+
+
 SPRITE_MAX_CHARS = 2400
 
 
@@ -663,6 +727,8 @@ class Handler(BaseHTTPRequestHandler):
                             + f"; pictures: {status['pictures_ready']} of {status['pictures']} film pictures ready, {status['img_made']} made since start"
                             + (f", {status['paint_wait']}" if status['paint_wait'] else '')
                             + (f", last error {status['img_error']}" if status['img_error'] else '')
+                            + f"; music: {status.get('music_made', 0)} made"
+                            + (f", last error {status['music_error']}" if status.get('music_error') else '')
                             + f"; billing: {backend(self.options) or 'off (no vertex_api_key)'}")
             return
         t = re.fullmatch(r'/tts/([0-9a-f]{16})\.mp3', path)
@@ -672,6 +738,10 @@ class Handler(BaseHTTPRequestHandler):
         sp = re.fullmatch(r'/sprite/([0-9a-f]{16})\.webp', path)
         if sp:
             self.sprite(sp.group(1), params)
+            return
+        mu = re.fullmatch(r'/music/([0-9a-f]{16})\.mp3', path)
+        if mu:
+            self.music(mu.group(1), params)
             return
         i = re.fullmatch(r'/img/([0-9a-f]{16})\.jpg', path)
         if i:
@@ -737,6 +807,28 @@ class Handler(BaseHTTPRequestHandler):
             self.plain(200, 'ok')
             return
         self.send_file(file, 'image/jpeg', 'public, max-age=31536000, immutable')
+
+    def music(self, h, params):
+        """/music/<hash>.mp3?k=&p=<prompt>[&warm=1]: a piece of background music, made once."""
+        if params.get('k') not in self.keys:
+            self.plain(403, 'this device is not in the family')
+            return
+        prompt = urllib.parse.unquote_plus(params.get('p', '')).strip()
+        if not prompt or len(prompt) > MUSIC_MAX_CHARS or music_hash(prompt) != h:
+            self.plain(400, 'bad music')
+            return
+        try:
+            file = music_file(prompt, self.options, self.store)
+        except LookupError as e:
+            self.plain(404, str(e))
+            return
+        except Exception:  # the film plays without music
+            self.plain(503, 'could not make the music now')
+            return
+        if params.get('warm'):
+            self.plain(200, 'ok')
+            return
+        self.send_file(file, 'audio/mpeg', 'public, max-age=31536000, immutable')
 
     def sprite(self, h, params):
         """/sprite/<hash>.webp?k=&p=<prompt>[&r=<base hash>][&warm=1]: a character frame, cut out of its background."""

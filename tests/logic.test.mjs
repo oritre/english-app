@@ -791,3 +791,28 @@ test('think and know courses below the grade are closed unless the review opened
   assert.equal(L.courseOpen({ id: 'body', grades: [4, 6] }, { grade: 6 }, 'think'), true);
   assert.equal(L.courseOpen(weather, { grade: 13 }, 'think'), true);
 });
+
+test('film cut: shots fill the frame, first is wide, no framing twice in a row; pace and music days', async () => {
+  const L = await import('../js/parashaLogic.js');
+  const shots = L.shotPlan('k-war-f1:s1', 30);
+  assert.equal(shots.length, 30);
+  assert.ok(shots[0].from.z < 1.1, 'a scene opens wide');
+  for (const s of shots) {
+    for (const f of [s.from, s.to]) {
+      assert.ok(f.z >= 1.03);
+      assert.ok(Math.abs(f.x) <= L.shotRoom(f.z) && Math.abs(f.y) <= L.shotRoom(f.z), 'the picture always covers the frame');
+    }
+  }
+  for (let i = 1; i < shots.length; i++) assert.notDeepEqual(shots[i].from, shots[i - 1].from);
+  assert.deepEqual(L.shotPlan('x', 5), L.shotPlan('x', 5));
+  assert.ok(L.filmPace(1).LINE_GAP > L.filmPace(3).LINE_GAP && L.filmPace(1).SHOT_MS > L.filmPace(2).SHOT_MS);
+  const on = (d) => L.musicAllowed(new Date(`${d}T12:00:00`));
+  assert.equal(on('2026-11-21'), true);
+  assert.equal(on('2026-04-02'), true); // 15 Nisan
+  assert.equal(on('2026-04-03'), false); // 16 Nisan, the Omer
+  assert.equal(on('2026-05-21'), false); // 5 Sivan
+  assert.equal(on('2026-05-22'), true); // Shavuot
+  assert.equal(on('2026-07-02'), false); // 17 Tammuz
+  assert.equal(on('2026-07-24'), false); // 10 Av
+  assert.equal(on('2026-07-25'), true);
+});

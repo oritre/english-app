@@ -23,6 +23,7 @@
      "fx": "light",
      "art": "👴 👨 👨",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: הרב קוק.",
       "יפו, שנת 1904. ספינה מגיעה לנמל, ועליה רב צעיר יחסית, עם זקן ועיניים טובות.",
       "אנשי יפו יוצאים לקבל את פניו. ביניהם תלמידי חכמים, סוחרים, וגם פועלים צעירים שהגיעו מרוסיה.",
       "הרב החדש מקשיב לכולם, מחייך לכולם, ומדבר עם כל אחד בכבוד.",
@@ -153,6 +154,9 @@
      "note": null
     }
    ],
+   "next_he": "הצהרת בלפור והמנדט",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-zio-f6e1"
   },
   {
@@ -174,6 +178,7 @@
      "fx": "light",
      "art": "👴 👨 👨",
      "say": [
+      "שלום לכם! בפרק הזה: הרב קוק.",
       "יפו, שנת 1904. ספינה מגיעה לנמל, ועליה רב צעיר יחסית, עם זקן ועיניים טובות.",
       "אנשי יפו יוצאים לקבל את פניו. ביניהם תלמידי חכמים, סוחרים, וגם פועלים צעירים שהגיעו מרוסיה.",
       "הרב החדש מקשיב לכולם, מחייך לכולם, ומדבר עם כל אחד בכבוד.",
@@ -347,6 +352,9 @@
      "note": null
     }
    ],
+   "next_he": "הצהרת בלפור והמנדט",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-zio-f6e2"
   },
   {

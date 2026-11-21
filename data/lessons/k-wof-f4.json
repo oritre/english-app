@@ -23,6 +23,7 @@
      "fx": "light",
      "art": "👦 👧",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: הנהרות הגדולים.",
       "נהר הוא כמו דרך של מים. הוא מתחיל בהרים, וזורם עד הים.",
       "ליד נהרות תמיד גרו אנשים: יש בהם מים לשתייה, לשדות ולדגים.",
       "היום נשוט על הנהרות הגדולים של העולם.",
@@ -149,6 +150,9 @@
      "note": null
     }
    ],
+   "next_he": "קהילות ישראל בעולם",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-wof-f4e1"
   },
   {
@@ -170,6 +174,7 @@
      "fx": "light",
      "art": "👦 👧",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: הנהרות הגדולים.",
       "כל נהר מתחיל במקום גבוה, מגשם, משלג שנמס או ממעיין, וזורם בירידה, לפעמים אלפי קילומטרים, עד שהוא נשפך לים או לאגם.",
       "מאז ומעולם, בני אדם בנו את ביתם ליד נהרות: יש בהם מים לשתייה ולהשקיה, דגים לאכול, ודרך נוחה להשיט סירות עם סחורה.",
       "היום נשוט לאורך כמה מהנהרות הגדולים בעולם, ונגלה שהם מופיעים גם בתורה ובסיפורי עם ישראל.",
@@ -290,6 +295,9 @@
      "note": null
     }
    ],
+   "next_he": "קהילות ישראל בעולם",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-wof-f4e2"
   },
   {

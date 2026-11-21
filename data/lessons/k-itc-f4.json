@@ -23,6 +23,7 @@
      "fx": "sunset",
      "art": "👦 👧 🏠",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: נוצר בישראל.",
       "ישראל היא מדינה קטנה. אפשר לנסוע בה מצפון לדרום ביום אחד. ובכל זאת, המצאות רבות שמשתמשים בהן בכל העולם נולדו כאן.",
       "יש אפילו כינוי לישראל: ״אומת הסטארט־אפ״, כלומר עם של חברות חדשות, שמתחילות מרעיון קטן.",
       "בשיעור הזה נכיר שלוש המצאות ישראליות: מערכת ששומרת על נהגים, זיכרון קטן שנכנס בכיס, ודרך חכמה למצוא את הדרך.",
@@ -145,6 +146,9 @@
      "note": null
     }
    ],
+   "next_he": "ישראל בחלל",
+   "quiet_end": false,
+   "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
    "id": "k-itc-f4e1"
   },
   {
@@ -166,6 +170,7 @@
      "fx": "sunset",
      "art": "👦 👧 🏠",
      "say": [
+      "שלום לכם! בפרק הזה: נוצר בישראל.",
       "ישראל היא מדינה קטנה. אפשר לנסוע בה מצפון לדרום ביום אחד. ובכל זאת, המצאות רבות שמשתמשים בהן בכל העולם נולדו כאן.",
       "יש אפילו כינוי לישראל: ״אומת הסטארט־אפ״, כלומר עם של חברות חדשות, שמתחילות מרעיון קטן.",
       "בשיעור הזה נכיר שלוש המצאות ישראליות: מערכת ששומרת על נהגים, זיכרון קטן שנכנס בכיס, ודרך חכמה למצוא את הדרך.",
@@ -309,6 +314,9 @@
      "note": null
     }
    ],
+   "next_he": "ישראל בחלל",
+   "quiet_end": false,
+   "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
    "id": "k-itc-f4e2"
   },
   {

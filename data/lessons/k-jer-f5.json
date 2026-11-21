@@ -23,6 +23,7 @@
      "fx": "sunset",
      "art": "🏠 🚶",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: יוצאים מן החומות.",
       "לפני בערך מאה ושבעים שנה, כל היהודים בירושלים גרו בתוך החומות של העיר העתיקה.",
       "בכל ערב, השומרים סגרו את השערים הכבדים, ואף אחד לא יכול היה להיכנס או לצאת.",
       "בחוץ – רק הרים ריקים, ושודדים.",
@@ -152,7 +153,8 @@
       "בסוף המאה ההיא כבר היו מחוץ לחומות הרבה שכונות.",
       "ירושלים גדלה וגדלה, על כל ההרים מסביב.",
       "והנביא זכריה כבר אמר מזמן: ירושלים תהיה גדולה כל כך, שהיא תצא מהחומות שלה, כי יהיו בה הרבה אנשים.",
-      "והנבואה התחילה להתקיים, מול העיניים!"
+      "והנבואה התחילה להתקיים, מול העיניים!",
+      "ובפרק הבא: העיר במצור. נתראה!"
      ],
      "pasuk": {
       "text": "פְּרָזוֹת תֵּשֵׁב יְרוּשָׁלַםִ מֵרֹב אָדָם וּבְהֵמָה בְּתוֹכָהּ",
@@ -161,6 +163,9 @@
      "note": null
     }
    ],
+   "next_he": "העיר במצור",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-jer-f5e1"
   },
   {
@@ -182,6 +187,7 @@
      "fx": "sunset",
      "art": "🏠 🚶",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: יוצאים מן החומות.",
       "באמצע המאה התשע עשרה, ירושלים כולה הייתה בתוך החומות שבנה הסולטן סולימאן כשלוש מאות שנה קודם לכן.",
       "בכל ערב ננעלו השערים, ומחוץ לחומות היה מסוכן: שודדים, חיות, ושום שמירה.",
       "בתוך החומות הייתה צפיפות נוראה. משפחות שלמות גרו בחדר אחד, והיה מחסור במים נקיים. מחלות התפשטו בקלות.",
@@ -319,6 +325,9 @@
      "note": null
     }
    ],
+   "next_he": "העיר במצור",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-jer-f5e2"
   },
   {
@@ -340,6 +349,7 @@
      "fx": "sunset",
      "art": "🏠 🚶",
      "say": [
+      "שלום לכם! בפרק הזה: יוצאים מן החומות.",
       "באמצע המאה התשע עשרה, ירושלים כולה הייתה בתוך החומות שבנה הסולטן סולימאן כשלוש מאות שנה קודם לכן.",
       "בכל ערב ננעלו השערים, ומחוץ לחומות היה מסוכן: שודדים, חיות, ושום שמירה.",
       "בתוך החומות הייתה צפיפות נוראה. משפחות שלמות גרו בחדר אחד, והיה מחסור במים נקיים. מחלות התפשטו בקלות.",
@@ -493,6 +503,9 @@
      "note": null
     }
    ],
+   "next_he": "העיר במצור",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-jer-f5e3"
   },
   {

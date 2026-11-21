@@ -23,6 +23,7 @@
      "fx": "dust",
      "art": "🐎",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: מכוניות ומטוסים.",
       "פעם, כדי לנסוע לעיר אחרת, היו צריכים סוס ועגלה.",
       "נסיעה קצרה לקחה יום שלם, ונסיעה ארוכה לקחה שבועות!",
       "היום נגלה איך הגיעו המכוניות, ואיך בני האדם למדו לעוף כמו ציפורים.",
@@ -151,6 +152,9 @@
      "note": null
     }
    ],
+   "next_he": "מהטלפון ועד האינטרנט",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f5e1"
   },
   {
@@ -172,6 +176,7 @@
      "fx": "dust",
      "art": "🐎",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: מכוניות ומטוסים.",
       "לפני מאתיים שנה, אדם שרצה לנסוע מעיר לעיר רכב על סוס, או ישב בכרכרה רתומה לסוסים. נסיעה של מאה קילומטרים לקחה יום שלם ויותר.",
       "ומי שרצה לעלות לארץ ישראל מאירופה הפליג בספינה שבועות ארוכים, ואחר כך המשיך ברגל או על גבי חמור.",
       "היום נגלה איך מכונות חדשות קיצרו את הדרכים, ואיך החלום העתיק לעוף כמו ציפור הפך למציאות.",
@@ -304,6 +309,9 @@
      "note": null
     }
    ],
+   "next_he": "מהטלפון ועד האינטרנט",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f5e2"
   },
   {
@@ -325,6 +333,7 @@
      "fx": "dust",
      "art": "🐎",
      "say": [
+      "שלום לכם! בפרק הזה: מכוניות ומטוסים.",
       "לפני מאתיים שנה, אדם שרצה לנסוע מעיר לעיר רכב על סוס, או ישב בכרכרה רתומה לסוסים. נסיעה של מאה קילומטרים לקחה יום שלם ויותר.",
       "ומי שרצה לעלות לארץ ישראל מאירופה הפליג בספינה שבועות ארוכים, ואחר כך המשיך ברגל או על גבי חמור.",
       "היום נגלה איך מכונות חדשות קיצרו את הדרכים, ואיך החלום העתיק לעוף כמו ציפור הפך למציאות.",
@@ -465,6 +474,9 @@
      "note": null
     }
    ],
+   "next_he": "מהטלפון ועד האינטרנט",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f5e3"
   },
   {

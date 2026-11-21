@@ -23,6 +23,7 @@
      "fx": null,
      "art": "👨 👴",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: דוד ושלמה בונים את הבית.",
       "דוד המלך גר בירושלים, בארמון יפה מעצי ארז.",
       "יום אחד הוא אמר לנתן הנביא: אני גר בארמון, וארון השם נמצא רק באוהל? אני רוצה לבנות לו בית!",
       "אבל השם שלח את נתן לומר לדוד: לא אתה תבנה את הבית. הבן שלך יבנה אותו.",
@@ -167,6 +168,9 @@
      "note": null
     }
    ],
+   "next_he": "כלי המקדש",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-mik-f2e1"
   },
   {
@@ -188,6 +192,7 @@
      "fx": null,
      "art": "👨 👴",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: דוד ושלמה בונים את הבית.",
       "דוד המלך כבש את ירושלים ועשה אותה לבירת ישראל. הוא גר שם בארמון של ארזים, ואת ארון השם הביא לאוהל בעיר דוד.",
       "יום אחד אמר דוד לנתן הנביא: אני יושב בבית של ארזים, וארון השם יושב בתוך יריעה, באוהל! הוא רצה לבנות בית לשם.",
       "אבל בלילה ההוא נאמר לנתן בנבואה: לא דוד יבנה את הבית, אלא בנו. \"הוא יבנה בית לשמי\".",
@@ -336,6 +341,9 @@
      "note": null
     }
    ],
+   "next_he": "כלי המקדש",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-mik-f2e2"
   },
   {

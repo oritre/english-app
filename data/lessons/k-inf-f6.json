@@ -23,6 +23,7 @@
      "fx": "sunset",
      "art": "👵",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: מהטלפון ועד האינטרנט.",
       "פעם, כדי לספר לסבתא משהו, היו כותבים לה מכתב.",
       "המכתב נסע בעגלה, ברכבת או בספינה, ולפעמים הגיע אחרי שבועות!",
       "היום? מרימים טלפון ומדברים מיד. בואו נגלה איך זה קרה.",
@@ -148,6 +149,9 @@
      "note": null
     }
    ],
+   "next_he": "רפואה: חיסונים ואנטיביוטיקה",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f6e1"
   },
   {
@@ -169,6 +173,7 @@
      "fx": "sunset",
      "art": "👵",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: מהטלפון ועד האינטרנט.",
       "לפני מאתיים שנה, משפחה שבנה נסע לארץ רחוקה חיכתה חודשים למכתב ממנו. המכתב עבר מיד ליד, בעגלות ובספינות, ולפעמים אבד בדרך.",
       "גם רבנים שרצו לשאול שאלה בהלכה את גדול הדור שבעיר אחרת, שלחו מכתב וחיכו שבועות לתשובה.",
       "היום אפשר לדבר עם מישהו בצד השני של העולם, ברגע. בשיעור הזה נלך בעקבות הקול: מהטלפון, דרך הרדיו, ועד המחשב והאינטרנט. ונלמד גם איך להשתמש בהם נכון."
@@ -298,6 +303,9 @@
      "note": null
     }
    ],
+   "next_he": "רפואה: חיסונים ואנטיביוטיקה",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f6e2"
   },
   {
@@ -319,6 +327,7 @@
      "fx": "sunset",
      "art": "👵",
      "say": [
+      "שלום לכם! בפרק הזה: מהטלפון ועד האינטרנט.",
       "לפני מאתיים שנה, משפחה שבנה נסע לארץ רחוקה חיכתה חודשים למכתב ממנו. המכתב עבר מיד ליד, בעגלות ובספינות, ולפעמים אבד בדרך.",
       "גם רבנים שרצו לשאול שאלה בהלכה את גדול הדור שבעיר אחרת, שלחו מכתב וחיכו שבועות לתשובה.",
       "היום אפשר לדבר עם מישהו בצד השני של העולם, ברגע. בשיעור הזה נלך בעקבות הקול: מהטלפון, דרך הרדיו, ועד המחשב והאינטרנט. ונלמד גם איך להשתמש בהם נכון.",
@@ -457,6 +466,9 @@
      "note": null
     }
    ],
+   "next_he": "רפואה: חיסונים ואנטיביוטיקה",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-inf-f6e3"
   },
   {

@@ -92,6 +92,10 @@ def _lines(sc, level):
     return []
 
 
+def _repeats(lines):
+    return [a for a, b in zip(lines, lines[1:]) if a.strip() == b.strip()]
+
+
 def _film(c, les, level):
     scenes = []
     for sc in les['scenes']:
@@ -126,6 +130,7 @@ def check(c):
                 assert len(_prompt(c, sc)) <= 1800, (les['id'], sc['id'], len(_prompt(c, sc)))
                 for lv in sc['levels']:
                     assert _lines(sc, lv), (les['id'], sc['id'], lv, 'no narration')
+                    assert not _repeats(_lines(sc, lv)), (les['id'], sc['id'], lv, 'a line said twice in a row')
                 for lines in sc['say'].values():
                     for line in lines:
                         assert 0 < len(line) <= 400, (les['id'], sc['id'], line[:40])
@@ -136,8 +141,128 @@ def check(c):
     return ids
 
 
+# Background music under the narration (ori 2026-11-21: present the films like the
+# Hidabroot Kids videos, which run a quiet music bed under the voice all along).
+# The Pi makes each piece once (Lyria, /music) and the player loops it softly.
+MUSIC = {
+    'israel': 'Warm cinematic orchestral underscore for a Jewish children\'s history documentary: soft strings, '
+              'gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, '
+              'seamless loop.',
+    'history': 'Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense '
+               'of ancient times, steady gentle pace, no vocals, seamless loop.',
+    'society': 'Light, friendly underscore for a children\'s explainer: soft marimba, pizzicato strings and '
+               'acoustic guitar, cheerful and calm, no vocals, seamless loop.',
+    'nature': 'Gentle wonder underscore for a children\'s nature film: soft piano, celesta and warm strings, '
+              'curious and peaceful, no vocals, seamless loop.',
+}
+
+
+def _ordered(c):
+    return [les for u in c['units'] for les in u['lessons']]
+
+
+# How the host frames each film, decided per lesson by hand (the reviews of #45:
+# word lists gave both misses and false alarms). Same at every level.
+#   no_music     no music bed under any level of the lesson
+#   quiet_start  no "שלום לכם" before the title
+#   end=quiet    no words of ours after the last line
+#   end=plain    "ובפרק הבא: X." without the cheerful "נתראה!"
+# A lesson not listed: greeting, music, and "ובפרק הבא: X. נתראה!".
+SOLEMN_COURSES = {'holocaust'}          # hushed all through: no greeting, no farewell, no music
+NO_MUSIC_COURSES = {'holocaust', 'wars'}  # the fallen: no music under any film
+FILM_MOOD = {
+    # destruction of the Temples and the mourning for them
+    'k-mik-f5': 'end=plain',
+    'k-mik-f6': 'no_music quiet_start end=quiet',
+    'k-mik-f7': 'no_music quiet_start',
+    'k-jer-f2': 'end=plain',
+    'k-jer-f3': 'no_music quiet_start end=plain',
+    'k-jer-f6': 'no_music quiet_start end=quiet',
+    'k-jer-f7': 'no_music',
+    'k-kgf-f7': 'no_music quiet_start',
+    'k-gre-f3': 'end=plain',
+    'k-gre-f4': 'no_music quiet_start end=plain',
+    'k-gre-f5': 'no_music quiet_start end=plain',
+    # martyrdom, expulsion, pogroms
+    'k-sag-f2': 'no_music end=quiet',
+    'k-exl-f1': 'no_music quiet_start end=quiet',
+    'k-exl-f3': 'end=plain',
+    'k-exl-f4': 'no_music quiet_start end=quiet',
+    'k-exl-f5': 'no_music quiet_start end=quiet',
+    'k-exl-f6': 'end=plain',
+    'k-exl-f7': 'no_music quiet_start end=quiet',
+    'k-zio-f7': 'no_music',
+    'k-wof-f5': 'no_music',
+    'k-itc-f5': 'no_music end=plain',
+    # the fallen in Israel's wars (no music in the whole course)
+    'k-war-f1': 'quiet_start end=quiet',
+    'k-war-f2': 'end=plain',
+    'k-war-f5': 'quiet_start end=quiet',
+}
+# The last scene already says what comes next: then no second announcement.
+NEXT_SAID = ('בפרק הבא', 'בשיעור הבא', 'בסרט הבא', 'בפרקים הבאים', 'בשיעורים הבאים', 'הפרק האחרון', 'השיעור האחרון',
+             'הסרט האחרון', 'בפרק האחרון', 'בשיעור האחרון', 'הבא והאחרון', 'נתראה', 'להתראות', 'לילה טוב',
+             'בפעם הבאה נ', 'עוד נכיר', 'עוד נלמד', 'עוד נראה', 'נגלה בקרוב', 'בהמשך נ')
+# The first lines already name the topic: then the greeting does not name it again.
+INTRO_SAID = ('בפרק הזה', 'בשיעור הזה', 'בסרט הזה', 'היום נלמד', 'היום נכיר')
+HELLO = ('שלום', 'בוקר טוב', 'ערב טוב', 'צהריים טובים', 'ברוכים הבאים')
+
+
+def _has(lines, words):
+    return any(w in line for line in lines for w in words)
+
+
+def _title(t):
+    """A title as the end of a spoken sentence: its own ? or ! stays, otherwise a full stop."""
+    t = str(t).strip().rstrip('.').strip()
+    return t if t.endswith(('?', '!')) else f'{t}.'
+
+
+def _mood(c, les):
+    m = FILM_MOOD.get(les['id'], '').split()
+    end = next((w[4:] for w in m if w.startswith('end=')), None)
+    solemn = c['id'] in SOLEMN_COURSES
+    return {'solemn': solemn,
+            'quiet_start': solemn or 'quiet_start' in m,
+            'end': 'quiet' if solemn else end,
+            'music': not (c['id'] in NO_MUSIC_COURSES or 'no_music' in m)}
+
+
+def _framed(c, les, film, mood):
+    """The host's words around the film, as in the Hidabroot videos: a greeting
+    before the first scene and, after the last, what the next part is about."""
+    order = _ordered(c)
+    k = next(i for i, x in enumerate(order) if x['id'] == les['id'])
+    first, last = film['scenes'][0], film['scenes'][-1]
+    if k + 1 < len(order):
+        film['next_he'] = order[k + 1]['title_he']
+    film['quiet_end'] = mood['end'] == 'quiet'
+    film['music'] = (c.get('music') or MUSIC.get(c['area'], MUSIC['history'])) if mood['music'] else None
+    if mood['solemn']:
+        return film
+    if not first['say'][0].lstrip().startswith(HELLO):
+        hello = 'שלום לכם!' if film['level'] == 3 else 'שלום לכם, ילדים!'
+        opening = f"בפרק הזה: {_title(les['title_he'])}"
+        if mood['quiet_start']:
+            first['say'] = [opening, *first['say']]
+        elif _has(first['say'][:2], INTRO_SAID):
+            first['say'] = [hello, *first['say']]
+        else:
+            first['say'] = [f'{hello} {opening}', *first['say']]
+    if mood['end'] == 'quiet' or _has(last['say'], NEXT_SAID):
+        return film
+    if k + 1 < len(order):
+        see_you = '' if mood['end'] == 'plain' else ' נתראה!'
+        last['say'] = [*last['say'], f"ובפרק הבא: {_title(order[k + 1]['title_he'])}{see_you}"]
+    else:
+        last['say'] = [*last['say'], f'זה היה הפרק האחרון בסדרה "{c["title_he"]}". כל הכבוד שלמדתם איתנו!']
+    return film
+
+
 def lesson_exercises(c, les):
-    ex = [_film(c, les, lv) for lv in c['levels']]
+    films = [_film(c, les, lv) for lv in c['levels']]
+    mood = _mood(c, les)
+    ex = [_framed(c, les, f, mood) for f in films]
     for q in les['questions']:
         for lv in q['levels']:
             ex.append({**q['q'], 'grades': LEVEL_GRADES[lv]})
@@ -161,6 +286,10 @@ def load():
                 raise
             import sys
             print(f'WARNING: skipped {name}: {type(e).__name__}: {e}', file=sys.stderr)
+    ids = {les['id'] for c in out for les in _ordered(c)}
+    for lid, words in FILM_MOOD.items():
+        assert lid in ids or not strict, (lid, 'FILM_MOOD names no lesson')
+        assert set(words.split()) <= {'no_music', 'quiet_start', 'end=quiet', 'end=plain'}, (lid, words)
     return out
 
 

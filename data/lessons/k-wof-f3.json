@@ -23,6 +23,7 @@
      "fx": "light",
      "art": "👦 👧",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: מדבריות, יערות, קטבים והרים.",
       "היום אנחנו יוצאים לארבעה מקומות מיוחדים מאוד בעולם.",
       "מקום חם מאוד, מקום רטוב מאוד, מקום קר מאוד, ומקום גבוה מאוד. מוכנים? יוצאים!",
       "בכל מקום נגלה מי חי שם, ואיך הוא מסתדר. קחו כובע ובקבוק מים, ובואו!"
@@ -149,6 +150,9 @@
      "note": null
     }
    ],
+   "next_he": "הנהרות הגדולים",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-wof-f3e1"
   },
   {
@@ -170,6 +174,7 @@
      "fx": "light",
      "art": "👦 👧",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: מדבריות, יערות, קטבים והרים.",
       "הקדוש ברוך הוא ברא עולם מגוון להפליא. יש מקומות שבהם השמש קופחת וכמעט אין גשם, ויש מקומות שבהם יורד גשם כמעט כל יום. יש מקומות מכוסים קרח כל השנה, ויש הרים שפסגתם נוגעת בעננים.",
       "היום נבקר בארבעה מקומות קיצוניים: המדבר, היער הגשום, הקטבים וההרים הגבוהים. בכל אחד מהם נגלה מי חי שם, ואיך הוא מסתדר."
      ],
@@ -293,6 +298,9 @@
      "note": null
     }
    ],
+   "next_he": "הנהרות הגדולים",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-wof-f3e2"
   },
   {

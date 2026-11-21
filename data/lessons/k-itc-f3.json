@@ -23,6 +23,7 @@
      "fx": "night",
      "art": "🚑",
      "say": [
+      "שלום לכם, ילדים!",
       "שמעתם פעם צפירה של אמבולנס? ברגע הזה, אי שם, מישהו זקוק לעזרה, ומישהו אחר ממהר להציל אותו.",
       "בישראל יש אלפי אנשים שהקדישו את חייהם, או את זמנם הפנוי, להציל חיים. בשיעור הזה נכיר אותם, ונכיר גם המצאות רפואיות ישראליות שעוזרות לחולים בכל העולם.",
       "חז״ל אמרו: ״כל המקיים נפש אחת מישראל, מעלה עליו הכתוב כאילו קיים עולם מלא״. כל אדם הוא עולם שלם.",
@@ -139,6 +140,9 @@
      "note": null
     }
    ],
+   "next_he": "נוצר בישראל",
+   "quiet_end": false,
+   "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
    "id": "k-itc-f3e1"
   },
   {
@@ -160,6 +164,7 @@
      "fx": "night",
      "art": "🚑",
      "say": [
+      "שלום לכם!",
       "שמעתם פעם צפירה של אמבולנס? ברגע הזה, אי שם, מישהו זקוק לעזרה, ומישהו אחר ממהר להציל אותו.",
       "בישראל יש אלפי אנשים שהקדישו את חייהם, או את זמנם הפנוי, להציל חיים. בשיעור הזה נכיר אותם, ונכיר גם המצאות רפואיות ישראליות שעוזרות לחולים בכל העולם.",
       "חז״ל אמרו: ״כל המקיים נפש אחת מישראל, מעלה עליו הכתוב כאילו קיים עולם מלא״. כל אדם הוא עולם שלם.",
@@ -300,6 +305,9 @@
      "note": null
     }
    ],
+   "next_he": "נוצר בישראל",
+   "quiet_end": false,
+   "music": "Light, friendly underscore for a children's explainer: soft marimba, pizzicato strings and acoustic guitar, cheerful and calm, no vocals, seamless loop.",
    "id": "k-itc-f3e2"
   },
   {

@@ -23,6 +23,7 @@
      "fx": "sunset",
      "art": "🏠 🌴",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: החיים במצרים.",
       "בוקר בכפר מצרי עתיק. השמש עולה מעל הנילוס, והתרנגולות והאווזים כבר צועקים.",
       "הבתים בנויים מלבנים של בוץ, עם גג שטוח. בלילות החמים של הקיץ, משפחות ישנו על הגג.",
       "בבית היו מעט רהיטים: מחצלות, כמה שרפרפים, וכלי חרס למים ולאוכל.",
@@ -171,6 +172,9 @@
      "note": null
     }
    ],
+   "next_he": "יוסף במצרים",
+   "quiet_end": false,
+   "music": "Cinematic documentary underscore for children: soft strings and harp, curious and calm, a sense of ancient times, steady gentle pace, no vocals, seamless loop.",
    "id": "k-egf-f4e1"
   },
   {

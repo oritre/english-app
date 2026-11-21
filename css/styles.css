@@ -1324,6 +1324,10 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
 @keyframes pf-lift { from { transform: none; } to { transform: scale(1.07); } }
 .pf-end { background: radial-gradient(ellipse 80% 90% at 50% 45%, rgb(7 9 30 / .74), rgb(7 9 30 / .93)); animation: pf-fade 1.2s ease both; }
 .pf-end-text { font-size: clamp(38px, 11cqw, 140px); }
+.pf-end-next { font-family: var(--pf-serif); font-weight: 700; font-size: clamp(16px, 3.6cqw, 40px); color: #fff; text-shadow: 0 2px 12px rgb(0 0 0 / .6); animation: pf-rise 1s cubic-bezier(.2, .7, .2, 1) .9s both; }
+/* The cut (2026-11-21): the camera is moved shot by shot from js (parasha.js cutTo), not by the slow drift, and scenes dissolve quickly. */
+.pf-scene.pf-cut { transition-duration: .5s; }
+.pf-scene.pf-cut .pf-cam { animation: none; transform-origin: 50% 50%; }
 .pf-end-sub { font-size: clamp(15px, 3cqw, 36px); font-weight: 500; color: #f3efe0; animation: pf-rise .9s ease 1s both; }
 .pf-end .pf-cta { margin-top: 1.6cqh; animation: pf-rise .9s ease 1.3s both; }
 @keyframes pf-fade { from { opacity: 0; } }

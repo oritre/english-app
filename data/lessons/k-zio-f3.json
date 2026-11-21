@@ -23,6 +23,7 @@
      "fx": "light",
      "art": "👴 👴",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: מבשרי הגאולה והמושבות הראשונות.",
       "לפני בערך מאה וחמישים שנה חיו שני רבנים, רחוק מאוד זה מזה.",
       "אחד חי ליד העיר בלגרד, בבלקן. השני חי בעיר טורון, בפרוסיה, היום בפולין.",
       "הם לא גדלו יחד ולא למדו יחד, אבל שניהם הגיעו לאותו רעיון.",
@@ -160,6 +161,9 @@
      "note": null
     }
    ],
+   "next_he": "הרצל והקונגרס הציוני",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-zio-f3e1"
   },
   {
@@ -181,6 +185,7 @@
      "fx": "light",
      "art": "👴 👴",
      "say": [
+      "שלום לכם! בפרק הזה: מבשרי הגאולה והמושבות הראשונות.",
       "לפני בערך מאה וחמישים שנה חיו שני רבנים, רחוק מאוד זה מזה.",
       "אחד חי ליד העיר בלגרד, בבלקן. השני חי בעיר טורון, בפרוסיה, היום בפולין.",
       "הם לא גדלו יחד ולא למדו יחד, אבל שניהם הגיעו לאותו רעיון.",
@@ -361,6 +366,9 @@
      "note": null
     }
    ],
+   "next_he": "הרצל והקונגרס הציוני",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-zio-f3e2"
   },
   {

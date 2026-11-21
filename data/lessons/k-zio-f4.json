@@ -23,6 +23,7 @@
      "fx": "mist",
      "art": "👨 🚶 🚶",
      "say": [
+      "שלום לכם, ילדים! בפרק הזה: הרצל והקונגרס הציוני.",
       "פריז, חורף 1895. בחצר צבאית גדולה עומד קהל רב, ומסביב מאות אנשים צועקים.",
       "במרכז עומד קצין יהודי בצבא צרפת, אלפרד דרייפוס. האשימו אותו בשקר שריגל בשביל האויב.",
       "מוציאים אותו בבושה מהצבא, וההמון צועק: מוות ליהודים!",
@@ -157,6 +158,9 @@
      "note": null
     }
    ],
+   "next_he": "בן־יהודה ותחיית העברית",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-zio-f4e1"
   },
   {
@@ -178,6 +182,7 @@
      "fx": "mist",
      "art": "👨 🚶 🚶",
      "say": [
+      "שלום לכם! בפרק הזה: הרצל והקונגרס הציוני.",
       "פריז, חורף 1895. בחצר צבאית גדולה עומד קהל רב, ומסביב מאות אנשים צועקים.",
       "במרכז עומד קצין יהודי בצבא צרפת, אלפרד דרייפוס. האשימו אותו בשקר שריגל בשביל האויב.",
       "מוציאים אותו בבושה מהצבא, וההמון צועק: מוות ליהודים!",
@@ -356,6 +361,9 @@
      "note": null
     }
    ],
+   "next_he": "בן־יהודה ותחיית העברית",
+   "quiet_end": false,
+   "music": "Warm cinematic orchestral underscore for a Jewish children's history documentary: soft strings, gentle piano and a light hand drum, hopeful and noble, steady calm pace, no vocals, no choir, seamless loop.",
    "id": "k-zio-f4e2"
   },
   {
