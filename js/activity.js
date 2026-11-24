@@ -10,6 +10,7 @@
 // still counts.
 import { store, newId } from './db.js';
 import { localISO } from './dates.js';
+import { APP_VERSION } from './version.js';
 import { currentProfileId } from './progress.js';
 import { subjectOf } from './insights.js';
 
@@ -39,6 +40,8 @@ export function startSession(lessonId, { repeat = 'new' } = {}) {
       id: newId(), profile_id: profileId, type: 'session', source: 'session', outcome: 'session',
       lesson_id: lessonId, exercise_id: `session-${lessonId}`, subject: subjectOf(lessonId),
       date: localISO(), at: now, hour: new Date().getHours(), end: now, active_s: 0, open_s: 0, finished: false,
+      // Which app version the device ran, so the weekly review can spot a device that stopped updating.
+      v: APP_VERSION,
       // A replay of a mastered lesson isn't counted as learning time (insights.js).
       ...(repeat === 'mastered' ? { repeat } : {}),
     },
