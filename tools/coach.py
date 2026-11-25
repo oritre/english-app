@@ -200,6 +200,8 @@ def summary(code, days):
                             'transcript': a.get('transcript')} for a in sorted(talks, key=lambda a: a.get('at') or 0)],
             'attempts_total': len(mine), 'attempts_week': len(week),
             # Active minutes (taps, video or talk in the last 45 s) per tab, and minutes the screen was just open.
+            # app version per device session (v74+); an old number means that device is not updating
+            'app_versions_week': sorted({str(a.get('v')) for a in sessions if a.get('v')}),
             'active_min_week': {s: round(sum(a.get('active_s') or 0 for a in sessions if subject_of(a.get('lesson_id')) == s) / 60)
                                 for s in ('english', 'think', 'know', 'parasha')},
             'open_min_week': round(sum(a.get('open_s') or 0 for a in sessions) / 60),

@@ -1531,3 +1531,8 @@ body.has-tabs .lesson-sheet { bottom: calc(66px + env(safe-area-inset-bottom, 0p
 .videos .vg-item { display: flex; gap: 8px; align-items: center; text-align: start; border: none; background: none; font: inherit; font-size: 15px; padding: 8px 6px; border-radius: 10px; cursor: pointer; color: inherit; }
 .videos .vg-item:hover { background: var(--line); }
 .videos .vg-item[aria-current="true"] { background: var(--ink); color: #fff; }
+
+/* Personal practice waiting on another tab (v76) */
+.subject-tab .coach-dot { font-size: 11px; margin-inline-start: 3px; vertical-align: super; }
+.coach-elsewhere .coach-modules { flex-direction: row; flex-wrap: wrap; }
+.coach-elsewhere .coach-module { flex: 1 1 140px; }
