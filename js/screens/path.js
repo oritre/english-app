@@ -52,11 +52,15 @@ export async function renderPath(root, nav) {
   const setProfile = async (patch) => { Object.assign(profile, patch); await updateProfile(profile); nav('path'); };
   const subjects = [['english', '🔤', 'אנגלית'], ['think', '🧠', 'חשיבה ומדעים'], ['know', '🌍', 'ידע כללי'], ['parasha', '📜', 'פרשת שבוע']]
     .filter(([id]) => id === 'english' || catalogs[id].courses?.length);
+  // Tabs that still hold an unfinished module of this week's personal practice:
+  // the kids stayed on the tabs they like and never saw it (review 24.11).
+  const coachWaiting = new Set(coachModules(profile).filter((m) => m.exercises?.length && !done.includes(m.id)).map(moduleSubject));
   const switcher = subjects.length > 1 ? el('div', { class: 'subject-switch', role: 'tablist' },
     subjects.map(([id, icon, name]) => el('button', {
       class: `subject-tab ${subject === id ? 'on' : ''}${locked(id) ? ' locked' : ''}`, type: 'button', role: 'tab', 'aria-selected': String(subject === id),
       onclick: () => { if (subject !== id) setProfile({ subject: id }); },
-    }, el('span', { class: 'subject-icon' }, locked(id) ? '🔒' : icon), name))) : null;
+    }, el('span', { class: 'subject-icon' }, locked(id) ? '🔒' : icon), name,
+      coachWaiting.has(id) && subject !== id ? el('span', { class: 'coach-dot', title: 'תרגול אישי מחכה' }, '🎯') : null))) : null;
 
   // Think course map: tapping a stop selects it and a bottom sheet offers to start it (the current one is pre-selected).
   const rows = new Map();
@@ -293,9 +297,16 @@ export async function renderPath(root, nav) {
       el('button', { class: 'to-current', type: 'button', hidden: true, onclick: () => rows.get(next)?.scrollIntoView({ block: 'center', behavior: 'smooth' }) }, '★ לשיעור הנוכחי'),
       sheet];
   })() : null;
+  // A short pointer to the tabs where personal practice is still waiting.
+  const otherTabs = subjects.filter(([id]) => id !== subject && coachWaiting.has(id) && !locked(id));
+  const elsewhere = otherTabs.length ? el('section', { class: 'coach-card compact coach-elsewhere' },
+    el('div', { class: 'coach-kicker' }, '🎯 התרגול האישי שלך מחכה גם כאן'),
+    el('div', { class: 'coach-modules' }, otherTabs.map(([id, icon, name]) => el('button', {
+      class: 'coach-module', type: 'button', onclick: () => setProfile({ subject: id }),
+    }, el('span', { class: 'coach-mod-mark' }, icon), el('span', { class: 'coach-mod-title' }, name))))) : null;
   const content = locked(subject) ? [roundCard(round, subject, (id) => setProfile({ subject: id }))]
-    : subject !== 'english' ? [coach, catalog, courseView]
-      : [talk, coach, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test];
+    : subject !== 'english' ? [coach, elsewhere, catalog, courseView]
+      : [talk, coach, elsewhere, profile.unseen ? unseen : null, units, profile.unseen ? null : unseen, test];
   screenEl = el('div', { class: `screen path subject-${subject}${subject === 'know' || subject === 'parasha' ? ' subject-think' : ''}`, style: openCourse ? `--course: ${openCourse.color}` : null }, topBar(s, profile, nav), switcher, roundStrip(round), ...content, logout,
     el('p', { class: 'app-version' }, `גרסה ${APP_VERSION}`));
   root.replaceChildren(screenEl);
