@@ -90,7 +90,7 @@
     {
      "id": "protect",
      "title_he": "איך מתגוננים?",
-     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: An Israeli family preparing for a summer outing: the mother in a long skirt and sun hat applies sunscreen to the girl's arms, the boy puts on sunglasses and a wide hat over his kippah, water bottles and a beach umbrella ready by the door.",
+     "img": "Painterly storybook illustration for a Jewish children's educational film: warm gouache and soft watercolor textures, cinematic wide 16:9 composition with depth, gentle light. Modest clothing for everyone: men in shirts with long trousers, women and girls in long skirts or dresses with sleeves to the elbow at least, married women with head coverings; religious men and boys wear a kippah where the scene is Jewish. Respectful, warm and child-friendly, no gore, no weapons pointed at people, no idols shown as objects of worship. No text, no letters, no logos, no frames. Never depict God. A journey along the electromagnetic spectrum: modern Israeli homes, schools, hospitals, beaches and desert landscapes, and historical laboratories of the 17th to early 20th century with period clothing and brass, glass and wooden instruments. Invisible waves may be suggested by soft glowing ripples of colored light, never by writing, numbers or symbols. Calm, clear and full of wonder. Noam: an Israeli boy of about thirteen with a knitted kippah, tzitzit over a light shirt and long trousers, thoughtful and curious. His sister: a girl of about twelve with a dark braid, a long navy skirt and a blouse with sleeves past the elbow. Scene: An Israeli family preparing for a summer outing: the mother in a long skirt and sun hat applies sunscreen to the girl's face and hands, the girl in a long-sleeved shirt and long skirt, the boy puts on sunglasses and a wide hat over his kippah, water bottles and a beach umbrella ready by the door.",
      "move": "left",
      "fx": "light",
      "art": "👩 👧 👦 🏠",
@@ -183,10 +183,10 @@
   {
    "type": "mcq",
    "prompt_he": "למה אפשר להישרף מהשמש גם ביום שלא היה חם?",
-   "answer": "כי את הכוויה גורם האולטרה־סגול, ולא החום",
+   "answer": "כי הכוויה נגרמת מאולטרה־סגול",
    "options": [
-    "כי את הכוויה גורם האולטרה־סגול, ולא החום",
-    "כי הרוח שורפת את העור",
+    "כי הכוויה נגרמת מאולטרה־סגול",
+    "כי הרוח הקרה מייבשת ושורפת את העור",
     "כי המים בים חמים"
    ],
    "explain_he": "אולטרה־סגול אי אפשר לראות או להרגיש, והוא עובר גם דרך עננים דקים.",
@@ -199,10 +199,10 @@
   {
    "type": "mcq",
    "prompt_he": "איך גילה ריטר את האולטרה־סגול?",
-   "answer": "מלח כסף השחיר הכי מהר באזור החשוך שמעבר לסגול",
+   "answer": "מלח כסף השחיר מעבר לסגול",
    "options": [
-    "מלח כסף השחיר הכי מהר באזור החשוך שמעבר לסגול",
-    "מדחום עלה מעבר לאדום",
+    "מלח כסף השחיר מעבר לסגול",
+    "מדחום עלה הכי הרבה באזור החשוך שמעבר לאדום",
     "הוא ראה זוהר בעקרבים"
    ],
    "explain_he": "כלוריד הכסף משחיר באור. הוא השחיר הכי מהר מעבר לסגול, ושם התגלתה הקרינה.",
@@ -215,10 +215,10 @@
   {
    "type": "mcq",
    "prompt_he": "למה ל־UVB יש יכולת לפגוע בתאי העור, ולאור אדום אין?",
-   "answer": "כי אורך הגל שלו קצר, ולכן יש לו יותר אנרגיה",
+   "answer": "כי אורך הגל שלו קצר יותר",
    "options": [
-    "כי אורך הגל שלו קצר, ולכן יש לו יותר אנרגיה",
-    "כי הוא חם יותר",
+    "כי אורך הגל שלו קצר יותר",
+    "כי הוא חם יותר מאור אדום",
     "כי הוא מגיע רק בחורף"
    ],
    "explain_he": "ככל שאורך הגל קצר יותר, האנרגיה של הקרינה גבוהה יותר.",
@@ -234,8 +234,8 @@
    "answer": "בולעת את כל ה־UVC ואת רוב ה־UVB",
    "options": [
     "בולעת את כל ה־UVC ואת רוב ה־UVB",
-    "מחממת את כדור הארץ",
-    "מחזירה את גלי הרדיו"
+    "מחממת את כדור הארץ כמו שמיכה",
+    "מחזירה את גלי הרדיו אל כדור הארץ"
    ],
    "explain_he": "האוזון, בגובה של בערך 15 עד 35 קילומטר, הוא מגן שקוף מפני האולטרה־סגול המסוכן.",
    "grades": [
@@ -263,10 +263,10 @@
   {
    "type": "mcq",
    "prompt_he": "למה אפשר להישרף מהשמש על השלג בחרמון, אף שקר מאוד?",
-   "answer": "כי השלג מחזיר את רוב האולטרה־סגול, ובגובה הקרינה חזקה יותר",
+   "answer": "כי השלג מחזיר את האולטרה־סגול",
    "options": [
-    "כי השלג מחזיר את רוב האולטרה־סגול, ובגובה הקרינה חזקה יותר",
-    "כי השלג חם מבפנים",
+    "כי השלג מחזיר את האולטרה־סגול",
+    "כי השלג חם מבפנים ומחמם את העור",
     "כי הקור שורף את העור כמו אש"
    ],
    "explain_he": "הקרינה מגיעה מלמעלה ומוחזרת מלמטה, ובגובה יש פחות אוויר שבולע אותה. הקור לא מגן מאולטרה־סגול.",
@@ -279,11 +279,11 @@
   {
    "type": "mcq",
    "prompt_he": "מה זו פלואורסצנציה?",
-   "answer": "חומר שקולט אולטרה־סגול ומחזיר אותו כאור נראה",
+   "answer": "חומר שקולט אולטרה־סגול ופולט אור נראה",
    "options": [
-    "חומר שקולט אולטרה־סגול ומחזיר אותו כאור נראה",
-    "חומר שמייצר חום בחושך",
-    "חומר שבולע את כל הצבעים"
+    "חומר שקולט אולטרה־סגול ופולט אור נראה",
+    "חומר שאוגר את חום השמש ביום ומקרין אותו בחושך",
+    "חומר שבולע את כל הצבעים ונראה שחור"
    ],
    "explain_he": "כך זוהרים עקרבים, מרקרים וסימנים בשטרות כשמאירים עליהם באולטרה־סגול.",
    "grades": [
@@ -295,11 +295,11 @@
   {
    "type": "mcq",
    "prompt_he": "למה מפעילים מנורות UVC לחיטוי רק בתוך מכלים או בחדר ריק?",
-   "answer": "כי הן פוגעות לא רק בחיידקים אלא גם בעור ובעיניים שלנו",
+   "answer": "כי הן פוגעות גם בעור ובעיניים",
    "options": [
-    "כי הן פוגעות לא רק בחיידקים אלא גם בעור ובעיניים שלנו",
-    "כי הן צורכות הרבה חשמל",
-    "כי הן פועלות רק בחושך"
+    "כי הן פוגעות גם בעור ובעיניים",
+    "כי הן צורכות הרבה מאוד חשמל",
+    "כי הן פועלות רק בחושך מוחלט"
    ],
    "explain_he": "ל־UVC אנרגיה גבוהה, שפוגעת בחומר התורשתי של חיידקים, וגם בתאים שלנו.",
    "grades": [
